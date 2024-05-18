@@ -1,13 +1,11 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+description: このサイトについて及び運営者について
+date: '2013-06-19'
 aliases:
   - about-us
-  - about-hugo
   - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2024-05-18'
 menu:
     main: 
         weight: -90
@@ -15,20 +13,32 @@ menu:
             icon: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+データ・ビジュアライゼーションにまつわる実務（実践的な手法や実例）と研究の両面から、様々なことを紹介しています。
+また近接する以下のトピックについても扱います。
 
-Hugo makes use of a variety of open source projects including:
+- オープン・データ
+- オープン・ガバメント
+- データ・ジャーナリズム
+- ビッグ・データ
+- データ・サイエンス
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Ben Fryが ビジュアライジング・データ  で書いている通り、統計学、データマイニング、グラフィックデザイン、情報視覚化、またそれに加えて情報デザイン、コーディング、ウェブにまつわる知識と扱う範囲が広範囲なため、本サイトの指向としてはなるべく扱う項目一つづつを小さく絞って、それらを多く積み重ねていくようなアプローチをとりたいと思います。
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+またデータ・ビジュアライズを通じて人の心に訴えるためには、読み手にとって自分ごととして共感を感じることが大事で、そのためのストーリー・テリングの手法も、個別の技術的な要点と共に取り扱っていければと考えています。
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+## 主宰者について
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+矢崎 裕一（やざき ゆういち）
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+データ・ビジュアライゼーションの実践と普及に関する様々な活動をおこなっている。
+
+データ・ビジュアライゼーション・ジャパン 発起人／合同会社ノーテーション 代表社員／コード・フォー・トウキョウ 共同代表／Yahoo!ニュース個人オーサー／おもちゃコンサルタント。
+
+![](profile_yazaki.jpg)
+
+## お問い合わせ
+
+お問い合わせ、ご連絡は以下のメールアドレスよりお願いいたします。
+
+> - info(at)notation.co.jp
+> - ※ (at) は @ に置き換えて下さい。
