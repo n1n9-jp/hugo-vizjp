@@ -1,12 +1,17 @@
-+++
-author = "Yuichi Yazaki"
-title = "このサイトについて及び運営者について"
-slug = "about"
-date = "2013-06-19"
-description = ""
-image = "images/thumb_ph_vizjp.png"
-+++
-
+---
+title: About
+description: このサイトについて及び運営者について
+date: '2013-06-19'
+aliases:
+  - about-us
+  - contact
+lastmod: '2024-05-18'
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: user
+---
 
 データ・ビジュアライゼーションにまつわる実務（実践的な手法や実例）と研究の両面から、様々なことを紹介しています。
 また近接する以下のトピックについても扱います。
@@ -29,7 +34,7 @@ Ben Fryが ビジュアライジング・データ  で書いている通り、�
 
 データ・ビジュアライゼーション・ジャパン 発起人／合同会社ノーテーション 代表社員／コード・フォー・トウキョウ 共同代表／Yahoo!ニュース個人オーサー／おもちゃコンサルタント。
 
-![](images/profile_yazaki.jpg)
+![](profile_yazaki.jpg)
 
 ## お問い合わせ
 
