@@ -9,24 +9,12 @@ DefaultContentLanguage: ja-jp
 hasCJKLanguage: true
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
-        weight: 1
-        params:
-            description: Example description
     ja-jp:
         languageName: 日本語
         title: Visualizing.JP
         weight: 2
         params:
             description: 説明
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            description: 演示说明
 
 services:
     # Change it to your Disqus shortname before using
@@ -34,7 +22,7 @@ services:
         shortname: "hugo-theme-stack"
     # GA Tracking ID
     googleAnalytics:
-        id:
+
 
 permalinks:
     post: /:slug/
@@ -48,7 +36,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2013
         customText:
 
     dateFormat:
@@ -57,7 +45,8 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。
+
         avatar:
             enabled: true
             local: true
@@ -72,7 +61,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -172,7 +161,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: visualizing_jp
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -188,7 +177,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: auto, light, dark
 
     imageProcessing:
         cover:
@@ -203,15 +192,10 @@ menu:
     main: []
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-              icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/visualizing_jp
           params:
               icon: brand-twitter
 
