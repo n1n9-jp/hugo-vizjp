@@ -1,4 +1,0 @@
-baseURL = 'https://example.org/'
-languageCode = 'ja-jp'
-title = 'Visualizing.JP'
-theme = "hugo-theme-stack"

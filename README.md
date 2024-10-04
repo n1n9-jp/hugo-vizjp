@@ -1,3 +1,14 @@
-This is an example site used for solely for testing purposes. **It is not meant to be used as a template for your site**. 
+## このサイトの内容
+Hugo を利用した Visualizing.jp の2024年版リポジトリ。
 
-To create a new site, please use the starter template: [CaiJimmy/hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter/)
+## ローカルサーバでの確認方法
+- `hugo server`
+
+## デプロイ方法
+- ファイルを修正する
+- `hugo` コマンドを実行する
+- public フォルダ以下にファイルが出力される
+- public フォルダ以下を Github へプッシュする
+- Vercel に自動で反映させる(?)
+
+
