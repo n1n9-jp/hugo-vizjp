@@ -1,12 +1,12 @@
 ---
 title: "見るための記事"
-date: 2020-08-30
 layout: "consume"
 slug: "consume"
 image: "Nightingale-mortality.jpg"
+date: 2024-09-29
 menu:
     main:
-        weight: -70
+        weight: 120
         params: 
             icon: archives
 ---

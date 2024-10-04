@@ -1,12 +1,12 @@
 ---
 title: "イベント"
-date: 2019-05-28
 layout: "event"
 slug: "event"
 image: "NDL1.png"
+date: 2024-07-31
 menu:
     main:
-        weight: -70
+        weight: 300
         params: 
             icon: archives
 ---

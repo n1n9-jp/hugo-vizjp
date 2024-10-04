@@ -1,12 +1,12 @@
 ---
 title: "チャート・カタログ"
-date: 2020-08-30
 layout: "chart"
 slug: "chart"
 image: "chart.png"
+date: 2024-09-30
 menu:
     main:
-        weight: -70
+        weight: 110
         params: 
             icon: archives
 ---

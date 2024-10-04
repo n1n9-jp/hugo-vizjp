@@ -1,5 +1,5 @@
 ---
-title: Links
+title: リンク
 links:
   - title: データ可視化講習
     description: 本サイト運営の矢崎が実施している、日本で唯一の本格的なデータ可視化の講習です。
@@ -7,7 +7,7 @@ links:
     image: thumb_dvl.png
 menu:
     main: 
-        weight: -50
+        weight: 400
         params:
             icon: link
 

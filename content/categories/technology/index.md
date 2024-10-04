@@ -1,12 +1,12 @@
 ---
 title: "作るための記事"
-date: 2020-08-30
 layout: "chart"
 slug: "technology"
 image: "chart.png"
+date: 2024-09-28
 menu:
     main:
-        weight: -70
+        weight: 130
         params: 
             icon: archives
 ---

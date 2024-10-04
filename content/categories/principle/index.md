@@ -1,12 +1,12 @@
 ---
 title: "データ可視化の原理"
-date: 2020-08-30
 layout: "chart"
 slug: "principle"
 image: "chart.png"
+date: 2024-08-31
 menu:
     main:
-        weight: -70
+        weight: 200
         params: 
             icon: archives
 ---

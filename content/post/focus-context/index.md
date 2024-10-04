@@ -5,7 +5,7 @@ slug = "focus-context"
 date = "2020-11-11"
 description = ""
 categories = [
-    "interaction"
+    "technology"
 ]
 tags = [
     "",
