@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介"
+slug = "transcriber"
 date = "2019-08-30"
 description = "AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。"
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "tools",
 ]
-image = "fi_Transcribe.png"
+image = "images/fi_Transcribe.png"
 +++
 
 AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。
@@ -18,7 +19,7 @@ AIによる音声の自動文字起こし（トランスクライブ）、良い
 
 ## 海外カンファレンス参加のお供なら Otter
 
-![Otter](Otter.png)
+![Otter](images/Otter.png)
 
 [Otter](https://otter.ai/referrals/YQD0YS8K)
 
@@ -34,7 +35,7 @@ AIによる音声の自動文字起こし（トランスクライブ）、良い
 
 ## 海外カンファレンスの公演録画を活用したいなら Trint
 
-![Trint](Trint.png)
+![Trint](images/Trint.png)
 
 [Trint](https://trint.com/)
 
@@ -47,7 +48,7 @@ AIによる音声の自動文字起こし（トランスクライブ）、良い
 
 ## 自分が作成した動画に自動で字幕をつけたいなら Vrew
 
-![Vrew](Vrew.png)
+![Vrew](images/Vrew.png)
 
 [Vrew](https://vrew.voyagerx.com/ja/)
 
@@ -61,7 +62,7 @@ AIによる音声の自動文字起こし（トランスクライブ）、良い
 
 ## 自分がイベントを開催する側で字幕を提供したいなら UD Talk
 
-![UD Talk](UD_Talk.png)
+![UD Talk](images/UD_Talk.png)
 
 [UD Talk](https://udtalk.jp/)
 

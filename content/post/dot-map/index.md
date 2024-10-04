@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）"
+slug = "dot-map"
 date = "2020-08-04"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "map",
 ]
-image = "racialdotmap.png"
+image = "images/racialdotmap.png"
 +++
 
 1つのドットが1つの観測値を表します。
@@ -27,7 +28,7 @@ image = "racialdotmap.png"
 
 ### 地元民と観光客 写真撮影場所の違い（東京編）
 
-![](4671542165_ae093ddbed_k.jpg)
+![](images/4671542165_ae093ddbed_k.jpg)
 
 Flickrにアップロードされた写真を分析し、フォトグラファーを以下のように3つのグループに分類し、撮影地点をそれぞれ異なる色の点で示しています。
 
@@ -40,14 +41,14 @@ Flickrにアップロードされた写真を分析し、フォトグラファ�
 
 ### 地元民と観光客 ツイート場所の違い（東京編）
 
-![](mapbox_twitter-gnip-1.png)
+![](images/mapbox_twitter-gnip-1.png)
 
 [Locals & Tourists – Tokyo](https://labs.mapbox.com/labs/twitter-gnip/locals/#)
 
 
 ### Racial Dot Mapプロジェクト
 
-![](racialdotmap.png)
+![](images/racialdotmap.png)
 
 [Racial Dot Map Project](http://racialdotmap.demographics.coopercenter.org/)
 
@@ -55,7 +56,7 @@ Flickrにアップロードされた写真を分析し、フォトグラファ�
 
 ### 白人至上主義のリンチの歴史の地図
 
-![](Map-of-White-Supremacy’s-history-of-lynchings-1.png)
+![](images/Map-of-White-Supremacy’s-history-of-lynchings-1.png)
 
 [Map of White Supremacy’s history of lynchings](https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5)
 
@@ -63,7 +64,7 @@ Flickrにアップロードされた写真を分析し、フォトグラファ�
 
 ### John Snow’s map of cholera outbreaks
 
-![](1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg)
+![](images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg)
 
 ロンドン南部の1854年のコレラ流行を描いています。
 コレラが、当時信じられていたように、空気感染の病気ではなく、水で感染する病気であると主張するための地図です。円で表されているのが水源で、個々の死亡者数はバーで表されています。ドット分布マップと比例シンボル・マップの手法の組み合わさったものといえそうです。

@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )"
+slug = "parallel-sets"
 date = "2020-08-02"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "image-15.png"
+image = "images/image-15.png"
 +++
 
 「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。
@@ -47,7 +48,7 @@ image = "image-15.png"
 
 ### ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
 
-![](image-14.png)
+![](images/image-14.png)
 
 [Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.](https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf)
 
@@ -55,7 +56,7 @@ image = "image-15.png"
 
 ### 国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
 
-![](image-15.png)
+![](images/image-15.png)
 
 [National Front breakthrough stuns France’s traditional parties | Financial Times](https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0)
 
@@ -63,7 +64,7 @@ image = "image-15.png"
 
 ### ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
 
-![](image-16.png)
+![](images/image-16.png)
 
 [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/nested-proportions.html)
 
@@ -71,14 +72,14 @@ image = "image-15.png"
 
 ### TRACKING THE EARTH’S 300 NANO-SATELLITES
 
-![](1280.webp)
+![](images/1280.webp)
 
 [TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini](https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics)
 
 
 ### ドローンが空から落下してくるとき | The Washington Post
 
-![](image-18.png)
+![](images/image-18.png)
 
 [When drones fall from the sky | The Washington Post](https://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/)
 
@@ -86,14 +87,14 @@ image = "image-15.png"
 
 ### Rotem Blinder of IBM “Hierarchical Parallel Sets”
 
-![](image-19.png)
+![](images/image-19.png)
 
 [Rotem Blinder – YouTube](https://www.youtube.com/watch?v=P3FAyWbDlI4)
 
 
 ### PANTHEON Corriere della Sera – La Lettura #181
 
-![](image-20.png)
+![](images/image-20.png)
 
 [PANTHEON Corriere della Sera – La Lettura #181](https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181)
 
@@ -101,7 +102,7 @@ image = "image-15.png"
 
 ### News Use Across Social Media Platforms
 
-![](image-21.png)
+![](images/image-21.png)
 
 [News Use Across Social Media Platforms](https://www.journalism.org/2013/11/14/news-use-across-social-media-platforms/)
 

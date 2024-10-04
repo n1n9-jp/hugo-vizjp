@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "12匹のデータ・ザウルス"
+slug = "the-datasaurus-dozen"
 date = "2020-07-11"
 description = ""
 categories = [
@@ -9,14 +10,14 @@ categories = [
 tags = [
     "chart",
 ]
-image = "AllDinosGrey_1-2048x1431.png"
+image = "images/AllDinosGrey_1-2048x1431.png"
 +++
 
 データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。
 
 <!--more-->
 
-![](Anscombe_1_0-1.png)
+![](images/Anscombe_1_0-1.png)
 
 [Anscombe’s Quartet](https://www.autodeskresearch.com/publications/samestats)
 
@@ -28,15 +29,15 @@ image = "AllDinosGrey_1-2048x1431.png"
 
 - [Download the Datasaurus: Never trust summary statistics alone; always visualize your data](http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html)
 
-## どうやっているのか
+どうやっているのか
 
 共通の要約統計量を持つデータセットをゼロベースから生成するのは難しいと考え、既存のデータセットからスタートし、それらの統計的特性を維持しながら、望みの視覚的印象に近づくまで、少しづつ繰り返し修正を行う、というアプローチをとっています。
 
-![Anscombe’s Quartet](DinoSequentialSmaller.gif)
+![Anscombe’s Quartet](images/DinoSequentialSmaller.gif)
 
 - [Animation showing the progression of the Datasaurus Dozen dataset through all of the target shapes.](https://www.autodeskresearch.com/publications/samestats)
 - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)
 
 Rのパッケージ化もなされています。R Studioで試してみた様子です。これはシミュレーションではなく、すでに算出されたデータを表示しているだけです。
 
-![](The-Datasaurus-Dozen-1.png)
+![](images/The-Datasaurus-Dozen-1.png)

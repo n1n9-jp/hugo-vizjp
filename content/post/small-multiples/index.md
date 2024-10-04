@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "Small Multiplesとは何か？"
+slug = "small-multiples"
 date = "2020-07-04"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "03892018723903.5634a9e2d28bf.jpg"
+image = "images/03892018723903.5634a9e2d28bf.jpg"
 +++
 
 チャートのスタイルではなく、ビューのあり方の一つです。
@@ -31,7 +32,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### アメリカの州ごとの職業別人口の割合
 
-![](1_UGOqDR5vJmJDeQe4HDXHOA.jpg)
+![](images/1_UGOqDR5vJmJDeQe4HDXHOA.jpg)
 
 おそらく最古の例としては以下の「1870年のアメリカの統計アトラス」(1870 Statistical Atlas of the United States)に掲載されている図版があります。1870年の国勢調査による、アメリカの州ごとの職業別人口の割合を示しています。並び順としては左から右へ、上から下へ、順に並んでいます。
 
@@ -40,7 +41,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### デビュー作から名作まで
 
-![](03892018723903.5634a9e2d28bf.jpg)
+![](images/03892018723903.5634a9e2d28bf.jpg)
 
 イギリスのModern Libraryによってランク付けされた英語の小説ベスト100の著者について可視化して作品です。一周が100年として円周に沿って時系列が設定されており、デビュー作と名作が生まれたタイミングを示しています。三角は生まれた年と亡くなった年と、作品が出版した年を結んで三角形を構成しています。そしてデビュー作と名作が生まれたタイミングを一つのチャートの中で出来るようになっています。一つひとつのチャートが一人の作家を示しており、作家ごとの人生における作品出版のタイミングを比較する意図で作成されています。
 
@@ -49,7 +50,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### GitHubでアクティブなプログラミング言語は？
 
-![](GitHut-Programming-Languages-and-GitHub-githut.info_.png)
+![](images/GitHut-Programming-Languages-and-GitHub-githut.info_.png)
 
 プログラミング言語別に、時系列でアクティブなリポジトリを比較しています。ここでの比較対象はプログラミング言語です。表示データを絶対数と相対数（割合）で切り替えるUIも用意されています。
 
@@ -62,11 +63,11 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 こちらはエリアチャートを用いて、ある年の出生率を描いたものです。横軸が年齢、縦軸が女性の人数あたりの出生数です。時系列の変化に注目したので、どの年を対象とするかをづらして、並置しています。
 
-![](usa-vs-japan-fertility-rates-small-multiple-subset.png)
+![](images/usa-vs-japan-fertility-rates-small-multiple-subset.png)
 
 [一年ごとにみている場合](http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/)
 
-![](usa-vs-japan-fertility-rates-small-multiple.png)
+![](images/usa-vs-japan-fertility-rates-small-multiple.png)
 
 [五年おきにみている場合](http://www.randalolson.com/2015/08/23/small-multiples-vs-animated-gifs-for-showing-changes-in-fertility-rates-over-time/)
 
@@ -75,7 +76,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### バウチャーに対する公的なサポートの見積もり
 
-![](vouchermapsBAYES2000.png)
+![](images/vouchermapsBAYES2000.png)
 
 横軸に収入、縦軸に人種をとり、公的バウチャー制度がどのくらいサポートされているかをコロプレスマップのSmall Multiplesで示しています。この場合、並び順は横軸と縦軸に対応するものとなっています。
 
@@ -87,7 +88,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### 赤vs青。共和党対民主党 大統領選の投票行動 1964-2012
 
-![](Figure5-1024x826-1.jpg)
+![](images/Figure5-1024x826-1.jpg)
 
 ここでは、並び順は北米の州の位置関係をできるだけ尊重したタイル状のグリッドとして描かれています。
 
@@ -96,7 +97,7 @@ Small Multipleとは、変化、違いなどを比較したい変数を一つ選
 
 ### スコットランドの政治が地理的にどのように変化したか
 
-![](HowScotland.png)
+![](images/HowScotland.png)
 
 タイトル通りの内容ですが、ひとつひとつがSankey Diagramというチャートになっています。さきほどの例と同様に、地理的な位置関係を尊重したタイル状のグリッドとして描かれています。
 

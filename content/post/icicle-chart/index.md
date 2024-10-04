@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "つららチャート（Icicle Chart）"
+slug = "icicle-chart"
 date = "2020-08-09"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "map",
 ]
-image = "MonashUniversity_IcicleChart.png"
+image = "images/MonashUniversity_IcicleChart.png"
 +++
 
 1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。
@@ -24,14 +25,14 @@ image = "MonashUniversity_IcicleChart.png"
 
 ### dotMemory分析チャート
 
-![](analyse-deeper.png)
+![](images/analyse-deeper.png)
 
 
 [dotMemory: a Memory Profiler & Unit-Testing Framework for .NET by JetBrains](https://visualizing.jp/icicle-chart/a%20Memory%20Profiler%20&%20Unit-Testing%20Framework%20for%20.NET%20by%20JetBrains)
 
 ### メルボルン モナッシュ大学での研究に使われたチャート
 
-![](MonashUniversity_IcicleChart.png)
+![](images/MonashUniversity_IcicleChart.png)
 
 [Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation](https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation)
 
@@ -39,14 +40,14 @@ image = "MonashUniversity_IcicleChart.png"
 
 ### Core Flow
 
-![](coreflow.png)
+![](images/coreflow.png)
 
 [CoreFlow: Extracting and Visualizing Branching Patterns from Event Sequences CoreFlow-EuroVis17.pdf](https://www.zcliu.org/coreflow/CoreFlow-EuroVis17.pdf)
 
 
 ### 手描きのつららチャート
 
-![](img007.jpg)
+![](images/img007.jpg)
 
 [Icicle Chart – Lamar Elimbo](https://www.lamartalkscode.com/data-viz-inspiration/img007/)
 

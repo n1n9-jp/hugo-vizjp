@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "フィネオ（Fineo）"
+slug = "fineo"
 date = "2020-08-02"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "5950577682_6066025bc0_o.jpg"
+image = "images/5950577682_6066025bc0_o.jpg"
 +++
 
 Fineoは、連続データを可視化するために利用されるサンキー・ダイアグラムの視覚モデルを元に、多次元のカテゴリカルなデータの、ディメンション間の関係を表現するために使うことができるのではないかという考えから生まれました。
@@ -18,15 +19,15 @@ Fineoは、連続データを可視化するために利用されるサンキー
 
 [FINEO](https://densitydesign.org/research/fineo/)
 
-![](5950577682_6066025bc0_o.jpg)
+![](images/5950577682_6066025bc0_o.jpg)
 
 [https://www.flickr.com/photos/densitydesign/albums/72157627029953749](https://www.flickr.com/photos/densitydesign/albums/72157627029953749)
 
-![](5950577348_91a2524eaf_o.jpg)
+![](images/5950577348_91a2524eaf_o.jpg)
 
 [https://www.flickr.com/photos/densitydesign/albums/72157627029953749](https://www.flickr.com/photos/densitydesign/albums/72157627029953749)
 
-![](Schermata-2011-09-01-a-12.20.27.png)
+![](images/Schermata-2011-09-01-a-12.20.27.png)
 
 
 
@@ -38,7 +39,7 @@ Fineoは、連続データを可視化するために利用されるサンキー
 
 スタンフォード大の Mapping the Republic of Letters プロジェクトにて利用されているそうです（ただし内部的に）。
 
-![](panorama.jpg)
+![](images/panorama.jpg)
 
 [Mapping the Republic of Letters](https://republicofletters.stanford.edu/#maps)
 
@@ -50,13 +51,13 @@ DRMプロジェクトの一部として制作した静止画版を得て、こ�
 
 [DRM research](https://densitydesign.org/research/drm/)
 
-![](2655862596_dc161c57b8_o.jpg)
+![](images/2655862596_dc161c57b8_o.jpg)
 
 [https://www.flickr.com/photos/densitydesign/2655862596/in/album-72157624265861504/](https://www.flickr.com/photos/densitydesign/2655862596/in/album-72157624265861504/)
 
 FineoはFlashで制作されWebアプリケーションとして公開されていたようですが、現在は公開終了しています。
 
-![](fineo_flash.png)
+![](images/fineo_flash.png)
 
 [https://web.archive.org/web/20110711013919/http://fineo.densitydesign.org/custom/](https://web.archive.org/web/20110711013919/http://fineo.densitydesign.org/custom/)
 
@@ -67,13 +68,13 @@ Fineoを開発したDensityDesign自ら述べている通り、また sankey-dia
 
 [Fineo and ParSets](https://www.sankey-diagrams.com/fineo-and-parsets/)
 
-![](ParSets1.png)
+![](images/ParSets1.png)
 
 違いとしては、Parallel Sets (ParSets)はデータを階層構造（ツリー）として扱うのに対し、Fineoはデータを（階層構造を持たない）ネットワークとして扱っている点にあります。
 
 Parallel Sets (ParSets)は、最上部の軸をプライマリーとして、リンク部分の着色に利用されるほか、軸の並び順にデータを分割していきます。
 
-![](ParSets2.png)
+![](images/ParSets2.png)
 
 [Jason Daviesのd3.parsetsより](https://www.jasondavies.com/parallel-sets/)
 

@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "サンキー・ダイアグラム（Sankey Diagram）"
+slug = "sankey-diagram"
 date = "2020-08-02"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "image-13.png"
+image = "images/image-13.png"
 
 +++
 
@@ -17,7 +18,7 @@ Mario Schmidt の調査によると、19世紀後半当時、新興工業国の�
 
 <!--more-->
 
-![](image.png)
+![](images/image.png)
 
 Eurostatではサンキー・ダイアグラムの意義をこう説明しています。
 
@@ -40,7 +41,7 @@ Eurostatではサンキー・ダイアグラムの意義をこう説明してい
 
 ### 20/30馬力のルノー車の走行速度60km/hの場合のエネルギー図
 
-![](image-1.png)
+![](images/image-1.png)
 
 Source:
 Riedler, A. 1911. Wissenschaftliche Automobil-Wertung.
@@ -48,7 +49,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### セメント製造における理論的な熱消費量（左）と実用的な熱消費量（右）
 
-![](image-2.png)
+![](images/image-2.png)
 
 Source:
 Schott, E. 1933. Waermewirtschaft in der Zementindustrie.
@@ -56,7 +57,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### ドイツの鉄鋼業のための鉄のフローチャート。鉱石中の鉄分100％に関連する数値
 
-![](image-3.png)
+![](images/image-3.png)
 
 Source:
 Reichardt, P. 1937. Rohstofflage, Roheisen- und StahlSortenfrage.
@@ -64,7 +65,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### エネルギーとマテリアルのフローによる管理
 
-![](image-4.png)
+![](images/image-4.png)
 
 Source:
 Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
@@ -72,7 +73,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### 鉄鋼工場における材料の年間価値の流れを模式的に示す
 
-![](image-5.png)
+![](images/image-5.png)
 
 Source:
 Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
@@ -82,7 +83,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### 米国天然ガス
 
-![](image-6.png)
+![](images/image-6.png)
 
 2019年の米国の天然ガスの供給（生産、輸入、貯蔵からの引き出し）と処理（消費、輸出、貯蔵への追加）の大きさを示しています。
 
@@ -91,19 +92,19 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### 国際エネルギー機関（International Energy Agency）
 
-![](image-7.png)
+![](images/image-7.png)
 
 [IEA Sankey Diagram](https://www.iea.org/sankey/#?c=World&s=Balance)
 
 ### Eurostat
 
-![](image-8-2048x888.png)
+![](images/image-8-2048x888.png)
 
 [Energy Flow Diagrams](https://ec.europa.eu/eurostat/web/energy/energy-flow-diagrams)
 
 ### LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China
 
-![](image-9.png)
+![](images/image-9.png)
 
 [(PDF) LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China | Sustainability](https://www.researchgate.net/publication/322780248_LMDI_Decomposition_of_Energy-Related_CO2_Emissions_Based_on_Energy_and_CO2_Allocation_Sankey_Diagrams_The_Method_and_an_Application_to_China)
 
@@ -111,7 +112,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### LLNL – Energy Flow Charts
 
-![](image-13.png)
+![](images/image-13.png)
 
 アメリカにおけるエネルギーのリソースとその使用先を示しています。ローレンス・リバモア国立研究所（LLNL）が1970年代に開発したもので、彼らは独自にEnergy Flow Chartsと呼んでいます。
 
@@ -123,14 +124,14 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### The flow of water in the hydrologic cycle
 
-![](image-10.png)
+![](images/image-10.png)
 
 [The flow of water in the hydrologic cycle](https://www.ourenergypolicy.org/wp-content/uploads/2014/01/BP_ESC_Riosmallpdf.com_.pdf)
 
 
 ### 生産プロセスにおけるエネルギー効率化のための実践ガイド
 
-![](image-11.png)
+![](images/image-11.png)
 
 ‘A Practical Guide to Energy Efficiency in Production Processes’
 
@@ -138,7 +139,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### 2008年のスペインの主な収益と支出
 
-![](image-12.png)
+![](images/image-12.png)
 
 [Infographics Experts on Sankey Diagrams (Part 2) – Sankey Diagrams](http://www.sankey-diagrams.com/infographics-experts-on-sankey-diagrams-part-2/)
 
@@ -146,21 +147,21 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 ### G07 – Environmental Migration
 2013年から2015年までの自然災害による人の移動を示しています。各大陸で影響を受けた最初の4カ国を考慮に入れています。大陸・国・災害・被害規模を示しています。
 
-![](30802188224_6d184a5b7a_k.jpg)
+![](images/30802188224_6d184a5b7a_k.jpg)
 
 [G07 – Environmental Migration](https://www.flickr.com/photos/densitydesign/30802188224/)
 
 
 ### 気候変動ファイナンスフローの複雑性
 
-![](31613433722_4ff462d2ab_k.jpg)
+![](images/31613433722_4ff462d2ab_k.jpg)
 
 [The Complexity of the Climate Change Finance Flow](https://www.flickr.com/photos/densitydesign/31613433722/)
 
 
 ### 外国人戦闘員のシリアとイラクへの旅路
 
-![](31527995451_8675c0d348_k.jpg)
+![](images/31527995451_8675c0d348_k.jpg)
 
 [G08 – Travel the Distance](https://www.flickr.com/photos/densitydesign/31527995451/in/dateposted/)
 
@@ -168,7 +169,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### 禁書
 
-![](banned-books1-1040x650-1.jpg)
+![](images/banned-books1-1040x650-1.jpg)
 
 [Banned books – Visualoop](http://visualoop.com/infographics/banned-books)
 
@@ -178,7 +179,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 ### EU28カ国における移民の最終的な庇護先の決定結果
 
-![](Do7WAWmXoAAHZ0O.jpeg)
+![](images/Do7WAWmXoAAHZ0O.jpeg)
 
 - [Outcome of final asylum decisions by year, eu28 countries](https://www.ft.com/content/58f2f7f8-c7c1-11e8-ba8f-ee390057b8c9)
 - [#frankensankey Migration: the riddle of Europe’s shadow populations](https://twitter.com/theboysmithy/status/1049011087142768640)
@@ -188,7 +189,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
 サンキー・ダイアグラムかといわれると微妙ですが…。
 
-![](sankey_trump.png)
+![](images/sankey_trump.png)
 
 [Who Trump attacks the most on Twitter – Axios](https://www.axios.com/2017/12/15/who-trump-attacks-the-most-on-twitter-1513305449)
 

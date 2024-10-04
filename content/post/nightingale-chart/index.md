@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ナイチンゲールによる「鶏冠」チャート"
+slug = "nightingale-chart"
 date = "2020-08-14"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "chart",
 ]
-image = "Nightingale-mortality.jpg"
+image = "images/Nightingale-mortality.jpg"
 +++
 
 フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。
@@ -26,7 +27,7 @@ image = "Nightingale-mortality.jpg"
 
 負傷した兵士の環境を改善しようと努力していく中で、患者の福祉の重要性を示す証拠として、病院での死亡者数を綿密に記録しました。その結果を当時のイギリス政府へ訴えるために作られたのが、この著名なチャートでした。
 
-![クリミア戦争におけるイギリス軍の死亡原因](Nightingale-mortality.jpg)
+![クリミア戦争におけるイギリス軍の死亡原因](images/Nightingale-mortality.jpg)
 
 戦争が二年間に渡って行われたことをうけ、チャートの一つが一年を指します。右が一年目、左が二年目です。時計でいうと九時の箇所から始まり、時計回りにぐるっと一周すると一年間を一ヶ月ごとに示しています。一年目の終わりの箇所から点線が引き出され、左の二年目へとつながっています。
 
@@ -42,7 +43,7 @@ image = "Nightingale-mortality.jpg"
 
 これより以前に作成したチャートでは、面積ではなく、原点からの長さを数値で示しているため、その誤りに気づき、撤回されています。
 
-![UCLA Elmer Belt Florence Nightingale Collection](bats_wing_diagram.jpg)
+![UCLA Elmer Belt Florence Nightingale Collection](images/bats_wing_diagram.jpg)
 
 
 

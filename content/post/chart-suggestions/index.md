@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "どのチャートを使うべきか"
+slug = "chart-suggestions"
 date = "2013-10-26"
 description = ""
 categories = [
@@ -9,14 +10,14 @@ categories = [
 tags = [
     "",
 ]
-image = "chartSuggestions-1.png"
+image = "images/chartSuggestions-1.png"
 +++
 
 20年以上シニア・エグゼクティブたちにプレゼンテーションのコーチングやティーチングをしてきているDr.Abela氏が、“Extreme Presentation method”というプレゼンテーションのためのメソッドを公開し本としても出版もしているのですが、その中で、チャートについてのチャートがとてもわかりやすいのでご紹介します。
 
 <!--more-->
 
-![](chartSuggestions-1.png)
+![](images/chartSuggestions-1.png)
 
 [“Extreme Presentation method”](http://www.extremepresentation.com/)
 

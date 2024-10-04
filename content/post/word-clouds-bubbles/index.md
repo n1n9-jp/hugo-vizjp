@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ワード・クラウドとワード・バブル（Word Clouds & Word Bubbles）"
+slug = "word-clouds-bubbles"
 date = "2020-08-03"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "State-of-the-Union-2.png"
+image = "images/State-of-the-Union-2.png"
 +++
 
 ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。起源は、1990年代後半にウェブサイトで一般的に使用されていたタグクラウドにあります。
@@ -41,22 +42,22 @@ image = "State-of-the-Union-2.png"
 
 ## ワード・クラウドの作例
 
-![](emoSafes.jpg)
+![](images/emoSafes.jpg)
 
 [Levitated | Emotion Fractal](http://www.levitated.net/daily/levEmotionFractal.html)
 
 
-![](30-Years-of-Scientific-Development.png)
+![](images/30-Years-of-Scientific-Development.png)
 
 [http://scimaps.org/mapdetail/visualizing_trends_a_155](http://scimaps.org/mapdetail/visualizing_trends_a_155)
 
-![](my_twitter_wordcloud_2.jpg)
+![](images/my_twitter_wordcloud_2.jpg)
 
 [https://sebastianraschka.com/Articles/2014_twitter_wordcloud.html](https://sebastianraschka.com/Articles/2014_twitter_wordcloud.html)
 
 
 
-![](sphx_glr_frequency_001.png)
+![](images/sphx_glr_frequency_001.png)
 
 [https://amueller.github.io/word_cloud/auto_examples/frequency.html#sphx-glr-auto-examples-frequency-py](https://amueller.github.io/word_cloud/auto_examples/frequency.html#sphx-glr-auto-examples-frequency-py)
 
@@ -65,7 +66,7 @@ image = "State-of-the-Union-2.png"
 
 ### 全国大会で使われた言葉
 
-![](BubbleChart-1.png)
+![](images/BubbleChart-1.png)
 
 [At the National Conventions, the Words They Used](https://archive.nytimes.com/www.nytimes.com/interactive/2012/09/06/us/politics/convention-word-counts.html)
 
@@ -73,20 +74,20 @@ image = "State-of-the-Union-2.png"
 
 ### 共和党大会で使われている言葉
 
-![](WordBubblesNYT-1.png)
+![](images/WordBubblesNYT-1.png)
 
 [At the Republican Convention, the Words Being Used](https://archive.nytimes.com/www.nytimes.com/interactive/2012/08/28/us/politics/convention-word-counts.html)
 
 ### このグラフはどうなっているでしょうか？
 
-![](What’s-Going-On-in-This-Graph_NYT.png)
+![](images/What’s-Going-On-in-This-Graph_NYT.png)
 
 [What’s Going On in This Graph? – New York Times](https://www.nytimes.com/interactive/2018/02/08/learning/13WGOITGraphLN.html)
 
 
 ### 使われた言葉
 
-![](words_for_web.gif)
+![](images/words_for_web.gif)
 
 [The Words They Used – New York Times](https://archive.nytimes.com/www.nytimes.com/interactive/2008/09/04/us/politics/20080905_WORDS_GRAPHIC.html)
 

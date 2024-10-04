@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ベクター・フィールド・マップ（Vector Field Map）"
+slug = "vector-field-map"
 date = "2020-08-11"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "map",
 ]
-image = "null_earth.png"
+image = "images/null_earth.png"
 +++
 
 ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。
@@ -22,7 +23,7 @@ image = "null_earth.png"
 
 ### wind map
 
-![](wind_map.png)
+![](images/wind_map.png)
 
 
 [Wind Map](http://hint.fm/wind/)
@@ -39,7 +40,7 @@ image = "null_earth.png"
 
 ### Earth
 
-![](null_earth.png)
+![](images/null_earth.png)
 
 [earth :: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/)
 
@@ -47,14 +48,14 @@ image = "null_earth.png"
 
 ### 2008年9月1日のハリケーン・グスタフによる風速
 
-![](1_seFS4uTmFtKn-y17xC0QIg-1.jpeg)
+![](images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg)
 
 [https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html](https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html)
 
 
 ### 2Dベクトルフィールド可視化手法の比較
 
-![](1_J6Xh_vc_supgN4dzDBpOJg.jpeg)
+![](images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg)
 
 ある実験では、異なる可視化イディオムを６つ用意し、これに対する人間の応答を比較したものがあります。
 
@@ -74,7 +75,7 @@ image = "null_earth.png"
 
 ## 以前の似た作例
 
-![](1_4o1FSaAcNjfBqreY8fP28Q.png)
+![](images/1_4o1FSaAcNjfBqreY8fP28Q.png)
 
 コンピュータによるマイグレーション・マッピングの実験
 

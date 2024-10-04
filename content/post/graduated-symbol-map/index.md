@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "等級シンボル・マップ(Graduated Symbol Map)"
+slug = "graduated-symbol-map"
 date = "2020-08-04"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "map",
 ]
-image = "1_7DBQfNEPvNWGiIlMr2rLFw.png"
+image = "images/1_7DBQfNEPvNWGiIlMr2rLFw.png"
 +++
 
 離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。
@@ -26,7 +27,7 @@ image = "1_7DBQfNEPvNWGiIlMr2rLFw.png"
 
 自然災害を避けるためにはどこに住むべきか
 
-![](1_7DBQfNEPvNWGiIlMr2rLFw.png)
+![](images/1_7DBQfNEPvNWGiIlMr2rLFw.png)
 
 [Where to Live to Avoid a Natural Disaster](https://archive.nytimes.com/www.nytimes.com/interactive/2011/05/01/weekinreview/01safe.html)
 

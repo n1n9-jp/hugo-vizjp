@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ツリーマップ（Treemap）"
+slug = "treemap"
 date = "2020-08-22"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "Stock-Market-Treemap.png"
+image = "images/Stock-Market-Treemap.png"
 +++
 
 階層データを可視化するチャートです。
@@ -21,14 +22,14 @@ image = "Stock-Market-Treemap.png"
 
 ### FinViz
 
-![](finviz_green.png)
+![](images/finviz_green.png)
 
 [S&P 500 Map](https://finviz.com/map.ashx)
 
 #### 2008年ごろのデザイン
 
-![](WS000059.png)
-![](WS000059.png)
+![](images/WS000059.png)
+![](images/WS000059.png)
 
 - [Treemaps: Data Visualization of Complex Hierarchies](https://visualizing.jp/treemap/Data%20Visualization%20of%20Complex%20Hierarchies)
 - [株式市場へのTreemap適用例：FINVIZ.com](https://visualizing.info/article/463.html)
@@ -37,7 +38,7 @@ image = "Stock-Market-Treemap.png"
 
 ### Map of the Market
 
-![](marketmap-490b.png)
+![](images/marketmap-490b.png)
 
 - [Map of the Market](http://www.bewitched.com/marketmap.html)
 
@@ -45,7 +46,7 @@ image = "Stock-Market-Treemap.png"
 
 ### Newsmap
 
-![](newsmap_2.jpg)
+![](images/newsmap_2.jpg)
 
 Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。
 
@@ -53,7 +54,7 @@ Marcos WeskampさんがFlashで実装した、株式市場ではなくニュー�
 
 ### Newsmap.JS
 
-![](newsmap_js.png)
+![](images/newsmap_js.png)
 
 Marcosさんのnewsmapにインスパイアされた作品をJSで実装。
 
@@ -63,27 +64,27 @@ Marcosさんのnewsmapにインスパイアされた作品をJSで実装。
 
 ### Every AlgoRiThm has ART in it: Treemap Art Project
 
-![](Treemap-Art-Project.png)
+![](images/Treemap-Art-Project.png)
 
 - [Treemap Art Project](http://www.cpnas.org/exhibitions/archive/every-algorithm-has-art-in.html)
 
 
 ### Truck Sales Slip, Tripping Up Chrysler
 
-![](0225-sbn-subCHRYSLER.gif)
+![](images/0225-sbn-subCHRYSLER.gif)
 
 - [Truck Sales Slip, Tripping Up Chrysler](https://archive.nytimes.com/www.nytimes.com/imagepages/2007/02/25/business/20070225_CHRYSLER_GRAPHIC.html)
 
 
 ### Stock Market Overview in Tableau
 
-![](Stock-Market-Treemap.png)
+![](images/Stock-Market-Treemap.png)
 
 - [Stock Market Overview in Tableau](https://www.youtube.com/watch?v=fBR8KA_-UsM)
 
 ### HistoryWired: A Few of Our Favorite Things
 
-![](wired_screenshot.png)
+![](images/wired_screenshot.png)
 
 SmartMoneyの「Map of the Market」をベースにしており、ユーザーが博物館のコレクションの一部を探索できるように設計されていました。現在のウェブ標準との互換性がなくなったため、2016年8月にサイトは閉鎖されました。
 

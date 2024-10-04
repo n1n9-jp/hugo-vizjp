@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ドット密度マップ（Dot Density Map）"
+slug = "dot-density-map"
 date = "2020-08-04"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "map",
 ]
-image = "dencity_ben_fry.png"
+image = "images/dencity_ben_fry.png"
 +++
 
 1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。
@@ -26,7 +27,7 @@ image = "dencity_ben_fry.png"
 
 ### 2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
 
-![](1_Boi8uA89rJqqprcRS-8P6g.png)
+![](images/1_Boi8uA89rJqqprcRS-8P6g.png)
 
 Flashによる作成のため、現在閲覧することができません。2010年の国勢調査の結果を用いて、アメリカの人種と民族の分布を描いています。1ドット=25,000人です。前回2000年からの変化もわかります。
 
@@ -36,13 +37,13 @@ Flashによる作成のため、現在閲覧することができません。201
 
 ### Dencity — Ben Fry
 
-![](dencity_ben_fry.png)
+![](images/dencity_ben_fry.png)
 
 [Dencity — Ben Fry](https://fathom.info/notebook/1981/)
 
 ### The map by Frère de Montizon, 1830
 
-![](unnamed-1.png)
+![](images/unnamed-1.png)
 
 フランスの人口を行政区割によって表しています。
 

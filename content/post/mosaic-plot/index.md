@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "モザイク・プロット（Mosaic Plot）"
+slug = "mosaic-plot"
 date = "2020-08-03"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "image-27.png"
+image = "images/image-27.png"
 +++
 
 二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。
@@ -24,27 +25,27 @@ image = "image-27.png"
 
 ### タイタニック号で事故に遭遇した人たち
 
-![](image-25.png)
+![](images/image-25.png)
 
 [Data Visualization with R](https://rkabacoff.github.io/datavis/Models.html)
 
 
 ### ggplot2による作例
 
-![](image-26.png)
+![](images/image-26.png)
 
 [https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html](https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html)
 
 ### 識別テストへの回答結果
 
-![](image-27.png)
+![](images/image-27.png)
 
 [(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer](https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1)
 
 
 ### Hair and Eye Color of Statistics Students
 
-![](009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png)
+![](images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png)
 
 [http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/](http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/)
 

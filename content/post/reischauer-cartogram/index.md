@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図"
+slug = "reischauer-cartogram"
 date = "2020-08-14"
 description = ""
 categories = [
@@ -9,23 +10,23 @@ categories = [
 tags = [
     "map",
 ]
-image = "ライシャワー_Japanese_GNP.png"
+image = "images/ライシャワー_Japanese_GNP.png"
 +++
 
 ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。
 
 <!--more-->
 
-![](japanese.jpg)
+![](images/japanese.jpg)
 
 - [E・O・ライシャワー「ザ・ジャパニーズ」](https://amzn.to/4dMUASW)
 
 カルトグラムというのは、データ値を国や行政区域の示す面積に反映させ、データ値を地図として眺めることを試みる手法です。
 
-![](ライシャワー_Japanese_population.png)
+![](images/ライシャワー_Japanese_population.png)
 - E・O・ライシャワーによる「国の大小が人口に比例して描かれている地図」
 
-![](ライシャワー_Japanese_GNP.png)
+![](images/ライシャワー_Japanese_GNP.png)
 - E・O・ライシャワーによる「国の大小がGNPに比例して描かれている地図」
 
 ご本人はこのように説明しています。
@@ -41,6 +42,6 @@ E・O・ライシャワー「ザ・ジャパニーズ」
 
 ライシャワーさんによる地図の主旨と杉浦さんの受け取りのすれ違い、現在からみるとある種ほほえましいですが、こういった刺激が直後の杉浦康平さんの素晴らしい時間軸変型地図をはじめとした主題地図群を生み出していったことにドキドキしますね。杉浦さんの上記のコメントは現在も古びることなく、むしろ今こそ改めて噛み締めたいものです。
 
-![](img_multimodal_view_01.jpg)
+![](images/img_multimodal_view_01.jpg)
 
 [杉浦康平さんの時間軸変形地図。『時間のヒダ、空間のシワ…［時間地図］の試み─杉浦康平ダイアグラム・コレクション』鹿島出版会](https://amzn.to/3ynJ3JH)

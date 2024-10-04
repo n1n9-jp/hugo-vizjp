@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "散布図行列"
+slug = "splom"
 date = "2020-08-28"
 description = ""
 categories = [
@@ -9,11 +10,11 @@ categories = [
 tags = [
     "",
 ]
-image = "1_bPYf9c07ZBLRvgxCbCkPSQ.png"
+image = "images/1_bPYf9c07ZBLRvgxCbCkPSQ.png"
 +++
 
 （後日更新いたします）
 
 <!--more-->
 
-![](1_bPYf9c07ZBLRvgxCbCkPSQ.png)
+![](images/1_bPYf9c07ZBLRvgxCbCkPSQ.png)

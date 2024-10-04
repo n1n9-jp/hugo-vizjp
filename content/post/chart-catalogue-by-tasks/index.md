@@ -1,6 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "タスク別チャート分類"
+slug = "chart-catalogue-by-tasks"
 date = "2020-08-28"
 description = ""
 categories = [
@@ -9,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "chart_chooser.jpg"
+image = "images/chart_chooser.jpg"
 +++
 
 代表的な Visual Vocabulary を除いて、タスク別にチャート分類しているものをご紹介します。
@@ -19,13 +20,13 @@ image = "chart_chooser.jpg"
 
 ## The Data Visualization Catalogue
 
-![](datavizcatalogue.png)
+![](images/datavizcatalogue.png)
 
 [The Data Visualization Catalogue](https://datavizcatalogue.com/)
 
 ## Data Viz Project
 
-![](datavizproject.png)
+![](images/datavizproject.png)
 
 [Data Viz Project](https://datavizproject.com/)
 
@@ -33,7 +34,7 @@ image = "chart_chooser.jpg"
 
 ExcelやPowerpointで利用可能なチャートをタスク別に分類しています。テンプレートファイルのダウンロードも可能。
 
-![](JuiceLabs.png)
+![](images/JuiceLabs.png)
 
 [Juice Labs – Chart Chooser](http://labs.juiceanalytics.com/chartchooser/index.html)
 
@@ -41,7 +42,7 @@ ExcelやPowerpointで利用可能なチャートをタスク別に分類して�
 
 ## The Visual Reference for Microsoft Power BI
 
-![](powerbi.png)
+![](images/powerbi.png)
 
 [The Visual Reference for Microsoft Power BI](https://www.sqlbi.com/ref/power-bi-visuals-reference/#)
 
@@ -49,7 +50,7 @@ ExcelやPowerpointで利用可能なチャートをタスク別に分類して�
 
 ## The Chart Chooser
 
-![](chart_chooser.jpg)
+![](images/chart_chooser.jpg)
 
 [The Chart Chooser](https://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html)
 
@@ -61,7 +62,7 @@ ExcelやPowerpointで利用可能なチャートをタスク別に分類して�
 
 ## The Chart Chooser Dissected
 
-![](chart_chooser_dissected.jpg)
+![](images/chart_chooser_dissected.jpg)
 
 [The Chart Chooser Dissected](https://blog.qlik.com/third-pillar-of-mapping-data-to-visualizations-usage)
 
@@ -69,12 +70,12 @@ ExcelやPowerpointで利用可能なチャートをタスク別に分類して�
 
 ## Chart Chooser and Chart Designer Poster
 
-![](chart_guide_poster.png)
+![](images/chart_guide_poster.png)
 
 
 ## Graphic Cheat Sheet
 
-![](graphic_cheat_sheet.png)
+![](images/graphic_cheat_sheet.png)
 
 [Graphic Cheat Sheet](https://blog.qlik.com/third-pillar-of-mapping-data-to-visualizations-usage)
 
@@ -82,7 +83,7 @@ ExcelやPowerpointで利用可能なチャートをタスク別に分類して�
 
 ## The Graphic Continuum
 
-![](graphic_continuum.png)
+![](images/graphic_continuum.png)
 
 [The Graphic Continuum](https://policyviz.com/2014/11/11/graphic-continuum-desktop-version/)
 
