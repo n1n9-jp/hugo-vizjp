@@ -10,4 +10,5 @@ menu:
         weight: 10
         params: 
             icon: search
+comments: false
 ---

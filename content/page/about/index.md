@@ -1,12 +1,17 @@
-+++
-author = "Yuichi Yazaki"
-title = "このサイトについて及び運営者について"
-slug = "about"
-date = "2013-06-19"
-description = ""
-image = "images/thumb_ph_vizjp.png"
-+++
+---
+title: "このサイトについて"
+date: 2013-06-19
+layout: "archives"
+slug: "archives"
+menu:
+    main:
+        weight: 500
+        params: 
+            icon: user
+comments: false
+---
 
+## このサイトについて
 
 データ・ビジュアライゼーションにまつわる実務（実践的な手法や実例）と研究の両面から、様々なことを紹介しています。
 また近接する以下のトピックについても扱います。
@@ -35,5 +40,5 @@ Ben Fryが ビジュアライジング・データ  で書いている通り、�
 
 お問い合わせ、ご連絡は以下のメールアドレスよりお願いいたします。
 
-> - info(at)notation.co.jp
+> - visualizing(at)gmail.com
 > - ※ (at) は @ に置き換えて下さい。
