@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>covid-19 on Visualizing.JP</title>
+        <link>https://example.com/tags/covid-19/</link>
+        <description>Recent content in covid-19 on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/covid-19/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合</title>
+        <link>https://example.com/covid-symptom-upset/</link>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/covid-symptom-upset/</guid>
+        <description>&lt;img src="https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg" alt="Featured image of post 三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合" /&gt;&lt;p&gt;U.K.で利用されている、民間企業ZOEによる &lt;a class=&#34;link&#34; href=&#34;https://covid.joinzoe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;COVID Symptom Tracker&lt;/a&gt; というアプリがあります。これは体温、疲れやコロナウイルス感染の可能性のある他の症状を含む健康状態を日常的に記録するアプリで、利用者（当時で150万人、2020年8月時点で400万人）がアプリを通じて報告してきた症状をデータとしてとりまとめた結果がNature誌に紹介されていました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1.jpg&#34;
+	width=&#34;600&#34;
+	height=&#34;950&#34;
+	srcset=&#34;https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_480x0_resize_q75_box.jpg 480w, https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;63&#34;
+		data-flex-basis=&#34;151px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nature.com/articles/d41586-020-00154-w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coronavirus: the first three months as it happened&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「3月24日から29日の間に収集されたデータを分析したところ、COVID-19で陽性と判定されたユーザーは、ウイルスの症状はあるが陰性であったユーザーよりも、嗅覚と味覚の喪失を報告する可能性が三倍高かった。COVID-19の検査で陽性となった人々が経験するその他の一般的な症状は、発熱、持続的な咳、疲労、下痢、腹痛、食欲不振でした。」&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nature.com/articles/d41586-020-00154-w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coronavirus: the first three months as it happened&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nature誌に掲載されていたチャートがあまりに読みづらいのではないかと、Nilsさんという方が指摘しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ngehlenborg/status/1250307095200555015&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://twitter.com/ngehlenborg/status/1250307095200555015&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ngehlenborg/status/1250307095200555015&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://twitter.com/ngehlenborg/status/1250307095200555015&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;「パターンを見つけることはおろか、読むこともほとんど不可能です。」&lt;/p&gt;
+&lt;p&gt;Nilsさんはオイラー図と書いていますが、ベン図かもしれません。両者の違いは、オイラー図は現実にあり得る組み合わせのみを検討したものになりますが、ベン図は数学的にすべての項目を総当りで示すことです。六つの項目（症状）を&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/euler-venn-diagram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;総当りでベン図として示そうとすると、このように複雑にならざるを得ません&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;Nilsさんが自分で別なチャートとして作り直してみたとのことです。&lt;/p&gt;
+&lt;p&gt;COVID-19による症状にはどのようなものがあるかということで、報告数が多い順に左から右へ並べられています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;1152&#34;
+	srcset=&#34;https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_480x0_resize_q75_box.jpg 480w, https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ngehlenborg/status/1250307072861720583&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://twitter.com/ngehlenborg/status/1250307072861720583&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;同じデータを用いつつ、左からの並び順を、同時に報告された症例数が少ない順に並べたものです。一番左に症例が同時に一つのみのもの、その右が同時発症が二つの症例…、と続きます。こちらをみると、同時に発症することが少ない症状は何か、ということがわかりやすくなります。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg&#34;
+	width=&#34;2560&#34;
+	height=&#34;1440&#34;
+	srcset=&#34;https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_480x0_resize_q75_box.jpeg 480w, https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_1024x0_resize_q75_box.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ngehlenborg/status/1250307087667572737&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://twitter.com/ngehlenborg/status/1250307087667572737&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;このチャートはUpSetと呼ばれるチャートです。Nilsさんが利用したツールは&lt;a class=&#34;link&#34; href=&#34;https://gehlenborglab.shinyapps.io/upsetr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;こちら&lt;/a&gt;にあります。これらをみると、実際に発症している人数が多い症状はどういうものなのか、同時に発症する症状はどういう組み合わせがありえるのか、がグッとわかりやすくなっています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>データ可視化への批評への批評への批評</title>
+        <link>https://example.com/critique-of-the-critique/</link>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/critique-of-the-critique/</guid>
+        <description>&lt;img src="https://example.com/critique-of-the-critique/images/coronavirus_georgia.png" alt="Featured image of post データ可視化への批評への批評への批評" /&gt;&lt;p&gt;数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia.png&#34;
+	width=&#34;2034&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_480x0_resize_box_3.png 480w, https://example.com/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;198&#34;
+		data-flex-basis=&#34;476px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;「最初（左）のマップは7月2日、二番目（右）は今日（7月17日）です。50％の増加が見えますか？どうやって隠しているか分かりますか？」&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia2.png&#34;
+	width=&#34;1826&#34;
+	height=&#34;2028&#34;
+	srcset=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_480x0_resize_box_3.png 480w, https://example.com/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;90&#34;
+		data-flex-basis=&#34;216px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20200720003152/https://twitter.com/andishehnouraee/status/1284237474831761408&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://web.archive.org/web/20200720003152/https://twitter.com/andishehnouraee/status/1284237474831761408&lt;/a&gt;&lt;br&gt;
+（現在ツイートは、投稿者により非公開もしくは削除になっており、下記はいわゆる魚拓サイトへのリンクです）&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;地図画像の下半分にある、データ着色のルール、つまり凡例に注目すると、凡例のルールが7月2日と17日で変わってしまっており、そのことによって、赤で表示される地域を過小評価されることを意図した改変ではないか、ということでした。&lt;/p&gt;
+&lt;p&gt;こういった、地図におけるデータ値を視覚要素へ変換する際の&lt;strong&gt;数値の幅によるグルーピング&lt;/strong&gt;のことを、**階級分類（英語ではClassification）**といいます。ヒストグラムにおけるビン（bin）は、それよりも小さい単位です。1階級に複数のビンが含まれるようなイメージです。&lt;/p&gt;
+&lt;p&gt;今となっては元ツイートが非表示もしくは削除されてしまっているので、Twitter上でのリプライにどんなものがあったのか、わかりません。&lt;/p&gt;
+&lt;p&gt;五年前から**&lt;a class=&#34;link&#34; href=&#34;https://policyviz.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PolicyViz&lt;/a&gt;&lt;strong&gt;という個人ブログサイトを運営しているJonathan Schwabishが、&lt;/strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://policyviz.com/2020/07/19/critiquing-a-data-visualization-critique/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;”Critiquing a Data Visualization Critique” （データ可視化批評を批評する）&lt;/a&gt;**と題して、件のツイートを批判する内容の記事を掲載しています。これを読むと、ツイートに対してヒステリックな反応が大量にあったことが伺えます。&lt;/p&gt;
+&lt;p&gt;彼の論点整理によると、件のツイートの内容を以下の二つに整理しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.データの可視化は、ビンが変化している（筆者注：階級分類のこと）ため、州全体でのケースの増加を覆い隠しており、正しくなく、誤解を招くものである。&lt;/li&gt;
+&lt;li&gt;2.可視化を作成した人の意図は、意図的に誤解を招くようなことをした。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これに対して彼自身はこう反論しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.データ可視化提供者は地図を並べて表示しておらず、時系列に比較することを意図していない。&lt;/li&gt;
+&lt;li&gt;2.一般的に、私が不適切なデータや誤解を招くようなデータ可視化に出くわした場合、それが間違いか知識不足によるものだと考える。もちろん、明らかに誤解を与えようとしている、あるいは誤解を与えようとしているビジュアルの例は数多くあり、GDPH（Georgia Department of Public Health&amp;hellip;件のサイトのこと）も例外ではない。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;その上で、階級分類の操作はツールが自動的に行ってしまうことがあり、別な人のツイートを参照し、たとえばTableauでは最小値・最大値にあわせて自動的に階級分類が調整されることが語られています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ugamarkj/status/1284486596235071489&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://twitter.com/ugamarkj/status/1284486596235071489&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これらを全部読んだ上での私の個人的な意見は、2はほぼ同意見ですが、1については、あまり同意できません。階級分類が動的に変わってしまうのはツールの仕様だとしても、&lt;strong&gt;誤解を招く恐れ&lt;/strong&gt;があります。&lt;strong&gt;理由なくコロコロ変更すべきではありません&lt;/strong&gt;。Tableauであってもツールの設定、たとえば最小値・最大値を決め打ちの固定値にしてしまえば避けられるはずです（多分）。&lt;/p&gt;
+&lt;p&gt;またこのデータ可視化提供者が地図の比較を掲載せず、また意図していなかったとしても、閲覧者がキャプチャをとって、&lt;strong&gt;地理的特性と時系列特性を同時に観て把握したいと思うのは自然な欲求&lt;/strong&gt;であり、これを否定することは過剰反応であると思います。&lt;/p&gt;
+&lt;p&gt;元ツイートに対するSNS上での反響を全くみていないのですが、少し感情的になってしまっているようにも思えます。**&lt;a class=&#34;link&#34; href=&#34;https://policyviz.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PolicyViz&lt;/a&gt;**は志もって運営している良質なサイトだという印象は今も変わりません。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

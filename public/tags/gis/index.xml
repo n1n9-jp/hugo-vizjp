@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>gis on Visualizing.JP</title>
+        <link>https://example.com/tags/gis/</link>
+        <description>Recent content in gis on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/gis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>EPSGコード</title>
+        <link>https://example.com/epsg-code/</link>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/epsg-code/</guid>
+        <description>&lt;img src="https://example.com/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
+&lt;p&gt;概念的には、空間参照ID、英語ではSRID（Spatial Reference System Identifiers）と呼ばれるもので、事実上の標準として、EPSGコードが使用されています。EPSGは、the European Petroleum Survey Group（欧州石油調査グループ）の略称です。&lt;/p&gt;
+&lt;h3 id=&#34;日本でよく使用される測地基準系と座標系一覧筆者調べ&#34;&gt;日本でよく使用される測地基準系と座標系一覧（筆者調べ）
+&lt;/h3&gt;&lt;table class=&#34;wp-block-table&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Tokyo&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2000&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2011&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;WGS84&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;地理座標系&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;4612&lt;/td&gt;&lt;td&gt;6668&lt;/td&gt;&lt;td&gt;4326&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UTM投影座標系&lt;/td&gt;&lt;td&gt;3092〜3096&lt;/td&gt;&lt;td&gt;3097〜3101&lt;/td&gt;&lt;td&gt;6688〜6692&lt;/td&gt;&lt;td&gt;32651〜32656&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;平面直角投影座標系&lt;/td&gt;&lt;td&gt;30161〜30179&lt;/td&gt;&lt;td&gt;2443〜2461&lt;/td&gt;&lt;td&gt;6669〜6687&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;球面メルカトル図法&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;3857&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&#34;ウェブで主流の地図タイルのepsg-id&#34;&gt;ウェブで主流の地図タイルのEPSG ID
+&lt;/h3&gt;&lt;p&gt;基本的には 3857 を用いればいいのですが、過去の経緯から、たとえば検索して探そうとするといくつか紛らわしいIDが見つかります。ご注意ください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/3857&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3857&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+現在、Google Maps、OpenStreetMap、Bingなどを描画する際に利用されるEPSGのID。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/900913&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;900913&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+かつて、Google MapsやBingはEPSGに却下された際に、GISツール側で対応するため非公式に発番されたもの。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/3785&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3785&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+2008年中頃にEPSGに割り当てられたID。半年後にこのIDは非推奨とされ、新しいIDが発番されました。それが3857です。3785と似ていることには意味がない（はず）です。&lt;/p&gt;
+&lt;h3 id=&#34;関連リンク&#34;&gt;関連リンク
+&lt;/h3&gt;&lt;h4 id=&#34;見やすい3rdパーティのリファレンス&#34;&gt;見やすい3rdパーティのリファレンス
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://epsg.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;公式データベース&#34;&gt;公式データベース
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.epsg-registry.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.epsg-registry.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.epsg-registry.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.epsg.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.epsg.org&lt;/a&gt;/&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://beta.epsg.org/home.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://beta.epsg.org/home.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://beta.epsg.org/home.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

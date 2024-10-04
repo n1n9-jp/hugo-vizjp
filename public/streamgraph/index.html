@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="別名 ThemeRiver、Stream Graph、Stacked Graphs\n特徴 時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。\nベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。\n議論 正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。\nディメンションやメジャー 時系列（ディメンション）…水平軸 数値（メジャー）…（水平・垂直軸を考慮した）面積 カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する） ※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。\n">
+<title>ストリームグラフ（Streamgraph）</title>
+
+<link rel='canonical' href='https://example.com/streamgraph/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="ストリームグラフ（Streamgraph）">
+<meta property='og:description' content="別名 ThemeRiver、Stream Graph、Stacked Graphs\n特徴 時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。\nベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。\n議論 正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。\nディメンションやメジャー 時系列（ディメンション）…水平軸 数値（メジャー）…（水平・垂直軸を考慮した）面積 カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する） ※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。\n">
+<meta property='og:url' content='https://example.com/streamgraph/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-07-07T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-07-07T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="ストリームグラフ（Streamgraph）">
+<meta name="twitter:description" content="別名 ThemeRiver、Stream Graph、Stacked Graphs\n特徴 時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。\nベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。\n議論 正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。\nディメンションやメジャー 時系列（ディメンション）…水平軸 数値（メジャー）…（水平・垂直軸を考慮した）面積 カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する） ※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#別名">別名</a></li>
+    <li><a href="#特徴">特徴</a></li>
+    <li><a href="#議論">議論</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#ディメンションやメジャー">ディメンションやメジャー</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#作例">作例</a>
+      <ol>
+        <li><a href="#映画の辺境と流れボックスオフィスの領収書-19862008">「映画の辺境と流れ：ボックスオフィスの領収書 1986–2008」</a></li>
+        <li><a href="#stream-graph-of-the-most-played-music-month-by-month">Stream graph of the most-played music month-by-month</a></li>
+        <li><a href="#what-a-hundred-million-calls-to-311-reveal-about-new-york">What A Hundred Million Calls to 311 Reveal About New York</a></li>
+        <li><a href="#年代性別人種別一日の過ごし方">年代・性別・人種別一日の過ごし方</a></li>
+        <li><a href="#euro-2012-streamgraph-b-sides">Euro 2012 Streamgraph B-sides</a></li>
+        <li><a href="#top-ten-cars-in-the-uk">Top Ten Cars in the UK</a></li>
+        <li><a href="#ミームトラッキングとニュースサイクルのダイナミクス">ミームトラッキングとニュースサイクルのダイナミクス</a></li>
+      </ol>
+    </li>
+    <li><a href="#誰が作ったのか">誰が作ったのか？</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/streamgraph/">
+                <img src="/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu3a39ef04fbeb5dc6e13939df9c907b79_303148_800x0_resize_box_3.png"
+                        srcset="/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu3a39ef04fbeb5dc6e13939df9c907b79_303148_800x0_resize_box_3.png 800w, /streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu3a39ef04fbeb5dc6e13939df9c907b79_303148_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="503" 
+                        loading="lazy"
+                        alt="Featured image of post ストリームグラフ（Streamgraph）" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/chart/" >
+                chart
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/streamgraph/">ストリームグラフ（Streamgraph）</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 07, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="別名">別名
+</h2><p>ThemeRiver、Stream Graph、Stacked Graphs</p>
+<h2 id="特徴">特徴
+</h2><p>時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。</p>
+<p>ベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。</p>
+<h2 id="議論">議論
+</h2><p>正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。</p>
+<h4 id="ディメンションやメジャー">ディメンションやメジャー
+</h4><ul>
+<li>時系列（ディメンション）…水平軸</li>
+<li>数値（メジャー）…（水平・垂直軸を考慮した）面積</li>
+<li>カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する）</li>
+</ul>
+<p>※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。</p>
+<h2 id="作例">作例
+</h2><h3 id="映画の辺境と流れボックスオフィスの領収書-19862008">「映画の辺境と流れ：ボックスオフィスの領収書 1986–2008」
+</h3><p><img src="/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q.png"
+	width="967"
+	height="721"
+	srcset="/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu9120b0c4c5d7758de21e3550119d7b10_205434_480x0_resize_box_3.png 480w, /streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu9120b0c4c5d7758de21e3550119d7b10_205434_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="134"
+		data-flex-basis="321px"
+	
+></p>
+<p><a class="link" href="http://archive.nytimes.com/www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html"  target="_blank" rel="noopener"
+    >The Ebb and Flow of Movies: Box Office Receipts 1986–2008</a></p>
+<h3 id="stream-graph-of-the-most-played-music-month-by-month">Stream graph of the most-played music month-by-month
+</h3><p><img src="/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q.png"
+	width="1400"
+	height="538"
+	srcset="/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu00320eec7660806dbd2ee48e0a5c16ad_188786_480x0_resize_box_3.png 480w, /streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu00320eec7660806dbd2ee48e0a5c16ad_188786_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="260"
+		data-flex-basis="624px"
+	
+></p>
+<p><a class="link" href="http://blog.last.fm/2010/12/16/the-data-behind-best-of-2010"  target="_blank" rel="noopener"
+    >Stream graph of the most-played music month-by-month</a></p>
+<h3 id="what-a-hundred-million-calls-to-311-reveal-about-new-york">What A Hundred Million Calls to 311 Reveal About New York
+</h3><p><img src="/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ.jpeg"
+	width="1000"
+	height="642"
+	srcset="/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu5e0b5f13d074673c8439e5dadc225d0c_162247_480x0_resize_q75_box.jpeg 480w, /streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu5e0b5f13d074673c8439e5dadc225d0c_162247_1024x0_resize_q75_box.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="373px"
+	
+></p>
+<p><a class="link" href="https://www.wired.com/2010/11/ff_311_new_york/all/1/"  target="_blank" rel="noopener"
+    >What A Hundred Million Calls to 311 Reveal About New York</a></p>
+<h3 id="年代性別人種別一日の過ごし方">年代・性別・人種別一日の過ごし方
+</h3><p><img src="/streamgraph/images/How-Different-Groups-Spend-Their-Day.png"
+	width="1932"
+	height="1298"
+	srcset="/streamgraph/images/How-Different-Groups-Spend-Their-Day_hucc2b0a1fdc71a5aa87f64879ecf33880_396854_480x0_resize_box_3.png 480w, /streamgraph/images/How-Different-Groups-Spend-Their-Day_hucc2b0a1fdc71a5aa87f64879ecf33880_396854_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="148"
+		data-flex-basis="357px"
+	
+></p>
+<p><a class="link" href="https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html"  target="_blank" rel="noopener"
+    >How Different Groups Spend Their Day</a></p>
+<h3 id="euro-2012-streamgraph-b-sides">Euro 2012 Streamgraph B-sides
+</h3><p><img src="/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ.png"
+	width="500"
+	height="490"
+	srcset="/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu56f7f6fdebff99585d73dc8dab3846c7_159778_480x0_resize_box_3.png 480w, /streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu56f7f6fdebff99585d73dc8dab3846c7_159778_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="244px"
+	
+></p>
+<p><a class="link" href="http://philogb.github.io/blog/2012/07/02/euro2012-streamgraph-bsides/"  target="_blank" rel="noopener"
+    >Euro 2012 Streamgraph B-sides</a></p>
+<h3 id="top-ten-cars-in-the-uk">Top Ten Cars in the UK
+</h3><p><img src="/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png"
+	width="1400"
+	height="880"
+	srcset="/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu3a39ef04fbeb5dc6e13939df9c907b79_303148_480x0_resize_box_3.png 480w, /streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu3a39ef04fbeb5dc6e13939df9c907b79_303148_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="159"
+		data-flex-basis="381px"
+	
+></p>
+<p><a class="link" href="https://www.neoformix.com/2011/TopTenCarsUK.html"  target="_blank" rel="noopener"
+    >Top Ten Cars in the UK</a></p>
+<h3 id="ミームトラッキングとニュースサイクルのダイナミクス">ミームトラッキングとニュースサイクルのダイナミクス
+</h3><p><img src="/streamgraph/images/meme-tracking.png"
+	width="2067"
+	height="1055"
+	srcset="/streamgraph/images/meme-tracking_hu17995dd547521298e29fd09d2cef3151_1218959_480x0_resize_box_3.png 480w, /streamgraph/images/meme-tracking_hu17995dd547521298e29fd09d2cef3151_1218959_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="195"
+		data-flex-basis="470px"
+	
+></p>
+<p><a class="link" href="http://learning.mpi-sws.org/networks-seminar/papers/kdd09-quotes.pdf"  target="_blank" rel="noopener"
+    >Meme-tracking and the Dynamics of the News Cycle</a></p>
+<h2 id="誰が作ったのか">誰が作ったのか？
+</h2><p>Susan Havreらが2000年に出願登録したThemeRiverという名称で論文を発表しています。</p>
+<ul>
+<li><a class="link" href="http://www.ifs.tuwien.ac.at/~silvia/wien/gwa/ws05/articles/Havre-InfoVis1999.pdf"  target="_blank" rel="noopener"
+    >ThemeRiverTM*: In Search of Trends, Patterns, and Relationships</a></li>
+</ul>
+<p>それとは別に、last.fmのユーザー・リスニング履歴を制作したLee ByronとMartin Wattenbergによって、2008年に書かれた論文が存在します。</p>
+<ul>
+<li>
+<p>Stacked Graphs – Geometry &amp; Aesthetics</p>
+</li>
+<li>
+<p><a class="link" href="http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf"  target="_blank" rel="noopener"
+    >Stacked Graphs – Geometry &amp; Aesthetics</a></p>
+</li>
+</ul>
+<p>現在はストリームグラフ（Streamgraph）と呼ばれることが一般的です。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/visual-vocabulary/">
+        
+        
+            <div class="article-image">
+                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu6c1be24e3d0dab470ad4725a963e3e2b_1131114_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Visual Vocabulary"
+                        data-key="visual-vocabulary" 
+                        data-hash="md5-hsxZzUbqmG1fDzsMwvbUNw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Visual Vocabulary</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-tasks/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hue2de1557724c667c7159411555ef7895_169854_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post タスク別チャート分類"
+                        data-key="chart-catalogue-by-tasks" 
+                        data-hash="md5-9xDY35SR6btr/j2xofkArg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">タスク別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-types/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu8e61fd2dd8813282e49ae344b85753dc_1775402_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ・タイプ別チャート分類"
+                        data-key="chart-catalogue-by-types" 
+                        data-hash="md5-YW0lVHlMlcCcAMhpnI7Vfg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ・タイプ別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/splom/">
+        
+        
+            <div class="article-image">
+                <img src="/splom/images/_hu26386bd117306a3acc69480357a7e55f_448834_8e49783e2bed5d1c1fc5009be35d213e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 散布図行列"
+                        data-key="splom" 
+                        data-hash="md5-Ji5GZsZd5Xr/m50lBQ5lew==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">散布図行列</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/treemap/">
+        
+        
+            <div class="article-image">
+                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu75a0be77d40a73af2d565b885fbd6d36_158292_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ツリーマップ（Treemap）"
+                        data-key="treemap" 
+                        data-hash="md5-5IcyeNAuy4rTEN50k07HpQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ツリーマップ（Treemap）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

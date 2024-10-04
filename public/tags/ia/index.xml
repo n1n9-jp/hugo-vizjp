@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ia on Visualizing.JP</title>
+        <link>https://example.com/tags/ia/</link>
+        <description>Recent content in ia on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/ia/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」</title>
+        <link>https://example.com/katy-boerner-workflow/</link>
+        <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/katy-boerner-workflow/</guid>
+        <description>&lt;img src="https://example.com/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;取得（Acquire）…ユーザーのニーズ分析とデータの取得と準備&lt;/li&gt;
+&lt;li&gt;分析＆ビジュアライゼーション（Analyze &amp;amp; Visualize）…データを読み取り、計算アルゴリズムを適用してデータを視覚的な洞察に変換する&lt;/li&gt;
+&lt;li&gt;デプロイ（Deploy）…出力デバイスの選択、インタラクティブなユーザーインターフェイスの設計&lt;/li&gt;
+&lt;li&gt;解釈（Interpret）…視覚化の解釈と検証を行う&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ワークフロー全体が、ユーザーのニーズからスタートすることと、「データの編集、分析、および視覚化にユーザーを参加させることが、結果の正確性と関連性を確実にする唯一の方法」だとしています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
+        <link>https://example.com/thesevencs/</link>
+        <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/thesevencs/</guid>
+        <description>&lt;img src="https://example.com/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
+&lt;p&gt;彼が1996年の著書「Information Architects」の中で、情報の整理原則を提案しています。略語としてLATCHです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Location（場所）&lt;/li&gt;
+&lt;li&gt;Alphabet（アルファベット、日本風には五十音順）&lt;/li&gt;
+&lt;li&gt;Time（時間）&lt;/li&gt;
+&lt;li&gt;Category（カテゴリー）&lt;/li&gt;
+&lt;li&gt;Hierarchy（階層）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;データビジュアライゼーションの原理原則を学んでいる者からすると、LATCHは、1996年に作られたことや作者自身が否認していることもありますが、すべてを言い表せておらず、更新する必要性を感じています。&lt;/p&gt;
+&lt;p&gt;アルファベットとカテゴリーはカテゴリーとして同一に扱えそうですし、階層以外のネットワークが存在しないですし、数値について明示的な扱いもありません。&lt;/p&gt;
+&lt;p&gt;これらをアップデートするとして、Juuso Koponenさん, Jonatan Hildénさんが、頭文字をすべてCで統一的に扱って新たに &amp;ldquo;The Seven C&amp;rsquo;s&amp;quot;という略語を提案しています（Data Visualization Handbook, 2019）。覚えやすい。素晴らしいですね。これで充分ですね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/thesevencs/images/thesevencs.png&#34;
+	width=&#34;1648&#34;
+	height=&#34;746&#34;
+	srcset=&#34;https://example.com/thesevencs/images/thesevencs_hu9edfc69f57f96e25001f60a83683b6cb_185178_480x0_resize_box_3.png 480w, https://example.com/thesevencs/images/thesevencs_hu9edfc69f57f96e25001f60a83683b6cb_185178_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;220&#34;
+		data-flex-basis=&#34;530px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continuum by magnitude（大きさによる連続体）&lt;/li&gt;
+&lt;li&gt;Continuum by rank（ランクごとの連続体）&lt;/li&gt;
+&lt;li&gt;Coordinates（座標）&lt;/li&gt;
+&lt;li&gt;Chronology（年表）&lt;/li&gt;
+&lt;li&gt;Category（カテゴリー）&lt;/li&gt;
+&lt;li&gt;Connection（接続&amp;hellip;関係性）&lt;/li&gt;
+&lt;li&gt;Convention（慣習・慣例）&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

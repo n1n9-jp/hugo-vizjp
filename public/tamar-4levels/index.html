@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュ">
+<title>ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する</title>
+
+<link rel='canonical' href='https://example.com/tamar-4levels/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する">
+<meta property='og:description' content="データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュ">
+<meta property='og:url' content='https://example.com/tamar-4levels/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-01-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-01-12T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/tamar-4levels/images/fig4.2_ja-1.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する">
+<meta name="twitter:description" content="データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュ"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/tamar-4levels/images/fig4.2_ja-1.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#4レベルのそれぞれを紹介">4レベルのそれぞれを紹介</a>
+          <ol>
+            <li><a href="#ドメイン状況">ドメイン状況</a></li>
+            <li><a href="#タスクとデータの抽象化">タスクとデータの抽象化</a></li>
+            <li><a href="#ビジュアルエンコーディングインタラクティブイディオム">ビジュアル・エンコーディング／インタラクティブ・イディオム</a></li>
+            <li><a href="#アルゴリズム">アルゴリズム</a></li>
+          </ol>
+        </li>
+        <li><a href="#アタックする順序">アタックする順序</a>
+          <ol>
+            <li><a href="#問題駆動型problem-driven">問題駆動型(problem-driven)</a></li>
+            <li><a href="#技術主導型technique-driven">技術主導型(technique-driven)</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/tamar-4levels/">
+                <img src="/tamar-4levels/images/fig4.2_ja-1_hu81e025f32d59bb747d2d7ef4b4c4d09a_24998_800x0_resize_box_3.png"
+                        srcset="/tamar-4levels/images/fig4.2_ja-1_hu81e025f32d59bb747d2d7ef4b4c4d09a_24998_800x0_resize_box_3.png 800w, /tamar-4levels/images/fig4.2_ja-1_hu81e025f32d59bb747d2d7ef4b4c4d09a_24998_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="532" 
+                        loading="lazy"
+                        alt="Featured image of post ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/tamar-4levels/">ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 12, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割することで、異なる懸念事項を個別に解決できる分析フレームワークを提供する」という意図で、Tamara Munznerさんが提示しているフレームワークをご紹介します。</p>
+<p><img src="/tamar-4levels/images/fig4.2_ja-1.png"
+	width="632"
+	height="420"
+	srcset="/tamar-4levels/images/fig4.2_ja-1_hu81e025f32d59bb747d2d7ef4b4c4d09a_24998_480x0_resize_box_3.png 480w, /tamar-4levels/images/fig4.2_ja-1_hu81e025f32d59bb747d2d7ef4b4c4d09a_24998_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="150"
+		data-flex-basis="361px"
+	
+></p>
+<p>上から、「ドメイン状況」「タスクとデータの抽象化」「ビジュアル・エンコーディング／インタラクティブ・イディオム」「アルゴリズム」の4レベルとなっており、上位のレベルほど、下位のレベルを包含していることがポイントです。つまり上位のレベルでの決定事項が、下位のレベルの決定に影響を与えるという構成になっています。</p>
+<h3 id="4レベルのそれぞれを紹介">4レベルのそれぞれを紹介
+</h3><h4 id="ドメイン状況">ドメイン状況
+</h4><p>ドメイン状況を検証するにあたって必要なのは、ターゲットユーザーのグループ、対象ドメイン、質問、およびデータなどです。</p>
+<p>ドメインという用語は、ターゲットユーザーにとっての特定の関心分野を意味しています。</p>
+<p>各ドメインには通常、データと問題を記述するための独自の語彙があり、通常、データを使用して問題を解決するための既存のワークフローがあります。</p>
+<p>起こりうる間違いとしては、ターゲットユーザーのニーズを誤解していた、ということがあげられます。</p>
+<h4 id="タスクとデータの抽象化">タスクとデータの抽象化
+</h4><p>特定のドメインにおける質問とデータを、ドメイン固有のフォームから汎用表現に抽象化する必要があります。</p>
+<p>ドメインに依存しない語彙に抽象化することで、全くかけ離れたドメインにおいて、その可視化が必要な理由（タスク）とそのデータが示すものが、同様である可能性があるからです。</p>
+<p>起こりうる間違いとしては、ターゲットユーザーへ間違ったものを見せようとしていた、ということがあげられます。</p>
+<h4 id="ビジュアルエンコーディングインタラクティブイディオム">ビジュアル・エンコーディング／インタラクティブ・イディオム
+</h4><p>イディオムデザインには2つの大きな意味があります。</p>
+<p>1つ目は、ビジュアル・エンコーディング・イディオム。<br>
+データから1つの画像（に見えるもの）を作成するということです。<br>
+ユーザーが見るものを正確にコントロールします。</p>
+<p>2つ目は、対話のイディオムです。<br>
+その表現を動的に操作する方法ということです。<br>
+ユーザーが見ているものをどのように変更するかをコントロールします。</p>
+<p>起こりうる間違いとしては、見せているものが機能していない、ということがあげられます。</p>
+<h4 id="アルゴリズム">アルゴリズム
+</h4><p>アルゴリズムの作成に関連するすべての設計や選択です。<br>
+コンピュータが自動的に目的の目標を実行できるようにする詳細な手順としての、アルゴリズムの新たな設計や既存のものからの選択を指します。</p>
+<p>起こりうる間違いとしては、実行速度が遅すぎる、ということがあげられます。</p>
+<h3 id="アタックする順序">アタックする順序
+</h3><p>Tamaraさんは、これらのレベルを進めていく順序を、トップダウンとボトムアップの両方を想定してます。</p>
+<h4 id="問題駆動型problem-driven">問題駆動型(problem-driven)
+</h4><p>問題駆動型(problem-driven)の作業では、トップの「ドメイン状況」レベルから始め、「タスクとデータの抽象化」、「ビジュアル・エンコーディング／インタラクティブ・イディオム」、「アルゴリズム」の決定を下に進めます。</p>
+<p>現実世界のユーザーの問題を取り組み、より効果的に作業できるソリューションを設計しようとします。この種の研究はデザイン研究と呼ばれることが多い。しばしば、新しいものを設計するのではなく、既存の視覚的エンコーディングと相互作用のイディオムを使用して問題を解決することができ、課題の多くは抽象レベルにあります。しかし、既存のものが抽出された設計上の問題を適切に解決できないと判断した場合、問題は新しいイディオムの設計を促すことがあります。</p>
+<p>この設計プロセスは、決して厳密には線形ではなく、すべてのレベルで繰り返す中で洗練されていくとしています。</p>
+<h4 id="技術主導型technique-driven">技術主導型(technique-driven)
+</h4><p>技術主導型(technique-driven)の作業では、既存の抽象概念をよりよくサポートする新しい視覚的なエンコーディングやインタラクションの「イディオム」や、既存のイディオムをよりよくサポートする新しい「アルゴリズム」を開発することを目標として、下位の2つのレベル、「ビジュアル・エンコーディング／インタラクティブ・イディオム」、「アルゴリズム」設計のいずれかで作業します。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/focus-context/">
+        
+        
+            <div class="article-image">
+                <img src="/focus-context/images/image-35.b2c526c985c3fdc8814e16623a741eb6_hua81f20bb85ab37122ff5211396e483c8_3549478_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Focus&#43;Contextの実例"
+                        data-key="focus-context" 
+                        data-hash="md5-ssUmyYXD/ciBThZiOnQetg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Focus&#43;Contextの実例</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/color-name-appearance/">
+        
+        
+            <div class="article-image">
+                <img src="/color-name-appearance/images/_hu59b3fe3aefda58553695839bbd15aa13_64460_1e59c4d90f7c2df2012e5d7006e86593.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒"
+                        data-key="color-name-appearance" 
+                        data-hash="md5-CMPRLgKzfQETB6ukhukY8w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/interaction-of-color-weber-fechner-kaw/">
+        
+        
+            <div class="article-image">
+                <img src="/interaction-of-color-weber-fechner-kaw/images/_hucb0d4ff65094a5ee3930b1a0ffd27091_52316_a51953fb48ddd84021e4bd3321014ad8.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 色の変化、その物理的事実と心理的効果の違い"
+                        data-key="interaction-of-color-weber-fechner-kaw" 
+                        data-hash="md5-Q8CpOSWepRMKh8MnE3Bz5Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">色の変化、その物理的事実と心理的効果の違い</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/sender-oriented-vis/">
+        
+        
+            <div class="article-image">
+                <img src="/sender-oriented-vis/images/md_yuichiyazaki.c0530b6961fa4da5b60d151257ee189a_hud14e78585c7d0427878481cf9705a9eb_1546736_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 発信者主体の情報可視化作品作りにおけるスケッチの行い方考察"
+                        data-key="sender-oriented-vis" 
+                        data-hash="md5-wFMLaWH6TaW2DRUSV&#43;4Ymg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">発信者主体の情報可視化作品作りにおけるスケッチの行い方考察</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/airbnb-superset/">
+        
+        
+            <div class="article-image">
+                <img src="/airbnb-superset/images/bank_dash.48fddc8554e932496c537a4911cfb3eb_hu498e6def10bbd3c8aa8cf03bc9a5f186_1600232_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post AirBnBが開発したOSSのB.I.ツール、Superset"
+                        data-key="airbnb-superset" 
+                        data-hash="md5-SP3chVTpMklsU3pJEc&#43;z6w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AirBnBが開発したOSSのB.I.ツール、Superset</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

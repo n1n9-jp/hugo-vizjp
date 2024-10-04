@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>オープンデータ on Visualizing.JP</title>
+        <link>https://example.com/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF/</link>
+        <description>Recent content in オープンデータ on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Mon, 30 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>data.go.jp開設</title>
+        <link>https://example.com/data-go-jp/</link>
+        <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/data-go-jp/</guid>
+        <description>&lt;img src="https://example.com/data-go-jp/images/fi_DataGoJp.png" alt="Featured image of post data.go.jp開設" /&gt;&lt;p&gt;2013年12月20日、「データカタログサイト試行版」として、data.go.jpが開設されました。&lt;br&gt;
+「各府省の保有データをオープンデータとして利用できる場をつくり、データの提供側・利用側双方にオープンデータのイメージを分かりやすく示すことを目的としています。」とのことで、「日本のオープンデータ憲章アクションプラン」に基づいたものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/data-go-jp/images/datagojp-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;390&#34;
+	srcset=&#34;https://example.com/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_480x0_resize_box_3.png 480w, https://example.com/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;424px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;SNSを検索すると「マシンリーダブルなデータじゃない」や「同種のサイトが多すぎる」という指摘がいくつか見られ、同感ではあるのですが、以下の二つのことが画期的だと考えています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CC-BYライセンスが付与されていること（利用規約 第１条）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/organization&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;省庁横断でデータが集められていること&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まずは場作りと様子見であるようなので、ここで「まだできてない」じゃなくて「二歩進んだ」進んだと捉えて今後の動きにも注視していきたいところです。&lt;/p&gt;
+&lt;p&gt;さて、どんなデータが集められているのでしょうか？このサイトはnet commonsとCKANが使われているようで、CKANはデータカタログサイトを立ち上げる際によく利用されるもので、これにはAPIが用意されています。これを利用することで登録されているデータのメタデータについて、クロス集計的に、立体的に捉えることができるようになるのですが、これが現時点で公開されてなく残念です。&lt;/p&gt;
+&lt;p&gt;集められているデータの大枠が掴めるように、メタデータやタグを手動で拾って並べてみました。経年で記録していけばそれ自体も一つのデータになるかと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/files/data-go-jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;meta data of data.go.jp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;些末なところだと、タグやキーワードの与え方にいくつか課題がありそうです。&lt;/p&gt;
+&lt;p&gt;システム的な観点では、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;csvやtsvなど区切りに使用される文字はタグやキーワードに含めない&lt;/li&gt;
+&lt;li&gt;%がパースできていない &lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=2020%E5%B9%B430-&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2020年30％&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;IA的的な観点では、&lt;/p&gt;
+&lt;p&gt;・半角、全角を名寄せすべき &lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=%EF%BC%A7%EF%BC%98&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ｇ８&lt;/a&gt;と&lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=G8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;G8&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;半角、全角を名寄せすべき &lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=%EF%BC%A7%EF%BC%98&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ｇ８&lt;/a&gt;と&lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=G8&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;G8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;一つのキーワードに二つ以上の項目を含めてしまっているのは避けるべき &lt;a class=&#34;link&#34; href=&#34;http://www.data.go.jp/data/dataset?tags=%E4%BA%88%E7%AE%97_%E5%B9%B3%E6%88%9022%E5%B9%B4%E5%BA%A6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;予算_平成22年度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ともあれ、色んなことが発見できそうなので、じっくりみていきたいところですね。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.asahi.com/articles/ASF0TKY201312230112.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;オープンデータ推進へ約１万種を公開　内閣官房 - 朝日新聞&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://fumi.me/2013/12/22/ckan/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CKANについて – data.go.jp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

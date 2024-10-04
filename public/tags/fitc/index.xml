@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>fitc on Visualizing.JP</title>
+        <link>https://example.com/tags/fitc/</link>
+        <description>Recent content in fitc on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Tue, 14 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/fitc/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>すべてを明け渡すことではじめて完成する、茶道としてのオープンソース</title>
+        <link>https://example.com/how-to-give-everything-away/</link>
+        <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/how-to-give-everything-away/</guid>
+        <description>&lt;img src="https://example.com/how-to-give-everything-away/images/thumb_ph_vizjp.png" alt="Featured image of post すべてを明け渡すことではじめて完成する、茶道としてのオープンソース" /&gt;&lt;p&gt;去年（2013年）クラスカで行われたFITC Tokyoに参加してきて、最も印象深かった話の一つが、Kyle McDonaldの &amp;lsquo;How to Give Everything Away&amp;rsquo;（あらゆるものを公開する方法）という話でしたので、ご紹介させてください。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;300&#34;
+	srcset=&#34;https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_480x0_resize_q75_box.jpg 480w, https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;552px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://fitc.ca/event/tokyo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FITC2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://fitc.ca/presentation/how-to-give-everything-away-3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&amp;lsquo;How to Give Everything Away&amp;rsquo;（あらゆるものを公開する方法）Kyle McDonald | FITC2013&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;公式サイトでは &amp;lsquo;give away&amp;rsquo; を「公開する」と訳してるんですが「プレゼントしてしまう」とか、英英辞書ひくと「うっかり誰かが優位性を持つことができるように」というニュアンスもあるようです。言葉の並びをみると差し出すことによって自分から遠ざける（ざかる）というニュアンスもありそうです。&lt;/p&gt;
+&lt;p&gt;そして、何を &amp;lsquo;give away&amp;rsquo; するのかとして具体的には、アイデアを共有すること、自分の書いたソースコードをすべてccライセンスで公開すること、個人情報を含むキータイプすべてを自動的にtweetすること、が語られます（一つすごく面白いエピソードがあるのですが話の筋から逸脱するのでそれは機会を改めます）。アイデアもコードも個人情報もさらけ出すことで、自分のプライベート領域にあるものをパブリック領域にさらけ出し、そのことによってプライベートとは何か、パブリックとは何かを考察したいという動機があったようです。&lt;br&gt;
+講演を聞いていて、具体的な事例ばかりが語られたものの、そこには貫く一本の個人的な生き方の物語、フィロソフィーのある話だな…と理解しつつ、その行き着く先がよくわからなかったので、イベント後の二次会の飲みの席で本人に聞いてみました。&lt;/p&gt;
+&lt;p&gt;「すべてを &amp;lsquo;give away&amp;rsquo; するということは、その結果、自分はemptyになってしまうということだと思うけど、その先には何があるの？」と質問してみたところ、&amp;lsquo;You&amp;rsquo;re complete when you&amp;rsquo;re empty.&amp;rsquo; という返事が返って結構驚きました。自分は空っぽになることで初めて完成するんだということ。&lt;/p&gt;
+&lt;p&gt;そこで思い出したのが、彼の同様の内容の話を、アメリカはミネアポリスで半年前に開かれたカンファレンスで観ていたのだけど、その時出てきた茶室の話。このFITCの時に出てこなかったんですよね（遠慮だったのか配慮だったのかは不明だけども）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vimeo.com/50239840&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Eyeo2012 - Kyle McDonald&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/how-to-give-everything-away/images/tearoom-1.png&#34;
+	width=&#34;960&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_480x0_resize_box_3.png 480w, https://example.com/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（道教や禅の）「哲学は、完全そのものより、完全を追求する過程により重きを置くほどダイナミックなものであった。不完全を完成させた者のみが、真の美を見出すことができる。人生や芸術の力は、それが成長する可能性を秘めている点にこそあるというのだ。茶室では自己との関係において全体の効果を完成させることが、客の想像に任されている」岡倉天心「茶の本」IBCパブリッシング刊より引用。&lt;/p&gt;
+&lt;p&gt;続けて本人曰く「オープンソースは、茶室です。それは誰もが等しい存在であり、魂の鏡です。オープンソースの芸術は、各投稿者が自分自身の作業を如何に完成させるかであり、不完全なもの（バグ）に如何に協業で立ち向かうかにあるのです。」&lt;/p&gt;
+&lt;p&gt;茶道とオープンソースが結びついて語られたのが新鮮でした。時には自分の中に隠しておきたいこともあるけどそれでも公開するんだというようなことを言ってました。&lt;/p&gt;
+&lt;p&gt;ここからは少し個人的な解釈です。&lt;/p&gt;
+&lt;p&gt;彼は世界的に活躍しているまだ20代のアメリカ人メディアアーティストで、ややGitHubやオープンソースというものに傾倒しすぎている物の見方かもしれませんが、気付かせてくれるものはあります。「すべてを &amp;lsquo;give away&amp;rsquo; する」ことと「空っぽになることで初めて完成する」ことの結びつきが少し弱いように感じたのですが、「茶の本」を読むと一つの地続きな思想が見えてきます。&lt;br&gt;
+それは例えば、老子は「真に不可欠なものは虚ののみ存在する」として、部屋の実体は屋根と壁に囲まれた空虚な部分に見出されるのであって、部屋と壁そのものではないとか、水さしは水が大事であって水さしの形や素材にあるのではないといったようなニュアンスです。&lt;/p&gt;
+&lt;p&gt;福岡伸一さんの「動的平衡」も思い出されます。「絶え間なく動き、入れ替わりながらも全体として恒常性が保たれていること。」こそが生き物の生き物たる条件なんだといいます。&lt;/p&gt;
+&lt;p&gt;John Lennonのアルバム &amp;lsquo;Some Time in New York City&amp;rsquo;に収録されているオノ・ヨーコの曲に&amp;quot;We&amp;rsquo;re All Water&amp;quot;というのがあります。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;あなたは水&lt;br&gt;
+私も水&lt;br&gt;
+私たちはそれぞれの容器に入った水&lt;br&gt;
+だからこんなに簡単に出会える&lt;br&gt;
+いつの日かみんな一緒に蒸発しましょう&lt;br&gt;
+たとえ水がなくなってしまっても、&lt;br&gt;
+私たちはたぶん容器を指さして言うでしょう&lt;br&gt;
+「私たちはあそこにいる、あの容器は私です」と&lt;br&gt;
+私たちは容器の番人&lt;/p&gt;
+&lt;p&gt;オノ・ヨーコ &amp;ldquo;We&amp;rsquo;re All Water&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;加えて、自分の外に出していないものは自分が死んでしまったら誰からも知ることのないまま存在しなくなってしまうということとか、他人から認知される自己こそが自己のすべてであるというようなニュアンスもつけ加えられるかもしれません。&lt;/p&gt;
+&lt;p&gt;情報の出し入れや扱いから派生する、アイデアや特許を巡る紛争や権力闘争。そういったものから一旦離れて、なすべきことに集中できる茶室のような場所…として彼がゆび指すのがGitHubです。おぉ…。&lt;/p&gt;
+&lt;p&gt;具体的なエピソードとして語ってくれた話で終わらせたいと思います。あるコーダーがccライセンスでコードを公開していて、掲示板に大量の質問と少しの回答が載せられていたのだけど、そのうち質問しか載らなくなり、第三者のある人がこのコーダーは亡くなったんだと告げたとのこと。それ以降は来訪者同士で回答を教え合うようになりました。オープンにしておいたことで、何がどう作られているのかをリバースエンジニアリングして引き継ぐこともできるし、これを使うときに彼のことを少し思い出すのかもしれないですね。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

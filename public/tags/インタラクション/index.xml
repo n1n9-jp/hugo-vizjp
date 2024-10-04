@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>インタラクション on Visualizing.JP</title>
+        <link>https://example.com/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+        <description>Recent content in インタラクション on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ビジュアル・アナリシスにおけるインタラクションの整理</title>
+        <link>https://example.com/visual-analytics-interaction/</link>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/visual-analytics-interaction/</guid>
+        <description>&lt;img src="https://example.com/visual-analytics-interaction/images/thumb_ph_vizjp.png" alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" /&gt;&lt;p&gt;1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い&lt;strong&gt;Ben Shneidermanさん&lt;/strong&gt;と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した&lt;strong&gt;Jeff Heerさん&lt;/strong&gt;が二人で、&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;  title=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ビジュアル・アナリシスにおけるインタラクションの整理&lt;/a&gt;&lt;/strong&gt;(リンク先はPDFファイル)を行っています。2010年の論考です。大きくは以下の三つに分類しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データとビューの指定(data and view specification)&lt;/li&gt;
+&lt;li&gt;ビューの操作(view manipulation)&lt;/li&gt;
+&lt;li&gt;分析プロセスと出自(analysis process and provenance)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それぞれの違いをまずはみていきましょう。&lt;/p&gt;
+&lt;h3 id=&#34;データとビューの指定data-and-view-specification&#34;&gt;データとビューの指定(data and view specification)
+&lt;/h3&gt;&lt;p&gt;アナリストが様々なデータタイプを含む大規模なデータセットを探索できるようにするために、関心のあるデータとビューを指定するための、適切なコントロールを提供するという観点。&lt;/p&gt;
+&lt;h3 id=&#34;ビューの操作view-manipulation&#34;&gt;ビューの操作(view manipulation)
+&lt;/h3&gt;&lt;p&gt;「データとビューの指定」によって作成された可視化を元に、そのビューを操作してパターンを強調したり、仮説を調査したり、詳細を掘り下げたりできるようにするという観点。&lt;/p&gt;
+&lt;h3 id=&#34;分析プロセスと出自analysis-process-and-provenance&#34;&gt;分析プロセスと出自(analysis process and provenance)
+&lt;/h3&gt;&lt;p&gt;ビジュアル・アナリティクスには「可視化の生成と操作」だけではなく「データの探索と解釈の繰り返し」のプロセスを含み、その分析プロセスを足場にするための機能提供という観点。&lt;/p&gt;
+&lt;h2 id=&#34;具体的な操作&#34;&gt;具体的な操作
+&lt;/h2&gt;&lt;h3 id=&#34;データとビューの指定data-and-view-specification-1&#34;&gt;データとビューの指定(data and view specification)
+&lt;/h3&gt;&lt;p&gt;可視化(visualize)、フィルタリング(filter)、ソート(sort)、導出(derive)が挙げられています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;可視化&lt;/strong&gt;…データの可視化を指定すること。&lt;/p&gt;
+&lt;p&gt;以下のような方法が挙げられています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;よくある例ではテンプレート化されたチャートの中から一つ選択し、データ変数を割り当てることで、データをチャートとして描画すること。&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;data-flow graphs&amp;rdquo; を使用して指定する。&lt;/li&gt;
+&lt;li&gt;可視化構築のための文法に基づいて指定する。ggplot2 や Protovis が該当する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの方法は互いに排他的ではなく、同時に使用することで、使いやすさろ表現力を両立させることもできる、としています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;フィルタリング&lt;/strong&gt;…データ値をフィルタリングして、表示量を制限する。またデータセットの異なるサブセットを比較するためにフォーカスを移動する際に用いられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;さまざまなインタラクション技術&lt;/li&gt;
+&lt;li&gt;一連の補助コントロール、&amp;ldquo;ダイナミック・クエリ・ウィジェット&amp;rdquo; を使用する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;後者 &amp;ldquo;ダイナミック・クエリ・ウィジェット&amp;rdquo; について以下の例が挙げられています。&lt;/p&gt;
+&lt;p&gt;カテゴリまたは順序データ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;項目の数が少ない場合…ラジオボタンやチェックボックス&lt;/li&gt;
+&lt;li&gt;項目の数が多い場合や任意のテキストを含む場合…スクロール可能なリスト、階層リスト、検索ボックス（単純なキーワード検索、正規表現マッチング、オートコンプリート付き、構造化クエリ言語）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;量的データ、および時間的データ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;単一のしきい値の場合…標準スライダー&lt;/li&gt;
+&lt;li&gt;複数のエンドポイントを指定する場合…範囲スライダー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;リアルタイム更新と組み合わせると、これらのウィジェットはデータのサブセットを迅速かつ可逆的に探索することができる、としています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ソート&lt;/strong&gt;…1つ以上の変数のデータ値に従って、レコードを並べ替えること。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数値やテキスト値の昇順または降順ソート。&lt;/li&gt;
+&lt;li&gt;重要なパターンを明らかにするためには、曜日や月名のような特殊なソート順序が必要になることもある。&lt;/li&gt;
+&lt;li&gt;多変量表、ネットワークなどデータの種類によっては、値による単純なソートが必ずしもうまくいかないものもある。そのようなデータでは、項目間の距離測定を最小化しようとする、より洗練された並べ替え方法が必要になることがある。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;導出&lt;/strong&gt;…変数を変換したり、既存の値から新しい属性を導き出したりすること。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スプレッドシートやデータベースのクエリ言語で見られるものと同様に、_計算言語_を介して提供される。&lt;/li&gt;
+&lt;li&gt;これらの基本的な機能に加えて、仮説検定法（t検定、ANOVA）は、統計と可視化の円滑な統合の利点を増幅させることができる。&lt;/li&gt;
+&lt;li&gt;導出された値は、記述統計（平均、中央値、分散）からモデル適合（回帰曲線）、データ変換（カウントや合計などのグループごとの集計）に至るまで、入力データを要約するためによく使用される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ビューの操作view-manipulation-1&#34;&gt;ビューの操作(view manipulation)
+&lt;/h3&gt;&lt;p&gt;選択(select)、ナビゲート(navigate)、切り口(coordinate)、整理(organize)が挙げられています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;選択(select)&lt;/strong&gt;…関心のある項目や領域を示すこと。何らかの動作の前段としてその適用範囲を「選択」することもある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;マウスのホバー&lt;/li&gt;
+&lt;li&gt;マウスのクリック&lt;/li&gt;
+&lt;li&gt;領域選択（長方形や楕円形の領域、または自由形状の「ラッソ」など）&lt;/li&gt;
+&lt;li&gt;領域カーソル（「ブラシ」や、マウスポインタに最も近いアイテムを選択するバブルカーソルなどの動的なセレクタ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;追加として、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;（より強力で複雑だと前置きありつつ）データに対するクエリとして選択をサポートする。&lt;/li&gt;
+&lt;li&gt;代表的なオブジェクトをクリックして、そのオブジェクトのプロパティに基づいてより広範な選択を行うことができる（例えば「このような青のアイテムをすべて選択する」など）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PCとタブレットやスマートフォンではUIのコンテクストが異なるため注意します。&lt;/p&gt;
+&lt;p&gt;これらの選択は、多くの場合、操作するオブジェクトのセットを決定し、ハイライト、注釈、フィルタリング、または「オンデマンドでの詳細表示」を可能にします。&lt;/p&gt;
+&lt;p&gt;選択はマウスやキーボードだけに限定される必要はありません。タッチ、ジェスチャー、音声などの入力モダリティによって、新しい効果的な選択が可能になるかもしれません。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ナビゲート&lt;/strong&gt;…ビジュアライゼーションはよく、情報空間のビューポートとして機能する。アナリストは、これらのビューポートを操作して空間をナビゲートする必要がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スクロール&lt;/li&gt;
+&lt;li&gt;スクロールバーやマウスドラッグによる表示のパンニング&lt;/li&gt;
+&lt;li&gt;ズームスライダやスクロールホイールを使った異なるレベル間のズーム&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのほかにも&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;セマンティック・ズーミング&lt;/li&gt;
+&lt;li&gt;フォーカス＋コンテキスト メソッド&lt;/li&gt;
+&lt;li&gt;遠近両用 (bifocal) ビュー&lt;/li&gt;
+&lt;li&gt;概要と詳細表示&lt;/li&gt;
+&lt;li&gt;ディストーション表示&lt;/li&gt;
+&lt;li&gt;DOI(degree-of-interest)機能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が挙げられている。&lt;/p&gt;
+&lt;p&gt;パン（ドラッグ）とズーム（ボタンとスクロール・ホイール）コントロールにより、ビューのナビゲーションが可能になります。&lt;/p&gt;
+&lt;p&gt;「概要を最初に見て、ズームとフィルタリングを行い、次に詳細をオンデマンドで表示する」&lt;br&gt;
+このような方向付けを行った後に、データ・サブセットのより具体的で詳細な調査を行うことができます。&lt;/p&gt;
+&lt;p&gt;「概要と詳細表示」はほかにも、たとえば地理空間の可視化で、全体に詳細表示を行い、スーパーインポーズされた矩形内で概要を表示します。&lt;/p&gt;
+&lt;p&gt;「ディストーション表示」は、コンテクスト領域が拡大されないように表示領域全体を変形させるディストーション (拡大技術) です。UIとしてはMac OSXのDockがそれに該当します。&lt;/p&gt;
+&lt;p&gt;「DOI(degree-of-interest)機能」は、一般的な重要度と操作ユーザーの関心度（マウスクリック、検索クエリ、他の関心度の高い項目への近接度など）の両方に基づいて、情報コンテンツのスコアを計算し、DOIスコアが動的に更新され、関連する未見のデータが表示されたり、無関係な詳細が非表示になったりします。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;切り口&lt;/strong&gt;…分析者が異なる視点からデータを見ることができるようにするために、切り口を変えること。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;スモール・マルティプル(small multiples)&lt;/li&gt;
+&lt;li&gt;トレリス・プロット(trellis plots)&lt;/li&gt;
+&lt;li&gt;ブラッシングとリンク (Brushing and linking)&lt;/li&gt;
+&lt;li&gt;凡例と軸&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;リンク選択は、アナリストがあるビューのパターンが他のビューにどのように投影されるかを評価できるようにすることで、豊かで多次元的な推論を可能にします。&lt;/p&gt;
+&lt;p&gt;凡例、ヒストグラム・スライダ、ハイライト・マーカー付きスクロールバーなどの付随するアイテムはすべて、データの複数のビューを提供することができます。&lt;/p&gt;
+&lt;p&gt;凡例と軸は、カラーパレット、マーカー属性、変数範囲、または出自情報を変更するためのコントロールパネルにもなります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;管理&lt;/strong&gt;…可視化のコレクションを管理されること。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ツリー表示を追加することで、複数の可視化を一度に作成できるようにする&lt;/li&gt;
+&lt;li&gt;ビューが追加または削除されたときの自動（再）サイジング&lt;/li&gt;
+&lt;li&gt;関連するビューを空間的に近接して配置するためのレイアウト・ルーチン&lt;/li&gt;
+&lt;li&gt;標準的な散布図マトリックスや、関心のある関連ビュー（例えば、可視化された属性と相関のあるデータ変数）のカスタム生成&lt;/li&gt;
+&lt;li&gt;複数のウィンドウをグループとして開閉できるようにし、それらを整然と並べる自動化サポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;複数の可視化を同時に探索する際に、すべての情報とセレクタを一度に見ることができたり、気が散るスクロールやウィンドウ操作が自動的に最小限に抑えられることで、洞察の抽出とレポート作成に集中することができます。&lt;/p&gt;
+&lt;p&gt;大型化・マルチディスプレイが一般的になるにつれ、レイアウト整理ツールは、効果的なユーザー・エクスペリエンスを生み出す上で決定的な要素となるでしょう。&lt;/p&gt;
+&lt;h3 id=&#34;分析プロセスと出自analysis-process-and-provenance-1&#34;&gt;分析プロセスと出自(analysis process and provenance)
+&lt;/h3&gt;&lt;p&gt;記録(record)、注釈(annotate)、共有(share)、ガイド(guide)が挙げられています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;記録&lt;/strong&gt;…アナリストのインタラクション履歴を記録して可視化することができる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ユーザーアクションの空間（ビューの仕様、ソート、フィルタリング、ズームなど）をモデル化することで、よりリッチなログを構築し、可視化することができる。&lt;/li&gt;
+&lt;li&gt;視覚的な履歴は、分岐した履歴の階層的なパターンも明らかにする。&lt;/li&gt;
+&lt;li&gt;関連するアクションを一緒に「チャンキング」するためのテクニックは、さらに乱雑さを減らすことができる。&lt;/li&gt;
+&lt;li&gt;コメント、タグ、評価などのメタデータを状態に追加することで、後のレビューや共有を容易にすることができる。&lt;/li&gt;
+&lt;li&gt;インタラクティブな履歴は、繰り返し可能な一連の操作をキャプチャし、名前を付けて再利用可能なマクロとして保存することもできる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;分析を行った後、分析者はその結果をレビューし、要約し、報告書やプレゼンテーションの形で伝える必要がある場合があるため。&lt;/p&gt;
+&lt;p&gt;マウスやキーボードのイベントなどの低レベルの入力は簡単にキャプチャできますが、高レベルのセマンティックなアクションを記録すると、履歴はより価値のあるものになる。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;注釈&lt;/strong&gt;（アノテーション）…ビジュアルヒストリー内の状態のテキスト注釈を可能にすること。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可視化内の特定の項目や領域を「ポイント」して、これらのアノテーションを説明テキストや他のビューへのリンクと関連付ける。&lt;/li&gt;
+&lt;li&gt;自由形式の図形注釈だと、該当する集まりの周りに円を描いたり、グラフのピークに矢印を指し示したりすることで、視聴者の注意を向けることができる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;矢印の角度や色、手描きの円の形は、感情を伝える手がかりとなったり、強調を加えたりすることができる。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;共有&lt;/strong&gt;…分析者本人以外の複数へビューやデータを共有し、複数の解釈、議論、結果の普及を伴う社会的プロセスを実行する。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最低限、ビュー（png、jpg、pptなど）またはデータサブセット（csv、json、xlsなど）をエクスポートして、共有と再検討ができるようにしなければならない。&lt;/li&gt;
+&lt;li&gt;ビューやデータだけでなはなく、ツールの内部状態をモデル化してエクスポートし、他者が続きを探索できるようにする。&lt;/li&gt;
+&lt;li&gt;可視化ダッシュボードをインタラクティブなWebページとして公開すること。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;ガイド&lt;/strong&gt;…新規参入者をガイドし、専門家に進捗指標を提供するために、ガイドを提供する。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新規参入者をガイドする。&lt;/li&gt;
+&lt;li&gt;専門家に進捗指標を提供する。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>情報可視化におけるインタラクション技術の分類法</title>
+        <link>https://example.com/infovis-interaction-taxonomy/</link>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/infovis-interaction-taxonomy/</guid>
+        <description>&lt;img src="https://example.com/infovis-interaction-taxonomy/images/thumb_ph_vizjp.png" alt="Featured image of post 情報可視化におけるインタラクション技術の分類法" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/4376144&#34;  title=&#34;https://ieeexplore.ieee.org/document/4376144&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ji Soo Yiら(2007)&lt;/a&gt;が、情報可視化の分野でインタラクション技術の検討に関連する分類法を提案している研究をサーベイし、とりまとめています。&lt;/p&gt;
+&lt;p&gt;大きく以下の４つに分類できるとしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;低レベルなインタラクション技術の分類&lt;/li&gt;
+&lt;li&gt;インタラクション技術の分類学的次元&lt;/li&gt;
+&lt;li&gt;インタラクション操作の分類&lt;/li&gt;
+&lt;li&gt;ユーザータスクの分類法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;その上でインタラクション技術を記述するための粒度が様々で、包括的な分類法を定義することが難しいのではないか、としています。&lt;/p&gt;
+&lt;h3 id=&#34;低レベルなインタラクション技術の分類&#34;&gt;低レベルなインタラクション技術の分類
+&lt;/h3&gt;&lt;h5 id=&#34;shneiderman-1996&#34;&gt;Shneiderman (1996)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;Overview&lt;/li&gt;
+&lt;li&gt;zoom&lt;/li&gt;
+&lt;li&gt;filter&lt;/li&gt;
+&lt;li&gt;details-on-demand&lt;/li&gt;
+&lt;li&gt;relate&lt;/li&gt;
+&lt;li&gt;history&lt;/li&gt;
+&lt;li&gt;extract&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;buja-cook-and-swayne-1996&#34;&gt;Buja, Cook, and Swayne (1996)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;フォーカシング（[投影、アスペクト比、ズーム、パン]の選択、[変数、順序、スケール、スケールアスペクト比、アニメーション、3次元回転]の選択）&lt;/li&gt;
+&lt;li&gt;リンク（条件付けとしてのブラッシング／分割／データベースクエリ）&lt;/li&gt;
+&lt;li&gt;ビューの配置（散布図行列、条件付きプロット）の選択&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;chuah-and-roth-1996&#34;&gt;Chuah and Roth (1996)
+&lt;/h5&gt;&lt;p&gt;基本的な可視化インタラクション（BVI）操作：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;グラフィカル操作（データのエンコード、グラフィカルな値の設定、オブジェクトの操作）&lt;/li&gt;
+&lt;li&gt;セット操作（セットの作成、セットの削除、セットの要約、その他）&lt;/li&gt;
+&lt;li&gt;データ操作（追加、削除、派生属性、その他）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;dix-and-ellis-1998&#34;&gt;Dix and Ellis (1998)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;ハイライトとフォーカス&lt;/li&gt;
+&lt;li&gt;追加情報へのアクセス - ドリルダウンとハイパーリンク&lt;/li&gt;
+&lt;li&gt;概要とコンテキスト&lt;/li&gt;
+&lt;li&gt;同じ表現／パラメータの変更&lt;/li&gt;
+&lt;li&gt;同じデータ／表現の変更&lt;/li&gt;
+&lt;li&gt;表現のリンク - 時間的融合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;keim-2002&#34;&gt;Keim (2002)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;ダイナミックプロジェクション&lt;/li&gt;
+&lt;li&gt;インタラクティブなフィルタリング&lt;/li&gt;
+&lt;li&gt;インタラクティブなズーム&lt;/li&gt;
+&lt;li&gt;インタラクティブなディストーション&lt;/li&gt;
+&lt;li&gt;インタラクティブなリンクとブラッシング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;wilkinson-2005&#34;&gt;Wilkinson (2005)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;フィルタリング（カテゴリ/連続/複数/高速フィルタリング）&lt;/li&gt;
+&lt;li&gt;ナビゲート（ズーム/パンニング/レンズ）&lt;/li&gt;
+&lt;li&gt;操作（ノードドラッグ/カテゴリの並び替え）&lt;/li&gt;
+&lt;li&gt;ブラッシングとリンク（ブラシ形状/ブラシロジック/高速ブラッシング）&lt;/li&gt;
+&lt;li&gt;アニメーション（フレームアニメーション）&lt;/li&gt;
+&lt;li&gt;回転&lt;/li&gt;
+&lt;li&gt;変形（仕様/アセンブリ/表示/タップ/2タップ/3タップ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;インタラクション技術の分類学的次元&#34;&gt;インタラクション技術の分類学的次元
+&lt;/h3&gt;&lt;h5 id=&#34;tweedie-1997&#34;&gt;Tweedie (1997)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;インタラクションの種類（手動、機械化、指示可能、操舵可能、自動）&lt;/li&gt;
+&lt;li&gt;直進性（直接・間接操作 ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;spence-2007&#34;&gt;Spence (2007)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;相互作用モード（連続的、段階的、受動的、複合的相互作用）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;インタラクション操作の分類&#34;&gt;インタラクション操作の分類
+&lt;/h3&gt;&lt;h5 id=&#34;ward-and-yang-2004&#34;&gt;Ward and Yang (2004)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;インタラクション演算子（ナビゲーション、選択、歪み）&lt;/li&gt;
+&lt;li&gt;インタラクション空間（スクリーン空間、データ値空間、データ構造空間、属性空間、オブジェクト空間、可視化構造空間）&lt;/li&gt;
+&lt;li&gt;インタラクションパラメータ（フォーカス、エクステント、変換、およびblender）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;ユーザータスクの分類法&#34;&gt;ユーザータスクの分類法
+&lt;/h3&gt;&lt;h5 id=&#34;zhou-and-feiner-1998&#34;&gt;Zhou and Feiner (1998)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;関連性のある視覚タスク（関連付け、背景、分類、クラスター化、比較、相関、区別、強調、一般化、識別、位置特定、ランク付け、明らかに、切り替え）&lt;/li&gt;
+&lt;li&gt;直接的な視覚的整理とエンコーディングタスク（エンコード）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;amar-eagan-and-stasko-2005&#34;&gt;Amar, Eagan, and Stasko (2005)
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;値の取得&lt;/li&gt;
+&lt;li&gt;フィルタリング&lt;/li&gt;
+&lt;li&gt;派生値の計算&lt;/li&gt;
+&lt;li&gt;極値の検索&lt;/li&gt;
+&lt;li&gt;ソート&lt;/li&gt;
+&lt;li&gt;範囲の決定&lt;/li&gt;
+&lt;li&gt;分布の特徴付け&lt;/li&gt;
+&lt;li&gt;異常値の検索&lt;/li&gt;
+&lt;li&gt;クラスタ化&lt;/li&gt;
+&lt;li&gt;相関関係&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

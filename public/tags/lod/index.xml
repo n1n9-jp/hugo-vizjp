@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>lod on Visualizing.JP</title>
+        <link>https://example.com/tags/lod/</link>
+        <description>Recent content in lod on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Fri, 08 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/lod/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linked Data</title>
+        <link>https://example.com/linked-data/</link>
+        <pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/linked-data/</guid>
+        <description>&lt;img src="https://example.com/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
+&lt;table class=&#34;table-single&#34;&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;★&lt;/th&gt;&lt;td&gt;(どんな形式でも良いので) あなたのデータをオープンライセンスでWeb上に公開しましょう&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★&lt;/th&gt;&lt;td&gt;データを構造化データとして公開しましょう (例: 表のスキャン画像よりもExcel)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★&lt;/th&gt;&lt;td&gt;非独占の形式を使いましょう (例: ExcelよりもCSV)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★&lt;/th&gt;&lt;td&gt;物事を示すのにURIを使いましょう，そうすることで他の人々があなたのデータにリンクすることができます&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★★&lt;/th&gt;&lt;td&gt;あなたのデータのコンテキストを提供するために他のデータへリンクしましょう&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://5stardata.info/ja/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;5 ★ オープンデータ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これはとてもキャッチーさを狙った図で、これの元にあるコンセプトはLinked Dataというもので、TEDやGov2.0 Expoなどでも本人が講演し、その必要性を訴えています。Raw Data Now!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2009年TED「ティム・バーナーズ＝リーが示す次のウェブ」&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.youtube.com/watch?v=ga1aSJXCFe0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2010 Gov2.0 Expo &amp;ldquo;Open, Linked Data for a Global Community&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Linked Dataとは「構造化されたデータをWeb上で相互にリンクづけして、それらを公開できる一連のしくみを提供する実践的方法」（近代科学社「Linked Data」より）とのこと。&lt;/p&gt;
+&lt;p&gt;今年（2013年）2月に訳書が出たこちらで詳しく論じられています。 [amazonjs asin=&amp;ldquo;4764904276&amp;rdquo; locale=&amp;ldquo;JP&amp;rdquo; title=&amp;ldquo;Linked Data: Webをグローバルなデータ空間にする仕組み&amp;rdquo;]&lt;/p&gt;
+&lt;p&gt;最近ではLinked Open Dataというように、Linked DataとOpen Dataを合わせて語られることもありますが、Open Dataは「データを配布する際に一定のライセンスを適用することによって，データの消費者が自由にアクセスや再利用，再配布をすることを可能」とすることで、Linked Dataは、「Linked Dataは構造化データを適切に公開・共有するためのWeb技術」で、これらを一体的な取り組みとして表現した言葉がLinked Open Dataといえそうです。 （上記定義はいずれも&lt;a class=&#34;link&#34; href=&#34;http://www.ai-gakkai.or.jp/my-bookmark_vol28-no5/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;加藤文彦氏のLinked Open Data&lt;/a&gt;より引用）&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

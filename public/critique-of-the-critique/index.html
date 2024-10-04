@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視">
+<title>データ可視化への批評への批評への批評</title>
+
+<link rel='canonical' href='https://example.com/critique-of-the-critique/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="データ可視化への批評への批評への批評">
+<meta property='og:description' content="数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視">
+<meta property='og:url' content='https://example.com/critique-of-the-critique/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='covid-19' /><meta property='article:published_time' content='2020-07-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-07-20T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/critique-of-the-critique/images/coronavirus_georgia.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="データ可視化への批評への批評への批評">
+<meta name="twitter:description" content="数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/critique-of-the-critique/images/coronavirus_georgia.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/critique-of-the-critique/">
+                <img src="/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_800x0_resize_box_3.png"
+                        srcset="/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_800x0_resize_box_3.png 800w, /critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="403" 
+                        loading="lazy"
+                        alt="Featured image of post データ可視化への批評への批評への批評" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                consume
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/critique-of-the-critique/">データ可視化への批評への批評への批評</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 20, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。</p>
+<p><img src="/critique-of-the-critique/images/coronavirus_georgia.png"
+	width="2034"
+	height="1024"
+	srcset="/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_480x0_resize_box_3.png 480w, /critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="198"
+		data-flex-basis="476px"
+	
+></p>
+<p>「最初（左）のマップは7月2日、二番目（右）は今日（7月17日）です。50％の増加が見えますか？どうやって隠しているか分かりますか？」</p>
+<figure>
+<p><img src="/critique-of-the-critique/images/coronavirus_georgia2.png"
+	width="1826"
+	height="2028"
+	srcset="/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_480x0_resize_box_3.png 480w, /critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="90"
+		data-flex-basis="216px"
+	
+></p>
+<figcaption>
+<p><a class="link" href="https://web.archive.org/web/20200720003152/https://twitter.com/andishehnouraee/status/1284237474831761408"  target="_blank" rel="noopener"
+    >https://web.archive.org/web/20200720003152/https://twitter.com/andishehnouraee/status/1284237474831761408</a><br>
+（現在ツイートは、投稿者により非公開もしくは削除になっており、下記はいわゆる魚拓サイトへのリンクです）</p>
+</figcaption>
+</figure>
+<p>地図画像の下半分にある、データ着色のルール、つまり凡例に注目すると、凡例のルールが7月2日と17日で変わってしまっており、そのことによって、赤で表示される地域を過小評価されることを意図した改変ではないか、ということでした。</p>
+<p>こういった、地図におけるデータ値を視覚要素へ変換する際の<strong>数値の幅によるグルーピング</strong>のことを、**階級分類（英語ではClassification）**といいます。ヒストグラムにおけるビン（bin）は、それよりも小さい単位です。1階級に複数のビンが含まれるようなイメージです。</p>
+<p>今となっては元ツイートが非表示もしくは削除されてしまっているので、Twitter上でのリプライにどんなものがあったのか、わかりません。</p>
+<p>五年前から**<a class="link" href="https://policyviz.com/"  target="_blank" rel="noopener"
+    >PolicyViz</a><strong>という個人ブログサイトを運営しているJonathan Schwabishが、</strong><a class="link" href="https://policyviz.com/2020/07/19/critiquing-a-data-visualization-critique/"  target="_blank" rel="noopener"
+    >”Critiquing a Data Visualization Critique” （データ可視化批評を批評する）</a>**と題して、件のツイートを批判する内容の記事を掲載しています。これを読むと、ツイートに対してヒステリックな反応が大量にあったことが伺えます。</p>
+<p>彼の論点整理によると、件のツイートの内容を以下の二つに整理しています。</p>
+<ul>
+<li>1.データの可視化は、ビンが変化している（筆者注：階級分類のこと）ため、州全体でのケースの増加を覆い隠しており、正しくなく、誤解を招くものである。</li>
+<li>2.可視化を作成した人の意図は、意図的に誤解を招くようなことをした。</li>
+</ul>
+<p>これに対して彼自身はこう反論しています。</p>
+<ul>
+<li>1.データ可視化提供者は地図を並べて表示しておらず、時系列に比較することを意図していない。</li>
+<li>2.一般的に、私が不適切なデータや誤解を招くようなデータ可視化に出くわした場合、それが間違いか知識不足によるものだと考える。もちろん、明らかに誤解を与えようとしている、あるいは誤解を与えようとしているビジュアルの例は数多くあり、GDPH（Georgia Department of Public Health&hellip;件のサイトのこと）も例外ではない。</li>
+</ul>
+<p>その上で、階級分類の操作はツールが自動的に行ってしまうことがあり、別な人のツイートを参照し、たとえばTableauでは最小値・最大値にあわせて自動的に階級分類が調整されることが語られています。</p>
+<p><a class="link" href="https://twitter.com/ugamarkj/status/1284486596235071489"  target="_blank" rel="noopener"
+    >https://twitter.com/ugamarkj/status/1284486596235071489</a></p>
+<p>これらを全部読んだ上での私の個人的な意見は、2はほぼ同意見ですが、1については、あまり同意できません。階級分類が動的に変わってしまうのはツールの仕様だとしても、<strong>誤解を招く恐れ</strong>があります。<strong>理由なくコロコロ変更すべきではありません</strong>。Tableauであってもツールの設定、たとえば最小値・最大値を決め打ちの固定値にしてしまえば避けられるはずです（多分）。</p>
+<p>またこのデータ可視化提供者が地図の比較を掲載せず、また意図していなかったとしても、閲覧者がキャプチャをとって、<strong>地理的特性と時系列特性を同時に観て把握したいと思うのは自然な欲求</strong>であり、これを否定することは過剰反応であると思います。</p>
+<p>元ツイートに対するSNS上での反響を全くみていないのですが、少し感情的になってしまっているようにも思えます。**<a class="link" href="https://policyviz.com/"  target="_blank" rel="noopener"
+    >PolicyViz</a>**は志もって運営している良質なサイトだという印象は今も変わりません。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/covid-19/">covid-19</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/covid-symptom-upset/">
+        
+        
+            <div class="article-image">
+                <img src="/covid-symptom-upset/images/_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_320bd37dc6f0ae51e6815444271afecb.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合"
+                        data-key="covid-symptom-upset" 
+                        data-hash="md5-/J0zo/1hrKdcKWF0x8006g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/design-guideline/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">デザイン・ガイドラインにおけるデータ可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/nightingale-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/nightingale-chart/images/Nightingale-mortality.295672a0541ff5725d2d1266ed9b662f_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ナイチンゲールによる「鶏冠」チャート"
+                        data-key="nightingale-chart" 
+                        data-hash="md5-KVZyoFQf9XJdLRJm7ZtmLw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ナイチンゲールによる「鶏冠」チャート</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/reischauer-cartogram/">
+        
+        
+            <div class="article-image">
+                <img src="/reischauer-cartogram/images/_hu08c47789ca02f1ae9dfc2be7d5ffca10_987927_39d79e580370a486aa257b8f04b64a63.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図"
+                        data-key="reischauer-cartogram" 
+                        data-hash="md5-8mpvjj8jR64iVq33wf452Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/corona-finviz-map/">
+        
+        
+            <div class="article-image">
+                <img src="/corona-finviz-map/images/finviz_red-2048x1507.1e19b5eaf79cab6d66c16419845da85c_hu40bcc1ffe8c41c55d271f352acf57562_1336178_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post コロナ禍による凡例の破綻"
+                        data-key="corona-finviz-map" 
+                        data-hash="md5-Hhm16vecq21mwWQZhF2oXA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">コロナ禍による凡例の破綻</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

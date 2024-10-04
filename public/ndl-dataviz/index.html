@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。">
+<title>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</title>
+
+<link rel='canonical' href='https://example.com/ndl-dataviz/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="国立国会図書館 初のデータビジュアライゼーションイベントが開催されます">
+<meta property='og:description' content="AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。">
+<meta property='og:url' content='https://example.com/ndl-dataviz/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NDL' /><meta property='article:tag' content='ハッカソン' /><meta property='article:published_time' content='2016-07-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2016-07-13T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/ndl-dataviz/images/ndl2016-1-1.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="国立国会図書館 初のデータビジュアライゼーションイベントが開催されます">
+<meta name="twitter:description" content="AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/ndl-dataviz/images/ndl2016-1-1.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#国会図書館にはデータがたくさん">国会図書館にはデータがたくさん</a></li>
+    <li><a href="#データを探しだそう">データを探しだそう</a></li>
+    <li><a href="#たとえば">たとえば…?</a></li>
+    <li><a href="#都道府県どう並べる">都道府県、どう並べる？</a></li>
+    <li><a href="#つながりを視覚化してみる">つながりを視覚化してみる</a>
+      <ol>
+        <li><a href="#円状">円状</a></li>
+        <li><a href="#一直線">一直線</a></li>
+        <li><a href="#地図っぽく">地図っぽく</a></li>
+      </ol>
+    </li>
+    <li><a href="#ツール紹介">ツール紹介</a>
+      <ol>
+        <li><a href="#tableau-public">Tableau Public</a></li>
+        <li><a href="#raw">RAW</a></li>
+        <li><a href="#インフォグラム">インフォグラム</a></li>
+        <li><a href="#d3js">D3.js</a></li>
+        <li><a href="#qgis">QGIS</a></li>
+      </ol>
+    </li>
+    <li><a href="#ハッカソンに参加しよう">ハッカソンに参加しよう</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/ndl-dataviz/">
+                <img src="/ndl-dataviz/images/ndl2016-1-1_hu3115a5621d719277c6d14376d61aae21_1753555_800x0_resize_box_3.png"
+                        srcset="/ndl-dataviz/images/ndl2016-1-1_hu3115a5621d719277c6d14376d61aae21_1753555_800x0_resize_box_3.png 800w, /ndl-dataviz/images/ndl2016-1-1_hu3115a5621d719277c6d14376d61aae21_1753555_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/event/" >
+                event
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/ndl-dataviz/">国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 13, 2016</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。</p>
+<h2 id="国会図書館にはデータがたくさん">国会図書館にはデータがたくさん
+</h2><p>国会図書館には収蔵している書籍に関するデータもあるのですが、今回は「ウェブサイト」がテーマとなっています。
+国会図書館では、15年前よりウェブページのアーカイブをおこなっており、その結果はWARPというウェブサービスとして公開されています。</p>
+<p><a class="link" href="http://warp.da.ndl.go.jp/"  target="_blank" rel="noopener"
+    >Warp – 国立国会図書館インターネット資料収集保存事業</a></p>
+<h2 id="データを探しだそう">データを探しだそう
+</h2><p>今回はこれらの中から、地方自治体ウェブサイトのメタデータなどを使って、データ・ビジュアライゼーションを行います。今回のイベント専用に、データ取得サイトを用意しています。ヤフーなどで検索するように、検索した結果をデータセットとして取り出すことが可能となっています。APIを扱うエンジニア・スキルは今回必要ありません。
+地方自治体というとちょっと硬そうですが、私達の出身地や今住んでいる場所についての個性がここからわかってくるかもしれません。</p>
+<h2 id="たとえば">たとえば…?
+</h2><p>都道府県同士の関係性に注目してみましょう。都道府県それぞれのサイトから、他の都道府県サイトへ、どのくらいリンクが張られているでしょうか。またそこには何らかの偏りがあるでしょうか。昔と今とで何か違いがあるでしょうか。</p>
+<h2 id="都道府県どう並べる">都道府県、どう並べる？
+</h2><p>グラフの種類が…とか、ツールが…と考える前に自由に発想してみましょう。
+円状に並ぶと、かわいいですね。</p>
+<p><img src="/ndl-dataviz/images/ndl_dot_circle.png"
+	width="823"
+	height="823"
+	srcset="/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<p>一直線に並べてみたり。</p>
+<p><img src="/ndl-dataviz/images/ndl_dot_line.png"
+	width="823"
+	height="823"
+	srcset="/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<p>地図っぽく並べてみたり。</p>
+<p><img src="/ndl-dataviz/images/ndl_dot_map.png"
+	width="823"
+	height="823"
+	srcset="/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<h2 id="つながりを視覚化してみる">つながりを視覚化してみる
+</h2><p>それではこれらを使って、都道府県同士のつながりを線で表現してみましょう。つながりが強いほど太い線で表してみます。またつながりの質によって色を変えてみることにします。</p>
+<h3 id="円状">円状
+</h3><p>円状に置いた都道府県同士を曲線でつないでいます。またつながりが多い都道府県ほど、弧の長さが長くなっています。</p>
+<p><img src="/ndl-dataviz/images/ndl_all.png"
+	width="848"
+	height="783"
+	srcset="/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="259px"
+	
+></p>
+<p>ここでは静止画でいくつかの都道府県にフォーカスしてみましょう。</p>
+<p>八方美人な北海道</p>
+<p><img src="/ndl-dataviz/images/ndl_hokkaido.png"
+	width="848"
+	height="783"
+	srcset="/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="259px"
+	
+></p>
+<p>たくさんの都道府県にまんべんなくエールを送る、そつのない北海道。</p>
+<p>関東エリアと大阪のみの東京</p>
+<p><img src="/ndl-dataviz/images/ndl_tokyo.png"
+	width="848"
+	height="783"
+	srcset="/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="259px"
+	
+></p>
+<p>意外と付き合いの範囲が狭い東京（汗）。</p>
+<p>自由奔放な長崎</p>
+<p><img src="/ndl-dataviz/images/ndl_nagasaki.png"
+	width="848"
+	height="783"
+	srcset="/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_480x0_resize_box_3.png 480w, /ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="259px"
+	
+></p>
+<p>長崎さん。自由すぎます（笑）。おつきあいの内容が気になります。</p>
+<p>これは国会図書館で公開している可視化のサンプルでもあります。国会図書館サイト上で見ていただくと、他の都道府県の様子もみることができます。</p>
+<p><a class="link" href="http://warp.da.ndl.go.jp/contents/reccommend/collection/preflink.html"  target="_blank" rel="noopener"
+    >都道府県サイトのリンク関係</a></p>
+<h3 id="一直線">一直線
+</h3><p>この例は筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。</p>
+<p><img src="/ndl-dataviz/images/NDL2_v.png"
+	width="1094"
+	height="2175"
+	srcset="/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_480x0_resize_box_3.png 480w, /ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="50"
+		data-flex-basis="120px"
+	
+></p>
+<h3 id="地図っぽく">地図っぽく
+</h3><p>この例も筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。日本列島を描かずに、日本を浮かび上がらせたらと思いました。</p>
+<p><img src="/ndl-dataviz/images/NDL1.png"
+	width="1119"
+	height="1654"
+	srcset="/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_480x0_resize_box_3.png 480w, /ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="67"
+		data-flex-basis="162px"
+	
+></p>
+<p>これらはすべて同じデータを元にしたものです（フォーマットは少し異なります）。同じデータからであっても、このように色々な表現が可能なことがおわかりいただけるかと思います。</p>
+<h2 id="ツール紹介">ツール紹介
+</h2><h3 id="tableau-public">Tableau Public
+</h3><p>パソコンにインストールするソフトウェア。数十万円するソフトウェアですが、Publicヴァージョンを利用すると無償です。制作したものをウェブで公開することを条件に、無償となっています。</p>
+<p><a class="link" href="https://public.tableau.com/"  target="_blank" rel="noopener"
+    >Tableau Public</a></p>
+<h3 id="raw">RAW
+</h3><p>ブラウザ上でチャートを作成できるツール。ダウンロードし、イラストレータで加工する、といった使い方が可能です。</p>
+<p><a class="link" href="http://raw.visualizing.jp/"  target="_blank" rel="noopener"
+    >RAW</a></p>
+<h3 id="インフォグラム">インフォグラム
+</h3><p>ブラウザ上でチャートを作成できるツール。</p>
+<p><a class="link" href="http://infogr.am/"  target="_blank" rel="noopener"
+    >インフォグラム</a></p>
+<h3 id="d3js">D3.js
+</h3><p>今回の「一直線」、「地図っぽく」の例のように、一から好きなようにコーディングで作るにはこのライブラリを利用します。</p>
+<p><a class="link" href="https://d3js.org/"  target="_blank" rel="noopener"
+    >D3.js</a></p>
+<h3 id="qgis">QGIS
+</h3><p>パソコンにインストールするソフトウェア。無償。地図上にてデータを可視化するのが得意です。</p>
+<p><a class="link" href="http://www.qgis.org/ja/site/"  target="_blank" rel="noopener"
+    >QGIS</a></p>
+<h2 id="ハッカソンに参加しよう">ハッカソンに参加しよう
+</h2><p>ツールは一部難しいものはありますが、しばらく使えばなれてしまうことと思います。また不明点は会場で教えてもらうことも可能となっています。
+今回のハッカソンでは、都道府県の特徴や関係性を、データベースから如何に探すか、という面白さがあると思います。
+名産物の単語がどのくらい含まれているのか？　方言は？　
+また他のデータを同時に扱うことで、これまでわからなかった特徴が浮かび上がってくるかもしれません。
+ウェブサイトの大きさと人口に関係はあるのか？　人口が減っていく地方自治体のサイトに共通の予兆はあるのか？　自治体の広報予算とウェブサイトの大きさに関係性は見いだせるのか。
+パッと思いついたものだけ上げましたが、ここのアイディア次第で、面白い作品が作れると思います。
+ツールを使いこなして、データから何かを発見する。お互いの成果をみることも、ためになるし、面白い体験になると思います。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/ndl/">NDL</a>
+        
+            <a href="/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/">ハッカソン</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/transcriber/">
+        
+        
+            <div class="article-image">
+                <img src="/transcriber/images/fi_Transcribe.57958a6687f35e5e5b20807494d76ff8_hudc6154b5ec2adacb87933841f494e26d_67519_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介"
+                        data-key="transcriber" 
+                        data-hash="md5-V5WKZofzXl5bIIB0lNdv&#43;A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/openvisconf-2014-johnresig/">
+        
+        
+            <div class="article-image">
+                <img src="/openvisconf-2014-johnresig/images/_hu312edcae709ff7ca80989d2ffb67b733_1034778_1d2f9e801a8a16bdb3bb96e3327ba802.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post [OpenVis Conf 2014] John Resig講演"
+                        data-key="openvisconf-2014-johnresig" 
+                        data-hash="md5-jTAtpqLNiVqR8Y&#43;A55cSmQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[OpenVis Conf 2014] John Resig講演</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/d3-unconf-2014-2/">
+        
+        
+            <div class="article-image">
+                <img src="/d3-unconf-2014-2/images/fi_D3Conf2014-2.9fd77eab616353127c049122fb3da220_hue855206e847b7b846237050f84373b71_630472_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post d3.unconfレポート[後篇]"
+                        data-key="d3-unconf-2014-2" 
+                        data-hash="md5-n9d&#43;q2FjUxJ8BJEi&#43;z2iIA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">d3.unconfレポート[後篇]</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/d3-unconf-2014-1/">
+        
+        
+            <div class="article-image">
+                <img src="/d3-unconf-2014-1/images/fi_D3Conf2014-1.e5d89e4cae8fac4d35793ca85de83e96_hud7f06c84c623cb4c177d4b1a4e0d0611_402596_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post d3.unconfレポート[前篇]"
+                        data-key="d3-unconf-2014-1" 
+                        data-hash="md5-5dieTK6PrE01eTyoXeg&#43;lg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">d3.unconfレポート[前篇]</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

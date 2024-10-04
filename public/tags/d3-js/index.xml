@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>d3-js on Visualizing.JP</title>
+        <link>https://example.com/tags/d3-js/</link>
+        <description>Recent content in d3-js on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/d3-js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
+        <link>https://example.com/d3-flexbox/</link>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-flexbox/</guid>
+        <description>&lt;img src="https://example.com/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsを利用して、SVGではなくCSS3のFlexboxを利用したチャート描画のスタディを行っていた記事&lt;/a&gt;をご紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  title=&#34;https://d3js.org/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js&lt;/a&gt;は、可視化の自由度に注目がいきますが、ライブラリとして評価されているところはブラウザ上での可視化に必要な機能が一通りライブラリとして整備されていることで、たとえば「ヒストグラムのビンの計算といった統計的な基礎の計算」が行えたり、「様々な形式のデータファイルを非同期的に読み込んで可視化する際に扱いやすい多次元配列を内包するJSON形式に変換（RやPythonでいうところのデータフレームのようなもの）」したり、といったことが含まれます。&lt;/p&gt;
+&lt;p&gt;D3.jsを用いると、SVGだけでなく、HTML上のフォーム要素（例：ラジオボタンやチェックボックス）などもデータドリブンに生成することが可能です。データ可視化におけるフォーム要素は「データと描画」もしくは「描画のみ」を操作するために利用されますから、可視化そのもの同様に、データドリブンに生成・変更できる必要があります。&lt;/p&gt;
+&lt;p&gt;このD3.jsの機能を利用して、レイアウト指定がトリッキーな、積み重ね棒グラフなどについて、SVGを用いずにCSSのFlexbox機能を使って実装してみた、というのが紹介する記事ということになります。&lt;/p&gt;
+&lt;h3 id=&#34;css3のflexboxって何だっけ&#34;&gt;CSS3のFlexboxって何だっけ
+&lt;/h3&gt;&lt;p&gt;ユーザーインターフェイスデザイン用に最適化された、&lt;a class=&#34;link&#34; href=&#34;https://www.w3.org/TR/css-flexbox/&#34;  title=&#34;https://www.w3.org/TR/css-flexbox/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CSS3で採用されたWeb標準のレイアウトモデル&lt;/a&gt;です。あるコンテナのアイテム内のレイアウトの最適化に向いています。以下のようなことが実現できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任意の方向にレイアウト&lt;/li&gt;
+&lt;li&gt;サイズを「フレックス」して、未使用のスペースを埋めるために拡大するか、親のオーバーフローを回避するために縮小する&lt;/li&gt;
+&lt;li&gt;水平方向と垂直方向の両方の配置を操作&lt;/li&gt;
+&lt;li&gt;コンテナ内のアイテムをネスト（水平内側垂直、または垂直内側水平）させて、2次元のレイアウトを作成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;結果は&#34;&gt;結果は…
+&lt;/h3&gt;&lt;p&gt;具体的な成果についてはそれほど長い記事でもないので&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;リンク先の元記事を参照&lt;/a&gt;してもらえればと思いますが、矩形（四角形）の幾何図形を用いて、整列を柔軟に行うことができる、という性質を利用すれば、使い所がありそうです。SVGの空間座標が左上が(0,0)、右下がたとえば(100,100)といった座標系ですから、下から上へ積み上げる系のチャート描画の計算には一苦労します。そういった実装をする際の、非直感的な座標指定の気持ち悪さを解消する、といった感じでしょうか。&lt;/p&gt;
+&lt;p&gt;それ以外でも、今すぐパッとは思いつきませんが、これまでのチャートやグラフとは少し違った独自の可視化表現を探る際に、実装の手数の一つとして覚えておいていいかもしれません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
+        <link>https://example.com/responsive-d3/</link>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/responsive-d3/</guid>
+        <description>&lt;img src="https://example.com/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
+&lt;/h3&gt;&lt;p&gt;最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。&lt;br&gt;
+D3.jsでなにかを作る際、ワンソースで多様な閲覧環境に対応するための、レスポンシブ・レイアウト対応方法の一つを以下に紹介します。&lt;/p&gt;
+&lt;h3 id=&#34;d3jsはsvgを使っている&#34;&gt;D3.jsはSVGを使っている
+&lt;/h3&gt;&lt;p&gt;そこで、SVGが標準でサポートしている属性を使います。&lt;br&gt;
+個別の要素の大きさをすべて調整するのは大変なので、一番親要素のSVGの大きさを変更することで対応することにします。&lt;/p&gt;
+&lt;h3 id=&#34;viewboxとpreserveaspectratioの設定&#34;&gt;viewBoxとpreserveAspectRatioの設定
+&lt;/h3&gt;&lt;p&gt;viewBoxとpreserveAspectRatioという属性の設定をします。&lt;br&gt;
+これはSVGが拡大表示されたときの振る舞いを決定するものです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://codepen.io/itakurara/post/svg-viewbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SVGのviewBox属性が分かり辛い&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.hcn.zaq.ne.jp/___/SVG11-2nd/coords.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;座標系, 変換, 単位 – SVG 1.1 （第２版）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.attr(&amp;#34;viewBox&amp;#34;, &amp;#34;0 0 960 400&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.attr(&amp;#34;preserveAspectRatio&amp;#34;, &amp;#34;xMidYMid&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;viewBoxの値は、&amp;ldquo;0 0 width height&amp;rdquo; とします（widthとheightは整数）。&lt;br&gt;
+preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中央値を、ビューポートのX/Yの中央値に揃えることになります。&lt;/p&gt;
+&lt;h3 id=&#34;ウインドウサイズが変更した際にsvgの大きさも変更する&#34;&gt;ウインドウサイズが変更した際に、SVGの大きさも変更する
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;var chart = $(&amp;#34;#chart&amp;#34;),
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;container = chart.parent();
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$(window).on(&amp;#34;resize&amp;#34;, function() {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;var targetWidth = container.width();
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chart.attr(&amp;#34;width&amp;#34;, targetWidth);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chart.attr(&amp;#34;height&amp;#34;, Math.round(targetWidth / aspect));
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}).trigger(&amp;#34;resize&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;svgの親要素の横幅を取得し、SVGをその大きさに合わせます。&lt;br&gt;
+縦幅は独自には取得せず、横幅との比率で処理をします。&lt;/p&gt;
+&lt;h3 id=&#34;サンプルコード&#34;&gt;サンプルコード
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/n1n9-jp/0941a9c188c741d02dae&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;responsive layout with d3.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://stackoverflow.com/questions/9400615/whats-the-best-way-to-make-a-d3-js-visualisation-layout-responsive&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Whats the best way to make a d3.js visualisation layout responsive?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.tnoda.com/blog/2013-10-14&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Responsive d3.js | tnoda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>D3.jsを使ったreusableな実装</title>
+        <link>https://example.com/d3js-reusable/</link>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3js-reusable/</guid>
+        <description>&lt;img src="https://example.com/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
+&lt;p&gt;・データが異なるバーチャートをいくつか掲載したい&lt;br&gt;
+・カラースキーム（色の指定ルール）が異なるバーチャートをいくつか掲載したい&lt;br&gt;
+・バーチャートとパイチャートに同じデータを適用したい&lt;/p&gt;
+&lt;p&gt;これらのような場合に、一つひとつexampleのような書き方をすると冗長ですし、整合性をヒューリスティックに確かめなければなりません。D3.jsのメインコントリビューターであるMike Bostockが使った‘reusable’=再利用可能、というキーワードがここで登場します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bost.ocks.org/mike/chart/&#34;  title=&#34;Towards Reusable Charts&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Towards Reusable Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/makoto/8092152&#34;  title=&#34;再利用可能なチャートに向けて&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;再利用可能なチャートに向けて&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただ、再利用可能なチャートのためのフレームワークはD3.jsには含まれていず、個々人で用意するか、既存のD3.jsをラッピングしたライブラリを使う必要があります。他のプログラム言語だとクラス化するところですが、JavaScriptはクラスの仕組みがないのと、D3.jsの実装にも特徴があるので、それに沿った実現の仕方が必要です。カプセル化しクロージャの仕組みを利用する、というのが定番になっているようです。&lt;/p&gt;
+&lt;p&gt;ボストンのデベロッパー会社bocoupでは再利用可能なことについての記事と、その考えを適用したライブラリ（d3.Chart）をリリースしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://misoproject.com/d3-chart/&#34;  title=&#34;d3.chart&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://misoproject.com/d3-chart/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/weblog/reusability-with-d3/&#34;  title=&#34;Exploring Reusability with D3.js&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://bocoup.com/weblog/reusability-with-d3/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、D3.jsのグーグルグループ参加者の有志でreusableな実装の仕方についてまとめた本が出ています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bleedingedgepress.com/our-books/developing-a-d3-js-edge/&#34;  title=&#34;Developing a D3.js Edge&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Developing a D3.js Edge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;bocoupのメンバーが提案している再利用可能であることの特徴として以下のような定義をしています。&lt;br&gt;
+(bocoup Irene Rosの講演、&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=TYgSc_S0lCw&#34;  title=&#34;Fluent 2013: Irene Ros, &amp;#39;The ABC of Data Visualization&amp;#39;&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fluent 2013: Irene Ros, &amp;ldquo;The ABC of Data Visualization&amp;rdquo;&lt;/a&gt;からの引用)&lt;/p&gt;
+&lt;h3 id=&#34;repeatable---かんたんにいくつも作り出せること&#34;&gt;Repeatable - かんたんにいくつも作り出せること
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable2-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable2-1_hua0439c55624e810aa28f732ff4d770c5_108260_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable2-1_hua0439c55624e810aa28f732ff4d770c5_108260_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configurable---特定のタスクのための適切な変更がかんたんに行えること&#34;&gt;Configurable - 特定のタスクのための適切な変更がかんたんに行えること
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable3-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable3-1_hua0439c55624e810aa28f732ff4d770c5_117333_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable3-1_hua0439c55624e810aa28f732ff4d770c5_117333_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;extensible---機能の拡張がかんたんなこと&#34;&gt;Extensible - 機能の拡張がかんたんなこと
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable4-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable4-1_hua0439c55624e810aa28f732ff4d770c5_141177_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable4-1_hua0439c55624e810aa28f732ff4d770c5_141177_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;composable---他のチャートとの組み合わせがかんたんなこと&#34;&gt;Composable - 他のチャートとの組み合わせがかんたんなこと
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable1-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;473&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable1-1_hu2f9e7a5a45658d60022c266388e4119c_116234_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable1-1_hu2f9e7a5a45658d60022c266388e4119c_116234_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;432px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;世の中にあるD3.jsを活用したライブラリというのはあまねく、D3.jsを包み込んだ上で、APIを簡略化したり、機能を足したもの（そのどちらかか両方）である、ということができます。&lt;/p&gt;
+&lt;p&gt;これらのリソースを参考に、ぼくも自分で使う用にライブラリの整備を進めています。&lt;/p&gt;
+&lt;p&gt;・データやDOMと、チャート描画メソッドを分離しておける。&lt;br&gt;
+・getter/setterメソッドを用意することで、ライブラリ外部から指定が可能な変数を指定できる。&lt;br&gt;
+・d3.dispatchというメソッドを利用することで、カスタムイベントを定義し、ライブラリから外部へイベントを発火させることができる。&lt;/p&gt;
+&lt;p&gt;あたりの性質を活かしているもので、サンプルコード（今回はトグルナビゲーション）を以下に掲載しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/n1n9-jp/6238c6e48bff9cd8da12&#34;  title=&#34;Toggle Navigation(reusable way)&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Toggle Navigation(reusable way)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>d3.unconfレポート[後篇]</title>
+        <link>https://example.com/d3-unconf-2014-2/</link>
+        <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-unconf-2014-2/</guid>
+        <description>&lt;img src="https://example.com/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;518&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu4f80bd79c1557b07d721cc5cb7ebad84_140064_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu4f80bd79c1557b07d721cc5cb7ebad84_140064_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;参加者がディスカッションの議題を持ち寄りunconferenceがスタートしました。実際のタイムテーブルはこのような感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;2037&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu0366aaf4a3cf6984fececb6a1ae9508b_146912_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu0366aaf4a3cf6984fececb6a1ae9508b_146912_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;33&#34;
+		data-flex-basis=&#34;81px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;* &lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://visfest.com/d3unconf/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;せっかくなので私も一つ提案してみました。**Network visualizations; d3 + sigma + Cytoscape etc.**と言うのが私の提案したセッションです。&lt;/p&gt;
+&lt;h2 id=&#34;実際のディスカッション&#34;&gt;実際のディスカッション
+&lt;/h2&gt;&lt;p&gt;普通のカンファレンスとは異なり当日にテーマを決めるため、誰かがスライドを使って話すと言う事は無く、イーゼルパッドとペン、そしてラップトップを持ち寄り、そのテーマについて皆で話し合います。当然全て英語ですので、日本からも参加してみたいと言う方はここで尻込みしてしまうかもしれませんが、基本的に話を聞くだけのカンファレンスとはまた違った面白さもありますので、機会があればぜひ挑戦してみてください。各トラックは並行して行われますので、全部に参加する事はできません。まずリストを見て興味のあるトピックを選び、そのセクションへ向かいディスカッションに参加します。しかし、あまり内容に興味が持てない場合や、他のセッションの方が面白そうな場合には、自由に移動しても問題ありません。私もとりあえず全体のリストを見て、面白そうだと思ったものにいくつか参加してみました。&lt;/p&gt;
+&lt;h3 id=&#34;クライアントサイドmvとd3jsの併用&#34;&gt;クライアントサイドMV*とD3.jsの併用
+&lt;/h3&gt;&lt;p&gt;午前はまずクライアントサイドMV_とD3.jsとの連携についてのトラックに参加してみました。参加者には、AngularJSなどをD3.jsと共にかなり使い込んでいる人、MV_との連携に懐疑的な人など混ざっていて、特定のフレームワークとの併用を行う場合の深い議論を行うというよりは、各参加者が使っているものとの連携に関する体験談などを持ち寄る感じでした。きちんと数えてはいませんが、AngularJSとBackbone.jsユーザーが多い印象でした。私は両者ともちょっとだけいじった事があるのですが、Backboneがかなり薄いフレームワークで自分でかなりの部分を作らなければならないのに対し、Angularは様々な機能があらかじめ含まれており、設計思想そのものがかなり異なります。この話題は様々な場所で行われています:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.infoq.com/articles/backbone-vs-angular&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Contrasting Backbone and Angular&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://readwrite.com/2014/02/06/angular-backbone-ember-best-javascript-framework-for-you&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Angular, Ember, And Backbone: Which JavaScript Framework Is Right For You?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;D3.jsを組み合わせるかどうかという以前の部分で好みが別れるため、なかなか深い部分までの議論には至りませんでしたが、実際の連携に関しては、この辺りが参考になると思います:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.ng-newsletter.com/posts/d3-on-angular.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 on AngularJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なお、AngularJSとD3.jsの連携に関しては、本も出ているようです&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;323&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu6f719a3bfd00ba3d572c3ecc35465106_162047_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu6f719a3bfd00ba3d572c3ecc35465106_162047_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;512px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;https://leanpub.com/d3angularjs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 on AngularJS: Create Dynamic Visualizations with AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ネットワーク可視化&#34;&gt;ネットワーク可視化
+&lt;/h3&gt;&lt;p&gt;次は自分がディスカッションのリーダーとしてネットワーク(グラフ)可視化のトラックに参加しました。まとめは（英語ですが）こちらにあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/document/d/186ntZ22Q7hL0JNOy0GfRy8nvuPVno9ZdHgS3FJ6ptHs/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;d3unconf session (11:30-12:30) Network Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「再利用可能なチャートモジュールを」と言う目標でd3.chartライブラリが作られているように、ネットワーク（グラフ）可視化分野にも同じような考えが必要だと感じました。D3.jsで作られたよくあるネットワーク図は、こんな感じのものだと思います&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;359&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1_hub88852f0a169d5d7b79bb4608b82baed_218167_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1_hub88852f0a169d5d7b79bb4608b82baed_218167_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/keiono/9283085&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Yeast PPI Network Generated in Cytoscape&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これだけで確かに取り敢えずグラフの構造を見ることは出来ますが、実際に使えるアプリケーションにするには、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パン、ズームなどの基本的な操作の追加&lt;/li&gt;
+&lt;li&gt;レイアウトオプションの提供&lt;/li&gt;
+&lt;li&gt;基本的なグラフアルゴリズムの実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;等、様々なものが欠如しています。これらは自前で作るよりも、共通で使えるライブラリとして用意されていた方がより効率的です。この辺りの整備がグラフ描画用JavaScriptライブラリには必要でしょう。手前味噌ですが、ある程度の大きさのネットワークをCanvasを用いて描画するならば、cytoscape.jsは良い選択だと思います。基本的なレイアウトアルゴリズムやUI、ネットワーク構造を操作するための高レベルAPIも整備されていて、レンダリング品質も高いです。&lt;/p&gt;
+&lt;p&gt;また最近は、クライアントのパフォーマンスが非常に高い場合、サーバー側にタスクを投げる必要はあるのかと言う問題もあります。グラフの大きさや構造によりますが、今の計算機のパワーを考えると、最短経路検索や簡単なクラスタリングなどはJavaScriptで書かれたクライアント側での処理とする方が自然です。そうなるとますます自前での実装は効率が悪いので、既存のプロジェクト同士が協力して「車輪の再発明」を避ける方向に動くべきだと感じました。&lt;/p&gt;
+&lt;h3 id=&#34;webglwebclを利用した大規模データの可視化&#34;&gt;WebGL/WebCLを利用した大規模データの可視化
+&lt;/h3&gt;&lt;p&gt;このセッションはLeoさんと言う最近データ解析の会社を立ち上げた方がメインで開発しているSuperconductorと言うフレームワークの話題が中心でした。これは現状で考えられうる最も先端のWeb関連テクノロジーを組み合わせて作られています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/Superconductor-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/Superconductor-1_hu36d8ff3067d6b6761bd727ed23fc24c6_115094_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/Superconductor-1_hu36d8ff3067d6b6761bd727ed23fc24c6_115094_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://superconductor.github.io/superconductor/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Superconductor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これは独自のDSLでデータ可視化の方法を記述することにより、GPUプログラミング特有の極めてローレベルな記述を覆い隠すようなフレームワークです。目標としては、OpenGLやGPGPUプログラミングに精通していないデータ解析者やプログラマにもGPUのパワーを活用できる機会を与える、と言うもののようです。ウェブブラウザ上で大規模なグラフィックスを描画したいときは、WebGLを使うというのが徐々に一般的になってきています。ゲーム業界などでも盛んに使われ始めていますので、WebGLは実際のプロジェクトに使うのに十分成熟してきたと感じます。一方、WebCLに関してはまだまだ使える環境が極端に限られるため、これからの技術ですが、数十倍・数百倍のオーダーで並列可能なアルゴリズムを高速化したい場合、現実的にはこれしか選択肢はないと思われますので、これから普及に入っていくと思われます。データ可視化の分野だと、レイアウトの計算やエッジバンドリングなど、非常に重い計算をしなければならな部分が幾つか存在するので、そういった部分もGPUを使って並列化することにより、WebGLとの組み合わせで、ほぼリアルタイムでインタラクティブな解析ができるようになると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;518&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu1ef11f7a625fac00d82f7783a0128ec3_97582_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu1ef11f7a625fac00d82f7783a0128ec3_97582_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;更に、PathGLと言うこの辺りのGPU活用ノウハウをD3.jsと組み合わせたフレームワークも紹介されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;394&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hua9bc603e6d6451098a9f330c1918fe01_116660_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hua9bc603e6d6451098a9f330c1918fe01_116660_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://pathgl.com/documentation/start.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PathGL&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;バックエンドかフロントエンドか&#34;&gt;バックエンドかフロントエンドか？
+&lt;/h4&gt;&lt;p&gt;ここまでクライアントが高性能になると、何をバックエンドに任せ、何をフロントエンドで処理するかと言う問題も出てきます。現在は移行期に当たり、ハイパフォーマンスなクライアント（ハイエンドデスクトップマシンなど）が利用できる場合、かなりの部分をフロントエンドで行っても問題がない一方、タブレット等で走るブラウザではまだまだ使いものにならないアプリケーションも数多く存在します。もしユーザ（ここでは科学技術系の複雑な可視化ソフトウェアのユーザ）がそういったデバイスでの作業を求めた時、クライアントの種類によってサーバから配布するソフトウェアを切り替える必要があるかもしれません。&lt;/p&gt;
+&lt;p&gt;以下はこのセッションで触れられた最近のブラウザを使って実装されたアプリケーションの例です&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;359&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1_hue8f1184b2bd22b4dbfbcc5496157c931_185954_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1_hue8f1184b2bd22b4dbfbcc5496157c931_185954_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
+	
+&gt;* &lt;a class=&#34;link&#34; href=&#34;http://glsl.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GLSL Sandbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;528&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1_hu382649738dd492016fbb9e86635f5c07_544070_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1_hu382649738dd492016fbb9e86635f5c07_544070_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;313px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://workshop.chromeexperiments.com/stars/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Welcome to the stellar neighborhood.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;学術的な内容になりますが、このあたりの大規模データのインタラクティブな解析、と言うテーマについて論じられたペーパーも紹介されました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://vis.stanford.edu/files/2013-imMens-EuroVis.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Z. L. Liu, B. Jiang, and J. Heer. imMens: Real-time visual querying of big data. Computer Graphics Forum (Proc. EuroVis), 2013.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（ちなみに、ラストオーサーの方はD3.js作者のMike Bostock氏の院生時代のアドバイザーです。）&lt;/p&gt;
+&lt;h3 id=&#34;ニューラルネットワークの可視化&#34;&gt;ニューラルネットワークの可視化
+&lt;/h3&gt;&lt;p&gt;バズワードと言っていいくらい、最近はメディアでも「機械学習」や「ディープラーニング」と言った言葉を耳にするようになってきました。このセッションは、機械学習の手法でも歴史の古いニューラルネットワークの学習過程等を可視化してみようというもので、計算機科学の博士課程の学生さんがリードしていました。よく入力、出力の各ユニット、その間の隠れ層を接続したネットワークを可視化したものはよく見かけると思います。教師あり学習の場合、トレーニングセットを食わせている時にどのようにネットワークがデータを学習しているのかをリアルタイムで見えるように、ブラウザで動くクライアントを作ろう、と言う感じです。このセッションで紹介された以下のライブラリは可視化そのものがゴールではないですが、ブラウザひとつで実際に学習プロセスを走らせてしまおうというもので、教材としても面白いのではないかと思いました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;580&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/ConvNetJS-1_hu52d0ae838c2432d4840f64ad1b73db23_218010_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/ConvNetJS-1_hu52d0ae838c2432d4840f64ad1b73db23_218010_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://cs.stanford.edu/people/karpathy/convnetjs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ConvNetJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;私も学生時代にパーセプトロンから始まり、バックプロパゲーション法やら何やら単純なものはやって、おもちゃのような顔認識モジュールを実装したりはしましたが、知識が古いままなので色々とアップデートしなくては&amp;hellip;と言う思いを新たにしました。実は自分が関わっている分野でも、label propagation等の機械学習の手法は最近盛んに用いられ、応用分野はどんどん広がっています。研究に直接関わらない人でも、プログラマーが「リテラシーとしての機械学習への理解」を求められる時代は確実に来ると思われます。&lt;/p&gt;
+&lt;p&gt;参考: * &lt;a class=&#34;link&#34; href=&#34;http://compbio.cs.brown.edu/projects/hotnet/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HotNet&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;生物学と可視化&#34;&gt;生物学と可視化
+&lt;/h3&gt;&lt;p&gt;これも意外だったのですが、なぜか生物学関連のセッションがありましたので参加してみました。果たしてそのディスカッションのリーダーは、私の業務プロジェクトのコラボレーターの方でした。トピックは生化学的パスウェイの可視化についてでしたが、現実的にはそれをブラウザ上で行うと言う事は、ブラウザ上にHTML5関連技術を使ってVisioやOmniGraphのようなソフトウェアを構築する事に等しいので、他分野の方にこういう分野がある事を紹介し、協力者を募ると言う感じでした。私も便乗して、自分のプロジェクトを紹介してみました(下図を参照)。データの内容にはそれほど深く立ち入りませんでしたが、取り敢えず複雑な可視化を求められる問題のドメインが存在して、そういう方面で才能のあるプログラマを求めているよ、と言う思いは伝わったと思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;404&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu3143e0a75a32041f3b5539b1f38b92fb_218145_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu3143e0a75a32041f3b5539b1f38b92fb_218145_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://nexontology.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NeXO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;リアルタイムデータ&#34;&gt;リアルタイムデータ
+&lt;/h3&gt;&lt;p&gt;さて最後のセッションにもなると、皆各自でコードを書いていたり酒を飲んでいたりとグダグダになりつつあったのですが、まあそれもこの形式のいいところということで。最後に覗いてみたこのセッションでは、Leap Motionを使い、そこから得られるデータをリアルタイムのデータストリームとみなし、それをD3.jsを使ったJavaScriptのコードで可視化する、と言った感じでした。まあお遊びといえばそれまでですが、ジェスチャー入力はまだまだ色んなポテンシャルがあると思うので、こういう遊びの中から色々と面白いものが生まれて行けばいいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;442&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu47da5a2fe4abddc15c5a514a13b6ade3_116964_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu47da5a2fe4abddc15c5a514a13b6ade3_116964_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt; カンファレンスの名前こそd3.unconfでしたが、扱った話題はD3.jsに限らず「データ可視化の実際」「可視化の現場」全般に渡るものでした。そしてそこに参加している人々も多岐に渡り、ソフトウェア開発者、データ解析者、データ解析サービス系スタートアップの創業者、計算機科学の大学院生、デザイナー、そしてGitHub本社に勤めてるエンジニアの方等も参加していました。こういうところで知り合い、Linkedinで繋がって行くと言うのが最近のアメリカの人脈開拓法なんだな、と実感しました。意外だったのは、アカデミア方面からの参加者がけっこう居たことで、データ解析や可視化といった話題に真剣に取り組むには、やはりそれなりの学術的バックグラウンドがないと厳しいということも感じました。そして今回このカンファレンスをホストしてくれたGitHubは、典型的な最近のテック系企業という感じで、エントランスホール付近には様々なオブジェやDJブース、実際にお酒も飲めるバーまで設置されていて、優秀な人材の奪い合いへの対応に余念がない感じでした（笑）。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>d3.unconfレポート[前篇]</title>
+        <link>https://example.com/d3-unconf-2014-1/</link>
+        <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-unconf-2014-1/</guid>
+        <description>&lt;img src="https://example.com/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cytoscape Consortium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
+	width=&#34;210&#34;
+	height=&#34;280&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass_huc66f2533a87d593914716ce268f5a56e_27732_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass_huc66f2533a87d593914716ce268f5a56e_27732_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pass&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;まず自己紹介をさせていただきます。私はアメリカ西海岸、カリフォルニア州の最南端に位置するサンディエゴ在住のソフトウェア開発者です。&lt;a class=&#34;link&#34; href=&#34;http://ucsd.edu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;カリフォルニア大学サンディエゴ校(UCSD)&lt;/a&gt;と言う大学の医学部で、生物学者や医師に混じって彼らが研究で必要とする各種ツールを開発しております。分野としてはbioinformaticsと呼ばれるものです。&lt;/p&gt;
+&lt;p&gt;先週の土曜日(3/29/2014)、サンフランシスコにある&lt;a class=&#34;link&#34; href=&#34;https://ja.foursquare.com/v/github-hq-30/50f75cc0e4b07201af25590d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;本社にて行われた&lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;d3.unconf&lt;/a&gt;というD3.jsや可視化周辺の実務的な話題を扱う会議がありました。Cesar Chavez Dayで三連休だと言うこともあり&lt;a class=&#34;link&#34; href=&#34;#1&#34; &gt;1&lt;/a&gt;、私にとってはちょうどいいタイミングでしたので、久しぶりにサンフランシスコまで足を伸ばしてみました。このカンファレンスがどのようなものだったか一通りレポートしてみます。&lt;/p&gt;
+&lt;h2 id=&#34;どんなカンファレンスか&#34;&gt;どんなカンファレンスか？
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
+	width=&#34;650&#34;
+	height=&#34;433&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu5c5425b4dca9035fff148726442c181b_125090_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu5c5425b4dca9035fff148726442c181b_125090_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可視化のカンファレンスと言っても、現在は様々な傾向のものがあります。アカデミック寄りな&lt;a class=&#34;link&#34; href=&#34;http://ieeevis.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IEEE系の学会&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;http://vizbi.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;分野特化型の学会&lt;/a&gt;もありますし、もっとカジュアルなコードレベルの話題を主に扱うような&lt;a class=&#34;link&#34; href=&#34;http://www.meetup.com/Bay-Area-d3-User-Group/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;勉強会&lt;/a&gt;もあります。昨今、様々な要因が重なり後者に属するカンファレンスがここアメリカでは増えてきたような気がします。ここで言う要因とは、以下のようなものです：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パーソナルコンピュータ、モバイルデバイスの劇的な価格低下と高性能化&lt;/li&gt;
+&lt;li&gt;第二次ブラウザ戦争の遺産としての非常に高速化されたJavaScriptエンジンとCanvasをはじめとするHTML5関連テクノロジー&lt;/li&gt;
+&lt;li&gt;クライアント関連テクノロジーのブラウザへの集約&lt;/li&gt;
+&lt;li&gt;各種デバイスから生み出される凄まじい量のデータ&lt;/li&gt;
+&lt;li&gt;それらを扱うためのオープンソースツール群の発展&lt;/li&gt;
+&lt;li&gt;そしてそれらを利用したいスタートアップや大手企業の可視化分野への関心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まだ他にも色々とありますが、これらの要因が重なり、可視化のための実際のコードを書くvisualization practitioner(実務家)向けのカンファレンスが増えています。私はオープンソースソフトウェアを書く事が日常の業務ですが、これは自分の関係する分野に限った事ではなく、メジャーなオープンソースプロジェクトは、事実上業務として開発している人々に支えられていると言う面が大きいです。そしてデータ可視化分野でもそのように職業としてオープンソースソフトウェア(OSS)を書いている人々も多く、それが現在の状況に繋がっています。こういった背景もあり、今回のカンファレンスはオープンソースソフトウェアに関わる開発者向けの「実際に手を動かす人々」をメインターゲットに据えています。それを強調する意味もあり、カンファレンスへの登録時にD3.jsを使い自分で作ったサンプルをgistへアップロードして、&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bl.ocks&lt;/a&gt;を使い一覧にしてみると言う試みも行われました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参加者が登録時に送ったBL.OCKS一覧: &lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/blocks.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://visfest.com/d3unconf/blocks.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unconference&#34;&gt;Unconference
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
+	width=&#34;210&#34;
+	height=&#34;280&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf_hu1691ca4980d55c7bfec203f94e7a8259_38526_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf_hu1691ca4980d55c7bfec203f94e7a8259_38526_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;unconf&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回のカンファレンスは、d3.unconfと言う名前の通りunconference（アンコンファレンス）形式で行われました。日本ではあまり馴染みの無い言葉かもしれませんが、unconferenceと言うのはテック系のワークショップやカンファレンスでは最近よく使われる手法です。これは当日まで細かいトピックについては決定せず、スピーカーも基本的には決めない形で集まります。そして開催日の朝にその日話し合うトピックを参加者らが出し合い、主催者は各トラックの時間と場所だけを指定して、参加者から提示されたトピックを各トラックに割り当ててその日のスケジュールを決定します。その後ディスカッションが成立しやすいように、数人から数十人程度のグループに分かれて各トピックについて話し合います。余談ですが、Googleがオープンソースプロジェクト開発者向けに毎年本社で開催しているGoogle Summer of Codeの&lt;a class=&#34;link&#34; href=&#34;http://google-opensource.blogspot.com/2013/11/google-summer-of-code-mentor-summit-2013.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mentor Summit&lt;/a&gt;もこの形式で行われています。こちらにも何回か参加しましたが、様々な話題にカジュアルに参加できて楽しかったです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;384&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu69b0dbbe2f360375a2687104d91cb195_96102_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu69b0dbbe2f360375a2687104d91cb195_96102_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回はIrene Ross氏によるキーノートで始まりました。彼女は&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bocoup&lt;/a&gt;と言う会社で各種可視化システムやアプリケーション構築のコンサルティング、オープンソースソフトウェアの開発、関連ツールの教育を行っている方で、Misoプロジェクト&lt;a class=&#34;link&#34; href=&#34;#2&#34; &gt;2&lt;/a&gt;と言うD3.jsをより便利に使うためのツール群を作っていらっしゃいます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/logo-miso-project.png&#34;
+	width=&#34;600&#34;
+	height=&#34;200&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/logo-miso-project_hu8b8ca8edeff415cd26ec53941f4b0085_17628_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-1/images/logo-miso-project_hu8b8ca8edeff415cd26ec53941f4b0085_17628_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;miso&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;300&#34;
+		data-flex-basis=&#34;720px&#34;
+	
+&gt; * The Miso Project: &lt;a class=&#34;link&#34; href=&#34;http://misoproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://misoproject.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このMisoにはd3.chartと言うサブプロジェクトが含まれています。これはD3.jsの作者であるMike Bostock氏がTowards Reusable Chartsと言う記事で論じている「チャート生成コードの再利用性」にフォーカスしたツールです。彼女の講演は、この再利用問題をテーマにしたものでした:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Architecting code with d3: &lt;a class=&#34;link&#34; href=&#34;https://speakerdeck.com/iros/architecting-code-with-d3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://speakerdeck.com/iros/architecting-code-with-d3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;D3.jsをお使いの方なら分かると思いますが、D3は自由度やカスタマイズ性の高さの代償として、たとえ求めるものがシンプルなバーチャートであっても殆どの要素を一から書かなければならないと言う問題があります。そういったものは、実際のチャート部分、軸、タイトル、レジェンドと言った共通要素に分解する事ができます。このような様々なチャートに共通する概念をコンポーネント化して、他のデータセットに対しても再利用可能にすると言うのがd3.chartの主なゴールです。ここは私も昨年のD3.jsアドベントカレンダーで記事を書かせていただきましたので、興味のある方はこちらもあわせてどうぞ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D3.js Advent Calendar 2013 Day 21: &lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/keiono/8067196&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsと周辺ツールを使ったデータの可視化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また彼女は今月末にボストンで行われる&lt;a class=&#34;link&#34; href=&#34;http://openvisconf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenVis&lt;/a&gt;カンファレンスのオーガナイザーでもあるので、そちらの方の宣伝もしていました。私はこちらにも参加しますので、そのレポートもまた後日。&lt;/p&gt;
+&lt;p&gt;1.カリフォルニア州政府は、この日をアメリカ国民の祝日にしようと連邦政府に働きかけているため、州政府関連施設の職員は休みになります。私はカリフォルニア大学の研究系スタッフなので、州政府職員とみなされます。 2.日本人からすると若干奇妙なネーミングですが、「折り紙」「俳句」など、ある程度英語圏で浸透している日本語は最近よくOSSプロジェクトの名前に使われるようです&lt;/p&gt;
+&lt;p&gt;（本レポートは後篇に続きます。）&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ビジュアライズにおける正規化</title>
+        <link>https://example.com/normalize-visualize/</link>
+        <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/normalize-visualize/</guid>
+        <description>&lt;img src="https://example.com/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
+&lt;p&gt;インプットとしてのデータセットが持つ数値体系や幅（最小値〜最大値）などは、たいていアウトプット先の例えば液晶ディスプレイなどとは数値体系や幅（例えば表示領域など）が異なるため、両者をつなぐための方法論が必要になります。視覚化される要素の座標や大きさだけではなく、色や数値ではない例えばカテゴリーなどにも同様の手法が適用可能です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/normalize-visualize/images/normalize-visualize_1.png&#34;
+	width=&#34;432&#34;
+	height=&#34;350&#34;
+	srcset=&#34;https://example.com/normalize-visualize/images/normalize-visualize_1_hu6bbfaf6b152cc9e21bbe61287b551076_11197_480x0_resize_box_3.png 480w, https://example.com/normalize-visualize/images/normalize-visualize_1_hu6bbfaf6b152cc9e21bbe61287b551076_11197_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;normalize-visualize_1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Processingではmap、D3ではscaleという機能でまとめられています。しかしここには「正規化」という概念が隠されています。正規化という言葉にはいくつかの意味があり、ここではベクトルにおける正規化のことを指します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/normalize-visualize/images/normalize-visualize_2.png&#34;
+	width=&#34;432&#34;
+	height=&#34;350&#34;
+	srcset=&#34;https://example.com/normalize-visualize/images/normalize-visualize_2_hu6bbfaf6b152cc9e21bbe61287b551076_15457_480x0_resize_box_3.png 480w, https://example.com/normalize-visualize/images/normalize-visualize_2_hu6bbfaf6b152cc9e21bbe61287b551076_15457_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;normalize-visualize_2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;296px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;その変数が含まれるデータセット全体（もしくは基準とすべき）最小値〜最大値の幅の中で、どの辺りにあるかを、0.0〜1.0の間で数値化します。そしてその値を表示のための値として再度変換します。&lt;/p&gt;
+&lt;p&gt;前者を正規化(normalize)、後者を補間(interpolation)と呼ばれることが多いです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/normalize-visualize/images/normalize-visualize_3.png&#34;
+	width=&#34;432&#34;
+	height=&#34;396&#34;
+	srcset=&#34;https://example.com/normalize-visualize/images/normalize-visualize_3_hu991aecb3e69d9990ab5e334013447e0f_36999_480x0_resize_box_3.png 480w, https://example.com/normalize-visualize/images/normalize-visualize_3_hu991aecb3e69d9990ab5e334013447e0f_36999_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;normalize-visualize_3&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;109&#34;
+		data-flex-basis=&#34;261px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;※P5&amp;hellip;ビジュアライズのためのフレームワークProcessingの略称。P5には他にもnormalize()やlerpColor()などの関数もありますがわかりやすさのために図からは省略しています。&lt;/p&gt;
+&lt;p&gt;なんでこんなことをするのかというと、いくつか理由があげられます。&lt;/p&gt;
+&lt;h3 id=&#34;１回正規化されたデータは様々な表示スタイルに利用可能&#34;&gt;１回正規化されたデータは、様々な表示スタイルに利用可能。
+&lt;/h3&gt;&lt;p&gt;ユーザーインタラクションによって、表示領域の幅が変更されたり、レイアウトのフォーマットが棒グラフから地図へ変更されても、正規化されたデータは有効で、表示スタイルにあわせて補間して使えばよいです。補間というと語感的に少しわかりづらいですが、イメージ的には伸張とかレンダリングという言葉が近いかもしれません。&lt;/p&gt;
+&lt;h3 id=&#34;異なるデータを同様に扱うことができる&#34;&gt;異なるデータを同様に扱うことができる。
+&lt;/h3&gt;&lt;p&gt;いったん正規化という枠にはめることで、多様なデータを同様に扱うことができるようになります。たとえば統計データとセンサーが取得したデータを関連づけて表示することも可能になります。&lt;/p&gt;
+&lt;h3 id=&#34;プログラムが生成する値との親和性&#34;&gt;プログラムが生成する値との親和性
+&lt;/h3&gt;&lt;p&gt;プログラム内部で生成される乱数やパーリンノイズ、またサイン／コサインなど三角関数で生成される値なども正規化された値（0.0〜1.0）で用意されることが多いです。外部から取り込んだ数値も、プログラム内部で生成された数値も、同様に扱うことができるようになります。&lt;/p&gt;
+&lt;h3 id=&#34;正規化と補間は正比例で入出力がなされるべきとは限らない&#34;&gt;正規化と補間は、正比例で入出力がなされるべきとは限らない。
+&lt;/h3&gt;&lt;p&gt;描くグラフによって y=ax+b のような正比例、ではない関数を用いるものがあるためです。&lt;br&gt;
+Processingの場合、組み込み関数ではおそらく正比例のみが用意されています。&lt;br&gt;
+D3では統計学で必要なものが一通り用意されているので最適なものを選ぶことができます。一つのオブジェクトにつき正規化と補間で同じスケーリングの仕方が適用されます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>D3: データ形式</title>
+        <link>https://example.com/d3-requests/</link>
+        <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-requests/</guid>
+        <description>&lt;img src="https://example.com/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-requests/images/d3Requests.png&#34;
+	width=&#34;456&#34;
+	height=&#34;372&#34;
+	srcset=&#34;https://example.com/d3-requests/images/d3Requests_hu8d1d8ba7fd3645281d59c06d84c92ae4_36951_480x0_resize_box_3.png 480w, https://example.com/d3-requests/images/d3Requests_hu8d1d8ba7fd3645281d59c06d84c92ae4_36951_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;d3Requests&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;294px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/d3/wiki/CSV&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APIリファレンスのd3.csv()項目&lt;/a&gt;をみると、d3.csv.parse()、d3.csv.parseRows()、d3.csv.format()、d3.csv.formatRows()、などというメソッドも用意されているような印象ですが、これらはd3.csv()が内部的に使用するので、通常はd3.csv()を利用すればよいです。&lt;br&gt;
+csvは上図の通り、読み込まれるとデフォルトではオブジェクトの配列に変換されてしまうのですが、これを配列の配列（二次元配列）として読み込みたい場合には、d3.csv.parseRows()を使うのですが呼び出し方としては、汎用的なd3.text()を利用して&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;d3.text(url, &amp;#34;text/csv&amp;#34;, function(text) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;var rows = d3.csv.parseRows(text);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;とすればよいようです。考え方と実装はtsvもdsvも同様のようです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>D3: TopoJSON</title>
+        <link>https://example.com/d3-topojson/</link>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-topojson/</guid>
+        <description>&lt;img src="https://example.com/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSON on Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/JP-Home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSONについて（日本語訳ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;特徴&#34;&gt;特徴
+&lt;/h3&gt;&lt;p&gt;データから冗長性を排した結果、効率的にデータの活用ができたり、ファイルサイズをかなり削減できる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;国境や州境など複数の国や州が共有する地形データを重複することなく格納できる。&lt;/li&gt;
+&lt;li&gt;一つの TopoJSON ファイルで、ポリゴン（フィル＝塗り用）と境界線（ストローク＝輪郭線用）の両方を、同じarcメッシュを共有する二つのフィーチャーコレクションとして効率的に表現することができる。&lt;/li&gt;
+&lt;li&gt;座標計算に固定精度エンコーディングを用いることで正確性を犠牲にすることなく座標値の精度の丸め処理を省略できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;とのことでこの結果、ファイルサイズをかなり削減(通常のものでは80%程度)できて、効率的にデータの活用もできるとのことです。&lt;/p&gt;
+&lt;h3 id=&#34;手元のpcでgeojsonをtopojsonに変換したい場合&#34;&gt;手元のPCでGeoJsonをTopoJsonに変換したい場合
+&lt;/h3&gt;&lt;p&gt;コマンドラインで実行します。Node.js、topojsonをインストールしたのち、Macの場合はTerminalで、topojson -o output.json input.json といったコマンドを実行します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-14.png&#34;
+	width=&#34;505&#34;
+	height=&#34;366&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-14&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;331px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/Command-Line-Reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Line Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;api&#34;&gt;API
+&lt;/h3&gt;&lt;p&gt;Server用APIとClient用APIの両方が用意されています。Server用はGeoJSONファイルやESRI ShapefileをTopoJsonに変換する役割があり、Client用はブラウザでレンダリング用にTopoJsonをGeoJsonに戻す役割があります。Server用はコマンドラインツールとして用意されたものと同じで、Node.jsのパッケージとしてローカルサーバで事前的に実行するか、ウェブサーバでリアルタイムに近い形で実行するかの違いです。&lt;/p&gt;
+&lt;h4 id=&#34;server用パッケージのインストール&#34;&gt;Server用パッケージのインストール
+&lt;/h4&gt;&lt;p&gt;利用に際しては、Node.jsのパッケージ管理ツールnpmを通じてインストールします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://npmjs.org/package/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;topojson | npm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;server用コマンドラインツールのリファレンス&#34;&gt;Server用コマンドラインツールのリファレンス
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/Command-Line-Reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Line Reference | topoJson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;client用jsファイル&#34;&gt;Client用JSファイル
+&lt;/h4&gt;&lt;p&gt;ヴァージョン1.0.0とそれ以前で関数の定義に変更がありますのでご注意ください。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;http://stackoverflow.com/questions/17404239/topojson-list-of-differences-between-v0-and-v1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Topojson: list of differences between v0 and v1?&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/blob/master/topojson.js&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/mbostock/topojson/blob/master/topojson.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;client用jsファイルで用意されている関数&#34;&gt;Client用JSファイルで用意されている関数
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;bisect(a, x)&lt;/li&gt;
+&lt;li&gt;feature(topology, o)&lt;/li&gt;
+&lt;li&gt;featureOrCollection(topology, o)&lt;/li&gt;
+&lt;li&gt;merge(topology, arcs)&lt;/li&gt;
+&lt;li&gt;mesh(topology, o, filter)&lt;/li&gt;
+&lt;li&gt;neighbors(objects)&lt;/li&gt;
+&lt;li&gt;object(topology, o)&lt;/li&gt;
+&lt;li&gt;reverse(array, n)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;topojsonファイルの構造&#34;&gt;topojsonファイルの構造
+&lt;/h3&gt;&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-15-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;TopoJSONのファイル構造&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-13-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;GeoJSONのファイル構造&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;type=topologyとすることでこのデータがGeoJsonでなくてTopoJsonであることを示す。&lt;/li&gt;
+&lt;li&gt;objects、arcs、transformの3つのobjectで構成される。&lt;/li&gt;
+&lt;li&gt;objects…標準であるGeoJSON形式で記述されたobjectを名前でインデックス化。&lt;/li&gt;
+&lt;li&gt;arcs…objectsに格納されているobject群の座標値を一元的に管理。線のように、点の連続で構成されている。&lt;/li&gt;
+&lt;li&gt;transform…デルタ符号化された整数の座標をそれぞれのネイティブな値へ変換するための、変換値を保持（大きさと位置の補正）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;行政界データでいうと境の部分はそれを共有する双方の県なり市区町村が同じ形状のものを持ちますがこれを一元化したり、座標は一カ所だけ絶対値でもちそれ以外の座標を相対値で持つことで必要な桁数をグッと減らすことができ、その結果ファイルサイズの軽量化が測れる構成になっているようです。またブラウザで表示用にレンダリングする際にはGeoJsonに戻してからレンダリングしますので、地形データはファイルサイズが大きくなりがちで、デコードするコストをかけても転送速度を軽減した方がよい、という考えのようです。&lt;/p&gt;
+&lt;h3 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://n1n9.jp/d3/geojson/spec/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GeoJSON仕様（日本語訳）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://stackoverflow.com/questions/14740705/difference-between-geojson-and-topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Difference between GeoJSON and TopoJSON | stack overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://geeohspatial.blogspot.jp/2013/03/topojson-basics.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSON Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://ja.d3js.node.ws/blocks/mike/map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsとTopoJSONで地図を作る&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

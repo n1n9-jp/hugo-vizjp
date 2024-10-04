@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n">
+<title>パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )</title>
+
+<link rel='canonical' href='https://example.com/parallel-sets/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
+<meta property='og:description' content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n">
+<meta property='og:url' content='https://example.com/parallel-sets/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/parallel-sets/images/image-15.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
+<meta name="twitter:description" content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/parallel-sets/images/image-15.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#一つの軸には一つのデータ属性を割り振る">一つの軸には一つのデータ属性を割り振る</a></li>
+        <li><a href="#階層構造を表す">階層構造を表す</a></li>
+        <li><a href="#流れや時系列は表現しない">流れや時系列は表現しない</a></li>
+        <li><a href="#一番優先度の高い軸の値に応じて着色">一番優先度の高い軸の値に応じて着色</a></li>
+      </ol>
+    </li>
+    <li><a href="#作例">作例</a>
+      <ol>
+        <li><a href="#ミネソタ州上とノースカロライナ州下の住宅データを比較">ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較</a></li>
+        <li><a href="#国民戦線の躍進はフランスの伝統的な政党を揺さぶるフィナンシャルタイムズ">国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ</a></li>
+        <li><a href="#ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳">ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳</a></li>
+        <li><a href="#tracking-the-earths-300-nano-satellites">TRACKING THE EARTH’S 300 NANO-SATELLITES</a></li>
+        <li><a href="#ドローンが空から落下してくるとき--the-washington-post">ドローンが空から落下してくるとき | The Washington Post</a></li>
+        <li><a href="#rotem-blinder-of-ibm-hierarchical-parallel-sets">Rotem Blinder of IBM “Hierarchical Parallel Sets”</a></li>
+        <li><a href="#pantheon-corriere-della-sera--la-lettura-181">PANTHEON Corriere della Sera – La Lettura #181</a></li>
+        <li><a href="#news-use-across-social-media-platforms">News Use Across Social Media Platforms</a></li>
+      </ol>
+    </li>
+    <li><a href="#インタラクション">インタラクション</a></li>
+    <li><a href="#参考文献">参考文献</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/parallel-sets/">
+                <img src="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_800x0_resize_box_3.png"
+                        srcset="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_800x0_resize_box_3.png 800w, /parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="973" 
+                        loading="lazy"
+                        alt="Featured image of post パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/chart/" >
+                chart
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/parallel-sets/">パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 02, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。</p>
+<p>研究開発チームの一人、Robert Kosaraによると、何らかの属性データ（たとえば沈没したタイタニック号に乗っていた人の集団に対して、一人ひとりの属性値）を可視化する手段が限られていたことをあげています。</p>
+<blockquote>
+<p>「扱おうとしているデータが離散的であるにもかかわらずビジュアライゼーションでのパラメータ(位置や長さなど)は連続しており、両者が不整合である 」
+Beautiful Visualization 12章 表のツリー表現 P183-193</p>
+</blockquote>
+<p>少しやわらかく言い直すと、属性値自体は文字のデータ、年齢…大人か子供か、性別…男性か女性か、であり、これらを集計して扱う際には数値として扱う必要がでてくる、ということになります。またこういったデータは、名義スケールであり順序スケールではない、つまり順序に意味を持たず、さらには階層構造を持つことがあることも指摘しています。</p>
+<p>このようなデータを可視化することができるチャートとしては、それまでツリーマップ（Treemap）とモザイク・プロット（Mosaic Plot）しか存在なかった、そしてParallel Setsは三番目のチャートだとRobertさんは述べています。</p>
+<h3 id="一つの軸には一つのデータ属性を割り振る">一つの軸には一つのデータ属性を割り振る
+</h3><blockquote>
+<p>データを集合として表現するアイデア以外に、ParSetsは平行座標系(Parallel Coordinates)[Inselberg 2009] に大きな影響を受けています。平行座標系は高次元の数値データを表すためによく使われるビジュアライゼーションのテクニックです。値を表現する軸を平行にレイアウトして表示することにより、ツリーマップやMosaic Plotのような入れ子構造よりもデータの理解や比較が容易になっており、特に変数の数が多い場合に有効です。また、この種のレイアウトは、効果的なインタラクションをデザインするのが容易です。
+Beautiful Visualization 12章 表のツリー表現 P183-193</p>
+</blockquote>
+<h3 id="階層構造を表す">階層構造を表す
+</h3><blockquote>
+<p>新しい視覚的構造を探し始めた のですが、そこでようやく我々が求めているのはツリー構造に他ならない(つまり、Standard 方式をとるべき)ということに気づきました。
+Beautiful Visualization 12章 表のツリー表現 P183-193</p>
+</blockquote>
+<h3 id="流れや時系列は表現しない">流れや時系列は表現しない
+</h3><p>物事の流れや時系列変化の表現には使用しません。つなぐ線は直線、曲線のどちらもありえますが、流れや時間を示さないため、矢印は使用しません。無向グラフ的ということですね。</p>
+<h3 id="一番優先度の高い軸の値に応じて着色">一番優先度の高い軸の値に応じて着色
+</h3><p>カテゴリーデータの値ごとに色が割り振られる場合があります。その場合は、一番重要な軸を一番上に配置し、そのデータ属性の値を色へ適用することが多いでしょう。チャートが入り組んできても、色を手がかりにチャートを探索することが可能となります。</p>
+<h2 id="作例">作例
+</h2><h3 id="ミネソタ州上とノースカロライナ州下の住宅データを比較">ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
+</h3><p><img src="/parallel-sets/images/image-14.png"
+	width="1288"
+	height="2026"
+	srcset="/parallel-sets/images/image-14_huc5474c971d4cb82a2e36bf7c0f35acd5_951285_480x0_resize_box_3.png 480w, /parallel-sets/images/image-14_huc5474c971d4cb82a2e36bf7c0f35acd5_951285_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="63"
+		data-flex-basis="152px"
+	
+></p>
+<p><a class="link" href="https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf"  target="_blank" rel="noopener"
+    >Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.</a></p>
+<p>寒い気候の人々は、暖房燃料として電気よりもガスを好み、移動式の家もあまり好きではありません。南部の住宅は平均的にベッドルーム数がやや少ないが、3ベッドルームの一戸建て住宅は北部よりも多いことがわかります。</p>
+<h3 id="国民戦線の躍進はフランスの伝統的な政党を揺さぶるフィナンシャルタイムズ">国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
+</h3><p><img src="/parallel-sets/images/image-15.png"
+	width="600"
+	height="730"
+	srcset="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_480x0_resize_box_3.png 480w, /parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="82"
+		data-flex-basis="197px"
+	
+></p>
+<p><a class="link" href="https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0"  target="_blank" rel="noopener"
+    >National Front breakthrough stuns France’s traditional parties | Financial Times</a></p>
+<h3 id="ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳">ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
+</h3><p><img src="/parallel-sets/images/image-16.png"
+	width="1371"
+	height="847"
+	srcset="/parallel-sets/images/image-16_hu91b10a6491a0be28df5f152626e98e81_211028_480x0_resize_box_3.png 480w, /parallel-sets/images/image-16_hu91b10a6491a0be28df5f152626e98e81_211028_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="161"
+		data-flex-basis="388px"
+	
+></p>
+<p><a class="link" href="https://serialmentor.com/dataviz/nested-proportions.html"  target="_blank" rel="noopener"
+    >Fundamentals of Data Visualization</a></p>
+<h3 id="tracking-the-earths-300-nano-satellites">TRACKING THE EARTH’S 300 NANO-SATELLITES
+</h3><p><img src="/parallel-sets/images/1280.webp"
+	width="1280"
+	height="1920"
+	srcset="/parallel-sets/images/1280_hue3b2c370f19cb1c953bd006c60f5d1ad_91534_480x0_resize_q75_h2_box_2.webp 480w, /parallel-sets/images/1280_hue3b2c370f19cb1c953bd006c60f5d1ad_91534_1024x0_resize_q75_h2_box_2.webp 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="66"
+		data-flex-basis="160px"
+	
+></p>
+<p><a class="link" href="https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics"  target="_blank" rel="noopener"
+    >TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini</a></p>
+<h3 id="ドローンが空から落下してくるとき--the-washington-post">ドローンが空から落下してくるとき | The Washington Post
+</h3><p><img src="/parallel-sets/images/image-18.png"
+	width="1170"
+	height="446"
+	srcset="/parallel-sets/images/image-18_hu2be63fa0467c17a9c1a13bf4596edbec_530658_480x0_resize_box_3.png 480w, /parallel-sets/images/image-18_hu2be63fa0467c17a9c1a13bf4596edbec_530658_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="262"
+		data-flex-basis="629px"
+	
+></p>
+<p><a class="link" href="https://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/"  target="_blank" rel="noopener"
+    >When drones fall from the sky | The Washington Post</a></p>
+<h3 id="rotem-blinder-of-ibm-hierarchical-parallel-sets">Rotem Blinder of IBM “Hierarchical Parallel Sets”
+</h3><p><img src="/parallel-sets/images/image-19.png"
+	width="1536"
+	height="2048"
+	srcset="/parallel-sets/images/image-19_hu732634d84f712ca73bfe004b3fa6a918_5543260_480x0_resize_box_3.png 480w, /parallel-sets/images/image-19_hu732634d84f712ca73bfe004b3fa6a918_5543260_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="75"
+		data-flex-basis="180px"
+	
+></p>
+<p><a class="link" href="https://www.youtube.com/watch?v=P3FAyWbDlI4"  target="_blank" rel="noopener"
+    >Rotem Blinder – YouTube</a></p>
+<h3 id="pantheon-corriere-della-sera--la-lettura-181">PANTHEON Corriere della Sera – La Lettura #181
+</h3><p><img src="/parallel-sets/images/image-20.png"
+	width="1200"
+	height="1207"
+	srcset="/parallel-sets/images/image-20_hu43ac38acaadd459a906327ce24c6f513_2642503_480x0_resize_box_3.png 480w, /parallel-sets/images/image-20_hu43ac38acaadd459a906327ce24c6f513_2642503_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="99"
+		data-flex-basis="238px"
+	
+></p>
+<p><a class="link" href="https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181"  target="_blank" rel="noopener"
+    >PANTHEON Corriere della Sera – La Lettura #181</a></p>
+<h3 id="news-use-across-social-media-platforms">News Use Across Social Media Platforms
+</h3><p><img src="/parallel-sets/images/image-21.png"
+	width="421"
+	height="833"
+	srcset="/parallel-sets/images/image-21_hu937fa5076aff2fd778847a07efdd129e_80100_480x0_resize_box_3.png 480w, /parallel-sets/images/image-21_hu937fa5076aff2fd778847a07efdd129e_80100_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="50"
+		data-flex-basis="121px"
+	
+></p>
+<p><a class="link" href="https://www.journalism.org/2013/11/14/news-use-across-social-media-platforms/"  target="_blank" rel="noopener"
+    >News Use Across Social Media Platforms</a></p>
+<h2 id="インタラクション">インタラクション
+</h2><p>マウスポインタのホバーなどでユーザーの興味を示すと、該当する面が強調表現（もしくは該当しない箇所の可読性を落とす）ことで、その面がどんなデータを取っているのかが見やすくなります。</p>
+<blockquote>
+<p>ParSets ではインタラクションが重要な役割を果たしています。ユーザーがマウスカー ソルを重ねると実際の値が表示されるほか、属性や値の並べ替え、値の追加や削除も可能です。また、軸上の各属性は並べ替えることもでき、より大きな属性へと結合させることも可能です。例えば、すべての船室を結合させて船員と比較することができます。
+Beautiful Visualization 12章 表のツリー表現 P183-193</p>
+</blockquote>
+<h2 id="参考文献">参考文献
+</h2><ul>
+<li>Riccardo Mazza「情報を見える形にする技術」 P63</li>
+<li><a class="link" href="https://eagereyes.org/parallel-sets"  target="_blank" rel="noopener"
+    >Parallel Sets</a></li>
+<li><a class="link" href="https://www.vrvis.at/en/publications/PB-VRVis-2005-034"  target="_blank" rel="noopener"
+    >VRVis: Parallel Sets: Visual Analysis of Categorical Data</a></li>
+<li><a class="link" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9810&amp;rep=rep1&amp;type=pdf"  target="_blank" rel="noopener"
+    >Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): “Parallel Sets: Visual analysis of categorical data”. Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.</a></li>
+<li><a class="link" href="https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf"  target="_blank" rel="noopener"
+    >Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/visual-vocabulary/">
+        
+        
+            <div class="article-image">
+                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu6c1be24e3d0dab470ad4725a963e3e2b_1131114_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Visual Vocabulary"
+                        data-key="visual-vocabulary" 
+                        data-hash="md5-hsxZzUbqmG1fDzsMwvbUNw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Visual Vocabulary</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-tasks/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hue2de1557724c667c7159411555ef7895_169854_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post タスク別チャート分類"
+                        data-key="chart-catalogue-by-tasks" 
+                        data-hash="md5-9xDY35SR6btr/j2xofkArg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">タスク別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-types/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu8e61fd2dd8813282e49ae344b85753dc_1775402_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ・タイプ別チャート分類"
+                        data-key="chart-catalogue-by-types" 
+                        data-hash="md5-YW0lVHlMlcCcAMhpnI7Vfg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ・タイプ別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/splom/">
+        
+        
+            <div class="article-image">
+                <img src="/splom/images/_hu26386bd117306a3acc69480357a7e55f_448834_8e49783e2bed5d1c1fc5009be35d213e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 散布図行列"
+                        data-key="splom" 
+                        data-hash="md5-Ji5GZsZd5Xr/m50lBQ5lew==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">散布図行列</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/treemap/">
+        
+        
+            <div class="article-image">
+                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu75a0be77d40a73af2d565b885fbd6d36_158292_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ツリーマップ（Treemap）"
+                        data-key="treemap" 
+                        data-hash="md5-5IcyeNAuy4rTEN50k07HpQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ツリーマップ（Treemap）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。\n">
+<title>オイラー図とベン図（Euler Diagram &amp; Venn Diagram）</title>
+
+<link rel='canonical' href='https://example.com/euler-venn-diagram/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="オイラー図とベン図（Euler Diagram & Venn Diagram）">
+<meta property='og:description' content="ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。\n">
+<meta property='og:url' content='https://example.com/euler-venn-diagram/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n.jpg' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="オイラー図とベン図（Euler Diagram & Venn Diagram）">
+<meta name="twitter:description" content="ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#四つ以上のデータセットを対象にしたベン図">四つ以上のデータセットを対象にしたベン図</a>
+      <ol>
+        <li><a href="#四つの場合">四つの場合</a></li>
+        <li><a href="#五つの場合">五つの場合</a></li>
+        <li><a href="#六つの場合">六つの場合</a></li>
+        <li><a href="#七つの場合">七つの場合</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考文献">参考文献</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/euler-venn-diagram/">
+                <img src="/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n_huccffda039cc9c0fed4dcd41121587139_75027_800x0_resize_q75_box.jpg"
+                        srcset="/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n_huccffda039cc9c0fed4dcd41121587139_75027_800x0_resize_q75_box.jpg 800w, /euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n_huccffda039cc9c0fed4dcd41121587139_75027_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="1267" 
+                        loading="lazy"
+                        alt="Featured image of post オイラー図とベン図（Euler Diagram &amp; Venn Diagram）" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/chart/" >
+                chart
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/euler-venn-diagram/">オイラー図とベン図（Euler Diagram &amp; Venn Diagram）</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 03, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。</p>
+<p><a class="link" href="https://www.dofactory.com/sql/join"  target="_blank" rel="noopener"
+    >Four different types of JOINs</a></p>
+<p>作者のジョン・ベンにちなんだ名称で、閉曲線（閉じた曲線で作られた閉じた図形）を使って集合理論的な関係を示す図として知られています。</p>
+<p>この図に登場するデータセット（テーブル）は二つですが、登場するセットが最大3つまでであれば、これはベン図といえます。それ以上のデータセットにおいては、ベン図といえないかもしれません。</p>
+<p>同様のチャートで、レオンハルト・オイラーにちなんだオイラー図というものがあり、オイラー図とベン図の関係を図で示すとこのようになります。</p>
+<p><img src="/euler-venn-diagram/images/venn_euler-1-1.png"
+	width="347"
+	height="316"
+	srcset="/euler-venn-diagram/images/venn_euler-1-1_hu22b2824fccead8b956638013b5c2075a_13424_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/venn_euler-1-1_hu22b2824fccead8b956638013b5c2075a_13424_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="109"
+		data-flex-basis="263px"
+	
+></p>
+<p><a class="link" href="https://www.gliffy.com/blog/venn-diagram-types-templates"  target="_blank" rel="noopener"
+    >Four different types of JOINs</a></p>
+<p>つまり、より一般的なものがオイラー図であり、そのうちある要件を満たすものをベン図と呼びます。その要件とは「集合のすべての交差を示さなければならない」ということで、現実的にありえない組み合わせであっても数学的に示すことが求められます。</p>
+<p><img src="/euler-venn-diagram/images/Venn-and-Euler_4.png"
+	width="975"
+	height="550"
+	srcset="/euler-venn-diagram/images/Venn-and-Euler_4_hu150ab7a588ffecbb1d8203cb53dfe395_220615_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/Venn-and-Euler_4_hu150ab7a588ffecbb1d8203cb53dfe395_220615_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="425px"
+	
+></p>
+<p>From Data Visualization Handbook.</p>
+<p>四つのセットを対象にした際、現実的にありえる組み合わせのみを考慮すればよいオイラー図（左）と、すべての交差（組み合わせ）を示さなければならないベン図（右）の違いです。</p>
+<p>実際には、数学や論理学などの特定のトピックを除き、ほとんどの場合はオイラー図と呼ぶ図を使用することになりそうです。</p>
+<h2 id="四つ以上のデータセットを対象にしたベン図">四つ以上のデータセットを対象にしたベン図
+</h2><h3 id="四つの場合">四つの場合
+</h3><p><img src="/euler-venn-diagram/images/522_4-1.png"
+	width="1034"
+	height="870"
+	srcset="/euler-venn-diagram/images/522_4-1_hufabc10b35b8ac05376be79fd5f9fd5af_604137_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/522_4-1_hufabc10b35b8ac05376be79fd5f9fd5af_604137_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="118"
+		data-flex-basis="285px"
+	
+></p>
+<p><a class="link" href="https://science.sciencemag.org/content/sci/324/5926/522.full.pdf"  target="_blank" rel="noopener"
+    >https://science.sciencemag.org/content/sci/324/5926/522.full.pdf</a></p>
+<p><img src="/euler-venn-diagram/images/venn_4_set_curve-1-1.png"
+	width="536"
+	height="493"
+	srcset="/euler-venn-diagram/images/venn_4_set_curve-1-1_hu673ee33105c95df46f2d46948528e487_45649_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/venn_4_set_curve-1-1_hu673ee33105c95df46f2d46948528e487_45649_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="108"
+		data-flex-basis="260px"
+	
+></p>
+<p><a class="link" href="https://www.gliffy.com/blog/venn-diagram-types-templates"  target="_blank" rel="noopener"
+    >https://www.gliffy.com/blog/venn-diagram-types-templates</a></p>
+<p><img src="/euler-venn-diagram/images/venn_4.png"
+	width="1058"
+	height="812"
+	srcset="/euler-venn-diagram/images/venn_4_hu3d02a4881117abbdb37569731a4b707e_777293_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/venn_4_hu3d02a4881117abbdb37569731a4b707e_777293_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="130"
+		data-flex-basis="312px"
+	
+></p>
+<p><a class="link" href="https://www.researchgate.net/publication/50304549_Exact_and_Approximate_Area-Proportional_Circular_Venn_and_Euler_Diagrams"  target="_blank" rel="noopener"
+    >https://www.researchgate.net/publication/50304549_Exact_and_Approximate_Area-Proportional_Circular_Venn_and_Euler_Diagrams</a></p>
+<h3 id="五つの場合">五つの場合
+</h3><p><img src="/euler-venn-diagram/images/venn_result20993.png"
+	width="1916"
+	height="1888"
+	srcset="/euler-venn-diagram/images/venn_result20993_hu1c232cef9f42bfa30ba5761f69deaa4c_661450_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/venn_result20993_hu1c232cef9f42bfa30ba5761f69deaa4c_661450_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="101"
+		data-flex-basis="243px"
+	
+></p>
+<p><a class="link" href="https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/"  target="_blank" rel="noopener"
+    >https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/</a></p>
+<p><img src="/euler-venn-diagram/images/LocalisedRNAs_acrosstime_fiveVenn_modified-01.png"
+	width="2500"
+	height="2408"
+	srcset="/euler-venn-diagram/images/LocalisedRNAs_acrosstime_fiveVenn_modified-01_hu1c87a06257c5f2b6dbc084ea797d3f68_257372_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/LocalisedRNAs_acrosstime_fiveVenn_modified-01_hu1c87a06257c5f2b6dbc084ea797d3f68_257372_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="249px"
+	
+></p>
+<p><a class="link" href="https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/"  target="_blank" rel="noopener"
+    >https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/</a></p>
+<h3 id="六つの場合">六つの場合
+</h3><p><img src="/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n.jpg"
+	width="600"
+	height="950"
+	srcset="/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n_huccffda039cc9c0fed4dcd41121587139_75027_480x0_resize_q75_box.jpg 480w, /euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n_huccffda039cc9c0fed4dcd41121587139_75027_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="63"
+		data-flex-basis="151px"
+	
+></p>
+<p><a class="link" href="https://www.nature.com/articles/d41586-020-00154-w"  target="_blank" rel="noopener"
+    >https://www.nature.com/articles/d41586-020-00154-w</a></p>
+<p><img src="/euler-venn-diagram/images/LocalisedRNAs_acrosstime_6.png"
+	width="1200"
+	height="1156"
+	srcset="/euler-venn-diagram/images/LocalisedRNAs_acrosstime_6_hu5d221ffe3b4ebc002156ad50ccef2529_145004_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/LocalisedRNAs_acrosstime_6_hu5d221ffe3b4ebc002156ad50ccef2529_145004_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="103"
+		data-flex-basis="249px"
+	
+></p>
+<p><a class="link" href="https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/"  target="_blank" rel="noopener"
+    >https://thenode.biologists.com/venn-euler-upset-visualize-overlaps-in-datasets/education/</a></p>
+<h3 id="七つの場合">七つの場合
+</h3><p><img src="/euler-venn-diagram/images/venn_7.png"
+	width="1941"
+	height="1764"
+	srcset="/euler-venn-diagram/images/venn_7_hu63aef800bef5715aeb56d86c1f23e65a_1455501_480x0_resize_box_3.png 480w, /euler-venn-diagram/images/venn_7_hu63aef800bef5715aeb56d86c1f23e65a_1455501_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="110"
+		data-flex-basis="264px"
+	
+></p>
+<p><a class="link" href="http://moebio.com/research/sevensets/"  target="_blank" rel="noopener"
+    >7 sets Venn Diagram (interactive version)</a></p>
+<h2 id="参考文献">参考文献
+</h2><ul>
+<li><a class="link" href="https://www.researchgate.net/publication/50304549_Exact_and_Approximate_Area-Proportional_Circular_Venn_and_Euler_Diagrams"  target="_blank" rel="noopener"
+    >Exact and Approximate Area-Proportional Circular Venn and Euler Diagrams</a></li>
+<li>Data Visualization Handbook</li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/visual-vocabulary/">
+        
+        
+            <div class="article-image">
+                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu6c1be24e3d0dab470ad4725a963e3e2b_1131114_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Visual Vocabulary"
+                        data-key="visual-vocabulary" 
+                        data-hash="md5-hsxZzUbqmG1fDzsMwvbUNw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Visual Vocabulary</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-tasks/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hue2de1557724c667c7159411555ef7895_169854_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post タスク別チャート分類"
+                        data-key="chart-catalogue-by-tasks" 
+                        data-hash="md5-9xDY35SR6btr/j2xofkArg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">タスク別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chart-catalogue-by-types/">
+        
+        
+            <div class="article-image">
+                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu8e61fd2dd8813282e49ae344b85753dc_1775402_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ・タイプ別チャート分類"
+                        data-key="chart-catalogue-by-types" 
+                        data-hash="md5-YW0lVHlMlcCcAMhpnI7Vfg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ・タイプ別チャート分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/splom/">
+        
+        
+            <div class="article-image">
+                <img src="/splom/images/_hu26386bd117306a3acc69480357a7e55f_448834_8e49783e2bed5d1c1fc5009be35d213e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 散布図行列"
+                        data-key="splom" 
+                        data-hash="md5-Ji5GZsZd5Xr/m50lBQ5lew==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">散布図行列</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/treemap/">
+        
+        
+            <div class="article-image">
+                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu75a0be77d40a73af2d565b885fbd6d36_158292_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ツリーマップ（Treemap）"
+                        data-key="treemap" 
+                        data-hash="md5-5IcyeNAuy4rTEN50k07HpQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ツリーマップ（Treemap）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。\n">
+<title>Focus&#43;Contextの実例</title>
+
+<link rel='canonical' href='https://example.com/focus-context/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Focus+Contextの実例">
+<meta property='og:description' content="情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。\n">
+<meta property='og:url' content='https://example.com/focus-context/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-11-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-11-11T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/focus-context/images/image-35.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="Focus+Contextの実例">
+<meta name="twitter:description" content="情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/focus-context/images/image-35.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#二焦点ビューbifocal-view">二焦点ビュー(Bifocal View)</a>
+      <ol>
+        <li><a href="#bifocal-view-1982">Bifocal View (1982)</a></li>
+      </ol>
+    </li>
+    <li><a href="#遠近ウォールperspective-wall">遠近ウォール(Perspective Wall)</a>
+      <ol>
+        <li><a href="#the-perspective-wall-1991">The Perspective Wall (1991)</a></li>
+      </ol>
+    </li>
+    <li><a href="#魚眼ビュー-fish-eye-view">魚眼ビュー (Fish­ Eye View)</a>
+      <ol>
+        <li><a href="#generalized-fisheye-views-1986">Generalized Fisheye Views (1986)</a></li>
+        <li><a href="#fisheye-menu-2000">Fisheye Menu (2000)</a></li>
+        <li><a href="#graphical-fisheye-views-1993">Graphical Fisheye Views (1993)</a></li>
+      </ol>
+    </li>
+    <li><a href="#ハイパーボリックブラウザーhyperbolic-browser">ハイパーボリック・ブラウザー(Hyperbolic Browser)</a>
+      <ol>
+        <li><a href="#hyperbolic-geometry-1995">Hyperbolic Geometry (1995)</a></li>
+        <li><a href="#3d-hyperbolic-space-1998">3D Hyperbolic Space (1998)</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/focus-context/">
+                <img src="/focus-context/images/image-35_hua81f20bb85ab37122ff5211396e483c8_3549478_800x0_resize_box_3.png"
+                        srcset="/focus-context/images/image-35_hua81f20bb85ab37122ff5211396e483c8_3549478_800x0_resize_box_3.png 800w, /focus-context/images/image-35_hua81f20bb85ab37122ff5211396e483c8_3549478_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="416" 
+                        loading="lazy"
+                        alt="Featured image of post Focus&#43;Contextの実例" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/focus-context/">Focus&#43;Contextの実例</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 11, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。</p>
+<h2 id="二焦点ビューbifocal-view">二焦点ビュー(Bifocal View)
+</h2><h3 id="bifocal-view-1982">Bifocal View (1982)
+</h3><p>こうした手法のさきがけは、1982年にRobert Spenceが発表しています。</p>
+<p><img src="/focus-context/images/image-29.png"
+	width="1181"
+	height="577"
+	srcset="/focus-context/images/image-29_huab28b83a85beb90f01ef8b17b2e51072_1469928_480x0_resize_box_3.png 480w, /focus-context/images/image-29_huab28b83a85beb90f01ef8b17b2e51072_1469928_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="204"
+		data-flex-basis="491px"
+	
+></p>
+<p><a class="link" href="https://www.researchgate.net/publication/247494429_Data_Base_Navigation_an_Office_Environment_for_the_Professional"  target="_blank" rel="noopener"
+    >Data Base Navigation: an Office Environment for the Professional</a></p>
+<h2 id="遠近ウォールperspective-wall">遠近ウォール(Perspective Wall)
+</h2><h3 id="the-perspective-wall-1991">The Perspective Wall (1991)
+</h3><p><img src="/focus-context/images/image-30.png"
+	width="1434"
+	height="450"
+	srcset="/focus-context/images/image-30_hu5b7652d1df3b7e2baa65f7d2f9cc1e1c_381837_480x0_resize_box_3.png 480w, /focus-context/images/image-30_hu5b7652d1df3b7e2baa65f7d2f9cc1e1c_381837_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="318"
+		data-flex-basis="764px"
+	
+></p>
+<p><a class="link" href="https://www.researchgate.net/publication/247494429_Data_Base_Navigation_an_Office_Environment_for_the_Professional"  target="_blank" rel="noopener"
+    >The perspective wall: Detail and context smoothly integrated</a></p>
+<h2 id="魚眼ビュー-fish-eye-view">魚眼ビュー (Fish­ Eye View)
+</h2><h3 id="generalized-fisheye-views-1986">Generalized Fisheye Views (1986)
+</h3><p><img src="/focus-context/images/image-31.png"
+	width="1822"
+	height="1342"
+	srcset="/focus-context/images/image-31_hua2c52e5817d885cf583a6983508d67d9_755804_480x0_resize_box_3.png 480w, /focus-context/images/image-31_hua2c52e5817d885cf583a6983508d67d9_755804_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="135"
+		data-flex-basis="325px"
+	
+></p>
+<p><a class="link" href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.124.1233&amp;rep=rep1&amp;type=pdf"  target="_blank" rel="noopener"
+    >Generalized Fisheye Views</a></p>
+<h3 id="fisheye-menu-2000">Fisheye Menu (2000)
+</h3><p><img src="/focus-context/images/image-32.png"
+	width="229"
+	height="585"
+	srcset="/focus-context/images/image-32_hu2cc5ecf6ba05f072740da2eb72ca05e8_19068_480x0_resize_box_3.png 480w, /focus-context/images/image-32_hu2cc5ecf6ba05f072740da2eb72ca05e8_19068_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="39"
+		data-flex-basis="93px"
+	
+></p>
+<p><a class="link" href="https://www.cs.umd.edu/hcil/fisheyemenu/"  target="_blank" rel="noopener"
+    >Fisheye Menu</a></p>
+<h3 id="graphical-fisheye-views-1993">Graphical Fisheye Views (1993)
+</h3><p><img src="/focus-context/images/image-33.png"
+	width="1604"
+	height="1256"
+	srcset="/focus-context/images/image-33_hu15eee40f911784e9fa65d3c9782ab6f2_333591_480x0_resize_box_3.png 480w, /focus-context/images/image-33_hu15eee40f911784e9fa65d3c9782ab6f2_333591_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="306px"
+	
+></p>
+<p><a class="link" href="https://dl.acm.org/doi/10.1145/198366.198384"  target="_blank" rel="noopener"
+    >Graphical Fisheye Views</a></p>
+<h2 id="ハイパーボリックブラウザーhyperbolic-browser">ハイパーボリック・ブラウザー(Hyperbolic Browser)
+</h2><h3 id="hyperbolic-geometry-1995">Hyperbolic Geometry (1995)
+</h3><p><img src="/focus-context/images/image-34.png"
+	width="2046"
+	height="1126"
+	srcset="/focus-context/images/image-34_hu2430b9e3f02182288bd0eb357742cb36_385151_480x0_resize_box_3.png 480w, /focus-context/images/image-34_hu2430b9e3f02182288bd0eb357742cb36_385151_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="181"
+		data-flex-basis="436px"
+	
+></p>
+<p><a class="link" href="http://www.ramanarao.com/papers/startree-chi95.pdf"  target="_blank" rel="noopener"
+    >A Focus+Context Technique Based on Hyperbolic Geometry for Visualizing Large Hierarchies</a></p>
+<h3 id="3d-hyperbolic-space-1998">3D Hyperbolic Space (1998)
+</h3><p><img src="/focus-context/images/image-35.png"
+	width="1893"
+	height="984"
+	srcset="/focus-context/images/image-35_hua81f20bb85ab37122ff5211396e483c8_3549478_480x0_resize_box_3.png 480w, /focus-context/images/image-35_hua81f20bb85ab37122ff5211396e483c8_3549478_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="192"
+		data-flex-basis="461px"
+	
+></p>
+<p><a class="link" href="https://graphics.stanford.edu/papers/h3cga/html/"  target="_blank" rel="noopener"
+    >Exploring Large Graphs in 3D Hyperbolic Space</a></p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/color-name-appearance/">
+        
+        
+            <div class="article-image">
+                <img src="/color-name-appearance/images/_hu59b3fe3aefda58553695839bbd15aa13_64460_1e59c4d90f7c2df2012e5d7006e86593.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒"
+                        data-key="color-name-appearance" 
+                        data-hash="md5-CMPRLgKzfQETB6ukhukY8w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/interaction-of-color-weber-fechner-kaw/">
+        
+        
+            <div class="article-image">
+                <img src="/interaction-of-color-weber-fechner-kaw/images/_hucb0d4ff65094a5ee3930b1a0ffd27091_52316_a51953fb48ddd84021e4bd3321014ad8.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 色の変化、その物理的事実と心理的効果の違い"
+                        data-key="interaction-of-color-weber-fechner-kaw" 
+                        data-hash="md5-Q8CpOSWepRMKh8MnE3Bz5Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">色の変化、その物理的事実と心理的効果の違い</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/sender-oriented-vis/">
+        
+        
+            <div class="article-image">
+                <img src="/sender-oriented-vis/images/md_yuichiyazaki.c0530b6961fa4da5b60d151257ee189a_hud14e78585c7d0427878481cf9705a9eb_1546736_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 発信者主体の情報可視化作品作りにおけるスケッチの行い方考察"
+                        data-key="sender-oriented-vis" 
+                        data-hash="md5-wFMLaWH6TaW2DRUSV&#43;4Ymg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">発信者主体の情報可視化作品作りにおけるスケッチの行い方考察</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/airbnb-superset/">
+        
+        
+            <div class="article-image">
+                <img src="/airbnb-superset/images/bank_dash.48fddc8554e932496c537a4911cfb3eb_hu498e6def10bbd3c8aa8cf03bc9a5f186_1600232_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post AirBnBが開発したOSSのB.I.ツール、Superset"
+                        data-key="airbnb-superset" 
+                        data-hash="md5-SP3chVTpMklsU3pJEc&#43;z6w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">AirBnBが開発したOSSのB.I.ツール、Superset</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/tamar-targets/">
+        
+        
+            <div class="article-image">
+                <img src="/tamar-targets/images/tamar-targets-alldata.2006d75011a32ca3e21bd3f6b5c627ca_hu55721825fc88312ceff1f004afc780da_43893_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post タマラさんによるタスクの定義（ターゲット）"
+                        data-key="tamar-targets" 
+                        data-hash="md5-IAbXUBGjLKPiG9P2tcYnyg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">タマラさんによるタスクの定義（ターゲット）</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ライブラリー on Visualizing.JP</title>
+        <link>https://example.com/tags/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/</link>
+        <description>Recent content in ライブラリー on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Thu, 18 Dec 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>D3.jsを使ったreusableな実装</title>
+        <link>https://example.com/d3js-reusable/</link>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3js-reusable/</guid>
+        <description>&lt;img src="https://example.com/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
+&lt;p&gt;・データが異なるバーチャートをいくつか掲載したい&lt;br&gt;
+・カラースキーム（色の指定ルール）が異なるバーチャートをいくつか掲載したい&lt;br&gt;
+・バーチャートとパイチャートに同じデータを適用したい&lt;/p&gt;
+&lt;p&gt;これらのような場合に、一つひとつexampleのような書き方をすると冗長ですし、整合性をヒューリスティックに確かめなければなりません。D3.jsのメインコントリビューターであるMike Bostockが使った‘reusable’=再利用可能、というキーワードがここで登場します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bost.ocks.org/mike/chart/&#34;  title=&#34;Towards Reusable Charts&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Towards Reusable Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/makoto/8092152&#34;  title=&#34;再利用可能なチャートに向けて&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;再利用可能なチャートに向けて&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただ、再利用可能なチャートのためのフレームワークはD3.jsには含まれていず、個々人で用意するか、既存のD3.jsをラッピングしたライブラリを使う必要があります。他のプログラム言語だとクラス化するところですが、JavaScriptはクラスの仕組みがないのと、D3.jsの実装にも特徴があるので、それに沿った実現の仕方が必要です。カプセル化しクロージャの仕組みを利用する、というのが定番になっているようです。&lt;/p&gt;
+&lt;p&gt;ボストンのデベロッパー会社bocoupでは再利用可能なことについての記事と、その考えを適用したライブラリ（d3.Chart）をリリースしています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://misoproject.com/d3-chart/&#34;  title=&#34;d3.chart&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://misoproject.com/d3-chart/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/weblog/reusability-with-d3/&#34;  title=&#34;Exploring Reusability with D3.js&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://bocoup.com/weblog/reusability-with-d3/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、D3.jsのグーグルグループ参加者の有志でreusableな実装の仕方についてまとめた本が出ています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bleedingedgepress.com/our-books/developing-a-d3-js-edge/&#34;  title=&#34;Developing a D3.js Edge&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Developing a D3.js Edge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;bocoupのメンバーが提案している再利用可能であることの特徴として以下のような定義をしています。&lt;br&gt;
+(bocoup Irene Rosの講演、&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=TYgSc_S0lCw&#34;  title=&#34;Fluent 2013: Irene Ros, &amp;#39;The ABC of Data Visualization&amp;#39;&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fluent 2013: Irene Ros, &amp;ldquo;The ABC of Data Visualization&amp;rdquo;&lt;/a&gt;からの引用)&lt;/p&gt;
+&lt;h3 id=&#34;repeatable---かんたんにいくつも作り出せること&#34;&gt;Repeatable - かんたんにいくつも作り出せること
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable2-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable2-1_hua0439c55624e810aa28f732ff4d770c5_108260_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable2-1_hua0439c55624e810aa28f732ff4d770c5_108260_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configurable---特定のタスクのための適切な変更がかんたんに行えること&#34;&gt;Configurable - 特定のタスクのための適切な変更がかんたんに行えること
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable3-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable3-1_hua0439c55624e810aa28f732ff4d770c5_117333_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable3-1_hua0439c55624e810aa28f732ff4d770c5_117333_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;extensible---機能の拡張がかんたんなこと&#34;&gt;Extensible - 機能の拡張がかんたんなこと
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable4-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;475&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable4-1_hua0439c55624e810aa28f732ff4d770c5_141177_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable4-1_hua0439c55624e810aa28f732ff4d770c5_141177_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;composable---他のチャートとの組み合わせがかんたんなこと&#34;&gt;Composable - 他のチャートとの組み合わせがかんたんなこと
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3js-reusable/images/bocoupReusable1-1.png&#34;
+	width=&#34;853&#34;
+	height=&#34;473&#34;
+	srcset=&#34;https://example.com/d3js-reusable/images/bocoupReusable1-1_hu2f9e7a5a45658d60022c266388e4119c_116234_480x0_resize_box_3.png 480w, https://example.com/d3js-reusable/images/bocoupReusable1-1_hu2f9e7a5a45658d60022c266388e4119c_116234_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;432px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;世の中にあるD3.jsを活用したライブラリというのはあまねく、D3.jsを包み込んだ上で、APIを簡略化したり、機能を足したもの（そのどちらかか両方）である、ということができます。&lt;/p&gt;
+&lt;p&gt;これらのリソースを参考に、ぼくも自分で使う用にライブラリの整備を進めています。&lt;/p&gt;
+&lt;p&gt;・データやDOMと、チャート描画メソッドを分離しておける。&lt;br&gt;
+・getter/setterメソッドを用意することで、ライブラリ外部から指定が可能な変数を指定できる。&lt;br&gt;
+・d3.dispatchというメソッドを利用することで、カスタムイベントを定義し、ライブラリから外部へイベントを発火させることができる。&lt;/p&gt;
+&lt;p&gt;あたりの性質を活かしているもので、サンプルコード（今回はトグルナビゲーション）を以下に掲載しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/n1n9-jp/6238c6e48bff9cd8da12&#34;  title=&#34;Toggle Navigation(reusable way)&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Toggle Navigation(reusable way)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

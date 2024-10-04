@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>facebook on Visualizing.JP</title>
+        <link>https://example.com/tags/facebook/</link>
+        <description>Recent content in facebook on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/facebook/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Facebookで友達のつながりを可視化</title>
+        <link>https://example.com/friendship-facebook/</link>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/friendship-facebook/</guid>
+        <description>&lt;img src="https://example.com/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/notes/10158791468612200/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing Friendships&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当初はまともに、個々人の住んでいる場所を点で描画し、それらを線でつないだそうですが、つながりの数が多すぎてまともな描画にならなかったそうです。&lt;/p&gt;
+&lt;p&gt;そこで個々人として扱うのではなく、その人が住んでいる都市同士の繋がりとして扱うことにして、そのつながりの強さを、都市間のユークリッド距離と都市間の友達の数の関数として定義し、つながりに重みをつけて、線の太さと色を調整し、重なり順にも反映させたら描画が上手くいったとのこと。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/friendship-facebook/images/163413_479288597199_8388607_n.png&#34;
+	width=&#34;2368&#34;
+	height=&#34;1179&#34;
+	srcset=&#34;https://example.com/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_480x0_resize_box_3.png 480w, https://example.com/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;482px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;いわゆるベースマップは表示せず、テーマデータの描画だけで世界地図が浮かび上がっています。&lt;/p&gt;
+&lt;p&gt;最適な線の太さや色の濃さなどの表現は、最終的な出力先＝画面解像度をはじめとした環境に依存します。一般的なディスプレイサイズと、展示やプロジェクションマッピングの場合には最適な美しさというのは異なってきます。解像度もそうですし、鑑賞者がどの距離からどの角度で眺めることになるのかにも依存します。&lt;/p&gt;
+&lt;p&gt;ビッグデータの可視化といったときに問題になるのがこの点です。データ量が膨大の場合、1.概観と詳細のビューを分ける、2.データ自体をあらかじめ絞り込む、3.画面にデータ全体を一度に描画することは諦め、スクロールを前提にする、などが考えられます。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

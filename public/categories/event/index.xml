@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>event on Visualizing.JP</title>
+        <link>https://example.com/categories/event/</link>
+        <description>Recent content in event on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/event/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介</title>
+        <link>https://example.com/transcriber/</link>
+        <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/transcriber/</guid>
+        <description>&lt;img src="https://example.com/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
+&lt;h2 id=&#34;海外カンファレンス参加のお供なら-otter&#34;&gt;海外カンファレンス参加のお供なら Otter
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/transcriber/images/Otter.png&#34;
+	width=&#34;1439&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://example.com/transcriber/images/Otter_hu190e414a58b731f897308e41f3464fb3_309628_480x0_resize_box_3.png 480w, https://example.com/transcriber/images/Otter_hu190e414a58b731f897308e41f3464fb3_309628_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Otter&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://otter.ai/referrals/YQD0YS8K&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Otter&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ライブ録音：対応&lt;/li&gt;
+&lt;li&gt;ファイル読み込み：アップロードのみ&lt;/li&gt;
+&lt;li&gt;提供形態：ウェブサービス&lt;/li&gt;
+&lt;li&gt;対応言語：英語&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;カンファレンス会場で、スマートデバイスを使って録音した内容を、その場でトランスクライブしてくれるサービス。
+ファイルのアップロードにも対応しているが、ウェブサービス上の動画を直接読み込むといったことは出来ない。
+動画ファイルをアップロードしても、音声のみがサイトに保存される。講演の様子をみながら音声をみたい場合には Trint を使う。&lt;/p&gt;
+&lt;h2 id=&#34;海外カンファレンスの公演録画を活用したいなら-trint&#34;&gt;海外カンファレンスの公演録画を活用したいなら Trint
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/transcriber/images/Trint.png&#34;
+	width=&#34;1439&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://example.com/transcriber/images/Trint_hud8731901c1e3ac22cddbc38b68d4fe43_886369_480x0_resize_box_3.png 480w, https://example.com/transcriber/images/Trint_hud8731901c1e3ac22cddbc38b68d4fe43_886369_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Trint&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://trint.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Trint&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ライブ録音：対応&lt;/li&gt;
+&lt;li&gt;ファイル読み込み：ウェブサービス上から&lt;/li&gt;
+&lt;li&gt;提供形態：ウェブサービス&lt;/li&gt;
+&lt;li&gt;対応言語：28言語&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;カンファレンス会場で、スマートデバイスを使って録音した内容を、その場でトランスクライブしてくれるほか、様々なウェブサービスに掲載されている動画を直接読み込むことができる。Otterでは音声しか残らなかったが、Trintは映像と音声の両方がサイトに保存される。ただし利用料はOtterに比べてかなり高め。&lt;/p&gt;
+&lt;h2 id=&#34;自分が作成した動画に自動で字幕をつけたいなら-vrew&#34;&gt;自分が作成した動画に自動で字幕をつけたいなら Vrew
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/transcriber/images/Vrew.png&#34;
+	width=&#34;1439&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://example.com/transcriber/images/Vrew_huc67ddb04d8bbb20d1622dd81c872823d_538957_480x0_resize_box_3.png 480w, https://example.com/transcriber/images/Vrew_huc67ddb04d8bbb20d1622dd81c872823d_538957_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Vrew&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vrew.voyagerx.com/ja/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vrew&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ライブ録音：非対応&lt;/li&gt;
+&lt;li&gt;ファイル読み込み：アップロードのみ&lt;/li&gt;
+&lt;li&gt;提供形態：デスクトップアプリ&lt;/li&gt;
+&lt;li&gt;対応言語：日本語、英語、韓国語&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アプリ上で動画を見ながら、AIが自動生成した文言の訂正が行える。作業後、字幕付きの動画として書き出すことができる。&lt;/p&gt;
+&lt;h2 id=&#34;自分がイベントを開催する側で字幕を提供したいなら-ud-talk&#34;&gt;自分がイベントを開催する側で字幕を提供したいなら UD Talk
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/transcriber/images/UD_Talk.png&#34;
+	width=&#34;1439&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://example.com/transcriber/images/UD_Talk_hu45cacd5ce758c90bbd6ae095f4bf778e_895246_480x0_resize_box_3.png 480w, https://example.com/transcriber/images/UD_Talk_hu45cacd5ce758c90bbd6ae095f4bf778e_895246_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;UD Talk&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://udtalk.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UD Talk&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ライブ録音：対応&lt;/li&gt;
+&lt;li&gt;ファイル読み込み：非対応&lt;/li&gt;
+&lt;li&gt;提供形態：録音用スマートデバイスアプリと文言訂正用デスクトップアプリ&lt;/li&gt;
+&lt;li&gt;対応言語：多数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;イベントを開催する際に、自動字幕化と翻訳の両方に対応している。デスクトップアプリを使ってイベントの最中に、生成された文言の訂正が行える。&lt;/p&gt;
+&lt;h2 id=&#34;四者四様なので目的に合わせてどうぞ&#34;&gt;四者四様なので目的に合わせてどうぞ
+&lt;/h2&gt;&lt;p&gt;これまで明瞭に聴き取れなくて諦めていた動画ソースから、自動で文字起こしができる。これは英語のリスニングに慣れていない非英語圏の人にとっては新しい眼を手に入れたようなインパクトがあります。有料サービスですので料金はご確認の上、ぜひ活用してみてください。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</title>
+        <link>https://example.com/ndl-dataviz/</link>
+        <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/ndl-dataviz/</guid>
+        <description>&lt;img src="https://example.com/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
+&lt;h2 id=&#34;国会図書館にはデータがたくさん&#34;&gt;国会図書館にはデータがたくさん
+&lt;/h2&gt;&lt;p&gt;国会図書館には収蔵している書籍に関するデータもあるのですが、今回は「ウェブサイト」がテーマとなっています。
+国会図書館では、15年前よりウェブページのアーカイブをおこなっており、その結果はWARPというウェブサービスとして公開されています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://warp.da.ndl.go.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Warp – 国立国会図書館インターネット資料収集保存事業&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;データを探しだそう&#34;&gt;データを探しだそう
+&lt;/h2&gt;&lt;p&gt;今回はこれらの中から、地方自治体ウェブサイトのメタデータなどを使って、データ・ビジュアライゼーションを行います。今回のイベント専用に、データ取得サイトを用意しています。ヤフーなどで検索するように、検索した結果をデータセットとして取り出すことが可能となっています。APIを扱うエンジニア・スキルは今回必要ありません。
+地方自治体というとちょっと硬そうですが、私達の出身地や今住んでいる場所についての個性がここからわかってくるかもしれません。&lt;/p&gt;
+&lt;h2 id=&#34;たとえば&#34;&gt;たとえば…?
+&lt;/h2&gt;&lt;p&gt;都道府県同士の関係性に注目してみましょう。都道府県それぞれのサイトから、他の都道府県サイトへ、どのくらいリンクが張られているでしょうか。またそこには何らかの偏りがあるでしょうか。昔と今とで何か違いがあるでしょうか。&lt;/p&gt;
+&lt;h2 id=&#34;都道府県どう並べる&#34;&gt;都道府県、どう並べる？
+&lt;/h2&gt;&lt;p&gt;グラフの種類が…とか、ツールが…と考える前に自由に発想してみましょう。
+円状に並ぶと、かわいいですね。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_circle.png&#34;
+	width=&#34;823&#34;
+	height=&#34;823&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一直線に並べてみたり。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_line.png&#34;
+	width=&#34;823&#34;
+	height=&#34;823&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;地図っぽく並べてみたり。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_map.png&#34;
+	width=&#34;823&#34;
+	height=&#34;823&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;つながりを視覚化してみる&#34;&gt;つながりを視覚化してみる
+&lt;/h2&gt;&lt;p&gt;それではこれらを使って、都道府県同士のつながりを線で表現してみましょう。つながりが強いほど太い線で表してみます。またつながりの質によって色を変えてみることにします。&lt;/p&gt;
+&lt;h3 id=&#34;円状&#34;&gt;円状
+&lt;/h3&gt;&lt;p&gt;円状に置いた都道府県同士を曲線でつないでいます。またつながりが多い都道府県ほど、弧の長さが長くなっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_all.png&#34;
+	width=&#34;848&#34;
+	height=&#34;783&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ここでは静止画でいくつかの都道府県にフォーカスしてみましょう。&lt;/p&gt;
+&lt;p&gt;八方美人な北海道&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_hokkaido.png&#34;
+	width=&#34;848&#34;
+	height=&#34;783&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;たくさんの都道府県にまんべんなくエールを送る、そつのない北海道。&lt;/p&gt;
+&lt;p&gt;関東エリアと大阪のみの東京&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_tokyo.png&#34;
+	width=&#34;848&#34;
+	height=&#34;783&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;意外と付き合いの範囲が狭い東京（汗）。&lt;/p&gt;
+&lt;p&gt;自由奔放な長崎&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_nagasaki.png&#34;
+	width=&#34;848&#34;
+	height=&#34;783&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;長崎さん。自由すぎます（笑）。おつきあいの内容が気になります。&lt;/p&gt;
+&lt;p&gt;これは国会図書館で公開している可視化のサンプルでもあります。国会図書館サイト上で見ていただくと、他の都道府県の様子もみることができます。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://warp.da.ndl.go.jp/contents/reccommend/collection/preflink.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;都道府県サイトのリンク関係&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一直線&#34;&gt;一直線
+&lt;/h3&gt;&lt;p&gt;この例は筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/NDL2_v.png&#34;
+	width=&#34;1094&#34;
+	height=&#34;2175&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;50&#34;
+		data-flex-basis=&#34;120px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;地図っぽく&#34;&gt;地図っぽく
+&lt;/h3&gt;&lt;p&gt;この例も筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。日本列島を描かずに、日本を浮かび上がらせたらと思いました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/NDL1.png&#34;
+	width=&#34;1119&#34;
+	height=&#34;1654&#34;
+	srcset=&#34;https://example.com/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;67&#34;
+		data-flex-basis=&#34;162px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これらはすべて同じデータを元にしたものです（フォーマットは少し異なります）。同じデータからであっても、このように色々な表現が可能なことがおわかりいただけるかと思います。&lt;/p&gt;
+&lt;h2 id=&#34;ツール紹介&#34;&gt;ツール紹介
+&lt;/h2&gt;&lt;h3 id=&#34;tableau-public&#34;&gt;Tableau Public
+&lt;/h3&gt;&lt;p&gt;パソコンにインストールするソフトウェア。数十万円するソフトウェアですが、Publicヴァージョンを利用すると無償です。制作したものをウェブで公開することを条件に、無償となっています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://public.tableau.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau Public&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;raw&#34;&gt;RAW
+&lt;/h3&gt;&lt;p&gt;ブラウザ上でチャートを作成できるツール。ダウンロードし、イラストレータで加工する、といった使い方が可能です。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://raw.visualizing.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RAW&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;インフォグラム&#34;&gt;インフォグラム
+&lt;/h3&gt;&lt;p&gt;ブラウザ上でチャートを作成できるツール。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://infogr.am/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;インフォグラム&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;d3js&#34;&gt;D3.js
+&lt;/h3&gt;&lt;p&gt;今回の「一直線」、「地図っぽく」の例のように、一から好きなようにコーディングで作るにはこのライブラリを利用します。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;qgis&#34;&gt;QGIS
+&lt;/h3&gt;&lt;p&gt;パソコンにインストールするソフトウェア。無償。地図上にてデータを可視化するのが得意です。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.qgis.org/ja/site/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;QGIS&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ハッカソンに参加しよう&#34;&gt;ハッカソンに参加しよう
+&lt;/h2&gt;&lt;p&gt;ツールは一部難しいものはありますが、しばらく使えばなれてしまうことと思います。また不明点は会場で教えてもらうことも可能となっています。
+今回のハッカソンでは、都道府県の特徴や関係性を、データベースから如何に探すか、という面白さがあると思います。
+名産物の単語がどのくらい含まれているのか？　方言は？　
+また他のデータを同時に扱うことで、これまでわからなかった特徴が浮かび上がってくるかもしれません。
+ウェブサイトの大きさと人口に関係はあるのか？　人口が減っていく地方自治体のサイトに共通の予兆はあるのか？　自治体の広報予算とウェブサイトの大きさに関係性は見いだせるのか。
+パッと思いついたものだけ上げましたが、ここのアイディア次第で、面白い作品が作れると思います。
+ツールを使いこなして、データから何かを発見する。お互いの成果をみることも、ためになるし、面白い体験になると思います。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>[OpenVis Conf 2014] John Resig講演</title>
+        <link>https://example.com/openvisconf-2014-johnresig/</link>
+        <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/openvisconf-2014-johnresig/</guid>
+        <description>&lt;img src="https://example.com/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Part 2: Keynote Day 2&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-john-resig-_analyzing-art-data-for-fun-and-profit_&#34;&gt;2. John Resig: &lt;em&gt;Analyzing Art Data for Fun and Profit&lt;/em&gt;
+&lt;/h2&gt;&lt;p&gt;二日目のキーノートスピーカーは言わずと知れた著名ライブラリjQueryの作者、John Resigでした。彼はJavaScript関連の本を何冊も執筆している有名なJavaScriptハッカーですが、他方、非常に熱心な日本文化、特に浮世絵のファンとしての一面も持っています。彼のキーノートは、まさにその両面が融合された非常に興味深いものでした。&lt;/p&gt;
+&lt;h3 id=&#34;講演の様子youtubeへのリンク&#34;&gt;講演の様子（YouTubeへのリンク）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=u2pZ_OVRzVc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;John Resig - Analyzing Art Data for Fun and Profit&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/u2pZ_OVRzVc&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;日本文化と浮世絵&#34;&gt;日本文化と浮世絵
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日本の絵画について。私（Resig)は日本絵画の大ファンであり、文化についても個人的に研究している&lt;/li&gt;
+&lt;li&gt;日本の絵画と文化的背景の紹介&lt;/li&gt;
+&lt;li&gt;スライドを使って日本の有名な絵画について説明。日本人には馴染みの深いものばかり
+&lt;ul&gt;
+&lt;li&gt;葛飾北斎　「富嶽三十六景　神奈川沖浪裏」&lt;/li&gt;
+&lt;li&gt;江戸時代の地図&lt;/li&gt;
+&lt;li&gt;浮世絵(&lt;em&gt;Pictures of the floating world&lt;/em&gt;, or Ukiyo-e)の紹介&lt;/li&gt;
+&lt;li&gt;各種美人画&lt;/li&gt;
+&lt;li&gt;当時の文化的背景の紹介&lt;/li&gt;
+&lt;li&gt;参勤交代&lt;/li&gt;
+&lt;li&gt;歌舞伎
+&lt;ul&gt;
+&lt;li&gt;当時の社会での歌舞伎の人気。&lt;/li&gt;
+&lt;li&gt;スポーツイベントと演劇の融合のようなもの。(屋号を観客が叫ぶ辺りをスポーツイベント的と捉えているようだ)&lt;/li&gt;
+&lt;li&gt;女形の概念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;神話の世界&lt;/li&gt;
+&lt;li&gt;歌川国芳の紹介
+&lt;ul&gt;
+&lt;li&gt;擬人化の歴史
+&lt;ul&gt;
+&lt;li&gt;国芳による猫の侍　(1840年代)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;だまし絵。有名な人間で人間の顔を描いた浮世絵
+&lt;ul&gt;
+&lt;li&gt;そこに描かれるナマズの絵。これは日本においての地震のメタファー&lt;/li&gt;
+&lt;li&gt;つまりこれは震災で死んだ人々を描いたもの&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;どのように日本絵画を学んだか
+&lt;ul&gt;
+&lt;li&gt;日本絵画に関する英語の専門書を読む&lt;/li&gt;
+&lt;li&gt;日本語の学習。江戸時代における古語も。&lt;/li&gt;
+&lt;li&gt;古い書（毛筆文）を学ぶ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;コメント&#34;&gt;コメント
+&lt;/h4&gt;&lt;p&gt;日本人である私よりも、遥かに江戸文化に理解があるようでした。趣味とは言え凄いことです。そして同時に海外で暮らす人間として、自国文化への知識の欠如は恥ずかしいことだとも改めて認識しました。自国文化におけるaestheticsに対して自分なりの考えと理解を持つことは、英語よりもずっと大切です。印象派絵画と浮世絵の関係などは、欧米人あたりが良く興味を持って聞いてくるトピックですし。&lt;/p&gt;
+&lt;h3 id=&#34;浮世絵のデータベース&#34;&gt;浮世絵のデータベース
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;425&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;389px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;このような趣味が高じて浮世絵のデータベースを作ることにした。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://ukiyo-e.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ukiyo-e Search&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;世界中のデータベースや美術館のサイトから集めた浮世絵のデータベース&lt;/li&gt;
+&lt;li&gt;検索は英日対応。自力で翻訳したらしい（日本からのユーザーも多い）&lt;/li&gt;
+&lt;li&gt;この部分の実装は、Node.jsの国際化モジュールを使った
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/i18n-node-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;i18n-node-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;デプロイは&lt;a class=&#34;link&#34; href=&#34;http://aws.amazon.com/cloudfront/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Amazon Cloudfront&lt;/a&gt;を利用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;版画のデータ収集&#34;&gt;版画のデータ収集
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;これはかなり困難な作業だった。Machine-friendlyなAPIを公開しているようなところは少ない&lt;/li&gt;
+&lt;li&gt;基本的にはクローリング&amp;amp;スクレイピング&lt;/li&gt;
+&lt;li&gt;大学や美術館のデータベースは必ずしもベストではない。検索もあまり使い勝手が良くなかった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;実際の作業&#34;&gt;実際の作業
+&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://phantomjs.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PhantomJS&lt;/a&gt;を利用して美術館、大学、研究機関などのサイトをクローリング&lt;/li&gt;
+&lt;li&gt;自動的にクロールして、必要な情報をデータベースに流し込むために、かなり大規模なパイプラインを構築した。&lt;/li&gt;
+&lt;li&gt;その他に使用したツール
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/jquery-imgscrubber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Image Scrubber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/stack-scraper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack Scraper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://services.tineye.com/MatchEngine&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MatchEngine&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;類似した画像を検索するツール&lt;/li&gt;
+&lt;li&gt;実際に使用してみると、元のデータにかなりの間違いが見つかった&lt;/li&gt;
+&lt;li&gt;間違いの例としては、左右逆のイメージや白黒など。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;画像の類似性サーチ&#34;&gt;画像の類似性サーチ
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;実際の版画を撮影してネットで検索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/offline-crop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;offline-crop&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-appcache-glob&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-appcache-glob&lt;/a&gt; * オフラインで処理&lt;/p&gt;
+&lt;h4 id=&#34;画像解析による版画の研究&#34;&gt;画像解析による版画の研究
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;スクレイピングで得たデータベースを検索すると、たくさんの類似した画像が見つかった。それらは別のものなのか、何か共通点があるのか？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt; * 例：　二つの良く似た浮世絵（歌舞伎役者） * メトロポリタンの画像データでサインを改変してあるものを発見した * 元々は同じもの。 * 多面的なデータ比較により、歌川国芳もののだと発見した&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例：作者不明の浮世絵 * メトロポリタン美術館では作者不明となっていた浮世絵の画像があった * しかし、画像類似検索で上がってきた他の美術館のデータにはアノテーションがあった * そしてメトロポリタンのメタデータは修正されることになった&lt;/p&gt;
+&lt;h4 id=&#34;メタデータの比較&#34;&gt;メタデータの比較
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;日本人の名前の表記の揺れを吸収してメタデータを作成するのは困難な作業。(これは日本人にとっても困難な作業なので、日本語の専門家でもない外国人である彼がこの作業を一人でやってのけたのは驚きです。)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例: 浮世絵画家の「歌川広重」を指す名前のメタデータ * 広重 * 歌川広重 * hiroshige * Hiroshige utagawa * ひろしげ&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例：苗字の表記の揺れ * Ando, 安藤, 安東, あんどう, 安堂, etc.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * これらの揺れを統合して一つのメタデータエントリに仕上げる。 * 発音、漢字、ローマ字等のデータを統合 * JSONとしてストア * (この作業を、彼は_Artist Rectification_と呼んでいた。「アーティスト情報の整流作業」とでも訳せばよいのだろうか？)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 利用したツール群 * &lt;a class=&#34;link&#34; href=&#34;https://github.com/lovell/hepburn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hepburn&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-enamdict&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-enumdict&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-ndlna&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-ndlna&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;メタデータ統合により作成した東洲斎写楽のエントリ例&#34;&gt;メタデータ統合により作成した東洲斎写楽のエントリ例
+&lt;/h5&gt;&lt;p&gt;&lt;code&gt;JSON:syaraku.json { &amp;quot;original&amp;quot;: &amp;quot;Sharaku Tōshūsai (東洲斎写楽)&amp;quot;, &amp;quot;locale&amp;quot;: &amp;quot;ja&amp;quot;, &amp;quot;kanji&amp;quot;: &amp;quot;東洲斎写楽&amp;quot;, &amp;quot;given&amp;quot;: &amp;quot;Sharaku&amp;quot;, &amp;quot;given_kana&amp;quot;: &amp;quot;しゃらく&amp;quot;, &amp;quot;surname&amp;quot;: &amp;quot;Tōshūsai&amp;quot;, &amp;quot;surname_kana&amp;quot;: &amp;quot;とおしゅうさい&amp;quot;, &amp;quot;surname_kanji&amp;quot;: &amp;quot;東洲斎&amp;quot;, &amp;quot;given_kanji&amp;quot;: &amp;quot;写楽&amp;quot;, &amp;quot;name&amp;quot;: &amp;quot;Tōshūsai Sharaku&amp;quot;, &amp;quot;ascii&amp;quot;: &amp;quot;Tooshuusai Sharaku&amp;quot;, &amp;quot;plain&amp;quot;: &amp;quot;Toshusai Sharaku&amp;quot;, &amp;quot;kana&amp;quot;: &amp;quot;とおしゅうさいしゃらく&amp;quot; }&lt;/code&gt;&lt;/p&gt;
+&lt;h5 id=&#34;コメント-1&#34;&gt;コメント
+&lt;/h5&gt;&lt;p&gt;多分に力技な部分もありますが、趣味でよくここまでやったなあ、というのが正直な感想です。ずいぶんと良くなってきたとは言え、様々な形で保存されている生物学関連の公共データベースのデータを統合する作業を日頃行っている身としては、色々と頷ける部分もある一方、こういう苦労が少なくなる「機械にやさしいウェブ」が世界には必要だという認識も新たにしました。最近は、天文学分野で使われる「ダークマター」と言う語をもじって、「ダークデータ」などという呼び方もあるようですが、情報としては価値があるにもかかわらず、機械からのアクセスが困難なためにネットの海の底にひっそりと眠っているこういったデータをサルベージする技術や標準化がますます必要な時代になると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;フリックコレクションとのコラボレーション&#34;&gt;フリックコレクションとのコラボレーション
+&lt;/h3&gt;&lt;p&gt;このようなデータベースを作成する過程で、世界各地の美術館とコンタクトを取り合うようになり、結果、業務としてフリック・コレクション（ニューヨークにある美術館）とコラボレーションすることになった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コレクション画像データの機械による解析&lt;/li&gt;
+&lt;li&gt;例：イタリアのルネッサンス期絵画のデータ解析
+&lt;ul&gt;
+&lt;li&gt;相同性検索で同じ絵画からの画像かどうか、膨大な数の画像を検証&lt;/li&gt;
+&lt;li&gt;結果、多数のコピー（模倣）、修復痕等を発見した
+&lt;ul&gt;
+&lt;li&gt;そっくりな画像だが細部と画家のメタデータが異なる（＝模倣）&lt;/li&gt;
+&lt;li&gt;メタデータが一致、画像もほぼ一致するが、画像のある一部分が異なっている（＝修復）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;これらを発見する技法としては、Neo4jを使ってのグラフ解析を行った
+&lt;ul&gt;
+&lt;li&gt;Cypher（Neo4j固有のグラフDB用クエリ言語）を使用&lt;/li&gt;
+&lt;li&gt;SQLでは困難な、複雑なクエリを作成&lt;/li&gt;
+&lt;li&gt;画像、メタデータをグラフ構造として表現したことにより、間違ったデータが収蔵されてるのを発見することが出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * アートをハックするには？ * オークションに行くといい * プレビューの日を使うと、買うか買わないかはともかく、非常に高価なものに間近で見て触れることが出来る&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 毎日（自分のための）コードを書くということ * &lt;a class=&#34;link&#34; href=&#34;http://ejohn.org/blog/write-code-every-day/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Write Code Every Day&lt;/a&gt; * いずれそれが仕事になることもある * &lt;a class=&#34;link&#34; href=&#34;http://ejohn.org/research/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Research&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;全体の感想&#34;&gt;全体の感想
+&lt;/h3&gt;&lt;p&gt;ハッカーに好きなことをやらせると面白いことが起こると言う好例だと思いました。世界各地に散らばる、あまり使い勝手の良くない浮世絵のデータベースから、自分で使いたいからという理由で、精度の高いメタデータベースを構築したと言う、最近のテクノロジーを人文学系の研究に適用した結果起きた良い化学反応だと思います。現在の高度に複雑化した世界では、ある分野の専門家でもちょっと専門外のことになるとまるでわからない、ということが頻繁に起きます。彼の使っているツールやアルゴリズムは、画像解析やコンピュータビジョンの研究者の間では「枯れた」ものでしょうし、グラフデータベースやNode.jsベースの各種ツールも全てオープンソース実装で手に入る一般的なものです。しかしそれらを組み合わせて、アート分野に適用した結果、美術館のキュレーターの人力だけではとてもできなかったであろう仕事が完成しています。&lt;/p&gt;
+&lt;p&gt;日本絵画に対する情熱から始まり、没頭するうちにそれが仕事の一部にもなったと言う理想的な流れですが、やはり普通の人間と違うのは、仕事の外できっちりと動くものをリリースして、メンテナンスするというモチベーションの維持でしょう。後日私が参加したEdward Tufteのレクチャーで彼が引用したこのフレーズを思い出しました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Real artists ship&lt;/em&gt; - Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>d3.unconfレポート[後篇]</title>
+        <link>https://example.com/d3-unconf-2014-2/</link>
+        <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-unconf-2014-2/</guid>
+        <description>&lt;img src="https://example.com/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;518&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu4f80bd79c1557b07d721cc5cb7ebad84_140064_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu4f80bd79c1557b07d721cc5cb7ebad84_140064_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;参加者がディスカッションの議題を持ち寄りunconferenceがスタートしました。実際のタイムテーブルはこのような感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;2037&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu0366aaf4a3cf6984fececb6a1ae9508b_146912_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu0366aaf4a3cf6984fececb6a1ae9508b_146912_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;33&#34;
+		data-flex-basis=&#34;81px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;* &lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://visfest.com/d3unconf/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;せっかくなので私も一つ提案してみました。**Network visualizations; d3 + sigma + Cytoscape etc.**と言うのが私の提案したセッションです。&lt;/p&gt;
+&lt;h2 id=&#34;実際のディスカッション&#34;&gt;実際のディスカッション
+&lt;/h2&gt;&lt;p&gt;普通のカンファレンスとは異なり当日にテーマを決めるため、誰かがスライドを使って話すと言う事は無く、イーゼルパッドとペン、そしてラップトップを持ち寄り、そのテーマについて皆で話し合います。当然全て英語ですので、日本からも参加してみたいと言う方はここで尻込みしてしまうかもしれませんが、基本的に話を聞くだけのカンファレンスとはまた違った面白さもありますので、機会があればぜひ挑戦してみてください。各トラックは並行して行われますので、全部に参加する事はできません。まずリストを見て興味のあるトピックを選び、そのセクションへ向かいディスカッションに参加します。しかし、あまり内容に興味が持てない場合や、他のセッションの方が面白そうな場合には、自由に移動しても問題ありません。私もとりあえず全体のリストを見て、面白そうだと思ったものにいくつか参加してみました。&lt;/p&gt;
+&lt;h3 id=&#34;クライアントサイドmvとd3jsの併用&#34;&gt;クライアントサイドMV*とD3.jsの併用
+&lt;/h3&gt;&lt;p&gt;午前はまずクライアントサイドMV_とD3.jsとの連携についてのトラックに参加してみました。参加者には、AngularJSなどをD3.jsと共にかなり使い込んでいる人、MV_との連携に懐疑的な人など混ざっていて、特定のフレームワークとの併用を行う場合の深い議論を行うというよりは、各参加者が使っているものとの連携に関する体験談などを持ち寄る感じでした。きちんと数えてはいませんが、AngularJSとBackbone.jsユーザーが多い印象でした。私は両者ともちょっとだけいじった事があるのですが、Backboneがかなり薄いフレームワークで自分でかなりの部分を作らなければならないのに対し、Angularは様々な機能があらかじめ含まれており、設計思想そのものがかなり異なります。この話題は様々な場所で行われています:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.infoq.com/articles/backbone-vs-angular&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Contrasting Backbone and Angular&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://readwrite.com/2014/02/06/angular-backbone-ember-best-javascript-framework-for-you&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Angular, Ember, And Backbone: Which JavaScript Framework Is Right For You?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;D3.jsを組み合わせるかどうかという以前の部分で好みが別れるため、なかなか深い部分までの議論には至りませんでしたが、実際の連携に関しては、この辺りが参考になると思います:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.ng-newsletter.com/posts/d3-on-angular.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 on AngularJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;なお、AngularJSとD3.jsの連携に関しては、本も出ているようです&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;323&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu6f719a3bfd00ba3d572c3ecc35465106_162047_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu6f719a3bfd00ba3d572c3ecc35465106_162047_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;512px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;https://leanpub.com/d3angularjs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 on AngularJS: Create Dynamic Visualizations with AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ネットワーク可視化&#34;&gt;ネットワーク可視化
+&lt;/h3&gt;&lt;p&gt;次は自分がディスカッションのリーダーとしてネットワーク(グラフ)可視化のトラックに参加しました。まとめは（英語ですが）こちらにあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.google.com/document/d/186ntZ22Q7hL0JNOy0GfRy8nvuPVno9ZdHgS3FJ6ptHs/edit?usp=sharing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;d3unconf session (11:30-12:30) Network Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「再利用可能なチャートモジュールを」と言う目標でd3.chartライブラリが作られているように、ネットワーク（グラフ）可視化分野にも同じような考えが必要だと感じました。D3.jsで作られたよくあるネットワーク図は、こんな感じのものだと思います&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;359&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1_hub88852f0a169d5d7b79bb4608b82baed_218167_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/YeastPPINetwork-1_hub88852f0a169d5d7b79bb4608b82baed_218167_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/keiono/9283085&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Yeast PPI Network Generated in Cytoscape&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これだけで確かに取り敢えずグラフの構造を見ることは出来ますが、実際に使えるアプリケーションにするには、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パン、ズームなどの基本的な操作の追加&lt;/li&gt;
+&lt;li&gt;レイアウトオプションの提供&lt;/li&gt;
+&lt;li&gt;基本的なグラフアルゴリズムの実装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;等、様々なものが欠如しています。これらは自前で作るよりも、共通で使えるライブラリとして用意されていた方がより効率的です。この辺りの整備がグラフ描画用JavaScriptライブラリには必要でしょう。手前味噌ですが、ある程度の大きさのネットワークをCanvasを用いて描画するならば、cytoscape.jsは良い選択だと思います。基本的なレイアウトアルゴリズムやUI、ネットワーク構造を操作するための高レベルAPIも整備されていて、レンダリング品質も高いです。&lt;/p&gt;
+&lt;p&gt;また最近は、クライアントのパフォーマンスが非常に高い場合、サーバー側にタスクを投げる必要はあるのかと言う問題もあります。グラフの大きさや構造によりますが、今の計算機のパワーを考えると、最短経路検索や簡単なクラスタリングなどはJavaScriptで書かれたクライアント側での処理とする方が自然です。そうなるとますます自前での実装は効率が悪いので、既存のプロジェクト同士が協力して「車輪の再発明」を避ける方向に動くべきだと感じました。&lt;/p&gt;
+&lt;h3 id=&#34;webglwebclを利用した大規模データの可視化&#34;&gt;WebGL/WebCLを利用した大規模データの可視化
+&lt;/h3&gt;&lt;p&gt;このセッションはLeoさんと言う最近データ解析の会社を立ち上げた方がメインで開発しているSuperconductorと言うフレームワークの話題が中心でした。これは現状で考えられうる最も先端のWeb関連テクノロジーを組み合わせて作られています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/Superconductor-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/Superconductor-1_hu36d8ff3067d6b6761bd727ed23fc24c6_115094_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/Superconductor-1_hu36d8ff3067d6b6761bd727ed23fc24c6_115094_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://superconductor.github.io/superconductor/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Superconductor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;これは独自のDSLでデータ可視化の方法を記述することにより、GPUプログラミング特有の極めてローレベルな記述を覆い隠すようなフレームワークです。目標としては、OpenGLやGPGPUプログラミングに精通していないデータ解析者やプログラマにもGPUのパワーを活用できる機会を与える、と言うもののようです。ウェブブラウザ上で大規模なグラフィックスを描画したいときは、WebGLを使うというのが徐々に一般的になってきています。ゲーム業界などでも盛んに使われ始めていますので、WebGLは実際のプロジェクトに使うのに十分成熟してきたと感じます。一方、WebCLに関してはまだまだ使える環境が極端に限られるため、これからの技術ですが、数十倍・数百倍のオーダーで並列可能なアルゴリズムを高速化したい場合、現実的にはこれしか選択肢はないと思われますので、これから普及に入っていくと思われます。データ可視化の分野だと、レイアウトの計算やエッジバンドリングなど、非常に重い計算をしなければならな部分が幾つか存在するので、そういった部分もGPUを使って並列化することにより、WebGLとの組み合わせで、ほぼリアルタイムでインタラクティブな解析ができるようになると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;518&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu1ef11f7a625fac00d82f7783a0128ec3_97582_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu1ef11f7a625fac00d82f7783a0128ec3_97582_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;更に、PathGLと言うこの辺りのGPU活用ノウハウをD3.jsと組み合わせたフレームワークも紹介されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;394&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hua9bc603e6d6451098a9f330c1918fe01_116660_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hua9bc603e6d6451098a9f330c1918fe01_116660_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://pathgl.com/documentation/start.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PathGL&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;バックエンドかフロントエンドか&#34;&gt;バックエンドかフロントエンドか？
+&lt;/h4&gt;&lt;p&gt;ここまでクライアントが高性能になると、何をバックエンドに任せ、何をフロントエンドで処理するかと言う問題も出てきます。現在は移行期に当たり、ハイパフォーマンスなクライアント（ハイエンドデスクトップマシンなど）が利用できる場合、かなりの部分をフロントエンドで行っても問題がない一方、タブレット等で走るブラウザではまだまだ使いものにならないアプリケーションも数多く存在します。もしユーザ（ここでは科学技術系の複雑な可視化ソフトウェアのユーザ）がそういったデバイスでの作業を求めた時、クライアントの種類によってサーバから配布するソフトウェアを切り替える必要があるかもしれません。&lt;/p&gt;
+&lt;p&gt;以下はこのセッションで触れられた最近のブラウザを使って実装されたアプリケーションの例です&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;359&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1_hue8f1184b2bd22b4dbfbcc5496157c931_185954_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/GLSLSandbox-1_hue8f1184b2bd22b4dbfbcc5496157c931_185954_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;461px&#34;
+	
+&gt;* &lt;a class=&#34;link&#34; href=&#34;http://glsl.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GLSL Sandbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;528&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1_hu382649738dd492016fbb9e86635f5c07_544070_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/StellarNeighborhood-1_hu382649738dd492016fbb9e86635f5c07_544070_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;313px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://workshop.chromeexperiments.com/stars/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Welcome to the stellar neighborhood.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;学術的な内容になりますが、このあたりの大規模データのインタラクティブな解析、と言うテーマについて論じられたペーパーも紹介されました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://vis.stanford.edu/files/2013-imMens-EuroVis.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Z. L. Liu, B. Jiang, and J. Heer. imMens: Real-time visual querying of big data. Computer Graphics Forum (Proc. EuroVis), 2013.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;（ちなみに、ラストオーサーの方はD3.js作者のMike Bostock氏の院生時代のアドバイザーです。）&lt;/p&gt;
+&lt;h3 id=&#34;ニューラルネットワークの可視化&#34;&gt;ニューラルネットワークの可視化
+&lt;/h3&gt;&lt;p&gt;バズワードと言っていいくらい、最近はメディアでも「機械学習」や「ディープラーニング」と言った言葉を耳にするようになってきました。このセッションは、機械学習の手法でも歴史の古いニューラルネットワークの学習過程等を可視化してみようというもので、計算機科学の博士課程の学生さんがリードしていました。よく入力、出力の各ユニット、その間の隠れ層を接続したネットワークを可視化したものはよく見かけると思います。教師あり学習の場合、トレーニングセットを食わせている時にどのようにネットワークがデータを学習しているのかをリアルタイムで見えるように、ブラウザで動くクライアントを作ろう、と言う感じです。このセッションで紹介された以下のライブラリは可視化そのものがゴールではないですが、ブラウザひとつで実際に学習プロセスを走らせてしまおうというもので、教材としても面白いのではないかと思いました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;580&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/ConvNetJS-1_hu52d0ae838c2432d4840f64ad1b73db23_218010_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/ConvNetJS-1_hu52d0ae838c2432d4840f64ad1b73db23_218010_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;http://cs.stanford.edu/people/karpathy/convnetjs/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ConvNetJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;私も学生時代にパーセプトロンから始まり、バックプロパゲーション法やら何やら単純なものはやって、おもちゃのような顔認識モジュールを実装したりはしましたが、知識が古いままなので色々とアップデートしなくては&amp;hellip;と言う思いを新たにしました。実は自分が関わっている分野でも、label propagation等の機械学習の手法は最近盛んに用いられ、応用分野はどんどん広がっています。研究に直接関わらない人でも、プログラマーが「リテラシーとしての機械学習への理解」を求められる時代は確実に来ると思われます。&lt;/p&gt;
+&lt;p&gt;参考: * &lt;a class=&#34;link&#34; href=&#34;http://compbio.cs.brown.edu/projects/hotnet/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HotNet&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;生物学と可視化&#34;&gt;生物学と可視化
+&lt;/h3&gt;&lt;p&gt;これも意外だったのですが、なぜか生物学関連のセッションがありましたので参加してみました。果たしてそのディスカッションのリーダーは、私の業務プロジェクトのコラボレーターの方でした。トピックは生化学的パスウェイの可視化についてでしたが、現実的にはそれをブラウザ上で行うと言う事は、ブラウザ上にHTML5関連技術を使ってVisioやOmniGraphのようなソフトウェアを構築する事に等しいので、他分野の方にこういう分野がある事を紹介し、協力者を募ると言う感じでした。私も便乗して、自分のプロジェクトを紹介してみました(下図を参照)。データの内容にはそれほど深く立ち入りませんでしたが、取り敢えず複雑な可視化を求められる問題のドメインが存在して、そういう方面で才能のあるプログラマを求めているよ、と言う思いは伝わったと思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;404&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu3143e0a75a32041f3b5539b1f38b92fb_218145_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu3143e0a75a32041f3b5539b1f38b92fb_218145_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://nexontology.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NeXO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;リアルタイムデータ&#34;&gt;リアルタイムデータ
+&lt;/h3&gt;&lt;p&gt;さて最後のセッションにもなると、皆各自でコードを書いていたり酒を飲んでいたりとグダグダになりつつあったのですが、まあそれもこの形式のいいところということで。最後に覗いてみたこのセッションでは、Leap Motionを使い、そこから得られるデータをリアルタイムのデータストリームとみなし、それをD3.jsを使ったJavaScriptのコードで可視化する、と言った感じでした。まあお遊びといえばそれまでですが、ジェスチャー入力はまだまだ色んなポテンシャルがあると思うので、こういう遊びの中から色々と面白いものが生まれて行けばいいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;442&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu47da5a2fe4abddc15c5a514a13b6ade3_116964_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu47da5a2fe4abddc15c5a514a13b6ade3_116964_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;156&#34;
+		data-flex-basis=&#34;374px&#34;
+	
+&gt; カンファレンスの名前こそd3.unconfでしたが、扱った話題はD3.jsに限らず「データ可視化の実際」「可視化の現場」全般に渡るものでした。そしてそこに参加している人々も多岐に渡り、ソフトウェア開発者、データ解析者、データ解析サービス系スタートアップの創業者、計算機科学の大学院生、デザイナー、そしてGitHub本社に勤めてるエンジニアの方等も参加していました。こういうところで知り合い、Linkedinで繋がって行くと言うのが最近のアメリカの人脈開拓法なんだな、と実感しました。意外だったのは、アカデミア方面からの参加者がけっこう居たことで、データ解析や可視化といった話題に真剣に取り組むには、やはりそれなりの学術的バックグラウンドがないと厳しいということも感じました。そして今回このカンファレンスをホストしてくれたGitHubは、典型的な最近のテック系企業という感じで、エントランスホール付近には様々なオブジェやDJブース、実際にお酒も飲めるバーまで設置されていて、優秀な人材の奪い合いへの対応に余念がない感じでした（笑）。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>d3.unconfレポート[前篇]</title>
+        <link>https://example.com/d3-unconf-2014-1/</link>
+        <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-unconf-2014-1/</guid>
+        <description>&lt;img src="https://example.com/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cytoscape Consortium&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;はじめに&#34;&gt;はじめに
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
+	width=&#34;210&#34;
+	height=&#34;280&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass_huc66f2533a87d593914716ce268f5a56e_27732_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-pass_huc66f2533a87d593914716ce268f5a56e_27732_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;pass&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;まず自己紹介をさせていただきます。私はアメリカ西海岸、カリフォルニア州の最南端に位置するサンディエゴ在住のソフトウェア開発者です。&lt;a class=&#34;link&#34; href=&#34;http://ucsd.edu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;カリフォルニア大学サンディエゴ校(UCSD)&lt;/a&gt;と言う大学の医学部で、生物学者や医師に混じって彼らが研究で必要とする各種ツールを開発しております。分野としてはbioinformaticsと呼ばれるものです。&lt;/p&gt;
+&lt;p&gt;先週の土曜日(3/29/2014)、サンフランシスコにある&lt;a class=&#34;link&#34; href=&#34;https://ja.foursquare.com/v/github-hq-30/50f75cc0e4b07201af25590d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;本社にて行われた&lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;d3.unconf&lt;/a&gt;というD3.jsや可視化周辺の実務的な話題を扱う会議がありました。Cesar Chavez Dayで三連休だと言うこともあり&lt;a class=&#34;link&#34; href=&#34;#1&#34; &gt;1&lt;/a&gt;、私にとってはちょうどいいタイミングでしたので、久しぶりにサンフランシスコまで足を伸ばしてみました。このカンファレンスがどのようなものだったか一通りレポートしてみます。&lt;/p&gt;
+&lt;h2 id=&#34;どんなカンファレンスか&#34;&gt;どんなカンファレンスか？
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
+	width=&#34;650&#34;
+	height=&#34;433&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu5c5425b4dca9035fff148726442c181b_125090_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu5c5425b4dca9035fff148726442c181b_125090_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;可視化のカンファレンスと言っても、現在は様々な傾向のものがあります。アカデミック寄りな&lt;a class=&#34;link&#34; href=&#34;http://ieeevis.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IEEE系の学会&lt;/a&gt;や&lt;a class=&#34;link&#34; href=&#34;http://vizbi.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;分野特化型の学会&lt;/a&gt;もありますし、もっとカジュアルなコードレベルの話題を主に扱うような&lt;a class=&#34;link&#34; href=&#34;http://www.meetup.com/Bay-Area-d3-User-Group/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;勉強会&lt;/a&gt;もあります。昨今、様々な要因が重なり後者に属するカンファレンスがここアメリカでは増えてきたような気がします。ここで言う要因とは、以下のようなものです：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;パーソナルコンピュータ、モバイルデバイスの劇的な価格低下と高性能化&lt;/li&gt;
+&lt;li&gt;第二次ブラウザ戦争の遺産としての非常に高速化されたJavaScriptエンジンとCanvasをはじめとするHTML5関連テクノロジー&lt;/li&gt;
+&lt;li&gt;クライアント関連テクノロジーのブラウザへの集約&lt;/li&gt;
+&lt;li&gt;各種デバイスから生み出される凄まじい量のデータ&lt;/li&gt;
+&lt;li&gt;それらを扱うためのオープンソースツール群の発展&lt;/li&gt;
+&lt;li&gt;そしてそれらを利用したいスタートアップや大手企業の可視化分野への関心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まだ他にも色々とありますが、これらの要因が重なり、可視化のための実際のコードを書くvisualization practitioner(実務家)向けのカンファレンスが増えています。私はオープンソースソフトウェアを書く事が日常の業務ですが、これは自分の関係する分野に限った事ではなく、メジャーなオープンソースプロジェクトは、事実上業務として開発している人々に支えられていると言う面が大きいです。そしてデータ可視化分野でもそのように職業としてオープンソースソフトウェア(OSS)を書いている人々も多く、それが現在の状況に繋がっています。こういった背景もあり、今回のカンファレンスはオープンソースソフトウェアに関わる開発者向けの「実際に手を動かす人々」をメインターゲットに据えています。それを強調する意味もあり、カンファレンスへの登録時にD3.jsを使い自分で作ったサンプルをgistへアップロードして、&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bl.ocks&lt;/a&gt;を使い一覧にしてみると言う試みも行われました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参加者が登録時に送ったBL.OCKS一覧: &lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/blocks.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://visfest.com/d3unconf/blocks.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unconference&#34;&gt;Unconference
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
+	width=&#34;210&#34;
+	height=&#34;280&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf_hu1691ca4980d55c7bfec203f94e7a8259_38526_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-unconf_hu1691ca4980d55c7bfec203f94e7a8259_38526_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;unconf&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回のカンファレンスは、d3.unconfと言う名前の通りunconference（アンコンファレンス）形式で行われました。日本ではあまり馴染みの無い言葉かもしれませんが、unconferenceと言うのはテック系のワークショップやカンファレンスでは最近よく使われる手法です。これは当日まで細かいトピックについては決定せず、スピーカーも基本的には決めない形で集まります。そして開催日の朝にその日話し合うトピックを参加者らが出し合い、主催者は各トラックの時間と場所だけを指定して、参加者から提示されたトピックを各トラックに割り当ててその日のスケジュールを決定します。その後ディスカッションが成立しやすいように、数人から数十人程度のグループに分かれて各トピックについて話し合います。余談ですが、Googleがオープンソースプロジェクト開発者向けに毎年本社で開催しているGoogle Summer of Codeの&lt;a class=&#34;link&#34; href=&#34;http://google-opensource.blogspot.com/2013/11/google-summer-of-code-mentor-summit-2013.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mentor Summit&lt;/a&gt;もこの形式で行われています。こちらにも何回か参加しましたが、様々な話題にカジュアルに参加できて楽しかったです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
+	width=&#34;690&#34;
+	height=&#34;384&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu69b0dbbe2f360375a2687104d91cb195_96102_480x0_resize_q75_box.jpg 480w, https://example.com/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu69b0dbbe2f360375a2687104d91cb195_96102_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;431px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回はIrene Ross氏によるキーノートで始まりました。彼女は&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bocoup&lt;/a&gt;と言う会社で各種可視化システムやアプリケーション構築のコンサルティング、オープンソースソフトウェアの開発、関連ツールの教育を行っている方で、Misoプロジェクト&lt;a class=&#34;link&#34; href=&#34;#2&#34; &gt;2&lt;/a&gt;と言うD3.jsをより便利に使うためのツール群を作っていらっしゃいます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-unconf-2014-1/images/logo-miso-project.png&#34;
+	width=&#34;600&#34;
+	height=&#34;200&#34;
+	srcset=&#34;https://example.com/d3-unconf-2014-1/images/logo-miso-project_hu8b8ca8edeff415cd26ec53941f4b0085_17628_480x0_resize_box_3.png 480w, https://example.com/d3-unconf-2014-1/images/logo-miso-project_hu8b8ca8edeff415cd26ec53941f4b0085_17628_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;miso&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;300&#34;
+		data-flex-basis=&#34;720px&#34;
+	
+&gt; * The Miso Project: &lt;a class=&#34;link&#34; href=&#34;http://misoproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://misoproject.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このMisoにはd3.chartと言うサブプロジェクトが含まれています。これはD3.jsの作者であるMike Bostock氏がTowards Reusable Chartsと言う記事で論じている「チャート生成コードの再利用性」にフォーカスしたツールです。彼女の講演は、この再利用問題をテーマにしたものでした:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Architecting code with d3: &lt;a class=&#34;link&#34; href=&#34;https://speakerdeck.com/iros/architecting-code-with-d3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://speakerdeck.com/iros/architecting-code-with-d3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;D3.jsをお使いの方なら分かると思いますが、D3は自由度やカスタマイズ性の高さの代償として、たとえ求めるものがシンプルなバーチャートであっても殆どの要素を一から書かなければならないと言う問題があります。そういったものは、実際のチャート部分、軸、タイトル、レジェンドと言った共通要素に分解する事ができます。このような様々なチャートに共通する概念をコンポーネント化して、他のデータセットに対しても再利用可能にすると言うのがd3.chartの主なゴールです。ここは私も昨年のD3.jsアドベントカレンダーで記事を書かせていただきましたので、興味のある方はこちらもあわせてどうぞ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D3.js Advent Calendar 2013 Day 21: &lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/keiono/8067196&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsと周辺ツールを使ったデータの可視化&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また彼女は今月末にボストンで行われる&lt;a class=&#34;link&#34; href=&#34;http://openvisconf.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenVis&lt;/a&gt;カンファレンスのオーガナイザーでもあるので、そちらの方の宣伝もしていました。私はこちらにも参加しますので、そのレポートもまた後日。&lt;/p&gt;
+&lt;p&gt;1.カリフォルニア州政府は、この日をアメリカ国民の祝日にしようと連邦政府に働きかけているため、州政府関連施設の職員は休みになります。私はカリフォルニア大学の研究系スタッフなので、州政府職員とみなされます。 2.日本人からすると若干奇妙なネーミングですが、「折り紙」「俳句」など、ある程度英語圏で浸透している日本語は最近よくOSSプロジェクトの名前に使われるようです&lt;/p&gt;
+&lt;p&gt;（本レポートは後篇に続きます。）&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

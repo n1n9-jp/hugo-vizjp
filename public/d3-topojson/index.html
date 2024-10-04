@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。 TopoJSON on Github T">
+<title>D3: TopoJSON</title>
+
+<link rel='canonical' href='https://example.com/d3-topojson/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="D3: TopoJSON">
+<meta property='og:description' content="耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。 TopoJSON on Github T">
+<meta property='og:url' content='https://example.com/d3-topojson/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='d3-js' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2013-09-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2013-09-18T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/d3-topojson/images/fi_TopoJson.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="D3: TopoJSON">
+<meta name="twitter:description" content="耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。 TopoJSON on Github T"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/d3-topojson/images/fi_TopoJson.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#特徴">特徴</a></li>
+        <li><a href="#手元のpcでgeojsonをtopojsonに変換したい場合">手元のPCでGeoJsonをTopoJsonに変換したい場合</a></li>
+        <li><a href="#api">API</a>
+          <ol>
+            <li><a href="#server用パッケージのインストール">Server用パッケージのインストール</a></li>
+            <li><a href="#server用コマンドラインツールのリファレンス">Server用コマンドラインツールのリファレンス</a></li>
+            <li><a href="#client用jsファイル">Client用JSファイル</a></li>
+            <li><a href="#client用jsファイルで用意されている関数">Client用JSファイルで用意されている関数</a></li>
+          </ol>
+        </li>
+        <li><a href="#topojsonファイルの構造">topojsonファイルの構造</a></li>
+        <li><a href="#参考リンク">参考リンク</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/d3-topojson/">
+                <img src="/d3-topojson/images/fi_TopoJson_hu6585152598704ff6e9a7da0dfefb3f62_344056_800x0_resize_box_3.png"
+                        srcset="/d3-topojson/images/fi_TopoJson_hu6585152598704ff6e9a7da0dfefb3f62_344056_800x0_resize_box_3.png 800w, /d3-topojson/images/fi_TopoJson_hu6585152598704ff6e9a7da0dfefb3f62_344056_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post D3: TopoJSON" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/d3-topojson/">D3: TopoJSON</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 18, 2013</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。</p>
+<ul>
+<li><a class="link" href="https://github.com/mbostock/topojson"  target="_blank" rel="noopener"
+    >TopoJSON on Github</a></li>
+<li><a class="link" href="https://github.com/mbostock/topojson/wiki/JP-Home"  target="_blank" rel="noopener"
+    >TopoJSONについて（日本語訳ページ）</a></li>
+</ul>
+<h3 id="特徴">特徴
+</h3><p>データから冗長性を排した結果、効率的にデータの活用ができたり、ファイルサイズをかなり削減できる。</p>
+<ul>
+<li>国境や州境など複数の国や州が共有する地形データを重複することなく格納できる。</li>
+<li>一つの TopoJSON ファイルで、ポリゴン（フィル＝塗り用）と境界線（ストローク＝輪郭線用）の両方を、同じarcメッシュを共有する二つのフィーチャーコレクションとして効率的に表現することができる。</li>
+<li>座標計算に固定精度エンコーディングを用いることで正確性を犠牲にすることなく座標値の精度の丸め処理を省略できる。</li>
+</ul>
+<p>とのことでこの結果、ファイルサイズをかなり削減(通常のものでは80%程度)できて、効率的にデータの活用もできるとのことです。</p>
+<h3 id="手元のpcでgeojsonをtopojsonに変換したい場合">手元のPCでGeoJsonをTopoJsonに変換したい場合
+</h3><p>コマンドラインで実行します。Node.js、topojsonをインストールしたのち、Macの場合はTerminalで、topojson -o output.json input.json といったコマンドを実行します。</p>
+<p><img src="/d3-topojson/images/shgeotopo-14.png"
+	width="505"
+	height="366"
+	srcset="/d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, /d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="shgeotopo-14"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="331px"
+	
+></p>
+<ul>
+<li><a class="link" href="https://github.com/mbostock/topojson/wiki/Command-Line-Reference"  target="_blank" rel="noopener"
+    >Command Line Reference</a></li>
+</ul>
+<h3 id="api">API
+</h3><p>Server用APIとClient用APIの両方が用意されています。Server用はGeoJSONファイルやESRI ShapefileをTopoJsonに変換する役割があり、Client用はブラウザでレンダリング用にTopoJsonをGeoJsonに戻す役割があります。Server用はコマンドラインツールとして用意されたものと同じで、Node.jsのパッケージとしてローカルサーバで事前的に実行するか、ウェブサーバでリアルタイムに近い形で実行するかの違いです。</p>
+<h4 id="server用パッケージのインストール">Server用パッケージのインストール
+</h4><p>利用に際しては、Node.jsのパッケージ管理ツールnpmを通じてインストールします。</p>
+<ul>
+<li><a class="link" href="https://npmjs.org/package/topojson"  target="_blank" rel="noopener"
+    >topojson | npm</a></li>
+</ul>
+<h4 id="server用コマンドラインツールのリファレンス">Server用コマンドラインツールのリファレンス
+</h4><ul>
+<li><a class="link" href="https://github.com/mbostock/topojson/wiki/Command-Line-Reference"  target="_blank" rel="noopener"
+    >Command Line Reference | topoJson</a></li>
+</ul>
+<h4 id="client用jsファイル">Client用JSファイル
+</h4><p>ヴァージョン1.0.0とそれ以前で関数の定義に変更がありますのでご注意ください。<br>
+<a class="link" href="http://stackoverflow.com/questions/17404239/topojson-list-of-differences-between-v0-and-v1"  target="_blank" rel="noopener"
+    >Topojson: list of differences between v0 and v1?</a></p>
+<ul>
+<li><a class="link" href="https://github.com/mbostock/topojson/blob/master/topojson.js"  target="_blank" rel="noopener"
+    >https://github.com/mbostock/topojson/blob/master/topojson.js</a></li>
+</ul>
+<h4 id="client用jsファイルで用意されている関数">Client用JSファイルで用意されている関数
+</h4><ul>
+<li>bisect(a, x)</li>
+<li>feature(topology, o)</li>
+<li>featureOrCollection(topology, o)</li>
+<li>merge(topology, arcs)</li>
+<li>mesh(topology, o, filter)</li>
+<li>neighbors(objects)</li>
+<li>object(topology, o)</li>
+<li>reverse(array, n)</li>
+</ul>
+<h3 id="topojsonファイルの構造">topojsonファイルの構造
+</h3><figure>
+<p><img src="/d3-topojson/images/shgeotopo-15-1.png"
+	width="690"
+	height="540"
+	srcset="/d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, /d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="306px"
+	
+></p>
+<figcaption>
+<p>TopoJSONのファイル構造</p>
+</figcaption>
+</figure>
+<figure>
+<p><img src="/d3-topojson/images/shgeotopo-13-1.png"
+	width="690"
+	height="540"
+	srcset="/d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, /d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="306px"
+	
+></p>
+<figcaption>
+<p>GeoJSONのファイル構造</p>
+</figcaption>
+</figure>
+<ul>
+<li>type=topologyとすることでこのデータがGeoJsonでなくてTopoJsonであることを示す。</li>
+<li>objects、arcs、transformの3つのobjectで構成される。</li>
+<li>objects…標準であるGeoJSON形式で記述されたobjectを名前でインデックス化。</li>
+<li>arcs…objectsに格納されているobject群の座標値を一元的に管理。線のように、点の連続で構成されている。</li>
+<li>transform…デルタ符号化された整数の座標をそれぞれのネイティブな値へ変換するための、変換値を保持（大きさと位置の補正）</li>
+</ul>
+<p>行政界データでいうと境の部分はそれを共有する双方の県なり市区町村が同じ形状のものを持ちますがこれを一元化したり、座標は一カ所だけ絶対値でもちそれ以外の座標を相対値で持つことで必要な桁数をグッと減らすことができ、その結果ファイルサイズの軽量化が測れる構成になっているようです。またブラウザで表示用にレンダリングする際にはGeoJsonに戻してからレンダリングしますので、地形データはファイルサイズが大きくなりがちで、デコードするコストをかけても転送速度を軽減した方がよい、という考えのようです。</p>
+<h3 id="参考リンク">参考リンク
+</h3><ul>
+<li><a class="link" href="http://n1n9.jp/d3/geojson/spec/"  target="_blank" rel="noopener"
+    >GeoJSON仕様（日本語訳）</a></li>
+<li><a class="link" href="http://stackoverflow.com/questions/14740705/difference-between-geojson-and-topojson"  target="_blank" rel="noopener"
+    >Difference between GeoJSON and TopoJSON | stack overflow</a></li>
+<li><a class="link" href="http://geeohspatial.blogspot.jp/2013/03/topojson-basics.html"  target="_blank" rel="noopener"
+    >TopoJSON Basics</a></li>
+<li><a class="link" href="http://ja.d3js.node.ws/blocks/mike/map/"  target="_blank" rel="noopener"
+    >D3.jsとTopoJSONで地図を作る</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/d3-js/">d3-js</a>
+        
+            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/mapbox-gl-js-v2/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-gl-js-v2/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ"
+                        data-key="mapbox-gl-js-v2" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/d3-flexbox/">
+        
+        
+            <div class="article-image">
+                <img src="/d3-flexbox/images/social-facebook.9f4eaeab2cf5ce672b4feed8c06dd5e1_hu33785b2525dfae683b93672265d144fd_105597_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画"
+                        data-key="d3-flexbox" 
+                        data-hash="md5-n06uqyz1zmcrT&#43;7YwG3V4Q==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/geojson/">
+        
+        
+            <div class="article-image">
+                <img src="/geojson/images/GeoJson_3.b88f531c07621e27197741d6a18adbcf_hud077a9abab6848f48e38c0c585e6f2d7_1453193_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post GeoJsonとは"
+                        data-key="geojson" 
+                        data-hash="md5-uI9THAdiHicZd0HWoYrbzw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">GeoJsonとは</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/qgis-classification/">
+        
+        
+            <div class="article-image">
+                <img src="/qgis-classification/images/qgis_jenks.3d132a1afc5e2440aebd4905b255db04_hu10c1684449bdc553beb955a5a36bea4a_149555_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post QGISにおける階級分類"
+                        data-key="qgis-classification" 
+                        data-hash="md5-PRMqGvxeJECuvUkFslXbBA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">QGISにおける階級分類</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/classification-jenks/">
+        
+        
+            <div class="article-image">
+                <img src="/classification-jenks/images/qgis_jenks.3d132a1afc5e2440aebd4905b255db04_hu10c1684449bdc553beb955a5a36bea4a_149555_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 地図の階級分類におけるJenksって？"
+                        data-key="classification-jenks" 
+                        data-hash="md5-PRMqGvxeJECuvUkFslXbBA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">地図の階級分類におけるJenksって？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

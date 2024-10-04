@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>可視化 on Visualizing.JP</title>
+        <link>https://example.com/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</link>
+        <description>Recent content in 可視化 on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>科学可視化と情報可視化</title>
+        <link>https://example.com/scientific-and-information/</link>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/scientific-and-information/</guid>
+        <description>&lt;img src="https://example.com/scientific-and-information/images/science_information.png" alt="Featured image of post 科学可視化と情報可視化" /&gt;&lt;p&gt;可視化を科学可視化と情報可視化に分類する考え方があります。&lt;/p&gt;
+&lt;p&gt;それによると、可視化自体は、認知を増幅するために行うインタラクティブな視覚的表現の使用のことを指す、という点では共通ですが、以下のような違いがあります。&lt;/p&gt;
+&lt;h4 id=&#34;科学可視化&#34;&gt;科学可視化
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;物理的な空間に基づいている（明確な空間マッピングを持つ）科学データを用いた、現実世界の正確な可視化。&lt;/li&gt;
+&lt;li&gt;具体的には、宇宙を含む三次元空間上の現象、流体力学のシミュレーション結果の表示、人体内部の三次元構造を医療画像を元にした復元表示、分子動力学シミュレーション結果の表示などを指します。&lt;/li&gt;
+&lt;li&gt;対応する物理的な形状や外観を持っている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;情報可視化&#34;&gt;情報可視化
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;物理的な空間に基づいていない（明確な空間マッピングを持たない）抽象データを用いた、本質的に抽象的な概念の可視化。&lt;/li&gt;
+&lt;li&gt;具体的には、財務データ、ビジネス情報、収集されたドキュメント、抽象的な概念など非物理情報の表示を指します。&lt;/li&gt;
+&lt;li&gt;対応する物理的な形状や外観を持っていません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;一般の人が普段接している情報の多くは情報可視化&#34;&gt;一般の人が普段接している情報の多くは情報可視化
+&lt;/h4&gt;&lt;p&gt;科学可視化と情報可視化、これらは明確に分けられます。&lt;/p&gt;
+&lt;p&gt;科学可視化は、まずはデータが基づいている物理的な空間として再現することを目指し、加えてその他の属性を表示することを目指します。&lt;/p&gt;
+&lt;p&gt;情報可視化は、そもそも基づいている物理的な空間が存在しないため、空間的な表現方法が自由で、そのためデータ構造の自由度もより高いです。&lt;/p&gt;
+&lt;p&gt;一般の人が普段接している情報は情報可視化が扱う範疇のものが多い一方で、抽象的な概念を、幾何図形を用いて可視化することが、親しみにくさ、情緒的な共感の低さにもつながっているのではないか、と矢崎は考えます。&lt;/p&gt;
+&lt;h4 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Card, S. K., Mackinlay, J. D., Shneiderman, B.: Readings in Information Visualization: Using Vision to Think&lt;/li&gt;
+&lt;li&gt;伊藤貴之: 意思決定を助ける情報可視化技術&lt;/li&gt;
+&lt;li&gt;高間康史: 情報可視化　データ分析・活用のためのしくみと考え方&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

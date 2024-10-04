@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>dj on Visualizing.JP</title>
+        <link>https://example.com/categories/dj/</link>
+        <description>Recent content in dj on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/dj/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
+        <link>https://example.com/d3-flexbox/</link>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-flexbox/</guid>
+        <description>&lt;img src="https://example.com/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsを利用して、SVGではなくCSS3のFlexboxを利用したチャート描画のスタディを行っていた記事&lt;/a&gt;をご紹介します。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  title=&#34;https://d3js.org/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js&lt;/a&gt;は、可視化の自由度に注目がいきますが、ライブラリとして評価されているところはブラウザ上での可視化に必要な機能が一通りライブラリとして整備されていることで、たとえば「ヒストグラムのビンの計算といった統計的な基礎の計算」が行えたり、「様々な形式のデータファイルを非同期的に読み込んで可視化する際に扱いやすい多次元配列を内包するJSON形式に変換（RやPythonでいうところのデータフレームのようなもの）」したり、といったことが含まれます。&lt;/p&gt;
+&lt;p&gt;D3.jsを用いると、SVGだけでなく、HTML上のフォーム要素（例：ラジオボタンやチェックボックス）などもデータドリブンに生成することが可能です。データ可視化におけるフォーム要素は「データと描画」もしくは「描画のみ」を操作するために利用されますから、可視化そのもの同様に、データドリブンに生成・変更できる必要があります。&lt;/p&gt;
+&lt;p&gt;このD3.jsの機能を利用して、レイアウト指定がトリッキーな、積み重ね棒グラフなどについて、SVGを用いずにCSSのFlexbox機能を使って実装してみた、というのが紹介する記事ということになります。&lt;/p&gt;
+&lt;h3 id=&#34;css3のflexboxって何だっけ&#34;&gt;CSS3のFlexboxって何だっけ
+&lt;/h3&gt;&lt;p&gt;ユーザーインターフェイスデザイン用に最適化された、&lt;a class=&#34;link&#34; href=&#34;https://www.w3.org/TR/css-flexbox/&#34;  title=&#34;https://www.w3.org/TR/css-flexbox/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CSS3で採用されたWeb標準のレイアウトモデル&lt;/a&gt;です。あるコンテナのアイテム内のレイアウトの最適化に向いています。以下のようなことが実現できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任意の方向にレイアウト&lt;/li&gt;
+&lt;li&gt;サイズを「フレックス」して、未使用のスペースを埋めるために拡大するか、親のオーバーフローを回避するために縮小する&lt;/li&gt;
+&lt;li&gt;水平方向と垂直方向の両方の配置を操作&lt;/li&gt;
+&lt;li&gt;コンテナ内のアイテムをネスト（水平内側垂直、または垂直内側水平）させて、2次元のレイアウトを作成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;結果は&#34;&gt;結果は…
+&lt;/h3&gt;&lt;p&gt;具体的な成果についてはそれほど長い記事でもないので&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;リンク先の元記事を参照&lt;/a&gt;してもらえればと思いますが、矩形（四角形）の幾何図形を用いて、整列を柔軟に行うことができる、という性質を利用すれば、使い所がありそうです。SVGの空間座標が左上が(0,0)、右下がたとえば(100,100)といった座標系ですから、下から上へ積み上げる系のチャート描画の計算には一苦労します。そういった実装をする際の、非直感的な座標指定の気持ち悪さを解消する、といった感じでしょうか。&lt;/p&gt;
+&lt;p&gt;それ以外でも、今すぐパッとは思いつきませんが、これまでのチャートやグラフとは少し違った独自の可視化表現を探る際に、実装の手数の一つとして覚えておいていいかもしれません。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

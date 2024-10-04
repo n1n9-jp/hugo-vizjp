@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>3d on Visualizing.JP</title>
+        <link>https://example.com/tags/3d/</link>
+        <description>Recent content in 3d on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/3d/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
+        <link>https://example.com/mapbox-gl-js-v2/</link>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/mapbox-gl-js-v2/</guid>
+        <description>&lt;img src="https://example.com/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
+&lt;/h2&gt;&lt;p&gt;mapbox-gl-jsとは、WebGLを用いてベクター形式の地図タイルをレンダリングし、インタラクティブに操作することを可能にするJavaScriptライブラリです。&lt;/p&gt;
+&lt;p&gt;v1.0台の頃は、このライブラリを使用するけども、サーバサイド側でMapboxのサービス（＝Mapbox提供の地図タイルサービス）を利用しない場合、料金はかかりませんでした。v2.0以降は、このライブラリを使用するだけでも、ライブラリの呼び出し回数に基づいた利用料を払う必要があるよう、規約が変更されました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mapbox/mapbox-gl-js/issues/10162&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/mapbox/mapbox-gl-js/issues/10162&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://geo-news.jp/archives/2270&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://geo-news.jp/archives/2270&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;v20による新機能&#34;&gt;v2.0による新機能
+&lt;/h2&gt;&lt;p&gt;v2.0になり、機能面では以下のような刷新が図られ、非常に充実したものになっています。詳しくは公式サイトのブログをご覧ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;すべてのマップが3Dに&lt;/li&gt;
+&lt;li&gt;CAMERA APIの整備&lt;/li&gt;
+&lt;li&gt;SKY API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mapbox.com/blog/mapbox-gl-js-v2-3d-maps-camera-api-sky-api-launch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.mapbox.com/blog/mapbox-gl-js-v2-3d-maps-camera-api-sky-api-launch&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;コミュニティで開発が続くオープンソース版&#34;&gt;コミュニティで開発が続くオープン・ソース版
+&lt;/h2&gt;&lt;p&gt;オープン・ソース版だったv1.0を継続してオープン・ソースのまま開発を続けようという動きがエンジニア・コミュニティで起こり、maplibre-gl-jsという名称で公開されています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/maplibre/maplibre-gl-js&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/maplibre/maplibre-gl-js&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

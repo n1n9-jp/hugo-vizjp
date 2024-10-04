@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>data-journalism on Visualizing.JP</title>
+        <link>https://example.com/categories/data-journalism/</link>
+        <description>Recent content in data-journalism on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/data-journalism/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>シグマ・アワード 2021</title>
+        <link>https://example.com/sigma-awards-2021/</link>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/sigma-awards-2021/</guid>
+        <description>&lt;img src="https://example.com/sigma-awards-2021/images/Sigmas-2021-promo-banner-twitterTFB1200x628.png" alt="Featured image of post シグマ・アワード 2021" /&gt;&lt;h3 id=&#34;データジャーナリズムにおけるグローバル最大規模のアワード&#34;&gt;データ・ジャーナリズムにおけるグローバル最大規模のアワード
+&lt;/h3&gt;&lt;h4 id=&#34;シグマアワードって&#34;&gt;シグマ・アワードって?
+&lt;/h4&gt;&lt;p&gt;今年で通算十一年目になるシグマ・アワード、&lt;strong&gt;エントリーを現在（2021年1月いっぱい）受付中&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;シグマ・アワードは**「データジャーナリストのグローバルコミュニティに力を与え、高め、啓発することを目的とした新しいデータジャーナリズムコンテスト」&lt;strong&gt;です。運営や審査には&lt;/strong&gt;第一線の研究者・実務家**がかかわり、&lt;strong&gt;世界中からエントリーがなされる&lt;/strong&gt;アワードです。昨年（2020年）実績では、&lt;strong&gt;66の国と地域、287の組織から510点の応募&lt;/strong&gt;があったとのことです。&lt;/p&gt;
+&lt;h4 id=&#34;2021年シグマアワード自身の考える重点項目&#34;&gt;2021年、シグマ・アワード自身の考える重点項目
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;COVID-19パンデミックに取り組む人々に焦点を当て、世界中で行われている最高のデータジャーナリズムにスポットライトを当てる。&lt;/li&gt;
+&lt;li&gt;アワードを超えて永続するコミュニティ構築。&lt;/li&gt;
+&lt;li&gt;現代のジャーナリストが直面している真の緊急課題に取り組むウェビナー、チャット、オンラインリソースの収集をセットアップする。&lt;/li&gt;
+&lt;li&gt;世界中のデータジャーナリズムコミュニティを団結させ、活気づけ、拡大するための方法としてアワードを活用する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;昨年度2020年との違い&#34;&gt;昨年度（2020年）との違い
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;5000米ドルの賞金が、受賞者の間で分配されます。分配の仕方は審査員が決定する予定。&lt;/li&gt;
+&lt;li&gt;作品エントリーする「カテゴリー」の廃止。報道機関（ニューズルーム）の所属人数よる分類のみ、カテゴリーとして残っています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;応募に際してのルール&#34;&gt;応募に際してのルール
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;応応募作品は、2020年に発表された作品に限ります。&lt;/li&gt;
+&lt;li&gt;期日までに、公式オンラインフォームから提出してください。&lt;/li&gt;
+&lt;li&gt;応募者は何点でも応募することができます。&lt;/li&gt;
+&lt;li&gt;応募には、大規模ニューズルームか小規模ニューズルームか個人かを明記してください（小規模とは、ジャーナリスト（正規や下請けを含む）の数が35人以下の組織を指します）。複数組織によるコラボレーション作品の場合、大規模としてエントリーしてください。&lt;/li&gt;
+&lt;li&gt;シグマ・アワードのウェブサイトやその他のマーケティング資料に、応募団体の名前やロゴを含め、応募作品の素材を使用する権利を与えることに同意します。&lt;/li&gt;
+&lt;li&gt;審査員は、作品を本質的なものに絞り込んだ、短く、簡潔で、よく練られたエントリーを評価します（冗長に長く書いても評価しないという意味だと思われます）。&lt;/li&gt;
+&lt;li&gt;将来的には、この賞のプログラムを言語にとらわれないものにすることを目標としています。2021年のコンテストは締め切りが厳しいため、英語以外の言語での応募は、できるだけ翻訳が必要となります。事前審査員と審査員があなたの作品を十分に理解できるように、できるだけ多くの翻訳をしてください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;こんな作品を待っていますとのこと&#34;&gt;こんな作品を待っています、とのこと
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;ジャーナリズムのサービスとして、素晴らしいデータ収集と分析を行い、理想的には公共の関心に答える、まだ知られていない事実に光を当てること。&lt;/li&gt;
+&lt;li&gt;素晴らしいストーリーテリングとエンゲージメント、おそらく視覚的にも対話的にも。&lt;/li&gt;
+&lt;li&gt;記事のレポートや分析として、もしくは、コミュニティが自分たちで重要な情報を発見できるようにするという意味で、素晴らしい公共サービスであること。&lt;/li&gt;
+&lt;li&gt;この分野を前進させるような素晴らしいアイデアを持っていること。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;メディアパートナー&#34;&gt;メディア・パートナー
+&lt;/h4&gt;&lt;p&gt;各国にメディア・パートナー団体があります。日本では、Data Visualization Japanというコミュニティがここ数年取り組んでいます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/sigma-awards-2021/images/Sigmas-partners-banner.png&#34;
+	width=&#34;800&#34;
+	height=&#34;496&#34;
+	srcset=&#34;https://example.com/sigma-awards-2021/images/Sigmas-partners-banner_hu1bb90dbcfdc5809d563923d13a48d021_330191_480x0_resize_box_3.png 480w, https://example.com/sigma-awards-2021/images/Sigmas-partners-banner_hu1bb90dbcfdc5809d563923d13a48d021_330191_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;387px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;追加情報&#34;&gt;追加情報
+&lt;/h4&gt;&lt;p&gt;前回の受賞作品や過去の経緯などをスライドにとりまとめています。&lt;/p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;fce5929734054ebf901890d7eb9a770a&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;h4 id=&#34;応募ページ&#34;&gt;応募ページ
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://sigmaawards.org/apply&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;エントリーページ&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ご不明点&#34;&gt;ご不明点
+&lt;/h4&gt;&lt;p&gt;日本語によるお問い合わせに対応します。Twitterで @yuichy02 もしくはメールで &lt;a class=&#34;link&#34; href=&#34;mailto:datavizjapan@gmail.com&#34; &gt;datavizjapan@gmail.com&lt;/a&gt; までご連絡ください。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>データ・ジャーナリズムにおけるデータ・ストーリー 四類型</title>
+        <link>https://example.com/data-story-4-types/</link>
+        <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/data-story-4-types/</guid>
+        <description>&lt;img src="https://example.com/data-story-4-types/images/NYT_SnowFall.png" alt="Featured image of post データ・ジャーナリズムにおけるデータ・ストーリー 四類型" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/&#34;  title=&#34;https://pudding.cool/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Pudding&lt;/a&gt;というメディアのJan Diehmさんがデータジャーナリズムの講義（Data Journalism and Visualization with Free Tools）にて、どのようなタイプのデータ・ストーリーが存在するかとして、大きく以下の四つに分類し紹介していました。初見の分類法でしたのでこちらでも紹介します。説明文には筆者（矢崎）独自の観点や補足も付けています。ピックアップされている事例は元の講義に準じます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scrollytelling(スクローリーテリング)&lt;/li&gt;
+&lt;li&gt;Microstories (マイクロストーリーズ)&lt;/li&gt;
+&lt;li&gt;Non-traditional (非伝統的)&lt;/li&gt;
+&lt;li&gt;Explainers (説明者)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;scrollytellingスクローリーテリング&#34;&gt;Scrollytelling(スクローリーテリング)
+&lt;/h2&gt;&lt;p&gt;閲覧者がページを下にスクロールすると、アニメーションとともにストーリーが直線的に展開する手法。閲覧者はただスクロールするだけでよく、クリックやホバーを含む込み入った操作をする必要がありません。PCのみならずスマホやタブレットでの親和性も良いですね。&lt;/p&gt;
+&lt;p&gt;元々この手法を用いた開拓者たるコンテンツは&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/projects/2012/snow-fall/index.html#/?part=tunnel-creek&#34;  title=&#34;https://www.nytimes.com/projects/2012/snow-fall/index.html#/?part=tunnel-creek&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ニューヨーク・タイムズのSnow Fall&lt;/a&gt;という作品。パララックス・スクロールに動画をシームレスに組み合わせてデータ・ストーリーに応用した印象です。&lt;/p&gt;
+&lt;p&gt;パララックス・スクロール自体は、Snow Fall以前から、とくにiOSデバイスがFlashをサポートしなかったため、Flashがウェブで全面的に使えなくなって以降、主要でささやかな演出の一貫として、ウェブでの商品紹介ページなどでマーケティングの観点からよく利用されていた印象ですが、この手法のジャーナリズムへの転用といえそうです。&lt;/p&gt;
+&lt;h4 id=&#34;snow-fall-the-avalanche-at-tunnel-creek---multimedia-feature---nytimescom&#34;&gt;Snow Fall: The Avalanche at Tunnel Creek - Multimedia Feature - NYTimes.com
+&lt;/h4&gt;&lt;p&gt;登場した際、驚きをもってシェアされたSnow Fall。もう8年前のコンテンツですね。元ニューヨーク・タイムズのデータ・エンジニアが「ユーザーの85%がインタラクティブなコンテンツをスルーする」と衝撃的なトークをカンファレンスで行ったこともありました。これは別記事にします。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/projects/2012/snow-fall/index.html#/?part=tunnel-creek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/NYT_SnowFall.png&#34;
+	width=&#34;3100&#34;
+	height=&#34;1834&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/NYT_SnowFall_hu0fab12777de3812556390bb4020e6e5d_2582309_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/NYT_SnowFall_hu0fab12777de3812556390bb4020e6e5d_2582309_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NYT_SnowFall&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;405px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/projects/2012/snow-fall/index.html#/?part=tunnel-creek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.nytimes.com/projects/2012/snow-fall/index.html#/?part=tunnel-creek&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;twenty-years-of-the-nba-redrafted&#34;&gt;Twenty years of the NBA redrafted
+&lt;/h4&gt;&lt;p&gt;The Pudding 作のコンテンツです。The Pudding はこのようなジャーナリズムど真ん中よりも少しエンターテイメント寄りのコンテンツが多い印象です。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/2017/03/redraft/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/redrafted.png&#34;
+	width=&#34;1909&#34;
+	height=&#34;946&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/redrafted_hueb0489e0497a543c7d2066983a5c24e9_246218_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/redrafted_hueb0489e0497a543c7d2066983a5c24e9_246218_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;201&#34;
+		data-flex-basis=&#34;484px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/2017/03/redraft/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pudding.cool/2017/03/redraft/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;going-gray&#34;&gt;Going Gray
+&lt;/h4&gt;&lt;p&gt;ロイターが日本の高齢化社会のことを他国との比較から注目しているコンテンツです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.reuters.com/JAPAN-AGING/010091PB2LH/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/Going-gray.png&#34;
+	width=&#34;1914&#34;
+	height=&#34;1410&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/Going-gray_hu106f2eda6777aa331117f3449359626c_1279684_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/Going-gray_hu106f2eda6777aa331117f3449359626c_1279684_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;325px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.reuters.com/JAPAN-AGING/010091PB2LH/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://graphics.reuters.com/JAPAN-AGING/010091PB2LH/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;microstoriesマイクロストーリーズ&#34;&gt;Microstories(マイクロストーリーズ)
+&lt;/h2&gt;&lt;p&gt;Scrollytellingに比べるとアナログなアプローチで、焦点をかなり絞り、静止画の一枚で完結するようなデータ・ストーリーの伝え方です。&lt;/p&gt;
+&lt;h4 id=&#34;mona-chalabi&#34;&gt;Mona Chalabi
+&lt;/h4&gt;&lt;p&gt;Monaさんはニューヨーク在住のジャーナリストで、個人ワークをInstagram上で発表し続けています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/BtTjIYwngqn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.instagram.com/p/BtTjIYwngqn/&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/BtTjIYwngqn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.instagram.com/p/BtTjIYwngqn/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;dear-data&#34;&gt;Dear Data
+&lt;/h3&gt;&lt;p&gt;MoMAのパーマネント・コレクションにも選出された、ロンドンとニューヨークに住む女性デザイナー同士のコラボレーションです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.dear-data.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/image-asset.jpeg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1351&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/image-asset_hu8c8fc6b476e95974f3182372e3bd3f8f_939135_480x0_resize_q75_box.jpeg 480w, https://example.com/data-story-4-types/images/image-asset_hu8c8fc6b476e95974f3182372e3bd3f8f_939135_1024x0_resize_q75_box.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;185&#34;
+		data-flex-basis=&#34;444px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.dear-data.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.dear-data.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;non-traditional非伝統的&#34;&gt;Non-traditional(非伝統的)
+&lt;/h2&gt;&lt;p&gt;従来のデータ・ストーリーとはまったく異なり、従来のチャートやグラフは全く用いず、代わりに画像・動画・ARやVRなどの新しい技術を使用してデータ・ストーリーを伝えています。&lt;/p&gt;
+&lt;h4 id=&#34;apollo-11-as-they-shot-it---the-new-york-times&#34;&gt;Apollo 11: As They Shot It - The New York Times
+&lt;/h4&gt;&lt;p&gt;ニューヨーク・タイムズによるApollo 11月面着陸五十周年を記念したコンテンツ。できるかぎり状況をリアリスティックを持った伝達のために、残された会話や写真を素材を再構成しています。スクローリーテリングの手法も用いていますがそれだけではないため、こちらの分類されているようです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2019/07/18/science/apollo-11-as-they-shot-it-ul.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/NYT_-Apollo.png&#34;
+	width=&#34;1916&#34;
+	height=&#34;1341&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/NYT_-Apollo_hu56eb6cff962b576b29af2eb671cb56c7_257932_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/NYT_-Apollo_hu56eb6cff962b576b29af2eb671cb56c7_257932_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;142&#34;
+		data-flex-basis=&#34;342px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2019/07/18/science/apollo-11-as-they-shot-it-ul.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.nytimes.com/interactive/2019/07/18/science/apollo-11-as-they-shot-it-ul.html&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;the-nfl-has-had-280-concussions-this-season&#34;&gt;The NFL Has Had 280 Concussions This Season
+&lt;/h4&gt;&lt;p&gt;チャートを一つも使用していませんが、これも「データ」を用いたデータ・ストーリーだとJanさんは紹介しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vimeo.com/253738508&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/Concussions.png&#34;
+	width=&#34;1917&#34;
+	height=&#34;1078&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/Concussions_hu9ce216435d7fb04faf1d5f7904da21f3_1917152_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/Concussions_hu9ce216435d7fb04faf1d5f7904da21f3_1917152_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://vimeo.com/253738508&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://vimeo.com/253738508&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;explainers説明者&#34;&gt;Explainers(説明者)
+&lt;/h2&gt;&lt;p&gt;物事の仕組みを詳細に説明するためにインタラクションやアニメーションが用いられているデータ・ストーリーです。&lt;/p&gt;
+&lt;h4 id=&#34;parable-of-the-polygons---a-playable-post-on-the-shape-of-society&#34;&gt;Parable of the Polygons - a playable post on the shape of society
+&lt;/h4&gt;&lt;p&gt;筆者も大好きな、個人が考える多様性がコミュニティにどのようなインパクトがあるかを示したインタラクティブ・コンテンツです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ncase.me/polygons/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/Parable-of-the-Polygons.png&#34;
+	width=&#34;2101&#34;
+	height=&#34;1095&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/Parable-of-the-Polygons_huc04fcef018bef070a30e28cd211eaa74_537570_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/Parable-of-the-Polygons_huc04fcef018bef070a30e28cd211eaa74_537570_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;460px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ncase.me/polygons/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ncase.me/polygons/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;how-to-tune-a-guitar&#34;&gt;How To: Tune a Guitar
+&lt;/h4&gt;&lt;p&gt;ジャーナリズムといえるか疑問ですが、実際にギターをチューニングをするためのインタラクティブ・コンテンツです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mathisonian.github.io/idyll/how-to-tune-a-guitar/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/Tune-a-Guitar.png&#34;
+	width=&#34;2100&#34;
+	height=&#34;1414&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/Tune-a-Guitar_hu807f98aaf783f1ff31ac5e3879567b8c_183395_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/Tune-a-Guitar_hu807f98aaf783f1ff31ac5e3879567b8c_183395_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mathisonian.github.io/idyll/how-to-tune-a-guitar/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://mathisonian.github.io/idyll/how-to-tune-a-guitar/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;lets-learn-about-waveforms&#34;&gt;Let&amp;rsquo;s Learn About Waveforms
+&lt;/h4&gt;&lt;p&gt;ジャーナリズムといえるか疑問ですが、波形についての The Pudding 作のインタラクティブ・コンテンツです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/2018/02/waveforms/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;img src=&#34;https://example.com/data-story-4-types/images/Waveforms.png&#34;
+	width=&#34;2104&#34;
+	height=&#34;1362&#34;
+	srcset=&#34;https://example.com/data-story-4-types/images/Waveforms_hu0487b53bcbe45cdb4a4064866296bbe3_110600_480x0_resize_box_3.png 480w, https://example.com/data-story-4-types/images/Waveforms_hu0487b53bcbe45cdb4a4064866296bbe3_110600_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;370px&#34;
+	
+&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/2018/02/waveforms/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pudding.cool/2018/02/waveforms/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        </item>
+        <item>
+        <title>ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程</title>
+        <link>https://example.com/wp-corona-simulation/</link>
+        <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/wp-corona-simulation/</guid>
+        <description>&lt;img src="https://example.com/wp-corona-simulation/images/corona-simulation.png" alt="Featured image of post ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程" /&gt;&lt;p&gt;日本でも大いに話題になった&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事&lt;/a&gt;。主に制作過程について、まとめてみます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;記事内容の紹介&#34;&gt;記事内容の紹介
+&lt;/h3&gt;&lt;p&gt;記事の公開は3月中旬。&lt;/p&gt;
+&lt;p&gt;人口200人の町で、1人の感染者が現れたあと、ソーシャル・ディスタンシング（社会的距離）をどの程度とるかによって、事態がどのくらい変わってしまうのかをシミュレーションで示しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/wp-corona-simulation/images/corona-simulation.gif&#34;
+	width=&#34;810&#34;
+	height=&#34;530&#34;
+	srcset=&#34;https://example.com/wp-corona-simulation/images/corona-simulation_hubd538b7984dfb44724336cdabfdd90c2_27390552_480x0_resize_box_1.gif 480w, https://example.com/wp-corona-simulation/images/corona-simulation_hubd538b7984dfb44724336cdabfdd90c2_27390552_1024x0_resize_box_1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;366px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&lt;/a&gt; より引用&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;数理モデルには基づいておらず、ランダム（プログラムよる乱数）に過ぎません。また悲観的なことを表現したくないという意図から、人が死ぬ（減る）表現は省略されています。&lt;/p&gt;
+&lt;p&gt;そのため、あくまでCovid-19ではなく、ニセの病気Simulitisをシミュレーションしたという体裁をとっています。&lt;/p&gt;
+&lt;p&gt;ソーシャル・ディスタンシングの取られ方で、4つのシミュレーションがなされています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/wp-corona-simulation/images/corona-simulation.png&#34;
+	width=&#34;1135&#34;
+	height=&#34;791&#34;
+	srcset=&#34;https://example.com/wp-corona-simulation/images/corona-simulation_hua67d82a9138a650964d7e8088c25a676_58681_480x0_resize_box_3.png 480w, https://example.com/wp-corona-simulation/images/corona-simulation_hua67d82a9138a650964d7e8088c25a676_58681_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&lt;/a&gt; より引用&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;そして時系列での増減をエリアチャートでも示しています。このエリアチャートが、当時のキーフレーズだったFlattern The Curveをそのまま再現していたことから、キーフレーズの理解を促進したという側面もありました。&lt;/p&gt;
+&lt;p&gt;だから、SNS上での、家にいよう、ソーシャル・ディスタンシングが大事だという呼び掛けの際にリンクが添付されることが多く、ワシントン・ポストのメディア・レポーターPaul Farhiのツイートによると、同紙史上最も読まれた記事となったとのことです。作者はまだ同社入社半年のHarry Stevensさんでした。&lt;/p&gt;
+&lt;h3 id=&#34;制作過程&#34;&gt;制作過程
+&lt;/h3&gt;&lt;p&gt;いくつかの記事から、制作過程を掘り起こしてみます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datajournalism.com/read/longreads/simulating-a-pandemic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://datajournalism.com/read/longreads/simulating-a-pandemic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.poynter.org/reporting-editing/2020/how-a-blockbuster-washington-post-story-made-social-distancing-easy-to-understand/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.poynter.org/reporting-editing/2020/how-a-blockbuster-washington-post-story-made-social-distancing-easy-to-understand/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;1プロトタイピング3月上旬&#34;&gt;1.プロトタイピング（3月上旬）
+&lt;/h4&gt;&lt;p&gt;コロナウイルスの広がりを視覚化する方法を模索していたグラフィックチームにそのアイデアを持ってきました。そのときのコードは公開されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://bl.ocks.org/harrystevens/f59cf33cfe5ea05adec113c64daef59b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;元々スタディしていたコード&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bl.ocks.org/HarryStevens/e2f49170367bbc10644ecb81f0e6dc54&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;プロトタイプとして提示したコード&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2ジョンズホプキンス大学の研究者が作り上げた数理モデルを利用して可視化を検討したが諦めた&#34;&gt;2.ジョンズホプキンス大学の研究者が作り上げた数理モデルを利用して可視化を検討したが諦めた
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;ジョンズ・ホプキンス大学の准教授であるローレン・ガードナー（Lauren Gardner）さんの作成した複雑な数理モデルを可視化しようとしていたが、最終的には、複雑すぎてグラフィックによる説明は無理だと伝達。&lt;/li&gt;
+&lt;li&gt;実際のモデル計算を行うと、スーパーコンピュータで何時間も計算集中的な数学モデルを実行する必要があって一晩かかるようなものもあり、しかしそれでも、多くの不確実性が存在することを、ローレン彼に警告したとのこと。&lt;/li&gt;
+&lt;li&gt;そこで彼は、数理モデルを再現する方向のアイデアを諦め、ボールがランダムに移動するというシンプルなアイデアにこだることにしたそうです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3プロトタイピング&#34;&gt;3.プロトタイピング
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;三回の変更を経て、完成版へたどり着いたとのことです。&lt;/li&gt;
+&lt;li&gt;一つ目のヴァージョンはユーザーのスクロールに合わせてテキストやグラフィックの塊が現れたり消えたりするストーリーテリングを使用していましたが、グラフィックが見づらくなっていました。&lt;/li&gt;
+&lt;li&gt;二つ目のヴァージョンは、ドットがSimulitisから回復しないようにしたもので、荒涼とした感染症の暴走を引き起こしました。&lt;/li&gt;
+&lt;li&gt;ほぼ十数人の人々からのフィードバックを集めた後、40～50時間かけて記事を仕上げ、最終的な作品に着地しました。&lt;/li&gt;
+&lt;li&gt;シミュレーションが仮想ウイルスで死ぬ人々を示していないのは、意図的に行ったとのことです。グラフィックチームは、すべてのドットが死んでいくことで不必要に暗い視覚化を望んでいませんでした。&lt;/li&gt;
+&lt;li&gt;画面上部のエリアチャートの方は、データ収集の精度が最も高いと判断して、ジョンズホプキンス大学のCOVID-19データセットを選択しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;反響&#34;&gt;反響
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;電子メール、Facebook、Twitter、LinkedInを通じて受け取った何百ものメッセージに今も対応しており、多くの人が、可視化-社会的な距離感がどのように「曲線を平坦にする」ことができるかを見て、実際にコロナウイルスに対する不安を鎮めたと言っています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;読者が自発的に翻訳してから新聞がそれを校正してくれたおかげで、ストーリーは13か国語で利用できるようになったとのことです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;オバマ前大統領は1億1400万人のフォロワーにこの話をツイートし、13万5000のリツイートを生み出しています（2020年6月20日現在）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/BarackObama/status/1239267360739074048&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのBarack Obamaさん: 「Watch this. It shows why we should all do the right thing and stay home to the fullest extent possible. All of us can help slow the spread of the virus, protecting the elderly, the vulnerable, and each other.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー</title>
+        <link>https://example.com/simon-rogers-workflow/</link>
+        <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/simon-rogers-workflow/</guid>
+        <description>&lt;img src="https://example.com/simon-rogers-workflow/images/guardian-data-workflow-001.jpg" alt="Featured image of post サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー" /&gt;&lt;p&gt;データジャーナリズムにおける第一人者であるサイモン・ロジャースが提唱しているワークフローを紹介します。明確なステップに分かれていないため、筆者による意訳が含まれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/simon-rogers-workflow/images/guardian-data-workflow-001.jpg&#34;
+	width=&#34;1000&#34;
+	height=&#34;1622&#34;
+	srcset=&#34;https://example.com/simon-rogers-workflow/images/guardian-data-workflow-001_hu3ca08ea6154722705fac2280495e534d_103945_480x0_resize_q75_box.jpg 480w, https://example.com/simon-rogers-workflow/images/guardian-data-workflow-001_hu3ca08ea6154722705fac2280495e534d_103945_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;61&#34;
+		data-flex-basis=&#34;147px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;入手データの精査&lt;/strong&gt;…ブレイキングニュース、定期的に行われるイベント、探求される研究、その他データなど、シェアされたデータについて、「何と比べるべきか・どんな変化を示すべきか」「データにはどんな意味があるか」「どんな他のデータと組み合わせるべきか」といった点を精査する&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;データのクレンジング&lt;/strong&gt;…「間違ったフォーマット、マージされたセル、不必要な列、異なる単位の混入」をクレンジングする&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;データに対する計算&lt;/strong&gt;…結果に対する検証、必要に応じて再計算を行う&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公表&lt;/strong&gt;…「社内グラフィックチームによる可視化」「フリーツールによる可視化」「そのまま公表」「読み物コンテンツ」などの手段による公表&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://simonrogers.net/2013/01/27/a-data-journalism-workflow/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;オリジナルの初稿は2013年に公開された&lt;/a&gt;もので、かなり初期の提唱であることがわかります。図化はご本人ではなく、Mark McCormickさんが担当しました。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>全飛行機の飛行情報からスパイ機を特定したBuzzFeedのデータジャーナリズム</title>
+        <link>https://example.com/buzzfeed-spyfly/</link>
+        <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/buzzfeed-spyfly/</guid>
+        <description>&lt;img src="https://example.com/buzzfeed-spyfly/images/BuzzFeed_SpyFly.png" alt="Featured image of post 全飛行機の飛行情報からスパイ機を特定したBuzzFeedのデータジャーナリズム" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BuzzFeed Newsが報じた2016年の記事&lt;/a&gt;で、アメリカ連邦政府機関のFBIやDHSが、スパイ目的で飛行させていた約200機の連邦航空機の機種を特定し、飛行追跡ウェブサイトFlightradar24が収集している航空機の位置情報データから、対象機種のみを絞り込み、地図に可視化してみたところ、スパイ飛行している機体の飛行パターンがはっきりわかったと報じました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.buzzfeed.com/buzzfeed-static/static/2016-04/6/10/enhanced/webdr02/longform-original-26260-1459952095-7.jpg?downsize=800:*&amp;amp;output-format=auto&amp;amp;output-quality=auto&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;左の画像は容疑者の後を追っていると思われる飛行機、右の画像は旋回を繰り返しているところ。&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&lt;/a&gt; より引用。&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;特徴としては、以下があげられるとのこと。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;（週末を除く）平日のみ、数十機の米政府専用機がアメリカの都市の上空をゆっくりと旋回している。&lt;/li&gt;
+&lt;li&gt;ほとんどの飛行機は小型で、地上1マイル（1.6km）ほどの高さを飛行しており、多くの飛行機はエンジンの音を消すために排気マフラーを使用しているため、スパイをしていることはわかりづらい。&lt;/li&gt;
+&lt;li&gt;FBIとDHS（国土安全保障省）の捜査官が操縦するこの飛行機には、高解像度のビデオカメラが搭載され、多くの場合「拡張現実」ソフトウェアを使って、通りや会社名から個人の家の所有者まで、あらゆるものを映像に重ね合わせることができた。&lt;/li&gt;
+&lt;li&gt;少なくとも数機の飛行機には、下にいる人の携帯電話を追跡できる装置が搭載されていた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば2015年12月にカリフォルニア州サンバーナーディーノで起きた大量銃乱射事件。それまでそのエリアで飛行機が周回することはなかったのですが、テロ事件の後、90分以内に、2機の飛行機（1機はFBIのセスナ機、もう1機はDHSの偵察機）が現場を旋回していました。&lt;/p&gt;
+&lt;p&gt;FBIはBuzzFeed Newsの取材に対して、人種、民族、宗教に基づいて捜査を開始することは出来ないと語ったが、飛行機の飛行パターンをみていると、犯罪容疑者個人ではなく、特定宗教の人口が多い他の地域の上空を旋回する機体もあったことがわかりました。&lt;/p&gt;
+&lt;p&gt;それらの航路を地図上に示し、旋回の様子が明らかになりました。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/buzzfeed-spyfly/images/BuzzFeed_SpyFly.png&#34;
+	width=&#34;1415&#34;
+	height=&#34;881&#34;
+	srcset=&#34;https://example.com/buzzfeed-spyfly/images/BuzzFeed_SpyFly_huabcc9b8825a269eb02ccb95402374645_2271928_480x0_resize_box_3.png 480w, https://example.com/buzzfeed-spyfly/images/BuzzFeed_SpyFly_huabcc9b8825a269eb02ccb95402374645_2271928_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;385px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&lt;/a&gt; より引用。&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;機種が不明なスパイ機をランダムウォークで特定&#34;&gt;機種が不明なスパイ機をランダムウォークで特定
+&lt;/h3&gt;&lt;p&gt;調査報道はこれだけでは終わらない。&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/hidden-spy-planes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;後追い記事も公開しています&lt;/a&gt;。そこでは既知のスパイ機だけでなく、正体を隠すために架空の会社に登録していた飛行機があることもわかったため、既知の飛行何千もの飛行パターンを用意。飛行特性を記述するために、旋回率、飛行した速度と高度、各飛行経路の周りに描かれた長方形の面積、飛行の持続時間、航空機メーカーや機種、航空機のトランスポンダから発せられる4桁のscoawkコードの情報までを用意しました。&lt;/p&gt;
+&lt;p&gt;「ランダムフォレスト」と呼ばれるアルゴリズムを用いて、これまでに同定された「100機近くのFBIとDHSの飛行機」と「500機の無作為に選ばれた飛行機」の2つのグループの特徴を区別するため、モデルのトレーニングを行いました。そのモデルを使って、全ての飛行機を評価し、各飛行機がFBIとDHSによって飛行された飛行機と一致する確率を算出したとのことです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.buzzfeed.com/buzzfeed-static/static/2017-07/29/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-2347-1501342449-1.png?downsize=800:*&amp;amp;output-format=auto&amp;amp;output-quality=auto&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/hidden-spy-planes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.buzzfeednews.com/article/peteraldhous/hidden-spy-planes&lt;/a&gt; より引用。&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/hidden-spy-planes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;リンク先の記事&lt;/a&gt;に、そこでわかった中で最も興味をそそられる5つの事例が紹介されています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>パナマ文書におけるデータの構造化</title>
+        <link>https://example.com/panama-papers-wrangling/</link>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/panama-papers-wrangling/</guid>
+        <description>&lt;img src="https://example.com/panama-papers-wrangling/images/160403-overview-01-2-1280x640.jpg" alt="Featured image of post パナマ文書におけるデータの構造化" /&gt;&lt;p&gt;数年前、モサック・フォンセカというパナマの法律事務所から大量の機密文書が流出しました。タックスヘイブンなどでの企業設立支援を扱う法律事務所として有名だったことから調査報道に値するのではないかと「国際調査報道ジャーナリスト連合」（ICIJ）が流出文書を元に調査を主導、データのラングリングを行い、世界中100の報道機関の記者とコラボレーションを行いました。いわゆる「&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/investigations/panama-papers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;パナマ文書&lt;/a&gt;」として知られている調査報道です。&lt;/p&gt;
+&lt;p&gt;流出文書の全体的なファイルは、モサック・フォンセカが1977年から2015年の長い間に渡って作成・収集したほぼすべての文書、合計ファイルとしては2.6テラバイト、1,150万ファイル。ファイルの種類も多様で、スプレッドシート、電子メール、PDFからもはや使用されていない曖昧で古いフォーマットまで存在したとのこと。&lt;/p&gt;
+&lt;p&gt;データ量がビッグデータとも呼べるサイズで、構造やつながりを維持していない。この状態から如何に、調査報道を記者が行ったり、一般人が気軽にブラウズできる状態を作り上げたのでしょうか。&lt;/p&gt;
+&lt;p&gt;ICIJのメンバーでデータユニットのリーダーである&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/blog/2016/04/data-tech-team-icij/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mar Cabraがインタビューに応えて&lt;/a&gt;明らかにしています。&lt;/p&gt;
+&lt;p&gt;モサック・フォンセカから流出した文書は、構造やつながりを維持しておらず、リバースエンジニアリングを行っていったとのこと。まずはOCR化、そしてデータベースに保存して検索できる状態にし、さらには関係のあるドキュメント同士を接続していきました。その作業にはオープンソースが役に立ったとのことです。&lt;/p&gt;
+&lt;p&gt;OCRといった文書処理にはApache TikaとTesseractを使用。データベース化する際のインデックス作成にはApache Solrを用い、そのユーザーインターフェイスとしてProject Blacklightを採用しました。ここまですべてオープンソース・ソフトウェア。&lt;/p&gt;
+&lt;p&gt;つながりを示すために、グラフデータ化したほうがよいだろうということで、SQLデータベースからETLソフトウェアTalendを用いて、Nep4Jデータベースへと変換し、データ可視化のために&lt;a class=&#34;link&#34; href=&#34;https://linkurio.us/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linkurious&lt;/a&gt;という商用サービスを用いました。これを使うとグラフ構造のデータを、グラフ構造として表示することが可能になります。Linkuriousにはウィジェット機能が組み込まれているので、インタラクティブな状態でレポートへ組み込むことも出来ました。&lt;/p&gt;
+&lt;p&gt;こうして、データベースとして公開し、これを元に世界中のジャーナリストが調査報道を行いました。 約21万5000社と1万4153人がモサック・フォンセカの顧客となっていたことが明らかになりました。政治家、経営者、著名人などがタックスヘイブンを利用していることが明らかになり、アイスランドとパキスタンでは首相辞任。日本は439の企業や個人が明らかになり、日本の国税当局が調査を行い、所得税など総額31億円の申告漏れがあったと&lt;a class=&#34;link&#34; href=&#34;https://www.asahi.com/articles/ASK8R1T0CK8RUTIL002.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;朝日新聞が報じています&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;単にOCRかけてデータベースに投入するだけでなく、ひと手間をかけて、通常のリレーショナルデータベースからグラフデータ化を行っていることも大きなポイントで、これで個々の企業や個人だけでなく、そのつながりにも注目することが可能となります。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/panama-papers-wrangling/images/HowGunnlaugssonHidesHisSecretAssets.png&#34;
+	width=&#34;3420&#34;
+	height=&#34;2140&#34;
+	srcset=&#34;https://example.com/panama-papers-wrangling/images/HowGunnlaugssonHidesHisSecretAssets_hu66f507c01e799f7ea41981289935b2ba_360347_480x0_resize_box_3.png 480w, https://example.com/panama-papers-wrangling/images/HowGunnlaugssonHidesHisSecretAssets_hu66f507c01e799f7ea41981289935b2ba_360347_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;383px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://linkurio.us/blog/panama-papers-how-linkurious-enables-icij-to-investigate-the-massive-mossack-fonseca-leaks/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://linkurio.us/blog/how-the-icij-used-linkurious-to-reveal-the-secrets-hidden-in-the-swiss-leaks-data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://linkurio.us/blog/panama-papers-how-linkurious-enables-icij-to-investigate-the-massive-mossack-fonseca-leaks/&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://linkurio.us/blog/how-the-icij-used-linkurious-to-reveal-the-secrets-hidden-in-the-swiss-leaks-data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;より引用&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        </item>
+        <item>
+        <title>東京都公式と厚労省公式で異なる、東京都での COVID-19 死亡者数</title>
+        <link>https://example.com/covid19tokyo/</link>
+        <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/covid19tokyo/</guid>
+        <description>&lt;img src="https://example.com/covid19tokyo/images/covid19tokyo_200420.png" alt="Featured image of post 東京都公式と厚労省公式で異なる、東京都での COVID-19 死亡者数" /&gt;&lt;p&gt;このページでは、Yahoo!ニュース個人での記事のフォローアップ記事として、データをアップデートしたチャートを掲載しています。週一度程度で更新していますのであらかじめご承知おきください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20200414-00173323/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;東京都公式と厚労省公式で二倍異なる、東京都での COVID-19 死亡者数(矢崎裕一) - 個人 - Yahoo!ニュース&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;データは4月20日更新です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/covid19tokyo/images/covid19tokyo_200420.png&#34;
+	width=&#34;1002&#34;
+	height=&#34;520&#34;
+	srcset=&#34;https://example.com/covid19tokyo/images/covid19tokyo_200420_hu9fc7c3027aac83f712fac62d20e4dd30_80627_480x0_resize_box_3.png 480w, https://example.com/covid19tokyo/images/covid19tokyo_200420_hu9fc7c3027aac83f712fac62d20e4dd30_80627_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;192&#34;
+		data-flex-basis=&#34;462px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;script src=&#34;https://public.flourish.studio/resources/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>緊急の管理措置なしには、北米でコロナウイルスの圧倒的な広がりが起こってしまう、とNew York Times紙</title>
+        <link>https://example.com/nyt-corona-200320/</link>
+        <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/nyt-corona-200320/</guid>
+        <description>&lt;img src="https://example.com/nyt-corona-200320/images/nyt_colona_1.png" alt="Featured image of post 緊急の管理措置なしには、北米でコロナウイルスの圧倒的な広がりが起こってしまう、とNew York Times紙" /&gt;&lt;p&gt;北米においてもコロナウイルスが広がりをみせています。&lt;/p&gt;
+&lt;p&gt;「コロナウイルスは、これまでの検査で示されているよりもはるかに多くの人々に感染しており、今後数ヶ月で病気や死の流れを大幅に食い止めるためには、まだ多くの症例を見ない国の一部での社会的接触を制限するための厳しい措置が必要だ」とNew York Timesの記事が伝えています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2020/03/20/us/coronavirus-model-us-outbreak.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coronavirus Could Overwhelm U.S. Without Urgent Action, Estimates Say&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;アウトブレイクがどのように広がるかについて、州による管理措置がどの程度取られるかによって、&lt;br&gt;
+・管理措置なし&lt;br&gt;
+・いくつかの管理措置&lt;br&gt;
+・厳しい管理措置&lt;br&gt;
+の3つのシナリオで、アウトブレイクの広がりを推測したチャートをNew York Timesが記事化しています。&lt;/p&gt;
+&lt;p&gt;・ニューヨークタイムズ[既知の症例のデータベース]&lt;br&gt;
+・国勢調査局の輸送データ&lt;br&gt;
+のデータを利用して、コロンビア大学の研究者が、モデル化しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/nyt-corona-200320/images/nyt_colona_2.png&#34;
+	width=&#34;932&#34;
+	height=&#34;1041&#34;
+	srcset=&#34;https://example.com/nyt-corona-200320/images/nyt_colona_2_hu0e4579359db17ccf2a6db5d368223c2a_408157_480x0_resize_box_3.png 480w, https://example.com/nyt-corona-200320/images/nyt_colona_2_hu0e4579359db17ccf2a6db5d368223c2a_408157_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;89&#34;
+		data-flex-basis=&#34;214px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;前提として、州によって発生状況や管理措置の対応が異なる、ということがあります。&lt;/p&gt;
+&lt;p&gt;ニューヨーク市、シアトル、ボストン、およびカリフォルニアの一部ではすでに大規模なアウトブレイクが発生しており、カリフォルニア州、ニューヨーク州、イリノイ州では「厳しい管理措置」を実施しています。&lt;/p&gt;
+&lt;p&gt;一方他の州では管理措置に対する抵抗もみられているとのこと。多くの企業は、依然として労働者がオフィスに来ることを要求している、としています。&lt;/p&gt;
+&lt;p&gt;（とてもむずかしい注文である）国が感染率を半分に抑えることができたとしても、今後2か月で約65万人が感染する可能性がある、としています（北米での話です）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/nyt-corona-200320/images/nyt_colona_1.png&#34;
+	width=&#34;1232&#34;
+	height=&#34;830&#34;
+	srcset=&#34;https://example.com/nyt-corona-200320/images/nyt_colona_1_hu0d0333829ae706a859f5a9764e6c9a72_603825_480x0_resize_box_3.png 480w, https://example.com/nyt-corona-200320/images/nyt_colona_1_hu0d0333829ae706a859f5a9764e6c9a72_603825_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そのことを示すために、&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2020/03/20/us/coronavirus-model-us-outbreak.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3つのシナリオで4月1日〜8月1日までの推測を地図で確認できるインタラクティブ・コンテンツが用意&lt;/a&gt;されています。&lt;/p&gt;
+&lt;h2 id=&#34;推論モデルの構築&#34;&gt;推論モデルの構築
+&lt;/h2&gt;&lt;p&gt;コロンビア大学のSen Peiさんらがモデル構築しています。以下のように述べています。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 私は高次元モデルデータ同化（M / D / A）フレームワークを採用しました。これは、新しいウイルスの伝播動態をより良く理解するために、私たちのグループが長年にわたって感染症の予測と推論に開発し使用してきた方法論です。&lt;br&gt;
+ 人間の動きのデータを使用して、数学モデルを構築し、中国の375の都市と米国の3,000を超える郡の間でSARS-CoV-2の時空間的伝播をシミュレートしました。&lt;br&gt;
+ これらのモデルは、両国で報告された発生率データに合わせて調整され、主要な疫学的パラメーターが推定されました。&lt;br&gt;
+ その後、較正されたモデルを使用して、さまざまな規模での発生の進行を予測し、潜在的な介入の効果を評価しました。&lt;br&gt;
+ また、米国の主要な疫学的パラメーターを推測し、封じ込め対策の影響をテストし、インフルエンザ様疾患をリアルタイムで予測するために、米国CDCが率いる共同作業に参加しました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://%20http//www.columbia.edu/~sp3449/covid-19.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sen Pei | Research&lt;/a&gt; （翻訳は筆者）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;  New York Timesと共同で、米国でのSARS-CoV-2の広がりのシミュレーションに取り組んでいます。&lt;br&gt;
+  私は、米国本土でのCOVID-19発生の広がりと成長をシミュレートするために、郡レベルのスケールで適用されるメタポピュレーションモデルを開発しました。&lt;br&gt;
+  このモデルでは、2種類の動作-毎日の通勤とランダムな動作が考慮されました。&lt;br&gt;
+  昼間と夜間の伝送プロセスは別々にモデル化されました。&lt;br&gt;
+  私たちの予備的な結果は、通勤や場所間の移動の減少よりも、社会的距離が確認された症例の広がりと増加を大幅に遅らせることを示しています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://%20http//www.columbia.edu/~sp3449/covid-19.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sen Pei | Research&lt;/a&gt; （翻訳は筆者）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;関連するコードやデータは&lt;a class=&#34;link&#34; href=&#34;https://github.com/SenPei-CU/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;にあがっています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）</title>
+        <link>https://example.com/storytelling-edwardsiegel/</link>
+        <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/storytelling-edwardsiegel/</guid>
+        <description>&lt;img src="https://example.com/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png" alt="Featured image of post データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）" /&gt;&lt;p&gt;データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。そして、様々な切り口が登場しながらもそれらの関連付けがやや複雑かつ曖昧ですので、分類の枠組みとして参考にする程度がよいでしょう。引用する図版はすべて下記リンク先の論文からのものです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この体系化は大きくわけて3つ、（1）ジャンル（Genre）（2）「視覚的な物語」の戦術（Visual Narrative）、（3）「物語構造」の戦術（Narrative Structure）の機能区分（切り口）から成り立っています。&lt;/p&gt;
+&lt;h3 id=&#34;1ジャンル&#34;&gt;(1)ジャンル
+&lt;/h3&gt;&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png&#34;
+	width=&#34;1100&#34;
+	height=&#34;496&#34;
+	srcset=&#34;https://example.com/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization_hu2de2eb8f9013d3d86b6f4212fc585413_277817_480x0_resize_box_3.png 480w, https://example.com/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization_hu2de2eb8f9013d3d86b6f4212fc585413_277817_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;221&#34;
+		data-flex-basis=&#34;532px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;物語可視化のジャンル&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;視覚的な物語タイプを分類したもので、主に（a）フレームの数（時間および/または空間で多重化された個別の視覚シーン）の数、（b）視覚要素の順序、がジャンルごとに異なる、としています。また排他的ではない（一つの作品が複数のジャンルに該当することもある）とのこと。&lt;/p&gt;
+&lt;h3 id=&#34;2視覚的な物語の戦術visual-narrative&#34;&gt;(2)「視覚的な物語」の戦術（Visual Narrative）
+&lt;/h3&gt;&lt;p&gt;物語を支援し促進する視覚デバイスを特定します。&lt;/p&gt;
+&lt;h4 id=&#34;視覚的構造化visual-structuring&#34;&gt;視覚的構造化（Visual Structuring）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Establishing Shot / Splash Screen&lt;/li&gt;
+&lt;li&gt;Consistent Visual Platform&lt;/li&gt;
+&lt;li&gt;Progress Bar / Time bar&lt;/li&gt;
+&lt;li&gt;“Checklist” Progress Tracker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;強調表示highlighting&#34;&gt;強調表示（Highlighting）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Close-Ups&lt;/li&gt;
+&lt;li&gt;Feature Distinction&lt;/li&gt;
+&lt;li&gt;Character Direction&lt;/li&gt;
+&lt;li&gt;Motion&lt;/li&gt;
+&lt;li&gt;Audio&lt;/li&gt;
+&lt;li&gt;Zooming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;トランジションのガイダンスtransition-guidance&#34;&gt;トランジションのガイダンス（Transition Guidance）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Familiar Objects (but still cuts)&lt;/li&gt;
+&lt;li&gt;Viewing Angle&lt;/li&gt;
+&lt;li&gt;Viewer (Camera) Motion Continuity Editing&lt;/li&gt;
+&lt;li&gt;Object Continuity&lt;/li&gt;
+&lt;li&gt;Animated Transitions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3物語構造の戦術narrative-structure&#34;&gt;（3）「物語構造」の戦術（Narrative Structure）
+&lt;/h3&gt;&lt;p&gt;物語を支援や促進する非視覚的なメカニズムを特定しています。&lt;/p&gt;
+&lt;h4 id=&#34;順序付けordering&#34;&gt;順序付け（Ordering）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Random Access&lt;/li&gt;
+&lt;li&gt;User Directed Path&lt;/li&gt;
+&lt;li&gt;Linear&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;対話性interactivity&#34;&gt;対話性（Interactivity）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Hover Highlighting / Details&lt;/li&gt;
+&lt;li&gt;Filtering / Selection / Search&lt;/li&gt;
+&lt;li&gt;Navigation Buttons&lt;/li&gt;
+&lt;li&gt;Very Limited Interactivity&lt;/li&gt;
+&lt;li&gt;Explicit Instruction&lt;/li&gt;
+&lt;li&gt;Tacit Tutorial&lt;/li&gt;
+&lt;li&gt;Stimulating Default Views&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;メッセージングmessaging&#34;&gt;メッセージング（Messaging）
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Captions / Headlines&lt;/li&gt;
+&lt;li&gt;Annotations&lt;/li&gt;
+&lt;li&gt;Accompanying Article&lt;/li&gt;
+&lt;li&gt;Multi-Messaging&lt;/li&gt;
+&lt;li&gt;Comment Repitition&lt;/li&gt;
+&lt;li&gt;Introductory Text&lt;/li&gt;
+&lt;li&gt;Summary / Synthesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;以上の体系化を元に分析&#34;&gt;以上の体系化を元に分析
+&lt;/h3&gt;&lt;p&gt;オンラインジャーナリズム（71％）、ビジネス（20％）、および視覚化調査（9％）から収集された58の例を元に分析したものが以下のチャートです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/storytelling-edwardsiegel/images/Design_space_analysis_of_narrative_visualization.png&#34;
+	width=&#34;1650&#34;
+	height=&#34;1275&#34;
+	srcset=&#34;https://example.com/storytelling-edwardsiegel/images/Design_space_analysis_of_narrative_visualization_huedff838e968c9598f886b410afa2fe2b_378551_480x0_resize_box_3.png 480w, https://example.com/storytelling-edwardsiegel/images/Design_space_analysis_of_narrative_visualization_huedff838e968c9598f886b410afa2fe2b_378551_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;現在足りていない要素は&#34;&gt;現在足りていない要素は？
+&lt;/h4&gt;&lt;p&gt;その上で論文では、2010年現在での作品において、不足しているデータストーリーテリングの要素を特定しています。最初の図版の（1）〜（４）の赤い矩形の箇所になります。&lt;/p&gt;
+&lt;p&gt;  （1）は、視覚ナレーションの異なるジャンルに対応する順序付け戦略のクラスターを示しています。&lt;/p&gt;
+&lt;p&gt;  （2）は、視覚化で使用されるインタラクティブなデザインの一貫性を強調しています。&lt;/p&gt;
+&lt;p&gt;  （3）は、ユーザーが対話型機能に関与するための戦略が十分に活用されていないことを示しています。&lt;/p&gt;
+&lt;p&gt;  （4）は、物語の視覚化における一般的なストーリーテリングテクニックの活用不足を示しています。&lt;/p&gt;
+&lt;h3 id=&#34;作者ドリブン-vs-読者ドリブン&#34;&gt;作者ドリブン vs 読者ドリブン
+&lt;/h3&gt;&lt;p&gt;さきほどの体系化を受けて、作者ドリブン vs 読者ドリブンという切り口も提示されています。&lt;/p&gt;
+&lt;h4 id=&#34;作者ドリブン&#34;&gt;作者ドリブン
+&lt;/h4&gt;&lt;p&gt;視覚化を厳密に直線的に進め、メッセージングに大きく依存し、インタラクティブ性は含まれません。&lt;br&gt;
+・例：フィルム、非インタラクティブなスライドショー&lt;br&gt;
+・タスク：ストーリーテリングまたは効率的なコミュニケーション&lt;/p&gt;
+&lt;h4 id=&#34;読者ドリブン&#34;&gt;読者ドリブン
+&lt;/h4&gt;&lt;p&gt;規定された順序や、メッセージング、高度なインタラクティブ性はありません。&lt;br&gt;
+・例：TableauやSpotfireなどの視覚分析ツール&lt;br&gt;
+・タスク：データ診断、パターン検出、仮説形成&lt;/p&gt;
+&lt;h3 id=&#34;作者読者ドリブンのどちらが優先されるかでアプローチを3つに分類&#34;&gt;作者・読者ドリブンのどちらが優先されるかで、アプローチを3つに分類
+&lt;/h3&gt;&lt;h4 id=&#34;マティーニグラス型&#34;&gt;マティーニ・グラス型
+&lt;/h4&gt;&lt;p&gt;作者主導の物語が最初に機能し、次に読者主導の対話が個別に続きます。&lt;/p&gt;
+&lt;h4 id=&#34;インタラクティブスライドショー型&#34;&gt;インタラクティブ・スライドショー型
+&lt;/h4&gt;&lt;p&gt;一般的なスライドショー形式に従いますが、各スライドの範囲内でのナレーションの中間的なインタラクションを取り入れています。作成者主導型と読者主導型のアプローチのよりバランスのとれた、物語の中期的な対話を可能にします。&lt;/p&gt;
+&lt;h4 id=&#34;ドリルダウンストーリー型&#34;&gt;ドリルダウン・ストーリー型
+&lt;/h4&gt;&lt;p&gt;読者主導のアプローチに重点を置いており、ユーザーがストーリーをいつどのように伝えるかを決定できるようにします。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ハリケーン・マリアは人災だった。Quartz、AP通信、CPIによるコラボレーティブ・ジャーナリズム</title>
+        <link>https://example.com/hurricane-maria/</link>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/hurricane-maria/</guid>
+        <description>&lt;img src="https://example.com/hurricane-maria/images/hurricanemariasdead.png" alt="Featured image of post ハリケーン・マリアは人災だった。Quartz、AP通信、CPIによるコラボレーティブ・ジャーナリズム" /&gt;&lt;p&gt;※このページは随時更新されます。&lt;/p&gt;
+&lt;p&gt;政府によるハリケーンの被害状況が現状を正しく表していないのではないかと、CPI（Puerto Rico’s Center for Investigative Journalism）、AP通信、Quartzのコラボレーションによる調査報道プロジェクト。&lt;/p&gt;
+&lt;p&gt;データジャーナリズムの観点からこのプロジェクトのイノベーティブな部分を紹介をする。&lt;/p&gt;
+&lt;p&gt;1.ツールを使用してハリケーン関連の死亡を特定し、公式統計と死亡証明書を相互参照・検証したこと。&lt;/p&gt;
+&lt;p&gt;2.データ収集プロセスの一部を自動化したこと。&lt;/p&gt;
+&lt;p&gt;3. 統計分析プログラムRを使用して、ケースを収集、クリーンアップ、重複排除して、重複のない均一な死亡記録のスプレッドシートを作成したこと。&lt;/p&gt;
+&lt;p&gt;があげられる。3について、複数のデータを参照したが、同じ人が複数カウントされている可能性があったため、機械学習による自然言語処理からのいくつかのプラクティスを参照して、同じ人である可能性が高いケースを抽出した。ただし堅実に進めるために、個別に電話インタビューを行い、それらが本当に同一人物のことなのかを確認していった、とのこと。&lt;/p&gt;
+&lt;h5 id=&#34;プロジェクト成果物サイト&#34;&gt;&lt;strong&gt;プロジェクト成果物サイト&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://hurricanemariasdead.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://hurricanemariasdead.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hurricanemariasdead.com/about.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hurricanemariasdead.com/about.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;cpiによる記事&#34;&gt;&lt;strong&gt;CPIによる記事&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://periodismoinvestigativo.com/2018/09/the-deaths-of-hurricane-maria/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://periodismoinvestigativo.com/2018/09/the-deaths-of-hurricane-maria/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;ap通信&#34;&gt;&lt;strong&gt;AP通信&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.apnews.com/HurricaneMaria%27sToll&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.apnews.com/HurricaneMaria&#39;sToll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;quartz&#34;&gt;&lt;strong&gt;Quartz&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://qz.com/1390559/how-many-people-died-in-hurricane-maria-an-investigation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qz.com/1390559/how-many-people-died-in-hurricane-maria-an-investigation/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://qz.com/1288679/a-new-survey-of-puerto-rico-death-toll-from-hurricane-maria/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qz.com/1288679/a-new-survey-of-puerto-rico-death-toll-from-hurricane-maria/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://qz.com/1395908/hurricane-maria-death-count-in-puerto-rico/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://qz.com/1395908/hurricane-maria-death-count-in-puerto-rico/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;data-journalism-awards&#34;&gt;&lt;strong&gt;Data Journalism Awards&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datajournalismawards.org/projects/hurricane-marias-dead/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.datajournalismawards.org/projects/hurricane-marias-dead/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;online-news-association-2019---creating-guidelines-for-machine-learning-in-the-newsroom---ap通信のtroy-thibodeauxが一部エピソードを語っている&#34;&gt;&lt;strong&gt;Online News Association 2019 - Creating Guidelines for Machine Learning in the Newsroom - AP通信のTroy Thibodeauxが一部エピソードを語っている。&lt;/strong&gt;
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ona19.journalists.org/sessions/23518453/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://ona19.journalists.org/sessions/23518453/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>調査報道のためのファイル探索アプリDatashare</title>
+        <link>https://example.com/datashare/</link>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/datashare/</guid>
+        <description>&lt;img src="https://example.com/datashare/images/Datashare-topimage.png" alt="Featured image of post 調査報道のためのファイル探索アプリDatashare" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://datashare.icij.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datashare&lt;/a&gt;は、非営利の国際調査ジャーナリストコンソーシアム（ICIJ）によって開発された無料のオープンソースデスクトップアプリケーションです。ジャーナリストが利用することが想定されています。&lt;/p&gt;
+&lt;p&gt;パナマペーパーやパラダイスペーパーなど、ICIJが最大のプロジェクトを実現するのに役立ったのと同じテクノロジーで構築されています。こんなことが行えるそうです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/datashare/images/Datashare-1-e1526312741180.png&#34;
+	width=&#34;621&#34;
+	height=&#34;345&#34;
+	srcset=&#34;https://example.com/datashare/images/Datashare-1-e1526312741180_hu51f536891cd232977eb6ed8b2b21df53_109256_480x0_resize_box_3.png 480w, https://example.com/datashare/images/Datashare-1-e1526312741180_hu51f536891cd232977eb6ed8b2b21df53_109256_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;432px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;潜在的なサードパーティの干渉からドキュメントを保護しながら、ローカルコンピューター上ですべてのドキュメントにワンストップにアクセスする&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ファイルからテキストを抽出&lt;/strong&gt;（現在は英語、スペイン語、フランス語、ドイツ語に対応）することによって、PDF、画像、テキスト、スプレッドシート、スライドなど様々な形式のファイルを同時に検索&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人、組織、場所ごとに自動的にタグづけ&lt;/strong&gt;し、検出およびフィルタリングが可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「ファイルからテキストを抽出」や「人、組織、場所ごとに自動的にタグづけ」するところに、様々なアルゴリズムが用いられています。&lt;/p&gt;
+&lt;p&gt;機械可読テキスト化にはApache Tikaを使用、光学文字認識にはTesseract OCRを適用し、検索エンジンにはElasticsearchを使用しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/datashare/images/Datashare-2-e1526314881742.png&#34;
+	width=&#34;619&#34;
+	height=&#34;308&#34;
+	srcset=&#34;https://example.com/datashare/images/Datashare-2-e1526314881742_hubc9564287bd9c3b1ff99b06675f69dcb_112304_480x0_resize_box_3.png 480w, https://example.com/datashare/images/Datashare-2-e1526314881742_hubc9564287bd9c3b1ff99b06675f69dcb_112304_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;482px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;また、分析のためにGoogleが制御するサーバーなどのサードパーティのプラットフォームにデータを送信しません。そうではなく、ICIJのナレッジセンターでホストしている以前のICIJ調査（パナマペーパーやパラダイスペーパーなど）からのすべての漏洩データとも接続できるとのことです。&lt;/p&gt;
+&lt;p&gt;Datashare開発者のJulien Martinさんは、「Datashareは作業の重複を回避するだけでなく、新しい探検の道を開き、多様な思考を促し、セキュリティとプライバシーを改善して、選択したジャーナリストが24時間年中無休で情報を入手できるようにします。」と述べています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datashare.icij.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://datashare.icij.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://icij.gitbook.io/datashare/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://icij.gitbook.io/datashare/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ICIJ/datashare&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ICIJ/datashare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ted on Visualizing.JP</title>
+        <link>https://example.com/tags/ted/</link>
+        <description>Recent content in ted on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/ted/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>人が言葉を覚えるとき</title>
+        <link>https://example.com/ted-birth-of-word/</link>
+        <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/ted-birth-of-word/</guid>
+        <description>&lt;img src="https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2.png" alt="Featured image of post 人が言葉を覚えるとき" /&gt;&lt;p&gt;MITの研究者デブ・ロイさんが研究として、人が生まれてから、言語を獲得していく様子をすべて動画として記録し、あとで分析できたらどんなことがわかるか。&lt;/p&gt;
+&lt;p&gt;ビッグデータの性質の一つ、リアルタイムに近い記録タイミングでデータを保存しつづけるため、結果テラバイトなどの膨大なデータ量になる、全量データの取得という方法論があります。&lt;/p&gt;
+&lt;p&gt;人の行動記録を全記録することでそこから新しい事実がわかるのか。時系列の生データから、こどもの言語習得の過程を分析的に把握することができるか。&lt;/p&gt;
+&lt;p&gt;TEDでその結果を発表しています。&lt;/p&gt;
+&lt;p&gt;自分の子供が生まれたタイミングで、自宅のすべての部屋の天井にカメラとマイクを設置。赤ちゃんがどうやって言語を習得するのか解明すべく、その記録は3年間に及び、9万時間の映像、14万時間の音声、ファイルサイズは200テラバイトにもなったとのことです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4.png&#34;
+	width=&#34;1798&#34;
+	height=&#34;1018&#34;
+	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;423px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;たとえば「ウォーター」（水）と最初は発話できず、「ガガ」としか言えないのが、正確な発音の「ウォーター」になるまでの半年間の言葉の変化の軌跡を、連続的に把握することが可能になりました。また習得には一緒にいることが大きくかかわっていたとのこと。緑色が大人の動線で、赤色が子供の動線です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5.png&#34;
+	width=&#34;1802&#34;
+	height=&#34;1017&#34;
+	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;425px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ウォーターをはじめ、最初の二年で覚えた単語を、覚えた順に並べてみたそうです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3.png&#34;
+	width=&#34;1907&#34;
+	height=&#34;1069&#34;
+	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;428px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;すべての単語に言える話として、そこにいた大人が三人とも、子供が話せるようになるまではできるだけシンプルな言葉使いをし、子供が話せた瞬間から、無意識的に大人が使うような複雑な言い回しに戻ってたということがわかったそうです。つまり、子供の話し方自体が周りの人へも影響を与え、子供が言葉を話せるようになるフィードバックループをいつのまにか作り上げていた、と。&lt;/p&gt;
+&lt;p&gt;この三年間で、子供が「ウォーター」と発音した回数を、自宅空間にプロットしてみると、やはりですが台所であることが多かったり、玄関で「バイ」が多かったようです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2.png&#34;
+	width=&#34;1904&#34;
+	height=&#34;1068&#34;
+	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;427px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

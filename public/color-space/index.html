@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。 カラースペー">
+<title>データ可視化にとって最適なカラースペースは？</title>
+
+<link rel='canonical' href='https://example.com/color-space/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="データ可視化にとって最適なカラースペースは？">
+<meta property='og:description' content="データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。 カラースペー">
+<meta property='og:url' content='https://example.com/color-space/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='color' /><meta property='article:published_time' content='2018-06-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2018-06-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/color-space/images/fi_ColorSpace.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="データ可視化にとって最適なカラースペースは？">
+<meta name="twitter:description" content="データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。 カラースペー"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/color-space/images/fi_ColorSpace.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#カラースペースとは">カラースペースとは？</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#rgbとは">RGBとは</a></li>
+            <li><a href="#cmykとは">CMYKとは</a></li>
+            <li><a href="#rgbやcmykは実はデザインやカラーパレット生成には向いていない">RGBやCMYKは実はデザインやカラーパレット生成には向いていない？</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#そこで登場するhsb">そこで登場するHSB</a>
+      <ol>
+        <li>
+          <ol>
+            <li><a href="#hsbとは">HSBとは？</a></li>
+            <li><a href="#データ構造と一致させやすいhsb">データ構造と一致させやすいHSB</a></li>
+            <li><a href="#主なosやアプリにおける利用可能なカラースペース">主なOSやアプリにおける利用可能なカラースペース</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#しかしファイナルアンサーではないhsb">しかしファイナルアンサーではないHSB</a></li>
+    <li><a href="#人の眼の色認知能力に近いカラースペース-lab">人の眼の色認知能力に近いカラースペース L*A*B*</a></li>
+    <li><a href="#では実際にどうするか">では実際にどうするか?</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/color-space/">
+                <img src="/color-space/images/fi_ColorSpace_hu27d8087ab29cda81ae22cccfe96704e3_41186_800x0_resize_box_3.png"
+                        srcset="/color-space/images/fi_ColorSpace_hu27d8087ab29cda81ae22cccfe96704e3_41186_800x0_resize_box_3.png 800w, /color-space/images/fi_ColorSpace_hu27d8087ab29cda81ae22cccfe96704e3_41186_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post データ可視化にとって最適なカラースペースは？" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/color-space/">データ可視化にとって最適なカラースペースは？</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jun 23, 2018</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。</p>
+<h2 id="カラースペースとは">カラースペースとは？
+</h2><p>事務のお仕事でWordを使っている人や、デザインのお仕事でPhotoshopを使っている人は、色を指定する際に、RGBやCMYKという文字をみかけていると思います。これはカラースペースとよばれる、一つの色を指定するための、色をつくる方法です。</p>
+<p><img src="/color-space/images/osx_Word_large.png"
+	width="298"
+	height="480"
+	srcset="/color-space/images/osx_Word_large_hu64bf536f1dd3dc9e9f84f8122d11f665_36423_480x0_resize_box_3.png 480w, /color-space/images/osx_Word_large_hu64bf536f1dd3dc9e9f84f8122d11f665_36423_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="62"
+		data-flex-basis="149px"
+	
+></p>
+<h4 id="rgbとは">RGBとは
+</h4><p><img src="/color-space/images/space_RGB_large.png"
+	width="480"
+	height="356"
+	srcset="/color-space/images/space_RGB_large_huf40505cf2a2746c697db9931813f9489_15880_480x0_resize_box_3.png 480w, /color-space/images/space_RGB_large_huf40505cf2a2746c697db9931813f9489_15880_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="134"
+		data-flex-basis="323px"
+	
+></p>
+<p>Red（赤）、Green（緑）、Blue（青）を混ぜることによって、一色の色をつくる方法です。液晶ディスプレーにおいて色を発色する仕組みとして採用されています。出力の強さが3つともゼロであれば真っ黒、出力が最大になると真っ白になるような、色の作られ方です。</p>
+<h4 id="cmykとは">CMYKとは
+</h4><p><img src="/color-space/images/space_CMYK_large.png"
+	width="480"
+	height="356"
+	srcset="/color-space/images/space_CMYK_large_hu6d1b8ba862c3812ee5b0ed91f686b4be_18355_480x0_resize_box_3.png 480w, /color-space/images/space_CMYK_large_hu6d1b8ba862c3812ee5b0ed91f686b4be_18355_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="134"
+		data-flex-basis="323px"
+	
+></p>
+<p>Cyan（シアン）、Magenta（マゼンダ）、Yellow（黄）Black（黒）を混ぜることによって、一色の色をつくる方法です。印刷物において色を発色する仕組みとして採用されています。インクの量がゼロであれば真っ白（白い紙の色のまま）、4つのインク量が最大になると真っ黒になるような、色の作られ方です。</p>
+<h4 id="rgbやcmykは実はデザインやカラーパレット生成には向いていない">RGBやCMYKは実はデザインやカラーパレット生成には向いていない？
+</h4><p>光の三原色がRGBであること、その補色でCMY（+K）があり、色を人工的に再現する方法として、ディスプレイや印刷物において色を表現する仕組みとして採用されています。最終的にディスプレイや印刷物で色を表現するためには、これらを用いて指定することになります。</p>
+<p>ところが、たとえば複数の色の組み合わせ（カラーパレット、カラースキームなどと呼ばれます）をどう選択すべきか、特に、あるデータ・セットの特性にあわせて選択する際に、RGBやCMYによってカラーパレットを生成するのは非常に困難です。なぜならRGBにしてもCMYにしても、すべてが色相（色の区別そのもの）を表す軸だからです。頭の中でこれらの複数の色の組み合わせによる新たな一色の創出は困難ですし、覚えたり慣れたりしたとしてもデータの特性に合わせて生成するのは困難だといえます。ではどのような指定が最適なのでしょうか?</p>
+<h2 id="そこで登場するhsb">そこで登場するHSB
+</h2><h4 id="hsbとは">HSBとは？
+</h4><p><img src="/color-space/images/OSX_ColorPalette_large.png"
+	width="423"
+	height="365"
+	srcset="/color-space/images/OSX_ColorPalette_large_hufa417cea4d67e900671fd290b803f3e9_19320_480x0_resize_box_3.png 480w, /color-space/images/OSX_ColorPalette_large_hufa417cea4d67e900671fd290b803f3e9_19320_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="115"
+		data-flex-basis="278px"
+	
+></p>
+<p>Hue（色相）、Saturation（彩度）、Blightness（明度）の3つの要素から一つの色をつくることができるカラースペースです。色相は色の区別そのもの、彩度は飽和度や純度ともよばれるのですが色の鮮やかさのこと、明度は明暗を表します。この3つの数値変化によって、一つの色を表します（HSBと似たカラースペースにHSVというのもあります）。</p>
+<h4 id="データ構造と一致させやすいhsb">データ構造と一致させやすいHSB
+</h4><p>ある文字データを色で表す際に、どういうふうに色でどう表せばよいでしょうか。具体的には、名義スケールや順序スケールとよばれる、たとえばAとBは異なるんだよ、ということを表します。そのためには区別する必要がありながら、存在感の強弱は揃っていてほしいです、と。この場合には、彩度と明度は揃えておきながら、色相のみを変化させることによって複数の色を生み出せばよさそうです。</p>
+<p><img src="/color-space/images/color_large.png"
+	width="440"
+	height="200"
+	srcset="/color-space/images/color_large_hu4dcd91f2b9fe76387fc47abcd3759b8e_1004_480x0_resize_box_3.png 480w, /color-space/images/color_large_hu4dcd91f2b9fe76387fc47abcd3759b8e_1004_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="220"
+		data-flex-basis="528px"
+	
+></p>
+<p>ある数値データが0〜10000の幅で存在するときに、この変化を色でどう表せばよいでしょうか。具体的には間隔スケールや比例スケールと呼ばれる数字のデータで、存在自体を区別する必要はなく、ただ数値の大きさや差が区別できればよいので、この場合は色相は固定で、明度の変化によって、数値を表現すればよいということになります。この場合は彩度も固定にしておきます。</p>
+<p><img src="/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large.png"
+	width="440"
+	height="200"
+	srcset="/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu11742f10b6697cbd00e8dd0519725bf7_1038_480x0_resize_box_3.png 480w, /color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu11742f10b6697cbd00e8dd0519725bf7_1038_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="220"
+		data-flex-basis="528px"
+	
+></p>
+<p>そしてHSBなら、主なOSで標準的に利用でき、代表的なグラフィックアプリでも利用可能です。</p>
+<h4 id="主なosやアプリにおける利用可能なカラースペース">主なOSやアプリにおける利用可能なカラースペース
+</h4><ul>
+<li>アドビ社Photoshop&hellip;RGB、CMYK、HSB、Lab</li>
+<li>アドビ社Illustrator&hellip;RGB、CMYK、HSB</li>
+<li>Sketch&hellip;RGB、HSB</li>
+<li>Mac OSX標準&hellip;RGB、CMYK、HSB</li>
+<li>Windows OS標準&hellip;RGB、HSB</li>
+</ul>
+<h2 id="しかしファイナルアンサーではないhsb">しかしファイナルアンサーではないHSB
+</h2><p>合理的なHSBですが、実はこれがファイナルアンサーではありません。なぜなら、色によって人間の眼の感度が異なるからです。</p>
+<p><img src="/color-space/images/fig10.4_ja_grande.png"
+	width="540"
+	height="400"
+	srcset="/color-space/images/fig10.4_ja_grande_hu8cc1796796dcedbdbeef31ac0617eade_14527_480x0_resize_box_3.png 480w, /color-space/images/fig10.4_ja_grande_hu8cc1796796dcedbdbeef31ac0617eade_14527_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="135"
+		data-flex-basis="324px"
+	
+></p>
+<p>“Photopic Spectral Sensitivity Function”（Kaiser、96）</p>
+<p>&ldquo;Visualization Analysis and Design. Tamara Munzner, with illustrations by Eamonn Maguire. A K Peters Visualization Series, CRC Press, 2014.&rdquo;</p>
+<p>つまり、彩度や明度を揃えて複数の色を生成したとしても、波長によっては（緑や黄など）、人間は数値指定されて生成された色を、値よりも高感度に認識（明るく感じられる）してしまいます。</p>
+<p>ウェブデザイナーがカラーパレットをつくる際は、OSやグラフィックアプリのレベルでは、RGBかCMYKかHSBしか選択肢がないので、この辺り、おそらく目分量で調整しているのではないかと思います。私はそうやっていました。もちろん、文字色なのか広い面のベタ塗りなのか、色が使用される面積によって受ける印象や可読性は異なりますが。</p>
+<h2 id="人の眼の色認知能力に近いカラースペース-lab">人の眼の色認知能力に近いカラースペース L*A*B*
+</h2><p>今度は、人の眼の色認識能力をみてみましょう。人の眼の網膜にある二種類の受容体のうちひとつ、錐体には3つのタイプがあり、それぞれが異なる感度をもっています。輝度チャンネル、赤緑チャンネル、青黄チャンネルの3つです。この性質にあわせたカラースペースがL*a*b*です。Lが明度で、aが赤緑、bが青黄の色相です。赤緑色盲の方は赤緑チャンネル(a)の錐体の感度が生まれつき低いということになります。</p>
+<p><img src="/color-space/images/Photoshop_ColorPalette_grande.png"
+	width="600"
+	height="477"
+	srcset="/color-space/images/Photoshop_ColorPalette_grande_hubff3f6836d5839d16619afd7d753e5ed_133176_480x0_resize_box_3.png 480w, /color-space/images/Photoshop_ColorPalette_grande_hubff3f6836d5839d16619afd7d753e5ed_133176_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="125"
+		data-flex-basis="301px"
+	
+></p>
+<p>Photoshopの色選択ウインドウ</p>
+<p>L*a*b*は上記にあげた中ではPhotoshopでしか利用できないですし、明度に加えて色相が2軸ですので、直感的に色は選びづらいことには、かわりありません。</p>
+<h2 id="では実際にどうするか">では実際にどうするか?
+</h2><p>では、「HSBに代表されるような、データの性質と一致させやすい合理的な色選択システム」と「人の眼の網膜の性質」のギャップをどう埋めるのか、そしてデータの特性にあったカラースキームをどのように作ったらいいのか。後者については、いわゆるプレゼンテーション用以外にも、データを探索的・分析的にみるためのカラースキームの作り方、という考え方もあります。</p>
+<p>ここから先はぜひ「データビジュアライゼーション講習」を受講し、学んでください。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/color/">color</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/excel-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/excel-reverse-pivot/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Excelでのピボットテーブルの解除"
+                        data-key="excel-reverse-pivot" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Excelでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/openrefine-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/openrefine-reverse-pivot/images/image_3hours_refine.806918503329ac41f761810df4cac25f_hu2d5e71f363e58e9875ed24d2e909b0d1_48965_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenRefineでのピボットテーブルの解除"
+                        data-key="openrefine-reverse-pivot" 
+                        data-hash="md5-gGkYUDMprEH3YYEN9MrCXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">OpenRefineでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-gl-js-v2/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-gl-js-v2/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ"
+                        data-key="mapbox-gl-js-v2" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/focus-context/">
+        
+        
+            <div class="article-image">
+                <img src="/focus-context/images/image-35.b2c526c985c3fdc8814e16623a741eb6_hua81f20bb85ab37122ff5211396e483c8_3549478_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Focus&#43;Contextの実例"
+                        data-key="focus-context" 
+                        data-hash="md5-ssUmyYXD/ciBThZiOnQetg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Focus&#43;Contextの実例</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/visual-analytics-interaction/">
+        
+        
+            <div class="article-image">
+                <img src="/visual-analytics-interaction/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理"
+                        data-key="visual-analytics-interaction" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ビジュアル・アナリシスにおけるインタラクションの整理</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

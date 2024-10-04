@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>openvisconf on Visualizing.JP</title>
+        <link>https://example.com/tags/openvisconf/</link>
+        <description>Recent content in openvisconf on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/openvisconf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>[OpenVis Conf 2014] John Resig講演</title>
+        <link>https://example.com/openvisconf-2014-johnresig/</link>
+        <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/openvisconf-2014-johnresig/</guid>
+        <description>&lt;img src="https://example.com/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
+&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Part 2: Keynote Day 2&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-john-resig-_analyzing-art-data-for-fun-and-profit_&#34;&gt;2. John Resig: &lt;em&gt;Analyzing Art Data for Fun and Profit&lt;/em&gt;
+&lt;/h2&gt;&lt;p&gt;二日目のキーノートスピーカーは言わずと知れた著名ライブラリjQueryの作者、John Resigでした。彼はJavaScript関連の本を何冊も執筆している有名なJavaScriptハッカーですが、他方、非常に熱心な日本文化、特に浮世絵のファンとしての一面も持っています。彼のキーノートは、まさにその両面が融合された非常に興味深いものでした。&lt;/p&gt;
+&lt;h3 id=&#34;講演の様子youtubeへのリンク&#34;&gt;講演の様子（YouTubeへのリンク）
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=u2pZ_OVRzVc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;John Resig - Analyzing Art Data for Fun and Profit&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/u2pZ_OVRzVc&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;日本文化と浮世絵&#34;&gt;日本文化と浮世絵
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日本の絵画について。私（Resig)は日本絵画の大ファンであり、文化についても個人的に研究している&lt;/li&gt;
+&lt;li&gt;日本の絵画と文化的背景の紹介&lt;/li&gt;
+&lt;li&gt;スライドを使って日本の有名な絵画について説明。日本人には馴染みの深いものばかり
+&lt;ul&gt;
+&lt;li&gt;葛飾北斎　「富嶽三十六景　神奈川沖浪裏」&lt;/li&gt;
+&lt;li&gt;江戸時代の地図&lt;/li&gt;
+&lt;li&gt;浮世絵(&lt;em&gt;Pictures of the floating world&lt;/em&gt;, or Ukiyo-e)の紹介&lt;/li&gt;
+&lt;li&gt;各種美人画&lt;/li&gt;
+&lt;li&gt;当時の文化的背景の紹介&lt;/li&gt;
+&lt;li&gt;参勤交代&lt;/li&gt;
+&lt;li&gt;歌舞伎
+&lt;ul&gt;
+&lt;li&gt;当時の社会での歌舞伎の人気。&lt;/li&gt;
+&lt;li&gt;スポーツイベントと演劇の融合のようなもの。(屋号を観客が叫ぶ辺りをスポーツイベント的と捉えているようだ)&lt;/li&gt;
+&lt;li&gt;女形の概念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;神話の世界&lt;/li&gt;
+&lt;li&gt;歌川国芳の紹介
+&lt;ul&gt;
+&lt;li&gt;擬人化の歴史
+&lt;ul&gt;
+&lt;li&gt;国芳による猫の侍　(1840年代)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;だまし絵。有名な人間で人間の顔を描いた浮世絵
+&lt;ul&gt;
+&lt;li&gt;そこに描かれるナマズの絵。これは日本においての地震のメタファー&lt;/li&gt;
+&lt;li&gt;つまりこれは震災で死んだ人々を描いたもの&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;どのように日本絵画を学んだか
+&lt;ul&gt;
+&lt;li&gt;日本絵画に関する英語の専門書を読む&lt;/li&gt;
+&lt;li&gt;日本語の学習。江戸時代における古語も。&lt;/li&gt;
+&lt;li&gt;古い書（毛筆文）を学ぶ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;コメント&#34;&gt;コメント
+&lt;/h4&gt;&lt;p&gt;日本人である私よりも、遥かに江戸文化に理解があるようでした。趣味とは言え凄いことです。そして同時に海外で暮らす人間として、自国文化への知識の欠如は恥ずかしいことだとも改めて認識しました。自国文化におけるaestheticsに対して自分なりの考えと理解を持つことは、英語よりもずっと大切です。印象派絵画と浮世絵の関係などは、欧米人あたりが良く興味を持って聞いてくるトピックですし。&lt;/p&gt;
+&lt;h3 id=&#34;浮世絵のデータベース&#34;&gt;浮世絵のデータベース
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;425&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;389px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;このような趣味が高じて浮世絵のデータベースを作ることにした。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://ukiyo-e.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ukiyo-e Search&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;世界中のデータベースや美術館のサイトから集めた浮世絵のデータベース&lt;/li&gt;
+&lt;li&gt;検索は英日対応。自力で翻訳したらしい（日本からのユーザーも多い）&lt;/li&gt;
+&lt;li&gt;この部分の実装は、Node.jsの国際化モジュールを使った
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/i18n-node-2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;i18n-node-2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;デプロイは&lt;a class=&#34;link&#34; href=&#34;http://aws.amazon.com/cloudfront/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Amazon Cloudfront&lt;/a&gt;を利用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;版画のデータ収集&#34;&gt;版画のデータ収集
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;これはかなり困難な作業だった。Machine-friendlyなAPIを公開しているようなところは少ない&lt;/li&gt;
+&lt;li&gt;基本的にはクローリング&amp;amp;スクレイピング&lt;/li&gt;
+&lt;li&gt;大学や美術館のデータベースは必ずしもベストではない。検索もあまり使い勝手が良くなかった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;実際の作業&#34;&gt;実際の作業
+&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;412&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;167&#34;
+		data-flex-basis=&#34;401px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://phantomjs.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PhantomJS&lt;/a&gt;を利用して美術館、大学、研究機関などのサイトをクローリング&lt;/li&gt;
+&lt;li&gt;自動的にクロールして、必要な情報をデータベースに流し込むために、かなり大規模なパイプラインを構築した。&lt;/li&gt;
+&lt;li&gt;その他に使用したツール
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/jquery-imgscrubber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Image Scrubber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/stack-scraper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack Scraper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://services.tineye.com/MatchEngine&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MatchEngine&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;類似した画像を検索するツール&lt;/li&gt;
+&lt;li&gt;実際に使用してみると、元のデータにかなりの間違いが見つかった&lt;/li&gt;
+&lt;li&gt;間違いの例としては、左右逆のイメージや白黒など。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;画像の類似性サーチ&#34;&gt;画像の類似性サーチ
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;実際の版画を撮影してネットで検索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/offline-crop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;offline-crop&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-appcache-glob&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-appcache-glob&lt;/a&gt; * オフラインで処理&lt;/p&gt;
+&lt;h4 id=&#34;画像解析による版画の研究&#34;&gt;画像解析による版画の研究
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;スクレイピングで得たデータベースを検索すると、たくさんの類似した画像が見つかった。それらは別のものなのか、何か共通点があるのか？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;402&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt; * 例：　二つの良く似た浮世絵（歌舞伎役者） * メトロポリタンの画像データでサインを改変してあるものを発見した * 元々は同じもの。 * 多面的なデータ比較により、歌川国芳もののだと発見した&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例：作者不明の浮世絵 * メトロポリタン美術館では作者不明となっていた浮世絵の画像があった * しかし、画像類似検索で上がってきた他の美術館のデータにはアノテーションがあった * そしてメトロポリタンのメタデータは修正されることになった&lt;/p&gt;
+&lt;h4 id=&#34;メタデータの比較&#34;&gt;メタデータの比較
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;日本人の名前の表記の揺れを吸収してメタデータを作成するのは困難な作業。(これは日本人にとっても困難な作業なので、日本語の専門家でもない外国人である彼がこの作業を一人でやってのけたのは驚きです。)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例: 浮世絵画家の「歌川広重」を指す名前のメタデータ * 広重 * 歌川広重 * hiroshige * Hiroshige utagawa * ひろしげ&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 例：苗字の表記の揺れ * Ando, 安藤, 安東, あんどう, 安堂, etc.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * これらの揺れを統合して一つのメタデータエントリに仕上げる。 * 発音、漢字、ローマ字等のデータを統合 * JSONとしてストア * (この作業を、彼は_Artist Rectification_と呼んでいた。「アーティスト情報の整流作業」とでも訳せばよいのだろうか？)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 利用したツール群 * &lt;a class=&#34;link&#34; href=&#34;https://github.com/lovell/hepburn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hepburn&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-enamdict&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-enumdict&lt;/a&gt; * &lt;a class=&#34;link&#34; href=&#34;https://github.com/jeresig/node-ndlna&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;node-ndlna&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;メタデータ統合により作成した東洲斎写楽のエントリ例&#34;&gt;メタデータ統合により作成した東洲斎写楽のエントリ例
+&lt;/h5&gt;&lt;p&gt;&lt;code&gt;JSON:syaraku.json { &amp;quot;original&amp;quot;: &amp;quot;Sharaku Tōshūsai (東洲斎写楽)&amp;quot;, &amp;quot;locale&amp;quot;: &amp;quot;ja&amp;quot;, &amp;quot;kanji&amp;quot;: &amp;quot;東洲斎写楽&amp;quot;, &amp;quot;given&amp;quot;: &amp;quot;Sharaku&amp;quot;, &amp;quot;given_kana&amp;quot;: &amp;quot;しゃらく&amp;quot;, &amp;quot;surname&amp;quot;: &amp;quot;Tōshūsai&amp;quot;, &amp;quot;surname_kana&amp;quot;: &amp;quot;とおしゅうさい&amp;quot;, &amp;quot;surname_kanji&amp;quot;: &amp;quot;東洲斎&amp;quot;, &amp;quot;given_kanji&amp;quot;: &amp;quot;写楽&amp;quot;, &amp;quot;name&amp;quot;: &amp;quot;Tōshūsai Sharaku&amp;quot;, &amp;quot;ascii&amp;quot;: &amp;quot;Tooshuusai Sharaku&amp;quot;, &amp;quot;plain&amp;quot;: &amp;quot;Toshusai Sharaku&amp;quot;, &amp;quot;kana&amp;quot;: &amp;quot;とおしゅうさいしゃらく&amp;quot; }&lt;/code&gt;&lt;/p&gt;
+&lt;h5 id=&#34;コメント-1&#34;&gt;コメント
+&lt;/h5&gt;&lt;p&gt;多分に力技な部分もありますが、趣味でよくここまでやったなあ、というのが正直な感想です。ずいぶんと良くなってきたとは言え、様々な形で保存されている生物学関連の公共データベースのデータを統合する作業を日頃行っている身としては、色々と頷ける部分もある一方、こういう苦労が少なくなる「機械にやさしいウェブ」が世界には必要だという認識も新たにしました。最近は、天文学分野で使われる「ダークマター」と言う語をもじって、「ダークデータ」などという呼び方もあるようですが、情報としては価値があるにもかかわらず、機械からのアクセスが困難なためにネットの海の底にひっそりと眠っているこういったデータをサルベージする技術や標準化がますます必要な時代になると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;フリックコレクションとのコラボレーション&#34;&gt;フリックコレクションとのコラボレーション
+&lt;/h3&gt;&lt;p&gt;このようなデータベースを作成する過程で、世界各地の美術館とコンタクトを取り合うようになり、結果、業務としてフリック・コレクション（ニューヨークにある美術館）とコラボレーションすることになった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コレクション画像データの機械による解析&lt;/li&gt;
+&lt;li&gt;例：イタリアのルネッサンス期絵画のデータ解析
+&lt;ul&gt;
+&lt;li&gt;相同性検索で同じ絵画からの画像かどうか、膨大な数の画像を検証&lt;/li&gt;
+&lt;li&gt;結果、多数のコピー（模倣）、修復痕等を発見した
+&lt;ul&gt;
+&lt;li&gt;そっくりな画像だが細部と画家のメタデータが異なる（＝模倣）&lt;/li&gt;
+&lt;li&gt;メタデータが一致、画像もほぼ一致するが、画像のある一部分が異なっている（＝修復）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;これらを発見する技法としては、Neo4jを使ってのグラフ解析を行った
+&lt;ul&gt;
+&lt;li&gt;Cypher（Neo4j固有のグラフDB用クエリ言語）を使用&lt;/li&gt;
+&lt;li&gt;SQLでは困難な、複雑なクエリを作成&lt;/li&gt;
+&lt;li&gt;画像、メタデータをグラフ構造として表現したことにより、間違ったデータが収蔵されてるのを発見することが出来た&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * アートをハックするには？ * オークションに行くといい * プレビューの日を使うと、買うか買わないかはともかく、非常に高価なものに間近で見て触れることが出来る&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;399&#34;
+	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt; * 毎日（自分のための）コードを書くということ * &lt;a class=&#34;link&#34; href=&#34;http://ejohn.org/blog/write-code-every-day/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Write Code Every Day&lt;/a&gt; * いずれそれが仕事になることもある * &lt;a class=&#34;link&#34; href=&#34;http://ejohn.org/research/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Research&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;全体の感想&#34;&gt;全体の感想
+&lt;/h3&gt;&lt;p&gt;ハッカーに好きなことをやらせると面白いことが起こると言う好例だと思いました。世界各地に散らばる、あまり使い勝手の良くない浮世絵のデータベースから、自分で使いたいからという理由で、精度の高いメタデータベースを構築したと言う、最近のテクノロジーを人文学系の研究に適用した結果起きた良い化学反応だと思います。現在の高度に複雑化した世界では、ある分野の専門家でもちょっと専門外のことになるとまるでわからない、ということが頻繁に起きます。彼の使っているツールやアルゴリズムは、画像解析やコンピュータビジョンの研究者の間では「枯れた」ものでしょうし、グラフデータベースやNode.jsベースの各種ツールも全てオープンソース実装で手に入る一般的なものです。しかしそれらを組み合わせて、アート分野に適用した結果、美術館のキュレーターの人力だけではとてもできなかったであろう仕事が完成しています。&lt;/p&gt;
+&lt;p&gt;日本絵画に対する情熱から始まり、没頭するうちにそれが仕事の一部にもなったと言う理想的な流れですが、やはり普通の人間と違うのは、仕事の外できっちりと動くものをリリースして、メンテナンスするというモチベーションの維持でしょう。後日私が参加したEdward Tufteのレクチャーで彼が引用したこのフレーズを思い出しました。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Real artists ship&lt;/em&gt; - Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
+        <link>https://example.com/openvisconf2013-miguel/</link>
+        <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/openvisconf2013-miguel/</guid>
+        <description>&lt;img src="https://example.com/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;
+&lt;p&gt;講演での順番とはちょうど逆になりますが、話の流れがわかりやすい順番に構成します。&lt;/p&gt;
+&lt;p&gt;主にブラウザーのレンダリングの仕方が、DOM構造を残した状態なのか、そうでなく1つのDOM要素(canvas要素)の中にすべて描画するのか、という点を切り口に、主要な実装方法であるHTML/CSS、SVG、HTML5 Canvas、WebGLを取り上げ、整理しています。&lt;/p&gt;
+&lt;h3 id=&#34;実装にとりかかる前に明らかにすべきこと&#34;&gt;実装にとりかかる前に明らかにすべきこと
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;465&#34;
+	srcset=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu9c0592bd0fce0bb811c3f435256776a7_267613_480x0_resize_box_3.png 480w, https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu9c0592bd0fce0bb811c3f435256776a7_267613_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要素はどのくらいの数になるのか&lt;/li&gt;
+&lt;li&gt;それらの要素はどのくらい複雑な形をしているか、また配置するか&lt;/li&gt;
+&lt;li&gt;どの程度インタラクティブ性を持たせるか&lt;/li&gt;
+&lt;li&gt;アニメーションや変形はさせるのか&lt;/li&gt;
+&lt;li&gt;古いブラウザをサポートする必要があるかどうか&lt;/li&gt;
+&lt;li&gt;関係するオープンソースの例やフレームワークはあるのかどうか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの検討項目とともに依ってたつ実装方法と実際のTwitter社での事例とともにまとめた表を使いながら説明がされました。&lt;/p&gt;
+&lt;h3 id=&#34;ウェブ標準技術とビジュアライゼーションとの親和性&#34;&gt;ウェブ標準技術とビジュアライゼーションとの親和性
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-3-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;465&#34;
+	srcset=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu9c0592bd0fce0bb811c3f435256776a7_250171_480x0_resize_box_3.png 480w, https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu9c0592bd0fce0bb811c3f435256776a7_250171_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;356px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;こちらも講演ドキュメントで一番右側の列がハイライトされてますが、これはその項目を説明中のキャプチャだからなので気にしないでください（すべてフラットに扱われている表が講演ドキュメント中ないため）。わかりやすくするため、並び順を一部入れ替え翻訳すると以下の通りになります。&lt;/p&gt;
+&lt;table class=&#34;wp-block-table table-single&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;ウェブ標準技術&lt;/th&gt;&lt;td&gt;HTML/SVG&lt;/td&gt;&lt;td&gt;HTML 5 Canvas&lt;/td&gt;&lt;td&gt;WebGL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;オープンソースのフレームワーク&lt;/th&gt;&lt;td&gt;d3.js&lt;/td&gt;&lt;td&gt;processing.js&lt;/td&gt;&lt;td&gt;PhiloGL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Twitter社での実例&lt;/th&gt;&lt;td&gt;2012 U.S. ELECTIONS MAP&lt;/td&gt;&lt;td&gt;2011 JAPAN EARTHQUAKE&lt;/td&gt;&lt;td&gt;NEIL ARMSTRONG&#39;S VISUALIZATION&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;要素の数&lt;/th&gt;&lt;td&gt;少ない&lt;/td&gt;&lt;td&gt;多い&lt;/td&gt;&lt;td&gt;多い&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;要素の複雑さ&lt;/th&gt;&lt;td&gt;複雑&lt;/td&gt;&lt;td&gt;簡易&lt;/td&gt;&lt;td&gt;複雑&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;インタラクティブ性&lt;/th&gt;&lt;td&gt;なし&lt;/td&gt;&lt;td&gt;あり&lt;/td&gt;&lt;td&gt;あり&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;アニメーション&lt;/th&gt;&lt;td&gt;なし&lt;/td&gt;&lt;td&gt;あり&lt;/td&gt;&lt;td&gt;あり&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;ブラウザのサポート&lt;/th&gt;&lt;td&gt;IE7+&lt;/td&gt;&lt;td&gt;モダンブラウザのみ&lt;/td&gt;&lt;td&gt;モダンブラウザのみ&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&#34;それぞれの実装法の用途&#34;&gt;それぞれの実装法の用途
+&lt;/h3&gt;&lt;p&gt;文章としては以下のようにまとめられています。&lt;/p&gt;
+&lt;p&gt;HTML/SVG要素が少ない、形状が複雑、インタラクティブなビジュアライゼーションに適している。CANVAS小規模から比較的多数の要素やアニメーションに適している。WEBGL小規模から非常に大多数の要素、複雑な形状のアニメーションや3Dビジュアライゼーションに適している。&lt;/p&gt;
+&lt;h3 id=&#34;参照したtwitter社の実装例&#34;&gt;参照したTwitter社の実装例
+&lt;/h3&gt;&lt;h4 id=&#34;2012-us-elections-map&#34;&gt;2012 U.S. ELECTIONS MAP
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;719&#34;
+	srcset=&#34;https://example.com/openvisconf2013-miguel/images/_hu617c6c194dc051175aad6db1b1a31c57_473205_373388a09da13def4cdd4712cfa0060d.png 480w, https://example.com/openvisconf2013-miguel/images/_hu617c6c194dc051175aad6db1b1a31c57_473205_cd646e2c5f4505907874bdcee0d58dbb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;230px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;2012年選挙の際、大統領候補者によって送られたTweetによるエンゲージメントの可視化。&lt;/p&gt;
+&lt;h4 id=&#34;2011-japan-earthquakeリンク先は動画&#34;&gt;2011 JAPAN EARTHQUAKE（リンク先は動画）
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;483&#34;
+	srcset=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu1f1885bdc4bb4b7971b64899d42ba1d4_321395_480x0_resize_box_3.png 480w, https://example.com/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu1f1885bdc4bb4b7971b64899d42ba1d4_321395_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;142&#34;
+		data-flex-basis=&#34;342px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;3.11の地震発生一時間後、日本発のTweetがどのようにRetweetされ世界中に伝播していったかの可視化。&lt;/p&gt;
+&lt;h4 id=&#34;neil-armstrongs-visualizationリンク先は動画&#34;&gt;NEIL ARMSTRONG&amp;rsquo;S VISUALIZATION（リンク先は動画）
+&lt;/h4&gt;&lt;p&gt;ニール·アームストロングが亡くなったことについての@NASAのTweetがどのようにRetweetされ世界中に伝播していったかの可視化。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;516&#34;
+	srcset=&#34;https://example.com/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu166a55eb80704ffa0f62e7933ce0a332_277163_480x0_resize_box_3.png 480w, https://example.com/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu166a55eb80704ffa0f62e7933ce0a332_277163_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;所感&#34;&gt;所感
+&lt;/h3&gt;&lt;p&gt;全体的に話の構造がすっきりとわかりやすい理にかなう説明でしたが、DOM構造を活かすかどうかがブラウザー上の実行速度しか念頭にない点は気になりますね。このプレゼンテーションの会場に筆者は居たのですが、会場から「モバイルの場合は？」という質問に「モバイルは今回考慮してないよ」との回答に会場の一部から失笑が起こりました。…なかなかシビアですね。&lt;br&gt;
+また直接この講演の内容とは関係ないですが、SVG用ライブラリを使った実装でも描画部分をCanvasで行って描画速度をあげているユーザーもその会場にいました。&lt;br&gt;
+降壇あとに直接聞いたところ、Twitter社のデータサイエンティストは4名で、主に社内向け（インターナル）の分析とビジュアライズの方がほとんどだとのことでした。またこの講演の少し後の時期にTwitter社は&lt;a class=&#34;link&#34; href=&#34;http://luckysort.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lucky Sort&lt;/a&gt;という&lt;a class=&#34;link&#34; href=&#34;http://techcrunch.com/2013/05/13/twitter-acquires-big-data-visualization-startup-lucky-sort-service-to-shutter-in-months-ahead/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ビッグデータのビジュアライゼーション会社を買収しています&lt;/a&gt;ので現在はまた体制が変わっていることと思います。&lt;/p&gt;
+&lt;p&gt;実際のプレゼンテーションの動画やドキュメントへのリンクを以下に掲載しますので是非たどってみてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://miguelrios.github.io/openvis-web/#/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miguel Riosの講演(スライド)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.youtube.com/watch?v=XKGV-_5DqHA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miguel Riosの講演(動画)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://source.opennews.org/en-US/articles/twitters-miguel-rios-choosing-viz-methods/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Twitter&amp;rsquo;s Miguel Rios on Choosing Viz Methods - Features - Source: An OpenNews project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多いBen Shne">
+<title>ビジュアル・アナリシスにおけるインタラクションの整理</title>
+
+<link rel='canonical' href='https://example.com/visual-analytics-interaction/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="ビジュアル・アナリシスにおけるインタラクションの整理">
+<meta property='og:description' content="1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多いBen Shne">
+<meta property='og:url' content='https://example.com/visual-analytics-interaction/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='インタラクション' /><meta property='article:published_time' content='2020-10-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-10-30T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/visual-analytics-interaction/images/thumb_ph_vizjp.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="ビジュアル・アナリシスにおけるインタラクションの整理">
+<meta name="twitter:description" content="1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多いBen Shne"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/visual-analytics-interaction/images/thumb_ph_vizjp.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#データとビューの指定data-and-view-specification">データとビューの指定(data and view specification)</a></li>
+        <li><a href="#ビューの操作view-manipulation">ビューの操作(view manipulation)</a></li>
+        <li><a href="#分析プロセスと出自analysis-process-and-provenance">分析プロセスと出自(analysis process and provenance)</a></li>
+      </ol>
+    </li>
+    <li><a href="#具体的な操作">具体的な操作</a>
+      <ol>
+        <li><a href="#データとビューの指定data-and-view-specification-1">データとビューの指定(data and view specification)</a></li>
+        <li><a href="#ビューの操作view-manipulation-1">ビューの操作(view manipulation)</a></li>
+        <li><a href="#分析プロセスと出自analysis-process-and-provenance-1">分析プロセスと出自(analysis process and provenance)</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/visual-analytics-interaction/">
+                <img src="/visual-analytics-interaction/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_800x0_resize_box_3.png"
+                        srcset="/visual-analytics-interaction/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_800x0_resize_box_3.png 800w, /visual-analytics-interaction/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/visual-analytics-interaction/">ビジュアル・アナリシスにおけるインタラクションの整理</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 30, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い<strong>Ben Shneidermanさん</strong>と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した<strong>Jeff Heerさん</strong>が二人で、<strong><a class="link" href="http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;type=pdf"  title="http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;type=pdf"
+     target="_blank" rel="noopener"
+    >ビジュアル・アナリシスにおけるインタラクションの整理</a></strong>(リンク先はPDFファイル)を行っています。2010年の論考です。大きくは以下の三つに分類しています。</p>
+<ul>
+<li>データとビューの指定(data and view specification)</li>
+<li>ビューの操作(view manipulation)</li>
+<li>分析プロセスと出自(analysis process and provenance)</li>
+</ul>
+<p>それぞれの違いをまずはみていきましょう。</p>
+<h3 id="データとビューの指定data-and-view-specification">データとビューの指定(data and view specification)
+</h3><p>アナリストが様々なデータタイプを含む大規模なデータセットを探索できるようにするために、関心のあるデータとビューを指定するための、適切なコントロールを提供するという観点。</p>
+<h3 id="ビューの操作view-manipulation">ビューの操作(view manipulation)
+</h3><p>「データとビューの指定」によって作成された可視化を元に、そのビューを操作してパターンを強調したり、仮説を調査したり、詳細を掘り下げたりできるようにするという観点。</p>
+<h3 id="分析プロセスと出自analysis-process-and-provenance">分析プロセスと出自(analysis process and provenance)
+</h3><p>ビジュアル・アナリティクスには「可視化の生成と操作」だけではなく「データの探索と解釈の繰り返し」のプロセスを含み、その分析プロセスを足場にするための機能提供という観点。</p>
+<h2 id="具体的な操作">具体的な操作
+</h2><h3 id="データとビューの指定data-and-view-specification-1">データとビューの指定(data and view specification)
+</h3><p>可視化(visualize)、フィルタリング(filter)、ソート(sort)、導出(derive)が挙げられています。</p>
+<hr>
+<p><strong>可視化</strong>…データの可視化を指定すること。</p>
+<p>以下のような方法が挙げられています。</p>
+<ul>
+<li>よくある例ではテンプレート化されたチャートの中から一つ選択し、データ変数を割り当てることで、データをチャートとして描画すること。</li>
+<li>&ldquo;data-flow graphs&rdquo; を使用して指定する。</li>
+<li>可視化構築のための文法に基づいて指定する。ggplot2 や Protovis が該当する。</li>
+</ul>
+<p>これらの方法は互いに排他的ではなく、同時に使用することで、使いやすさろ表現力を両立させることもできる、としています。</p>
+<hr>
+<p><strong>フィルタリング</strong>…データ値をフィルタリングして、表示量を制限する。またデータセットの異なるサブセットを比較するためにフォーカスを移動する際に用いられる。</p>
+<ul>
+<li>さまざまなインタラクション技術</li>
+<li>一連の補助コントロール、&ldquo;ダイナミック・クエリ・ウィジェット&rdquo; を使用する</li>
+</ul>
+<p>後者 &ldquo;ダイナミック・クエリ・ウィジェット&rdquo; について以下の例が挙げられています。</p>
+<p>カテゴリまたは順序データ</p>
+<ul>
+<li>項目の数が少ない場合…ラジオボタンやチェックボックス</li>
+<li>項目の数が多い場合や任意のテキストを含む場合…スクロール可能なリスト、階層リスト、検索ボックス（単純なキーワード検索、正規表現マッチング、オートコンプリート付き、構造化クエリ言語）</li>
+</ul>
+<p>量的データ、および時間的データ</p>
+<ul>
+<li>単一のしきい値の場合…標準スライダー</li>
+<li>複数のエンドポイントを指定する場合…範囲スライダー</li>
+</ul>
+<p>リアルタイム更新と組み合わせると、これらのウィジェットはデータのサブセットを迅速かつ可逆的に探索することができる、としています。</p>
+<hr>
+<p><strong>ソート</strong>…1つ以上の変数のデータ値に従って、レコードを並べ替えること。</p>
+<ul>
+<li>数値やテキスト値の昇順または降順ソート。</li>
+<li>重要なパターンを明らかにするためには、曜日や月名のような特殊なソート順序が必要になることもある。</li>
+<li>多変量表、ネットワークなどデータの種類によっては、値による単純なソートが必ずしもうまくいかないものもある。そのようなデータでは、項目間の距離測定を最小化しようとする、より洗練された並べ替え方法が必要になることがある。</li>
+</ul>
+<hr>
+<p><strong>導出</strong>…変数を変換したり、既存の値から新しい属性を導き出したりすること。</p>
+<ul>
+<li>スプレッドシートやデータベースのクエリ言語で見られるものと同様に、_計算言語_を介して提供される。</li>
+<li>これらの基本的な機能に加えて、仮説検定法（t検定、ANOVA）は、統計と可視化の円滑な統合の利点を増幅させることができる。</li>
+<li>導出された値は、記述統計（平均、中央値、分散）からモデル適合（回帰曲線）、データ変換（カウントや合計などのグループごとの集計）に至るまで、入力データを要約するためによく使用される。</li>
+</ul>
+<h3 id="ビューの操作view-manipulation-1">ビューの操作(view manipulation)
+</h3><p>選択(select)、ナビゲート(navigate)、切り口(coordinate)、整理(organize)が挙げられています。</p>
+<hr>
+<p><strong>選択(select)</strong>…関心のある項目や領域を示すこと。何らかの動作の前段としてその適用範囲を「選択」することもある。</p>
+<ul>
+<li>マウスのホバー</li>
+<li>マウスのクリック</li>
+<li>領域選択（長方形や楕円形の領域、または自由形状の「ラッソ」など）</li>
+<li>領域カーソル（「ブラシ」や、マウスポインタに最も近いアイテムを選択するバブルカーソルなどの動的なセレクタ）</li>
+</ul>
+<p>追加として、</p>
+<ul>
+<li>（より強力で複雑だと前置きありつつ）データに対するクエリとして選択をサポートする。</li>
+<li>代表的なオブジェクトをクリックして、そのオブジェクトのプロパティに基づいてより広範な選択を行うことができる（例えば「このような青のアイテムをすべて選択する」など）</li>
+</ul>
+<p>PCとタブレットやスマートフォンではUIのコンテクストが異なるため注意します。</p>
+<p>これらの選択は、多くの場合、操作するオブジェクトのセットを決定し、ハイライト、注釈、フィルタリング、または「オンデマンドでの詳細表示」を可能にします。</p>
+<p>選択はマウスやキーボードだけに限定される必要はありません。タッチ、ジェスチャー、音声などの入力モダリティによって、新しい効果的な選択が可能になるかもしれません。</p>
+<hr>
+<p><strong>ナビゲート</strong>…ビジュアライゼーションはよく、情報空間のビューポートとして機能する。アナリストは、これらのビューポートを操作して空間をナビゲートする必要がある。</p>
+<ul>
+<li>スクロール</li>
+<li>スクロールバーやマウスドラッグによる表示のパンニング</li>
+<li>ズームスライダやスクロールホイールを使った異なるレベル間のズーム</li>
+</ul>
+<p>そのほかにも</p>
+<ul>
+<li>セマンティック・ズーミング</li>
+<li>フォーカス＋コンテキスト メソッド</li>
+<li>遠近両用 (bifocal) ビュー</li>
+<li>概要と詳細表示</li>
+<li>ディストーション表示</li>
+<li>DOI(degree-of-interest)機能</li>
+</ul>
+<p>が挙げられている。</p>
+<p>パン（ドラッグ）とズーム（ボタンとスクロール・ホイール）コントロールにより、ビューのナビゲーションが可能になります。</p>
+<p>「概要を最初に見て、ズームとフィルタリングを行い、次に詳細をオンデマンドで表示する」<br>
+このような方向付けを行った後に、データ・サブセットのより具体的で詳細な調査を行うことができます。</p>
+<p>「概要と詳細表示」はほかにも、たとえば地理空間の可視化で、全体に詳細表示を行い、スーパーインポーズされた矩形内で概要を表示します。</p>
+<p>「ディストーション表示」は、コンテクスト領域が拡大されないように表示領域全体を変形させるディストーション (拡大技術) です。UIとしてはMac OSXのDockがそれに該当します。</p>
+<p>「DOI(degree-of-interest)機能」は、一般的な重要度と操作ユーザーの関心度（マウスクリック、検索クエリ、他の関心度の高い項目への近接度など）の両方に基づいて、情報コンテンツのスコアを計算し、DOIスコアが動的に更新され、関連する未見のデータが表示されたり、無関係な詳細が非表示になったりします。</p>
+<hr>
+<p><strong>切り口</strong>…分析者が異なる視点からデータを見ることができるようにするために、切り口を変えること。</p>
+<ul>
+<li>スモール・マルティプル(small multiples)</li>
+<li>トレリス・プロット(trellis plots)</li>
+<li>ブラッシングとリンク (Brushing and linking)</li>
+<li>凡例と軸</li>
+</ul>
+<p>リンク選択は、アナリストがあるビューのパターンが他のビューにどのように投影されるかを評価できるようにすることで、豊かで多次元的な推論を可能にします。</p>
+<p>凡例、ヒストグラム・スライダ、ハイライト・マーカー付きスクロールバーなどの付随するアイテムはすべて、データの複数のビューを提供することができます。</p>
+<p>凡例と軸は、カラーパレット、マーカー属性、変数範囲、または出自情報を変更するためのコントロールパネルにもなります。</p>
+<hr>
+<p><strong>管理</strong>…可視化のコレクションを管理されること。</p>
+<ul>
+<li>ツリー表示を追加することで、複数の可視化を一度に作成できるようにする</li>
+<li>ビューが追加または削除されたときの自動（再）サイジング</li>
+<li>関連するビューを空間的に近接して配置するためのレイアウト・ルーチン</li>
+<li>標準的な散布図マトリックスや、関心のある関連ビュー（例えば、可視化された属性と相関のあるデータ変数）のカスタム生成</li>
+<li>複数のウィンドウをグループとして開閉できるようにし、それらを整然と並べる自動化サポート</li>
+</ul>
+<p>複数の可視化を同時に探索する際に、すべての情報とセレクタを一度に見ることができたり、気が散るスクロールやウィンドウ操作が自動的に最小限に抑えられることで、洞察の抽出とレポート作成に集中することができます。</p>
+<p>大型化・マルチディスプレイが一般的になるにつれ、レイアウト整理ツールは、効果的なユーザー・エクスペリエンスを生み出す上で決定的な要素となるでしょう。</p>
+<h3 id="分析プロセスと出自analysis-process-and-provenance-1">分析プロセスと出自(analysis process and provenance)
+</h3><p>記録(record)、注釈(annotate)、共有(share)、ガイド(guide)が挙げられています。</p>
+<hr>
+<p><strong>記録</strong>…アナリストのインタラクション履歴を記録して可視化することができる。</p>
+<ul>
+<li>ユーザーアクションの空間（ビューの仕様、ソート、フィルタリング、ズームなど）をモデル化することで、よりリッチなログを構築し、可視化することができる。</li>
+<li>視覚的な履歴は、分岐した履歴の階層的なパターンも明らかにする。</li>
+<li>関連するアクションを一緒に「チャンキング」するためのテクニックは、さらに乱雑さを減らすことができる。</li>
+<li>コメント、タグ、評価などのメタデータを状態に追加することで、後のレビューや共有を容易にすることができる。</li>
+<li>インタラクティブな履歴は、繰り返し可能な一連の操作をキャプチャし、名前を付けて再利用可能なマクロとして保存することもできる。</li>
+</ul>
+<p>分析を行った後、分析者はその結果をレビューし、要約し、報告書やプレゼンテーションの形で伝える必要がある場合があるため。</p>
+<p>マウスやキーボードのイベントなどの低レベルの入力は簡単にキャプチャできますが、高レベルのセマンティックなアクションを記録すると、履歴はより価値のあるものになる。</p>
+<hr>
+<p><strong>注釈</strong>（アノテーション）…ビジュアルヒストリー内の状態のテキスト注釈を可能にすること。</p>
+<ul>
+<li>可視化内の特定の項目や領域を「ポイント」して、これらのアノテーションを説明テキストや他のビューへのリンクと関連付ける。</li>
+<li>自由形式の図形注釈だと、該当する集まりの周りに円を描いたり、グラフのピークに矢印を指し示したりすることで、視聴者の注意を向けることができる。</li>
+</ul>
+<p>矢印の角度や色、手描きの円の形は、感情を伝える手がかりとなったり、強調を加えたりすることができる。</p>
+<hr>
+<p><strong>共有</strong>…分析者本人以外の複数へビューやデータを共有し、複数の解釈、議論、結果の普及を伴う社会的プロセスを実行する。</p>
+<ul>
+<li>最低限、ビュー（png、jpg、pptなど）またはデータサブセット（csv、json、xlsなど）をエクスポートして、共有と再検討ができるようにしなければならない。</li>
+<li>ビューやデータだけでなはなく、ツールの内部状態をモデル化してエクスポートし、他者が続きを探索できるようにする。</li>
+<li>可視化ダッシュボードをインタラクティブなWebページとして公開すること。</li>
+</ul>
+<hr>
+<p><strong>ガイド</strong>…新規参入者をガイドし、専門家に進捗指標を提供するために、ガイドを提供する。</p>
+<ul>
+<li>新規参入者をガイドする。</li>
+<li>専門家に進捗指標を提供する。</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/">インタラクション</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/infovis-interaction-taxonomy/">
+        
+        
+            <div class="article-image">
+                <img src="/infovis-interaction-taxonomy/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 情報可視化におけるインタラクション技術の分類法"
+                        data-key="infovis-interaction-taxonomy" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">情報可視化におけるインタラクション技術の分類法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/excel-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/excel-reverse-pivot/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Excelでのピボットテーブルの解除"
+                        data-key="excel-reverse-pivot" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Excelでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/openrefine-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/openrefine-reverse-pivot/images/image_3hours_refine.806918503329ac41f761810df4cac25f_hu2d5e71f363e58e9875ed24d2e909b0d1_48965_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenRefineでのピボットテーブルの解除"
+                        data-key="openrefine-reverse-pivot" 
+                        data-hash="md5-gGkYUDMprEH3YYEN9MrCXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">OpenRefineでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-gl-js-v2/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-gl-js-v2/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ"
+                        data-key="mapbox-gl-js-v2" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/focus-context/">
+        
+        
+            <div class="article-image">
+                <img src="/focus-context/images/image-35.b2c526c985c3fdc8814e16623a741eb6_hua81f20bb85ab37122ff5211396e483c8_3549478_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Focus&#43;Contextの実例"
+                        data-key="focus-context" 
+                        data-hash="md5-ssUmyYXD/ciBThZiOnQetg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Focus&#43;Contextの実例</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>地図 on Visualizing.JP</title>
+        <link>https://example.com/tags/%E5%9C%B0%E5%9B%B3/</link>
+        <description>Recent content in 地図 on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
+        <link>https://example.com/mapbox-gl-js-v2/</link>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/mapbox-gl-js-v2/</guid>
+        <description>&lt;img src="https://example.com/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
+&lt;/h2&gt;&lt;p&gt;mapbox-gl-jsとは、WebGLを用いてベクター形式の地図タイルをレンダリングし、インタラクティブに操作することを可能にするJavaScriptライブラリです。&lt;/p&gt;
+&lt;p&gt;v1.0台の頃は、このライブラリを使用するけども、サーバサイド側でMapboxのサービス（＝Mapbox提供の地図タイルサービス）を利用しない場合、料金はかかりませんでした。v2.0以降は、このライブラリを使用するだけでも、ライブラリの呼び出し回数に基づいた利用料を払う必要があるよう、規約が変更されました。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mapbox/mapbox-gl-js/issues/10162&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/mapbox/mapbox-gl-js/issues/10162&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://geo-news.jp/archives/2270&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://geo-news.jp/archives/2270&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;v20による新機能&#34;&gt;v2.0による新機能
+&lt;/h2&gt;&lt;p&gt;v2.0になり、機能面では以下のような刷新が図られ、非常に充実したものになっています。詳しくは公式サイトのブログをご覧ください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;すべてのマップが3Dに&lt;/li&gt;
+&lt;li&gt;CAMERA APIの整備&lt;/li&gt;
+&lt;li&gt;SKY API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mapbox.com/blog/mapbox-gl-js-v2-3d-maps-camera-api-sky-api-launch&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.mapbox.com/blog/mapbox-gl-js-v2-3d-maps-camera-api-sky-api-launch&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;コミュニティで開発が続くオープンソース版&#34;&gt;コミュニティで開発が続くオープン・ソース版
+&lt;/h2&gt;&lt;p&gt;オープン・ソース版だったv1.0を継続してオープン・ソースのまま開発を続けようという動きがエンジニア・コミュニティで起こり、maplibre-gl-jsという名称で公開されています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/maplibre/maplibre-gl-js&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/maplibre/maplibre-gl-js&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>比例シンボル・マップ(Proportional Symbol Map)</title>
+        <link>https://example.com/proportional-symbol-map/</link>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/proportional-symbol-map/</guid>
+        <description>&lt;img src="https://example.com/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;離散データを階級分類せず&lt;/strong&gt;、シンボルの大きさという視覚的変数で表現する地図です。階級分類するものは等級シンボル・マップと呼ばれます。&lt;/p&gt;
+&lt;p&gt;シンボルの形状は円がよく利用されますが、円だけに限定されるものではなく、三角形や四角形も利用されます。円グラフが用いられる場合もあります（その場合、チャート・グラフと呼ばれます）。&lt;/p&gt;
+&lt;p&gt;サイズは、表現されるデータ値に比例しますが、それが存在する地理的領域に依存しないため、コロプレスマップで発生してしまうデータ値と地理的領域の大きさの混乱問題を回避することができます。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h4 id=&#34;大統領選挙の結果ドナルドjトランプ氏が勝利&#34;&gt;大統領選挙の結果：ドナルドJ.トランプ氏が勝利
+&lt;/h4&gt;&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png&#34;
+	width=&#34;965&#34;
+	height=&#34;626&#34;
+	srcset=&#34;https://example.com/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu8d9bb601dfd9530d350ab5a37b661318_345177_480x0_resize_box_3.png 480w, https://example.com/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu8d9bb601dfd9530d350ab5a37b661318_345177_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;369px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/elections/results/president&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Presidential Election Results: Donald J. Trump Wins&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4 id=&#34;カリフォルニアの各郡countyにはコロナウイルスの症例がいくつあるのか&#34;&gt;カリフォルニアの各郡（county）にはコロナウイルスの症例がいくつあるのか？
+&lt;/h4&gt;&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;1366&#34;
+	srcset=&#34;https://example.com/proportional-symbol-map/images/_hu30a995cddf2199220eb2767a0c65c228_856744_17793eb98d7fe9f67f79bb84c3ab272a.png 480w, https://example.com/proportional-symbol-map/images/_hu30a995cddf2199220eb2767a0c65c228_856744_a248b0def177123ef00f91979fbfd02d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;359px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/2020/04/04/us/coronavirus-cases-california-county.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How Many Coronavirus Cases Are in Each California County?&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Isabel Meirelles — Design For Information&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>GeoJsonとは</title>
+        <link>https://example.com/geojson/</link>
+        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/geojson/</guid>
+        <description>&lt;img src="https://example.com/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
+&lt;p&gt;空の状態から作り上げるというよりは、政府機関などから公開されているものを加工することが多いと思います。ファイルの内部構成をご紹介します。&lt;/p&gt;
+&lt;h3 id=&#34;ルート最上階層&#34;&gt;ルート（最上階層）
+&lt;/h3&gt;&lt;p&gt;ルート（最上階層）には、GeoJsonのメタデータ的な部分と実体のデータの部分があります。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/geojson/images/GeoJson_1.png&#34;
+	width=&#34;1754&#34;
+	height=&#34;1239&#34;
+	srcset=&#34;https://example.com/geojson/images/GeoJson_1_hu861045dc4e10b95e8ef60bf1714bec12_132862_480x0_resize_box_3.png 480w, https://example.com/geojson/images/GeoJson_1_hu861045dc4e10b95e8ef60bf1714bec12_132862_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;筆者作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;typeは固定で、FeatureCollection（地物の集合の意）です。地物（feature）が集まってデータファイルになっているということですね。&lt;/p&gt;
+&lt;p&gt;crsは、Coordinate Reference System（空間参照系）のことです。&lt;/p&gt;
+&lt;p&gt;bboxは地物がすべて収まる矩形の四隅の座標を格納しています。&lt;/p&gt;
+&lt;p&gt;そして、featuresの中に、実際の地物（feature）データを格納しています。&lt;/p&gt;
+&lt;h3 id=&#34;地物feature&#34;&gt;地物（feature）
+&lt;/h3&gt;&lt;p&gt;地物（feature）は、geometry（ジオメトリ = 空間データ）とproperties（プロパティ = 非空間データ）が格納されています。typeは固定で”Feature”です。geometryは地図上に描かれるベクターデータを、propertiesは地図には描かれない表データを格納しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/geojson/images/GeoJson_2.png&#34;
+	width=&#34;1754&#34;
+	height=&#34;1239&#34;
+	srcset=&#34;https://example.com/geojson/images/GeoJson_2_hu391b8073bd220d69cf6cb497ce96ec6b_883892_480x0_resize_box_3.png 480w, https://example.com/geojson/images/GeoJson_2_hu391b8073bd220d69cf6cb497ce96ec6b_883892_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;筆者作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;一つの地物（feature）の中にgeometryとpropertiesが格納されていますので、たとえばオープンソースのQGISというアプリケーションでGeoJsonファイルを開いてみると、同一の地物（feature）が同一選択範囲であることがわかります（画像の、地図上の黄色くハイライトされている箇所geometryと、表データのハイライトしている箇所propertiesです）。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/geojson/images/GeoJson_3.png&#34;
+	width=&#34;1754&#34;
+	height=&#34;1239&#34;
+	srcset=&#34;https://example.com/geojson/images/GeoJson_3_hud077a9abab6848f48e38c0c585e6f2d7_1453193_480x0_resize_box_3.png 480w, https://example.com/geojson/images/GeoJson_3_hud077a9abab6848f48e38c0c585e6f2d7_1453193_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;筆者作成&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;データ地図（主題地図）を作る際に、たとえば他のデータと結合する際には、propertiesに格納されたデータフィールドを活用します。&lt;/p&gt;
+&lt;h3 id=&#34;geometry&#34;&gt;geometry
+&lt;/h3&gt;&lt;p&gt;ジオメトリはベクター形式で様々な地物を描きます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/geojson/images/GeoJson-1.png&#34;
+	width=&#34;600&#34;
+	height=&#34;600&#34;
+	srcset=&#34;https://example.com/geojson/images/GeoJson-1_hu0c0984d4e556e18cd22bb836ceae1838_45449_480x0_resize_box_3.png 480w, https://example.com/geojson/images/GeoJson-1_hu0c0984d4e556e18cd22bb836ceae1838_45449_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;properties&#34;&gt;properties
+&lt;/h3&gt;&lt;p&gt;プロパティは任意の表データです。geometryとセットで格納されることで、空間（位置）情報と関連づきます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>QGISにおける階級分類</title>
+        <link>https://example.com/qgis-classification/</link>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/qgis-classification/</guid>
+        <description>&lt;img src="https://example.com/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/qgis-classification/images/qgis_jenks.png&#34;
+	width=&#34;985&#34;
+	height=&#34;698&#34;
+	srcset=&#34;https://example.com/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_480x0_resize_box_3.png 480w, https://example.com/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;QGISでの階級分類&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;338px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;等間隔&lt;/strong&gt;：各階級のサイズが同じです（例：0〜16および4つのクラスの値、各クラスのサイズは4）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分位（等量）&lt;/strong&gt;：各階級の内部には同じ数の要素があります（箱ひげ図の考え方）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自然なブレーク（Jenks）&lt;/strong&gt;：各階級内の分散は最小ですが、階級間の分散は最大です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;標準偏差&lt;/strong&gt;：階級は、値の標準偏差に基づいて構築されます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;プリティブレーク&lt;/strong&gt;：xの値の範囲をカバーする約n+1個の等間隔のnice値のシーケンスを計算します。値は、10の累乗の1、2、または5倍になるように選択されます（R統計環境の値に基づいています）。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>地図の階級分類におけるJenksって？</title>
+        <link>https://example.com/classification-jenks/</link>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/classification-jenks/</guid>
+        <description>&lt;img src="https://example.com/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
+&lt;h3 id=&#34;geospatial-analysis-6th-edition-2020-update&#34;&gt;Geospatial Analysis 6th Edition, 2020 update
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://spatialanalysisonline.com/HTML/index.html?building_blocks_of_spatial_ana.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Geospatial Analysis 6th Edition, 2020 update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「GISパッケージ内で広く使用されているこれらは、分散最小化分類の形式です。ブレークは通常不均一であり、値の大きな変化が発生する値を分離するために選択されます。選択された階級分類の数に大きく影響される可能性があり、通常ではない階級境界を持つ傾向があります。」&lt;/p&gt;
+&lt;p&gt;「Jenks and Caspall（1971）で説明されているように、一般的に適用される方法はJenksによるもので、Fisher（1958）に続きます。」&lt;/p&gt;
+&lt;h3 id=&#34;arcgisでの定義&#34;&gt;ArcGISでの定義
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pro.arcgis.com/ja/pro-app/help/mapping/layer-properties/data-classification-methods.htm#ESRI_SECTION1_B47C458CFF6A4EEC933A8C7612DA558B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ArcGISでの定義&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「&lt;strong&gt;自然分類 (Jenks)&lt;/strong&gt; では、クラスはデータ値の自然なグループ化に基づいています。クラス閾値は、類似している値を最適にグループ化し、クラス間の差異を最大化するように特定されます。フィーチャは、データ値の差異が比較的大きい部分に境界が設定されるようにクラスに分割されます。」&lt;/p&gt;
+&lt;p&gt;「自然分類手法は、データ固有の分類方法で、異なる基礎情報から構築された複数のマップの比較には有用ではありません。」&lt;/p&gt;
+&lt;h3 id=&#34;cartoでの定義&#34;&gt;Cartoでの定義
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://carto.com/help/glossary/#jenks&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cartoでの定義&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「数値でマップレイヤーのスタイルを設定する場合、&lt;strong&gt;Jenks&lt;/strong&gt;分類方法は、データに固有の自然なグループ化に基づいて、データをクラスに分割します。 グループは、クラス内の分散を減らし、異なるクラス間の分散を増やすこと（1D k-means）で形成されます。」&lt;/p&gt;
+&lt;p&gt;「Jenksはデータ固有の分類であるため、異なる基になるデータから作成された複数のマップを比較するのには役立ちません。」&lt;/p&gt;
+&lt;h3 id=&#34;qgisでの定義&#34;&gt;QGISでの定義
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.qgis.org/3.4/ja/docs/user_manual/working_with_vector/vector_properties.html#graduated-renderer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;QGISでの定義&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「&lt;strong&gt;Natural Breaks（Jenks）&lt;/strong&gt;：各クラス内の分散は最小ですが、クラス間の分散は最大です。」&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
+        <link>https://example.com/qgis-processing/</link>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/qgis-processing/</guid>
+        <description>&lt;img src="https://example.com/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
+&lt;p&gt;QGISをインストールしたタイミングによっては、お使いのQGIS上で利用可能かもしれませんが、今後はこの形態では提供されないことになります。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/54&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;QEP 54: Dropping fTools and GDALTools core plugins in favor of the Processing · Issue #54 · qgis/QGIS-Enhancement-Proposals&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;メニュー項目として後ろから3番目あたりに「プロセッシング」というメニューが表示されていれば、そちらから利用できます。&lt;/p&gt;
+&lt;p&gt;表示されていない場合は、「プラグインの管理とインストール」から入手します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/qgis-processing/images/qgis_processing.png&#34;
+	width=&#34;1032&#34;
+	height=&#34;647&#34;
+	srcset=&#34;https://example.com/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_480x0_resize_box_3.png 480w, https://example.com/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;382px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>EPSGコード</title>
+        <link>https://example.com/epsg-code/</link>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/epsg-code/</guid>
+        <description>&lt;img src="https://example.com/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
+&lt;p&gt;概念的には、空間参照ID、英語ではSRID（Spatial Reference System Identifiers）と呼ばれるもので、事実上の標準として、EPSGコードが使用されています。EPSGは、the European Petroleum Survey Group（欧州石油調査グループ）の略称です。&lt;/p&gt;
+&lt;h3 id=&#34;日本でよく使用される測地基準系と座標系一覧筆者調べ&#34;&gt;日本でよく使用される測地基準系と座標系一覧（筆者調べ）
+&lt;/h3&gt;&lt;table class=&#34;wp-block-table&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Tokyo&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2000&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2011&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;WGS84&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;地理座標系&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;4612&lt;/td&gt;&lt;td&gt;6668&lt;/td&gt;&lt;td&gt;4326&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UTM投影座標系&lt;/td&gt;&lt;td&gt;3092〜3096&lt;/td&gt;&lt;td&gt;3097〜3101&lt;/td&gt;&lt;td&gt;6688〜6692&lt;/td&gt;&lt;td&gt;32651〜32656&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;平面直角投影座標系&lt;/td&gt;&lt;td&gt;30161〜30179&lt;/td&gt;&lt;td&gt;2443〜2461&lt;/td&gt;&lt;td&gt;6669〜6687&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;球面メルカトル図法&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;3857&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id=&#34;ウェブで主流の地図タイルのepsg-id&#34;&gt;ウェブで主流の地図タイルのEPSG ID
+&lt;/h3&gt;&lt;p&gt;基本的には 3857 を用いればいいのですが、過去の経緯から、たとえば検索して探そうとするといくつか紛らわしいIDが見つかります。ご注意ください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/3857&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3857&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+現在、Google Maps、OpenStreetMap、Bingなどを描画する際に利用されるEPSGのID。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/900913&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;900913&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+かつて、Google MapsやBingはEPSGに却下された際に、GISツール側で対応するため非公式に発番されたもの。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/3785&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3785&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+2008年中頃にEPSGに割り当てられたID。半年後にこのIDは非推奨とされ、新しいIDが発番されました。それが3857です。3785と似ていることには意味がない（はず）です。&lt;/p&gt;
+&lt;h3 id=&#34;関連リンク&#34;&gt;関連リンク
+&lt;/h3&gt;&lt;h4 id=&#34;見やすい3rdパーティのリファレンス&#34;&gt;見やすい3rdパーティのリファレンス
+&lt;/h4&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;http://epsg.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://epsg.io/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;公式データベース&#34;&gt;公式データベース
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.epsg-registry.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.epsg-registry.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.epsg-registry.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.epsg.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.epsg.org&lt;/a&gt;/&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://beta.epsg.org/home.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://beta.epsg.org/home.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://beta.epsg.org/home.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>ShapefileからTopoJSONを生成する</title>
+        <link>https://example.com/shapefile-to-topojson/</link>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/shapefile-to-topojson/</guid>
+        <description>&lt;img src="https://example.com/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
+&lt;/h2&gt;&lt;p&gt;Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。&lt;/p&gt;
+&lt;h2 id=&#34;shapefileを編集する&#34;&gt;Shapefileを編集する
+&lt;/h2&gt;&lt;h3 id=&#34;国土地理院地球地図からshapefileをダウンロードする&#34;&gt;国土地理院「地球地図」からShapefileをダウンロードする
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;749&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;221px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回の目的から都道府県ごとの粒度のものがいいのですが、ないので市区町村ごとの粒度のものをダウンロードし、手元で修正することにします。&lt;a class=&#34;link&#34; href=&#34;http://www.gsi.go.jp/kankyochiri/gm_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「地球地図日本のデータ」&lt;/a&gt;から第2版ベクタ（2011年公開）行政界 Shapeファイルをダウンロードします。&lt;/p&gt;
+&lt;h3 id=&#34;qgisでshapefileを読み込む&#34;&gt;QGISでShapefileを読み込む
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-02-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ここからQGISというアプリケーションを使います。展開したフォルダ内にはShapefileが３つありますが、そのうちpolbnda_jpn.shpというファイルをQGISで読み込みます。QGISで「ベクターレイヤーの追加」を選択するとダイアログが表示されますので、ソース→データセットの箇所でShapefileを指定する、という方法で取り込みます。&lt;/p&gt;
+&lt;h3 id=&#34;crsを確認する&#34;&gt;CRSを確認する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-03-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;するとこんな感じで表示されます。見慣れた日本地図の形ではないな？と思ったら（そうでなくても）右下を見てください。ここに現在の描画用のCRS(Coordinate Reference System=空間参照系)の設定が(EPSG:&amp;hellip;)と表示されています。赤丸箇所のボタンをクリックすると設定画面のCRSタブが開きます。&lt;/p&gt;
+&lt;h3 id=&#34;crsを変更する&#34;&gt;CRSを変更する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-04-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;616&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;268px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最上段の「&amp;lsquo;オンザフライ&amp;rsquo;CRS変換を有効にする」にチェックを入れると、座標参照システムを変更できるようになりますので、EPSG:900913（Google Mercator）を選択し、この画面を閉じます。&lt;/p&gt;
+&lt;h3 id=&#34;属性テーブルを開く&#34;&gt;属性テーブルを開く
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-05-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;486&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;日本地図の乗っているベクターレイヤーを右クリックし、「属性テーブルを開く」を選択します。&lt;/p&gt;
+&lt;h3 id=&#34;不要のカラムを削除する&#34;&gt;不要のカラムを削除する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-06-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;478&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;不要のカラムを削除します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「カラムを削除する」ボタンを押すと、ダイアログが表示され、そこで削除するカラムを選択します。今回はnamカラム以外をすべて削除します。&lt;/p&gt;
+&lt;h3 id=&#34;namカラムの表記揺れを解消する&#34;&gt;namカラムの表記揺れを解消する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-07.png&#34;
+	width=&#34;305&#34;
+	height=&#34;307&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-07&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;238px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;愛知県と福岡県と長野県が表記揺れしているので、表記を統一します(例：Aichi KenとAICHIなど)。&lt;/p&gt;
+&lt;h3 id=&#34;都道府県ごとにまとめる&#34;&gt;都道府県ごとにまとめる
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-09.png&#34;
+	width=&#34;381&#34;
+	height=&#34;386&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-09&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;236px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;現在のデータは市区町村ごとにわかれていますので、namカラムの都道府県表記を使って、都道府県ごとにまとめます。「ベクター」→「空間演算ツール」→「融合」を選択すると図のようなダイアログが表示されるので、融合フィールドに「nam」を選択します。「出力シェープファイル」はお好きなものを、「結果をキャンパスに追加する」をチェックすると融合した結果を現在開いているファイルへベクターレイヤーとして追加されます。&lt;/p&gt;
+&lt;h3 id=&#34;日本語表記とidを追加する&#34;&gt;日本語表記とIDを追加する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-10-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;597&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;277px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;使い勝手を考えて、カラムを追加します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「新規カラムを作る」ボタンを押すと、ダイアログが表示され、そこで新規カラムの名称と幅を指定します。追加には外部ファイルを読み込む方法と、QGIS上で手入力する方法とあります。&lt;/p&gt;
+&lt;h3 id=&#34;shapefileとして保存する&#34;&gt;Shapefileとして保存する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-11-1.png&#34;
+	width=&#34;613&#34;
+	height=&#34;583&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ベクターレイヤーを右クリックし「名前をつけて保存」を選択すると図のようなダイアログが表示されるので任意の設定をして保存します。これでShapefileの編集をおわります。&lt;/p&gt;
+&lt;h2 id=&#34;shapefileをgeojsonに変換する&#34;&gt;ShapefileをGeoJSONに変換する
+&lt;/h2&gt;&lt;h3 id=&#34;shapefileをgeojsonに変換する-1&#34;&gt;ShapefileをGeoJSONに変換する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-12.png&#34;
+	width=&#34;505&#34;
+	height=&#34;366&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-12&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;331px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.gdal.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GDAL&lt;/a&gt;というツールを使って、ShapeファイルをGeoJSONに変換します。一つ前のステップで、ファイルを保存する際にGeoJSON形式を選べばGeoJSONに変換することが可能です。別な方法としてGDALを使う方法もあります。GDALはMacであればHomebrewでインストール可能です。ogr2ogr -f geoJSON (出力ファイル名) (入力ファイル名)というコマンドを実行すると変換されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-13-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
+&lt;h2 id=&#34;geojsonをtopojsonに変換する&#34;&gt;GeoJSONをTopoJSONに変換する
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-14.png&#34;
+	width=&#34;505&#34;
+	height=&#34;366&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-14&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;331px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;topojsonというツールを使って、GeoJSONをTopoJSONに変換します。topojson -o (出力ファイル名) (入力ファイル名) -pというコマンドを実行すると変換されます。-pをつけないとGeoJSONのときにあったプロパティがすべて含まれなくなってしまいます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/d3-topojson/#commandline&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;手元のPCでGeoJsonをTopoJsonに変換したい場合&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-15-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
+&lt;h2 id=&#34;topojsonを読み込んで地形を描画する&#34;&gt;TopoJSONを読み込んで地形を描画する
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-16-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;422&#34;
+	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;392px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;こんな感じで、描画することができました。今回加工したファイルはGitHubに掲載しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/dataofjapan/land&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data of Japan | Land&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>D3: TopoJSON</title>
+        <link>https://example.com/d3-topojson/</link>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/d3-topojson/</guid>
+        <description>&lt;img src="https://example.com/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSON on Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/JP-Home&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSONについて（日本語訳ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;特徴&#34;&gt;特徴
+&lt;/h3&gt;&lt;p&gt;データから冗長性を排した結果、効率的にデータの活用ができたり、ファイルサイズをかなり削減できる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;国境や州境など複数の国や州が共有する地形データを重複することなく格納できる。&lt;/li&gt;
+&lt;li&gt;一つの TopoJSON ファイルで、ポリゴン（フィル＝塗り用）と境界線（ストローク＝輪郭線用）の両方を、同じarcメッシュを共有する二つのフィーチャーコレクションとして効率的に表現することができる。&lt;/li&gt;
+&lt;li&gt;座標計算に固定精度エンコーディングを用いることで正確性を犠牲にすることなく座標値の精度の丸め処理を省略できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;とのことでこの結果、ファイルサイズをかなり削減(通常のものでは80%程度)できて、効率的にデータの活用もできるとのことです。&lt;/p&gt;
+&lt;h3 id=&#34;手元のpcでgeojsonをtopojsonに変換したい場合&#34;&gt;手元のPCでGeoJsonをTopoJsonに変換したい場合
+&lt;/h3&gt;&lt;p&gt;コマンドラインで実行します。Node.js、topojsonをインストールしたのち、Macの場合はTerminalで、topojson -o output.json input.json といったコマンドを実行します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-14.png&#34;
+	width=&#34;505&#34;
+	height=&#34;366&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shgeotopo-14&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;331px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/Command-Line-Reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Line Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;api&#34;&gt;API
+&lt;/h3&gt;&lt;p&gt;Server用APIとClient用APIの両方が用意されています。Server用はGeoJSONファイルやESRI ShapefileをTopoJsonに変換する役割があり、Client用はブラウザでレンダリング用にTopoJsonをGeoJsonに戻す役割があります。Server用はコマンドラインツールとして用意されたものと同じで、Node.jsのパッケージとしてローカルサーバで事前的に実行するか、ウェブサーバでリアルタイムに近い形で実行するかの違いです。&lt;/p&gt;
+&lt;h4 id=&#34;server用パッケージのインストール&#34;&gt;Server用パッケージのインストール
+&lt;/h4&gt;&lt;p&gt;利用に際しては、Node.jsのパッケージ管理ツールnpmを通じてインストールします。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://npmjs.org/package/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;topojson | npm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;server用コマンドラインツールのリファレンス&#34;&gt;Server用コマンドラインツールのリファレンス
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/wiki/Command-Line-Reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Command Line Reference | topoJson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;client用jsファイル&#34;&gt;Client用JSファイル
+&lt;/h4&gt;&lt;p&gt;ヴァージョン1.0.0とそれ以前で関数の定義に変更がありますのでご注意ください。&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;http://stackoverflow.com/questions/17404239/topojson-list-of-differences-between-v0-and-v1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Topojson: list of differences between v0 and v1?&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson/blob/master/topojson.js&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/mbostock/topojson/blob/master/topojson.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;client用jsファイルで用意されている関数&#34;&gt;Client用JSファイルで用意されている関数
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;bisect(a, x)&lt;/li&gt;
+&lt;li&gt;feature(topology, o)&lt;/li&gt;
+&lt;li&gt;featureOrCollection(topology, o)&lt;/li&gt;
+&lt;li&gt;merge(topology, arcs)&lt;/li&gt;
+&lt;li&gt;mesh(topology, o, filter)&lt;/li&gt;
+&lt;li&gt;neighbors(objects)&lt;/li&gt;
+&lt;li&gt;object(topology, o)&lt;/li&gt;
+&lt;li&gt;reverse(array, n)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;topojsonファイルの構造&#34;&gt;topojsonファイルの構造
+&lt;/h3&gt;&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-15-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;TopoJSONのファイル構造&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/d3-topojson/images/shgeotopo-13-1.png&#34;
+	width=&#34;690&#34;
+	height=&#34;540&#34;
+	srcset=&#34;https://example.com/d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, https://example.com/d3-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;GeoJSONのファイル構造&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;type=topologyとすることでこのデータがGeoJsonでなくてTopoJsonであることを示す。&lt;/li&gt;
+&lt;li&gt;objects、arcs、transformの3つのobjectで構成される。&lt;/li&gt;
+&lt;li&gt;objects…標準であるGeoJSON形式で記述されたobjectを名前でインデックス化。&lt;/li&gt;
+&lt;li&gt;arcs…objectsに格納されているobject群の座標値を一元的に管理。線のように、点の連続で構成されている。&lt;/li&gt;
+&lt;li&gt;transform…デルタ符号化された整数の座標をそれぞれのネイティブな値へ変換するための、変換値を保持（大きさと位置の補正）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;行政界データでいうと境の部分はそれを共有する双方の県なり市区町村が同じ形状のものを持ちますがこれを一元化したり、座標は一カ所だけ絶対値でもちそれ以外の座標を相対値で持つことで必要な桁数をグッと減らすことができ、その結果ファイルサイズの軽量化が測れる構成になっているようです。またブラウザで表示用にレンダリングする際にはGeoJsonに戻してからレンダリングしますので、地形データはファイルサイズが大きくなりがちで、デコードするコストをかけても転送速度を軽減した方がよい、という考えのようです。&lt;/p&gt;
+&lt;h3 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://n1n9.jp/d3/geojson/spec/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GeoJSON仕様（日本語訳）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://stackoverflow.com/questions/14740705/difference-between-geojson-and-topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Difference between GeoJSON and TopoJSON | stack overflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://geeohspatial.blogspot.jp/2013/03/topojson-basics.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TopoJSON Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://ja.d3js.node.ws/blocks/mike/map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.jsとTopoJSONで地図を作る&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

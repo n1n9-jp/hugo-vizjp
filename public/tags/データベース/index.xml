@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>データベース on Visualizing.JP</title>
+        <link>https://example.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</link>
+        <description>Recent content in データベース on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>調査報道のためのファイル探索アプリDatashare</title>
+        <link>https://example.com/datashare/</link>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/datashare/</guid>
+        <description>&lt;img src="https://example.com/datashare/images/Datashare-topimage.png" alt="Featured image of post 調査報道のためのファイル探索アプリDatashare" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://datashare.icij.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datashare&lt;/a&gt;は、非営利の国際調査ジャーナリストコンソーシアム（ICIJ）によって開発された無料のオープンソースデスクトップアプリケーションです。ジャーナリストが利用することが想定されています。&lt;/p&gt;
+&lt;p&gt;パナマペーパーやパラダイスペーパーなど、ICIJが最大のプロジェクトを実現するのに役立ったのと同じテクノロジーで構築されています。こんなことが行えるそうです。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/datashare/images/Datashare-1-e1526312741180.png&#34;
+	width=&#34;621&#34;
+	height=&#34;345&#34;
+	srcset=&#34;https://example.com/datashare/images/Datashare-1-e1526312741180_hu51f536891cd232977eb6ed8b2b21df53_109256_480x0_resize_box_3.png 480w, https://example.com/datashare/images/Datashare-1-e1526312741180_hu51f536891cd232977eb6ed8b2b21df53_109256_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;432px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;潜在的なサードパーティの干渉からドキュメントを保護しながら、ローカルコンピューター上ですべてのドキュメントにワンストップにアクセスする&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ファイルからテキストを抽出&lt;/strong&gt;（現在は英語、スペイン語、フランス語、ドイツ語に対応）することによって、PDF、画像、テキスト、スプレッドシート、スライドなど様々な形式のファイルを同時に検索&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人、組織、場所ごとに自動的にタグづけ&lt;/strong&gt;し、検出およびフィルタリングが可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;「ファイルからテキストを抽出」や「人、組織、場所ごとに自動的にタグづけ」するところに、様々なアルゴリズムが用いられています。&lt;/p&gt;
+&lt;p&gt;機械可読テキスト化にはApache Tikaを使用、光学文字認識にはTesseract OCRを適用し、検索エンジンにはElasticsearchを使用しています。&lt;/p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&#34;https://example.com/datashare/images/Datashare-2-e1526314881742.png&#34;
+	width=&#34;619&#34;
+	height=&#34;308&#34;
+	srcset=&#34;https://example.com/datashare/images/Datashare-2-e1526314881742_hubc9564287bd9c3b1ff99b06675f69dcb_112304_480x0_resize_box_3.png 480w, https://example.com/datashare/images/Datashare-2-e1526314881742_hubc9564287bd9c3b1ff99b06675f69dcb_112304_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;482px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.icij.org/blog/2018/05/icijs-datashare-project-will-help-journalists-breach-borders/&lt;/a&gt;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;また、分析のためにGoogleが制御するサーバーなどのサードパーティのプラットフォームにデータを送信しません。そうではなく、ICIJのナレッジセンターでホストしている以前のICIJ調査（パナマペーパーやパラダイスペーパーなど）からのすべての漏洩データとも接続できるとのことです。&lt;/p&gt;
+&lt;p&gt;Datashare開発者のJulien Martinさんは、「Datashareは作業の重複を回避するだけでなく、新しい探検の道を開き、多様な思考を促し、セキュリティとプライバシーを改善して、選択したジャーナリストが24時間年中無休で情報を入手できるようにします。」と述べています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datashare.icij.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://datashare.icij.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://icij.gitbook.io/datashare/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://icij.gitbook.io/datashare/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/ICIJ/datashare&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/ICIJ/datashare&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

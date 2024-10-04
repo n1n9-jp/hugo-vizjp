@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp; Insights teamの">
+<title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
+
+<link rel='canonical' href='https://example.com/openvisconf2013-miguel/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント">
+<meta property='og:description' content="ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp; Insights teamの">
+<meta property='og:url' content='https://example.com/openvisconf2013-miguel/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='openvisconf' /><meta property='article:tag' content='twitter' /><meta property='article:published_time' content='2013-11-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2013-11-05T00:00:00&#43;00:00'/><meta property='og:image' content='https://example.com/openvisconf2013-miguel/images/fi_OVC2013Miguel.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント">
+<meta name="twitter:description" content="ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp; Insights teamの"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://example.com/openvisconf2013-miguel/images/fi_OVC2013Miguel.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E3%83%AA%E3%83%B3%E3%82%AF/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#実装にとりかかる前に明らかにすべきこと">実装にとりかかる前に明らかにすべきこと</a></li>
+        <li><a href="#ウェブ標準技術とビジュアライゼーションとの親和性">ウェブ標準技術とビジュアライゼーションとの親和性</a></li>
+        <li><a href="#それぞれの実装法の用途">それぞれの実装法の用途</a></li>
+        <li><a href="#参照したtwitter社の実装例">参照したTwitter社の実装例</a>
+          <ol>
+            <li><a href="#2012-us-elections-map">2012 U.S. ELECTIONS MAP</a></li>
+            <li><a href="#2011-japan-earthquakeリンク先は動画">2011 JAPAN EARTHQUAKE（リンク先は動画）</a></li>
+            <li><a href="#neil-armstrongs-visualizationリンク先は動画">NEIL ARMSTRONG&rsquo;S VISUALIZATION（リンク先は動画）</a></li>
+          </ol>
+        </li>
+        <li><a href="#所感">所感</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/openvisconf2013-miguel/">
+                <img src="/openvisconf2013-miguel/images/fi_OVC2013Miguel_hub061ff554dbc85f878684c2f89f276a2_367783_800x0_resize_box_3.png"
+                        srcset="/openvisconf2013-miguel/images/fi_OVC2013Miguel_hub061ff554dbc85f878684c2f89f276a2_367783_800x0_resize_box_3.png 800w, /openvisconf2013-miguel/images/fi_OVC2013Miguel_hub061ff554dbc85f878684c2f89f276a2_367783_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                technology
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/openvisconf2013-miguel/">ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 05, 2013</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。</p>
+<p>講演での順番とはちょうど逆になりますが、話の流れがわかりやすい順番に構成します。</p>
+<p>主にブラウザーのレンダリングの仕方が、DOM構造を残した状態なのか、そうでなく1つのDOM要素(canvas要素)の中にすべて描画するのか、という点を切り口に、主要な実装方法であるHTML/CSS、SVG、HTML5 Canvas、WebGLを取り上げ、整理しています。</p>
+<h3 id="実装にとりかかる前に明らかにすべきこと">実装にとりかかる前に明らかにすべきこと
+</h3><p><img src="/openvisconf2013-miguel/images/openvis2013Miguel-2-1.png"
+	width="690"
+	height="465"
+	srcset="/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu9c0592bd0fce0bb811c3f435256776a7_267613_480x0_resize_box_3.png 480w, /openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu9c0592bd0fce0bb811c3f435256776a7_267613_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="148"
+		data-flex-basis="356px"
+	
+></p>
+<ul>
+<li>要素はどのくらいの数になるのか</li>
+<li>それらの要素はどのくらい複雑な形をしているか、また配置するか</li>
+<li>どの程度インタラクティブ性を持たせるか</li>
+<li>アニメーションや変形はさせるのか</li>
+<li>古いブラウザをサポートする必要があるかどうか</li>
+<li>関係するオープンソースの例やフレームワークはあるのかどうか</li>
+</ul>
+<p>これらの検討項目とともに依ってたつ実装方法と実際のTwitter社での事例とともにまとめた表を使いながら説明がされました。</p>
+<h3 id="ウェブ標準技術とビジュアライゼーションとの親和性">ウェブ標準技術とビジュアライゼーションとの親和性
+</h3><p><img src="/openvisconf2013-miguel/images/openvis2013Miguel-3-1.png"
+	width="690"
+	height="465"
+	srcset="/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu9c0592bd0fce0bb811c3f435256776a7_250171_480x0_resize_box_3.png 480w, /openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu9c0592bd0fce0bb811c3f435256776a7_250171_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="148"
+		data-flex-basis="356px"
+	
+></p>
+<p>こちらも講演ドキュメントで一番右側の列がハイライトされてますが、これはその項目を説明中のキャプチャだからなので気にしないでください（すべてフラットに扱われている表が講演ドキュメント中ないため）。わかりやすくするため、並び順を一部入れ替え翻訳すると以下の通りになります。</p>
+<table class="wp-block-table table-single"><tbody><tr><th>ウェブ標準技術</th><td>HTML/SVG</td><td>HTML 5 Canvas</td><td>WebGL</td></tr><tr><th>オープンソースのフレームワーク</th><td>d3.js</td><td>processing.js</td><td>PhiloGL</td></tr><tr><th>Twitter社での実例</th><td>2012 U.S. ELECTIONS MAP</td><td>2011 JAPAN EARTHQUAKE</td><td>NEIL ARMSTRONG'S VISUALIZATION</td></tr><tr><th>要素の数</th><td>少ない</td><td>多い</td><td>多い</td></tr><tr><th>要素の複雑さ</th><td>複雑</td><td>簡易</td><td>複雑</td></tr><tr><th>インタラクティブ性</th><td>なし</td><td>あり</td><td>あり</td></tr><tr><th>アニメーション</th><td>なし</td><td>あり</td><td>あり</td></tr><tr><th>ブラウザのサポート</th><td>IE7+</td><td>モダンブラウザのみ</td><td>モダンブラウザのみ</td></tr></tbody></table>
+<h3 id="それぞれの実装法の用途">それぞれの実装法の用途
+</h3><p>文章としては以下のようにまとめられています。</p>
+<p>HTML/SVG要素が少ない、形状が複雑、インタラクティブなビジュアライゼーションに適している。CANVAS小規模から比較的多数の要素やアニメーションに適している。WEBGL小規模から非常に大多数の要素、複雑な形状のアニメーションや3Dビジュアライゼーションに適している。</p>
+<h3 id="参照したtwitter社の実装例">参照したTwitter社の実装例
+</h3><h4 id="2012-us-elections-map">2012 U.S. ELECTIONS MAP
+</h4><p><img src="/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1.png"
+	width="690"
+	height="719"
+	srcset="/openvisconf2013-miguel/images/_hu617c6c194dc051175aad6db1b1a31c57_473205_373388a09da13def4cdd4712cfa0060d.png 480w, /openvisconf2013-miguel/images/_hu617c6c194dc051175aad6db1b1a31c57_473205_cd646e2c5f4505907874bdcee0d58dbb.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="95"
+		data-flex-basis="230px"
+	
+></p>
+<p>2012年選挙の際、大統領候補者によって送られたTweetによるエンゲージメントの可視化。</p>
+<h4 id="2011-japan-earthquakeリンク先は動画">2011 JAPAN EARTHQUAKE（リンク先は動画）
+</h4><p><img src="/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1.png"
+	width="690"
+	height="483"
+	srcset="/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu1f1885bdc4bb4b7971b64899d42ba1d4_321395_480x0_resize_box_3.png 480w, /openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu1f1885bdc4bb4b7971b64899d42ba1d4_321395_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="142"
+		data-flex-basis="342px"
+	
+></p>
+<p>3.11の地震発生一時間後、日本発のTweetがどのようにRetweetされ世界中に伝播していったかの可視化。</p>
+<h4 id="neil-armstrongs-visualizationリンク先は動画">NEIL ARMSTRONG&rsquo;S VISUALIZATION（リンク先は動画）
+</h4><p>ニール·アームストロングが亡くなったことについての@NASAのTweetがどのようにRetweetされ世界中に伝播していったかの可視化。</p>
+<p><img src="/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1.png"
+	width="690"
+	height="516"
+	srcset="/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu166a55eb80704ffa0f62e7933ce0a332_277163_480x0_resize_box_3.png 480w, /openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu166a55eb80704ffa0f62e7933ce0a332_277163_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="133"
+		data-flex-basis="320px"
+	
+></p>
+<h3 id="所感">所感
+</h3><p>全体的に話の構造がすっきりとわかりやすい理にかなう説明でしたが、DOM構造を活かすかどうかがブラウザー上の実行速度しか念頭にない点は気になりますね。このプレゼンテーションの会場に筆者は居たのですが、会場から「モバイルの場合は？」という質問に「モバイルは今回考慮してないよ」との回答に会場の一部から失笑が起こりました。…なかなかシビアですね。<br>
+また直接この講演の内容とは関係ないですが、SVG用ライブラリを使った実装でも描画部分をCanvasで行って描画速度をあげているユーザーもその会場にいました。<br>
+降壇あとに直接聞いたところ、Twitter社のデータサイエンティストは4名で、主に社内向け（インターナル）の分析とビジュアライズの方がほとんどだとのことでした。またこの講演の少し後の時期にTwitter社は<a class="link" href="http://luckysort.com/"  target="_blank" rel="noopener"
+    >Lucky Sort</a>という<a class="link" href="http://techcrunch.com/2013/05/13/twitter-acquires-big-data-visualization-startup-lucky-sort-service-to-shutter-in-months-ahead/"  target="_blank" rel="noopener"
+    >ビッグデータのビジュアライゼーション会社を買収しています</a>ので現在はまた体制が変わっていることと思います。</p>
+<p>実際のプレゼンテーションの動画やドキュメントへのリンクを以下に掲載しますので是非たどってみてください。</p>
+<ul>
+<li><a class="link" href="http://miguelrios.github.io/openvis-web/#/"  target="_blank" rel="noopener"
+    >Miguel Riosの講演(スライド)</a></li>
+<li><a class="link" href="http://www.youtube.com/watch?v=XKGV-_5DqHA"  target="_blank" rel="noopener"
+    >Miguel Riosの講演(動画)</a></li>
+<li><a class="link" href="http://source.opennews.org/en-US/articles/twitters-miguel-rios-choosing-viz-methods/"  target="_blank" rel="noopener"
+    >Twitter&rsquo;s Miguel Rios on Choosing Viz Methods - Features - Source: An OpenNews project</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/openvisconf/">openvisconf</a>
+        
+            <a href="/tags/twitter/">twitter</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/excel-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/excel-reverse-pivot/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Excelでのピボットテーブルの解除"
+                        data-key="excel-reverse-pivot" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Excelでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/openrefine-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/openrefine-reverse-pivot/images/image_3hours_refine.806918503329ac41f761810df4cac25f_hu2d5e71f363e58e9875ed24d2e909b0d1_48965_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenRefineでのピボットテーブルの解除"
+                        data-key="openrefine-reverse-pivot" 
+                        data-hash="md5-gGkYUDMprEH3YYEN9MrCXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">OpenRefineでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-gl-js-v2/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-gl-js-v2/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ"
+                        data-key="mapbox-gl-js-v2" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/focus-context/">
+        
+        
+            <div class="article-image">
+                <img src="/focus-context/images/image-35.b2c526c985c3fdc8814e16623a741eb6_hua81f20bb85ab37122ff5211396e483c8_3549478_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Focus&#43;Contextの実例"
+                        data-key="focus-context" 
+                        data-hash="md5-ssUmyYXD/ciBThZiOnQetg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Focus&#43;Contextの実例</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/visual-analytics-interaction/">
+        
+        
+            <div class="article-image">
+                <img src="/visual-analytics-interaction/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理"
+                        data-key="visual-analytics-interaction" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ビジュアル・アナリシスにおけるインタラクションの整理</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2024 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
