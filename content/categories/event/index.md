@@ -1,5 +1,5 @@
 ---
-title: "Event"
+title: "イベント"
 date: 2019-05-28
 layout: "event"
 slug: "event"

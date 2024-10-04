@@ -4,7 +4,7 @@ title = "世界の行政機関 情報可視化 事例"
 slug = "world-gov-infoviz-report"
 date = "2020-06-24"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "",

@@ -4,7 +4,7 @@ title = "東京都公式と厚労省公式で異なる、東京都での COVID-1
 slug = "covid19tokyo"
 date = "2020-04-21"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

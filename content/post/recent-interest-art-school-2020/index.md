@@ -4,7 +4,7 @@ title = "美大生に聞く、今気になるデータ可視化／インフォ�
 slug = "recent-interest-art-school-2020"
 date = "2020-06-23"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "",

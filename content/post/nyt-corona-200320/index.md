@@ -4,7 +4,7 @@ title = "緊急の管理措置なしには、北米でコロナウイルスの�
 slug = "nyt-corona-200320"
 date = "2020-03-21"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

@@ -4,7 +4,7 @@ title = "「最も美しい」や「最も楽しい」道順を提案する研�
 slug = "most-beauty-route"
 date = "2016-07-20"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "研究",

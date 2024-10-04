@@ -4,7 +4,7 @@ title = "data.go.jp開設"
 slug = "data-go-jp"
 date = "2013-12-30"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "オープンデータ",

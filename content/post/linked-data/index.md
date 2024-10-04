@@ -4,7 +4,7 @@ title = "Linked Data"
 slug = "linked-data"
 date = "2013-11-08"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "lod"

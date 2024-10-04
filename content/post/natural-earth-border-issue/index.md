@@ -4,7 +4,7 @@ title = "Natural Earth配布ファイルの国境について"
 slug = "natural-earth-border-issue"
 date = "2014-11-03"
 categories = [
-    "article"
+    "technology"
 ]
 tags = [
     ""

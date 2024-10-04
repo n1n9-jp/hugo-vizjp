@@ -4,7 +4,7 @@ title = "パナマ文書におけるデータの構造化"
 slug = "panama-papers-wrangling"
 date = "2020-05-19"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     ""

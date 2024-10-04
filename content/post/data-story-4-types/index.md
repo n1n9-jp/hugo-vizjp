@@ -4,7 +4,7 @@ title = "データ・ジャーナリズムにおけるデータ・ストーリ�
 slug = "data-story-4-types"
 date = "2020-10-02"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

@@ -4,7 +4,7 @@ title = "調査報道のためのファイル探索アプリDatashare"
 slug = "datashare"
 date = "2019-10-12"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "オープンソース","データベース","自然言語処理"

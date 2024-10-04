@@ -4,7 +4,7 @@ title = "三つ以上の項目の重なりはベン図では理解できない�
 slug = "covid-symptom-upset"
 date = "2020-08-14"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "covid-19",

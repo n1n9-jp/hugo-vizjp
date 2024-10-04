@@ -4,7 +4,7 @@ title = "国の事業予算の使いみちを全文横断検索できるサー�
 slug = "judgit-overview"
 date = "2019-08-25"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "",

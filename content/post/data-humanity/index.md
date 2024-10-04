@@ -4,7 +4,7 @@ title = "残された我々のための「データ・ヒューマニティ」"
 slug = "data-humanity"
 date = "2020-06-26"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "",

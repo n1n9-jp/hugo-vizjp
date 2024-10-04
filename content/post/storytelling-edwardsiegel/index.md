@@ -4,7 +4,7 @@ title = "データ・ストーリーテリングの体系化（エドワルド�
 slug = "storytelling-edwardsiegel"
 date = "2019-10-28"
 categories = [
-    "dj","technology"
+    "data-journalism","technology"
 ]
 tags = [
     "",

@@ -4,7 +4,7 @@ title = "全飛行機の飛行情報からスパイ機を特定したBuzzFeedの
 slug = "buzzfeed-spyfly"
 date = "2020-05-20"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

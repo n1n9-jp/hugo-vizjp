@@ -4,7 +4,7 @@ title = "ワシントン・ポストによる「曲線を平らにする」た�
 slug = "wp-corona-simulation"
 date = "2020-06-20"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     ""

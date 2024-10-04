@@ -3,7 +3,7 @@ title = "サイモン・ロジャースの提唱するデータジャーナリ�
 slug = "simon-rogers-workflow"
 date = "2020-05-26"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

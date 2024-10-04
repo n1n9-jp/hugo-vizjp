@@ -4,7 +4,7 @@ title = "すべてを明け渡すことではじめて完成する、茶道と�
 slug = "how-to-give-everything-away"
 date = "2014-01-14"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "fitc","オープンソース"

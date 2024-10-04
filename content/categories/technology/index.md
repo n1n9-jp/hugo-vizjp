@@ -1,8 +1,8 @@
 ---
-title: "チャート・カタログ"
+title: "作るための記事"
 date: 2020-08-30
 layout: "chart"
-slug: "chart"
+slug: "technology"
 image: "chart.png"
 menu:
     main:

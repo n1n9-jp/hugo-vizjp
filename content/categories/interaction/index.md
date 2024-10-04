@@ -1,5 +1,5 @@
 ---
-title: "Interaction"
+title: "インタラクション"
 date: 2019-05-28
 layout: "interaction"
 slug: "interaction"

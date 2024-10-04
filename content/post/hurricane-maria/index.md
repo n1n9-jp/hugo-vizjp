@@ -4,7 +4,7 @@ title = "ハリケーン・マリアは人災だった。Quartz、AP通信、CPI
 slug = "hurricane-maria"
 date = "2019-10-12"
 categories = [
-    "dj"
+    "data-journalism"
 ]
 tags = [
     "",

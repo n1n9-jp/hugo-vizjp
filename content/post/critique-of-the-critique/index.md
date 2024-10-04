@@ -4,7 +4,7 @@ title = "データ可視化への批評への批評への批評"
 slug = "critique-of-the-critique"
 date = "2020-07-20"
 categories = [
-    "article"
+    "consume"
 ]
 tags = [
     "covid-19",
