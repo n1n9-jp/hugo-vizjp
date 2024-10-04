@@ -22,7 +22,7 @@ services:
         shortname: "hugo-theme-stack"
     # GA Tracking ID
     googleAnalytics:
-
+        trackingID: "G-4TJ2VLQ4T2"
 
 permalinks:
     post: /:slug/
@@ -44,7 +44,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 
         subtitle: データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。
 
         avatar:
