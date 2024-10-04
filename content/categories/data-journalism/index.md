@@ -2,7 +2,7 @@
 title: "データ・ジャーナリズム"
 layout: "chart"
 slug: "data-journalism"
-image: "chart.png"
+image: "data-journalism.png"
 date: 2024-08-30
 menu:
     main:

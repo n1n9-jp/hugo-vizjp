@@ -2,7 +2,7 @@
 title: "イベント"
 layout: "event"
 slug: "event"
-image: "NDL1.png"
+image: "event.png"
 date: 2024-07-31
 menu:
     main:
