@@ -1,8 +1,8 @@
 ---
 title: "このサイトについて"
 date: 2013-06-19
-layout: "archives"
-slug: "archives"
+layout: "article"
+slug: "about"
 menu:
     main:
         weight: 500
