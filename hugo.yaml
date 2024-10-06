@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: https://visualizing.jp
 languageCode: ja-jp
 theme: hugo-theme-stack
 paginate: 3
