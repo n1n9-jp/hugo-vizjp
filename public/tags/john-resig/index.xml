@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>john-resig on Visualizing.JP</title>
-        <link>https://example.com/tags/john-resig/</link>
+        <link>https://visualizing.jp/tags/john-resig/</link>
         <description>Recent content in john-resig on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/john-resig/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/john-resig/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>[OpenVis Conf 2014] John Resig講演</title>
-        <link>https://example.com/openvisconf-2014-johnresig/</link>
+        <link>https://visualizing.jp/openvisconf-2014-johnresig/</link>
         <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/openvisconf-2014-johnresig/</guid>
-        <description>&lt;img src="https://example.com/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
+        <guid>https://visualizing.jp/openvisconf-2014-johnresig/</guid>
+        <description>&lt;img src="https://visualizing.jp/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
 &lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Part 2: Keynote Day 2&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-john-resig-_analyzing-art-data-for-fun-and-profit_&#34;&gt;2. John Resig: &lt;em&gt;Analyzing Art Data for Fun and Profit&lt;/em&gt;
 &lt;/h2&gt;&lt;p&gt;二日目のキーノートスピーカーは言わずと知れた著名ライブラリjQueryの作者、John Resigでした。彼はJavaScript関連の本を何冊も執筆している有名なJavaScriptハッカーですが、他方、非常に熱心な日本文化、特に浮世絵のファンとしての一面も持っています。彼のキーノートは、まさにその両面が融合された非常に興味深いものでした。&lt;/p&gt;
@@ -30,10 +30,10 @@
 &lt;/div&gt;
 
 &lt;h3 id=&#34;日本文化と浮世絵&#34;&gt;日本文化と浮世絵
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu38ad8babc97ba2c7b993df644f86e212_468615_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -42,10 +42,10 @@
 		data-flex-basis=&#34;401px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu38ad8babc97ba2c7b993df644f86e212_465075_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -98,10 +98,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu38ad8babc97ba2c7b993df644f86e212_479383_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -113,10 +113,10 @@
 &lt;h4 id=&#34;コメント&#34;&gt;コメント
 &lt;/h4&gt;&lt;p&gt;日本人である私よりも、遥かに江戸文化に理解があるようでした。趣味とは言え凄いことです。そして同時に海外で暮らす人間として、自国文化への知識の欠如は恥ずかしいことだとも改めて認識しました。自国文化におけるaestheticsに対して自分なりの考えと理解を持つことは、英語よりもずっと大切です。印象派絵画と浮世絵の関係などは、欧米人あたりが良く興味を持って聞いてくるトピックですし。&lt;/p&gt;
 &lt;h3 id=&#34;浮世絵のデータベース&#34;&gt;浮世絵のデータベース
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;425&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu1d337078246a8dca117bb88164eb6332_278635_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -143,10 +143,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu38ad8babc97ba2c7b993df644f86e212_263341_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -162,10 +162,10 @@
 &lt;li&gt;大学や美術館のデータベースは必ずしもベストではない。検索もあまり使い勝手が良くなかった。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5 id=&#34;実際の作業&#34;&gt;実際の作業
-&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
+&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu38ad8babc97ba2c7b993df644f86e212_272121_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -199,10 +199,10 @@
 &lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;実際の版画を撮影してネットで検索&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu1082114ec8017535740c7b42a8ff1793_297835_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -211,10 +211,10 @@
 		data-flex-basis=&#34;411px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu1082114ec8017535740c7b42a8ff1793_288193_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -229,10 +229,10 @@
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;スクレイピングで得たデータベースを検索すると、たくさんの類似した画像が見つかった。それらは別のものなのか、何か共通点があるのか？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu1082114ec8017535740c7b42a8ff1793_496262_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -241,10 +241,10 @@
 		data-flex-basis=&#34;411px&#34;
 	
 &gt; * 例：　二つの良く似た浮世絵（歌舞伎役者） * メトロポリタンの画像データでサインを改変してあるものを発見した * 元々は同じもの。 * 多面的なデータ比較により、歌川国芳もののだと発見した&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig10-1_huc0cc8f06c6f808f8e934b3e2255f045c_340935_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -257,10 +257,10 @@
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;日本人の名前の表記の揺れを吸収してメタデータを作成するのは困難な作業。(これは日本人にとっても困難な作業なので、日本語の専門家でもない外国人である彼がこの作業を一人でやってのけたのは驚きです。)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig13-1_huc0cc8f06c6f808f8e934b3e2255f045c_206187_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -269,10 +269,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * 例: 浮世絵画家の「歌川広重」を指す名前のメタデータ * 広重 * 歌川広重 * hiroshige * Hiroshige utagawa * ひろしげ&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig11-1_huc0cc8f06c6f808f8e934b3e2255f045c_234179_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -281,10 +281,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * 例：苗字の表記の揺れ * Ando, 安藤, 安東, あんどう, 安堂, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig12-1_huc0cc8f06c6f808f8e934b3e2255f045c_198847_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -293,10 +293,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * これらの揺れを統合して一つのメタデータエントリに仕上げる。 * 発音、漢字、ローマ字等のデータを統合 * JSONとしてストア * (この作業を、彼は_Artist Rectification_と呼んでいた。「アーティスト情報の整流作業」とでも訳せばよいのだろうか？)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig14-1_huc0cc8f06c6f808f8e934b3e2255f045c_223440_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -312,10 +312,10 @@
 &lt;/h5&gt;&lt;p&gt;&lt;code&gt;JSON:syaraku.json { &amp;quot;original&amp;quot;: &amp;quot;Sharaku Tōshūsai (東洲斎写楽)&amp;quot;, &amp;quot;locale&amp;quot;: &amp;quot;ja&amp;quot;, &amp;quot;kanji&amp;quot;: &amp;quot;東洲斎写楽&amp;quot;, &amp;quot;given&amp;quot;: &amp;quot;Sharaku&amp;quot;, &amp;quot;given_kana&amp;quot;: &amp;quot;しゃらく&amp;quot;, &amp;quot;surname&amp;quot;: &amp;quot;Tōshūsai&amp;quot;, &amp;quot;surname_kana&amp;quot;: &amp;quot;とおしゅうさい&amp;quot;, &amp;quot;surname_kanji&amp;quot;: &amp;quot;東洲斎&amp;quot;, &amp;quot;given_kanji&amp;quot;: &amp;quot;写楽&amp;quot;, &amp;quot;name&amp;quot;: &amp;quot;Tōshūsai Sharaku&amp;quot;, &amp;quot;ascii&amp;quot;: &amp;quot;Tooshuusai Sharaku&amp;quot;, &amp;quot;plain&amp;quot;: &amp;quot;Toshusai Sharaku&amp;quot;, &amp;quot;kana&amp;quot;: &amp;quot;とおしゅうさいしゃらく&amp;quot; }&lt;/code&gt;&lt;/p&gt;
 &lt;h5 id=&#34;コメント-1&#34;&gt;コメント
 &lt;/h5&gt;&lt;p&gt;多分に力技な部分もありますが、趣味でよくここまでやったなあ、というのが正直な感想です。ずいぶんと良くなってきたとは言え、様々な形で保存されている生物学関連の公共データベースのデータを統合する作業を日頃行っている身としては、色々と頷ける部分もある一方、こういう苦労が少なくなる「機械にやさしいウェブ」が世界には必要だという認識も新たにしました。最近は、天文学分野で使われる「ダークマター」と言う語をもじって、「ダークデータ」などという呼び方もあるようですが、情報としては価値があるにもかかわらず、機械からのアクセスが困難なためにネットの海の底にひっそりと眠っているこういったデータをサルベージする技術や標準化がますます必要な時代になると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig15-1_huc0cc8f06c6f808f8e934b3e2255f045c_464133_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -326,10 +326,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;フリックコレクションとのコラボレーション&#34;&gt;フリックコレクションとのコラボレーション
 &lt;/h3&gt;&lt;p&gt;このようなデータベースを作成する過程で、世界各地の美術館とコンタクトを取り合うようになり、結果、業務としてフリック・コレクション（ニューヨークにある美術館）とコラボレーションすることになった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig16-1_huc0cc8f06c6f808f8e934b3e2255f045c_257654_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -360,10 +360,10 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig17-1_huc0cc8f06c6f808f8e934b3e2255f045c_232442_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -372,10 +372,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * アートをハックするには？ * オークションに行くといい * プレビューの日を使うと、買うか買わないかはともかく、非常に高価なものに間近で見て触れることが出来る&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_480x0_resize_box_3.png 480w, https://example.com/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_480x0_resize_box_3.png 480w, https://visualizing.jp/openvisconf-2014-johnresig/images/ovc2014_resig18-1_huc0cc8f06c6f808f8e934b3e2255f045c_194648_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

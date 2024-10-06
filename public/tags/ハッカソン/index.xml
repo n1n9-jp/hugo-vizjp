@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ハッカソン on Visualizing.JP</title>
-        <link>https://example.com/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/</link>
+        <link>https://visualizing.jp/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/</link>
         <description>Recent content in ハッカソン on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 13 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 13 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</title>
-        <link>https://example.com/ndl-dataviz/</link>
+        <link>https://visualizing.jp/ndl-dataviz/</link>
         <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/ndl-dataviz/</guid>
-        <description>&lt;img src="https://example.com/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
+        <guid>https://visualizing.jp/ndl-dataviz/</guid>
+        <description>&lt;img src="https://visualizing.jp/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
 &lt;h2 id=&#34;国会図書館にはデータがたくさん&#34;&gt;国会図書館にはデータがたくさん
 &lt;/h2&gt;&lt;p&gt;国会図書館には収蔵している書籍に関するデータもあるのですが、今回は「ウェブサイト」がテーマとなっています。
 国会図書館では、15年前よりウェブページのアーカイブをおこなっており、その結果はWARPというウェブサービスとして公開されています。&lt;/p&gt;
@@ -27,10 +27,10 @@
 &lt;h2 id=&#34;都道府県どう並べる&#34;&gt;都道府県、どう並べる？
 &lt;/h2&gt;&lt;p&gt;グラフの種類が…とか、ツールが…と考える前に自由に発想してみましょう。
 円状に並ぶと、かわいいですね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_circle.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -40,10 +40,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;一直線に並べてみたり。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_line.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_line.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -53,10 +53,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;地図っぽく並べてみたり。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_dot_map.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_map.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -69,10 +69,10 @@
 &lt;/h2&gt;&lt;p&gt;それではこれらを使って、都道府県同士のつながりを線で表現してみましょう。つながりが強いほど太い線で表してみます。またつながりの質によって色を変えてみることにします。&lt;/p&gt;
 &lt;h3 id=&#34;円状&#34;&gt;円状
 &lt;/h3&gt;&lt;p&gt;円状に置いた都道府県同士を曲線でつないでいます。またつながりが多い都道府県ほど、弧の長さが長くなっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_all.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_all.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -83,10 +83,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;ここでは静止画でいくつかの都道府県にフォーカスしてみましょう。&lt;/p&gt;
 &lt;p&gt;八方美人な北海道&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_hokkaido.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -97,10 +97,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;たくさんの都道府県にまんべんなくエールを送る、そつのない北海道。&lt;/p&gt;
 &lt;p&gt;関東エリアと大阪のみの東京&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_tokyo.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_tokyo.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -111,10 +111,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;意外と付き合いの範囲が狭い東京（汗）。&lt;/p&gt;
 &lt;p&gt;自由奔放な長崎&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/ndl_nagasaki.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -129,10 +129,10 @@
     &gt;都道府県サイトのリンク関係&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;一直線&#34;&gt;一直線
 &lt;/h3&gt;&lt;p&gt;この例は筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/NDL2_v.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/NDL2_v.png&#34;
 	width=&#34;1094&#34;
 	height=&#34;2175&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -143,10 +143,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;地図っぽく&#34;&gt;地図っぽく
 &lt;/h3&gt;&lt;p&gt;この例も筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。日本列島を描かずに、日本を浮かび上がらせたらと思いました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ndl-dataviz/images/NDL1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/NDL1.png&#34;
 	width=&#34;1119&#34;
 	height=&#34;1654&#34;
-	srcset=&#34;https://example.com/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_480x0_resize_box_3.png 480w, https://example.com/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

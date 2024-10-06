@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>chart on Visualizing.JP</title>
-        <link>https://example.com/tags/chart/</link>
+        <link>https://visualizing.jp/tags/chart/</link>
         <description>Recent content in chart on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ナイチンゲールによる「鶏冠」チャート</title>
-        <link>https://example.com/nightingale-chart/</link>
+        <link>https://visualizing.jp/nightingale-chart/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/nightingale-chart/</guid>
-        <description>&lt;img src="https://example.com/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
+        <guid>https://visualizing.jp/nightingale-chart/</guid>
+        <description>&lt;img src="https://visualizing.jp/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
 &lt;p&gt;端的にいうと、病院における兵士の死亡率は、実際の戦闘 （赤）やその他の原因（黒）で死亡したよりも、予防もしくは軽減可能な伝染病（青色）で死亡したことを示しており、当時のイギリス政府へ現状を訴えるために、データを自身で記録し、のちに制作したレポートに挿入されました。&lt;/p&gt;
 &lt;p&gt;ナイチンゲール自身が直接ヴィクトリア女王に接見できる身分だったり、知人の夫が当時の戦時大臣だったりしたこともあって、相談しながら行動を起こしているのですが、レポートの甲斐あって実際に改善されたということです。&lt;/p&gt;
 &lt;p&gt;1854年3月、フランス、イギリス、サルデーニャ、オスマン帝国とロシアの間で戦争が勃発しました。戦争での戦闘のほとんどはクリミア半島で起こりましたが、負傷したイギリス軍は黒海を越えたトルコの病院に運ばれました。&lt;/p&gt;
 &lt;p&gt;ナイチンゲールは、ボランティア看護師としてほかの女性たちと一緒にトルコに同年10月に到着します。最初は病棟への立ち入りを拒否され、ナイチンゲールと仲間の看護師たちが患者との接触を許されたのは、病院が危機的な状態になった翌年1855年3月だったとのことです。&lt;/p&gt;
 &lt;p&gt;負傷した兵士の環境を改善しようと努力していく中で、患者の福祉の重要性を示す証拠として、病院での死亡者数を綿密に記録しました。その結果を当時のイギリス政府へ訴えるために作られたのが、この著名なチャートでした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/nightingale-chart/images/Nightingale-mortality.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1609&#34;
-	srcset=&#34;https://example.com/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_480x0_resize_q75_box.jpg 480w, https://example.com/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;クリミア戦争におけるイギリス軍の死亡原因&#34;
@@ -44,10 +44,10 @@
 the Causes of Mortality in the British Military during the Crimean War&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;これより以前に作成したチャートでは、面積ではなく、原点からの長さを数値で示しているため、その誤りに気づき、撤回されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/nightingale-chart/images/bats_wing_diagram.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram.jpg&#34;
 	width=&#34;1030&#34;
 	height=&#34;1063&#34;
-	srcset=&#34;https://example.com/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_480x0_resize_q75_box.jpg 480w, https://example.com/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UCLA Elmer Belt Florence Nightingale Collection&#34;
@@ -66,15 +66,15 @@ report by Hugh Small
         </item>
         <item>
         <title>12匹のデータ・ザウルス</title>
-        <link>https://example.com/the-datasaurus-dozen/</link>
+        <link>https://visualizing.jp/the-datasaurus-dozen/</link>
         <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/the-datasaurus-dozen/</guid>
-        <description>&lt;img src="https://example.com/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1.png&#34;
+        <guid>https://visualizing.jp/the-datasaurus-dozen/</guid>
+        <description>&lt;img src="https://visualizing.jp/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1.png&#34;
 	width=&#34;1318&#34;
 	height=&#34;948&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_480x0_resize_box_3.png 480w, https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -94,10 +94,10 @@ report by Hugh Small
 &lt;/ul&gt;
 &lt;p&gt;どうやっているのか&lt;/p&gt;
 &lt;p&gt;共通の要約統計量を持つデータセットをゼロベースから生成するのは難しいと考え、既存のデータセットからスタートし、それらの統計的特性を維持しながら、望みの視覚的印象に近づくまで、少しづつ繰り返し修正を行う、というアプローチをとっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller.gif&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller.gif&#34;
 	width=&#34;827&#34;
 	height=&#34;332&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_480x0_resize_box_1.gif 480w, https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_1024x0_resize_box_1.gif 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_480x0_resize_box_1.gif 480w, https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_1024x0_resize_box_1.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Anscombe’s Quartet&#34;
@@ -115,10 +115,10 @@ report by Hugh Small
     &gt;Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Rのパッケージ化もなされています。R Studioで試してみた様子です。これはシミュレーションではなく、すでに算出されたデータを表示しているだけです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1.png&#34;
 	width=&#34;2870&#34;
 	height=&#34;2118&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_480x0_resize_box_3.png 480w, https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

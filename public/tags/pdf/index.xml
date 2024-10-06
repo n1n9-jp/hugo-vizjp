@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>pdf on Visualizing.JP</title>
-        <link>https://example.com/tags/pdf/</link>
+        <link>https://visualizing.jp/tags/pdf/</link>
         <description>Recent content in pdf on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/pdf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/pdf/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tabula Windows版のインストールがうまくいかない方へ</title>
-        <link>https://example.com/tabula-windows-install/</link>
+        <link>https://visualizing.jp/tabula-windows-install/</link>
         <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tabula-windows-install/</guid>
-        <description>&lt;img src="https://example.com/tabula-windows-install/images/fi_TabulaWindows.png" alt="Featured image of post Tabula Windows版のインストールがうまくいかない方へ" /&gt;&lt;p&gt;PDFに含まれている表をテキストデータとして抜き出すことのできるTabulaというアプリケーションがあります。&lt;/p&gt;
+        <guid>https://visualizing.jp/tabula-windows-install/</guid>
+        <description>&lt;img src="https://visualizing.jp/tabula-windows-install/images/fi_TabulaWindows.png" alt="Featured image of post Tabula Windows版のインストールがうまくいかない方へ" /&gt;&lt;p&gt;PDFに含まれている表をテキストデータとして抜き出すことのできるTabulaというアプリケーションがあります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://tabula.technology/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Tabula&lt;/a&gt;&lt;/li&gt;

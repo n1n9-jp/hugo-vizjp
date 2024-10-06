@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>tufte on Visualizing.JP</title>
-        <link>https://example.com/tags/tufte/</link>
+        <link>https://visualizing.jp/tags/tufte/</link>
         <description>Recent content in tufte on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/tufte/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/tufte/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>データ-インク比</title>
-        <link>https://example.com/data-ink-ratio/</link>
+        <link>https://visualizing.jp/data-ink-ratio/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/data-ink-ratio/</guid>
-        <description>&lt;img src="https://example.com/data-ink-ratio/images/DataInkRatio_Playfair_generated.png" alt="Featured image of post データ-インク比" /&gt;&lt;p&gt;データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。&lt;/p&gt;
+        <guid>https://visualizing.jp/data-ink-ratio/</guid>
+        <description>&lt;img src="https://visualizing.jp/data-ink-ratio/images/DataInkRatio_Playfair_generated.png" alt="Featured image of post データ-インク比" /&gt;&lt;p&gt;データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Data-ink ratio = Data-ink ÷ total ink used to print the graphic&lt;/li&gt;
@@ -23,10 +23,10 @@
 &lt;p&gt;紙に印刷されたグラフィックを想像していただいて、データインクとは、データ（測定された量）を伝えるためにインクの滴をさします。そして、グラフィック全体の印刷にかかったインク量のうち、データ（測定された量）を伝えるために用いられたインク量の比率を、データ-インク比と定義しています。&lt;/p&gt;
 &lt;p&gt;そして、この比率ができるだけ1.0に近い状態を「良いグラフィック」として定義しています。タフテの著書、The Visual Display of Quantitative Informationからご紹介していきます。&lt;/p&gt;
 &lt;h3 id=&#34;グリッドや軸の表現を軽減させる&#34;&gt;グリッドや軸の表現を軽減させる
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1.png&#34;
 	width=&#34;445&#34;
 	height=&#34;374&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -36,10 +36,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2.png&#34;
 	width=&#34;445&#34;
 	height=&#34;374&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -51,10 +51,10 @@
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;モアレ効果を多用しない&#34;&gt;モアレ効果を多用しない
 &lt;/h3&gt;&lt;p&gt;光学技術を元に多用なテクスチャの生成が可能になりましたが、モアレ効果を生み出し、ノイズが情報の流れを曇らせます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3.png&#34;
 	width=&#34;826&#34;
 	height=&#34;577&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -65,10 +65,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;自己装飾が目的になってしまっている&#34;&gt;自己装飾が目的になってしまっている
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_4.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4.png&#34;
 	width=&#34;440&#34;
 	height=&#34;694&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -80,10 +80,10 @@
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;左右対象な図形&#34;&gt;左右対象な図形
 &lt;/h3&gt;&lt;p&gt;高さを示す棒グラフは、高さを示す要素以外を極限まで減らす。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4.png&#34;
 	width=&#34;893&#34;
 	height=&#34;479&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -94,10 +94,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;p&gt;ボックスプロット、棒グラフの棒、チャーノフの顔のように、シンメトリー（左右対称性）なチャートについては、左右対称であるがゆえに、半分は冗長であるとします。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2.png&#34;
 	width=&#34;508&#34;
 	height=&#34;216&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -109,10 +109,10 @@
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;一見幾何図形のみで成立しているチャートであっても極限まで無駄を省いてみる&#34;&gt;一見、幾何図形のみで成立しているチャートであっても、極限まで無駄を省いてみる。
 &lt;/h3&gt;&lt;p&gt;通常の箱ひげ図も、この観点に立つと、極限までデータ-インク比を上げられます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkMaximize.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkMaximize.png&#34;
 	width=&#34;457&#34;
 	height=&#34;701&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -124,10 +124,10 @@
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;適切な繰り返しは許容する&#34;&gt;適切な繰り返しは許容する
 &lt;/h3&gt;&lt;p&gt;無意味な左右対称形は否定していますが、逆に、列車の時刻表や世界地図などは、スムーズな情報取得のため、意図的に繰り返す方が優れている、としています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1.png&#34;
 	width=&#34;754&#34;
 	height=&#34;614&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -137,10 +137,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3.png&#34;
 	width=&#34;718&#34;
 	height=&#34;743&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>yahooニュース個人 on Visualizing.JP</title>
-        <link>https://example.com/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/</link>
+        <link>https://visualizing.jp/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/</link>
         <description>Recent content in yahooニュース個人 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 05 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 05 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>社会課題を可視化する「データ・ビジュアライゼーション」とは</title>
-        <link>https://example.com/what-is-dataviz/</link>
+        <link>https://visualizing.jp/what-is-dataviz/</link>
         <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/what-is-dataviz/</guid>
-        <description>&lt;img src="https://example.com/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://visualizing.jp/what-is-dataviz/</guid>
+        <description>&lt;img src="https://visualizing.jp/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Yahoo!ニュース個人掲載記事&lt;/a&gt;の転載です。&lt;/p&gt;
 &lt;p&gt;Yahoo!ニュースで記事を書かせていただくことになりました矢崎です。私はデータ・ビジュアライゼーションとよばれる領域で実務家として活動しています。&lt;/p&gt;
 &lt;h2 id=&#34;データビジュアライゼーションとは&#34;&gt;データ・ビジュアライゼーションとは

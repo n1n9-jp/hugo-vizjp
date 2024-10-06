@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>qgis on Visualizing.JP</title>
-        <link>https://example.com/tags/qgis/</link>
+        <link>https://visualizing.jp/tags/qgis/</link>
         <description>Recent content in qgis on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/qgis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/qgis/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>QGISにおける階級分類</title>
-        <link>https://example.com/qgis-classification/</link>
+        <link>https://visualizing.jp/qgis-classification/</link>
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/qgis-classification/</guid>
-        <description>&lt;img src="https://example.com/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/qgis-classification/images/qgis_jenks.png&#34;
+        <guid>https://visualizing.jp/qgis-classification/</guid>
+        <description>&lt;img src="https://visualizing.jp/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/qgis-classification/images/qgis_jenks.png&#34;
 	width=&#34;985&#34;
 	height=&#34;698&#34;
-	srcset=&#34;https://example.com/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_480x0_resize_box_3.png 480w, https://example.com/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_480x0_resize_box_3.png 480w, https://visualizing.jp/qgis-classification/images/qgis_jenks_hu10c1684449bdc553beb955a5a36bea4a_149555_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;QGISでの階級分類&#34;
@@ -37,11 +37,11 @@
         </item>
         <item>
         <title>地図の階級分類におけるJenksって？</title>
-        <link>https://example.com/classification-jenks/</link>
+        <link>https://visualizing.jp/classification-jenks/</link>
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/classification-jenks/</guid>
-        <description>&lt;img src="https://example.com/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
+        <guid>https://visualizing.jp/classification-jenks/</guid>
+        <description>&lt;img src="https://visualizing.jp/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
 &lt;h3 id=&#34;geospatial-analysis-6th-edition-2020-update&#34;&gt;Geospatial Analysis 6th Edition, 2020 update
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://spatialanalysisonline.com/HTML/index.html?building_blocks_of_spatial_ana.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -73,20 +73,20 @@
         </item>
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
-        <link>https://example.com/qgis-processing/</link>
+        <link>https://visualizing.jp/qgis-processing/</link>
         <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/qgis-processing/</guid>
-        <description>&lt;img src="https://example.com/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
+        <guid>https://visualizing.jp/qgis-processing/</guid>
+        <description>&lt;img src="https://visualizing.jp/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
 &lt;p&gt;QGISをインストールしたタイミングによっては、お使いのQGIS上で利用可能かもしれませんが、今後はこの形態では提供されないことになります。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/54&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;QEP 54: Dropping fTools and GDALTools core plugins in favor of the Processing · Issue #54 · qgis/QGIS-Enhancement-Proposals&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;メニュー項目として後ろから3番目あたりに「プロセッシング」というメニューが表示されていれば、そちらから利用できます。&lt;/p&gt;
 &lt;p&gt;表示されていない場合は、「プラグインの管理とインストール」から入手します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/qgis-processing/images/qgis_processing.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/qgis-processing/images/qgis_processing.png&#34;
 	width=&#34;1032&#34;
 	height=&#34;647&#34;
-	srcset=&#34;https://example.com/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_480x0_resize_box_3.png 480w, https://example.com/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_480x0_resize_box_3.png 480w, https://visualizing.jp/qgis-processing/images/qgis_processing_hua74a5e09967a80450a9f2072c0202129_201836_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -99,18 +99,18 @@
         </item>
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
-        <link>https://example.com/shapefile-to-topojson/</link>
+        <link>https://visualizing.jp/shapefile-to-topojson/</link>
         <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/shapefile-to-topojson/</guid>
-        <description>&lt;img src="https://example.com/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
+        <guid>https://visualizing.jp/shapefile-to-topojson/</guid>
+        <description>&lt;img src="https://visualizing.jp/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
 &lt;/h2&gt;&lt;p&gt;Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。&lt;/p&gt;
 &lt;h2 id=&#34;shapefileを編集する&#34;&gt;Shapefileを編集する
 &lt;/h2&gt;&lt;h3 id=&#34;国土地理院地球地図からshapefileをダウンロードする&#34;&gt;国土地理院「地球地図」からShapefileをダウンロードする
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;749&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hudac15caf89bbca9d163e5afaff468374_323919_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -122,10 +122,10 @@
 &lt;p&gt;今回の目的から都道府県ごとの粒度のものがいいのですが、ないので市区町村ごとの粒度のものをダウンロードし、手元で修正することにします。&lt;a class=&#34;link&#34; href=&#34;http://www.gsi.go.jp/kankyochiri/gm_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「地球地図日本のデータ」&lt;/a&gt;から第2版ベクタ（2011年公開）行政界 Shapeファイルをダウンロードします。&lt;/p&gt;
 &lt;h3 id=&#34;qgisでshapefileを読み込む&#34;&gt;QGISでShapefileを読み込む
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-02-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-02-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-02-1_hud867de655296ecd8927d3c9a9c6c74ea_89892_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -136,10 +136,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;ここからQGISというアプリケーションを使います。展開したフォルダ内にはShapefileが３つありますが、そのうちpolbnda_jpn.shpというファイルをQGISで読み込みます。QGISで「ベクターレイヤーの追加」を選択するとダイアログが表示されますので、ソース→データセットの箇所でShapefileを指定する、という方法で取り込みます。&lt;/p&gt;
 &lt;h3 id=&#34;crsを確認する&#34;&gt;CRSを確認する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-03-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-03-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-03-1_hud867de655296ecd8927d3c9a9c6c74ea_97434_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -150,10 +150,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;するとこんな感じで表示されます。見慣れた日本地図の形ではないな？と思ったら（そうでなくても）右下を見てください。ここに現在の描画用のCRS(Coordinate Reference System=空間参照系)の設定が(EPSG:&amp;hellip;)と表示されています。赤丸箇所のボタンをクリックすると設定画面のCRSタブが開きます。&lt;/p&gt;
 &lt;h3 id=&#34;crsを変更する&#34;&gt;CRSを変更する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-04-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-04-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;616&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-04-1_hu8237d676cd46541145b2d58282193f14_169456_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -164,10 +164,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;最上段の「&amp;lsquo;オンザフライ&amp;rsquo;CRS変換を有効にする」にチェックを入れると、座標参照システムを変更できるようになりますので、EPSG:900913（Google Mercator）を選択し、この画面を閉じます。&lt;/p&gt;
 &lt;h3 id=&#34;属性テーブルを開く&#34;&gt;属性テーブルを開く
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-05-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-05-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-05-1_hud867de655296ecd8927d3c9a9c6c74ea_135465_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -178,10 +178,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;日本地図の乗っているベクターレイヤーを右クリックし、「属性テーブルを開く」を選択します。&lt;/p&gt;
 &lt;h3 id=&#34;不要のカラムを削除する&#34;&gt;不要のカラムを削除する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-06-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-06-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;478&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-06-1_hu7314019cd615ae85f5da21df659aa19d_248512_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -192,10 +192,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;不要のカラムを削除します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「カラムを削除する」ボタンを押すと、ダイアログが表示され、そこで削除するカラムを選択します。今回はnamカラム以外をすべて削除します。&lt;/p&gt;
 &lt;h3 id=&#34;namカラムの表記揺れを解消する&#34;&gt;namカラムの表記揺れを解消する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-07.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-07.png&#34;
 	width=&#34;305&#34;
 	height=&#34;307&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-07_hu128c5dec9b459beec38929348be2bf6f_49633_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-07&#34;
@@ -208,10 +208,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;愛知県と福岡県と長野県が表記揺れしているので、表記を統一します(例：Aichi KenとAICHIなど)。&lt;/p&gt;
 &lt;h3 id=&#34;都道府県ごとにまとめる&#34;&gt;都道府県ごとにまとめる
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-09.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-09.png&#34;
 	width=&#34;381&#34;
 	height=&#34;386&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-09_huffd88fda34dfcc40e37b5db820d6876d_40467_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-09&#34;
@@ -224,10 +224,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;現在のデータは市区町村ごとにわかれていますので、namカラムの都道府県表記を使って、都道府県ごとにまとめます。「ベクター」→「空間演算ツール」→「融合」を選択すると図のようなダイアログが表示されるので、融合フィールドに「nam」を選択します。「出力シェープファイル」はお好きなものを、「結果をキャンパスに追加する」をチェックすると融合した結果を現在開いているファイルへベクターレイヤーとして追加されます。&lt;/p&gt;
 &lt;h3 id=&#34;日本語表記とidを追加する&#34;&gt;日本語表記とIDを追加する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-10-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-10-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-10-1_hude830c2fbee9cf9b332ef5d45f03e93a_158698_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -238,10 +238,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;使い勝手を考えて、カラムを追加します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「新規カラムを作る」ボタンを押すと、ダイアログが表示され、そこで新規カラムの名称と幅を指定します。追加には外部ファイルを読み込む方法と、QGIS上で手入力する方法とあります。&lt;/p&gt;
 &lt;h3 id=&#34;shapefileとして保存する&#34;&gt;Shapefileとして保存する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-11-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-11-1.png&#34;
 	width=&#34;613&#34;
 	height=&#34;583&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-11-1_huc1d66c1051825f225241924c54994e98_67573_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -253,10 +253,10 @@
 &lt;p&gt;ベクターレイヤーを右クリックし「名前をつけて保存」を選択すると図のようなダイアログが表示されるので任意の設定をして保存します。これでShapefileの編集をおわります。&lt;/p&gt;
 &lt;h2 id=&#34;shapefileをgeojsonに変換する&#34;&gt;ShapefileをGeoJSONに変換する
 &lt;/h2&gt;&lt;h3 id=&#34;shapefileをgeojsonに変換する-1&#34;&gt;ShapefileをGeoJSONに変換する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-12.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-12.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-12_hubae016f30cf671abcdecfcb291092f8c_18121_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-12&#34;
@@ -269,10 +269,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.gdal.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GDAL&lt;/a&gt;というツールを使って、ShapeファイルをGeoJSONに変換します。一つ前のステップで、ファイルを保存する際にGeoJSON形式を選べばGeoJSONに変換することが可能です。別な方法としてGDALを使う方法もあります。GDALはMacであればHomebrewでインストール可能です。ogr2ogr -f geoJSON (出力ファイル名) (入力ファイル名)というコマンドを実行すると変換されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-13-1_hubfb1c259a4dcdf681e75434b2bb70a88_165207_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -283,10 +283,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
 &lt;h2 id=&#34;geojsonをtopojsonに変換する&#34;&gt;GeoJSONをTopoJSONに変換する
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-14.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-14.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-14_hubae016f30cf671abcdecfcb291092f8c_21141_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-14&#34;
@@ -302,10 +302,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/d3-topojson/#commandline&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;手元のPCでGeoJsonをTopoJsonに変換したい場合&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-15-1_hubfb1c259a4dcdf681e75434b2bb70a88_109004_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -316,10 +316,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
 &lt;h2 id=&#34;topojsonを読み込んで地形を描画する&#34;&gt;TopoJSONを読み込んで地形を描画する
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-16-1.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-16-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;422&#34;
-	srcset=&#34;https://example.com/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_480x0_resize_box_3.png 480w, https://example.com/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_480x0_resize_box_3.png 480w, https://visualizing.jp/shapefile-to-topojson/images/shgeotopo-16-1_hucb2c659f6323d4c21e6038b0455941aa_136787_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

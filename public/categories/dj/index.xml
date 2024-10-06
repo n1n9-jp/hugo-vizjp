@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>dj on Visualizing.JP</title>
-        <link>https://example.com/categories/dj/</link>
+        <link>https://visualizing.jp/categories/dj/</link>
         <description>Recent content in dj on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/dj/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/categories/dj/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
-        <link>https://example.com/d3-flexbox/</link>
+        <link>https://visualizing.jp/d3-flexbox/</link>
         <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/d3-flexbox/</guid>
-        <description>&lt;img src="https://example.com/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+        <guid>https://visualizing.jp/d3-flexbox/</guid>
+        <description>&lt;img src="https://visualizing.jp/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D3.jsを利用して、SVGではなくCSS3のFlexboxを利用したチャート描画のスタディを行っていた記事&lt;/a&gt;をご紹介します。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  title=&#34;https://d3js.org/&#34;

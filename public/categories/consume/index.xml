@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>consume on Visualizing.JP</title>
-        <link>https://example.com/categories/consume/</link>
+        <link>https://visualizing.jp/categories/consume/</link>
         <description>Recent content in consume on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>デザイン・ガイドラインにおけるデータ可視化</title>
-        <link>https://example.com/design-guideline/</link>
+        <link>https://visualizing.jp/design-guideline/</link>
         <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/design-guideline/</guid>
+        <guid>https://visualizing.jp/design-guideline/</guid>
         <description>&lt;p&gt;企業、NPO、政府機関などが、デザイン・ガイドラインにデータ可視化を取り入れる動きがあります。事例を集めました。&lt;/p&gt;
 &lt;p&gt;※随時更新します。最新更新日 2023-09-14。&lt;/p&gt;
 &lt;h3 id=&#34;データ可視化スタイルガイド時系列分野別&#34;&gt;データ可視化スタイルガイド（時系列・分野別）
@@ -23,20 +23,20 @@
         </item>
         <item>
         <title>ナイチンゲールによる「鶏冠」チャート</title>
-        <link>https://example.com/nightingale-chart/</link>
+        <link>https://visualizing.jp/nightingale-chart/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/nightingale-chart/</guid>
-        <description>&lt;img src="https://example.com/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
+        <guid>https://visualizing.jp/nightingale-chart/</guid>
+        <description>&lt;img src="https://visualizing.jp/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
 &lt;p&gt;端的にいうと、病院における兵士の死亡率は、実際の戦闘 （赤）やその他の原因（黒）で死亡したよりも、予防もしくは軽減可能な伝染病（青色）で死亡したことを示しており、当時のイギリス政府へ現状を訴えるために、データを自身で記録し、のちに制作したレポートに挿入されました。&lt;/p&gt;
 &lt;p&gt;ナイチンゲール自身が直接ヴィクトリア女王に接見できる身分だったり、知人の夫が当時の戦時大臣だったりしたこともあって、相談しながら行動を起こしているのですが、レポートの甲斐あって実際に改善されたということです。&lt;/p&gt;
 &lt;p&gt;1854年3月、フランス、イギリス、サルデーニャ、オスマン帝国とロシアの間で戦争が勃発しました。戦争での戦闘のほとんどはクリミア半島で起こりましたが、負傷したイギリス軍は黒海を越えたトルコの病院に運ばれました。&lt;/p&gt;
 &lt;p&gt;ナイチンゲールは、ボランティア看護師としてほかの女性たちと一緒にトルコに同年10月に到着します。最初は病棟への立ち入りを拒否され、ナイチンゲールと仲間の看護師たちが患者との接触を許されたのは、病院が危機的な状態になった翌年1855年3月だったとのことです。&lt;/p&gt;
 &lt;p&gt;負傷した兵士の環境を改善しようと努力していく中で、患者の福祉の重要性を示す証拠として、病院での死亡者数を綿密に記録しました。その結果を当時のイギリス政府へ訴えるために作られたのが、この著名なチャートでした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/nightingale-chart/images/Nightingale-mortality.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1609&#34;
-	srcset=&#34;https://example.com/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_480x0_resize_q75_box.jpg 480w, https://example.com/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;クリミア戦争におけるイギリス軍の死亡原因&#34;
@@ -58,10 +58,10 @@
 the Causes of Mortality in the British Military during the Crimean War&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;これより以前に作成したチャートでは、面積ではなく、原点からの長さを数値で示しているため、その誤りに気づき、撤回されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/nightingale-chart/images/bats_wing_diagram.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram.jpg&#34;
 	width=&#34;1030&#34;
 	height=&#34;1063&#34;
-	srcset=&#34;https://example.com/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_480x0_resize_q75_box.jpg 480w, https://example.com/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UCLA Elmer Belt Florence Nightingale Collection&#34;
@@ -80,15 +80,15 @@ report by Hugh Small
         </item>
         <item>
         <title>ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図</title>
-        <link>https://example.com/reischauer-cartogram/</link>
+        <link>https://visualizing.jp/reischauer-cartogram/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/reischauer-cartogram/</guid>
-        <description>&lt;img src="https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/reischauer-cartogram/images/japanese.jpg&#34;
+        <guid>https://visualizing.jp/reischauer-cartogram/</guid>
+        <description>&lt;img src="https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/reischauer-cartogram/images/japanese.jpg&#34;
 	width=&#34;340&#34;
 	height=&#34;499&#34;
-	srcset=&#34;https://example.com/reischauer-cartogram/images/japanese_hud3a8becb07051ca3fc9599bdbb4d5566_22572_480x0_resize_q75_box.jpg 480w, https://example.com/reischauer-cartogram/images/japanese_hud3a8becb07051ca3fc9599bdbb4d5566_22572_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/reischauer-cartogram/images/japanese_hud3a8becb07051ca3fc9599bdbb4d5566_22572_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/reischauer-cartogram/images/japanese_hud3a8becb07051ca3fc9599bdbb4d5566_22572_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -102,10 +102,10 @@ report by Hugh Small
     &gt;E・O・ライシャワー「ザ・ジャパニーズ」&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;カルトグラムというのは、データ値を国や行政区域の示す面積に反映させ、データ値を地図として眺めることを試みる手法です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population.png&#34;
 	width=&#34;884&#34;
 	height=&#34;576&#34;
-	srcset=&#34;https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu827c25ef019542ade180136191289378_967430_480x0_resize_box_3.png 480w, https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu827c25ef019542ade180136191289378_967430_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu827c25ef019542ade180136191289378_967430_480x0_resize_box_3.png 480w, https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu827c25ef019542ade180136191289378_967430_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -117,10 +117,10 @@ report by Hugh Small
 &lt;ul&gt;
 &lt;li&gt;E・O・ライシャワーによる「国の大小が人口に比例して描かれている地図」&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png&#34;
 	width=&#34;885&#34;
 	height=&#34;577&#34;
-	srcset=&#34;https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu08c47789ca02f1ae9dfc2be7d5ffca10_987927_480x0_resize_box_3.png 480w, https://example.com/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu08c47789ca02f1ae9dfc2be7d5ffca10_987927_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu08c47789ca02f1ae9dfc2be7d5ffca10_987927_480x0_resize_box_3.png 480w, https://visualizing.jp/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu08c47789ca02f1ae9dfc2be7d5ffca10_987927_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -144,10 +144,10 @@ report by Hugh Small
 アイデア誌（324 2007年9月号）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;ライシャワーさんによる地図の主旨と杉浦さんの受け取りのすれ違い、現在からみるとある種ほほえましいですが、こういった刺激が直後の杉浦康平さんの素晴らしい時間軸変型地図をはじめとした主題地図群を生み出していったことにドキドキしますね。杉浦さんの上記のコメントは現在も古びることなく、むしろ今こそ改めて噛み締めたいものです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/reischauer-cartogram/images/img_multimodal_view_01.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/reischauer-cartogram/images/img_multimodal_view_01.jpg&#34;
 	width=&#34;680&#34;
 	height=&#34;440&#34;
-	srcset=&#34;https://example.com/reischauer-cartogram/images/img_multimodal_view_01_hu91d48bc113a5fb21957bd4153620cc14_130250_480x0_resize_q75_box.jpg 480w, https://example.com/reischauer-cartogram/images/img_multimodal_view_01_hu91d48bc113a5fb21957bd4153620cc14_130250_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/reischauer-cartogram/images/img_multimodal_view_01_hu91d48bc113a5fb21957bd4153620cc14_130250_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/reischauer-cartogram/images/img_multimodal_view_01_hu91d48bc113a5fb21957bd4153620cc14_130250_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -161,17 +161,17 @@ report by Hugh Small
         </item>
         <item>
         <title>三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合</title>
-        <link>https://example.com/covid-symptom-upset/</link>
+        <link>https://visualizing.jp/covid-symptom-upset/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/covid-symptom-upset/</guid>
-        <description>&lt;img src="https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg" alt="Featured image of post 三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合" /&gt;&lt;p&gt;U.K.で利用されている、民間企業ZOEによる &lt;a class=&#34;link&#34; href=&#34;https://covid.joinzoe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://visualizing.jp/covid-symptom-upset/</guid>
+        <description>&lt;img src="https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg" alt="Featured image of post 三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合" /&gt;&lt;p&gt;U.K.で利用されている、民間企業ZOEによる &lt;a class=&#34;link&#34; href=&#34;https://covid.joinzoe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;COVID Symptom Tracker&lt;/a&gt; というアプリがあります。これは体温、疲れやコロナウイルス感染の可能性のある他の症状を含む健康状態を日常的に記録するアプリで、利用者（当時で150万人、2020年8月時点で400万人）がアプリを通じて報告してきた症状をデータとしてとりまとめた結果がNature誌に紹介されていました。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1.jpg&#34;
 	width=&#34;600&#34;
 	height=&#34;950&#34;
-	srcset=&#34;https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_480x0_resize_q75_box.jpg 480w, https://example.com/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -205,10 +205,10 @@ report by Hugh Small
 &lt;p&gt;Nilsさんが自分で別なチャートとして作り直してみたとのことです。&lt;/p&gt;
 &lt;p&gt;COVID-19による症状にはどのようなものがあるかということで、報告数が多い順に左から右へ並べられています。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1152&#34;
-	srcset=&#34;https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_480x0_resize_q75_box.jpg 480w, https://example.com/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -224,10 +224,10 @@ report by Hugh Small
 &lt;/figure&gt;
 &lt;p&gt;同じデータを用いつつ、左からの並び順を、同時に報告された症例数が少ない順に並べたものです。一番左に症例が同時に一つのみのもの、その右が同時発症が二つの症例…、と続きます。こちらをみると、同時に発症することが少ない症状は何か、ということがわかりやすくなります。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_480x0_resize_q75_box.jpeg 480w, https://example.com/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_1024x0_resize_q75_box.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -247,15 +247,15 @@ report by Hugh Small
         </item>
         <item>
         <title>データ可視化への批評への批評への批評</title>
-        <link>https://example.com/critique-of-the-critique/</link>
+        <link>https://visualizing.jp/critique-of-the-critique/</link>
         <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/critique-of-the-critique/</guid>
-        <description>&lt;img src="https://example.com/critique-of-the-critique/images/coronavirus_georgia.png" alt="Featured image of post データ可視化への批評への批評への批評" /&gt;&lt;p&gt;数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia.png&#34;
+        <guid>https://visualizing.jp/critique-of-the-critique/</guid>
+        <description>&lt;img src="https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia.png" alt="Featured image of post データ可視化への批評への批評への批評" /&gt;&lt;p&gt;数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia.png&#34;
 	width=&#34;2034&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_480x0_resize_box_3.png 480w, https://example.com/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_480x0_resize_box_3.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -266,10 +266,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;p&gt;「最初（左）のマップは7月2日、二番目（右）は今日（7月17日）です。50％の増加が見えますか？どうやって隠しているか分かりますか？」&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2.png&#34;
 	width=&#34;1826&#34;
 	height=&#34;2028&#34;
-	srcset=&#34;https://example.com/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_480x0_resize_box_3.png 480w, https://example.com/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_480x0_resize_box_3.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -311,17 +311,17 @@ report by Hugh Small
         </item>
         <item>
         <title>コロナ禍による凡例の破綻</title>
-        <link>https://example.com/corona-finviz-map/</link>
+        <link>https://visualizing.jp/corona-finviz-map/</link>
         <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/corona-finviz-map/</guid>
-        <description>&lt;img src="https://example.com/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
+        <guid>https://visualizing.jp/corona-finviz-map/</guid>
+        <description>&lt;img src="https://visualizing.jp/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
 &lt;p&gt;日本でいうところの日経平均にあたる、アメリカS&amp;amp;P500の時価総額の増減をツリーマップ形式で提供しているFinVizというサイトがあります。&lt;/p&gt;
 &lt;p&gt;これが本日（2020年7月20日）時点での市場の様子です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/corona-finviz-map/images/finviz_green-2048x1507.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_green-2048x1507.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1507&#34;
-	srcset=&#34;https://example.com/corona-finviz-map/images/finviz_green-2048x1507_huec7cf55363d39794af6bec8e663d35de_1139466_480x0_resize_box_3.png 480w, https://example.com/corona-finviz-map/images/finviz_green-2048x1507_huec7cf55363d39794af6bec8e663d35de_1139466_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_green-2048x1507_huec7cf55363d39794af6bec8e663d35de_1139466_480x0_resize_box_3.png 480w, https://visualizing.jp/corona-finviz-map/images/finviz_green-2048x1507_huec7cf55363d39794af6bec8e663d35de_1139466_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -333,10 +333,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Finviz Maps&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;右下に凡例があり、増減幅が、最大プラスマイナス3%で定義されています。これは、このサイトを運営していくにあたって、時価総額の増減が最大でも3%程度であろう、というところから来ています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/corona-finviz-map/images/finviz_legend.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_legend.png&#34;
 	width=&#34;716&#34;
 	height=&#34;52&#34;
-	srcset=&#34;https://example.com/corona-finviz-map/images/finviz_legend_hu45045e2647e57ca3fb2831789250bab5_12957_480x0_resize_box_3.png 480w, https://example.com/corona-finviz-map/images/finviz_legend_hu45045e2647e57ca3fb2831789250bab5_12957_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_legend_hu45045e2647e57ca3fb2831789250bab5_12957_480x0_resize_box_3.png 480w, https://visualizing.jp/corona-finviz-map/images/finviz_legend_hu45045e2647e57ca3fb2831789250bab5_12957_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -346,10 +346,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;ところが、コロナ禍において、この凡例が破綻している時期がありました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/corona-finviz-map/images/finviz_red-2048x1507.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_red-2048x1507.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1507&#34;
-	srcset=&#34;https://example.com/corona-finviz-map/images/finviz_red-2048x1507_hu40bcc1ffe8c41c55d271f352acf57562_1336178_480x0_resize_box_3.png 480w, https://example.com/corona-finviz-map/images/finviz_red-2048x1507_hu40bcc1ffe8c41c55d271f352acf57562_1336178_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/corona-finviz-map/images/finviz_red-2048x1507_hu40bcc1ffe8c41c55d271f352acf57562_1336178_480x0_resize_box_3.png 480w, https://visualizing.jp/corona-finviz-map/images/finviz_red-2048x1507_hu40bcc1ffe8c41c55d271f352acf57562_1336178_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -366,15 +366,15 @@ report by Hugh Small
         </item>
         <item>
         <title>12匹のデータ・ザウルス</title>
-        <link>https://example.com/the-datasaurus-dozen/</link>
+        <link>https://visualizing.jp/the-datasaurus-dozen/</link>
         <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/the-datasaurus-dozen/</guid>
-        <description>&lt;img src="https://example.com/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1.png&#34;
+        <guid>https://visualizing.jp/the-datasaurus-dozen/</guid>
+        <description>&lt;img src="https://visualizing.jp/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1.png&#34;
 	width=&#34;1318&#34;
 	height=&#34;948&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_480x0_resize_box_3.png 480w, https://example.com/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -394,10 +394,10 @@ report by Hugh Small
 &lt;/ul&gt;
 &lt;p&gt;どうやっているのか&lt;/p&gt;
 &lt;p&gt;共通の要約統計量を持つデータセットをゼロベースから生成するのは難しいと考え、既存のデータセットからスタートし、それらの統計的特性を維持しながら、望みの視覚的印象に近づくまで、少しづつ繰り返し修正を行う、というアプローチをとっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller.gif&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller.gif&#34;
 	width=&#34;827&#34;
 	height=&#34;332&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_480x0_resize_box_1.gif 480w, https://example.com/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_1024x0_resize_box_1.gif 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_480x0_resize_box_1.gif 480w, https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_1024x0_resize_box_1.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Anscombe’s Quartet&#34;
@@ -415,10 +415,10 @@ report by Hugh Small
     &gt;Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Rのパッケージ化もなされています。R Studioで試してみた様子です。これはシミュレーションではなく、すでに算出されたデータを表示しているだけです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1.png&#34;
 	width=&#34;2870&#34;
 	height=&#34;2118&#34;
-	srcset=&#34;https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_480x0_resize_box_3.png 480w, https://example.com/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -430,21 +430,21 @@ report by Hugh Small
         </item>
         <item>
         <title>残された我々のための「データ・ヒューマニティ」</title>
-        <link>https://example.com/data-humanity/</link>
+        <link>https://visualizing.jp/data-humanity/</link>
         <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/data-humanity/</guid>
-        <description>&lt;img src="https://example.com/data-humanity/images/dvj2019_yazaki.png" alt="Featured image of post 残された我々のための「データ・ヒューマニティ」" /&gt;&lt;p&gt;2019年12月に開催したイベント「&lt;a class=&#34;link&#34; href=&#34;https://data-visualization-japan.connpass.com/event/160042/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://visualizing.jp/data-humanity/</guid>
+        <description>&lt;img src="https://visualizing.jp/data-humanity/images/dvj2019_yazaki.png" alt="Featured image of post 残された我々のための「データ・ヒューマニティ」" /&gt;&lt;p&gt;2019年12月に開催したイベント「&lt;a class=&#34;link&#34; href=&#34;https://data-visualization-japan.connpass.com/event/160042/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Data Visualization meetup 2019&lt;/a&gt;」にて筆者（矢崎）が登壇した際のスライドです。&lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;bf3a183648c940368bea15760b6b6df8&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;</description>
         </item>
         <item>
         <title>世界の行政機関 情報可視化 事例</title>
-        <link>https://example.com/world-gov-infoviz-report/</link>
+        <link>https://visualizing.jp/world-gov-infoviz-report/</link>
         <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/world-gov-infoviz-report/</guid>
-        <description>&lt;img src="https://example.com/world-gov-infoviz-report/images/gov_viz.png" alt="Featured image of post 世界の行政機関 情報可視化 事例" /&gt;&lt;p&gt;内閣府委託事業の一部として、2019年10月ごろに筆者が実施したリサーチレポートです。一般公開の許可をいただけましたので共有します。何かしらお役に立ちましたら幸いです。&lt;/p&gt;
+        <guid>https://visualizing.jp/world-gov-infoviz-report/</guid>
+        <description>&lt;img src="https://visualizing.jp/world-gov-infoviz-report/images/gov_viz.png" alt="Featured image of post 世界の行政機関 情報可視化 事例" /&gt;&lt;p&gt;内閣府委託事業の一部として、2019年10月ごろに筆者が実施したリサーチレポートです。一般公開の許可をいただけましたので共有します。何かしらお役に立ちましたら幸いです。&lt;/p&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;a59db29159ff40a4b943bc817bb3ba30&#34; data-ratio=&#34;1.4027397260274&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 &lt;h4 id=&#34;目次&#34;&gt;目次
 &lt;/h4&gt;&lt;ul&gt;
@@ -459,21 +459,21 @@ report by Hugh Small
         </item>
         <item>
         <title>はじめてテレビで放映された火星の写真は、データ可視化作品だった話</title>
-        <link>https://example.com/first-mars-on-tv-dataviz/</link>
+        <link>https://visualizing.jp/first-mars-on-tv-dataviz/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/first-mars-on-tv-dataviz/</guid>
-        <description>&lt;img src="https://example.com/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg" alt="Featured image of post はじめてテレビで放映された火星の写真は、データ可視化作品だった話" /&gt;&lt;p&gt;テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。初めてわかる事実も多いので、これを元に紹介します。&lt;/p&gt;
+        <guid>https://visualizing.jp/first-mars-on-tv-dataviz/</guid>
+        <description>&lt;img src="https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg" alt="Featured image of post はじめてテレビで放映された火星の写真は、データ可視化作品だった話" /&gt;&lt;p&gt;テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。初めてわかる事実も多いので、これを元に紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.directedplay.com/first-tv-image-of-mars&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Don Goods “FIRST TV IMAGE OF MARS, Interplanetary color by numbers”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彼の記事によると、火星を探索していた宇宙探査船マリナー4号から、火星の様子を撮影した画像データが、NASAジェット推進研究所（Jet Propulsion Laboratory）へ送られてきました。22のクローズアップイメージと520万ビットのデータは正常に送信されてきたのですが、コンピュータが計算して実際の写真画像として描画するまでには結構時間がかかることがわかりました。&lt;/p&gt;
 &lt;p&gt;マリナー4号は3号の故障により急遽出番となったそうで、カメラの調子が万全かどうかわからなかったこともあり、テープに出力されていた生のバイナリーデータを基に、NASAの職員たちが手動で着色をはじめました。つまり送信データを画像化されることを待っている間に、データ値を元に、手書きで写真現像を始めたということです。この手法が、まさにデータ可視化の手法でした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;363&#34;
-	srcset=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_480x0_resize_q75_box.jpeg 480w, https://example.com/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_1024x0_resize_q75_box.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;左が人の手による着色、右が実際の写真。http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -485,10 +485,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;地元の美術館へ行ってグレースケールのチョークを買いにいったところ、チョークは売っていないということで、かわりに売っていたカラフルなパステルを買って帰り、火星の実際の色味を知る前に、茶・赤のカラースキームで値ごとに着色する色を決め、塗っていったということです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;1164&#34;
-	srcset=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_480x0_resize_q75_box.jpeg 480w, https://example.com/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_1024x0_resize_q75_box.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -500,10 +500,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;画像の印象とは異なり、写真と見比べてもらうとわかりやすいのですが、暗い茶色が宇宙空間で、明るい茶色が火星の表面、その間にあるオレンジ色の部分は火星表面に漂う雲となっています。当初はマスコミにばれないように、武装警官に守られながらパテーションを設置して、着色していったそうですが、最終的にバレてしまい、テレビで放送されるに至ったということです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;939&#34;
-	srcset=&#34;https://example.com/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_480x0_resize_q75_box.jpeg 480w, https://example.com/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_1024x0_resize_q75_box.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -520,11 +520,11 @@ report by Hugh Small
         </item>
         <item>
         <title>美大生に聞く、今気になるデータ可視化／インフォグラフィック作品</title>
-        <link>https://example.com/recent-interest-art-school-2020/</link>
+        <link>https://visualizing.jp/recent-interest-art-school-2020/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/recent-interest-art-school-2020/</guid>
-        <description>&lt;img src="https://example.com/recent-interest-art-school-2020/images/3minutesCalorieMate.png" alt="Featured image of post 美大生に聞く、今気になるデータ可視化／インフォグラフィック作品" /&gt;&lt;p&gt;筆者が非常勤で半期受け持っている、多摩美術大学 情報デザイン学科 メディアデザイン三年生に聞いた「よかったデータ可視化／インフォグラフィック作品」をリストしました。従来のインフォグラフィックから、最近流行りのBar Chart Raceまで。まだ観たことないものがあれば、ぜひ楽しんでください。&lt;/p&gt;
+        <guid>https://visualizing.jp/recent-interest-art-school-2020/</guid>
+        <description>&lt;img src="https://visualizing.jp/recent-interest-art-school-2020/images/3minutesCalorieMate.png" alt="Featured image of post 美大生に聞く、今気になるデータ可視化／インフォグラフィック作品" /&gt;&lt;p&gt;筆者が非常勤で半期受け持っている、多摩美術大学 情報デザイン学科 メディアデザイン三年生に聞いた「よかったデータ可視化／インフォグラフィック作品」をリストしました。従来のインフォグラフィックから、最近流行りのBar Chart Raceまで。まだ観たことないものがあれば、ぜひ楽しんでください。&lt;/p&gt;
 &lt;h4 id=&#34;caloriemate-commercial-from-japan---oyatsucafecom&#34;&gt;CalorieMate commercial from Japan - OyatsuCafe.com
 &lt;/h4&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
@@ -547,10 +547,10 @@ report by Hugh Small
 
 &lt;h4 id=&#34;ドミノピザ-gps-driver-tracker&#34;&gt;ドミノ・ピザ GPS DRIVER TRACKER
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/gps_top01_.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/gps_top01_.png&#34;
 	width=&#34;802&#34;
 	height=&#34;546&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/gps_top01__huc16502fa5120c00b00cc6f5d08e3277e_362000_480x0_resize_box_3.png 480w, https://example.com/recent-interest-art-school-2020/images/gps_top01__huc16502fa5120c00b00cc6f5d08e3277e_362000_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/gps_top01__huc16502fa5120c00b00cc6f5d08e3277e_362000_480x0_resize_box_3.png 480w, https://visualizing.jp/recent-interest-art-school-2020/images/gps_top01__huc16502fa5120c00b00cc6f5d08e3277e_362000_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -566,10 +566,10 @@ report by Hugh Small
 &lt;/figure&gt;
 &lt;h4 id=&#34;絵と言葉の一研究-わかりやすいデザインを考える&#34;&gt;絵と言葉の一研究 「わかりやすい」デザインを考える
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/bunpei.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/bunpei.jpg&#34;
 	width=&#34;1024&#34;
 	height=&#34;1446&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/bunpei_hue85035ea6c307ca6214cad61b587e3b0_260668_480x0_resize_q75_box.jpg 480w, https://example.com/recent-interest-art-school-2020/images/bunpei_hue85035ea6c307ca6214cad61b587e3b0_260668_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/bunpei_hue85035ea6c307ca6214cad61b587e3b0_260668_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/recent-interest-art-school-2020/images/bunpei_hue85035ea6c307ca6214cad61b587e3b0_260668_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -585,10 +585,10 @@ report by Hugh Small
 &lt;/figure&gt;
 &lt;h4 id=&#34;100のインフォグラフィックで世界を知る-世にも美しい教養講義超図解宗教&#34;&gt;100のインフォグラフィックで世界を知る 〈世にも美しい教養講義〉超図解・宗教
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/100infographics.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/100infographics.jpg&#34;
 	width=&#34;1063&#34;
 	height=&#34;1500&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/100infographics_hu267dabdcb366055ecb348178ac8d23fd_190037_480x0_resize_q75_box.jpg 480w, https://example.com/recent-interest-art-school-2020/images/100infographics_hu267dabdcb366055ecb348178ac8d23fd_190037_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/100infographics_hu267dabdcb366055ecb348178ac8d23fd_190037_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/recent-interest-art-school-2020/images/100infographics_hu267dabdcb366055ecb348178ac8d23fd_190037_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -619,10 +619,10 @@ report by Hugh Small
 
 &lt;h4 id=&#34;エイゴラボ&#34;&gt;エイゴラボ
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/eigolab03@2x.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/eigolab03@2x.png&#34;
 	width=&#34;2150&#34;
 	height=&#34;1518&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/eigolab03@2x_hubfcc87e2dcdf567219c7561f9409b417_651403_480x0_resize_box_3.png 480w, https://example.com/recent-interest-art-school-2020/images/eigolab03@2x_hubfcc87e2dcdf567219c7561f9409b417_651403_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/eigolab03@2x_hubfcc87e2dcdf567219c7561f9409b417_651403_480x0_resize_box_3.png 480w, https://visualizing.jp/recent-interest-art-school-2020/images/eigolab03@2x_hubfcc87e2dcdf567219c7561f9409b417_651403_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -638,10 +638,10 @@ report by Hugh Small
 &lt;/figure&gt;
 &lt;h4 id=&#34;basic-wine-guide&#34;&gt;BASIC WINE GUIDE
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024.jpg&#34;
 	width=&#34;825&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024_hu507ffcb9a804aebe9da0bb36dc362a1c_121643_480x0_resize_q75_box.jpg 480w, https://example.com/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024_hu507ffcb9a804aebe9da0bb36dc362a1c_121643_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024_hu507ffcb9a804aebe9da0bb36dc362a1c_121643_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/recent-interest-art-school-2020/images/basic-wine-guide-poster-2018-winefolly_1024x1024_hu507ffcb9a804aebe9da0bb36dc362a1c_121643_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -657,10 +657,10 @@ report by Hugh Small
 &lt;/figure&gt;
 &lt;h4 id=&#34;beers-periodic-table&#34;&gt;Beer&amp;rsquo;s Periodic Table
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500.jpg&#34;
 	width=&#34;1500&#34;
 	height=&#34;985&#34;
-	srcset=&#34;https://example.com/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500_hu78a19308c62f9e29b8c8fa998c41032e_464815_480x0_resize_q75_box.jpg 480w, https://example.com/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500_hu78a19308c62f9e29b8c8fa998c41032e_464815_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500_hu78a19308c62f9e29b8c8fa998c41032e_464815_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/recent-interest-art-school-2020/images/beers-periodic-table_50290a5d22692_w1500_hu78a19308c62f9e29b8c8fa998c41032e_464815_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -681,19 +681,19 @@ report by Hugh Small
         </item>
         <item>
         <title>人が言葉を覚えるとき</title>
-        <link>https://example.com/ted-birth-of-word/</link>
+        <link>https://visualizing.jp/ted-birth-of-word/</link>
         <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/ted-birth-of-word/</guid>
-        <description>&lt;img src="https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2.png" alt="Featured image of post 人が言葉を覚えるとき" /&gt;&lt;p&gt;MITの研究者デブ・ロイさんが研究として、人が生まれてから、言語を獲得していく様子をすべて動画として記録し、あとで分析できたらどんなことがわかるか。&lt;/p&gt;
+        <guid>https://visualizing.jp/ted-birth-of-word/</guid>
+        <description>&lt;img src="https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_2.png" alt="Featured image of post 人が言葉を覚えるとき" /&gt;&lt;p&gt;MITの研究者デブ・ロイさんが研究として、人が生まれてから、言語を獲得していく様子をすべて動画として記録し、あとで分析できたらどんなことがわかるか。&lt;/p&gt;
 &lt;p&gt;ビッグデータの性質の一つ、リアルタイムに近い記録タイミングでデータを保存しつづけるため、結果テラバイトなどの膨大なデータ量になる、全量データの取得という方法論があります。&lt;/p&gt;
 &lt;p&gt;人の行動記録を全記録することでそこから新しい事実がわかるのか。時系列の生データから、こどもの言語習得の過程を分析的に把握することができるか。&lt;/p&gt;
 &lt;p&gt;TEDでその結果を発表しています。&lt;/p&gt;
 &lt;p&gt;自分の子供が生まれたタイミングで、自宅のすべての部屋の天井にカメラとマイクを設置。赤ちゃんがどうやって言語を習得するのか解明すべく、その記録は3年間に及び、9万時間の映像、14万時間の音声、ファイルサイズは200テラバイトにもなったとのことです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_4.png&#34;
 	width=&#34;1798&#34;
 	height=&#34;1018&#34;
-	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_480x0_resize_box_3.png 480w, https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_4_hu7850feee57394d2f4b00a19e73152dc6_1628829_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -703,10 +703,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;たとえば「ウォーター」（水）と最初は発話できず、「ガガ」としか言えないのが、正確な発音の「ウォーター」になるまでの半年間の言葉の変化の軌跡を、連続的に把握することが可能になりました。また習得には一緒にいることが大きくかかわっていたとのこと。緑色が大人の動線で、赤色が子供の動線です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_5.png&#34;
 	width=&#34;1802&#34;
 	height=&#34;1017&#34;
-	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_480x0_resize_box_3.png 480w, https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_5_hub4021f1c49f88fce00e95056947823ef_1096450_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -716,10 +716,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;ウォーターをはじめ、最初の二年で覚えた単語を、覚えた順に並べてみたそうです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_3.png&#34;
 	width=&#34;1907&#34;
 	height=&#34;1069&#34;
-	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_480x0_resize_box_3.png 480w, https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_3_hu87e43103e1984e21d7768bfefd42a90f_572279_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -730,10 +730,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;p&gt;すべての単語に言える話として、そこにいた大人が三人とも、子供が話せるようになるまではできるだけシンプルな言葉使いをし、子供が話せた瞬間から、無意識的に大人が使うような複雑な言い回しに戻ってたということがわかったそうです。つまり、子供の話し方自体が周りの人へも影響を与え、子供が言葉を話せるようになるフィードバックループをいつのまにか作り上げていた、と。&lt;/p&gt;
 &lt;p&gt;この三年間で、子供が「ウォーター」と発音した回数を、自宅空間にプロットしてみると、やはりですが台所であることが多かったり、玄関で「バイ」が多かったようです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_2.png&#34;
 	width=&#34;1904&#34;
 	height=&#34;1068&#34;
-	srcset=&#34;https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_480x0_resize_box_3.png 480w, https://example.com/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_480x0_resize_box_3.png 480w, https://visualizing.jp/ted-birth-of-word/images/The-birth-of-a-word_2_hua0c3af0bceab7c64767404818a184686_2446870_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -745,21 +745,21 @@ report by Hugh Small
         </item>
         <item>
         <title>311の際の世界からの応援ツイート</title>
-        <link>https://example.com/twitter-global-pulse/</link>
+        <link>https://visualizing.jp/twitter-global-pulse/</link>
         <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/twitter-global-pulse/</guid>
-        <description>&lt;img src="https://example.com/twitter-global-pulse/images/5884626815_d851598b9a_c.jpg" alt="Featured image of post 311の際の世界からの応援ツイート" /&gt;&lt;p&gt;311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。&lt;/p&gt;
+        <guid>https://visualizing.jp/twitter-global-pulse/</guid>
+        <description>&lt;img src="https://visualizing.jp/twitter-global-pulse/images/5884626815_d851598b9a_c.jpg" alt="Featured image of post 311の際の世界からの応援ツイート" /&gt;&lt;p&gt;311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。&lt;/p&gt;
 &lt;p&gt;Twitter社内のConsumer Data Science担当のミゲルさん（Miguel Ríos）がツイートデータを用いて、311発生一時間後の、日本にまつわるツイートをデータ可視化した作品映像を作成、公開しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/twitteroffice/5884626815/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visualization: RTs (Archive)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;正確には、日本から発せられたオリジナルのツイートがピンク、そのツイートがリツィートという形で拡散されたものがグリーンで、ダークグレイのベースマップ上に示されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/twitter-global-pulse/images/TwitterGlobalPulse.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse.png&#34;
 	width=&#34;1917&#34;
 	height=&#34;1083&#34;
-	srcset=&#34;https://example.com/twitter-global-pulse/images/TwitterGlobalPulse_hu2ea689d962a90dc670dc969221506fa8_1743260_480x0_resize_box_3.png 480w, https://example.com/twitter-global-pulse/images/TwitterGlobalPulse_hu2ea689d962a90dc670dc969221506fa8_1743260_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse_hu2ea689d962a90dc670dc969221506fa8_1743260_480x0_resize_box_3.png 480w, https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse_hu2ea689d962a90dc670dc969221506fa8_1743260_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -776,19 +776,19 @@ report by Hugh Small
         </item>
         <item>
         <title>Facebookで友達のつながりを可視化</title>
-        <link>https://example.com/friendship-facebook/</link>
+        <link>https://visualizing.jp/friendship-facebook/</link>
         <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/friendship-facebook/</guid>
-        <description>&lt;img src="https://example.com/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;
+        <guid>https://visualizing.jp/friendship-facebook/</guid>
+        <description>&lt;img src="https://visualizing.jp/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/notes/10158791468612200/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visualizing Friendships&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;当初はまともに、個々人の住んでいる場所を点で描画し、それらを線でつないだそうですが、つながりの数が多すぎてまともな描画にならなかったそうです。&lt;/p&gt;
 &lt;p&gt;そこで個々人として扱うのではなく、その人が住んでいる都市同士の繋がりとして扱うことにして、そのつながりの強さを、都市間のユークリッド距離と都市間の友達の数の関数として定義し、つながりに重みをつけて、線の太さと色を調整し、重なり順にも反映させたら描画が上手くいったとのこと。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/friendship-facebook/images/163413_479288597199_8388607_n.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/friendship-facebook/images/163413_479288597199_8388607_n.png&#34;
 	width=&#34;2368&#34;
 	height=&#34;1179&#34;
-	srcset=&#34;https://example.com/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_480x0_resize_box_3.png 480w, https://example.com/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_480x0_resize_box_3.png 480w, https://visualizing.jp/friendship-facebook/images/163413_479288597199_8388607_n_huc6db85db3072e647d0a5b78ff4137042_3954281_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -803,11 +803,11 @@ report by Hugh Small
         </item>
         <item>
         <title>Uber H3</title>
-        <link>https://example.com/uber-h3/</link>
+        <link>https://visualizing.jp/uber-h3/</link>
         <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/uber-h3/</guid>
-        <description>&lt;img src="https://example.com/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
+        <guid>https://visualizing.jp/uber-h3/</guid>
+        <description>&lt;img src="https://visualizing.jp/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.uber.com/en-JP/blog/h3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;H3: Uber’s Hexagonal Hierarchical Spatial Index&lt;/a&gt;&lt;/li&gt;
@@ -821,10 +821,10 @@ report by Hugh Small
 &lt;li&gt;グリッドセルをクラスタリングすることで、近隣地域を効率的に表現することができる。別なクラスタリング方法、たとえば郵便番号では行政の都合である時突然変更してしまうが、そのようなこともない。&lt;/li&gt;
 &lt;li&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現できる。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/uber-h3/images/h3_346.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_346.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;528&#34;
-	srcset=&#34;https://example.com/uber-h3/images/h3_346_huccf07546298374fdcba2911b22aa42cf_220763_480x0_resize_box_3.png 480w, https://example.com/uber-h3/images/h3_346_huccf07546298374fdcba2911b22aa42cf_220763_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_346_huccf07546298374fdcba2911b22aa42cf_220763_480x0_resize_box_3.png 480w, https://visualizing.jp/uber-h3/images/h3_346_huccf07546298374fdcba2911b22aa42cf_220763_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -834,10 +834,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;六角形であれば、接するグリッドとの距離が均等。三角形でも四角形でもそうはいかない。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/uber-h3/images/h3_hierarcical.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_hierarcical.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;667&#34;
-	srcset=&#34;https://example.com/uber-h3/images/h3_hierarcical_hub2597b88f9e56ff00874f61195683e5f_890085_480x0_resize_box_3.png 480w, https://example.com/uber-h3/images/h3_hierarcical_hub2597b88f9e56ff00874f61195683e5f_890085_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_hierarcical_hub2597b88f9e56ff00874f61195683e5f_890085_480x0_resize_box_3.png 480w, https://visualizing.jp/uber-h3/images/h3_hierarcical_hub2597b88f9e56ff00874f61195683e5f_890085_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -848,10 +848,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;p&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現。
 グローバルグリッドシステムには、通常、地図投影と地図の上に敷き詰められたグリッドの2つが必要です。グリッドはすでに説明した六角形で、地図投影にはメルカトルなどの歪みがある地図投影法ではなく、正二十面体の面を中心とした心射方位図法を採用しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;661&#34;
-	srcset=&#34;https://example.com/uber-h3/images/h3_gnomonic-projections-centered_hu3a90fe2d87b142594d74aa0e72368cec_547494_480x0_resize_box_3.png 480w, https://example.com/uber-h3/images/h3_gnomonic-projections-centered_hu3a90fe2d87b142594d74aa0e72368cec_547494_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered_hu3a90fe2d87b142594d74aa0e72368cec_547494_480x0_resize_box_3.png 480w, https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered_hu3a90fe2d87b142594d74aa0e72368cec_547494_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -865,11 +865,11 @@ report by Hugh Small
         </item>
         <item>
         <title>データ-インク比</title>
-        <link>https://example.com/data-ink-ratio/</link>
+        <link>https://visualizing.jp/data-ink-ratio/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/data-ink-ratio/</guid>
-        <description>&lt;img src="https://example.com/data-ink-ratio/images/DataInkRatio_Playfair_generated.png" alt="Featured image of post データ-インク比" /&gt;&lt;p&gt;データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。&lt;/p&gt;
+        <guid>https://visualizing.jp/data-ink-ratio/</guid>
+        <description>&lt;img src="https://visualizing.jp/data-ink-ratio/images/DataInkRatio_Playfair_generated.png" alt="Featured image of post データ-インク比" /&gt;&lt;p&gt;データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Data-ink ratio = Data-ink ÷ total ink used to print the graphic&lt;/li&gt;
@@ -879,10 +879,10 @@ report by Hugh Small
 &lt;p&gt;紙に印刷されたグラフィックを想像していただいて、データインクとは、データ（測定された量）を伝えるためにインクの滴をさします。そして、グラフィック全体の印刷にかかったインク量のうち、データ（測定された量）を伝えるために用いられたインク量の比率を、データ-インク比と定義しています。&lt;/p&gt;
 &lt;p&gt;そして、この比率ができるだけ1.0に近い状態を「良いグラフィック」として定義しています。タフテの著書、The Visual Display of Quantitative Informationからご紹介していきます。&lt;/p&gt;
 &lt;h3 id=&#34;グリッドや軸の表現を軽減させる&#34;&gt;グリッドや軸の表現を軽減させる
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1.png&#34;
 	width=&#34;445&#34;
 	height=&#34;374&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_1_hud03f1f57580d94209f4f84d5fc0ae703_127522_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -892,10 +892,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2.png&#34;
 	width=&#34;445&#34;
 	height=&#34;374&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_2_hu90072084d89fddc64b53dc7b04a52dda_27291_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -907,10 +907,10 @@ report by Hugh Small
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;モアレ効果を多用しない&#34;&gt;モアレ効果を多用しない
 &lt;/h3&gt;&lt;p&gt;光学技術を元に多用なテクスチャの生成が可能になりましたが、モアレ効果を生み出し、ノイズが情報の流れを曇らせます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3.png&#34;
 	width=&#34;826&#34;
 	height=&#34;577&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_3_hu58fa13ef2d5eec5e6f6700364ed1399c_585699_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -921,10 +921,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;自己装飾が目的になってしまっている&#34;&gt;自己装飾が目的になってしまっている
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_4.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4.png&#34;
 	width=&#34;440&#34;
 	height=&#34;694&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/chartjunk_grids_4_hu73fe51006641823a441fc314d2db042c_324820_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -936,10 +936,10 @@ report by Hugh Small
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;左右対象な図形&#34;&gt;左右対象な図形
 &lt;/h3&gt;&lt;p&gt;高さを示す棒グラフは、高さを示す要素以外を極限まで減らす。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4.png&#34;
 	width=&#34;893&#34;
 	height=&#34;479&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_4_hu234c3bfeba4163e7775c2941265bb303_111477_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -950,10 +950,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;p&gt;ボックスプロット、棒グラフの棒、チャーノフの顔のように、シンメトリー（左右対称性）なチャートについては、左右対称であるがゆえに、半分は冗長であるとします。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2.png&#34;
 	width=&#34;508&#34;
 	height=&#34;216&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_2_hu72281ea87dffbad41c2977ba771e63c7_22006_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -965,10 +965,10 @@ report by Hugh Small
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;一見幾何図形のみで成立しているチャートであっても極限まで無駄を省いてみる&#34;&gt;一見、幾何図形のみで成立しているチャートであっても、極限まで無駄を省いてみる。
 &lt;/h3&gt;&lt;p&gt;通常の箱ひげ図も、この観点に立つと、極限までデータ-インク比を上げられます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkMaximize.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkMaximize.png&#34;
 	width=&#34;457&#34;
 	height=&#34;701&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkMaximize_hua4e288582706340590e794d46a04557c_66376_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -980,10 +980,10 @@ report by Hugh Small
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
 &lt;h3 id=&#34;適切な繰り返しは許容する&#34;&gt;適切な繰り返しは許容する
 &lt;/h3&gt;&lt;p&gt;無意味な左右対称形は否定していますが、逆に、列車の時刻表や世界地図などは、スムーズな情報取得のため、意図的に繰り返す方が優れている、としています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1.png&#34;
 	width=&#34;754&#34;
 	height=&#34;614&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_1_hu3830f83f428464eab889543ea60e1088_346501_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -993,10 +993,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;エドワード・タフテ／The Visual Display of Quantitative Informationより引用&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3.png&#34;
 	width=&#34;718&#34;
 	height=&#34;743&#34;
-	srcset=&#34;https://example.com/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_480x0_resize_box_3.png 480w, https://example.com/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_480x0_resize_box_3.png 480w, https://visualizing.jp/data-ink-ratio/images/DataInkRatio_3_hub62d71bf8300e237e4c2e436b3b51556_311913_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1012,19 +1012,19 @@ report by Hugh Small
         </item>
         <item>
         <title>考えすぎ? ハンドメイドの過剰なチャートたち</title>
-        <link>https://example.com/overthinking-this/</link>
+        <link>https://visualizing.jp/overthinking-this/</link>
         <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/overthinking-this/</guid>
-        <description>&lt;img src="https://example.com/overthinking-this/images/EB3B25MVUAAOXDE.jpeg" alt="Featured image of post 考えすぎ? ハンドメイドの過剰なチャートたち" /&gt;&lt;p&gt;元バズフィードニュースデザイナーだったMichelle Rialさんのかわいらしい絵本です。毎日の生活でグルグル思い悩んでいることを時に過剰に、時にモノからテーマを発想してチャート作品作りをしています。いくつかご紹介します。&lt;/p&gt;
+        <guid>https://visualizing.jp/overthinking-this/</guid>
+        <description>&lt;img src="https://visualizing.jp/overthinking-this/images/EB3B25MVUAAOXDE.jpeg" alt="Featured image of post 考えすぎ? ハンドメイドの過剰なチャートたち" /&gt;&lt;p&gt;元バズフィードニュースデザイナーだったMichelle Rialさんのかわいらしい絵本です。毎日の生活でグルグル思い悩んでいることを時に過剰に、時にモノからテーマを発想してチャート作品作りをしています。いくつかご紹介します。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/4bNI9EV&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Am I Overthinking This?: Over-answering life’s questions in 101 charts&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ベン図&#34;&gt;ベン図
 &lt;/h3&gt;&lt;p&gt;ダイエットを妨げるもの、ということで、乳製品、カフェイン、糖分、アルコール、グルテンを制限するとして…どうやっても友達を減らしてしまうのでは?と考えすぎています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/54512905_461394074399072_1045365037060736186_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/54512905_461394074399072_1045365037060736186_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/54512905_461394074399072_1045365037060736186_n_hu58a82c8e4dfbc39cbd25860867b3148a_68881_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/54512905_461394074399072_1045365037060736186_n_hu58a82c8e4dfbc39cbd25860867b3148a_68881_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/54512905_461394074399072_1045365037060736186_n_hu58a82c8e4dfbc39cbd25860867b3148a_68881_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/54512905_461394074399072_1045365037060736186_n_hu58a82c8e4dfbc39cbd25860867b3148a_68881_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1034,10 +1034,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;友達・同僚・好ましくない人、それぞれに送るメールの最後にどう書くか？考えすぎても、結局「Sent from my iPhone」となってしまいます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/67771582_364337707820410_501826861985734747_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/67771582_364337707820410_501826861985734747_n.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/67771582_364337707820410_501826861985734747_n_hucce9023ee1e0575a26fe572799fddd01_102159_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/67771582_364337707820410_501826861985734747_n_hucce9023ee1e0575a26fe572799fddd01_102159_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/67771582_364337707820410_501826861985734747_n_hucce9023ee1e0575a26fe572799fddd01_102159_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/67771582_364337707820410_501826861985734747_n_hucce9023ee1e0575a26fe572799fddd01_102159_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1047,10 +1047,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;ビートルズの歌詞から、人生を励ます言葉を探す。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/53014202_875112659498373_1190339842097318200_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/53014202_875112659498373_1190339842097318200_n.jpg&#34;
 	width=&#34;1000&#34;
 	height=&#34;1000&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/53014202_875112659498373_1190339842097318200_n_hu94b412673dd7e792c5c7fa74dab250a2_96377_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/53014202_875112659498373_1190339842097318200_n_hu94b412673dd7e792c5c7fa74dab250a2_96377_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/53014202_875112659498373_1190339842097318200_n_hu94b412673dd7e792c5c7fa74dab250a2_96377_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/53014202_875112659498373_1190339842097318200_n_hu94b412673dd7e792c5c7fa74dab250a2_96377_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1060,10 +1060,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;コーヒーカップの裏を使ったベン図で、結局珈琲が好き。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/36630060_785790584963432_772264853879390208_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/36630060_785790584963432_772264853879390208_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/36630060_785790584963432_772264853879390208_n_hud19cc2a5c688882a2b702dca56da3c53_59646_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/36630060_785790584963432_772264853879390208_n_hud19cc2a5c688882a2b702dca56da3c53_59646_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/36630060_785790584963432_772264853879390208_n_hud19cc2a5c688882a2b702dca56da3c53_59646_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/36630060_785790584963432_772264853879390208_n_hud19cc2a5c688882a2b702dca56da3c53_59646_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1074,10 +1074,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;植物&#34;&gt;植物
 &lt;/h3&gt;&lt;p&gt;鉢植えと植物、いつもちょうど良いものが手に入らなくてグルグル。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/31556388_233464510722417_4638278347095277568_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/31556388_233464510722417_4638278347095277568_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/31556388_233464510722417_4638278347095277568_n_hue5700dffb45fed07aafc3c1c009be305_433387_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/31556388_233464510722417_4638278347095277568_n_hue5700dffb45fed07aafc3c1c009be305_433387_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/31556388_233464510722417_4638278347095277568_n_hue5700dffb45fed07aafc3c1c009be305_433387_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/31556388_233464510722417_4638278347095277568_n_hue5700dffb45fed07aafc3c1c009be305_433387_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1088,10 +1088,10 @@ report by Hugh Small
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;小物使い&#34;&gt;小物使い
 &lt;/h3&gt;&lt;p&gt;検索でプラスチック被害のことを知ってから、プラスチック使用料の激減（マイナスなのはどういうこと?）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/56994179_588520118318165_3398207082386460916_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/56994179_588520118318165_3398207082386460916_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/56994179_588520118318165_3398207082386460916_n_huabb7dcf8032e93b0e16bdbf4ea1fbcd5_32117_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/56994179_588520118318165_3398207082386460916_n_huabb7dcf8032e93b0e16bdbf4ea1fbcd5_32117_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/56994179_588520118318165_3398207082386460916_n_huabb7dcf8032e93b0e16bdbf4ea1fbcd5_32117_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/56994179_588520118318165_3398207082386460916_n_huabb7dcf8032e93b0e16bdbf4ea1fbcd5_32117_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1101,10 +1101,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;歯医者の予約日が近くと歯磨き頻度が上がり、歯医者にかかり終わると歯磨き頻度が減っていく。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/28754123_182843145663640_5021082992571842560_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/28754123_182843145663640_5021082992571842560_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/28754123_182843145663640_5021082992571842560_n_hu01dc1772020fe24e28487325ff444148_36716_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/28754123_182843145663640_5021082992571842560_n_hu01dc1772020fe24e28487325ff444148_36716_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/28754123_182843145663640_5021082992571842560_n_hu01dc1772020fe24e28487325ff444148_36716_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/28754123_182843145663640_5021082992571842560_n_hu01dc1772020fe24e28487325ff444148_36716_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1114,10 +1114,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;見た目に気を使いたいのと、楽なウェアを着たい気持ちの戦い。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://example.com/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n_hub53d68676ce354883ac699cae838e12a_61406_480x0_resize_q75_box.jpg 480w, https://example.com/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n_hub53d68676ce354883ac699cae838e12a_61406_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n_hub53d68676ce354883ac699cae838e12a_61406_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/overthinking-this/images/26275063_1607319286023551_5026215796318142464_n_hub53d68676ce354883ac699cae838e12a_61406_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1133,11 +1133,11 @@ report by Hugh Small
         </item>
         <item>
         <title>国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」</title>
-        <link>https://example.com/judgit-overview/</link>
+        <link>https://visualizing.jp/judgit-overview/</link>
         <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/judgit-overview/</guid>
-        <description>&lt;img src="https://example.com/judgit-overview/images/fi_JudgitOverview.png" alt="Featured image of post 国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20190815-00138538/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://visualizing.jp/judgit-overview/</guid>
+        <description>&lt;img src="https://visualizing.jp/judgit-overview/images/fi_JudgitOverview.png" alt="Featured image of post 国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20190815-00138538/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Yahoo!ニュース個人掲載記事&lt;/a&gt;の転載です。&lt;/p&gt;
 &lt;p&gt;これまで検索が難しかった国の事業予算の使いみちを、全文横断で検索できるサービス「&lt;a class=&#34;link&#34; href=&#34;https://judgit.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Judgit&lt;/a&gt;」が登場した。これまで個別にExcelファイルを一ファイルづつ見ていくしかなかったところへ、どんな事業でどの省庁からどの企業へいくら支払われたのか、通常のウェブ検索の感覚で利用することができる。&lt;/p&gt;
@@ -1157,10 +1157,10 @@ report by Hugh Small
 &lt;h2 id=&#34;フリーワード検索メタデータ検索クロスフィルター検索の三種類の検索モードが用意されている&#34;&gt;フリーワード検索、メタデータ検索、クロスフィルター検索の三種類の検索モードが用意されている。
 &lt;/h2&gt;&lt;p&gt;仮説や切り口を持っている人のための&lt;strong&gt;フリーワード検索&lt;/strong&gt;と&lt;strong&gt;メタデータ検索&lt;/strong&gt;、仮説や切り口が思いつかないけど、データからなにか気づきや仮説自体を見つけられないかという人のための&lt;strong&gt;クロスフィルター検索&lt;/strong&gt;の三種類の検索モードが用意されている。&lt;/p&gt;
 &lt;h3 id=&#34;フリーワード検索&#34;&gt;フリーワード検索
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/search_free.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/search_free.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/search_free_hu85327585afc51dec30d86490d2b4f695_340680_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/search_free_hu85327585afc51dec30d86490d2b4f695_340680_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/search_free_hu85327585afc51dec30d86490d2b4f695_340680_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/search_free_hu85327585afc51dec30d86490d2b4f695_340680_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1175,10 +1175,10 @@ report by Hugh Small
     &gt;行政事業&lt;/a&gt;」（やわらかい言葉でいえばプロジェクト・ベース）検索ページだ。&lt;/p&gt;
 &lt;p&gt;行政事業レビューシート全体からフリーワードで検索を行う。&lt;/p&gt;
 &lt;h3 id=&#34;メタデータ検索&#34;&gt;メタデータ検索
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/search_meta.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/search_meta.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/search_meta_hu4b9bc410426eb4202ccc112ff1800a1e_308379_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/search_meta_hu4b9bc410426eb4202ccc112ff1800a1e_308379_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/search_meta_hu4b9bc410426eb4202ccc112ff1800a1e_308379_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/search_meta_hu4b9bc410426eb4202ccc112ff1800a1e_308379_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1194,10 +1194,10 @@ report by Hugh Small
     &gt;主要施策別&lt;/a&gt;」検索ページだ。&lt;/p&gt;
 &lt;p&gt;検索対象をメタデータに限定することで、見つけやすさを向上させることができる。たとえば「主要支出先」ページで「オリンピック」と検索すると、支出先名称に「オリンピック」が含まれているもののみがヒットする。&lt;/p&gt;
 &lt;h3 id=&#34;クロスフィルター検索&#34;&gt;クロスフィルター検索
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/search_crossfilter.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/search_crossfilter.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/search_crossfilter_hu85327585afc51dec30d86490d2b4f695_414985_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/search_crossfilter_hu85327585afc51dec30d86490d2b4f695_414985_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/search_crossfilter_hu85327585afc51dec30d86490d2b4f695_414985_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/search_crossfilter_hu85327585afc51dec30d86490d2b4f695_414985_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1232,10 +1232,10 @@ report by Hugh Small
 &lt;h3 id=&#34;アメリカの事例&#34;&gt;アメリカの事例
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.usaspending.gov/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;USAspending.gov&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/usaspending.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/usaspending.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/usaspending_hu5e0331255e7a5522562189ee2ab3256d_321512_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/usaspending_hu5e0331255e7a5522562189ee2ab3256d_321512_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/usaspending_hu5e0331255e7a5522562189ee2ab3256d_321512_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/usaspending_hu5e0331255e7a5522562189ee2ab3256d_321512_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1247,10 +1247,10 @@ report by Hugh Small
 &lt;p&gt;アメリカ連邦政府公式の決算情報を公開しているサイト。Spending Explorerから、お金の使いみちを、施策別、省庁別、購買サービス・商品別に、ツリーマップ形式で見ていくことができるほか、フリーワード・メタデータ検索であるAward Search、組織や団体を切り口にみていくProfilesが用意されている。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://usafacts.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;USAFacts | Non-partisan Government Data&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/usafacts_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/usafacts_1.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/usafacts_1_hufed353d10822365f74e8354950fb9458_574448_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/usafacts_1_hufed353d10822365f74e8354950fb9458_574448_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/usafacts_1_hufed353d10822365f74e8354950fb9458_574448_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/usafacts_1_hufed353d10822365f74e8354950fb9458_574448_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1266,10 +1266,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bloomberg.com/news/articles/2016-11-07/steve-ballmer-s-plan-to-make-america-great-involves-excel-spreadsheets&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Steve Ballmer’s Plan to Make America Great Involves Excel Spreadsheets - Bloomberg&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;特徴的なのは、どんな分野から入と出があるかは示されているが、誰から誰へという組織や人種が登場しないこと。そもそもマクロなお金の使い道をざっくり認識するためのものとして詳細を省いたともいえるし、「誰」が扱われた瞬間、議論が別な方向で進んでいくことを抑制しているとも受け取れそうだ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/usafacts_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/usafacts_2.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/usafacts_2_hub4616a1f21114184f31208df9c0c05a4_477759_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/usafacts_2_hub4616a1f21114184f31208df9c0c05a4_477759_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/usafacts_2_hub4616a1f21114184f31208df9c0c05a4_477759_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/usafacts_2_hub4616a1f21114184f31208df9c0c05a4_477759_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1281,10 +1281,10 @@ report by Hugh Small
 &lt;h3 id=&#34;イギリスの事例&#34;&gt;イギリスの事例
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://app.wheredoesmymoneygo.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Welcome - Where Does My Money Go?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/wheredoesmymoneygo.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/wheredoesmymoneygo.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/wheredoesmymoneygo_hud8c6c3af47b9b7174bfa6cde5d6b65e7_354324_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/wheredoesmymoneygo_hud8c6c3af47b9b7174bfa6cde5d6b65e7_354324_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/wheredoesmymoneygo_hud8c6c3af47b9b7174bfa6cde5d6b65e7_354324_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/wheredoesmymoneygo_hud8c6c3af47b9b7174bfa6cde5d6b65e7_354324_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1298,10 +1298,10 @@ report by Hugh Small
 &lt;p&gt;上記サイトのソースコードを元に日本版が盛んに作られた。今でも日本語でみることができる。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://spending.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;税金はどこへ行った？ - WHERE DOES MY MONEY GO? -&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/judgit-overview/images/spendingjp.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/judgit-overview/images/spendingjp.png&#34;
 	width=&#34;1414&#34;
 	height=&#34;1137&#34;
-	srcset=&#34;https://example.com/judgit-overview/images/spendingjp_hudee4ba8d6cd36402893c02ad467596d3_516756_480x0_resize_box_3.png 480w, https://example.com/judgit-overview/images/spendingjp_hudee4ba8d6cd36402893c02ad467596d3_516756_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/judgit-overview/images/spendingjp_hudee4ba8d6cd36402893c02ad467596d3_516756_480x0_resize_box_3.png 480w, https://visualizing.jp/judgit-overview/images/spendingjp_hudee4ba8d6cd36402893c02ad467596d3_516756_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1325,16 +1325,16 @@ report by Hugh Small
         </item>
         <item>
         <title>「最も美しい」や「最も楽しい」道順を提案する研究</title>
-        <link>https://example.com/most-beauty-route/</link>
+        <link>https://visualizing.jp/most-beauty-route/</link>
         <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/most-beauty-route/</guid>
-        <description>&lt;img src="https://example.com/most-beauty-route/images/fi_MostBeautyRoute-1.png" alt="Featured image of post 「最も美しい」や「最も楽しい」道順を提案する研究" /&gt;&lt;p&gt;「A地点からB地点まで」。いわゆるナビゲーションシステムによるルート案内を、感性に訴えるものにしようという提案をした研究者がいます。彼の話を聞いてみましょう。&lt;/p&gt;
+        <guid>https://visualizing.jp/most-beauty-route/</guid>
+        <description>&lt;img src="https://visualizing.jp/most-beauty-route/images/fi_MostBeautyRoute-1.png" alt="Featured image of post 「最も美しい」や「最も楽しい」道順を提案する研究" /&gt;&lt;p&gt;「A地点からB地点まで」。いわゆるナビゲーションシステムによるルート案内を、感性に訴えるものにしようという提案をした研究者がいます。彼の話を聞いてみましょう。&lt;/p&gt;
 &lt;p&gt;彼のとった方法論としては、大きく２つ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/most-beauty-route/images/urbangems-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/most-beauty-route/images/urbangems-1.png&#34;
 	width=&#34;999&#34;
 	height=&#34;465&#34;
-	srcset=&#34;https://example.com/most-beauty-route/images/urbangems-1_hu481f848c2207b52d72a383c610625dd7_415148_480x0_resize_box_3.png 480w, https://example.com/most-beauty-route/images/urbangems-1_hu481f848c2207b52d72a383c610625dd7_415148_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/most-beauty-route/images/urbangems-1_hu481f848c2207b52d72a383c610625dd7_415148_480x0_resize_box_3.png 480w, https://visualizing.jp/most-beauty-route/images/urbangems-1_hu481f848c2207b52d72a383c610625dd7_415148_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1348,10 +1348,10 @@ report by Hugh Small
     &gt;Geograph&lt;/a&gt;から取得した位置情報を持っているAとBの２つの写真を同時に見せ、どちらがより「美しく、幸せ」にみえるかを人間に選んでもらい、その結果をナビゲーション結果表示に利用する、というものです。実際に美しいと感じるかどうかを住民30人に歩いてもらい検証したそうです。写真を撮った本人以外がタグ付け（評価）に参加できるところが面白いですね。&lt;/p&gt;
 &lt;p&gt;二つ目は500万枚あるFlickr上の写真と、ポジネガ判定したそのコメント文を利用し、同様のアルゴリズムを用いてボストン版を制作（つまりクラウドソーシングを使わずにFlickr上のテキストデータを用いた）したそうです。こちらでも数十人でテストして実証できたそうです。&lt;/p&gt;
 &lt;p&gt;美しさを尊重しても12%ほどしか時間が長くならなかったそうです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/most-beauty-route/images/results-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/most-beauty-route/images/results-1.png&#34;
 	width=&#34;1032&#34;
 	height=&#34;798&#34;
-	srcset=&#34;https://example.com/most-beauty-route/images/results-1_hubf193880e6c5a140edd740fdf576f551_822731_480x0_resize_box_3.png 480w, https://example.com/most-beauty-route/images/results-1_hubf193880e6c5a140edd740fdf576f551_822731_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/most-beauty-route/images/results-1_hubf193880e6c5a140edd740fdf576f551_822731_480x0_resize_box_3.png 480w, https://visualizing.jp/most-beauty-route/images/results-1_hubf193880e6c5a140edd740fdf576f551_822731_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1388,15 +1388,15 @@ report by Hugh Small
         </item>
         <item>
         <title>すべてを明け渡すことではじめて完成する、茶道としてのオープンソース</title>
-        <link>https://example.com/how-to-give-everything-away/</link>
+        <link>https://visualizing.jp/how-to-give-everything-away/</link>
         <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/how-to-give-everything-away/</guid>
-        <description>&lt;img src="https://example.com/how-to-give-everything-away/images/thumb_ph_vizjp.png" alt="Featured image of post すべてを明け渡すことではじめて完成する、茶道としてのオープンソース" /&gt;&lt;p&gt;去年（2013年）クラスカで行われたFITC Tokyoに参加してきて、最も印象深かった話の一つが、Kyle McDonaldの &amp;lsquo;How to Give Everything Away&amp;rsquo;（あらゆるものを公開する方法）という話でしたので、ご紹介させてください。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1.jpg&#34;
+        <guid>https://visualizing.jp/how-to-give-everything-away/</guid>
+        <description>&lt;img src="https://visualizing.jp/how-to-give-everything-away/images/thumb_ph_vizjp.png" alt="Featured image of post すべてを明け渡すことではじめて完成する、茶道としてのオープンソース" /&gt;&lt;p&gt;去年（2013年）クラスカで行われたFITC Tokyoに参加してきて、最も印象深かった話の一つが、Kyle McDonaldの &amp;lsquo;How to Give Everything Away&amp;rsquo;（あらゆるものを公開する方法）という話でしたので、ご紹介させてください。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/how-to-give-everything-away/images/FITC2013Kyle-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;300&#34;
-	srcset=&#34;https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_480x0_resize_q75_box.jpg 480w, https://example.com/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/how-to-give-everything-away/images/FITC2013Kyle-1_hua5f22840a8bf7448c5fcb3492fa2b27c_49868_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1420,10 +1420,10 @@ report by Hugh Small
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vimeo.com/50239840&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Eyeo2012 - Kyle McDonald&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/how-to-give-everything-away/images/tearoom-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/how-to-give-everything-away/images/tearoom-1.png&#34;
 	width=&#34;960&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://example.com/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_480x0_resize_box_3.png 480w, https://example.com/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_480x0_resize_box_3.png 480w, https://visualizing.jp/how-to-give-everything-away/images/tearoom-1_hu9bdfed1a812090ac4a75c948348cecf8_446869_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1459,16 +1459,16 @@ report by Hugh Small
         </item>
         <item>
         <title>data.go.jp開設</title>
-        <link>https://example.com/data-go-jp/</link>
+        <link>https://visualizing.jp/data-go-jp/</link>
         <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/data-go-jp/</guid>
-        <description>&lt;img src="https://example.com/data-go-jp/images/fi_DataGoJp.png" alt="Featured image of post data.go.jp開設" /&gt;&lt;p&gt;2013年12月20日、「データカタログサイト試行版」として、data.go.jpが開設されました。&lt;br&gt;
+        <guid>https://visualizing.jp/data-go-jp/</guid>
+        <description>&lt;img src="https://visualizing.jp/data-go-jp/images/fi_DataGoJp.png" alt="Featured image of post data.go.jp開設" /&gt;&lt;p&gt;2013年12月20日、「データカタログサイト試行版」として、data.go.jpが開設されました。&lt;br&gt;
 「各府省の保有データをオープンデータとして利用できる場をつくり、データの提供側・利用側双方にオープンデータのイメージを分かりやすく示すことを目的としています。」とのことで、「日本のオープンデータ憲章アクションプラン」に基づいたものです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://example.com/data-go-jp/images/datagojp-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/data-go-jp/images/datagojp-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;390&#34;
-	srcset=&#34;https://example.com/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_480x0_resize_box_3.png 480w, https://example.com/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_480x0_resize_box_3.png 480w, https://visualizing.jp/data-go-jp/images/datagojp-1_hudde0f2d380c366d3cd3cf5f60182cf82_253363_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1516,11 +1516,11 @@ report by Hugh Small
         </item>
         <item>
         <title>Linked Data</title>
-        <link>https://example.com/linked-data/</link>
+        <link>https://visualizing.jp/linked-data/</link>
         <pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/linked-data/</guid>
-        <description>&lt;img src="https://example.com/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
+        <guid>https://visualizing.jp/linked-data/</guid>
+        <description>&lt;img src="https://visualizing.jp/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
 &lt;table class=&#34;table-single&#34;&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;★&lt;/th&gt;&lt;td&gt;(どんな形式でも良いので) あなたのデータをオープンライセンスでWeb上に公開しましょう&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★&lt;/th&gt;&lt;td&gt;データを構造化データとして公開しましょう (例: 表のスキャン画像よりもExcel)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★&lt;/th&gt;&lt;td&gt;非独占の形式を使いましょう (例: ExcelよりもCSV)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★&lt;/th&gt;&lt;td&gt;物事を示すのにURIを使いましょう，そうすることで他の人々があなたのデータにリンクすることができます&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★★&lt;/th&gt;&lt;td&gt;あなたのデータのコンテキストを提供するために他のデータへリンクしましょう&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://5stardata.info/ja/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
