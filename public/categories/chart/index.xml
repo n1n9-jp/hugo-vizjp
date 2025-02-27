@@ -2787,9 +2787,6 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jasondavies.com/parallel-sets/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Jason Daviesのd3.parsetsより&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ただし、Parallel Sets (ParSets)作者のRobert Kosara自身はこう述べています。&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When the diagram is based on a cross-tabulation of categorical data, like Fineo, it&amp;#39;s Parallel Sets though. Same model, similar idea.&lt;/p&gt;&amp;mdash; Robert Kosara (@eagereyes) &lt;a href=&#34;https://twitter.com/eagereyes/status/86530506728013824?ref_src=twsrc%5Etfw&#34;&gt;June 30, 2011&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
 &lt;p&gt;「Fineoのようにカテゴリカルデータのクロス集計に基づいてチャートを作成する場合、それはParallel Setsですが。同じモデル、似たような考えだ」&lt;/p&gt;
 &lt;p&gt;筆者自身は、階層構造の内部を探索的に辿ることができるParallelSetsと、あるシステム全体を貫くカテゴリカルなデータの流れや存在感を把握するFineoは別のものだと考えています。ですので、現在Fineoが公開修了という状態は残念です（RawGraphsに引き継がれたとのことですが、インタラクティブなチャート生成という仕組みのみであり、Fineo自体はそれに含まれていません）。&lt;/p&gt;
