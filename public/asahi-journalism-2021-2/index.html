@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム) 2021年5月号」に掲載された著者自身による記事の転載で">
+<title>データジャーナリズム　その２　事例と手法から</title>
+
+<link rel='canonical' href='https://visualizing.jp/asahi-journalism-2021-2/'>
+
+<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="データジャーナリズム\u3000その２\u3000事例と手法から">
+<meta property='og:description' content="※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム) 2021年5月号」に掲載された著者自身による記事の転載で">
+<meta property='og:url' content='https://visualizing.jp/asahi-journalism-2021-2/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2021-05-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-05-10T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/asahi-journalism-2021-2/images/asahi-journalism-2021-2.jpg' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="データジャーナリズム\u3000その２\u3000事例と手法から">
+<meta name="twitter:description" content="※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム) 2021年5月号」に掲載された著者自身による記事の転載で"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://visualizing.jp/asahi-journalism-2021-2/images/asahi-journalism-2021-2.jpg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#具体的な事例の紹介">具体的な事例の紹介</a>
+      <ol>
+        <li><a href="#大気汚染の可視化">大気汚染の可視化</a></li>
+        <li><a href="#スマホの健康負荷の喚起">スマホの健康負荷の喚起</a></li>
+        <li><a href="#プライバシーポリシーの可視化">プライバシーポリシーの可視化</a></li>
+        <li><a href="#偽フォロワー数の解析">偽フォロワー数の解析</a></li>
+      </ol>
+    </li>
+    <li><a href="#プロセスとしての手法">プロセスとしての手法</a>
+      <ol>
+        <li><a href="#データのデジタル化">①データのデジタル化</a></li>
+        <li><a href="#異なるデータの名寄せ">②異なるデータの名寄せ</a></li>
+        <li><a href="#住所と緯度経度の特定">③住所と緯度経度の特定</a></li>
+        <li><a href="#写真からの住所の特定">④写真からの住所の特定</a></li>
+        <li><a href="#センサーの活用">⑤センサーの活用</a></li>
+        <li><a href="#データクレンジング">⑥データ・クレンジング</a></li>
+        <li><a href="#仮説の発見">⑦仮説の発見</a></li>
+      </ol>
+    </li>
+    <li><a href="#プレゼンテーションとしての手法">プレゼンテーションとしての手法</a>
+      <ol>
+        <li><a href="#インフォグラフィック">①インフォグラフィック</a></li>
+        <li><a href="#フォトグラメトリ">②フォトグラメトリ</a></li>
+        <li><a href="#解説動画">④解説動画</a></li>
+        <li><a href="#インタラクティブコンテンツ">⑤インタラクティブコンテンツ</a></li>
+      </ol>
+    </li>
+    <li><a href="#作り手にとってのメリット">作り手にとってのメリット</a>
+      <ol>
+        <li><a href="#ｐｖが多く滞在時間も長い">ＰＶが多く、滞在時間も長い</a></li>
+        <li><a href="#時間や費用の削減">時間や費用の削減</a></li>
+        <li><a href="#新たな記録手法の開拓">新たな記録手法の開拓</a></li>
+      </ol>
+    </li>
+    <li><a href="#受け手にとってのメリット">受け手にとってのメリット</a>
+      <ol>
+        <li><a href="#認知負荷の軽減">認知負荷の軽減</a></li>
+        <li><a href="#自分ゴトに引き寄せられる">自分ゴトに引き寄せられる</a></li>
+      </ol>
+    </li>
+    <li><a href="#誰でもデータジャーナリスト">誰でもデータジャーナリスト</a></li>
+    <li><a href="#リンク">リンク</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/asahi-journalism-2021-2/">
+                <img src="/asahi-journalism-2021-2/images/asahi-journalism-2021-2_hu4531ca72c676cec0bcbf27670d0e31ee_165149_800x0_resize_q75_box.jpg"
+                        srcset="/asahi-journalism-2021-2/images/asahi-journalism-2021-2_hu4531ca72c676cec0bcbf27670d0e31ee_165149_800x0_resize_q75_box.jpg 800w, /asahi-journalism-2021-2/images/asahi-journalism-2021-2_hu4531ca72c676cec0bcbf27670d0e31ee_165149_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="1130" 
+                        loading="lazy"
+                        alt="Featured image of post データジャーナリズム　その２　事例と手法から" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/data-journalism/" >
+                data-journalism
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/asahi-journalism-2021-2/">データジャーナリズム　その２　事例と手法から</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 10, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム)  2021年5月号」に掲載された著者自身による記事の転載です。
+Journalismは残念ながら現在休刊中ですが、<a class="link" href="https://amzn.to/41lhX0y"  target="_blank" rel="noopener"
+    >Amazonなどでバックナンバーを入手することができます</a>ので、機会があればぜひお手にとってください。</p>
+<h1 id="読者と視聴者の利益のために直感的なビジュアルを目指そう">読者と視聴者の利益のために直感的なビジュアルを目指そう
+</h1><p><img src="/asahi-journalism-2021-2/images/asahi-journalism-2021-2.jpg"
+	width="920"
+	height="1300"
+	srcset="/asahi-journalism-2021-2/images/asahi-journalism-2021-2_hu4531ca72c676cec0bcbf27670d0e31ee_165149_480x0_resize_q75_box.jpg 480w, /asahi-journalism-2021-2/images/asahi-journalism-2021-2_hu4531ca72c676cec0bcbf27670d0e31ee_165149_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="70"
+		data-flex-basis="169px"
+	
+></p>
+<p>　前回の「<a class="link" href="https://visualizing.jp/asahi-journalism-2021-1/"  target="_blank" rel="noopener"
+    >データジャーナリズム①定義と歴史を概観する</a>」に続き、今回は具体的な事例と手法などを紹介する。また、そのプロセス（制作過程）とプレゼンテーション（見せ方）も考察したい。まずは、昨年のシグマ・アワードでの入賞作品をはじめとする事例を紹介する。</p>
+<h2 id="具体的な事例の紹介">具体的な事例の紹介
+</h2><h3 id="大気汚染の可視化">大気汚染の可視化
+</h3><ul>
+<li>See How the Worldʼs Most Polluted Air Compares With Your Cityʼs - The New York Times
+<ul>
+<li><a class="link" href="https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html"  target="_blank" rel="noopener"
+    >https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html</a></li>
+</ul>
+</li>
+</ul>
+<p>　各都市における大気汚染の度合いを、ＰＭ２・５に見立てたドットや世界地図の上空を行き来する空気の流れ、都市ごとの棒グラフなどで可視化している （下）。棒グラフではインドのデリーがチャートの掲載範囲を大きく超える形で描かれており、その汚染のひどさを強調している。デリーや北京と自分が住む都市との比較ができるようにもなっている。提供されている公式アプリ内のＡＲ（拡張現実）ヴァージョンの記事では、スマートフォンを通じて眺める周囲の景色にＰＭ２・５を表すドットが漂い、その都市における数値の大きさを実風景にオーバーレイする形で確認することができる。</p>
+<h3 id="スマホの健康負荷の喚起">スマホの健康負荷の喚起
+</h3><ul>
+<li>Why your smartphone is causing you ʻtextneckʼ syndrome
+<ul>
+<li><a class="link" href="https://multimedia.scmp.com/lifestyle/article/2183329/text-neck/"  target="_blank" rel="noopener"
+    >https://multimedia.scmp.com/lifestyle/article/2183329/text-neck/</a></li>
+</ul>
+</li>
+</ul>
+<p>　スマートフォンを利用する際に首を曲げている角度や時間によっては、首に20～30㎏前後の負荷を与えている。これが健康に悪影響を与える危険性を訴えるコンテンツ。写真や動画上に直接、「アノテーション」と呼ばれる解説を付け足して説明している （左） 。イラスト、写真、チャートなど様々な表現を同時に使用しながら、読者・視聴者の食わず嫌いを避け、わかりやすく伝達されるようページ全体に工夫がなされている。</p>
+<h3 id="プライバシーポリシーの可視化">プライバシーポリシーの可視化
+</h3><ul>
+<li>Polisis
+<ul>
+<li><a class="link" href="https://pribot.org/polisis"  target="_blank" rel="noopener"
+    >https://pribot.org/polisis</a></li>
+<li><a class="link" href="https://pribot.org/polisis/?_id=5b03d2276ff131496ccf099c&amp;company_url=https%3A%2F%2Fwww.facebook.com&amp;category=first-party-collection-use"  target="_blank" rel="noopener"
+    >https://pribot.org/polisis/?_id=5b03d2276ff131496ccf099c&company_url=https%3A%2F%2Fwww.facebook.com&category=first-party-collection-use</a></li>
+</ul>
+</li>
+</ul>
+<p>　様々なサービスを利用する際、プライバシーポリシー（個人情報に関する指針）に同意が求められるが、長文で読みづらく、まともに読解しようとすれば大変な苦労をする。しかしこの中にエンドユーザーにとって一方的に不利益な条文があるかもしれないし、ポリシーの改定時にそういった内容がひっそり追加される可能性もある。Polisisというツールを利用すると、プライバシーポリシーにおいて「どんなデータ」を「どういった目的で取得する」のか、サードパーティ（利用サービスから第三者の関係にあるサービス）へデータの共有がなされているかどうか、などが明確となる。たとえばFacebookでは、２０２０年12月16日時点でこのような状態になっていた （下） 。マウスカーソルを乗せると該当部分のポリシーが文章で参照できる。</p>
+<h3 id="偽フォロワー数の解析">偽フォロワー数の解析
+</h3><ul>
+<li>Bytes and Pieces - Influencer: Instagram-Starsschummeln mit falschen Zahlen-Radio SRFVirus – SRF
+<ul>
+<li><a class="link" href="https://www.srf.ch/radio-srf-virus/bytes-and-pieces-influencer-instagram-stars-schummeln-mit-falschen-zahlen"  target="_blank" rel="noopener"
+    >https://www.srf.ch/radio-srf-virus/bytes-and-pieces-influencer-instagram-stars-schummeln-mit-falschen-zahlen</a></li>
+</ul>
+</li>
+</ul>
+<p>　Instagramのインフルエンサーのフォロワー数は大きな影響力を持つとされ、企業は広告効果を期待して宣伝を依頼する。そのフォロワーのうち、いわゆるボット（コンピューターで生成したアカウント）がどのくらい占めているのかを、機械学習の「決 けっ定 てい木 ぎ 」という手法で推定した。記事ではスイスのインフルエンサーのうち、ほぼ３分の１のフォロワーはフェイクだとして、直接本人に問うている動画 （上） も掲載されている。</p>
+<h2 id="プロセスとしての手法">プロセスとしての手法
+</h2><p>　次にデータを解析するプロセスから代表的な手法を七つ紹介していく。</p>
+<h3 id="データのデジタル化">①データのデジタル化
+</h3><p>　紙でのみ存在するデータをデジタル化するには膨大な手間がかかる。人力で行おうとすれば、時間だけでなく費用も膨大にかかる。たとえば政治資金収支報告書。紙をスキャンしたデータがインターネット上で公表されているが、これを人力でデジタルデータにしようとすると人件費だけで１年分でも２０００万円前後はかかった例もある。だが、ＡＩを活用することで安価に実現できる可能性がある。従来のＯＣＲに加えて、手書き文字の判別や、写真や動画に誰が写っているかを特定する手法を複数組み合わせて、デジタル化ができるのだ。
+　近年新たに公表されたケネディ大統領暗殺事件にまつわるＣＩＡ調査に関する資料、これらは３万４千ページ超に及ぶ紙文書や画像をスキャンしたものである。マイクロソフト社では自社ＡＩ製品のパフォーマンス宣伝を兼ねて、この資料をすべてデジタル化し、人物名でタグ付けを行い、ネット上で検索できる状態で公開している （注１）。
+　また、リークされたいわゆるパナマ文書の解析にあたったＩＣＩＪ（国際調査報道ジャーナリスト連合）では、自分たちでデジタル化のためのツールを開発し、無料かつオープンソースで公開している。残念ながら現時点では英語、スペイン語、フランス語、ドイツ語のみの対応となるが、ＰＤＦ、画像、テキスト、スプレッドシート、スライドなど様々な形式のファイルをデジタル化し、人、組織、場所ごとに自動的にタグづけを行う （注２）。こうして作成した加工済データは、民間企業のクラウドサービスを経由せずに、国を超えたプロジェクトメンバーであるジャーナリストたちで共有されている。一般向けデータベースとしてはパナマ文書に続いたパラダイス文書などを含めて「オフショア・リークス・データベース」として公開されている （注３）。</p>
+<h3 id="異なるデータの名寄せ">②異なるデータの名寄せ
+</h3><p>　別々に存在している二つのデータを結合することで新しい事実を発見する手法。ここでは、教師なし機械学習と統計モデリングを使用して、固定資産税の回避実態を明らかにした例を挙げる。
+　米国テキサス州の住宅所有者は個人またはカップルにつき一つの住宅のみを免税対象にできるが、AirBnBとして自宅を貸し出している「短期賃貸」は免税対象とならない。だが、複数の不動産を所有し、AirBnBで貸し出す利用実態があるにもかかわらず税金免除を申請している個人またはカップルを、この手法により特定することができた。ある地域での「短期賃貸」申請データと電力会社の加入者データの名寄せを行い解析した （注４） 。通常はExcelでいうところのVLOOKUPと呼ばれる操作により実行するが、住所や氏名の表記が人によってマチマチである場合はうまくいかない。これを機械学習によって実行することで、人力に比べて大幅に省力化できた。この手法はほかへも応用が利きそうだ。</p>
+<h3 id="住所と緯度経度の特定">③住所と緯度経度の特定
+</h3><p>　住所のみが含まれ、緯度経度が含まれていないデータが多くある。一般的な地図アプリでは、そのままでは描画することはできない。最低限、緯度経度が必要だ。住所から緯度経度を算出することをジオコーディングと言うが、Yahoo!JAPANのジオコーディングAPIは利用使途が限定されており使いづらい。以下のサービスが使いやすいだろう。</p>
+<ul>
+<li>東京大学空間情報科学研究センター「ＣＳＶアドレスマッチングサービス」
+<ul>
+<li><a class="link" href="https://newspat.csis.u-tokyo.ac.jp/geocode-cgi/geocode.cgi?action=start"  target="_blank" rel="noopener"
+    >https://newspat.csis.u-tokyo.ac.jp/geocode-cgi/geocode.cgi?action=start</a>・OpenCage</li>
+</ul>
+</li>
+<li>Geocoder API
+<ul>
+<li><a class="link" href="https://opencagedata.com/"  target="_blank" rel="noopener"
+    >https://opencagedata.com/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="写真からの住所の特定">④写真からの住所の特定
+</h3><p>　ある写真がどこで撮影されたのかを特定したい場合、その写真に写り込んだ景色とGoogleマップの衛星写真表示を組み合わせて、一点透視図法を用いて特定していく手法がある。写真がどこで撮影されたのかを、調査に生かすことが可能だ。</p>
+<h3 id="センサーの活用">⑤センサーの活用
+</h3><p>　スマートフォンや、安価なコンピューター端末であるラズベリーパイやArduino、ドローンといったデバイスを用いてセンサーデータを取得し、活用する手法だ。画像解析の手法が洗練されていった結果、カメラをセンサーとして利用することもできる。外部マイクをつけたスマホを森林に多数設置し、音を機械学習で聞き分けて不法伐採を監視するサービスがある。</p>
+<h3 id="データクレンジング">⑥データ・クレンジング
+</h3><p>　資料を機械が読み取れる状態にすることを指す。紙に出力された文章はＯＣＲで文字起こしするが、この延長でＰＤＦや紙でしか存在しない表データをデジタルデータ化することや、分析や可視化のために最低限必要となる「整然データ」（Tidy data）化することを指す。Excelで手動で行うことも可能だが、クレンジング手順自体の透明性や効率化のために、専用ツールを用いる方が望ましい。</p>
+<h3 id="仮説の発見">⑦仮説の発見
+</h3><p>　取得したデータそのものから仮説を発見するというアプローチがある。未知のデータに何が含まれているかわからない時点での仮説は、データを探索することによって、思い込みだったとして否定されることもある。主にマーケティングに用いられる「ＢＩツール」と呼ばれるジャンルのツールが、実は自由度が高くデータ内を探索するのにふさわしい。ただ、地図や文章（自然言語）に関してはこの限りではない。無償のものと有償のものとあるので、各ツール（Tableau／Power BI／QGIS／KH Coderな ど ）を検索してみていただきたい。</p>
+<h2 id="プレゼンテーションとしての手法">プレゼンテーションとしての手法
+</h2><p>　以上、データを解析するプロセスから見た手法を紹介してきたが、続いてプレゼンテーション、つまり「見せ方」から代表的な手法を紹介していく。</p>
+<h3 id="インフォグラフィック">①インフォグラフィック
+</h3><p>　数年前であればラトビアのInfogr.amというサービスが日本の報道機関で利用されていたが、最近ではイギリスのFlourishがよく使用されている。近年人気のBar Chart Raceがアニメーションで手軽に作れるほか、チャートの種類の豊富さ、モバイル対応などから人気のツールである。</p>
+<ul>
+<li>Flourish | Data Visualization &amp; Storytelling
+<ul>
+<li><a class="link" href="https://flourish.studio/"  target="_blank" rel="noopener"
+    >https://flourish.studio/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="フォトグラメトリ">②フォトグラメトリ
+</h3><p>　日本の放送局の報道においても、事件や事故現場の様子をＣＧで再現することはよくあるが、ＣＧとリアル映像はあくまで別々のものとして扱われる。ニューヨーク・タイムズが最近よく使うこの手法では、制作したＣＧを用いるまでは同じだが、ＣＧ空間内でカメラ位置を自由に移動させて、現場に居合わせた一般人や記者が撮影した写真や動画をＣＧ空間とシームレスにつなぎ合わせる。この手法によって現場の様子を、できるだけ精緻に再現しようとするのである。ニューヨーク・タイムズの記事 （注５）では、ガザ地区での抗議活動の際に、ボランティアが射殺された事件を取り上げており、現場に居合わせた人たちのスマホの画像や動画データを収集し、時系列に沿ってその場所へマッピング。三角測量を用いて、射撃場所を特定した。</p>
+<p>③ストーリーボード</p>
+<p>報道はノンフィクションであり、テーマや素材の取捨選択とその並び順、という構成によってクリエーティビティを発揮するといえる。構成されたテキストによるストーリーを補足するために画像やインタラクティブコンテンツ、動画が用いられる。ウェブページであればスクロールやページングによって、コンテンツが丸々、動画であれば動画再生によって時間軸を構成していく。
+　この検討、つまりテーマや素材の取捨選択とその並び順の検討のために、コンテンツを静止画として紙に出力して俯瞰的にプレゼンテーションの手段を考えることを、ストーリーボードと呼ぶ。ストーリーボード自体は中間成果物で外部に公表はしない。最近ではストーリーボードをクラウドで行う、たとえばFigmaというクラウドで共有と共同作業が可能なデザインツールを用いた検討などが考えられる （注６） 。場所を問わずに参加が可能なことと、検討内容自体をデジタルで保存しておくことが可能である。</p>
+<h3 id="解説動画">④解説動画
+</h3><p>　ニュース解説メディア「Ｖｏｘ」やニューヨーク・タイムズによる事例が有名だが、動画による解説をExplainerVideo （解説動画）と呼ぶ （注７） 。解説動画は、イラストを用いたものとそうでないものに大別でき、前者については制作のためのツールや原理原則が存在する。後者は内容に合わせてその都度制作するため、英語圏でも制作のための明解な教材はない。ツールのイノベーションはあまりなく、アドビ社のPremiereやAfterEffectsで制作する。</p>
+<h3 id="インタラクティブコンテンツ">⑤インタラクティブコンテンツ
+</h3><p>　最近はブラウザ上でインタラクティブに操作できるコンテンツが増加している。インタラクティブな操作が可能ということは動的に見せられて魅力的であるだけでなく、デリバリーの仕方が根本的に変わる。二通りに分けて見てみよう。制作者側（作る人）が意図した順番でのみコンテンツ消費が可能な伝達の仕方、つまり従来のテキストコンテンツに近い届け方である「表現と伝達型」と、読者・視聴者（見る人）に大幅に自由度を与え、自身でデータを探索する自由さを与える「課題の探索型」だ。さらにはこれら二つを組み合わせる手法もある。
+　読者・視聴者にとっての自由度の調整は制作者側にとって難しい。特集記事部門でピュリツァー賞を受けたニューヨーク・タイムズのSnow Fallというコンテンツ制作に携わったグレゴア・アイシュ氏は、Snow Fallのようなアクセス数を集めたコンテンツであっても、インタラクションの後ろに隠された情報はユーザーの85％に見られることなくスルーされた、という衝撃的な結果を講演で明らかにした。近年ではスクローリーテリングと呼ばれる手法を用いることも増えたが、これはブラウザのスクロールに合わせて、コンテンツの表示・非表示や再生・停止をコントロールし、読者・視聴者に操作の負荷を与えない手法である。</p>
+<h2 id="作り手にとってのメリット">作り手にとってのメリット
+</h2><p>　これまで定義、経緯、事例、手法と述べてきた。これらの未知のデータジャーナリズムの手法を学んでまで、記者が挑戦する意味はどこにあるのだろうか。通常の記事コンテンツと比較した際の特徴を以下に挙げる。</p>
+<h3 id="ｐｖが多く滞在時間も長い">ＰＶが多く、滞在時間も長い
+</h3><p>　ワシントン・ポストが14の新設ポジションを設け、グラフィックとデザインチームの拡大を行っている。これは同社サイトのうち最も訪問された七つの記事のうち六つはグラフィックスを用いたものであり、最も訪問された記事「コロナウイルスシミュレーター」が２位の３倍以上だったことを受けての決定だ。
+　ブルームバーグでは、２０１８年にグラフィックスチームが獲得した平均月間トラフィックは、前年比で19・３％増加したという。「我々は、グラフィックが与えた影響力を成功の物差しにしたいと考えている」と担当エグゼクティブディレクターを務めるマーチン・キオハン氏は述べている。</p>
+<h3 id="時間や費用の削減">時間や費用の削減
+</h3><p>　大量に存在する資料の中から、調査すべき資料を絞り込む。たとえば全体が数百万あるファイルの中から調査すべき数千ファイルへ絞り込むことができるだけでも人件費、ひいては費用面での効率化が図れる。前述のように、アナログで存在する資料をデジタル化する手法はＡＩによって大きく前進した。</p>
+<h3 id="新たな記録手法の開拓">新たな記録手法の開拓
+</h3><p>　ユネスコの地球科学プログラムでは自然災害における「ハザード」（現象）と「ディザスター」（災害）を区別する。前者は自然災害の現象そのもので、後者は社会や経済が受ける影響や結果を指す。報道において、前者は写真や映像として断片的に記録されるが、後者の記録については確固たる方法論が存在しなかった。そのためデータ可視化の理論や事例を援用しながら、世界各地に点在する報道機関の現場においてそのあり方自体のトライ・アンド・エラーが日々行われており、現在進行形で国を超えて相互に刺激しあいながら洗練が進んでいる渦中にあるといえる。これについては災害報道以外でも同様で、データジャーナリズムが扱う大部分のテーマは社会科学と呼べるものであり、社会科学のデータ可視化は、目の前に即物的に視認することのできないテーマにまつわるデータを可視化することの難しさがある。</p>
+<h2 id="受け手にとってのメリット">受け手にとってのメリット
+</h2><p>　では、読者・視聴者にとってのメリットは何だろうか。筆者がデータ可視化実務家として、また、デザイナーとして経験してきた観点から２点挙げたい。</p>
+<h3 id="認知負荷の軽減">認知負荷の軽減
+</h3><p>　行動経済学者として有名なダニエル・カーネマン氏が提唱する、人間の思考モードをシステム１と２に分ける考え方がある。システム１とは直感的かつ自動的に行われる速い判断を指し、システム２とは計算などしながらじっくりと行われる論理的な判断を指す。個々人の文章を読むことに対する慣れやコンテンツによるところも大きいと思うが、長文で書かれたテキストを読み込み、内容を理解するという思考活動は、システム２に近いのではないだろうか。そしてこの伝達の仕方は作り手が図らずも読者を選んでしまう。プレゼンテーションにコンピューターを用いて、インフォグラフィックスと呼ばれる静止画による図解、データ可視化と呼ばれる操作可能なチャートや地図、動画によるストーリーテリングはいずれもシステム１に近い活動である。近くないとしたら作品の完成度の問題であるといえよう。作り手としてはどちらか一方ではなく、まずはシステム１に対して視覚的に広く訴求をし、さらに詳しく知りたい読者・視聴者にシステム２に対応した、思いの丈を記した文章へいざなう、という方法は検討できないだろうか。
+　スマートフォンが主戦場である以上、報道以外のジャンルであっても可処分時間を奪い合う競合となり、まずは負荷が少ないシステム１へ訴求することは思いのほか大事で、読者・視聴者にとっても意味のあることと考える。</p>
+<h3 id="自分ゴトに引き寄せられる">自分ゴトに引き寄せられる
+</h3><p>　インタラクティブなチャートや地図によるプレゼンテーションは、読者・視聴者の興味・関心を誘発する。そして実際に操作をしてみる中で自分に関係することが出てきたら、より興味・関心を持つようになるはずである。データから全体の傾向とその中での自分の立ち位置が見えたり、クイズ形式で自分の知識が試されたり、自分の政治的志向が何にあたるのか、言語化できていなかったものを言語化できたり……。そうやって世の中の出来事と自分の接点を見いだすことは、読者・視聴者にとって喜びとなる。一般の人々は天から下を、全体を見下ろすような視点で世の中を眺めておらず、それぞれが職業や人生経験に基づいた固有の立ち位置から眺めている。そんな読者・視聴者に社会的な出来事との接点を提供することができれば、ジャーナリストにとっても喜びにつながるのではないだろうか。</p>
+<h2 id="誰でもデータジャーナリスト">誰でもデータジャーナリスト
+</h2><p>　データジャーナリズムのヴァージョン３・０の初期、イギリスのガーディアン紙でデータブログをはじめたサイモン・ロジャース氏は、現在Googleに所属し、国際的なコミュニティを牽引する大きな存在の一人である。２０２０年に開催した無料のＭ ム ー ク ＯＯＣ教材の中で彼は「誰でもデータジャーナリスト」と述べている。オープンなデータがあちこちに存在し、無料ツールがいくつも登場している。あとはやるだけだ、と。
+　記者をはじめとする皆さんには、まずは自身がこれまで興味をもって継続的に取材してきたことをテーマに、コンピューターを用いるとどんな可能性が広がるのか、本稿も参考に思いを馳せていただきたい。一人で始めれば気楽だし、別な専門性を持つ複数人で取り組めば発見が多いはずだ。</p>
+<h2 id="リンク">リンク
+</h2><ul>
+<li>JFK Files - Microsoft AI Lab
+<ul>
+<li><a class="link" href="https://www.microsoft.com/en-us/ai/ai-lab-jfk-files"  target="_blank" rel="noopener"
+    >https://www.microsoft.com/en-us/ai/ai-lab-jfk-files</a></li>
+</ul>
+</li>
+<li>Datashare | Visualizing.JP
+<ul>
+<li><a class="link" href="https://visualizing.jp/datashare/"  target="_blank" rel="noopener"
+    >https://visualizing.jp/datashare/</a></li>
+</ul>
+</li>
+<li>ICIJ Offshore Leaks Database
+<ul>
+<li><a class="link" href="https://offshoreleaks.icij.org/"  target="_blank" rel="noopener"
+    >https://offshoreleaks.icij.org/</a></li>
+</ul>
+</li>
+<li>Artificial Informer - Dissecting a MachineLearning Powered Investigation
+<ul>
+<li><a class="link" href="https://artificialinformer.com/issue-one/dissecting-a-machine-learning-powered-investigation.html"  target="_blank" rel="noopener"
+    >https://artificialinformer.com/issue-one/dissecting-a-machine-learning-powered-investigation.html</a></li>
+</ul>
+</li>
+<li>How Times Reporters Froze a Fatal Momenton a Protest Field in Gaza - The New YorkTimes
+<ul>
+<li><a class="link" href="https://www.nytimes.com/2018/12/30/reader-center/gaza-medic-israel-shooting-video-investigation.html"  target="_blank" rel="noopener"
+    >https://www.nytimes.com/2018/12/30/reader-center/gaza-medic-israel-shooting-video-investigation.html</a></li>
+</ul>
+</li>
+<li><a class="link" href="https://www.figma.com/"  target="_blank" rel="noopener"
+    >https://www.figma.com/</a></li>
+<li><a class="link" href="https://www.youtube.com/c/Vox/featured"  target="_blank" rel="noopener"
+    >https://www.youtube.com/c/Vox/featured</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/asahi-journalism-2021-1/">
+        
+        
+            <div class="article-image">
+                <img src="/asahi-journalism-2021-1/images/_hu93673c66d4971ccba3f65506114440eb_259937_62b03a32d2ab55a6c8c3e8d7c2594062.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データジャーナリズム　その１　定義と歴史を概観する"
+                        data-key="asahi-journalism-2021-1" 
+                        data-hash="md5-Oh0dmEvK6Cx5KUNGu2zzMw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データジャーナリズム　その１　定義と歴史を概観する</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/sigma-awards-2021/">
+        
+        
+            <div class="article-image">
+                <img src="/sigma-awards-2021/images/_hu80a51121eb3867ae6590d0f2ccc833ce_564039_3df5ebd031f9c3503aba96da14b2eb8d.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post シグマ・アワード 2021"
+                        data-key="sigma-awards-2021" 
+                        data-hash="md5-kVVWuWbgxUvBYOjDvq5/iw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">シグマ・アワード 2021</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/data-story-4-types/">
+        
+        
+            <div class="article-image">
+                <img src="/data-story-4-types/images/NYT_SnowFall.efdd4e7a8b45d843c29b16f9e31d0644_hu0fab12777de3812556390bb4020e6e5d_2582309_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ・ジャーナリズムにおけるデータ・ストーリー 四類型"
+                        data-key="data-story-4-types" 
+                        data-hash="md5-791OeotF2EPCmxb54x0GRA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ・ジャーナリズムにおけるデータ・ストーリー 四類型</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/wp-corona-simulation/">
+        
+        
+            <div class="article-image">
+                <img src="/wp-corona-simulation/images/corona-simulation.e7e96ae1f50c8f0be6e92c38e480b7a8_hua67d82a9138a650964d7e8088c25a676_58681_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程"
+                        data-key="wp-corona-simulation" 
+                        data-hash="md5-5&#43;lq4fUMjwvm6Sw45IC3qA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/simon-rogers-workflow/">
+        
+        
+            <div class="article-image">
+                <img src="/simon-rogers-workflow/images/_hu3ca08ea6154722705fac2280495e534d_103945_e42a35ce9fd0f509844ac1998527d28c.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー"
+                        data-key="simon-rogers-workflow" 
+                        data-hash="md5-07jx50MROh6tyvaBq/z2Ow==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

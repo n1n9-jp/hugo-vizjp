@@ -7,53 +7,61 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>チャート・カタログ</title>
-        <link>https://visualizing.jp/categories/chart/</link>
-        <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://visualizing.jp/categories/chart/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/chart/chart.png" alt="Featured image of post チャート・カタログ" /&gt;</description>
-        </item>
-        <item>
-        <title>見るための記事</title>
-        <link>https://visualizing.jp/categories/consume/</link>
-        <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://visualizing.jp/categories/consume/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/consume/consume.png" alt="Featured image of post 見るための記事" /&gt;</description>
-        </item>
-        <item>
-        <title>作るための記事</title>
+        <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>technology</title>
         <link>https://visualizing.jp/categories/technology/</link>
-        <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/categories/technology/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/technology/technology.png" alt="Featured image of post 作るための記事" /&gt;</description>
+        <description></description>
         </item>
         <item>
-        <title>データ可視化の原理</title>
-        <link>https://visualizing.jp/categories/principle/</link>
-        <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+        <title>consume</title>
+        <link>https://visualizing.jp/categories/consume/</link>
+        <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/categories/principle/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/principle/principle.png" alt="Featured image of post データ可視化の原理" /&gt;</description>
+        <guid>https://visualizing.jp/categories/consume/</guid>
+        <description></description>
         </item>
         <item>
-        <title>データ・ジャーナリズム</title>
+        <title>data-journalism</title>
         <link>https://visualizing.jp/categories/data-journalism/</link>
-        <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/categories/data-journalism/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/data-journalism/data-journalism.png" alt="Featured image of post データ・ジャーナリズム" /&gt;</description>
+        <description></description>
         </item>
         <item>
-        <title>イベント</title>
+        <title>dj</title>
+        <link>https://visualizing.jp/categories/dj/</link>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/categories/dj/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>principle</title>
+        <link>https://visualizing.jp/categories/principle/</link>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/categories/principle/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>chart</title>
+        <link>https://visualizing.jp/categories/chart/</link>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/categories/chart/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>event</title>
         <link>https://visualizing.jp/categories/event/</link>
-        <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/categories/event/</guid>
-        <description>&lt;img src="https://visualizing.jp/categories/event/event.png" alt="Featured image of post イベント" /&gt;</description>
+        <description></description>
         </item>
         
     </channel>
