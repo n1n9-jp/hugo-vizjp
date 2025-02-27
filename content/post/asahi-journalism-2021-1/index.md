@@ -13,6 +13,9 @@ tags = [
 image = "images/asahi-journalism-2021-1.jpg"
 +++
 
+※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム)  2021年4月号」に掲載された著者自身による記事の転載です。
+Journalismは残念ながら現在休刊中ですが、[Amazonなどでバックナンバーを入手することができます](https://amzn.to/41hsASj)ので、機会があればぜひお手にとってください。
+
 # データジャーナリズム　その１　定義と歴史を概観する
 
 ![](images/asahi-journalism-2021-1.jpg)
