@@ -15,7 +15,7 @@ image = "images/asahi-journalism-2021-1.jpg"
 
 # データジャーナリズム　その１　定義と歴史を概観する
 
-![](images/asahi-journalism-2021-1.png)
+![](images/asahi-journalism-2021-1.jpg)
 
 ## 始まりは1800年代にあり。現在の世界的潮流は?
 
