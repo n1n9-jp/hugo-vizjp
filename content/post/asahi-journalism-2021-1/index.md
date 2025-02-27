@@ -157,5 +157,5 @@ Journalismは残念ながら現在休刊中ですが、[Amazonなどでバック
   - https://datajournalism.com/awards
 - VALID ‒ Visual Analytics in Data-drivenJournalism
   -  http://www.validproject.at/
-- Patterns in Award Winning Data Storytelling:Story Types, Enabling Tools and CompetencesAdegboyega Ojo, Behareh Heravi
+- Patterns in Award Winning Data Storytelling:Story Types, Enabling Tools and Competences Adegboyega Ojo, Behareh Heravi
   - https://www.researchgate.net/publication/321409831_Patterns_in_Award_Winning_Data_Storytelling_Story_Types_Enabling_Tools_and_Competences
