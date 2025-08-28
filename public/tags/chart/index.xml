@@ -1,13 +1,163 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>chart on Visualizing.JP</title>
+        <title>Chart on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/chart/</link>
-        <description>Recent content in chart on Visualizing.JP</description>
+        <description>Recent content in Chart on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</title>
+        <link>https://visualizing.jp/two-axis/</link>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/two-axis/</guid>
+        <description>&lt;img src="https://visualizing.jp/two-axis/images/img-10.jpeg" alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは" /&gt;&lt;p&gt;データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。
+「誤解を招きやすい」「根本的に欠陥がある」と言われ、教育現場でも「使わないほうがいい」と教えられることが多いのです。&lt;/p&gt;
+&lt;p&gt;実際、データ可視化の大家 Stephen Few や ggplot2 の作者 Hadley Wickham など、名だたる専門家が二重軸を否定しています。
+理由はシンプルで、&lt;strong&gt;スケールが異なる2つの軸を並べると、見る人が直感的に誤解してしまう&lt;/strong&gt;からです。&lt;/p&gt;
+&lt;h2 id=&#34;それでも消えない二重軸チャート&#34;&gt;それでも消えない「二重軸チャート」
+&lt;/h2&gt;&lt;p&gt;ところが、現実のデータ分析の現場では、二重軸チャートは今でも頻繁に使われています。
+とくに金融分野では「なくてはならない道具」として定着しています。&lt;/p&gt;
+&lt;p&gt;たとえば、為替と原油価格の関係を分析するケースを考えてみましょう。
+カナダドルは原油価格に強く影響を受ける通貨として知られています。
+アナリストやトレーダーは、両者の動きを見比べながら「どちらが先に動いたか」「どちらがリードしているのか」を知る必要があります。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;なぜ単一軸ではダメなのか&#34;&gt;なぜ単一軸ではダメなのか？
+&lt;/h2&gt;&lt;p&gt;両者を1つの軸にまとめようとすると、問題が生じます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-1.jpeg&#34;
+	width=&#34;702&#34;
+	height=&#34;387&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-1_hu_e086ef771fa176a9.jpeg 480w, https://visualizing.jp/two-axis/images/img-1_hu_f29e191cc6fdffe6.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;単一軸に重ねたチャート&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図1: 単一軸に重ねたチャート。原油価格の上下に比べてカナダドルはほぼ平らに見えてしまう）&lt;/p&gt;
+&lt;p&gt;正規化しても状況は改善しません。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-2.jpeg&#34;
+	width=&#34;702&#34;
+	height=&#34;387&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-2_hu_d610b353b82e4c09.jpeg 480w, https://visualizing.jp/two-axis/images/img-2_hu_f868cc0409ed5d21.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;正規化チャート&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;181&#34;
+		data-flex-basis=&#34;435px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図2: 値を100基準に正規化したチャート。それでも原油の変化が大きすぎて、カナダドルの動きがつぶれる）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;他の代替手法もあるが&#34;&gt;他の代替手法もあるが…
+&lt;/h2&gt;&lt;p&gt;縦に並べれば形の比較はしやすくなりますが、先行・遅行は追いにくい。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-5.jpeg&#34;
+	width=&#34;713&#34;
+	height=&#34;495&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-5_hu_4c613cef852b4bfe.jpeg 480w, https://visualizing.jp/two-axis/images/img-5_hu_2595f668f2840524.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;上下に並べたチャート&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;345px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図3: 形は比べやすいが、タイミングの比較は難しい）&lt;/p&gt;
+&lt;p&gt;ホライゾンチャートはインパクトはあるけれど、やはり「どちらが先か」は曖昧。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-4.jpeg&#34;
+	width=&#34;699&#34;
+	height=&#34;216&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-4_hu_5eaa2d0baa54583.jpeg 480w, https://visualizing.jp/two-axis/images/img-4_hu_26564fb07fe5bf8f.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ホライゾンチャート&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;323&#34;
+		data-flex-basis=&#34;776px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図4: 変化の大きさは見えるが、先行の読み取りは難しい）&lt;/p&gt;
+&lt;p&gt;散布図にすると相関は分かりますが、日々のリード・ラグは把握しにくい。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-6.jpeg&#34;
+	width=&#34;712&#34;
+	height=&#34;453&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-6_hu_bd6e23526eeebab.jpeg 480w, https://visualizing.jp/two-axis/images/img-6_hu_382146babfaab069.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;散布図（全体相関）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図5: 相関は強いが、「先に動いたか」は掴みにくい）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二重軸チャートの強み&#34;&gt;二重軸チャートの強み
+&lt;/h2&gt;&lt;p&gt;そこで役立つのが二重軸チャートです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-10.jpeg&#34;
+	width=&#34;700&#34;
+	height=&#34;376&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-10_hu_4e092a49846b09f4.jpeg 480w, https://visualizing.jp/two-axis/images/img-10_hu_4e9c0dfbcbfb693f.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;二重軸チャート（金融端末風）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;446px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;（図6: 2系列の動きと、どちらが先に転じたかが直感的に追える）&lt;/p&gt;
+&lt;p&gt;縦軸を2本にして並べることで、次のような分析が可能になります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2つの系列が同時に動いているかどうかを直感的に把握できる&lt;/li&gt;
+&lt;li&gt;どちらが先に上昇・下降したのか、リード・ラグ関係を見分けられる&lt;/li&gt;
+&lt;li&gt;短期的な変化も「目で追える」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;金融の世界では、こうした“タイミング”の把握が利益やリスクに直結します。
+だからこそ、&lt;strong&gt;専門家の間では二重軸チャートが日常的に使われている&lt;/strong&gt;のです。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;全面禁止ではなく適材適所&#34;&gt;「全面禁止」ではなく「適材適所」
+&lt;/h2&gt;&lt;p&gt;もちろん、二重軸チャートは誤解を招く危険性を持っています。
+教育の現場や一般向けのレポートで安易に使うと、読み手が誤った解釈をしてしまうリスクは確かにあります。&lt;/p&gt;
+&lt;p&gt;ですが「常に悪」というわけではありません。
+むしろ、&lt;strong&gt;特定の領域では最も有効な可視化手段のひとつ&lt;/strong&gt;になり得ます。&lt;/p&gt;
+&lt;p&gt;大事なのは、使う目的と文脈です。
+「見せたい相手は誰なのか」「何を明らかにしたいのか」を踏まえたうえで、
+二重軸チャートというツールをどう使うかを考えるべきでしょう。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;二重軸チャートは「誤解を生みやすい」という批判がある&lt;/li&gt;
+&lt;li&gt;しかし金融分野などでは不可欠な分析手段として定着している&lt;/li&gt;
+&lt;li&gt;問題は「使うか使わないか」ではなく、「いつ、誰に、どう使うか」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;二重軸チャートをただの「悪者」として排除するのではなく、その有用性とリスクを理解した上で「適材適所」で活用していく。&lt;/p&gt;
+&lt;p&gt;それが、これからのデータ可視化に求められる姿勢だと思います。&lt;/p&gt;
+&lt;h2 id=&#34;参照論文&#34;&gt;参照論文
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://uncharted.software/research/why-two-y-axes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Why Two Y-Axes (Y2Y): A Case Study for Visual Correlation with Dual Axes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ナイチンゲールによる「鶏冠」チャート</title>
         <link>https://visualizing.jp/nightingale-chart/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
@@ -22,7 +172,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1609&#34;
-	srcset=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu9022cef98a1fc911c0e0d7c1f8de48d1_665076_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu_8e36e152ebfabbcb.jpg 480w, https://visualizing.jp/nightingale-chart/images/Nightingale-mortality_hu_f906448a365be01b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;クリミア戦争におけるイギリス軍の死亡原因&#34;
@@ -41,13 +191,12 @@
 円の中心から測った青いくさびは、予防可能または軽減可能な伝染病疾患（Zymotic Diseases）による死亡者の面積を、中心から測った赤いくさびは、負傷（Wounds and Injuries）による死亡者の面積を、中心から測った黒いくさびは、その他（All other Causes）のすべての原因による死亡者の面積を表しています。
 1854年11月の赤い三角形の上の黒い線は、その月の他のすべての死因による死亡者の境界を示している。1854年10月、1855年には、黒の部分が赤と一致し、1856年1月、2月には、青の部分が黒と一致しています。
 全体のエリアは、青、赤、黒のラインで囲まれているので、比較することができます。
-the Causes of Mortality in the British Military during the Crimean War&lt;/p&gt;
-&lt;/blockquote&gt;
+the Causes of Mortality in the British Military during the Crimean War&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;これより以前に作成したチャートでは、面積ではなく、原点からの長さを数値で示しているため、その誤りに気づき、撤回されています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram.jpg&#34;
 	width=&#34;1030&#34;
 	height=&#34;1063&#34;
-	srcset=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hua7be4bda1421a3167cd6204b9db5b207_475175_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hu_e9f5203e12a7b8f1.jpg 480w, https://visualizing.jp/nightingale-chart/images/bats_wing_diagram_hu_ff981c624c3c5d9b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UCLA Elmer Belt Florence Nightingale Collection&#34;
@@ -74,7 +223,7 @@ report by Hugh Small
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1.png&#34;
 	width=&#34;1318&#34;
 	height=&#34;948&#34;
-	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu25212548fdd44526a2db7f7773b8715f_73554_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu_5eb82d77bb9830d5.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/Anscombe_1_0-1_hu_e59ca093ba2e8527.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -97,7 +246,7 @@ report by Hugh Small
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller.gif&#34;
 	width=&#34;827&#34;
 	height=&#34;332&#34;
-	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_480x0_resize_box_1.gif 480w, https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu978b66a6211c01e91e810ada3f9497ec_4548248_1024x0_resize_box_1.gif 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu_ee73bd62acf337a8.gif 480w, https://visualizing.jp/the-datasaurus-dozen/images/DinoSequentialSmaller_hu_ed29c679ae8594aa.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Anscombe’s Quartet&#34;
@@ -118,7 +267,7 @@ report by Hugh Small
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1.png&#34;
 	width=&#34;2870&#34;
 	height=&#34;2118&#34;
-	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_480x0_resize_box_3.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu6a209c5453d8cfe91cb21cac9540ee75_1097234_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu_dee6fb4b07bb1f2e.png 480w, https://visualizing.jp/the-datasaurus-dozen/images/The-Datasaurus-Dozen-1_hu_c5dc8557be83e613.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

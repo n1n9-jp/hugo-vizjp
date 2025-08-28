@@ -30,7 +30,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hub4ac201202378f41483dde01eb4ea5f5_8479_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hu_e2a26a195dd443b3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_circle_hu_e616068fde3c072d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -43,7 +43,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_line.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_huf3c324ff10dd1a241c173069e9c25353_23474_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_hu_c4c79c30022e6676.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_line_hu_7cb280d379117292.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -56,7 +56,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_map.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hue5ca521e638b95cdf83a52c200b3223c_8986_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hu_e48883bedcd99f1e.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_dot_map_hu_1f258744085f0821.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -72,7 +72,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_all.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_all_hue08b1760b1237b912b78a61a9cda4d35_648219_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_all_hu_e2ad63988cdf9635.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_all_hu_4274cc664af89719.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -86,7 +86,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu43380285314165a97723c66ef3e0ea10_161486_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu_75d4e02fc1cdb74c.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_hokkaido_hu_9148a822d0ec37e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -100,7 +100,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_tokyo.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hue97745b01d33faf6d0a966e3d1cb8b97_50398_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hu_f48828f85527307a.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_tokyo_hu_c229d6f46bfc5eaa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -114,7 +114,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_huef867c65d8ce875c103ec89cd9efac5f_53772_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_hu_dce6593b7f552308.png 480w, https://visualizing.jp/ndl-dataviz/images/ndl_nagasaki_hu_83a60380d1164e5e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -132,7 +132,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/NDL2_v.png&#34;
 	width=&#34;1094&#34;
 	height=&#34;2175&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu244dd8f7a703bea0f183a34d97a49e0c_2173969_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu_bc1a75c243ba25e.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL2_v_hu_418e0fdc495c7990.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -146,7 +146,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/ndl-dataviz/images/NDL1.png&#34;
 	width=&#34;1119&#34;
 	height=&#34;1654&#34;
-	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_480x0_resize_box_3.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL1_hu58b9002207f856e45c86d2fd87af0b1b_957600_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/ndl-dataviz/images/NDL1_hu_fe03243d813601b8.png 480w, https://visualizing.jp/ndl-dataviz/images/NDL1_hu_a444d86757912eb5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

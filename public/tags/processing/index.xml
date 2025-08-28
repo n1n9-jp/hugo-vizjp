@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>processing on Visualizing.JP</title>
+        <title>Processing on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/processing/</link>
-        <description>Recent content in processing on Visualizing.JP</description>
+        <description>Recent content in Processing on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -18,7 +18,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu6bbfaf6b152cc9e21bbe61287b551076_11197_480x0_resize_box_3.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu6bbfaf6b152cc9e21bbe61287b551076_11197_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_9913f667b59374ed.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_f979ceed01206a63.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_1&#34;
@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu6bbfaf6b152cc9e21bbe61287b551076_15457_480x0_resize_box_3.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu6bbfaf6b152cc9e21bbe61287b551076_15457_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_5735390571a65f9d.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_8dd8e96b23f8ec7a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_2&#34;
@@ -49,7 +49,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3.png&#34;
 	width=&#34;432&#34;
 	height=&#34;396&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu991aecb3e69d9990ab5e334013447e0f_36999_480x0_resize_box_3.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu991aecb3e69d9990ab5e334013447e0f_36999_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_11a57990072dff7c.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_d0d4f6013398f20.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_3&#34;

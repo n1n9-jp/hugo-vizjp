@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。 D3.jsでなにかを">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。\nD3.jsでなにかを作る際、ワンソースで多様な閲覧環境に対応するための、レスポンシブ・レイアウト対応方法の一つを以下に紹介します。\n">
 <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
 
 <link rel='canonical' href='https://visualizing.jp/responsive-d3/'>
 
-<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="D3.jsでレスポンシブ・レイアウトを実現するには">
-<meta property='og:description' content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。 D3.jsでなにかを">
+<link rel="stylesheet" href="/scss/style.min.f35053f7c622077c7390cc43e75a1e8a8bd6e160b6dd06a3da2b85ecbbd75b76.css"><meta property='og:title' content="D3.jsでレスポンシブ・レイアウトを実現するには">
+<meta property='og:description' content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。\nD3.jsでなにかを作る際、ワンソースで多様な閲覧環境に対応するための、レスポンシブ・レイアウト対応方法の一つを以下に紹介します。\n">
 <meta property='og:url' content='https://visualizing.jp/responsive-d3/'>
 <meta property='og:site_name' content='Visualizing.JP'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='レスポンシブ' /><meta property='article:tag' content='d3-js' /><meta property='article:published_time' content='2016-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2016-01-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/responsive-d3/images/thumb_ph_vizjp.png' />
 <meta name="twitter:site" content="@visualizing_jp">
     <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="D3.jsでレスポンシブ・レイアウトを実現するには">
-<meta name="twitter:description" content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。 D3.jsでなにかを"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="D3.jsでレスポンシブ・レイアウトを 最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。\nD3.jsでなにかを作る際、ワンソースで多様な閲覧環境に対応するための、レスポンシブ・レイアウト対応方法の一つを以下に紹介します。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://visualizing.jp/responsive-d3/images/thumb_ph_vizjp.png' />
     </head>
     <body class="
@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                        <img src="/img/avatar_hu_f11d29cc861cb7f7.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -390,8 +390,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/responsive-d3/">
-                <img src="/responsive-d3/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_800x0_resize_box_3.png"
-                        srcset="/responsive-d3/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_800x0_resize_box_3.png 800w, /responsive-d3/images/thumb_ph_vizjp_hu3011f8b891193678aea5849f8bc394ff_80607_1600x0_resize_box_3.png 1600w"
+                <img src="/responsive-d3/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png"
+                        srcset="/responsive-d3/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png 800w, /responsive-d3/images/thumb_ph_vizjp_hu_982f6515b909acd4.png 1600w"
                         width="800" 
                         height="400" 
                         loading="lazy"
@@ -406,7 +406,7 @@
     <header class="article-category">
         
             <a href="/categories/technology/" >
-                technology
+                作るための記事
             </a>
         
     </header>
@@ -508,16 +508,16 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">var chart = $(&#34;#chart&#34;),
-</span></span><span class="line"><span class="cl">container = chart.parent();
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="k">var</span> <span class="n">chart</span> <span class="o">=</span> <span class="o">$</span><span class="p">(</span><span class="s2">&#34;#chart&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="n">container</span> <span class="o">=</span> <span class="n">chart</span><span class="o">.</span><span class="n">parent</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">$(window).on(&#34;resize&#34;, function() {
+</span></span><span class="line"><span class="cl"><span class="o">$</span><span class="p">(</span><span class="n">window</span><span class="p">)</span><span class="o">.</span><span class="n">on</span><span class="p">(</span><span class="s2">&#34;resize&#34;</span><span class="p">,</span> <span class="n">function</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">var targetWidth = container.width();
-</span></span><span class="line"><span class="cl">chart.attr(&#34;width&#34;, targetWidth);
-</span></span><span class="line"><span class="cl">chart.attr(&#34;height&#34;, Math.round(targetWidth / aspect));
+</span></span><span class="line"><span class="cl"><span class="k">var</span> <span class="n">targetWidth</span> <span class="o">=</span> <span class="n">container</span><span class="o">.</span><span class="n">width</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">chart</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="s2">&#34;width&#34;</span><span class="p">,</span> <span class="n">targetWidth</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">chart</span><span class="o">.</span><span class="n">attr</span><span class="p">(</span><span class="s2">&#34;height&#34;</span><span class="p">,</span> <span class="n">Math</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">targetWidth</span> <span class="o">/</span> <span class="n">aspect</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">}).trigger(&#34;resize&#34;);
+</span></span><span class="line"><span class="cl"><span class="p">})</span><span class="o">.</span><span class="n">trigger</span><span class="p">(</span><span class="s2">&#34;resize&#34;</span><span class="p">);</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>svgの親要素の横幅を取得し、SVGをその大きさに合わせます。<br>
@@ -544,7 +544,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
             <a href="/tags/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96/">レスポンシブ</a>
         
-            <a href="/tags/d3-js/">d3-js</a>
+            <a href="/tags/d3-js/">D3-Js</a>
         
     </section>
 
@@ -582,7 +582,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
         
             <div class="article-image">
-                <img src="/d3-flexbox/images/social-facebook.9f4eaeab2cf5ce672b4feed8c06dd5e1_hu33785b2525dfae683b93672265d144fd_105597_250x150_fill_box_smart1_3.png" 
+                <img src="/d3-flexbox/images/social-facebook.9f4eaeab2cf5ce672b4feed8c06dd5e1_hu_844607c4ad2fed85.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -606,7 +606,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
         
             <div class="article-image">
-                <img src="/d3js-reusable/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu3011f8b891193678aea5849f8bc394ff_80607_250x150_fill_box_smart1_3.png" 
+                <img src="/d3js-reusable/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -630,7 +630,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
         
             <div class="article-image">
-                <img src="/normalize-visualize/images/fi_Normalize.1801a17b78c81546fdca8efd701353cf_hu339dcf9d6daad78a219972421336d87b_248661_250x150_fill_box_smart1_3.png" 
+                <img src="/normalize-visualize/images/fi_Normalize.1801a17b78c81546fdca8efd701353cf_hu_781d46cb417b99.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -654,7 +654,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
         
             <div class="article-image">
-                <img src="/d3-requests/images/fi_D3DatFormat.8e8b1099c6569d1260ed5a57e2957348_hudcd88e4f0cce65f13edb4b8477cef98c_170617_250x150_fill_box_smart1_3.png" 
+                <img src="/d3-requests/images/fi_D3DatFormat.8e8b1099c6569d1260ed5a57e2957348_hu_7b9e6fb7fa06d691.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -678,7 +678,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         
         
             <div class="article-image">
-                <img src="/d3-topojson/images/fi_TopoJson.4ccdf1b09ee51cda90cf99f4883828e9_hu6585152598704ff6e9a7da0dfefb3f62_344056_250x150_fill_box_smart1_3.png" 
+                <img src="/d3-topojson/images/fi_TopoJson.4ccdf1b09ee51cda90cf99f4883828e9_hu_e913c4b9804332f2.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"

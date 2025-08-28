@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>color on Visualizing.JP</title>
+        <title>Color on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/color/</link>
-        <description>Recent content in color on Visualizing.JP</description>
+        <description>Recent content in Color on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;363&#34;
-	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu42c5e25f16640397ea4c32ab8c1a968e_94069_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_2ff7c4f5433f5ce2.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_cd691f193f86f79a.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;左が人の手による着色、右が実際の写真。http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -38,7 +38,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;1164&#34;
-	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu76ad25d415ac413a14a45c1271ccc09d_235823_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_8508d4f0cbbb239c.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_f867886998ac524b.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -53,7 +53,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;939&#34;
-	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu527944b76e8d7f47ef73f5d1e9b11593_95027_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_c56285803d9176df.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_d308f665cf34387f.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -80,7 +80,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/osx_Word_large.png&#34;
 	width=&#34;298&#34;
 	height=&#34;480&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/osx_Word_large_hu64bf536f1dd3dc9e9f84f8122d11f665_36423_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/osx_Word_large_hu64bf536f1dd3dc9e9f84f8122d11f665_36423_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/osx_Word_large_hu_df46f28d1649f4cd.png 480w, https://visualizing.jp/color-space/images/osx_Word_large_hu_726298d25c5952c3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -93,7 +93,7 @@
 &lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/space_RGB_large.png&#34;
 	width=&#34;480&#34;
 	height=&#34;356&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/space_RGB_large_huf40505cf2a2746c697db9931813f9489_15880_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/space_RGB_large_huf40505cf2a2746c697db9931813f9489_15880_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/space_RGB_large_hu_592e9dea7a35a0f5.png 480w, https://visualizing.jp/color-space/images/space_RGB_large_hu_7b804e7b597f631b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -107,7 +107,7 @@
 &lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/space_CMYK_large.png&#34;
 	width=&#34;480&#34;
 	height=&#34;356&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/space_CMYK_large_hu6d1b8ba862c3812ee5b0ed91f686b4be_18355_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/space_CMYK_large_hu6d1b8ba862c3812ee5b0ed91f686b4be_18355_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/space_CMYK_large_hu_14eaac5e29b7538a.png 480w, https://visualizing.jp/color-space/images/space_CMYK_large_hu_82984c3a56e765eb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -125,7 +125,7 @@
 &lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/OSX_ColorPalette_large.png&#34;
 	width=&#34;423&#34;
 	height=&#34;365&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/OSX_ColorPalette_large_hufa417cea4d67e900671fd290b803f3e9_19320_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/OSX_ColorPalette_large_hufa417cea4d67e900671fd290b803f3e9_19320_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/OSX_ColorPalette_large_hu_ac21b28470d194a8.png 480w, https://visualizing.jp/color-space/images/OSX_ColorPalette_large_hu_ebf21d438325b916.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -140,7 +140,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/color_large.png&#34;
 	width=&#34;440&#34;
 	height=&#34;200&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/color_large_hu4dcd91f2b9fe76387fc47abcd3759b8e_1004_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/color_large_hu4dcd91f2b9fe76387fc47abcd3759b8e_1004_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/color_large_hu_e5ae11df218edb4a.png 480w, https://visualizing.jp/color-space/images/color_large_hu_b301c9728d7fa2e0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -153,7 +153,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large.png&#34;
 	width=&#34;440&#34;
 	height=&#34;200&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu11742f10b6697cbd00e8dd0519725bf7_1038_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu11742f10b6697cbd00e8dd0519725bf7_1038_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu_439abc4234e1aef7.png 480w, https://visualizing.jp/color-space/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large_hu_5d6c722038432a78.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -176,7 +176,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/fig10.4_ja_grande.png&#34;
 	width=&#34;540&#34;
 	height=&#34;400&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/fig10.4_ja_grande_hu8cc1796796dcedbdbeef31ac0617eade_14527_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/fig10.4_ja_grande_hu8cc1796796dcedbdbeef31ac0617eade_14527_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/fig10.4_ja_grande_hu_c9ddfede428127cd.png 480w, https://visualizing.jp/color-space/images/fig10.4_ja_grande_hu_5bc23f5b0fe071e2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -194,7 +194,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/color-space/images/Photoshop_ColorPalette_grande.png&#34;
 	width=&#34;600&#34;
 	height=&#34;477&#34;
-	srcset=&#34;https://visualizing.jp/color-space/images/Photoshop_ColorPalette_grande_hubff3f6836d5839d16619afd7d753e5ed_133176_480x0_resize_box_3.png 480w, https://visualizing.jp/color-space/images/Photoshop_ColorPalette_grande_hubff3f6836d5839d16619afd7d753e5ed_133176_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/color-space/images/Photoshop_ColorPalette_grande_hu_bd1f6a2657af9100.png 480w, https://visualizing.jp/color-space/images/Photoshop_ColorPalette_grande_hu_fe15cb593b4abe0e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

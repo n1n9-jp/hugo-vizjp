@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>visualcodeeditor on Visualizing.JP</title>
+        <title>Visualcodeeditor on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/visualcodeeditor/</link>
-        <description>Recent content in visualcodeeditor on Visualizing.JP</description>
+        <description>Recent content in Visualcodeeditor on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -33,7 +33,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/vcs-liveserver/images/vce_liveserver.png&#34;
 	width=&#34;1136&#34;
 	height=&#34;880&#34;
-	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_liveserver_huf3b744c1d69043ffcac0b691aca91247_369904_480x0_resize_box_3.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_liveserver_huf3b744c1d69043ffcac0b691aca91247_369904_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_liveserver_hu_d8c898b77549f047.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_liveserver_hu_8689f2431a23bc01.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -47,7 +47,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close.png&#34;
 	width=&#34;1136&#34;
 	height=&#34;880&#34;
-	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close_hu2debe4fc114f44fccebe5db97da942bf_208346_480x0_resize_box_3.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_close_hu2debe4fc114f44fccebe5db97da942bf_208346_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close_hu_2f5a5d66f5d784ff.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_close_hu_d4769d8b42e9da9c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -61,7 +61,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close.png&#34;
 	width=&#34;1136&#34;
 	height=&#34;880&#34;
-	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close_hu2debe4fc114f44fccebe5db97da942bf_208346_480x0_resize_box_3.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_close_hu2debe4fc114f44fccebe5db97da942bf_208346_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_close_hu_2f5a5d66f5d784ff.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_close_hu_d4769d8b42e9da9c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -75,7 +75,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/vcs-liveserver/images/vce_open.png&#34;
 	width=&#34;1136&#34;
 	height=&#34;880&#34;
-	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_open_hucaaad913078f16ce9a006db36ecd378c_207914_480x0_resize_box_3.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_open_hucaaad913078f16ce9a006db36ecd378c_207914_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/vcs-liveserver/images/vce_open_hu_31984e14df6e7f77.png 480w, https://visualizing.jp/vcs-liveserver/images/vce_open_hu_2cbe67df4fb81c71.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

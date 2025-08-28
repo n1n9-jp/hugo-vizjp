@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>geojson on Visualizing.JP</title>
+        <title>Geojson on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/geojson/</link>
-        <description>Recent content in geojson on Visualizing.JP</description>
+        <description>Recent content in Geojson on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -21,7 +21,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/geojson/images/GeoJson_1.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_1_hu861045dc4e10b95e8ef60bf1714bec12_132862_480x0_resize_box_3.png 480w, https://visualizing.jp/geojson/images/GeoJson_1_hu861045dc4e10b95e8ef60bf1714bec12_132862_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_1_hu_a4356b4c10e70f57.png 480w, https://visualizing.jp/geojson/images/GeoJson_1_hu_aaae063b2653a3e4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -44,7 +44,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/geojson/images/GeoJson_2.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_2_hu391b8073bd220d69cf6cb497ce96ec6b_883892_480x0_resize_box_3.png 480w, https://visualizing.jp/geojson/images/GeoJson_2_hu391b8073bd220d69cf6cb497ce96ec6b_883892_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_2_hu_e64ed2856432ce8d.png 480w, https://visualizing.jp/geojson/images/GeoJson_2_hu_250875bca0db27b9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -62,7 +62,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/geojson/images/GeoJson_3.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_3_hud077a9abab6848f48e38c0c585e6f2d7_1453193_480x0_resize_box_3.png 480w, https://visualizing.jp/geojson/images/GeoJson_3_hud077a9abab6848f48e38c0c585e6f2d7_1453193_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson_3_hu_252560d70eb29acb.png 480w, https://visualizing.jp/geojson/images/GeoJson_3_hu_3c82dd9eeb74f567.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -81,7 +81,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/geojson/images/GeoJson-1.png&#34;
 	width=&#34;600&#34;
 	height=&#34;600&#34;
-	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson-1_hu0c0984d4e556e18cd22bb836ceae1838_45449_480x0_resize_box_3.png 480w, https://visualizing.jp/geojson/images/GeoJson-1_hu0c0984d4e556e18cd22bb836ceae1838_45449_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/geojson/images/GeoJson-1_hu_9b55679f9d41c6ff.png 480w, https://visualizing.jp/geojson/images/GeoJson-1_hu_7cd5cebab214053d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

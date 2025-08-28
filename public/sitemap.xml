@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://visualizing.jp/</loc>
-    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/tags/2-axis/</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/tags/chart/</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/post/</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/tags/</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/two-axis/</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/categories/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
@@ -26,9 +41,6 @@
     <loc>https://visualizing.jp/categories/event/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://visualizing.jp/categories/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://visualizing.jp/tags/excel/</loc>
     <lastmod>2023-11-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,20 +53,8 @@
     <loc>https://visualizing.jp/openrefine-reverse-pivot/</loc>
     <lastmod>2023-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://visualizing.jp/post/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/tags/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/categories/technology/</loc>
-    <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://visualizing.jp/tags/%E3%82%AF%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2023-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/categories/consume/</loc>
-    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/design-guideline/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
@@ -67,9 +67,6 @@
   </url><url>
     <loc>https://visualizing.jp/tags/%E5%9C%B0%E5%9B%B3/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/categories/data-journalism/</loc>
-    <lastmod>2021-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/asahi-journalism-2021-2/</loc>
     <lastmod>2021-05-10T00:00:00+00:00</lastmod>
@@ -104,14 +101,8 @@
     <loc>https://visualizing.jp/data-story-4-types/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://visualizing.jp/categories/principle/</loc>
-    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://visualizing.jp/data-visualization-as-a-medium-for-communication/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/categories/chart/</loc>
-    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/visual-vocabulary/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
@@ -127,9 +118,6 @@
   </url><url>
     <loc>https://visualizing.jp/treemap/</loc>
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/tags/chart/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/tags/covid-19/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
@@ -412,9 +400,6 @@
   </url><url>
     <loc>https://visualizing.jp/overthinking-this/</loc>
     <lastmod>2019-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/categories/event/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/tags/tools/</loc>
     <lastmod>2019-08-30T00:00:00+00:00</lastmod>

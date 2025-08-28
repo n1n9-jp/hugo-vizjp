@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>covid-19 on Visualizing.JP</title>
+        <title>Covid-19 on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/covid-19/</link>
-        <description>Recent content in covid-19 on Visualizing.JP</description>
+        <description>Recent content in Covid-19 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -19,7 +19,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1.jpg&#34;
 	width=&#34;600&#34;
 	height=&#34;950&#34;
-	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_huccffda039cc9c0fed4dcd41121587139_75027_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_hu_25cf5753f436afb4.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93480617_10157150544363201_5537643846042648576_n-1_hu_c367d84b20d72aec.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -36,8 +36,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;「3月24日から29日の間に収集されたデータを分析したところ、COVID-19で陽性と判定されたユーザーは、ウイルスの症状はあるが陰性であったユーザーよりも、嗅覚と味覚の喪失を報告する可能性が三倍高かった。COVID-19の検査で陽性となった人々が経験するその他の一般的な症状は、発熱、持続的な咳、疲労、下痢、腹痛、食欲不振でした。」&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nature.com/articles/d41586-020-00154-w&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Coronavirus: the first three months as it happened&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+    &gt;Coronavirus: the first three months as it happened&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Nature誌に掲載されていたチャートがあまりに読みづらいのではないかと、Nilsさんという方が指摘しています。&lt;/p&gt;
 &lt;figure&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/ngehlenborg/status/1250307095200555015&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -56,7 +55,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;1152&#34;
-	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_480x0_resize_q75_box.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hue776a334b902d7828bf5c7a8aa11ccb3_111556_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hu_c6f1990ade5741b8.jpg 480w, https://visualizing.jp/covid-symptom-upset/images/93611347_10157150544298201_5159547403845500928_o_hu_3ce474292e163d5.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -75,7 +74,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_480x0_resize_q75_box.jpeg 480w, https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu8b9b7f400bc8f97fc63b6b04c9d2656b_167936_1024x0_resize_q75_box.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu_38560936d9ba2450.jpeg 480w, https://visualizing.jp/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled_hu_f38c9df00348270a.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -103,7 +102,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia.png&#34;
 	width=&#34;2034&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_480x0_resize_box_3.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu6ca4d14f9142504ffc8e5d5b3432eb3a_1936880_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu_6863e98bce5f06a0.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia_hu_14945ddb77773563.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -117,7 +116,7 @@
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2.png&#34;
 	width=&#34;1826&#34;
 	height=&#34;2028&#34;
-	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_480x0_resize_box_3.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu6540914f2f15aafafb1b5c6dce289ea3_1506152_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu_d6dc8d747150855b.png 480w, https://visualizing.jp/critique-of-the-critique/images/coronavirus_georgia2_hu_ee597cfef973fb34.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

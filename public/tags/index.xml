@@ -7,8 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 19 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>excel</title>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>2-Axis</title>
+        <link>https://visualizing.jp/tags/2-axis/</link>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/tags/2-axis/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Chart</title>
+        <link>https://visualizing.jp/tags/chart/</link>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/tags/chart/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Excel</title>
         <link>https://visualizing.jp/tags/excel/</link>
         <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
         
@@ -16,7 +32,7 @@
         <description></description>
         </item>
         <item>
-        <title>openrefine</title>
+        <title>Openrefine</title>
         <link>https://visualizing.jp/tags/openrefine/</link>
         <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
         
@@ -56,7 +72,7 @@
         <description></description>
         </item>
         <item>
-        <title>d3-js</title>
+        <title>D3-Js</title>
         <link>https://visualizing.jp/tags/d3-js/</link>
         <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
         
@@ -64,15 +80,7 @@
         <description></description>
         </item>
         <item>
-        <title>chart</title>
-        <link>https://visualizing.jp/tags/chart/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://visualizing.jp/tags/chart/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>covid-19</title>
+        <title>Covid-19</title>
         <link>https://visualizing.jp/tags/covid-19/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -80,7 +88,7 @@
         <description></description>
         </item>
         <item>
-        <title>map</title>
+        <title>Map</title>
         <link>https://visualizing.jp/tags/map/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -88,7 +96,7 @@
         <description></description>
         </item>
         <item>
-        <title>network</title>
+        <title>Network</title>
         <link>https://visualizing.jp/tags/network/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
@@ -96,7 +104,7 @@
         <description></description>
         </item>
         <item>
-        <title>covid19</title>
+        <title>Covid19</title>
         <link>https://visualizing.jp/tags/covid19/</link>
         <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
         
@@ -104,7 +112,7 @@
         <description></description>
         </item>
         <item>
-        <title>classification</title>
+        <title>Classification</title>
         <link>https://visualizing.jp/tags/classification/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
@@ -112,7 +120,7 @@
         <description></description>
         </item>
         <item>
-        <title>color</title>
+        <title>Color</title>
         <link>https://visualizing.jp/tags/color/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
@@ -120,7 +128,7 @@
         <description></description>
         </item>
         <item>
-        <title>tv</title>
+        <title>Tv</title>
         <link>https://visualizing.jp/tags/tv/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
@@ -128,7 +136,7 @@
         <description></description>
         </item>
         <item>
-        <title>ia</title>
+        <title>Ia</title>
         <link>https://visualizing.jp/tags/ia/</link>
         <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
         
@@ -136,7 +144,7 @@
         <description></description>
         </item>
         <item>
-        <title>information-architecture</title>
+        <title>Information-Architecture</title>
         <link>https://visualizing.jp/tags/information-architecture/</link>
         <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
         
@@ -152,7 +160,7 @@
         <description></description>
         </item>
         <item>
-        <title>ted</title>
+        <title>Ted</title>
         <link>https://visualizing.jp/tags/ted/</link>
         <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
         
@@ -168,7 +176,7 @@
         <description></description>
         </item>
         <item>
-        <title>facebook</title>
+        <title>Facebook</title>
         <link>https://visualizing.jp/tags/facebook/</link>
         <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
         
@@ -176,7 +184,7 @@
         <description></description>
         </item>
         <item>
-        <title>uber</title>
+        <title>Uber</title>
         <link>https://visualizing.jp/tags/uber/</link>
         <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
         
@@ -184,7 +192,7 @@
         <description></description>
         </item>
         <item>
-        <title>geojson</title>
+        <title>Geojson</title>
         <link>https://visualizing.jp/tags/geojson/</link>
         <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
         
@@ -192,7 +200,7 @@
         <description></description>
         </item>
         <item>
-        <title>tufte</title>
+        <title>Tufte</title>
         <link>https://visualizing.jp/tags/tufte/</link>
         <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
         
@@ -200,7 +208,7 @@
         <description></description>
         </item>
         <item>
-        <title>qgis</title>
+        <title>Qgis</title>
         <link>https://visualizing.jp/tags/qgis/</link>
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
         
@@ -208,7 +216,7 @@
         <description></description>
         </item>
         <item>
-        <title>gis</title>
+        <title>Gis</title>
         <link>https://visualizing.jp/tags/gis/</link>
         <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
         
@@ -272,7 +280,7 @@
         <description></description>
         </item>
         <item>
-        <title>tools</title>
+        <title>Tools</title>
         <link>https://visualizing.jp/tags/tools/</link>
         <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
         
@@ -280,7 +288,7 @@
         <description></description>
         </item>
         <item>
-        <title>pdf</title>
+        <title>Pdf</title>
         <link>https://visualizing.jp/tags/pdf/</link>
         <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
         
@@ -288,7 +296,7 @@
         <description></description>
         </item>
         <item>
-        <title>visualcodeeditor</title>
+        <title>Visualcodeeditor</title>
         <link>https://visualizing.jp/tags/visualcodeeditor/</link>
         <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
         
@@ -304,7 +312,7 @@
         <description></description>
         </item>
         <item>
-        <title>yahooニュース個人</title>
+        <title>Yahooニュース個人</title>
         <link>https://visualizing.jp/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/</link>
         <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
         
@@ -352,7 +360,7 @@
         <description></description>
         </item>
         <item>
-        <title>john-resig</title>
+        <title>John-Resig</title>
         <link>https://visualizing.jp/tags/john-resig/</link>
         <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
         
@@ -360,7 +368,7 @@
         <description></description>
         </item>
         <item>
-        <title>openvisconf</title>
+        <title>Openvisconf</title>
         <link>https://visualizing.jp/tags/openvisconf/</link>
         <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
         
@@ -368,7 +376,7 @@
         <description></description>
         </item>
         <item>
-        <title>processing</title>
+        <title>Processing</title>
         <link>https://visualizing.jp/tags/processing/</link>
         <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
         
@@ -376,7 +384,7 @@
         <description></description>
         </item>
         <item>
-        <title>fitc</title>
+        <title>Fitc</title>
         <link>https://visualizing.jp/tags/fitc/</link>
         <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
         
@@ -392,7 +400,7 @@
         <description></description>
         </item>
         <item>
-        <title>lod</title>
+        <title>Lod</title>
         <link>https://visualizing.jp/tags/lod/</link>
         <pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate>
         
@@ -400,7 +408,7 @@
         <description></description>
         </item>
         <item>
-        <title>twitter</title>
+        <title>Twitter</title>
         <link>https://visualizing.jp/tags/twitter/</link>
         <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
         
@@ -408,7 +416,7 @@
         <description></description>
         </item>
         <item>
-        <title>api</title>
+        <title>Api</title>
         <link>https://visualizing.jp/tags/api/</link>
         <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
         

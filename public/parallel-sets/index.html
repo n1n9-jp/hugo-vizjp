@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://visualizing.jp/parallel-sets/'>
 
-<link rel="stylesheet" href="/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
+<link rel="stylesheet" href="/scss/style.min.f35053f7c622077c7390cc43e75a1e8a8bd6e160b6dd06a3da2b85ecbbd75b76.css"><meta property='og:title' content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
 <meta property='og:description' content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n">
 <meta property='og:url' content='https://visualizing.jp/parallel-sets/'>
 <meta property='og:site_name' content='Visualizing.JP'>
@@ -58,7 +58,7 @@
                     
                     
                         
-                        <img src="/img/avatar_hu5d588267b172e85c210ea1ee88093a51_3235_300x0_resize_box_3.png" width="300"
+                        <img src="/img/avatar_hu_f11d29cc861cb7f7.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -402,8 +402,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/parallel-sets/">
-                <img src="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_800x0_resize_box_3.png"
-                        srcset="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_800x0_resize_box_3.png 800w, /parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_1600x0_resize_box_3.png 1600w"
+                <img src="/parallel-sets/images/image-15_hu_4c3b48171f37716d.png"
+                        srcset="/parallel-sets/images/image-15_hu_4c3b48171f37716d.png 800w, /parallel-sets/images/image-15_hu_984c18bb390a6a66.png 1600w"
                         width="800" 
                         height="973" 
                         loading="lazy"
@@ -418,7 +418,7 @@
     <header class="article-category">
         
             <a href="/categories/chart/" >
-                chart
+                チャート・カタログ
             </a>
         
     </header>
@@ -482,20 +482,17 @@
 <p>研究開発チームの一人、Robert Kosaraによると、何らかの属性データ（たとえば沈没したタイタニック号に乗っていた人の集団に対して、一人ひとりの属性値）を可視化する手段が限られていたことをあげています。</p>
 <blockquote>
 <p>「扱おうとしているデータが離散的であるにもかかわらずビジュアライゼーションでのパラメータ(位置や長さなど)は連続しており、両者が不整合である 」
-Beautiful Visualization 12章 表のツリー表現 P183-193</p>
-</blockquote>
+Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
 <p>少しやわらかく言い直すと、属性値自体は文字のデータ、年齢…大人か子供か、性別…男性か女性か、であり、これらを集計して扱う際には数値として扱う必要がでてくる、ということになります。またこういったデータは、名義スケールであり順序スケールではない、つまり順序に意味を持たず、さらには階層構造を持つことがあることも指摘しています。</p>
 <p>このようなデータを可視化することができるチャートとしては、それまでツリーマップ（Treemap）とモザイク・プロット（Mosaic Plot）しか存在なかった、そしてParallel Setsは三番目のチャートだとRobertさんは述べています。</p>
 <h3 id="一つの軸には一つのデータ属性を割り振る">一つの軸には一つのデータ属性を割り振る
 </h3><blockquote>
 <p>データを集合として表現するアイデア以外に、ParSetsは平行座標系(Parallel Coordinates)[Inselberg 2009] に大きな影響を受けています。平行座標系は高次元の数値データを表すためによく使われるビジュアライゼーションのテクニックです。値を表現する軸を平行にレイアウトして表示することにより、ツリーマップやMosaic Plotのような入れ子構造よりもデータの理解や比較が容易になっており、特に変数の数が多い場合に有効です。また、この種のレイアウトは、効果的なインタラクションをデザインするのが容易です。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p>
-</blockquote>
+Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
 <h3 id="階層構造を表す">階層構造を表す
 </h3><blockquote>
 <p>新しい視覚的構造を探し始めた のですが、そこでようやく我々が求めているのはツリー構造に他ならない(つまり、Standard 方式をとるべき)ということに気づきました。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p>
-</blockquote>
+Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
 <h3 id="流れや時系列は表現しない">流れや時系列は表現しない
 </h3><p>物事の流れや時系列変化の表現には使用しません。つなぐ線は直線、曲線のどちらもありえますが、流れや時間を示さないため、矢印は使用しません。無向グラフ的ということですね。</p>
 <h3 id="一番優先度の高い軸の値に応じて着色">一番優先度の高い軸の値に応じて着色
@@ -505,7 +502,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-14.png"
 	width="1288"
 	height="2026"
-	srcset="/parallel-sets/images/image-14_huc5474c971d4cb82a2e36bf7c0f35acd5_951285_480x0_resize_box_3.png 480w, /parallel-sets/images/image-14_huc5474c971d4cb82a2e36bf7c0f35acd5_951285_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-14_hu_abf09926fd9a0dff.png 480w, /parallel-sets/images/image-14_hu_1f069299886eddc.png 1024w"
 	loading="lazy"
 	
 	
@@ -521,7 +518,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-15.png"
 	width="600"
 	height="730"
-	srcset="/parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_480x0_resize_box_3.png 480w, /parallel-sets/images/image-15_huea5b6693ae22e12d69f55a084d860a55_59439_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-15_hu_899e9519aba4e904.png 480w, /parallel-sets/images/image-15_hu_d8a2ebe893c965a1.png 1024w"
 	loading="lazy"
 	
 	
@@ -536,7 +533,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-16.png"
 	width="1371"
 	height="847"
-	srcset="/parallel-sets/images/image-16_hu91b10a6491a0be28df5f152626e98e81_211028_480x0_resize_box_3.png 480w, /parallel-sets/images/image-16_hu91b10a6491a0be28df5f152626e98e81_211028_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-16_hu_9c9b9619b00794f4.png 480w, /parallel-sets/images/image-16_hu_202f7263f02a7b9.png 1024w"
 	loading="lazy"
 	
 	
@@ -551,7 +548,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/1280.webp"
 	width="1280"
 	height="1920"
-	srcset="/parallel-sets/images/1280_hue3b2c370f19cb1c953bd006c60f5d1ad_91534_480x0_resize_q75_h2_box_2.webp 480w, /parallel-sets/images/1280_hue3b2c370f19cb1c953bd006c60f5d1ad_91534_1024x0_resize_q75_h2_box_2.webp 1024w"
+	srcset="/parallel-sets/images/1280_hu_e56a3fa3121752a2.webp 480w, /parallel-sets/images/1280_hu_c9c16bc54e81ffd3.webp 1024w"
 	loading="lazy"
 	
 	
@@ -566,7 +563,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-18.png"
 	width="1170"
 	height="446"
-	srcset="/parallel-sets/images/image-18_hu2be63fa0467c17a9c1a13bf4596edbec_530658_480x0_resize_box_3.png 480w, /parallel-sets/images/image-18_hu2be63fa0467c17a9c1a13bf4596edbec_530658_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-18_hu_355d2caf5919963a.png 480w, /parallel-sets/images/image-18_hu_1b28ac40b9a66460.png 1024w"
 	loading="lazy"
 	
 	
@@ -581,7 +578,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-19.png"
 	width="1536"
 	height="2048"
-	srcset="/parallel-sets/images/image-19_hu732634d84f712ca73bfe004b3fa6a918_5543260_480x0_resize_box_3.png 480w, /parallel-sets/images/image-19_hu732634d84f712ca73bfe004b3fa6a918_5543260_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-19_hu_d0f0e43248eae04.png 480w, /parallel-sets/images/image-19_hu_41ea389842cdd859.png 1024w"
 	loading="lazy"
 	
 	
@@ -596,7 +593,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-20.png"
 	width="1200"
 	height="1207"
-	srcset="/parallel-sets/images/image-20_hu43ac38acaadd459a906327ce24c6f513_2642503_480x0_resize_box_3.png 480w, /parallel-sets/images/image-20_hu43ac38acaadd459a906327ce24c6f513_2642503_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-20_hu_ab92ef65d3c76bc3.png 480w, /parallel-sets/images/image-20_hu_39fef9bab2e5919e.png 1024w"
 	loading="lazy"
 	
 	
@@ -611,7 +608,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h3><p><img src="/parallel-sets/images/image-21.png"
 	width="421"
 	height="833"
-	srcset="/parallel-sets/images/image-21_hu937fa5076aff2fd778847a07efdd129e_80100_480x0_resize_box_3.png 480w, /parallel-sets/images/image-21_hu937fa5076aff2fd778847a07efdd129e_80100_1024x0_resize_box_3.png 1024w"
+	srcset="/parallel-sets/images/image-21_hu_8bf62f3d74a4b475.png 480w, /parallel-sets/images/image-21_hu_e5eff66a257a2e44.png 1024w"
 	loading="lazy"
 	
 	
@@ -626,8 +623,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
 </h2><p>マウスポインタのホバーなどでユーザーの興味を示すと、該当する面が強調表現（もしくは該当しない箇所の可読性を落とす）ことで、その面がどんなデータを取っているのかが見やすくなります。</p>
 <blockquote>
 <p>ParSets ではインタラクションが重要な役割を果たしています。ユーザーがマウスカー ソルを重ねると実際の値が表示されるほか、属性や値の並べ替え、値の追加や削除も可能です。また、軸上の各属性は並べ替えることもでき、より大きな属性へと結合させることも可能です。例えば、すべての船室を結合させて船員と比較することができます。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p>
-</blockquote>
+Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
 <h2 id="参考文献">参考文献
 </h2><ul>
 <li>Riccardo Mazza「情報を見える形にする技術」 P63</li>
@@ -683,7 +679,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
         
         
             <div class="article-image">
-                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu6c1be24e3d0dab470ad4725a963e3e2b_1131114_250x150_fill_box_smart1_3.png" 
+                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu_8ba484b5e03e1c36.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -707,7 +703,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
         
         
             <div class="article-image">
-                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hue2de1557724c667c7159411555ef7895_169854_250x150_fill_q75_box_smart1.jpg" 
+                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hu_1b61ca0982e8a0bf.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -731,7 +727,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
         
         
             <div class="article-image">
-                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu8e61fd2dd8813282e49ae344b85753dc_1775402_250x150_fill_box_smart1_3.png" 
+                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu_b2ac6ffbb37b92c6.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -755,7 +751,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
         
         
             <div class="article-image">
-                <img src="/splom/images/_hu26386bd117306a3acc69480357a7e55f_448834_8e49783e2bed5d1c1fc5009be35d213e.png" 
+                <img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.262e4666c65de57aff9b9d25050e657b_hu_b1711ae94b830b5.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -779,7 +775,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p>
         
         
             <div class="article-image">
-                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu75a0be77d40a73af2d565b885fbd6d36_158292_250x150_fill_box_smart1_3.png" 
+                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu_a5956f5fb73a91bc.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"

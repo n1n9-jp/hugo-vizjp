@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>tools on Visualizing.JP</title>
+        <title>Tools on Visualizing.JP</title>
         <link>https://visualizing.jp/tags/tools/</link>
-        <description>Recent content in tools on Visualizing.JP</description>
+        <description>Recent content in Tools on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
@@ -18,7 +18,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Otter.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Otter_hu190e414a58b731f897308e41f3464fb3_309628_480x0_resize_box_3.png 480w, https://visualizing.jp/transcriber/images/Otter_hu190e414a58b731f897308e41f3464fb3_309628_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/transcriber/images/Otter_hu_4e1eff60f4f4afc8.png 480w, https://visualizing.jp/transcriber/images/Otter_hu_38381da38d532426.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Otter&#34;
@@ -44,7 +44,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Trint.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Trint_hud8731901c1e3ac22cddbc38b68d4fe43_886369_480x0_resize_box_3.png 480w, https://visualizing.jp/transcriber/images/Trint_hud8731901c1e3ac22cddbc38b68d4fe43_886369_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/transcriber/images/Trint_hu_1a45e1792bb90fe7.png 480w, https://visualizing.jp/transcriber/images/Trint_hu_429d3aee24ec3b64.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Trint&#34;
@@ -68,7 +68,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Vrew.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Vrew_huc67ddb04d8bbb20d1622dd81c872823d_538957_480x0_resize_box_3.png 480w, https://visualizing.jp/transcriber/images/Vrew_huc67ddb04d8bbb20d1622dd81c872823d_538957_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/transcriber/images/Vrew_hu_fe1ea0870b5b8a5a.png 480w, https://visualizing.jp/transcriber/images/Vrew_hu_81f6966fd8989347.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vrew&#34;
@@ -92,7 +92,7 @@
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/UD_Talk.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/UD_Talk_hu45cacd5ce758c90bbd6ae095f4bf778e_895246_480x0_resize_box_3.png 480w, https://visualizing.jp/transcriber/images/UD_Talk_hu45cacd5ce758c90bbd6ae095f4bf778e_895246_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/transcriber/images/UD_Talk_hu_a683973c037b10a2.png 480w, https://visualizing.jp/transcriber/images/UD_Talk_hu_649708f7662b5348.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UD Talk&#34;
