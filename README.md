@@ -1,8 +1,11 @@
 ## このサイトの内容
-Hugo を利用した Visualizing.jp の2024年版リポジトリ。
+Hugo を利用した Visualizing.jp の2024年〜版リポジトリ。
 
 ## ローカルサーバでの確認方法
-- `hugo server`
+
+```
+hugo server
+```
 
 ## デプロイ方法
 - ファイルを修正する
