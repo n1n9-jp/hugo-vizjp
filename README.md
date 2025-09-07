@@ -12,6 +12,6 @@ hugo server
 - `hugo` コマンドを実行する
 - public フォルダ以下にファイルが出力される
 - public フォルダ以下を Github へプッシュする
-- Vercel に自動で反映させる(?)
+- Vercel に自動で反映させる
 
 
