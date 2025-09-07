@@ -7,7 +7,177 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>「統計」が「統計」になるまで——訳字論争と“新漢字”の時代感</title>
+        <link>https://visualizing.jp/translate-statistics/</link>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/translate-statistics/</guid>
+        <description>&lt;img src="https://visualizing.jp/translate-statistics/images/translate-statistics.png" alt="Featured image of post 「統計」が「統計」になるまで——訳字論争と“新漢字”の時代感" /&gt;&lt;p&gt;いま私たちが当然のように使う「統計」。
+その裏側には、statistics を日本語にするために“新しい漢字”まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。&lt;/p&gt;
+&lt;h2 id=&#34;1889年論争は始まる&#34;&gt;1889年、論争は始まる
+&lt;/h2&gt;&lt;p&gt;発端は明治22（1889）年。森鷗外（森林太郎）が、エステルレン著・呉秀三訳『医学統計論』の「題言」（序文）で統計観を示したことをきっかけに、スタチスチック社の今井武夫と論争が起こります。やりとりは約10か月に及び、複数の雑誌（『東京医事新誌』『スタチスチック雑誌』など）を舞台に続きました。 ￼ ￼ ￼&lt;/p&gt;
+&lt;p&gt;ここで、実際のやりとりをまとめた年表ミニ図をご覧ください。森鷗外（森林太郎）と今井武夫を中心に、複数誌で激しい応酬が続いたことが分かります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;年月（明治）&lt;/th&gt;
+          &lt;th&gt;著者&lt;/th&gt;
+          &lt;th&gt;論文・著作名&lt;/th&gt;
+          &lt;th&gt;掲載誌／号数&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年3月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;統計ト一般ト&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 373号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」第22巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年5月&lt;/td&gt;
+          &lt;td&gt;今井武夫&lt;/td&gt;
+          &lt;td&gt;統計ト一般ト&lt;/td&gt;
+          &lt;td&gt;スタチスチック雑誌 7号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」33巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年6月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;統計ト一般トノ分流&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 584号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」第22巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年7月&lt;/td&gt;
+          &lt;td&gt;今井武夫&lt;/td&gt;
+          &lt;td&gt;再ビ統計ト一般ト&lt;/td&gt;
+          &lt;td&gt;スタチスチック雑誌 9号&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年8月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;統計ト宗論ヲ論ス&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 593号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」第28巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年8月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;統計学総論答今井武夫君&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 593号&lt;/td&gt;
+          &lt;td&gt;同上&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年9月&lt;/td&gt;
+          &lt;td&gt;今井武夫&lt;/td&gt;
+          &lt;td&gt;三タビ統計ト一般ト&lt;/td&gt;
+          &lt;td&gt;スタチスチック雑誌 19号&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年9月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;統計ト一般トヲ論ス&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 600号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」第24巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年10月&lt;/td&gt;
+          &lt;td&gt;森林太郎&lt;/td&gt;
+          &lt;td&gt;再ビ統計学ト宗論ヲ論ス&lt;/td&gt;
+          &lt;td&gt;東京医事新誌 606号&lt;/td&gt;
+          &lt;td&gt;「鴎外全集」第28巻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年11月&lt;/td&gt;
+          &lt;td&gt;今井武夫&lt;/td&gt;
+          &lt;td&gt;四タビ統計ト一般ト&lt;/td&gt;
+          &lt;td&gt;スタチスチック雑誌 29号&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;22年12月&lt;/td&gt;
+          &lt;td&gt;今井武夫&lt;/td&gt;
+          &lt;td&gt;四タビ統計ト一般ト（未完）&lt;/td&gt;
+          &lt;td&gt;スタチスチック雑誌 44号&lt;/td&gt;
+          &lt;td&gt;統計博物館所蔵&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;争点は3つ簡潔に&#34;&gt;争点は3つ（簡潔に）
+&lt;/h2&gt;&lt;p&gt;当時の資料を整理すると、争点は次の三本柱でした。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;争点&lt;/th&gt;
+          &lt;th&gt;森鷗外（森林太郎）&lt;/th&gt;
+          &lt;th&gt;今井武夫（杉亨二グループ）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;「スタチスチック」の訳語は「統計」が適切である&lt;/td&gt;
+          &lt;td&gt;スタチスチックは「統べ計る」という訳語で意味は通じる&lt;/td&gt;
+          &lt;td&gt;中国語の「統計」には合計の意味の外はない&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;統計学は科学であるのか、方法論であるのか&lt;/td&gt;
+          &lt;td&gt;スタチスチックは科学でなく方法である&lt;/td&gt;
+          &lt;td&gt;スタチスチックは、他の科学を補助する方法のみではなく、人間社会の現象を研究する科学である&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;統計は因果関係を探求すべき方法か&lt;/td&gt;
+          &lt;td&gt;スタチスチックは原因を探り法則を知り得るものではない&lt;/td&gt;
+          &lt;td&gt;人間社会や国家の諸現象を、いろいろな要因との関係で探討すれば、原因を探り法則を定めることができる&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように訳語問題は、いつしか科学観・方法論の論争へとせり上がっていきます。のちに日本の統計界で長く続く「社会統計」派と「数理統計」派の視界の差にもつながる論点でした。 ￼&lt;/p&gt;
+&lt;h2 id=&#34;統計が定着していく&#34;&gt;「統計」が定着していく
+&lt;/h2&gt;&lt;p&gt;結論としては &lt;strong&gt;「統計」&lt;/strong&gt; という訳語が次第に一般化していきます。実際、統計界の重鎮・杉亨二自身が「統計」という語を用いていた事実が、訳語の妥当性を支える根拠として挙げられています（森側の反論点）。 ￼&lt;/p&gt;
+&lt;h2 id=&#34;そして新漢字は残らなかった&#34;&gt;そして“新漢字”は残らなかった
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/translate-statistics/images/translate-statistics.png&#34;
+	width=&#34;600&#34;
+	height=&#34;300&#34;
+	srcset=&#34;https://visualizing.jp/translate-statistics/images/translate-statistics_hu_f6a12c89ca0467b9.png 480w, https://visualizing.jp/translate-statistics/images/translate-statistics_hu_b88596b56527a40c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一方で、statistics を表すための新造漢字まで試作された時期がありました。読みや意味が直感的に通らず、運用・普及という言語の現実を前に採用は見送られていきます。けれど、その存在が示しているのは、外来概念を日本語の器にきちんと収めたいという切実な意思です。カタカナ表記で済ませず、適訳を磨き、場合によっては文字そのものを作るという発想。明治のことばの現場は、驚くほどクリエイティブでした。&lt;/p&gt;
+&lt;h2 id=&#34;いまの目から見た意味&#34;&gt;いまの目から見た意味
+&lt;/h2&gt;&lt;p&gt;この小さな論争史には、二つの教訓があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;言葉は単なるラベルではない。 訳語の選び方が、その学問の“輪郭”や“広がり”を規定する。&lt;/li&gt;
+&lt;li&gt;方法か科学か。 統計をどう位置づけるかは、教育や実務の指針に直結する。
+だからこそ &lt;strong&gt;「統計」&lt;/strong&gt; という二文字が今日まで生き残った事実には、言語選択と学問観のせめぎ合いが凝縮しているのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;⸻&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stat.go.jp/museum/toukei150/ijin/ijin04.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;統計の偉人たち｜統計150年特設サイト｜統計局ホームページ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stat.go.jp/naruhodokids/episode/ep1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;統計エピソード（1）「統計」という言葉の起源｜宇宙統計ステーションNARUHODO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ism.ac.jp/toukei-today/136.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;統計Today No.136「森鷗外と統計」｜統計数理研究所&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jstage.jst.go.jp/article/jjscs/37/1/37_1/_article/-char/ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;J-STAGE｜森鷗外の統計論の源泉（学術論文）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cir.nii.ac.jp/crid/1390001205447263104&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CiNii｜森鴎外の統計学観&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ism.ac.jp/editsec/toukei/ronbun/vol49/49-2-117.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;書評「統計学の日本史」｜統計数理研究所&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</title>
         <link>https://visualizing.jp/two-axis/</link>
         <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
