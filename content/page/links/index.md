@@ -5,7 +5,7 @@ layout: "links"
 slug: "link"
 links:
   - title: データ可視化の基本が全部わかる本
-    description: 本サイト運営の矢崎が実施している、日本で唯一の本格的なデータ可視化の講習です。
+    description: 本サイト運営の矢崎による単著です。データ可視化分野で長年培われた過去の方法論を、現代に活かせるようわかりやすく体系化されています。
     website: https://amzn.to/3XVsvSt
     image: images/thumb_dataviz-all.jpg
   - title: データ可視化講習
