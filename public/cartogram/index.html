@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。\n">
+<title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
+
+<link rel='canonical' href='https://visualizing.jp/cartogram/'>
+
+<link rel="stylesheet" href="/scss/style.min.fc15114a2ad313834aba5230b9ad51502ab44bcdbd153da6c196cce870376d25.css"><meta property='og:title' content="カルトグラム：見慣れた地図がデータで歪む面白さ">
+<meta property='og:description' content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。\n">
+<meta property='og:url' content='https://visualizing.jp/cartogram/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Map' /><meta property='article:published_time' content='2025-09-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-10T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/cartogram/images/cartogram.png' />
+<meta name="twitter:site" content="@visualizing_jp">
+    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="カルトグラム：見慣れた地図がデータで歪む面白さ">
+<meta name="twitter:description" content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://visualizing.jp/cartogram/images/cartogram.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_f11d29cc861cb7f7.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#カルトグラム手法の比較一覧">カルトグラム手法の比較一覧</a>
+      <ol>
+        <li><a href="#連続的カルトグラム-continuous-cartogram">連続的カルトグラム (Continuous Cartogram)</a>
+          <ol>
+            <li><a href="#2021年衆院選の比例代表得票率-主な政党の得票率">2021年衆院選の比例代表得票率 主な政党の得票率</a></li>
+            <li><a href="#カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する">カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する</a></li>
+            <li><a href="#地球規模の生活環境がどのように変化しているかを考えるために必要な地図">地球規模の生活環境がどのように変化しているかを考えるために必要な地図</a></li>
+          </ol>
+        </li>
+        <li><a href="#非連続的カルトグラム-non-continuous-cartogram">非連続的カルトグラム (Non-Continuous Cartogram)</a>
+          <ol>
+            <li><a href="#選挙人地図11612選挙日">選挙人地図（11/6/12）：選挙日</a></li>
+          </ol>
+        </li>
+        <li><a href="#擬似連続カルトグラム-pseudo-continuous-cartogram">擬似連続カルトグラム (Pseudo-Continuous Cartogram)</a>
+          <ol>
+            <li><a href="#ニューヨークタイムズオリンピックメダル地図2012年">ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。</a></li>
+            <li><a href="#オバマ大統領による変更前に保険契約を更新できる州">オバマ大統領による変更前に、保険契約を更新できる州</a></li>
+          </ol>
+        </li>
+        <li><a href="#グリッドカルトグラム-gridded-cartogram">グリッド・カルトグラム (Gridded Cartogram)</a>
+          <ol>
+            <li><a href="#すべては538人の選挙人票次第だ">すべては538人の選挙人票次第だ</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#まとめ">まとめ</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/cartogram/">
+                <img src="/cartogram/images/cartogram_hu_ac705e8882b063cd.png"
+                        srcset="/cartogram/images/cartogram_hu_ac705e8882b063cd.png 800w, /cartogram/images/cartogram_hu_9d9dde100c7ae1a7.png 1600w"
+                        width="800" 
+                        height="410" 
+                        loading="lazy"
+                        alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+            <a href="/categories/technology/" >
+                作るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/cartogram/">カルトグラム：見慣れた地図がデータで歪む面白さ</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 10, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。</p>
+<h2 id="カルトグラム手法の比較一覧">カルトグラム手法の比較一覧
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>手法</th>
+          <th>特徴</th>
+          <th>メリット</th>
+          <th>デメリット</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>連続的カルトグラム</td>
+          <td>隣接関係を保ちながら、面積をデータに比例させて変形</td>
+          <td>地図らしさが残るため直感的</td>
+          <td>全体的に歪んで読みにくい場合がある</td>
+      </tr>
+      <tr>
+          <td>非連続的カルトグラム</td>
+          <td>地域ごとに独立させ、面積をデータに比例</td>
+          <td>歪みが少なく比較しやすい</td>
+          <td>隣接関係が失われる</td>
+      </tr>
+      <tr>
+          <td>擬似連続カルトグラム</td>
+          <td>丸や四角など幾何図形の大きさや色で表現</td>
+          <td>データ比較がしやすい</td>
+          <td>地形が失われる</td>
+      </tr>
+      <tr>
+          <td>グリッド・カルトグラム</td>
+          <td>グリッド単位で地域を置換</td>
+          <td>個数や色による表現が明確</td>
+          <td>位置関係が単純化されすぎる</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="連続的カルトグラム-continuous-cartogram">連続的カルトグラム (Continuous Cartogram)
+</h3><h4 id="2021年衆院選の比例代表得票率-主な政党の得票率">2021年衆院選の比例代表得票率 主な政党の得票率
+</h4><p><img src="/cartogram/images/continuous_cartogram_chunichi.png"
+	width="3326"
+	height="1894"
+	srcset="/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, /cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w"
+	loading="lazy"
+	
+		alt="2021年衆院選の比例代表得票率 主な政党の得票率"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="421px"
+	
+></p>
+<p><a class="link" href="https://static.chunichi.co.jp/chunichi/pages/feature/election/proportional_map.html"  target="_blank" rel="noopener"
+    >2021年衆院選の比例代表得票率 主な政党の得票率</a></p>
+<h4 id="カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する">カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する
+</h4><p><img src="/cartogram/images/SupercentersHamburgersAndCoffee.png"
+	width="1076"
+	height="335"
+	srcset="/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, /cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w"
+	loading="lazy"
+	
+		alt="Supercenters, Hamburgers, and Coffee"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="321"
+		data-flex-basis="770px"
+	
+></p>
+<p><a class="link" href="https://web.archive.org/web/20200510210032/http://www.stephabegg.com/home/projects/cartograms"  target="_blank" rel="noopener"
+    >Supercenters, Hamburgers, and Coffee: Using density-equalizing cartograms to display the distribution of Walmarts, McDonalds, and Starbucks in the US</a></p>
+<h4 id="地球規模の生活環境がどのように変化しているかを考えるために必要な地図">地球規模の生活環境がどのように変化しているかを考えるために必要な地図
+</h4><p><img src="/cartogram/images/Population-cartogram_Asia-and-Oceania.png"
+	width="4878"
+	height="3375"
+	srcset="/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, /cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w"
+	loading="lazy"
+	
+		alt="Population of Asia and Oceania in 2018"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="144"
+		data-flex-basis="346px"
+	
+></p>
+<p><a class="link" href="https://ourworldindata.org/world-population-cartogram"  target="_blank" rel="noopener"
+    >The map we need if we want to think about how global living conditions are changing</a></p>
+<p>連続的カルトグラムは、国境や県境といった隣接関係を保ちながら、各地域をデータに応じて面積ごと変形する手法です。
+たとえば人口を基準にすると、人口の多い地域は大きく、少ない地域は小さく変形されます。結果として全体の地図がぐにゃりと歪み、見慣れた地図とのギャップから「どこが大きく、どこが小さいのか」が直感的に理解できます。</p>
+<h3 id="非連続的カルトグラム-non-continuous-cartogram">非連続的カルトグラム (Non-Continuous Cartogram)
+</h3><h4 id="選挙人地図11612選挙日">選挙人地図（11/6/12）：選挙日
+</h4><p><img src="/cartogram/images/TheElectoralCollegeMap.png"
+	width="640"
+	height="494"
+	srcset="/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, /cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w"
+	loading="lazy"
+	
+		alt="The Electoral College Map (11/6/12): Election Day"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="310px"
+	
+></p>
+<p><a class="link" href="https://www.frontloadinghq.com/2012/11/the-electoral-college-map-11612.html"  target="_blank" rel="noopener"
+    >The Electoral College Map (11/6/12): Election Day</a></p>
+<p>非連続的カルトグラムは、隣接性を捨てて各地域を独立させた上で、面積をデータに比例させる手法です。
+たとえばアメリカの州ごとの投票結果を示す場合、州の位置や境界は保ちながらも州同士の距離感は無視されるため、全体としてはモザイク状の地図になります。隣接関係の形状の変化に影響を受けずに、それぞれの地域のデータ量が強調されるのが特徴です。</p>
+<h3 id="擬似連続カルトグラム-pseudo-continuous-cartogram">擬似連続カルトグラム (Pseudo-Continuous Cartogram)
+</h3><h4 id="ニューヨークタイムズオリンピックメダル地図2012年">ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。
+</h4><p><img src="/cartogram/images/Pseudo-ContinuousCartogram_01a.png"
+	width="966"
+	height="492"
+	srcset="/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, /cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w"
+	loading="lazy"
+	
+		alt="New York Times — “A Map of Olympic Medals”, 2012."
+	
+	
+		class="gallery-image" 
+		data-flex-grow="196"
+		data-flex-basis="471px"
+	
+></p>
+<p><a class="link" href="https://archive.nytimes.com/www.nytimes.com/interactive/2008/08/04/sports/olympics/20080804_MEDALCOUNT_MAP.html"  target="_blank" rel="noopener"
+    >A Map of Olympic Medals</a></p>
+<h4 id="オバマ大統領による変更前に保険契約を更新できる州">オバマ大統領による変更前に、保険契約を更新できる州
+</h4><p><img src="/cartogram/images/Pseudo-ContinuousCartogram_02.png"
+	width="868"
+	height="558"
+	srcset="/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, /cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w"
+	loading="lazy"
+	
+		alt="States Where Insured Could Renew Plans Before Change by Obama"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="155"
+		data-flex-basis="373px"
+	
+></p>
+<p><a class="link" href="https://archive.nytimes.com/www.nytimes.com/interactive/2013/11/20/us/which-states-will-allow-old-health-policies-to-be-renewed.html"  target="_blank" rel="noopener"
+    >States Where Insured Could Renew Plans Before Change by Obama</a></p>
+<p>擬似連続カルトグラムは、地域を地形のまま表現するのではなく、丸や四角などの単純な幾何図形に置き換えた上で、それをデータに応じて大きさを変える方法です。
+代表例は「ドーリング・カルトグラム（Dorling cartogram）」と呼ばれる手法で、国や地域を円の大きさで表し、位置関係をできるだけ近づけて配置します。地形の正確さを犠牲にする代わりに、データの比較がしやすくなるのが利点です。</p>
+<h3 id="グリッドカルトグラム-gridded-cartogram">グリッド・カルトグラム (Gridded Cartogram)
+</h3><h4 id="すべては538人の選挙人票次第だ">すべては538人の選挙人票次第だ
+</h4><p><img src="/cartogram/images/GriddedCartogram_01.png"
+	width="1804"
+	height="1447"
+	srcset="/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, /cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w"
+	loading="lazy"
+	
+		alt="It’s all about the 538 Electoral College votes"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="124"
+		data-flex-basis="299px"
+	
+></p>
+<p><a class="link" href="https://web.archive.org/web/20241213042407/http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=rrpromo#plus&amp;electoral-map"  target="_blank" rel="noopener"
+    >It’s all about the 538 Electoral College votes</a></p>
+<p>グリッド・カルトグラムは地形を、データに応じた個数のグリッド（四角形や六角形など）を並べて表現する方法です。個数以外に色でも別変数を表現することができます。位置関係をある程度保ちつつ、数の比較が直感的に理解できるのが特徴です。</p>
+<h2 id="まとめ">まとめ
+</h2><p>カルトグラムは「地図」という馴染みのあるフォーマットにデータを組み込むことで、地域差や規模感を強く訴えることができる表現手法です。適切なタイプを選ぶことで、データが持つストーリーを効果的に伝えることができます。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/map/">Map</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/two-axis/">
+        
+        
+            <div class="article-image">
+                <img src="/two-axis/images/img-10.b36230f9cd017857e36a575e716da5bd_hu_b5218e9e33d53b0b.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは"
+                        data-key="two-axis" 
+                        data-hash="md5-s2Iw&#43;c0BeFfjaldecW2lvQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/excel-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/excel-reverse-pivot/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Excelでのピボットテーブルの解除"
+                        data-key="excel-reverse-pivot" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Excelでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/openrefine-reverse-pivot/">
+        
+        
+            <div class="article-image">
+                <img src="/openrefine-reverse-pivot/images/image_3hours_refine.806918503329ac41f761810df4cac25f_hu_9742b980de019bad.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenRefineでのピボットテーブルの解除"
+                        data-key="openrefine-reverse-pivot" 
+                        data-hash="md5-gGkYUDMprEH3YYEN9MrCXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">OpenRefineでのピボットテーブルの解除</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/design-guideline/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">デザイン・ガイドラインにおけるデータ可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-gl-js-v2/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-gl-js-v2/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ"
+                        data-key="mapbox-gl-js-v2" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

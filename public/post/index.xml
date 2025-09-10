@@ -7,7 +7,184 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
+        <link>https://visualizing.jp/cartogram/</link>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/cartogram/</guid>
+        <description>&lt;img src="https://visualizing.jp/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;カルトグラム手法の比較一覧&#34;&gt;カルトグラム手法の比較一覧
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;手法&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;メリット&lt;/th&gt;
+          &lt;th&gt;デメリット&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;連続的カルトグラム&lt;/td&gt;
+          &lt;td&gt;隣接関係を保ちながら、面積をデータに比例させて変形&lt;/td&gt;
+          &lt;td&gt;地図らしさが残るため直感的&lt;/td&gt;
+          &lt;td&gt;全体的に歪んで読みにくい場合がある&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;非連続的カルトグラム&lt;/td&gt;
+          &lt;td&gt;地域ごとに独立させ、面積をデータに比例&lt;/td&gt;
+          &lt;td&gt;歪みが少なく比較しやすい&lt;/td&gt;
+          &lt;td&gt;隣接関係が失われる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;擬似連続カルトグラム&lt;/td&gt;
+          &lt;td&gt;丸や四角など幾何図形の大きさや色で表現&lt;/td&gt;
+          &lt;td&gt;データ比較がしやすい&lt;/td&gt;
+          &lt;td&gt;地形が失われる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;グリッド・カルトグラム&lt;/td&gt;
+          &lt;td&gt;グリッド単位で地域を置換&lt;/td&gt;
+          &lt;td&gt;個数や色による表現が明確&lt;/td&gt;
+          &lt;td&gt;位置関係が単純化されすぎる&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;連続的カルトグラム-continuous-cartogram&#34;&gt;連続的カルトグラム (Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;2021年衆院選の比例代表得票率-主な政党の得票率&#34;&gt;2021年衆院選の比例代表得票率 主な政党の得票率
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/continuous_cartogram_chunichi.png&#34;
+	width=&#34;3326&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, https://visualizing.jp/cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;2021年衆院選の比例代表得票率 主な政党の得票率&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;421px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://static.chunichi.co.jp/chunichi/pages/feature/election/proportional_map.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2021年衆院選の比例代表得票率 主な政党の得票率&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する&#34;&gt;カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/SupercentersHamburgersAndCoffee.png&#34;
+	width=&#34;1076&#34;
+	height=&#34;335&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, https://visualizing.jp/cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Supercenters, Hamburgers, and Coffee&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;770px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20200510210032/http://www.stephabegg.com/home/projects/cartograms&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Supercenters, Hamburgers, and Coffee: Using density-equalizing cartograms to display the distribution of Walmarts, McDonalds, and Starbucks in the US&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;地球規模の生活環境がどのように変化しているかを考えるために必要な地図&#34;&gt;地球規模の生活環境がどのように変化しているかを考えるために必要な地図
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/Population-cartogram_Asia-and-Oceania.png&#34;
+	width=&#34;4878&#34;
+	height=&#34;3375&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, https://visualizing.jp/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Population of Asia and Oceania in 2018&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/world-population-cartogram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The map we need if we want to think about how global living conditions are changing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;連続的カルトグラムは、国境や県境といった隣接関係を保ちながら、各地域をデータに応じて面積ごと変形する手法です。
+たとえば人口を基準にすると、人口の多い地域は大きく、少ない地域は小さく変形されます。結果として全体の地図がぐにゃりと歪み、見慣れた地図とのギャップから「どこが大きく、どこが小さいのか」が直感的に理解できます。&lt;/p&gt;
+&lt;h3 id=&#34;非連続的カルトグラム-non-continuous-cartogram&#34;&gt;非連続的カルトグラム (Non-Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;選挙人地図11612選挙日&#34;&gt;選挙人地図（11/6/12）：選挙日
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/TheElectoralCollegeMap.png&#34;
+	width=&#34;640&#34;
+	height=&#34;494&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, https://visualizing.jp/cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The Electoral College Map (11/6/12): Election Day&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.frontloadinghq.com/2012/11/the-electoral-college-map-11612.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Electoral College Map (11/6/12): Election Day&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;非連続的カルトグラムは、隣接性を捨てて各地域を独立させた上で、面積をデータに比例させる手法です。
+たとえばアメリカの州ごとの投票結果を示す場合、州の位置や境界は保ちながらも州同士の距離感は無視されるため、全体としてはモザイク状の地図になります。隣接関係の形状の変化に影響を受けずに、それぞれの地域のデータ量が強調されるのが特徴です。&lt;/p&gt;
+&lt;h3 id=&#34;擬似連続カルトグラム-pseudo-continuous-cartogram&#34;&gt;擬似連続カルトグラム (Pseudo-Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;ニューヨークタイムズオリンピックメダル地図2012年&#34;&gt;ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_01a.png&#34;
+	width=&#34;966&#34;
+	height=&#34;492&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;New York Times — “A Map of Olympic Medals”, 2012.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;471px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2008/08/04/sports/olympics/20080804_MEDALCOUNT_MAP.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Map of Olympic Medals&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;オバマ大統領による変更前に保険契約を更新できる州&#34;&gt;オバマ大統領による変更前に、保険契約を更新できる州
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_02.png&#34;
+	width=&#34;868&#34;
+	height=&#34;558&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, https://visualizing.jp/cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;States Where Insured Could Renew Plans Before Change by Obama&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;373px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2013/11/20/us/which-states-will-allow-old-health-policies-to-be-renewed.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;States Where Insured Could Renew Plans Before Change by Obama&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;擬似連続カルトグラムは、地域を地形のまま表現するのではなく、丸や四角などの単純な幾何図形に置き換えた上で、それをデータに応じて大きさを変える方法です。
+代表例は「ドーリング・カルトグラム（Dorling cartogram）」と呼ばれる手法で、国や地域を円の大きさで表し、位置関係をできるだけ近づけて配置します。地形の正確さを犠牲にする代わりに、データの比較がしやすくなるのが利点です。&lt;/p&gt;
+&lt;h3 id=&#34;グリッドカルトグラム-gridded-cartogram&#34;&gt;グリッド・カルトグラム (Gridded Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;すべては538人の選挙人票次第だ&#34;&gt;すべては538人の選挙人票次第だ
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cartogram/images/GriddedCartogram_01.png&#34;
+	width=&#34;1804&#34;
+	height=&#34;1447&#34;
+	srcset=&#34;https://visualizing.jp/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, https://visualizing.jp/cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;It’s all about the 538 Electoral College votes&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;124&#34;
+		data-flex-basis=&#34;299px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20241213042407/http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=rrpromo#plus&amp;amp;electoral-map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;It’s all about the 538 Electoral College votes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;グリッド・カルトグラムは地形を、データに応じた個数のグリッド（四角形や六角形など）を並べて表現する方法です。個数以外に色でも別変数を表現することができます。位置関係をある程度保ちつつ、数の比較が直感的に理解できるのが特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;カルトグラムは「地図」という馴染みのあるフォーマットにデータを組み込むことで、地域差や規模感を強く訴えることができる表現手法です。適切なタイプを選ぶことで、データが持つストーリーを効果的に伝えることができます。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感</title>
         <link>https://visualizing.jp/translate-statistics/</link>
         <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>

@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Map</title>
+        <link>https://visualizing.jp/tags/map/</link>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/tags/map/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>2-Axis</title>
         <link>https://visualizing.jp/tags/2-axis/</link>
         <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
@@ -85,14 +93,6 @@
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/tags/covid-19/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Map</title>
-        <link>https://visualizing.jp/tags/map/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://visualizing.jp/tags/map/</guid>
         <description></description>
         </item>
         <item>

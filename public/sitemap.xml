@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://visualizing.jp/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://visualizing.jp/translate-statistics/</loc>
-    <lastmod>2025-09-07T00:00:00+00:00</lastmod>
+    <loc>https://visualizing.jp/tags/map/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/post/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/tags/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/cartogram/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://visualizing.jp/translate-statistics/</loc>
     <lastmod>2025-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/tags/2-axis/</loc>
     <lastmod>2025-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/tags/chart/</loc>
-    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/tags/</loc>
     <lastmod>2025-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/two-axis/</loc>
@@ -123,9 +129,6 @@
     <lastmod>2020-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/tags/covid-19/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://visualizing.jp/tags/map/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://visualizing.jp/nightingale-chart/</loc>
