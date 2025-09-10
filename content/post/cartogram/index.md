@@ -28,6 +28,12 @@ image = "images/cartogram.png"
 ### 連続的カルトグラム (Continuous Cartogram)
 
 
+#### 一票の格差でいびつな日本
+
+![一票の格差でいびつな日本](images/continuous_cartogram_yazaki.png)
+
+
+
 #### 2021年衆院選の比例代表得票率 主な政党の得票率
 
 ![2021年衆院選の比例代表得票率 主な政党の得票率](images/continuous_cartogram_chunichi.png)
