@@ -8,12 +8,68 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/map/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>旅費の地図化</title>
+        <title>時間の距離カルトグラム</title>
+        <link>https://visualizing.jp/time-distance-map/</link>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/time-distance-map/</guid>
+        <description>&lt;img src="https://visualizing.jp/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/time-distance-map/images/time-distance-full.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;1998&#34;
+	srcset=&#34;https://visualizing.jp/time-distance-map/images/time-distance-full_hu_24851e57bf69ea5e.png 480w, https://visualizing.jp/time-distance-map/images/time-distance-full_hu_94836d70378af7b2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;過去200年間にわたる旅の加速を表す地図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;192px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;どんな地図なのか&#34;&gt;どんな地図なのか
+&lt;/h2&gt;&lt;p&gt;地図はパリを中心に、フランス各地を放射状に描き出しています。しかし、表しているのは物理的な距離ではなく、所要時間です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;外側の淡いテクスチャのエリア … 17世紀中頃の旅行時間&lt;/li&gt;
+&lt;li&gt;内側に向かう濃いテクスチャのエリア … 1782年、1814年、1834年、1854年、1887年と時代を下るごとに短縮された旅行時間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この6つの「同心円状の輪郭」が重なり合い、まるで地図全体が次第に縮んでいくように見える仕組みになっています。&lt;/p&gt;
+&lt;h2 id=&#34;バイヨンヌを例に&#34;&gt;バイヨンヌを例に
+&lt;/h2&gt;&lt;p&gt;凡例では、パリからスペイン国境近くの都市バイヨンヌまでの所要時間が紹介されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;17世紀 … 358時間&lt;/li&gt;
+&lt;li&gt;1782年 … 200時間&lt;/li&gt;
+&lt;li&gt;1814年 … 116時間&lt;/li&gt;
+&lt;li&gt;1834年 … 64時間&lt;/li&gt;
+&lt;li&gt;1854年 … 27時間45分&lt;/li&gt;
+&lt;li&gt;1887年 … 11時間51分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり、わずか2世紀のあいだに、移動時間は30分の1に短縮されたのです。&lt;/p&gt;
+&lt;h2 id=&#34;見方のポイント&#34;&gt;見方のポイント
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;輪郭の形は地理的に正確ではない&lt;/b&gt;&amp;hellip;加速の度合いが地域によって異なるため、地図の形はゆがんでいます。だからこそ、どの方向に交通インフラの進歩が進んだかが一目でわかる仕組みです。&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;縮んでいくフランス&lt;/b&gt;&amp;hellip;色の濃い時代ほど内側に収まり、結果として「フランス全体がセーヌ県の大きさまで縮んだ」かのように見えます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;旅行速度の劇的な進歩&#34;&gt;旅行速度の劇的な進歩
+&lt;/h2&gt;&lt;p&gt;この地図が伝えるのは、&lt;b&gt;「20〜30倍の速さで旅する時代」&lt;/b&gt;を我々が生きているという事実です。移動のスピードは単なる快適さにとどまらず、行動範囲そのものを広げ、社会や経済のダイナミズムを変えました。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の工夫&#34;&gt;凡例の工夫
+&lt;/h2&gt;&lt;p&gt;都市は青い点で示され、地図の縮尺が許す場合には、パリからの所要時間が直接書き込まれています。また、これらの数字は凡例の右側にまとめられ、読者が一覧できるようになっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この「時間の距離カルトグラム」は、フランスにおける移動の歴史を、数字ではなく体感的な距離感の変化として伝えてくれます。遠かったバイヨンヌやマルセイユが、数世代のうちに「ぐっと近く」なった様子を、地図を通して追体験できるのです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~309372~90079254&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Acceleration des Voyages en France Depuis 200 ans. Baisse de Prix des Voyages en France Depuis 1798. - David Rumsey Historical Map Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>旅費の距離カルトグラム</title>
         <link>https://visualizing.jp/time-distance-map-price/</link>
         <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/time-distance-map-price/</guid>
-        <description>&lt;img src="https://visualizing.jp/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の地図化" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
+        <description>&lt;img src="https://visualizing.jp/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/time-distance-map-price/images/time-distance-price-full.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;2007&#34;
@@ -53,7 +109,7 @@
 &lt;h2 id=&#34;時間との比較&#34;&gt;時間との比較
 &lt;/h2&gt;&lt;p&gt;興味深いのは、旅費の低下率は「所要時間の短縮」に比べると小さいという点です。時間のほうは劇的に短縮されましたが、費用のほうはそれほど大きく下がったわけではありません。それでもなお、人々が実感できるほどの「旅の安さ」が実現していたことは確かです。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;この「旅費地図」は、19世紀フランスでの旅行がいかに時間的にも金銭的にもアクセスしやすくなっていったかを示す貴重な資料です。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;この「旅費の距離カルトグラム」は、19世紀フランスでの旅行がいかに時間的にも金銭的にもアクセスしやすくなっていったかを示す貴重な資料です。&lt;/p&gt;
 &lt;p&gt;この地図を見ると、フランス各地がパリに少しずつ「近づいていく」様子が、物理的な距離ではなく、財布の中身の感覚で伝わってきますね。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
