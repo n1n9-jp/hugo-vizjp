@@ -20,7 +20,7 @@
 	srcset=&#34;https://visualizing.jp/time-distance-map-price/images/time-distance-price-full_hu_31b32cb0b4167681.png 480w, https://visualizing.jp/time-distance-map-price/images/time-distance-price-full_hu_7ab1985c0d4c302.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;1798年以降の旅費の低下&#34;
+		alt=&#34;1798年以降の旅費の低下を表す地図&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -32,7 +32,7 @@
 &lt;/h2&gt;&lt;p&gt;パリを基点にフランス各地を描いています。そして対象は&lt;b&gt;運賃（旅費）&lt;/b&gt;です。通常の地図は距離が描かれますが、ここでは&lt;b&gt;パリからの旅費を、パリからの距離に視覚的に変換している&lt;/b&gt;のです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;外側の薄いテクスチャのエリア（フランスの輪郭） … 1798年当時の旅費を表現。旅行コストが高かったため、都市は遠くに位置づけられています。&lt;/li&gt;
-&lt;li&gt;外側の濃いテクスチャのエリア … 1887年当時の旅費を表現。運賃の低下により、各都市がパリに「近づいた」ように描かれます。&lt;/li&gt;
+&lt;li&gt;内側の濃いテクスチャのエリア … 1887年当時の旅費を表現。運賃の低下により、各都市がパリに「近づいた」ように描かれます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;つまり、&lt;b&gt;都市が内側に寄っているほど「当時に比べて安く旅できるようになった」&lt;/b&gt;ことを意味します。&lt;/p&gt;
 &lt;p&gt;読み解き方としては、パリから各都市へ直線で結んだ上で、1887年の旅費を距離に変換した箇所に都市名を記載します。同じ都市名が二か所にあるはずです。青い数字で旅費が記載されています。&lt;/p&gt;
