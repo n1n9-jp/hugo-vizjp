@@ -69,7 +69,7 @@
         <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/time-distance-map-price/</guid>
-        <description>&lt;img src="https://visualizing.jp/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
+        <description>&lt;img src="https://visualizing.jp/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/time-distance-map-price/images/time-distance-price-full.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;2007&#34;
@@ -123,7 +123,7 @@
         <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>https://visualizing.jp/cartogram/</guid>
-        <description>&lt;img src="https://visualizing.jp/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここでは代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
+        <description>&lt;img src="https://visualizing.jp/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;カルトグラム手法の比較一覧&#34;&gt;カルトグラム手法の比較一覧
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
