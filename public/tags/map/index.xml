@@ -7,7 +7,60 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/map/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/map/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>旅費の地図化</title>
+        <link>https://visualizing.jp/time-distance-map-price/</link>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/time-distance-map-price/</guid>
+        <description>&lt;img src="https://visualizing.jp/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の地図化" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/time-distance-map-price/images/time-distance-price-full.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;2007&#34;
+	srcset=&#34;https://visualizing.jp/time-distance-map-price/images/time-distance-price-full_hu_31b32cb0b4167681.png 480w, https://visualizing.jp/time-distance-map-price/images/time-distance-price-full_hu_7ab1985c0d4c302.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1798年以降の旅費の低下&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;79&#34;
+		data-flex-basis=&#34;191px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;どんな地図なのか&#34;&gt;どんな地図なのか
+&lt;/h2&gt;&lt;p&gt;パリを基点にフランス各地を描いています。ただし対象は「所要時間」ではなく&lt;b&gt;運賃（旅費）&lt;/b&gt;です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;外側の地図（大きなフランスの輪郭） … 1798年当時の旅費を表現。旅行コストが高かったため、都市は遠くに位置づけられています。&lt;/li&gt;
+&lt;li&gt;内側の濃い色の地図 … 1887年当時の旅費を表現。運賃の低下により、各都市がパリに「近づいた」ように描かれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり、&lt;b&gt;都市が内側に寄っているほど「当時に比べて安く旅できるようになった」&lt;/b&gt;ことを意味します。&lt;/p&gt;
+&lt;h2 id=&#34;運賃の基準&#34;&gt;運賃の基準
+&lt;/h2&gt;&lt;p&gt;同じ時代でも運賃は乗るクラスによって異なります。そこで比較の基準として、この地図では「もっとも多くの人が利用する等級」が採用されました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;乗合馬車（diligence）：インペリアル（屋根席）&lt;/li&gt;
+&lt;li&gt;鉄道：三等車&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、庶民がどの程度安く旅行できるようになったのかを、より実感的に示しています。&lt;/p&gt;
+&lt;h2 id=&#34;鉄道馬車の各クラス料金&#34;&gt;鉄道・馬車の各クラス料金
+&lt;/h2&gt;&lt;p&gt;地図の凡例の右側には、鉄道と馬車の各クラスの料金を比較する表が添えられています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;鉄道は一等・二等・三等&lt;/li&gt;
+&lt;li&gt;馬車は郵便馬車やクーペ、内部座席、インペリアルやロトンド&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらを並べて見ると、一世紀のあいだに旅費はおおよそ30〜40％ほど低下したことがわかります。&lt;/p&gt;
+&lt;h2 id=&#34;時間との比較&#34;&gt;時間との比較
+&lt;/h2&gt;&lt;p&gt;興味深いのは、旅費の低下率は「所要時間の短縮」に比べると小さいという点です。時間のほうは劇的に短縮されましたが、費用のほうはそれほど大きく下がったわけではありません。それでもなお、人々が実感できるほどの「旅の安さ」が実現していたことは確かです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この「旅費地図」は、19世紀フランスでの旅行がいかに時間的にも金銭的にもアクセスしやすくなっていったかを示す貴重な資料です。&lt;/p&gt;
+&lt;p&gt;この地図を見ると、フランス各地がパリに少しずつ「近づいていく」様子が、物理的な距離ではなく、財布の中身の感覚で伝わってきますね。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~309372~90079254&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Acceleration des Voyages en France Depuis 200 ans. Baisse de Prix des Voyages en France Depuis 1798. - David Rumsey Historical Map Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
         <link>https://visualizing.jp/cartogram/</link>
         <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
