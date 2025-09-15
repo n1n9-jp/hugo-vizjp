@@ -22,17 +22,12 @@ image = "images/corona-simulation.png"
 
 人口200人の町で、1人の感染者が現れたあと、ソーシャル・ディスタンシング（社会的距離）をどの程度とるかによって、事態がどのくらい変わってしまうのかをシミュレーションで示しています。
 
-<figure>
-
-![](images/corona-simulation.gif)
-
-<figcaption>
+<video autoplay loop muted playsinline>
+  <source src="images/corona-simulation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/ より引用
-
-</figcaption>
-
-</figure>
 
 数理モデルには基づいておらず、ランダム（プログラムよる乱数）に過ぎません。また悲観的なことを表現したくないという意図から、人が死ぬ（減る）表現は省略されています。
 
