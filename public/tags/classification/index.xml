@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Classification on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/classification/</link>
+        <link>https://visualizing.jp/tags/classification/</link>
         <description>Recent content in Classification on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/classification/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 23 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/classification/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>はじめてテレビで放映された火星の写真は、データ可視化作品だった話</title>
-        <link>http://localhost:1313/first-mars-on-tv-dataviz/</link>
+        <link>https://visualizing.jp/first-mars-on-tv-dataviz/</link>
         <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/first-mars-on-tv-dataviz/</guid>
-        <description>&lt;img src="http://localhost:1313/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg" alt="Featured image of post はじめてテレビで放映された火星の写真は、データ可視化作品だった話" /&gt;&lt;p&gt;テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。初めてわかる事実も多いので、これを元に紹介します。&lt;/p&gt;
+        <guid>https://visualizing.jp/first-mars-on-tv-dataviz/</guid>
+        <description>&lt;img src="https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg" alt="Featured image of post はじめてテレビで放映された火星の写真は、データ可視化作品だった話" /&gt;&lt;p&gt;テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。初めてわかる事実も多いので、これを元に紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.directedplay.com/first-tv-image-of-mars&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Don Goods “FIRST TV IMAGE OF MARS, Interplanetary color by numbers”&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;彼の記事によると、火星を探索していた宇宙探査船マリナー4号から、火星の様子を撮影した画像データが、NASAジェット推進研究所（Jet Propulsion Laboratory）へ送られてきました。22のクローズアップイメージと520万ビットのデータは正常に送信されてきたのですが、コンピュータが計算して実際の写真画像として描画するまでには結構時間がかかることがわかりました。&lt;/p&gt;
 &lt;p&gt;マリナー4号は3号の故障により急遽出番となったそうで、カメラの調子が万全かどうかわからなかったこともあり、テープに出力されていた生のバイナリーデータを基に、NASAの職員たちが手動で着色をはじめました。つまり送信データを画像化されることを待っている間に、データ値を元に、手書きで写真現像を始めたということです。この手法が、まさにデータ可視化の手法でした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;363&#34;
-	srcset=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_2ff7c4f5433f5ce2.jpeg 480w, http://localhost:1313/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_cd691f193f86f79a.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_2ff7c4f5433f5ce2.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA_hu_cd691f193f86f79a.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;左が人の手による着色、右が実際の写真。http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -35,10 +35,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;地元の美術館へ行ってグレースケールのチョークを買いにいったところ、チョークは売っていないということで、かわりに売っていたカラフルなパステルを買って帰り、火星の実際の色味を知る前に、茶・赤のカラースキームで値ごとに着色する色を決め、塗っていったということです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;1164&#34;
-	srcset=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_8508d4f0cbbb239c.jpeg 480w, http://localhost:1313/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_f867886998ac524b.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_8508d4f0cbbb239c.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_LzYN0pgjNFVCXM-F3qgn_Q_hu_f867886998ac524b.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;
@@ -50,10 +50,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;画像の印象とは異なり、写真と見比べてもらうとわかりやすいのですが、暗い茶色が宇宙空間で、明るい茶色が火星の表面、その間にあるオレンジ色の部分は火星表面に漂う雲となっています。当初はマスコミにばれないように、武装警官に守られながらパテーションを設置して、着色していったそうですが、最終的にバレてしまい、テレビで放送されるに至ったということです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A.jpeg&#34;
 	width=&#34;726&#34;
 	height=&#34;939&#34;
-	srcset=&#34;http://localhost:1313/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_c56285803d9176df.jpeg 480w, http://localhost:1313/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_d308f665cf34387f.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_c56285803d9176df.jpeg 480w, https://visualizing.jp/first-mars-on-tv-dataviz/images/1_RYsKf_MYcv9CscLrrJPi8A_hu_d308f665cf34387f.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;http://www.directedplay.com/first-tv-image-of-mars より引用。&#34;

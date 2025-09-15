@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Shapefile→GeoJSON→TopoJSON Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。\n">
 <title>ShapefileからTopoJSONを生成する</title>
 
-<link rel='canonical' href='http://localhost:1313/shapefile-to-topojson/'>
+<link rel='canonical' href='https://visualizing.jp/shapefile-to-topojson/'>
 
 <link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ShapefileからTopoJSONを生成する">
 <meta property='og:description' content="Shapefile→GeoJSON→TopoJSON Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。\n">
-<meta property='og:url' content='http://localhost:1313/shapefile-to-topojson/'>
+<meta property='og:url' content='https://visualizing.jp/shapefile-to-topojson/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='qgis' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2014-05-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2014-05-18T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='qgis' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2014-05-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2014-05-18T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/shapefile-to-topojson/images/fi_Shape2Topo.png' />
 <meta name="twitter:site" content="@visualizing_jp">
     <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="ShapefileからTopoJSONを生成する">
 <meta name="twitter:description" content="Shapefile→GeoJSON→TopoJSON Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png' />
+    <meta name="twitter:image" content='https://visualizing.jp/shapefile-to-topojson/images/fi_Shape2Topo.png' />
     </head>
     <body class="
     article-page

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>311 on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/311/</link>
+        <link>https://visualizing.jp/tags/311/</link>
         <description>Recent content in 311 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/311/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/311/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>311の際の世界からの応援ツイート</title>
-        <link>http://localhost:1313/twitter-global-pulse/</link>
+        <link>https://visualizing.jp/twitter-global-pulse/</link>
         <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/twitter-global-pulse/</guid>
-        <description>&lt;img src="http://localhost:1313/twitter-global-pulse/images/5884626815_d851598b9a_c.jpg" alt="Featured image of post 311の際の世界からの応援ツイート" /&gt;&lt;p&gt;311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。&lt;/p&gt;
+        <guid>https://visualizing.jp/twitter-global-pulse/</guid>
+        <description>&lt;img src="https://visualizing.jp/twitter-global-pulse/images/5884626815_d851598b9a_c.jpg" alt="Featured image of post 311の際の世界からの応援ツイート" /&gt;&lt;p&gt;311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。&lt;/p&gt;
 &lt;p&gt;Twitter社内のConsumer Data Science担当のミゲルさん（Miguel Ríos）がツイートデータを用いて、311発生一時間後の、日本にまつわるツイートをデータ可視化した作品映像を作成、公開しています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/twitteroffice/5884626815/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Visualization: RTs (Archive)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;正確には、日本から発せられたオリジナルのツイートがピンク、そのツイートがリツィートという形で拡散されたものがグリーンで、ダークグレイのベースマップ上に示されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/twitter-global-pulse/images/TwitterGlobalPulse.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse.png&#34;
 	width=&#34;1917&#34;
 	height=&#34;1083&#34;
-	srcset=&#34;http://localhost:1313/twitter-global-pulse/images/TwitterGlobalPulse_hu_26a81e2e7a6dcc3f.png 480w, http://localhost:1313/twitter-global-pulse/images/TwitterGlobalPulse_hu_849dd3d00911921a.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse_hu_26a81e2e7a6dcc3f.png 480w, https://visualizing.jp/twitter-global-pulse/images/TwitterGlobalPulse_hu_849dd3d00911921a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

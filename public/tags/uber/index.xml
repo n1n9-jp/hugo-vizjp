@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Uber on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/uber/</link>
+        <link>https://visualizing.jp/tags/uber/</link>
         <description>Recent content in Uber on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/uber/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/uber/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Uber H3</title>
-        <link>http://localhost:1313/uber-h3/</link>
+        <link>https://visualizing.jp/uber-h3/</link>
         <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/uber-h3/</guid>
-        <description>&lt;img src="http://localhost:1313/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
+        <guid>https://visualizing.jp/uber-h3/</guid>
+        <description>&lt;img src="https://visualizing.jp/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.uber.com/en-JP/blog/h3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;H3: Uber’s Hexagonal Hierarchical Spatial Index&lt;/a&gt;&lt;/li&gt;
@@ -27,10 +27,10 @@
 &lt;li&gt;グリッドセルをクラスタリングすることで、近隣地域を効率的に表現することができる。別なクラスタリング方法、たとえば郵便番号では行政の都合である時突然変更してしまうが、そのようなこともない。&lt;/li&gt;
 &lt;li&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現できる。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_346.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_346.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;528&#34;
-	srcset=&#34;http://localhost:1313/uber-h3/images/h3_346_hu_b5b740657799addd.png 480w, http://localhost:1313/uber-h3/images/h3_346_hu_a815816ee996de8d.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_346_hu_b5b740657799addd.png 480w, https://visualizing.jp/uber-h3/images/h3_346_hu_a815816ee996de8d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -40,10 +40,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;六角形であれば、接するグリッドとの距離が均等。三角形でも四角形でもそうはいかない。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_hierarcical.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_hierarcical.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;667&#34;
-	srcset=&#34;http://localhost:1313/uber-h3/images/h3_hierarcical_hu_91129bdc77959147.png 480w, http://localhost:1313/uber-h3/images/h3_hierarcical_hu_9e45a6063ccb99d4.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_hierarcical_hu_91129bdc77959147.png 480w, https://visualizing.jp/uber-h3/images/h3_hierarcical_hu_9e45a6063ccb99d4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -54,10 +54,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現。
 グローバルグリッドシステムには、通常、地図投影と地図の上に敷き詰められたグリッドの2つが必要です。グリッドはすでに説明した六角形で、地図投影にはメルカトルなどの歪みがある地図投影法ではなく、正二十面体の面を中心とした心射方位図法を採用しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;661&#34;
-	srcset=&#34;http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered_hu_ef67625fc10cbb1f.png 480w, http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered_hu_cac6f2a0c3cc5231.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered_hu_ef67625fc10cbb1f.png 480w, https://visualizing.jp/uber-h3/images/h3_gnomonic-projections-centered_hu_cac6f2a0c3cc5231.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

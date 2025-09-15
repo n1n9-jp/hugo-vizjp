@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Processing on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/processing/</link>
+        <link>https://visualizing.jp/tags/processing/</link>
         <description>Recent content in Processing on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 24 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/processing/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 24 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/processing/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ビジュアライズにおける正規化</title>
-        <link>http://localhost:1313/normalize-visualize/</link>
+        <link>https://visualizing.jp/normalize-visualize/</link>
         <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/normalize-visualize/</guid>
-        <description>&lt;img src="http://localhost:1313/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
+        <guid>https://visualizing.jp/normalize-visualize/</guid>
+        <description>&lt;img src="https://visualizing.jp/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
 &lt;p&gt;インプットとしてのデータセットが持つ数値体系や幅（最小値〜最大値）などは、たいていアウトプット先の例えば液晶ディスプレイなどとは数値体系や幅（例えば表示領域など）が異なるため、両者をつなぐための方法論が必要になります。視覚化される要素の座標や大きさだけではなく、色や数値ではない例えばカテゴリーなどにも同様の手法が適用可能です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_1_hu_9913f667b59374ed.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_1_hu_f979ceed01206a63.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_9913f667b59374ed.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_f979ceed01206a63.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_1&#34;
@@ -30,10 +30,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Processingではmap、D3ではscaleという機能でまとめられています。しかしここには「正規化」という概念が隠されています。正規化という言葉にはいくつかの意味があり、ここではベクトルにおける正規化のことを指します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_2_hu_5735390571a65f9d.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_2_hu_8dd8e96b23f8ec7a.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_5735390571a65f9d.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_8dd8e96b23f8ec7a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_2&#34;
@@ -46,10 +46,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;その変数が含まれるデータセット全体（もしくは基準とすべき）最小値〜最大値の幅の中で、どの辺りにあるかを、0.0〜1.0の間で数値化します。そしてその値を表示のための値として再度変換します。&lt;/p&gt;
 &lt;p&gt;前者を正規化(normalize)、後者を補間(interpolation)と呼ばれることが多いです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3.png&#34;
 	width=&#34;432&#34;
 	height=&#34;396&#34;
-	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_3_hu_11a57990072dff7c.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_3_hu_d0d4f6013398f20.png 1024w&#34;
+	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_11a57990072dff7c.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_d0d4f6013398f20.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_3&#34;

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Gis on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/gis/</link>
+        <link>https://visualizing.jp/tags/gis/</link>
         <description>Recent content in Gis on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/gis/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>EPSGコード</title>
-        <link>http://localhost:1313/epsg-code/</link>
+        <link>https://visualizing.jp/epsg-code/</link>
         <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/epsg-code/</guid>
-        <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
+        <guid>https://visualizing.jp/epsg-code/</guid>
+        <description>&lt;img src="https://visualizing.jp/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
 &lt;p&gt;概念的には、空間参照ID、英語ではSRID（Spatial Reference System Identifiers）と呼ばれるもので、事実上の標準として、EPSGコードが使用されています。EPSGは、the European Petroleum Survey Group（欧州石油調査グループ）の略称です。&lt;/p&gt;
 &lt;h3 id=&#34;日本でよく使用される測地基準系と座標系一覧筆者調べ&#34;&gt;日本でよく使用される測地基準系と座標系一覧（筆者調べ）
 &lt;/h3&gt;&lt;table class=&#34;wp-block-table&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Tokyo&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2000&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2011&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;WGS84&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;地理座標系&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;4612&lt;/td&gt;&lt;td&gt;6668&lt;/td&gt;&lt;td&gt;4326&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UTM投影座標系&lt;/td&gt;&lt;td&gt;3092〜3096&lt;/td&gt;&lt;td&gt;3097〜3101&lt;/td&gt;&lt;td&gt;6688〜6692&lt;/td&gt;&lt;td&gt;32651〜32656&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;平面直角投影座標系&lt;/td&gt;&lt;td&gt;30161〜30179&lt;/td&gt;&lt;td&gt;2443〜2461&lt;/td&gt;&lt;td&gt;6669〜6687&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;球面メルカトル図法&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;3857&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;

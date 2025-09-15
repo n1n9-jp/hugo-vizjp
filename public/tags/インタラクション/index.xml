@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>インタラクション on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+        <link>https://visualizing.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
         <description>Recent content in インタラクション on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ビジュアル・アナリシスにおけるインタラクションの整理</title>
-        <link>http://localhost:1313/visual-analytics-interaction/</link>
+        <link>https://visualizing.jp/visual-analytics-interaction/</link>
         <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/visual-analytics-interaction/</guid>
-        <description>&lt;img src="http://localhost:1313/visual-analytics-interaction/images/thumb_ph_vizjp.png" alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" /&gt;&lt;p&gt;1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い&lt;strong&gt;Ben Shneidermanさん&lt;/strong&gt;と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した&lt;strong&gt;Jeff Heerさん&lt;/strong&gt;が二人で、&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;  title=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;
+        <guid>https://visualizing.jp/visual-analytics-interaction/</guid>
+        <description>&lt;img src="https://visualizing.jp/visual-analytics-interaction/images/thumb_ph_vizjp.png" alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" /&gt;&lt;p&gt;1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い&lt;strong&gt;Ben Shneidermanさん&lt;/strong&gt;と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した&lt;strong&gt;Jeff Heerさん&lt;/strong&gt;が二人で、&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;  title=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ビジュアル・アナリシスにおけるインタラクションの整理&lt;/a&gt;&lt;/strong&gt;(リンク先はPDFファイル)を行っています。2010年の論考です。大きくは以下の三つに分類しています。&lt;/p&gt;
 &lt;ul&gt;
@@ -172,11 +172,11 @@
         </item>
         <item>
         <title>情報可視化におけるインタラクション技術の分類法</title>
-        <link>http://localhost:1313/infovis-interaction-taxonomy/</link>
+        <link>https://visualizing.jp/infovis-interaction-taxonomy/</link>
         <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/infovis-interaction-taxonomy/</guid>
-        <description>&lt;img src="http://localhost:1313/infovis-interaction-taxonomy/images/thumb_ph_vizjp.png" alt="Featured image of post 情報可視化におけるインタラクション技術の分類法" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/4376144&#34;  title=&#34;https://ieeexplore.ieee.org/document/4376144&#34;
+        <guid>https://visualizing.jp/infovis-interaction-taxonomy/</guid>
+        <description>&lt;img src="https://visualizing.jp/infovis-interaction-taxonomy/images/thumb_ph_vizjp.png" alt="Featured image of post 情報可視化におけるインタラクション技術の分類法" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/4376144&#34;  title=&#34;https://ieeexplore.ieee.org/document/4376144&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ji Soo Yiら(2007)&lt;/a&gt;が、情報可視化の分野でインタラクション技術の検討に関連する分類法を提案している研究をサーベイし、とりまとめています。&lt;/p&gt;
 &lt;p&gt;大きく以下の４つに分類できるとしています。&lt;/p&gt;

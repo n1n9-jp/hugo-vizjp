@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Visualizing.JP</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://visualizing.jp/categories/</link>
         <description>Recent content in Categories on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Dj</title>
-        <link>http://localhost:1313/categories/dj/</link>
+        <link>https://visualizing.jp/categories/dj/</link>
         <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/dj/</guid>
+        <guid>https://visualizing.jp/categories/dj/</guid>
         <description></description>
         </item>
         

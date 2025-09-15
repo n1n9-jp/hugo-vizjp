@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>2-Axis on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/2-axis/</link>
+        <link>https://visualizing.jp/tags/2-axis/</link>
         <description>Recent content in 2-Axis on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/2-axis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/2-axis/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</title>
-        <link>http://localhost:1313/two-axis/</link>
+        <link>https://visualizing.jp/two-axis/</link>
         <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/two-axis/</guid>
-        <description>&lt;img src="http://localhost:1313/two-axis/images/img-10.jpeg" alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは" /&gt;&lt;p&gt;データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。
+        <guid>https://visualizing.jp/two-axis/</guid>
+        <description>&lt;img src="https://visualizing.jp/two-axis/images/img-10.jpeg" alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは" /&gt;&lt;p&gt;データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。
 「誤解を招きやすい」「根本的に欠陥がある」と言われ、教育現場でも「使わないほうがいい」と教えられることが多いのです。&lt;/p&gt;
 &lt;p&gt;実際、データ可視化の大家 Stephen Few や ggplot2 の作者 Hadley Wickham など、名だたる専門家が二重軸を否定しています。
 理由はシンプルで、&lt;strong&gt;スケールが異なる2つの軸を並べると、見る人が直感的に誤解してしまう&lt;/strong&gt;からです。&lt;/p&gt;
@@ -26,10 +26,10 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;なぜ単一軸ではダメなのか&#34;&gt;なぜ単一軸ではダメなのか？
 &lt;/h2&gt;&lt;p&gt;両者を1つの軸にまとめようとすると、問題が生じます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-1.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-1.jpeg&#34;
 	width=&#34;702&#34;
 	height=&#34;387&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-1_hu_e086ef771fa176a9.jpeg 480w, http://localhost:1313/two-axis/images/img-1_hu_f29e191cc6fdffe6.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-1_hu_e086ef771fa176a9.jpeg 480w, https://visualizing.jp/two-axis/images/img-1_hu_f29e191cc6fdffe6.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;単一軸に重ねたチャート&#34;
@@ -42,10 +42,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;（図1: 単一軸に重ねたチャート。原油価格の上下に比べてカナダドルはほぼ平らに見えてしまう）&lt;/p&gt;
 &lt;p&gt;正規化しても状況は改善しません。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-2.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-2.jpeg&#34;
 	width=&#34;702&#34;
 	height=&#34;387&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-2_hu_d610b353b82e4c09.jpeg 480w, http://localhost:1313/two-axis/images/img-2_hu_f868cc0409ed5d21.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-2_hu_d610b353b82e4c09.jpeg 480w, https://visualizing.jp/two-axis/images/img-2_hu_f868cc0409ed5d21.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;正規化チャート&#34;
@@ -60,10 +60,10 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;他の代替手法もあるが&#34;&gt;他の代替手法もあるが…
 &lt;/h2&gt;&lt;p&gt;縦に並べれば形の比較はしやすくなりますが、先行・遅行は追いにくい。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-5.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-5.jpeg&#34;
 	width=&#34;713&#34;
 	height=&#34;495&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-5_hu_4c613cef852b4bfe.jpeg 480w, http://localhost:1313/two-axis/images/img-5_hu_2595f668f2840524.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-5_hu_4c613cef852b4bfe.jpeg 480w, https://visualizing.jp/two-axis/images/img-5_hu_2595f668f2840524.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;上下に並べたチャート&#34;
@@ -76,10 +76,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;（図3: 形は比べやすいが、タイミングの比較は難しい）&lt;/p&gt;
 &lt;p&gt;ホライゾンチャートはインパクトはあるけれど、やはり「どちらが先か」は曖昧。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-4.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-4.jpeg&#34;
 	width=&#34;699&#34;
 	height=&#34;216&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-4_hu_5eaa2d0baa54583.jpeg 480w, http://localhost:1313/two-axis/images/img-4_hu_26564fb07fe5bf8f.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-4_hu_5eaa2d0baa54583.jpeg 480w, https://visualizing.jp/two-axis/images/img-4_hu_26564fb07fe5bf8f.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ホライゾンチャート&#34;
@@ -92,10 +92,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;（図4: 変化の大きさは見えるが、先行の読み取りは難しい）&lt;/p&gt;
 &lt;p&gt;散布図にすると相関は分かりますが、日々のリード・ラグは把握しにくい。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-6.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-6.jpeg&#34;
 	width=&#34;712&#34;
 	height=&#34;453&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-6_hu_bd6e23526eeebab.jpeg 480w, http://localhost:1313/two-axis/images/img-6_hu_382146babfaab069.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-6_hu_bd6e23526eeebab.jpeg 480w, https://visualizing.jp/two-axis/images/img-6_hu_382146babfaab069.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;散布図（全体相関）&#34;
@@ -110,10 +110,10 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;二重軸チャートの強み&#34;&gt;二重軸チャートの強み
 &lt;/h2&gt;&lt;p&gt;そこで役立つのが二重軸チャートです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/two-axis/images/img-10.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/two-axis/images/img-10.jpeg&#34;
 	width=&#34;700&#34;
 	height=&#34;376&#34;
-	srcset=&#34;http://localhost:1313/two-axis/images/img-10_hu_4e092a49846b09f4.jpeg 480w, http://localhost:1313/two-axis/images/img-10_hu_4e9c0dfbcbfb693f.jpeg 1024w&#34;
+	srcset=&#34;https://visualizing.jp/two-axis/images/img-10_hu_4e092a49846b09f4.jpeg 480w, https://visualizing.jp/two-axis/images/img-10_hu_4e9c0dfbcbfb693f.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;二重軸チャート（金融端末風）&#34;
