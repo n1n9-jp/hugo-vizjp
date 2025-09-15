@@ -2,9 +2,11 @@
   "name": "hugo-vizjp",
   "version": "1.0.0",
   "scripts": {
-    "build": "hugo --minify"
+    "dev": "hugo server -D",
+    "build": "hugo --minify",
+    "preview": "hugo server --environment production"
   },
   "devDependencies": {
-    "hugo-extended": "0.123.0"
+    "hugo-extended": "0.149.0"
   }
 }
