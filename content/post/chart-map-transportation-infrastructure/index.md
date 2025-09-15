@@ -7,7 +7,7 @@ categories = [
     "technology"
 ]
 tags = [
-    "Map",
+    "地図",
 ]
 image = "images/12511007_closeup.png"
 +++
@@ -18,7 +18,7 @@ image = "images/12511007_closeup.png"
 
 <!--more-->
 
-![交通インフラの内訳図](images/12511007.png)
+![「交通インフラの内訳」統計チャート地図](images/12511007.png)
 
 ![この地図の凡例](images/12511007_legend.png)
 
