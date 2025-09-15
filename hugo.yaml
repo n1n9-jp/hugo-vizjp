@@ -1,3 +1,5 @@
+timeout: "120s"
+
 baseURL: https://visualizing.jp
 languageCode: ja-jp
 theme: hugo-theme-stack
@@ -13,9 +15,9 @@ languages:
     ja-jp:
         languageName: 日本語
         title: Visualizing.JP
-        weight: 2
+        weight: 1
         params:
-            description: 説明
+            description: データ可視化にまつわる実践的な手法や実例を紹介しています。
 
 services:
     # Change it to your Disqus shortname before using
@@ -170,7 +172,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto, light, dark
+        default: auto
 
     imageProcessing:
         cover:
