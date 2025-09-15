@@ -159,14 +159,6 @@ params:
         page:
             - type: toc
 
-    opengraph:
-        twitter:
-            # Your Twitter username
-            site: visualizing_jp
-
-            # Available values: summary, summary_large_image
-            card: summary_large_image
-
     defaultImage:
         opengraph:
             enabled: false
