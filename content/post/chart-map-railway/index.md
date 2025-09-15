@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "鉄道の発展を「円の面積」で描いた19世紀のインフォグラフィックス"
+title = "鉄道の発展を「円の面積」で描いた鉄道発展図"
 slug = "chart-map-railway"
 date = "2025-09-15"
 categories = [
