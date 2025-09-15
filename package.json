@@ -1,0 +1,10 @@
+{
+  "name": "hugo-vizjp",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --minify"
+  },
+  "devDependencies": {
+    "hugo-extended": "0.121.1"
+  }
+}
