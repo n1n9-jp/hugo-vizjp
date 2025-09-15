@@ -14,7 +14,21 @@
         
         <guid>https://visualizing.jp/chart-map-transportation-infrastructure/</guid>
         <description>&lt;img src="https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
-地形を描くベースマップの上に、各県ごとの「交通インフラの内訳」を扇形グラフにして地図上に配置した統計チャート地図です。&lt;/p&gt;
+地形を描くベース・マップの上に、各県ごとの「交通インフラの内訳」を扇形グラフにして地図上に配置した統計チャート地図です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;1616&#34;
+	srcset=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_dffac26f1e1c1e06.png 480w, https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_c0b39e53db0513c2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;交通インフラの内訳図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_legend.png&#34;
 	width=&#34;344&#34;
 	height=&#34;265&#34;
@@ -46,20 +60,6 @@
 &lt;li&gt;右の黄：人口に対する交通路の比率（＝住民一人あたりどれくらい交通インフラがあるか）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これにより、単なる総延長だけでなく、「住民や土地にとっての便利さ」まで表現されているのです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007.png&#34;
-	width=&#34;2000&#34;
-	height=&#34;1616&#34;
-	srcset=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_dffac26f1e1c1e06.png 480w, https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_c0b39e53db0513c2.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;交通インフラの内訳図&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;123&#34;
-		data-flex-basis=&#34;297px&#34;
-	
-&gt;&lt;/p&gt;
 &lt;h2 id=&#34;凡例の並び順に見る当時のインフラ観&#34;&gt;凡例の並び順に見る当時のインフラ観
 &lt;/h2&gt;&lt;p&gt;興味深いのは、凡例の並び順。現代の感覚では「道路を一括りにして鉄道や水路と対比する」ほうが自然ですが、この地図では国道と県道のあとに水路・鉄道が置かれ、最後に地方道がまとめられています。&lt;/p&gt;
 &lt;p&gt;この並び方には当時の価値観が反映されていると考えられます。&lt;/p&gt;
