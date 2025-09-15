@@ -11,8 +11,7 @@
 <meta property='og:url' content='https://visualizing.jp/desktop2mobile/'>
 <meta property='og:site_name' content='Visualizing.JP'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-03-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-03-13T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/desktop2mobile/images/Techniques-for-Flexible-Responsive.png' />
-<meta name="twitter:site" content="@visualizing_jp">
-    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="デスクトップ版からモバイル版を作成する際に、どこを変更する？">
+<meta name="twitter:title" content="デスクトップ版からモバイル版を作成する際に、どこを変更する？">
 <meta name="twitter:description" content="ワシントン大学の可視化の研究室とAdobe Reseachで共同研究した論文で、インタラクティブなチャートを利用していて、かつレスポンシブ対応（デバイスの解像度に自動的にフィットするような対応）している記事コンテンツを調査し、実際のところ、チャートのどの部分をどのように変更しているのか？代表的な12メディアの231コンテンツを調べたものがありましたので、引用しご紹介します。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://visualizing.jp/desktop2mobile/images/Techniques-for-Flexible-Responsive.png' />
     </head>
@@ -23,7 +22,7 @@
         (function() {
             const colorSchemeKey = 'StackColorScheme';
             if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+                localStorage.setItem(colorSchemeKey, "auto");
             }
         })();
     </script><script>

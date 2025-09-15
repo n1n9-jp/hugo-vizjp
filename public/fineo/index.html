@@ -11,8 +11,7 @@
 <meta property='og:url' content='https://visualizing.jp/fineo/'>
 <meta property='og:site_name' content='Visualizing.JP'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://visualizing.jp/fineo/images/5950577682_6066025bc0_o.jpg' />
-<meta name="twitter:site" content="@visualizing_jp">
-    <meta name="twitter:creator" content="@visualizing_jp"><meta name="twitter:title" content="フィネオ（Fineo）">
+<meta name="twitter:title" content="フィネオ（Fineo）">
 <meta name="twitter:description" content="Fineoは、連続データを可視化するために利用されるサンキー・ダイアグラムの視覚モデルを元に、多次元のカテゴリカルなデータの、ディメンション間の関係を表現するために使うことができるのではないかという考えから生まれました。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://visualizing.jp/fineo/images/5950577682_6066025bc0_o.jpg' />
     </head>
@@ -23,7 +22,7 @@
         (function() {
             const colorSchemeKey = 'StackColorScheme';
             if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto, light, dark");
+                localStorage.setItem(colorSchemeKey, "auto");
             }
         })();
     </script><script>
@@ -588,7 +587,6 @@
 <p><a class="link" href="https://www.jasondavies.com/parallel-sets/"  target="_blank" rel="noopener"
     >Jason Daviesのd3.parsetsより</a></p>
 <p>ただし、Parallel Sets (ParSets)作者のRobert Kosara自身はこう述べています。</p>
-
 <p>「Fineoのようにカテゴリカルデータのクロス集計に基づいてチャートを作成する場合、それはParallel Setsですが。同じモデル、似たような考えだ」</p>
 <p>筆者自身は、階層構造の内部を探索的に辿ることができるParallelSetsと、あるシステム全体を貫くカテゴリカルなデータの流れや存在感を把握するFineoは別のものだと考えています。ですので、現在Fineoが公開修了という状態は残念です（RawGraphsに引き継がれたとのことですが、インタラクティブなチャート生成という仕組みのみであり、Fineo自体はそれに含まれていません）。</p>
 <h2 id="参考文献">参考文献

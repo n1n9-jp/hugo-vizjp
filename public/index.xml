@@ -21,7 +21,7 @@
 	srcset=&#34;https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_dffac26f1e1c1e06.png 480w, https://visualizing.jp/chart-map-transportation-infrastructure/images/12511007_hu_c0b39e53db0513c2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;交通インフラの内訳図&#34;
+		alt=&#34;「交通インフラの内訳」統計チャート地図&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -5316,7 +5316,6 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jasondavies.com/parallel-sets/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Jason Daviesのd3.parsetsより&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ただし、Parallel Sets (ParSets)作者のRobert Kosara自身はこう述べています。&lt;/p&gt;
-
 &lt;p&gt;「Fineoのようにカテゴリカルデータのクロス集計に基づいてチャートを作成する場合、それはParallel Setsですが。同じモデル、似たような考えだ」&lt;/p&gt;
 &lt;p&gt;筆者自身は、階層構造の内部を探索的に辿ることができるParallelSetsと、あるシステム全体を貫くカテゴリカルなデータの流れや存在感を把握するFineoは別のものだと考えています。ですので、現在Fineoが公開修了という状態は残念です（RawGraphsに引き継がれたとのことですが、インタラクティブなチャート生成という仕組みのみであり、Fineo自体はそれに含まれていません）。&lt;/p&gt;
 &lt;h2 id=&#34;参考文献&#34;&gt;参考文献
@@ -6722,24 +6721,12 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
 &lt;h3 id=&#34;記事内容の紹介&#34;&gt;記事内容の紹介
 &lt;/h3&gt;&lt;p&gt;記事の公開は3月中旬。&lt;/p&gt;
 &lt;p&gt;人口200人の町で、1人の感染者が現れたあと、ソーシャル・ディスタンシング（社会的距離）をどの程度とるかによって、事態がどのくらい変わってしまうのかをシミュレーションで示しています。&lt;/p&gt;
-&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/wp-corona-simulation/images/corona-simulation.gif&#34;
-	width=&#34;810&#34;
-	height=&#34;530&#34;
-	srcset=&#34;https://visualizing.jp/wp-corona-simulation/images/corona-simulation_hu_f4fa578146f247d4.gif 480w, https://visualizing.jp/wp-corona-simulation/images/corona-simulation_hu_ab460b522bb6fc7f.gif 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;152&#34;
-		data-flex-basis=&#34;366px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;figcaption&gt;
+&lt;video autoplay loop muted playsinline&gt;
+  &lt;source src=&#34;images/corona-simulation.mp4&#34; type=&#34;video/mp4&#34;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&lt;/a&gt; より引用&lt;/p&gt;
-&lt;/figcaption&gt;
-&lt;/figure&gt;
 &lt;p&gt;数理モデルには基づいておらず、ランダム（プログラムよる乱数）に過ぎません。また悲観的なことを表現したくないという意図から、人が死ぬ（減る）表現は省略されています。&lt;/p&gt;
 &lt;p&gt;そのため、あくまでCovid-19ではなく、ニセの病気Simulitisをシミュレーションしたという体裁をとっています。&lt;/p&gt;
 &lt;p&gt;ソーシャル・ディスタンシングの取られ方で、4つのシミュレーションがなされています。&lt;/p&gt;
