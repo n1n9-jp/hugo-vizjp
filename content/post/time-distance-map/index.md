@@ -7,7 +7,7 @@ categories = [
     "consume","technology"
 ]
 tags = [
-    "Map",
+    "地図",
 ]
 image = "images/time-distance-closeup.png"
 +++
