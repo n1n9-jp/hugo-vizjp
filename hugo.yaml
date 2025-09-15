@@ -46,7 +46,7 @@ params:
 
     sidebar:
         emoji: 
-        subtitle: データ・ビジュアライゼーションにまつわる実践的な手法や実例を紹介しています。
+        subtitle: データ可視化にまつわる実践的な手法や実例を紹介しています。
 
         avatar:
             enabled: true
