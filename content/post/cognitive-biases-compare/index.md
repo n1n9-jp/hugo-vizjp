@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
-slug = "cognitive-biases"
+slug = "cognitive-biases-compare"
 date = "2025-09-19"
 description = ""
 categories = [
