@@ -7,7 +7,115 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>認知バイアスの分類──なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</title>
+        <link>https://visualizing.jp/cognitive-biases/</link>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://visualizing.jp/cognitive-biases/</guid>
+        <description>&lt;img src="https://visualizing.jp/cognitive-biases/images/bias-blog.png" alt="Featured image of post 認知バイアスの分類──なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？" /&gt;&lt;p&gt;私たちの判断や意思決定は、しばしば「合理的なはず」なのに予測可能な誤りを繰り返します。これが &lt;strong&gt;認知バイアス&lt;/strong&gt; です。&lt;br&gt;
+たとえば「宝くじが当たる確率」を過大評価したり、「都合のいい情報」だけを集めてしまうのもその一例です。&lt;/p&gt;
+&lt;h2 id=&#34;2つの整理法&#34;&gt;2つの整理法
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cognitive-biases/images/bias-paper.png&#34;
+	width=&#34;1926&#34;
+	height=&#34;1338&#34;
+	srcset=&#34;https://visualizing.jp/cognitive-biases/images/bias-paper_hu_630906d68276826c.png 480w, https://visualizing.jp/cognitive-biases/images/bias-paper_hu_38488e238138fa2b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ブログ記事「Cognitive Bias Cheat Sheet」&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;345px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/cognitive-biases/images/bias-blog.png&#34;
+	width=&#34;1900&#34;
+	height=&#34;1500&#34;
+	srcset=&#34;https://visualizing.jp/cognitive-biases/images/bias-blog_hu_7f64cde14ba897a0.png 480w, https://visualizing.jp/cognitive-biases/images/bias-blog_hu_c4ddf6fcd6e775b9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;論文「A Task-Based Taxonomy of Cognitive Biases for Information Visualization」&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;304px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;項目&lt;/th&gt;
+          &lt;th&gt;ブログ記事「Cognitive Bias Cheat Sheet」（Buster Benson, 2016）&lt;/th&gt;
+          &lt;th&gt;論文「A Task-Based Taxonomy of Cognitive Biases for Information Visualization」（Dimara et al., 2020）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;データソース&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Wikipedia「List of Cognitive Biases」&lt;/td&gt;
+          &lt;td&gt;同じく Wikipedia リスト（176件から154件を厳選）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;手法&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;個人の経験則・直感（ヒューリスティック）で整理&lt;/td&gt;
+          &lt;td&gt;研究者数名が文献を精査し、実験研究を基準にカードソート法で分類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;分類の軸&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;脳が直面する4つの問題（情報過多／意味不足／即時行動／記憶制約）&lt;/td&gt;
+          &lt;td&gt;バイアスが観測された「実験タスク」（推定／意思決定／仮説評価／因果帰属／記憶／意見報告／その他）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;成果物&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;わかりやすい解説と、後に有名になった「Cognitive Bias Codex」の放射状マップ図&lt;/td&gt;
+          &lt;td&gt;可視化研究者が活用できる体系的な分類表と研究課題の提示&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;両者は同じ Wikipedia のリストを出発点にしていますが、目指す方向がまったく異なります。&lt;br&gt;
+Benson のブログ記事での整理は「わかりやすさ」を重視しており、一般の人でもすぐに使えるフレームワークになりました。&lt;br&gt;
+一方、Dimara らの研究は「科学的な再現性」と「可視化研究への応用」を目的としており、専門性が高く、一般には広まりにくかったのです。&lt;/p&gt;
+&lt;h2 id=&#34;どちらが有名になったか&#34;&gt;どちらが有名になったか？
+&lt;/h2&gt;&lt;p&gt;不思議なことに &lt;strong&gt;一般に有名なのは前者の「Codex」&lt;/strong&gt; です。カラフルで壮大な放射状マップがSNSやスライドで拡散され、いまや「認知バイアスといえばこの図」と言われるほど。&lt;/p&gt;
+&lt;p&gt;一方で、数年かけて精査した Dimara らの論文や分類表は、研究者の間でしか知られていません。&lt;/p&gt;
+&lt;h2 id=&#34;これは認知バイアスそのもの&#34;&gt;これは認知バイアスそのもの？
+&lt;/h2&gt;&lt;p&gt;なぜ「経験則ベースの図」が広まり、「研究ベースの図」が広まらなかったのでしょうか？&lt;br&gt;
+その理由自体が認知バイアスに説明できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;処理流暢性バイアス（fluency bias）&lt;/strong&gt;&lt;br&gt;
+分かりやすく綺麗な図ほど信頼できると感じやすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ハロー効果（halo effect）&lt;/strong&gt;&lt;br&gt;
+見栄えの良さが内容の信頼性まで引き上げてしまう。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バンドワゴン効果（bandwagon effect）&lt;/strong&gt;&lt;br&gt;
+多くの人が使っていると「正しい」と思ってしまう。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;努力軽視（effort neglect）&lt;/strong&gt;&lt;br&gt;
+論文の精緻な労力は外から見えにくいため、評価に結びつかない。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり、「Cognitive Bias Codex が有名で、論文図が無名」という現象そのものが、人間がバイアスに支配される例になっているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;共通点&lt;/strong&gt;：どちらも Wikipedia のリストを出発点にしている。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;違い&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Codex → 経験則・直感での整理、一般に広まる&lt;/li&gt;
+&lt;li&gt;Dimara 論文 → 研究的・実証的な整理、専門的にとどまる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教訓&lt;/strong&gt;：人は「わかりやすくて見栄えのする情報」を好み、手間暇をかけた科学的整理を見過ごしがち。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;皮肉&lt;/strong&gt;：この状況自体が「認知バイアス」の一例である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/8476234/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Task-Based Taxonomy of Cognitive Biases for Information Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://buster.medium.com/cognitive-bias-cheat-sheet-55a472476b18&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cognitive bias cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
         <link>https://visualizing.jp/chart-map-transportation-infrastructure/</link>
         <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
