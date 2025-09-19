@@ -10,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "images/bias-blog.png"
+image = "images/bias-comparison-final.png"
 +++
 
 私たちの判断や意思決定は、しばしば「合理的なはず」なのに予測可能な誤りを繰り返します。これが **認知バイアス** です。  
