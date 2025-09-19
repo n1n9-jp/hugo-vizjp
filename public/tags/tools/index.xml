@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tools on Visualizing.JP</title>
-        <link>https://visualizing.jp/tags/tools/</link>
+        <link>http://localhost:1313/tags/tools/</link>
         <description>Recent content in Tools on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/tools/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介</title>
-        <link>https://visualizing.jp/transcriber/</link>
+        <link>http://localhost:1313/transcriber/</link>
         <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/transcriber/</guid>
-        <description>&lt;img src="https://visualizing.jp/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
+        <guid>http://localhost:1313/transcriber/</guid>
+        <description>&lt;img src="http://localhost:1313/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
 &lt;h2 id=&#34;海外カンファレンス参加のお供なら-otter&#34;&gt;海外カンファレンス参加のお供なら Otter
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Otter.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Otter.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Otter_hu_4e1eff60f4f4afc8.png 480w, https://visualizing.jp/transcriber/images/Otter_hu_38381da38d532426.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/transcriber/images/Otter_hu_4e1eff60f4f4afc8.png 480w, http://localhost:1313/transcriber/images/Otter_hu_38381da38d532426.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Otter&#34;
@@ -41,10 +41,10 @@
 ファイルのアップロードにも対応しているが、ウェブサービス上の動画を直接読み込むといったことは出来ない。
 動画ファイルをアップロードしても、音声のみがサイトに保存される。講演の様子をみながら音声をみたい場合には Trint を使う。&lt;/p&gt;
 &lt;h2 id=&#34;海外カンファレンスの公演録画を活用したいなら-trint&#34;&gt;海外カンファレンスの公演録画を活用したいなら Trint
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Trint.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Trint.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Trint_hu_1a45e1792bb90fe7.png 480w, https://visualizing.jp/transcriber/images/Trint_hu_429d3aee24ec3b64.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/transcriber/images/Trint_hu_1a45e1792bb90fe7.png 480w, http://localhost:1313/transcriber/images/Trint_hu_429d3aee24ec3b64.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Trint&#34;
@@ -65,10 +65,10 @@
 &lt;/ul&gt;
 &lt;p&gt;カンファレンス会場で、スマートデバイスを使って録音した内容を、その場でトランスクライブしてくれるほか、様々なウェブサービスに掲載されている動画を直接読み込むことができる。Otterでは音声しか残らなかったが、Trintは映像と音声の両方がサイトに保存される。ただし利用料はOtterに比べてかなり高め。&lt;/p&gt;
 &lt;h2 id=&#34;自分が作成した動画に自動で字幕をつけたいなら-vrew&#34;&gt;自分が作成した動画に自動で字幕をつけたいなら Vrew
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/Vrew.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Vrew.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/Vrew_hu_fe1ea0870b5b8a5a.png 480w, https://visualizing.jp/transcriber/images/Vrew_hu_81f6966fd8989347.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/transcriber/images/Vrew_hu_fe1ea0870b5b8a5a.png 480w, http://localhost:1313/transcriber/images/Vrew_hu_81f6966fd8989347.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vrew&#34;
@@ -89,10 +89,10 @@
 &lt;/ul&gt;
 &lt;p&gt;アプリ上で動画を見ながら、AIが自動生成した文言の訂正が行える。作業後、字幕付きの動画として書き出すことができる。&lt;/p&gt;
 &lt;h2 id=&#34;自分がイベントを開催する側で字幕を提供したいなら-ud-talk&#34;&gt;自分がイベントを開催する側で字幕を提供したいなら UD Talk
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/transcriber/images/UD_Talk.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/UD_Talk.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;https://visualizing.jp/transcriber/images/UD_Talk_hu_a683973c037b10a2.png 480w, https://visualizing.jp/transcriber/images/UD_Talk_hu_649708f7662b5348.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/transcriber/images/UD_Talk_hu_a683973c037b10a2.png 480w, http://localhost:1313/transcriber/images/UD_Talk_hu_649708f7662b5348.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UD Talk&#34;

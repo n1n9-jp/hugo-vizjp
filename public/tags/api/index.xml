@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Api on Visualizing.JP</title>
-        <link>https://visualizing.jp/tags/api/</link>
+        <link>http://localhost:1313/tags/api/</link>
         <description>Recent content in Api on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 22 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>D3: データ形式</title>
-        <link>https://visualizing.jp/d3-requests/</link>
+        <link>http://localhost:1313/d3-requests/</link>
         <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-requests/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-requests/images/d3Requests.png&#34;
+        <guid>http://localhost:1313/d3-requests/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-requests/images/d3Requests.png&#34;
 	width=&#34;456&#34;
 	height=&#34;372&#34;
-	srcset=&#34;https://visualizing.jp/d3-requests/images/d3Requests_hu_5b6e1915b7bda51f.png 480w, https://visualizing.jp/d3-requests/images/d3Requests_hu_a7faa94d5412b618.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-requests/images/d3Requests_hu_5b6e1915b7bda51f.png 480w, http://localhost:1313/d3-requests/images/d3Requests_hu_a7faa94d5412b618.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;d3Requests&#34;

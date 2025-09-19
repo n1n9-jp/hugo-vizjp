@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Lod on Visualizing.JP</title>
-        <link>https://visualizing.jp/tags/lod/</link>
+        <link>http://localhost:1313/tags/lod/</link>
         <description>Recent content in Lod on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 08 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/lod/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 08 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/lod/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linked Data</title>
-        <link>https://visualizing.jp/linked-data/</link>
+        <link>http://localhost:1313/linked-data/</link>
         <pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/linked-data/</guid>
-        <description>&lt;img src="https://visualizing.jp/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
+        <guid>http://localhost:1313/linked-data/</guid>
+        <description>&lt;img src="http://localhost:1313/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
 &lt;table class=&#34;table-single&#34;&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;colgroup&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;★&lt;/th&gt;&lt;td&gt;(どんな形式でも良いので) あなたのデータをオープンライセンスでWeb上に公開しましょう&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★&lt;/th&gt;&lt;td&gt;データを構造化データとして公開しましょう (例: 表のスキャン画像よりもExcel)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★&lt;/th&gt;&lt;td&gt;非独占の形式を使いましょう (例: ExcelよりもCSV)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★&lt;/th&gt;&lt;td&gt;物事を示すのにURIを使いましょう，そうすることで他の人々があなたのデータにリンクすることができます&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;★★★★★&lt;/th&gt;&lt;td&gt;あなたのデータのコンテキストを提供するために他のデータへリンクしましょう&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://5stardata.info/ja/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

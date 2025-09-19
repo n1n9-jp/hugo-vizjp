@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>D3-Js on Visualizing.JP</title>
-        <link>https://visualizing.jp/tags/d3-js/</link>
+        <link>http://localhost:1313/tags/d3-js/</link>
         <description>Recent content in D3-Js on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://visualizing.jp/tags/d3-js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/d3-js/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
-        <link>https://visualizing.jp/d3-flexbox/</link>
+        <link>http://localhost:1313/d3-flexbox/</link>
         <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-flexbox/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
+        <guid>http://localhost:1313/d3-flexbox/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;D3.jsを利用して、SVGではなくCSS3のFlexboxを利用したチャート描画のスタディを行っていた記事&lt;/a&gt;をご紹介します。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  title=&#34;https://d3js.org/&#34;
@@ -40,11 +40,11 @@
         </item>
         <item>
         <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
-        <link>https://visualizing.jp/responsive-d3/</link>
+        <link>http://localhost:1313/responsive-d3/</link>
         <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/responsive-d3/</guid>
-        <description>&lt;img src="https://visualizing.jp/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
+        <guid>http://localhost:1313/responsive-d3/</guid>
+        <description>&lt;img src="http://localhost:1313/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
 &lt;/h3&gt;&lt;p&gt;最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。&lt;br&gt;
 D3.jsでなにかを作る際、ワンソースで多様な閲覧環境に対応するための、レスポンシブ・レイアウト対応方法の一つを以下に紹介します。&lt;/p&gt;
 &lt;h3 id=&#34;d3jsはsvgを使っている&#34;&gt;D3.jsはSVGを使っている
@@ -116,11 +116,11 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         </item>
         <item>
         <title>D3.jsを使ったreusableな実装</title>
-        <link>https://visualizing.jp/d3js-reusable/</link>
+        <link>http://localhost:1313/d3js-reusable/</link>
         <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3js-reusable/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
+        <guid>http://localhost:1313/d3js-reusable/</guid>
+        <description>&lt;img src="http://localhost:1313/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
 &lt;p&gt;・データが異なるバーチャートをいくつか掲載したい&lt;br&gt;
 ・カラースキーム（色の指定ルール）が異なるバーチャートをいくつか掲載したい&lt;br&gt;
 ・バーチャートとパイチャートに同じデータを適用したい&lt;/p&gt;
@@ -154,10 +154,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fluent 2013: Irene Ros, &amp;ldquo;The ABC of Data Visualization&amp;rdquo;&lt;/a&gt;からの引用)&lt;/p&gt;
 &lt;h3 id=&#34;repeatable---かんたんにいくつも作り出せること&#34;&gt;Repeatable - かんたんにいくつも作り出せること
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable2-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable2-1.png&#34;
 	width=&#34;853&#34;
 	height=&#34;475&#34;
-	srcset=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable2-1_hu_c16025cdf4310e63.png 480w, https://visualizing.jp/d3js-reusable/images/bocoupReusable2-1_hu_afd4027c95968d5f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable2-1_hu_c16025cdf4310e63.png 480w, http://localhost:1313/d3js-reusable/images/bocoupReusable2-1_hu_afd4027c95968d5f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -167,10 +167,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;configurable---特定のタスクのための適切な変更がかんたんに行えること&#34;&gt;Configurable - 特定のタスクのための適切な変更がかんたんに行えること
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable3-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable3-1.png&#34;
 	width=&#34;853&#34;
 	height=&#34;475&#34;
-	srcset=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable3-1_hu_4f1058b3b22a4405.png 480w, https://visualizing.jp/d3js-reusable/images/bocoupReusable3-1_hu_c00cef6c3e868cc1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable3-1_hu_4f1058b3b22a4405.png 480w, http://localhost:1313/d3js-reusable/images/bocoupReusable3-1_hu_c00cef6c3e868cc1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -180,10 +180,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;extensible---機能の拡張がかんたんなこと&#34;&gt;Extensible - 機能の拡張がかんたんなこと
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable4-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable4-1.png&#34;
 	width=&#34;853&#34;
 	height=&#34;475&#34;
-	srcset=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable4-1_hu_cb32782918d074fd.png 480w, https://visualizing.jp/d3js-reusable/images/bocoupReusable4-1_hu_30dcde232513f6a3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable4-1_hu_cb32782918d074fd.png 480w, http://localhost:1313/d3js-reusable/images/bocoupReusable4-1_hu_30dcde232513f6a3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -193,10 +193,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;composable---他のチャートとの組み合わせがかんたんなこと&#34;&gt;Composable - 他のチャートとの組み合わせがかんたんなこと
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable1-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable1-1.png&#34;
 	width=&#34;853&#34;
 	height=&#34;473&#34;
-	srcset=&#34;https://visualizing.jp/d3js-reusable/images/bocoupReusable1-1_hu_f1314ce1cabd7b94.png 480w, https://visualizing.jp/d3js-reusable/images/bocoupReusable1-1_hu_822363cb4f8b9018.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3js-reusable/images/bocoupReusable1-1_hu_f1314ce1cabd7b94.png 480w, http://localhost:1313/d3js-reusable/images/bocoupReusable1-1_hu_822363cb4f8b9018.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -220,14 +220,14 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         </item>
         <item>
         <title>d3.unconfレポート[後篇]</title>
-        <link>https://visualizing.jp/d3-unconf-2014-2/</link>
+        <link>http://localhost:1313/d3-unconf-2014-2/</link>
         <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-unconf-2014-2/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
+        <guid>http://localhost:1313/d3-unconf-2014-2/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;518&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_b2de60d50b50a628.jpg 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_38e769900d05c77.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_b2de60d50b50a628.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_38e769900d05c77.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -237,10 +237,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;参加者がディスカッションの議題を持ち寄りunconferenceがスタートしました。実際のタイムテーブルはこのような感じです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;2037&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_4e16cafa11edfcbe.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_585f1750a3c5af4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_4e16cafa11edfcbe.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_585f1750a3c5af4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -268,10 +268,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
     &gt;D3 on AngularJS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;なお、AngularJSとD3.jsの連携に関しては、本も出ているようです&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;323&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_876b8365db6babdf.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_729677cc78cca070.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_876b8365db6babdf.png 480w, http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_729677cc78cca070.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -288,10 +288,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
     &gt;d3unconf session (11:30-12:30) Network Visualization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;「再利用可能なチャートモジュールを」と言う目標でd3.chartライブラリが作られているように、ネットワーク（グラフ）可視化分野にも同じような考えが必要だと感じました。D3.jsで作られたよくあるネットワーク図は、こんな感じのものだと思います&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;359&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_227fbd1e305bc7ca.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_463fa642d193baf5.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_227fbd1e305bc7ca.png 480w, http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_463fa642d193baf5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -311,10 +311,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &lt;p&gt;また最近は、クライアントのパフォーマンスが非常に高い場合、サーバー側にタスクを投げる必要はあるのかと言う問題もあります。グラフの大きさや構造によりますが、今の計算機のパワーを考えると、最短経路検索や簡単なクラスタリングなどはJavaScriptで書かれたクライアント側での処理とする方が自然です。そうなるとますます自前での実装は効率が悪いので、既存のプロジェクト同士が協力して「車輪の再発明」を避ける方向に動くべきだと感じました。&lt;/p&gt;
 &lt;h3 id=&#34;webglwebclを利用した大規模データの可視化&#34;&gt;WebGL/WebCLを利用した大規模データの可視化
 &lt;/h3&gt;&lt;p&gt;このセッションはLeoさんと言う最近データ解析の会社を立ち上げた方がメインで開発しているSuperconductorと言うフレームワークの話題が中心でした。これは現状で考えられうる最も先端のWeb関連テクノロジーを組み合わせて作られています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/Superconductor-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;438&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/Superconductor-1_hu_6f28723a740d9bf4.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/Superconductor-1_hu_137af75230477c2d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1_hu_6f28723a740d9bf4.png 480w, http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1_hu_137af75230477c2d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -325,10 +325,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &gt; * &lt;a class=&#34;link&#34; href=&#34;http://superconductor.github.io/superconductor/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Superconductor&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これは独自のDSLでデータ可視化の方法を記述することにより、GPUプログラミング特有の極めてローレベルな記述を覆い隠すようなフレームワークです。目標としては、OpenGLやGPGPUプログラミングに精通していないデータ解析者やプログラマにもGPUのパワーを活用できる機会を与える、と言うもののようです。ウェブブラウザ上で大規模なグラフィックスを描画したいときは、WebGLを使うというのが徐々に一般的になってきています。ゲーム業界などでも盛んに使われ始めていますので、WebGLは実際のプロジェクトに使うのに十分成熟してきたと感じます。一方、WebCLに関してはまだまだ使える環境が極端に限られるため、これからの技術ですが、数十倍・数百倍のオーダーで並列可能なアルゴリズムを高速化したい場合、現実的にはこれしか選択肢はないと思われますので、これから普及に入っていくと思われます。データ可視化の分野だと、レイアウトの計算やエッジバンドリングなど、非常に重い計算をしなければならな部分が幾つか存在するので、そういった部分もGPUを使って並列化することにより、WebGLとの組み合わせで、ほぼリアルタイムでインタラクティブな解析ができるようになると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;518&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_685e6c4a4b2f35bc.jpg 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_25e26cbde53c96e1.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_685e6c4a4b2f35bc.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_25e26cbde53c96e1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -338,10 +338,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;更に、PathGLと言うこの辺りのGPU活用ノウハウをD3.jsと組み合わせたフレームワークも紹介されました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;394&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1069461cc5184e56.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1b80d4938294e297.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1069461cc5184e56.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1b80d4938294e297.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -354,10 +354,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &lt;h4 id=&#34;バックエンドかフロントエンドか&#34;&gt;バックエンドかフロントエンドか？
 &lt;/h4&gt;&lt;p&gt;ここまでクライアントが高性能になると、何をバックエンドに任せ、何をフロントエンドで処理するかと言う問題も出てきます。現在は移行期に当たり、ハイパフォーマンスなクライアント（ハイエンドデスクトップマシンなど）が利用できる場合、かなりの部分をフロントエンドで行っても問題がない一方、タブレット等で走るブラウザではまだまだ使いものにならないアプリケーションも数多く存在します。もしユーザ（ここでは科学技術系の複雑な可視化ソフトウェアのユーザ）がそういったデバイスでの作業を求めた時、クライアントの種類によってサーバから配布するソフトウェアを切り替える必要があるかもしれません。&lt;/p&gt;
 &lt;p&gt;以下はこのセッションで触れられた最近のブラウザを使って実装されたアプリケーションの例です&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;359&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/GLSLSandbox-1_hu_a536aea62daef4a4.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/GLSLSandbox-1_hu_6d7edce7166f5e8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1_hu_a536aea62daef4a4.png 480w, http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1_hu_6d7edce7166f5e8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -367,10 +367,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;* &lt;a class=&#34;link&#34; href=&#34;http://glsl.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GLSL Sandbox&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;528&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_19c531da901dd963.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_db0d5cb3496c0cd1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_19c531da901dd963.png 480w, http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_db0d5cb3496c0cd1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -388,10 +388,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &lt;p&gt;（ちなみに、ラストオーサーの方はD3.js作者のMike Bostock氏の院生時代のアドバイザーです。）&lt;/p&gt;
 &lt;h3 id=&#34;ニューラルネットワークの可視化&#34;&gt;ニューラルネットワークの可視化
 &lt;/h3&gt;&lt;p&gt;バズワードと言っていいくらい、最近はメディアでも「機械学習」や「ディープラーニング」と言った言葉を耳にするようになってきました。このセッションは、機械学習の手法でも歴史の古いニューラルネットワークの学習過程等を可視化してみようというもので、計算機科学の博士課程の学生さんがリードしていました。よく入力、出力の各ユニット、その間の隠れ層を接続したネットワークを可視化したものはよく見かけると思います。教師あり学習の場合、トレーニングセットを食わせている時にどのようにネットワークがデータを学習しているのかをリアルタイムで見えるように、ブラウザで動くクライアントを作ろう、と言う感じです。このセッションで紹介された以下のライブラリは可視化そのものがゴールではないですが、ブラウザひとつで実際に学習プロセスを走らせてしまおうというもので、教材としても面白いのではないかと思いました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;580&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/ConvNetJS-1_hu_33d9b80e2dbae8e1.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/ConvNetJS-1_hu_ff79e9016979ef86.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1_hu_33d9b80e2dbae8e1.png 480w, http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1_hu_ff79e9016979ef86.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -406,10 +406,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
     &gt;HotNet&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;生物学と可視化&#34;&gt;生物学と可視化
 &lt;/h3&gt;&lt;p&gt;これも意外だったのですが、なぜか生物学関連のセッションがありましたので参加してみました。果たしてそのディスカッションのリーダーは、私の業務プロジェクトのコラボレーターの方でした。トピックは生化学的パスウェイの可視化についてでしたが、現実的にはそれをブラウザ上で行うと言う事は、ブラウザ上にHTML5関連技術を使ってVisioやOmniGraphのようなソフトウェアを構築する事に等しいので、他分野の方にこういう分野がある事を紹介し、協力者を募ると言う感じでした。私も便乗して、自分のプロジェクトを紹介してみました(下図を参照)。データの内容にはそれほど深く立ち入りませんでしたが、取り敢えず複雑な可視化を求められる問題のドメインが存在して、そういう方面で才能のあるプログラマを求めているよ、と言う思いは伝わったと思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;404&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_33acac23c0cc2310.png 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_2f4147bb91788eaa.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_33acac23c0cc2310.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_2f4147bb91788eaa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -425,10 +425,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &lt;h3 id=&#34;リアルタイムデータ&#34;&gt;リアルタイムデータ
 &lt;/h3&gt;&lt;p&gt;さて最後のセッションにもなると、皆各自でコードを書いていたり酒を飲んでいたりとグダグダになりつつあったのですが、まあそれもこの形式のいいところということで。最後に覗いてみたこのセッションでは、Leap Motionを使い、そこから得られるデータをリアルタイムのデータストリームとみなし、それをD3.jsを使ったJavaScriptのコードで可視化する、と言った感じでした。まあお遊びといえばそれまでですが、ジェスチャー入力はまだまだ色んなポテンシャルがあると思うので、こういう遊びの中から色々と面白いものが生まれて行けばいいと思います。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_ce6e3d3c67d7aa74.jpg 480w, https://visualizing.jp/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_387855e27a2c235e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_ce6e3d3c67d7aa74.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_387855e27a2c235e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -441,17 +441,17 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         </item>
         <item>
         <title>d3.unconfレポート[前篇]</title>
-        <link>https://visualizing.jp/d3-unconf-2014-1/</link>
+        <link>http://localhost:1313/d3-unconf-2014-1/</link>
         <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-unconf-2014-1/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:1313/d3-unconf-2014-1/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Cytoscape Consortium&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;はじめに&#34;&gt;はじめに
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
 	width=&#34;210&#34;
 	height=&#34;280&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-pass_hu_af860f46d4ccd577.jpg 480w, https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-pass_hu_eaddf50008cca1ca.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass_hu_af860f46d4ccd577.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass_hu_eaddf50008cca1ca.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;pass&#34;
@@ -468,10 +468,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
     &gt;GitHub&lt;/a&gt;本社にて行われた&lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;d3.unconf&lt;/a&gt;というD3.jsや可視化周辺の実務的な話題を扱う会議がありました。Cesar Chavez Dayで三連休だと言うこともあり&lt;a class=&#34;link&#34; href=&#34;#1&#34; &gt;1&lt;/a&gt;、私にとってはちょうどいいタイミングでしたので、久しぶりにサンフランシスコまで足を伸ばしてみました。このカンファレンスがどのようなものだったか一通りレポートしてみます。&lt;/p&gt;
 &lt;h2 id=&#34;どんなカンファレンスか&#34;&gt;どんなカンファレンスか？
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
 	width=&#34;650&#34;
 	height=&#34;433&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_af63d0cbe1705a8e.jpg 480w, https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_33d9dbd0fc38f42e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_af63d0cbe1705a8e.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_33d9dbd0fc38f42e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -499,10 +499,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
     &gt;http://visfest.com/d3unconf/blocks.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;unconference&#34;&gt;Unconference
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
 	width=&#34;210&#34;
 	height=&#34;280&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_1ff562cd4d1b149c.jpg 480w, https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_d0056c9e53b35d95.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_1ff562cd4d1b149c.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_d0056c9e53b35d95.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;unconf&#34;
@@ -515,10 +515,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &gt;&lt;/p&gt;
 &lt;p&gt;今回のカンファレンスは、d3.unconfと言う名前の通りunconference（アンコンファレンス）形式で行われました。日本ではあまり馴染みの無い言葉かもしれませんが、unconferenceと言うのはテック系のワークショップやカンファレンスでは最近よく使われる手法です。これは当日まで細かいトピックについては決定せず、スピーカーも基本的には決めない形で集まります。そして開催日の朝にその日話し合うトピックを参加者らが出し合い、主催者は各トラックの時間と場所だけを指定して、参加者から提示されたトピックを各トラックに割り当ててその日のスケジュールを決定します。その後ディスカッションが成立しやすいように、数人から数十人程度のグループに分かれて各トピックについて話し合います。余談ですが、Googleがオープンソースプロジェクト開発者向けに毎年本社で開催しているGoogle Summer of Codeの&lt;a class=&#34;link&#34; href=&#34;http://google-opensource.blogspot.com/2013/11/google-summer-of-code-mentor-summit-2013.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mentor Summit&lt;/a&gt;もこの形式で行われています。こちらにも何回か参加しましたが、様々な話題にカジュアルに参加できて楽しかったです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;384&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_55323236db751199.jpg 480w, https://visualizing.jp/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_c296e0194d339693.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_55323236db751199.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_c296e0194d339693.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -529,10 +529,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &gt;&lt;/p&gt;
 &lt;p&gt;今回はIrene Ross氏によるキーノートで始まりました。彼女は&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Bocoup&lt;/a&gt;と言う会社で各種可視化システムやアプリケーション構築のコンサルティング、オープンソースソフトウェアの開発、関連ツールの教育を行っている方で、Misoプロジェクト&lt;a class=&#34;link&#34; href=&#34;#2&#34; &gt;2&lt;/a&gt;と言うD3.jsをより便利に使うためのツール群を作っていらっしゃいます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-unconf-2014-1/images/logo-miso-project.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project.png&#34;
 	width=&#34;600&#34;
 	height=&#34;200&#34;
-	srcset=&#34;https://visualizing.jp/d3-unconf-2014-1/images/logo-miso-project_hu_2049f7bbdb1c4fe9.png 480w, https://visualizing.jp/d3-unconf-2014-1/images/logo-miso-project_hu_f384ba13009d2b1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project_hu_2049f7bbdb1c4fe9.png 480w, http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project_hu_f384ba13009d2b1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;miso&#34;
@@ -562,16 +562,16 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         </item>
         <item>
         <title>ビジュアライズにおける正規化</title>
-        <link>https://visualizing.jp/normalize-visualize/</link>
+        <link>http://localhost:1313/normalize-visualize/</link>
         <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/normalize-visualize/</guid>
-        <description>&lt;img src="https://visualizing.jp/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
+        <guid>http://localhost:1313/normalize-visualize/</guid>
+        <description>&lt;img src="http://localhost:1313/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
 &lt;p&gt;インプットとしてのデータセットが持つ数値体系や幅（最小値〜最大値）などは、たいていアウトプット先の例えば液晶ディスプレイなどとは数値体系や幅（例えば表示領域など）が異なるため、両者をつなぐための方法論が必要になります。視覚化される要素の座標や大きさだけではなく、色や数値ではない例えばカテゴリーなどにも同様の手法が適用可能です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_1.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_9913f667b59374ed.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_1_hu_f979ceed01206a63.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_1_hu_9913f667b59374ed.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_1_hu_f979ceed01206a63.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_1&#34;
@@ -583,10 +583,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Processingではmap、D3ではscaleという機能でまとめられています。しかしここには「正規化」という概念が隠されています。正規化という言葉にはいくつかの意味があり、ここではベクトルにおける正規化のことを指します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_2.png&#34;
 	width=&#34;432&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_5735390571a65f9d.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_2_hu_8dd8e96b23f8ec7a.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_2_hu_5735390571a65f9d.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_2_hu_8dd8e96b23f8ec7a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_2&#34;
@@ -599,10 +599,10 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
 &gt;&lt;/p&gt;
 &lt;p&gt;その変数が含まれるデータセット全体（もしくは基準とすべき）最小値〜最大値の幅の中で、どの辺りにあるかを、0.0〜1.0の間で数値化します。そしてその値を表示のための値として再度変換します。&lt;/p&gt;
 &lt;p&gt;前者を正規化(normalize)、後者を補間(interpolation)と呼ばれることが多いです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_3.png&#34;
 	width=&#34;432&#34;
 	height=&#34;396&#34;
-	srcset=&#34;https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_11a57990072dff7c.png 480w, https://visualizing.jp/normalize-visualize/images/normalize-visualize_3_hu_d0d4f6013398f20.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/normalize-visualize/images/normalize-visualize_3_hu_11a57990072dff7c.png 480w, http://localhost:1313/normalize-visualize/images/normalize-visualize_3_hu_d0d4f6013398f20.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;normalize-visualize_3&#34;
@@ -629,15 +629,15 @@ D3では統計学で必要なものが一通り用意されているので最適
         </item>
         <item>
         <title>D3: データ形式</title>
-        <link>https://visualizing.jp/d3-requests/</link>
+        <link>http://localhost:1313/d3-requests/</link>
         <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-requests/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-requests/images/d3Requests.png&#34;
+        <guid>http://localhost:1313/d3-requests/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-requests/images/d3Requests.png&#34;
 	width=&#34;456&#34;
 	height=&#34;372&#34;
-	srcset=&#34;https://visualizing.jp/d3-requests/images/d3Requests_hu_5b6e1915b7bda51f.png 480w, https://visualizing.jp/d3-requests/images/d3Requests_hu_a7faa94d5412b618.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-requests/images/d3Requests_hu_5b6e1915b7bda51f.png 480w, http://localhost:1313/d3-requests/images/d3Requests_hu_a7faa94d5412b618.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;d3Requests&#34;
@@ -670,11 +670,11 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         </item>
         <item>
         <title>D3: TopoJSON</title>
-        <link>https://visualizing.jp/d3-topojson/</link>
+        <link>http://localhost:1313/d3-topojson/</link>
         <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
         
-        <guid>https://visualizing.jp/d3-topojson/</guid>
-        <description>&lt;img src="https://visualizing.jp/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
+        <guid>http://localhost:1313/d3-topojson/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;TopoJSON on Github&lt;/a&gt;&lt;/li&gt;
@@ -691,10 +691,10 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
 &lt;p&gt;とのことでこの結果、ファイルサイズをかなり削減(通常のものでは80%程度)できて、効率的にデータの活用もできるとのことです。&lt;/p&gt;
 &lt;h3 id=&#34;手元のpcでgeojsonをtopojsonに変換したい場合&#34;&gt;手元のPCでGeoJsonをTopoJsonに変換したい場合
 &lt;/h3&gt;&lt;p&gt;コマンドラインで実行します。Node.js、topojsonをインストールしたのち、Macの場合はTerminalで、topojson -o output.json input.json といったコマンドを実行します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-14.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-14.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, https://visualizing.jp/d3-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-14&#34;
@@ -743,10 +743,10 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
 &lt;/ul&gt;
 &lt;h3 id=&#34;topojsonファイルの構造&#34;&gt;topojsonファイルの構造
 &lt;/h3&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, https://visualizing.jp/d3-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -760,10 +760,10 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;https://visualizing.jp/d3-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, https://visualizing.jp/d3-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
