@@ -5,7 +5,7 @@ slug = "cognitive-biases-compare"
 date = "2025-09-19"
 description = ""
 categories = [
-    "consume"
+    "technology"
 ]
 tags = [
     "",
