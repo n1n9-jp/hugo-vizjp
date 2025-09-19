@@ -4,7 +4,7 @@ title = "D3.jsは利用しつつ、SVGではなくFlexboxによるチャート�
 slug = "d3-flexbox"
 date = "2020-10-03"
 categories = [
-    "technology","dj"
+    "technology"
 ]
 tags = [
     "d3-js",
