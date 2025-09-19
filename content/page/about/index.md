@@ -40,5 +40,5 @@ Ben Fryが ビジュアライジング・データ  で書いている通り、�
 
 お問い合わせ、ご連絡は以下のメールアドレスよりお願いいたします。
 
-> - visualizing(at)gmail.com
+> - visualizingjp(at)gmail.com
 > - ※ (at) は @ に置き換えて下さい。
