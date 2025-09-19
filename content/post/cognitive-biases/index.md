@@ -20,9 +20,9 @@ image = "images/bias-blog.png"
 
 ## 2つの整理法
 
-![ブログ記事「Cognitive Bias Cheat Sheet」](images/bias-paper.png)
+![ブログ記事「Cognitive Bias Cheat Sheet」](images/bias-blog.png)
 
-![論文「A Task-Based Taxonomy of Cognitive Biases for Information Visualization」](images/bias-blog.png)
+![論文「A Task-Based Taxonomy of Cognitive Biases for Information Visualization」](images/bias-paper.png)
 
 
 | 項目 | ブログ記事「Cognitive Bias Cheat Sheet」（Buster Benson, 2016） | 論文「A Task-Based Taxonomy of Cognitive Biases for Information Visualization」（Dimara et al., 2020） |
