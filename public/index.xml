@@ -108,13 +108,27 @@
         <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/high-frequency-trading/</guid>
-        <description>&lt;img src="http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01.png" alt="Featured image of post 地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから" /&gt;&lt;p&gt;2011年のTEDGlobalで登壇したケヴィン・スレイヴィンは、私たちの世界がアルゴリズムによってどのように形作られているかを語りました。その中でも特に印象的なのが「高速取引（High-Frequency Trading）のために山を削った」というエピソードです。&lt;/p&gt;
-&lt;h2 id=&#34;山を削ってでも速さを求める金融市場&#34;&gt;山を削ってでも速さを求める金融市場
-&lt;/h2&gt;&lt;p&gt;金融市場では、取引所に注文を届けるまでのわずか数ミリ秒が勝敗を分けます。そのため、ニューヨークとシカゴを結ぶ通信回線を極限まで短縮する計画が進められました。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02.png" alt="Featured image of post 地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから" /&gt;&lt;p&gt;2011年のTEDGlobalで登壇したケヴィン・スレイヴィンは、私たちの世界がアルゴリズムによってどのように形作られているかを語りました。その中でも特に印象的なのが「高速取引（High-Frequency Trading）のために山を削った」というエピソードです。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01.png&#34;
 	width=&#34;3420&#34;
+	height=&#34;1992&#34;
+	srcset=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01_hu_69638d11a0eadce1.png 480w, http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01_hu_cfd4fa41a145ff40.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ケヴィン・スレイヴィンさんのTED Talkより&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;412px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;山を削ってでも速さを求める金融市場&#34;&gt;山を削ってでも速さを求める金融市場
+&lt;/h2&gt;&lt;p&gt;金融市場では、取引所に注文を届けるまでのわずか数ミリ秒が勝敗を分けます。そのため、ニューヨークとシカゴを結ぶ通信回線を極限まで短縮する計画が進められました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02.png&#34;
+	width=&#34;3420&#34;
 	height=&#34;1922&#34;
-	srcset=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01_hu_25e40121b3832b9.png 480w, http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_01_hu_2672fa4133a678bc.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02_hu_25e40121b3832b9.png 480w, http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02_hu_2672fa4133a678bc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ケヴィン・スレイヴィンさんのTED Talkより&#34;
@@ -125,12 +139,12 @@
 		data-flex-basis=&#34;427px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;このプロジェクトを担ったのが Spread Networks という企業です。Forbes の報道によれば、総工費はおよそ3億ドル。従来の回線が鉄道や道路に沿って大きく迂回していたのに対し、新ルートはアレゲニー山脈を突き抜けるように「できる限り直線」に敷設されました。その結果、通信時間は往復でおよそ16ミリ秒から13ミリ秒へと短縮されたといいます。&lt;/p&gt;
+&lt;p&gt;このプロジェクトを担ったのが Spread Networks という企業です。Forbes の報道によれば、総工費はおよそ3億ドル。従来の回線が鉄道や道路に沿って大きく迂回していたのに対し、新ルートはアレゲニー山脈を突き抜けるように「できる限り直線」に敷設されました。その結果、通信時間は往復でおよそ16ミリ秒から13ミリ秒へと短縮されたといいます。わずか3ミリ秒の改善のために、山岳を突き抜ける大規模な工事が行われたという事実は衝撃的です。しかし高速取引の世界では、このわずかな差が巨額の利益につながるため、莫大な投資が正当化されてしまうのです。&lt;/p&gt;
 &lt;p&gt;この「山を削る」という比喩は、アルゴリズムが単なるコンピュータの中の存在ではなく、物理的な地形をも書き換える力を持つことを端的に示しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_03.png&#34;
 	width=&#34;3420&#34;
 	height=&#34;1922&#34;
-	srcset=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02_hu_7ed991768f6adb33.png 480w, http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02_hu_a55e414b71173a98.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_03_hu_7ed991768f6adb33.png 480w, http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_03_hu_a55e414b71173a98.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ケヴィン・スレイヴィンさんのTED Talkより&#34;
