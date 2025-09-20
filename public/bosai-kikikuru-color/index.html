@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データ・タイプ別チャート分類です（後日追記します）。\n">
-<title>データ・タイプ別チャート分類</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。\n">
+<title>防災情報「キキクル」に見られる独自の色彩設計の工夫</title>
 
-<link rel='canonical' href='http://localhost:1313/chart-catalogue-by-types/'>
+<link rel='canonical' href='http://localhost:1313/bosai-kikikuru-color/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="データ・タイプ別チャート分類">
-<meta property='og:description' content="データ・タイプ別チャート分類です（後日追記します）。\n">
-<meta property='og:url' content='http://localhost:1313/chart-catalogue-by-types/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="防災情報「キキクル」に見られる独自の色彩設計の工夫">
+<meta property='og:description' content="この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。\n">
+<meta property='og:url' content='http://localhost:1313/bosai-kikikuru-color/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-28T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/chart-catalogue-by-types/images/charts-by-types.png' />
-<meta name="twitter:title" content="データ・タイプ別チャート分類">
-<meta name="twitter:description" content="データ・タイプ別チャート分類です（後日追記します）。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/chart-catalogue-by-types/images/charts-by-types.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-20T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/images/sequential_kikikuru_compare_5_jp.png' />
+<meta name="twitter:title" content="防災情報「キキクル」に見られる独自の色彩設計の工夫">
+<meta name="twitter:description" content="この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/images/sequential_kikikuru_compare_5_jp.png' />
     </head>
     <body class="
     article-page
@@ -364,12 +364,20 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#連続的カラースキームとは">連続的カラースキームとは？</a>
       <ol>
-        <li><a href="#infographic-taxonomy">Infographic Taxonomy</a></li>
-        <li><a href="#different-types-of-analysis">Different Types of Analysis</a></li>
+        <li><a href="#例">例：</a></li>
       </ol>
     </li>
+    <li><a href="#キキクルの事例3色以上を組み合わせた連続表現">キキクルの事例：3色以上を組み合わせた連続表現</a></li>
+    <li><a href="#一般的な連続スキームとの違い">一般的な連続スキームとの違い</a>
+      <ol>
+        <li><a href="#一般的な連続スキーム">一般的な連続スキーム</a></li>
+        <li><a href="#キキクルの連続スキーム">キキクルの連続スキーム</a></li>
+      </ol>
+    </li>
+    <li><a href="#学びのポイント">学びのポイント</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -384,13 +392,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/chart-catalogue-by-types/">
-                <img src="/chart-catalogue-by-types/images/charts-by-types_hu_d3ff13a5acf94a4c.png"
-                        srcset="/chart-catalogue-by-types/images/charts-by-types_hu_d3ff13a5acf94a4c.png 800w, /chart-catalogue-by-types/images/charts-by-types_hu_6eba008eb7ddc19e.png 1600w"
-                        width="800" 
-                        height="673" 
-                        loading="lazy"
-                        alt="Featured image of post データ・タイプ別チャート分類" />
+            <a href="/bosai-kikikuru-color/">
+                
+                    <img src="/images/sequential_kikikuru_compare_5_jp.png" loading="lazy" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" />
                 
             </a>
         </div>
@@ -400,8 +404,12 @@
     
     <header class="article-category">
         
-            <a href="/categories/chart/" >
-                チャート・カタログ
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+            <a href="/categories/technology/" >
+                作るための記事
             </a>
         
     </header>
@@ -409,7 +417,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/chart-catalogue-by-types/">データ・タイプ別チャート分類</a>
+            <a href="/bosai-kikikuru-color/">防災情報「キキクル」に見られる独自の色彩設計の工夫</a>
         </h2>
     
         
@@ -431,7 +439,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 28, 2020</time>
+                <time class="article-time--published">Sep 20, 2025</time>
             </div>
         
 
@@ -461,45 +469,89 @@
     <section class="article-content">
     
     
-    <p>データ・タイプ別チャート分類です（後日追記します）。</p>
-<h3 id="infographic-taxonomy">Infographic Taxonomy
-</h3><p><img src="/chart-catalogue-by-types/images/NWZ_2013_Infographics_5W_v1-1.png"
-	width="1600"
-	height="1503"
-	srcset="/chart-catalogue-by-types/images/NWZ_2013_Infographics_5W_v1-1_hu_a44b4e80486ef9de.png 480w, /chart-catalogue-by-types/images/NWZ_2013_Infographics_5W_v1-1_hu_8104a46eff6df0a2.png 1024w"
+    <p>この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。</p>
+<h2 id="連続的カラースキームとは">連続的カラースキームとは？
+</h2><p>データ可視化におけるカラースキームには、「連続的（sequential）」「発散的（diverging）」「定性的（categorical）」の3種類があります。
+このうち 連続的カラースキーム（sequential color scheme） は、数値が大きい・小さいという一方向の大小関係を持つデータを表現するために使われます。</p>
+<p><img src="/images/colorbrewer_sequential_2mono_2grad_5.png"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="106"
-		data-flex-basis="255px"
+></p>
+<h3 id="例">例：
+</h3><ul>
+<li>人口密度</li>
+<li>降水量</li>
+<li>売上高</li>
+<li>温度</li>
+</ul>
+<p>人間の目は「明るさ」の違いを見分ける感度が高いため、データの大小や重要度を明度の差に対応させて表現するのが、データの性質にあったカラースキーム（複数の色のセット）を考える際の入り口となる基本です。そしてその実現のため <strong>単色の濃淡（1つの色相×明度）</strong> や <strong>2色間のグラデーション（２つの色相×明度）</strong> といった方法が典型例として広く使われています。</p>
+<h2 id="キキクルの事例3色以上を組み合わせた連続表現">キキクルの事例：3色以上を組み合わせた連続表現
+</h2><p>しかし、気象庁の「キキクル」で用いられている手法は、この典型から外れています。キキクルとは、気象庁が提供する 大雨・洪水・土砂災害などの危険度を色分けして地図上に表示するサービスです。地域ごとに危険度を段階的に示し、住民が避難のタイミングを判断する手助けを目的としています。</p>
+<p>キキクルではその危険度について、黄 → 橙 → 赤 → 紫 → 黒 という複数の色相を組み合わせながら、同時に明度を下げていく配色をしており、連続的カラースキームとしては珍しい設計です。通常の濃淡や2色グラデーションではなく、「段階性の強調」と「最終段階＝黒の終端感」を兼ね備えており、防災情報という利用シーンに合わせて工夫された特異な例といえます。</p>
+<p><img src="/images/bosai_risk_color.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="5段階の普戒レベルとキキクル（危険度分布）"
+	
 	
 ></p>
-<p><a class="link" href="http://www.vizualism.nl/infographic-taxonomy/"  target="_blank" rel="noopener"
-    >Infographic Taxonomy</a></p>
-<h3 id="different-types-of-analysis">Different Types of Analysis
-</h3><p><img src="/chart-catalogue-by-types/images/charts-by-types.png"
-	width="1945"
-	height="1637"
-	srcset="/chart-catalogue-by-types/images/charts-by-types_hu_b32dd8d633a095e.png 480w, /chart-catalogue-by-types/images/charts-by-types_hu_d87234b94ebbc139.png 1024w"
+<p><img src="/images/bosai_risk_bk.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="グレースケールに変換したもの"
+	
+	
+></p>
+<p>そして注目すべきは「黒」を最終段階に用いている点です。
+通常の連続スキームではあまり使われませんが「命に関わる危険が切迫している」という強いメッセージを込めて配色の終端としています。
+これにより、利用者は「ここが最終段階だ」と明確に理解できます。</p>
+<h2 id="一般的な連続スキームとの違い">一般的な連続スキームとの違い
+</h2><p><img src="/images/sequential_kikikuru_compare_5_jp.png"
+	
+	
+	
 	loading="lazy"
 	
 	
-		class="gallery-image" 
-		data-flex-grow="118"
-		data-flex-basis="285px"
-	
 ></p>
-<p>Atlas Of Knowledge by Katy Borner</p>
+<h3 id="一般的な連続スキーム">一般的な連続スキーム
+</h3><ul>
+<li>青の濃淡や緑→黄など、滑らかな変化を重視</li>
+<li>中間値もスムーズに把握しやすい</li>
+</ul>
+<h3 id="キキクルの連続スキーム">キキクルの連続スキーム
+</h3><ul>
+<li>色相を切り替えて段階を強調</li>
+<li>リスク段階の境界が明確で、直感的に理解しやすい</li>
+<li>特に「避難行動を促す」という防災・リスクコミュニケーションの文脈に合致</li>
+</ul>
+<h2 id="学びのポイント">学びのポイント
+</h2><ul>
+<li>連続スキームは 単色濃淡だけに限らない</li>
+<li>色相・明度・彩度を組み合わせることで、意味や文脈に合った表現が可能</li>
+<li>特殊な色（黒など）も、目的が明確なら有効に使える</li>
+</ul>
+<p>つまり、配色は「美的センス」だけではなく、データの意味と利用シーンに根ざした設計であることを示す好例と言えるでしょう。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.jma.go.jp/jma/kishou/minkan/koushu220610/siryo1.pdf"  target="_blank" rel="noopener"
+    >キキクル（危険度分布）「黒」の新設、「うす紫」と「濃い紫」の統合</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-    </section>
-
 
     
     <section class="article-copyright">
@@ -530,23 +582,23 @@
             
                 
 <article class="has-image">
-    <a href="/visual-vocabulary/">
+    <a href="/bosai-risk-color/">
         
         
             <div class="article-image">
-                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu_8ba484b5e03e1c36.png" 
+                <img src="/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.c608f1a6d93497d56953b506d7f8f99e_hu_69644db5a9bf609f.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Visual Vocabulary"
-                        data-key="visual-vocabulary" 
-                        data-hash="md5-hsxZzUbqmG1fDzsMwvbUNw==">
+                        alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫"
+                        data-key="bosai-risk-color" 
+                        data-hash="md5-xgjxptk0l9VpU7UG1/j5ng==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Visual Vocabulary</h2>
+            <h2 class="article-title">防災情報「キキクル」に見られる独自の色彩設計の工夫</h2>
         </div>
     </a>
 </article>
@@ -554,23 +606,23 @@
             
                 
 <article class="has-image">
-    <a href="/chart-catalogue-by-tasks/">
+    <a href="/time-distance-map-price/">
         
         
             <div class="article-image">
-                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hu_1b61ca0982e8a0bf.jpg" 
+                <img src="/time-distance-map-price/images/time-distance-price-closeup.d7da82a05969c86cf6f2c382e8b41db7_hu_223365cdc616f752.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post タスク別チャート分類"
-                        data-key="chart-catalogue-by-tasks" 
-                        data-hash="md5-9xDY35SR6btr/j2xofkArg==">
+                        alt="Featured image of post 旅費の距離カルトグラム"
+                        data-key="time-distance-map-price" 
+                        data-hash="md5-19qCoFlpyGz28sOC6LQdtw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">タスク別チャート分類</h2>
+            <h2 class="article-title">旅費の距離カルトグラム</h2>
         </div>
     </a>
 </article>
@@ -578,23 +630,23 @@
             
                 
 <article class="has-image">
-    <a href="/splom/">
+    <a href="/time-distance-map/">
         
         
             <div class="article-image">
-                <img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.262e4666c65de57aff9b9d25050e657b_hu_b1711ae94b830b5.png" 
+                <img src="/time-distance-map/images/time-distance-closeup.a6957e159d1f739ddd5130f6bd21e65e_hu_2f1f24c1f6279b36.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 散布図行列"
-                        data-key="splom" 
-                        data-hash="md5-Ji5GZsZd5Xr/m50lBQ5lew==">
+                        alt="Featured image of post 時間の距離カルトグラム"
+                        data-key="time-distance-map" 
+                        data-hash="md5-ppV&#43;FZ0fc53dUTD2vSHmXg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">散布図行列</h2>
+            <h2 class="article-title">時間の距離カルトグラム</h2>
         </div>
     </a>
 </article>
@@ -602,23 +654,23 @@
             
                 
 <article class="has-image">
-    <a href="/treemap/">
+    <a href="/cartogram/">
         
         
             <div class="article-image">
-                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu_a5956f5fb73a91bc.png" 
+                <img src="/cartogram/images/cartogram.bc693c072d7f85948634a28cc783bcb6_hu_b2bf4f1bf20578f5.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ツリーマップ（Treemap）"
-                        data-key="treemap" 
-                        data-hash="md5-5IcyeNAuy4rTEN50k07HpQ==">
+                        alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ"
+                        data-key="cartogram" 
+                        data-hash="md5-vGk8By1/hZSGNKKMx4O8tg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ツリーマップ（Treemap）</h2>
+            <h2 class="article-title">カルトグラム：見慣れた地図がデータで歪む面白さ</h2>
         </div>
     </a>
 </article>
@@ -626,23 +678,23 @@
             
                 
 <article class="has-image">
-    <a href="/beeswarm-plot/">
+    <a href="/high-frequency-trading/">
         
         
             <div class="article-image">
-                <img src="/beeswarm-plot/images/searchingcovid19_2.c3b377c598b3cd8447b8975fa5224eb2.c3b377c598b3cd8447b8975fa5224eb2_hu_3a871ed16a5883ae.png" 
+                <img src="/high-frequency-trading/images/how_algorithms_shape_02.747448a1b6c22029364f979a810bd3eb_hu_f0b5c61afcf05239.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）"
-                        data-key="beeswarm-plot" 
-                        data-hash="md5-w7N3xZizzYRHuJdfpSJOsg==">
+                        alt="Featured image of post 地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから"
+                        data-key="high-frequency-trading" 
+                        data-hash="md5-dHRIobbCICk2T5eagQvT6w==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ビースウォーム・プロット（Beeswarm Plot）</h2>
+            <h2 class="article-title">地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから</h2>
         </div>
     </a>
 </article>
