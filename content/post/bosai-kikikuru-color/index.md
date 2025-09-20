@@ -74,3 +74,4 @@ image = "images/sequential_kikikuru_compare_5_jp.png"
 
  - [キキクル（危険度分布）「黒」の新設、「うす紫」と「濃い紫」の統合](https://www.jma.go.jp/jma/kishou/minkan/koushu220610/siryo1.pdf)
 
+この事例は私が担当している武蔵野美術大学「データサイエンス入門」受講の学生が教えてくれました。ありがとう！
