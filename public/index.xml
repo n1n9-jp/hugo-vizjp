@@ -196,12 +196,12 @@
     &gt;Budish, Cramton, Shim: The High-Frequency Trading Arms Race（Quarterly Journal of Economics, 2015）&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>連続的カラースキームとキキクルの事例</title>
+        <title>防災情報「キキクル」に見られる独自の色彩設計の工夫</title>
         <link>http://localhost:1313/bosai-risk-color/</link>
         <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/bosai-risk-color/</guid>
-        <description>&lt;img src="http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 連続的カラースキームとキキクルの事例" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
 &lt;h2 id=&#34;連続的カラースキームとは&#34;&gt;連続的カラースキームとは？
 &lt;/h2&gt;&lt;p&gt;データ可視化におけるカラースキームには、「連続的（sequential）」「発散的（diverging）」「定性的（categorical）」の3種類があります。
 このうち 連続的カラースキーム（sequential color scheme） は、数値が大きい・小さいという一方向の大小関係を持つデータを表現するために使われます。&lt;/p&gt;
