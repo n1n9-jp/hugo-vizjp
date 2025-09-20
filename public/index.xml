@@ -196,6 +196,106 @@
     &gt;Budish, Cramton, Shim: The High-Frequency Trading Arms Race（Quarterly Journal of Economics, 2015）&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
+        <title>連続的カラースキームとキキクルの事例</title>
+        <link>http://localhost:1313/bosai-risk-color/</link>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/bosai-risk-color/</guid>
+        <description>&lt;img src="http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 連続的カラースキームとキキクルの事例" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
+&lt;h2 id=&#34;連続的カラースキームとは&#34;&gt;連続的カラースキームとは？
+&lt;/h2&gt;&lt;p&gt;データ可視化におけるカラースキームには、「連続的（sequential）」「発散的（diverging）」「定性的（categorical）」の3種類があります。
+このうち 連続的カラースキーム（sequential color scheme） は、数値が大きい・小さいという一方向の大小関係を持つデータを表現するために使われます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5.png&#34;
+	width=&#34;2434&#34;
+	height=&#34;1534&#34;
+	srcset=&#34;http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5_hu_82cf819f8c53c556.png 480w, http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5_hu_4a4cd71650765952.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;例&#34;&gt;例：
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;人口密度&lt;/li&gt;
+&lt;li&gt;降水量&lt;/li&gt;
+&lt;li&gt;売上高&lt;/li&gt;
+&lt;li&gt;温度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;人間の目は「明るさ（輝度）」の違いを見分ける感度が高いため、データの大小や重要度を明度の差に対応させて表現するのが自然です。そのため &lt;strong&gt;単色の濃淡&lt;/strong&gt; や &lt;strong&gt;2色間のグラデーション&lt;/strong&gt; といった方法が典型例として広く使われています。&lt;/p&gt;
+&lt;h2 id=&#34;キキクルの事例3色以上を組み合わせた連続表現&#34;&gt;キキクルの事例：3色以上を組み合わせた連続表現
+&lt;/h2&gt;&lt;p&gt;しかし、気象庁の「キキクル」で用いられている手法は、この典型から外れています。黄 → 橙 → 赤 → 紫 → 黒 という複数の色相を組み合わせながら、同時に明度を下げていく配色は、連続的カラースキームとしては珍しい設計です。通常の濃淡や2色グラデーションではなく、「段階性の強調」と「最終段階＝黒の終端感」を兼ね備えており、防災情報という利用シーンに合わせて工夫された特異な例といえます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_color.png&#34;
+	width=&#34;1650&#34;
+	height=&#34;1290&#34;
+	srcset=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_color_hu_4aaf5e3dc5dd4f15.png 480w, http://localhost:1313/bosai-risk-color/images/bosai_risk_color_hu_350438a840414c80.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;5段階の普戒レベルとキキクル（危険度分布）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_bk.png&#34;
+	width=&#34;1650&#34;
+	height=&#34;1290&#34;
+	srcset=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_bk_hu_6bfeb1eff16b18ac.png 480w, http://localhost:1313/bosai-risk-color/images/bosai_risk_bk_hu_5f5b84afa3708bec.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;グレースケールに変換したもの&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そして注目すべきは「黒」を最終段階に用いている点です。
+通常の連続スキームではあまり使われませんが「命に関わる危険が切迫している」という強いメッセージを込めて配色の終端としています。
+これにより、利用者は「ここが最終段階だ」と明確に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;一般的な連続スキームとの違い&#34;&gt;一般的な連続スキームとの違い
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png&#34;
+	width=&#34;2434&#34;
+	height=&#34;1174&#34;
+	srcset=&#34;http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp_hu_a85395bf6ebcc81b.png 480w, http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp_hu_6e4cb11b5ebcf561.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;497px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一般的な連続スキーム&#34;&gt;一般的な連続スキーム
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;青の濃淡や緑→黄など、滑らかな変化を重視&lt;/li&gt;
+&lt;li&gt;中間値もスムーズに把握しやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;キキクルの連続スキーム&#34;&gt;キキクルの連続スキーム
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;色相を切り替えて段階を強調&lt;/li&gt;
+&lt;li&gt;リスク段階の境界が明確で、直感的に理解しやすい&lt;/li&gt;
+&lt;li&gt;特に「避難行動を促す」という防災・リスクコミュニケーションの文脈に合致&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;学びのポイント&#34;&gt;学びのポイント
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;連続スキームは 単色濃淡だけに限らない&lt;/li&gt;
+&lt;li&gt;色相・明度・彩度を組み合わせることで、意味や文脈に合った表現が可能&lt;/li&gt;
+&lt;li&gt;特殊な色（黒など）も、目的が明確なら有効に使える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり、配色は「美的センス」だけではなく、データの意味と利用シーンに根ざした設計であることを示す好例と言えるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jma.go.jp/jma/kishou/minkan/koushu220610/siryo1.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;キキクル（危険度分布）「黒」の新設、「うす紫」と「濃い紫」の統合&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>「Cognitive Bias Codex」で眺める人間の思考のクセ</title>
         <link>http://localhost:1313/cognitive-biases-blog/</link>
         <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
