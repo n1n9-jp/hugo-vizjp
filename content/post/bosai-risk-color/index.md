@@ -1,10 +1,10 @@
 +++
 author = "Yuichi Yazaki"
-title = "連続的カラースキームとキキクルの事例"
+title = "防災情報「キキクル」に見られる独自の色彩設計の工夫"
 slug = "bosai-risk-color"
 date = "2025-09-20"
 categories = [
-    "technology"
+    "consume","technology"
 ]
 tags = [
 ]
