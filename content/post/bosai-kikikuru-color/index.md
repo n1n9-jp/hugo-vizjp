@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "防災情報「キキクル」に見られる独自の色彩設計の工夫"
-slug = "bosai-risk-color"
+slug = "bosai-kikikuru-color"
 date = "2025-09-20"
 categories = [
     "consume","technology"
