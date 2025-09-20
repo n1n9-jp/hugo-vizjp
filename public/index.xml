@@ -7,7 +7,102 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 20 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」</title>
+        <link>http://localhost:1313/high-altitude/</link>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/high-altitude/</guid>
+        <description>&lt;img src="http://localhost:1313/high-altitude/images/nikkei_66-09.png" alt="Featured image of post 山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」" /&gt;&lt;p&gt;アルゼンチンのアンデス山脈を舞台にした壮大な山岳写真に、私たちの経済活動の痕跡が刻まれているとしたら―。ドイツ出身のアーティスト &lt;strong&gt;Michael Najjar（マイケル・ナジャー）&lt;/strong&gt; が手がけた写真シリーズ「High Altitude」は、その驚くべき試みを実現しています。&lt;/p&gt;
+&lt;p&gt;このシリーズは、ナジャー自身が標高 7,000m 級の山々を実際に登攀し撮影した風景をベースにしています。しかし単なる山岳写真ではありません。山肌の稜線は、世界主要市場の株価指数の推移をもとにデジタル加工されており、日経平均、ナスダック、リーマン・ブラザーズの崩壊など、数十年にわたる金融データが「山のかたち」として可視化されているのです。&lt;/p&gt;
+&lt;h3 id=&#34;1966年から2009年までの日経平均株価&#34;&gt;1966年から2009年までの日経平均株価
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-altitude/images/nikkei_66-09.png&#34;
+	width=&#34;2242&#34;
+	height=&#34;1698&#34;
+	srcset=&#34;http://localhost:1313/high-altitude/images/nikkei_66-09_hu_bd0190729c1ad77c.png 480w, http://localhost:1313/high-altitude/images/nikkei_66-09_hu_fb365fa1855a15d6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;nikkei_66-09&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1960年代後半は、日本が高度経済成長を遂げていた時期であり、株価も右肩上がりでした。その後、&lt;strong&gt;1989年のバブル崩壊&lt;/strong&gt; を経て、90年代から2000年代にかけての「失われた20年」に沈んでいきます。1966年〜2009年という範囲を選ぶことで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;成長&lt;/li&gt;
+&lt;li&gt;バブル&lt;/li&gt;
+&lt;li&gt;崩壊と長期低迷
+という日本経済の「典型的な物語」が一枚の山岳稜線に収まるのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1980年から2009年までのナスダック指数&#34;&gt;1980年から2009年までのナスダック指数
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-altitude/images/nasdaq_80%E2%80%9309.png&#34;
+	width=&#34;2242&#34;
+	height=&#34;1698&#34;
+	srcset=&#34;http://localhost:1313/high-altitude/images/nasdaq_80%E2%80%9309_hu_633d5ca09c88470c.png 480w, http://localhost:1313/high-altitude/images/nasdaq_80%E2%80%9309_hu_6be9b0f4c439cfdf.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;nasdaq_80–09&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1980年から2009年のナスダック指数は、テクノロジー市場の勃興と危機を象徴する動きです。80年代にはマイクロソフトやアップルなどの新興IT企業が上場し、市場全体が着実に拡大。90年代後半にはドットコム・バブルによって指数は急騰しますが、2000年の崩壊で一気に暴落しました。その後2000年代半ばにかけて再び上昇基調を見せるものの、2008年のリーマン・ショックで再び大きく下落します。この稜線は、テクノロジー産業の「急成長」「バブル」「崩壊」「再生」を劇的に表現しています。&lt;/p&gt;
+&lt;h3 id=&#34;1992年から2008年までのリーマンブラザーズ株価&#34;&gt;1992年から2008年までのリーマン・ブラザーズ株価
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-altitude/images/lehman_92-08.png&#34;
+	width=&#34;2242&#34;
+	height=&#34;1698&#34;
+	srcset=&#34;http://localhost:1313/high-altitude/images/lehman_92-08_hu_697b61866270d340.png 480w, http://localhost:1313/high-altitude/images/lehman_92-08_hu_58c1c90f5f46f099.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;lehman_92-08&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1992年から2008年までのリーマン・ブラザーズ株価は、金融業界の拡大と突然の崩壊を象徴する稜線です。90年代には投資銀行としての地位を高め、2000年代半ばまでは住宅ローン関連ビジネスの拡大によって株価も右肩上がりに成長しました。しかし、2007年のサブプライム危機をきっかけに急落し、2008年9月の破綻時には株価が一気に無価値同然に崩れ落ちます。作品に刻まれた稜線は、長い上昇ののち突然断ち切られるように途絶えており、世界金融危機の衝撃を山の崖として体感できるビジュアルとなっています。&lt;/p&gt;
+&lt;h3 id=&#34;1980年から2009年のハンセン指数香港市場&#34;&gt;1980年から2009年のハンセン指数（香港市場）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/high-altitude/images/hangseng_80-09.png&#34;
+	width=&#34;2242&#34;
+	height=&#34;1698&#34;
+	srcset=&#34;http://localhost:1313/high-altitude/images/hangseng_80-09_hu_127fedc75795992f.png 480w, http://localhost:1313/high-altitude/images/hangseng_80-09_hu_4d2af17c650b3b11.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;hangseng_80-09&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1980年から2009年のハンセン指数（香港市場）は、中国本土と香港経済の急速な成長を映し出す稜線です。1980年代には比較的安定した推移を見せつつ、1997年のアジア通貨危機で急落。その後は中国の経済開放と急成長を背景に、2000年代半ばにかけて指数は大きく上昇し、2007年には史上最高値を記録しました。しかし、2008年のリーマン・ショックでは急落し、グローバル市場の一部としての香港の脆弱性が露わになります。
+この稜線は、アジア金融市場が国際的な波に翻弄されながらも力強く成長してきた軌跡を、山岳のシルエットとして鮮烈に描き出しています。&lt;/p&gt;
+&lt;h2 id=&#34;株価が風景を彫刻する&#34;&gt;株価が風景を彫刻する
+&lt;/h2&gt;&lt;p&gt;公式サイトの解説によると、「High Altitude」シリーズは過去20〜30年の世界主要株価指数の動きを山の稜線に変換したものです。つまり、経済の浮き沈みを登山者が見上げる山岳の形として具現化しています。これにより、私たちが普段は抽象的な数字としてしか目にしない株価変動が、自然景観に刻印されたかのようにリアルな存在感を放ちます。&lt;/p&gt;
+&lt;p&gt;bitforms gallery の展覧会説明では、このシリーズが単なる写真表現にとどまらず、データとランドスケープを融合させたメディア・アートの実験であることが強調されています。作品タイトルには「lehman_92-08」のように具体的な年号が含まれるものもあり、個別の市場や銘柄のストーリーが「山」として残されています。&lt;/p&gt;
+&lt;h2 id=&#34;山と経済のスケールを往還する体験&#34;&gt;山と経済のスケールを往還する体験
+&lt;/h2&gt;&lt;p&gt;ナジャーの「High Altitude」は、私たちが経済をどう受け止めるかについて新しい視点を与えます。通常はグラフや数字の羅列として処理されるデータが、圧倒的な自然景観と結びつくことで、経済のリズムが地球規模の地形変動のように感じられるのです。そこには、金融市場の動きが人間社会を超えて「自然現象」にまで思えてしまう、ぞっとするような示唆があります。&lt;/p&gt;
+&lt;h2 id=&#34;おまけkevin-slavin-のtedトーク&#34;&gt;おまけ：Kevin Slavin のTEDトーク
+&lt;/h2&gt;&lt;p&gt;株価やアルゴリズムが現実世界を変えてしまうというテーマは &lt;strong&gt;Kevin Slavin（ケヴィン・スレイヴィン）のTEDトーク「How algorithms shape our world」&lt;/strong&gt; でも取り上げられています。彼は高速取引のために山を削り、ニューヨークとシカゴを結ぶ通信経路を直線化した事例を紹介し、アルゴリズムが文字通り地形を変えてしまう現実を語りました。&lt;/p&gt;
+&lt;p&gt;ナジャーの作品とあわせて考えると、私たちの経済活動やアルゴリズムは、抽象的なデータにとどまらず、風景や地形そのものを形づくる力を持っていることに気づかされます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.michaelnajjar.com/artworks/high-altitude/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Michael Najjar: High Altitude（公式サイト）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bitforms.art/exhibition/michael-najjar-high-altitude&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;High Altitude – bitforms gallery（展示サイト）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>「Cognitive Bias Codex」で眺める人間の思考のクセ</title>
         <link>http://localhost:1313/cognitive-biases-blog/</link>
         <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
