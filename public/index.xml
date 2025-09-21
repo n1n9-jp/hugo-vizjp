@@ -15,7 +15,7 @@
         <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
         <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「Climate Spiral 1880-Present」&lt;/a&gt;という映像をご存知でしょうか。
-1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。&lt;/p&gt;
+1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるチャートです。&lt;/p&gt;
 &lt;p&gt;教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
 	width=&#34;1230&#34;
@@ -202,13 +202,22 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
+&lt;h2 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
+&lt;/h2&gt;&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
+&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
+&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
+&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
 &lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
 &lt;/h2&gt;&lt;p&gt;ここで注意したいのが「基準期間をどこに置くか」です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hawkins のオリジナルは 1850–1900年 を基準にしており、産業革命前後を「正常な気温」とみなしています。これは長期的な温暖化を強調する見方です。&lt;/li&gt;
 &lt;li&gt;NASA のスパイラルは 1951–1980年 を基準にしており、近代以降の安定期を「ゼロ」とする尺度です。これは科学界で標準的によく用いられる基準期間で、比較のしやすさを重視しています。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は“データの事実”ではなく“解釈の枠組み”であるため、可視化を読み取るときには常に意識しておく必要があります。&lt;/p&gt;
+&lt;p&gt;この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は「データの事実」ではなく「解釈の枠組み」であるため、可視化を読み取るときには常に意識しておく必要があります。&lt;/p&gt;
 &lt;h2 id=&#34;反響と影響&#34;&gt;反響と影響
 &lt;/h2&gt;&lt;h3 id=&#34;称賛&#34;&gt;称賛
 &lt;/h3&gt;&lt;ul&gt;
