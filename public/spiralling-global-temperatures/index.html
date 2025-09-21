@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="NASA が公開している「Climate Spiral 1880-Present」という映像をご存知でしょうか。 1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。\n教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。\n">
+<title>気温スパイラルが見せる地球温暖化の軌跡</title>
+
+<link rel='canonical' href='http://localhost:1313/spiralling-global-temperatures/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="気温スパイラルが見せる地球温暖化の軌跡">
+<meta property='og:description' content="NASA が公開している「Climate Spiral 1880-Present」という映像をご存知でしょうか。 1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。\n教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。\n">
+<meta property='og:url' content='http://localhost:1313/spiralling-global-temperatures/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-21T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png' />
+<meta name="twitter:title" content="気温スパイラルが見せる地球温暖化の軌跡">
+<meta name="twitter:description" content="NASA が公開している「Climate Spiral 1880-Present」という映像をご存知でしょうか。 1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。\n教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#実は作者がいた--ed-hawkins-のspiralling-global-temperatures">実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」</a></li>
+    <li><a href="#ヴァージョンの展開">ヴァージョンの展開</a>
+      <ol>
+        <li><a href="#初期版-2016">初期版 (2016)</a></li>
+        <li><a href="#リオ五輪開会式での使用2016">リオ五輪開会式での使用（2016）</a></li>
+        <li><a href="#拡張版2016">拡張版（2016）</a>
+          <ol>
+            <li><a href="#北極海の海氷量">北極海の海氷量</a></li>
+            <li><a href="#大気中の二酸化炭素濃度">大気中の二酸化炭素濃度</a></li>
+          </ol>
+        </li>
+        <li><a href="#nasa-climate-spiral-2023">NASA Climate Spiral (2023)</a></li>
+      </ol>
+    </li>
+    <li><a href="#基準期間による見え方の違い">基準期間による「見え方」の違い</a></li>
+    <li><a href="#反響と影響">反響と影響</a>
+      <ol>
+        <li><a href="#称賛">称賛</a></li>
+        <li><a href="#普及">普及</a></li>
+        <li><a href="#批判懸念">批判・懸念</a></li>
+      </ol>
+    </li>
+    <li><a href="#気温スパイラルの可視化がもたらしたもの">気温スパイラルの可視化がもたらしたもの</a></li>
+    <li><a href="#おわりに">おわりに</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/spiralling-global-temperatures/">
+                <img src="/spiralling-global-temperatures/images/01_spiral2016_hu_4c6aaf002eb0dd4.png"
+                        srcset="/spiralling-global-temperatures/images/01_spiral2016_hu_4c6aaf002eb0dd4.png 800w, /spiralling-global-temperatures/images/01_spiral2016_hu_e6f90139ba57f536.png 1600w"
+                        width="800" 
+                        height="861" 
+                        loading="lazy"
+                        alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/spiralling-global-temperatures/">気温スパイラルが見せる地球温暖化の軌跡</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 21, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>NASA が公開している<a class="link" href="https://svs.gsfc.nasa.gov/5190/"  target="_blank" rel="noopener"
+    >「Climate Spiral 1880-Present」</a>という映像をご存知でしょうか。
+1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。</p>
+<p>教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。</p>
+<p><img src="/spiralling-global-temperatures/images/nasa_a.png"
+	width="1230"
+	height="1230"
+	srcset="/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, /spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w"
+	loading="lazy"
+	
+		alt="NASA Climate Spiral"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+>
+<img src="/spiralling-global-temperatures/images/nasa_b.png"
+	width="560"
+	height="560"
+	srcset="/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, /spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w"
+	loading="lazy"
+	
+		alt="動画の最後では横から見た図に変化する"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<h2 id="実は作者がいた--ed-hawkins-のspiralling-global-temperatures">実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」
+</h2><p>2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。</p>
+<p><img src="/spiralling-global-temperatures/images/01_spiral2016.png"
+	width="727"
+	height="782"
+	srcset="/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, /spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w"
+	loading="lazy"
+	
+		alt="Spiralling global temperatures"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="92"
+		data-flex-basis="223px"
+	
+></p>
+<p><a class="link" href="https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/"  target="_blank" rel="noopener"
+    >https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/</a></p>
+<ul>
+<li>制作：Ed Hawkins（レディング大学・気候科学者）</li>
+<li>公開：2016年5月9日、ブログ Climate Lab Book</li>
+<li>データ：HadCRUT4.4（1850–2016年3月）、基準は1850–1900年平均</li>
+<li>表現：月ごとの気温偏差を円周方向に配置、中心からの距離で異常値を表現。色は viridis スケールを採用し、時間経過を紫から黄へ変化させた。</li>
+</ul>
+<p>結果は爆発的な拡散でした。BBC、Guardian、NYT など主要メディアで紹介され、SNS では「美しいが恐ろしい」と評され数百万ビューを記録。科学者だけでなく一般市民の目をも奪ったのです。</p>
+<p>さらに 2016 年リオ五輪の開会式で上映され、数億人に届くビジュアルへと飛躍しました。</p>
+<h2 id="ヴァージョンの展開">ヴァージョンの展開
+</h2><p>この可視化は一度きりの実験にとどまらず、多くのヴァージョンへ発展しました。</p>
+<h3 id="初期版-2016">初期版 (2016)
+</h3><p><img src="/spiralling-global-temperatures/images/01_spiral2016.png"
+	width="727"
+	height="782"
+	srcset="/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, /spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w"
+	loading="lazy"
+	
+		alt="初期版 (2016)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="92"
+		data-flex-basis="223px"
+	
+></p>
+<p><a class="link" href="https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/"  target="_blank" rel="noopener"
+    >https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/</a></p>
+<h3 id="リオ五輪開会式での使用2016">リオ五輪開会式での使用（2016）
+</h3><p><img src="/spiralling-global-temperatures/images/02_Rio_static_0.png"
+	width="1366"
+	height="768"
+	srcset="/spiralling-global-temperatures/images/02_Rio_static_0_hu_3678d6483962427a.png 480w, /spiralling-global-temperatures/images/02_Rio_static_0_hu_1b9c55a2546a591c.png 1024w"
+	loading="lazy"
+	
+		alt="リオ五輪開会式での使用（2016）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<p><a class="link" href="https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral"  target="_blank" rel="noopener"
+    >https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral</a></p>
+<p>開会式映像に組み込まれ、世界数億人の前で上映。科学的ビジュアルが大衆文化に登場した象徴的事例。</p>
+<h3 id="拡張版2016">拡張版（2016）
+</h3><p><img src="/spiralling-global-temperatures/images/gmst_tornado-2.png"
+	width="1140"
+	height="1110"
+	srcset="/spiralling-global-temperatures/images/gmst_tornado-2_hu_451a8ecb0302b266.png 480w, /spiralling-global-temperatures/images/gmst_tornado-2_hu_25a129eac85e33cb.png 1024w"
+	loading="lazy"
+	
+		alt="拡張版（2016）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="246px"
+	
+>
+<img src="/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745.png"
+	width="1024"
+	height="745"
+	srcset="/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_cc0ee472ea719cc2.png 480w, /spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_40d90646fb5250a.png 1024w"
+	loading="lazy"
+	
+		alt="拡張版（2016）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="137"
+		data-flex-basis="329px"
+	
+></p>
+<p><a class="link" href="https://www.climate-lab-book.ac.uk/spirals/"  target="_blank" rel="noopener"
+    >https://www.climate-lab-book.ac.uk/spirals/</a></p>
+<p>気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。</p>
+<h4 id="北極海の海氷量">北極海の海氷量
+</h4><p><img src="/spiralling-global-temperatures/images/icevol_2017.png"
+	width="620"
+	height="661"
+	srcset="/spiralling-global-temperatures/images/icevol_2017_hu_663c93230cff9b2a.png 480w, /spiralling-global-temperatures/images/icevol_2017_hu_5d6445098ee05c0a.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="93"
+		data-flex-basis="225px"
+	
+></p>
+<h4 id="大気中の二酸化炭素濃度">大気中の二酸化炭素濃度
+</h4><p><img src="/spiralling-global-temperatures/images/co2_2017.png"
+	width="600"
+	height="646"
+	srcset="/spiralling-global-temperatures/images/co2_2017_hu_db7ef53b27c08527.png 480w, /spiralling-global-temperatures/images/co2_2017_hu_f74f2889a89014d0.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="92"
+		data-flex-basis="222px"
+	
+></p>
+<h3 id="nasa-climate-spiral-2023">NASA Climate Spiral (2023)
+</h3><p><img src="/spiralling-global-temperatures/images/nasa_a.png"
+	width="1230"
+	height="1230"
+	srcset="/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, /spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w"
+	loading="lazy"
+	
+		alt="NASA Climate Spiral"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+>
+<img src="/spiralling-global-temperatures/images/nasa_b.png"
+	width="560"
+	height="560"
+	srcset="/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, /spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w"
+	loading="lazy"
+	
+		alt="動画の最後では横から見た図に変化する"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p>
+<p><a class="link" href="https://svs.gsfc.nasa.gov/5190/"  target="_blank" rel="noopener"
+    >https://svs.gsfc.nasa.gov/5190/</a></p>
+<p>2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。</p>
+<h2 id="基準期間による見え方の違い">基準期間による「見え方」の違い
+</h2><p>ここで注意したいのが「基準期間をどこに置くか」です。</p>
+<ul>
+<li>Hawkins のオリジナルは 1850–1900年 を基準にしており、産業革命前後を「正常な気温」とみなしています。これは長期的な温暖化を強調する見方です。</li>
+<li>NASA のスパイラルは 1951–1980年 を基準にしており、近代以降の安定期を「ゼロ」とする尺度です。これは科学界で標準的によく用いられる基準期間で、比較のしやすさを重視しています。</li>
+</ul>
+<p>この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は“データの事実”ではなく“解釈の枠組み”であるため、可視化を読み取るときには常に意識しておく必要があります。</p>
+<h2 id="反響と影響">反響と影響
+</h2><h3 id="称賛">称賛
+</h3><ul>
+<li>The Guardian：「比喩としてのスパイラルが文字通りのものになった」</li>
+<li>Vox：「これまで見た中で最も明快な地球温暖化の可視化のひとつ」</li>
+<li>Ed Hawkins 自身：「非科学者が現実を理解する助けになった」</li>
+</ul>
+<h3 id="普及">普及
+</h3><ul>
+<li>SNS で数百万ビューを記録、BBCやNYTなど主要メディアに掲載。</li>
+<li>教育現場で教材として用いられ、科学コミュニケーションの象徴的ビジュアルとなった。</li>
+<li>2016年リオ五輪の開会式での採用は、科学可視化の歴史に残る出来事。</li>
+<li>NASA による定期更新版の公開で、「進行中の現象」をリアルタイムで追える仕組みが整った。</li>
+</ul>
+<h3 id="批判懸念">批判・懸念
+</h3><ul>
+<li>不確実性（誤差や地域差）が表現されていない。</li>
+<li>半径の拡大が「面積効果」で実際以上に大きな変化に見える可能性。</li>
+<li>「恐怖を煽る過ぎる」との声も一部にあり、感情的インパクトの強さゆえの課題も指摘された。</li>
+<li>学術的分析では「視聴者に不安や否定的感情を喚起する側面もある」と報告されている。</li>
+</ul>
+<h2 id="気温スパイラルの可視化がもたらしたもの">気温スパイラルの可視化がもたらしたもの
+</h2><p>この気温スパイラルは、単なるデータ提示を超えて「温暖化は進行中である」という事実を直感的に伝える強力なビジュアルになりました。科学とデザイン、アートと社会が交差する地点に生まれた作品といえるでしょう。</p>
+<blockquote>
+“The genius of the original was to show how the long term warming trend stood out from the noise of natural variation.” — ClimateChangeNews
+</blockquote>
+<p>科学的厳密性とともに、「どう見せるか」が人々の理解や感情を左右することを示した事例でもあります。特に「基準期間の選択」が印象を変えることを理解することは、データ可視化のリテラシーに直結します。</p>
+<h2 id="おわりに">おわりに
+</h2><p>気候変動の議論はしばしば数値や統計の世界に閉じこもりがちです。
+「Spiralling global temperatures」が示したのは、データをどう「見せるか」がいかに重要か、ということでした。</p>
+<p>美しく、そして恐ろしく。
+このスパイラルは、私たちがどこから来て、どこへ向かおうとしているのかを、ひと目で語りかけてきます。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/data-humanity/">
+        
+        
+            <div class="article-image">
+                <img src="/data-humanity/images/dvj2019_yazaki.3b896a7270ed7a5f848252a245342a82.3b896a7270ed7a5f848252a245342a82_hu_da4fc736403ff315.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 残された我々のための「データ・ヒューマニティ」"
+                        data-key="data-humanity" 
+                        data-hash="md5-O4lqcnDtel&#43;EglKiRTQqgg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">残された我々のための「データ・ヒューマニティ」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/world-gov-infoviz-report/">
+        
+        
+            <div class="article-image">
+                <img src="/world-gov-infoviz-report/images/gov_viz.a9e6c2b378ed3cf589e29e105caaa333.a9e6c2b378ed3cf589e29e105caaa333_hu_6ed7c8b36d7870d7.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 世界の行政機関 情報可視化 事例"
+                        data-key="world-gov-infoviz-report" 
+                        data-hash="md5-qebCs3jtPPWJ4p4QXKqjMw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">世界の行政機関 情報可視化 事例</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/recent-interest-art-school-2020/">
+        
+        
+            <div class="article-image">
+                <img src="/recent-interest-art-school-2020/images/3minutesCalorieMate.6dc527135b6a25c9cae189c52327e106.6dc527135b6a25c9cae189c52327e106_hu_c4ff7cffc278d849.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 美大生に聞く、今気になるデータ可視化／インフォグラフィック作品"
+                        data-key="recent-interest-art-school-2020" 
+                        data-hash="md5-bcUnE1tqJcnK4YnFIyfhBg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">美大生に聞く、今気になるデータ可視化／インフォグラフィック作品</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/overthinking-this/">
+        
+        
+            <div class="article-image">
+                <img src="/overthinking-this/images/EB3B25MVUAAOXDE.4b0b86ce81949a62b3d21d51e4751f62.4b0b86ce81949a62b3d21d51e4751f62_hu_6b4b7dd9a4fefda6.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 考えすぎ? ハンドメイドの過剰なチャートたち"
+                        data-key="overthinking-this" 
+                        data-hash="md5-SwuGzoGUmmKz0h1R5HUfYg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">考えすぎ? ハンドメイドの過剰なチャートたち</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/judgit-overview/">
+        
+        
+            <div class="article-image">
+                <img src="/judgit-overview/images/fi_JudgitOverview.27b3ff38a05a1690f6446ed5d259e55f.27b3ff38a05a1690f6446ed5d259e55f_hu_5b5054781c5cc3d4.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」"
+                        data-key="judgit-overview" 
+                        data-hash="md5-J7P/OKBaFpD2RG7V0lnlXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

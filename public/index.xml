@@ -7,7 +7,242 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 20 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>気温スパイラルが見せる地球温暖化の軌跡</title>
+        <link>http://localhost:1313/spiralling-global-temperatures/</link>
+        <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
+        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「Climate Spiral 1880-Present」&lt;/a&gt;という映像をご存知でしょうか。
+1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。&lt;/p&gt;
+&lt;p&gt;教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
+	width=&#34;560&#34;
+	height=&#34;560&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;動画の最後では横から見た図に変化する&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;実は作者がいた--ed-hawkins-のspiralling-global-temperatures&#34;&gt;実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」
+&lt;/h2&gt;&lt;p&gt;2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Spiralling global temperatures&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;制作：Ed Hawkins（レディング大学・気候科学者）&lt;/li&gt;
+&lt;li&gt;公開：2016年5月9日、ブログ Climate Lab Book&lt;/li&gt;
+&lt;li&gt;データ：HadCRUT4.4（1850–2016年3月）、基準は1850–1900年平均&lt;/li&gt;
+&lt;li&gt;表現：月ごとの気温偏差を円周方向に配置、中心からの距離で異常値を表現。色は viridis スケールを採用し、時間経過を紫から黄へ変化させた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結果は爆発的な拡散でした。BBC、Guardian、NYT など主要メディアで紹介され、SNS では「美しいが恐ろしい」と評され数百万ビューを記録。科学者だけでなく一般市民の目をも奪ったのです。&lt;/p&gt;
+&lt;p&gt;さらに 2016 年リオ五輪の開会式で上映され、数億人に届くビジュアルへと飛躍しました。&lt;/p&gt;
+&lt;h2 id=&#34;ヴァージョンの展開&#34;&gt;ヴァージョンの展開
+&lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのヴァージョンへ発展しました。&lt;/p&gt;
+&lt;h3 id=&#34;初期版-2016&#34;&gt;初期版 (2016)
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;初期版 (2016)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;リオ五輪開会式での使用2016&#34;&gt;リオ五輪開会式での使用（2016）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0_hu_3678d6483962427a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0_hu_1b9c55a2546a591c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;リオ五輪開会式での使用（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;開会式映像に組み込まれ、世界数億人の前で上映。科学的ビジュアルが大衆文化に登場した象徴的事例。&lt;/p&gt;
+&lt;h3 id=&#34;拡張版2016&#34;&gt;拡張版（2016）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2.png&#34;
+	width=&#34;1140&#34;
+	height=&#34;1110&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_451a8ecb0302b266.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_25a129eac85e33cb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;拡張版（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;246px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;745&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_cc0ee472ea719cc2.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_40d90646fb5250a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;拡張版（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;329px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/spirals/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
+&lt;h4 id=&#34;北極海の海氷量&#34;&gt;北極海の海氷量
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017.png&#34;
+	width=&#34;620&#34;
+	height=&#34;661&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017_hu_663c93230cff9b2a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/icevol_2017_hu_5d6445098ee05c0a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;93&#34;
+		data-flex-basis=&#34;225px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;大気中の二酸化炭素濃度&#34;&gt;大気中の二酸化炭素濃度
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/co2_2017.png&#34;
+	width=&#34;600&#34;
+	height=&#34;646&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/co2_2017_hu_db7ef53b27c08527.png 480w, http://localhost:1313/spiralling-global-temperatures/images/co2_2017_hu_f74f2889a89014d0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;222px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nasa-climate-spiral-2023&#34;&gt;NASA Climate Spiral (2023)
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
+	width=&#34;560&#34;
+	height=&#34;560&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;動画の最後では横から見た図に変化する&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
+&lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
+&lt;/h2&gt;&lt;p&gt;ここで注意したいのが「基準期間をどこに置くか」です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hawkins のオリジナルは 1850–1900年 を基準にしており、産業革命前後を「正常な気温」とみなしています。これは長期的な温暖化を強調する見方です。&lt;/li&gt;
+&lt;li&gt;NASA のスパイラルは 1951–1980年 を基準にしており、近代以降の安定期を「ゼロ」とする尺度です。これは科学界で標準的によく用いられる基準期間で、比較のしやすさを重視しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は“データの事実”ではなく“解釈の枠組み”であるため、可視化を読み取るときには常に意識しておく必要があります。&lt;/p&gt;
+&lt;h2 id=&#34;反響と影響&#34;&gt;反響と影響
+&lt;/h2&gt;&lt;h3 id=&#34;称賛&#34;&gt;称賛
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;The Guardian：「比喩としてのスパイラルが文字通りのものになった」&lt;/li&gt;
+&lt;li&gt;Vox：「これまで見た中で最も明快な地球温暖化の可視化のひとつ」&lt;/li&gt;
+&lt;li&gt;Ed Hawkins 自身：「非科学者が現実を理解する助けになった」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;普及&#34;&gt;普及
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SNS で数百万ビューを記録、BBCやNYTなど主要メディアに掲載。&lt;/li&gt;
+&lt;li&gt;教育現場で教材として用いられ、科学コミュニケーションの象徴的ビジュアルとなった。&lt;/li&gt;
+&lt;li&gt;2016年リオ五輪の開会式での採用は、科学可視化の歴史に残る出来事。&lt;/li&gt;
+&lt;li&gt;NASA による定期更新版の公開で、「進行中の現象」をリアルタイムで追える仕組みが整った。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;批判懸念&#34;&gt;批判・懸念
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不確実性（誤差や地域差）が表現されていない。&lt;/li&gt;
+&lt;li&gt;半径の拡大が「面積効果」で実際以上に大きな変化に見える可能性。&lt;/li&gt;
+&lt;li&gt;「恐怖を煽る過ぎる」との声も一部にあり、感情的インパクトの強さゆえの課題も指摘された。&lt;/li&gt;
+&lt;li&gt;学術的分析では「視聴者に不安や否定的感情を喚起する側面もある」と報告されている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;気温スパイラルの可視化がもたらしたもの&#34;&gt;気温スパイラルの可視化がもたらしたもの
+&lt;/h2&gt;&lt;p&gt;この気温スパイラルは、単なるデータ提示を超えて「温暖化は進行中である」という事実を直感的に伝える強力なビジュアルになりました。科学とデザイン、アートと社会が交差する地点に生まれた作品といえるでしょう。&lt;/p&gt;
+&lt;blockquote&gt;
+“The genius of the original was to show how the long term warming trend stood out from the noise of natural variation.” — ClimateChangeNews
+&lt;/blockquote&gt;
+&lt;p&gt;科学的厳密性とともに、「どう見せるか」が人々の理解や感情を左右することを示した事例でもあります。特に「基準期間の選択」が印象を変えることを理解することは、データ可視化のリテラシーに直結します。&lt;/p&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに
+&lt;/h2&gt;&lt;p&gt;気候変動の議論はしばしば数値や統計の世界に閉じこもりがちです。
+「Spiralling global temperatures」が示したのは、データをどう「見せるか」がいかに重要か、ということでした。&lt;/p&gt;
+&lt;p&gt;美しく、そして恐ろしく。
+このスパイラルは、私たちがどこから来て、どこへ向かおうとしているのかを、ひと目で語りかけてきます。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」</title>
         <link>http://localhost:1313/high-altitude/</link>
         <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
@@ -201,14 +436,14 @@
         <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/bosai-kikikuru-color/</guid>
-        <description>&lt;img src="http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
 &lt;h2 id=&#34;連続的カラースキームとは&#34;&gt;連続的カラースキームとは？
 &lt;/h2&gt;&lt;p&gt;データ可視化におけるカラースキームには、「連続的（sequential）」「発散的（diverging）」「定性的（categorical）」の3種類があります。
 このうち 連続的カラースキーム（sequential color scheme） は、数値が大きい・小さいという一方向の大小関係を持つデータを表現するために使われます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/colorbrewer_sequential_2mono_2grad_5.png&#34;
 	width=&#34;2434&#34;
 	height=&#34;1534&#34;
-	srcset=&#34;http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5_hu_82cf819f8c53c556.png 480w, http://localhost:1313/bosai-risk-color/images/colorbrewer_sequential_2mono_2grad_5_hu_4a4cd71650765952.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/colorbrewer_sequential_2mono_2grad_5_hu_82cf819f8c53c556.png 480w, http://localhost:1313/bosai-kikikuru-color/images/colorbrewer_sequential_2mono_2grad_5_hu_4a4cd71650765952.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -229,10 +464,10 @@
 &lt;h2 id=&#34;キキクルの事例3色以上を組み合わせた連続表現&#34;&gt;キキクルの事例：3色以上を組み合わせた連続表現
 &lt;/h2&gt;&lt;p&gt;しかし、気象庁の「キキクル」で用いられている手法は、この典型から外れています。キキクルとは、気象庁が提供する 大雨・洪水・土砂災害などの危険度を色分けして地図上に表示するサービスです。地域ごとに危険度を段階的に示し、住民が避難のタイミングを判断する手助けを目的としています。&lt;/p&gt;
 &lt;p&gt;キキクルではその危険度について、黄 → 橙 → 赤 → 紫 → 黒 という複数の色相を組み合わせながら、同時に明度を下げていく配色をしており、連続的カラースキームとしては珍しい設計です。通常の濃淡や2色グラデーションではなく、「段階性の強調」と「最終段階＝黒の終端感」を兼ね備えており、防災情報という利用シーンに合わせて工夫された特異な例といえます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_color.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_color.png&#34;
 	width=&#34;1650&#34;
 	height=&#34;1290&#34;
-	srcset=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_color_hu_4aaf5e3dc5dd4f15.png 480w, http://localhost:1313/bosai-risk-color/images/bosai_risk_color_hu_350438a840414c80.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_color_hu_4aaf5e3dc5dd4f15.png 480w, http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_color_hu_350438a840414c80.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;5段階の普戒レベルとキキクル（危険度分布）&#34;
@@ -243,10 +478,10 @@
 		data-flex-basis=&#34;306px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_bk.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_bk.png&#34;
 	width=&#34;1650&#34;
 	height=&#34;1290&#34;
-	srcset=&#34;http://localhost:1313/bosai-risk-color/images/bosai_risk_bk_hu_6bfeb1eff16b18ac.png 480w, http://localhost:1313/bosai-risk-color/images/bosai_risk_bk_hu_5f5b84afa3708bec.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_bk_hu_6bfeb1eff16b18ac.png 480w, http://localhost:1313/bosai-kikikuru-color/images/bosai_risk_bk_hu_5f5b84afa3708bec.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;グレースケールに変換したもの&#34;
@@ -261,10 +496,10 @@
 通常の連続スキームではあまり使われませんが「命に関わる危険が切迫している」という強いメッセージを込めて配色の終端としています。
 これにより、利用者は「ここが最終段階だ」と明確に理解できます。&lt;/p&gt;
 &lt;h2 id=&#34;一般的な連続スキームとの違い&#34;&gt;一般的な連続スキームとの違い
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.png&#34;
 	width=&#34;2434&#34;
 	height=&#34;1174&#34;
-	srcset=&#34;http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp_hu_a85395bf6ebcc81b.png 480w, http://localhost:1313/bosai-risk-color/images/sequential_kikikuru_compare_5_jp_hu_6e4cb11b5ebcf561.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_a85395bf6ebcc81b.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_6e4cb11b5ebcf561.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

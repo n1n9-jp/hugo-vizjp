@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/spiralling-global-temperatures/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/high-altitude/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/high-frequency-trading/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bosai-kikikuru-color/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cognitive-biases-blog/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://localhost:1313/cognitive-biases-compare/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cognitive-biases-compare/</loc>
+    <loc>http://localhost:1313/cognitive-biases-paper/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/map/</loc>
@@ -120,9 +135,6 @@
     <lastmod>2020-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/d3-flexbox/</loc>
-    <lastmod>2020-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/dj/</loc>
     <lastmod>2020-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/data-story-4-types/</loc>

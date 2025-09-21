@@ -7,14 +7,6 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Dj</title>
-        <link>http://localhost:1313/categories/dj/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/dj/</guid>
-        <description></description>
-        </item>
-        
+        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
