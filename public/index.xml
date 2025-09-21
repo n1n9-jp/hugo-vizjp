@@ -13,7 +13,7 @@
         <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
-        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「Climate Spiral 1880-Present」&lt;/a&gt;という映像をご存知でしょうか。
 1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるグラフです。&lt;/p&gt;
 &lt;p&gt;教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。&lt;/p&gt;
@@ -47,10 +47,10 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;実は作者がいた--ed-hawkins-のspiralling-global-temperatures&#34;&gt;実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」
 &lt;/h2&gt;&lt;p&gt;2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
 	width=&#34;727&#34;
 	height=&#34;782&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Spiralling global temperatures&#34;
@@ -74,10 +74,10 @@
 &lt;h2 id=&#34;ヴァージョンの展開&#34;&gt;ヴァージョンの展開
 &lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのヴァージョンへ発展しました。&lt;/p&gt;
 &lt;h3 id=&#34;初期版-2016&#34;&gt;初期版 (2016)
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
 	width=&#34;727&#34;
 	height=&#34;782&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/01_spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;初期版 (2016)&#34;
@@ -91,10 +91,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;リオ五輪開会式での使用2016&#34;&gt;リオ五輪開会式での使用（2016）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0.png&#34;
 	width=&#34;1366&#34;
 	height=&#34;768&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0_hu_3678d6483962427a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/02_Rio_static_0_hu_1b9c55a2546a591c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0_hu_3678d6483962427a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0_hu_1b9c55a2546a591c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;リオ五輪開会式での使用（2016）&#34;
