@@ -10,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "images/01_spiral2016.png"
+image = "images/cover-spiralling.png"
 +++
 
 NASA が公開している[「Climate Spiral 1880-Present」](https://svs.gsfc.nasa.gov/5190/)という映像をご存知でしょうか。
@@ -28,7 +28,7 @@ NASA が公開している[「Climate Spiral 1880-Present」](https://svs.gsfc.n
 
 2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。
 
-![Spiralling global temperatures](images/01_spiral2016.png)
+![Spiralling global temperatures](images/spiral2016.png)
 
 https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/
 
@@ -50,14 +50,14 @@ https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/
 
 ### 初期版 (2016)
 
-![初期版 (2016)](images/01_spiral2016.png)
+![初期版 (2016)](images/spiral2016.png)
 
 https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/
 
 
 ### リオ五輪開会式での使用（2016）
 
-![リオ五輪開会式での使用（2016）](images/02_Rio_static_0.png)
+![リオ五輪開会式での使用（2016）](images/Rio_static_0.png)
 
 https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral
 
