@@ -604,6 +604,22 @@
 	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_a85395bf6ebcc81b.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_6e4cb11b5ebcf561.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+		alt=&#34;一般的な連続スキームとキキクルの連続スキームの比較&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;497px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk.png&#34;
+	width=&#34;2434&#34;
+	height=&#34;1174&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_85aa120798741f06.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_24736b90861b8a8d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;グレースケールへ変換したもの&#34;
+	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;207&#34;
