@@ -13,69 +13,269 @@
         <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
-        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/bias-paper.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;2016年、ひとつの短いアニメーション GIF が世界を驚かせました。
-それは「Spiralling global temperatures（気温スパイラル）」と呼ばれる、地球の気温変化を円のスパイラル状に描いた可視化です。美しく hypnotic（催眠的）でありながら、“美しいが恐ろしい（beautiful but terrifying）”とも評されるこの作品は、地球温暖化の現実を一目で理解させる強烈なインパクトを持っていました。&lt;/p&gt;
-&lt;h2 id=&#34;spiralling-global-temperaturesとは&#34;&gt;「Spiralling global temperatures」とは
-&lt;/h2&gt;&lt;ul&gt;
+        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「Climate Spiral 1880-Present」&lt;/a&gt;という映像をご存知でしょうか。
+1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるチャートです。&lt;/p&gt;
+&lt;p&gt;教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。&lt;/p&gt;
+&lt;h2 id=&#34;nasa-climate-spiral-1880-present最新版&#34;&gt;NASA Climate Spiral 1880-Present（最新版）
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
+	width=&#34;560&#34;
+	height=&#34;560&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;動画の最後では横から見た図に変化する&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;制作：NASA&lt;/li&gt;
+&lt;li&gt;公開：2023年11月、2025年現在も毎月更新&lt;/li&gt;
+&lt;li&gt;データ：GISTEMP v4（基準期間 1951–1980）&lt;/li&gt;
+&lt;li&gt;特徴：
+&lt;ul&gt;
+&lt;li&gt;月ごとの気温異常を円周方向に並べ、外側に向かってスパイラルとして広がる形式&lt;/li&gt;
+&lt;li&gt;色は気温偏差を示す（寒冷＝青、中立＝白、温暖＝赤）&lt;/li&gt;
+&lt;li&gt;年の進行はアニメーションの動きや数字の表示で伝える&lt;/li&gt;
+&lt;li&gt;高解像度動画・多言語・単位切替など、教育・報道向けに整備された配布形態&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;NASA のページでも明記されている通り、この可視化スタイルを普及させたのは Ed Hawkins というイギリスの科学者です。&lt;/p&gt;
+&lt;h2 id=&#34;実は作者がいた--ed-hawkins-のspiralling-global-temperatures&#34;&gt;実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」
+&lt;/h2&gt;&lt;p&gt;2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Spiralling global temperatures&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;制作：Ed Hawkins（レディング大学・気候科学者）&lt;/li&gt;
 &lt;li&gt;公開：2016年5月9日、ブログ Climate Lab Book&lt;/li&gt;
 &lt;li&gt;データ：HadCRUT4.4（1850–2016年3月）、基準は1850–1900年平均&lt;/li&gt;
-&lt;li&gt;表現：月ごとの気温偏差を円周方向に配置、中心からの距離で異常値を表現。色は viridis スケールを採用し、時間経過を紫から黄へ変化させた。&lt;/li&gt;
+&lt;li&gt;特徴：
+&lt;ul&gt;
+&lt;li&gt;色は年度の進行（紫から黄へ）を表し、半径で気温偏差を示す&lt;/li&gt;
+&lt;li&gt;1.5℃・2.0℃ の国際的目標を円で明示&lt;/li&gt;
+&lt;li&gt;SNS 向けに GIF アニメーション形式で発表&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;結果として、スパイラルは年を追うごとに外側へ膨らみ、近年の急激な上昇が強烈に浮かび上がります。さらに 1.5℃・2.0℃ といった国際的目標を示す閾値の円を重ねることで、現在地と危機感が直感的に伝わる構造になっています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結果は爆発的な拡散でした。BBC、Guardian、NYT など主要メディアで紹介され、SNS では「美しいが恐ろしい」と評され数百万ビューを記録。科学者だけでなく一般市民の目をも奪ったのです。&lt;/p&gt;
+&lt;p&gt;さらに 2016 年リオ五輪の開会式で上映され、数億人に届くビジュアルへと飛躍しました。&lt;/p&gt;
 &lt;h2 id=&#34;ヴァージョンの展開&#34;&gt;ヴァージョンの展開
 &lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのヴァージョンへ発展しました。&lt;/p&gt;
+&lt;h3 id=&#34;初期版-2016&#34;&gt;初期版 (2016)
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;初期版 (2016)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;リオ五輪開会式での使用2016&#34;&gt;リオ五輪開会式での使用（2016）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0_hu_3678d6483962427a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/Rio_static_0_hu_1b9c55a2546a591c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;リオ五輪開会式での使用（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;開会式映像に組み込まれ、世界数億人の前で上映。科学的ビジュアルが大衆文化に登場した象徴的事例。&lt;/p&gt;
+&lt;h3 id=&#34;拡張版2016&#34;&gt;拡張版（2016）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2.png&#34;
+	width=&#34;1140&#34;
+	height=&#34;1110&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_451a8ecb0302b266.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_25a129eac85e33cb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;拡張版（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;246px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;745&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_cc0ee472ea719cc2.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_40d90646fb5250a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;拡張版（2016）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;329px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/spirals/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
+&lt;h4 id=&#34;北極海の海氷量&#34;&gt;北極海の海氷量
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017.png&#34;
+	width=&#34;620&#34;
+	height=&#34;661&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017_hu_663c93230cff9b2a.png 480w, http://localhost:1313/spiralling-global-temperatures/images/icevol_2017_hu_5d6445098ee05c0a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;93&#34;
+		data-flex-basis=&#34;225px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;大気中の二酸化炭素濃度&#34;&gt;大気中の二酸化炭素濃度
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/co2_2017.png&#34;
+	width=&#34;600&#34;
+	height=&#34;646&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/co2_2017_hu_db7ef53b27c08527.png 480w, http://localhost:1313/spiralling-global-temperatures/images/co2_2017_hu_f74f2889a89014d0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;222px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nasa-climate-spiral-2023&#34;&gt;NASA Climate Spiral (2023)
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
+	width=&#34;560&#34;
+	height=&#34;560&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;動画の最後では横から見た図に変化する&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
+&lt;h2 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
+&lt;/h2&gt;&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
+&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
+&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;オリジナル版 (2016)
-&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;リオ五輪開会式での使用（2016）
-&lt;a class=&#34;link&#34; href=&#34;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&lt;/a&gt;
-開会式映像に組み込まれ、世界数億人の前で上映。科学的ビジュアルが大衆文化に登場した象徴的事例。&lt;/li&gt;
-&lt;li&gt;更新版 (HadCRUT4.6, 2017–)
-&lt;a class=&#34;link&#34; href=&#34;https://commons.wikimedia.org/wiki/File:20171231_Climate_spiral_%28HadCRUT4.6_1850-%29_Ed_Hawkins.gif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://commons.wikimedia.org/wiki/File:20171231_Climate_spiral_(HadCRUT4.6_1850-)_Ed_Hawkins.gif&lt;/a&gt;
-データを更新し、直近までの気温異常を反映。&lt;/li&gt;
-&lt;li&gt;Climate Spirals ページ（拡張版）
-&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.climate-lab-book.ac.uk/spirals/&lt;/a&gt;
-気温だけでなく CO₂ 濃度や北極海氷体積など、複数指標のスパイラルを公開。&lt;/li&gt;
-&lt;li&gt;NASA GISTEMP Climate Spiral
-&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/4975&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://svs.gsfc.nasa.gov/4975&lt;/a&gt;
-NASA Goddard が独自データ（GISTEMP v4, 基準1951–1980）で制作。3D 表現や定期更新が特徴。&lt;/li&gt;
+&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
+&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;NASA のものは Hawkins にインスパイアされた二次的実装 であり、オリジナルへの敬意を明示しています。作者が同じというわけではありません。&lt;/p&gt;
+&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
+&lt;/h2&gt;&lt;p&gt;ここで注意したいのが「基準期間をどこに置くか」です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hawkins のオリジナルは 1850–1900年 を基準にしており、産業革命前後を「正常な気温」とみなしています。これは長期的な温暖化を強調する見方です。&lt;/li&gt;
+&lt;li&gt;NASA のスパイラルは 1951–1980年 を基準にしており、近代以降の安定期を「ゼロ」とする尺度です。これは科学界で標準的によく用いられる基準期間で、比較のしやすさを重視しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は「データの事実」ではなく「解釈の枠組み」であるため、可視化を読み取るときには常に意識しておく必要があります。&lt;/p&gt;
+&lt;p&gt;図中に描かれている 0°C, +1°C, –1°C は「絶対気温」ではなく、基準期間の平均気温との差（気温偏差＝アノマリー）を意味しています。例えば「+1°C」とは「基準期間の平均気温より 1°C 高い」ということです。世界平均気温の変化は産業革命以降でも ±1〜1.5°C 程度に収まっているため、結果的に可視化もこの範囲で展開されているのです。&lt;/p&gt;
+&lt;h3 id=&#34;日本での気温偏差の算出方法&#34;&gt;日本での気温偏差の算出方法
+&lt;/h3&gt;&lt;p&gt;参考までに、日本の気象庁による、日本の年平均気温偏差（℃）とその算出方法は以下のページに記載があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data.jma.go.jp/cpdinfo/temp/list/an_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;気象庁 | 日本の年平均気温偏差（℃）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;反響と影響&#34;&gt;反響と影響
-&lt;/h2&gt;&lt;p&gt;称賛&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The Guardian（Climate Central 記者）：
-“比喩としてのスパイラルが文字通りのものになった” と紹介。&lt;/li&gt;
-&lt;li&gt;Vox（Brad Plumer）：
-「これまで見た中で最も明快な地球温暖化の可視化のひとつ」と評した。&lt;/li&gt;
-&lt;li&gt;Ed Hawkins 自身も「非科学者が現実を理解する助けになった」と振り返っている。&lt;/li&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;称賛&#34;&gt;称賛
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;The Guardian：「比喩としてのスパイラルが文字通りのものになった」&lt;/li&gt;
+&lt;li&gt;Vox：「これまで見た中で最も明快な地球温暖化の可視化のひとつ」&lt;/li&gt;
+&lt;li&gt;Ed Hawkins 自身：「非科学者が現実を理解する助けになった」&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;普及&lt;/p&gt;
-&lt;ul&gt;
+&lt;h3 id=&#34;普及&#34;&gt;普及
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;SNS で数百万ビューを記録、BBCやNYTなど主要メディアに掲載。&lt;/li&gt;
 &lt;li&gt;教育現場で教材として用いられ、科学コミュニケーションの象徴的ビジュアルとなった。&lt;/li&gt;
-&lt;li&gt;2016年リオ五輪の開会式に採用されたことは、可視化史に残る出来事。&lt;/li&gt;
+&lt;li&gt;2016年リオ五輪の開会式での採用は、科学可視化の歴史に残る出来事。&lt;/li&gt;
+&lt;li&gt;NASA による定期更新版の公開で、「進行中の現象」をリアルタイムで追える仕組みが整った。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;批判・懸念&lt;/p&gt;
-&lt;ul&gt;
+&lt;h3 id=&#34;批判懸念&#34;&gt;批判・懸念
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;不確実性（誤差や地域差）が表現されていない。&lt;/li&gt;
 &lt;li&gt;半径の拡大が「面積効果」で実際以上に大きな変化に見える可能性。&lt;/li&gt;
 &lt;li&gt;「恐怖を煽る過ぎる」との声も一部にあり、感情的インパクトの強さゆえの課題も指摘された。&lt;/li&gt;
 &lt;li&gt;学術的分析では「視聴者に不安や否定的感情を喚起する側面もある」と報告されている。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;可視化がもたらしたもの&#34;&gt;可視化がもたらしたもの
+&lt;h2 id=&#34;気温スパイラルの可視化がもたらしたもの&#34;&gt;気温スパイラルの可視化がもたらしたもの
 &lt;/h2&gt;&lt;p&gt;この気温スパイラルは、単なるデータ提示を超えて「温暖化は進行中である」という事実を直感的に伝える強力なビジュアルになりました。科学とデザイン、アートと社会が交差する地点に生まれた作品といえるでしょう。&lt;/p&gt;
-&lt;p&gt;“The genius of the original was to show how the long term warming trend stood out from the noise of natural variation.” — ClimateChangeNews&lt;/p&gt;
-&lt;p&gt;科学的厳密性とともに、「どう見せるか」が人々の理解や感情を左右することを示した事例でもあります。&lt;/p&gt;
+&lt;blockquote&gt;
+“The genius of the original was to show how the long term warming trend stood out from the noise of natural variation.” — ClimateChangeNews
+&lt;/blockquote&gt;
+&lt;p&gt;科学的厳密性とともに、「どう見せるか」が人々の理解や感情を左右することを示した事例でもあります。特に「基準期間の選択」が印象を変えることを理解することは、データ可視化のリテラシーに直結します。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34;&gt;おわりに
 &lt;/h2&gt;&lt;p&gt;気候変動の議論はしばしば数値や統計の世界に閉じこもりがちです。
-「Spiralling global temperatures」が示したのは、データをどう“見せるか”がいかに重要か、ということでした。&lt;/p&gt;
+「Spiralling global temperatures」が示したのは、データをどう「見せるか」がいかに重要か、ということでした。&lt;/p&gt;
 &lt;p&gt;美しく、そして恐ろしく。
 このスパイラルは、私たちがどこから来て、どこへ向かおうとしているのかを、ひと目で語りかけてきます。&lt;/p&gt;</description>
         </item>
