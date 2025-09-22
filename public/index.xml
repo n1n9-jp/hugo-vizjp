@@ -611,8 +611,8 @@
 		data-flex-grow=&#34;207&#34;
 		data-flex-basis=&#34;497px&#34;
 	
-&gt;
-&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk.png&#34;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk.png&#34;
 	width=&#34;2434&#34;
 	height=&#34;1174&#34;
 	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_85aa120798741f06.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_24736b90861b8a8d.png 1024w&#34;
