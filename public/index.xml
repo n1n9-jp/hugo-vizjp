@@ -28,20 +28,6 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;
-&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
-	width=&#34;560&#34;
-	height=&#34;560&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;横から見た図に変化する&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;100&#34;
-		data-flex-basis=&#34;240px&#34;
-	
 &gt;&lt;/p&gt;
 &lt;p&gt;今日、NASA が公式に配布する映像として教育や報道で広く使われていますが、そのアイデアの源流はイギリスの科学者 Ed Hawkins が発表した、ひとつの GIF アニメーションにさかのぼります。&lt;/p&gt;
 &lt;h2 id=&#34;ed-hawkins-のspiralling-global-temperatures&#34;&gt;Ed Hawkins の「Spiralling global temperatures」
@@ -109,6 +95,43 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;こうして NASA は、Hawkins の形式を継承しながらも「教育・報道で直感的に伝わる表現」へと発展させました。&lt;/p&gt;
+&lt;h3 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
+&lt;/h3&gt;&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
+	width=&#34;560&#34;
+	height=&#34;560&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;動画の最後で横から眺める構図に切り替わる&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
+&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
+&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
 &lt;h2 id=&#34;バージョンの展開&#34;&gt;バージョンの展開
 &lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのバージョンへ発展しました。&lt;/p&gt;
 &lt;h3 id=&#34;初期版-2016&#34;&gt;初期版 (2016)
@@ -177,7 +200,8 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.climate-lab-book.ac.uk/spirals/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
+&lt;p&gt;NASA 版による「円を横から眺める構図」が本家にも取り入れられていることがわかります。&lt;/p&gt;
+&lt;p&gt;そして気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
 &lt;h4 id=&#34;北極海の海氷量&#34;&gt;北極海の海氷量
 &lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017.png&#34;
 	width=&#34;620&#34;
@@ -228,29 +252,6 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5383/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://svs.gsfc.nasa.gov/5383/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
-&lt;h2 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
-	width=&#34;560&#34;
-	height=&#34;560&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;動画の最後では横から見た図に変化する&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;100&#34;
-		data-flex-basis=&#34;240px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
-&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
-&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
-&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
 &lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
 &lt;/h2&gt;&lt;p&gt;気温スパイラルを理解するうえで重要なのが 基準期間です。&lt;/p&gt;
 &lt;ul&gt;
