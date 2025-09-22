@@ -52,8 +52,8 @@ image = "images/sequential_kikikuru_compare_5_jp.png"
 
 ## 一般的な連続スキームとの違い
 
-![](images/sequential_kikikuru_compare_5_jp.png)
-
+![一般的な連続スキームとキキクルの連続スキームの比較](images/sequential_kikikuru_compare_5_jp.png)
+![グレースケールへ変換したもの](images/sequential_kikikuru_compare_5_jp_bk.png)
 
 ### 一般的な連続スキーム
 - 青の濃淡や緑→黄など、滑らかな変化を重視
