@@ -7,7 +7,136 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT Media Lab 2011年ロゴ ― アルゴリズムでつくる「交差のデザイン」</title>
+        <link>http://localhost:1313/mit-media-lab-logo-2011/</link>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mit-media-lab-logo-2011/</guid>
+        <description>&lt;img src="http://localhost:1313/mit-media-lab-logo-2011/images/mit_logocolorvariations_logomain_014.jpg" alt="Featured image of post MIT Media Lab 2011年ロゴ ― アルゴリズムでつくる「交差のデザイン」" /&gt;&lt;p&gt;2011年、MIT Media Lab は創立25周年を記念し、ロゴを刷新しました。これを手掛けたのは E. Roon Kang と Richard The、そしてデザインスタジオ TheGreenEyl。
+従来は Jaqueline Casey が1984年にデザインしたアイデンティティ要素が使われていましたが、明確な「ロゴ」は存在しませんでした。そこで新たに導入されたのが、アルゴリズムによって生成されるロゴシステムです。&lt;/p&gt;
+&lt;h2 id=&#34;コンセプト--交差が形を生む&#34;&gt;コンセプト ― 「交差」が形を生む
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各ロゴは 3つのコーン状の形（cones）で構成されます。&lt;/li&gt;
+&lt;li&gt;それぞれのコーンは、ラボに集まる 個人（エンジニア、科学者、アーティスト、デザイナーなど） を象徴しています。&lt;/li&gt;
+&lt;li&gt;これらが交差することで新しい形が生まれる。まさに「異なるバックグラウンドを持つ人々が交わり、協働し、インスパイアし合う」Media Lab の特質を可視化しています。&lt;/li&gt;
+&lt;li&gt;この交差部こそがロゴの象徴的なアウトプットであり、「成果」を表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;生成ルール&#34;&gt;生成ルール
+&lt;/h2&gt;&lt;p&gt;CreativeApplications.Net の記事によると、ロゴ生成には Processing が用いられました（Processing 自体も MIT Media Lab で Casey Reas と Ben Fry によって開発された背景を持ちます）。&lt;/p&gt;
+&lt;p&gt;グリッド構造&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4×4 のスクエアグリッドを基盤に配置されます。&lt;/li&gt;
+&lt;li&gt;グリッドは可視化されませんが、学術的・物理的・知的な環境としての Media Lab を象徴しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コーン（3形）の挙動ルール&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各コーンはグリッド内で移動可能。&lt;/li&gt;
+&lt;li&gt;一定の美的ルールセットが適用されます：&lt;/li&gt;
+&lt;li&gt;境界に到達しなければならない&lt;/li&gt;
+&lt;li&gt;他の形と交差しなければならない&lt;/li&gt;
+&lt;li&gt;この制約により「非常に小さな形」「交わらない形」は排除され、必ず交差による複雑な形態が生まれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;色の組み合わせ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;12通りのカラーコンビネーションが用意されていました。&lt;/li&gt;
+&lt;li&gt;40,000種の形態 × 12色 ＝ 約48万通り のバリエーションが生成可能だったとされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;技術的プロセス&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Processing アプリケーションでロゴを生成。&lt;/li&gt;
+&lt;li&gt;SVG をエクスポートし、Illustrator のスクリプトで CMYK PDF に変換。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1.gif&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1_hu_5be3cbb61678d27d.gif 480w, http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1_hu_2e432c5ce22994e.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2.gif&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2_hu_b0515bd43d5dbc46.gif 480w, http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2_hu_232a4a1076a22cd1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;割り当て方式--自動ではなく選択&#34;&gt;割り当て方式 ― 自動ではなく「選択」
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x_hu_d4fdb5135a9a3570.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x_hu_bde35e8e0631e2f4.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;重要なのは、このロゴが 社員番号やIDで自動割り当てされたわけではない という点です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web インターフェースを通じて、各メンバーはあらかじめ生成された候補の中から自分のロゴを選ぶことができました。&lt;/li&gt;
+&lt;li&gt;つまり、ランダムでも一方的な割当でもなく、本人が「自分のロゴ」を選び取るプロセスが重視されていました。&lt;/li&gt;
+&lt;li&gt;この仕組みによって、多様性の中に自ら関与して形を持つという Media Lab らしい文化が表現されていたのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x_hu_6d4ebcf910f58098.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x_hu_bd18a4f5de57051a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2011年ロゴの意義&#34;&gt;2011年ロゴの意義
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;固定の一枚絵ではなく、システムとしてのロゴ。&lt;/li&gt;
+&lt;li&gt;3つのコーン＝3人の個人の貢献が交差して成果を生むという比喩。&lt;/li&gt;
+&lt;li&gt;4×4グリッド上のルールが共通基盤を与え、そこから数十万の多様な表現が立ち上がる。&lt;/li&gt;
+&lt;li&gt;個人ごとにユニークなロゴを持てることで、組織の多様性を強調。&lt;/li&gt;
+&lt;li&gt;そして、本人が選ぶ行為そのものがアイデンティティの一部だったのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x_hu_f26e48f06c3ba312.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x_hu_f2d56afb809fe5de.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardthe.com/projects/medialab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Richard The: MIT Media Lab Identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://eroonkang.com/feature/mit-media-lab-identity?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;E. Roon Kang: MIT Media Lab Identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.thegreeneyl.com/MIT-Media-Lab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TheGreenEyl: MIT Media Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.pentagram.com/work/mit-media-lab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pentagram: MIT Media Lab Identity (2014, 後継プロジェクト解説)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.creativeapplications.net/project/mit-media-lab-identity-processing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CreativeApplications.Net: MIT Media Lab Identity [Processing]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>気温スパイラルが見せる地球温暖化の軌跡</title>
         <link>http://localhost:1313/spiralling-global-temperatures/</link>
         <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>

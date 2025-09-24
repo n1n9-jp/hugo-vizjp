@@ -7,18 +7,226 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>MIT Media Lab 2011年ロゴ ― アルゴリズムでつくる「交差のデザイン」</title>
+        <link>http://localhost:1313/mit-media-lab-logo-2011/</link>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mit-media-lab-logo-2011/</guid>
+        <description>&lt;img src="http://localhost:1313/images/mit_logocolorvariations_logomain_014" alt="Featured image of post MIT Media Lab 2011年ロゴ ― アルゴリズムでつくる「交差のデザイン」" /&gt;&lt;p&gt;2011年、MIT Media Lab は創立25周年を記念し、ロゴを刷新しました。これを手掛けたのは E. Roon Kang と Richard The、そしてデザインスタジオ TheGreenEyl。
+従来は Jaqueline Casey が1984年にデザインしたアイデンティティ要素が使われていましたが、明確な「ロゴ」は存在しませんでした。そこで新たに導入されたのが、アルゴリズムによって生成されるロゴシステムです。&lt;/p&gt;
+&lt;h2 id=&#34;コンセプト--交差が形を生む&#34;&gt;コンセプト ― 「交差」が形を生む
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各ロゴは 3つのコーン状の形（cones）で構成されます。&lt;/li&gt;
+&lt;li&gt;それぞれのコーンは、ラボに集まる 個人（エンジニア、科学者、アーティスト、デザイナーなど） を象徴。&lt;/li&gt;
+&lt;li&gt;これらが交差することで新しい形が生まれる。まさに「異なるバックグラウンドを持つ人々が交わり、協働し、インスパイアし合う」Media Lab の特質を可視化しています。&lt;/li&gt;
+&lt;li&gt;この交差部こそがロゴの象徴的なアウトプットであり、「成果」を表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;生成ルール&#34;&gt;生成ルール
+&lt;/h2&gt;&lt;p&gt;CreativeApplications.Net の記事によると、ロゴ生成には Processing が用いられました（Processing 自体も MIT Media Lab で Casey Reas と Ben Fry によって開発された背景を持ちます）。&lt;/p&gt;
+&lt;p&gt;グリッド構造&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4×4 のスクエアグリッドを基盤に配置されます。&lt;/li&gt;
+&lt;li&gt;グリッドは可視化されませんが、学術的・物理的・知的な環境としての Media Lab を象徴しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コーン（3形）の挙動ルール&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各コーンはグリッド内で移動可能。&lt;/li&gt;
+&lt;li&gt;一定の美的ルールセットが適用されます：&lt;/li&gt;
+&lt;li&gt;境界に到達しなければならない&lt;/li&gt;
+&lt;li&gt;他の形と交差しなければならない&lt;/li&gt;
+&lt;li&gt;この制約により「非常に小さな形」「交わらない形」は排除され、必ず交差による複雑な形態が生まれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;色の組み合わせ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;12通りのカラーコンビネーションが用意されていました。&lt;/li&gt;
+&lt;li&gt;40,000種の形態 × 12色 ＝ 約48万通り のバリエーションが生成可能だったとされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;技術的プロセス&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Processing アプリケーションでロゴを生成。&lt;/li&gt;
+&lt;li&gt;SVG をエクスポートし、Illustrator のスクリプトで CMYK PDF に変換。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1.gif&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1_hu_5be3cbb61678d27d.gif 480w, http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short1_hu_2e432c5ce22994e.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2.gif&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2_hu_b0515bd43d5dbc46.gif 480w, http://localhost:1313/mit-media-lab-logo-2011/images/Identity_short2_hu_232a4a1076a22cd1.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;割り当て方式--自動ではなく選択&#34;&gt;割り当て方式 ― 自動ではなく「選択」
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x_hu_d4fdb5135a9a3570.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0001_02-2500x_hu_bde35e8e0631e2f4.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;重要なのは、このロゴが 社員番号やIDで自動割り当てされたわけではない という点です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web インターフェースを通じて、各メンバーはあらかじめ生成された候補の中から自分のロゴを選ぶことができました。&lt;/li&gt;
+&lt;li&gt;つまり、ランダムでも一方的な割当でもなく、本人が「自分のロゴ」を選び取るプロセスが重視されていました。&lt;/li&gt;
+&lt;li&gt;この仕組みによって、多様性の中に自ら関与して形を持つという Media Lab らしい文化が表現されていたのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x_hu_6d4ebcf910f58098.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0002_03-2500x_hu_bd18a4f5de57051a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2011年ロゴの意義&#34;&gt;2011年ロゴの意義
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;固定の一枚絵ではなく、システムとしてのロゴ。&lt;/li&gt;
+&lt;li&gt;3つのコーン＝3人の個人の貢献が交差して成果を生むという比喩。&lt;/li&gt;
+&lt;li&gt;4×4グリッド上のルールが共通基盤を与え、そこから数十万の多様な表現が立ち上がる。&lt;/li&gt;
+&lt;li&gt;個人ごとにユニークなロゴを持てることで、組織の多様性を強調。&lt;/li&gt;
+&lt;li&gt;そして、本人が選ぶ行為そのものがアイデンティティの一部だったのです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x.jpg&#34;
+	width=&#34;2500&#34;
+	height=&#34;1406&#34;
+	srcset=&#34;http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x_hu_f26e48f06c3ba312.jpg 480w, http://localhost:1313/mit-media-lab-logo-2011/images/0003_04-2500x_hu_f2d56afb809fe5de.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardthe.com/projects/medialab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Richard The: MIT Media Lab Identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://eroonkang.com/feature/mit-media-lab-identity?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;E. Roon Kang: MIT Media Lab Identity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.thegreeneyl.com/MIT-Media-Lab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TheGreenEyl: MIT Media Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.pentagram.com/work/mit-media-lab?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pentagram: MIT Media Lab Identity (2014, 後継プロジェクト解説)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.creativeapplications.net/project/mit-media-lab-identity-processing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CreativeApplications.Net: MIT Media Lab Identity [Processing]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>気温スパイラルが見せる地球温暖化の軌跡</title>
         <link>http://localhost:1313/spiralling-global-temperatures/</link>
         <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
-        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;NASA が公開している&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;「Climate Spiral 1880-Present」&lt;/a&gt;という映像をご存知でしょうか。
-1880 年から現在までの気温変化をスパイラル状に描き、月ごとに回転しながら近年の急激な上昇を強烈に浮かび上がらせるチャートです。&lt;/p&gt;
-&lt;p&gt;教育現場やニュース番組で引用されることも多く、NASA の公式リソースとして信頼感のある可視化。しかしこの表現方法には、実はひとりの気候科学者のアイデアが源流として存在します。&lt;/p&gt;
-&lt;h2 id=&#34;nasa-climate-spiral-1880-present最新版&#34;&gt;NASA Climate Spiral 1880-Present（最新版）
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+        <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;「気候変動をどう伝えるか？」――これは科学者やメディアにとって長年の課題でした。
+従来は折れ線グラフや棒グラフで示されてきた地球平均気温の変化を、一瞬で「見て理解できる」形にしたのが、気温スパイラルです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今日、NASA が公式に配布する映像として教育や報道で広く使われていますが、そのアイデアの源流はイギリスの科学者 Ed Hawkins が発表した、ひとつの GIF アニメーションにさかのぼります。&lt;/p&gt;
+&lt;h2 id=&#34;ed-hawkins-のspiralling-global-temperatures&#34;&gt;Ed Hawkins の「Spiralling global temperatures」
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Spiralling global temperatures&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2016年5月9日、レディング大学の気候科学者 Ed Hawkins は、自身のブログ Climate Lab Book に「Spiralling global temperatures」を公開しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公開：2016年5月&lt;/li&gt;
+&lt;li&gt;データ：HadCRUT4.4（1850–2016年3月）&lt;/li&gt;
+&lt;li&gt;基準期間：1850–1900 年&lt;/li&gt;
+&lt;li&gt;表現：
+&lt;ul&gt;
+&lt;li&gt;半径＝気温偏差（基準からのずれ）&lt;/li&gt;
+&lt;li&gt;色＝年度の進行（紫から黄へと変化）&lt;/li&gt;
+&lt;li&gt;形式：GIF アニメーション（SNS で拡散しやすい軽量形式）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;発表直後から世界中で大きな話題となり、BBC、Guardian、NYT など主要メディアが取り上げました。SNS では「美しく、そして恐ろしい」と評され数百万回以上共有され、リオ五輪の開会式でも映像として上映されました。&lt;/p&gt;
+&lt;p&gt;科学者が発表した一枚の GIF が、数億人に「地球温暖化の実感」を伝えるに至ったのです。&lt;/p&gt;
+&lt;h2 id=&#34;nasa-climate-spiral-1880present&#34;&gt;NASA Climate Spiral 1880–Present
+&lt;/h2&gt;&lt;p&gt;この革新的な発想を取り入れ、NASA Goddard Space Flight Center は公式の映像として再構成しました。それが「Climate Spiral 1880–Present」です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この革新的な発想を取り入れ、NASA Goddard Space Flight Center は公式の映像として再構成しました。それが「Climate Spiral 1880–Present」です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;公開：2023年11月、2025年現在も毎月更新&lt;/li&gt;
+&lt;li&gt;データ：GISTEMP v4&lt;/li&gt;
+&lt;li&gt;基準期間：1951–1980 年&lt;/li&gt;
+&lt;li&gt;表現：
+&lt;ul&gt;
+&lt;li&gt;半径＝気温偏差&lt;/li&gt;
+&lt;li&gt;色＝気温偏差（寒冷＝青、中立＝白、温暖＝赤）&lt;/li&gt;
+&lt;li&gt;年の進行はアニメーションと数字で表示&lt;/li&gt;
+&lt;li&gt;最後にスパイラルを「横から」見せる演出（NASA 独自の工夫）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして NASA は、Hawkins の形式を継承しながらも「教育・報道で直感的に伝わる表現」へと発展させました。&lt;/p&gt;
+&lt;h3 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
+&lt;/h3&gt;&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
 	width=&#34;1230&#34;
 	height=&#34;1230&#34;
 	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
@@ -38,7 +246,7 @@
 	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;動画の最後では横から見た図に変化する&#34;
+		alt=&#34;動画の最後で横から眺める構図に切り替わる&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -46,54 +254,15 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
+&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;制作：NASA&lt;/li&gt;
-&lt;li&gt;公開：2023年11月、2025年現在も毎月更新&lt;/li&gt;
-&lt;li&gt;データ：GISTEMP v4（基準期間 1951–1980）&lt;/li&gt;
-&lt;li&gt;特徴：
-&lt;ul&gt;
-&lt;li&gt;月ごとの気温異常を円周方向に並べ、外側に向かってスパイラルとして広がる形式&lt;/li&gt;
-&lt;li&gt;色は気温偏差を示す（寒冷＝青、中立＝白、温暖＝赤）&lt;/li&gt;
-&lt;li&gt;年の進行はアニメーションの動きや数字の表示で伝える&lt;/li&gt;
-&lt;li&gt;高解像度動画・多言語・単位切替など、教育・報道向けに整備された配布形態&lt;/li&gt;
+&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
+&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;NASA のページでも明記されている通り、この可視化スタイルを普及させたのは Ed Hawkins というイギリスの科学者です。&lt;/p&gt;
-&lt;h2 id=&#34;実は作者がいた--ed-hawkins-のspiralling-global-temperatures&#34;&gt;実は作者がいた ― Ed Hawkins の「Spiralling global temperatures」
-&lt;/h2&gt;&lt;p&gt;2016年5月9日、レディング大学の気候科学者 Ed Hawkins が、自身のブログ Climate Lab Book に「Spiralling global temperatures」を発表しました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
-	width=&#34;727&#34;
-	height=&#34;782&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Spiralling global temperatures&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;92&#34;
-		data-flex-basis=&#34;223px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;制作：Ed Hawkins（レディング大学・気候科学者）&lt;/li&gt;
-&lt;li&gt;公開：2016年5月9日、ブログ Climate Lab Book&lt;/li&gt;
-&lt;li&gt;データ：HadCRUT4.4（1850–2016年3月）、基準は1850–1900年平均&lt;/li&gt;
-&lt;li&gt;特徴：
-&lt;ul&gt;
-&lt;li&gt;色は年度の進行（紫から黄へ）を表し、半径で気温偏差を示す&lt;/li&gt;
-&lt;li&gt;1.5℃・2.0℃ の国際的目標を円で明示&lt;/li&gt;
-&lt;li&gt;SNS 向けに GIF アニメーション形式で発表&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;結果は爆発的な拡散でした。BBC、Guardian、NYT など主要メディアで紹介され、SNS では「美しいが恐ろしい」と評され数百万ビューを記録。科学者だけでなく一般市民の目をも奪ったのです。&lt;/p&gt;
-&lt;p&gt;さらに 2016 年リオ五輪の開会式で上映され、数億人に届くビジュアルへと飛躍しました。&lt;/p&gt;
-&lt;h2 id=&#34;ヴァージョンの展開&#34;&gt;ヴァージョンの展開
-&lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのヴァージョンへ発展しました。&lt;/p&gt;
+&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;バージョンの展開&#34;&gt;バージョンの展開
+&lt;/h2&gt;&lt;p&gt;この可視化は一度きりの実験にとどまらず、多くのバージョンへ発展しました。&lt;/p&gt;
 &lt;h3 id=&#34;初期版-2016&#34;&gt;初期版 (2016)
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
 	width=&#34;727&#34;
@@ -160,7 +329,8 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.climate-lab-book.ac.uk/spirals/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
+&lt;p&gt;NASA 版による「円を横から眺める構図」が本家にも取り入れられていることがわかります。&lt;/p&gt;
+&lt;p&gt;そして気温だけでなく 北極海の海氷量や大気中の二酸化炭素濃度など、複数指標ごとにスパイラルを公開。&lt;/p&gt;
 &lt;h4 id=&#34;北極海の海氷量&#34;&gt;北極海の海氷量
 &lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/icevol_2017.png&#34;
 	width=&#34;620&#34;
@@ -205,14 +375,78 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;
-&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b.png&#34;
-	width=&#34;560&#34;
-	height=&#34;560&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_ad7da3395b4196de.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_b_hu_33b9989b67fe7c4a.png 1024w&#34;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5383/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://svs.gsfc.nasa.gov/5383/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
+&lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
+&lt;/h2&gt;&lt;p&gt;気温スパイラルを理解するうえで重要なのが 基準期間です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hawkins 版：1850–1900 年を基準期間に設定 → 産業革命前後をゼロ点とし、長期的な温暖化を強調。&lt;/li&gt;
+&lt;li&gt;NASA 版：1951–1980 年を基準期間に設定 → 近代以降の安定期をゼロ点とし、標準的な比較尺度を提供。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;日本での気温偏差の算出方法&#34;&gt;日本での気温偏差の算出方法
+&lt;/h3&gt;&lt;p&gt;参考までに、日本の気象庁による、日本の年平均気温偏差（℃）とその算出方法は以下のページに記載があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data.jma.go.jp/cpdinfo/temp/list/an_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;気象庁 | 日本の年平均気温偏差（℃）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hawkins-版と-nasa-版のカラースキームを比較&#34;&gt;Hawkins 版と NASA 版のカラースキームを比較
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/compare-colorscheme.png&#34;
+	width=&#34;1623&#34;
+	height=&#34;423&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/compare-colorscheme_hu_1ee6c56b31392fdd.png 480w, http://localhost:1313/spiralling-global-temperatures/images/compare-colorscheme_hu_98d01a70ac675963.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;動画の最後では横から見た図に変化する&#34;
+		alt=&#34;Hawkins 版と NASA 版のカラースキームを比較&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;383&#34;
+		data-flex-basis=&#34;920px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ここで改めて「色の役割」に注目しましょう。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hawkins のオリジナル
+&lt;ul&gt;
+&lt;li&gt;色＝年度の進行&lt;/li&gt;
+&lt;li&gt;半径＝気温偏差&lt;/li&gt;
+&lt;li&gt;「色＝時間」「半径＝気温」という役割分担&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;NASA のリデザイン
+&lt;ul&gt;
+&lt;li&gt;色＝気温偏差（青＝寒冷、赤＝温暖、白＝基準）&lt;/li&gt;
+&lt;li&gt;半径＝気温偏差&lt;/li&gt;
+&lt;li&gt;年の進行はアニメーションで表現&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;NASA が採用した青–白–赤のカラースキームは一般的に分岐的カラースキームと呼ばれています。分岐的カラースキームは基準値を白に近い色とし、増減する数値を別々な色相で同程度に明度を変化させるカラースキームです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016.png&#34;
+	width=&#34;727&#34;
+	height=&#34;782&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_4f6cb4c43842caa9.png 480w, http://localhost:1313/spiralling-global-temperatures/images/spiral2016_hu_70ada36e6d730373.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Spiralling global temperatures&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;92&#34;
+		data-flex-basis=&#34;223px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a.png&#34;
+	width=&#34;1230&#34;
+	height=&#34;1230&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_74f40954947da688.png 480w, http://localhost:1313/spiralling-global-temperatures/images/nasa_a_hu_17e2a6e1a29256f0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;NASA Climate Spiral&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -220,64 +454,24 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://svs.gsfc.nasa.gov/5190/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://svs.gsfc.nasa.gov/5190/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2023年11月に公開され、2025年現在も毎月更新。GISTEMP v4 データを用い、1951–1980 年を基準期間として設定。Ed Hawkins が生み出したスパイラル形式を踏襲しつつ、NASA の公式アーカイブとして継続的に拡張されている。配布形態や解像度が整備され、教育・報道の利用を前提とした「最新の公式版」といえる。&lt;/p&gt;
-&lt;h2 id=&#34;nasa-版の映像演出--横からの視点切替&#34;&gt;NASA 版の映像演出 ― 横からの視点切替
-&lt;/h2&gt;&lt;p&gt;NASA の Climate Spiral 1880–Present は、Ed Hawkins が生み出したスパイラル形式を忠実に踏襲していますが、最後に特徴的な演出を加えています。&lt;/p&gt;
-&lt;p&gt;スパイラルが広がりきった後、カメラの視点が回転し、円を「横から」眺める構図に切り替わるのです。すると、ぐるぐると回っていた輪が縦に積み重なった層へと変わり、1880年から現在までの時間が一本の「気温の柱」のように立ち上がります。&lt;/p&gt;
-&lt;p&gt;この演出は Ed Hawkins のオリジナルにはなかった NASA 独自の工夫 です。単なる 2D の図解にとどまらず、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;過去から現在に至る温度の積み重なりを立体的に強調する&lt;/li&gt;
-&lt;li&gt;視聴者に「歴史の厚み」と「急激な上昇」の両方を直感的に感じさせる&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;といった効果をもたらしています。教育用の動画やニュース報道で使いやすいように映像的な迫力を加えた点は、NASA 版ならではの特徴と言えるでしょう。&lt;/p&gt;
-&lt;h2 id=&#34;基準期間による見え方の違い&#34;&gt;基準期間による「見え方」の違い
-&lt;/h2&gt;&lt;p&gt;ここで注意したいのが「基準期間をどこに置くか」です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hawkins のオリジナルは 1850–1900年 を基準にしており、産業革命前後を「正常な気温」とみなしています。これは長期的な温暖化を強調する見方です。&lt;/li&gt;
-&lt;li&gt;NASA のスパイラルは 1951–1980年 を基準にしており、近代以降の安定期を「ゼロ」とする尺度です。これは科学界で標準的によく用いられる基準期間で、比較のしやすさを重視しています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この違いによって「どこからどれだけ温暖化したか」の印象は変わります。基準期間は「データの事実」ではなく「解釈の枠組み」であるため、可視化を読み取るときには常に意識しておく必要があります。&lt;/p&gt;
-&lt;p&gt;図中に描かれている 0°C, +1°C, –1°C は「絶対気温」ではなく、基準期間の平均気温との差（気温偏差＝アノマリー）を意味しています。例えば「+1°C」とは「基準期間の平均気温より 1°C 高い」ということです。世界平均気温の変化は産業革命以降でも ±1〜1.5°C 程度に収まっているため、結果的に可視化もこの範囲で展開されているのです。&lt;/p&gt;
-&lt;h3 id=&#34;日本での気温偏差の算出方法&#34;&gt;日本での気温偏差の算出方法
-&lt;/h3&gt;&lt;p&gt;参考までに、日本の気象庁による、日本の年平均気温偏差（℃）とその算出方法は以下のページに記載があります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data.jma.go.jp/cpdinfo/temp/list/an_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;気象庁 | 日本の年平均気温偏差（℃）&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;反響と影響&#34;&gt;反響と影響
-&lt;/h2&gt;&lt;h3 id=&#34;称賛&#34;&gt;称賛
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;The Guardian：「比喩としてのスパイラルが文字通りのものになった」&lt;/li&gt;
-&lt;li&gt;Vox：「これまで見た中で最も明快な地球温暖化の可視化のひとつ」&lt;/li&gt;
-&lt;li&gt;Ed Hawkins 自身：「非科学者が現実を理解する助けになった」&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;普及&#34;&gt;普及
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;SNS で数百万ビューを記録、BBCやNYTなど主要メディアに掲載。&lt;/li&gt;
-&lt;li&gt;教育現場で教材として用いられ、科学コミュニケーションの象徴的ビジュアルとなった。&lt;/li&gt;
-&lt;li&gt;2016年リオ五輪の開会式での採用は、科学可視化の歴史に残る出来事。&lt;/li&gt;
-&lt;li&gt;NASA による定期更新版の公開で、「進行中の現象」をリアルタイムで追える仕組みが整った。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;批判懸念&#34;&gt;批判・懸念
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;不確実性（誤差や地域差）が表現されていない。&lt;/li&gt;
-&lt;li&gt;半径の拡大が「面積効果」で実際以上に大きな変化に見える可能性。&lt;/li&gt;
-&lt;li&gt;「恐怖を煽る過ぎる」との声も一部にあり、感情的インパクトの強さゆえの課題も指摘された。&lt;/li&gt;
-&lt;li&gt;学術的分析では「視聴者に不安や否定的感情を喚起する側面もある」と報告されている。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;気温スパイラルの可視化がもたらしたもの&#34;&gt;気温スパイラルの可視化がもたらしたもの
-&lt;/h2&gt;&lt;p&gt;この気温スパイラルは、単なるデータ提示を超えて「温暖化は進行中である」という事実を直感的に伝える強力なビジュアルになりました。科学とデザイン、アートと社会が交差する地点に生まれた作品といえるでしょう。&lt;/p&gt;
+&lt;p&gt;図中の 0°C, ±1°C は「絶対気温」ではなく、基準期間からの差（気温偏差＝アノマリー）を示します。たとえば「+1°C」とは「基準より平均気温が 1°C 高い」という意味です。実際の地球平均気温の変化は ±1〜1.5°C 程度なので、グラフもその範囲に収まって見えるのです。&lt;/p&gt;
+&lt;p&gt;この分岐的カラースキームは、–1, 0, +1°C の目盛りとピッタリと整合しており「寒い＝青」「暖かい＝赤」という直感と数値が一致します。これにより、説明なしでも誰もが理解できる表現としてさらに表現の強度が増したのです。&lt;/p&gt;
+&lt;h3 id=&#34;カラースキームについての補足&#34;&gt;カラースキームについての補足
+&lt;/h3&gt;&lt;p&gt;NASA の気温スパイラルページ自体には「色の意味（凡例）」を明示する文章はありません。しかし NASA が公開している他の気温異常可視化ページでは、以下のように公式に説明されています。&lt;/p&gt;
 &lt;blockquote&gt;
-“The genius of the original was to show how the long term warming trend stood out from the noise of natural variation.” — ClimateChangeNews
+“Normal temperatures are shown in white. Higher than normal temperatures are shown in red and lower than normal temperatures are shown in blue. Normal temperatures are calculated over the 30 year baseline period 1951-1980.”
+（通常の気温は白、基準より高い気温は赤、低い気温は青で示す。基準は 1951–1980 年の 30 年平均）
 &lt;/blockquote&gt;
-&lt;p&gt;科学的厳密性とともに、「どう見せるか」が人々の理解や感情を左右することを示した事例でもあります。特に「基準期間の選択」が印象を変えることを理解することは、データ可視化のリテラシーに直結します。&lt;/p&gt;
+&lt;p&gt;この「白＝基準、赤＝高温、青＝低温」というルールは NASA の異常値可視化全体で一貫して用いられており、スパイラルにおいても暗黙の前提として適用されていると考えられます。&lt;/p&gt;
+&lt;h2 id=&#34;オリジナルの革新性と-nasa-による完成度の向上&#34;&gt;オリジナルの革新性と NASA による完成度の向上
+&lt;/h2&gt;&lt;p&gt;Ed Hawkins のオリジナルは、科学データを「誰にでも直感的に伝わる」表現へと変換した点で革新的でした。色を年度に対応させるという発想と、SNS に適した GIF 形式が、世界的な拡散を後押ししました。&lt;/p&gt;
+&lt;p&gt;一方で NASA は、その形式を「公共コミュニケーション」に最適化しました。色を気温偏差に対応させ、–1, 0, +1°C のスケールと直感的に結びつけることで理解しやすくし、さらに毎月更新される仕組みを整えたのです。&lt;/p&gt;
+&lt;p&gt;こうして、Hawkins の発明は NASA のリデザインによって完成度を高め、世界中の教育現場やニュース番組で広く使われる「標準的な気候ビジュアル」へと進化しました。&lt;/p&gt;
 &lt;h2 id=&#34;おわりに&#34;&gt;おわりに
 &lt;/h2&gt;&lt;p&gt;気候変動の議論はしばしば数値や統計の世界に閉じこもりがちです。
-「Spiralling global temperatures」が示したのは、データをどう「見せるか」がいかに重要か、ということでした。&lt;/p&gt;
+「気温スパイラル」が示したのは、データをどう「見せるか」がいかに重要か、ということでした。&lt;/p&gt;
 &lt;p&gt;美しく、そして恐ろしく。
-このスパイラルは、私たちがどこから来て、どこへ向かおうとしているのかを、ひと目で語りかけてきます。&lt;/p&gt;</description>
+このスパイラルは、数字の羅列では届かなかった「地球温暖化の実感」を、誰にでも伝える力を持っています。&lt;/p&gt;</description>
         </item>
         <item>
         <title>山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」</title>
@@ -538,6 +732,22 @@
 	height=&#34;1174&#34;
 	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_a85395bf6ebcc81b.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_hu_6e4cb11b5ebcf561.png 1024w&#34;
 	loading=&#34;lazy&#34;
+	
+		alt=&#34;一般的な連続スキームとキキクルの連続スキームの比較&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;207&#34;
+		data-flex-basis=&#34;497px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk.png&#34;
+	width=&#34;2434&#34;
+	height=&#34;1174&#34;
+	srcset=&#34;http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_85aa120798741f06.png 480w, http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp_bk_hu_24736b90861b8a8d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;グレースケールへ変換したもの&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
