@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは「The Use of Faces to Represent Points in K-Dimensional Space Graphically」。 直訳すれば「K次元空間の点を顔で表現する方法」です。\n">
+<title>データが「顔」に見える - チャーノフの顔という発想</title>
+
+<link rel='canonical' href='http://localhost:1313/chernoff-face/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="データが「顔」に見える - チャーノフの顔という発想">
+<meta property='og:description' content="1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは「The Use of Faces to Represent Points in K-Dimensional Space Graphically」。 直訳すれば「K次元空間の点を顔で表現する方法」です。\n">
+<meta property='og:url' content='http://localhost:1313/chernoff-face/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg' />
+<meta name="twitter:title" content="データが「顔」に見える - チャーノフの顔という発想">
+<meta name="twitter:description" content="1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは「The Use of Faces to Represent Points in K-Dimensional Space Graphically」。 直訳すれば「K次元空間の点を顔で表現する方法」です。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#多次元データをどう見せるか">多次元データをどう見せるか</a></li>
+    <li><a href="#仕組みはシンプル">仕組みはシンプル</a></li>
+    <li><a href="#なぜ顔なのか">なぜ「顔」なのか</a></li>
+    <li><a href="#顔の部位とデータの対応ルール">顔の部位とデータの対応ルール</a></li>
+    <li><a href="#論文の図版と解説">論文の図版と解説</a></li>
+    <li><a href="#論文の図版と解説-1">論文の図版と解説</a>
+      <ol>
+        <li><a href="#画像1">画像1</a></li>
+        <li><a href="#画像2">画像2</a></li>
+        <li><a href="#画像3">画像3</a></li>
+        <li><a href="#画像4">画像4</a></li>
+        <li><a href="#画像5">画像5</a></li>
+      </ol>
+    </li>
+    <li><a href="#図版をどう読み解くか観察のポイント">図版をどう読み解くか（観察のポイント）</a></li>
+    <li><a href="#面白さと落とし穴">面白さと落とし穴</a></li>
+    <li><a href="#今も生きているアイデア">今も生きているアイデア</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/chernoff-face/">
+                <img src="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_62fdce5c4eb5e43f.jpeg"
+                        srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_62fdce5c4eb5e43f.jpeg 800w, /chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_58881b9627c99d20.jpeg 1600w"
+                        width="800" 
+                        height="380" 
+                        loading="lazy"
+                        alt="Featured image of post データが「顔」に見える - チャーノフの顔という発想" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/chernoff-face/">データが「顔」に見える - チャーノフの顔という発想</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 24, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは<a class="link" href="http://wexler.free.fr/library/files/chernoff%20%281973%29%20the%20use%20of%20faces%20to%20represent%20points%20in%20k-dimensional%20space%20graphically.pdf"  target="_blank" rel="noopener"
+    >「The Use of Faces to Represent Points in K-Dimensional Space Graphically」</a>。
+直訳すれば「K次元空間の点を顔で表現する方法」です。</p>
+<h2 id="多次元データをどう見せるか">多次元データをどう見せるか
+</h2><p>データ分析をしていると、変数が5個、10個と増えていくことはよくあります。けれど、縦横2軸しかないグラフでは表しきれない。数字の表を眺めていても頭に入ってこない。
+そんなとき、チャーノフは「顔にしてしまえばいいのでは？」と考えました。</p>
+<h2 id="仕組みはシンプル">仕組みはシンプル
+</h2><ul>
+<li>データの各変数を、顔のパーツに割り当てます。</li>
+<li>1つのデータ＝1枚の「顔」として描かれます。</li>
+<li>似たデータは似た顔に、極端に違うデータは異様な顔に。</li>
+</ul>
+<p>つまり、数字の塊が「表情」として私たちの目に飛び込んでくるのです。</p>
+<h2 id="なぜ顔なのか">なぜ「顔」なのか
+</h2><p>人間は顔の違いにとても敏感です。ほんの少し口角が下がっているだけで「怒っている？」と感じたり、眉が上がっているだけで「驚いている？」と思ったりします。
+チャーノフはこの能力をデータ分析に応用しました。数字を数字のまま読むより、顔の違いとして認識したほうが直感的に理解できる、という狙いです。</p>
+<p>さらに興味深いのは、その発想の逆転です。当時の人工知能研究は「人間の顔を数値に変換し、機械に識別させる」ことに力を注いでいました。ところがチャーノフはその逆で、「数値を顔に変換し、機械には顔を描かせ、人間に識別させる」方法を選びました。彼の言葉を借りれば、**「顔を描くという重労働は機械に任せ、知能は人間に委ねる」**という発想です。</p>
+<h2 id="顔の部位とデータの対応ルール">顔の部位とデータの対応ルール
+</h2><p>チャーノフの顔では、顔を構成する部位を「変数の受け皿」として定義します。各変数の値によって形が変化し、それが表情として現れます。以下は代表的な対応例です。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>顔の部位</th>
+          <th>割り当て可能な変数</th>
+          <th>見た目の変化</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>顔の輪郭</strong></td>
+          <td>縦横比、サイズ</td>
+          <td>丸顔〜細顔に変化</td>
+      </tr>
+      <tr>
+          <td><strong>目</strong></td>
+          <td>大きさ、間隔、瞳孔サイズ</td>
+          <td>目が大きい／小さい、寄り目／離れ目</td>
+      </tr>
+      <tr>
+          <td><strong>眉</strong></td>
+          <td>角度、長さ</td>
+          <td>怒り顔／驚き顔などの感情的印象</td>
+      </tr>
+      <tr>
+          <td><strong>鼻</strong></td>
+          <td>長さ、幅</td>
+          <td>高い鼻／低い鼻、細い鼻／太い鼻</td>
+      </tr>
+      <tr>
+          <td><strong>口</strong></td>
+          <td>曲率、位置、幅</td>
+          <td>笑顔／無表情／しかめっ面</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="論文の図版と解説">論文の図版と解説
+</h2><p>実際の論文には、チャーノフが生成した「顔の配列」が数多く掲載されています。どの変数をどのパーツに割り当てるかで、同じデータでもまったく違った印象の顔が並びます。</p>
+<p>承知しました！それでは、先ほどの記事の 「論文の図版と解説」 セクションに、アップロードいただいたファイル名を明記して追記したバージョンを提示します。</p>
+<h2 id="論文の図版と解説-1">論文の図版と解説
+</h2><p>実際の論文には、チャーノフが生成した「顔の配列」が数多く掲載されています。</p>
+<h3 id="画像1">画像1
+</h3><p><img src="/chernoff-face/images/%E7%94%BB%E5%83%8F1_fig1b-2.jpeg"
+	width="491"
+	height="501"
+	srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F1_fig1b-2_hu_c0abae9c8bf41c3c.jpeg 480w, /chernoff-face/images/%E7%94%BB%E5%83%8F1_fig1b-2_hu_58e4b9359461946c.jpeg 1024w"
+	loading="lazy"
+	
+		alt="画像1"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="98"
+		data-flex-basis="235px"
+	
+></p>
+<p>「数値データを顔に変換した最初の例。目や口の形が微妙に変わり、似たデータが似た表情に集まっているのが分かります。」</p>
+<h3 id="画像2">画像2
+</h3><p><img src="/chernoff-face/images/%E7%94%BB%E5%83%8F2_fig1a.jpeg"
+	width="1484"
+	height="1203"
+	srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F2_fig1a_hu_aff3d41ba33f33d.jpeg 480w, /chernoff-face/images/%E7%94%BB%E5%83%8F2_fig1a_hu_3e78d90f4e620c23.jpeg 1024w"
+	loading="lazy"
+	
+		alt="画像2"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="123"
+		data-flex-basis="296px"
+	
+></p>
+<p>「大量の観測データを一斉に『顔』として並べた例。同じ系列の顔がグループ化され、外れ値がユニークな表情として浮かび上がります。」</p>
+<h3 id="画像3">画像3
+</h3><p><img src="/chernoff-face/images/%E7%94%BB%E5%83%8F3_fig1b-1.jpeg"
+	width="735"
+	height="501"
+	srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F3_fig1b-1_hu_9953db8feba29638.jpeg 480w, /chernoff-face/images/%E7%94%BB%E5%83%8F3_fig1b-1_hu_3b7c39c0267424be.jpeg 1024w"
+	loading="lazy"
+	
+		alt="画像3"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="146"
+		data-flex-basis="352px"
+	
+></p>
+<p>「同じ変数を異なる部位に割り当てると、全体の印象が大きく変わります。ここでは多くの顔
+が『しかめっ面』のように見え、データの特徴を直感的に伝えています。」</p>
+<h3 id="画像4">画像4
+</h3><p><img src="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg"
+	width="1440"
+	height="684"
+	srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_e0dd1a9bbc4258f0.jpeg 480w, /chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_5358efe972ed7f6f.jpeg 1024w"
+	loading="lazy"
+	
+		alt="画像4"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="210"
+		data-flex-basis="505px"
+	
+></p>
+<p>「口角や眉の角度といった部位が強調されると、表情は一気に感情的なニュアンスを帯びます。怒った顔や笑顔が、データの差異を分かりやすく可視化しています。」</p>
+<h3 id="画像5">画像5
+</h3><p><img src="/chernoff-face/images/%E7%94%BB%E5%83%8F5_fig2-2.jpeg"
+	width="806"
+	height="681"
+	srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F5_fig2-2_hu_2c0b7bea51a75c7d.jpeg 480w, /chernoff-face/images/%E7%94%BB%E5%83%8F5_fig2-2_hu_dd2a9d4275ad40c2.jpeg 1024w"
+	loading="lazy"
+	
+		alt="画像5"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="118"
+		data-flex-basis="284px"
+	
+></p>
+<p>「一見コミカルに見える一連の顔も、すべて数値データの違いから生成されています。『笑顔』『無表情』『困り顔』がデータの分布を映し出しているのです。」</p>
+<h2 id="図版をどう読み解くか観察のポイント">図版をどう読み解くか（観察のポイント）
+</h2><p>チャーノフの顔を眺めるときには、いくつかの視点を持っておくと理解しやすくなります。</p>
+<ul>
+<li>全体の雰囲気を見る
+まず「画像2」のような大量の顔の並びでは、細部よりも全体的な印象を重視します。似た表情が集まっている場所は、データ上でも類似性が高いグループと考えられます。</li>
+<li>外れ値に注目する
+「画像3」のように多くが似たような表情をしている中で、一部だけ極端に違う顔があれば、それは外れ値や特徴的なデータです。</li>
+<li>部位ごとの差異を探す
+「画像4」に示されるように、眉や口といった部位が強調されると、顔全体の印象が大きく変わります。どの変数をどの部位に割り当てたかを意識して観察することで、表情の違いを数値の違いに結びつけられます。</li>
+<li>感情的な読み取りに注意する
+「画像5」のように笑顔や困り顔に見える場合、それはデータそのものというより、人間の感情連想による解釈です。可視化として使うときには「意図せぬバイアスを招く可能性がある」点を忘れてはいけません。</li>
+</ul>
+<p>このように、群化・外れ値・部位の強調・感情連想という4つの観点で観察すると、チャーノフの顔の図版をより深く味わえます。</p>
+<h2 id="面白さと落とし穴">面白さと落とし穴
+</h2><p>この方法にはユニークさと同時に、いくつかの弱点もあります。</p>
+<ul>
+<li>主観的：どの変数をどのパーツに割り当てるかで顔の印象は大きく変わる。</li>
+<li>正確さに欠ける：目の大きさや口の曲線を定量的に比較するのは難しい。棒グラフほどの厳密さはない。</li>
+<li>感情を帯びやすい：口が下がっている顔は「悲しい」と感じるなど、データに関係ない印象が入り込む。</li>
+</ul>
+<h2 id="今も生きているアイデア">今も生きているアイデア
+</h2><p>チャーノフの顔は、のちに「非対称顔」や「魚」などさまざまに発展しました。現在では、RやPythonのライブラリで簡単に描けますし、D3.jsを使えばWeb上でも再現できます。
+また、SF小説の中で未来的なデータ表現として登場することもあり、この発想のユーモラスさと哲学性は今も人々を魅了しています。</p>
+<h2 id="まとめ">まとめ
+</h2><p>チャーノフの論文は、</p>
+<ul>
+<li>「数字を顔にする」という大胆な発想</li>
+<li>人間の認知特性をうまく利用した工夫</li>
+<li>今なお語られるユニークなビジュアライゼーション</li>
+</ul>
+<p>ということを提示しました。
+万能な方法ではありませんが、「データをどう“顔”として読むか」という問いは、50年以上経った今もデータ可視化の世界に示唆を与え続けています。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/mit-media-lab-logo-2011/">
+        
+        
+            <div class="article-image">
+                <img src="/mit-media-lab-logo-2011/images/mit_logocolorvariations_logomain_014.7d433a78fb11e8bcffa39f1182b05202_hu_e42057eb4467553d.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」"
+                        data-key="mit-media-lab-logo-2011" 
+                        data-hash="md5-fUM6ePsR6Lz/o58RgrBSAg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/provisional-inundation-depth-map/">
+        
+        
+            <div class="article-image">
+                <img src="/provisional-inundation-depth-map/images/provisional-inundation-depth-map.62bd7dbb332f4055d863c9c380796bae_hu_e99fe38bb89f4885.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法"
+                        data-key="provisional-inundation-depth-map" 
+                        data-hash="md5-Yr19uzMvQFXYY8nDgHlrrg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/spiralling-global-temperatures/">
+        
+        
+            <div class="article-image">
+                <img src="/spiralling-global-temperatures/images/cover-spiralling.de034ca4fce105d7fefccc5df943bb44_hu_23254f753230efec.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡"
+                        data-key="spiralling-global-temperatures" 
+                        data-hash="md5-3gNMpPzhBdf&#43;/Mxd&#43;UO7RA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">気温スパイラルが見せる地球温暖化の軌跡</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/data-humanity/">
+        
+        
+            <div class="article-image">
+                <img src="/data-humanity/images/dvj2019_yazaki.3b896a7270ed7a5f848252a245342a82_hu_da4fc736403ff315.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 残された我々のための「データ・ヒューマニティ」"
+                        data-key="data-humanity" 
+                        data-hash="md5-O4lqcnDtel&#43;EglKiRTQqgg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">残された我々のための「データ・ヒューマニティ」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/world-gov-infoviz-report/">
+        
+        
+            <div class="article-image">
+                <img src="/world-gov-infoviz-report/images/gov_viz.a9e6c2b378ed3cf589e29e105caaa333_hu_6ed7c8b36d7870d7.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 世界の行政機関 情報可視化 事例"
+                        data-key="world-gov-infoviz-report" 
+                        data-hash="md5-qebCs3jtPPWJ4p4QXKqjMw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">世界の行政機関 情報可視化 事例</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
