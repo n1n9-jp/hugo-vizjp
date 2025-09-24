@@ -156,6 +156,110 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</title>
+        <link>http://localhost:1313/provisional-inundation-depth-map/</link>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/provisional-inundation-depth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
+&lt;p&gt;このとき国土地理院の職員が着目したのが SNSに投稿された被災現場の写真や映像 でした。市民が投稿した画像から水際の位置を特定し、航空レーザ測量による標高データ（5m DEM）と組み合わせることで、浸水範囲と水深を即座に推定。こうして試作されたのが 「浸水推定段彩図（速報版）」 です ￼。&lt;/p&gt;
+&lt;p&gt;7月7日に作成され、翌8日には関係機関に提供、9日には非常災害対策本部で水害対応の判断資料として使われました。そして10日には国土地理院ウェブサイトで一般公開されます。
+これはトップダウンの指示ではなく、&lt;strong&gt;現場職員のアイデアから始まった「ボトムアップの挑戦」&lt;/strong&gt; でした。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png&#34;
+	width=&#34;780&#34;
+	height=&#34;540&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_9e33b96cdee4c980.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_caa49b50920509c0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;平成30年7月豪雨による倉敷市真備町周辺浸水推定段彩図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;従来手法と速報版--補完的な位置づけ&#34;&gt;従来手法と速報版 ― 補完的な位置づけ
+&lt;/h2&gt;&lt;p&gt;従来の浸水把握には、航空機による空撮や空中写真判読が使われてきました。これは浸水範囲を的確に捉える確実な方法ですが、発災直後には天候や飛行準備の制約から撮影まで時間がかかる場合があります。&lt;/p&gt;
+&lt;p&gt;この課題を補うために導入されたのが、SNS投稿＋標高データを活用する速報版でした。
+速報版は、現場の「いま」を迅速に把握するのに役立ち、その後に実施される空中写真や衛星画像、現地調査など他の手法とあわせて、被害の全体像を捉えるための重要な情報のひとつとなりました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C.png&#34;
+	width=&#34;1727&#34;
+	height=&#34;1639&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_6a7e4e67735866ec.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_735352aac9cc290a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;愛媛県肱川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C.png&#34;
+	width=&#34;1723&#34;
+	height=&#34;1479&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_2473a1ed660c622.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_a64bbf4f6bc6705c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;岡山県高梁川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;116&#34;
+		data-flex-basis=&#34;279px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;どうやって作られるのか&#34;&gt;どうやって作られるのか
+&lt;/h2&gt;&lt;p&gt;速報版の仕組みはシンプルですが、効果的でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;SNS画像の位置を特定&amp;hellip;投稿された写真の撮影地点をウェブ地図で同定し、水がどこまで達しているかを把握。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;水面標高を読み取る&amp;hellip;水際の標高をDEMから取得し、堤防ごとに異なる水位を複数計測。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;浸水範囲と水深を可視化&amp;hellip;水面標高より低い範囲を浸水域とし、標高差を水深として青の濃淡で表現。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;市民の一枚の写真が、地域全体の“面”の浸水状況へと変換される仕組みです。&lt;/p&gt;
+&lt;p&gt;一方で、空中写真を利用した手法は引き続き実施され、浸水痕跡から最大浸水範囲を把握するなど、より精度の高い情報を提供しました ￼。&lt;/p&gt;
+&lt;h2 id=&#34;実績としての速報性&#34;&gt;実績としての「速報性」
+&lt;/h2&gt;&lt;p&gt;国交省の白書でも、浸水推定図の速報性は高く評価されています。
+たとえば 令和2年7月豪雨 では、災害発生当日の 7月4日16時に第一報を公開。その後も追加の図を段階的に公開し、被災地の初動対応に役立ちました【国交省白書2021】。&lt;/p&gt;
+&lt;p&gt;この「数時間以内に浸水状況を可視化できる」という即時性は、従来の空中写真や現地調査では実現が難しかった点であり、浸水推定図の最大の特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;定着と現在&#34;&gt;定着と現在
+&lt;/h2&gt;&lt;p&gt;SNS投稿を利用した速報版は、その有効性がすぐに認められ、以後の災害でも繰り返し活用されるようになりました。
+現在では PDF・地理院タイル・GeoJSON として公開され、行政・報道・研究者・市民が自由に利用できる「水害可視化の共通基盤」となっています。&lt;/p&gt;
+&lt;p&gt;ここで重要なのは、浸水推定図が他の水害対策や調査手法を置き換えるものではないということです。
+むしろ、さまざまな手法のひとつとして組み合わされ、初動から復旧までの判断を支える存在になっているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;浸水推定図は、従来の確実な調査手法に新しく加わった“速報性重視のアプローチ”です。
+市民の発信と国が保有する地形データを組み合わせるという発想が、いまや災害対応の即時性を支える重要なツールとなりました。&lt;/p&gt;
+&lt;p&gt;その出発点には、公式手順の外から「やってみよう」と挑んだ職員の工夫と、市民が撮影した一枚の写真がありました。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/REPORT/JIHO/vol132-abst-05.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;吉田和樹: 平成30年7月豪雨における浸水推定段彩図の作成（国土地理院時報132号）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mlit.go.jp/hakusyo/mlit/r03/hakusho/r04/html/nj020c02.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国交省: 国土交通白書2021 コラム 水害発生時における浸水推定図の作成について&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/BOUSAI/H30.taihuu7gou.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 平成30年7月豪雨に関する情報&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.gsi.go.jp/development/ichiran.html#suisui?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 浸水推定図の地理院タイル一覧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/BOUSAI/index.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 防災関連情報（災害別ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>気温スパイラルが見せる地球温暖化の軌跡</title>
         <link>http://localhost:1313/spiralling-global-temperatures/</link>
         <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
