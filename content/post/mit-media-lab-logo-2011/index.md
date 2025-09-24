@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "MIT Media Lab 2011年ロゴ ― アルゴリズムでつくる「交差のデザイン」"
+title = "MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」"
 slug = "mit-media-lab-logo-2011"
 date = "2025-09-24"
 description = ""
