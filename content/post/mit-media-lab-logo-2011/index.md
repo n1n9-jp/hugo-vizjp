@@ -19,6 +19,7 @@ image = "images/mit_logocolorvariations_logomain_014.jpg"
 
 <!--more-->
 
+![](images/0000_00-2500x.jpg)
 
 ## コンセプト ― 「交差」が形を生む
 
