@@ -24,7 +24,7 @@ image = "images/cover-spiralling.png"
 
 ## Ed Hawkins の「Spiralling global temperatures」
 
-![Spiralling global temperatures](images/spiral2016.png)
+![Spiralling global temperatures](images/global_temperature_spiral_latest_large.gif)
 
 https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/
 
