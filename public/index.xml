@@ -8,6 +8,128 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>データ分析言語によるチャーノフの顔の実装</title>
+        <link>http://localhost:1313/chernoff-face-implementation/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/chernoff-face-implementation/</guid>
+        <description>&lt;img src="http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png" alt="Featured image of post データ分析言語によるチャーノフの顔の実装" /&gt;&lt;p&gt;データ分析言語であるPythonやRを用いて、チャーノフの顔が実装されているものを集めてみました。&lt;/p&gt;
+&lt;h2 id=&#34;python-matplotlib&#34;&gt;Python &amp;ldquo;Matplotlib&amp;rdquo;
+&lt;/h2&gt;&lt;h3 id=&#34;abraham-flaxman-氏による実装&#34;&gt;Abraham Flaxman 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/aflaxman/4043086&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces in Python with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png&#34;
+	width=&#34;871&#34;
+	height=&#34;867&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman_hu_c6888af26cbd598a.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman_hu_b351f2f9186369eb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tom-white-氏による実装&#34;&gt;Tom White 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/dribnet/e26f52f423f0656c1bb8fc6f4e741cc2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces in Python with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet.png&#34;
+	width=&#34;871&#34;
+	height=&#34;867&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet_hu_27353c63cc388417.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet_hu_2dffe31edd0c3de7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;data-science-topics-による実装&#34;&gt;Data Science Topics による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datascience.oneoffcoder.com/chernoff-faces.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces — Data Science Topics 0.0.1 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder.png&#34;
+	width=&#34;783&#34;
+	height=&#34;784&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder_hu_49421ca1c423286c.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder_hu_eba9345afea05d6b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;239px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;python-chernoffface&#34;&gt;Python &amp;ldquo;ChernoffFace&amp;rdquo;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pythonforprediction.wordpress.com/2022/12/25/facing-data-with-chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facing data with Chernoff faces | Python for Prediction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0.png&#34;
+	width=&#34;1900&#34;
+	height=&#34;1930&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0_hu_fd564b2854e6cc87.png 480w, http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0_hu_443bd379fd93c038.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;236px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-the-aplpack-package&#34;&gt;R the aplpack package
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
+	width=&#34;550&#34;
+	height=&#34;571&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1adb7a70c78b199c.png 480w, http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1a4e4d86335d2468.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;231px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-ggchernoff&#34;&gt;R ggChernoff
+&lt;/h2&gt;&lt;h3 id=&#34;david-selby-氏による実装&#34;&gt;David Selby 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://selbydavid.com/2017/06/25/ggchernoff/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff faces in ggplot2 · Tea &amp;amp; Stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Selbosh/ggChernoff&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Selbosh/ggChernoff: R package for drawing Chernoff faces in ggplot2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff.png&#34;
+	width=&#34;960&#34;
+	height=&#34;288&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff_hu_6896b2809d6b7ce3.png 480w, http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff_hu_8f57852b0754d55c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;333&#34;
+		data-flex-basis=&#34;800px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff.png&#34;
+	width=&#34;672&#34;
+	height=&#34;480&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff_hu_279b1fb25be455a.png 480w, http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff_hu_6035bbe325bc18c1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』</title>
         <link>http://localhost:1313/chernoff-face-on-map/</link>
         <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
