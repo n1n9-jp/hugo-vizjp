@@ -161,7 +161,7 @@
         <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/chernoff-face/</guid>
-        <description>&lt;img src="http://localhost:1313/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg" alt="Featured image of post データが「顔」に見える - チャーノフの顔という発想" /&gt;&lt;p&gt;1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは&lt;a class=&#34;link&#34; href=&#34;http://wexler.free.fr/library/files/chernoff%20%281973%29%20the%20use%20of%20faces%20to%20represent%20points%20in%20k-dimensional%20space%20graphically.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="http://localhost:1313/chernoff-face/images/cover.jpeg" alt="Featured image of post データが「顔」に見える - チャーノフの顔という発想" /&gt;&lt;p&gt;1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは&lt;a class=&#34;link&#34; href=&#34;http://wexler.free.fr/library/files/chernoff%20%281973%29%20the%20use%20of%20faces%20to%20represent%20points%20in%20k-dimensional%20space%20graphically.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「The Use of Faces to Represent Points in K-Dimensional Space Graphically」&lt;/a&gt;。
 直訳すれば「K次元空間の点を顔で表現する方法」です。&lt;/p&gt;
 &lt;h2 id=&#34;多次元データをどう見せるか&#34;&gt;多次元データをどう見せるか
@@ -218,36 +218,48 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;論文の図版と解説&#34;&gt;論文の図版と解説
 &lt;/h2&gt;&lt;p&gt;実際の論文には、チャーノフが生成した「顔の配列」が数多く掲載されています。どの変数をどのパーツに割り当てるかで、同じデータでもまったく違った印象の顔が並びます。&lt;/p&gt;
-&lt;h3 id=&#34;図1a&#34;&gt;図1A
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/fig1a.jpeg&#34;
-	width=&#34;1484&#34;
-	height=&#34;1203&#34;
-	srcset=&#34;http://localhost:1313/chernoff-face/images/fig1a_hu_aff3d41ba33f33d.jpeg 480w, http://localhost:1313/chernoff-face/images/fig1a_hu_3e78d90f4e620c23.jpeg 1024w&#34;
+&lt;h3 id=&#34;顔の表情からクラスターを見つける&#34;&gt;顔の表情からクラスターを見つける
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/fig1.png&#34;
+	width=&#34;2978&#34;
+	height=&#34;600&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/fig1_hu_5d9a4d48b54dba19.png 480w, http://localhost:1313/chernoff-face/images/fig1_hu_b8d9178a0afb4268.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;図1A&#34;
+		alt=&#34;図1&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;123&#34;
-		data-flex-basis=&#34;296px&#34;
+		data-flex-grow=&#34;496&#34;
+		data-flex-basis=&#34;1191px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;図1Aは、87個の化石標本（有孔虫）の多変量データを、その類似性に基づいて解析的に順序付けられた顔の表現として視覚化したものです。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;データの内容：&lt;/strong&gt; この図の元になっているのは、「化石データ」（Fossil Data）の事例です。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;標本の種類：&lt;/strong&gt; ジャマイカ北西部で採取された&lt;strong&gt;87個の有孔虫（Nummulited）の化石標本&lt;/strong&gt;の測定値が使われています。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;データの対応関係：&lt;/strong&gt; 各化石標本には6つの異なる測定値（変数 $Z_1$から$Z_6$）が割り当てられており、これらの数値が顔のさまざまな特徴 — たとえば &lt;strong&gt;鼻の長さや口の湾曲&lt;/strong&gt; —に対応付けられています。これにより &lt;strong&gt;すべての多変量観測値&lt;/strong&gt; が、一つの顔の形として捉えられます。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;可視化の目的と結果&#34;&gt;可視化の目的と結果
-&lt;/h2&gt;&lt;p&gt;多変量データは、数値の羅列ではその中に存在する複雑な関係性やパターンを理解するのが困難です。この「顔」の表現方法は、人間の心が持つ &lt;strong&gt;顔を識別し、感情的に反応する能力&lt;/strong&gt; を利用することを目的としています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;クラスター分析（集団の識別）：&lt;/strong&gt; この事例では、調査者はデータの中に &lt;strong&gt;類似した集団（クラスター）&lt;/strong&gt; が存在するかどうかに関心を持っていました。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;提示の工夫：&lt;/strong&gt; 図1Aに示されている87個の顔は、事前に解析技術によってデータが &lt;strong&gt;3つのグループ&lt;/strong&gt; に分類された後、その分類が明確になるように &lt;strong&gt;順序立てて提示されています&lt;/strong&gt; 。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;明らかな結果：&lt;/strong&gt; この配列のおかげで、顔の集合が&lt;strong&gt;3つの明確に異なる集団に分かれている&lt;/strong&gt;ことが「 &lt;strong&gt;一目で明らかである&lt;/strong&gt; (It is immediately obvious)」とされています。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;人間の認識能力の裏付け：&lt;/strong&gt; 実際にID番号を取り除いて一般の人々にこれらの顔の集まりを提示し、視覚的に分類させたところ &lt;strong&gt;ほとんどの人が分析結果と同じ集団を選択した&lt;/strong&gt; ことが確認されています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;この図は &lt;strong&gt;顔の形という直感的な情報&lt;/strong&gt; を通して、統計分析なしには見つけにくいデータの潜在的なパターン（集団の存在）を、人間が容易に検出できることを証明するための事例です。&lt;/p&gt;
+&lt;p&gt;統計学でいう「多変量データ」（一つの対象に複数の測定値があるデータ）は、数値の羅列になりがちです。この数値の海の中から、互いに似ているデータ群、つまり &lt;strong&gt;クラスター（集団）&lt;/strong&gt; を見つけ出すのは至難の業です。もしその複雑なデータを、私たちの脳が最も得意とする「 &lt;strong&gt;顔&lt;/strong&gt; 」の形として表現できたらどうでしょうか？&lt;/p&gt;
+&lt;p&gt;図1Aで示されているのは、ジャマイカ北西部から採取された &lt;strong&gt;87個の有孔虫（Nummulited）化石標本&lt;/strong&gt; のデータ（6つの異なる測定値）を顔に変換したものです。各化石が持つ6つの特性が、その顔のパーツの形や大きさに変換されています。&lt;/p&gt;
+&lt;p&gt;化石データに関心を持っていた調査者のタスクは &lt;strong&gt;「互いに似ている顔を単にグループ化する」&lt;/strong&gt; ことでした。図1Aに表示された87個の顔は、事前に解析技術によって &lt;strong&gt;3つの明確なクラスター&lt;/strong&gt; にグループ分けされた後、その分類が際立つように順序立てて提示されました。その結果、これらの顔の集まりが &lt;strong&gt;「一目瞭然に」3つの異なるクラスターに分かれている&lt;/strong&gt; ことが確認されました。&lt;/p&gt;
+&lt;p&gt;さらに興味深いのは、この顔の図を、データに関する事前情報やID番号を隠した状態で一般の人々に見せて、視覚的に分類してもらったところ &lt;strong&gt;ほとんどの人が統計解析と同じクラスターを選択した&lt;/strong&gt; という事実です。&lt;/p&gt;
+&lt;p&gt;これは、この「顔」の表現方法が、人間の心が持つ &lt;strong&gt;複雑な視覚現象の中から、重要ではないものをフィルタリングし、潜在的に重要な情報に焦点を当てる&lt;/strong&gt; という高い能力（高速度コンピューターのような働き）を活用していることを示しています。顔による表現は、クラスター分析の支援に非常に有効であるとしています。&lt;/p&gt;
+&lt;h3 id=&#34;顔の表情から時系列の変化を見つける&#34;&gt;顔の表情から時系列の変化を見つける
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/fig2.png&#34;
+	width=&#34;2257&#34;
+	height=&#34;684&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face/images/fig2_hu_501ef4518ae079bd.png 480w, http://localhost:1313/chernoff-face/images/fig2_hu_d63286f3cee36a01.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;図2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;329&#34;
+		data-flex-basis=&#34;791px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;データが時間の経過や物理的な距離に沿って連続している &lt;strong&gt;時系列データ&lt;/strong&gt; を扱う場合、私たちは「いつ、どこで、そのデータの特性が大きく変化したか」を知りたいと考えます。しかし、12もの変数が絡み合うような多次元の時系列データを数値で追いかけると、重要な変化の瞬間を見逃しがちです。ここで、「顔の表現」が強力なツールとなります。&lt;/p&gt;
+&lt;p&gt;図2に示されているのは「地質データ」の事例です。これは、コロラドの山腹から掘削された4,500フィートのコアから採取された &lt;strong&gt;53個の等間隔の標本&lt;/strong&gt; に基づいています。各標本は、7つの鉱物含有量やその再分析結果を含む &lt;strong&gt;12個の変数&lt;/strong&gt; を持っています。&lt;/p&gt;
+&lt;p&gt;53個の顔は、コアの順序（時系列順）で表示されています。調査者のタスクは &lt;strong&gt;「多変量確率過程が特性を変化させた時間点」&lt;/strong&gt; つまり顔の特性が変化した場所を特定することでした。&lt;/p&gt;
+&lt;p&gt;顔を順に見ていくと、標本 &lt;strong&gt;219&lt;/strong&gt; の後に一つの大きな変化が始まり、特に &lt;strong&gt;224から231&lt;/strong&gt; に対応する顔のグループが、他の顔とは &lt;strong&gt;「全く異なっている」&lt;/strong&gt; ことがわかります。&lt;/p&gt;
+&lt;p&gt;次に、標本 &lt;strong&gt;231から234&lt;/strong&gt; にかけて、別の大きな変化が進行していることも読み取れます。&lt;/p&gt;
+&lt;p&gt;そして &lt;strong&gt;235から252&lt;/strong&gt; のグループは、また　別の異なる特徴が示されています。&lt;/p&gt;
+&lt;p&gt;この12次元の時系列データに対して、もし従来の線形分析が適用されていたとしたら、顔を見ることで明確に観察できるこの種の現象が &lt;strong&gt;「覆い隠されてしまう可能性」&lt;/strong&gt; があることが示唆されています。人間が顔から直感的に得られる情報は、標準的なコンピュータープログラムに欠けている「柔軟性」を補い、重要な現象の検出を可能にする、としています。&lt;/p&gt;
 &lt;h2 id=&#34;面白さと落とし穴&#34;&gt;面白さと落とし穴
 &lt;/h2&gt;&lt;p&gt;この方法にはユニークさと同時に、いくつかの弱点もあります。&lt;/p&gt;
 &lt;ul&gt;

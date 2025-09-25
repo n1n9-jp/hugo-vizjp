@@ -10,10 +10,10 @@
 <meta property='og:description' content="1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは「The Use of Faces to Represent Points in K-Dimensional Space Graphically」。 直訳すれば「K次元空間の点を顔で表現する方法」です。\n">
 <meta property='og:url' content='http://localhost:1313/chernoff-face/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-24T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/chernoff-face/images/cover.jpeg' />
 <meta name="twitter:title" content="データが「顔」に見える - チャーノフの顔という発想">
 <meta name="twitter:description" content="1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは「The Use of Faces to Represent Points in K-Dimensional Space Graphically」。 直訳すれば「K次元空間の点を顔で表現する方法」です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1.jpeg' />
+    <meta name="twitter:image" content='http://localhost:1313/chernoff-face/images/cover.jpeg' />
     </head>
     <body class="
     article-page
@@ -370,10 +370,10 @@
     <li><a href="#顔の部位とデータの対応ルール">顔の部位とデータの対応ルール</a></li>
     <li><a href="#論文の図版と解説">論文の図版と解説</a>
       <ol>
-        <li><a href="#図1a">図1A</a></li>
+        <li><a href="#顔の表情からクラスターを見つける">顔の表情からクラスターを見つける</a></li>
+        <li><a href="#顔の表情から時系列の変化を見つける">顔の表情から時系列の変化を見つける</a></li>
       </ol>
     </li>
-    <li><a href="#可視化の目的と結果">可視化の目的と結果</a></li>
     <li><a href="#面白さと落とし穴">面白さと落とし穴</a></li>
     <li><a href="#まとめ">まとめ</a></li>
   </ol>
@@ -391,8 +391,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/chernoff-face/">
-                <img src="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_62fdce5c4eb5e43f.jpeg"
-                        srcset="/chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_62fdce5c4eb5e43f.jpeg 800w, /chernoff-face/images/%E7%94%BB%E5%83%8F4_fig2-1_hu_58881b9627c99d20.jpeg 1600w"
+                <img src="/chernoff-face/images/cover_hu_30c70a6ae86b73a7.jpeg"
+                        srcset="/chernoff-face/images/cover_hu_30c70a6ae86b73a7.jpeg 800w, /chernoff-face/images/cover_hu_320893fc9d26d609.jpeg 1600w"
                         width="800" 
                         height="380" 
                         loading="lazy"
@@ -524,36 +524,48 @@
 </table></div>
 <h2 id="論文の図版と解説">論文の図版と解説
 </h2><p>実際の論文には、チャーノフが生成した「顔の配列」が数多く掲載されています。どの変数をどのパーツに割り当てるかで、同じデータでもまったく違った印象の顔が並びます。</p>
-<h3 id="図1a">図1A
-</h3><p><img src="/chernoff-face/images/fig1a.jpeg"
-	width="1484"
-	height="1203"
-	srcset="/chernoff-face/images/fig1a_hu_aff3d41ba33f33d.jpeg 480w, /chernoff-face/images/fig1a_hu_3e78d90f4e620c23.jpeg 1024w"
+<h3 id="顔の表情からクラスターを見つける">顔の表情からクラスターを見つける
+</h3><p><img src="/chernoff-face/images/fig1.png"
+	width="2978"
+	height="600"
+	srcset="/chernoff-face/images/fig1_hu_5d9a4d48b54dba19.png 480w, /chernoff-face/images/fig1_hu_b8d9178a0afb4268.png 1024w"
 	loading="lazy"
 	
-		alt="図1A"
+		alt="図1"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="123"
-		data-flex-basis="296px"
+		data-flex-grow="496"
+		data-flex-basis="1191px"
 	
 ></p>
-<p>図1Aは、87個の化石標本（有孔虫）の多変量データを、その類似性に基づいて解析的に順序付けられた顔の表現として視覚化したものです。</p>
-<ul>
-<li><strong>データの内容：</strong> この図の元になっているのは、「化石データ」（Fossil Data）の事例です。</li>
-<li><strong>標本の種類：</strong> ジャマイカ北西部で採取された<strong>87個の有孔虫（Nummulited）の化石標本</strong>の測定値が使われています。</li>
-<li><strong>データの対応関係：</strong> 各化石標本には6つの異なる測定値（変数 $Z_1$から$Z_6$）が割り当てられており、これらの数値が顔のさまざまな特徴 — たとえば <strong>鼻の長さや口の湾曲</strong> —に対応付けられています。これにより <strong>すべての多変量観測値</strong> が、一つの顔の形として捉えられます。</li>
-</ul>
-<h2 id="可視化の目的と結果">可視化の目的と結果
-</h2><p>多変量データは、数値の羅列ではその中に存在する複雑な関係性やパターンを理解するのが困難です。この「顔」の表現方法は、人間の心が持つ <strong>顔を識別し、感情的に反応する能力</strong> を利用することを目的としています。</p>
-<ul>
-<li><strong>クラスター分析（集団の識別）：</strong> この事例では、調査者はデータの中に <strong>類似した集団（クラスター）</strong> が存在するかどうかに関心を持っていました。</li>
-<li><strong>提示の工夫：</strong> 図1Aに示されている87個の顔は、事前に解析技術によってデータが <strong>3つのグループ</strong> に分類された後、その分類が明確になるように <strong>順序立てて提示されています</strong> 。</li>
-<li><strong>明らかな結果：</strong> この配列のおかげで、顔の集合が<strong>3つの明確に異なる集団に分かれている</strong>ことが「 <strong>一目で明らかである</strong> (It is immediately obvious)」とされています。</li>
-<li><strong>人間の認識能力の裏付け：</strong> 実際にID番号を取り除いて一般の人々にこれらの顔の集まりを提示し、視覚的に分類させたところ <strong>ほとんどの人が分析結果と同じ集団を選択した</strong> ことが確認されています。</li>
-</ul>
-<p>この図は <strong>顔の形という直感的な情報</strong> を通して、統計分析なしには見つけにくいデータの潜在的なパターン（集団の存在）を、人間が容易に検出できることを証明するための事例です。</p>
+<p>統計学でいう「多変量データ」（一つの対象に複数の測定値があるデータ）は、数値の羅列になりがちです。この数値の海の中から、互いに似ているデータ群、つまり <strong>クラスター（集団）</strong> を見つけ出すのは至難の業です。もしその複雑なデータを、私たちの脳が最も得意とする「 <strong>顔</strong> 」の形として表現できたらどうでしょうか？</p>
+<p>図1Aで示されているのは、ジャマイカ北西部から採取された <strong>87個の有孔虫（Nummulited）化石標本</strong> のデータ（6つの異なる測定値）を顔に変換したものです。各化石が持つ6つの特性が、その顔のパーツの形や大きさに変換されています。</p>
+<p>化石データに関心を持っていた調査者のタスクは <strong>「互いに似ている顔を単にグループ化する」</strong> ことでした。図1Aに表示された87個の顔は、事前に解析技術によって <strong>3つの明確なクラスター</strong> にグループ分けされた後、その分類が際立つように順序立てて提示されました。その結果、これらの顔の集まりが <strong>「一目瞭然に」3つの異なるクラスターに分かれている</strong> ことが確認されました。</p>
+<p>さらに興味深いのは、この顔の図を、データに関する事前情報やID番号を隠した状態で一般の人々に見せて、視覚的に分類してもらったところ <strong>ほとんどの人が統計解析と同じクラスターを選択した</strong> という事実です。</p>
+<p>これは、この「顔」の表現方法が、人間の心が持つ <strong>複雑な視覚現象の中から、重要ではないものをフィルタリングし、潜在的に重要な情報に焦点を当てる</strong> という高い能力（高速度コンピューターのような働き）を活用していることを示しています。顔による表現は、クラスター分析の支援に非常に有効であるとしています。</p>
+<h3 id="顔の表情から時系列の変化を見つける">顔の表情から時系列の変化を見つける
+</h3><p><img src="/chernoff-face/images/fig2.png"
+	width="2257"
+	height="684"
+	srcset="/chernoff-face/images/fig2_hu_501ef4518ae079bd.png 480w, /chernoff-face/images/fig2_hu_d63286f3cee36a01.png 1024w"
+	loading="lazy"
+	
+		alt="図2"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="329"
+		data-flex-basis="791px"
+	
+></p>
+<p>データが時間の経過や物理的な距離に沿って連続している <strong>時系列データ</strong> を扱う場合、私たちは「いつ、どこで、そのデータの特性が大きく変化したか」を知りたいと考えます。しかし、12もの変数が絡み合うような多次元の時系列データを数値で追いかけると、重要な変化の瞬間を見逃しがちです。ここで、「顔の表現」が強力なツールとなります。</p>
+<p>図2に示されているのは「地質データ」の事例です。これは、コロラドの山腹から掘削された4,500フィートのコアから採取された <strong>53個の等間隔の標本</strong> に基づいています。各標本は、7つの鉱物含有量やその再分析結果を含む <strong>12個の変数</strong> を持っています。</p>
+<p>53個の顔は、コアの順序（時系列順）で表示されています。調査者のタスクは <strong>「多変量確率過程が特性を変化させた時間点」</strong> つまり顔の特性が変化した場所を特定することでした。</p>
+<p>顔を順に見ていくと、標本 <strong>219</strong> の後に一つの大きな変化が始まり、特に <strong>224から231</strong> に対応する顔のグループが、他の顔とは <strong>「全く異なっている」</strong> ことがわかります。</p>
+<p>次に、標本 <strong>231から234</strong> にかけて、別の大きな変化が進行していることも読み取れます。</p>
+<p>そして <strong>235から252</strong> のグループは、また　別の異なる特徴が示されています。</p>
+<p>この12次元の時系列データに対して、もし従来の線形分析が適用されていたとしたら、顔を見ることで明確に観察できるこの種の現象が <strong>「覆い隠されてしまう可能性」</strong> があることが示唆されています。人間が顔から直感的に得られる情報は、標準的なコンピュータープログラムに欠けている「柔軟性」を補い、重要な現象の検出を可能にする、としています。</p>
 <h2 id="面白さと落とし穴">面白さと落とし穴
 </h2><p>この方法にはユニークさと同時に、いくつかの弱点もあります。</p>
 <ul>
@@ -660,7 +672,7 @@
         
         
             <div class="article-image">
-                <img src="/spiralling-global-temperatures/images/cover-spiralling.de034ca4fce105d7fefccc5df943bb44_hu_23254f753230efec.png" 
+                <img src="/spiralling-global-temperatures/images/cover-spiralling.de034ca4fce105d7fefccc5df943bb44.de034ca4fce105d7fefccc5df943bb44_hu_23254f753230efec.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -684,7 +696,7 @@
         
         
             <div class="article-image">
-                <img src="/data-humanity/images/dvj2019_yazaki.3b896a7270ed7a5f848252a245342a82_hu_da4fc736403ff315.png" 
+                <img src="/data-humanity/images/dvj2019_yazaki.3b896a7270ed7a5f848252a245342a82.3b896a7270ed7a5f848252a245342a82_hu_da4fc736403ff315.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -708,7 +720,7 @@
         
         
             <div class="article-image">
-                <img src="/world-gov-infoviz-report/images/gov_viz.a9e6c2b378ed3cf589e29e105caaa333_hu_6ed7c8b36d7870d7.png" 
+                <img src="/world-gov-infoviz-report/images/gov_viz.a9e6c2b378ed3cf589e29e105caaa333.a9e6c2b378ed3cf589e29e105caaa333_hu_6ed7c8b36d7870d7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
