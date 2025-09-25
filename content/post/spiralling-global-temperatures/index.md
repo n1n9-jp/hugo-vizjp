@@ -105,8 +105,11 @@ https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate
 
 ### 拡張版（2016）
 
-![拡張版（2016）](images/gmst_tornado-2.png)
-![拡張版（2016）](images/gmst_tornado2_2016-1024x745.png)
+#### 三次元版
+
+![三次元版](images/gmst_tornado-2.png)
+
+![三次元版（アニメーション）](images/tornado2_spin.gif)
 
 https://www.climate-lab-book.ac.uk/spirals/
 
