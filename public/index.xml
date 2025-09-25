@@ -67,7 +67,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;python-chernoffface&#34;&gt;Python &amp;ldquo;ChernoffFace&amp;rdquo;
-&lt;/h2&gt;&lt;ul&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;anton-antonov-氏による実装&#34;&gt;Anton Antonov 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pythonforprediction.wordpress.com/2022/12/25/facing-data-with-chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Facing data with Chernoff faces | Python for Prediction&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -84,7 +85,14 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;r-the-aplpack-package&#34;&gt;R the aplpack package
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
+&lt;/h2&gt;&lt;h3 id=&#34;peter-wolf-氏による実装&#34;&gt;Peter Wolf 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://search.r-project.org/CRAN/refmans/aplpack/html/faces.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R: Chernoff Faces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/31/how-to-visualize-data-with-cartoonish-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;the aplpack (Another Plot Package) package by Peter Wolf.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
 	width=&#34;550&#34;
 	height=&#34;571&#34;
 	srcset=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1adb7a70c78b199c.png 480w, http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1a4e4d86335d2468.png 1024w&#34;
