@@ -7,7 +7,165 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』</title>
+        <link>http://localhost:1313/chernoff-face-on-map/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/chernoff-face-on-map/</guid>
+        <description>&lt;img src="http://localhost:1313/chernoff-face-on-map/images/lifeinla_cover.png" alt="Featured image of post 顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』" /&gt;&lt;p&gt;1970年代後半、カリフォルニア州立大学ノースリッジ校（CSUN）の地理学者 Eugene Turner は、社会経済データを可視化する独創的な地図作品 「Life in Los Angeles」 を発表しました。この作品は、統計学者 Herman Chernoff が提案した「チャーノフの顔」という手法を応用したもので、複雑な多変量データを「顔」の形や表情として表現したものです。&lt;/p&gt;
+&lt;h2 id=&#34;背景チャーノフの顔&#34;&gt;背景：チャーノフの顔
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-on-map/images/chernoff_original.jpeg&#34;
+	width=&#34;1600&#34;
+	height=&#34;760&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-on-map/images/chernoff_original_hu_d3ceafd43e27c1d8.jpeg 480w, http://localhost:1313/chernoff-face-on-map/images/chernoff_original_hu_a3664e255c757199.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チャーノフの顔&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;210&#34;
+		data-flex-basis=&#34;505px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;チャーノフは1973年の論文で「顔を用いた多次元データの表現法」を提案しました。人間は顔の微妙な違いを敏感に識別できるため、統計的なパターンを直感的に把握できるのではないか、という発想です。&lt;/p&gt;
+&lt;h2 id=&#34;turner-の作品life-in-los-angeles&#34;&gt;Turner の作品「Life in Los Angeles」
+&lt;/h2&gt;&lt;p&gt;ターナーはこのアイデアを地図に応用し、ロサンゼルス地域の生活状況を「顔」で表現しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-on-map/images/lifeinla.png&#34;
+	width=&#34;564&#34;
+	height=&#34;905&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-on-map/images/lifeinla_hu_675df4a4fdb4bce3.png 480w, http://localhost:1313/chernoff-face-on-map/images/lifeinla_hu_53563cff489a2e46.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Life in Los Angeles&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;62&#34;
+		data-flex-basis=&#34;149px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;制作年：1977年（ただし、文献によっては1979とされる）&lt;/li&gt;
+&lt;li&gt;データ年：1970年の調査結果に基づく（公式ギャラリーには “Life in LA 1970” と表記）&lt;/li&gt;
+&lt;li&gt;データ出典：Los Angeles Community Analysis Bureau, 1971 ￼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;実際の表現ルール凡例&#34;&gt;実際の表現ルール（凡例）
+&lt;/h2&gt;&lt;p&gt;この地図では以下の4変数が用いられました&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顔の形 → Affluence（裕福度）&lt;/li&gt;
+&lt;li&gt;口の曲線 → Unemployment Rate（失業率）&lt;/li&gt;
+&lt;li&gt;眉（または目の傾き） → Urban Stresses（都市ストレス）&lt;/li&gt;
+&lt;li&gt;顔の色 → Proportion White Population（白人比率）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;視覚要素&lt;/th&gt;
+          &lt;th&gt;変数&lt;/th&gt;
+          &lt;th&gt;値の対応&lt;/th&gt;
+          &lt;th&gt;表現&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の形&lt;/td&gt;
+          &lt;td&gt;Affluence（裕福度）&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;丸い顔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;中間の形&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;細長い顔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口&lt;/td&gt;
+          &lt;td&gt;Unemployment Rate（失業率）&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;笑顔（口角上がり）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;直線的な口&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;への字口（口角下がり）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目&lt;/td&gt;
+          &lt;td&gt;Urban Stresses（都市ストレス）&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;大きな丸い目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;普通の目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;半眼・小さい目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の色&lt;/td&gt;
+          &lt;td&gt;Proportion White Population（白人比率）&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;薄い黄色&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;中間色（薄い灰色）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;濃い灰色〜黒&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;ターナー自身の作品へのコメント&#34;&gt;ターナー自身の作品へのコメント
+&lt;/h2&gt;&lt;p&gt;ターナー自身はこの作品について「おそらく私が作った地図の中で最も興味深いものの一つだ。なぜなら表情がデータに感情的な結びつきを呼び起こすからだ」とコメントしています。&lt;/p&gt;
+&lt;h2 id=&#34;受容と意義&#34;&gt;受容と意義
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;この地図は 受賞作 として高く評価されました。&lt;/li&gt;
+&lt;li&gt;一方で、Chernoff Faces 手法そのものは「感情的に解釈されやすい」「誤読のリスクがある」として一般的には広まらず、今日ではやや忘れられた存在になっています。&lt;/li&gt;
+&lt;li&gt;しかし教育や研究の現場では、複雑な社会現象を直感的に伝える試みとして参照され続けています。実際に Spinelli &amp;amp; Zhou (2004) は授業プロジェクトでこの手法を再利用し、学生に「Quality of Life」を可視化させる教材として活用しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに
+&lt;/h2&gt;&lt;p&gt;ターナーの「Life in Los Angeles」は、「人間の顔」という象徴的なモチーフを導入した実験的作品です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mapdesign.icaci.org/2014/12/mapcarte-353365-life-in-los-angeles-by-eugene-turner-1977/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MapCarte 353/365: Life in Los Angeles by Eugene Turner, 1977 – ICA Map Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bigthink.com/strange-maps/chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces: The data-rich maps that stare back at you – Big Think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.csun.edu/~hfgeg005/eturner/gallery.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;eturner Home Page – CSUN（公式ギャラリー）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dis.uniroma1.it/~santucci/InformationVisualization/Slides/References/MappingQualityLifeChernoffFaces.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapping Quality of Life with Chernoff Faces – Spinelli &amp;amp; Zhou (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」</title>
         <link>http://localhost:1313/mit-media-lab-logo-2011/</link>
         <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
