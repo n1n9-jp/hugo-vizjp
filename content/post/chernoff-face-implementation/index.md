@@ -48,7 +48,7 @@ image = "images/P_Matplotlib/aflaxman.png"
 
 ![](images/P_ChernoffFace/output_16_0.png)
 
-## R the aplpack package
+## R "the aplpack package"
 
 ### Peter Wolf 氏による実装
 
@@ -57,7 +57,7 @@ image = "images/P_Matplotlib/aflaxman.png"
 
 ![](images/R_aplpack/Chernoff-faces-with-state-names-550x571.png)
 
-## R ggChernoff
+## R "ggChernoff"
 
 ### David Selby 氏による実装
 
