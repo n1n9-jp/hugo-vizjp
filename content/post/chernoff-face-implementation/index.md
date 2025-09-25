@@ -42,11 +42,18 @@ image = "images/P_Matplotlib/aflaxman.png"
 
 ## Python "ChernoffFace"
 
+### Anton Antonov 氏による実装
+
 - [Facing data with Chernoff faces | Python for Prediction](https://pythonforprediction.wordpress.com/2022/12/25/facing-data-with-chernoff-faces/)
 
 ![](images/P_ChernoffFace/output_16_0.png)
 
 ## R the aplpack package
+
+### Peter Wolf 氏による実装
+
+- [R: Chernoff Faces](https://search.r-project.org/CRAN/refmans/aplpack/html/faces.html)
+- [the aplpack (Another Plot Package) package by Peter Wolf.](https://flowingdata.com/2010/08/31/how-to-visualize-data-with-cartoonish-faces/)
 
 ![](images/R_aplpack/Chernoff-faces-with-state-names-550x571.png)
 
