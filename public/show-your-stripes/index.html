@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。\n#ShowYourStripes 日本\n発案者はイギリス・レディング大学の気候科学者 Ed Hawkins。彼は「科学的なグラフは専門家には理解できても、一般の人々にとっては難しい」と感じ、色だけで理解できるシンプルなビジュアルを考案しました。\n">
+<title>#ShowYourStripes：気候変動を色で語る世界的キャンペーン</title>
+
+<link rel='canonical' href='http://localhost:1313/show-your-stripes/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="#ShowYourStripes：気候変動を色で語る世界的キャンペーン">
+<meta property='og:description' content="「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。\n#ShowYourStripes 日本\n発案者はイギリス・レディング大学の気候科学者 Ed Hawkins。彼は「科学的なグラフは専門家には理解できても、一般の人々にとっては難しい」と感じ、色だけで理解できるシンプルなビジュアルを考案しました。\n">
+<meta property='og:url' content='http://localhost:1313/show-your-stripes/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-25T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-25T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png' />
+<meta name="twitter:title" content="#ShowYourStripes：気候変動を色で語る世界的キャンペーン">
+<meta name="twitter:description" content="「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。\n#ShowYourStripes 日本\n発案者はイギリス・レディング大学の気候科学者 Ed Hawkins。彼は「科学的なグラフは専門家には理解できても、一般の人々にとっては難しい」と感じ、色だけで理解できるシンプルなビジュアルを考案しました。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#ビジュアルの仕組み">ビジュアルの仕組み</a></li>
+    <li><a href="#世界共通ルールと地域差">世界共通ルールと地域差</a>
+      <ol>
+        <li><a href="#共通するルール">共通するルール</a></li>
+        <li><a href="#地域ごとに異なる点">地域ごとに異なる点</a></li>
+      </ol>
+    </li>
+    <li><a href="#データと色スケールの仕組み">データと色スケールの仕組み</a></li>
+    <li><a href="#論文図版に見る多様な展開">論文図版に見る多様な展開</a>
+      <ol>
+        <li><a href="#図1全球平均のストライプと従来型グラフ">図1：全球平均のストライプと従来型グラフ</a></li>
+        <li><a href="#図2大気の鉛直層と海洋深度別のストライプ">図2:大気の鉛直層と海洋深度別のストライプ</a></li>
+        <li><a href="#図3過去2024年間の気温とco濃度">図3:過去2024年間の気温とCO₂濃度</a></li>
+        <li><a href="#図4未来シナリオを加えた-warning-stripes">図4:未来シナリオを加えた “Warning Stripes”</a></li>
+        <li><a href="#補足公式サイト仕様との整合性について">補足：公式サイト仕様との整合性について</a></li>
+      </ol>
+    </li>
+    <li><a href="#キャンペーンとしての展開">キャンペーンとしての展開</a></li>
+    <li><a href="#意義と課題">意義と課題</a>
+      <ol>
+        <li><a href="#意義強み">意義・強み</a></li>
+        <li><a href="#課題注意点">課題・注意点</a></li>
+      </ol>
+    </li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考リンク">参考リンク</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/show-your-stripes/">
+                <img src="/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_441d6b8f5954ab46.png"
+                        srcset="/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_441d6b8f5954ab46.png 800w, /show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_51a470dc492a8ba0.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post #ShowYourStripes：気候変動を色で語る世界的キャンペーン" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/show-your-stripes/">#ShowYourStripes：気候変動を色で語る世界的キャンペーン</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 25, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。</p>
+<p><img src="/show-your-stripes/images/showyourstripes.info.png"
+	width="3322"
+	height="1894"
+	srcset="/show-your-stripes/images/showyourstripes.info_hu_3138ce07bf77b73.png 480w, /show-your-stripes/images/showyourstripes.info_hu_ccca531f60014b50.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="420px"
+	
+></p>
+<p><a class="link" href="https://showyourstripes.info/s/asia/japan/all"  target="_blank" rel="noopener"
+    >#ShowYourStripes 日本</a></p>
+<p>発案者はイギリス・レディング大学の気候科学者 Ed Hawkins。彼は「科学的なグラフは専門家には理解できても、一般の人々にとっては難しい」と感じ、色だけで理解できるシンプルなビジュアルを考案しました。</p>
+<h2 id="ビジュアルの仕組み">ビジュアルの仕組み
+</h2><p>公式のルールに基づき、ストライプは次のように作られます。</p>
+<ul>
+<li>
+<ol>
+<li>各ストライプは1年を表す</li>
+</ol>
+<ul>
+<li>左から右へ時間が進み、右端が最新の年。</li>
+</ul>
+</li>
+<li>
+<ol start="2">
+<li>基準期間（1961–2010年）を設定する</li>
+</ol>
+<ul>
+<li>各年の年平均気温と基準平均を比べ、偏差（アノマリー）を計算。</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>色の方向&hellip;</li>
+</ol>
+<ul>
+<li>基準より寒い年（偏差が負） → 青系</li>
+<li>基準より暖かい年（偏差が正） → 赤系</li>
+</ul>
+</li>
+<li>
+<ol start="4">
+<li>色の濃淡</li>
+</ol>
+<ul>
+<li>偏差が大きいほど濃く、偏差が小さいほど淡く表現。</li>
+</ul>
+</li>
+<li>
+<ol start="5">
+<li>デザイン原則</li>
+</ol>
+<ul>
+<li>目盛や数値は排除し、色の変化だけでメッセージを伝える。</li>
+</ul>
+</li>
+</ul>
+<p>これにより、誰が見ても「最近の年は赤くなっている＝温暖化が進んでいる」と直感的に理解できます。</p>
+<h2 id="世界共通ルールと地域差">世界共通ルールと地域差
+</h2><h3 id="共通するルール">共通するルール
+</h3><ul>
+<li>各年を1本の縞で表現</li>
+<li>基準は1961–2010年平均</li>
+<li>青＝寒い、赤＝暖かい</li>
+<li>偏差が大きいほど色が濃い</li>
+<li>ミニマルデザインで色だけを提示</li>
+</ul>
+<h3 id="地域ごとに異なる点">地域ごとに異なる点
+</h3><ul>
+<li>色スケールの調整：国や地域ごとに気温変動の幅が異なるため、赤や青の最大偏差レンジは地域別に設定。</li>
+<li>比較の制約：同じ「赤」でも地域間で温度差の意味が違うため、地域ごとのストライプを直接比較することはできない。</li>
+<li>データ特性：都市や県レベルでは年ごとの気象変動が大きく、気候トレンドよりノイズが目立ちやすい。</li>
+<li>拡張：地球全体版では地表気温を扱うが、海洋や大気、成層圏などのストライプも作られている。</li>
+</ul>
+<h2 id="データと色スケールの仕組み">データと色スケールの仕組み
+</h2><p>ストライプの背景には、統一されたデータソースと色変換ルールがあります。多くの国では Berkeley Earth データ（～2023年）と ERA5-Land（2024年）が使われ、一部の国では気象当局の観測値が参照されます。世界平均には HadCRUT5.0 が用いられます。</p>
+<p>色変換の基準は「1961–2010年平均気温」で、これを青と赤の境界に設定します。その上で、1901–2000年の年平均から算出した標準偏差 ±3.0σ の範囲を色スケールとし、偏差が大きいほど濃い色、小さいほど淡い色になります。世界版のみは −0.9℃〜+0.9℃ をスケールとした特別仕様です。</p>
+<p>この方式について、Hawkins らの査読論文（Bulletin of the American Meteorological Society, 2025）は「科学的に正確でありながら、社会に直感的に伝わるデザイン手法」と位置づけています。つまり、ストライプは「気候変動を議論するための共通のビジュアル言語」なのです。</p>
+<h2 id="論文図版に見る多様な展開">論文図版に見る多様な展開
+</h2><p>Ed Hawkins らによる査読論文 “Warming Stripes Spark Climate Conversations” では、ストライプの多様な使われ方を 図1〜4 で示しています。</p>
+<h3 id="図1全球平均のストライプと従来型グラフ">図1：全球平均のストライプと従来型グラフ
+</h3><p><img src="/show-your-stripes/images/paper-fig-1.jpeg"
+	width="1016"
+	height="786"
+	srcset="/show-your-stripes/images/paper-fig-1_hu_f2128063efcd4d6e.jpeg 480w, /show-your-stripes/images/paper-fig-1_hu_2ed99ca53581088a.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="310px"
+	
+></p>
+<ul>
+<li>データ：HadCRUT5</li>
+<li>上段：1961–2010基準のストライプ</li>
+<li>下段：1850–1900相対の折れ線（不確実性込み）</li>
+<li>意義：全球温暖化を最もシンプルに示す象徴的図版</li>
+</ul>
+<h3 id="図2大気の鉛直層と海洋深度別のストライプ">図2:大気の鉛直層と海洋深度別のストライプ
+</h3><p><img src="/show-your-stripes/images/paper-fig-2.jpeg"
+	width="1020"
+	height="1014"
+	srcset="/show-your-stripes/images/paper-fig-2_hu_ffd95f19511aa762.jpeg 480w, /show-your-stripes/images/paper-fig-2_hu_acbcb80edd4ce5db.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="241px"
+	
+></p>
+<ul>
+<li>期間：地表・海洋（1960–2024）、大気（1979–2024）</li>
+<li>基準：1981–2010</li>
+<li>意義：対流圏は顕著に赤化、成層圏は青化、海洋は深部まで温暖化の進行を可視化</li>
+</ul>
+<h3 id="図3過去2024年間の気温とco濃度">図3:過去2024年間の気温とCO₂濃度
+</h3><p><img src="/show-your-stripes/images/paper-fig-3.jpeg"
+	width="1018"
+	height="563"
+	srcset="/show-your-stripes/images/paper-fig-3_hu_bf5a692dd891c502.jpeg 480w, /show-your-stripes/images/paper-fig-3_hu_8cce60f0065aacd.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="180"
+		data-flex-basis="433px"
+	
+></p>
+<ul>
+<li>データ：PAGES2k（1–2000年）＋HadCRUT5（2001–2024年）</li>
+<li>黒線：大気中CO₂濃度</li>
+<li>意義：近年の急激な温暖化が歴史的に例外的であることを示す</li>
+</ul>
+<h3 id="図4未来シナリオを加えた-warning-stripes">図4:未来シナリオを加えた “Warning Stripes”
+</h3><p><img src="/show-your-stripes/images/paper-fig-4.jpeg"
+	width="1025"
+	height="572"
+	srcset="/show-your-stripes/images/paper-fig-4_hu_cda88b4e650dbe77.jpeg 480w, /show-your-stripes/images/paper-fig-4_hu_917e72bd1d2ff74b.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="179"
+		data-flex-basis="430px"
+	
+></p>
+<ul>
+<li>観測（1850–2024）＋将来（2025–90）</li>
+<li>シナリオ：SSP1-1.9（迅速削減）／SSP2-4.5（遅延）</li>
+<li>意義：私たちの選択次第で「未来の色」が大きく異なることを提示</li>
+</ul>
+<h3 id="補足公式サイト仕様との整合性について">補足：公式サイト仕様との整合性について
+</h3><p>ここで紹介した論文の図版1〜4は、それぞれに異なる基準期間や色スケールが用いられています。たとえば、図2は 1981–2010年平均を基準にしていますが、公式サイト ShowYourStripes.info の国・都市版ストライプは、1961–2010年平均を青赤境界とし、1901–2000年の標準偏差 ±3.0σ をスケールに設定しています。全球版は特例で −0.9℃〜+0.9℃ の固定スケールです。つまり、公式配布のグラフィックと論文掲載の図版は同じ思想に基づきつつ、研究目的ごとに基準が異なる点に注意が必要です。</p>
+<h2 id="キャンペーンとしての展開">キャンペーンとしての展開
+</h2><ul>
+<li>2019年に ShowYourStripes.info が公開され、世界中の地域別ストライプが自由にダウンロード可能になりました。</li>
+<li>毎年6月21日（夏至の日）は「Show Your Stripes Day」。世界各地で人々がSNSにストライプ画像を投稿し、橋や建物をストライプ色でライトアップするなどの活動が広がっています。</li>
+<li>世界気象機関（WMO）をはじめ、多くの研究機関や気象局がこのキャンペーンを支持。報告書や広報活動にもストライプが使われています。</li>
+</ul>
+<p><img src="/show-your-stripes/images/showyourstripes_showcase.png"
+	width="3322"
+	height="1894"
+	srcset="/show-your-stripes/images/showyourstripes_showcase_hu_fa9fa65cf191a346.png 480w, /show-your-stripes/images/showyourstripes_showcase_hu_119cffecccbdd51e.png 1024w"
+	loading="lazy"
+	
+		alt="#ShowYourStripes の広がり"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="420px"
+	
+></p>
+<h2 id="意義と課題">意義と課題
+</h2><p><img src="/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png"
+	width="3780"
+	height="2126"
+	srcset="/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_589f283ceacb0aff.png 480w, /show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_16a07f1ff7706300.png 1024w"
+	loading="lazy"
+	
+		alt="#ShowYourStripes"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<h3 id="意義強み">意義・強み
+</h3><ul>
+<li>複雑なグラフを排し、誰でも直感的に理解できる。</li>
+<li>青と赤というシンプルな対比で、長期的な温暖化傾向を強調できる。</li>
+<li>各地域のストライプが存在するため、「自分の町でも温暖化している」という実感を与えやすい。</li>
+<li>SNS時代に合った共有・拡散可能なデザイン。</li>
+</ul>
+<h3 id="課題注意点">課題・注意点
+</h3><ul>
+<li>地域ごとに色スケールが異なるため、地域間比較には不向き。</li>
+<li>単純化されているため、「なぜ温暖化が進んでいるのか」「今後どうなるのか」といった詳細までは示さない。</li>
+<li>小地域版では気候変動より年ごとのノイズが強調されることがある。</li>
+<li>色覚多様性への配慮（赤緑色覚など）が課題として残る。</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>#ShowYourStripes は、科学とデザインを融合した革新的なキャンペーンです。
+共通ルールによって世界的な一貫性を保ちつつ、地域ごとに調整されたストライプは「身近な気候変動」を感じる入り口となります。</p>
+<p>単純であるがゆえに強いインパクトを持つこのビジュアルは、気候変動についての会話を始めるためのきっかけとして、これからも広がっていくでしょう。</p>
+<h2 id="参考リンク">参考リンク
+</h2><ul>
+<li><a class="link" href="https://showyourstripes.info/"  target="_blank" rel="noopener"
+    >ShowYourStripes.info（公式サイト）</a></li>
+<li><a class="link" href="https://www.reading.ac.uk/planet/climate-resources/climate-stripes"  target="_blank" rel="noopener"
+    >University of Reading: Climate Stripes</a></li>
+<li><a class="link" href="https://wmo.int/site/science-action/warming-stripes"  target="_blank" rel="noopener"
+    >WMO: Warming Stripes</a></li>
+<li><a class="link" href="https://www.reading.ac.uk/news/2025/Research-News/Climate-stripes-expand-to-show-warming-oceans-and-atmosphere"  target="_blank" rel="noopener"
+    >Reading News: Climate stripes expand to show warming oceans and atmosphere</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face-on-map/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face-on-map/images/lifeinla_cover.88170a31c6c6e5d13565ccb5e1e380fe_hu_d6a8fa26264810c8.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』"
+                        data-key="chernoff-face-on-map" 
+                        data-hash="md5-iBcKMcbG5dE1Zcy14eOA/g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mit-media-lab-logo-2011/">
+        
+        
+            <div class="article-image">
+                <img src="/mit-media-lab-logo-2011/images/mit_logocolorvariations_logomain_014.7d433a78fb11e8bcffa39f1182b05202_hu_e42057eb4467553d.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」"
+                        data-key="mit-media-lab-logo-2011" 
+                        data-hash="md5-fUM6ePsR6Lz/o58RgrBSAg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face/images/cover.236c2f6c3ff15f9be3059c842556680a_hu_40a2271b0d1f38ec.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データが「顔」に見える - チャーノフの顔という発想"
+                        data-key="chernoff-face" 
+                        data-hash="md5-I2wvbD/xX5vjBZyEJVZoCg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データが「顔」に見える - チャーノフの顔という発想</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/provisional-inundation-depth-map/">
+        
+        
+            <div class="article-image">
+                <img src="/provisional-inundation-depth-map/images/provisional-inundation-depth-map.62bd7dbb332f4055d863c9c380796bae_hu_e99fe38bb89f4885.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法"
+                        data-key="provisional-inundation-depth-map" 
+                        data-hash="md5-Yr19uzMvQFXYY8nDgHlrrg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/spiralling-global-temperatures/">
+        
+        
+            <div class="article-image">
+                <img src="/spiralling-global-temperatures/images/cover-spiralling.de034ca4fce105d7fefccc5df943bb44_hu_23254f753230efec.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡"
+                        data-key="spiralling-global-temperatures" 
+                        data-hash="md5-3gNMpPzhBdf&#43;/Mxd&#43;UO7RA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">気温スパイラルが見せる地球温暖化の軌跡</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
