@@ -4,7 +4,7 @@ baseURL: https://visualizing.jp
 languageCode: ja-jp
 theme: hugo-theme-stack
 pagination:
-    pagerSize: 3
+    pagerSize: 5
 title: Visualizing.JP
 copyright: Yuichi Yazaki
 
