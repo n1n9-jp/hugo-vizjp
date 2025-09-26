@@ -115,3 +115,8 @@ Visit Nordkyn の動的ロゴは、単なる視覚的な記号から抜け出し
 
 一方で、実運用や普及に際しては、識別性、一貫性、コスト、理解促進といった課題と向き合わなければなりません。しかし、こうしたチャレンジを経て得られる「生きて変わるブランド体験」は、今後のブランディングの新たな方向性を指し示すものとなるでしょう。
 
+
+## 参考・出典
+
+- [About - Visit Nordkyn](https://visitnordkyn.com/About)
+- [Neue Design Studio - Visit Nordkyn](https://neue.no/work/visit-nordkyn/)
