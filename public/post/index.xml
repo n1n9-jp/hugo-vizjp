@@ -7,7 +7,635 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>#ShowYourStripes：気候変動を色で語る世界的キャンペーン</title>
+        <link>http://localhost:1313/show-your-stripes/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/show-your-stripes/</guid>
+        <description>&lt;img src="http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png" alt="Featured image of post #ShowYourStripes：気候変動を色で語る世界的キャンペーン" /&gt;&lt;p&gt;「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/showyourstripes.info.png&#34;
+	width=&#34;3322&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/showyourstripes.info_hu_3138ce07bf77b73.png 480w, http://localhost:1313/show-your-stripes/images/showyourstripes.info_hu_ccca531f60014b50.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://showyourstripes.info/s/asia/japan/all&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;#ShowYourStripes 日本&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;発案者はイギリス・レディング大学の気候科学者 Ed Hawkins。彼は「科学的なグラフは専門家には理解できても、一般の人々にとっては難しい」と感じ、色だけで理解できるシンプルなビジュアルを考案しました。&lt;/p&gt;
+&lt;h2 id=&#34;ビジュアルの仕組み&#34;&gt;ビジュアルの仕組み
+&lt;/h2&gt;&lt;p&gt;公式のルールに基づき、ストライプは次のように作られます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;各ストライプは1年を表す&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;左から右へ時間が進み、右端が最新の年。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;基準期間（1961–2010年）を設定する&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;各年の年平均気温と基準平均を比べ、偏差（アノマリー）を計算。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;色の方向&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;基準より寒い年（偏差が負） → 青系&lt;/li&gt;
+&lt;li&gt;基準より暖かい年（偏差が正） → 赤系&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;色の濃淡&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;偏差が大きいほど濃く、偏差が小さいほど淡く表現。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;デザイン原則&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;目盛や数値は排除し、色の変化だけでメッセージを伝える。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、誰が見ても「最近の年は赤くなっている＝温暖化が進んでいる」と直感的に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;世界共通ルールと地域差&#34;&gt;世界共通ルールと地域差
+&lt;/h2&gt;&lt;h3 id=&#34;共通するルール&#34;&gt;共通するルール
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;各年を1本の縞で表現&lt;/li&gt;
+&lt;li&gt;基準は1961–2010年平均&lt;/li&gt;
+&lt;li&gt;青＝寒い、赤＝暖かい&lt;/li&gt;
+&lt;li&gt;偏差が大きいほど色が濃い&lt;/li&gt;
+&lt;li&gt;ミニマルデザインで色だけを提示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;地域ごとに異なる点&#34;&gt;地域ごとに異なる点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;色スケールの調整：国や地域ごとに気温変動の幅が異なるため、赤や青の最大偏差レンジは地域別に設定。&lt;/li&gt;
+&lt;li&gt;比較の制約：同じ「赤」でも地域間で温度差の意味が違うため、地域ごとのストライプを直接比較することはできない。&lt;/li&gt;
+&lt;li&gt;データ特性：都市や県レベルでは年ごとの気象変動が大きく、気候トレンドよりノイズが目立ちやすい。&lt;/li&gt;
+&lt;li&gt;拡張：地球全体版では地表気温を扱うが、海洋や大気、成層圏などのストライプも作られている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;データと色スケールの仕組み&#34;&gt;データと色スケールの仕組み
+&lt;/h2&gt;&lt;p&gt;ストライプの背景には、統一されたデータソースと色変換ルールがあります。多くの国では Berkeley Earth データ（～2023年）と ERA5-Land（2024年）が使われ、一部の国では気象当局の観測値が参照されます。世界平均には HadCRUT5.0 が用いられます。&lt;/p&gt;
+&lt;p&gt;色変換の基準は「1961–2010年平均気温」で、これを青と赤の境界に設定します。その上で、1901–2000年の年平均から算出した標準偏差 ±3.0σ の範囲を色スケールとし、偏差が大きいほど濃い色、小さいほど淡い色になります。世界版のみは −0.9℃〜+0.9℃ をスケールとした特別仕様です。&lt;/p&gt;
+&lt;p&gt;この方式について、Hawkins らの査読論文（Bulletin of the American Meteorological Society, 2025）は「科学的に正確でありながら、社会に直感的に伝わるデザイン手法」と位置づけています。つまり、ストライプは「気候変動を議論するための共通のビジュアル言語」なのです。&lt;/p&gt;
+&lt;h2 id=&#34;論文図版に見る多様な展開&#34;&gt;論文図版に見る多様な展開
+&lt;/h2&gt;&lt;p&gt;Ed Hawkins らによる査読論文 “Warming Stripes Spark Climate Conversations” では、ストライプの多様な使われ方を 図1〜4 で示しています。&lt;/p&gt;
+&lt;h3 id=&#34;図1全球平均のストライプと従来型グラフ&#34;&gt;図1：全球平均のストライプと従来型グラフ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-1.jpeg&#34;
+	width=&#34;1016&#34;
+	height=&#34;786&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-1_hu_f2128063efcd4d6e.jpeg 480w, http://localhost:1313/show-your-stripes/images/paper-fig-1_hu_2ed99ca53581088a.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データ：HadCRUT5&lt;/li&gt;
+&lt;li&gt;上段：1961–2010基準のストライプ&lt;/li&gt;
+&lt;li&gt;下段：1850–1900相対の折れ線（不確実性込み）&lt;/li&gt;
+&lt;li&gt;意義：全球温暖化を最もシンプルに示す象徴的図版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;図2大気の鉛直層と海洋深度別のストライプ&#34;&gt;図2:大気の鉛直層と海洋深度別のストライプ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-2.jpeg&#34;
+	width=&#34;1020&#34;
+	height=&#34;1014&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-2_hu_ffd95f19511aa762.jpeg 480w, http://localhost:1313/show-your-stripes/images/paper-fig-2_hu_acbcb80edd4ce5db.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;期間：地表・海洋（1960–2024）、大気（1979–2024）&lt;/li&gt;
+&lt;li&gt;基準：1981–2010&lt;/li&gt;
+&lt;li&gt;意義：対流圏は顕著に赤化、成層圏は青化、海洋は深部まで温暖化の進行を可視化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;図3過去2024年間の気温とco濃度&#34;&gt;図3:過去2024年間の気温とCO₂濃度
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-3.jpeg&#34;
+	width=&#34;1018&#34;
+	height=&#34;563&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-3_hu_bf5a692dd891c502.jpeg 480w, http://localhost:1313/show-your-stripes/images/paper-fig-3_hu_8cce60f0065aacd.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データ：PAGES2k（1–2000年）＋HadCRUT5（2001–2024年）&lt;/li&gt;
+&lt;li&gt;黒線：大気中CO₂濃度&lt;/li&gt;
+&lt;li&gt;意義：近年の急激な温暖化が歴史的に例外的であることを示す&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;図4未来シナリオを加えた-warning-stripes&#34;&gt;図4:未来シナリオを加えた “Warning Stripes”
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-4.jpeg&#34;
+	width=&#34;1025&#34;
+	height=&#34;572&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/paper-fig-4_hu_cda88b4e650dbe77.jpeg 480w, http://localhost:1313/show-your-stripes/images/paper-fig-4_hu_917e72bd1d2ff74b.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;179&#34;
+		data-flex-basis=&#34;430px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;観測（1850–2024）＋将来（2025–90）&lt;/li&gt;
+&lt;li&gt;シナリオ：SSP1-1.9（迅速削減）／SSP2-4.5（遅延）&lt;/li&gt;
+&lt;li&gt;意義：私たちの選択次第で「未来の色」が大きく異なることを提示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;補足公式サイト仕様との整合性について&#34;&gt;補足：公式サイト仕様との整合性について
+&lt;/h3&gt;&lt;p&gt;ここで紹介した論文の図版1〜4は、それぞれに異なる基準期間や色スケールが用いられています。たとえば、図2は 1981–2010年平均を基準にしていますが、公式サイト ShowYourStripes.info の国・都市版ストライプは、1961–2010年平均を青赤境界とし、1901–2000年の標準偏差 ±3.0σ をスケールに設定しています。全球版は特例で −0.9℃〜+0.9℃ の固定スケールです。つまり、公式配布のグラフィックと論文掲載の図版は同じ思想に基づきつつ、研究目的ごとに基準が異なる点に注意が必要です。&lt;/p&gt;
+&lt;h2 id=&#34;キャンペーンとしての展開&#34;&gt;キャンペーンとしての展開
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2019年に ShowYourStripes.info が公開され、世界中の地域別ストライプが自由にダウンロード可能になりました。&lt;/li&gt;
+&lt;li&gt;毎年6月21日（夏至の日）は「Show Your Stripes Day」。世界各地で人々がSNSにストライプ画像を投稿し、橋や建物をストライプ色でライトアップするなどの活動が広がっています。&lt;/li&gt;
+&lt;li&gt;世界気象機関（WMO）をはじめ、多くの研究機関や気象局がこのキャンペーンを支持。報告書や広報活動にもストライプが使われています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/showyourstripes_showcase.png&#34;
+	width=&#34;3322&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/showyourstripes_showcase_hu_fa9fa65cf191a346.png 480w, http://localhost:1313/show-your-stripes/images/showyourstripes_showcase_hu_119cffecccbdd51e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;#ShowYourStripes の広がり&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;意義と課題&#34;&gt;意義と課題
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png&#34;
+	width=&#34;3780&#34;
+	height=&#34;2126&#34;
+	srcset=&#34;http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_589f283ceacb0aff.png 480w, http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK_hu_16a07f1ff7706300.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;#ShowYourStripes&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;意義強み&#34;&gt;意義・強み
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;複雑なグラフを排し、誰でも直感的に理解できる。&lt;/li&gt;
+&lt;li&gt;青と赤というシンプルな対比で、長期的な温暖化傾向を強調できる。&lt;/li&gt;
+&lt;li&gt;各地域のストライプが存在するため、「自分の町でも温暖化している」という実感を与えやすい。&lt;/li&gt;
+&lt;li&gt;SNS時代に合った共有・拡散可能なデザイン。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;課題注意点&#34;&gt;課題・注意点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;地域ごとに色スケールが異なるため、地域間比較には不向き。&lt;/li&gt;
+&lt;li&gt;単純化されているため、「なぜ温暖化が進んでいるのか」「今後どうなるのか」といった詳細までは示さない。&lt;/li&gt;
+&lt;li&gt;小地域版では気候変動より年ごとのノイズが強調されることがある。&lt;/li&gt;
+&lt;li&gt;色覚多様性への配慮（赤緑色覚など）が課題として残る。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;#ShowYourStripes は、科学とデザインを融合した革新的なキャンペーンです。
+共通ルールによって世界的な一貫性を保ちつつ、地域ごとに調整されたストライプは「身近な気候変動」を感じる入り口となります。&lt;/p&gt;
+&lt;p&gt;単純であるがゆえに強いインパクトを持つこのビジュアルは、気候変動についての会話を始めるためのきっかけとして、これからも広がっていくでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://showyourstripes.info/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ShowYourStripes.info（公式サイト）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reading.ac.uk/planet/climate-resources/climate-stripes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;University of Reading: Climate Stripes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wmo.int/site/science-action/warming-stripes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WMO: Warming Stripes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reading.ac.uk/news/2025/Research-News/Climate-stripes-expand-to-show-warming-oceans-and-atmosphere&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Reading News: Climate stripes expand to show warming oceans and atmosphere&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>データ分析言語によるチャーノフの顔の実装</title>
+        <link>http://localhost:1313/chernoff-face-implementation/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/chernoff-face-implementation/</guid>
+        <description>&lt;img src="http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png" alt="Featured image of post データ分析言語によるチャーノフの顔の実装" /&gt;&lt;p&gt;データ分析言語であるPythonやRを用いて、チャーノフの顔が実装されているものを集めてみました。&lt;/p&gt;
+&lt;h2 id=&#34;python-matplotlib&#34;&gt;Python &amp;ldquo;Matplotlib&amp;rdquo;
+&lt;/h2&gt;&lt;h3 id=&#34;abraham-flaxman-氏による実装&#34;&gt;Abraham Flaxman 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/aflaxman/4043086&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces in Python with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png&#34;
+	width=&#34;871&#34;
+	height=&#34;867&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman_hu_c6888af26cbd598a.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman_hu_b351f2f9186369eb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tom-white-氏による実装&#34;&gt;Tom White 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/dribnet/e26f52f423f0656c1bb8fc6f4e741cc2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces in Python with Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet.png&#34;
+	width=&#34;871&#34;
+	height=&#34;867&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet_hu_27353c63cc388417.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/dribnet_hu_2dffe31edd0c3de7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;data-science-topics-による実装&#34;&gt;Data Science Topics による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datascience.oneoffcoder.com/chernoff-faces.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces — Data Science Topics 0.0.1 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder.png&#34;
+	width=&#34;783&#34;
+	height=&#34;784&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder_hu_49421ca1c423286c.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/oneoffcoder_hu_eba9345afea05d6b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;239px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;python-chernoffface&#34;&gt;Python &amp;ldquo;ChernoffFace&amp;rdquo;
+&lt;/h2&gt;&lt;h3 id=&#34;anton-antonov-氏による実装&#34;&gt;Anton Antonov 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pythonforprediction.wordpress.com/2022/12/25/facing-data-with-chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facing data with Chernoff faces | Python for Prediction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0.png&#34;
+	width=&#34;1900&#34;
+	height=&#34;1930&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0_hu_fd564b2854e6cc87.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0_hu_443bd379fd93c038.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;98&#34;
+		data-flex-basis=&#34;236px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-the-aplpack-package&#34;&gt;R &amp;ldquo;the aplpack package&amp;rdquo;
+&lt;/h2&gt;&lt;h3 id=&#34;peter-wolf-氏による実装&#34;&gt;Peter Wolf 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://search.r-project.org/CRAN/refmans/aplpack/html/faces.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R: Chernoff Faces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/31/how-to-visualize-data-with-cartoonish-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;the aplpack (Another Plot Package) package by Peter Wolf.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
+	width=&#34;550&#34;
+	height=&#34;571&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1adb7a70c78b199c.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1a4e4d86335d2468.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;231px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;r-ggchernoff&#34;&gt;R &amp;ldquo;ggChernoff&amp;rdquo;
+&lt;/h2&gt;&lt;h3 id=&#34;david-selby-氏による実装&#34;&gt;David Selby 氏による実装
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://selbydavid.com/2017/06/25/ggchernoff/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff faces in ggplot2 · Tea &amp;amp; Stats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Selbosh/ggChernoff&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Selbosh/ggChernoff: R package for drawing Chernoff faces in ggplot2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff.png&#34;
+	width=&#34;960&#34;
+	height=&#34;288&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff_hu_6896b2809d6b7ce3.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff_hu_8f57852b0754d55c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;333&#34;
+		data-flex-basis=&#34;800px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff.png&#34;
+	width=&#34;672&#34;
+	height=&#34;480&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff_hu_279b1fb25be455a.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff_hu_6035bbe325bc18c1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>デザイン性の高いチャーノフの顔</title>
+        <link>http://localhost:1313/chernoff-face-design/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/chernoff-face-design/</guid>
+        <description>&lt;img src="http://localhost:1313/chernoff-face-design/images/cover.png" alt="Featured image of post デザイン性の高いチャーノフの顔" /&gt;&lt;p&gt;デザイン性の高いチャーノフの顔を集めてみました。&lt;/p&gt;
+&lt;h2 id=&#34;south-china-morning-post-graphicsによる作品&#34;&gt;South China Morning Post Graphicsによる作品
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory/lonelyGraphics/201806A176.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How they stack up&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/How-they-stack-up.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;4240&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/How-they-stack-up_hu_1fbdce792ae24022.png 480w, http://localhost:1313/chernoff-face-design/images/How-they-stack-up_hu_7e39fc4a1833bafd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wendy-shijia-氏による作品&#34;&gt;Wendy Shijia 氏による作品
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://public.tableau.com/app/profile/wendy.shijia/viz/McNutrition/McDonaldsNutrition&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;McNutrition | Tableau Public&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/McDonaldsNutrition.png&#34;
+	width=&#34;2580&#34;
+	height=&#34;4798&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/McDonaldsNutrition_hu_a6a72026c56739d9.png 480w, http://localhost:1313/chernoff-face-design/images/McDonaldsNutrition_hu_b11a6c02515628e3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;53&#34;
+		data-flex-basis=&#34;129px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;christian-swinehart-氏による作品&#34;&gt;Christian Swinehart 氏による作品
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://iv.samizdat.co/2021/chernoff-faces/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/chernoffface_election.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;1091&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/chernoffface_election_hu_68848e402c65e182.png 480w, http://localhost:1313/chernoff-face-design/images/chernoffface_election_hu_34be21adac1f27c2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;351px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;matt-jones-氏による作品&#34;&gt;Matt Jones 氏による作品
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://berglondon.com/blog/2009/11/23/chernoff-schools/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Humanising data: introducing “Chernoff Schools” for Ashdown – Blog – BERG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/chernoff-schools-nearby_500w.png&#34;
+	width=&#34;500&#34;
+	height=&#34;426&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/chernoff-schools-nearby_500w_hu_4a779ab4b8dbc280.png 480w, http://localhost:1313/chernoff-face-design/images/chernoff-schools-nearby_500w_hu_2ec1af9c6105169d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;117&#34;
+		data-flex-basis=&#34;281px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/drawing_2009-11-201-1024x535.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;535&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/drawing_2009-11-201-1024x535_hu_f29db1eac1d2da99.png 480w, http://localhost:1313/chernoff-face-design/images/drawing_2009-11-201-1024x535_hu_5df91d24f97fcb30.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;459px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;oliver-uberti-氏による作品&#34;&gt;Oliver Uberti 氏による作品
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://dc.aiga.org/qa-oliver-uberti-oliver-uberti-creative/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Q&amp;amp;A: Oliver Uberti, Oliver Uberti Creative | AIGA Washington, DC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/islingtonhasissues-1024x585.gif&#34;
+	width=&#34;1024&#34;
+	height=&#34;585&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/islingtonhasissues-1024x585_hu_89a83aad30e1413b.gif 480w, http://localhost:1313/chernoff-face-design/images/islingtonhasissues-1024x585_hu_6473b02b01073244.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作者不明&#34;&gt;作者不明
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://46or01.axshare.com/face_up.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FACE UP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-design/images/Chernoff-Face-Example-4.jpg&#34;
+	width=&#34;1600&#34;
+	height=&#34;1472&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-design/images/Chernoff-Face-Example-4_hu_79f00ed411765d6e.jpg 480w, http://localhost:1313/chernoff-face-design/images/Chernoff-Face-Example-4_hu_4b2dbcb0010823a5.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;260px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』</title>
+        <link>http://localhost:1313/chernoff-face-on-map/</link>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/chernoff-face-on-map/</guid>
+        <description>&lt;img src="http://localhost:1313/chernoff-face-on-map/images/lifeinla_cover.png" alt="Featured image of post 顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』" /&gt;&lt;p&gt;1970年代後半、カリフォルニア州立大学ノースリッジ校（CSUN）の地理学者 Eugene Turner は、社会経済データを可視化する独創的な地図作品 「Life in Los Angeles」 を発表しました。この作品は、統計学者 Herman Chernoff が提案した「チャーノフの顔」という手法を応用したもので、複雑な多変量データを「顔」の形や表情として表現したものです。&lt;/p&gt;
+&lt;h2 id=&#34;背景チャーノフの顔&#34;&gt;背景：チャーノフの顔
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-on-map/images/chernoff_original.jpeg&#34;
+	width=&#34;1600&#34;
+	height=&#34;760&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-on-map/images/chernoff_original_hu_d3ceafd43e27c1d8.jpeg 480w, http://localhost:1313/chernoff-face-on-map/images/chernoff_original_hu_a3664e255c757199.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チャーノフの顔&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;210&#34;
+		data-flex-basis=&#34;505px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;チャーノフは1973年の論文で「顔を用いた多次元データの表現法」を提案しました。人間は顔の微妙な違いを敏感に識別できるため、統計的なパターンを直感的に把握できるのではないか、という発想です。&lt;/p&gt;
+&lt;h2 id=&#34;turner-の作品life-in-los-angeles&#34;&gt;Turner の作品「Life in Los Angeles」
+&lt;/h2&gt;&lt;p&gt;ターナーはこのアイデアを地図に応用し、ロサンゼルス地域の生活状況を「顔」で表現しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-on-map/images/lifeinla.png&#34;
+	width=&#34;564&#34;
+	height=&#34;905&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-on-map/images/lifeinla_hu_675df4a4fdb4bce3.png 480w, http://localhost:1313/chernoff-face-on-map/images/lifeinla_hu_53563cff489a2e46.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Life in Los Angeles&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;62&#34;
+		data-flex-basis=&#34;149px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;制作年：1977年（ただし、文献によっては1979とされる）&lt;/li&gt;
+&lt;li&gt;データ年：1970年の調査結果に基づく（公式ギャラリーには “Life in LA 1970” と表記）&lt;/li&gt;
+&lt;li&gt;データ出典：Los Angeles Community Analysis Bureau, 1971 ￼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;実際の表現ルール凡例&#34;&gt;実際の表現ルール（凡例）
+&lt;/h2&gt;&lt;p&gt;この地図では以下の4変数が用いられました&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;顔の形 → Affluence（裕福度）&lt;/li&gt;
+&lt;li&gt;口の曲線 → Unemployment Rate（失業率）&lt;/li&gt;
+&lt;li&gt;眉（または目の傾き） → Urban Stresses（都市ストレス）&lt;/li&gt;
+&lt;li&gt;顔の色 → Proportion White Population（白人比率）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;視覚要素&lt;/th&gt;
+          &lt;th&gt;変数&lt;/th&gt;
+          &lt;th&gt;値の対応&lt;/th&gt;
+          &lt;th&gt;表現&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の形&lt;/td&gt;
+          &lt;td&gt;Affluence（裕福度）&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;丸い顔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;中間の形&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;細長い顔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口&lt;/td&gt;
+          &lt;td&gt;Unemployment Rate（失業率）&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;笑顔（口角上がり）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;直線的な口&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;への字口（口角下がり）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目&lt;/td&gt;
+          &lt;td&gt;Urban Stresses（都市ストレス）&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;大きな丸い目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;普通の目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;半眼・小さい目&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の色&lt;/td&gt;
+          &lt;td&gt;Proportion White Population（白人比率）&lt;/td&gt;
+          &lt;td&gt;高&lt;/td&gt;
+          &lt;td&gt;薄い黄色&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;中&lt;/td&gt;
+          &lt;td&gt;中間色（薄い灰色）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;低&lt;/td&gt;
+          &lt;td&gt;濃い灰色〜黒&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;ターナー自身の作品へのコメント&#34;&gt;ターナー自身の作品へのコメント
+&lt;/h2&gt;&lt;p&gt;ターナー自身はこの作品について「おそらく私が作った地図の中で最も興味深いものの一つだ。なぜなら表情がデータに感情的な結びつきを呼び起こすからだ」とコメントしています。&lt;/p&gt;
+&lt;h2 id=&#34;受容と意義&#34;&gt;受容と意義
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;この地図は 受賞作 として高く評価されました。&lt;/li&gt;
+&lt;li&gt;一方で、Chernoff Faces 手法そのものは「感情的に解釈されやすい」「誤読のリスクがある」として一般的には広まらず、今日ではやや忘れられた存在になっています。&lt;/li&gt;
+&lt;li&gt;しかし教育や研究の現場では、複雑な社会現象を直感的に伝える試みとして参照され続けています。実際に Spinelli &amp;amp; Zhou (2004) は授業プロジェクトでこの手法を再利用し、学生に「Quality of Life」を可視化させる教材として活用しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;おわりに&#34;&gt;おわりに
+&lt;/h2&gt;&lt;p&gt;ターナーの「Life in Los Angeles」は、「人間の顔」という象徴的なモチーフを導入した実験的作品です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mapdesign.icaci.org/2014/12/mapcarte-353365-life-in-los-angeles-by-eugene-turner-1977/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MapCarte 353/365: Life in Los Angeles by Eugene Turner, 1977 – ICA Map Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bigthink.com/strange-maps/chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chernoff Faces: The data-rich maps that stare back at you – Big Think&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.csun.edu/~hfgeg005/eturner/gallery.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;eturner Home Page – CSUN（公式ギャラリー）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dis.uniroma1.it/~santucci/InformationVisualization/Slides/References/MappingQualityLifeChernoffFaces.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapping Quality of Life with Chernoff Faces – Spinelli &amp;amp; Zhou (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」</title>
         <link>http://localhost:1313/mit-media-lab-logo-2011/</link>
         <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
@@ -178,44 +806,6 @@
 &lt;/h2&gt;&lt;p&gt;人間は顔の違いにとても敏感です。ほんの少し口角が下がっているだけで「怒っている？」と感じたり、眉が上がっているだけで「驚いている？」と思ったりします。
 チャーノフはこの能力をデータ分析に応用しました。数字を数字のまま読むより、顔の違いとして認識したほうが直感的に理解できる、という狙いです。&lt;/p&gt;
 &lt;p&gt;さらに興味深いのは、その発想の逆転です。当時の人工知能研究は「人間の顔を数値に変換し、機械に識別させる」ことに力を注いでいました。ところがチャーノフはその逆で、「数値を顔に変換し、機械には顔を描かせ、人間に識別させる」方法を選びました。彼の言葉を借りれば &lt;strong&gt;「顔を描くという重労働は機械に任せ、知能は人間に委ねる」&lt;/strong&gt; という発想です。&lt;/p&gt;
-&lt;h2 id=&#34;顔の部位とデータの対応ルール&#34;&gt;顔の部位とデータの対応ルール
-&lt;/h2&gt;&lt;p&gt;チャーノフの顔では、顔を構成する部位を「変数の受け皿」として定義します。各変数の値によって形が変化し、それが表情として現れます。以下は代表的な対応例です。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;顔の部位&lt;/th&gt;
-          &lt;th&gt;割り当て可能な変数&lt;/th&gt;
-          &lt;th&gt;見た目の変化&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;顔の輪郭&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;縦横比、サイズ&lt;/td&gt;
-          &lt;td&gt;丸顔〜細顔に変化&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;目&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;大きさ、間隔、瞳孔サイズ&lt;/td&gt;
-          &lt;td&gt;目が大きい／小さい、寄り目／離れ目&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;眉&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;角度、長さ&lt;/td&gt;
-          &lt;td&gt;怒り顔／驚き顔などの感情的印象&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;鼻&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;長さ、幅&lt;/td&gt;
-          &lt;td&gt;高い鼻／低い鼻、細い鼻／太い鼻&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;口&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;曲率、位置、幅&lt;/td&gt;
-          &lt;td&gt;笑顔／無表情／しかめっ面&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
 &lt;h2 id=&#34;論文の図版と解説&#34;&gt;論文の図版と解説
 &lt;/h2&gt;&lt;p&gt;実際の論文には、チャーノフが生成した「顔の配列」が数多く掲載されています。どの変数をどのパーツに割り当てるかで、同じデータでもまったく違った印象の顔が並びます。&lt;/p&gt;
 &lt;h3 id=&#34;顔の表情からクラスターを見つける&#34;&gt;顔の表情からクラスターを見つける
@@ -233,6 +823,72 @@
 		data-flex-basis=&#34;1191px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;顔の部分&lt;/th&gt;
+          &lt;th&gt;変数&lt;/th&gt;
+          &lt;th&gt;データの意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の角への半径 (x₁)&lt;/td&gt;
+          &lt;td&gt;Z₁&lt;/td&gt;
+          &lt;td&gt;胚室の内径（ミクロン）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の垂直サイズ (x₃)&lt;/td&gt;
+          &lt;td&gt;Z₃&lt;/td&gt;
+          &lt;td&gt;第1巻の室数&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下顔の離心率 (x₅)&lt;/td&gt;
+          &lt;td&gt;Z₄&lt;/td&gt;
+          &lt;td&gt;最終巻の室数&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鼻の長さ (x₆)&lt;/td&gt;
+          &lt;td&gt;Z₅&lt;/td&gt;
+          &lt;td&gt;第1巻の室の最大高さ（ミクロン）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口の垂直位置 (x₇)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口の曲率 (x₈)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口の幅 (x₉)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の垂直位置 (x₁₀)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の間隔 (x₁₁)&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の傾斜 (x₁₂)&lt;/td&gt;
+          &lt;td&gt;Z₆&lt;/td&gt;
+          &lt;td&gt;最終巻の室の最大高さ（ミクロン）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;その他の特徴&lt;/td&gt;
+          &lt;td&gt;-&lt;/td&gt;
+          &lt;td&gt;固定値&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;統計学でいう「多変量データ」（一つの対象に複数の測定値があるデータ）は、数値の羅列になりがちです。この数値の海の中から、互いに似ているデータ群、つまり &lt;strong&gt;クラスター（集団）&lt;/strong&gt; を見つけ出すのは至難の業です。もしその複雑なデータを、私たちの脳が最も得意とする「 &lt;strong&gt;顔&lt;/strong&gt; 」の形として表現できたらどうでしょうか？&lt;/p&gt;
 &lt;p&gt;図1Aで示されているのは、ジャマイカ北西部から採取された &lt;strong&gt;87個の有孔虫（Nummulited）化石標本&lt;/strong&gt; のデータ（6つの異なる測定値）を顔に変換したものです。各化石が持つ6つの特性が、その顔のパーツの形や大きさに変換されています。&lt;/p&gt;
 &lt;p&gt;化石データに関心を持っていた調査者のタスクは &lt;strong&gt;「互いに似ている顔を単にグループ化する」&lt;/strong&gt; ことでした。図1Aに表示された87個の顔は、事前に解析技術によって &lt;strong&gt;3つの明確なクラスター&lt;/strong&gt; にグループ分けされた後、その分類が際立つように順序立てて提示されました。その結果、これらの顔の集まりが &lt;strong&gt;「一目瞭然に」3つの異なるクラスターに分かれている&lt;/strong&gt; ことが確認されました。&lt;/p&gt;
@@ -253,6 +909,77 @@
 		data-flex-basis=&#34;791px&#34;
 	
 &gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;顔の部分&lt;/th&gt;
+          &lt;th&gt;変数&lt;/th&gt;
+          &lt;th&gt;データの意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の角への半径 (x₁)&lt;/td&gt;
+          &lt;td&gt;Z₁&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;顔の垂直サイズ (x₃)&lt;/td&gt;
+          &lt;td&gt;Z₃&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上顔の離心率 (x₄)&lt;/td&gt;
+          &lt;td&gt;Z₂&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下顔の離心率 (x₅)&lt;/td&gt;
+          &lt;td&gt;Z₄&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;鼻の長さ (x₆)&lt;/td&gt;
+          &lt;td&gt;Z₅&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口の垂直位置 (x₇)&lt;/td&gt;
+          &lt;td&gt;Z₆&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;口の幅 (x₉)&lt;/td&gt;
+          &lt;td&gt;Z₅&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の垂直位置 (x₁₀)&lt;/td&gt;
+          &lt;td&gt;Z₉&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の間隔 (x₁₁)&lt;/td&gt;
+          &lt;td&gt;Z₁₀&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の傾斜 (x₁₂)&lt;/td&gt;
+          &lt;td&gt;Z₁₁&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目の離心率 (x₁₃)&lt;/td&gt;
+          &lt;td&gt;Z₁₂&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;眉毛の垂直位置 (x₁₆)&lt;/td&gt;
+          &lt;td&gt;Z₇&lt;/td&gt;
+          &lt;td&gt;鉱物含有量データ&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;データが時間の経過や物理的な距離に沿って連続している &lt;strong&gt;時系列データ&lt;/strong&gt; を扱う場合、私たちは「いつ、どこで、そのデータの特性が大きく変化したか」を知りたいと考えます。しかし、12もの変数が絡み合うような多次元の時系列データを数値で追いかけると、重要な変化の瞬間を見逃しがちです。ここで、「顔の表現」が強力なツールとなります。&lt;/p&gt;
 &lt;p&gt;図2に示されているのは「地質データ」の事例です。これは、コロラドの山腹から掘削された4,500フィートのコアから採取された &lt;strong&gt;53個の等間隔の標本&lt;/strong&gt; に基づいています。各標本は、7つの鉱物含有量やその再分析結果を含む &lt;strong&gt;12個の変数&lt;/strong&gt; を持っています。&lt;/p&gt;
 &lt;p&gt;53個の顔は、コアの順序（時系列順）で表示されています。調査者のタスクは &lt;strong&gt;「多変量確率過程が特性を変化させた時間点」&lt;/strong&gt; つまり顔の特性が変化した場所を特定することでした。&lt;/p&gt;
@@ -543,32 +1270,33 @@
     &gt;https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate-spiral&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;開会式映像に組み込まれ、世界数億人の前で上映。科学的ビジュアルが大衆文化に登場した象徴的事例。&lt;/p&gt;
 &lt;h3 id=&#34;拡張版2016&#34;&gt;拡張版（2016）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2.png&#34;
+&lt;/h3&gt;&lt;h4 id=&#34;三次元版&#34;&gt;三次元版
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2.png&#34;
 	width=&#34;1140&#34;
 	height=&#34;1110&#34;
 	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_451a8ecb0302b266.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado-2_hu_25a129eac85e33cb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;拡張版（2016）&#34;
+		alt=&#34;三次元版&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;102&#34;
 		data-flex-basis=&#34;246px&#34;
 	
-&gt;
-&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745.png&#34;
-	width=&#34;1024&#34;
-	height=&#34;745&#34;
-	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_cc0ee472ea719cc2.png 480w, http://localhost:1313/spiralling-global-temperatures/images/gmst_tornado2_2016-1024x745_hu_40d90646fb5250a.png 1024w&#34;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiralling-global-temperatures/images/tornado2_spin.gif&#34;
+	width=&#34;648&#34;
+	height=&#34;580&#34;
+	srcset=&#34;http://localhost:1313/spiralling-global-temperatures/images/tornado2_spin_hu_1fa12f9f05ce028d.gif 480w, http://localhost:1313/spiralling-global-temperatures/images/tornado2_spin_hu_62f215ce78cdcca8.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;拡張版（2016）&#34;
+		alt=&#34;三次元版（アニメーション）&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;137&#34;
-		data-flex-basis=&#34;329px&#34;
+		data-flex-grow=&#34;111&#34;
+		data-flex-basis=&#34;268px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.climate-lab-book.ac.uk/spirals/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

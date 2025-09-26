@@ -302,10 +302,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pythonforprediction.wordpress.com/2022/12/25/facing-data-with-chernoff-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Facing data with Chernoff faces | Python for Prediction&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0.png&#34;
 	width=&#34;1900&#34;
 	height=&#34;1930&#34;
-	srcset=&#34;http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0_hu_fd564b2854e6cc87.png 480w, http://localhost:1313/chernoff-face/images/P_ChernoffFace/output_16_0_hu_443bd379fd93c038.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0_hu_fd564b2854e6cc87.png 480w, http://localhost:1313/chernoff-face-implementation/images/P_ChernoffFace/output_16_0_hu_443bd379fd93c038.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -322,10 +322,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/31/how-to-visualize-data-with-cartoonish-faces/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;the aplpack (Another Plot Package) package by Peter Wolf.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571.png&#34;
 	width=&#34;550&#34;
 	height=&#34;571&#34;
-	srcset=&#34;http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1adb7a70c78b199c.png 480w, http://localhost:1313/chernoff-face/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1a4e4d86335d2468.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1adb7a70c78b199c.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_aplpack/Chernoff-faces-with-state-names-550x571_hu_1a4e4d86335d2468.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -342,10 +342,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/Selbosh/ggChernoff&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Selbosh/ggChernoff: R package for drawing Chernoff faces in ggplot2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff.png&#34;
 	width=&#34;960&#34;
 	height=&#34;288&#34;
-	srcset=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff_hu_6896b2809d6b7ce3.png 480w, http://localhost:1313/chernoff-face/images/R_ggChernoff/ggchernoff_hu_8f57852b0754d55c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff_hu_6896b2809d6b7ce3.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/ggchernoff_hu_8f57852b0754d55c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -354,10 +354,10 @@
 		data-flex-basis=&#34;800px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff.png&#34;
 	width=&#34;672&#34;
 	height=&#34;480&#34;
-	srcset=&#34;http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff_hu_279b1fb25be455a.png 480w, http://localhost:1313/chernoff-face/images/R_ggChernoff/R_ggChernoff_hu_6035bbe325bc18c1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff_hu_279b1fb25be455a.png 480w, http://localhost:1313/chernoff-face-implementation/images/R_ggChernoff/R_ggChernoff_hu_6035bbe325bc18c1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
