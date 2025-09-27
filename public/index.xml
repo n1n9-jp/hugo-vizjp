@@ -434,8 +434,8 @@
         
         <guid>http://localhost:1313/government-budget-icicle/</guid>
         <description>&lt;img src="http://localhost:1313/government-budget-icicle/images/fiscal_infographics_combined_horizontal.jpg" alt="Featured image of post アメリカ財政をどう見せるか：Understanding USAとUSAFacts" /&gt;&lt;p&gt;国家財政の可視化は、単なる統計表を超えて、市民に「税金がどこから来て、どこへ行くのか」を直感的に伝える重要な手段です。
-本記事では、2000年に出版された リチャード・ソール・ワーマン &lt;strong&gt;「Understanding USA」&lt;/strong&gt; に収録された財政インフォグラフィックと、元マイクロソフトCEOの スティーブ・バルマー氏が設立した非営利サイト &lt;strong&gt;「USAFacts」&lt;/strong&gt; による現代的な財政可視化を対比し、その表現の変化を見ていきます。
-キーワードは「象徴の存在／不在」です。&lt;/p&gt;
+本記事では、2000年に出版された リチャード・ソール・ワーマン &lt;strong&gt;「Understanding USA」&lt;/strong&gt; に収録された財政の可視化と、元マイクロソフトCEOの スティーブ・バルマー氏が設立した非営利サイト &lt;strong&gt;「USAFacts」&lt;/strong&gt; による現代的な財政の可視化を対比し、その表現の変化を見ていきます。&lt;/p&gt;
+&lt;p&gt;キーワードは「象徴の存在／不在」です。&lt;/p&gt;
 &lt;h2 id=&#34;取り上げる作品&#34;&gt;取り上げる作品
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/government-budget-icicle/images/understanding-usa.jpeg&#34;
 	width=&#34;1959&#34;
@@ -470,8 +470,8 @@
 &lt;li&gt;歳入（Revenue / Income）：個人所得税、法人税、社会保障税など、政府の収入源&lt;/li&gt;
 &lt;li&gt;歳出（Spending / Expenditures）：社会保障、医療、国防、債務利払いなど、政府の支出項目&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;を可視化しており「どこからお金が来て、どこへ使われているか」 を市民に直感的に理解させることを目的としています。
-どちらも奥行きを生かした「つららチャート（Icicle Chart）」というチャートだといえそうです。&lt;/p&gt;
+&lt;p&gt;を可視化しており「どこからお金が来て、どこへ使われているか」 を市民に直感的に理解させることを目的としています。&lt;/p&gt;
+&lt;p&gt;どちらも奥行きを生かした「つららチャート（Icicle Chart）」というチャートだといえそうです。&lt;/p&gt;
 &lt;p&gt;つまりテーマとチャートは共通です。その上で何が違うのか、みていきましょう。&lt;/p&gt;
 &lt;h2 id=&#34;ワーマン氏によるunderstanding-usa-象徴的なアンクルサム&#34;&gt;ワーマン氏によるUnderstanding USA: 象徴的な「アンクル・サム」
 &lt;/h2&gt;&lt;p&gt;2000年の「Understanding USA」に掲載された財政の可視化は、中央に大きく アンクル・サム を配しています。
