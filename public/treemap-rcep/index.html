@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。\nこの協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。\n">
+<title>「A big deal」RCEPをめぐる経済規模の可視化</title>
+
+<link rel='canonical' href='http://localhost:1313/treemap-rcep/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="「A big deal」RCEPをめぐる経済規模の可視化">
+<meta property='og:description' content="2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。\nこの協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。\n">
+<meta property='og:url' content='http://localhost:1313/treemap-rcep/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-27T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-27T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png' />
+<meta name="twitter:title" content="「A big deal」RCEPをめぐる経済規模の可視化">
+<meta name="twitter:description" content="2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。\nこの協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#インフォグラフィックの特徴">インフォグラフィックの特徴</a></li>
+    <li><a href="#主なポイント">主なポイント</a></li>
+    <li><a href="#視覚化の意義">視覚化の意義</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/treemap-rcep/">
+                <img src="/treemap-rcep/images/scmp-2020-RCEP-cover_hu_6b1e1a6dd266e5fb.png"
+                        srcset="/treemap-rcep/images/scmp-2020-RCEP-cover_hu_6b1e1a6dd266e5fb.png 800w, /treemap-rcep/images/scmp-2020-RCEP-cover_hu_2ffd2c5df90f279f.png 1600w"
+                        width="800" 
+                        height="337" 
+                        loading="lazy"
+                        alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/treemap-rcep/">「A big deal」RCEPをめぐる経済規模の可視化</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 27, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。</p>
+<p>この協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。</p>
+<p><img src="/treemap-rcep/images/scmp-2020-RCEP.png"
+	width="1200"
+	height="2036"
+	srcset="/treemap-rcep/images/scmp-2020-RCEP_hu_1e3668e8aae442f.png 480w, /treemap-rcep/images/scmp-2020-RCEP_hu_2cb38e88e83f425a.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="58"
+		data-flex-basis="141px"
+	
+></p>
+<h2 id="インフォグラフィックの特徴">インフォグラフィックの特徴
+</h2><p>South China Morning Postが2020年12月9日に紙面で発表した図版「A big deal」では、RCEPの経済的なインパクトが Treemap（樹状矩形図）で表現されています。</p>
+<ul>
+<li>各国の 2019年のGDP（国内総生産, 単位：10億米ドル）を 面積 によって比較。</li>
+<li>色と模様で地域ブロックを区分：
+<ul>
+<li>オレンジ色：RCEP加盟国</li>
+<li>グレー：米州・ヨーロッパ</li>
+<li>水色：アジア太平洋のその他の国々</li>
+<li>緑色：アフリカ諸国</li>
+</ul>
+</li>
+</ul>
+<p>この構造により、国ごとの経済規模が直感的に理解できると同時に、RCEP全体の合算規模が米国やEUと並ぶほど大きいことが一目で伝わります。</p>
+<h2 id="主なポイント">主なポイント
+</h2><ul>
+<li>RCEP加盟国の合計GDPは 23.5兆ドル に達し、単独の米国（21.4兆ドル）を上回る。</li>
+<li>中国（14.3兆ドル）、日本（5.1兆ドル）、韓国（1.6兆ドル）が経済規模の柱。</li>
+<li>ASEAN諸国もそれぞれの経済力を面積で示し、集合体としての重みが伝わる。</li>
+<li>インドはグラフ外に独立して配置され、交渉離脱の意味が暗示されている。</li>
+</ul>
+<h2 id="視覚化の意義">視覚化の意義
+</h2><p>新聞記事で用いられたこのTreemapは、数字だけでは把握しにくい「相対的な規模感」を瞬時に理解させる力を持ちます。特に、</p>
+<ul>
+<li>「RCEP全体」 vs 「米国・EU」</li>
+<li>「中国」 vs 「その他加盟国」
+といった比較関係を可視化することで、協定の持つ戦略的な重みを読者に強く印象づけています。</li>
+</ul>
+<p>まさにタイトルの通り、「A big deal」というメッセージが図そのものに込められているのです。</p>
+<h2 id="まとめ">まとめ
+</h2><p>RCEPは経済統合の新たな枠組みとして、加盟国の経済活動や世界経済の流れに大きな影響を及ぼす可能性を秘めています。South China Morning Postのこの図版は、単なる数値の羅列ではなく、可視化によって読者に「規模の実感」を与える好例といえるでしょう。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.scmp.com/"  target="_blank" rel="noopener"
+    >South China Morning Post – A big deal (2020年12月9日紙面)</a></li>
+<li><a class="link" href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD"  target="_blank" rel="noopener"
+    >World Bank – GDP (current US$)</a></li>
+<li><a class="link" href="https://asean.org/our-communities/economic-community/regional-comprehensive-economic-partnership/"  target="_blank" rel="noopener"
+    >RCEP 公式情報 – ASEAN事務局</a></li>
+<li><a class="link" href="https://www.mofa.go.jp/mofaj/gaiko/fta/page22_003406.html"  target="_blank" rel="noopener"
+    >日本外務省 – RCEPの概要</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/newsmap/">
+        
+        
+            <div class="article-image">
+                <img src="/newsmap/images/newsmap.d17f4c6f8a7b21287d66932678eef2b8_hu_18e851978271d12e.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験"
+                        data-key="newsmap" 
+                        data-hash="md5-0X9Mb4p7ISh9ZpMmeO7yuA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Newsmap - ニュースを俯瞰する可視化の実験</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/word-spectrum/">
+        
+        
+            <div class="article-image">
+                <img src="/word-spectrum/images/3cd57a4f-efeb-4bb8-b4f9-b640bbc9c916.01022b3654a4a09a644a007561c63046_hu_b8627fdfb38ada83.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Word Spectrum ― Google のビッグデータで語の関係を可視化する"
+                        data-key="word-spectrum" 
+                        data-hash="md5-AQIrNlSkoJpkSgB1YcYwRg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Word Spectrum ― Google のビッグデータで語の関係を可視化する</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/government-budget-icicle/">
+        
+        
+            <div class="article-image">
+                <img src="/government-budget-icicle/images/fiscal_infographics_combined_horizontal.f9b46ab96e7dcf133e4653cfc759439d_hu_32b76b5f23633442.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post アメリカ財政をどう見せるか：Understanding USAとUSAFacts"
+                        data-key="government-budget-icicle" 
+                        data-hash="md5-&#43;bRquW59zxM&#43;RlPPx1lDnQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">アメリカ財政をどう見せるか：Understanding USAとUSAFacts</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/visit-nordkyn-logo/">
+        
+        
+            <div class="article-image">
+                <img src="/visit-nordkyn-logo/images/cover.60483219349c60b680be0865729cb2c6_hu_e7628434d8b20f3d.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ"
+                        data-key="visit-nordkyn-logo" 
+                        data-hash="md5-YEgyGTScYLaAvghlcpyyxg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/show-your-stripes/">
+        
+        
+            <div class="article-image">
+                <img src="/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.accad37c9c1e1c556acbc4c5ff2d5352_hu_4fc56309d752f4a3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post #ShowYourStripes：気候変動を色で語る世界的キャンペーン"
+                        data-key="show-your-stripes" 
+                        data-hash="md5-rMrTfJweHFVqy8TF/y1TUg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">#ShowYourStripes：気候変動を色で語る世界的キャンペーン</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

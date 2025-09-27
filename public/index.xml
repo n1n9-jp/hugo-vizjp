@@ -8,6 +8,69 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
+        <link>http://localhost:1313/treemap-rcep/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/treemap-rcep/</guid>
+        <description>&lt;img src="http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
+&lt;p&gt;この協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;2036&#34;
+	srcset=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_1e3668e8aae442f.png 480w, http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_2cb38e88e83f425a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;インフォグラフィックの特徴&#34;&gt;インフォグラフィックの特徴
+&lt;/h2&gt;&lt;p&gt;South China Morning Postが2020年12月9日に紙面で発表した図版「A big deal」では、RCEPの経済的なインパクトが Treemap（樹状矩形図）で表現されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各国の 2019年のGDP（国内総生産, 単位：10億米ドル）を 面積 によって比較。&lt;/li&gt;
+&lt;li&gt;色と模様で地域ブロックを区分：
+&lt;ul&gt;
+&lt;li&gt;オレンジ色：RCEP加盟国&lt;/li&gt;
+&lt;li&gt;グレー：米州・ヨーロッパ&lt;/li&gt;
+&lt;li&gt;水色：アジア太平洋のその他の国々&lt;/li&gt;
+&lt;li&gt;緑色：アフリカ諸国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この構造により、国ごとの経済規模が直感的に理解できると同時に、RCEP全体の合算規模が米国やEUと並ぶほど大きいことが一目で伝わります。&lt;/p&gt;
+&lt;h2 id=&#34;主なポイント&#34;&gt;主なポイント
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RCEP加盟国の合計GDPは 23.5兆ドル に達し、単独の米国（21.4兆ドル）を上回る。&lt;/li&gt;
+&lt;li&gt;中国（14.3兆ドル）、日本（5.1兆ドル）、韓国（1.6兆ドル）が経済規模の柱。&lt;/li&gt;
+&lt;li&gt;ASEAN諸国もそれぞれの経済力を面積で示し、集合体としての重みが伝わる。&lt;/li&gt;
+&lt;li&gt;インドはグラフ外に独立して配置され、交渉離脱の意味が暗示されている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;視覚化の意義&#34;&gt;視覚化の意義
+&lt;/h2&gt;&lt;p&gt;新聞記事で用いられたこのTreemapは、数字だけでは把握しにくい「相対的な規模感」を瞬時に理解させる力を持ちます。特に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「RCEP全体」 vs 「米国・EU」&lt;/li&gt;
+&lt;li&gt;「中国」 vs 「その他加盟国」
+といった比較関係を可視化することで、協定の持つ戦略的な重みを読者に強く印象づけています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まさにタイトルの通り、「A big deal」というメッセージが図そのものに込められているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;RCEPは経済統合の新たな枠組みとして、加盟国の経済活動や世界経済の流れに大きな影響を及ぼす可能性を秘めています。South China Morning Postのこの図版は、単なる数値の羅列ではなく、可視化によって読者に「規模の実感」を与える好例といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.scmp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;South China Morning Post – A big deal (2020年12月9日紙面)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://data.worldbank.org/indicator/NY.GDP.MKTP.CD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World Bank – GDP (current US$)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://asean.org/our-communities/economic-community/regional-comprehensive-economic-partnership/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RCEP 公式情報 – ASEAN事務局&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mofa.go.jp/mofaj/gaiko/fta/page22_003406.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;日本外務省 – RCEPの概要&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
         <link>http://localhost:1313/newsmap/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
