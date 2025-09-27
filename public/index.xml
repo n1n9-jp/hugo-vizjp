@@ -5167,39 +5167,38 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
 &lt;/ul&gt;
 &lt;p&gt;1998年から10年以上にわたって株式市場のライブデータを表示してきました。長方形の面積はその企業の時価総額に対応し、色で前回の終値から株価がどのように変化したかを知ることができます。「より読みやすく、対話しやすい表示」ため、正方形に近いタイルを作成する独自のアルゴリズムを開発したとのことです。&lt;/p&gt;
 &lt;h3 id=&#34;newsmap&#34;&gt;Newsmap
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_2.jpg&#34;
-	width=&#34;480&#34;
-	height=&#34;240&#34;
-	srcset=&#34;http://localhost:1313/treemap/images/newsmap_2_hu_5da1158be8434f54.jpg 480w, http://localhost:1313/treemap/images/newsmap_2_hu_3852b7dead0b214d.jpg 1024w&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/treemap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;200&#34;
-		data-flex-basis=&#34;480px&#34;
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://newsmap.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Newsmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/newsmap/&#34;&gt;Newsmap - ニュースを俯瞰する可視化の実験&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;newsmapjs&#34;&gt;Newsmap.JS
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_js.png&#34;
-	width=&#34;2753&#34;
-	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_1cd3c79d48f6af5a.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_e38e9eb3ddf99514.png 1024w&#34;
+	width=&#34;3260&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_a40ee6b241b0a47b.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_2ead1a64e7c1283e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;141&#34;
-		data-flex-basis=&#34;339px&#34;
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;413px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Marcosさんのnewsmapにインスパイアされた作品をJSで実装。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://newsmap-js.herokuapp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://newsmap.ijmacd.com/?edition=JP_ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Newsmap.JS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;every-algorithm-has-art-in-it-treemap-art-project&#34;&gt;Every AlgoRiThm has ART in it: Treemap Art Project
