@@ -8,6 +8,152 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
+        <link>http://localhost:1313/newsmap/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/newsmap/</guid>
+        <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
+&lt;p&gt;MoMA（ニューヨーク近代美術館）の展覧会 Talk to Me にも展示され、また Ars Electronica 2004 で「Net Vision Distinction」を受賞するなど、デザインとテクノロジーの両面で国際的に高く評価されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/newsmap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;仕組みと設計思想&#34;&gt;仕組みと設計思想
+&lt;/h2&gt;&lt;p&gt;Newsmap の特徴は、ニュースを「記事そのもの」としてではなく、「報道量」や「注目度」という別の軸で表現する点にあります。&lt;/p&gt;
+&lt;h3 id=&#34;面積報道量&#34;&gt;面積＝報道量
+&lt;/h3&gt;&lt;p&gt;Google News が自動的に作成するニュースクラスタの規模（記事数や露出度）を矩形の大きさに変換します。大きなニュースは広い面積、小さな話題は狭い面積として描かれます。&lt;/p&gt;
+&lt;h3 id=&#34;色ジャンル&#34;&gt;色＝ジャンル
+&lt;/h3&gt;&lt;p&gt;政治・国際・スポーツ・経済などのジャンルを色で区別。視覚的にニュースの分布を把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;クリック元記事に移動&#34;&gt;クリック＝元記事に移動
+&lt;/h3&gt;&lt;p&gt;各矩形にはクラスタ内の代表的な記事タイトルが表示され、クリックすれば元記事に移動可能です。&lt;/p&gt;
+&lt;h3 id=&#34;階層構造とレイアウト最適化&#34;&gt;階層構造とレイアウト最適化
+&lt;/h3&gt;&lt;p&gt;関連するニュースはクラスタ単位でまとめられ、矩形分割アルゴリズム（ツリーマップ）が読みやすさを保ちながら全体を配置しています。&lt;/p&gt;
+&lt;p&gt;Weskamp 氏は Newsmap を「Google News の置き換えではなく、補完ツール」と位置づけています。意図的に偏りを浮き彫りにすることで、ニュースの背後にある構造やバイアスを直感的に捉えられるようにしているのです。&lt;/p&gt;
+&lt;h2 id=&#34;画面デザイン&#34;&gt;画面デザイン
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/TTM_201-large.jpg&#34;
+	width=&#34;1200&#34;
+	height=&#34;692&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/TTM_201-large_hu_de414f0eea3c0c95.jpg 480w, http://localhost:1313/newsmap/images/TTM_201-large_hu_676568c11f161b20.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All.jpg&#34;
+	width=&#34;1362&#34;
+	height=&#34;650&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_9a341e5ba0f412a5.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_cd0e7b15d89b589f.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story.jpg&#34;
+	width=&#34;763&#34;
+	height=&#34;428&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_1a2ff2a7b4633947.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_c1a8713986b8843a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;427px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap_alt.png&#34;
+	width=&#34;660&#34;
+	height=&#34;403&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_alt_hu_def42393f6f51df8.png 480w, http://localhost:1313/newsmap/images/newsmap_alt_hu_b48c03536cfdf82b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;393px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;技術的な側面&#34;&gt;技術的な側面
+&lt;/h2&gt;&lt;p&gt;MoMA の展示解説によれば、Newsmap は PHP、HTML、JavaScript、Flash、MySQL など当時のウェブ技術を組み合わせて実装されていました。可視化にはツリーマップアルゴリズムを採用し、矩形のアスペクト比を調整しながらニュース量を空間に割り当てています。&lt;/p&gt;
+&lt;p&gt;ここで重要なのは、Newsmap が 記事内容そのものを解析しているわけではないという点です。内容の意味づけは Google News に委ねられ、Newsmap 側ではクラスタ規模を比率化・変換して可視化に適した形へと加工しています。&lt;/p&gt;
+&lt;h2 id=&#34;評価と影響&#34;&gt;評価と影響
+&lt;/h2&gt;&lt;p&gt;Newsmap は公開直後から話題を呼びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ars Electronica（2004）受賞：インタラクティブ・メディア作品として評価&lt;/li&gt;
+&lt;li&gt;MoMA 展示：デザイン史に記録された事例&lt;/li&gt;
+&lt;li&gt;ジャーナリズムからの注目：短時間でニュースのトレンドや偏りを把握できるツールとして紹介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、教育や研究の文脈でもしばしば取り上げられ、情報デザインにおける「ニュース可視化の典型事例」とされています。後年、オープンソースの Newsmap.js など、派生プロジェクトが登場したのも影響の大きさを物語ります。&lt;/p&gt;
+&lt;h2 id=&#34;限界と批判&#34;&gt;限界と批判
+&lt;/h2&gt;&lt;p&gt;もちろん Newsmap には課題もあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;中立性の保証はしない&amp;hellip;表示されるのは「報道量の大小」であって、「重要性」ではありません。かえってメディアの偏りが強調される場合もあります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Google News 依存&amp;hellip;データソースが Google News に限られるため、その選択基準や地域性の影響を受けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;完成版ではなく “super beta”&amp;hellip;開発者自身が「super beta」と呼んでおり、常に実験的な性質を持つ作品でした。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ipad登場とflipboardへの接続&#34;&gt;iPad登場とFlipboardへの接続
+&lt;/h2&gt;&lt;p&gt;Newsmap が公開されたのは 2004年。一方、Apple が iPad を発表したのは2010年であり、両者は時期的に重なってはいません。しかし、タブレットの普及によって「情報をどう提示するか」という課題が再び注目されました。&lt;/p&gt;
+&lt;p&gt;同年7月に公開された Flipboard は、iPad 専用の「ソーシャルマガジン」アプリとして大きな話題を呼びました。ここに Marcos Weskamp 氏が Head of Design として参画し、Newsmap で培った「ニュースを俯瞰的に、かつ魅力的に見せる」発想を、モバイル時代の体験デザインに展開しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Newsmap：PCブラウザ上でニュースを俯瞰する可視化実験&lt;/li&gt;
+&lt;li&gt;Flipboard：タブレット上でニュースを「雑誌のように読む」ユーザー体験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この連続性は、Weskamp 氏のキャリアの中で「ニュースと可視化」「情報と体験デザイン」がどのように進化していったかを象徴しています。&lt;/p&gt;
+&lt;h2 id=&#34;意義と今日的な意味&#34;&gt;意義と今日的な意味
+&lt;/h2&gt;&lt;p&gt;Newsmap の意義は、ニュースを「読む」だけでなく「眺める」ことを可能にした点にあります。情報が氾濫する現代において、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;報道の偏りを把握する&lt;/li&gt;
+&lt;li&gt;トレンドを一目で理解する&lt;/li&gt;
+&lt;li&gt;情報を批判的に観察する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした視点を与えてくれるデザインは、今もなお重要な学びを提供してくれます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Marcos Weskamp 氏の Newsmap は、Google News を素材に、ツリーマップで偏りや注目度を直感的に見せる、単なる技術実験にとどまらず、ニュースの受け取り方を問い直すデザインとして評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/interactives/exhibitions/2011/talktome/objects/146231/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoMA: Talk to Me – Newsmap（展示ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.journalism.co.uk/news/global-news-mapped-out/s2/a5857/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Journalism.co.uk: Global news mapped out (2004年記事)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mfru.org/projects/newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MFRU: Marcos Weskamp – Newsmap（プロジェクト説明）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://coolhunting.com/tech/newsmap/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cool Hunting: Newsmap（レビュー記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ijnet.org/en/story/why-journalists-should-still-be-using-newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IJNet: Why journalists should still be using Newsmap（記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://reasons.to/2007/brighton/speakers/marcos-weskamp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Reasons.to Conference – Marcos Weskamp（登壇者紹介）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://about.flipboard.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flipboard 公式サイト&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Word Spectrum ― Google のビッグデータで語の関係を可視化する</title>
         <link>http://localhost:1313/word-spectrum/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
