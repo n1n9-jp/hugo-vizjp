@@ -3,12 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/show-your-stripes/</loc>
-    <lastmod>2025-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/word-spectrum/</loc>
+    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/visit-nordkyn-logo/</loc>
+    <lastmod>2025-09-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/show-your-stripes/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chernoff-face-implementation/</loc>
