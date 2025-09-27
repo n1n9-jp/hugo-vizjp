@@ -5,7 +5,7 @@ slug = "visit-nordkyn-logo"
 date = "2025-09-26"
 description = ""
 categories = [
-    "technology"
+    "consume"
 ]
 tags = [
     "",
