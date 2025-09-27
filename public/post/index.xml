@@ -8,12 +8,170 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
+        <link>http://localhost:1313/newsmap/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/newsmap/</guid>
+        <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
+&lt;p&gt;MoMA（ニューヨーク近代美術館）の展覧会 Talk to Me にも展示され、また Ars Electronica 2004 で「Net Vision Distinction」を受賞するなど、デザインとテクノロジーの両面で国際的に高く評価されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/newsmap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;仕組みと設計思想&#34;&gt;仕組みと設計思想
+&lt;/h2&gt;&lt;p&gt;Newsmap の特徴は、ニュースを「記事そのもの」としてではなく、「報道量」や「注目度」という別の軸で表現する点にあります。&lt;/p&gt;
+&lt;h3 id=&#34;面積報道量&#34;&gt;面積＝報道量
+&lt;/h3&gt;&lt;p&gt;Google News が自動的に作成するニュースクラスタの規模（記事数や露出度）を矩形の大きさに変換します。大きなニュースは広い面積、小さな話題は狭い面積として描かれます。&lt;/p&gt;
+&lt;h3 id=&#34;色ジャンル&#34;&gt;色＝ジャンル
+&lt;/h3&gt;&lt;p&gt;政治・国際・スポーツ・経済などのジャンルを色で区別。視覚的にニュースの分布を把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;クリック元記事に移動&#34;&gt;クリック＝元記事に移動
+&lt;/h3&gt;&lt;p&gt;各矩形にはクラスタ内の代表的な記事タイトルが表示され、クリックすれば元記事に移動可能です。&lt;/p&gt;
+&lt;h3 id=&#34;階層構造とレイアウト最適化&#34;&gt;階層構造とレイアウト最適化
+&lt;/h3&gt;&lt;p&gt;関連するニュースはクラスタ単位でまとめられ、矩形分割アルゴリズム（ツリーマップ）が読みやすさを保ちながら全体を配置しています。&lt;/p&gt;
+&lt;p&gt;Weskamp 氏は Newsmap を「Google News の置き換えではなく、補完ツール」と位置づけています。意図的に偏りを浮き彫りにすることで、ニュースの背後にある構造やバイアスを直感的に捉えられるようにしているのです。&lt;/p&gt;
+&lt;h2 id=&#34;画面デザイン&#34;&gt;画面デザイン
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/TTM_201-large.jpg&#34;
+	width=&#34;1200&#34;
+	height=&#34;692&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/TTM_201-large_hu_de414f0eea3c0c95.jpg 480w, http://localhost:1313/newsmap/images/TTM_201-large_hu_676568c11f161b20.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All.jpg&#34;
+	width=&#34;1362&#34;
+	height=&#34;650&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_9a341e5ba0f412a5.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_cd0e7b15d89b589f.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story.jpg&#34;
+	width=&#34;763&#34;
+	height=&#34;428&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_1a2ff2a7b4633947.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_c1a8713986b8843a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;427px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap_alt.png&#34;
+	width=&#34;660&#34;
+	height=&#34;403&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_alt_hu_def42393f6f51df8.png 480w, http://localhost:1313/newsmap/images/newsmap_alt_hu_b48c03536cfdf82b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;393px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;技術的な側面&#34;&gt;技術的な側面
+&lt;/h2&gt;&lt;p&gt;MoMA の展示解説によれば、Newsmap は PHP、HTML、JavaScript、Flash、MySQL など当時のウェブ技術を組み合わせて実装されていました。可視化にはツリーマップアルゴリズムを採用し、矩形のアスペクト比を調整しながらニュース量を空間に割り当てています。&lt;/p&gt;
+&lt;p&gt;ここで重要なのは、Newsmap が 記事内容そのものを解析しているわけではないという点です。内容の意味づけは Google News に委ねられ、Newsmap 側ではクラスタ規模を比率化・変換して可視化に適した形へと加工しています。&lt;/p&gt;
+&lt;h2 id=&#34;評価と影響&#34;&gt;評価と影響
+&lt;/h2&gt;&lt;p&gt;Newsmap は公開直後から話題を呼びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ars Electronica（2004）受賞：インタラクティブ・メディア作品として評価&lt;/li&gt;
+&lt;li&gt;MoMA 展示：デザイン史に記録された事例&lt;/li&gt;
+&lt;li&gt;ジャーナリズムからの注目：短時間でニュースのトレンドや偏りを把握できるツールとして紹介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、教育や研究の文脈でもしばしば取り上げられ、情報デザインにおける「ニュース可視化の典型事例」とされています。後年、オープンソースの Newsmap.js など、派生プロジェクトが登場したのも影響の大きさを物語ります。&lt;/p&gt;
+&lt;h2 id=&#34;限界と批判&#34;&gt;限界と批判
+&lt;/h2&gt;&lt;p&gt;もちろん Newsmap には課題もあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;中立性の保証はしない&amp;hellip;表示されるのは「報道量の大小」であって、「重要性」ではありません。かえってメディアの偏りが強調される場合もあります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Google News 依存&amp;hellip;データソースが Google News に限られるため、その選択基準や地域性の影響を受けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;完成版ではなく “super beta”&amp;hellip;開発者自身が「super beta」と呼んでおり、常に実験的な性質を持つ作品でした。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ipad登場とflipboardへの接続&#34;&gt;iPad登場とFlipboardへの接続
+&lt;/h2&gt;&lt;p&gt;Newsmap が公開されたのは 2004年。一方、Apple が iPad を発表したのは2010年であり、両者は時期的に重なってはいません。しかし、タブレットの普及によって「情報をどう提示するか」という課題が再び注目されました。&lt;/p&gt;
+&lt;p&gt;同年7月に公開された Flipboard は、iPad 専用の「ソーシャルマガジン」アプリとして大きな話題を呼びました。ここに Marcos Weskamp 氏が Head of Design として参画し、Newsmap で培った「ニュースを俯瞰的に、かつ魅力的に見せる」発想を、モバイル時代の体験デザインに展開しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Newsmap：PCブラウザ上でニュースを俯瞰する可視化実験&lt;/li&gt;
+&lt;li&gt;Flipboard：タブレット上でニュースを「雑誌のように読む」ユーザー体験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この連続性は、Weskamp 氏のキャリアの中で「ニュースと可視化」「情報と体験デザイン」がどのように進化していったかを象徴しています。&lt;/p&gt;
+&lt;h2 id=&#34;意義と今日的な意味&#34;&gt;意義と今日的な意味
+&lt;/h2&gt;&lt;p&gt;Newsmap の意義は、ニュースを「読む」だけでなく「眺める」ことを可能にした点にあります。情報が氾濫する現代において、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;報道の偏りを把握する&lt;/li&gt;
+&lt;li&gt;トレンドを一目で理解する&lt;/li&gt;
+&lt;li&gt;情報を批判的に観察する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした視点を与えてくれるデザインは、今もなお重要な学びを提供してくれます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Marcos Weskamp 氏の Newsmap は、Google News を素材に、ツリーマップで偏りや注目度を直感的に見せる、単なる技術実験にとどまらず、ニュースの受け取り方を問い直すデザインとして評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/interactives/exhibitions/2011/talktome/objects/146231/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoMA: Talk to Me – Newsmap（展示ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.journalism.co.uk/news/global-news-mapped-out/s2/a5857/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Journalism.co.uk: Global news mapped out (2004年記事)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mfru.org/projects/newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MFRU: Marcos Weskamp – Newsmap（プロジェクト説明）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://coolhunting.com/tech/newsmap/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cool Hunting: Newsmap（レビュー記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ijnet.org/en/story/why-journalists-should-still-be-using-newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IJNet: Why journalists should still be using Newsmap（記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://reasons.to/2007/brighton/speakers/marcos-weskamp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Reasons.to Conference – Marcos Weskamp（登壇者紹介）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://about.flipboard.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flipboard 公式サイト&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Word Spectrum ― Google のビッグデータで語の関係を可視化する</title>
         <link>http://localhost:1313/word-spectrum/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/word-spectrum/</guid>
         <description>&lt;img src="http://localhost:1313/word-spectrum/images/3cd57a4f-efeb-4bb8-b4f9-b640bbc9c916.png" alt="Featured image of post Word Spectrum ― Google のビッグデータで語の関係を可視化する" /&gt;&lt;p&gt;ある言葉が、別の言葉とどれほど「結びついて」使われているのか。言語学や自然言語処理の分野では、こうした関係を数値化し、モデルに組み込む試みが数多くなされてきました。米国の研究者 Chris Harrison 氏は、Google が公開した大規模な n-gram データセットを素材にして、語と語のつながりを直観的に読み取れるビジュアライゼーションを制作しました。それが Word Spectrum です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0.jpeg&#34;
+	width=&#34;2069&#34;
+	height=&#34;643&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0_hu_b35966efc3dc6f25.jpeg 480w, http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0_hu_b550ee6fcf8614ad.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;772px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/3cd57a4f-efeb-4bb8-b4f9-b640bbc9c916.png&#34;
 	width=&#34;3725&#34;
 	height=&#34;1241&#34;
@@ -26,20 +184,218 @@
 		data-flex-basis=&#34;720px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;データの背景google-web-1t-5-gram&#34;&gt;データの背景：Google Web 1T 5-gram
-&lt;/h2&gt;&lt;p&gt;2006 年、Google はおよそ **1 兆語（1,024,908,267,229 語）**に及ぶウェブコーパスから n-gram 頻度統計を算出し、研究用に公開しました。これには ユニグラム 1,358 万語、バイグラム（2-gram）3 億 1,484 万組などが含まれており、自然言語処理の基盤データとして広く活用されてきました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0.jpeg&#34;
+	width=&#34;2047&#34;
+	height=&#34;630&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0_hu_e88fbdd411393ade.jpeg 480w, http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0_hu_71f4b6a729ccc21d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;324&#34;
+		data-flex-basis=&#34;779px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0.jpeg&#34;
+	width=&#34;2020&#34;
+	height=&#34;655&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0_hu_f246a555dd538519.jpeg 480w, http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0_hu_252b49e6c361d91d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;308&#34;
+		data-flex-basis=&#34;740px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0.jpeg&#34;
+	width=&#34;2001&#34;
+	height=&#34;597&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0_hu_873113c7f07d2ca4.jpeg 480w, http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0_hu_78ea8d349191aa57.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;335&#34;
+		data-flex-basis=&#34;804px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0.jpeg&#34;
+	width=&#34;2000&#34;
+	height=&#34;633&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0_hu_d08700e533e4ac7e.jpeg 480w, http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0_hu_362af56fdc2a370e.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;315&#34;
+		data-flex-basis=&#34;758px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0.jpeg&#34;
+	width=&#34;2020&#34;
+	height=&#34;668&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0_hu_3471acbf69028b9f.jpeg 480w, http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0_hu_899667141702be3c.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;302&#34;
+		data-flex-basis=&#34;725px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0.jpeg&#34;
+	width=&#34;2003&#34;
+	height=&#34;622&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0_hu_259b22772afa11b9.jpeg 480w, http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0_hu_586efd2452f9c941.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;322&#34;
+		data-flex-basis=&#34;772px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0.jpeg&#34;
+	width=&#34;2003&#34;
+	height=&#34;638&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0_hu_c099eeebfec5cab.jpeg 480w, http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0_hu_4383fd5792d40505.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;313&#34;
+		data-flex-basis=&#34;753px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0.jpeg&#34;
+	width=&#34;2045&#34;
+	height=&#34;616&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0_hu_8cb2fb894950daa9.jpeg 480w, http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0_hu_b3b6c5d02e6a6669.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;331&#34;
+		data-flex-basis=&#34;796px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0.jpeg&#34;
+	width=&#34;2046&#34;
+	height=&#34;644&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0_hu_c965205bc01178c1.jpeg 480w, http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0_hu_3b2d71ad96ba0f70.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;317&#34;
+		data-flex-basis=&#34;762px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0.jpeg&#34;
+	width=&#34;2003&#34;
+	height=&#34;616&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0_hu_bb9067452af94e13.jpeg 480w, http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0_hu_41d285826ce949c6.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;325&#34;
+		data-flex-basis=&#34;780px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0.jpeg&#34;
+	width=&#34;2001&#34;
+	height=&#34;586&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0_hu_fd79d7de0505fc86.jpeg 480w, http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0_hu_36abae6ecef77204.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;341&#34;
+		data-flex-basis=&#34;819px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0.jpeg&#34;
+	width=&#34;2070&#34;
+	height=&#34;624&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0_hu_482787a67bd5d414.jpeg 480w, http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0_hu_269fd8b363212303.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;331&#34;
+		data-flex-basis=&#34;796px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0.jpeg&#34;
+	width=&#34;2070&#34;
+	height=&#34;646&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0_hu_f9ec899f36f86170.jpeg 480w, http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0_hu_40b06cad6ce45cd5.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;320&#34;
+		data-flex-basis=&#34;769px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0.jpeg&#34;
+	width=&#34;2069&#34;
+	height=&#34;674&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0_hu_f40964edcc9bd17.jpeg 480w, http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0_hu_26f1c9e76c4705d0.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;306&#34;
+		data-flex-basis=&#34;736px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0.jpeg&#34;
+	width=&#34;2068&#34;
+	height=&#34;625&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0_hu_5356832791aa8db1.jpeg 480w, http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0_hu_ad3a247864c61dfb.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;330&#34;
+		data-flex-basis=&#34;794px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0.jpeg&#34;
+	width=&#34;2020&#34;
+	height=&#34;638&#34;
+	srcset=&#34;http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0_hu_8d17b5327abc38b6.jpeg 480w, http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0_hu_23eec89edf717bbc.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;316&#34;
+		data-flex-basis=&#34;759px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;データの背景&#34;&gt;データの背景
+&lt;/h2&gt;&lt;p&gt;2006 年、Google はおよそ &lt;strong&gt;1 兆語（1,024,908,267,229 語）&lt;/strong&gt; に及ぶウェブコーパスから n-gram 頻度統計を算出し、研究用に公開しました。これには ユニグラム 1,358 万語、バイグラム（2-gram）3 億 1,484 万組などが含まれており、自然言語処理の基盤データとして広く活用されてきました。&lt;/p&gt;
 &lt;p&gt;Harrison 氏の Word Spectrum では、この中の &lt;strong&gt;バイグラム（bigram）&lt;/strong&gt; を用います。具体的には「主要語 A」と「主要語 B」を決め、それぞれに続く語の出現頻度を比較するのです。&lt;/p&gt;
 &lt;h2 id=&#34;可視化の仕組み&#34;&gt;可視化の仕組み
 &lt;/h2&gt;&lt;p&gt;Word Spectrum の特徴は、語を “スペクトル”状の線分上に配置する点にあります。&lt;/p&gt;
+&lt;p&gt;横位置（x 座標）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;横位置（x 座標）&lt;/li&gt;
 &lt;li&gt;「A w」「B w」というバイグラムの出現頻度を比率化し、A と B のどちらにより強く結びついているかで位置を決めます。&lt;/li&gt;
 &lt;li&gt;例：「war memorial」531,205 回 vs 「peace memorial」25,699 回 → “memorial” は大きく war 側に寄って配置。&lt;/li&gt;
-&lt;li&gt;縦位置（y 座標）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;縦位置（y 座標）&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;意味はなく、ランダムに振り分けられます。これは重なりを避け、ビジュアルにテクスチャを加えるためです。&lt;/li&gt;
-&lt;li&gt;文字サイズ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文字サイズ&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;出現頻度に応じて 逆べき乗関数でスケーリング。ただし図ごとにパラメータが異なるため、異なるスペクトル間のサイズ比較はできません。&lt;/li&gt;
-&lt;li&gt;正規化処理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;正規化処理&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;例えば「war*」系バイグラムは「peace*」系より総数が多いため、war 側の頻度を縮小して均衡を取っています。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;読み解き方&#34;&gt;読み解き方
@@ -63,212 +419,239 @@
 &lt;li&gt;サイズ比較の非一貫性：図ごとにスケーリングが異なるため、複数図版をまたいで文字サイズを比較できない。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;Word Spectrum は、**「言葉のつながりをどのように“見える化”するか」**という問いに対する一つの回答です。大量のバイグラム統計を単純明快なルールに落とし込み、抽象的な言語モデルを視覚的な直感へと変換しました。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Word Spectrum は &lt;strong&gt;「言葉のつながりをどのように“見える化”するか」&lt;/strong&gt; という問いに対する一つの回答です。大量のバイグラム統計を単純明快なルールに落とし込み、抽象的な言語モデルを視覚的な直感へと変換しました。&lt;/p&gt;
 &lt;p&gt;その後、Harrison 氏は改良版として Word Associations を制作し、スペクトルを放射状の「レイ」に区切ることで重なりの問題を軽減しました。両者を並べて見ると、データ可視化の設計思想の進化を追体験することもできます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0.jpeg&#34;
-	width=&#34;2069&#34;
-	height=&#34;643&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0_hu_b35966efc3dc6f25.jpeg 480w, http://localhost:1313/word-spectrum/images/3cc953b8-a0f3-439c-8d7b-4573efbfe583_img-0_hu_b550ee6fcf8614ad.jpeg 1024w&#34;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.chrisharrison.net/index.php/Visualizations/WordSpectrum&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chris Harrison | WordSpectrum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>アメリカ財政をどう見せるか：Understanding USAとUSAFacts</title>
+        <link>http://localhost:1313/government-budget-icicle/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/government-budget-icicle/</guid>
+        <description>&lt;img src="http://localhost:1313/government-budget-icicle/images/fiscal_infographics_combined_horizontal.jpg" alt="Featured image of post アメリカ財政をどう見せるか：Understanding USAとUSAFacts" /&gt;&lt;p&gt;国家財政の可視化は、単なる統計表を超えて、市民に「税金がどこから来て、どこへ行くのか」を直感的に伝える重要な手段です。
+本記事では、2000年に出版された リチャード・ソール・ワーマン &lt;strong&gt;「Understanding USA」&lt;/strong&gt; に収録された財政の可視化と、元マイクロソフトCEOの スティーブ・バルマー氏が設立した非営利サイト &lt;strong&gt;「USAFacts」&lt;/strong&gt; による現代的な財政の可視化を対比し、その表現の変化を見ていきます。&lt;/p&gt;
+&lt;p&gt;キーワードは「象徴の存在／不在」です。&lt;/p&gt;
+&lt;h2 id=&#34;取り上げる作品&#34;&gt;取り上げる作品
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/government-budget-icicle/images/understanding-usa.jpeg&#34;
+	width=&#34;1959&#34;
+	height=&#34;1647&#34;
+	srcset=&#34;http://localhost:1313/government-budget-icicle/images/understanding-usa_hu_e9cd5caf19087cbe.jpeg 480w, http://localhost:1313/government-budget-icicle/images/understanding-usa_hu_45df440b90d3f7e0.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Understanding USA 掲載の作品&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;285px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/government-budget-icicle/images/usa-facts.png&#34;
+	width=&#34;3303&#34;
+	height=&#34;1677&#34;
+	srcset=&#34;http://localhost:1313/government-budget-icicle/images/usa-facts_hu_ce7ba1dd15348f94.png 480w, http://localhost:1313/government-budget-icicle/images/usa-facts_hu_62c26817b380d298.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;USAFacts 掲載の作品&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;両方の図はいずれも、アメリカ合衆国連邦政府の財政をテーマにしています。具体的には、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;歳入（Revenue / Income）：個人所得税、法人税、社会保障税など、政府の収入源&lt;/li&gt;
+&lt;li&gt;歳出（Spending / Expenditures）：社会保障、医療、国防、債務利払いなど、政府の支出項目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を可視化しており「どこからお金が来て、どこへ使われているか」 を市民に直感的に理解させることを目的としています。&lt;/p&gt;
+&lt;p&gt;どちらも奥行きを生かした「つららチャート（Icicle Chart）」というチャートだといえそうです。&lt;/p&gt;
+&lt;p&gt;つまりテーマとチャートは共通です。その上で何が違うのか、みていきましょう。&lt;/p&gt;
+&lt;h2 id=&#34;ワーマン氏によるunderstanding-usa-象徴的なアンクルサム&#34;&gt;ワーマン氏によるUnderstanding USA: 象徴的な「アンクル・サム」
+&lt;/h2&gt;&lt;p&gt;2000年の「Understanding USA」に掲載された財政の可視化は、中央に大きく アンクル・サム を配しています。
+このシンボルを軸に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左に 歳入（$1.9兆）&lt;/li&gt;
+&lt;li&gt;右に 歳出（メディケア、社会保障、防衛、債務利払いなど）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を放射状の黒帯で表現しています。&lt;/p&gt;
+&lt;p&gt;ここでは「金額の大小」を帯の太さで伝えると同時に、政府が市民から税を受け取り再分配する存在であるという物語が、擬人化されたキャラクターを通じて直感的に理解されます。
+つまりワーマンの図は、情報デザインとナショナル・シンボルを掛け合わせた「インパクト重視」の作品なのです。&lt;/p&gt;
+&lt;h2 id=&#34;バルマー氏によるusafacts-象徴を排したデータの透明性&#34;&gt;バルマー氏によるUSAFacts： 象徴を排したデータの透明性
+&lt;/h2&gt;&lt;p&gt;一方、近年の USAFacts が提供する財政の可視化には、アンクルサムのような象徴は登場しません。
+ここで中心にあるのは 純粋なデータです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左に 歳入（個人所得税、法人税、社会保障税など）&lt;/li&gt;
+&lt;li&gt;右に 歳出（社会保障、国防、医療、州への移転など）&lt;/li&gt;
+&lt;li&gt;中央に 差額としての赤字（Deficit）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が並置され、クリックやマウスオーバーで詳細にアクセスできる仕組みです。&lt;/p&gt;
+&lt;p&gt;このプロジェクトを立ち上げたのは、元マイクロソフトCEOの スティーブ・バルマー氏。
+彼は退任後、「米国政府の収支を企業の財務諸表のように誰でも理解できる形で提示すべき」と考え、2017年に USAFacts を創設しました。
+その背景には「政治的立場に左右されない、一次データに基づく公共情報の提供」という理念があります。&lt;/p&gt;
+&lt;h2 id=&#34;二つのアプローチの違い&#34;&gt;二つのアプローチの違い
+&lt;/h2&gt;&lt;p&gt;Understanding USA (2000)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;紙媒体、静的な図&lt;/li&gt;
+&lt;li&gt;インフォグラフィックとしての迫力と直感性を重視&lt;/li&gt;
+&lt;li&gt;中央のキャラクター（アンクル・サム）を軸に、国家財政をシンボルとして描いた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;USAFacts (2017–)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;デジタル、インタラクティブ&lt;/li&gt;
+&lt;li&gt;階層的に掘り下げられるインタラクティブな設計&lt;/li&gt;
+&lt;li&gt;創設者バルマー氏の思想：「国の財政を企業のPL/BSのように市民が理解できる形で」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;両者はともに「財政データはツリー構造である」という点を前提にしつつ、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding USA は「インパクトあるビジュアル体験」&lt;/li&gt;
+&lt;li&gt;USAFacts は「正確かつ探索可能な市民データ」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;へと表現の軸足を移しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;20年を隔てた二つの作品を並べると、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understanding USA：紙媒体の時代、象徴とメタファーで財政を「感じさせる」&lt;/li&gt;
+&lt;li&gt;USAFacts：デジタルの時代、データと透明性で財政を「理解させる」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という大きな変化が見て取れます。&lt;/p&gt;
+&lt;p&gt;財政という巨大で複雑なデータを「市民にわかる形」にするという課題に対し、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ワーマン氏のデザイン力&lt;/li&gt;
+&lt;li&gt;バルマー氏のデータ公開プラットフォーム&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それぞれがその時代に応じたアプローチを提示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wurmanarchive.org/timeline2/understanding-usa&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Understanding USA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://usafacts.org/government-spending/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;USAFacts – Government spending (公式サイト)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://usafacts.org/about/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;USAFacts – About (Steve Ballmerによる設立背景)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://usafacts.org/articles/this-chart-tells-you-everything-you-want-to-know-about-government-spending/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;USAFacts – Articles: Federal revenue and spending explained&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>香港の感染拡大を可視化したインフォグラフィック</title>
+        <link>http://localhost:1313/scmp-2020-covid-hk/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/scmp-2020-covid-hk/</guid>
+        <description>&lt;img src="http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-00.png" alt="Featured image of post 香港の感染拡大を可視化したインフォグラフィック" /&gt;&lt;p&gt;2020年4月、パンデミック初期に制作された 「How the coronavirus spread in Hong Kong」（Dennis Wong &amp;amp; Adolfo Arranz）は、香港における新型コロナ感染拡大を「輸入症例」から「市中感染」までの流れで描き出したインフォグラフィックです。
+単なる統計表ではなく、感染の経路や広がりを 都市生活の文脈 に落とし込んで示すことで、読者が自分の暮らしと直結させて理解できる構造になっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;1967&#34;
+	srcset=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk_hu_effe060a36744247.png 480w, http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk_hu_dd53fbbb3dcb19f4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;321&#34;
-		data-flex-basis=&#34;772px&#34;
+		data-flex-grow=&#34;61&#34;
+		data-flex-basis=&#34;146px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0.jpeg&#34;
-	width=&#34;2047&#34;
-	height=&#34;630&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0_hu_e88fbdd411393ade.jpeg 480w, http://localhost:1313/word-spectrum/images/6f3f549e-b951-4c8a-b48a-bfae59f5c7ab_img-0_hu_71f4b6a729ccc21d.jpeg 1024w&#34;
+South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&lt;/p&gt;
+&lt;h2 id=&#34;scmpについて&#34;&gt;SCMPについて
+&lt;/h2&gt;&lt;p&gt;South China Morning Post（SCMP）は香港を拠点とする有力英字新聞で、アジアを中心に国際的な報道を行っています。とりわけインフォグラフィックス・チームは世界的に高い評価を得ており、ジャーナリズム、イラストレーション、データビジュアライゼーションを融合させた表現で数々の国際賞を受賞しています。&lt;/p&gt;
+&lt;h2 id=&#34;構成の特徴&#34;&gt;構成の特徴
+&lt;/h2&gt;&lt;p&gt;作品の中心には 3つの分類 が配置されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IMPORTED CASES（輸入症例）&lt;/li&gt;
+&lt;li&gt;CLOSE CONTACTS OF IMPORTED CASES（輸入症例の濃厚接触者）&lt;/li&gt;
+&lt;li&gt;LOCAL CASES（市中感染）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;191&#34;
+	srcset=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01_hu_88a937bcc916cda2.png 480w, http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01_hu_f5b53f5fda6bfdfd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;324&#34;
-		data-flex-basis=&#34;779px&#34;
+		data-flex-grow=&#34;628&#34;
+		data-flex-basis=&#34;1507px&#34;
 	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0.jpeg&#34;
-	width=&#34;2020&#34;
-	height=&#34;655&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0_hu_f246a555dd538519.jpeg 480w, http://localhost:1313/word-spectrum/images/6f255109-7a9e-4f06-9571-801b244a5fe2_img-0_hu_252b49e6c361d91d.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;308&#34;
-		data-flex-basis=&#34;740px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0.jpeg&#34;
-	width=&#34;2001&#34;
-	height=&#34;597&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0_hu_873113c7f07d2ca4.jpeg 480w, http://localhost:1313/word-spectrum/images/8b709526-5f8b-45e2-b5af-0faf1c4c8fe5_img-0_hu_78ea8d349191aa57.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;335&#34;
-		data-flex-basis=&#34;804px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0.jpeg&#34;
-	width=&#34;2000&#34;
-	height=&#34;633&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0_hu_d08700e533e4ac7e.jpeg 480w, http://localhost:1313/word-spectrum/images/8c574534-d67b-476d-91c6-a841ef3280aa_img-0_hu_362af56fdc2a370e.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;315&#34;
-		data-flex-basis=&#34;758px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0.jpeg&#34;
-	width=&#34;2020&#34;
-	height=&#34;668&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0_hu_3471acbf69028b9f.jpeg 480w, http://localhost:1313/word-spectrum/images/9d6839dc-9fad-4e16-a25f-ded322695ffb_img-0_hu_899667141702be3c.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;302&#34;
-		data-flex-basis=&#34;725px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0.jpeg&#34;
-	width=&#34;2003&#34;
-	height=&#34;622&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0_hu_259b22772afa11b9.jpeg 480w, http://localhost:1313/word-spectrum/images/86e7938d-1c4a-407e-adb3-1dd9d19d42d3_img-0_hu_586efd2452f9c941.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;322&#34;
-		data-flex-basis=&#34;772px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0.jpeg&#34;
-	width=&#34;2003&#34;
-	height=&#34;638&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0_hu_c099eeebfec5cab.jpeg 480w, http://localhost:1313/word-spectrum/images/730d3379-69b9-46ca-bf7d-b6fbba2b7b00_img-0_hu_4383fd5792d40505.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;313&#34;
-		data-flex-basis=&#34;753px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0.jpeg&#34;
-	width=&#34;2110&#34;
-	height=&#34;618&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0_hu_c1fb7967a6f3cacb.jpeg 480w, http://localhost:1313/word-spectrum/images/6879acee-e7c9-46f2-8f5d-8ff7a74bfad4_img-0_hu_7a09e4af9219a32c.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;341&#34;
-		data-flex-basis=&#34;819px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0.jpeg&#34;
-	width=&#34;2110&#34;
-	height=&#34;644&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0_hu_c63435fc24021e3.jpeg 480w, http://localhost:1313/word-spectrum/images/a3b7a735-0ac3-430e-8d71-830e2972d00b_img-0_hu_d05032eadeed4bd4.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;327&#34;
-		data-flex-basis=&#34;786px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0.jpeg&#34;
-	width=&#34;2003&#34;
-	height=&#34;616&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0_hu_bb9067452af94e13.jpeg 480w, http://localhost:1313/word-spectrum/images/a4940ee2-7cf8-4e03-aafc-e58cf1d97831_img-0_hu_41d285826ce949c6.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;325&#34;
-		data-flex-basis=&#34;780px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0.jpeg&#34;
-	width=&#34;2001&#34;
-	height=&#34;586&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0_hu_fd79d7de0505fc86.jpeg 480w, http://localhost:1313/word-spectrum/images/ad7dfa80-d367-4159-a6a0-2826428927a0_img-0_hu_36abae6ecef77204.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;341&#34;
-		data-flex-basis=&#34;819px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0.jpeg&#34;
-	width=&#34;2195&#34;
-	height=&#34;635&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0_hu_9bc668b37d13ffa3.jpeg 480w, http://localhost:1313/word-spectrum/images/b5591c22-404f-48bd-b3bf-c90ad2f32c76_img-0_hu_6aa2f0bd30cb9bf2.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;345&#34;
-		data-flex-basis=&#34;829px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0.jpeg&#34;
-	width=&#34;2195&#34;
-	height=&#34;666&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0_hu_ec752af68c5b8719.jpeg 480w, http://localhost:1313/word-spectrum/images/c5f0910f-affd-4fad-adda-0bb965ef066d_img-0_hu_1b5fcd3ad34b7957.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;329&#34;
-		data-flex-basis=&#34;790px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0.jpeg&#34;
-	width=&#34;2195&#34;
-	height=&#34;685&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0_hu_59e97504321af95b.jpeg 480w, http://localhost:1313/word-spectrum/images/d20c159e-78f4-449b-b895-44e54513f381_img-0_hu_79bd6757af4805c5.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;320&#34;
-		data-flex-basis=&#34;769px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0.jpeg&#34;
-	width=&#34;2195&#34;
-	height=&#34;645&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0_hu_60a24345776b5b20.jpeg 480w, http://localhost:1313/word-spectrum/images/d8775251-4050-48f8-abd1-3244ae4ef3e8_img-0_hu_10f3e9b199a4f0b4.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;340&#34;
-		data-flex-basis=&#34;816px&#34;
-	
-&gt;
-&lt;img src=&#34;http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0.jpeg&#34;
-	width=&#34;2020&#34;
-	height=&#34;638&#34;
-	srcset=&#34;http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0_hu_8d17b5327abc38b6.jpeg 480w, http://localhost:1313/word-spectrum/images/e1018f73-eba1-4504-a2a9-4a0353d8b14e_img-0_hu_23eec89edf717bbc.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;316&#34;
-		data-flex-basis=&#34;759px&#34;
-	
-&gt;&lt;/p&gt;</description>
+&gt;&lt;/p&gt;
+&lt;p&gt;この3区分は、感染拡大の段階を示すだけでなく、香港の防疫政策（1.水際対策、2.濃厚接触者隔離、3.市中対策）と正確に対応しています。&lt;/p&gt;
+&lt;h3 id=&#34;1-imported-cases輸入症例&#34;&gt;1. IMPORTED CASES（輸入症例）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：香港の外からウイルスを持ち込んだケース。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;海外から香港に帰国・入国した人が、すでに感染していた場合。&lt;/li&gt;
+&lt;li&gt;旅行者やビジネス渡航者がウイルスを持ち込んだ場合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：感染の「出発点」として示され、パンデミック初期には特に重要視された分類です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-close-contacts-of-imported-cases輸入症例との濃厚接触者&#34;&gt;2. CLOSE CONTACTS OF IMPORTED CASES（輸入症例との濃厚接触者）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：上記の輸入症例と直接接触し、そこから感染したケース。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;感染者と同居する家族。&lt;/li&gt;
+&lt;li&gt;飛行機や公共交通機関で近くに座っていた人。&lt;/li&gt;
+&lt;li&gt;一緒に食事や会合に参加した人。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：輸入症例が香港の市中に感染を広げる「橋渡し」として重要。輸入例と市中感染の中間的な位置づけです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-local-cases地域内感染症例&#34;&gt;3. LOCAL CASES（地域内感染症例）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：海外渡航歴もなく、輸入症例との接触も確認できない香港内部での感染。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;飲食店でのクラスター。&lt;/li&gt;
+&lt;li&gt;ジムや病院など、公共空間での感染。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：いわゆる「市中感染」を示し、パンデミック拡大の深刻度を最も直接的に反映するカテゴリーです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;この3区分の意義&#34;&gt;この3区分の意義
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;感染の「発端（imported）」から「二次感染（close contacts）」を経て「市中感染（local）」へと広がる流れを視覚的に整理。&lt;/li&gt;
+&lt;li&gt;読者にとって「香港は今どの段階にあるのか？」を直感的に理解させる。&lt;/li&gt;
+&lt;li&gt;政策判断においても「水際対策」「濃厚接触者追跡」「市中拡大防止」という3つのレベルを意識させる構造になっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;視覚表現とメッセージ性&#34;&gt;視覚表現とメッセージ性
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;色彩&lt;/strong&gt; ：赤やオレンジで描かれた感染経路は、危機感と緊急性を強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アイコン化&lt;/strong&gt; ：人や建物、飛行機をシンプルなアイコンで示し、説明文を読まずとも概略が理解できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;レイアウト&lt;/strong&gt; ：中央から放射状に広がる構造は「感染が都市全体へ蜘蛛の巣のように広がる」印象を与える。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらはすべて、感染の「不可視性」を一目で理解させ、さらに「制御しなければ拡大してしまう」という社会的メッセージを強く伝えるための工夫です。&lt;/p&gt;
+&lt;h2 id=&#34;限界と課題&#34;&gt;限界と課題
+&lt;/h2&gt;&lt;p&gt;もちろん、このような紙面インフォグラフィックには限界もあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;情報量が多いため、初見ではやや複雑に感じる。&lt;/li&gt;
+&lt;li&gt;感染経路を線で結んでいるが、実際には推定を含むため「確定的」と誤認されるリスクがある。&lt;/li&gt;
+&lt;li&gt;感染の時間的推移は、アニメーションやインタラクティブ表現の方が直感的に伝わる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;しかし、それらを差し引いても 新聞という静的メディアの制約の中で、複雑な事象を一望できる形に整理した点 は大きな功績といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「How the coronavirus spread in Hong Kong」は、香港市民にとって新型コロナ感染拡大を「自分ごと」として理解するための強力な可視化でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感染拡大の段階を整理した構成&lt;/li&gt;
+&lt;li&gt;生活の場面に即したクラスターの細分化&lt;/li&gt;
+&lt;li&gt;都市に広がる脅威を直感的に伝えるビジュアル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの要素は、インフォグラフィックが単なる図解を超え、社会に行動を促す力を持つことを示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory/lonelyGraphics/202004A256.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;South China Morning Post – Infographic Archive: How the coronavirus spread in Hong Kong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/on-the-success-of-the-south-china-morning-post-infographics-team/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nightingale DVS – On the Success of the South China Morning Post Infographics Team&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
         </item>
         <item>
         <title>北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ</title>
@@ -4962,39 +5345,38 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
 &lt;/ul&gt;
 &lt;p&gt;1998年から10年以上にわたって株式市場のライブデータを表示してきました。長方形の面積はその企業の時価総額に対応し、色で前回の終値から株価がどのように変化したかを知ることができます。「より読みやすく、対話しやすい表示」ため、正方形に近いタイルを作成する独自のアルゴリズムを開発したとのことです。&lt;/p&gt;
 &lt;h3 id=&#34;newsmap&#34;&gt;Newsmap
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_2.jpg&#34;
-	width=&#34;480&#34;
-	height=&#34;240&#34;
-	srcset=&#34;http://localhost:1313/treemap/images/newsmap_2_hu_5da1158be8434f54.jpg 480w, http://localhost:1313/treemap/images/newsmap_2_hu_3852b7dead0b214d.jpg 1024w&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/treemap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;200&#34;
-		data-flex-basis=&#34;480px&#34;
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://newsmap.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Newsmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/newsmap/&#34;&gt;Newsmap - ニュースを俯瞰する可視化の実験&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;newsmapjs&#34;&gt;Newsmap.JS
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_js.png&#34;
-	width=&#34;2753&#34;
-	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_1cd3c79d48f6af5a.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_e38e9eb3ddf99514.png 1024w&#34;
+	width=&#34;3260&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_a40ee6b241b0a47b.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_2ead1a64e7c1283e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;141&#34;
-		data-flex-basis=&#34;339px&#34;
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;413px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;Marcosさんのnewsmapにインスパイアされた作品をJSで実装。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://newsmap-js.herokuapp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://newsmap.ijmacd.com/?edition=JP_ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Newsmap.JS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;every-algorithm-has-art-in-it-treemap-art-project&#34;&gt;Every AlgoRiThm has ART in it: Treemap Art Project

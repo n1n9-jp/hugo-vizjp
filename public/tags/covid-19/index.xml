@@ -7,7 +7,121 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/covid-19/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/covid-19/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>香港の感染拡大を可視化したインフォグラフィック</title>
+        <link>http://localhost:1313/scmp-2020-covid-hk/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/scmp-2020-covid-hk/</guid>
+        <description>&lt;img src="http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-00.png" alt="Featured image of post 香港の感染拡大を可視化したインフォグラフィック" /&gt;&lt;p&gt;2020年4月、パンデミック初期に制作された 「How the coronavirus spread in Hong Kong」（Dennis Wong &amp;amp; Adolfo Arranz）は、香港における新型コロナ感染拡大を「輸入症例」から「市中感染」までの流れで描き出したインフォグラフィックです。
+単なる統計表ではなく、感染の経路や広がりを 都市生活の文脈 に落とし込んで示すことで、読者が自分の暮らしと直結させて理解できる構造になっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;1967&#34;
+	srcset=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk_hu_effe060a36744247.png 480w, http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk_hu_dd53fbbb3dcb19f4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;61&#34;
+		data-flex-basis=&#34;146px&#34;
+	
+&gt;
+South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&lt;/p&gt;
+&lt;h2 id=&#34;scmpについて&#34;&gt;SCMPについて
+&lt;/h2&gt;&lt;p&gt;South China Morning Post（SCMP）は香港を拠点とする有力英字新聞で、アジアを中心に国際的な報道を行っています。とりわけインフォグラフィックス・チームは世界的に高い評価を得ており、ジャーナリズム、イラストレーション、データビジュアライゼーションを融合させた表現で数々の国際賞を受賞しています。&lt;/p&gt;
+&lt;h2 id=&#34;構成の特徴&#34;&gt;構成の特徴
+&lt;/h2&gt;&lt;p&gt;作品の中心には 3つの分類 が配置されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IMPORTED CASES（輸入症例）&lt;/li&gt;
+&lt;li&gt;CLOSE CONTACTS OF IMPORTED CASES（輸入症例の濃厚接触者）&lt;/li&gt;
+&lt;li&gt;LOCAL CASES（市中感染）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;191&#34;
+	srcset=&#34;http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01_hu_88a937bcc916cda2.png 480w, http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-01_hu_f5b53f5fda6bfdfd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;628&#34;
+		data-flex-basis=&#34;1507px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この3区分は、感染拡大の段階を示すだけでなく、香港の防疫政策（1.水際対策、2.濃厚接触者隔離、3.市中対策）と正確に対応しています。&lt;/p&gt;
+&lt;h3 id=&#34;1-imported-cases輸入症例&#34;&gt;1. IMPORTED CASES（輸入症例）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：香港の外からウイルスを持ち込んだケース。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;海外から香港に帰国・入国した人が、すでに感染していた場合。&lt;/li&gt;
+&lt;li&gt;旅行者やビジネス渡航者がウイルスを持ち込んだ場合。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：感染の「出発点」として示され、パンデミック初期には特に重要視された分類です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-close-contacts-of-imported-cases輸入症例との濃厚接触者&#34;&gt;2. CLOSE CONTACTS OF IMPORTED CASES（輸入症例との濃厚接触者）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：上記の輸入症例と直接接触し、そこから感染したケース。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;感染者と同居する家族。&lt;/li&gt;
+&lt;li&gt;飛行機や公共交通機関で近くに座っていた人。&lt;/li&gt;
+&lt;li&gt;一緒に食事や会合に参加した人。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：輸入症例が香港の市中に感染を広げる「橋渡し」として重要。輸入例と市中感染の中間的な位置づけです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-local-cases地域内感染症例&#34;&gt;3. LOCAL CASES（地域内感染症例）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;意味：海外渡航歴もなく、輸入症例との接触も確認できない香港内部での感染。&lt;/li&gt;
+&lt;li&gt;具体例：
+&lt;ul&gt;
+&lt;li&gt;飲食店でのクラスター。&lt;/li&gt;
+&lt;li&gt;ジムや病院など、公共空間での感染。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;役割：いわゆる「市中感染」を示し、パンデミック拡大の深刻度を最も直接的に反映するカテゴリーです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;この3区分の意義&#34;&gt;この3区分の意義
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;感染の「発端（imported）」から「二次感染（close contacts）」を経て「市中感染（local）」へと広がる流れを視覚的に整理。&lt;/li&gt;
+&lt;li&gt;読者にとって「香港は今どの段階にあるのか？」を直感的に理解させる。&lt;/li&gt;
+&lt;li&gt;政策判断においても「水際対策」「濃厚接触者追跡」「市中拡大防止」という3つのレベルを意識させる構造になっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;視覚表現とメッセージ性&#34;&gt;視覚表現とメッセージ性
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;色彩&lt;/strong&gt; ：赤やオレンジで描かれた感染経路は、危機感と緊急性を強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アイコン化&lt;/strong&gt; ：人や建物、飛行機をシンプルなアイコンで示し、説明文を読まずとも概略が理解できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;レイアウト&lt;/strong&gt; ：中央から放射状に広がる構造は「感染が都市全体へ蜘蛛の巣のように広がる」印象を与える。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらはすべて、感染の「不可視性」を一目で理解させ、さらに「制御しなければ拡大してしまう」という社会的メッセージを強く伝えるための工夫です。&lt;/p&gt;
+&lt;h2 id=&#34;限界と課題&#34;&gt;限界と課題
+&lt;/h2&gt;&lt;p&gt;もちろん、このような紙面インフォグラフィックには限界もあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;情報量が多いため、初見ではやや複雑に感じる。&lt;/li&gt;
+&lt;li&gt;感染経路を線で結んでいるが、実際には推定を含むため「確定的」と誤認されるリスクがある。&lt;/li&gt;
+&lt;li&gt;感染の時間的推移は、アニメーションやインタラクティブ表現の方が直感的に伝わる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;しかし、それらを差し引いても 新聞という静的メディアの制約の中で、複雑な事象を一望できる形に整理した点 は大きな功績といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「How the coronavirus spread in Hong Kong」は、香港市民にとって新型コロナ感染拡大を「自分ごと」として理解するための強力な可視化でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感染拡大の段階を整理した構成&lt;/li&gt;
+&lt;li&gt;生活の場面に即したクラスターの細分化&lt;/li&gt;
+&lt;li&gt;都市に広がる脅威を直感的に伝えるビジュアル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの要素は、インフォグラフィックが単なる図解を超え、社会に行動を促す力を持つことを示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory/lonelyGraphics/202004A256.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;South China Morning Post – Infographic Archive: How the coronavirus spread in Hong Kong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/on-the-success-of-the-south-china-morning-post-infographics-team/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nightingale DVS – On the Success of the South China Morning Post Infographics Team&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合</title>
         <link>http://localhost:1313/covid-symptom-upset/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
