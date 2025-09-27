@@ -46,11 +46,12 @@ image = "images/Stock-Market-Treemap.png"
 
 ### Newsmap
 
-![](images/newsmap_2.jpg)
+![](images/newsmap.png)
 
 Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。
 
-- [Newsmap](http://newsmap.jp/)
+- <a class="link" href="{{< ref "newsmap.md" >}}">Newsmap - ニュースを俯瞰する可視化の実験</a>
+
 
 ### Newsmap.JS
 
@@ -58,7 +59,7 @@ Marcos WeskampさんがFlashで実装した、株式市場ではなくニュー�
 
 Marcosさんのnewsmapにインスパイアされた作品をJSで実装。
 
-- [Newsmap.JS](https://newsmap-js.herokuapp.com/)
+- [Newsmap.JS](https://newsmap.ijmacd.com/?edition=JP_ja)
 
 
 
