@@ -507,6 +507,117 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>量率グラフという呼び名の誕生史</title>
+        <link>http://localhost:1313/quantityproportion-chart/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/quantityproportion-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
+&lt;p&gt;国際的には モザイク・プロット（Mosaic Plot）が統計ソフトに実装されており、ビジネス界隈ではマリメッコ・チャート（Marimekko Chart）の名称が浸透しています。これに対して「量率グラフ」という呼称は、日本独自に広まった言い方であり、教育や普及活動の中で生まれました。&lt;/p&gt;
+&lt;h2 id=&#34;量率グラフの例&#34;&gt;量率グラフの例
+&lt;/h2&gt;&lt;h3 id=&#34;棒グラフと円の面積で表現した総額&#34;&gt;棒グラフと円の面積で表現した総額
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart.jpeg&#34;
+	width=&#34;1710&#34;
+	height=&#34;1180&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より、棒グラフと円の面積で表現した総額&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;全く同じデータを量率グラフで表現したもの&#34;&gt;全く同じデータを量率グラフで表現したもの
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
+	width=&#34;1682&#34;
+	height=&#34;2302&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より、量率グラフ&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;175px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;誕生の経緯年表&#34;&gt;誕生の経緯（年表）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1950年代半ば頃〜&lt;/strong&gt; &amp;hellip;板倉聖宣が、後に「量率グラフ」と呼ばれる形式のグラフを「30年ほど前から愛用してきた」と1985年に回想 ￼。出版物での確認はなく、本人の述懐に基づく時期推定。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1970年代末〜1980年代初頭&lt;/strong&gt; &amp;hellip;板倉が「自給率」の授業書を作る研究会でこの種のグラフを提示。そこで塩野広次が「量率グラフ」という名称を提案。量と率の両方を立てる＝「両立グラフ」としての意味を込めたものだった。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1982〜1983年頃&lt;/strong&gt; &amp;hellip;板倉の提示をきっかけに、松崎重広がこの手法に強く関心を持ち、自身の小学校授業に導入。児童とのやりとりを通じて「誰でも関心を持って描ける」グラフであることが示された。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1984年6月&lt;/strong&gt; &amp;hellip;松崎重広、「量率グラフの世界 社会科と算数で広がる」を月刊『たのしい授業』（仮説社）No.15に発表。同号には板倉自身による「量率グラフ」記事も掲載され、出版物として初めて明確に登場。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1985年1月&lt;/strong&gt; &amp;hellip;松崎重広『社会を見なおすメガネ―量率グラフで見る日本』（国土社）が刊行。板倉聖宣が監修を務め、書名に「量率グラフ」を冠した初の単行本となった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三者の役割&#34;&gt;三者の役割
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1.板倉聖宣：実践者として長年愛用し、研究会で提示。&lt;/li&gt;
+&lt;li&gt;2.塩野広次：研究会の場で「量率グラフ」という名称を提案。&lt;/li&gt;
+&lt;li&gt;3.松崎重広：教育現場に導入し、論文・単行本を通じて普及。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この三者の協働があって、今日「量率グラフ」という日本語名称が登場したといえます。&lt;/p&gt;
+&lt;h2 id=&#34;量率グラフの仕組みと特徴&#34;&gt;量率グラフの仕組みと特徴
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
+	width=&#34;1145&#34;
+	height=&#34;2094&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;54&#34;
+		data-flex-basis=&#34;131px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;横幅（x方向）：上位カテゴリの合計量に比例&lt;/li&gt;
+&lt;li&gt;縦分割（y方向）：そのカテゴリ内の構成比（割合）&lt;/li&gt;
+&lt;li&gt;矩形の面積：量×割合＝交差セルの量（度数/金額等）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この仕組みにより、量と割合を同時に直感的に把握できます。&lt;/p&gt;
+&lt;p&gt;向くケース&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;市場構成（地域×品目、チャネル×商品など）で、ボリュームと構成比を同時に把握したいとき。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;他のグラフとの違い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100%積み上げ棒グラフ&lt;/strong&gt; ：割合だけ（棒幅は一定）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;量率グラフ&lt;/strong&gt; ：棒幅も変化し、量と割合を同時に表現&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ツリーマップ&lt;/strong&gt; ：同じ面積表現だが、量率グラフはクロス表（分割表）の可視化に特化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;呼び名の整理&#34;&gt;呼び名の整理
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;モザイク・プロット（Mosaic plot）&lt;/strong&gt; ：統計学・統計ソフトでの正式名称&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マリメッコ・チャート（Marimekko, Mekko）&lt;/strong&gt; ：ビジネスダッシュボード分野での俗称&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;量率グラフ&lt;/strong&gt; ：日本で生まれ、教育や書籍を通じて普及した呼称（ただし、JIS Z 8101やe-Stat統計用語集には掲載していない）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「量率グラフ」という日本語呼称は、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;板倉聖宣の実践（1950年代〜）、&lt;/li&gt;
+&lt;li&gt;塩野広次の命名（1980年前後）、&lt;/li&gt;
+&lt;li&gt;松崎重広の教育現場導入（1980年代前半）、&lt;/li&gt;
+&lt;li&gt;1984年『たのしい授業』・1985年単行本での出版、&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を経て使用されました。&lt;/p&gt;
+&lt;p&gt;国際的にはモザイク・プロット（Mosaic plot）の一種として理解されますが、日本では「量率グラフ」という名のもとに教育実践から普及した独自の経緯があります。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ndlsearch.ndl.go.jp/books/R100000002-I000001715850&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国立国会図書館サーチ（松崎重広『社会を見なおすメガネ』）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ci.nii.ac.jp/ncid/BN04447666&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CiNii Books 書誌情報（BN04447666）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E9%87%8F%E7%8E%87%E3%82%B0%E3%83%A9%E3%83%95&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia 日本語版「量率グラフ」&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
         <link>http://localhost:1313/treemap-rcep/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
