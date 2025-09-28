@@ -17,7 +17,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 
 <!--more-->
 
-![](images/spiral-chart-nyt.jpg)
+![The New York Times が公開したスパイラル型のチャート](images/spiral-chart-nyt.jpg)
 
 The New York Times が 2022年1月に公開したスパイラル型のチャートは、米国における新型コロナ新規感染者数を可視化したものです。2020年から2022年初頭までの推移を螺旋状に重ね、赤い帯で新規感染者数、黒い線で7日間平均を示しています。年をまたぐ波の広がりを一目で捉えられるよう設計された、強いインパクトを持つ可視化です。
 
@@ -50,11 +50,11 @@ eagereyes.org などの分析では、中心の位置や曲線が完全な数学
 
 ## 第三者による代替案
 
-この図を受けて、複数のデータビジュアライゼーション専門家やデザイナーが「改良版」や「代替表現」を試みました。
+この図を受けて、複数のデータビジュアライゼーション専門家やデザイナーが「代替表現」を試みました。
 
-### Amelia Wattenberger
+### Amelia Wattenbergerさんによる代替表現
 
-![](images/by-wattenberger.jpeg)
+![Amelia Wattenbergerさんによる代替表現](images/by-wattenberger.jpeg)
 
 色使いやラベル配置を見直し、季節ごとの推移がより見やすいリミックスを公開。スパイラルの魅力を残しつつ可読性を高めました。
 
@@ -62,13 +62,17 @@ eagereyes.org などの分析では、中心の位置や曲線が完全な数学
 - [XユーザーのAmanda Makulec MPHさん: I was musing on why I love @Wattenberger's chart so much more than the original spiral graph (which I didn't have the disdain for that I saw from others)...](https://x.com/abmakulec/status/1479496579040034822)
 
 
-### Sourya Shrestha
+### Sourya Shresthaさんによる代替表現
 
-![](images/by-shrestha.png)
+![Sourya Shresthaさんによる代替表現](images/by-shrestha.png)
 
 螺旋の外側に放射状バーを配置する形式にアレンジ。線幅の錯覚を抑え、比較がしやすくなるよう工夫しました。
 
 - [XユーザーのSourya Shresthaさん: 「My own covid spiral (riff on nyt's)](https://x.com/soustha/status/1479588387556249609)
+
+### そのほか
+
+また、螺旋図から外れる代替として、伝統的な折れ線グラフ、積み上げ面グラフ、ヒートマップ（時×年で色分け表示）、バイオラジアル（放射軸×時数値）などが比較対象とされました。
 
 
 
