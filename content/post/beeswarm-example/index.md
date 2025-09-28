@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
-title = "ビースウォーム・プロット（Beeswarm Plot）"
-slug = "beeswarm-plot"
+title = "ビースウォーム・プロット（Beeswarm Plot）の事例"
+slug = "beeswarm-example"
 date = "2020-08-04"
 description = ""
 categories = [
@@ -13,7 +13,7 @@ tags = [
 image = "images/searchingcovid19_2.png"
 +++
 
-一次元の散布図で、ドットは重なりません。ストリップ・チャートやヒストグラム、箱ひげ図などと同様に、分布を可視化するために使用されます。異なる点としては、データポイント一つひとつの大きさや色で、データ属性を表現することができ、存在感を確認することが可能です。一方、統計要約量は描かれません。
+「ビースウォーム・プロット」が利用されている事例を紹介します。
 
 <!--more-->
 
