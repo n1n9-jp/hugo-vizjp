@@ -42,8 +42,7 @@ image = "images/vaccine-confidence-cascade-cover.jpeg"
 この作品が展示されたのと同じ年に公開された Wellcome Global Monitor は、140か国・14万人以上を対象とした大規模意識調査です。その中でも 日本のワクチン信頼は特筆すべき事例として取り上げられています。
 
 - 「日本とオーストリアは先進国で例外的にワクチン信頼が低い。特に HPVワクチンや他のワクチンの安全性をめぐる問題が、ここ数年で信頼を損ねた」  
-- 「過去20年間の政府対応は、麻疹や風疹の再流行を招いた」  
-- 子どもにワクチンを接種したと回答した割合（日本）Yes: 88% / No: 7% / Don’t know: 5%  
+- 「過去20年間の政府対応は、麻疹や風疹の再流行を招いた」   
 
 - 引用文献  
   - [Tanaka N. et al. (2017) "History repeats itself in Japan: Failure to learn from rubella epidemic leads to failure to provide the HPV vaccine."](https://pmc.ncbi.nlm.nih.gov/articles/PMC5557250/)
