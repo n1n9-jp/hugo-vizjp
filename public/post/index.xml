@@ -130,10 +130,22 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/parallel-sets/</guid>
-        <description>&lt;img src="http://localhost:1313/parallel-sets/images/image-15.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/parallel-sets/images/Parallel_Sets.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
 &lt;p&gt;この手法は 2005–2006 年に Robert Kosara, Fabian Bendix, Helwig Hauser によって発表されました。学術論文としては IEEE Transactions on Visualization and Computer Graphics (2006) に掲載され、さらに Kosara 自身による解説記事や『ビューティフル・ビジュアライゼーション』第12章でも詳しく紹介されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/Parallel_Sets.png&#34;
+	width=&#34;2008&#34;
+	height=&#34;1426&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets/images/Parallel_Sets_hu_fae3d214ecbdca01.png 480w, http://localhost:1313/parallel-sets/images/Parallel_Sets_hu_134cb22a4f821ed9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;337px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;パラレルセットとは&#34;&gt;パラレル・セットとは？
-&lt;/h2&gt;&lt;p&gt;パラレル・セットは、Parallel Coordinates（平行座標プロット）から着想を得て開発された手法です。Parallel Coordinates が数値データに強いのに対し、パラレル・セットはカテゴリデータ専用に設計されています。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;パラレル・セットは、パラレル・コーディネイト（Parallel Coordinates）から着想を得て開発された手法です。「パラレル・コーディネイトが数値データに強いのに対し、パラレル・セットはカテゴリデータ専用に設計されています。&lt;/p&gt;
 &lt;p&gt;基本構造&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -153,33 +165,57 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これにより「クロス集計表」を視覚的に把握できるのが最大の特徴です。&lt;/p&gt;
+&lt;p&gt;さらに重要なのは、リボンの幅が二重の意味を持つという点です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/Parallel_Sets-02.png&#34;
+	width=&#34;2136&#34;
+	height=&#34;1261&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets/images/Parallel_Sets-02_hu_d72bcc5330850807.png 480w, http://localhost:1313/parallel-sets/images/Parallel_Sets-02_hu_ba6c533e1fbf0579.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;それぞれのリボンの幅はデータ集合全体の中での周辺確率を表し、同時にそれぞれの属性の中での条件付き確率も表す&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;406px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;データ全体の中での割合（周辺確率）&lt;/strong&gt; を表すと同時に、&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;上位属性が与えられた条件下での割合（条件付き確率）&lt;/strong&gt; も表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば「1等室の乗客のうち女性は何割か」という情報が、リボンの幅から一目で読み取れます。これは単なる棒グラフやサンキー・ダイアグラムにはない、パラレル・セット独自の特徴です。&lt;/p&gt;
 &lt;h2 id=&#34;サンキーダイアグラムとの違い&#34;&gt;サンキー・ダイアグラムとの違い
 &lt;/h2&gt;&lt;p&gt;パラレル・セットはしばしばサンキー・ダイアグラムと混同されますが、目的は大きく異なります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;サンキー・ダイアグラム：エネルギーの流れやお金の流れなど、プロセスや時系列を「流れ」として表現する。基本的に一方向のフロー。&lt;/li&gt;
-&lt;li&gt;Parallel Sets：カテゴリの組み合わせや集合関係を表現する。フローの概念はなく、どちらの軸からも関係性を読み取れる。&lt;/li&gt;
+&lt;li&gt;パラレル・セット：カテゴリの組み合わせや集合関係を表現する。フローの概念はなく、どちらの軸からも関係性を読み取れる。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;言い換えると、サンキー・ダイアグラムは「水の流れ」、パラレル・セットは「積み木を横に並べ、リボンで結んで比較する」イメージです。&lt;/p&gt;
 &lt;h2 id=&#34;論文での位置づけ&#34;&gt;論文での位置づけ
-&lt;/h2&gt;&lt;p&gt;Kosara らの論文（2006）では、パラレル・セットは以下のように定義されています。
-•	カテゴリデータのための新しい可視化
-•	クロス集計（contingency table）をベースに、部分集合の頻度をリボンで表現
-•	軸やカテゴリの並べ替え、部分集合の強調などのインタラクション機能を備える
-•	高次元でも有効にパターンを見つけられる&lt;/p&gt;
-&lt;h2 id=&#34;日本語訳記事での補足&#34;&gt;日本語訳記事での補足
-&lt;/h2&gt;&lt;p&gt;『ビューティフル・ビジュアライゼーション』第12章 ￼では、パラレル・セットの「開発舞台裏」や「実装上の工夫」が丁寧に語られています。
-•	開発経緯：当初は大規模な消費者調査データを扱うために考案。
-•	実装モデル：SQLiteを用いた軽量データベース、ハッシュテーブルによる部分集合管理。OLAPやデータウェアハウスに近い仕組み。
-•	デザインの進化：棒グラフ＋リボンから木構造的なデザインへ。周辺確率と条件付き確率の同時表現。
-•	応用事例：VisWeek 2009 での展示。行政データ、顧客データ、プロセス分析などへの実用。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;Kosara らの論文（2006）では、パラレル・セットは以下のように定義されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;カテゴリデータのための新しい可視化&lt;/li&gt;
+&lt;li&gt;クロス集計（contingency table）をベースに、部分集合の頻度をリボンで表現&lt;/li&gt;
+&lt;li&gt;軸やカテゴリの並べ替え、部分集合の強調などのインタラクション機能を備える&lt;/li&gt;
+&lt;li&gt;高次元でも有効にパターンを見つけられる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;記事での補足&#34;&gt;記事での補足
+&lt;/h2&gt;&lt;p&gt;『ビューティフル・ビジュアライゼーション』第12章 では、パラレル・セットの「開発舞台裏」や「実装上の工夫」が丁寧に語られています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開発経緯：当初は大規模な消費者調査データを扱うために考案。&lt;/li&gt;
+&lt;li&gt;実装モデル：SQLiteを用いた軽量データベース、ハッシュテーブルによる部分集合管理。OLAPやデータウェアハウスに近い仕組み。&lt;/li&gt;
+&lt;li&gt;デザインの進化：棒グラフ＋リボンから木構造的なデザインへ。周辺確率と条件付き確率の同時表現。&lt;/li&gt;
+&lt;li&gt;応用事例：VisWeek 2009 での展示。行政データ、顧客データ、プロセス分析などへの実用。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;これにより、パラレル・セットは単なる可視化技法にとどまらず、データモデル設計と視覚表現を統合した手法であることが強調されています。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;パラレル・セットは、少数の既存手法しか対応できなかった「多次元のカテゴリデータ」を直感的に理解するための画期的な可視化です。
-•	サンキー・ダイアグラムとは異なり、「流れ」ではなく「集合の関係」に焦点を当てる。
-•	データベース設計と連携し、インタラクションによって探索性を高められる。
-•	学術的な新規性だけでなく、実務に役立つ応用例も豊富。&lt;/p&gt;
-&lt;p&gt;論文と日本語訳記事を突き合わせることで、パラレル・セットの理論・実装・応用の全体像を把握できます。&lt;/p&gt;
-&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;p&gt;パラレル・セットは、少数の既存手法しか対応できなかった「多次元のカテゴリデータ」を直感的に理解するための画期的な可視化です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サンキー・ダイアグラムとは異なり「流れ」ではなく「集合の関係」に焦点を当てる。&lt;/li&gt;
+&lt;li&gt;データベース設計と連携し、インタラクションによって探索性を高められる。&lt;/li&gt;
+&lt;li&gt;学術的な新規性だけでなく、実務に役立つ応用例も豊富。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1109/TVCG.2006.76&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kosara, R., Bendix, F., &amp;amp; Hauser, H. (2006). Parallel Sets: Visual Analysis of Categorical Data. IEEE TVCG&lt;/a&gt;&lt;/li&gt;
