@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ワクチンへの信頼をめぐる - Stefanie Posavec《Vaccine Confidence Cascade》"
+title = "ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》"
 slug = "vaccine-confidence-cascade"
 date = "2025-09-28"
 categories = [
