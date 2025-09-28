@@ -7,7 +7,116 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</title>
+        <link>http://localhost:1313/spiral-chart-nyt/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/spiral-chart-nyt/</guid>
+        <description>&lt;img src="http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt-cover.jpg" alt="Featured image of post NYT「Covid-19スパイラル可視化」をめぐる議論と代替案" /&gt;&lt;p&gt;2022年1月、The New York Times が公開した「新型コロナウイルスの新規感染者数（米国）」を示す螺旋（スパイラル）型チャートは、データビジュアライゼーションの世界で大きな注目を集めました。
+CDC や各州の保健当局の公式データをもとに、7日間平均を赤い帯と線で示しながら、2020年から2022年にかけての感染拡大を「渦を巻くように」描き出しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt.jpg&#34;
+	width=&#34;1024&#34;
+	height=&#34;1272&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt_hu_85a476f40be6b69e.jpg 480w, http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt_hu_734a3585a1a76fcf.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;193px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The New York Times が 2022年1月に公開したスパイラル型のチャートは、米国における新型コロナ新規感染者数を可視化したものです。2020年から2022年初頭までの推移を螺旋状に重ね、赤い帯で新規感染者数、黒い線で7日間平均を示しています。年をまたぐ波の広がりを一目で捉えられるよう設計された、強いインパクトを持つ可視化です。&lt;/p&gt;
+&lt;p&gt;この作品は斬新な表現ゆえに強いインパクトを与えた一方で、データの読み取りや解釈をめぐって賛否両論を呼びました。&lt;/p&gt;
+&lt;h2 id=&#34;表現をめぐる主な議論&#34;&gt;表現をめぐる主な議論
+&lt;/h2&gt;&lt;h3 id=&#34;読み取りや比較の難しさ&#34;&gt;読み取りや比較の難しさ
+&lt;/h3&gt;&lt;p&gt;スパイラルは視覚的には印象的ですが、日ごとの値を正確に読み取ることは難しく、年をまたいだ比較もしづらいとの指摘がありました。
+特に螺旋の半径が増大するにつれて、面積や線幅の錯覚が発生しやすく、数値の大きさを誇張して感じやすいという批判も出ています。&lt;/p&gt;
+&lt;h3 id=&#34;螺旋のずれとバランス&#34;&gt;螺旋のずれとバランス
+&lt;/h3&gt;&lt;p&gt;eagereyes.org などの分析では、中心の位置や曲線が完全な数学的螺旋から外れていることが指摘されました。そのため「揺らいで見える」「整合性が取れていない」という印象を与えるとされています。&lt;/p&gt;
+&lt;h3 id=&#34;目的と位置づけ&#34;&gt;目的と位置づけ
+&lt;/h3&gt;&lt;p&gt;一方で擁護の声も少なくありません。これは NYT のオピニオン記事に添えられたビジュアルであり、厳密な分析よりも「目を引き、議論を促す」ことが主目的であったと理解すべきだという立場です。
+記事本文には折れ線グラフなど標準的な可視化も併記されており、螺旋図単独で理解させる意図はなかったとされています。&lt;/p&gt;
+&lt;h3 id=&#34;螺旋の意義&#34;&gt;螺旋の意義
+&lt;/h3&gt;&lt;p&gt;螺旋は「季節性・周期性」を示唆する表現として一定の意義があります。感染の波が毎年冬に大きくなる傾向を視覚的に示すには適した形式だという評価も存在します。
+ただし、COVID-19 の流行は必ずしも規則的な周期を持つわけではないため、誤解を招く恐れもあるという慎重論もあります。&lt;/p&gt;
+&lt;h2 id=&#34;第三者による代替案&#34;&gt;第三者による代替案
+&lt;/h2&gt;&lt;p&gt;この図を受けて、複数のデータビジュアライゼーション専門家やデザイナーが「改良版」や「代替表現」を試みました。&lt;/p&gt;
+&lt;h3 id=&#34;amelia-wattenberger&#34;&gt;Amelia Wattenberger
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/by-wattenberger.jpeg&#34;
+	width=&#34;1902&#34;
+	height=&#34;1972&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/by-wattenberger_hu_111b7c0082409fb6.jpeg 480w, http://localhost:1313/spiral-chart-nyt/images/by-wattenberger_hu_644b1a8450bbb005.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;231px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;色使いやラベル配置を見直し、季節ごとの推移がより見やすいリミックスを公開。スパイラルの魅力を残しつつ可読性を高めました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/Wattenberger/status/1479276091751768065&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのAmelia Wattenberger 🪷さん: honestly? I love the serpent chart! 🐍&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/abmakulec/status/1479496579040034822&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのAmanda Makulec MPHさん: I was musing on why I love @Wattenberger&amp;rsquo;s chart so much more than the original spiral graph (which I didn&amp;rsquo;t have the disdain for that I saw from others)&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sourya-shrestha&#34;&gt;Sourya Shrestha
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/by-shrestha.png&#34;
+	width=&#34;1350&#34;
+	height=&#34;1800&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/by-shrestha_hu_f4a2ee15a07ce325.png 480w, http://localhost:1313/spiral-chart-nyt/images/by-shrestha_hu_deebc6b154093b6f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;螺旋の外側に放射状バーを配置する形式にアレンジ。線幅の錯覚を抑え、比較がしやすくなるよう工夫しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/soustha/status/1479588387556249609&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのSourya Shresthaさん: 「My own covid spiral (riff on nyt&amp;rsquo;s)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;NYT のスパイラル図は、情報を「正確に伝える」最適解ではないかもしれません。しかし、その斬新な表現は読者の関心を引き、データ可視化そのものをめぐる議論を喚起した点で大きな意味を持ちました。
+データビジュアライゼーションの実践では &lt;strong&gt;「わかりやすさ」と「印象の強さ」&lt;/strong&gt; のバランスをどうとるかが常に問われます。NYT の試みは、そのバランスを考えるうえで格好の事例といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;おまけ&#34;&gt;おまけ
+&lt;/h2&gt;&lt;p&gt;NYT のスパイラル図はその形状ゆえに、思わぬ派生作品も生まれました。
+たとえばこちらは、アーティスト Prince が用いた記号「Love Symbol」を想起させるようにスパイラルを変形させたものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-prince.png&#34;
+	width=&#34;870&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-prince_hu_19f2c45aaa853e25.png 480w, http://localhost:1313/spiral-chart-nyt/images/spiral-prince_hu_a69bcda9fe5f27a7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;84&#34;
+		data-flex-basis=&#34;203px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;もちろんこれは公式の図表ではなく遊び心のあるアレンジですが、こうした「二次創作」が登場するのも、この可視化が強いインパクトを持っていた証拠といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2021/us/covid-cases.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The New York Times – Coronavirus in the U.S.: Latest Map and Case Count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.practicalreporting.com/blog/2022/1/11/why-the-nyt-spiral-graph-is-a-failure-and-a-success&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;practicalreporting.com – Why the NYT Spiral Graph is a Failure and a Success&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://eagereyes.org/blog/2022/the-ny-times-covid-spiral-is-off-center&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;eagereyes.org – The NY Times COVID Spiral is Off-Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://questionsindataviz.com/2022/01/10/why-is-the-nyt-spiral-graph-getting-so-much-attention/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Questions in Dataviz – Why is the NYT Spiral Graph Getting So Much Attention?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://betterposters.blogspot.com/2022/01/the-new-york-times-covid-19-serpent.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Better Posters Blog – The New York Times COVID-19 Serpent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/select-from-data/the-new-york-times-viz-that-divided-datatwitter-8a406241bb21&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium – The NYT Viz that Divided Data Twitter (Sourya Shrestha)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
         <link>http://localhost:1313/treemap-rcep/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
