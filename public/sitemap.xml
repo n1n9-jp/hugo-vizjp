@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/spiral-chart-nyt/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/parallel-sets/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vaccine-confidence-cascade/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/treemap-rcep/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
@@ -12,9 +24,6 @@
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/newsmap/</loc>
-    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -266,7 +275,7 @@
     <loc>http://localhost:1313/sankey-diagram/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/parallel-sets/</loc>
+    <loc>http://localhost:1313/parallel-sets-example/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/fineo/</loc>

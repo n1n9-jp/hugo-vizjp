@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n">
-<title>パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった カテゴリデータ（属性データ） を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。\n">
+<title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
 
 <link rel='canonical' href='http://localhost:1313/parallel-sets/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
-<meta property='og:description' content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n">
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法">
+<meta property='og:description' content="データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった カテゴリデータ（属性データ） を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。\n">
 <meta property='og:url' content='http://localhost:1313/parallel-sets/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/parallel-sets/images/image-15.png' />
-<meta name="twitter:title" content="パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )">
-<meta name="twitter:description" content="「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/parallel-sets/images/image-15.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/parallel-sets/images/Parallel_Sets.png' />
+<meta name="twitter:title" content="パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法">
+<meta name="twitter:description" content="データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった カテゴリデータ（属性データ） を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/parallel-sets/images/Parallel_Sets.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -366,28 +366,12 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
-      <ol>
-        <li><a href="#一つの軸には一つのデータ属性を割り振る">一つの軸には一つのデータ属性を割り振る</a></li>
-        <li><a href="#階層構造を表す">階層構造を表す</a></li>
-        <li><a href="#流れや時系列は表現しない">流れや時系列は表現しない</a></li>
-        <li><a href="#一番優先度の高い軸の値に応じて着色">一番優先度の高い軸の値に応じて着色</a></li>
-      </ol>
-    </li>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#ミネソタ州上とノースカロライナ州下の住宅データを比較">ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較</a></li>
-        <li><a href="#国民戦線の躍進はフランスの伝統的な政党を揺さぶるフィナンシャルタイムズ">国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ</a></li>
-        <li><a href="#ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳">ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳</a></li>
-        <li><a href="#tracking-the-earths-300-nano-satellites">TRACKING THE EARTH’S 300 NANO-SATELLITES</a></li>
-        <li><a href="#ドローンが空から落下してくるとき--the-washington-post">ドローンが空から落下してくるとき | The Washington Post</a></li>
-        <li><a href="#rotem-blinder-of-ibm-hierarchical-parallel-sets">Rotem Blinder of IBM “Hierarchical Parallel Sets”</a></li>
-        <li><a href="#pantheon-corriere-della-sera--la-lettura-181">PANTHEON Corriere della Sera – La Lettura #181</a></li>
-        <li><a href="#news-use-across-social-media-platforms">News Use Across Social Media Platforms</a></li>
-      </ol>
-    </li>
-    <li><a href="#インタラクション">インタラクション</a></li>
-    <li><a href="#参考文献">参考文献</a></li>
+    <li><a href="#パラレルセットとは">パラレル・セットとは？</a></li>
+    <li><a href="#サンキーダイアグラムとの違い">サンキー・ダイアグラムとの違い</a></li>
+    <li><a href="#論文での位置づけ">論文での位置づけ</a></li>
+    <li><a href="#記事での補足">記事での補足</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -403,12 +387,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/parallel-sets/">
-                <img src="/parallel-sets/images/image-15_hu_4c3b48171f37716d.png"
-                        srcset="/parallel-sets/images/image-15_hu_4c3b48171f37716d.png 800w, /parallel-sets/images/image-15_hu_984c18bb390a6a66.png 1600w"
+                <img src="/parallel-sets/images/Parallel_Sets_hu_88fc6ad074b92ceb.png"
+                        srcset="/parallel-sets/images/Parallel_Sets_hu_88fc6ad074b92ceb.png 800w, /parallel-sets/images/Parallel_Sets_hu_f6c5cd2f29abe29f.png 1600w"
                         width="800" 
-                        height="973" 
+                        height="568" 
                         loading="lazy"
-                        alt="Featured image of post パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )" />
+                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" />
                 
             </a>
         </div>
@@ -427,7 +411,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/parallel-sets/">パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )</a>
+            <a href="/parallel-sets/">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</a>
         </h2>
     
         
@@ -449,7 +433,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 02, 2020</time>
+                <time class="article-time--published">Sep 28, 2025</time>
             </div>
         
 
@@ -479,163 +463,104 @@
     <section class="article-content">
     
     
-    <p>「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。</p>
-<p>研究開発チームの一人、Robert Kosaraによると、何らかの属性データ（たとえば沈没したタイタニック号に乗っていた人の集団に対して、一人ひとりの属性値）を可視化する手段が限られていたことをあげています。</p>
-<blockquote>
-<p>「扱おうとしているデータが離散的であるにもかかわらずビジュアライゼーションでのパラメータ(位置や長さなど)は連続しており、両者が不整合である 」
-Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
-<p>少しやわらかく言い直すと、属性値自体は文字のデータ、年齢…大人か子供か、性別…男性か女性か、であり、これらを集計して扱う際には数値として扱う必要がでてくる、ということになります。またこういったデータは、名義スケールであり順序スケールではない、つまり順序に意味を持たず、さらには階層構造を持つことがあることも指摘しています。</p>
-<p>このようなデータを可視化することができるチャートとしては、それまでツリーマップ（Treemap）とモザイク・プロット（Mosaic Plot）しか存在なかった、そしてParallel Setsは三番目のチャートだとRobertさんは述べています。</p>
-<h3 id="一つの軸には一つのデータ属性を割り振る">一つの軸には一つのデータ属性を割り振る
-</h3><blockquote>
-<p>データを集合として表現するアイデア以外に、ParSetsは平行座標系(Parallel Coordinates)[Inselberg 2009] に大きな影響を受けています。平行座標系は高次元の数値データを表すためによく使われるビジュアライゼーションのテクニックです。値を表現する軸を平行にレイアウトして表示することにより、ツリーマップやMosaic Plotのような入れ子構造よりもデータの理解や比較が容易になっており、特に変数の数が多い場合に有効です。また、この種のレイアウトは、効果的なインタラクションをデザインするのが容易です。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
-<h3 id="階層構造を表す">階層構造を表す
-</h3><blockquote>
-<p>新しい視覚的構造を探し始めた のですが、そこでようやく我々が求めているのはツリー構造に他ならない(つまり、Standard 方式をとるべき)ということに気づきました。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
-<h3 id="流れや時系列は表現しない">流れや時系列は表現しない
-</h3><p>物事の流れや時系列変化の表現には使用しません。つなぐ線は直線、曲線のどちらもありえますが、流れや時間を示さないため、矢印は使用しません。無向グラフ的ということですね。</p>
-<h3 id="一番優先度の高い軸の値に応じて着色">一番優先度の高い軸の値に応じて着色
-</h3><p>カテゴリーデータの値ごとに色が割り振られる場合があります。その場合は、一番重要な軸を一番上に配置し、そのデータ属性の値を色へ適用することが多いでしょう。チャートが入り組んできても、色を手がかりにチャートを探索することが可能となります。</p>
-<h2 id="作例">作例
-</h2><h3 id="ミネソタ州上とノースカロライナ州下の住宅データを比較">ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
-</h3><p><img src="/parallel-sets/images/image-14.png"
-	width="1288"
-	height="2026"
-	srcset="/parallel-sets/images/image-14_hu_abf09926fd9a0dff.png 480w, /parallel-sets/images/image-14_hu_1f069299886eddc.png 1024w"
+    <p>データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった <strong>カテゴリデータ（属性データ）</strong> を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。</p>
+<p>この手法は 2005–2006 年に Robert Kosara, Fabian Bendix, Helwig Hauser によって発表されました。学術論文としては IEEE Transactions on Visualization and Computer Graphics (2006) に掲載され、さらに Kosara 自身による解説記事や『ビューティフル・ビジュアライゼーション』第12章でも詳しく紹介されています。</p>
+<p><img src="/parallel-sets/images/Parallel_Sets.png"
+	width="2008"
+	height="1426"
+	srcset="/parallel-sets/images/Parallel_Sets_hu_fae3d214ecbdca01.png 480w, /parallel-sets/images/Parallel_Sets_hu_134cb22a4f821ed9.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="63"
-		data-flex-basis="152px"
+		data-flex-grow="140"
+		data-flex-basis="337px"
 	
 ></p>
-<p><a class="link" href="https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf"  target="_blank" rel="noopener"
-    >Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.</a></p>
-<p>寒い気候の人々は、暖房燃料として電気よりもガスを好み、移動式の家もあまり好きではありません。南部の住宅は平均的にベッドルーム数がやや少ないが、3ベッドルームの一戸建て住宅は北部よりも多いことがわかります。</p>
-<h3 id="国民戦線の躍進はフランスの伝統的な政党を揺さぶるフィナンシャルタイムズ">国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
-</h3><p><img src="/parallel-sets/images/image-15.png"
-	width="600"
-	height="730"
-	srcset="/parallel-sets/images/image-15_hu_899e9519aba4e904.png 480w, /parallel-sets/images/image-15_hu_d8a2ebe893c965a1.png 1024w"
+<h2 id="パラレルセットとは">パラレル・セットとは？
+</h2><p>パラレル・セットは、パラレル・コーディネイト（Parallel Coordinates）から着想を得て開発された手法です。「パラレル・コーディネイトが数値データに強いのに対し、パラレル・セットはカテゴリデータ専用に設計されています。</p>
+<p>基本構造</p>
+<ul>
+<li>
+<ol>
+<li>縦に並んだ軸：各軸が変数（例：性別、年齢層、職業など）を表す。</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>ブロック：軸ごとのカテゴリ値を矩形で示し、幅は該当データ数に比例。</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>リボン：隣接する軸のブロックを帯で接続。太さは「その組み合わせの人数／頻度」に対応。</li>
+</ol>
+</li>
+</ul>
+<p>これにより「クロス集計表」を視覚的に把握できるのが最大の特徴です。</p>
+<p>さらに重要なのは、リボンの幅が二重の意味を持つという点です。</p>
+<p><img src="/parallel-sets/images/Parallel_Sets-02.png"
+	width="2136"
+	height="1261"
+	srcset="/parallel-sets/images/Parallel_Sets-02_hu_d72bcc5330850807.png 480w, /parallel-sets/images/Parallel_Sets-02_hu_ba6c533e1fbf0579.png 1024w"
 	loading="lazy"
+	
+		alt="それぞれのリボンの幅はデータ集合全体の中での周辺確率を表し、同時にそれぞれの属性の中での条件付き確率も表す"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="82"
-		data-flex-basis="197px"
+		data-flex-grow="169"
+		data-flex-basis="406px"
 	
 ></p>
-<p><a class="link" href="https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0"  target="_blank" rel="noopener"
-    >National Front breakthrough stuns France’s traditional parties | Financial Times</a></p>
-<h3 id="ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳">ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
-</h3><p><img src="/parallel-sets/images/image-16.png"
-	width="1371"
-	height="847"
-	srcset="/parallel-sets/images/image-16_hu_9c9b9619b00794f4.png 480w, /parallel-sets/images/image-16_hu_202f7263f02a7b9.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="161"
-		data-flex-basis="388px"
-	
-></p>
-<p><a class="link" href="https://serialmentor.com/dataviz/nested-proportions.html"  target="_blank" rel="noopener"
-    >Fundamentals of Data Visualization</a></p>
-<h3 id="tracking-the-earths-300-nano-satellites">TRACKING THE EARTH’S 300 NANO-SATELLITES
-</h3><p><img src="/parallel-sets/images/1280.webp"
-	width="1280"
-	height="1920"
-	srcset="/parallel-sets/images/1280_hu_e56a3fa3121752a2.webp 480w, /parallel-sets/images/1280_hu_c9c16bc54e81ffd3.webp 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="66"
-		data-flex-basis="160px"
-	
-></p>
-<p><a class="link" href="https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics"  target="_blank" rel="noopener"
-    >TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini</a></p>
-<h3 id="ドローンが空から落下してくるとき--the-washington-post">ドローンが空から落下してくるとき | The Washington Post
-</h3><p><img src="/parallel-sets/images/image-18.png"
-	width="1170"
-	height="446"
-	srcset="/parallel-sets/images/image-18_hu_355d2caf5919963a.png 480w, /parallel-sets/images/image-18_hu_1b28ac40b9a66460.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="262"
-		data-flex-basis="629px"
-	
-></p>
-<p><a class="link" href="https://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/"  target="_blank" rel="noopener"
-    >When drones fall from the sky | The Washington Post</a></p>
-<h3 id="rotem-blinder-of-ibm-hierarchical-parallel-sets">Rotem Blinder of IBM “Hierarchical Parallel Sets”
-</h3><p><img src="/parallel-sets/images/image-19.png"
-	width="1536"
-	height="2048"
-	srcset="/parallel-sets/images/image-19_hu_d0f0e43248eae04.png 480w, /parallel-sets/images/image-19_hu_41ea389842cdd859.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="75"
-		data-flex-basis="180px"
-	
-></p>
-<p><a class="link" href="https://www.youtube.com/watch?v=P3FAyWbDlI4"  target="_blank" rel="noopener"
-    >Rotem Blinder – YouTube</a></p>
-<h3 id="pantheon-corriere-della-sera--la-lettura-181">PANTHEON Corriere della Sera – La Lettura #181
-</h3><p><img src="/parallel-sets/images/image-20.png"
-	width="1200"
-	height="1207"
-	srcset="/parallel-sets/images/image-20_hu_ab92ef65d3c76bc3.png 480w, /parallel-sets/images/image-20_hu_39fef9bab2e5919e.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="99"
-		data-flex-basis="238px"
-	
-></p>
-<p><a class="link" href="https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181"  target="_blank" rel="noopener"
-    >PANTHEON Corriere della Sera – La Lettura #181</a></p>
-<h3 id="news-use-across-social-media-platforms">News Use Across Social Media Platforms
-</h3><p><img src="/parallel-sets/images/image-21.png"
-	width="421"
-	height="833"
-	srcset="/parallel-sets/images/image-21_hu_8bf62f3d74a4b475.png 480w, /parallel-sets/images/image-21_hu_e5eff66a257a2e44.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="50"
-		data-flex-basis="121px"
-	
-></p>
-<p><a class="link" href="https://www.journalism.org/2013/11/14/news-use-across-social-media-platforms/"  target="_blank" rel="noopener"
-    >News Use Across Social Media Platforms</a></p>
-<h2 id="インタラクション">インタラクション
-</h2><p>マウスポインタのホバーなどでユーザーの興味を示すと、該当する面が強調表現（もしくは該当しない箇所の可読性を落とす）ことで、その面がどんなデータを取っているのかが見やすくなります。</p>
-<blockquote>
-<p>ParSets ではインタラクションが重要な役割を果たしています。ユーザーがマウスカー ソルを重ねると実際の値が表示されるほか、属性や値の並べ替え、値の追加や削除も可能です。また、軸上の各属性は並べ替えることもでき、より大きな属性へと結合させることも可能です。例えば、すべての船室を結合させて船員と比較することができます。
-Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
-<h2 id="参考文献">参考文献
+<ul>
+<li><strong>データ全体の中での割合（周辺確率）</strong> を表すと同時に、</li>
+<li><strong>上位属性が与えられた条件下での割合（条件付き確率）</strong> も表します。</li>
+</ul>
+<p>たとえば「1等室の乗客のうち女性は何割か」という情報が、リボンの幅から一目で読み取れます。これは単なる棒グラフやサンキー・ダイアグラムにはない、パラレル・セット独自の特徴です。</p>
+<h2 id="サンキーダイアグラムとの違い">サンキー・ダイアグラムとの違い
+</h2><p>パラレル・セットはしばしばサンキー・ダイアグラムと混同されますが、目的は大きく異なります。</p>
+<ul>
+<li>サンキー・ダイアグラム：エネルギーの流れやお金の流れなど、プロセスや時系列を「流れ」として表現する。基本的に一方向のフロー。</li>
+<li>パラレル・セット：カテゴリの組み合わせや集合関係を表現する。フローの概念はなく、どちらの軸からも関係性を読み取れる。</li>
+</ul>
+<h2 id="論文での位置づけ">論文での位置づけ
+</h2><p>Kosara らの論文（2006）では、パラレル・セットは以下のように定義されています。</p>
+<ul>
+<li>カテゴリデータのための新しい可視化</li>
+<li>クロス集計（contingency table）をベースに、部分集合の頻度をリボンで表現</li>
+<li>軸やカテゴリの並べ替え、部分集合の強調などのインタラクション機能を備える</li>
+<li>高次元でも有効にパターンを見つけられる</li>
+</ul>
+<h2 id="記事での補足">記事での補足
+</h2><p>『ビューティフル・ビジュアライゼーション』第12章 では、パラレル・セットの「開発舞台裏」や「実装上の工夫」が丁寧に語られています。</p>
+<ul>
+<li>開発経緯：当初は大規模な消費者調査データを扱うために考案。</li>
+<li>実装モデル：SQLiteを用いた軽量データベース、ハッシュテーブルによる部分集合管理。OLAPやデータウェアハウスに近い仕組み。</li>
+<li>デザインの進化：棒グラフ＋リボンから木構造的なデザインへ。周辺確率と条件付き確率の同時表現。</li>
+<li>応用事例：VisWeek 2009 での展示。行政データ、顧客データ、プロセス分析などへの実用。</li>
+</ul>
+<p>これにより、パラレル・セットは単なる可視化技法にとどまらず、データモデル設計と視覚表現を統合した手法であることが強調されています。</p>
+<h2 id="まとめ">まとめ
+</h2><p>パラレル・セットは、少数の既存手法しか対応できなかった「多次元のカテゴリデータ」を直感的に理解するための画期的な可視化です。</p>
+<ul>
+<li>サンキー・ダイアグラムとは異なり「流れ」ではなく「集合の関係」に焦点を当てる。</li>
+<li>データベース設計と連携し、インタラクションによって探索性を高められる。</li>
+<li>学術的な新規性だけでなく、実務に役立つ応用例も豊富。</li>
+</ul>
+<h2 id="参考出典">参考・出典
 </h2><ul>
-<li>Riccardo Mazza「情報を見える形にする技術」 P63</li>
-<li><a class="link" href="https://eagereyes.org/parallel-sets"  target="_blank" rel="noopener"
-    >Parallel Sets</a></li>
-<li><a class="link" href="https://www.vrvis.at/en/publications/PB-VRVis-2005-034"  target="_blank" rel="noopener"
-    >VRVis: Parallel Sets: Visual Analysis of Categorical Data</a></li>
-<li><a class="link" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9810&amp;rep=rep1&amp;type=pdf"  target="_blank" rel="noopener"
-    >Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): “Parallel Sets: Visual analysis of categorical data”. Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.</a></li>
-<li><a class="link" href="https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf"  target="_blank" rel="noopener"
-    >Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.</a></li>
+<li><a class="link" href="https://doi.org/10.1109/TVCG.2006.76"  target="_blank" rel="noopener"
+    >Kosara, R., Bendix, F., &amp; Hauser, H. (2006). Parallel Sets: Visual Analysis of Categorical Data. IEEE TVCG</a></li>
+<li><a class="link" href="https://ieeexplore.ieee.org/document/1532139"  target="_blank" rel="noopener"
+    >Bendix, F., Kosara, R., &amp; Hauser, H. (2005). Parallel Sets: Visual Analysis of Categorical Data. IEEE InfoVis</a></li>
+<li><a class="link" href="http://eagereyes.org/parallel-sets"  target="_blank" rel="noopener"
+    >Robert Kosara – Parallel Sets (公式サイト)</a></li>
+<li><a class="link" href="https://www.jasondavies.com/parallel-sets/"  target="_blank" rel="noopener"
+    >Jason Davies – D3.js Parallel Sets Demo</a></li>
+<li><a class="link" href="https://link.springer.com/referenceworkentry/10.1007/978-1-4899-7993-3_63140-1"  target="_blank" rel="noopener"
+    >Springer Encyclopedia of Database Systems – Parallel Sets</a></li>
+<li>『ビューティフル・ビジュアライゼーション』第12章「表のツリー表現 - Parallel Sets の進化-」</li>
 </ul>
 </section>
 
@@ -680,7 +605,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
         
         
             <div class="article-image">
-                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437_hu_8ba484b5e03e1c36.png" 
+                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437.86cc59cd46ea986d5f0f3b0cc2f6d437_hu_8ba484b5e03e1c36.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -704,7 +629,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
         
         
             <div class="article-image">
-                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae_hu_1b61ca0982e8a0bf.jpg" 
+                <img src="/chart-catalogue-by-tasks/images/chart_chooser.f710d8df9491e9bb6bfe3db1a1f900ae.f710d8df9491e9bb6bfe3db1a1f900ae_hu_1b61ca0982e8a0bf.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -728,7 +653,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
         
         
             <div class="article-image">
-                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu_b2ac6ffbb37b92c6.png" 
+                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e.616d2554794c95c09c00c8699c8ed57e_hu_b2ac6ffbb37b92c6.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -752,7 +677,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
         
         
             <div class="article-image">
-                <img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.262e4666c65de57aff9b9d25050e657b_hu_b1711ae94b830b5.png" 
+                <img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.262e4666c65de57aff9b9d25050e657b.262e4666c65de57aff9b9d25050e657b_hu_b1711ae94b830b5.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -776,7 +701,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193</p></blockquote>
         
         
             <div class="article-image">
-                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5_hu_a5956f5fb73a91bc.png" 
+                <img src="/treemap/images/Stock-Market-Treemap.e4873278d02ecb8ad310de74934ec7a5.e4873278d02ecb8ad310de74934ec7a5_hu_a5956f5fb73a91bc.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"

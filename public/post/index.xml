@@ -7,7 +7,320 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</title>
+        <link>http://localhost:1313/spiral-chart-nyt/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/spiral-chart-nyt/</guid>
+        <description>&lt;img src="http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt-cover.jpg" alt="Featured image of post NYT「Covid-19スパイラル可視化」をめぐる議論と代替案" /&gt;&lt;p&gt;2022年1月、The New York Times が公開した「新型コロナウイルスの新規感染者数（米国）」を示す螺旋（スパイラル）型チャートは、データビジュアライゼーションの世界で大きな注目を集めました。
+CDC や各州の保健当局の公式データをもとに、7日間平均を赤い帯と線で示しながら、2020年から2022年にかけての感染拡大を「渦を巻くように」描き出しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt.jpg&#34;
+	width=&#34;1024&#34;
+	height=&#34;1272&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt_hu_85a476f40be6b69e.jpg 480w, http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt_hu_734a3585a1a76fcf.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The New York Times が公開したスパイラル型のチャート&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;193px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;The New York Times が 2022年1月に公開したスパイラル型のチャートは、米国における新型コロナ新規感染者数を可視化したものです。2020年から2022年初頭までの推移を螺旋状に重ね、赤い帯で新規感染者数、黒い線で7日間平均を示しています。年をまたぐ波の広がりを一目で捉えられるよう設計された、強いインパクトを持つ可視化です。&lt;/p&gt;
+&lt;p&gt;この作品は斬新な表現ゆえに強いインパクトを与えた一方で、データの読み取りや解釈をめぐって賛否両論を呼びました。&lt;/p&gt;
+&lt;h2 id=&#34;表現をめぐる主な議論&#34;&gt;表現をめぐる主な議論
+&lt;/h2&gt;&lt;h3 id=&#34;読み取りや比較の難しさ&#34;&gt;読み取りや比較の難しさ
+&lt;/h3&gt;&lt;p&gt;スパイラルは視覚的には印象的ですが、日ごとの値を正確に読み取ることは難しく、年をまたいだ比較もしづらいとの指摘がありました。
+特に螺旋の半径が増大するにつれて、面積や線幅の錯覚が発生しやすく、数値の大きさを誇張して感じやすいという批判も出ています。&lt;/p&gt;
+&lt;h3 id=&#34;螺旋のずれとバランス&#34;&gt;螺旋のずれとバランス
+&lt;/h3&gt;&lt;p&gt;eagereyes.org などの分析では、中心の位置や曲線が完全な数学的螺旋から外れていることが指摘されました。そのため「揺らいで見える」「整合性が取れていない」という印象を与えるとされています。&lt;/p&gt;
+&lt;h3 id=&#34;目的と位置づけ&#34;&gt;目的と位置づけ
+&lt;/h3&gt;&lt;p&gt;一方で擁護の声も少なくありません。これは NYT のオピニオン記事に添えられたビジュアルであり、厳密な分析よりも「目を引き、議論を促す」ことが主目的であったと理解すべきだという立場です。
+記事本文には折れ線グラフなど標準的な可視化も併記されており、螺旋図単独で理解させる意図はなかったとされています。&lt;/p&gt;
+&lt;h3 id=&#34;螺旋の意義&#34;&gt;螺旋の意義
+&lt;/h3&gt;&lt;p&gt;螺旋は「季節性・周期性」を示唆する表現として一定の意義があります。感染の波が毎年冬に大きくなる傾向を視覚的に示すには適した形式だという評価も存在します。
+ただし、COVID-19 の流行は必ずしも規則的な周期を持つわけではないため、誤解を招く恐れもあるという慎重論もあります。&lt;/p&gt;
+&lt;h2 id=&#34;第三者による代替案&#34;&gt;第三者による代替案
+&lt;/h2&gt;&lt;p&gt;この図を受けて、複数のデータビジュアライゼーション専門家やデザイナーが「代替表現」を試みました。&lt;/p&gt;
+&lt;h3 id=&#34;amelia-wattenbergerさんによる代替表現&#34;&gt;Amelia Wattenbergerさんによる代替表現
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/by-wattenberger.jpeg&#34;
+	width=&#34;1902&#34;
+	height=&#34;1972&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/by-wattenberger_hu_111b7c0082409fb6.jpeg 480w, http://localhost:1313/spiral-chart-nyt/images/by-wattenberger_hu_644b1a8450bbb005.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Amelia Wattenbergerさんによる代替表現&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;96&#34;
+		data-flex-basis=&#34;231px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;色使いやラベル配置を見直し、季節ごとの推移がより見やすいリミックスを公開。スパイラルの魅力を残しつつ可読性を高めました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/Wattenberger/status/1479276091751768065&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのAmelia Wattenberger 🪷さん: honestly? I love the serpent chart! 🐍&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/abmakulec/status/1479496579040034822&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのAmanda Makulec MPHさん: I was musing on why I love @Wattenberger&amp;rsquo;s chart so much more than the original spiral graph (which I didn&amp;rsquo;t have the disdain for that I saw from others)&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sourya-shresthaさんによる代替表現&#34;&gt;Sourya Shresthaさんによる代替表現
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/by-shrestha.png&#34;
+	width=&#34;1350&#34;
+	height=&#34;1800&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/by-shrestha_hu_f4a2ee15a07ce325.png 480w, http://localhost:1313/spiral-chart-nyt/images/by-shrestha_hu_deebc6b154093b6f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Sourya Shresthaさんによる代替表現&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;螺旋の外側に放射状バーを配置する形式にアレンジ。線幅の錯覚を抑え、比較がしやすくなるよう工夫しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/soustha/status/1479588387556249609&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;XユーザーのSourya Shresthaさん: 「My own covid spiral (riff on nyt&amp;rsquo;s)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;そのほか&#34;&gt;そのほか
+&lt;/h3&gt;&lt;p&gt;また、螺旋図から外れる代替として、伝統的な折れ線グラフ、積み上げ面グラフ、ヒートマップ（時×年で色分け表示）などが比較対象とされました。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;NYT のスパイラル図は、情報を「正確に伝える」最適解ではないかもしれません。しかし、その斬新な表現は読者の関心を引き、データ可視化そのものをめぐる議論を喚起した点で大きな意味を持ちました。
+データビジュアライゼーションの実践では &lt;strong&gt;「わかりやすさ」と「印象の強さ」&lt;/strong&gt; のバランスをどうとるかが常に問われます。NYT の試みは、そのバランスを考えるうえで格好の事例といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;おまけ&#34;&gt;おまけ
+&lt;/h2&gt;&lt;p&gt;NYT のスパイラル図はその形状ゆえに、思わぬ派生作品も生まれました。
+たとえばこちらは、アーティスト Prince が用いた記号「Love Symbol」を想起させるようにスパイラルを変形させたものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-prince.png&#34;
+	width=&#34;870&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/spiral-chart-nyt/images/spiral-prince_hu_19f2c45aaa853e25.png 480w, http://localhost:1313/spiral-chart-nyt/images/spiral-prince_hu_a69bcda9fe5f27a7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;84&#34;
+		data-flex-basis=&#34;203px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;もちろんこれは公式の図表ではなく遊び心のあるアレンジですが、こうした「二次創作」が登場するのも、この可視化が強いインパクトを持っていた証拠といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nytimes.com/interactive/2021/us/covid-cases.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The New York Times – Coronavirus in the U.S.: Latest Map and Case Count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.practicalreporting.com/blog/2022/1/11/why-the-nyt-spiral-graph-is-a-failure-and-a-success&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;practicalreporting.com – Why the NYT Spiral Graph is a Failure and a Success&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://eagereyes.org/blog/2022/the-ny-times-covid-spiral-is-off-center&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;eagereyes.org – The NY Times COVID Spiral is Off-Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://questionsindataviz.com/2022/01/10/why-is-the-nyt-spiral-graph-getting-so-much-attention/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Questions in Dataviz – Why is the NYT Spiral Graph Getting So Much Attention?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://betterposters.blogspot.com/2022/01/the-new-york-times-covid-19-serpent.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Better Posters Blog – The New York Times COVID-19 Serpent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/select-from-data/the-new-york-times-viz-that-divided-datatwitter-8a406241bb21&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium – The NYT Viz that Divided Data Twitter (Sourya Shrestha)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
+        <link>http://localhost:1313/parallel-sets/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/parallel-sets/</guid>
+        <description>&lt;img src="http://localhost:1313/parallel-sets/images/image-15.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
+&lt;p&gt;この手法は 2005–2006 年に Robert Kosara, Fabian Bendix, Helwig Hauser によって発表されました。学術論文としては IEEE Transactions on Visualization and Computer Graphics (2006) に掲載され、さらに Kosara 自身による解説記事や『ビューティフル・ビジュアライゼーション』第12章でも詳しく紹介されています。&lt;/p&gt;
+&lt;h2 id=&#34;パラレルセットとは&#34;&gt;パラレル・セットとは？
+&lt;/h2&gt;&lt;p&gt;パラレル・セットは、Parallel Coordinates（平行座標プロット）から着想を得て開発された手法です。Parallel Coordinates が数値データに強いのに対し、パラレル・セットはカテゴリデータ専用に設計されています。&lt;/p&gt;
+&lt;p&gt;基本構造&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;縦に並んだ軸：各軸が変数（例：性別、年齢層、職業など）を表す。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;ブロック：軸ごとのカテゴリ値を矩形で示し、幅は該当データ数に比例。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;リボン：隣接する軸のブロックを帯で接続。太さは「その組み合わせの人数／頻度」に対応。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより「クロス集計表」を視覚的に把握できるのが最大の特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;サンキーダイアグラムとの違い&#34;&gt;サンキー・ダイアグラムとの違い
+&lt;/h2&gt;&lt;p&gt;パラレル・セットはしばしばサンキー・ダイアグラムと混同されますが、目的は大きく異なります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;サンキー・ダイアグラム：エネルギーの流れやお金の流れなど、プロセスや時系列を「流れ」として表現する。基本的に一方向のフロー。&lt;/li&gt;
+&lt;li&gt;Parallel Sets：カテゴリの組み合わせや集合関係を表現する。フローの概念はなく、どちらの軸からも関係性を読み取れる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;言い換えると、サンキー・ダイアグラムは「水の流れ」、パラレル・セットは「積み木を横に並べ、リボンで結んで比較する」イメージです。&lt;/p&gt;
+&lt;h2 id=&#34;論文での位置づけ&#34;&gt;論文での位置づけ
+&lt;/h2&gt;&lt;p&gt;Kosara らの論文（2006）では、パラレル・セットは以下のように定義されています。
+•	カテゴリデータのための新しい可視化
+•	クロス集計（contingency table）をベースに、部分集合の頻度をリボンで表現
+•	軸やカテゴリの並べ替え、部分集合の強調などのインタラクション機能を備える
+•	高次元でも有効にパターンを見つけられる&lt;/p&gt;
+&lt;h2 id=&#34;日本語訳記事での補足&#34;&gt;日本語訳記事での補足
+&lt;/h2&gt;&lt;p&gt;『ビューティフル・ビジュアライゼーション』第12章 ￼では、パラレル・セットの「開発舞台裏」や「実装上の工夫」が丁寧に語られています。
+•	開発経緯：当初は大規模な消費者調査データを扱うために考案。
+•	実装モデル：SQLiteを用いた軽量データベース、ハッシュテーブルによる部分集合管理。OLAPやデータウェアハウスに近い仕組み。
+•	デザインの進化：棒グラフ＋リボンから木構造的なデザインへ。周辺確率と条件付き確率の同時表現。
+•	応用事例：VisWeek 2009 での展示。行政データ、顧客データ、プロセス分析などへの実用。&lt;/p&gt;
+&lt;p&gt;これにより、パラレル・セットは単なる可視化技法にとどまらず、データモデル設計と視覚表現を統合した手法であることが強調されています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;パラレル・セットは、少数の既存手法しか対応できなかった「多次元のカテゴリデータ」を直感的に理解するための画期的な可視化です。
+•	サンキー・ダイアグラムとは異なり、「流れ」ではなく「集合の関係」に焦点を当てる。
+•	データベース設計と連携し、インタラクションによって探索性を高められる。
+•	学術的な新規性だけでなく、実務に役立つ応用例も豊富。&lt;/p&gt;
+&lt;p&gt;論文と日本語訳記事を突き合わせることで、パラレル・セットの理論・実装・応用の全体像を把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1109/TVCG.2006.76&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kosara, R., Bendix, F., &amp;amp; Hauser, H. (2006). Parallel Sets: Visual Analysis of Categorical Data. IEEE TVCG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/1532139&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bendix, F., Kosara, R., &amp;amp; Hauser, H. (2005). Parallel Sets: Visual Analysis of Categorical Data. IEEE InfoVis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://eagereyes.org/parallel-sets&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Robert Kosara – Parallel Sets (公式サイト)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jasondavies.com/parallel-sets/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Jason Davies – D3.js Parallel Sets Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://link.springer.com/referenceworkentry/10.1007/978-1-4899-7993-3_63140-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Springer Encyclopedia of Database Systems – Parallel Sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;『ビューティフル・ビジュアライゼーション』第12章「表のツリー表現 - Parallel Sets の進化-」&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》</title>
+        <link>http://localhost:1313/vaccine-confidence-cascade/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/vaccine-confidence-cascade/</guid>
+        <description>&lt;img src="http://localhost:1313/vaccine-confidence-cascade/images/vaccine-confidence-cascade-cover.jpeg" alt="Featured image of post ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》" /&gt;&lt;p&gt;ロンドンの Wellcome Collection は「健康と人間の経験」を探る博物館・ライブラリーとして、科学や社会に関する企画展を多数行っています。その一つに、2019年に展示された Stefanie Posavec の作品《Vaccine Confidence Cascade》があります。本作はデータビジュアライザーである Posavec が、ライター Miriam Quick と共同で制作したインスタレーションで、ワクチンへの信頼が cascade する（滝のように連鎖的に崩れる／積み重なる）様子を視覚化したものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyROZHaEAEfgAl.jpeg&#34;
+	width=&#34;1512&#34;
+	height=&#34;2016&#34;
+	srcset=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyROZHaEAEfgAl_hu_85729a0973d94f0d.jpeg 480w, http://localhost:1313/vaccine-confidence-cascade/images/FqyROZHaEAEfgAl_hu_85fb003638aff16e.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;作品の全体像&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/shima_usa96/status/1633840716991586306&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xユーザーの縞うさぎ／詫摩雅子さん:どのルートを選びますか？と題したインスタレーション&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;作品の題材--日本における-hpvワクチン問題&#34;&gt;作品の題材 — 日本における HPVワクチン問題
+&lt;/h2&gt;&lt;p&gt;展示キャプションによれば、この作品が焦点を当てたのは 日本での HPVワクチンをめぐる不信と接種率の急落です。
+2013年、副反応に関する報道が大きく広がり、科学的な因果関係は確認されなかったにもかかわらず、政府は積極的な接種勧奨を中止しました。その結果、接種率はかつての 約70%から 1%未満へと激減し、世界的にも「ワクチン・ヘジタンスの象徴的事例」となりました。&lt;/p&gt;
+&lt;p&gt;作品は、左側の赤い流れが「ワクチンを接種しない」選択へ至る道筋（副反応報道→混乱→不安→拒否）を、右側の水色の流れが「接種する」選択へ至る道筋（WHOや政府の推奨→安心→接種継続）を描き出しています。中央には「情報の錯綜」による混乱の声が吹き出しとして配置され、意思決定の揺れを体感的に示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyRT2EakAQeXT8.jpeg&#34;
+	width=&#34;1512&#34;
+	height=&#34;2016&#34;
+	srcset=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyRT2EakAQeXT8_hu_e30c6d265aa5d0f.jpeg 480w, http://localhost:1313/vaccine-confidence-cascade/images/FqyRT2EakAQeXT8_hu_6fd231027f34b74a.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;作品中のリード文&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyRYVCaQAM5jhE.jpeg&#34;
+	width=&#34;1512&#34;
+	height=&#34;2016&#34;
+	srcset=&#34;http://localhost:1313/vaccine-confidence-cascade/images/FqyRYVCaQAM5jhE_hu_80a11096fe0febef.jpeg 480w, http://localhost:1313/vaccine-confidence-cascade/images/FqyRYVCaQAM5jhE_hu_502d827d9faf1af2.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;作品のキャプション&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/shima_usa96/status/1633840716991586306&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xユーザーの縞うさぎ／詫摩雅子さん:どのルートを選びますか？と題したインスタレーション&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景となるデータ--wellcome-global-monitor&#34;&gt;背景となるデータ — Wellcome Global Monitor
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vaccine-confidence-cascade/images/WellcomeGlobalMonitor.png&#34;
+	width=&#34;1240&#34;
+	height=&#34;1753&#34;
+	srcset=&#34;http://localhost:1313/vaccine-confidence-cascade/images/WellcomeGlobalMonitor_hu_b82240bf0af8b0c2.png 480w, http://localhost:1313/vaccine-confidence-cascade/images/WellcomeGlobalMonitor_hu_e19d9d499097533.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Wellcome Global Monitor&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この作品が展示されたのと同じ年に公開された Wellcome Global Monitor は、140か国・14万人以上を対象とした大規模意識調査です。その中でも 日本のワクチン信頼は特筆すべき事例として取り上げられています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;「日本とオーストリアは先進国で例外的にワクチン信頼が低い。特に HPVワクチンや他のワクチンの安全性をめぐる問題が、ここ数年で信頼を損ねた」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;「過去20年間の政府対応は、麻疹や風疹の再流行を招いた」&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;引用文献&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pmc.ncbi.nlm.nih.gov/articles/PMC5557250/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tanaka N. et al. (2017) &amp;ldquo;History repeats itself in Japan: Failure to learn from rubella epidemic leads to failure to provide the HPV vaccine.&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.japantimes.co.jp/opinion/2018/06/26/commentary/japan-commentary/japans-backward-vaccination-policy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Japan Times 社説 &amp;ldquo;Japan’s backward vaccination policy&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、国際的な調査の中でも「日本の HPVワクチンをめぐる不信」が公式に位置づけられており、Posavec の作品はその社会的背景を直接題材としたものだと理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;作品とデータをつなぐ意味&#34;&gt;作品とデータをつなぐ意味
+&lt;/h2&gt;&lt;p&gt;Posavec の作品は、これらの調査結果や報道を背景に、「信頼が cascade（連鎖的に崩れていく／形成されていく）」構造を体感的に表現しています。公式調査（Wellcome Global Monitor）で数値化された「日本におけるワクチン信頼の低下」という事実と、可視化作品の体験的表現が重なることで、社会における「情報と信頼の脆さ」を強く訴えています。&lt;/p&gt;
+&lt;h2 id=&#34;作品上で日本語訳をオーバーレイしたもの&#34;&gt;作品上で日本語訳をオーバーレイしたもの
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vaccine-confidence-cascade/images/F3kAazFaAAAUS3Q.jpeg&#34;
+	width=&#34;2319&#34;
+	height=&#34;3353&#34;
+	srcset=&#34;http://localhost:1313/vaccine-confidence-cascade/images/F3kAazFaAAAUS3Q_hu_2d24ee494e2fa0e1.jpeg 480w, http://localhost:1313/vaccine-confidence-cascade/images/F3kAazFaAAAUS3Q_hu_b1bd3e18291d750.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;有志による日本語訳&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;69&#34;
+		data-flex-basis=&#34;165px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://x.com/PKAnzug/status/1691383931168550912&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xユーザーの𝑷𝑲𝑨さん: とても良い展示なので、日本語化しときましたよ&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/confidence-cascade&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stefanie Posavec: Vaccine Confidence Cascade（作品ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wellcomecollection.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wellcome Collection（公式）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wellcome Global Monitor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
         <link>http://localhost:1313/treemap-rcep/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
@@ -7782,36 +8095,18 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )</title>
-        <link>http://localhost:1313/parallel-sets/</link>
+        <title>パラレル・セットの利用例紹介</title>
+        <link>http://localhost:1313/parallel-sets-example/</link>
         <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/parallel-sets/</guid>
-        <description>&lt;img src="http://localhost:1313/parallel-sets/images/image-15.png" alt="Featured image of post パラレル・セット（平行セット）」(Parallel Sets もしくは ParSets )" /&gt;&lt;p&gt;「パラレル・コーディネイト（平行座標）」から着想を得ていますが、カテゴリーデータの頻度を表現していること、折れ線ではなく面で表現しているという違いがあります。2つ以上のカテゴリーデータの頻度を相対値（合計で100%になるように）で集計したデータを用います。&lt;/p&gt;
-&lt;p&gt;研究開発チームの一人、Robert Kosaraによると、何らかの属性データ（たとえば沈没したタイタニック号に乗っていた人の集団に対して、一人ひとりの属性値）を可視化する手段が限られていたことをあげています。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;「扱おうとしているデータが離散的であるにもかかわらずビジュアライゼーションでのパラメータ(位置や長さなど)は連続しており、両者が不整合である 」
-Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;少しやわらかく言い直すと、属性値自体は文字のデータ、年齢…大人か子供か、性別…男性か女性か、であり、これらを集計して扱う際には数値として扱う必要がでてくる、ということになります。またこういったデータは、名義スケールであり順序スケールではない、つまり順序に意味を持たず、さらには階層構造を持つことがあることも指摘しています。&lt;/p&gt;
-&lt;p&gt;このようなデータを可視化することができるチャートとしては、それまでツリーマップ（Treemap）とモザイク・プロット（Mosaic Plot）しか存在なかった、そしてParallel Setsは三番目のチャートだとRobertさんは述べています。&lt;/p&gt;
-&lt;h3 id=&#34;一つの軸には一つのデータ属性を割り振る&#34;&gt;一つの軸には一つのデータ属性を割り振る
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;データを集合として表現するアイデア以外に、ParSetsは平行座標系(Parallel Coordinates)[Inselberg 2009] に大きな影響を受けています。平行座標系は高次元の数値データを表すためによく使われるビジュアライゼーションのテクニックです。値を表現する軸を平行にレイアウトして表示することにより、ツリーマップやMosaic Plotのような入れ子構造よりもデータの理解や比較が容易になっており、特に変数の数が多い場合に有効です。また、この種のレイアウトは、効果的なインタラクションをデザインするのが容易です。
-Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;階層構造を表す&#34;&gt;階層構造を表す
-&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;新しい視覚的構造を探し始めた のですが、そこでようやく我々が求めているのはツリー構造に他ならない(つまり、Standard 方式をとるべき)ということに気づきました。
-Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;流れや時系列は表現しない&#34;&gt;流れや時系列は表現しない
-&lt;/h3&gt;&lt;p&gt;物事の流れや時系列変化の表現には使用しません。つなぐ線は直線、曲線のどちらもありえますが、流れや時間を示さないため、矢印は使用しません。無向グラフ的ということですね。&lt;/p&gt;
-&lt;h3 id=&#34;一番優先度の高い軸の値に応じて着色&#34;&gt;一番優先度の高い軸の値に応じて着色
-&lt;/h3&gt;&lt;p&gt;カテゴリーデータの値ごとに色が割り振られる場合があります。その場合は、一番重要な軸を一番上に配置し、そのデータ属性の値を色へ適用することが多いでしょう。チャートが入り組んできても、色を手がかりにチャートを探索することが可能となります。&lt;/p&gt;
+        <guid>http://localhost:1313/parallel-sets-example/</guid>
+        <description>&lt;img src="http://localhost:1313/parallel-sets-example/images/image-15.png" alt="Featured image of post パラレル・セットの利用例紹介" /&gt;&lt;p&gt;「パラレル・セット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;ミネソタ州上とノースカロライナ州下の住宅データを比較&#34;&gt;ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-14.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-14.png&#34;
 	width=&#34;1288&#34;
 	height=&#34;2026&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-14_hu_abf09926fd9a0dff.png 480w, http://localhost:1313/parallel-sets/images/image-14_hu_1f069299886eddc.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-14_hu_abf09926fd9a0dff.png 480w, http://localhost:1313/parallel-sets-example/images/image-14_hu_1f069299886eddc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7824,10 +8119,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
     &gt;Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;寒い気候の人々は、暖房燃料として電気よりもガスを好み、移動式の家もあまり好きではありません。南部の住宅は平均的にベッドルーム数がやや少ないが、3ベッドルームの一戸建て住宅は北部よりも多いことがわかります。&lt;/p&gt;
 &lt;h3 id=&#34;国民戦線の躍進はフランスの伝統的な政党を揺さぶるフィナンシャルタイムズ&#34;&gt;国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-15.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-15.png&#34;
 	width=&#34;600&#34;
 	height=&#34;730&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-15_hu_899e9519aba4e904.png 480w, http://localhost:1313/parallel-sets/images/image-15_hu_d8a2ebe893c965a1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-15_hu_899e9519aba4e904.png 480w, http://localhost:1313/parallel-sets-example/images/image-15_hu_d8a2ebe893c965a1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7839,10 +8134,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;National Front breakthrough stuns France’s traditional parties | Financial Times&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳&#34;&gt;ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-16.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-16.png&#34;
 	width=&#34;1371&#34;
 	height=&#34;847&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-16_hu_9c9b9619b00794f4.png 480w, http://localhost:1313/parallel-sets/images/image-16_hu_202f7263f02a7b9.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-16_hu_9c9b9619b00794f4.png 480w, http://localhost:1313/parallel-sets-example/images/image-16_hu_202f7263f02a7b9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7854,10 +8149,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://serialmentor.com/dataviz/nested-proportions.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fundamentals of Data Visualization&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tracking-the-earths-300-nano-satellites&#34;&gt;TRACKING THE EARTH’S 300 NANO-SATELLITES
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/1280.webp&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/1280.webp&#34;
 	width=&#34;1280&#34;
 	height=&#34;1920&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/1280_hu_e56a3fa3121752a2.webp 480w, http://localhost:1313/parallel-sets/images/1280_hu_c9c16bc54e81ffd3.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/1280_hu_e56a3fa3121752a2.webp 480w, http://localhost:1313/parallel-sets-example/images/1280_hu_c9c16bc54e81ffd3.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7869,10 +8164,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ドローンが空から落下してくるとき--the-washington-post&#34;&gt;ドローンが空から落下してくるとき | The Washington Post
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-18.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-18.png&#34;
 	width=&#34;1170&#34;
 	height=&#34;446&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-18_hu_355d2caf5919963a.png 480w, http://localhost:1313/parallel-sets/images/image-18_hu_1b28ac40b9a66460.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-18_hu_355d2caf5919963a.png 480w, http://localhost:1313/parallel-sets-example/images/image-18_hu_1b28ac40b9a66460.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7884,10 +8179,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;When drones fall from the sky | The Washington Post&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;rotem-blinder-of-ibm-hierarchical-parallel-sets&#34;&gt;Rotem Blinder of IBM “Hierarchical Parallel Sets”
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-19.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-19.png&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-19_hu_d0f0e43248eae04.png 480w, http://localhost:1313/parallel-sets/images/image-19_hu_41ea389842cdd859.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-19_hu_d0f0e43248eae04.png 480w, http://localhost:1313/parallel-sets-example/images/image-19_hu_41ea389842cdd859.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7899,10 +8194,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=P3FAyWbDlI4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Rotem Blinder – YouTube&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pantheon-corriere-della-sera--la-lettura-181&#34;&gt;PANTHEON Corriere della Sera – La Lettura #181
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-20.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-20.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;1207&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-20_hu_ab92ef65d3c76bc3.png 480w, http://localhost:1313/parallel-sets/images/image-20_hu_39fef9bab2e5919e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-20_hu_ab92ef65d3c76bc3.png 480w, http://localhost:1313/parallel-sets-example/images/image-20_hu_39fef9bab2e5919e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7914,10 +8209,10 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;PANTHEON Corriere della Sera – La Lettura #181&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;news-use-across-social-media-platforms&#34;&gt;News Use Across Social Media Platforms
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/image-21.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-21.png&#34;
 	width=&#34;421&#34;
 	height=&#34;833&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets/images/image-21_hu_8bf62f3d74a4b475.png 480w, http://localhost:1313/parallel-sets/images/image-21_hu_e5eff66a257a2e44.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/image-21_hu_8bf62f3d74a4b475.png 480w, http://localhost:1313/parallel-sets-example/images/image-21_hu_e5eff66a257a2e44.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
