@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。\nなぜAirBnBのような会社がなぜBIツールを作ったのか？というところですが、公式ブログによると、「すべての従業員がデータに基づいた意思決定を行えるようにする」というのが、原理的信念の一つだから、とのことです。\n">
-<title>AirBnBが開発したOSSのB.I.ツール、Superset</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。 中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。\n用途：学生の成績、製品比較、能力評価など 特徴：項目間のバランスや偏りを「形」として直感的に把握できる 日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。\n">
+<title>レーダー・チャートと平行座標：読みやすさをめぐる議論</title>
 
-<link rel='canonical' href='http://localhost:1313/airbnb-superset/'>
+<link rel='canonical' href='http://localhost:1313/radar-parallel-coordinates/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="AirBnBが開発したOSSのB.I.ツール、Superset">
-<meta property='og:description' content="AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。\nなぜAirBnBのような会社がなぜBIツールを作ったのか？というところですが、公式ブログによると、「すべての従業員がデータに基づいた意思決定を行えるようにする」というのが、原理的信念の一つだから、とのことです。\n">
-<meta property='og:url' content='http://localhost:1313/airbnb-superset/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="レーダー・チャートと平行座標：読みやすさをめぐる議論">
+<meta property='og:description' content="レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。 中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。\n用途：学生の成績、製品比較、能力評価など 特徴：項目間のバランスや偏りを「形」として直感的に把握できる 日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。\n">
+<meta property='og:url' content='http://localhost:1313/radar-parallel-coordinates/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-05-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-05-19T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/airbnb-superset/images/bank_dash.png' />
-<meta name="twitter:title" content="AirBnBが開発したOSSのB.I.ツール、Superset">
-<meta name="twitter:description" content="AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。\nなぜAirBnBのような会社がなぜBIツールを作ったのか？というところですが、公式ブログによると、「すべての従業員がデータに基づいた意思決定を行えるようにする」というのが、原理的信念の一つだから、とのことです。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/airbnb-superset/images/bank_dash.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/radar-parallel-coordinates/images/thumbnail_combined.jpg' />
+<meta name="twitter:title" content="レーダー・チャートと平行座標：読みやすさをめぐる議論">
+<meta name="twitter:description" content="レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。 中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。\n用途：学生の成績、製品比較、能力評価など 特徴：項目間のバランスや偏りを「形」として直感的に把握できる 日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/radar-parallel-coordinates/images/thumbnail_combined.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -344,19 +344,62 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#レーダーチャートの弱点">レーダー・チャートの弱点</a></li>
+    <li><a href="#平行座標parallel-coordinatesという代替">平行座標（Parallel Coordinates）という代替</a></li>
+    <li><a href="#研究的な裏付け">研究的な裏付け</a></li>
+    <li><a href="#レーダーチャートの大衆性-vs-平行座標の専門性">レーダー・チャートの大衆性 vs 平行座標の専門性</a>
+      <ol>
+        <li><a href="#1-直感的な形の力">1. 直感的な「形」の力</a></li>
+        <li><a href="#2-メディアと文化での定着">2. メディアと文化での定着</a></li>
+        <li><a href="#3-ツールでの利用の容易さ">3. ツールでの利用の容易さ</a></li>
+        <li><a href="#4-学習コストの違い">4. 学習コストの違い</a></li>
+      </ol>
+    </li>
+    <li><a href="#まとめ使い分けの視点">まとめ：使い分けの視点</a></li>
+    <li><a href="#参考リンク">参考リンク</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/airbnb-superset/">
-                <img src="/airbnb-superset/images/bank_dash_hu_b2eda540a30c9e3c.png"
-                        srcset="/airbnb-superset/images/bank_dash_hu_b2eda540a30c9e3c.png 800w, /airbnb-superset/images/bank_dash_hu_244cf3ad781b7d77.png 1600w"
+            <a href="/radar-parallel-coordinates/">
+                <img src="/radar-parallel-coordinates/images/thumbnail_combined_hu_789b70eeff1a7433.jpg"
+                        srcset="/radar-parallel-coordinates/images/thumbnail_combined_hu_789b70eeff1a7433.jpg 800w, /radar-parallel-coordinates/images/thumbnail_combined_hu_a25a7d8212f4973b.jpg 1600w"
                         width="800" 
-                        height="728" 
+                        height="212" 
                         loading="lazy"
-                        alt="Featured image of post AirBnBが開発したOSSのB.I.ツール、Superset" />
+                        alt="Featured image of post レーダー・チャートと平行座標：読みやすさをめぐる議論" />
                 
             </a>
         </div>
@@ -366,8 +409,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/technology/" >
-                作るための記事
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -375,7 +418,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/airbnb-superset/">AirBnBが開発したOSSのB.I.ツール、Superset</a>
+            <a href="/radar-parallel-coordinates/">レーダー・チャートと平行座標：読みやすさをめぐる議論</a>
         </h2>
     
         
@@ -397,7 +440,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">May 19, 2020</time>
+                <time class="article-time--published">Sep 28, 2025</time>
             </div>
         
 
@@ -427,41 +470,95 @@
     <section class="article-content">
     
     
-    <p>AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。</p>
-<p>なぜAirBnBのような会社がなぜBIツールを作ったのか？というところですが、公式ブログによると、「すべての従業員がデータに基づいた意思決定を行えるようにする」というのが、原理的信念の一つだから、とのことです。</p>
-<p>その際、データ民主主義に伴う課題の1つとして、さまざまなレベルのデータリテラシーを持つユーザーがデータにアクセスできるようにすることだとして、そこでSQLが一つの障壁になるということと、単にSQLが実行できるだけでなく、インサイトを探索して発見する必要もあるところから開発された。そのため、ユーザーインターフェイスとしては下記の２つを持ちます。</p>
+    <p>レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。
+中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。</p>
 <ul>
-<li>データへの高速かつ柔軟なアクセスを可能にするリッチSQL IDE (インタラクティブ開発環境)</li>
-<li>データテーブルをリッチな視覚的洞察に変換するデータ探査インターフェース</li>
+<li>用途：学生の成績、製品比較、能力評価など</li>
+<li>特徴：項目間のバランスや偏りを「形」として直感的に把握できる</li>
 </ul>
-<p>最初はハッカソンから誕生し、徐々にコミュニティドリブンに多機能になっていっているとのことです。<br>
-開発を主導したのは、Apache Airflowなども開発した、Maxime Beaucheminさん。</p>
-<p>講演の際、Maximeさんは、</p>
+<p>日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。</p>
+<p><img src="/radar-parallel-coordinates/images/radar-chart.png"
+	width="1749"
+	height="968"
+	srcset="/radar-parallel-coordinates/images/radar-chart_hu_5799a529fd1c1db2.png 480w, /radar-parallel-coordinates/images/radar-chart_hu_1d5697827d640dd5.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="180"
+		data-flex-basis="433px"
+	
+></p>
+<h2 id="レーダーチャートの弱点">レーダー・チャートの弱点
+</h2><p>一方で、レーダー・チャートには批判も少なくありません。代表的な問題点は以下のとおりです。</p>
 <ul>
-<li>Apache Druidと組み合わせてリアルタイムデータ可視化できるBIツールが存在していなかったから。</li>
-<li>どんなデータベースとも接続できて、D3.jsを使った可視化の制作負荷を下げたい。</li>
-<li>ダッシュボードとライフサイクルはとても短いため、Supersetが役に立つ（筆者注：おそらくOSSという意味で）。</li>
+<li><strong>半径方向の距離比較が難しい</strong> &hellip;人間は共通の基準線に対する垂直・水平の比較は得意ですが、放射方向の距離差を正確に読むのは苦手です。</li>
+<li><strong>面積や形のバイアス</strong> &hellip;多角形の「面積」や「形状」が視覚的に印象を強めるため、実際の数値差以上に誇張される場合があります。</li>
+<li><strong>軸順序の恣意性</strong> &hellip;軸を並べる順番によって形が大きく変わるため、グラフ作成者の意図が読み手の印象に強く影響します。</li>
+<li><strong>比較対象や項目数の制限</strong> &hellip;多くの対象や項目を扱うと線や面が重なり、判読困難になります。</li>
 </ul>
-<p>とも挙げています。</p>
-<p>関連リンク</p>
+<p>Michael Correll のコラム「Bad Ideas in Visualization」では、レーダー・チャートは「形として読んでしまう誘惑が強く、しかもその形が軸順に依存するため誤解を招きやすい」と批判されています。</p>
+<h2 id="平行座標parallel-coordinatesという代替">平行座標（Parallel Coordinates）という代替
+</h2><p><img src="/radar-parallel-coordinates/images/parallel-coordinates.png"
+	width="1964"
+	height="997"
+	srcset="/radar-parallel-coordinates/images/parallel-coordinates_hu_6f67c0c193ab9ae3.png 480w, /radar-parallel-coordinates/images/parallel-coordinates_hu_46821aa0178cdf24.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="196"
+		data-flex-basis="472px"
+	
+></p>
+<p>そこでしばしば比較されるのが、**平行座標プロット（parallel coordinates plot, PCP）**です。これは複数の変数を平行な縦軸に並べ、各データを線でつなぐ手法です。</p>
+<p>ブログ Dueling Data では次のように述べられています：</p>
+<p>「レーダー・チャートは見た目は面白いが、各スポーク上の長さを比較するのは難しい。一方で平行座標では、すべての変数が共通の基準軸を持つため、比較が容易である。」</p>
+<p>つまり、レーダー・チャートが放射方向に散らばる軸をもつのに対し、平行座標はすべての変数を縦に並べるため、「共通スケール上での比較」がやりやすいというわけです。</p>
+<h2 id="研究的な裏付け">研究的な裏付け
+</h2><p>学術研究でも、両者の可読性比較が行われています。
+たとえば P-Lite: A study of parallel coordinate plot literacy では、レーダー・チャート・平行座標・散布図などを対象にユーザ実験が行われました。結果は一概に「どちらが常に優れている」とは言えませんが、平行座標の方が高次元データを扱いやすく、正確な読み取りが可能になる場面があると報告されています。</p>
+<h2 id="レーダーチャートの大衆性-vs-平行座標の専門性">レーダー・チャートの大衆性 vs 平行座標の専門性
+</h2><p>ここまで見てきたように、レーダー・チャートには可読性や正確性の問題点が多く指摘されています。それでもなお、平行座標プロットよりもはるかに一般的に知られ、使われているのはなぜでしょうか。</p>
+<h3 id="1-直感的な形の力">1. 直感的な「形」の力
+</h3><p>レーダー・チャートは、複数の値を多角形として一望できるため、凹凸や偏りを感覚的に把握できます。人間は数値よりも「形」で情報を捉える傾向が強く、プレゼンや教育の場では特に効果的に働きます。</p>
+<h3 id="2-メディアと文化での定着">2. メディアと文化での定着
+</h3><p>スポーツ雑誌やゲーム（選手能力の五角形グラフ）、教育用統計教材などを通じて、一般層が自然に触れる機会が多くありました。そのため「能力比較＝レーダー・チャート」という認知が文化的に広がっています。</p>
+<h3 id="3-ツールでの利用の容易さ">3. ツールでの利用の容易さ
+</h3><p>ExcelやGoogleスプレッドシートといった一般的な表計算ソフトにレーダー・チャートが標準搭載されており、誰でも簡単に作成できます。一方、平行座標プロットはRやPython、専用可視化ツールを使わないと描けず、普及のハードルが高いのが現状です。</p>
+<h3 id="4-学習コストの違い">4. 学習コストの違い
+</h3><p>平行座標は軸が並列に並び、データが線として交差します。慣れていない人には「ごちゃごちゃしている」と見えてしまい、理解にはある程度のデータリテラシーが求められます。レーダー・チャートは一方で「形」として直感的に伝わるため、非専門家にも抵抗が少なく、実務や教育で採用されやすいのです。</p>
+<h2 id="まとめ使い分けの視点">まとめ：使い分けの視点
+</h2><p>「レーダー・チャートより平行座標の方が読みやすい」とする意見は確かに存在し、専門家の批評や研究によって裏付けられています。
+しかし同時に、平行座標にも「線が交錯して読みにくい」「軸の順序で印象が変わる」といった弱点があります。</p>
+<p>したがって結論は単純ではなく、以下のように整理できます。</p>
 <ul>
-<li><a class="link" href="https://airbnb.io/projects/superset/"  target="_blank" rel="noopener"
-    >Apache Superset</a></li>
-<li><a class="link" href="https://www.youtube.com/watch?v=W_Sp4jo1ACg"  target="_blank" rel="noopener"
-    >How Superset and Druid Power Real-Time Analytics at Airbnb | DataEngConf SF &lsquo;17 - YouTube</a></li>
-<li><a class="link" href="https://medium.com/airbnb-engineering/superset-scaling-data-access-and-visual-insights-at-airbnb-3ce3e9b88a7f"  target="_blank" rel="noopener"
-    >Superset: Scaling Data Access and Visual Insights at Airbnb</a></li>
+<li>レーダー・チャート：比較対象や項目が少なく、「バランス」を直感的に見せたいときに有効</li>
+<li>平行座標：項目数やデータ数が多く、正確な比較やパターン探索をしたいときに有効</li>
 </ul>
-
+<p>可視化は「どちらが正しいか」ではなく「誰に」「どんな目的で」見せるかによって選び分けることが重要です。</p>
+<h2 id="参考リンク">参考リンク
+</h2><ul>
+<li><a class="link" href="https://www.stat.go.jp/naruhodo/9_graph/jyokyu/redar.html"  target="_blank" rel="noopener"
+    >統計局「なるほど統計学園」：レーダーチャート</a></li>
+<li><a class="link" href="https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88"  target="_blank" rel="noopener"
+    >Wikipedia: レーダーチャート</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Radar_chart"  target="_blank" rel="noopener"
+    >Wikipedia: Radar Chart (EN)</a></li>
+<li><a class="link" href="https://www.data-to-viz.com/caveat/spider.html"  target="_blank" rel="noopener"
+    >Data-to-Viz: Spider (Radar) Chart</a></li>
+<li><a class="link" href="https://duelingdata.blogspot.com/2013/07/radar-chart-vs-parallel-coordinate-chart.html"  target="_blank" rel="noopener"
+    >Dueling Data: Radar Chart vs Parallel Coordinate Chart</a></li>
+<li><a class="link" href="https://mcorrell.medium.com/bad-ideas-in-visualization-77d378148d35"  target="_blank" rel="noopener"
+    >Michael Correll: Bad Ideas in Visualization</a></li>
+<li><a class="link" href="https://www.sciencedirect.com/science/article/pii/S2468502X22000377"  target="_blank" rel="noopener"
+    >P-Lite: A study of parallel coordinate plot literacy (ScienceDirect)</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-    </section>
-
 
     
     <section class="article-copyright">
@@ -492,23 +589,23 @@
             
                 
 <article class="has-image">
-    <a href="/chernoff-face-implementation/">
+    <a href="/spiral-chart-nyt/">
         
         
             <div class="article-image">
-                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                <img src="/spiral-chart-nyt/images/spiral-chart-nyt-cover.6e64622985be2189718138d75ac3dc5f_hu_878c84c705628db4.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
-                        data-key="chernoff-face-implementation" 
-                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                        alt="Featured image of post NYT「Covid-19スパイラル可視化」をめぐる議論と代替案"
+                        data-key="spiral-chart-nyt" 
+                        data-hash="md5-bmRiKYW&#43;IYlxgTjXWsPcXw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+            <h2 class="article-title">NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</h2>
         </div>
     </a>
 </article>
@@ -516,23 +613,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-blog/">
+    <a href="/vaccine-confidence-cascade/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                <img src="/vaccine-confidence-cascade/images/vaccine-confidence-cascade-cover.08acf5521a1a7cd9b89432fc070ee0fb.08acf5521a1a7cd9b89432fc070ee0fb_hu_eb841520b532c11a.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
-                        data-key="cognitive-biases-blog" 
-                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                        alt="Featured image of post ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》"
+                        data-key="vaccine-confidence-cascade" 
+                        data-hash="md5-CKz1UhoafNm4lDL8Bw7g&#43;w==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+            <h2 class="article-title">ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》</h2>
         </div>
     </a>
 </article>
@@ -540,23 +637,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-compare/">
+    <a href="/newsmap/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-compare/images/bias-comparison-final.425ad14333be02f49f5513d864c6f9cc.425ad14333be02f49f5513d864c6f9cc_hu_df47b332f91dcecf.png" 
+                <img src="/newsmap/images/newsmap.d17f4c6f8a7b21287d66932678eef2b8.d17f4c6f8a7b21287d66932678eef2b8_hu_18e851978271d12e.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
-                        data-key="cognitive-biases-compare" 
-                        data-hash="md5-QlrRQzO&#43;AvSfVRPYZMb5zA==">
+                        alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験"
+                        data-key="newsmap" 
+                        data-hash="md5-0X9Mb4p7ISh9ZpMmeO7yuA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</h2>
+            <h2 class="article-title">Newsmap - ニュースを俯瞰する可視化の実験</h2>
         </div>
     </a>
 </article>
@@ -564,23 +661,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-paper/">
+    <a href="/word-spectrum/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-paper/images/bias-paper.a70495da15a0bceabd8783171ad70d38.a70495da15a0bceabd8783171ad70d38_hu_c06ba9c91eac0a00.png" 
+                <img src="/word-spectrum/images/3cd57a4f-efeb-4bb8-b4f9-b640bbc9c916.01022b3654a4a09a644a007561c63046.01022b3654a4a09a644a007561c63046_hu_b8627fdfb38ada83.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法"
-                        data-key="cognitive-biases-paper" 
-                        data-hash="md5-pwSV2hWgvOq9h4MXGtcNOA==">
+                        alt="Featured image of post Word Spectrum ― Google のビッグデータで語の関係を可視化する"
+                        data-key="word-spectrum" 
+                        data-hash="md5-AQIrNlSkoJpkSgB1YcYwRg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</h2>
+            <h2 class="article-title">Word Spectrum ― Google のビッグデータで語の関係を可視化する</h2>
         </div>
     </a>
 </article>
@@ -588,23 +685,23 @@
             
                 
 <article class="has-image">
-    <a href="/focus-context/">
+    <a href="/treemap-rcep/">
         
         
             <div class="article-image">
-                <img src="/focus-context/images/image-35.b2c526c985c3fdc8814e16623a741eb6.b2c526c985c3fdc8814e16623a741eb6_hu_a78d8eecfa9df327.png" 
+                <img src="/treemap-rcep/images/scmp-2020-RCEP-cover.1f2cec5ef15ecaa534f9ad24d0ffb6f5.1f2cec5ef15ecaa534f9ad24d0ffb6f5_hu_f207b9edf6fdf1b7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Focus&#43;Contextの実例"
-                        data-key="focus-context" 
-                        data-hash="md5-ssUmyYXD/ciBThZiOnQetg==">
+                        alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化"
+                        data-key="treemap-rcep" 
+                        data-hash="md5-HyzsXvFeyqU0&#43;a0k0P&#43;29Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Focus&#43;Contextの実例</h2>
+            <h2 class="article-title">「A big deal」RCEPをめぐる経済規模の可視化</h2>
         </div>
     </a>
 </article>

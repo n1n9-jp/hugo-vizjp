@@ -125,6 +125,97 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>レーダー・チャートと平行座標：読みやすさをめぐる議論</title>
+        <link>http://localhost:1313/radar-parallel-coordinates/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/radar-parallel-coordinates/</guid>
+        <description>&lt;img src="http://localhost:1313/radar-parallel-coordinates/images/thumbnail_combined.jpg" alt="Featured image of post レーダー・チャートと平行座標：読みやすさをめぐる議論" /&gt;&lt;p&gt;レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。
+中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：学生の成績、製品比較、能力評価など&lt;/li&gt;
+&lt;li&gt;特徴：項目間のバランスや偏りを「形」として直感的に把握できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-parallel-coordinates/images/radar-chart.png&#34;
+	width=&#34;1749&#34;
+	height=&#34;968&#34;
+	srcset=&#34;http://localhost:1313/radar-parallel-coordinates/images/radar-chart_hu_5799a529fd1c1db2.png 480w, http://localhost:1313/radar-parallel-coordinates/images/radar-chart_hu_1d5697827d640dd5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;レーダーチャートの弱点&#34;&gt;レーダー・チャートの弱点
+&lt;/h2&gt;&lt;p&gt;一方で、レーダー・チャートには批判も少なくありません。代表的な問題点は以下のとおりです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;半径方向の距離比較が難しい&lt;/strong&gt; &amp;hellip;人間は共通の基準線に対する垂直・水平の比較は得意ですが、放射方向の距離差を正確に読むのは苦手です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;面積や形のバイアス&lt;/strong&gt; &amp;hellip;多角形の「面積」や「形状」が視覚的に印象を強めるため、実際の数値差以上に誇張される場合があります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;軸順序の恣意性&lt;/strong&gt; &amp;hellip;軸を並べる順番によって形が大きく変わるため、グラフ作成者の意図が読み手の印象に強く影響します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;比較対象や項目数の制限&lt;/strong&gt; &amp;hellip;多くの対象や項目を扱うと線や面が重なり、判読困難になります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Michael Correll のコラム「Bad Ideas in Visualization」では、レーダー・チャートは「形として読んでしまう誘惑が強く、しかもその形が軸順に依存するため誤解を招きやすい」と批判されています。&lt;/p&gt;
+&lt;h2 id=&#34;平行座標parallel-coordinatesという代替&#34;&gt;平行座標（Parallel Coordinates）という代替
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates.png&#34;
+	width=&#34;1964&#34;
+	height=&#34;997&#34;
+	srcset=&#34;http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates_hu_6f67c0c193ab9ae3.png 480w, http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates_hu_46821aa0178cdf24.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そこでしばしば比較されるのが、**平行座標プロット（parallel coordinates plot, PCP）**です。これは複数の変数を平行な縦軸に並べ、各データを線でつなぐ手法です。&lt;/p&gt;
+&lt;p&gt;ブログ Dueling Data では次のように述べられています：&lt;/p&gt;
+&lt;p&gt;「レーダー・チャートは見た目は面白いが、各スポーク上の長さを比較するのは難しい。一方で平行座標では、すべての変数が共通の基準軸を持つため、比較が容易である。」&lt;/p&gt;
+&lt;p&gt;つまり、レーダー・チャートが放射方向に散らばる軸をもつのに対し、平行座標はすべての変数を縦に並べるため、「共通スケール上での比較」がやりやすいというわけです。&lt;/p&gt;
+&lt;h2 id=&#34;研究的な裏付け&#34;&gt;研究的な裏付け
+&lt;/h2&gt;&lt;p&gt;学術研究でも、両者の可読性比較が行われています。
+たとえば P-Lite: A study of parallel coordinate plot literacy では、レーダー・チャート・平行座標・散布図などを対象にユーザ実験が行われました。結果は一概に「どちらが常に優れている」とは言えませんが、平行座標の方が高次元データを扱いやすく、正確な読み取りが可能になる場面があると報告されています。&lt;/p&gt;
+&lt;h2 id=&#34;レーダーチャートの大衆性-vs-平行座標の専門性&#34;&gt;レーダー・チャートの大衆性 vs 平行座標の専門性
+&lt;/h2&gt;&lt;p&gt;ここまで見てきたように、レーダー・チャートには可読性や正確性の問題点が多く指摘されています。それでもなお、平行座標プロットよりもはるかに一般的に知られ、使われているのはなぜでしょうか。&lt;/p&gt;
+&lt;h3 id=&#34;1-直感的な形の力&#34;&gt;1. 直感的な「形」の力
+&lt;/h3&gt;&lt;p&gt;レーダー・チャートは、複数の値を多角形として一望できるため、凹凸や偏りを感覚的に把握できます。人間は数値よりも「形」で情報を捉える傾向が強く、プレゼンや教育の場では特に効果的に働きます。&lt;/p&gt;
+&lt;h3 id=&#34;2-メディアと文化での定着&#34;&gt;2. メディアと文化での定着
+&lt;/h3&gt;&lt;p&gt;スポーツ雑誌やゲーム（選手能力の五角形グラフ）、教育用統計教材などを通じて、一般層が自然に触れる機会が多くありました。そのため「能力比較＝レーダー・チャート」という認知が文化的に広がっています。&lt;/p&gt;
+&lt;h3 id=&#34;3-ツールでの利用の容易さ&#34;&gt;3. ツールでの利用の容易さ
+&lt;/h3&gt;&lt;p&gt;ExcelやGoogleスプレッドシートといった一般的な表計算ソフトにレーダー・チャートが標準搭載されており、誰でも簡単に作成できます。一方、平行座標プロットはRやPython、専用可視化ツールを使わないと描けず、普及のハードルが高いのが現状です。&lt;/p&gt;
+&lt;h3 id=&#34;4-学習コストの違い&#34;&gt;4. 学習コストの違い
+&lt;/h3&gt;&lt;p&gt;平行座標は軸が並列に並び、データが線として交差します。慣れていない人には「ごちゃごちゃしている」と見えてしまい、理解にはある程度のデータリテラシーが求められます。レーダー・チャートは一方で「形」として直感的に伝わるため、非専門家にも抵抗が少なく、実務や教育で採用されやすいのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ使い分けの視点&#34;&gt;まとめ：使い分けの視点
+&lt;/h2&gt;&lt;p&gt;「レーダー・チャートより平行座標の方が読みやすい」とする意見は確かに存在し、専門家の批評や研究によって裏付けられています。
+しかし同時に、平行座標にも「線が交錯して読みにくい」「軸の順序で印象が変わる」といった弱点があります。&lt;/p&gt;
+&lt;p&gt;したがって結論は単純ではなく、以下のように整理できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;レーダー・チャート：比較対象や項目が少なく、「バランス」を直感的に見せたいときに有効&lt;/li&gt;
+&lt;li&gt;平行座標：項目数やデータ数が多く、正確な比較やパターン探索をしたいときに有効&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可視化は「どちらが正しいか」ではなく「誰に」「どんな目的で」見せるかによって選び分けることが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stat.go.jp/naruhodo/9_graph/jyokyu/redar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;統計局「なるほど統計学園」：レーダーチャート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: レーダーチャート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Radar_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Radar Chart (EN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/caveat/spider.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data-to-Viz: Spider (Radar) Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://duelingdata.blogspot.com/2013/07/radar-chart-vs-parallel-coordinate-chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dueling Data: Radar Chart vs Parallel Coordinate Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mcorrell.medium.com/bad-ideas-in-visualization-77d378148d35&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Michael Correll: Bad Ideas in Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S2468502X22000377&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;P-Lite: A study of parallel coordinate plot literacy (ScienceDirect)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
         <link>http://localhost:1313/parallel-sets/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
