@@ -2,59 +2,79 @@
 author = "Yuichi Yazaki"
 title = "モザイク・プロット（Mosaic Plot）"
 slug = "mosaic-plot"
-date = "2020-08-03"
+date = "2025-09-29"
 description = ""
 categories = [
     "chart"
 ]
 tags = [
-    "",
+    ""
 ]
 image = "images/image-27.png"
 +++
 
-二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。
+モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan & Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。
+
+基本原理は以下のとおりです。
+
+- 1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。
+- 2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。
+- 3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。
+
+こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。
 
 <!--more-->
 
-この一つひとつのタイルの高さと幅は、それぞれ別のカテゴリーデータの属性ごとの集計値を示しています。これによって、カテゴリーデータ間の関係を示すことが可能となります。タイルの色は、カテゴリーデータ間の関係の大きさを示すことも可能です。
+## モザイク・プロットの特徴と強み
 
-ツリーマップとの違いとしては、モザイク・プロットは一階層のみのデータとなることと、縦横にカテゴリーデータの属性値を取ることがあげられます。
-
-## 作例
-
-### タイタニック号で事故に遭遇した人たち
-
-![](images/image-25.png)
-
-[Data Visualization with R](https://rkabacoff.github.io/datavis/Models.html)
+- **クロス表の視覚化** ...単なる数表では見えにくい「カテゴリの組み合わせごとの大きさ」を、面積として一目で把握できます。
+- **条件付き割合の理解** ...たとえば「男女 × 喫煙有無」のような表では、「全体に占める男女比」と「各性別内での喫煙率」を同時に表現可能です。
+- **モデル診断ツールとしての応用** ...Friendly (2001) は、モザイク・プロットを 対数線形モデル (log-linear model) との組み合わせで活用できると述べています。観測度数と期待度数の差（残差）をセルの色で示すことで、独立性から逸脱しているパターンを直感的に見つけることができます。
+- **順序最適化と探索的分析** ...カテゴリや変数の並び順を工夫することで、相関関係やパターンがより明確になります。再帰的に分割するため、変数の順序は見え方に強く影響します。
+- **教育的な効果** ...「量（度数）と割合（比率）の両方を面積で同時に表す」という特性から、データの相対関係を理解するトレーニングツールとしても有用です。
 
 
-### ggplot2による作例
 
-![](images/image-26.png)
+## 活用場面の具体例
 
-[https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html](https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html)
-
-### 識別テストへの回答結果
-
-![](images/image-27.png)
-
-[(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer](https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1)
+- **社会調査やアンケート分析** ...属性（性別、年代、居住地など）と回答カテゴリの関係を、全体比率と内訳比率を同時に示せます。
+- **マーケティング分析** ...製品カテゴリー × 購入チャネルなど、二次元クロス表の分布を直感的に把握できます。
+- **統計教育** ...クロス表の数値をグラフ化することで、独立性・相関関係を視覚的に理解する教材になります。
+- **探索的データ分析 (EDA)** ...データを統計モデルにあてはめる前に、偏りや分布の特徴を見つける第一歩として有効です。
 
 
-### Hair and Eye Color of Statistics Students
 
-![](images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png)
+## マリメッコ・チャートとの比較
 
-[http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/](http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/)
+一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く、**「幅可変の積み上げ棒グラフ」**として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。
+
+両者を比較すると次のように整理できます。
+
+| 観点 | モザイク・プロット (Mosaic Plot) | マリメッコ・チャート (Marimekko / Mekko Chart) |
+|------|---------------------------------|---------------------------------------------|
+| 起源・文脈 | 統計学に由来。Hartigan & Kleiner (1981)、Friendly (2001) らが整理 | BI・経営分析で普及。名称はフィンランドのブランド「Marimekko」に由来 |
+| 定義・構造 | 再帰的分割により、セル面積 ∝ 度数（確率） | 幅可変の積み上げ棒グラフ。セル面積 ∝ 度数（確率） |
+| 主な目的 | クロス表（分割表）の可視化、統計モデル診断 | 市場シェアや売上構成などのビジネスデータ可視化 |
+| 色付け | 統計的残差（期待度数との差）を色で表すなど分析的用途 | セグメントごとに色分けしてプレゼンテーションに活用 |
+| 実装例 | R (`mosaicplot`, `vcd`, `ggmosaic`)、JMP、S-PLUS | Tableau、PowerPoint (think-cell)、Spotfire、AnyChart |
+| 利用分野 | 統計教育、探索的データ分析、モデル適合度の診断 | 経営ダッシュボード、マーケティング資料、売上内訳の提示 |
+| 強み | 多変数対応や残差可視化など統計分析との親和性 | ビジネスデータを直感的に伝える視覚的効果 |
+| 限界 | 面積比較は視覚的に誤差が出やすい。カテゴリ数が多いと見づらい | 幅の変化が直感的に理解されにくい場合がある |
 
 
-## 他の呼び名
+## まとめ
 
-モザイク・グラフ（Mosaic Graph）やマリメッコ・プロット（Marimekko Plot）と呼ばれることもあります。
+- モザイク・プロットは、カテゴリ変数の交差を面積で表す統計的可視化の基本手法で、モデル診断や教育にも使われる。
+- マリメッコ・チャートは、同じ構造を持ちつつ、ビジネス用途で「市場シェア × セグメント比率」を直感的に示すために定着した呼び方。
+- 両者は原理的にはほぼ同じチャートであり、文脈によって呼び名や強調点が異なると考えるのが妥当。
 
-## 参考文献
 
-- [A Brief History of the Mosaic Display](https://www.researchgate.net/publication/2533471_A_Brief_History_of_the_Mosaic_Display)
-- [User’s Guide for MOSAICS](http://datavis.ca/mosaics/mosaics.pdf)
+
+## 参考リンク
+
+- [Mosaic plot - Wikipedia](https://en.wikipedia.org/wiki/Mosaic_plot)
+- [Mosaic Plot | JMP](https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html)
+- [Marimekko Chart | Tableau Blog](https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111)
+- [think-cell: Mekko Chart](https://www.think-cell.com/en/resources/manual/mekko)
+- [Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)](https://www.datavis.ca/papers/moshist.pdf)
+
