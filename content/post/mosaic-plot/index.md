@@ -46,7 +46,7 @@ image = "images/image-27.png"
 
 ## マリメッコ・チャートとの比較
 
-一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く、**「幅可変の積み上げ棒グラフ」**として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。
+一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く **「幅可変の積み上げ棒グラフ」** として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。
 
 両者を比較すると次のように整理できます。
 
@@ -76,5 +76,5 @@ image = "images/image-27.png"
 - [Mosaic Plot | JMP](https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html)
 - [Marimekko Chart | Tableau Blog](https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111)
 - [think-cell: Mekko Chart](https://www.think-cell.com/en/resources/manual/mekko)
+- [User’s Guide for MOSAICS](http://datavis.ca/mosaics/mosaics.pdf)
 - [Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)](https://www.datavis.ca/papers/moshist.pdf)
-

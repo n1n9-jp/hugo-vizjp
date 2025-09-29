@@ -13,13 +13,10 @@ tags = [
 image = "images/image-27.png"
 +++
 
-二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。
+「モザイク・プロット」が利用されている事例を紹介します。
+
 
 <!--more-->
-
-この一つひとつのタイルの高さと幅は、それぞれ別のカテゴリーデータの属性ごとの集計値を示しています。これによって、カテゴリーデータ間の関係を示すことが可能となります。タイルの色は、カテゴリーデータ間の関係の大きさを示すことも可能です。
-
-ツリーマップとの違いとしては、モザイク・プロットは一階層のみのデータとなることと、縦横にカテゴリーデータの属性値を取ることがあげられます。
 
 ## 作例
 
@@ -50,11 +47,3 @@ image = "images/image-27.png"
 [http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/](http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/)
 
 
-## 他の呼び名
-
-モザイク・グラフ（Mosaic Graph）やマリメッコ・プロット（Marimekko Plot）と呼ばれることもあります。
-
-## 参考文献
-
-- [A Brief History of the Mosaic Display](https://www.researchgate.net/publication/2533471_A_Brief_History_of_the_Mosaic_Display)
-- [User’s Guide for MOSAICS](http://datavis.ca/mosaics/mosaics.pdf)
