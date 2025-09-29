@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。\n基本原理は以下のとおりです。\n1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。 2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。 3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。 こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。\n">
 <title>モザイク・プロット（Mosaic Plot）</title>
 
 <link rel='canonical' href='http://localhost:1313/mosaic-plot/'>
 
 <link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="モザイク・プロット（Mosaic Plot）">
-<meta property='og:description' content="二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。\n">
+<meta property='og:description' content="モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。\n基本原理は以下のとおりです。\n1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。 2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。 3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。 こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。\n">
 <meta property='og:url' content='http://localhost:1313/mosaic-plot/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/mosaic-plot/images/image-27.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/mosaic-plot-example/images/image-27.png' />
 <meta name="twitter:title" content="モザイク・プロット（Mosaic Plot）">
-<meta name="twitter:description" content="二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/mosaic-plot/images/image-27.png' />
+<meta name="twitter:description" content="モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。\n基本原理は以下のとおりです。\n1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。 2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。 3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。 こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/mosaic-plot-example/images/image-27.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -366,16 +366,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#タイタニック号で事故に遭遇した人たち">タイタニック号で事故に遭遇した人たち</a></li>
-        <li><a href="#ggplot2による作例">ggplot2による作例</a></li>
-        <li><a href="#識別テストへの回答結果">識別テストへの回答結果</a></li>
-        <li><a href="#hair-and-eye-color-of-statistics-students">Hair and Eye Color of Statistics Students</a></li>
-      </ol>
-    </li>
-    <li><a href="#他の呼び名">他の呼び名</a></li>
-    <li><a href="#参考文献">参考文献</a></li>
+    <li><a href="#モザイクプロットの特徴と強み">モザイク・プロットの特徴と強み</a></li>
+    <li><a href="#活用場面の具体例">活用場面の具体例</a></li>
+    <li><a href="#マリメッコチャートとの比較">マリメッコ・チャートとの比較</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考リンク">参考リンク</a></li>
   </ol>
 </nav>
         </div>
@@ -391,8 +386,8 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/mosaic-plot/">
-                <img src="/mosaic-plot/images/image-27_hu_6a83cc8836ba5cf.png"
-                        srcset="/mosaic-plot/images/image-27_hu_6a83cc8836ba5cf.png 800w, /mosaic-plot/images/image-27_hu_3a62d401636f7d85.png 1600w"
+                <img src="/mosaic-plot-example/images/image-27_hu_6a83cc8836ba5cf.png"
+                        srcset="/mosaic-plot-example/images/image-27_hu_6a83cc8836ba5cf.png 800w, /mosaic-plot-example/images/image-27_hu_3a62d401636f7d85.png 1600w"
                         width="800" 
                         height="399" 
                         loading="lazy"
@@ -437,7 +432,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 03, 2020</time>
+                <time class="article-time--published">Sep 28, 2025</time>
             </div>
         
 
@@ -467,78 +462,101 @@
     <section class="article-content">
     
     
-    <p>二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。</p>
-<p>この一つひとつのタイルの高さと幅は、それぞれ別のカテゴリーデータの属性ごとの集計値を示しています。これによって、カテゴリーデータ間の関係を示すことが可能となります。タイルの色は、カテゴリーデータ間の関係の大きさを示すことも可能です。</p>
-<p>ツリーマップとの違いとしては、モザイク・プロットは一階層のみのデータとなることと、縦横にカテゴリーデータの属性値を取ることがあげられます。</p>
-<h2 id="作例">作例
-</h2><h3 id="タイタニック号で事故に遭遇した人たち">タイタニック号で事故に遭遇した人たち
-</h3><p><img src="/mosaic-plot/images/image-25.png"
-	width="1344"
-	height="960"
-	srcset="/mosaic-plot/images/image-25_hu_73845f5104327f70.png 480w, /mosaic-plot/images/image-25_hu_b9191c9b8794a1ba.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="140"
-		data-flex-basis="336px"
-	
-></p>
-<p><a class="link" href="https://rkabacoff.github.io/datavis/Models.html"  target="_blank" rel="noopener"
-    >Data Visualization with R</a></p>
-<h3 id="ggplot2による作例">ggplot2による作例
-</h3><p><img src="/mosaic-plot/images/image-26.png"
-	width="576"
-	height="384"
-	srcset="/mosaic-plot/images/image-26_hu_6f4c7ebc9dd94989.png 480w, /mosaic-plot/images/image-26_hu_abf562ba674e25fe.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="150"
-		data-flex-basis="360px"
-	
-></p>
-<p><a class="link" href="https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html"  target="_blank" rel="noopener"
-    >https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html</a></p>
-<h3 id="識別テストへの回答結果">識別テストへの回答結果
-</h3><p><img src="/mosaic-plot/images/image-27.png"
-	width="640"
-	height="319"
-	srcset="/mosaic-plot/images/image-27_hu_1e58b225a6b9a6ef.png 480w, /mosaic-plot/images/image-27_hu_edfa3449601ef876.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="200"
-		data-flex-basis="481px"
-	
-></p>
-<p><a class="link" href="https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1"  target="_blank" rel="noopener"
-    >(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer</a></p>
-<h3 id="hair-and-eye-color-of-statistics-students">Hair and Eye Color of Statistics Students
-</h3><p><img src="/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png"
-	width="1152"
-	height="1152"
-	srcset="/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_e514b9da09bf922e.png 480w, /mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_90db8288aab03195.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="100"
-		data-flex-basis="240px"
-	
-></p>
-<p><a class="link" href="http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/"  target="_blank" rel="noopener"
-    >http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/</a></p>
-<h2 id="他の呼び名">他の呼び名
-</h2><p>モザイク・グラフ（Mosaic Graph）やマリメッコ・プロット（Marimekko Plot）と呼ばれることもあります。</p>
-<h2 id="参考文献">参考文献
+    <p>モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。</p>
+<p>基本原理は以下のとおりです。</p>
+<ul>
+<li>1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。</li>
+<li>2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。</li>
+<li>3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。</li>
+</ul>
+<p>こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。</p>
+<h2 id="モザイクプロットの特徴と強み">モザイク・プロットの特徴と強み
 </h2><ul>
-<li><a class="link" href="https://www.researchgate.net/publication/2533471_A_Brief_History_of_the_Mosaic_Display"  target="_blank" rel="noopener"
-    >A Brief History of the Mosaic Display</a></li>
-<li><a class="link" href="http://datavis.ca/mosaics/mosaics.pdf"  target="_blank" rel="noopener"
-    >User’s Guide for MOSAICS</a></li>
+<li><strong>クロス表の視覚化</strong> &hellip;単なる数表では見えにくい「カテゴリの組み合わせごとの大きさ」を、面積として一目で把握できます。</li>
+<li><strong>条件付き割合の理解</strong> &hellip;たとえば「男女 × 喫煙有無」のような表では、「全体に占める男女比」と「各性別内での喫煙率」を同時に表現可能です。</li>
+<li><strong>モデル診断ツールとしての応用</strong> &hellip;Friendly (2001) は、モザイク・プロットを 対数線形モデル (log-linear model) との組み合わせで活用できると述べています。観測度数と期待度数の差（残差）をセルの色で示すことで、独立性から逸脱しているパターンを直感的に見つけることができます。</li>
+<li><strong>順序最適化と探索的分析</strong> &hellip;カテゴリや変数の並び順を工夫することで、相関関係やパターンがより明確になります。再帰的に分割するため、変数の順序は見え方に強く影響します。</li>
+<li><strong>教育的な効果</strong> &hellip;「量（度数）と割合（比率）の両方を面積で同時に表す」という特性から、データの相対関係を理解するトレーニングツールとしても有用です。</li>
+</ul>
+<h2 id="活用場面の具体例">活用場面の具体例
+</h2><ul>
+<li><strong>社会調査やアンケート分析</strong> &hellip;属性（性別、年代、居住地など）と回答カテゴリの関係を、全体比率と内訳比率を同時に示せます。</li>
+<li><strong>マーケティング分析</strong> &hellip;製品カテゴリー × 購入チャネルなど、二次元クロス表の分布を直感的に把握できます。</li>
+<li><strong>統計教育</strong> &hellip;クロス表の数値をグラフ化することで、独立性・相関関係を視覚的に理解する教材になります。</li>
+<li><strong>探索的データ分析 (EDA)</strong> &hellip;データを統計モデルにあてはめる前に、偏りや分布の特徴を見つける第一歩として有効です。</li>
+</ul>
+<h2 id="マリメッコチャートとの比較">マリメッコ・チャートとの比較
+</h2><p>一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く、**「幅可変の積み上げ棒グラフ」**として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。</p>
+<p>両者を比較すると次のように整理できます。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>観点</th>
+          <th>モザイク・プロット (Mosaic Plot)</th>
+          <th>マリメッコ・チャート (Marimekko / Mekko Chart)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>起源・文脈</td>
+          <td>統計学に由来。Hartigan &amp; Kleiner (1981)、Friendly (2001) らが整理</td>
+          <td>BI・経営分析で普及。名称はフィンランドのブランド「Marimekko」に由来</td>
+      </tr>
+      <tr>
+          <td>定義・構造</td>
+          <td>再帰的分割により、セル面積 ∝ 度数（確率）</td>
+          <td>幅可変の積み上げ棒グラフ。セル面積 ∝ 度数（確率）</td>
+      </tr>
+      <tr>
+          <td>主な目的</td>
+          <td>クロス表（分割表）の可視化、統計モデル診断</td>
+          <td>市場シェアや売上構成などのビジネスデータ可視化</td>
+      </tr>
+      <tr>
+          <td>色付け</td>
+          <td>統計的残差（期待度数との差）を色で表すなど分析的用途</td>
+          <td>セグメントごとに色分けしてプレゼンテーションに活用</td>
+      </tr>
+      <tr>
+          <td>実装例</td>
+          <td>R (<code>mosaicplot</code>, <code>vcd</code>, <code>ggmosaic</code>)、JMP、S-PLUS</td>
+          <td>Tableau、PowerPoint (think-cell)、Spotfire、AnyChart</td>
+      </tr>
+      <tr>
+          <td>利用分野</td>
+          <td>統計教育、探索的データ分析、モデル適合度の診断</td>
+          <td>経営ダッシュボード、マーケティング資料、売上内訳の提示</td>
+      </tr>
+      <tr>
+          <td>強み</td>
+          <td>多変数対応や残差可視化など統計分析との親和性</td>
+          <td>ビジネスデータを直感的に伝える視覚的効果</td>
+      </tr>
+      <tr>
+          <td>限界</td>
+          <td>面積比較は視覚的に誤差が出やすい。カテゴリ数が多いと見づらい</td>
+          <td>幅の変化が直感的に理解されにくい場合がある</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="まとめ">まとめ
+</h2><ul>
+<li>モザイク・プロットは、カテゴリ変数の交差を面積で表す統計的可視化の基本手法で、モデル診断や教育にも使われる。</li>
+<li>マリメッコ・チャートは、同じ構造を持ちつつ、ビジネス用途で「市場シェア × セグメント比率」を直感的に示すために定着した呼び方。</li>
+<li>両者は原理的にはほぼ同じチャートであり、文脈によって呼び名や強調点が異なると考えるのが妥当。</li>
+</ul>
+<h2 id="参考リンク">参考リンク
+</h2><ul>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Mosaic_plot"  target="_blank" rel="noopener"
+    >Mosaic plot - Wikipedia</a></li>
+<li><a class="link" href="https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html"  target="_blank" rel="noopener"
+    >Mosaic Plot | JMP</a></li>
+<li><a class="link" href="https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111"  target="_blank" rel="noopener"
+    >Marimekko Chart | Tableau Blog</a></li>
+<li><a class="link" href="https://www.think-cell.com/en/resources/manual/mekko"  target="_blank" rel="noopener"
+    >think-cell: Mekko Chart</a></li>
+<li><a class="link" href="https://www.datavis.ca/papers/moshist.pdf"  target="_blank" rel="noopener"
+    >Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)</a></li>
 </ul>
 </section>
 
@@ -603,6 +621,54 @@
             
                 
 <article class="has-image">
+    <a href="/beeswarm/">
+        
+        
+            <div class="article-image">
+                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？"
+                        data-key="beeswarm" 
+                        data-hash="md5-4uPxz1xcWafCcyxhxWbYAA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ビースウォーム・プロット（Beeswarm Plot）とは？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/quantityproportion-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 量率グラフという呼び名の誕生史"
+                        data-key="quantity–proportion-chart" 
+                        data-hash="md5-gnWEnR18O8LTG1iIpx&#43;QCA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">量率グラフという呼び名の誕生史</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/visual-vocabulary/">
         
         
@@ -644,54 +710,6 @@
 
         <div class="article-details">
             <h2 class="article-title">タスク別チャート分類</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/chart-catalogue-by-types/">
-        
-        
-            <div class="article-image">
-                <img src="/chart-catalogue-by-types/images/charts-by-types.616d2554794c95c09c00c8699c8ed57e_hu_b2ac6ffbb37b92c6.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post データ・タイプ別チャート分類"
-                        data-key="chart-catalogue-by-types" 
-                        data-hash="md5-YW0lVHlMlcCcAMhpnI7Vfg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">データ・タイプ別チャート分類</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/splom/">
-        
-        
-            <div class="article-image">
-                <img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.262e4666c65de57aff9b9d25050e657b_hu_b1711ae94b830b5.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 散布図行列"
-                        data-key="splom" 
-                        data-hash="md5-Ji5GZsZd5Xr/m50lBQ5lew==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">散布図行列</h2>
         </div>
     </a>
 </article>
