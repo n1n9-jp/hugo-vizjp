@@ -7,7 +7,110 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>モザイク・プロット（Mosaic Plot）</title>
+        <link>http://localhost:1313/mosaic-plot/</link>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mosaic-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
+&lt;p&gt;基本原理は以下のとおりです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。&lt;/li&gt;
+&lt;li&gt;2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。&lt;/li&gt;
+&lt;li&gt;3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。&lt;/p&gt;
+&lt;h2 id=&#34;モザイクプロットの特徴と強み&#34;&gt;モザイク・プロットの特徴と強み
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;クロス表の視覚化&lt;/strong&gt; &amp;hellip;単なる数表では見えにくい「カテゴリの組み合わせごとの大きさ」を、面積として一目で把握できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;条件付き割合の理解&lt;/strong&gt; &amp;hellip;たとえば「男女 × 喫煙有無」のような表では、「全体に占める男女比」と「各性別内での喫煙率」を同時に表現可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;モデル診断ツールとしての応用&lt;/strong&gt; &amp;hellip;Friendly (2001) は、モザイク・プロットを 対数線形モデル (log-linear model) との組み合わせで活用できると述べています。観測度数と期待度数の差（残差）をセルの色で示すことで、独立性から逸脱しているパターンを直感的に見つけることができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;順序最適化と探索的分析&lt;/strong&gt; &amp;hellip;カテゴリや変数の並び順を工夫することで、相関関係やパターンがより明確になります。再帰的に分割するため、変数の順序は見え方に強く影響します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育的な効果&lt;/strong&gt; &amp;hellip;「量（度数）と割合（比率）の両方を面積で同時に表す」という特性から、データの相対関係を理解するトレーニングツールとしても有用です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;活用場面の具体例&#34;&gt;活用場面の具体例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;社会調査やアンケート分析&lt;/strong&gt; &amp;hellip;属性（性別、年代、居住地など）と回答カテゴリの関係を、全体比率と内訳比率を同時に示せます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マーケティング分析&lt;/strong&gt; &amp;hellip;製品カテゴリー × 購入チャネルなど、二次元クロス表の分布を直感的に把握できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;統計教育&lt;/strong&gt; &amp;hellip;クロス表の数値をグラフ化することで、独立性・相関関係を視覚的に理解する教材になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;探索的データ分析 (EDA)&lt;/strong&gt; &amp;hellip;データを統計モデルにあてはめる前に、偏りや分布の特徴を見つける第一歩として有効です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;マリメッコチャートとの比較&#34;&gt;マリメッコ・チャートとの比較
+&lt;/h2&gt;&lt;p&gt;一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く &lt;strong&gt;「幅可変の積み上げ棒グラフ」&lt;/strong&gt; として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。&lt;/p&gt;
+&lt;p&gt;両者を比較すると次のように整理できます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;観点&lt;/th&gt;
+          &lt;th&gt;モザイク・プロット (Mosaic Plot)&lt;/th&gt;
+          &lt;th&gt;マリメッコ・チャート (Marimekko / Mekko Chart)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;起源・文脈&lt;/td&gt;
+          &lt;td&gt;統計学に由来。Hartigan &amp;amp; Kleiner (1981)、Friendly (2001) らが整理&lt;/td&gt;
+          &lt;td&gt;BI・経営分析で普及。名称はフィンランドのブランド「Marimekko」に由来&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;定義・構造&lt;/td&gt;
+          &lt;td&gt;再帰的分割により、セル面積 ∝ 度数（確率）&lt;/td&gt;
+          &lt;td&gt;幅可変の積み上げ棒グラフ。セル面積 ∝ 度数（確率）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;主な目的&lt;/td&gt;
+          &lt;td&gt;クロス表（分割表）の可視化、統計モデル診断&lt;/td&gt;
+          &lt;td&gt;市場シェアや売上構成などのビジネスデータ可視化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色付け&lt;/td&gt;
+          &lt;td&gt;統計的残差（期待度数との差）を色で表すなど分析的用途&lt;/td&gt;
+          &lt;td&gt;セグメントごとに色分けしてプレゼンテーションに活用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;実装例&lt;/td&gt;
+          &lt;td&gt;R (&lt;code&gt;mosaicplot&lt;/code&gt;, &lt;code&gt;vcd&lt;/code&gt;, &lt;code&gt;ggmosaic&lt;/code&gt;)、JMP、S-PLUS&lt;/td&gt;
+          &lt;td&gt;Tableau、PowerPoint (think-cell)、Spotfire、AnyChart&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;利用分野&lt;/td&gt;
+          &lt;td&gt;統計教育、探索的データ分析、モデル適合度の診断&lt;/td&gt;
+          &lt;td&gt;経営ダッシュボード、マーケティング資料、売上内訳の提示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;強み&lt;/td&gt;
+          &lt;td&gt;多変数対応や残差可視化など統計分析との親和性&lt;/td&gt;
+          &lt;td&gt;ビジネスデータを直感的に伝える視覚的効果&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;限界&lt;/td&gt;
+          &lt;td&gt;面積比較は視覚的に誤差が出やすい。カテゴリ数が多いと見づらい&lt;/td&gt;
+          &lt;td&gt;幅の変化が直感的に理解されにくい場合がある&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;モザイク・プロットは、カテゴリ変数の交差を面積で表す統計的可視化の基本手法で、モデル診断や教育にも使われる。&lt;/li&gt;
+&lt;li&gt;マリメッコ・チャートは、同じ構造を持ちつつ、ビジネス用途で「市場シェア × セグメント比率」を直感的に示すために定着した呼び方。&lt;/li&gt;
+&lt;li&gt;両者は原理的にはほぼ同じチャートであり、文脈によって呼び名や強調点が異なると考えるのが妥当。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Mosaic_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mosaic plot - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mosaic Plot | JMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Marimekko Chart | Tableau Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.think-cell.com/en/resources/manual/mekko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;think-cell: Mekko Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datavis.ca/papers/moshist.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</title>
         <link>http://localhost:1313/spiral-chart-nyt/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
@@ -378,109 +481,6 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://link.springer.com/referenceworkentry/10.1007/978-1-4899-7993-3_63140-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Springer Encyclopedia of Database Systems – Parallel Sets&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;『ビューティフル・ビジュアライゼーション』第12章「表のツリー表現 - Parallel Sets の進化-」&lt;/li&gt;
-&lt;/ul&gt;</description>
-        </item>
-        <item>
-        <title>モザイク・プロット（Mosaic Plot）</title>
-        <link>http://localhost:1313/mosaic-plot/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/mosaic-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
-&lt;p&gt;基本原理は以下のとおりです。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。&lt;/li&gt;
-&lt;li&gt;2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。&lt;/li&gt;
-&lt;li&gt;3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。&lt;/p&gt;
-&lt;h2 id=&#34;モザイクプロットの特徴と強み&#34;&gt;モザイク・プロットの特徴と強み
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;クロス表の視覚化&lt;/strong&gt; &amp;hellip;単なる数表では見えにくい「カテゴリの組み合わせごとの大きさ」を、面積として一目で把握できます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;条件付き割合の理解&lt;/strong&gt; &amp;hellip;たとえば「男女 × 喫煙有無」のような表では、「全体に占める男女比」と「各性別内での喫煙率」を同時に表現可能です。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;モデル診断ツールとしての応用&lt;/strong&gt; &amp;hellip;Friendly (2001) は、モザイク・プロットを 対数線形モデル (log-linear model) との組み合わせで活用できると述べています。観測度数と期待度数の差（残差）をセルの色で示すことで、独立性から逸脱しているパターンを直感的に見つけることができます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;順序最適化と探索的分析&lt;/strong&gt; &amp;hellip;カテゴリや変数の並び順を工夫することで、相関関係やパターンがより明確になります。再帰的に分割するため、変数の順序は見え方に強く影響します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;教育的な効果&lt;/strong&gt; &amp;hellip;「量（度数）と割合（比率）の両方を面積で同時に表す」という特性から、データの相対関係を理解するトレーニングツールとしても有用です。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;活用場面の具体例&#34;&gt;活用場面の具体例
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;社会調査やアンケート分析&lt;/strong&gt; &amp;hellip;属性（性別、年代、居住地など）と回答カテゴリの関係を、全体比率と内訳比率を同時に示せます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;マーケティング分析&lt;/strong&gt; &amp;hellip;製品カテゴリー × 購入チャネルなど、二次元クロス表の分布を直感的に把握できます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;統計教育&lt;/strong&gt; &amp;hellip;クロス表の数値をグラフ化することで、独立性・相関関係を視覚的に理解する教材になります。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;探索的データ分析 (EDA)&lt;/strong&gt; &amp;hellip;データを統計モデルにあてはめる前に、偏りや分布の特徴を見つける第一歩として有効です。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;マリメッコチャートとの比較&#34;&gt;マリメッコ・チャートとの比較
-&lt;/h2&gt;&lt;p&gt;一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く、**「幅可変の積み上げ棒グラフ」**として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。&lt;/p&gt;
-&lt;p&gt;両者を比較すると次のように整理できます。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;観点&lt;/th&gt;
-          &lt;th&gt;モザイク・プロット (Mosaic Plot)&lt;/th&gt;
-          &lt;th&gt;マリメッコ・チャート (Marimekko / Mekko Chart)&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;起源・文脈&lt;/td&gt;
-          &lt;td&gt;統計学に由来。Hartigan &amp;amp; Kleiner (1981)、Friendly (2001) らが整理&lt;/td&gt;
-          &lt;td&gt;BI・経営分析で普及。名称はフィンランドのブランド「Marimekko」に由来&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;定義・構造&lt;/td&gt;
-          &lt;td&gt;再帰的分割により、セル面積 ∝ 度数（確率）&lt;/td&gt;
-          &lt;td&gt;幅可変の積み上げ棒グラフ。セル面積 ∝ 度数（確率）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;主な目的&lt;/td&gt;
-          &lt;td&gt;クロス表（分割表）の可視化、統計モデル診断&lt;/td&gt;
-          &lt;td&gt;市場シェアや売上構成などのビジネスデータ可視化&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;色付け&lt;/td&gt;
-          &lt;td&gt;統計的残差（期待度数との差）を色で表すなど分析的用途&lt;/td&gt;
-          &lt;td&gt;セグメントごとに色分けしてプレゼンテーションに活用&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;実装例&lt;/td&gt;
-          &lt;td&gt;R (&lt;code&gt;mosaicplot&lt;/code&gt;, &lt;code&gt;vcd&lt;/code&gt;, &lt;code&gt;ggmosaic&lt;/code&gt;)、JMP、S-PLUS&lt;/td&gt;
-          &lt;td&gt;Tableau、PowerPoint (think-cell)、Spotfire、AnyChart&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;利用分野&lt;/td&gt;
-          &lt;td&gt;統計教育、探索的データ分析、モデル適合度の診断&lt;/td&gt;
-          &lt;td&gt;経営ダッシュボード、マーケティング資料、売上内訳の提示&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;強み&lt;/td&gt;
-          &lt;td&gt;多変数対応や残差可視化など統計分析との親和性&lt;/td&gt;
-          &lt;td&gt;ビジネスデータを直感的に伝える視覚的効果&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;限界&lt;/td&gt;
-          &lt;td&gt;面積比較は視覚的に誤差が出やすい。カテゴリ数が多いと見づらい&lt;/td&gt;
-          &lt;td&gt;幅の変化が直感的に理解されにくい場合がある&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;モザイク・プロットは、カテゴリ変数の交差を面積で表す統計的可視化の基本手法で、モデル診断や教育にも使われる。&lt;/li&gt;
-&lt;li&gt;マリメッコ・チャートは、同じ構造を持ちつつ、ビジネス用途で「市場シェア × セグメント比率」を直感的に示すために定着した呼び方。&lt;/li&gt;
-&lt;li&gt;両者は原理的にはほぼ同じチャートであり、文脈によって呼び名や強調点が異なると考えるのが妥当。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Mosaic_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Mosaic plot - Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Mosaic Plot | JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Marimekko Chart | Tableau Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.think-cell.com/en/resources/manual/mekko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;think-cell: Mekko Chart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datavis.ca/papers/moshist.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -8072,9 +8072,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。&lt;/p&gt;
-&lt;p&gt;この一つひとつのタイルの高さと幅は、それぞれ別のカテゴリーデータの属性ごとの集計値を示しています。これによって、カテゴリーデータ間の関係を示すことが可能となります。タイルの色は、カテゴリーデータ間の関係の大きさを示すことも可能です。&lt;/p&gt;
-&lt;p&gt;ツリーマップとの違いとしては、モザイク・プロットは一階層のみのデータとなることと、縦横にカテゴリーデータの属性値を取ることがあげられます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-25.png&#34;
@@ -8135,16 +8133,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び名&#34;&gt;他の呼び名
-&lt;/h2&gt;&lt;p&gt;モザイク・グラフ（Mosaic Graph）やマリメッコ・プロット（Marimekko Plot）と呼ばれることもあります。&lt;/p&gt;
-&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/2533471_A_Brief_History_of_the_Mosaic_Display&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;A Brief History of the Mosaic Display&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://datavis.ca/mosaics/mosaics.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;User’s Guide for MOSAICS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+    &gt;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
         <title>沖積図（Alluvial Diagrams）</title>
