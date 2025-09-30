@@ -7,13 +7,94 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 29 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
+        <link>http://localhost:1313/radial-bar-chart/</link>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/radial-bar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、円グラフやローズチャート（Coxcomb chart）に近い形式を持つ可視化手法です。
+すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表す というのが大きな特徴です。
+歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg&#34;
+	width=&#34;2560&#34;
+	height=&#34;1609&#34;
+	srcset=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality_hu_8e36e152ebfabbcb.jpg 480w, http://localhost:1313/radial-bar-chart/images/Nightingale-mortality_hu_f906448a365be01b.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;コックスコム図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;381px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使いどころ&#34;&gt;使いどころ
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、カテゴリが循環性を持つデータを可視化するのに特に向いています。たとえば以下のような場面で有効です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;月別データ&lt;/strong&gt; &amp;hellip;例：月ごとの売上、気温、降水量。季節の移り変わりを円形に配置することで、周期性が一目でわかる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間帯別データ&lt;/strong&gt; &amp;hellip;例：1日のアクセス数、電力消費、交通量。24時間を放射状に置くと、朝・昼・夜のピークが直感的に理解できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;曜日別データ&lt;/strong&gt; &amp;hellip;例：来客数やSNS投稿数。1週間のサイクルを表すのに適している。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自然現象や疾病データ&lt;/strong&gt; &amp;hellip;例：インフルエンザ流行の季節性、風向や潮汐といった周期的な現象。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;他のチャートとの比較&#34;&gt;他のチャートとの比較
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、円グラフや棒グラフ、レーダーチャートとしばしば比較されます。それぞれの違いをまとめると次の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート種別&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;ポーラー・エリア・チャートとの違い&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;円グラフ (Pie Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;セクターの角度で比率を表す。&lt;/td&gt;
+          &lt;td&gt;ポーラー・エリア・チャートは角度が固定され、&lt;strong&gt;半径&lt;/strong&gt;の長さで値を表現。比率よりも周期パターンを強調できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;棒グラフ (Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;棒の長さで値を表す。比較しやすい。&lt;/td&gt;
+          &lt;td&gt;棒グラフは比較精度が高い。ポーラー・エリア・チャートは循環配置でパターン把握に優れる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;レーダーチャート (Radar/Spider Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;軸ごとに値を放射状に示し、点を線で結ぶ。&lt;/td&gt;
+          &lt;td&gt;レーダーは全体の形を比較するのに強い。ポーラー・エリア・チャートはセクターごとの大きさを強調。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ローズチャート (Rose Chart, Coxcomb)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ポーラー・エリア・チャートとほぼ同義。&lt;/td&gt;
+          &lt;td&gt;ナイチンゲールのコックスコム図が代表例。用語が重なる場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;ポーラーエリアチャートの強みと注意点&#34;&gt;ポーラー・エリア・チャートの強みと注意点
+&lt;/h2&gt;&lt;p&gt;強み&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;周期性・循環性のパターンを直感的に示せる。&lt;/li&gt;
+&lt;li&gt;視覚的にインパクトがあり、デザイン性も高い。&lt;/li&gt;
+&lt;li&gt;同心円グリッドを加えることで値の目安を明確にできる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射方向が異なるため、セクター間の比較精度は棒グラフほど高くない。&lt;/li&gt;
+&lt;li&gt;データ点数が多いと混雑し、読み取りづらくなる。&lt;/li&gt;
+&lt;li&gt;値の差が小さいと視覚的な違いが目立ちにくい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、周期的なカテゴリデータをリズムとして見せたいときに有効な可視化手法です。
+正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「パターンを直感的に理解させる」 という点で強みを発揮します。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>モザイク・プロット（Mosaic Plot）</title>
         <link>http://localhost:1313/mosaic-plot/</link>
         <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
 &lt;p&gt;基本原理は以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。&lt;/li&gt;
@@ -106,6 +187,8 @@
     &gt;Marimekko Chart | Tableau Blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.think-cell.com/en/resources/manual/mekko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;think-cell: Mekko Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://datavis.ca/mosaics/mosaics.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;User’s Guide for MOSAICS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datavis.ca/papers/moshist.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -8072,13 +8155,13 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-25.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-25.png&#34;
 	width=&#34;1344&#34;
 	height=&#34;960&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot-example/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -8090,10 +8173,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://rkabacoff.github.io/datavis/Models.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Data Visualization with R&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ggplot2による作例&#34;&gt;ggplot2による作例
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-26.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-26.png&#34;
 	width=&#34;576&#34;
 	height=&#34;384&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-26_hu_6f4c7ebc9dd94989.png 480w, http://localhost:1313/mosaic-plot/images/image-26_hu_abf562ba674e25fe.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-26_hu_6f4c7ebc9dd94989.png 480w, http://localhost:1313/mosaic-plot-example/images/image-26_hu_abf562ba674e25fe.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -8105,10 +8188,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;識別テストへの回答結果&#34;&gt;識別テストへの回答結果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-27.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-27.png&#34;
 	width=&#34;640&#34;
 	height=&#34;319&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-27_hu_1e58b225a6b9a6ef.png 480w, http://localhost:1313/mosaic-plot/images/image-27_hu_edfa3449601ef876.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-27_hu_1e58b225a6b9a6ef.png 480w, http://localhost:1313/mosaic-plot-example/images/image-27_hu_edfa3449601ef876.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -8120,10 +8203,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;hair-and-eye-color-of-statistics-students&#34;&gt;Hair and Eye Color of Statistics Students
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png&#34;
 	width=&#34;1152&#34;
 	height=&#34;1152&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_e514b9da09bf922e.png 480w, http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_90db8288aab03195.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_e514b9da09bf922e.png 480w, http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_90db8288aab03195.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

@@ -7,7 +7,187 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
+        <link>http://localhost:1313/radial-bar-chart/</link>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/radial-bar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/images/newsmap.png" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、円グラフやローズチャート（Coxcomb chart）に近い形式を持つ可視化手法です。
+すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表す というのが大きな特徴です。
+歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/newsmap.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使いどころ&#34;&gt;使いどころ
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、カテゴリが循環性を持つデータを可視化するのに特に向いています。たとえば以下のような場面で有効です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;月別データ&lt;/strong&gt; &amp;hellip;例：月ごとの売上、気温、降水量。季節の移り変わりを円形に配置することで、周期性が一目でわかる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間帯別データ&lt;/strong&gt; &amp;hellip;例：1日のアクセス数、電力消費、交通量。24時間を放射状に置くと、朝・昼・夜のピークが直感的に理解できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;曜日別データ&lt;/strong&gt; &amp;hellip;例：来客数やSNS投稿数。1週間のサイクルを表すのに適している。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自然現象や疾病データ&lt;/strong&gt; &amp;hellip;例：インフルエンザ流行の季節性、風向や潮汐といった周期的な現象。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;他のチャートとの比較&#34;&gt;他のチャートとの比較
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、円グラフや棒グラフ、レーダーチャートとしばしば比較されます。それぞれの違いをまとめると次の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート種別&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;Polar Areaとの違い&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;円グラフ (Pie Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;セクターの角度で比率を表す。&lt;/td&gt;
+          &lt;td&gt;Polar Area は角度が固定され、&lt;strong&gt;半径&lt;/strong&gt;の長さで値を表現。比率よりも周期パターンを強調できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;棒グラフ (Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;棒の長さで値を表す。比較しやすい。&lt;/td&gt;
+          &lt;td&gt;棒グラフは比較精度が高い。Polar Area は循環配置でパターン把握に優れる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;レーダーチャート (Radar/Spider Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;軸ごとに値を放射状に示し、点を線で結ぶ。&lt;/td&gt;
+          &lt;td&gt;レーダーは全体の形を比較するのに強い。Polar Area はセクターごとの大きさを強調。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ローズチャート (Rose Chart, Coxcomb)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ポーラー・エリア・チャートとほぼ同義。&lt;/td&gt;
+          &lt;td&gt;ナイチンゲールのコックスコム図が代表例。用語が重なる場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;polar-area-チャートの強みと注意点&#34;&gt;Polar Area チャートの強みと注意点
+&lt;/h2&gt;&lt;p&gt;強み&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;周期性・循環性のパターンを直感的に示せる。&lt;/li&gt;
+&lt;li&gt;視覚的にインパクトがあり、デザイン性も高い。&lt;/li&gt;
+&lt;li&gt;同心円グリッドを加えることで値の目安を明確にできる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意点&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射方向が異なるため、セクター間の比較精度は棒グラフほど高くない。&lt;/li&gt;
+&lt;li&gt;データ点数が多いと混雑し、読み取りづらくなる。&lt;/li&gt;
+&lt;li&gt;値の差が小さいと視覚的な違いが目立ちにくい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、周期的なカテゴリデータをリズムとして見せたいときに有効な可視化手法です。
+正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「パターンを直感的に理解させる」 という点で強みを発揮します。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>モザイク・プロット（Mosaic Plot）</title>
+        <link>http://localhost:1313/mosaic-plot/</link>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mosaic-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
+&lt;p&gt;基本原理は以下のとおりです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。&lt;/li&gt;
+&lt;li&gt;2.縦方向の分割：その中を、別の変数のカテゴリごとの割合に応じて高さ方向に分割する。&lt;/li&gt;
+&lt;li&gt;3.面積：結果として得られる長方形（タイル）の面積が、そのカテゴリ組み合わせの度数や確率に比例する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして、2変数のクロス集計表を直感的に理解できるだけでなく、3変数以上でも再帰的に分割を重ねることで多次元データを可視化できます。&lt;/p&gt;
+&lt;h2 id=&#34;モザイクプロットの特徴と強み&#34;&gt;モザイク・プロットの特徴と強み
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;クロス表の視覚化&lt;/strong&gt; &amp;hellip;単なる数表では見えにくい「カテゴリの組み合わせごとの大きさ」を、面積として一目で把握できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;条件付き割合の理解&lt;/strong&gt; &amp;hellip;たとえば「男女 × 喫煙有無」のような表では、「全体に占める男女比」と「各性別内での喫煙率」を同時に表現可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;モデル診断ツールとしての応用&lt;/strong&gt; &amp;hellip;Friendly (2001) は、モザイク・プロットを 対数線形モデル (log-linear model) との組み合わせで活用できると述べています。観測度数と期待度数の差（残差）をセルの色で示すことで、独立性から逸脱しているパターンを直感的に見つけることができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;順序最適化と探索的分析&lt;/strong&gt; &amp;hellip;カテゴリや変数の並び順を工夫することで、相関関係やパターンがより明確になります。再帰的に分割するため、変数の順序は見え方に強く影響します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育的な効果&lt;/strong&gt; &amp;hellip;「量（度数）と割合（比率）の両方を面積で同時に表す」という特性から、データの相対関係を理解するトレーニングツールとしても有用です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;活用場面の具体例&#34;&gt;活用場面の具体例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;社会調査やアンケート分析&lt;/strong&gt; &amp;hellip;属性（性別、年代、居住地など）と回答カテゴリの関係を、全体比率と内訳比率を同時に示せます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マーケティング分析&lt;/strong&gt; &amp;hellip;製品カテゴリー × 購入チャネルなど、二次元クロス表の分布を直感的に把握できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;統計教育&lt;/strong&gt; &amp;hellip;クロス表の数値をグラフ化することで、独立性・相関関係を視覚的に理解する教材になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;探索的データ分析 (EDA)&lt;/strong&gt; &amp;hellip;データを統計モデルにあてはめる前に、偏りや分布の特徴を見つける第一歩として有効です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;マリメッコチャートとの比較&#34;&gt;マリメッコ・チャートとの比較
+&lt;/h2&gt;&lt;p&gt;一方、マリメッコ・チャート（Marimekko chart, Mekko chart） は、ビジネスインテリジェンスやダッシュボードで広く使われる可視化です。その仕組みはモザイク・プロットと非常に近く &lt;strong&gt;「幅可変の積み上げ棒グラフ」&lt;/strong&gt; として理解されます。横幅が第1変数の比率を、縦方向の積み上げが第2変数の割合を示し、セルの面積が組み合わせの大きさを表します。&lt;/p&gt;
+&lt;p&gt;両者を比較すると次のように整理できます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;観点&lt;/th&gt;
+          &lt;th&gt;モザイク・プロット (Mosaic Plot)&lt;/th&gt;
+          &lt;th&gt;マリメッコ・チャート (Marimekko / Mekko Chart)&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;起源・文脈&lt;/td&gt;
+          &lt;td&gt;統計学に由来。Hartigan &amp;amp; Kleiner (1981)、Friendly (2001) らが整理&lt;/td&gt;
+          &lt;td&gt;BI・経営分析で普及。名称はフィンランドのブランド「Marimekko」に由来&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;定義・構造&lt;/td&gt;
+          &lt;td&gt;再帰的分割により、セル面積 ∝ 度数（確率）&lt;/td&gt;
+          &lt;td&gt;幅可変の積み上げ棒グラフ。セル面積 ∝ 度数（確率）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;主な目的&lt;/td&gt;
+          &lt;td&gt;クロス表（分割表）の可視化、統計モデル診断&lt;/td&gt;
+          &lt;td&gt;市場シェアや売上構成などのビジネスデータ可視化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色付け&lt;/td&gt;
+          &lt;td&gt;統計的残差（期待度数との差）を色で表すなど分析的用途&lt;/td&gt;
+          &lt;td&gt;セグメントごとに色分けしてプレゼンテーションに活用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;実装例&lt;/td&gt;
+          &lt;td&gt;R (&lt;code&gt;mosaicplot&lt;/code&gt;, &lt;code&gt;vcd&lt;/code&gt;, &lt;code&gt;ggmosaic&lt;/code&gt;)、JMP、S-PLUS&lt;/td&gt;
+          &lt;td&gt;Tableau、PowerPoint (think-cell)、Spotfire、AnyChart&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;利用分野&lt;/td&gt;
+          &lt;td&gt;統計教育、探索的データ分析、モデル適合度の診断&lt;/td&gt;
+          &lt;td&gt;経営ダッシュボード、マーケティング資料、売上内訳の提示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;強み&lt;/td&gt;
+          &lt;td&gt;多変数対応や残差可視化など統計分析との親和性&lt;/td&gt;
+          &lt;td&gt;ビジネスデータを直感的に伝える視覚的効果&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;限界&lt;/td&gt;
+          &lt;td&gt;面積比較は視覚的に誤差が出やすい。カテゴリ数が多いと見づらい&lt;/td&gt;
+          &lt;td&gt;幅の変化が直感的に理解されにくい場合がある&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;モザイク・プロットは、カテゴリ変数の交差を面積で表す統計的可視化の基本手法で、モデル診断や教育にも使われる。&lt;/li&gt;
+&lt;li&gt;マリメッコ・チャートは、同じ構造を持ちつつ、ビジネス用途で「市場シェア × セグメント比率」を直感的に示すために定着した呼び方。&lt;/li&gt;
+&lt;li&gt;両者は原理的にはほぼ同じチャートであり、文脈によって呼び名や強調点が異なると考えるのが妥当。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Mosaic_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mosaic plot - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mosaic Plot | JMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/introduction-marimekko-chart-many-colors-and-many-names-58111&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Marimekko Chart | Tableau Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.think-cell.com/en/resources/manual/mekko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;think-cell: Mekko Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://datavis.ca/mosaics/mosaics.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;User’s Guide for MOSAICS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datavis.ca/papers/moshist.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Michael Friendly (2001). A Brief History of the Mosaic Display (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</title>
         <link>http://localhost:1313/spiral-chart-nyt/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
@@ -122,6 +302,156 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
     &gt;Better Posters Blog – The New York Times COVID-19 Serpent&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/select-from-data/the-new-york-times-viz-that-divided-datatwitter-8a406241bb21&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Medium – The NYT Viz that Divided Data Twitter (Sourya Shrestha)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ビースウォーム・プロット（Beeswarm Plot）とは？</title>
+        <link>http://localhost:1313/beeswarm/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/beeswarm/</guid>
+        <description>&lt;img src="http://localhost:1313/beeswarm/images/cover-beeswarm.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？" /&gt;&lt;p&gt;データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm/images/cover-beeswarm.png&#34;
+	width=&#34;2405&#34;
+	height=&#34;993&#34;
+	srcset=&#34;http://localhost:1313/beeswarm/images/cover-beeswarm_hu_5b63ea28e955d59d.png 480w, http://localhost:1313/beeswarm/images/cover-beeswarm_hu_7afa0bd349c7b2e8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;242&#34;
+		data-flex-basis=&#34;581px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ビースウォームプロットの仕組み&#34;&gt;ビースウォーム・プロットの仕組み
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基本構造&lt;/strong&gt; &amp;hellip;縦軸（あるいは横軸）に数値データを、横軸（あるいは縦軸）にカテゴリ変数を配置します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重なりの解消&lt;/strong&gt; &amp;hellip;単純なストリッププロット（strip plot）では点が重なってしまいますが、ビースウォームではアルゴリズムによって点をずらし、衝突しないように散らします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置の意味&lt;/strong&gt; &amp;hellip;数値軸方向はデータ値を保持し、カテゴリ軸方向には重なりを避けるための調整だけが行われます。そのため、点が横に広がるほど「その数値付近に多くの観測がある」ことを意味します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;メリットと注意点&#34;&gt;メリットと注意点
+&lt;/h2&gt;&lt;h3 id=&#34;メリット&#34;&gt;メリット
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;すべての点が見える&lt;/strong&gt; ：要約統計だけでなく、外れ値や個々の観測をそのまま確認可能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分布の偏りが直感的&lt;/strong&gt; ：点の群れ具合から、密集やばらつきがすぐに分かる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;比較がしやすい&lt;/strong&gt; ：カテゴリごとに並べることで、グループ間の分布差を直接見比べられる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;注意点&#34;&gt;注意点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;大量データには不向き&lt;/strong&gt; ：数万件単位のデータでは処理も表示も重くなる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「幅」に定量性はない&lt;/strong&gt; ：横方向の広がりは単なる重なり回避であり、密度を厳密に測るものではない。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的調整が必要&lt;/strong&gt; ：パラメータ設定を工夫しないと点が雑然として見えることがある。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;応用例&#34;&gt;応用例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;統計可視化&lt;/strong&gt; ：箱ひげ図やバイオリン図と組み合わせ、要約統計と生データを両立。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;機械学習の解釈（SHAP）&lt;/strong&gt; n：特徴量の重要度を視覚化する際に beeswarm プロットが使われ、個々の観測の影響度を直感的に理解できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育・プレゼン&lt;/strong&gt; ：点が「生きている」ように散らばるため、聴衆に分布の雰囲気を伝えるのに効果的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ビースウォーム・プロットは、データの「個別性」と「分布性」を同時に示せる可視化手法です。適切なデータサイズで用いれば、他のチャートでは見えにくい外れ値や集中度を明快に伝えることができます。
+今後のデータ可視化の現場でも、ますます利用される機会が増えていくでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cran.r-project.org/web/packages/beeswarm/beeswarm.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R: beeswarm package (CRAN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seaborn.pydata.org/generated/seaborn.swarmplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seaborn swarmplot (Python)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/beeswarm.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SHAP beeswarm plot (公式ドキュメント)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://data.europa.eu/apps/data-visualisation-guide/beeswarm-plots&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Visualization Guide: Beeswarm Plots (EU)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>レーダー・チャートと平行座標：読みやすさをめぐる議論</title>
+        <link>http://localhost:1313/radar-parallel-coordinates/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/radar-parallel-coordinates/</guid>
+        <description>&lt;img src="http://localhost:1313/radar-parallel-coordinates/images/thumbnail_combined.jpg" alt="Featured image of post レーダー・チャートと平行座標：読みやすさをめぐる議論" /&gt;&lt;p&gt;レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。
+中心から放射状に伸びる複数の軸に値をプロットし、隣り合う点を線で結ぶことで多角形が描かれます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：学生の成績、製品比較、能力評価など&lt;/li&gt;
+&lt;li&gt;特徴：項目間のバランスや偏りを「形」として直感的に把握できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;日本の統計局の解説でも、「項目数に応じた正多角形を想定し、中心から外に向かって値をプロットする」と説明されています。値が大きいほど外側に、値が小さいほど内側に配置され、複数の対象を重ねることで比較が容易になります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-parallel-coordinates/images/radar-chart.png&#34;
+	width=&#34;1749&#34;
+	height=&#34;968&#34;
+	srcset=&#34;http://localhost:1313/radar-parallel-coordinates/images/radar-chart_hu_5799a529fd1c1db2.png 480w, http://localhost:1313/radar-parallel-coordinates/images/radar-chart_hu_1d5697827d640dd5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;180&#34;
+		data-flex-basis=&#34;433px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;レーダーチャートの弱点&#34;&gt;レーダー・チャートの弱点
+&lt;/h2&gt;&lt;p&gt;一方で、レーダー・チャートには批判も少なくありません。代表的な問題点は以下のとおりです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;半径方向の距離比較が難しい&lt;/strong&gt; &amp;hellip;人間は共通の基準線に対する垂直・水平の比較は得意ですが、放射方向の距離差を正確に読むのは苦手です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;面積や形のバイアス&lt;/strong&gt; &amp;hellip;多角形の「面積」や「形状」が視覚的に印象を強めるため、実際の数値差以上に誇張される場合があります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;軸順序の恣意性&lt;/strong&gt; &amp;hellip;軸を並べる順番によって形が大きく変わるため、グラフ作成者の意図が読み手の印象に強く影響します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;比較対象や項目数の制限&lt;/strong&gt; &amp;hellip;多くの対象や項目を扱うと線や面が重なり、判読困難になります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Michael Correll のコラム「Bad Ideas in Visualization」では、レーダー・チャートは「形として読んでしまう誘惑が強く、しかもその形が軸順に依存するため誤解を招きやすい」と批判されています。&lt;/p&gt;
+&lt;h2 id=&#34;平行座標parallel-coordinatesという代替&#34;&gt;平行座標（Parallel Coordinates）という代替
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates.png&#34;
+	width=&#34;1964&#34;
+	height=&#34;997&#34;
+	srcset=&#34;http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates_hu_6f67c0c193ab9ae3.png 480w, http://localhost:1313/radar-parallel-coordinates/images/parallel-coordinates_hu_46821aa0178cdf24.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;472px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そこでしばしば比較されるのが、**平行座標プロット（parallel coordinates plot, PCP）**です。これは複数の変数を平行な縦軸に並べ、各データを線でつなぐ手法です。&lt;/p&gt;
+&lt;p&gt;ブログ Dueling Data では次のように述べられています：&lt;/p&gt;
+&lt;p&gt;「レーダー・チャートは見た目は面白いが、各スポーク上の長さを比較するのは難しい。一方で平行座標では、すべての変数が共通の基準軸を持つため、比較が容易である。」&lt;/p&gt;
+&lt;p&gt;つまり、レーダー・チャートが放射方向に散らばる軸をもつのに対し、平行座標はすべての変数を縦に並べるため、「共通スケール上での比較」がやりやすいというわけです。&lt;/p&gt;
+&lt;h2 id=&#34;研究的な裏付け&#34;&gt;研究的な裏付け
+&lt;/h2&gt;&lt;p&gt;学術研究でも、両者の可読性比較が行われています。
+たとえば P-Lite: A study of parallel coordinate plot literacy では、レーダー・チャート・平行座標・散布図などを対象にユーザ実験が行われました。結果は一概に「どちらが常に優れている」とは言えませんが、平行座標の方が高次元データを扱いやすく、正確な読み取りが可能になる場面があると報告されています。&lt;/p&gt;
+&lt;h2 id=&#34;レーダーチャートの大衆性-vs-平行座標の専門性&#34;&gt;レーダー・チャートの大衆性 vs 平行座標の専門性
+&lt;/h2&gt;&lt;p&gt;ここまで見てきたように、レーダー・チャートには可読性や正確性の問題点が多く指摘されています。それでもなお、平行座標プロットよりもはるかに一般的に知られ、使われているのはなぜでしょうか。&lt;/p&gt;
+&lt;h3 id=&#34;1-直感的な形の力&#34;&gt;1. 直感的な「形」の力
+&lt;/h3&gt;&lt;p&gt;レーダー・チャートは、複数の値を多角形として一望できるため、凹凸や偏りを感覚的に把握できます。人間は数値よりも「形」で情報を捉える傾向が強く、プレゼンや教育の場では特に効果的に働きます。&lt;/p&gt;
+&lt;h3 id=&#34;2-メディアと文化での定着&#34;&gt;2. メディアと文化での定着
+&lt;/h3&gt;&lt;p&gt;スポーツ雑誌やゲーム（選手能力の五角形グラフ）、教育用統計教材などを通じて、一般層が自然に触れる機会が多くありました。そのため「能力比較＝レーダー・チャート」という認知が文化的に広がっています。&lt;/p&gt;
+&lt;h3 id=&#34;3-ツールでの利用の容易さ&#34;&gt;3. ツールでの利用の容易さ
+&lt;/h3&gt;&lt;p&gt;ExcelやGoogleスプレッドシートといった一般的な表計算ソフトにレーダー・チャートが標準搭載されており、誰でも簡単に作成できます。一方、平行座標プロットはRやPython、専用可視化ツールを使わないと描けず、普及のハードルが高いのが現状です。&lt;/p&gt;
+&lt;h3 id=&#34;4-学習コストの違い&#34;&gt;4. 学習コストの違い
+&lt;/h3&gt;&lt;p&gt;平行座標は軸が並列に並び、データが線として交差します。慣れていない人には「ごちゃごちゃしている」と見えてしまい、理解にはある程度のデータリテラシーが求められます。レーダー・チャートは一方で「形」として直感的に伝わるため、非専門家にも抵抗が少なく、実務や教育で採用されやすいのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ使い分けの視点&#34;&gt;まとめ：使い分けの視点
+&lt;/h2&gt;&lt;p&gt;「レーダー・チャートより平行座標の方が読みやすい」とする意見は確かに存在し、専門家の批評や研究によって裏付けられています。
+しかし同時に、平行座標にも「線が交錯して読みにくい」「軸の順序で印象が変わる」といった弱点があります。&lt;/p&gt;
+&lt;p&gt;したがって結論は単純ではなく、以下のように整理できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;レーダー・チャート：比較対象や項目が少なく、「バランス」を直感的に見せたいときに有効&lt;/li&gt;
+&lt;li&gt;平行座標：項目数やデータ数が多く、正確な比較やパターン探索をしたいときに有効&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可視化は「どちらが正しいか」ではなく「誰に」「どんな目的で」見せるかによって選び分けることが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stat.go.jp/naruhodo/9_graph/jyokyu/redar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;統計局「なるほど統計学園」：レーダーチャート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: レーダーチャート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Radar_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Radar Chart (EN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/caveat/spider.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data-to-Viz: Spider (Radar) Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://duelingdata.blogspot.com/2013/07/radar-chart-vs-parallel-coordinate-chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dueling Data: Radar Chart vs Parallel Coordinate Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mcorrell.medium.com/bad-ideas-in-visualization-77d378148d35&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Michael Correll: Bad Ideas in Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sciencedirect.com/science/article/pii/S2468502X22000377&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;P-Lite: A study of parallel coordinate plot literacy (ScienceDirect)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -354,6 +684,127 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
     &gt;Wellcome Collection（公式）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wellcome.org/engagement-and-advocacy/engaging-people/wellcome-global-monitor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wellcome Global Monitor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>量率グラフという呼び名の誕生史</title>
+        <link>http://localhost:1313/quantityproportion-chart/</link>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/quantityproportion-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
+&lt;p&gt;国際的には モザイク・プロット（Mosaic Plot）が統計ソフトに実装されており、ビジネス界隈ではマリメッコ・チャート（Marimekko Chart）の名称が浸透しています。これに対して「量率グラフ」という呼称は、日本独自に広まった言い方であり、教育や普及活動の中で生まれました。&lt;/p&gt;
+&lt;h2 id=&#34;量率グラフの例&#34;&gt;量率グラフの例
+&lt;/h2&gt;&lt;h3 id=&#34;棒グラフと円の面積で表現した総額&#34;&gt;棒グラフと円の面積で表現した総額
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart.jpeg&#34;
+	width=&#34;1710&#34;
+	height=&#34;1180&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より、棒グラフと円の面積で表現した総額&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;全く同じデータを量率グラフで表現したもの&#34;&gt;全く同じデータを量率グラフで表現したもの
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
+	width=&#34;1682&#34;
+	height=&#34;2302&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より、量率グラフ&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;175px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;誕生の経緯年表&#34;&gt;誕生の経緯（年表）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1950年代半ば頃〜&lt;/strong&gt; &amp;hellip;板倉聖宣が、後に「量率グラフ」と呼ばれる形式のグラフを「30年ほど前から愛用してきた」と1985年に回想。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1970年代末〜1980年代初頭&lt;/strong&gt; &amp;hellip;板倉が「自給率」の授業書を作る研究会でこの種のグラフを提示。そこで塩野広次が「量率グラフ」という名称を提案。量と率の両方を立てる＝「両立グラフ」としての意味を込めたものだった。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1982〜1983年頃&lt;/strong&gt; &amp;hellip;板倉の提示をきっかけに、松崎重広がこの手法に強く関心を持ち、自身の小学校授業に導入。児童とのやりとりを通じて「誰でも関心を持って描ける」グラフであることが示された。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1984年6月&lt;/strong&gt; &amp;hellip;松崎重広、「量率グラフの世界 社会科と算数で広がる」を月刊『たのしい授業』（仮説社）No.15に発表。同号には板倉自身による「量率グラフ」記事も掲載され、出版物として初めて明確に登場。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1985年1月&lt;/strong&gt; &amp;hellip;松崎重広『社会を見なおすメガネ―量率グラフで見る日本』（国土社）が刊行。板倉聖宣が監修を務め、書名に「量率グラフ」を冠した初の単行本となった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三者の役割&#34;&gt;三者の役割
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1.板倉聖宣：実践者として長年愛用し、研究会で提示。&lt;/li&gt;
+&lt;li&gt;2.塩野広次：研究会の場で「量率グラフ」という名称を提案。&lt;/li&gt;
+&lt;li&gt;3.松崎重広：教育現場に導入し、論文・単行本を通じて普及。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この三者の協働があって、今日「量率グラフ」という日本語名称が登場したといえます。&lt;/p&gt;
+&lt;h2 id=&#34;量率グラフの仕組みと特徴&#34;&gt;量率グラフの仕組みと特徴
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
+	width=&#34;1145&#34;
+	height=&#34;2094&#34;
+	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;松崎重広『社会を見なおすメガネ』より&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;54&#34;
+		data-flex-basis=&#34;131px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;縦方向（高さ）&lt;/strong&gt; ：上位カテゴリの合計量に比例&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;横方向（幅）&lt;/strong&gt; ：そのカテゴリ内の構成比（割合）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矩形の面積&lt;/strong&gt; ：縦（量）×横（率）＝交差セルの量（度数/金額等）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この仕組みにより、量と割合を同時に直感的に把握できます。&lt;/p&gt;
+&lt;p&gt;向くケース&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;市場構成（地域×品目、チャネル×商品など）で、ボリュームと構成比を同時に把握したいとき。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;他のグラフとの違い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;100%積み上げ棒グラフ&lt;/strong&gt; ：割合だけ（棒幅は一定）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ツリーマップ&lt;/strong&gt; ：同じ面積表現だが、量率グラフはクロス表（分割表）の可視化に特化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;量率グラフ&lt;/strong&gt; ：棒幅も変化し、量と割合を同時に表現&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;縦量横率という説明の意味と限界&#34;&gt;「縦＝量、横＝率」という説明の意味と限界
+&lt;/h2&gt;&lt;p&gt;松崎重広の著書に掲載された図解（図3）では「縦の長さが総額に比例」「横の長さが割合に比例」と説明されています。したがって、図の文脈では確かに「縦＝量、横＝率」と表現できます。&lt;/p&gt;
+&lt;p&gt;ただし重要なのは：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;縦も横も、実際には 相対的な比率として表現されている。&lt;/li&gt;
+&lt;li&gt;面積（縦×横）になって初めて実際の量（例えば13億円）が示される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり &lt;strong&gt;「縦軸に量・横軸に率をとる」というよりも「縦に量の比率、横に率の比率を反映させ、その面積で量を読む」&lt;/strong&gt; と理解するのが正確です。&lt;/p&gt;
+&lt;p&gt;この違いを明示することで「量率グラフ」という名称が持つ教育的インパクト（量と率を両立させる、という強調）と、実際の表現方法（面積が量を示す）の両方をバランスよく伝えられます。&lt;/p&gt;
+&lt;h2 id=&#34;呼び名の整理&#34;&gt;呼び名の整理
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;モザイク・プロット（Mosaic plot）&lt;/strong&gt; ：統計学・統計ソフトでの正式名称&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マリメッコ・チャート（Marimekko, Mekko）&lt;/strong&gt; ：ビジネスダッシュボード分野での俗称&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;量率グラフ&lt;/strong&gt; ：日本で生まれ、教育や書籍を通じて普及した呼称（ただし、JIS Z 8101やe-Stat統計用語集には掲載していない）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「量率グラフ」という日本語呼称は、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;板倉聖宣の実践（1950年代〜）&lt;/li&gt;
+&lt;li&gt;塩野広次の命名（1980年前後）&lt;/li&gt;
+&lt;li&gt;松崎重広の教育現場導入（1980年代前半）&lt;/li&gt;
+&lt;li&gt;1984年『たのしい授業』&lt;/li&gt;
+&lt;li&gt;1985年単行本での出版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を経て使用されました。&lt;/p&gt;
+&lt;p&gt;国際的にはモザイク・プロット（Mosaic plot）の一種として理解されますが、日本では「量率グラフ」という名のもとに教育実践から普及した独自の経緯があります。図解で示されるように「縦＝量・横＝率」と説明されることもありますが、実際には面積こそが量を表す点を理解することが大切です。&lt;/p&gt;
+&lt;h2 id=&#34;参考リンク&#34;&gt;参考リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ndlsearch.ndl.go.jp/books/R100000002-I000001715850&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国立国会図書館サーチ（松崎重広『社会を見なおすメガネ』）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ci.nii.ac.jp/ncid/BN04447666&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CiNii Books 書誌情報（BN04447666）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E9%87%8F%E7%8E%87%E3%82%B0%E3%83%A9%E3%83%95&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia 日本語版「量率グラフ」&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -6654,33 +7105,33 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ビースウォーム・プロット（Beeswarm Plot）</title>
-        <link>http://localhost:1313/beeswarm-plot/</link>
+        <title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
+        <link>http://localhost:1313/beeswarm-example/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/beeswarm-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/beeswarm-plot/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）" /&gt;&lt;p&gt;一次元の散布図で、ドットは重なりません。ストリップ・チャートやヒストグラム、箱ひげ図などと同様に、分布を可視化するために使用されます。異なる点としては、データポイント一つひとつの大きさや色で、データ属性を表現することができ、存在感を確認することが可能です。一方、統計要約量は描かれません。&lt;/p&gt;
+        <guid>http://localhost:1313/beeswarm-example/</guid>
+        <description>&lt;img src="http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" /&gt;&lt;p&gt;「ビースウォーム・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;人種別世帯収入の比較&#34;&gt;人種別世帯収入の比較
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-plot/images/BeeSwarm_income-1.png&#34;
-	width=&#34;3192&#34;
-	height=&#34;2398&#34;
-	srcset=&#34;http://localhost:1313/beeswarm-plot/images/BeeSwarm_income-1_hu_558368f52a15fc23.png 480w, http://localhost:1313/beeswarm-plot/images/BeeSwarm_income-1_hu_c318f6682afa178f.png 1024w&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/BeeSwarm_income-1.png&#34;
+	width=&#34;2953&#34;
+	height=&#34;1945&#34;
+	srcset=&#34;http://localhost:1313/beeswarm-example/images/BeeSwarm_income-1_hu_b972b23d02f8e98c.png 480w, http://localhost:1313/beeswarm-example/images/BeeSwarm_income-1_hu_4adf059bc0a61bf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;133&#34;
-		data-flex-basis=&#34;319px&#34;
+		data-flex-grow=&#34;151&#34;
+		data-flex-basis=&#34;364px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gabriellelamarrlemee.github.io/thesis-simulation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Educate Your Child&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;アメリカの80都市で報告された銃窃盗事件2010-15年&#34;&gt;アメリカの80都市で報告された銃窃盗事件（2010-15年）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-plot/images/BeeSwarm_reportedgun-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/BeeSwarm_reportedgun-1.png&#34;
 	width=&#34;2405&#34;
 	height=&#34;1266&#34;
-	srcset=&#34;http://localhost:1313/beeswarm-plot/images/BeeSwarm_reportedgun-1_hu_93751ac435842138.png 480w, http://localhost:1313/beeswarm-plot/images/BeeSwarm_reportedgun-1_hu_8654c4727a8ecfa9.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/beeswarm-example/images/BeeSwarm_reportedgun-1_hu_93751ac435842138.png 480w, http://localhost:1313/beeswarm-example/images/BeeSwarm_reportedgun-1_hu_8654c4727a8ecfa9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6692,10 +7143,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Reported Gun Theft in 80 American Cities, 2010–15&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;タイタニック号の乗客&#34;&gt;タイタニック号の乗客
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-plot/images/DfjgnOZXkAU0iMu.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/DfjgnOZXkAU0iMu.jpeg&#34;
 	width=&#34;600&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://localhost:1313/beeswarm-plot/images/DfjgnOZXkAU0iMu_hu_7b61946d38b265f8.jpeg 480w, http://localhost:1313/beeswarm-plot/images/DfjgnOZXkAU0iMu_hu_f10a2d5492ad12f3.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/beeswarm-example/images/DfjgnOZXkAU0iMu_hu_7b61946d38b265f8.jpeg 480w, http://localhost:1313/beeswarm-example/images/DfjgnOZXkAU0iMu_hu_f10a2d5492ad12f3.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6707,10 +7158,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/theboysmithy/status/1006801643076247552&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Alan Smith on Twitter.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;covid-19関連の検索語の推移&#34;&gt;COVID-19関連の検索語の推移
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-plot/images/searchingcovid19_1-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/searchingcovid19_1-1.png&#34;
 	width=&#34;2862&#34;
 	height=&#34;1725&#34;
-	srcset=&#34;http://localhost:1313/beeswarm-plot/images/searchingcovid19_1-1_hu_cb8c92cd329b541.png 480w, http://localhost:1313/beeswarm-plot/images/searchingcovid19_1-1_hu_7ae4052d38b94bb1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/beeswarm-example/images/searchingcovid19_1-1_hu_cb8c92cd329b541.png 480w, http://localhost:1313/beeswarm-example/images/searchingcovid19_1-1_hu_7ae4052d38b94bb1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6719,10 +7170,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 		data-flex-basis=&#34;398px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/beeswarm-plot/images/searchingcovid19_2.png&#34;
+&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png&#34;
 	width=&#34;2858&#34;
 	height=&#34;1728&#34;
-	srcset=&#34;http://localhost:1313/beeswarm-plot/images/searchingcovid19_2_hu_e9c8bcffc7f49f5e.png 480w, http://localhost:1313/beeswarm-plot/images/searchingcovid19_2_hu_f08bc5d3c2da7417.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/beeswarm-example/images/searchingcovid19_2_hu_e9c8bcffc7f49f5e.png 480w, http://localhost:1313/beeswarm-example/images/searchingcovid19_2_hu_f08bc5d3c2da7417.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7645,20 +8096,18 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/h2&gt;&lt;p&gt;Bumps Chart, Rank Chartと呼ばれることもあります。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>モザイク・プロット（Mosaic Plot）</title>
-        <link>http://localhost:1313/mosaic-plot/</link>
+        <title>モザイク・プロット（Mosaic Plot）の事例</title>
+        <link>http://localhost:1313/mosaic-plot-example/</link>
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/mosaic-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;二つ以上のカテゴリーデータ（質的変数）を可視化するチャートです。表示エリアの長方形を、再帰的に垂直・水平に分割によって作成されたタイルで構成されます。&lt;/p&gt;
-&lt;p&gt;この一つひとつのタイルの高さと幅は、それぞれ別のカテゴリーデータの属性ごとの集計値を示しています。これによって、カテゴリーデータ間の関係を示すことが可能となります。タイルの色は、カテゴリーデータ間の関係の大きさを示すことも可能です。&lt;/p&gt;
-&lt;p&gt;ツリーマップとの違いとしては、モザイク・プロットは一階層のみのデータとなることと、縦横にカテゴリーデータの属性値を取ることがあげられます。&lt;/p&gt;
+        <guid>http://localhost:1313/mosaic-plot-example/</guid>
+        <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-25.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-25.png&#34;
 	width=&#34;1344&#34;
 	height=&#34;960&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot-example/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7670,10 +8119,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://rkabacoff.github.io/datavis/Models.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Data Visualization with R&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ggplot2による作例&#34;&gt;ggplot2による作例
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-26.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-26.png&#34;
 	width=&#34;576&#34;
 	height=&#34;384&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-26_hu_6f4c7ebc9dd94989.png 480w, http://localhost:1313/mosaic-plot/images/image-26_hu_abf562ba674e25fe.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-26_hu_6f4c7ebc9dd94989.png 480w, http://localhost:1313/mosaic-plot-example/images/image-26_hu_abf562ba674e25fe.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7685,10 +8134,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;識別テストへの回答結果&#34;&gt;識別テストへの回答結果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/image-27.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-27.png&#34;
 	width=&#34;640&#34;
 	height=&#34;319&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/image-27_hu_1e58b225a6b9a6ef.png 480w, http://localhost:1313/mosaic-plot/images/image-27_hu_edfa3449601ef876.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-27_hu_1e58b225a6b9a6ef.png 480w, http://localhost:1313/mosaic-plot-example/images/image-27_hu_edfa3449601ef876.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7700,10 +8149,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;hair-and-eye-color-of-statistics-students&#34;&gt;Hair and Eye Color of Statistics Students
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png&#34;
 	width=&#34;1152&#34;
 	height=&#34;1152&#34;
-	srcset=&#34;http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_e514b9da09bf922e.png 480w, http://localhost:1313/mosaic-plot/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_90db8288aab03195.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_e514b9da09bf922e.png 480w, http://localhost:1313/mosaic-plot-example/images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1_hu_90db8288aab03195.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -7713,16 +8162,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び名&#34;&gt;他の呼び名
-&lt;/h2&gt;&lt;p&gt;モザイク・グラフ（Mosaic Graph）やマリメッコ・プロット（Marimekko Plot）と呼ばれることもあります。&lt;/p&gt;
-&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/2533471_A_Brief_History_of_the_Mosaic_Display&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;A Brief History of the Mosaic Display&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://datavis.ca/mosaics/mosaics.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;User’s Guide for MOSAICS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+    &gt;http://www.sthda.com/english/articles/32-r-graphics-essentials/129-visualizing-multivariate-categorical-data/&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
         <title>沖積図（Alluvial Diagrams）</title>
