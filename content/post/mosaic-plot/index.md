@@ -70,7 +70,7 @@ image = "images/image-27.png"
 
 
 
-## 参考リンク
+## 参考・出典
 
 - [Mosaic plot - Wikipedia](https://en.wikipedia.org/wiki/Mosaic_plot)
 - [Mosaic Plot | JMP](https://www.jmp.com/en/statistics-knowledge-portal/exploratory-data-analysis/mosaic-plot.html)
