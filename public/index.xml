@@ -94,7 +94,7 @@
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/bump-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/bump-chart/images/G-20-countries-ranked.png" alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" /&gt;&lt;p&gt;バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで &lt;strong&gt;「どの対象がいつ上位に食い込み、誰が下がったか」&lt;/strong&gt; を直感的に読み取れる点が特徴です。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bump-chart/images/G-20-countries-ranked.png" alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" /&gt;&lt;p&gt;バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで &lt;strong&gt;「どの対象がいつ上位に食い込み、または下がったか」&lt;/strong&gt; を直感的に読み取れる点が特徴です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart/images/G-20-countries-ranked.png&#34;
 	width=&#34;1825&#34;
 	height=&#34;1057&#34;
@@ -151,21 +151,21 @@
 &lt;h2 id=&#34;現代での普及とツール実装&#34;&gt;現代での普及とツール実装
 &lt;/h2&gt;&lt;p&gt;現在、バンプ・チャートは多くの可視化ツールに組み込まれています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Datawrapper の公式解説では「順位の変化を示すチャート」として紹介され、ランキングデータに特化した用途を推奨しています。&lt;/li&gt;
-&lt;li&gt;Flourish では専用テンプレートが用意され、インタラクティブにハイライトや注釈を加えることが可能です。&lt;/li&gt;
-&lt;li&gt;Vega-Lite では rank-transform を利用して順位を生成し、それを折れ線で結ぶ例が公式ドキュメントに掲載されています。&lt;/li&gt;
-&lt;li&gt;Malloy などのモダンBI言語でも「時間×順位」を組み合わせた標準的なチャート型として紹介されています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datawrapper&lt;/strong&gt; の公式解説では「順位の変化を示すチャート」として紹介され、ランキングデータに特化した用途を推奨しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flourish&lt;/strong&gt; では専用テンプレートが用意され、インタラクティブにハイライトや注釈を加えることが可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vega-Lite&lt;/strong&gt; では rank-transform を利用して順位を生成し、それを折れ線で結ぶ例が公式ドキュメントに掲載されています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Malloy&lt;/strong&gt; などのモダンBI言語でも「時間×順位」を組み合わせた標準的なチャート型として紹介されています。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;このように、19世紀に端を発する発想が、21世紀のデータ可視化ツールに正式な「チャート・タイプ」として組み込まれるまでに発展しました。&lt;/p&gt;
 &lt;h2 id=&#34;特徴と活用領域&#34;&gt;特徴と活用領域
 &lt;/h2&gt;&lt;p&gt;バンプ・チャートが適しているのは &lt;strong&gt;「相対的な位置の変化そのものがストーリーになる」&lt;/strong&gt; ケースです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;スポーツ：リーグ戦の順位推移（シーズンを通じてどのチームが浮き沈みしたか）&lt;/li&gt;
-&lt;li&gt;市場：企業や製品のシェアランキングの変動&lt;/li&gt;
-&lt;li&gt;世論：人気投票やランキング調査の入れ替わり&lt;/li&gt;
-&lt;li&gt;教育・都市：大学ランキングや都市人口順位の長期推移&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;スポーツ&lt;/strong&gt; リーグ戦の順位推移（シーズンを通じてどのチームが浮き沈みしたか）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;市場&lt;/strong&gt; 企業や製品のシェアランキングの変動&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;世論&lt;/strong&gt; 人気投票やランキング調査の入れ替わり&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育・都市&lt;/strong&gt; 大学ランキングや都市人口順位の長期推移&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;絶対値よりも「順位の上下動」に意味がある領域で特に有効で、見る人は即座に「勝者と敗者の物語」を把握できます。&lt;/p&gt;
+&lt;p&gt;絶対値よりも「順位の上下動」に意味がある領域で特に有効で、見る人は即座に「勝者と敗者」を把握できます。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;バンプ・チャートの思想は 1890年統計アトラスに見られるように、19世紀から存在していた。&lt;/li&gt;
