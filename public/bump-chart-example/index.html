@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「バンプ・チャート」が利用されている事例を紹介します。\n">
+<title>バンプ・チャート（Bump Chart）</title>
+
+<link rel='canonical' href='http://localhost:1313/bump-chart-example/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="バンプ・チャート（Bump Chart）">
+<meta property='og:description' content="「バンプ・チャート」が利用されている事例を紹介します。\n">
+<meta property='og:url' content='http://localhost:1313/bump-chart-example/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-03T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg' />
+<meta name="twitter:title" content="バンプ・チャート（Bump Chart）">
+<meta name="twitter:description" content="「バンプ・チャート」が利用されている事例を紹介します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#作例">作例</a>
+      <ol>
+        <li><a href="#election2016-米大統領候補のtwitterバズ">#Election2016 米大統領候補のTwitterバズ</a></li>
+        <li><a href="#過去20年間におけるアメリカで人気の犬種ランキング">過去20年間におけるアメリカで人気の犬種ランキング</a></li>
+        <li><a href="#ワールドカップランキング">ワールドカップ・ランキング</a></li>
+        <li><a href="#g20諸国別-co2排出量ランキング">G20諸国別 CO2排出量ランキング</a></li>
+        <li><a href="#1996-2013年の間で最も人気のある20のウェブサイトを追跡">1996-2013年の間で、最も人気のある20のウェブサイトを追跡</a></li>
+      </ol>
+    </li>
+    <li><a href="#他の呼び方">他の呼び方</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/bump-chart-example/">
+                <img src="/bump-chart-example/images/Dogchangev4_hu_b688a70bf3be825a.jpeg"
+                        srcset="/bump-chart-example/images/Dogchangev4_hu_b688a70bf3be825a.jpeg 800w, /bump-chart-example/images/Dogchangev4_hu_1327afb4268c960c.jpeg 1600w"
+                        width="800" 
+                        height="414" 
+                        loading="lazy"
+                        alt="Featured image of post バンプ・チャート（Bump Chart）" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/chart/" >
+                チャート・カタログ
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/bump-chart-example/">バンプ・チャート（Bump Chart）</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 03, 2020</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>「バンプ・チャート」が利用されている事例を紹介します。</p>
+<p>スロープグラフに似ていますが、スロープグラフは、（たとえ何らかの基準でソートされていたとしても）比較する定性データが、経年でどの位置にいるかを比較します。バンプ・チャートは順位を基準とします。</p>
+<h2 id="作例">作例
+</h2><h3 id="election2016-米大統領候補のtwitterバズ">#Election2016 米大統領候補のTwitterバズ
+</h3><p><img src="/bump-chart-example/images/Election2016.png"
+	width="2289"
+	height="1201"
+	srcset="/bump-chart-example/images/Election2016_hu_985ec21eb16dd3d3.png 480w, /bump-chart-example/images/Election2016_hu_96fe680c57307512.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="190"
+		data-flex-basis="457px"
+	
+></p>
+<p><a class="link" href="https://interactive.twitter.com/candidateRace16/"  target="_blank" rel="noopener"
+    >#Election2016: US Presidential Candidate Twitter Buzz</a></p>
+<h3 id="過去20年間におけるアメリカで人気の犬種ランキング">過去20年間におけるアメリカで人気の犬種ランキング
+</h3><p><img src="/bump-chart-example/images/Dogchangev4.jpeg"
+	width="2417"
+	height="1252"
+	srcset="/bump-chart-example/images/Dogchangev4_hu_bd22ba947da95673.jpeg 480w, /bump-chart-example/images/Dogchangev4_hu_3db5cf1ae718eca6.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="193"
+		data-flex-basis="463px"
+	
+></p>
+<p><a class="link" href="https://www.washingtonpost.com/news/wonk/wp/2015/02/27/americas-favorite-dog-breeds-for-the-past-two-decades-ranked/?arc404=true"  target="_blank" rel="noopener"
+    >America’s favorite dog breeds for the past two decades, ranked</a></p>
+<h3 id="ワールドカップランキング">ワールドカップ・ランキング
+</h3><p><img src="/bump-chart-example/images/wc_infographic_final_cs_EN_MAX1-1-scaled.jpg"
+	width="688"
+	height="2560"
+	srcset="/bump-chart-example/images/wc_infographic_final_cs_EN_MAX1-1-scaled_hu_52be8eaf38571df7.jpg 480w, /bump-chart-example/images/wc_infographic_final_cs_EN_MAX1-1-scaled_hu_54e17fc5e3f51a08.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="26"
+		data-flex-basis="64px"
+	
+></p>
+<p><a class="link" href="https://gengo.com/world-cup/"  target="_blank" rel="noopener"
+    >World Cup Ranking</a></p>
+<h3 id="g20諸国別-co2排出量ランキング">G20諸国別 CO2排出量ランキング
+</h3><p><img src="/bump-chart-example/images/G-20-countries-ranked.png"
+	width="1825"
+	height="1057"
+	srcset="/bump-chart-example/images/G-20-countries-ranked_hu_4a9f132cc72e4698.png 480w, /bump-chart-example/images/G-20-countries-ranked_hu_e1897cf457ee440.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="172"
+		data-flex-basis="414px"
+	
+></p>
+<p><a class="link" href="https://datatodisplay.com/examples/co2/"  target="_blank" rel="noopener"
+    >Ranking G-20 Nations by CO2 Emissions</a></p>
+<h3 id="1996-2013年の間で最も人気のある20のウェブサイトを追跡">1996-2013年の間で、最も人気のある20のウェブサイトを追跡
+</h3><p><img src="/bump-chart-example/images/image-1.jpg"
+	width="916"
+	height="404"
+	srcset="/bump-chart-example/images/image-1_hu_47d7a723b14229a3.jpg 480w, /bump-chart-example/images/image-1_hu_82da2819979c7841.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="226"
+		data-flex-basis="544px"
+	
+></p>
+<p><a class="link" href="https://www.washingtonpost.com/news/the-intersect/wp/2014/12/15/from-lycos-to-ask-jeeves-to-facebook-tracking-the-20-most-popular-web-sites-every-year-since-1996/"  target="_blank" rel="noopener"
+    >From Lycos to Ask Jeeves to Facebook: Tracking the 20 most popular web sites every year since 1996</a></p>
+<h2 id="他の呼び方">他の呼び方
+</h2><p>Bumps Chart, Rank Chartと呼ばれることもあります。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/bump-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
+                        data-key="bump-chart" 
+                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mosaic-plot/">
+        
+        
+            <div class="article-image">
+                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post モザイク・プロット（Mosaic Plot）"
+                        data-key="mosaic-plot" 
+                        data-hash="md5-cWzGdFOL6/3tYEMNjlVlcg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/parallel-sets/">
+        
+        
+            <div class="article-image">
+                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
+                        data-key="parallel-sets" 
+                        data-hash="md5-YEgAAux&#43;2oSlYRySD1I&#43;Og==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/beeswarm/">
+        
+        
+            <div class="article-image">
+                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？"
+                        data-key="beeswarm" 
+                        data-hash="md5-4uPxz1xcWafCcyxhxWbYAA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ビースウォーム・プロット（Beeswarm Plot）とは？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/quantityproportion-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 量率グラフという呼び名の誕生史"
+                        data-key="quantity–proportion-chart" 
+                        data-hash="md5-gnWEnR18O8LTG1iIpx&#43;QCA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">量率グラフという呼び名の誕生史</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
