@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "ツリー"
 ]
 image = "images/scmp-2020-RCEP-cover.png"
 +++

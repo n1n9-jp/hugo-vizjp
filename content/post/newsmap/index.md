@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "ツリー",
 ]
 image = "images/newsmap.png"
 +++

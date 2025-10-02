@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "",
+    "ネットワーク",
 ]
 image = "images/image-13.png"
 

@@ -7,7 +7,7 @@ categories = [
     "technology","principle"
 ]
 tags = [
-    "ia","information-architecture","情報アーキテクチャ"
+    "情報アーキテクチャ"
 ]
 image = "images/thesevencs.png"
 +++

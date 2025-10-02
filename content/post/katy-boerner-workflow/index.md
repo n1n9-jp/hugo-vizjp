@@ -7,7 +7,7 @@ categories = [
     "technology"
 ]
 tags = [
-    "ia","information-architecture","情報アーキテクチャ"
+    "ワークフロー"
 ]
 image = "images/AofK_Workflow.png"
 +++

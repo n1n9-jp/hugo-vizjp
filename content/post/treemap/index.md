@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "",
+    "ツリー"
 ]
 image = "images/Stock-Market-Treemap.png"
 +++

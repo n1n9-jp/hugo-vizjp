@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "network",
+    "ツリー",
 ]
 image = "images/personality-insights_OprahWinfrey.png"
 +++

@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "map",
+    "ツリー",
 ]
 image = "images/MonashUniversity_IcicleChart.png"
 +++

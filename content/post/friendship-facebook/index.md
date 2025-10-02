@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "network","facebook"
+    "ネットワーク",
 ]
 image = "images/163413_479288597199_8388607_n.png"
 +++
