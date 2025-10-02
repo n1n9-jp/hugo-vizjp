@@ -205,12 +205,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>Wikipedia の「見えない戦い」を描く ― History Flow 可視化の物語</title>
+        <title>Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</title>
         <link>http://localhost:1313/history-flow/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/history-flow/</guid>
-        <description>&lt;img src="http://localhost:1313/history-flow/images/chocolate-1.jpeg" alt="Featured image of post Wikipedia の「見えない戦い」を描く ― History Flow 可視化の物語" /&gt;&lt;p&gt;私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。その舞台裏では、協力や対立、破壊と修復といった人間的な営みが絶えず繰り広げられています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/history-flow/images/chocolate-1.jpeg" alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語" /&gt;&lt;p&gt;私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。その舞台裏では、協力や対立、破壊と修復といった人間的な営みが絶えず繰り広げられています。&lt;/p&gt;
 &lt;p&gt;この「見えないダイナミクス」を可視化したのが History Flow です。2004年の国際会議 CHI で発表され、ニューヨーク近代美術館（MoMA）にも収蔵されたこの可視化は、単なる学術研究を超えて、アート作品としても高く評価されています。&lt;/p&gt;
 &lt;h2 id=&#34;誰が作ったのか--開発の背景&#34;&gt;誰が作ったのか？ ― 開発の背景
 &lt;/h2&gt;&lt;p&gt;History Flow を開発したのは、Fernanda B. Viégas と Martin Wattenberg を中心とする研究チーム（MIT Media Lab と IBM Research）。2003年当時、Wikipedia は創設からわずか2年、まだ存在自体を疑う声も多く、「素人の寄せ集めで本当に百科事典が成立するのか？」と懐疑的に見られていました。&lt;/p&gt;
