@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ツリー on Visualizing.JP</title>
+        <link>http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/</link>
+        <description>Recent content in ツリー on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>つららチャート（Icicle Chart）</title>
+        <link>http://localhost:1313/icicle-chart/</link>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/icicle-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cs.middlebury.edu/~candrews/showcase/infovis_techniques_s16/icicle_plots/icicleplots.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Icicle Plots: Better Displays for Hierarchical Clustering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cs.middlebury.edu/~candrews/showcase/infovis_techniques_s16/icicle_plots/icicleplots.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Icicle Plots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;dotmemory分析チャート&#34;&gt;dotMemory分析チャート
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/analyse-deeper.png&#34;
+	width=&#34;896&#34;
+	height=&#34;422&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/analyse-deeper_hu_6e480683e82b3c6c.png 480w, http://localhost:1313/icicle-chart/images/analyse-deeper_hu_e194445b32e8f39.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;212&#34;
+		data-flex-basis=&#34;509px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/icicle-chart/a%20Memory%20Profiler%20&amp;amp;%20Unit-Testing%20Framework%20for%20.NET%20by%20JetBrains&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;dotMemory: a Memory Profiler &amp;amp; Unit-Testing Framework for .NET by JetBrains&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;メルボルン-モナッシュ大学での研究に使われたチャート&#34;&gt;メルボルン モナッシュ大学での研究に使われたチャート
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png&#34;
+	width=&#34;2704&#34;
+	height=&#34;1580&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart_hu_8810b39a99b08ad1.png 480w, http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart_hu_1d1ff6d0bbf96698.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;410px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;core-flow&#34;&gt;Core Flow
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/coreflow.png&#34;
+	width=&#34;1805&#34;
+	height=&#34;1394&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/coreflow_hu_21286e09cef90244.png 480w, http://localhost:1313/icicle-chart/images/coreflow_hu_457a37e5c01dcc3f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zcliu.org/coreflow/CoreFlow-EuroVis17.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CoreFlow: Extracting and Visualizing Branching Patterns from Event Sequences CoreFlow-EuroVis17.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;手描きのつららチャート&#34;&gt;手描きのつららチャート
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/img007.jpg&#34;
+	width=&#34;805&#34;
+	height=&#34;600&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/img007_hu_d02d26de5fc56f45.jpg 480w, http://localhost:1313/icicle-chart/images/img007_hu_c29c76ac7843f55e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;322px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lamartalkscode.com/data-viz-inspiration/img007/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Icicle Chart – Lamar Elimbo&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
