@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ツリーマップに階層構造（親子関係）を可視化しますが、座標系がツリーマップとは異なり、極座標という座標系をとります。データ値は「矩形の幅と高さ」ではなく「半径と円弧の長さ」で示されます。面積は階層内での相対的なサイズとなります。一番中心が最も親の階層となり、外側へ一段階進むごとに一階層下のデータとなります。\n">
-<title>サンバースト（Sunburst）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。\n最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。\n">
+<title>サンバースト・チャートとは何か - 起源と特徴</title>
 
 <link rel='canonical' href='http://localhost:1313/sunburst/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="サンバースト（Sunburst）">
-<meta property='og:description' content="ツリーマップに階層構造（親子関係）を可視化しますが、座標系がツリーマップとは異なり、極座標という座標系をとります。データ値は「矩形の幅と高さ」ではなく「半径と円弧の長さ」で示されます。面積は階層内での相対的なサイズとなります。一番中心が最も親の階層となり、外側へ一段階進むごとに一階層下のデータとなります。\n">
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="サンバースト・チャートとは何か - 起源と特徴">
+<meta property='og:description' content="サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。\n最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。\n">
 <meta property='og:url' content='http://localhost:1313/sunburst/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='network' /><meta property='article:published_time' content='2020-08-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-11T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey.png' />
-<meta name="twitter:title" content="サンバースト（Sunburst）">
-<meta name="twitter:description" content="ツリーマップに階層構造（親子関係）を可視化しますが、座標系がツリーマップとは異なり、極座標という座標系をとります。データ値は「矩形の幅と高さ」ではなく「半径と円弧の長さ」で示されます。面積は階層内での相対的なサイズとなります。一番中心が最も親の階層となり、外側へ一段階進むごとに一階層下のデータとなります。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/sunburst/images/cover-Sunburst.jpg' />
+<meta name="twitter:title" content="サンバースト・チャートとは何か - 起源と特徴">
+<meta name="twitter:description" content="サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。\n最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/sunburst/images/cover-Sunburst.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -366,17 +366,12 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#わずか90社で人為的な地球温暖化の3分の2を排出">わずか90社で人為的な地球温暖化の3分の2を排出</a></li>
-        <li><a href="#政府の形態">政府の形態</a></li>
-        <li><a href="#ibm-watsonによるpersonality-insights">IBM WatsonによるPersonality Insights</a></li>
-        <li><a href="#メルボルン-モナッシュ大学での研究に使われたチャート">メルボルン モナッシュ大学での研究に使われたチャート</a></li>
-        <li><a href="#コーヒーの味">コーヒーの味</a></li>
-        <li><a href="#タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した">タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した</a></li>
-      </ol>
-    </li>
-    <li><a href="#他の呼び名">他の呼び名</a></li>
+    <li><a href="#誰が作ったのか--起源の探究">誰が作ったのか ― 起源の探究</a></li>
+    <li><a href="#どんな目的で使われてきたか">どんな目的で使われてきたか</a></li>
+    <li><a href="#サンバーストチャートの利点">サンバースト・チャートの利点</a></li>
+    <li><a href="#サンバーストチャートの欠点や注意点">サンバースト・チャートの欠点や注意点</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -392,12 +387,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/sunburst/">
-                <img src="/sunburst/images/personality-insights_OprahWinfrey_hu_ecb0348ee8698c03.png"
-                        srcset="/sunburst/images/personality-insights_OprahWinfrey_hu_ecb0348ee8698c03.png 800w, /sunburst/images/personality-insights_OprahWinfrey_hu_80104ff1c2718b23.png 1600w"
+                <img src="/sunburst/images/cover-Sunburst_hu_984d59e784ebc1c.jpg"
+                        srcset="/sunburst/images/cover-Sunburst_hu_984d59e784ebc1c.jpg 800w, /sunburst/images/cover-Sunburst_hu_f227a8b3efcdfe38.jpg 1600w"
                         width="800" 
-                        height="872" 
+                        height="400" 
                         loading="lazy"
-                        alt="Featured image of post サンバースト（Sunburst）" />
+                        alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" />
                 
             </a>
         </div>
@@ -416,7 +411,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/sunburst/">サンバースト（Sunburst）</a>
+            <a href="/sunburst/">サンバースト・チャートとは何か - 起源と特徴</a>
         </h2>
     
         
@@ -438,7 +433,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 11, 2020</time>
+                <time class="article-time--published">Oct 02, 2025</time>
             </div>
         
 
@@ -468,126 +463,101 @@
     <section class="article-content">
     
     
-    <p>ツリーマップに階層構造（親子関係）を可視化しますが、座標系がツリーマップとは異なり、極座標という座標系をとります。データ値は「矩形の幅と高さ」ではなく「半径と円弧の長さ」で示されます。面積は階層内での相対的なサイズとなります。一番中心が最も親の階層となり、外側へ一段階進むごとに一階層下のデータとなります。</p>
-<h2 id="作例">作例
-</h2><h3 id="わずか90社で人為的な地球温暖化の3分の2を排出">わずか90社で人為的な地球温暖化の3分の2を排出
-</h3><p><img src="/sunburst/images/global-warming-companies.png"
-	width="600"
-	height="521"
-	srcset="/sunburst/images/global-warming-companies_hu_69545ec338540a16.png 480w, /sunburst/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w"
+    <p>サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。</p>
+<p>最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。</p>
+<p><img src="/sunburst/images/cover-Sunburst.jpg"
+	width="890"
+	height="445"
+	srcset="/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, /sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="115"
-		data-flex-basis="276px"
+		data-flex-grow="200"
+		data-flex-basis="480px"
 	
 ></p>
-<p><a class="link" href="https://www.theguardian.com/environment/2013/nov/20/90-companies-man-made-global-warming-emissions-climate-change"  target="_blank" rel="noopener"
-    >Just 90 companies caused two-thirds of man-made global warming emissions | Environment | The Guardian</a></p>
-<h3 id="政府の形態">政府の形態
-</h3><p><img src="/sunburst/images/f71q7foy55h41.jpg"
-	width="960"
-	height="962"
-	srcset="/sunburst/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, /sunburst/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="99"
-		data-flex-basis="239px"
-	
-></p>
-<p><a class="link" href="https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/"  target="_blank" rel="noopener"
-    >https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/</a></p>
-<h3 id="ibm-watsonによるpersonality-insights">IBM WatsonによるPersonality Insights
-</h3><p><img src="/sunburst/images/personality-insights_OprahWinfrey.png"
-	width="1700"
-	height="1853"
-	srcset="/sunburst/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, /sunburst/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="91"
-		data-flex-basis="220px"
-	
-></p>
-<p>作例はOprah Winfreyのツイートを元にした分析結果。</p>
-<p><a class="link" href="https://personality-insights-demo.ng.bluemix.net/"  target="_blank" rel="noopener"
-    >Personality Insights</a></p>
-<h3 id="メルボルン-モナッシュ大学での研究に使われたチャート">メルボルン モナッシュ大学での研究に使われたチャート
-</h3><p><img src="/sunburst/images/MonashUniversity_SunBurst-1.png"
-	width="2247"
-	height="1764"
-	srcset="/sunburst/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, /sunburst/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="127"
-		data-flex-basis="305px"
-	
-></p>
-<p>下図のサンバーストが半分になっているものを、彼らはサンダウン（Sun Down）と呼んでいる。</p>
-<p><img src="/sunburst/images/MonashUniversity_SunDown.png"
-	width="2248"
-	height="1491"
-	srcset="/sunburst/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, /sunburst/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="150"
-		data-flex-basis="361px"
-	
-></p>
-<p><a class="link" href="https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation"  target="_blank" rel="noopener"
-    >Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation</a></p>
-<h3 id="コーヒーの味">コーヒーの味
-</h3><p><img src="/sunburst/images/sb_coffeeflavour.png"
-	width="956"
-	height="949"
-	srcset="/sunburst/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, /sunburst/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="100"
-		data-flex-basis="241px"
-	
-></p>
-<p>サンプルのデータセットとして、階層構造（親子関係）のみを示している。</p>
-<p><a class="link" href="https://www.aculocity.com/labs/sunburst-chart"  target="_blank" rel="noopener"
-    >Software development | Sunburst chart | Data Integration | Aculocity</a></p>
-<h3 id="タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した">タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した
-</h3><p><img src="/sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg"
-	width="640"
-	height="715"
-	srcset="/sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, /sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="89"
-		data-flex-basis="214px"
-	
-></p>
-<p><a class="link" href="https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1"  target="_blank" rel="noopener"
-    >https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1</a></p>
-<h2 id="他の呼び名">他の呼び名
-</h2><p>Radial Icicle、Radial Treemap、Ring Bracketなどと呼ばれることもあります。</p>
+<p>サンバースト・チャートは以下のようにも呼ばれています。</p>
+<ul>
+<li>放射状トリーマップ（Radial Treemap）</li>
+<li>多層円グラフ（Multi-level Pie Chart）</li>
+<li>リングチャート（Ring Chart）</li>
+</ul>
+<h2 id="誰が作ったのか--起源の探究">誰が作ったのか ― 起源の探究
+</h2><p>サンバースト・チャートは「誰が最初に作ったか」を一人に特定することはできません。歴史を追うと、いくつかの重要な系譜が見えてきます。</p>
+<ul>
+<li><strong>1. 19世紀末（1890年）</strong>
+<ul>
+<li>Lawrence W. Fike による動物分類の同心円チャート（zoological concentric chart）が知られています。</li>
+<li>科 → 属 → 種といった階層を円環で表す教育・分類目的の可視化であり、現代的サンバーストの先駆的事例とされています。</li>
+</ul>
+</li>
+<li><strong>2. 1921年（米国機械工学誌 “Mechanical Engineering”）</strong>
+<ul>
+<li>1910〜1919年における米国連邦政府の年間支出構成を示す可視化が「sunburst diagram」として紹介されたという記録があります。</li>
+<li>ここでは経済データ（支出カテゴリ）を階層的に分解して示す試みが行われました。</li>
+</ul>
+</li>
+<li><strong>3. 2000年頃（John Stasko, Georgia Tech）</strong>
+<ul>
+<li>情報可視化研究の中で、Treemap に代わる「放射状の space-filling 可視化」として体系的に導入されました。</li>
+<li>特に ファイルシステムの構造、Webサイト遷移、ソフトウェアパッケージの構成など、コンピュータ科学の文脈で大規模な階層を探索的に理解する目的で用いられています。</li>
+<li>Georgia Tech の “SunBurst Page” では、Treemap の代替として階層構造を提示・探索する手法として紹介されています。</li>
+</ul>
+</li>
+</ul>
+<p>このように、サンバーストは 教育的分類図 → 財政可視化 → 情報可視化研究 という異なる文脈を経ながら、現在の形に進化してきました。</p>
+<h2 id="どんな目的で使われてきたか">どんな目的で使われてきたか
+</h2><ul>
+<li><strong>分類や系統の可視化</strong> ：生物学的分類、図書館の階層分類など。</li>
+<li><strong>財政・経済データの構成表示</strong> ：政府支出や売上の構成を階層別に表現。</li>
+<li><strong>IT領域での探索</strong> ：ファイルシステムやWebサイトの階層構造を直感的にナビゲートするための可視化。</li>
+<li><strong>インタラクティブ分析</strong>：BIツールやD3.js／Plotlyなどを用いて、ユーザーが階層を掘り下げて詳細を確認できる仕組み。</li>
+</ul>
+<h2 id="サンバーストチャートの利点">サンバースト・チャートの利点
+</h2><ul>
+<li><strong>1.階層の直感的表現</strong> &hellip;中心から外側へ広がる放射状の構造で、親子関係が視覚的に理解しやすい。</li>
+<li><strong>2.部分と全体の関係を示す</strong> &hellip;各階層が親カテゴリに対してどれほどの割合を持つかを可視化できる。</li>
+<li><strong>3.空間効率</strong> &hellip;Treemap と比べて放射状に展開できるため、深い階層でも相対的にスペースを確保しやすい。</li>
+</ul>
+<h2 id="サンバーストチャートの欠点や注意点">サンバースト・チャートの欠点や注意点
+</h2><ul>
+<li>階層が深いと外側が細かくなり読みにくい。</li>
+<li>角度の比較は人間にとって難しいため、精密な比較には不向き。</li>
+<li>階層間の面積不整合が生じる場合があり、同じ値でも見た目が異なることがある。</li>
+<li>隣接関係に意味がない場合があるため、並びの解釈には注意が必要。</li>
+<li>ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要。</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>サンバースト・チャートは、「誰か一人の発明」ではなく、複数の歴史的流れの中で育まれてきた可視化手法です。</p>
+<ul>
+<li><strong>1890年</strong> ：Fike による動物分類の同心円図</li>
+<li><strong>1921年</strong> ：米国機械工学誌での財政データの可視化</li>
+<li><strong>2000年頃</strong> ：John Stasko らによる情報可視化研究での確立</li>
+</ul>
+<p>今日では、階層データを「全体から部分へ」と直感的に探索できる方法として、教育・行政・研究・ビジネスの幅広い分野で活用されています。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://think.design/services/data-visualization-data-design/sunburst/"  target="_blank" rel="noopener"
+    >Think.Design – Sunburst: A Circular Visualization Technique</a></li>
+<li><a class="link" href="https://sites.cc.gatech.edu/gvu/ii/sunburst/"  target="_blank" rel="noopener"
+    >Georgia Tech – SunBurst Page (Stasko Lab)</a></li>
+<li><a class="link" href="https://nightingaledvs.com/endless-river-an-overview-of-dataviz-for-categorical-data/#a334"  target="_blank" rel="noopener"
+    >NightingaleDVS – Endless River: An Overview of Dataviz for Categorical Data</a></li>
+<li><a class="link" href="https://richardbrath.wordpress.com/2018/08/31/why-history-matters-in-data-visualization/"  target="_blank" rel="noopener"
+    >Richard Brath – Why history matters in data visualization</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/John_Stasko"  target="_blank" rel="noopener"
+    >Wikipedia – John Stasko</a></li>
+<li><a class="link" href="https://drops.dagstuhl.de/storage/01oasics/oasics-vol027-vluds2012-irtg1131/OASIcs.VLUDS.2011.25/OASIcs.VLUDS.2011.25.pdf"  target="_blank" rel="noopener"
+    >Visualization and Evolution of Software Architectures (OASIcs 2011)</a></li>
+<li><a class="link" href="https://chartexpo.com/blog/sunburst-chart"  target="_blank" rel="noopener"
+    >Sunburst Chart: The Format That Fails at Layer Three – ChartExpo Blog</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-            <a href="/tags/network/">Network</a>
-        
-    </section>
-
 
     
     <section class="article-copyright">
@@ -622,7 +592,7 @@
         
         
             <div class="article-image">
-                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -646,7 +616,7 @@
         
         
             <div class="article-image">
-                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -670,7 +640,7 @@
         
         
             <div class="article-image">
-                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
+                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -694,7 +664,7 @@
         
         
             <div class="article-image">
-                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
+                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -718,7 +688,7 @@
         
         
             <div class="article-image">
-                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"

@@ -7,7 +7,104 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>サンバースト・チャートとは何か - 起源と特徴</title>
+        <link>http://localhost:1313/sunburst/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/sunburst/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
+&lt;p&gt;最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/cover-Sunburst.jpg&#34;
+	width=&#34;890&#34;
+	height=&#34;445&#34;
+	srcset=&#34;http://localhost:1313/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:1313/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;サンバースト・チャートは以下のようにも呼ばれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射状トリーマップ（Radial Treemap）&lt;/li&gt;
+&lt;li&gt;多層円グラフ（Multi-level Pie Chart）&lt;/li&gt;
+&lt;li&gt;リングチャート（Ring Chart）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;誰が作ったのか--起源の探究&#34;&gt;誰が作ったのか ― 起源の探究
+&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは「誰が最初に作ったか」を一人に特定することはできません。歴史を追うと、いくつかの重要な系譜が見えてきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1. 19世紀末（1890年）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Lawrence W. Fike による動物分類の同心円チャート（zoological concentric chart）が知られています。&lt;/li&gt;
+&lt;li&gt;科 → 属 → 種といった階層を円環で表す教育・分類目的の可視化であり、現代的サンバーストの先駆的事例とされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2. 1921年（米国機械工学誌 “Mechanical Engineering”）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;1910〜1919年における米国連邦政府の年間支出構成を示す可視化が「sunburst diagram」として紹介されたという記録があります。&lt;/li&gt;
+&lt;li&gt;ここでは経済データ（支出カテゴリ）を階層的に分解して示す試みが行われました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3. 2000年頃（John Stasko, Georgia Tech）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;情報可視化研究の中で、Treemap に代わる「放射状の space-filling 可視化」として体系的に導入されました。&lt;/li&gt;
+&lt;li&gt;特に ファイルシステムの構造、Webサイト遷移、ソフトウェアパッケージの構成など、コンピュータ科学の文脈で大規模な階層を探索的に理解する目的で用いられています。&lt;/li&gt;
+&lt;li&gt;Georgia Tech の “SunBurst Page” では、Treemap の代替として階層構造を提示・探索する手法として紹介されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、サンバーストは 教育的分類図 → 財政可視化 → 情報可視化研究 という異なる文脈を経ながら、現在の形に進化してきました。&lt;/p&gt;
+&lt;h2 id=&#34;どんな目的で使われてきたか&#34;&gt;どんな目的で使われてきたか
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分類や系統の可視化&lt;/strong&gt; ：生物学的分類、図書館の階層分類など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;財政・経済データの構成表示&lt;/strong&gt; ：政府支出や売上の構成を階層別に表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IT領域での探索&lt;/strong&gt; ：ファイルシステムやWebサイトの階層構造を直感的にナビゲートするための可視化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;インタラクティブ分析&lt;/strong&gt;：BIツールやD3.js／Plotlyなどを用いて、ユーザーが階層を掘り下げて詳細を確認できる仕組み。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;サンバーストチャートの利点&#34;&gt;サンバースト・チャートの利点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.階層の直感的表現&lt;/strong&gt; &amp;hellip;中心から外側へ広がる放射状の構造で、親子関係が視覚的に理解しやすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.部分と全体の関係を示す&lt;/strong&gt; &amp;hellip;各階層が親カテゴリに対してどれほどの割合を持つかを可視化できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.空間効率&lt;/strong&gt; &amp;hellip;Treemap と比べて放射状に展開できるため、深い階層でも相対的にスペースを確保しやすい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;サンバーストチャートの欠点や注意点&#34;&gt;サンバースト・チャートの欠点や注意点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;階層が深いと外側が細かくなり読みにくい。&lt;/li&gt;
+&lt;li&gt;角度の比較は人間にとって難しいため、精密な比較には不向き。&lt;/li&gt;
+&lt;li&gt;階層間の面積不整合が生じる場合があり、同じ値でも見た目が異なることがある。&lt;/li&gt;
+&lt;li&gt;隣接関係に意味がない場合があるため、並びの解釈には注意が必要。&lt;/li&gt;
+&lt;li&gt;ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは、「誰か一人の発明」ではなく、複数の歴史的流れの中で育まれてきた可視化手法です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1890年&lt;/strong&gt; ：Fike による動物分類の同心円図&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1921年&lt;/strong&gt; ：米国機械工学誌での財政データの可視化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2000年頃&lt;/strong&gt; ：John Stasko らによる情報可視化研究での確立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今日では、階層データを「全体から部分へ」と直感的に探索できる方法として、教育・行政・研究・ビジネスの幅広い分野で活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://think.design/services/data-visualization-data-design/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Think.Design – Sunburst: A Circular Visualization Technique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sites.cc.gatech.edu/gvu/ii/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Georgia Tech – SunBurst Page (Stasko Lab)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/endless-river-an-overview-of-dataviz-for-categorical-data/#a334&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NightingaleDVS – Endless River: An Overview of Dataviz for Categorical Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardbrath.wordpress.com/2018/08/31/why-history-matters-in-data-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Richard Brath – Why history matters in data visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/John_Stasko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – John Stasko&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://drops.dagstuhl.de/storage/01oasics/oasics-vol027-vluds2012-irtg1131/OASIcs.VLUDS.2011.25/OASIcs.VLUDS.2011.25.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualization and Evolution of Software Architectures (OASIcs 2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chartexpo.com/blog/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sunburst Chart: The Format That Fails at Layer Three – ChartExpo Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
         <link>http://localhost:1313/radial-bar-chart/</link>
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
@@ -6777,18 +6874,18 @@ report by Hugh Small
 </description>
         </item>
         <item>
-        <title>サンバースト（Sunburst）</title>
-        <link>http://localhost:1313/sunburst/</link>
+        <title>サンバースト（Sunburst）の事例</title>
+        <link>http://localhost:1313/sunburst-example/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/sunburst/</guid>
-        <description>&lt;img src="http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）" /&gt;&lt;p&gt;ツリーマップに階層構造（親子関係）を可視化しますが、座標系がツリーマップとは異なり、極座標という座標系をとります。データ値は「矩形の幅と高さ」ではなく「半径と円弧の長さ」で示されます。面積は階層内での相対的なサイズとなります。一番中心が最も親の階層となり、外側へ一段階進むごとに一階層下のデータとなります。&lt;/p&gt;
+        <guid>http://localhost:1313/sunburst-example/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;わずか90社で人為的な地球温暖化の3分の2を排出&#34;&gt;わずか90社で人為的な地球温暖化の3分の2を排出
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/global-warming-companies.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies.png&#34;
 	width=&#34;600&#34;
 	height=&#34;521&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/global-warming-companies_hu_69545ec338540a16.png 480w, http://localhost:1313/sunburst/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies_hu_69545ec338540a16.png 480w, http://localhost:1313/sunburst-example/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6800,10 +6897,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/environment/2013/nov/20/90-companies-man-made-global-warming-emissions-climate-change&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Just 90 companies caused two-thirds of man-made global warming emissions | Environment | The Guardian&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;政府の形態&#34;&gt;政府の形態
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/f71q7foy55h41.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41.jpg&#34;
 	width=&#34;960&#34;
 	height=&#34;962&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, http://localhost:1313/sunburst/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6815,10 +6912,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ibm-watsonによるpersonality-insights&#34;&gt;IBM WatsonによるPersonality Insights
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png&#34;
 	width=&#34;1700&#34;
 	height=&#34;1853&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, http://localhost:1313/sunburst/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6831,10 +6928,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://personality-insights-demo.ng.bluemix.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Personality Insights&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;メルボルン-モナッシュ大学での研究に使われたチャート&#34;&gt;メルボルン モナッシュ大学での研究に使われたチャート
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/MonashUniversity_SunBurst-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1.png&#34;
 	width=&#34;2247&#34;
 	height=&#34;1764&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, http://localhost:1313/sunburst/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6844,10 +6941,10 @@ report by Hugh Small
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;下図のサンバーストが半分になっているものを、彼らはサンダウン（Sun Down）と呼んでいる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/MonashUniversity_SunDown.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown.png&#34;
 	width=&#34;2248&#34;
 	height=&#34;1491&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, http://localhost:1313/sunburst/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6859,10 +6956,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;コーヒーの味&#34;&gt;コーヒーの味
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/sb_coffeeflavour.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour.png&#34;
 	width=&#34;956&#34;
 	height=&#34;949&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, http://localhost:1313/sunburst/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -6875,10 +6972,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.aculocity.com/labs/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Software development | Sunburst chart | Data Integration | Aculocity&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した&#34;&gt;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg&#34;
 	width=&#34;640&#34;
 	height=&#34;715&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, http://localhost:1313/sunburst/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
