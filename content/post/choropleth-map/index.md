@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "map",
+    "地図"
 ]
 image = "images/1_vCq7XE-jQGK_OxfmIUiA7w.png"
 +++

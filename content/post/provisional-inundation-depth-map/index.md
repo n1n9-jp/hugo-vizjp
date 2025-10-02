@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "地図",
 ]
 image = "images/provisional-inundation-depth-map.png"
 +++

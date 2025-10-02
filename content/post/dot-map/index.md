@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "map",
+    "地図"
 ]
 image = "images/racialdotmap.png"
 +++

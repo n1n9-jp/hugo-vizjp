@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "covid19"
+    "covid19","地図"
 ]
 image = "images/finviz_red-2048x1507.png"
 +++
