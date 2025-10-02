@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "ネットワーク",
+    "ツリー",
 ]
 image = "images/cover-Sunburst.jpg"
 +++
