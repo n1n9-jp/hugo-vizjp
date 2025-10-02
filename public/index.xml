@@ -105,6 +105,88 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化</title>
+        <link>http://localhost:1313/digital-nostalgia/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/digital-nostalgia/</guid>
+        <description>&lt;img src="http://localhost:1313/digital-nostalgia/images/cover-LifeOnline.jpeg" alt="Featured image of post デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化" /&gt;&lt;p&gt;グラフィックデザイナー Paul Butt による Digital Nostalgia シリーズは、近年のデジタル技術の急速な進化を振り返り、その背後にある社会的影響や「ノスタルジー（懐旧感）」を浮かび上がらせることを目的としています。今回紹介するポスター 「Life Online」 は、インターネットの誕生から2000年代初頭までの展開を俯瞰するインフォグラフィックです。&lt;/p&gt;
+&lt;h2 id=&#34;シリーズの背景&#34;&gt;シリーズの背景
+&lt;/h2&gt;&lt;p&gt;シリーズは以下の4テーマで構成されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インターネット&lt;/li&gt;
+&lt;li&gt;音声・映像フォーマット&lt;/li&gt;
+&lt;li&gt;コンピュータ記憶媒体&lt;/li&gt;
+&lt;li&gt;モバイル通信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それぞれタイムライン形式のポスターで表現され、単なる技術史の年表ではなく「古い技術がいかに急速に陳腐化していったか」「その過程で生まれた文化的・社会的な波紋」を浮かび上がらせています。&lt;/p&gt;
+&lt;h2 id=&#34;life-onlineの概要&#34;&gt;「Life Online」の概要
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/digital-nostalgia/images/LifeOnline.jpeg&#34;
+	width=&#34;1830&#34;
+	height=&#34;2596&#34;
+	srcset=&#34;http://localhost:1313/digital-nostalgia/images/LifeOnline_hu_3c01d5f85004e5ca.jpeg 480w, http://localhost:1313/digital-nostalgia/images/LifeOnline_hu_9bce717bc50fb232.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Digital Nostalgia – Life Online&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回紹介する「Life Online」 は、インターネットの誕生から2000年代初頭までの展開を俯瞰する作品です。&lt;/p&gt;
+&lt;h3 id=&#34;上部主要サービスの利用者数&#34;&gt;上部：主要サービスの利用者数
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Google、Yahoo、Facebook、MSN、YouTube、eBay、Twitter など主要Webサービスの月間ユニークビジター数を棒グラフで可視化。&lt;/li&gt;
+&lt;li&gt;各サービスがどの年に登場し、どのような速度でユーザーを獲得していったのかを一望できます。&lt;/li&gt;
+&lt;li&gt;例えば、GoogleやYouTubeの急成長、Facebookの爆発的普及など、インターネット時代を象徴する動きが数字として明示されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;中央文化事件技術のタイムライン&#34;&gt;中央：文化・事件・技術のタイムライン
+&lt;/h3&gt;&lt;p&gt;横軸に時間（1970年代〜2000年代）、縦軸に「カテゴリー（Culture / Abuse / Technology）」を配置し、重要な出来事を色分けしたボックスで表現しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Culture（文化）&lt;/strong&gt; ネット文化の象徴（Dancing Baby、オンライン投票）、映画作品（『Hackers』『The Blair Witch Project』『WarGames』）など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abuse（悪用・事件）&lt;/strong&gt; 初期スパム、Creeper ウイルス、ILOVEYOU ウイルス、ドメイン攻撃、米国のサイバーセキュリティ政策など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology（技術）&lt;/strong&gt; ARPANETの誕生、WWW公開、FlashやMP3の普及、ブロードバンドの急速拡大など。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうしたイベント群は「技術革新」「文化現象」「リスクの拡大」が同時並行で進行してきたことを直感的に伝えています。&lt;/p&gt;
+&lt;h3 id=&#34;背景インターネット接続数の推移&#34;&gt;背景：インターネット接続数の推移
+&lt;/h3&gt;&lt;p&gt;図全体の背景にあるグレイの棒グラフは「インターネットに接続されたコンピュータ台数（Computers Connected To The Internet）」 を示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右上に最大値 1,596m（約15億9600万台）と明記。&lt;/li&gt;
+&lt;li&gt;1970年代のARPANET黎明期（数台〜数百台規模）から、2000年代にかけて指数関数的に増加。&lt;/li&gt;
+&lt;li&gt;前景の出来事やサービスの普及と重なり「物理的な基盤の爆発的拡大」と「それがもたらした文化的・社会的展開」を二層構造で理解できるようになっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;図の読み解き方&#34;&gt;図の読み解き方
+&lt;/h2&gt;&lt;p&gt;この図は、以下の3つの視点を重ね合わせて読むと理解が深まります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.技術の軌跡（下段 Technology）&lt;/strong&gt; インフラやソフトウェアの進化を追う。ARPANETからWWW、Flash、ブロードバンドまで。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.社会の影響（中央 Culture / Abuse）&lt;/strong&gt; 技術がカルチャーに取り込まれる瞬間や、犯罪・攻撃に利用される側面を同じ年表上で確認。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.物理的な規模の拡大（背景棒グラフ + 上段サービス利用者数）&lt;/strong&gt; 接続台数とサービス利用者数が爆発的に増加していくスピード感を可視化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この3つの層を同時に視覚化することで、「インターネットの歴史」が単なる進歩の列挙ではなく、社会全体を揺るがす大規模なうねりとして描かれています。&lt;/p&gt;
+&lt;h2 id=&#34;なぜノスタルジーなのか&#34;&gt;なぜ「ノスタルジー」なのか
+&lt;/h2&gt;&lt;p&gt;タイトルの「デジタル・ノスタルジア（Digital Nostalgia）」は、このポスターが単なるデータ可視化ではなく、すでに過去となったデジタル文化への郷愁を込めている点を指しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;初期インターネット文化&lt;/strong&gt; ：Dancing BabyやNapsterのような出来事は、今や「懐かしいインターネットの象徴」として語られます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;失われた技術&lt;/strong&gt; ：Flashや初期ブラウザ戦争は、当時のインターネット体験を強く特徴づけましたが、すでに廃れてしまいました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黎明期の熱狂&lt;/strong&gt; ：ARPANETから始まるインターネット拡張の軌跡は、技術者やユーザーにとって強い思い出と結びついています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この図を見ること自体が、閲覧者に「自分がいつ、どのようにインターネットを経験したか」を思い出させ、個人の記憶と社会史が交錯するノスタルジー体験を呼び起こすのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Paul Butt の Digital Nostalgia シリーズは、デジタル技術の進化を「ノスタルジー」という視点で再構築したユニークな作品群です。&lt;/p&gt;
+&lt;p&gt;特に「Life Online」は、インターネット黎明期から2000年代初頭までの劇的な発展を、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;技術革新（Technology）&lt;/li&gt;
+&lt;li&gt;文化的な出来事（Culture）&lt;/li&gt;
+&lt;li&gt;リスクや犯罪（Abuse）&lt;/li&gt;
+&lt;li&gt;インフラ規模の増加（背景棒グラフ）&lt;/li&gt;
+&lt;li&gt;サービス普及数（上段棒グラフ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を重ね合わせることで多層的に描き出しています。&lt;/p&gt;
+&lt;p&gt;単なる「進歩の歴史」ではなく、すでに懐かしさを帯び始めているインターネット文化そのものを記録する、このシリーズの狙いがよく表れていると言えるでしょう。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
         <link>http://localhost:1313/multi-color/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
