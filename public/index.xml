@@ -8512,12 +8512,34 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;li&gt;&lt;strong&gt;長方形の面積&lt;/strong&gt; ：総収穫量（幅 × 高さ）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;さらに、各州の値だけでなく、ドイツ全体の平均収量（実線） と 直前5年間（1899〜1903年）の平均収量（点線） も示されており、比較が容易になるよう工夫されています。色分けによって作物ごとに区別され、視覚的にも分かりやすく構成されています。&lt;/p&gt;
-&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
+&lt;h3 id=&#34;タイタニック犠牲者と生存者の統計図1912年the-sphere誌&#34;&gt;タイタニック犠牲者と生存者の統計図（1912年、『The Sphere』誌）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0488.jpeg&#34;
+	width=&#34;1703&#34;
+	height=&#34;2551&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0488_hu_4d15aa6345503a22.jpeg 480w, http://localhost:1313/mosaic-plot-example/images/IMG_0488_hu_9db9884e9a447945.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;タイタニック犠牲者と生存者の統計図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;160px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1912年4月のタイタニック号沈没事故の直後、イギリスの挿絵週刊誌『The Sphere』は、犠牲者と生存者の内訳を示す統計図を誌面に掲載しました。この図は、事故の全体像を一般読者に直感的に理解させるための、初期の「統計的インフォグラフィック」として位置づけられます。&lt;/p&gt;
+&lt;p&gt;図の構成はきわめてシンプルです。黒は犠牲者、白は生存者を示し、区分は一等・二等・三等の各船室階級と乗組員に分けられています。さらに男性・女性・子どもごとに帯を分割することで、どの集団がどの程度救われたのかを一目で比較できるようになっています。&lt;/p&gt;
+&lt;p&gt;注目すべきは、帯の縦幅そのものが区分ごとの人数規模を表している点です。一等船客の帯は細く、三等船客の帯は太く描かれており、横方向の黒白の分割（生死の比率）と組み合わさって、各集団の絶対数と相対的な生存率を同時に可視化しています。これは現代の統計学でいう &lt;strong&gt;モザイクプロット（Mosaic Plot）&lt;/strong&gt; と同じ構造を持っており、その先駆的な事例とみなすことができます。&lt;/p&gt;
+&lt;p&gt;この可視化によって浮かび上がるのは、明確な社会的格差です。一等船客の女性・子どもの生存率は非常に高かった一方で、三等船客や男性乗組員の犠牲率は圧倒的に高いものでした。「女性と子どもを優先する」という原則がどのように実際に適用されたかを、社会階級ごとに鋭く伝える図となっています。&lt;/p&gt;
+&lt;p&gt;現代的な可視化の観点からすれば、棒グラフのルール（幅を一定にする）から外れ、面積効果による視覚的強調を含むため必ずしも「正統」ではありません。しかし、歴史的背景を考えれば、これは当時の新聞・雑誌が持つ表現上の工夫であり、社会に衝撃を与えた大事故を伝える強い視覚的メッセージとなっていたといえるでしょう。&lt;/p&gt;
+&lt;h3 id=&#34;タイタニック犠牲者rによる作例&#34;&gt;タイタニック犠牲者（Rによる作例）
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-25.png&#34;
 	width=&#34;1344&#34;
 	height=&#34;960&#34;
 	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot-example/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
+	
+		alt=&#34;タイタニック犠牲者（Rによる作例）&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
