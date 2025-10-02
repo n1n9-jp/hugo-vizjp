@@ -548,6 +548,69 @@
 &lt;p&gt;単なる「進歩の歴史」ではなく、すでに懐かしさを帯び始めているインターネット文化そのものを記録する、このシリーズの狙いがよく表れていると言えるでしょう。&lt;/p&gt;</description>
         </item>
         <item>
+        <title>火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス</title>
+        <link>http://localhost:1313/mission-to-mars/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mission-to-mars/</guid>
+        <description>&lt;img src="http://localhost:1313/mission-to-mars/images/cover.jpeg" alt="Featured image of post 火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス" /&gt;&lt;p&gt;人類にとって火星は、もっとも近い「他の惑星」として、長いあいだ夢と挑戦の対象であり続けてきました。1960年代から今日まで、各国の宇宙機関は数多くの火星探査ミッションを打ち上げてきましたが、その道のりは決して平坦ではありません。むしろ初期のころは、失敗の連続だったのです。&lt;/p&gt;
+&lt;p&gt;そんな挑戦の歴史を一枚の図に凝縮したのが、Bryan Christie Design によるインフォグラフィックス「Mission(s) to Mars」です。もともとはテクノロジー雑誌 IEEE Spectrum に掲載された作品で、従来は表やリストで示されることが多かった「ミッション一覧」を、直感的に理解できるようにデザインし直しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mission-to-mars/images/mission-to-mars.jpeg&#34;
+	width=&#34;1433&#34;
+	height=&#34;1917&#34;
+	srcset=&#34;http://localhost:1313/mission-to-mars/images/mission-to-mars_hu_b2b7992aa5f3e9bb.jpeg 480w, http://localhost:1313/mission-to-mars/images/mission-to-mars_hu_ac673ea0e2b37dd4.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mission(s) to Mars&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;179px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図の読み解き方&#34;&gt;図の読み解き方
+&lt;/h2&gt;&lt;p&gt;この図の魅力は、情報が「火星に届くかどうか」という一点を中心に再構成されていることです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全体構成&lt;/strong&gt; 中央には火星があり、左から右へ時間が流れます。1960年代から現代までのミッションが放射状に並び、時代の移り変わりを直感的にたどることができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バー（帯）の意味&lt;/strong&gt; ミッションの「結果」と「到達度合い」を表現しています。途中で終わっていれば失敗、火星に届けば成功。さらに、着陸やローバー運用まで進めば、バーは火星の表面にまで伸びています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色分け（国別）&lt;/strong&gt; 赤はソビエト連邦、青はアメリカ、紫は日本、水色はESA、オレンジはロシアといった具合に、国や機関ごとの挑戦を区別しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記号（探査タイプ）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;○ フライバイ&lt;/li&gt;
+&lt;li&gt;◐ オービター&lt;/li&gt;
+&lt;li&gt;◑ ランダー&lt;/li&gt;
+&lt;li&gt;◎ ローバー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と記号が整理され、帯の終点を見ればどんな探査を目指したのかが分かります。&lt;/p&gt;
+&lt;p&gt;このように &lt;strong&gt;「時間・国・方法・成果」&lt;/strong&gt; という4つの要素が一つのデザインの中で重ね合わせられています。&lt;/p&gt;
+&lt;h2 id=&#34;歴史の流れを図から読む&#34;&gt;歴史の流れを図から読む
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1960年代&lt;/strong&gt; ：ソ連とアメリカが競うように打ち上げるが、ほとんどが失敗。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1965年 Mariner 4（米）&lt;/strong&gt; ：初めて火星接近に成功、21枚の画像を送信。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1971年 Mars 3（ソ連）&lt;/strong&gt; ：世界初の着陸成功。しかし20秒で通信途絶。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1976年 Viking 1 &amp;amp; 2（米）&lt;/strong&gt; ：安定した着陸と長期探査に成功。火星探査の大きな転換点。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2000年代以降&lt;/strong&gt; ：NASAのローバー（Spirit, Opportunity）や欧州の Mars Express が次々成功。長期間データを収集し、科学成果を拡大。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;図の読み方を踏まえて眺めると、当初は「失敗の連続」だった火星探査が、21世紀に入ると「成功の蓄積」へと変化していった様子が一目で分かります。&lt;/p&gt;
+&lt;h2 id=&#34;この図が伝えること&#34;&gt;この図が伝えること
+&lt;/h2&gt;&lt;p&gt;「Mission(s) to Mars」は、単なる年表や数字の羅列ではなく、人類の挑戦の歴史をひと目で物語るビジュアルです。火星まで伸びる青や水色の帯は希望の軌跡であり、途中で途切れる赤い帯は試行錯誤の痕跡です。&lt;/p&gt;
+&lt;p&gt;そして、現在も未来の計画が描かれ続けているように、この物語はまだ終わっていません。失敗の積み重ねがあったからこそ、いま私たちは火星の表面をローバーで走り回り、未来の有人探査へとつながる知識を手にしているのです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://science.nasa.gov/mission/mars-express/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NASA: Mars Express mission overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esa.int/Science_Exploration/Space_Science/Mars_Express&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ESA: Mars Express (European Space Agency)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pds-geosciences.wustl.edu/missions/mars_express/default.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ESA / PDS: Mars Express data archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Mars_Express&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Mars Express&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
         <link>http://localhost:1313/multi-color/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
