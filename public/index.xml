@@ -105,6 +105,69 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
+        <link>http://localhost:1313/multi-color/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/multi-color/</guid>
+        <description>&lt;img src="http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/IMG_0484.jpeg&#34;
+	width=&#34;1889&#34;
+	height=&#34;2508&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, http://localhost:1313/multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;多段階の項目を可視化する工夫&#34;&gt;多段階の項目を可視化する工夫
+&lt;/h2&gt;&lt;p&gt;この地図の大きな特徴は、収量を 最大15段階に区分して表現している点です。最低値は 0.61トン/ha、最高値は約 3.4トン/ha と広いレンジをカバーし、さらに帝国平均（Reichsdurchschnitt）を境界に「平均未満」「平均以上」をはっきり分けています。&lt;/p&gt;
+&lt;p&gt;現代の感覚では15階級はかなり細かい区分ですが、当時はこれを読みやすく見せるために、色調（淡色〜濃色）＋模様（線・波線・格子・クロスなど） を組み合わせるという工夫が凝らされています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_top.jpeg&#34;
+	width=&#34;288&#34;
+	height=&#34;674&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, http://localhost:1313/multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;上（冬小麦）の地図の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;42&#34;
+		data-flex-basis=&#34;102px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_bottom.jpeg&#34;
+	width=&#34;291&#34;
+	height=&#34;708&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, http://localhost:1313/multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;下（夏小麦）の地図の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;41&#34;
+		data-flex-basis=&#34;98px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;低収量（0.6〜1.8トン/ha）&lt;/strong&gt; 薄いピンクやオレンジなどの淡色に、細かな線や波模様を重ねて表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中間（帝国平均付近、約1.9〜2.0トン/ha）&lt;/strong&gt; 少し濃い色合いに、より密度のある模様を加える。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高収量（2.0トン以上）&lt;/strong&gt; 黒に近い濃色を基調とし、斜線、格子、クロスハッチングなど大胆な模様を重ねて階層を細分化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、地図を一目見れば &lt;strong&gt;「明るい＝低収量、暗い＝高収量」&lt;/strong&gt; という直感的理解が可能になり、さらに模様の違いで数値区分をより細かく判別できるようになっています。&lt;/p&gt;
+&lt;h2 id=&#34;印刷制約下でのデザイン&#34;&gt;印刷制約下でのデザイン
+&lt;/h2&gt;&lt;p&gt;20世紀初頭は、統計図を多色刷りで印刷するのは技術的にも経済的にも難しい時代でした。微妙な色の濃淡だけで15段階を識別させるのは困難であり、そこで 模様によるパターン表現 が重要な役割を果たしています。&lt;/p&gt;
+&lt;p&gt;つまりこの図は、印刷技術の制約を逆手に取った「多色＋テクスチャ」のハイブリッドデザイン の好例と言えます。&lt;/p&gt;
+&lt;h2 id=&#34;現代の視点から&#34;&gt;現代の視点から
+&lt;/h2&gt;&lt;p&gt;今日では、ColorBrewer などの配色設計ツールを使って「見分けやすく、色覚にも配慮したカラーマップ」を作ることが可能です。しかし、この1904年の図版は、限られた手段でありながらも情報を正確に階層化し、直感的に伝えることに成功しています。&lt;/p&gt;
+&lt;p&gt;統計地図の歴史において、これは &lt;strong&gt;「コロプレスマップ（Choropleth Map）の初期的な多色使いの実践例」&lt;/strong&gt; であり、視覚化の工夫と印刷文化の関係を知る上で重要な作品です。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
         <link>http://localhost:1313/radial-bar-chart/</link>
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
@@ -8427,7 +8490,29 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
-&lt;/h2&gt;&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
+&lt;/h2&gt;&lt;h3 id=&#34;1904年ドイツ帝国統計局による農業統計図&#34;&gt;1904年ドイツ帝国統計局による農業統計図
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0483.jpeg&#34;
+	width=&#34;2031&#34;
+	height=&#34;1684&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0483_hu_3bdb0986bd086fab.jpeg 480w, http://localhost:1313/mosaic-plot-example/images/IMG_0483_hu_413c1d567c87eb91.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1904年ドイツ帝国統計局による農業統計図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図は、1904年にドイツ帝国統計局（Kaiserliches Statistisches Amt）が刊行した『ドイツ帝国統計季報』に掲載されたもので、各州における 耕作面積・単位面積あたり収量・総収穫量 を同時に示した農業統計図です。対象となっているのは冬ライ麦・燕麦・夏大麦・冬小麦・ジャガイモといった主要作物で、それぞれ別の棒グラフとして描かれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;横軸（棒の幅）&lt;/strong&gt; ：各州の耕作面積（ヘクタール単位）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦軸（棒の高さ）&lt;/strong&gt; ：1ヘクタールあたりの収量（収穫効率）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;長方形の面積&lt;/strong&gt; ：総収穫量（幅 × 高さ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;さらに、各州の値だけでなく、ドイツ全体の平均収量（実線） と 直前5年間（1899〜1903年）の平均収量（点線） も示されており、比較が容易になるよう工夫されています。色分けによって作物ごとに区別され、視覚的にも分かりやすく構成されています。&lt;/p&gt;
+&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-25.png&#34;
 	width=&#34;1344&#34;
 	height=&#34;960&#34;

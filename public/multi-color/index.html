@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n">
+<title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
+
+<link rel='canonical' href='http://localhost:1313/multi-color/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図">
+<meta property='og:description' content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n">
+<meta property='og:url' content='http://localhost:1313/multi-color/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='カラー' /><meta property='article:published_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg' />
+<meta name="twitter:title" content="多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図">
+<meta name="twitter:description" content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#多段階の項目を可視化する工夫">多段階の項目を可視化する工夫</a></li>
+    <li><a href="#印刷制約下でのデザイン">印刷制約下でのデザイン</a></li>
+    <li><a href="#現代の視点から">現代の視点から</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/multi-color/">
+                <img src="/multi-color/images/cover-schematic-chropleth_hu_59d6eb0da7617441.jpeg"
+                        srcset="/multi-color/images/cover-schematic-chropleth_hu_59d6eb0da7617441.jpeg 800w, /multi-color/images/cover-schematic-chropleth_hu_25718d668c771abb.jpeg 1600w"
+                        width="800" 
+                        height="573" 
+                        loading="lazy"
+                        alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                作るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/multi-color/">多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 02, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは <strong>冬小麦（Winter-Weizen）</strong> と <strong>夏小麦（Sommer-Weizen）</strong> の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。</p>
+<p><img src="/multi-color/images/IMG_0484.jpeg"
+	width="1889"
+	height="2508"
+	srcset="/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, /multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="75"
+		data-flex-basis="180px"
+	
+></p>
+<h2 id="多段階の項目を可視化する工夫">多段階の項目を可視化する工夫
+</h2><p>この地図の大きな特徴は、収量を 最大15段階に区分して表現している点です。最低値は 0.61トン/ha、最高値は約 3.4トン/ha と広いレンジをカバーし、さらに帝国平均（Reichsdurchschnitt）を境界に「平均未満」「平均以上」をはっきり分けています。</p>
+<p>現代の感覚では15階級はかなり細かい区分ですが、当時はこれを読みやすく見せるために、色調（淡色〜濃色）＋模様（線・波線・格子・クロスなど） を組み合わせるという工夫が凝らされています。</p>
+<p><img src="/multi-color/images/legend_top.jpeg"
+	width="288"
+	height="674"
+	srcset="/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, /multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w"
+	loading="lazy"
+	
+		alt="上（冬小麦）の地図の凡例"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="42"
+		data-flex-basis="102px"
+	
+>
+<img src="/multi-color/images/legend_bottom.jpeg"
+	width="291"
+	height="708"
+	srcset="/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, /multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w"
+	loading="lazy"
+	
+		alt="下（夏小麦）の地図の凡例"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="41"
+		data-flex-basis="98px"
+	
+></p>
+<ul>
+<li><strong>低収量（0.6〜1.8トン/ha）</strong> 薄いピンクやオレンジなどの淡色に、細かな線や波模様を重ねて表現。</li>
+<li><strong>中間（帝国平均付近、約1.9〜2.0トン/ha）</strong> 少し濃い色合いに、より密度のある模様を加える。</li>
+<li><strong>高収量（2.0トン以上）</strong> 黒に近い濃色を基調とし、斜線、格子、クロスハッチングなど大胆な模様を重ねて階層を細分化。</li>
+</ul>
+<p>これにより、地図を一目見れば <strong>「明るい＝低収量、暗い＝高収量」</strong> という直感的理解が可能になり、さらに模様の違いで数値区分をより細かく判別できるようになっています。</p>
+<h2 id="印刷制約下でのデザイン">印刷制約下でのデザイン
+</h2><p>20世紀初頭は、統計図を多色刷りで印刷するのは技術的にも経済的にも難しい時代でした。微妙な色の濃淡だけで15段階を識別させるのは困難であり、そこで 模様によるパターン表現 が重要な役割を果たしています。</p>
+<p>つまりこの図は、印刷技術の制約を逆手に取った「多色＋テクスチャ」のハイブリッドデザイン の好例と言えます。</p>
+<h2 id="現代の視点から">現代の視点から
+</h2><p>今日では、ColorBrewer などの配色設計ツールを使って「見分けやすく、色覚にも配慮したカラーマップ」を作ることが可能です。しかし、この1904年の図版は、限られた手段でありながらも情報を正確に階層化し、直感的に伝えることに成功しています。</p>
+<p>統計地図の歴史において、これは <strong>「コロプレスマップ（Choropleth Map）の初期的な多色使いの実践例」</strong> であり、視覚化の工夫と印刷文化の関係を知る上で重要な作品です。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E3%82%AB%E3%83%A9%E3%83%BC/">カラー</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face-implementation/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
+                        data-key="chernoff-face-implementation" 
+                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/bosai-kikikuru-color/">
+        
+        
+            <div class="article-image">
+                <img src="/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.c608f1a6d93497d56953b506d7f8f99e_hu_69644db5a9bf609f.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫"
+                        data-key="bosai-kikikuru-color" 
+                        data-hash="md5-xgjxptk0l9VpU7UG1/j5ng==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">防災情報「キキクル」に見られる独自の色彩設計の工夫</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-blog/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
+                        data-key="cognitive-biases-blog" 
+                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-compare/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-compare/images/bias-comparison-final.425ad14333be02f49f5513d864c6f9cc_hu_df47b332f91dcecf.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
+                        data-key="cognitive-biases-compare" 
+                        data-hash="md5-QlrRQzO&#43;AvSfVRPYZMb5zA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-paper/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-paper/images/bias-paper.a70495da15a0bceabd8783171ad70d38_hu_c06ba9c91eac0a00.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法"
+                        data-key="cognitive-biases-paper" 
+                        data-hash="md5-pwSV2hWgvOq9h4MXGtcNOA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

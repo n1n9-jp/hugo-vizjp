@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>カラー on Visualizing.JP</title>
+        <link>http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</link>
+        <description>Recent content in カラー on Visualizing.JP</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <copyright>Yuichi Yazaki</copyright>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title></title>
+        <link>http://localhost:1313/multi-color/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/multi-color/</guid>
+        <description>&lt;img src="http://localhost:1313/images/fi_ColorSpace.png" alt="Featured image of post " /&gt;&lt;p&gt;データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;カラースペースとは&#34;&gt;カラースペースとは？
+&lt;/h2&gt;&lt;p&gt;事務のお仕事でWordを使っている人や、デザインのお仕事でPhotoshopを使っている人は、色を指定する際に、RGBやCMYKという文字をみかけていると思います。これはカラースペースとよばれる、一つの色を指定するための、色をつくる方法です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/osx_Word_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;rgbとは&#34;&gt;RGBとは
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/space_RGB_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Red（赤）、Green（緑）、Blue（青）を混ぜることによって、一色の色をつくる方法です。液晶ディスプレーにおいて色を発色する仕組みとして採用されています。出力の強さが3つともゼロであれば真っ黒、出力が最大になると真っ白になるような、色の作られ方です。&lt;/p&gt;
+&lt;h4 id=&#34;cmykとは&#34;&gt;CMYKとは
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/space_CMYK_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Cyan（シアン）、Magenta（マゼンダ）、Yellow（黄）Black（黒）を混ぜることによって、一色の色をつくる方法です。印刷物において色を発色する仕組みとして採用されています。インクの量がゼロであれば真っ白（白い紙の色のまま）、4つのインク量が最大になると真っ黒になるような、色の作られ方です。&lt;/p&gt;
+&lt;h4 id=&#34;rgbやcmykは実はデザインやカラーパレット生成には向いていない&#34;&gt;RGBやCMYKは実はデザインやカラーパレット生成には向いていない？
+&lt;/h4&gt;&lt;p&gt;光の三原色がRGBであること、その補色でCMY（+K）があり、色を人工的に再現する方法として、ディスプレイや印刷物において色を表現する仕組みとして採用されています。最終的にディスプレイや印刷物で色を表現するためには、これらを用いて指定することになります。&lt;/p&gt;
+&lt;p&gt;ところが、たとえば複数の色の組み合わせ（カラーパレット、カラースキームなどと呼ばれます）をどう選択すべきか、特に、あるデータ・セットの特性にあわせて選択する際に、RGBやCMYによってカラーパレットを生成するのは非常に困難です。なぜならRGBにしてもCMYにしても、すべてが色相（色の区別そのもの）を表す軸だからです。頭の中でこれらの複数の色の組み合わせによる新たな一色の創出は困難ですし、覚えたり慣れたりしたとしてもデータの特性に合わせて生成するのは困難だといえます。ではどのような指定が最適なのでしょうか?&lt;/p&gt;
+&lt;h2 id=&#34;そこで登場するhsb&#34;&gt;そこで登場するHSB
+&lt;/h2&gt;&lt;h4 id=&#34;hsbとは&#34;&gt;HSBとは？
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/OSX_ColorPalette_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hue（色相）、Saturation（彩度）、Blightness（明度）の3つの要素から一つの色をつくることができるカラースペースです。色相は色の区別そのもの、彩度は飽和度や純度ともよばれるのですが色の鮮やかさのこと、明度は明暗を表します。この3つの数値変化によって、一つの色を表します（HSBと似たカラースペースにHSVというのもあります）。&lt;/p&gt;
+&lt;h4 id=&#34;データ構造と一致させやすいhsb&#34;&gt;データ構造と一致させやすいHSB
+&lt;/h4&gt;&lt;p&gt;ある文字データを色で表す際に、どういうふうに色でどう表せばよいでしょうか。具体的には、名義スケールや順序スケールとよばれる、たとえばAとBは異なるんだよ、ということを表します。そのためには区別する必要がありながら、存在感の強弱は揃っていてほしいです、と。この場合には、彩度と明度は揃えておきながら、色相のみを変化させることによって複数の色を生み出せばよさそうです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/color_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ある数値データが0〜10000の幅で存在するときに、この変化を色でどう表せばよいでしょうか。具体的には間隔スケールや比例スケールと呼ばれる数字のデータで、存在自体を区別する必要はなく、ただ数値の大きさや差が区別できればよいので、この場合は色相は固定で、明度の変化によって、数値を表現すればよいということになります。この場合は彩度も固定にしておきます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/color_8d2bd426-44ee-4e0d-bc08-4feb04e6f7e6_large.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そしてHSBなら、主なOSで標準的に利用でき、代表的なグラフィックアプリでも利用可能です。&lt;/p&gt;
+&lt;h4 id=&#34;主なosやアプリにおける利用可能なカラースペース&#34;&gt;主なOSやアプリにおける利用可能なカラースペース
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;アドビ社Photoshop&amp;hellip;RGB、CMYK、HSB、Lab&lt;/li&gt;
+&lt;li&gt;アドビ社Illustrator&amp;hellip;RGB、CMYK、HSB&lt;/li&gt;
+&lt;li&gt;Sketch&amp;hellip;RGB、HSB&lt;/li&gt;
+&lt;li&gt;Mac OSX標準&amp;hellip;RGB、CMYK、HSB&lt;/li&gt;
+&lt;li&gt;Windows OS標準&amp;hellip;RGB、HSB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;しかしファイナルアンサーではないhsb&#34;&gt;しかしファイナルアンサーではないHSB
+&lt;/h2&gt;&lt;p&gt;合理的なHSBですが、実はこれがファイナルアンサーではありません。なぜなら、色によって人間の眼の感度が異なるからです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/fig10.4_ja_grande.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;“Photopic Spectral Sensitivity Function”（Kaiser、96）&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Visualization Analysis and Design. Tamara Munzner, with illustrations by Eamonn Maguire. A K Peters Visualization Series, CRC Press, 2014.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;つまり、彩度や明度を揃えて複数の色を生成したとしても、波長によっては（緑や黄など）、人間は数値指定されて生成された色を、値よりも高感度に認識（明るく感じられる）してしまいます。&lt;/p&gt;
+&lt;p&gt;ウェブデザイナーがカラーパレットをつくる際は、OSやグラフィックアプリのレベルでは、RGBかCMYKかHSBしか選択肢がないので、この辺り、おそらく目分量で調整しているのではないかと思います。私はそうやっていました。もちろん、文字色なのか広い面のベタ塗りなのか、色が使用される面積によって受ける印象や可読性は異なりますが。&lt;/p&gt;
+&lt;h2 id=&#34;人の眼の色認知能力に近いカラースペース-lab&#34;&gt;人の眼の色認知能力に近いカラースペース L*A*B*
+&lt;/h2&gt;&lt;p&gt;今度は、人の眼の色認識能力をみてみましょう。人の眼の網膜にある二種類の受容体のうちひとつ、錐体には3つのタイプがあり、それぞれが異なる感度をもっています。輝度チャンネル、赤緑チャンネル、青黄チャンネルの3つです。この性質にあわせたカラースペースがL*a*b*です。Lが明度で、aが赤緑、bが青黄の色相です。赤緑色盲の方は赤緑チャンネル(a)の錐体の感度が生まれつき低いということになります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/Photoshop_ColorPalette_grande.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Photoshopの色選択ウインドウ&lt;/p&gt;
+&lt;p&gt;L*a*b*は上記にあげた中ではPhotoshopでしか利用できないですし、明度に加えて色相が2軸ですので、直感的に色は選びづらいことには、かわりありません。&lt;/p&gt;
+&lt;h2 id=&#34;では実際にどうするか&#34;&gt;では実際にどうするか?
+&lt;/h2&gt;&lt;p&gt;では、「HSBに代表されるような、データの性質と一致させやすい合理的な色選択システム」と「人の眼の網膜の性質」のギャップをどう埋めるのか、そしてデータの特性にあったカラースキームをどのように作ったらいいのか。後者については、いわゆるプレゼンテーション用以外にも、データを探索的・分析的にみるためのカラースキームの作り方、という考え方もあります。&lt;/p&gt;
+&lt;p&gt;ここから先はぜひ「データビジュアライゼーション講習」を受講し、学んでください。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
