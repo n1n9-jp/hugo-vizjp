@@ -205,6 +205,170 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>Wikipedia の「見えない戦い」を描く ― History Flow 可視化の物語</title>
+        <link>http://localhost:1313/history-flow/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/history-flow/</guid>
+        <description>&lt;img src="http://localhost:1313/history-flow/images/chocolate-1.jpeg" alt="Featured image of post Wikipedia の「見えない戦い」を描く ― History Flow 可視化の物語" /&gt;&lt;p&gt;私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。その舞台裏では、協力や対立、破壊と修復といった人間的な営みが絶えず繰り広げられています。&lt;/p&gt;
+&lt;p&gt;この「見えないダイナミクス」を可視化したのが History Flow です。2004年の国際会議 CHI で発表され、ニューヨーク近代美術館（MoMA）にも収蔵されたこの可視化は、単なる学術研究を超えて、アート作品としても高く評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;誰が作ったのか--開発の背景&#34;&gt;誰が作ったのか？ ― 開発の背景
+&lt;/h2&gt;&lt;p&gt;History Flow を開発したのは、Fernanda B. Viégas と Martin Wattenberg を中心とする研究チーム（MIT Media Lab と IBM Research）。2003年当時、Wikipedia は創設からわずか2年、まだ存在自体を疑う声も多く、「素人の寄せ集めで本当に百科事典が成立するのか？」と懐疑的に見られていました。&lt;/p&gt;
+&lt;p&gt;研究者たちは「なぜでたらめに見えるプロセスから高品質な記事が生まれるのか？」という疑問を出発点に、Wikipedia の膨大な編集履歴を分析するために History Flow を設計しました。&lt;/p&gt;
+&lt;h2 id=&#34;history-flow-の仕組み&#34;&gt;History Flow の仕組み
+&lt;/h2&gt;&lt;p&gt;History Flow は文書の改訂履歴を「流れ」として描きます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;横軸：時間（改訂の順序や日付）&lt;/li&gt;
+&lt;li&gt;縦軸：文書のテキスト位置&lt;/li&gt;
+&lt;li&gt;色：著者ごとの貢献部分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;帯が長く残れば「その著者の文章が生き残った」ことを意味し、帯が途切れれば削除を、ジグザグに色が切り替われば「編集戦争」を示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/legend.png&#34;
+	width=&#34;2546&#34;
+	height=&#34;1947&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/legend_hu_ab7bb28a07b07f6e.png 480w, http://localhost:1313/history-flow/images/legend_hu_762b54dda694233d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;313px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;色の割り当てには Java のハッシュ値を利用し、同じ著者は常に同じ色になるよう工夫されています。匿名編集は灰色で表されました。&lt;/p&gt;
+&lt;p&gt;また、インタラクションとして「特定の著者だけを強調表示する」機能も備えられ、研究ツールとしての完成度を高めました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/first-version.jpeg&#34;
+	width=&#34;659&#34;
+	height=&#34;688&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/first-version_hu_3c24c0707fb8e46c.jpeg 480w, http://localhost:1313/history-flow/images/first-version_hu_49fcbd88b397ba3b.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;当初のヴァージョン&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;229px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当初は線の骨格だけの可視化でしたが、試行錯誤の末に帯を塗りつぶし、著者ごとに色を割り当てることで直感的にわかりやすくなりました。&lt;/p&gt;
+&lt;h2 id=&#34;ケーススタディ1-chocolate---編集戦争の痕跡&#34;&gt;ケーススタディ1： 「Chocolate」 - 編集戦争の痕跡
+&lt;/h2&gt;&lt;p&gt;最も有名な事例のひとつが Wikipedia の 「Chocolate（チョコレート）」記事 です。History Flow の図をみると、右半分に鋭いジグザグ模様が現れています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/chocolate-1.jpeg&#34;
+	width=&#34;1148&#34;
+	height=&#34;881&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/chocolate-1_hu_ce5aa752410cffa3.jpeg 480w, http://localhost:1313/history-flow/images/chocolate-1_hu_ea8ccb8e02e1533d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チョコレート記事-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/chocolate-2.jpeg&#34;
+	width=&#34;1152&#34;
+	height=&#34;874&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/chocolate-2_hu_5c41706044c9f62d.jpeg 480w, http://localhost:1313/history-flow/images/chocolate-2_hu_a5d7a7c77fdcf7fa.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チョコレート記事-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これは「coulage（クーラージュ）」というチョコレート彫刻技法の段落をめぐって起きた編集戦争の痕跡です。二人の編集者が互いに挿入・削除を12回も繰り返し、最終的にはその段落が完全に削除されることで決着しました。&lt;/p&gt;
+&lt;p&gt;ジグザグ模様は、意見の対立と論争の緊張感を視覚的に映し出しています。&lt;/p&gt;
+&lt;h2 id=&#34;ケーススタディ2-abortion---荒らしと自浄作用&#34;&gt;ケーススタディ2： 「Abortion」 - 荒らしと自浄作用
+&lt;/h2&gt;&lt;p&gt;一方で、「Abortion（中絶）」記事 は別のパターンを示しました。&lt;/p&gt;
+&lt;p&gt;History Flow の図では、ページ全体が突然途切れる「黒い切れ目（gutters）」が現れます。これは記事の大半が削除される「mass deletion（大規模削除）」という典型的なバンダリズムです ￼。&lt;/p&gt;
+&lt;p&gt;ところが、時間軸を「実際の日時」に合わせて表示すると、この切れ目はほとんど見えなくなります。なぜなら、荒らしはわずか数分で修復されていたからです。統計的にも、大規模削除の半分は3分以内に修正され、下品な語を含む荒らしは中央値で2分以内に消去されていました。&lt;/p&gt;
+&lt;p&gt;「Abortion」記事は、Wikipedia の驚異的な 自浄作用 を象徴する例となりました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/abortion-1.jpeg&#34;
+	width=&#34;1187&#34;
+	height=&#34;789&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/abortion-1_hu_b57f532cb91a70b0.jpeg 480w, http://localhost:1313/history-flow/images/abortion-1_hu_7a63458eedbc778a.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;中絶記事-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/abortion-2.jpeg&#34;
+	width=&#34;1146&#34;
+	height=&#34;874&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/abortion-2_hu_2c3305c067784785.jpeg 480w, http://localhost:1313/history-flow/images/abortion-2_hu_79ca436b6031b990.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;中絶記事-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;314px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;典型的なパターン&#34;&gt;典型的なパターン
+&lt;/h2&gt;&lt;p&gt;Viégas らの研究は、70以上の記事を分析し、次のようなパターンを浮かび上がらせました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;バンダリズムと修復&lt;/strong&gt; 大規模な削除や悪ふざけの挿入は頻繁に起こるが、半数はわずか数分で修復された。特に下品な荒らしは中央値で2分以内に消されていた。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;編集戦争（Edit Wars）&lt;/strong&gt; 複数人が交互に元に戻し続ける「ジグザグ模様」。Chocolate 記事はその代表例。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;著者性と匿名性&lt;/strong&gt; 匿名編集の割合は記事ごとに大きく異なる。Microsoft 記事は匿名が多く、Mythology 記事はほとんど登録ユーザーによる編集だった。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;コンテンツの不安定性&lt;/strong&gt; 記事は「完成」に近づくのではなく、常に変動し続ける。特に最初に書かれたテキストは生き残りやすい「first mover advantage」が観察された。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技術的な舞台裏&#34;&gt;技術的な舞台裏
+&lt;/h2&gt;&lt;p&gt;この可視化を成立させるためには、データ処理の工夫も必要でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;差分アルゴリズム&lt;/strong&gt; &amp;hellip;単語の入れ替えや移動を追跡するために、Paul Heckel（1978）のアルゴリズムを採用。これにより「quick → big」や「post → pots」といった変化も正しく検出できました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X軸の設計&lt;/strong&gt; &amp;hellip;バージョン番号で等間隔表示する方法と、実際の時間間隔に比例させる方法の2種類を提供。編集の「リズム」を明らかにできました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ユーザーインターフェース&lt;/strong&gt; &amp;hellip;可視化とテキストビューを連動させ、マウス操作で特定の場所の本文を即座に確認できる仕組みを実装。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;発展--chromogram-へ&#34;&gt;発展 ― Chromogram へ
+&lt;/h2&gt;&lt;p&gt;2006年以降、研究チームは Chromogram という新しい可視化を試みます。これは、編集者や管理者の活動を時間軸上にピクセルで塗り重ねる手法です。&lt;/p&gt;
+&lt;p&gt;驚くべき発見のひとつは、「虹のような模様」として現れたボットの活動でした。ボットがアルファベット順に記事を巡回・編集していた痕跡が、視覚的に浮かび上がったのです。これは Wikipedia の進化における自動化の重要性を示す象徴的な発見となりました。&lt;/p&gt;
+&lt;h2 id=&#34;可視化の意義&#34;&gt;可視化の意義
+&lt;/h2&gt;&lt;p&gt;History Flow の意義は、単に「面白い図を描いた」ということではありません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;荒らしがすぐに修復される「自浄作用」を実証&lt;/li&gt;
+&lt;li&gt;編集戦争や合意形成のパターンを直感的に示した&lt;/li&gt;
+&lt;li&gt;ボットや匿名編集といった Wikipedia 独自の文化を浮き彫りにした&lt;/li&gt;
+&lt;li&gt;そして、一般の人々に「知識がどのように作られていくのか」という舞台裏を鮮やかに伝えた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした点から、History Flow はデータビジュアライゼーションの傑作であると同時に、文化的にも意義深い作品といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bewitched.com/historyflow.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;History Flow (Martin Wattenberg 公式サイト)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/985692.985765&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Studying Cooperation and Conflict between Authors with History Flow Visualizations (CHI 2004 論文)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20180627195604/http://fernandaviegas.com/wikipedia.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fernanda B. Viégas: Visualizing Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/IBM_History_Flow_tool&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IBM History Flow tool - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/collection/works/110349&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;History Flow – MoMA Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
