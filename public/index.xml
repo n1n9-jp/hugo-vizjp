@@ -205,6 +205,70 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>TextArc: アリスを「眺める」ための地図</title>
+        <link>http://localhost:1313/textarc/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/textarc/</guid>
+        <description>&lt;img src="http://localhost:1313/textarc/images/367_text-arc.png" alt="Featured image of post TextArc: アリスを「眺める」ための地図" /&gt;&lt;p&gt;2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/textarc/images/367_text-arc.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;http://localhost:1313/textarc/images/367_text-arc_hu_257643caf11eb7af.png 480w, http://localhost:1313/textarc/images/367_text-arc_hu_299929e0a45023b2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の仕組み&#34;&gt;作品の仕組み
+&lt;/h2&gt;&lt;p&gt;TextArc では、物語の全文が 円環状の螺旋 に沿って微細な文字で並べられています。これだけでは単なる全文表示ですが、Paley の工夫はそこからさらに進みます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;出現頻度の高い単語は、中央に大きく浮かび上がる。&lt;/li&gt;
+&lt;li&gt;出現位置は、外周テキストと中央の単語を結ぶ線で示される。&lt;/li&gt;
+&lt;li&gt;こうして、「その単語がどの場面で、どれほど繰り返し登場するか」を一目で把握できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば「Alice」は中心に明るく輝き、多数の線で物語全体に結び付けられています。一方で、1回しか登場しない単語は外縁に小さく沈み込み、背景の星屑のように散らばります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/textarc/images/367_text-arc-closeup.png&#34;
+	width=&#34;1292&#34;
+	height=&#34;2024&#34;
+	srcset=&#34;http://localhost:1313/textarc/images/367_text-arc-closeup_hu_2fb7518b5bef13ab.png 480w, http://localhost:1313/textarc/images/367_text-arc-closeup_hu_9d2af4c773581284.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;63&#34;
+		data-flex-basis=&#34;153px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;評価と文脈&#34;&gt;評価と文脈
+&lt;/h2&gt;&lt;p&gt;この作品は 第6回文化庁メディア芸術祭 デジタルアート（非インタラクティブ部門）大賞 を受賞しました。審査員は「データ分析と芸術表現を融合させた稀有な試み」と評し、可読性を保ちながら文学の全体像を新しい視点で可視化した点を高く評価しています。&lt;/p&gt;
+&lt;p&gt;さらに、SIGGRAPH のアーカイブに登録されることで、デジタルアートやコンピュータグラフィックスの歴史の中でも重要な位置を占める作品とされています。
+加えて、Archive of Digital Art (ADA) では「文学とインタラクティブアートを橋渡しする作品」として紹介されており、単なるアート作品にとどまらず、テキストを読むための新しいインターフェースの探求という文脈に置かれています。&lt;/p&gt;
+&lt;h2 id=&#34;作品が示すもの&#34;&gt;作品が示すもの
+&lt;/h2&gt;&lt;p&gt;TextArc は、「本を読む」という行為を別の角度から体験させます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全体の俯瞰：物語全体を一望できる。&lt;/li&gt;
+&lt;li&gt;出現のパターン：どの単語が繰り返され、どこで現れるかを直感的に把握できる。&lt;/li&gt;
+&lt;li&gt;美的体験：文字が星座のように散りばめられ、テキストが「宇宙」として立ち現れる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それはまるで、文学作品を「文学的な銀河」として再発見する体験でもあります。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;TextArc: Alice’s Adventures in Wonderland は、文学とデータ可視化、アートと分析をまたぐ稀有な試みです。
+文学作品をただ読むのではなく、言葉の出現と消失、中心と周縁をひとつの地図に描き出す。そこから見えてくるのは、テキストそのものの「もうひとつの姿」です。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://j-mediaarts-festival.bunka.go.jp/award/single/textarc-print-alices-adventure-in-wonderland/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc print: Alice&amp;rsquo;s Adventure in Wonderland - 文化庁メディア芸術祭&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://history.siggraph.org/artwork/w-bradford-paley-textarc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;W. Bradford Paley: TextArc – ACM SIGGRAPH HISTORY ARCHIVES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc - ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</title>
         <link>http://localhost:1313/history-flow/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>

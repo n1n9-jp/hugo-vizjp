@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n">
-<title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。\n">
+<title>TextArc: アリスを「眺める」ための地図</title>
 
-<link rel='canonical' href='http://localhost:1313/multi-color/'>
+<link rel='canonical' href='http://localhost:1313/textarc/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図">
-<meta property='og:description' content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n">
-<meta property='og:url' content='http://localhost:1313/multi-color/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="TextArc: アリスを「眺める」ための地図">
+<meta property='og:description' content="2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。\n">
+<meta property='og:url' content='http://localhost:1313/textarc/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='カラー' /><meta property='article:published_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg' />
-<meta name="twitter:title" content="多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図">
-<meta name="twitter:description" content="1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは 冬小麦（Winter-Weizen） と 夏小麦（Sommer-Weizen） の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/textarc/images/367_text-arc.png' />
+<meta name="twitter:title" content="TextArc: アリスを「眺める」ための地図">
+<meta name="twitter:description" content="2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/textarc/images/367_text-arc.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -366,9 +366,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#多段階の項目を可視化する工夫">多段階の項目を可視化する工夫</a></li>
-    <li><a href="#印刷制約下でのデザイン">印刷制約下でのデザイン</a></li>
-    <li><a href="#現代の視点から">現代の視点から</a></li>
+    <li><a href="#作品の仕組み">作品の仕組み</a></li>
+    <li><a href="#評価と文脈">評価と文脈</a></li>
+    <li><a href="#作品が示すもの">作品が示すもの</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参照リンク">参照リンク</a></li>
   </ol>
 </nav>
         </div>
@@ -383,13 +385,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/multi-color/">
-                <img src="/multi-color/images/cover-schematic-chropleth_hu_59d6eb0da7617441.jpeg"
-                        srcset="/multi-color/images/cover-schematic-chropleth_hu_59d6eb0da7617441.jpeg 800w, /multi-color/images/cover-schematic-chropleth_hu_25718d668c771abb.jpeg 1600w"
+            <a href="/textarc/">
+                <img src="/textarc/images/367_text-arc_hu_261fe6623f457f9a.png"
+                        srcset="/textarc/images/367_text-arc_hu_261fe6623f457f9a.png 800w, /textarc/images/367_text-arc_hu_1c25a31d196c1118.png 1600w"
                         width="800" 
-                        height="573" 
+                        height="450" 
                         loading="lazy"
-                        alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" />
+                        alt="Featured image of post TextArc: アリスを「眺める」ための地図" />
                 
             </a>
         </div>
@@ -399,8 +401,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/technology/" >
-                作るための記事
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -408,7 +410,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/multi-color/">多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</a>
+            <a href="/textarc/">TextArc: アリスを「眺める」ための地図</a>
         </h2>
     
         
@@ -460,70 +462,69 @@
     <section class="article-content">
     
     
-    <p>1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは <strong>冬小麦（Winter-Weizen）</strong> と <strong>夏小麦（Sommer-Weizen）</strong> の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。</p>
-<p><img src="/multi-color/images/IMG_0484.jpeg"
-	width="1889"
-	height="2508"
-	srcset="/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, /multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w"
+    <p>2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。</p>
+<p><img src="/textarc/images/367_text-arc.png"
+	width="1920"
+	height="1080"
+	srcset="/textarc/images/367_text-arc_hu_257643caf11eb7af.png 480w, /textarc/images/367_text-arc_hu_299929e0a45023b2.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="75"
-		data-flex-basis="180px"
+		data-flex-grow="177"
+		data-flex-basis="426px"
 	
 ></p>
-<h2 id="多段階の項目を可視化する工夫">多段階の項目を可視化する工夫
-</h2><p>この地図の大きな特徴は、収量を 最大15段階に区分して表現している点です。最低値は 0.61トン/ha、最高値は約 3.4トン/ha と広いレンジをカバーし、さらに帝国平均（Reichsdurchschnitt）を境界に「平均未満」「平均以上」をはっきり分けています。</p>
-<p>現代の感覚では15階級はかなり細かい区分ですが、当時はこれを読みやすく見せるために <strong>色の明るさ（淡色〜濃色）＋テクスチャ（線・波線・格子・クロスなど）</strong> を組み合わせるという工夫が凝らされています。</p>
-<p><img src="/multi-color/images/legend_top.jpeg"
-	width="288"
-	height="674"
-	srcset="/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, /multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w"
-	loading="lazy"
-	
-		alt="上（冬小麦）の地図の凡例"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="42"
-		data-flex-basis="102px"
-	
->
-<img src="/multi-color/images/legend_bottom.jpeg"
-	width="291"
-	height="708"
-	srcset="/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, /multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w"
-	loading="lazy"
-	
-		alt="下（夏小麦）の地図の凡例"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="41"
-		data-flex-basis="98px"
-	
-></p>
+<h2 id="作品の仕組み">作品の仕組み
+</h2><p>TextArc では、物語の全文が 円環状の螺旋 に沿って微細な文字で並べられています。これだけでは単なる全文表示ですが、Paley の工夫はそこからさらに進みます。</p>
 <ul>
-<li><strong>低収量（0.6〜1.8トン/ha）</strong> 薄いピンクやオレンジなどの淡色に、細かな線や波模様を重ねて表現。</li>
-<li><strong>中間（帝国平均付近、約1.9〜2.0トン/ha）</strong> 少し濃い色合いに、より密度のある模様を加える。</li>
-<li><strong>高収量（2.0トン以上）</strong> 黒に近い濃色を基調とし、斜線、格子、クロスハッチングなど大胆な模様を重ねて階層を細分化。</li>
+<li>出現頻度の高い単語は、中央に大きく浮かび上がる。</li>
+<li>出現位置は、外周テキストと中央の単語を結ぶ線で示される。</li>
+<li>こうして、「その単語がどの場面で、どれほど繰り返し登場するか」を一目で把握できる。</li>
 </ul>
-<p>これにより、地図を一目見れば <strong>「明るい＝低収量、暗い＝高収量」</strong> という直感的理解が可能になり、さらに模様の違いで数値区分をより細かく判別できるようになっています。</p>
-<h2 id="印刷制約下でのデザイン">印刷制約下でのデザイン
-</h2><p>20世紀初頭は、統計図を多色刷りで印刷するのは技術的にも経済的にも難しい時代でした。微妙な色の濃淡だけで15段階を識別させるのは困難であり、そこで 模様によるパターン表現 が重要な役割を果たしています。</p>
-<p>つまりこの図は、印刷技術の制約を逆手に取った「色＋テクスチャ」のハイブリッドデザインの好例と言えます。</p>
-<h2 id="現代の視点から">現代の視点から
-</h2><p>今日では、ColorBrewer などの配色設計ツールを使って「見分けやすく、色覚にも配慮したカラーマップ」を作ることが可能です。分岐的なカラースキームを採用することもできたでしょう。しかし、この1904年の図版は、限られた手段でありながらも情報を正確に階層化し、直感的に伝えることに成功しています。</p>
-<p>統計地図の歴史において、これは <strong>「コロプレスマップ（Choropleth Map）の初期的な多色使いの実践例」</strong> であり、視覚化の工夫と印刷文化の関係を知る上で重要な作品です。</p>
+<p>たとえば「Alice」は中心に明るく輝き、多数の線で物語全体に結び付けられています。一方で、1回しか登場しない単語は外縁に小さく沈み込み、背景の星屑のように散らばります。</p>
+<p><img src="/textarc/images/367_text-arc-closeup.png"
+	width="1292"
+	height="2024"
+	srcset="/textarc/images/367_text-arc-closeup_hu_2fb7518b5bef13ab.png 480w, /textarc/images/367_text-arc-closeup_hu_9d2af4c773581284.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="63"
+		data-flex-basis="153px"
+	
+></p>
+<h2 id="評価と文脈">評価と文脈
+</h2><p>この作品は 第6回文化庁メディア芸術祭 デジタルアート（非インタラクティブ部門）大賞 を受賞しました。審査員は「データ分析と芸術表現を融合させた稀有な試み」と評し、可読性を保ちながら文学の全体像を新しい視点で可視化した点を高く評価しています。</p>
+<p>さらに、SIGGRAPH のアーカイブに登録されることで、デジタルアートやコンピュータグラフィックスの歴史の中でも重要な位置を占める作品とされています。
+加えて、Archive of Digital Art (ADA) では「文学とインタラクティブアートを橋渡しする作品」として紹介されており、単なるアート作品にとどまらず、テキストを読むための新しいインターフェースの探求という文脈に置かれています。</p>
+<h2 id="作品が示すもの">作品が示すもの
+</h2><p>TextArc は、「本を読む」という行為を別の角度から体験させます。</p>
+<ul>
+<li>全体の俯瞰：物語全体を一望できる。</li>
+<li>出現のパターン：どの単語が繰り返され、どこで現れるかを直感的に把握できる。</li>
+<li>美的体験：文字が星座のように散りばめられ、テキストが「宇宙」として立ち現れる。</li>
+</ul>
+<p>それはまるで、文学作品を「文学的な銀河」として再発見する体験でもあります。</p>
+<h2 id="まとめ">まとめ
+</h2><p>TextArc: Alice’s Adventures in Wonderland は、文学とデータ可視化、アートと分析をまたぐ稀有な試みです。
+文学作品をただ読むのではなく、言葉の出現と消失、中心と周縁をひとつの地図に描き出す。そこから見えてくるのは、テキストそのものの「もうひとつの姿」です。</p>
+<h2 id="参照リンク">参照リンク
+</h2><ul>
+<li><a class="link" href="https://j-mediaarts-festival.bunka.go.jp/award/single/textarc-print-alices-adventure-in-wonderland/index.html"  target="_blank" rel="noopener"
+    >TextArc print: Alice&rsquo;s Adventure in Wonderland - 文化庁メディア芸術祭</a></li>
+<li><a class="link" href="https://history.siggraph.org/artwork/w-bradford-paley-textarc/"  target="_blank" rel="noopener"
+    >W. Bradford Paley: TextArc – ACM SIGGRAPH HISTORY ARCHIVES</a></li>
+<li><a class="link" href="https://digitalartarchive.at/database/work/3358/"  target="_blank" rel="noopener"
+    >TextArc - ADA | Archive of Digital Art</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E3%82%AB%E3%83%A9%E3%83%BC/">カラー</a>
         
     </section>
 
@@ -557,23 +558,23 @@
             
                 
 <article class="has-image">
-    <a href="/chernoff-face-implementation/">
+    <a href="/entangled-word-bank/">
         
         
             <div class="article-image">
-                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                <img src="/entangled-word-bank/images/cover-entangled-word-bank.3014b13eb86c929710586fc3f932e6d7_hu_3ae4328fea1b93df.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
-                        data-key="chernoff-face-implementation" 
-                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
+                        data-key="entangled-word-bank" 
+                        data-hash="md5-MBSxPrhskpcQWG/D&#43;TLm1w==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+            <h2 class="article-title"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</h2>
         </div>
     </a>
 </article>
@@ -581,23 +582,23 @@
             
                 
 <article class="has-image">
-    <a href="/bosai-kikikuru-color/">
+    <a href="/history-flow/">
         
         
             <div class="article-image">
-                <img src="/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.c608f1a6d93497d56953b506d7f8f99e_hu_69644db5a9bf609f.png" 
+                <img src="/history-flow/images/chocolate-1.bdef23e21f82408b4f10e0c121b7396b_hu_641ca4dfcd833b2.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫"
-                        data-key="bosai-kikikuru-color" 
-                        data-hash="md5-xgjxptk0l9VpU7UG1/j5ng==">
+                        alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
+                        data-key="history-flow" 
+                        data-hash="md5-ve8j4h&#43;CQItPEODBIbc5aw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">防災情報「キキクル」に見られる独自の色彩設計の工夫</h2>
+            <h2 class="article-title">Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</h2>
         </div>
     </a>
 </article>
@@ -605,23 +606,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-blog/">
+    <a href="/digital-nostalgia/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                <img src="/digital-nostalgia/images/cover-LifeOnline.20f810e93dca75aa8f978127e8cdfe41_hu_ec2115e78843d906.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
-                        data-key="cognitive-biases-blog" 
-                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                        alt="Featured image of post デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化"
+                        data-key="digital-nostalgia" 
+                        data-hash="md5-IPgQ6T3KdaqPl4En6M3&#43;QQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+            <h2 class="article-title">デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化</h2>
         </div>
     </a>
 </article>
@@ -629,23 +630,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-compare/">
+    <a href="/mission-to-mars/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-compare/images/bias-comparison-final.425ad14333be02f49f5513d864c6f9cc_hu_df47b332f91dcecf.png" 
+                <img src="/mission-to-mars/images/cover.1eaee1944a5915f8a1018b117781eaf4_hu_3ef57d4cf9131186.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
-                        data-key="cognitive-biases-compare" 
-                        data-hash="md5-QlrRQzO&#43;AvSfVRPYZMb5zA==">
+                        alt="Featured image of post 火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス"
+                        data-key="mission-to-mars" 
+                        data-hash="md5-Hq7hlEpZFfihAYsRd4Hq9A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</h2>
+            <h2 class="article-title">火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス</h2>
         </div>
     </a>
 </article>
@@ -653,23 +654,23 @@
             
                 
 <article class="has-image">
-    <a href="/cognitive-biases-paper/">
+    <a href="/radial-bar-chart/">
         
         
             <div class="article-image">
-                <img src="/cognitive-biases-paper/images/bias-paper.a70495da15a0bceabd8783171ad70d38_hu_c06ba9c91eac0a00.png" 
+                <img src="/radial-bar-chart/images/Nightingale-mortality.295672a0541ff5725d2d1266ed9b662f_hu_8475db7dabc6a95f.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法"
-                        data-key="cognitive-biases-paper" 
-                        data-hash="md5-pwSV2hWgvOq9h4MXGtcNOA==">
+                        alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法"
+                        data-key="radial-bar-chart" 
+                        data-hash="md5-KVZyoFQf9XJdLRJm7ZtmLw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</h2>
+            <h2 class="article-title">ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</h2>
         </div>
     </a>
 </article>
