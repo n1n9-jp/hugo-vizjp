@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "Wikipedia の「見えない戦い」を描く ― History Flow 可視化の物語"
+title = "Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
 slug = "history-flow"
 date = "2025-10-02"
 categories = [
