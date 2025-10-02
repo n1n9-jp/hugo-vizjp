@@ -110,8 +110,7 @@
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/radial-bar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、円グラフやローズチャート（Coxcomb chart）に近い形式を持つ可視化手法です。
-すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表す というのが大きな特徴です。
+        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
 歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
@@ -161,11 +160,6 @@
           &lt;td&gt;軸ごとに値を放射状に示し、点を線で結ぶ。&lt;/td&gt;
           &lt;td&gt;レーダーは全体の形を比較するのに強い。ポーラー・エリア・チャートはセクターごとの大きさを強調。&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;ローズチャート (Rose Chart, Coxcomb)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;ポーラー・エリア・チャートとほぼ同義。&lt;/td&gt;
-          &lt;td&gt;ナイチンゲールのコックスコム図が代表例。用語が重なる場合が多い。&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;ポーラーエリアチャートの強みと注意点&#34;&gt;ポーラー・エリア・チャートの強みと注意点
@@ -183,7 +177,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、周期的なカテゴリデータをリズムとして見せたいときに有効な可視化手法です。
-正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「パターンを直感的に理解させる」 という点で強みを発揮します。&lt;/p&gt;</description>
+正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「周期パターンを把握する」という点で強みを発揮します。&lt;/p&gt;</description>
         </item>
         <item>
         <title>バンプ・チャート（Bump Chart）の歴史と役割</title>
