@@ -201,22 +201,26 @@
 &lt;h2 id=&#34;起源--19世紀の統計図表&#34;&gt;起源 ― 19世紀の統計図表
 &lt;/h2&gt;&lt;p&gt;「誰が最初に発明したのか」を一人に帰すのは難しいですが、バンプ・チャートの原型はすでに19世紀に見られます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas.png&#34;
-	width=&#34;2000&#34;
-	height=&#34;1303&#34;
-	srcset=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_43d5bad184008f49.png 480w, http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_9791a561fb3e6bf1.png 1024w&#34;
+	width=&#34;2627&#34;
+	height=&#34;1747&#34;
+	srcset=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_fb2899d2c5abee8.png 480w, http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_9fc05d020ff06624.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;1890年 Statistical Atlas of the United States掲載のバンプ・チャートの原型&#34;
+		alt=&#34;Rank of States and Territories in Population at Each Census: 1790–1890&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;153&#34;
-		data-flex-basis=&#34;368px&#34;
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、1790年から1890年までの都市人口ランキングの推移を示す図版が含まれていました。この図は、ある時点の上位都市を比較できると同時に、個別の都市の順位がどのように変動してきたかを追跡できる構成となっています。&lt;/p&gt;
-&lt;p&gt;その目的は明確で &lt;strong&gt;「人口規模そのものではなく、都市の相対的な地位の変化を可視化する」&lt;/strong&gt; ことでした。国勢調査の結果を単に列挙するのではなく、社会的な位置付けのダイナミクスを一目で伝えるための工夫と言えます。&lt;/p&gt;
-&lt;p&gt;このように「順位を時系列で追う」発想は、現代的な意味でのバンプ・チャートの基本思想と一致しています。&lt;/p&gt;
+&lt;p&gt;米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、「Rank of States and Territories in Population at Each Census: 1790–1890」 という図版が収録されています。&lt;/p&gt;
+&lt;p&gt;このチャートは、1790年から1890年までの国勢調査ごとに、各州と準州の人口順位を並べ、線で結んだものです。これにより以下を実現できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ある時点での上位・下位を比較することができる&lt;/li&gt;
+&lt;li&gt;さらに個別の州や準州が、時間の経過とともにどのように順位を変えてきたかを追跡できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当時の目的は、単に人口数を提示するのではなく、「社会の中での相対的な位置の変化」を読み取れるようにすることでした。これは現代でいうバンプ・チャートの基本的な思想と一致しており、この図版はバンプ・チャートの最古級の実例と見なせます。&lt;/p&gt;
 &lt;h2 id=&#34;名称の誕生と再発見&#34;&gt;名称の誕生と再発見
 &lt;/h2&gt;&lt;p&gt;当時は「バンプ・チャート」という名称は存在せず、後にデータ可視化コミュニティで再発見・命名されました。&lt;/p&gt;
 &lt;ul&gt;
