@@ -8,6 +8,203 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</title>
+        <link>http://localhost:1313/entangled-word-bank/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/entangled-word-bank/</guid>
+        <description>&lt;img src="http://localhost:1313/entangled-word-bank/images/cover-entangled-word-bank.jpeg" alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する" /&gt;&lt;p&gt;「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。&lt;/p&gt;
+&lt;p&gt;このプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか &lt;strong&gt;ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」&lt;/strong&gt; にも収蔵・展示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank_hu_675c4d06a1da649f.png 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank_hu_40901a4903a93dce.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文学的有機体としての構造&#34;&gt;「文学的有機体」としての構造
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/legend-organism.jpeg&#34;
+	width=&#34;1713&#34;
+	height=&#34;770&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/legend-organism_hu_28f9f7c57ce09490.jpeg 480w, http://localhost:1313/entangled-word-bank/images/legend-organism_hu_759b807bda828a3c.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;「文学的有機体」としての構造&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;222&#34;
+		data-flex-basis=&#34;533px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この作品では、ダーウィンの『種の起源』のテキスト構造を 「文学的な生物（literary organism）」 に見立てています。図の中心から外側に向かって、文章の階層が植物の枝葉のように広がっていきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1. 中心（根元）&lt;/strong&gt; ：本の最も大きな単位である「章（chapter）」が出発点です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2. 第一層の枝&lt;/strong&gt; ：章が「節（subchapter）」へと分かれます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3. 第二層の枝&lt;/strong&gt; ：節がさらに「段落（paragraph）」に分かれます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4. 末端の葉&lt;/strong&gt; ：段落が「文（sentence）」に分かれ、ここが最小単位です。文は「小さな葉（leaflet）」として描かれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このようにして、本全体の構造が「幹 → 枝 → 葉」に対応し、自然の有機体のような姿になります。&lt;/p&gt;
+&lt;h3 id=&#34;基本コードの帯basic-codeとは&#34;&gt;「基本コードの帯（basic code）」とは？
+&lt;/h3&gt;&lt;p&gt;図の外周には、細かい線が並んだ 帯（コード状の外環） が描かれています。これは各文の「位置情報」を示す索引のようなものです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;章、節、段落、文といった階層ごとに区切られており、外側の帯を見るだけで「どの位置にどんな文が属しているか」がわかります。&lt;/li&gt;
+&lt;li&gt;つまり、内側の樹状図（植物のような構造）と、外側の帯（基本コード）は 対応関係 にあり、「この文は本のどの場所にあったのか」をダブルで確認できる仕組みです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;読み方reading-the-organism&#34;&gt;読み方（Reading the Organism）
+&lt;/h3&gt;&lt;p&gt;画像右側に示されている通り、読み進め方は時計回りです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上部（12時の位置）から始まり、外周の「基本コードの帯」をたどりながら右回りに進みます。&lt;/li&gt;
+&lt;li&gt;内側の構造（章 → 節 → 段落 → 文）は、帯に対応して配置されており、左端から右へ、枝が細かく分かれて文に至るという順序で読むことができます。&lt;/li&gt;
+&lt;li&gt;たとえば、ある章の左端に位置する文から読み始めると、そこから節や段落を経て、最後の文まで自然に追いかけられるように設計されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;イメージとして&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;外周の帯&lt;/strong&gt; ：本全体の「索引」や「年輪」のようなもの。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内側の枝葉&lt;/strong&gt; ：その索引に対応する「文章の実体」。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;読み方&lt;/strong&gt; ：時計回りに「成長の輪」をたどるように読む。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまりこの構造は、本のテキストを「生きた植物の姿に変換した地図のようなもの」なのです。&lt;/p&gt;
+&lt;h2 id=&#34;色が語るテキストの寿命&#34;&gt;色が語る「テキストの寿命」
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/legend-color.jpeg&#34;
+	width=&#34;877&#34;
+	height=&#34;1515&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/legend-color_hu_af3b07cd27ef62a1.jpeg 480w, http://localhost:1313/entangled-word-bank/images/legend-color_hu_1e4a6b93c352f75.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;色の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;57&#34;
+		data-flex-basis=&#34;138px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;本作では、各「文」の寿命を 色の変化 で表しています。色は「その文がいつ加えられ、いつまで残り続けたか」を一目でわかるようにデザインされています。&lt;/p&gt;
+&lt;h3 id=&#34;青緑黒テキストが生き残っている場合&#34;&gt;青緑〜黒（テキストが“生き残っている”場合）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;青緑の文は「最近の版で新しく加えられた文」を意味します。&lt;/li&gt;
+&lt;li&gt;そこから版を重ねても削除されずに生き残ると、色がだんだん濃く変化していきます。&lt;/li&gt;
+&lt;li&gt;つまり、色が淡いほど“新入りの文”、濃くなるほど“長く生き残っている古参の文” だと理解できます。&lt;/li&gt;
+&lt;li&gt;最も濃い黒に近い色は「第1版から最後の第6版までずっと残り続けた文」です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;オレンジ系テキストが削除された場合&#34;&gt;オレンジ系（テキストが“削除された”場合）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;薄いオレンジは「加えられた直後に次の版で削除された文」を示します。&lt;/li&gt;
+&lt;li&gt;濃いオレンジになるほど「複数の版にわたってしばらく存在したが、その後で削除された文」であることを意味します。&lt;/li&gt;
+&lt;li&gt;たとえば鮮やかなオレンジなら「3〜4版分は生き残ったが、結局は削除された文」です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして見ると、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;青緑〜黒&lt;/strong&gt; は「その時点でまだ残っている現役の文」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オレンジ&lt;/strong&gt; は「すでに削除され、そこで役割を終えた文」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を表していることになります。ひとつの文が同時に青緑（生存中）とオレンジ（削除済み）で表示されることはありません。&lt;/p&gt;
+&lt;p&gt;流れとしては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;文が追加される → 青緑で登場&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;版を重ねて残れば → 色が濃くなり黒に近づく&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;ある版で削除される → その時点で最後に「オレンジ」で表示され、以降は図に現れなくなる&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という仕組みです。&lt;/p&gt;
+&lt;p&gt;このルールを理解すると、円形の図から「どの文がどの時点で登場し、どれだけ生き延び、どの時点で姿を消したか」が一目で読み取れるようになります。&lt;/p&gt;
+&lt;h2 id=&#34;読み方と展開&#34;&gt;読み方と展開
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各版のテキストは 時計回りに配置され、第1版から始まり、第6版で円が完全に埋まるように展開します。&lt;/li&gt;
+&lt;li&gt;初版はすべてが新規テキストなので、色はもっとも淡い「挿入色」で統一されます。&lt;/li&gt;
+&lt;li&gt;最終版（第6版）には削除の色は存在せず、積み重なった挿入色が「最終形」として残ります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして、ダーウィンの言葉がどのように加筆・削除されながら進化したかを、まるで「生物の成長」を見るかのように辿ることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9_hu_9184a16674ae8dae.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9_hu_2ea0607494bad652.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第1・2版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10_hu_a23f31f8544da839.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10_hu_1b7a69583dc772ff.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第3・4版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11_hu_f2471dbc680c16f9.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11_hu_3146c3e91f836dc2.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第5・6版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;デザインと展示&#34;&gt;デザインと展示
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各版ごとの可視化は「植物標本の図譜（botanical plate）」のようにデザインされ、博物学的な雰囲気を意識しています。&lt;/li&gt;
+&lt;li&gt;実際の展示では、高さ2.5mに及ぶ大判バナーとして出力され、文字通り「生命体の成長記録」のように観察できる規模で公開されました。&lt;/li&gt;
+&lt;li&gt;MoMA の解説では、この作品は「ダーウィンの思考の変化や修正の履歴を、文単位で追えるデータアート」として評価されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;データと技術&#34;&gt;データと技術
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;データソース：ダーウィン電子テキスト・アーカイブ（darwin-online.org.uk）から入手。&lt;/li&gt;
+&lt;li&gt;技術：C++、R、Processing、Illustrator などを用いてプログラミング・データ処理・可視化を行いました。&lt;/li&gt;
+&lt;li&gt;役割分担：McInerny がデータ収集とプログラミングを担当し、Posavec と共にビジュアルデザインを設計。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「(En)tangled Word Bank」 は、ダーウィンの代表作『種の起源』の改訂史を「文の生存と死」を軸にとらえ直し、テキストをまるで「進化する生物」のように見せる革新的な可視化作品です。&lt;/p&gt;
+&lt;p&gt;ここには、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;科学史における重要な書物の「編集の軌跡」&lt;/li&gt;
+&lt;li&gt;文学的・生物学的なメタファーをかけ合わせたデザイン&lt;/li&gt;
+&lt;li&gt;データ処理・プログラミング・グラフィックデザインの融合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が凝縮されています。&lt;/p&gt;
+&lt;p&gt;ダーウィンが生命の進化を描いたその書物自体が、版を重ねる中で「進化」していく様子を、視覚的かつ詩的に示す作品といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/entangled-word-bank&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stefanie Posavec 公式サイト: (En)tangled Word Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/interactives/exhibitions/2011/talktome/objects/145525/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoMA 展覧会ページ: Talk to Me (En)tangled Word Bank&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>

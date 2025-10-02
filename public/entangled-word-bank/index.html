@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。\nこのプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」 にも収蔵・展示されています。\n">
+<title> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</title>
+
+<link rel='canonical' href='http://localhost:1313/entangled-word-bank/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content=" ダーウィン「種の起源」をめぐるテキストの進化を可視化する">
+<meta property='og:description' content="「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。\nこのプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」 にも収蔵・展示されています。\n">
+<meta property='og:url' content='http://localhost:1313/entangled-word-bank/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/entangled-word-bank/images/cover-entangled-word-bank.jpeg' />
+<meta name="twitter:title" content=" ダーウィン「種の起源」をめぐるテキストの進化を可視化する">
+<meta name="twitter:description" content="「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。\nこのプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」 にも収蔵・展示されています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/entangled-word-bank/images/cover-entangled-word-bank.jpeg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#文学的有機体としての構造">「文学的有機体」としての構造</a>
+      <ol>
+        <li><a href="#基本コードの帯basic-codeとは">「基本コードの帯（basic code）」とは？</a></li>
+        <li><a href="#読み方reading-the-organism">読み方（Reading the Organism）</a></li>
+      </ol>
+    </li>
+    <li><a href="#色が語るテキストの寿命">色が語る「テキストの寿命」</a>
+      <ol>
+        <li><a href="#青緑黒テキストが生き残っている場合">青緑〜黒（テキストが“生き残っている”場合）</a></li>
+        <li><a href="#オレンジ系テキストが削除された場合">オレンジ系（テキストが“削除された”場合）</a></li>
+      </ol>
+    </li>
+    <li><a href="#読み方と展開">読み方と展開</a></li>
+    <li><a href="#デザインと展示">デザインと展示</a></li>
+    <li><a href="#データと技術">データと技術</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/entangled-word-bank/">
+                <img src="/entangled-word-bank/images/cover-entangled-word-bank_hu_9eb08e3eee26c3a3.jpeg"
+                        srcset="/entangled-word-bank/images/cover-entangled-word-bank_hu_9eb08e3eee26c3a3.jpeg 800w, /entangled-word-bank/images/cover-entangled-word-bank_hu_e37f426cb50e854b.jpeg 1600w"
+                        width="800" 
+                        height="473" 
+                        loading="lazy"
+                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/entangled-word-bank/"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 02, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。</p>
+<p>このプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか <strong>ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」</strong> にも収蔵・展示されています。</p>
+<p><img src="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank.png"
+	width="2000"
+	height="1413"
+	srcset="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank_hu_675c4d06a1da649f.png 480w, /entangled-word-bank/images/Entangled&#43;Word&#43;Bank_hu_40901a4903a93dce.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<h2 id="文学的有機体としての構造">「文学的有機体」としての構造
+</h2><p><img src="/entangled-word-bank/images/legend-organism.jpeg"
+	width="1713"
+	height="770"
+	srcset="/entangled-word-bank/images/legend-organism_hu_28f9f7c57ce09490.jpeg 480w, /entangled-word-bank/images/legend-organism_hu_759b807bda828a3c.jpeg 1024w"
+	loading="lazy"
+	
+		alt="「文学的有機体」としての構造"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="222"
+		data-flex-basis="533px"
+	
+></p>
+<p>この作品では、ダーウィンの『種の起源』のテキスト構造を 「文学的な生物（literary organism）」 に見立てています。図の中心から外側に向かって、文章の階層が植物の枝葉のように広がっていきます。</p>
+<ul>
+<li><strong>1. 中心（根元）</strong> ：本の最も大きな単位である「章（chapter）」が出発点です。</li>
+<li><strong>2. 第一層の枝</strong> ：章が「節（subchapter）」へと分かれます。</li>
+<li><strong>3. 第二層の枝</strong> ：節がさらに「段落（paragraph）」に分かれます。</li>
+<li><strong>4. 末端の葉</strong> ：段落が「文（sentence）」に分かれ、ここが最小単位です。文は「小さな葉（leaflet）」として描かれます。</li>
+</ul>
+<p>このようにして、本全体の構造が「幹 → 枝 → 葉」に対応し、自然の有機体のような姿になります。</p>
+<h3 id="基本コードの帯basic-codeとは">「基本コードの帯（basic code）」とは？
+</h3><p>図の外周には、細かい線が並んだ 帯（コード状の外環） が描かれています。これは各文の「位置情報」を示す索引のようなものです。</p>
+<ul>
+<li>章、節、段落、文といった階層ごとに区切られており、外側の帯を見るだけで「どの位置にどんな文が属しているか」がわかります。</li>
+<li>つまり、内側の樹状図（植物のような構造）と、外側の帯（基本コード）は 対応関係 にあり、「この文は本のどの場所にあったのか」をダブルで確認できる仕組みです。</li>
+</ul>
+<h3 id="読み方reading-the-organism">読み方（Reading the Organism）
+</h3><p>画像右側に示されている通り、読み進め方は時計回りです。</p>
+<ul>
+<li>上部（12時の位置）から始まり、外周の「基本コードの帯」をたどりながら右回りに進みます。</li>
+<li>内側の構造（章 → 節 → 段落 → 文）は、帯に対応して配置されており、左端から右へ、枝が細かく分かれて文に至るという順序で読むことができます。</li>
+<li>たとえば、ある章の左端に位置する文から読み始めると、そこから節や段落を経て、最後の文まで自然に追いかけられるように設計されています。</li>
+</ul>
+<p>イメージとして</p>
+<ul>
+<li><strong>外周の帯</strong> ：本全体の「索引」や「年輪」のようなもの。</li>
+<li><strong>内側の枝葉</strong> ：その索引に対応する「文章の実体」。</li>
+<li><strong>読み方</strong> ：時計回りに「成長の輪」をたどるように読む。</li>
+</ul>
+<p>つまりこの構造は、本のテキストを「生きた植物の姿に変換した地図のようなもの」なのです。</p>
+<h2 id="色が語るテキストの寿命">色が語る「テキストの寿命」
+</h2><p><img src="/entangled-word-bank/images/legend-color.jpeg"
+	width="877"
+	height="1515"
+	srcset="/entangled-word-bank/images/legend-color_hu_af3b07cd27ef62a1.jpeg 480w, /entangled-word-bank/images/legend-color_hu_1e4a6b93c352f75.jpeg 1024w"
+	loading="lazy"
+	
+		alt="色の凡例"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="57"
+		data-flex-basis="138px"
+	
+></p>
+<p>本作では、各「文」の寿命を 色の変化 で表しています。色は「その文がいつ加えられ、いつまで残り続けたか」を一目でわかるようにデザインされています。</p>
+<h3 id="青緑黒テキストが生き残っている場合">青緑〜黒（テキストが“生き残っている”場合）
+</h3><ul>
+<li>青緑の文は「最近の版で新しく加えられた文」を意味します。</li>
+<li>そこから版を重ねても削除されずに生き残ると、色がだんだん濃く変化していきます。</li>
+<li>つまり、色が淡いほど“新入りの文”、濃くなるほど“長く生き残っている古参の文” だと理解できます。</li>
+<li>最も濃い黒に近い色は「第1版から最後の第6版までずっと残り続けた文」です。</li>
+</ul>
+<h3 id="オレンジ系テキストが削除された場合">オレンジ系（テキストが“削除された”場合）
+</h3><ul>
+<li>薄いオレンジは「加えられた直後に次の版で削除された文」を示します。</li>
+<li>濃いオレンジになるほど「複数の版にわたってしばらく存在したが、その後で削除された文」であることを意味します。</li>
+<li>たとえば鮮やかなオレンジなら「3〜4版分は生き残ったが、結局は削除された文」です。</li>
+</ul>
+<p>こうして見ると、</p>
+<ul>
+<li><strong>青緑〜黒</strong> は「その時点でまだ残っている現役の文」</li>
+<li><strong>オレンジ</strong> は「すでに削除され、そこで役割を終えた文」</li>
+</ul>
+<p>を表していることになります。ひとつの文が同時に青緑（生存中）とオレンジ（削除済み）で表示されることはありません。</p>
+<p>流れとしては、</p>
+<ul>
+<li>
+<ol>
+<li>文が追加される → 青緑で登場</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>版を重ねて残れば → 色が濃くなり黒に近づく</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>ある版で削除される → その時点で最後に「オレンジ」で表示され、以降は図に現れなくなる</li>
+</ol>
+</li>
+</ul>
+<p>という仕組みです。</p>
+<p>このルールを理解すると、円形の図から「どの文がどの時点で登場し、どれだけ生き延び、どの時点で姿を消したか」が一目で読み取れるようになります。</p>
+<h2 id="読み方と展開">読み方と展開
+</h2><ul>
+<li>各版のテキストは 時計回りに配置され、第1版から始まり、第6版で円が完全に埋まるように展開します。</li>
+<li>初版はすべてが新規テキストなので、色はもっとも淡い「挿入色」で統一されます。</li>
+<li>最終版（第6版）には削除の色は存在せず、積み重なった挿入色が「最終形」として残ります。</li>
+</ul>
+<p>こうして、ダーウィンの言葉がどのように加筆・削除されながら進化したかを、まるで「生物の成長」を見るかのように辿ることができます。</p>
+<p><img src="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank9.webp"
+	width="2000"
+	height="1413"
+	srcset="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank9_hu_9184a16674ae8dae.webp 480w, /entangled-word-bank/images/Entangled&#43;Word&#43;Bank9_hu_2ea0607494bad652.webp 1024w"
+	loading="lazy"
+	
+		alt="第1・2版"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<p><img src="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank10.webp"
+	width="2000"
+	height="1413"
+	srcset="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank10_hu_a23f31f8544da839.webp 480w, /entangled-word-bank/images/Entangled&#43;Word&#43;Bank10_hu_1b7a69583dc772ff.webp 1024w"
+	loading="lazy"
+	
+		alt="第3・4版"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<p><img src="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank11.webp"
+	width="2000"
+	height="1413"
+	srcset="/entangled-word-bank/images/Entangled&#43;Word&#43;Bank11_hu_f2471dbc680c16f9.webp 480w, /entangled-word-bank/images/Entangled&#43;Word&#43;Bank11_hu_3146c3e91f836dc2.webp 1024w"
+	loading="lazy"
+	
+		alt="第5・6版"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="141"
+		data-flex-basis="339px"
+	
+></p>
+<h2 id="デザインと展示">デザインと展示
+</h2><ul>
+<li>各版ごとの可視化は「植物標本の図譜（botanical plate）」のようにデザインされ、博物学的な雰囲気を意識しています。</li>
+<li>実際の展示では、高さ2.5mに及ぶ大判バナーとして出力され、文字通り「生命体の成長記録」のように観察できる規模で公開されました。</li>
+<li>MoMA の解説では、この作品は「ダーウィンの思考の変化や修正の履歴を、文単位で追えるデータアート」として評価されています。</li>
+</ul>
+<h2 id="データと技術">データと技術
+</h2><ul>
+<li>データソース：ダーウィン電子テキスト・アーカイブ（darwin-online.org.uk）から入手。</li>
+<li>技術：C++、R、Processing、Illustrator などを用いてプログラミング・データ処理・可視化を行いました。</li>
+<li>役割分担：McInerny がデータ収集とプログラミングを担当し、Posavec と共にビジュアルデザインを設計。</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>「(En)tangled Word Bank」 は、ダーウィンの代表作『種の起源』の改訂史を「文の生存と死」を軸にとらえ直し、テキストをまるで「進化する生物」のように見せる革新的な可視化作品です。</p>
+<p>ここには、</p>
+<ul>
+<li>科学史における重要な書物の「編集の軌跡」</li>
+<li>文学的・生物学的なメタファーをかけ合わせたデザイン</li>
+<li>データ処理・プログラミング・グラフィックデザインの融合</li>
+</ul>
+<p>が凝縮されています。</p>
+<p>ダーウィンが生命の進化を描いたその書物自体が、版を重ねる中で「進化」していく様子を、視覚的かつ詩的に示す作品といえるでしょう。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.stefanieposavec.com/archive/entangled-word-bank"  target="_blank" rel="noopener"
+    >Stefanie Posavec 公式サイト: (En)tangled Word Bank</a></li>
+<li><a class="link" href="https://www.moma.org/interactives/exhibitions/2011/talktome/objects/145525/"  target="_blank" rel="noopener"
+    >MoMA 展覧会ページ: Talk to Me (En)tangled Word Bank</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/digital-nostalgia/">
+        
+        
+            <div class="article-image">
+                <img src="/digital-nostalgia/images/cover-LifeOnline.20f810e93dca75aa8f978127e8cdfe41.20f810e93dca75aa8f978127e8cdfe41_hu_ec2115e78843d906.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化"
+                        data-key="digital-nostalgia" 
+                        data-hash="md5-IPgQ6T3KdaqPl4En6M3&#43;QQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/radial-bar-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/radial-bar-chart/images/Nightingale-mortality.295672a0541ff5725d2d1266ed9b662f_hu_8475db7dabc6a95f.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法"
+                        data-key="radial-bar-chart" 
+                        data-hash="md5-KVZyoFQf9XJdLRJm7ZtmLw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/connected-scatterplot/">
+        
+        
+            <div class="article-image">
+                <img src="/connected-scatterplot/images/cover-connected-scatterplot.13c59bfc76803371979c8c3a1f695fe2_hu_7f68b71f5d21574b.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 連結散布図 (Connected Scatterplot) の概要"
+                        data-key="connected-scatterplot" 
+                        data-hash="md5-E8Wb/HaAM3GXnIw6H2lf4g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">連結散布図 (Connected Scatterplot) の概要</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/spiral-chart-nyt/">
+        
+        
+            <div class="article-image">
+                <img src="/spiral-chart-nyt/images/spiral-chart-nyt-cover.6e64622985be2189718138d75ac3dc5f_hu_878c84c705628db4.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post NYT「Covid-19スパイラル可視化」をめぐる議論と代替案"
+                        data-key="spiral-chart-nyt" 
+                        data-hash="md5-bmRiKYW&#43;IYlxgTjXWsPcXw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/vaccine-confidence-cascade/">
+        
+        
+            <div class="article-image">
+                <img src="/vaccine-confidence-cascade/images/vaccine-confidence-cascade-cover.08acf5521a1a7cd9b89432fc070ee0fb_hu_eb841520b532c11a.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》"
+                        data-key="vaccine-confidence-cascade" 
+                        data-hash="md5-CKz1UhoafNm4lDL8Bw7g&#43;w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
