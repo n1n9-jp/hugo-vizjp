@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n">
-<title>ビースウォーム・プロット（Beeswarm Plot）とは？</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。\n">
+<title>シェイクスピアを「読む」新しい方法</title>
 
-<link rel='canonical' href='http://localhost:1313/beeswarm/'>
+<link rel='canonical' href='http://localhost:1313/understanding-shakespeare/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ビースウォーム・プロット（Beeswarm Plot）とは？">
-<meta property='og:description' content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n">
-<meta property='og:url' content='http://localhost:1313/beeswarm/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="シェイクスピアを「読む」新しい方法">
+<meta property='og:description' content="Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。\n">
+<meta property='og:url' content='http://localhost:1313/understanding-shakespeare/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-09-28T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/beeswarm/images/cover-beeswarm.png' />
-<meta name="twitter:title" content="ビースウォーム・プロット（Beeswarm Plot）とは？">
-<meta name="twitter:description" content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/beeswarm/images/cover-beeswarm.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='言葉' /><meta property='article:published_time' content='2025-10-03T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-03T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/understanding-shakespeare/images/cover.png' />
+<meta name="twitter:title" content="シェイクスピアを「読む」新しい方法">
+<meta name="twitter:description" content="Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/understanding-shakespeare/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -366,16 +366,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#ビースウォームプロットの仕組み">ビースウォーム・プロットの仕組み</a></li>
-    <li><a href="#メリットと注意点">メリットと注意点</a>
-      <ol>
-        <li><a href="#メリット">メリット</a></li>
-        <li><a href="#注意点">注意点</a></li>
-      </ol>
-    </li>
-    <li><a href="#応用例">応用例</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#背景と制作手法">背景と制作手法</a></li>
+    <li><a href="#五つのアプローチと議論の出発点">「五つのアプローチ」と議論の出発点</a></li>
     <li><a href="#まとめ">まとめ</a></li>
-    <li><a href="#参考リンク">参考リンク</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -390,13 +385,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/beeswarm/">
-                <img src="/beeswarm/images/cover-beeswarm_hu_28ac1cd9a4b82c32.png"
-                        srcset="/beeswarm/images/cover-beeswarm_hu_28ac1cd9a4b82c32.png 800w, /beeswarm/images/cover-beeswarm_hu_522935e103eddf5.png 1600w"
+            <a href="/understanding-shakespeare/">
+                <img src="/understanding-shakespeare/images/cover_hu_5f157d117b234d52.png"
+                        srcset="/understanding-shakespeare/images/cover_hu_5f157d117b234d52.png 800w, /understanding-shakespeare/images/cover_hu_66ef8792c3bc89d.png 1600w"
                         width="800" 
-                        height="330" 
+                        height="495" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？" />
+                        alt="Featured image of post シェイクスピアを「読む」新しい方法" />
                 
             </a>
         </div>
@@ -406,8 +401,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/chart/" >
-                チャート・カタログ
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -415,7 +410,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/beeswarm/">ビースウォーム・プロット（Beeswarm Plot）とは？</a>
+            <a href="/understanding-shakespeare/">シェイクスピアを「読む」新しい方法</a>
         </h2>
     
         
@@ -437,7 +432,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 28, 2025</time>
+                <time class="article-time--published">Oct 03, 2025</time>
             </div>
         
 
@@ -467,57 +462,79 @@
     <section class="article-content">
     
     
-    <p>データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。</p>
-<p><img src="/beeswarm/images/cover-beeswarm.png"
-	width="2405"
-	height="993"
-	srcset="/beeswarm/images/cover-beeswarm_hu_5b63ea28e955d59d.png 480w, /beeswarm/images/cover-beeswarm_hu_7afa0bd349c7b2e8.png 1024w"
+    <p>Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。</p>
+<p><img src="/understanding-shakespeare/images/mainwork.png"
+	width="2125"
+	height="2026"
+	srcset="/understanding-shakespeare/images/mainwork_hu_3f7b84c8a1133ff0.png 480w, /understanding-shakespeare/images/mainwork_hu_827e4958954e36d8.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="242"
-		data-flex-basis="581px"
+		data-flex-grow="104"
+		data-flex-basis="251px"
 	
 ></p>
-<h2 id="ビースウォームプロットの仕組み">ビースウォーム・プロットの仕組み
-</h2><ul>
-<li><strong>基本構造</strong> &hellip;縦軸（あるいは横軸）に数値データを、横軸（あるいは縦軸）にカテゴリ変数を配置します。</li>
-<li><strong>重なりの解消</strong> &hellip;単純なストリッププロット（strip plot）では点が重なってしまいますが、ビースウォームではアルゴリズムによって点をずらし、衝突しないように散らします。</li>
-<li><strong>配置の意味</strong> &hellip;数値軸方向はデータ値を保持し、カテゴリ軸方向には重なりを避けるための調整だけが行われます。そのため、点が横に広がるほど「その数値付近に多くの観測がある」ことを意味します。</li>
+<p>プロジェクトは、ノースウェスタン大学の WordHoard プロジェクトのテキストデータを利用。計算機的手法を用いてテキストの中に潜む情報を抽出し、作品全体の「物語のアルゴリズム」を可視化する試みとして展開されました。ここで示された5つのアプローチは、こうした新しい読書体験の第一歩として、シェイクスピア作品を現代的に再解釈し直す試みです。</p>
+<h2 id="図解の見方">図解の見方
+</h2><p>作品は大判ポスター（90cm × 約220cm）の展示形式を想定しており、Web 上で見るのと印刷物で体験するのとでは印象が大きく異なります。</p>
+<ul>
+<li>横方向：戯曲の進行（幕や場の順序）</li>
+<li>縦方向：シーンごとの語彙や登場人物の分布</li>
+<li>黄色い帯：特定の語が多用された部分を示す</li>
+<li>文字サイズ：単語の使用頻度の多寡を表す</li>
+<li>配置：キャラクターごとのセリフや場面での使用状況がわかる</li>
 </ul>
-<h2 id="メリットと注意点">メリットと注意点
-</h2><h3 id="メリット">メリット
-</h3><ul>
-<li><strong>すべての点が見える</strong> ：要約統計だけでなく、外れ値や個々の観測をそのまま確認可能。</li>
-<li><strong>分布の偏りが直感的</strong> ：点の群れ具合から、密集やばらつきがすぐに分かる。</li>
-<li><strong>比較がしやすい</strong> ：カテゴリごとに並べることで、グループ間の分布差を直接見比べられる。</li>
+<p>たとえば “time” や “man” のような語は全体を通じて大きく表示され、劇中で繰り返し使われる重要なテーマであることがひと目で理解できます。視覚的なパターンを追うことで、どの場面で特定の言葉が強調されているかを発見できる仕組みになっています。</p>
+<p>また、現代の Google 検索結果を組み合わせた可視化も含まれており、古典文学の分析に現代的データを掛け合わせるユニークな手法が採用されています。</p>
+<p>マクベスとハムレットをGoogle検索結果を通して見るというもので、重要な引用を見つけるために、フレーズを検索し、返された結果の数に基づいて単語に力を加えて、重要な部分を魚眼レンズでズームした文書のように見えます。</p>
+<p><img src="/understanding-shakespeare/images/mainwork_one_2.png"
+	width="550"
+	height="314"
+	srcset="/understanding-shakespeare/images/mainwork_one_2_hu_e09680a66015a2b0.png 480w, /understanding-shakespeare/images/mainwork_one_2_hu_e7f6d0952139b0dd.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="420px"
+	
+></p>
+<p>これにより、単なるテキスト解析を超えた「現代との対話」を試みています。</p>
+<h2 id="背景と制作手法">背景と制作手法
+</h2><p>この作品は Processing と toxiclibs（幾何学や色計算ライブラリ）、さらに Classifier4J など自然言語処理のツール群を用いて制作されました。途中経過は PDF 出力を重ねて動画化し、試行錯誤のプロセスを記録しています（一部の「Enter, Exit」アプローチのみ手作業による仕上げ）。</p>
+<p>さらに、imagekind.com で一部の作品はポスターとして購入可能になっており、展示用の大判印刷を想定してデザインされています。可読性の観点から原寸大での印刷が推奨されますが、Google 検索を使ったアプローチなど一部は小さめでも楽しめると案内されています。</p>
+<p><img src="/understanding-shakespeare/images/mainwork_one_1.jpg"
+	width="922"
+	height="425"
+	srcset="/understanding-shakespeare/images/mainwork_one_1_hu_5f99642fa197528.jpg 480w, /understanding-shakespeare/images/mainwork_one_1_hu_27b6dd31667ad97d.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="216"
+		data-flex-basis="520px"
+	
+></p>
+<h2 id="五つのアプローチと議論の出発点">「五つのアプローチ」と議論の出発点
+</h2><p>Thiel はこれを「完全な読書の代替」ではなく、あくまで「議論の出発点」として提示しています。</p>
+<ul>
+<li>登場人物ごとの語彙分布</li>
+<li>シーンの進行と語の繰り返し</li>
+<li>外部データ（Google 検索結果）を通した引用や関心の強さ</li>
+<li>出入りするキャラクターの動線（Enter, Exit）</li>
+<li>テキストのパターンを俯瞰できるビジュアル構造</li>
 </ul>
-<h3 id="注意点">注意点
-</h3><ul>
-<li><strong>大量データには不向き</strong> ：数万件単位のデータでは処理も表示も重くなる。</li>
-<li><strong>「幅」に定量性はない</strong> ：横方向の広がりは単なる重なり回避であり、密度を厳密に測るものではない。</li>
-<li><strong>視覚的調整が必要</strong> ：パラメータ設定を工夫しないと点が雑然として見えることがある。</li>
-</ul>
-<h2 id="応用例">応用例
-</h2><ul>
-<li><strong>統計可視化</strong> ：箱ひげ図やバイオリン図と組み合わせ、要約統計と生データを両立。</li>
-<li><strong>機械学習の解釈（SHAP）</strong> n：特徴量の重要度を視覚化する際に beeswarm プロットが使われ、個々の観測の影響度を直感的に理解できます。</li>
-<li><strong>教育・プレゼン</strong> ：点が「生きている」ように散らばるため、聴衆に分布の雰囲気を伝えるのに効果的。</li>
-</ul>
+<p>これらのアプローチは、文学研究の枠を越えて一般の観客に開かれた“新しい読み方”を提供し、文化的遺産であるシェイクスピア作品への関心を呼び戻すことを目指しています。</p>
 <h2 id="まとめ">まとめ
-</h2><p>ビースウォーム・プロットは、データの「個別性」と「分布性」を同時に示せる可視化手法です。適切なデータサイズで用いれば、他のチャートでは見えにくい外れ値や集中度を明快に伝えることができます。
-今後のデータ可視化の現場でも、ますます利用される機会が増えていくでしょう。</p>
-<h2 id="参考リンク">参考リンク
+</h2><p>「Understanding Shakespeare」は、シェイクスピアを「読む」行為を情報可視化に変換し、デザインを介して再提示する挑戦的なプロジェクトです。大判の印刷物として全体構造を体験できるよう設計され、文学研究者から一般読者まで幅広い層に向けて、新しい洞察を呼び起こす仕組みを備えています。</p>
+<p>文学、データサイエンス、情報デザインが交差する地点に立つこの作品は、古典を現代に生き返らせる試みとして注目に値します。</p>
+<h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://cran.r-project.org/web/packages/beeswarm/beeswarm.pdf"  target="_blank" rel="noopener"
-    >R: beeswarm package (CRAN)</a></li>
-<li><a class="link" href="https://seaborn.pydata.org/generated/seaborn.swarmplot.html"  target="_blank" rel="noopener"
-    >Seaborn swarmplot (Python)</a></li>
-<li><a class="link" href="https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/beeswarm.html"  target="_blank" rel="noopener"
-    >SHAP beeswarm plot (公式ドキュメント)</a></li>
-<li><a class="link" href="https://data.europa.eu/apps/data-visualisation-guide/beeswarm-plots"  target="_blank" rel="noopener"
-    >Data Visualization Guide: Beeswarm Plots (EU)</a></li>
+<li><a class="link" href="http://understanding-shakespeare.com/index.html"  target="_blank" rel="noopener"
+    >Understanding Shakespeare / Approaches</a></li>
+<li><a class="link" href="https://flowingdata.com/2010/08/23/understanding-shakespeare-with-visualization/"  target="_blank" rel="noopener"
+    >Understanding Shakespeare with visualization – FlowingData</a></li>
 </ul>
 </section>
 
@@ -525,6 +542,8 @@
     <footer class="article-footer">
     
     <section class="article-tags">
+        
+            <a href="/tags/%E8%A8%80%E8%91%89/">言葉</a>
         
     </section>
 
@@ -558,23 +577,23 @@
             
                 
 <article class="has-image">
-    <a href="/bump-chart/">
+    <a href="/literary-organism/">
         
         
             <div class="article-image">
-                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                <img src="/writing-without-words/images/cover.cf706acb72964b616d9bcaa188d6d3fc_hu_1eae215f49209d3c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
-                        data-key="bump-chart" 
-                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
+                        alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化"
+                        data-key="literary-organism" 
+                        data-hash="md5-z3Bqy3KWS2Ftm8qhiNbT/A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
+            <h2 class="article-title">Stefanie Posavec による「路上(On the Road)」の可視化</h2>
         </div>
     </a>
 </article>
@@ -582,23 +601,23 @@
             
                 
 <article class="has-image">
-    <a href="/mosaic-plot/">
+    <a href="/geniuses-visualized/">
         
         
             <div class="article-image">
-                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                <img src="/geniuses-visualized/images/cover.073782c47c82ca9c43c9378cffff257d_hu_6a597b213911774b.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post モザイク・プロット（Mosaic Plot）"
-                        data-key="mosaic-plot" 
-                        data-hash="md5-cWzGdFOL6/3tYEMNjlVlcg==">
+                        alt="Featured image of post 視覚化された天才たち - Harold Bloomとカバラの樹形図"
+                        data-key="geniuses-visualized" 
+                        data-hash="md5-BzeCxHyCypxDyTeM//8lfQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
+            <h2 class="article-title">視覚化された天才たち - Harold Bloomとカバラの樹形図</h2>
         </div>
     </a>
 </article>
@@ -606,23 +625,23 @@
             
                 
 <article class="has-image">
-    <a href="/parallel-sets/">
+    <a href="/entangled-word-bank/">
         
         
             <div class="article-image">
-                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
+                <img src="/entangled-word-bank/images/cover-entangled-word-bank.3014b13eb86c929710586fc3f932e6d7_hu_3ae4328fea1b93df.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
-                        data-key="parallel-sets" 
-                        data-hash="md5-YEgAAux&#43;2oSlYRySD1I&#43;Og==">
+                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
+                        data-key="entangled-word-bank" 
+                        data-hash="md5-MBSxPrhskpcQWG/D&#43;TLm1w==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</h2>
+            <h2 class="article-title"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</h2>
         </div>
     </a>
 </article>
@@ -630,23 +649,23 @@
             
                 
 <article class="has-image">
-    <a href="/quantityproportion-chart/">
+    <a href="/textarc/">
         
         
             <div class="article-image">
-                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                <img src="/textarc/images/367_text-arc.97bd2d94caacbde8c2faf955f5246a0c_hu_adf3c74830cc7f34.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 量率グラフという呼び名の誕生史"
-                        data-key="quantity–proportion-chart" 
-                        data-hash="md5-gnWEnR18O8LTG1iIpx&#43;QCA==">
+                        alt="Featured image of post TextArc: アリスを「眺める」ための地図"
+                        data-key="textarc" 
+                        data-hash="md5-l70tlMqsvejC&#43;vlV9SRqDA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">量率グラフという呼び名の誕生史</h2>
+            <h2 class="article-title">TextArc: アリスを「眺める」ための地図</h2>
         </div>
     </a>
 </article>
@@ -654,23 +673,23 @@
             
                 
 <article class="has-image">
-    <a href="/visual-vocabulary/">
+    <a href="/history-flow/">
         
         
             <div class="article-image">
-                <img src="/visual-vocabulary/images/Visual-vocabulary-JP.86cc59cd46ea986d5f0f3b0cc2f6d437.86cc59cd46ea986d5f0f3b0cc2f6d437_hu_8ba484b5e03e1c36.png" 
+                <img src="/history-flow/images/chocolate-1.bdef23e21f82408b4f10e0c121b7396b_hu_641ca4dfcd833b2.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Visual Vocabulary"
-                        data-key="visual-vocabulary" 
-                        data-hash="md5-hsxZzUbqmG1fDzsMwvbUNw==">
+                        alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
+                        data-key="history-flow" 
+                        data-hash="md5-ve8j4h&#43;CQItPEODBIbc5aw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Visual Vocabulary</h2>
+            <h2 class="article-title">Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</h2>
         </div>
     </a>
 </article>

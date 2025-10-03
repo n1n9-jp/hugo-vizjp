@@ -104,6 +104,87 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>シェイクスピアを「読む」新しい方法</title>
+        <link>http://localhost:1313/understanding-shakespeare/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/understanding-shakespeare/</guid>
+        <description>&lt;img src="http://localhost:1313/understanding-shakespeare/images/cover.png" alt="Featured image of post シェイクスピアを「読む」新しい方法" /&gt;&lt;p&gt;Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork.png&#34;
+	width=&#34;2125&#34;
+	height=&#34;2026&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_hu_3f7b84c8a1133ff0.png 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_hu_827e4958954e36d8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;251px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;プロジェクトは、ノースウェスタン大学の WordHoard プロジェクトのテキストデータを利用。計算機的手法を用いてテキストの中に潜む情報を抽出し、作品全体の「物語のアルゴリズム」を可視化する試みとして展開されました。ここで示された5つのアプローチは、こうした新しい読書体験の第一歩として、シェイクスピア作品を現代的に再解釈し直す試みです。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;作品は大判ポスター（90cm × 約220cm）の展示形式を想定しており、Web 上で見るのと印刷物で体験するのとでは印象が大きく異なります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;横方向：戯曲の進行（幕や場の順序）&lt;/li&gt;
+&lt;li&gt;縦方向：シーンごとの語彙や登場人物の分布&lt;/li&gt;
+&lt;li&gt;黄色い帯：特定の語が多用された部分を示す&lt;/li&gt;
+&lt;li&gt;文字サイズ：単語の使用頻度の多寡を表す&lt;/li&gt;
+&lt;li&gt;配置：キャラクターごとのセリフや場面での使用状況がわかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば “time” や “man” のような語は全体を通じて大きく表示され、劇中で繰り返し使われる重要なテーマであることがひと目で理解できます。視覚的なパターンを追うことで、どの場面で特定の言葉が強調されているかを発見できる仕組みになっています。&lt;/p&gt;
+&lt;p&gt;また、現代の Google 検索結果を組み合わせた可視化も含まれており、古典文学の分析に現代的データを掛け合わせるユニークな手法が採用されています。&lt;/p&gt;
+&lt;p&gt;マクベスとハムレットをGoogle検索結果を通して見るというもので、重要な引用を見つけるために、フレーズを検索し、返された結果の数に基づいて単語に力を加えて、重要な部分を魚眼レンズでズームした文書のように見えます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_2.png&#34;
+	width=&#34;550&#34;
+	height=&#34;314&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_2_hu_e09680a66015a2b0.png 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_one_2_hu_e7f6d0952139b0dd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これにより、単なるテキスト解析を超えた「現代との対話」を試みています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と制作手法&#34;&gt;背景と制作手法
+&lt;/h2&gt;&lt;p&gt;この作品は Processing と toxiclibs（幾何学や色計算ライブラリ）、さらに Classifier4J など自然言語処理のツール群を用いて制作されました。途中経過は PDF 出力を重ねて動画化し、試行錯誤のプロセスを記録しています（一部の「Enter, Exit」アプローチのみ手作業による仕上げ）。&lt;/p&gt;
+&lt;p&gt;さらに、imagekind.com で一部の作品はポスターとして購入可能になっており、展示用の大判印刷を想定してデザインされています。可読性の観点から原寸大での印刷が推奨されますが、Google 検索を使ったアプローチなど一部は小さめでも楽しめると案内されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_1.jpg&#34;
+	width=&#34;922&#34;
+	height=&#34;425&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_1_hu_5f99642fa197528.jpg 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_one_1_hu_27b6dd31667ad97d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;520px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五つのアプローチと議論の出発点&#34;&gt;「五つのアプローチ」と議論の出発点
+&lt;/h2&gt;&lt;p&gt;Thiel はこれを「完全な読書の代替」ではなく、あくまで「議論の出発点」として提示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;登場人物ごとの語彙分布&lt;/li&gt;
+&lt;li&gt;シーンの進行と語の繰り返し&lt;/li&gt;
+&lt;li&gt;外部データ（Google 検索結果）を通した引用や関心の強さ&lt;/li&gt;
+&lt;li&gt;出入りするキャラクターの動線（Enter, Exit）&lt;/li&gt;
+&lt;li&gt;テキストのパターンを俯瞰できるビジュアル構造&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのアプローチは、文学研究の枠を越えて一般の観客に開かれた“新しい読み方”を提供し、文化的遺産であるシェイクスピア作品への関心を呼び戻すことを目指しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Understanding Shakespeare」は、シェイクスピアを「読む」行為を情報可視化に変換し、デザインを介して再提示する挑戦的なプロジェクトです。大判の印刷物として全体構造を体験できるよう設計され、文学研究者から一般読者まで幅広い層に向けて、新しい洞察を呼び起こす仕組みを備えています。&lt;/p&gt;
+&lt;p&gt;文学、データサイエンス、情報デザインが交差する地点に立つこの作品は、古典を現代に生き返らせる試みとして注目に値します。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://understanding-shakespeare.com/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Understanding Shakespeare / Approaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/23/understanding-shakespeare-with-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Understanding Shakespeare with visualization – FlowingData&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>視覚化された天才たち - Harold Bloomとカバラの樹形図</title>
         <link>http://localhost:1313/geniuses-visualized/</link>
         <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
