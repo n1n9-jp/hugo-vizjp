@@ -9,12 +9,12 @@
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
-        <link>http://localhost:1313/writing-without-words/</link>
+        <link>http://localhost:1313/literary-organism/</link>
         <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/writing-without-words/</guid>
+        <guid>http://localhost:1313/literary-organism/</guid>
         <description>&lt;img src="http://localhost:1313/writing-without-words/images/cover.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
-&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する 「Literary Organism」 はその代表例で、ジャック・ケルアックの小説「路上」(原題 &amp;ldquo;On the Road&amp;rdquo;) を「文学的有機体(Literary Organism)」として表現しています。&lt;/p&gt;
+&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する &lt;strong&gt;Literary Organism&lt;/strong&gt; はその代表例で、ジャック・ケルアックの小説「路上」(原題 &amp;ldquo;On the Road&amp;rdquo;) を「文学的有機体(Literary Organism)」として表現しています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/writing-without-words/images/mainwork.png&#34;
 	width=&#34;2000&#34;
 	height=&#34;2828&#34;
@@ -66,17 +66,17 @@
 &lt;h3 id=&#34;3-色分けcolors&#34;&gt;3. 色分け（Colors）
 &lt;/h3&gt;&lt;p&gt;内容やテーマに応じた色の凡例（英語＋日本語併記）：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dean Moriarty (Protagonist) / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
-&lt;li&gt;Bop &amp;amp; Jazz Music / ボップとジャズ音楽 … 水色&lt;/li&gt;
-&lt;li&gt;Social Events &amp;amp; Interaction / 社会的出来事と交流 … 灰色&lt;/li&gt;
-&lt;li&gt;Travel / 旅 … 薄紫&lt;/li&gt;
-&lt;li&gt;Sketches of Regional Life / 地域生活のスケッチ … 薄青&lt;/li&gt;
-&lt;li&gt;Parties, Drinking &amp;amp; Drugs / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
-&lt;li&gt;Work &amp;amp; Survival / 労働と生存 … 黄色&lt;/li&gt;
-&lt;li&gt;Sal Paradise (Narrator) / 語り手サル・パラダイス … 赤&lt;/li&gt;
-&lt;li&gt;Women, Sex, &amp;amp; Relationships / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
-&lt;li&gt;Illegal Activities &amp;amp; Police Encounters / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
-&lt;li&gt;Character Sketches / 人物描写 … 黒青&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dean Moriarty (Protagonist)&lt;/strong&gt; / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bop &amp;amp; Jazz Music&lt;/strong&gt; / ボップとジャズ音楽 … 水色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social Events &amp;amp; Interaction&lt;/strong&gt; / 社会的出来事と交流 … 灰色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Travel&lt;/strong&gt; / 旅 … 薄紫&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sketches of Regional Life&lt;/strong&gt; / 地域生活のスケッチ … 薄青&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parties, Drinking &amp;amp; Drugs&lt;/strong&gt; / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work &amp;amp; Survival&lt;/strong&gt; / 労働と生存 … 黄色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sal Paradise (Narrator)&lt;/strong&gt; / 語り手サル・パラダイス … 赤&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Women, Sex, &amp;amp; Relationships&lt;/strong&gt; / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Illegal Activities &amp;amp; Police Encounters&lt;/strong&gt; / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Character Sketches&lt;/strong&gt; / 人物描写 … 黒青&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;4-文の長さword-count-chart&#34;&gt;4. 文の長さ（Word Count Chart）
 &lt;/h3&gt;&lt;ul&gt;
@@ -86,9 +86,9 @@
 &lt;h2 id=&#34;制作背景と意図posavec-の説明より&#34;&gt;制作背景と意図（Posavec の説明より）
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;プロジェクト Writing Without Words は、Posavec が MA（修士課程）で制作した研究成果。&lt;/li&gt;
-&lt;li&gt;対象データ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
-&lt;li&gt;制作方法：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
-&lt;li&gt;目的：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;対象データ&lt;/strong&gt; ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;制作方法&lt;/strong&gt; ：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt; ：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;Posavec の「文学を視覚化する試み」は、単なるデータ可視化にとどまらず、文学鑑賞の新しい扉を開いています。
@@ -101,6 +101,105 @@
     &gt;TextArc – W. Bradford Paley (SIGGRAPH Archive)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Writing Without Words — ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>視覚化された天才たち - Harold Bloomとカバラの樹形図</title>
+        <link>http://localhost:1313/geniuses-visualized/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/geniuses-visualized/</guid>
+        <description>&lt;img src="http://localhost:1313/geniuses-visualized/images/cover.png" alt="Featured image of post 視覚化された天才たち - Harold Bloomとカバラの樹形図" /&gt;&lt;p&gt;文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。2012年にイタリアの新聞『Corriere della Sera』の日曜版文化誌『La Lettura（ラ・レットゥラ）』に掲載され、後に公式ページとしてBehanceにも公開された「Geniuses, visualized」です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/mainwork.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;847&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_hu_5902a734aa807352.png 480w, http://localhost:1313/geniuses-visualized/images/mainwork_hu_f1aafe7e752a9eb5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ブルームが選出した文学的天才たち -シェイクスピアからルイス・キャロルに至るまで- を、カバラ思想における「セフィロトの樹（Tree of Sephiroth）」に見立てて配置することで、知の宇宙的な秩序を示しています。単なる人名リストではなく、文化的な影響関係や文学史上の広がりを「体系」として視覚化した点が大きな特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;このインフォグラフィックでは、文学的天才たちを多層的に表現するために、複数の視覚要素が組み合わされています。凡例を読み解くと以下のようになります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/legend.png&#34;
+	width=&#34;529&#34;
+	height=&#34;931&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/legend_hu_2859510b9fee5414.png 480w, http://localhost:1313/geniuses-visualized/images/legend_hu_555f78c6c5cfb991.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;136px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;円の大きさ&#34;&gt;円の大きさ
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;青い円の大きさ&lt;/strong&gt; ：2012年時点のWikipediaページ訪問数（知名度や一般的関心度を示す）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄色い円の大きさ&lt;/strong&gt; ：ハロルド・ブルームの著書『Genius』に割かれたページ数（ブルームの評価の比重）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灰色の点線で示される数&lt;/strong&gt; ：大英百科事典（britannica.com）における関連する歴史的人物の数（ネットワーク的広がり）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※これらのサイズは「5段階スケール」に基づいて正規化されています。&lt;/p&gt;
+&lt;h3 id=&#34;出身大陸色分け&#34;&gt;出身大陸（色分け）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;緑&lt;/strong&gt; ：ヨーロッパ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;赤&lt;/strong&gt; ：アジア&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄&lt;/strong&gt; ：アフリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オレンジ&lt;/strong&gt; ：ラテンアメリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;青&lt;/strong&gt;：北アメリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;薄灰&lt;/strong&gt; ：不明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;性別追加記号&#34;&gt;性別（追加記号）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;女性の場合&lt;/strong&gt; ：円の下に小さな菱形（◇）が追加される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;男性の場合&lt;/strong&gt; ：追加記号なし（円のみ）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※つまり、基本記号は全員「円」で共通し、女性には菱形が付加される形で区別されます。&lt;/p&gt;
+&lt;h3 id=&#34;職業線の種類&#34;&gt;職業（線の種類）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;太実線&lt;/strong&gt; ：作家（writer）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中実線&lt;/strong&gt; ：詩人（poet）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;細実線&lt;/strong&gt; ：哲学者（philosopher）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点線&lt;/strong&gt; ：その他（other）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;誕生時代曲線の長さ&#34;&gt;誕生時代（曲線の長さ）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;最短&lt;/strong&gt; ：現代（Contemporary times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;やや長い&lt;/strong&gt; ：近代（Modern times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;長い&lt;/strong&gt; ：古代（Ancient times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最長&lt;/strong&gt; ：古代以前（Antic age）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの要素を組み合わせることで、一人ひとりの天才の出自・時代背景・職業・影響力が一目でわかるように設計されています。セフィロトの樹を基盤に、10の段階（「理解」「冠」「知恵」「美」「永遠」など）ごとに人物が配置され、知の系譜が神秘思想的な秩序を持って描かれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_one.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1060&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_one_hu_bc21b3365e4add33.png 480w, http://localhost:1313/geniuses-visualized/images/mainwork_one_hu_af0886ad5e29aad6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;背景知識--セフィロトとブルームの文学観&#34;&gt;背景知識 ― セフィロトとブルームの文学観
+&lt;/h2&gt;&lt;p&gt;「セフィロトの樹」はユダヤ神秘思想（カバラ）において、宇宙や人間存在の原理を説明する図式で、10個のセフィラ（神的属性）が樹木の形に並び立ちます。この作品では、その枠組みを借り、文学的天才を「神的秩序」に見立てて分類しました。&lt;/p&gt;
+&lt;p&gt;ブルームの『Genius』は、言語と文学における「100人の偉大な創造者」を選出し、その文化的意義を論じた大著です。本作はその内容をさらに視覚化することで、読者が各天才の影響力や相互関係を直感的に理解できるよう補完しています。Wikipediaやブリタニカといった現代的な指標を参照することで、歴史的評価と現代的認知度を対比できるのも興味深い工夫です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Geniuses, visualized」は、文学的天才たちの文化的広がりや時代的背景を多次元的に表現したインフォグラフィックです。色・形・大きさ・線の種類・曲線の長さといった視覚要素を組み合わせることで、知名度・影響力・地理的背景・活動時代・職業などを同時に読み解くことができます。&lt;/p&gt;
+&lt;p&gt;ブルームの豊かな文学観を、カバラの象徴体系に重ね合わせた本作は、単なる批評やリストではなく「文学的宇宙の地図」として機能しています。視覚化によって、読者は比較し、探し、再発見するという体験を得ることができるのです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/18723575/Geniuses-visualized?locale=ja_JP&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Geniuses, visualized. :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/writing-without-words&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — Stefanie Posavec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.corriere.it/la-lettura/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Geniuses, visualized — La Lettura (2012)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
