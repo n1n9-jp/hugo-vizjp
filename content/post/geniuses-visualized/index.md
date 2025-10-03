@@ -12,7 +12,7 @@ tags = [
 image = "images/cover.png"
 +++
 
-文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。2012年にイタリアの新聞『Corriere della Sera』の日曜版文化誌『La Lettura（ラ・レットゥラ）』に掲載され、後に公式ページとしてBehanceにも公開された「Geniuses, visualized」です。
+文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。2012年にイタリアの新聞『Corriere della Sera』の日曜版文化誌『La Lettura（ラ・レットゥラ）』に掲載され、後にBehanceにも公開された「Geniuses, visualized」です。
 
 <!--more-->
 
