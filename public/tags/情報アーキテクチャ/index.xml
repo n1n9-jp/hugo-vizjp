@@ -7,23 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」</title>
-        <link>http://localhost:1313/katy-boerner-workflow/</link>
-        <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/katy-boerner-workflow/</guid>
-        <description>&lt;img src="http://localhost:1313/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;取得（Acquire）…ユーザーのニーズ分析とデータの取得と準備&lt;/li&gt;
-&lt;li&gt;分析＆ビジュアライゼーション（Analyze &amp;amp; Visualize）…データを読み取り、計算アルゴリズムを適用してデータを視覚的な洞察に変換する&lt;/li&gt;
-&lt;li&gt;デプロイ（Deploy）…出力デバイスの選択、インタラクティブなユーザーインターフェイスの設計&lt;/li&gt;
-&lt;li&gt;解釈（Interpret）…視覚化の解釈と検証を行う&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;ワークフロー全体が、ユーザーのニーズからスタートすることと、「データの編集、分析、および視覚化にユーザーを参加させることが、結果の正確性と関連性を確実にする唯一の方法」だとしています。&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 13 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
         <link>http://localhost:1313/thesevencs/</link>
         <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>

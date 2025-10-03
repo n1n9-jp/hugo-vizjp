@@ -15,7 +15,7 @@
         <guid>http://localhost:1313/bump-chart-example/</guid>
         <description>&lt;img src="http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg" alt="Featured image of post バンプ・チャート（Bump Chart）の事例" /&gt;&lt;p&gt;「バンプ・チャート」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;p&gt;スロープグラフに似ていますが、スロープグラフは、（たとえ何らかの基準でソートされていたとしても）比較する定性データが、経年でどの位置にいるかを比較します。バンプ・チャートは順位を基準とします。&lt;/p&gt;
-&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;h2 id=&#34;事例&#34;&gt;事例
 &lt;/h2&gt;&lt;h3 id=&#34;election2016-米大統領候補のtwitterバズ&#34;&gt;#Election2016 米大統領候補のTwitterバズ
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart-example/images/Election2016.png&#34;
 	width=&#34;2289&#34;
@@ -91,8 +91,71 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/news/the-intersect/wp/2014/12/15/from-lycos-to-ask-jeeves-to-facebook-tracking-the-20-most-popular-web-sites-every-year-since-1996/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;From Lycos to Ask Jeeves to Facebook: Tracking the 20 most popular web sites every year since 1996&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び方&#34;&gt;他の呼び方
-&lt;/h2&gt;&lt;p&gt;Bumps Chart, Rank Chartと呼ばれることもあります。&lt;/p&gt;</description>
+&lt;h3 id=&#34;サンジョルディ前のベストセラー可視化--バンプチャートの発展形&#34;&gt;サン・ジョルディ前のベストセラー可視化 ― バンプチャートの発展形
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart-example/images/Los-libros.jpeg&#34;
+	width=&#34;1945&#34;
+	height=&#34;1178&#34;
+	srcset=&#34;http://localhost:1313/bump-chart-example/images/Los-libros_hu_25ec59127baee03b.jpeg 480w, http://localhost:1313/bump-chart-example/images/Los-libros_hu_6a6cf819e68b312d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Los libros más vendidos (antes de Sant Jordi)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;図の概要&#34;&gt;図の概要
+&lt;/h4&gt;&lt;p&gt;この図は、スペイン・カタルーニャ地方で行われる「サン・ジョルディの日」（毎年4月23日、本とバラを贈り合う伝統的な祝祭）の直前に、最も売れた書籍を可視化したものです。制作はバルセロナの新聞 La Vanguardia（ラ・バンガルディア）。2007年10月から2008年4月までの26週間にわたるベストセラー・ランキングの推移を、独自のインフォグラフィックとして発表しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図のタイトルは「Los libros más vendidos (antes de Sant Jordi)」＝「サン・ジョルディ前のベストセラー」&lt;/strong&gt; 。この地域における出版文化を象徴的に記録した作品といえます。&lt;/p&gt;
+&lt;h4 id=&#34;表現の構造&#34;&gt;表現の構造
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;横軸：時間（2007年10月〜2008年4月、週単位で26ステップ）&lt;/li&gt;
+&lt;li&gt;縦軸：順位（1位が最上段）&lt;/li&gt;
+&lt;li&gt;線の色：
+&lt;ul&gt;
+&lt;li&gt;赤 = カタルーニャ語の著者&lt;/li&gt;
+&lt;li&gt;青 = その他の著者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;追加の記号：
+&lt;ul&gt;
+&lt;li&gt;黄色円 = ページ数&lt;/li&gt;
+&lt;li&gt;黒丸 = 特別価格（プロモーション）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実線 = トップ10に残り続けた週&lt;/li&gt;
+&lt;li&gt;点線 = トップ10圏外との接続&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、「どの本が、いつ売れ始め、どのくらいランキングを維持したか」が一目でわかります。&lt;/p&gt;
+&lt;h4 id=&#34;バンプチャートとの関係&#34;&gt;バンプチャートとの関係
+&lt;/h4&gt;&lt;p&gt;この図は、基本構造として &lt;strong&gt;バンプチャート（Bump Chart）&lt;/strong&gt; を採用しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;バンプチャートの基本形は「縦軸に順位、横軸に時間、線で対象の推移を示す」ものです。&lt;/li&gt;
+&lt;li&gt;本作品もまさにその構造に従っており、週ごとのランキング推移を線でつないでいます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、本図は単なるバンプチャートを超えて以下の拡張を加えています：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.多変量情報の統合&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;著者の属性（赤・青）&lt;/li&gt;
+&lt;li&gt;ページ数（黄色円）&lt;/li&gt;
+&lt;li&gt;特別価格（黒丸）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.ランキング外の動態を可視化&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;トップ10から外れても点線で継続的に追跡し、「一時的なヒット」と「ロングセラー」を比較できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.文化的背景の反映&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;サン・ジョルディという文化的イベントに関連付け、単なる商業データを超えた「文化現象」として位置づけている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このため、この図は「ランキングと時系列を組み合わせた可視化」であり「バンプチャートの発展形」と呼ぶのがふさわしいでしょう。&lt;/p&gt;</description>
         </item>
         
     </channel>

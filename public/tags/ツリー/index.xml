@@ -7,7 +7,622 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>サンバースト・チャートとは何か - 起源と特徴</title>
+        <link>http://localhost:1313/sunburst/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/sunburst/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
+&lt;p&gt;最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/cover-Sunburst.jpg&#34;
+	width=&#34;890&#34;
+	height=&#34;445&#34;
+	srcset=&#34;http://localhost:1313/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:1313/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;サンバースト・チャートは以下のようにも呼ばれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射状トリーマップ（Radial Treemap）&lt;/li&gt;
+&lt;li&gt;多層円グラフ（Multi-level Pie Chart）&lt;/li&gt;
+&lt;li&gt;リングチャート（Ring Chart）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;誰が作ったのか--起源の探究&#34;&gt;誰が作ったのか ― 起源の探究
+&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは「誰が最初に作ったか」を一人に特定することはできません。歴史を追うと、いくつかの重要な系譜が見えてきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1. 19世紀末（1890年）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Lawrence W. Fike による動物分類の同心円チャート（zoological concentric chart）が知られています。&lt;/li&gt;
+&lt;li&gt;科 → 属 → 種といった階層を円環で表す教育・分類目的の可視化であり、現代的サンバーストの先駆的事例とされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2. 1921年（米国機械工学誌 “Mechanical Engineering”）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;1910〜1919年における米国連邦政府の年間支出構成を示す可視化が「sunburst diagram」として紹介されたという記録があります。&lt;/li&gt;
+&lt;li&gt;ここでは経済データ（支出カテゴリ）を階層的に分解して示す試みが行われました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3. 2000年頃（John Stasko, Georgia Tech）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;情報可視化研究の中で、Treemap に代わる「放射状の space-filling 可視化」として体系的に導入されました。&lt;/li&gt;
+&lt;li&gt;特に ファイルシステムの構造、Webサイト遷移、ソフトウェアパッケージの構成など、コンピュータ科学の文脈で大規模な階層を探索的に理解する目的で用いられています。&lt;/li&gt;
+&lt;li&gt;Georgia Tech の “SunBurst Page” では、Treemap の代替として階層構造を提示・探索する手法として紹介されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、サンバーストは 教育的分類図 → 財政可視化 → 情報可視化研究 という異なる文脈を経ながら、現在の形に進化してきました。&lt;/p&gt;
+&lt;h2 id=&#34;どんな目的で使われてきたか&#34;&gt;どんな目的で使われてきたか
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分類や系統の可視化&lt;/strong&gt; ：生物学的分類、図書館の階層分類など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;財政・経済データの構成表示&lt;/strong&gt; ：政府支出や売上の構成を階層別に表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IT領域での探索&lt;/strong&gt; ：ファイルシステムやWebサイトの階層構造を直感的にナビゲートするための可視化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;インタラクティブ分析&lt;/strong&gt;：BIツールやD3.js／Plotlyなどを用いて、ユーザーが階層を掘り下げて詳細を確認できる仕組み。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;サンバーストチャートの利点&#34;&gt;サンバースト・チャートの利点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.階層の直感的表現&lt;/strong&gt; &amp;hellip;中心から外側へ広がる放射状の構造で、親子関係が視覚的に理解しやすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.部分と全体の関係を示す&lt;/strong&gt; &amp;hellip;各階層が親カテゴリに対してどれほどの割合を持つかを可視化できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.空間効率&lt;/strong&gt; &amp;hellip;Treemap と比べて放射状に展開できるため、深い階層でも相対的にスペースを確保しやすい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;サンバーストチャートの欠点や注意点&#34;&gt;サンバースト・チャートの欠点や注意点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;階層が深いと外側が細かくなり読みにくい。&lt;/li&gt;
+&lt;li&gt;角度の比較は人間にとって難しいため、精密な比較には不向き。&lt;/li&gt;
+&lt;li&gt;階層間の面積不整合が生じる場合があり、同じ値でも見た目が異なることがある。&lt;/li&gt;
+&lt;li&gt;隣接関係に意味がない場合があるため、並びの解釈には注意が必要。&lt;/li&gt;
+&lt;li&gt;ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは、「誰か一人の発明」ではなく、複数の歴史的流れの中で育まれてきた可視化手法です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1890年&lt;/strong&gt; ：Fike による動物分類の同心円図&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1921年&lt;/strong&gt; ：米国機械工学誌での財政データの可視化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2000年頃&lt;/strong&gt; ：John Stasko らによる情報可視化研究での確立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今日では、階層データを「全体から部分へ」と直感的に探索できる方法として、教育・行政・研究・ビジネスの幅広い分野で活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://think.design/services/data-visualization-data-design/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Think.Design – Sunburst: A Circular Visualization Technique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sites.cc.gatech.edu/gvu/ii/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Georgia Tech – SunBurst Page (Stasko Lab)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/endless-river-an-overview-of-dataviz-for-categorical-data/#a334&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NightingaleDVS – Endless River: An Overview of Dataviz for Categorical Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardbrath.wordpress.com/2018/08/31/why-history-matters-in-data-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Richard Brath – Why history matters in data visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/John_Stasko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – John Stasko&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://drops.dagstuhl.de/storage/01oasics/oasics-vol027-vluds2012-irtg1131/OASIcs.VLUDS.2011.25/OASIcs.VLUDS.2011.25.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualization and Evolution of Software Architectures (OASIcs 2011)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chartexpo.com/blog/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sunburst Chart: The Format That Fails at Layer Three – ChartExpo Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
+        <link>http://localhost:1313/treemap-rcep/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/treemap-rcep/</guid>
+        <description>&lt;img src="http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
+&lt;p&gt;この協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;2036&#34;
+	srcset=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_1e3668e8aae442f.png 480w, http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_2cb38e88e83f425a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;58&#34;
+		data-flex-basis=&#34;141px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;インフォグラフィックの特徴&#34;&gt;インフォグラフィックの特徴
+&lt;/h2&gt;&lt;p&gt;South China Morning Postが2020年12月9日に紙面で発表した図版「A big deal」では、RCEPの経済的なインパクトが Treemap（樹状矩形図）で表現されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各国の 2019年のGDP（国内総生産, 単位：10億米ドル）を 面積 によって比較。&lt;/li&gt;
+&lt;li&gt;色と模様で地域ブロックを区分：
+&lt;ul&gt;
+&lt;li&gt;オレンジ色：RCEP加盟国&lt;/li&gt;
+&lt;li&gt;グレー：米州・ヨーロッパ&lt;/li&gt;
+&lt;li&gt;水色：アジア太平洋のその他の国々&lt;/li&gt;
+&lt;li&gt;緑色：アフリカ諸国&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この構造により、国ごとの経済規模が直感的に理解できると同時に、RCEP全体の合算規模が米国やEUと並ぶほど大きいことが一目で伝わります。&lt;/p&gt;
+&lt;h2 id=&#34;主なポイント&#34;&gt;主なポイント
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RCEP加盟国の合計GDPは 23.5兆ドル に達し、単独の米国（21.4兆ドル）を上回る。&lt;/li&gt;
+&lt;li&gt;中国（14.3兆ドル）、日本（5.1兆ドル）、韓国（1.6兆ドル）が経済規模の柱。&lt;/li&gt;
+&lt;li&gt;ASEAN諸国もそれぞれの経済力を面積で示し、集合体としての重みが伝わる。&lt;/li&gt;
+&lt;li&gt;インドはグラフ外に独立して配置され、交渉離脱の意味が暗示されている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;視覚化の意義&#34;&gt;視覚化の意義
+&lt;/h2&gt;&lt;p&gt;新聞記事で用いられたこのTreemapは、数字だけでは把握しにくい「相対的な規模感」を瞬時に理解させる力を持ちます。特に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「RCEP全体」 vs 「米国・EU」&lt;/li&gt;
+&lt;li&gt;「中国」 vs 「その他加盟国」
+といった比較関係を可視化することで、協定の持つ戦略的な重みを読者に強く印象づけています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;まさにタイトルの通り、「A big deal」というメッセージが図そのものに込められているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;RCEPは経済統合の新たな枠組みとして、加盟国の経済活動や世界経済の流れに大きな影響を及ぼす可能性を秘めています。South China Morning Postのこの図版は、単なる数値の羅列ではなく、可視化によって読者に「規模の実感」を与える好例といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.scmp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;South China Morning Post – A big deal (2020年12月9日紙面)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://data.worldbank.org/indicator/NY.GDP.MKTP.CD&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World Bank – GDP (current US$)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://asean.org/our-communities/economic-community/regional-comprehensive-economic-partnership/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RCEP 公式情報 – ASEAN事務局&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mofa.go.jp/mofaj/gaiko/fta/page22_003406.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;日本外務省 – RCEPの概要&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
+        <link>http://localhost:1313/newsmap/</link>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/newsmap/</guid>
+        <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
+&lt;p&gt;MoMA（ニューヨーク近代美術館）の展覧会 Talk to Me にも展示され、また Ars Electronica 2004 で「Net Vision Distinction」を受賞するなど、デザインとテクノロジーの両面で国際的に高く評価されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/newsmap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;仕組みと設計思想&#34;&gt;仕組みと設計思想
+&lt;/h2&gt;&lt;p&gt;Newsmap の特徴は、ニュースを「記事そのもの」としてではなく、「報道量」や「注目度」という別の軸で表現する点にあります。&lt;/p&gt;
+&lt;h3 id=&#34;面積報道量&#34;&gt;面積＝報道量
+&lt;/h3&gt;&lt;p&gt;Google News が自動的に作成するニュースクラスタの規模（記事数や露出度）を矩形の大きさに変換します。大きなニュースは広い面積、小さな話題は狭い面積として描かれます。&lt;/p&gt;
+&lt;h3 id=&#34;色ジャンル&#34;&gt;色＝ジャンル
+&lt;/h3&gt;&lt;p&gt;政治・国際・スポーツ・経済などのジャンルを色で区別。視覚的にニュースの分布を把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;クリック元記事に移動&#34;&gt;クリック＝元記事に移動
+&lt;/h3&gt;&lt;p&gt;各矩形にはクラスタ内の代表的な記事タイトルが表示され、クリックすれば元記事に移動可能です。&lt;/p&gt;
+&lt;h3 id=&#34;階層構造とレイアウト最適化&#34;&gt;階層構造とレイアウト最適化
+&lt;/h3&gt;&lt;p&gt;関連するニュースはクラスタ単位でまとめられ、矩形分割アルゴリズム（ツリーマップ）が読みやすさを保ちながら全体を配置しています。&lt;/p&gt;
+&lt;p&gt;Weskamp 氏は Newsmap を「Google News の置き換えではなく、補完ツール」と位置づけています。意図的に偏りを浮き彫りにすることで、ニュースの背後にある構造やバイアスを直感的に捉えられるようにしているのです。&lt;/p&gt;
+&lt;h2 id=&#34;画面デザイン&#34;&gt;画面デザイン
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/TTM_201-large.jpg&#34;
+	width=&#34;1200&#34;
+	height=&#34;692&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/TTM_201-large_hu_de414f0eea3c0c95.jpg 480w, http://localhost:1313/newsmap/images/TTM_201-large_hu_676568c11f161b20.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;416px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All.jpg&#34;
+	width=&#34;1362&#34;
+	height=&#34;650&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_9a341e5ba0f412a5.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_cd0e7b15d89b589f.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;209&#34;
+		data-flex-basis=&#34;502px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story.jpg&#34;
+	width=&#34;763&#34;
+	height=&#34;428&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_1a2ff2a7b4633947.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_c1a8713986b8843a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;178&#34;
+		data-flex-basis=&#34;427px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap_alt.png&#34;
+	width=&#34;660&#34;
+	height=&#34;403&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_alt_hu_def42393f6f51df8.png 480w, http://localhost:1313/newsmap/images/newsmap_alt_hu_b48c03536cfdf82b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;163&#34;
+		data-flex-basis=&#34;393px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;技術的な側面&#34;&gt;技術的な側面
+&lt;/h2&gt;&lt;p&gt;MoMA の展示解説によれば、Newsmap は PHP、HTML、JavaScript、Flash、MySQL など当時のウェブ技術を組み合わせて実装されていました。可視化にはツリーマップアルゴリズムを採用し、矩形のアスペクト比を調整しながらニュース量を空間に割り当てています。&lt;/p&gt;
+&lt;p&gt;ここで重要なのは、Newsmap が 記事内容そのものを解析しているわけではないという点です。内容の意味づけは Google News に委ねられ、Newsmap 側ではクラスタ規模を比率化・変換して可視化に適した形へと加工しています。&lt;/p&gt;
+&lt;h2 id=&#34;評価と影響&#34;&gt;評価と影響
+&lt;/h2&gt;&lt;p&gt;Newsmap は公開直後から話題を呼びました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ars Electronica（2004）受賞：インタラクティブ・メディア作品として評価&lt;/li&gt;
+&lt;li&gt;MoMA 展示：デザイン史に記録された事例&lt;/li&gt;
+&lt;li&gt;ジャーナリズムからの注目：短時間でニュースのトレンドや偏りを把握できるツールとして紹介&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、教育や研究の文脈でもしばしば取り上げられ、情報デザインにおける「ニュース可視化の典型事例」とされています。後年、オープンソースの Newsmap.js など、派生プロジェクトが登場したのも影響の大きさを物語ります。&lt;/p&gt;
+&lt;h2 id=&#34;限界と批判&#34;&gt;限界と批判
+&lt;/h2&gt;&lt;p&gt;もちろん Newsmap には課題もあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;中立性の保証はしない&amp;hellip;表示されるのは「報道量の大小」であって、「重要性」ではありません。かえってメディアの偏りが強調される場合もあります。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Google News 依存&amp;hellip;データソースが Google News に限られるため、その選択基準や地域性の影響を受けます。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;完成版ではなく “super beta”&amp;hellip;開発者自身が「super beta」と呼んでおり、常に実験的な性質を持つ作品でした。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ipad登場とflipboardへの接続&#34;&gt;iPad登場とFlipboardへの接続
+&lt;/h2&gt;&lt;p&gt;Newsmap が公開されたのは 2004年。一方、Apple が iPad を発表したのは2010年であり、両者は時期的に重なってはいません。しかし、タブレットの普及によって「情報をどう提示するか」という課題が再び注目されました。&lt;/p&gt;
+&lt;p&gt;同年7月に公開された Flipboard は、iPad 専用の「ソーシャルマガジン」アプリとして大きな話題を呼びました。ここに Marcos Weskamp 氏が Head of Design として参画し、Newsmap で培った「ニュースを俯瞰的に、かつ魅力的に見せる」発想を、モバイル時代の体験デザインに展開しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Newsmap：PCブラウザ上でニュースを俯瞰する可視化実験&lt;/li&gt;
+&lt;li&gt;Flipboard：タブレット上でニュースを「雑誌のように読む」ユーザー体験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この連続性は、Weskamp 氏のキャリアの中で「ニュースと可視化」「情報と体験デザイン」がどのように進化していったかを象徴しています。&lt;/p&gt;
+&lt;h2 id=&#34;意義と今日的な意味&#34;&gt;意義と今日的な意味
+&lt;/h2&gt;&lt;p&gt;Newsmap の意義は、ニュースを「読む」だけでなく「眺める」ことを可能にした点にあります。情報が氾濫する現代において、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;報道の偏りを把握する&lt;/li&gt;
+&lt;li&gt;トレンドを一目で理解する&lt;/li&gt;
+&lt;li&gt;情報を批判的に観察する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした視点を与えてくれるデザインは、今もなお重要な学びを提供してくれます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Marcos Weskamp 氏の Newsmap は、Google News を素材に、ツリーマップで偏りや注目度を直感的に見せる、単なる技術実験にとどまらず、ニュースの受け取り方を問い直すデザインとして評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/interactives/exhibitions/2011/talktome/objects/146231/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoMA: Talk to Me – Newsmap（展示ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.journalism.co.uk/news/global-news-mapped-out/s2/a5857/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Journalism.co.uk: Global news mapped out (2004年記事)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mfru.org/projects/newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MFRU: Marcos Weskamp – Newsmap（プロジェクト説明）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://coolhunting.com/tech/newsmap/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cool Hunting: Newsmap（レビュー記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ijnet.org/en/story/why-journalists-should-still-be-using-newsmap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IJNet: Why journalists should still be using Newsmap（記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://reasons.to/2007/brighton/speakers/marcos-weskamp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Reasons.to Conference – Marcos Weskamp（登壇者紹介）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://about.flipboard.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flipboard 公式サイト&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ツリーマップ（Treemap）</title>
+        <link>http://localhost:1313/treemap/</link>
+        <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/treemap/</guid>
+        <description>&lt;img src="http://localhost:1313/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
+ノードとリンクではなく、空間充填技術を用いて、親と子の関係を表現します。モザイクグラフよりも、より深い階層構造を表現することが可能です。任意の階層数にも対応可能な再帰的な構造が特徴です。各矩形の面積と色は、データセットの属性を表現しています。&lt;/p&gt;
+&lt;h2 id=&#34;主な作例&#34;&gt;主な作例
+&lt;/h2&gt;&lt;h3 id=&#34;finviz&#34;&gt;FinViz
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/finviz_green.png&#34;
+	width=&#34;3202&#34;
+	height=&#34;2356&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/finviz_green_hu_4977be8a9c11b5a5.png 480w, http://localhost:1313/treemap/images/finviz_green_hu_bdc1e6e0effc0f58.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;326px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;S&amp;amp;P 500 Map&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2008年ごろのデザイン&#34;&gt;2008年ごろのデザイン
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/WS000059.png&#34;
+	width=&#34;500&#34;
+	height=&#34;331&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:1313/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;151&#34;
+		data-flex-basis=&#34;362px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/treemap/images/WS000059.png&#34;
+	width=&#34;500&#34;
+	height=&#34;331&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:1313/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;151&#34;
+		data-flex-basis=&#34;362px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/treemap/Data%20Visualization%20of%20Complex%20Hierarchies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Treemaps: Data Visualization of Complex Hierarchies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.info/article/463.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;株式市場へのTreemap適用例：FINVIZ.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;map-of-the-market&#34;&gt;Map of the Market
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/marketmap-490b.png&#34;
+	width=&#34;490&#34;
+	height=&#34;325&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/marketmap-490b_hu_c52b56ae14545e54.png 480w, http://localhost:1313/treemap/images/marketmap-490b_hu_cdb0706049145926.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.bewitched.com/marketmap.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Map of the Market&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1998年から10年以上にわたって株式市場のライブデータを表示してきました。長方形の面積はその企業の時価総額に対応し、色で前回の終値から株価がどのように変化したかを知ることができます。「より読みやすく、対話しやすい表示」ため、正方形に近いタイルを作成する独自のアルゴリズムを開発したとのことです。&lt;/p&gt;
+&lt;h3 id=&#34;newsmap&#34;&gt;Newsmap
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;722&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/treemap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;199&#34;
+		data-flex-basis=&#34;478px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/newsmap/&#34;&gt;Newsmap - ニュースを俯瞰する可視化の実験&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;newsmapjs&#34;&gt;Newsmap.JS
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_js.png&#34;
+	width=&#34;3260&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_a40ee6b241b0a47b.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_2ead1a64e7c1283e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;172&#34;
+		data-flex-basis=&#34;413px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Marcosさんのnewsmapにインスパイアされた作品をJSで実装。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://newsmap.ijmacd.com/?edition=JP_ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Newsmap.JS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;every-algorithm-has-art-in-it-treemap-art-project&#34;&gt;Every AlgoRiThm has ART in it: Treemap Art Project
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/Treemap-Art-Project.png&#34;
+	width=&#34;1500&#34;
+	height=&#34;1200&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/Treemap-Art-Project_hu_1694935660ca664b.png 480w, http://localhost:1313/treemap/images/Treemap-Art-Project_hu_2b4b2f58abd5caa1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.cpnas.org/exhibitions/archive/every-algorithm-has-art-in.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Treemap Art Project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;truck-sales-slip-tripping-up-chrysler&#34;&gt;Truck Sales Slip, Tripping Up Chrysler
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER.gif&#34;
+	width=&#34;1171&#34;
+	height=&#34;991&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER_hu_f677fd36ee47459c.gif 480w, http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER_hu_e8b280b94513409b.gif 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;118&#34;
+		data-flex-basis=&#34;283px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/imagepages/2007/02/25/business/20070225_CHRYSLER_GRAPHIC.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Truck Sales Slip, Tripping Up Chrysler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;stock-market-overview-in-tableau&#34;&gt;Stock Market Overview in Tableau
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/Stock-Market-Treemap.png&#34;
+	width=&#34;1772&#34;
+	height=&#34;1023&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/Stock-Market-Treemap_hu_ca72d8887e4d35c8.png 480w, http://localhost:1313/treemap/images/Stock-Market-Treemap_hu_7549ed9c81df3528.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;173&#34;
+		data-flex-basis=&#34;415px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=fBR8KA_-UsM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stock Market Overview in Tableau&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;historywired-a-few-of-our-favorite-things&#34;&gt;HistoryWired: A Few of Our Favorite Things
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/wired_screenshot.png&#34;
+	width=&#34;653&#34;
+	height=&#34;532&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/wired_screenshot_hu_6bc0112ed36235b5.png 480w, http://localhost:1313/treemap/images/wired_screenshot_hu_6413542150c99043.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;294px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;SmartMoneyの「Map of the Market」をベースにしており、ユーザーが博物館のコレクションの一部を探索できるように設計されていました。現在のウェブ標準との互換性がなくなったため、2016年8月にサイトは閉鎖されました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://americanhistory.si.edu/exhibitions/history-wired&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HistoryWired: A Few of Our Favorite Things&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか
+&lt;/h2&gt;&lt;p&gt;1990年、Ben ShneidermanとMaryland Human-Computer Interaction Labの学生たちが、空間充填技術を使ってファイルの階層を視覚化する方法として考案しました。&lt;/p&gt;
+&lt;p&gt;1994 年に Mountaz Hascoet と Michel Beaudouin-Lafon が、「二乗化」アルゴリズムを発明しました（後に Jarke van Wijk によって普及しました）。&lt;/p&gt;
+&lt;p&gt;1999年にMartin Wattenbergが、株式市場における可視化に利用しました。SmartMoney の “Map of the Market” というサービスのUIとして実装されました。その際は従来のツリーマップの欠点として二つをあげています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://hint.fm/papers/marketmap-wattenberg.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing the Stock Market&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;1.「スライス・アンド・ダイス」レイアウト “slice-and-dice” layoutでは、アスペクト比が大きすぎて比較が困難。なるべく正方形に近い矩形を創出するようにした。&lt;/p&gt;
+&lt;p&gt;2.類似した企業やセクターを隣り合わせに配置したい。過去のレイアウト方法では、階層情報のみを使用していたため、それが実現できなかった。&lt;/p&gt;
+&lt;p&gt;これらを解消するアルゴリズムを独自に実装し「ピボット＆スライス」レイアウトと名付けています。&lt;/p&gt;
+&lt;h2 id=&#34;類似する手法&#34;&gt;類似する手法
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;モザイク・プロット（Mosaic Plot）&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>サンバースト（Sunburst）の事例</title>
+        <link>http://localhost:1313/sunburst-example/</link>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/sunburst-example/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;わずか90社で人為的な地球温暖化の3分の2を排出&#34;&gt;わずか90社で人為的な地球温暖化の3分の2を排出
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies.png&#34;
+	width=&#34;600&#34;
+	height=&#34;521&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies_hu_69545ec338540a16.png 480w, http://localhost:1313/sunburst-example/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;115&#34;
+		data-flex-basis=&#34;276px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/environment/2013/nov/20/90-companies-man-made-global-warming-emissions-climate-change&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Just 90 companies caused two-thirds of man-made global warming emissions | Environment | The Guardian&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;政府の形態&#34;&gt;政府の形態
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41.jpg&#34;
+	width=&#34;960&#34;
+	height=&#34;962&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;239px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ibm-watsonによるpersonality-insights&#34;&gt;IBM WatsonによるPersonality Insights
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png&#34;
+	width=&#34;1700&#34;
+	height=&#34;1853&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;220px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;作例はOprah Winfreyのツイートを元にした分析結果。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://personality-insights-demo.ng.bluemix.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Personality Insights&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;メルボルン-モナッシュ大学での研究に使われたチャート&#34;&gt;メルボルン モナッシュ大学での研究に使われたチャート
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1.png&#34;
+	width=&#34;2247&#34;
+	height=&#34;1764&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;305px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下図のサンバーストが半分になっているものを、彼らはサンダウン（Sun Down）と呼んでいる。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown.png&#34;
+	width=&#34;2248&#34;
+	height=&#34;1491&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;コーヒーの味&#34;&gt;コーヒーの味
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour.png&#34;
+	width=&#34;956&#34;
+	height=&#34;949&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;241px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;サンプルのデータセットとして、階層構造（親子関係）のみを示している。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.aculocity.com/labs/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Software development | Sunburst chart | Data Integration | Aculocity&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した&#34;&gt;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg&#34;
+	width=&#34;640&#34;
+	height=&#34;715&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;89&#34;
+		data-flex-basis=&#34;214px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;他の呼び名&#34;&gt;他の呼び名
+&lt;/h2&gt;&lt;p&gt;Radial Icicle、Radial Treemap、Ring Bracketなどと呼ばれることもあります。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>つららチャート（Icicle Chart）</title>
         <link>http://localhost:1313/icicle-chart/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>

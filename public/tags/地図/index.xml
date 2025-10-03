@@ -7,7 +7,111 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</title>
+        <link>http://localhost:1313/provisional-inundation-depth-map/</link>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/provisional-inundation-depth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
+&lt;p&gt;このとき国土地理院の職員が着目したのが SNSに投稿された被災現場の写真や映像 でした。市民が投稿した画像から水際の位置を特定し、航空レーザ測量による標高データ（5m DEM）と組み合わせることで、浸水範囲と水深を即座に推定。こうして試作されたのが 「浸水推定段彩図（速報版）」 です。&lt;/p&gt;
+&lt;p&gt;7月7日に作成され、翌8日には関係機関に提供、9日には非常災害対策本部で水害対応の判断資料として使われました。そして10日には国土地理院ウェブサイトで一般公開されます。
+これはトップダウンの指示ではなく、&lt;strong&gt;現場職員のアイデアから始まった「ボトムアップの挑戦」&lt;/strong&gt; でした。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png&#34;
+	width=&#34;780&#34;
+	height=&#34;540&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_9e33b96cdee4c980.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_caa49b50920509c0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;平成30年7月豪雨による倉敷市真備町周辺浸水推定段彩図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;従来手法と速報版--補完的な位置づけ&#34;&gt;従来手法と速報版 ― 補完的な位置づけ
+&lt;/h2&gt;&lt;p&gt;従来の浸水把握には、航空機による空撮や空中写真判読が使われてきました。これは浸水範囲を的確に捉える確実な方法ですが、発災直後には天候や飛行準備の制約から撮影まで時間がかかる場合があります。&lt;/p&gt;
+&lt;p&gt;この課題を補うために導入されたのが、SNS投稿＋標高データを活用する速報版でした。
+速報版は、現場の「いま」を迅速に把握するのに役立ち、その後に実施される空中写真や衛星画像、現地調査など他の手法とあわせて、被害の全体像を捉えるための重要な情報のひとつとなりました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C.png&#34;
+	width=&#34;1727&#34;
+	height=&#34;1639&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_6a7e4e67735866ec.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_735352aac9cc290a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;愛媛県肱川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C.png&#34;
+	width=&#34;1723&#34;
+	height=&#34;1479&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_2473a1ed660c622.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_a64bbf4f6bc6705c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;岡山県高梁川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;116&#34;
+		data-flex-basis=&#34;279px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;どうやって作られるのか&#34;&gt;どうやって作られるのか
+&lt;/h2&gt;&lt;p&gt;速報版の仕組みはシンプルですが、効果的でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;SNS画像の位置を特定&amp;hellip;投稿された写真の撮影地点をウェブ地図で同定し、水がどこまで達しているかを把握。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;水面標高を読み取る&amp;hellip;水際の標高をDEMから取得し、堤防ごとに異なる水位を複数計測。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;浸水範囲と水深を可視化&amp;hellip;水面標高より低い範囲を浸水域とし、標高差を水深として青の濃淡で表現。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;市民の一枚の写真が、地域全体の“面”の浸水状況へと変換される仕組みです。&lt;/p&gt;
+&lt;p&gt;一方で、空中写真を利用した手法は引き続き実施され、浸水痕跡から最大浸水範囲を把握するなど、より精度の高い情報を提供しました ￼。&lt;/p&gt;
+&lt;h2 id=&#34;実績としての速報性&#34;&gt;実績としての「速報性」
+&lt;/h2&gt;&lt;p&gt;国交省の白書でも、浸水推定図の速報性は高く評価されています。
+たとえば 令和2年7月豪雨 では、災害発生当日の 7月4日16時に第一報を公開。その後も追加の図を段階的に公開し、被災地の初動対応に役立ちました【国交省白書2021】。&lt;/p&gt;
+&lt;p&gt;この「数時間以内に浸水状況を可視化できる」という即時性は、従来の空中写真や現地調査では実現が難しかった点であり、浸水推定図の最大の特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;定着と現在&#34;&gt;定着と現在
+&lt;/h2&gt;&lt;p&gt;SNS投稿を利用した速報版は、その有効性がすぐに認められ、以後の災害でも繰り返し活用されるようになりました。
+現在では PDF・地理院タイル・GeoJSON として公開され、行政・報道・研究者・市民が自由に利用できる「水害可視化の共通基盤」となっています。&lt;/p&gt;
+&lt;p&gt;ここで重要なのは、浸水推定図が他の水害対策や調査手法を置き換えるものではないということです。
+むしろ、さまざまな手法のひとつとして組み合わされ、初動から復旧までの判断を支える存在になっているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;浸水推定図は、従来の確実な調査手法に新しく加わった“速報性重視のアプローチ”です。
+市民の発信と国が保有する地形データを組み合わせるという発想が、いまや災害対応の即時性を支える重要なツールとなりました。&lt;/p&gt;
+&lt;p&gt;その出発点には、公式手順の外から「やってみよう」と挑んだ職員の工夫と、市民が撮影した一枚の写真がありました。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/REPORT/JIHO/vol132-abst-05.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;吉田和樹: 平成30年7月豪雨における浸水推定段彩図の作成（国土地理院時報132号）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mlit.go.jp/hakusyo/mlit/r03/hakusho/r04/html/nj020c02.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国交省: 国土交通白書2021 コラム 水害発生時における浸水推定図の作成について&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/BOUSAI/H30.taihuu7gou.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 平成30年7月豪雨に関する情報&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://maps.gsi.go.jp/development/ichiran.html#suisui?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 浸水推定図の地理院タイル一覧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gsi.go.jp/BOUSAI/index.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;国土地理院: 防災関連情報（災害別ページ）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
         <link>http://localhost:1313/chart-map-transportation-infrastructure/</link>
         <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
@@ -195,6 +299,198 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
+        <link>http://localhost:1313/cartogram/</link>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/cartogram/</guid>
+        <description>&lt;img src="http://localhost:1313/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
+&lt;h2 id=&#34;カルトグラム手法の比較一覧&#34;&gt;カルトグラム手法の比較一覧
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;手法&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;メリット&lt;/th&gt;
+          &lt;th&gt;デメリット&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;連続的カルトグラム&lt;/td&gt;
+          &lt;td&gt;隣接関係を保ちながら、面積をデータに比例させて変形&lt;/td&gt;
+          &lt;td&gt;地図らしさが残るため直感的&lt;/td&gt;
+          &lt;td&gt;全体的に歪んで読みにくい場合がある&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;非連続的カルトグラム&lt;/td&gt;
+          &lt;td&gt;地域ごとに独立させ、面積をデータに比例&lt;/td&gt;
+          &lt;td&gt;歪みが少なく比較しやすい&lt;/td&gt;
+          &lt;td&gt;隣接関係が失われる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;擬似連続カルトグラム&lt;/td&gt;
+          &lt;td&gt;丸や四角など幾何図形の大きさや色で表現&lt;/td&gt;
+          &lt;td&gt;データ比較がしやすい&lt;/td&gt;
+          &lt;td&gt;地形が失われる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;グリッド・カルトグラム&lt;/td&gt;
+          &lt;td&gt;グリッド単位で地域を置換&lt;/td&gt;
+          &lt;td&gt;個数や色による表現が明確&lt;/td&gt;
+          &lt;td&gt;位置関係が単純化されすぎる&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;連続的カルトグラム-continuous-cartogram&#34;&gt;連続的カルトグラム (Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;一票の格差でいびつな日本&#34;&gt;一票の格差でいびつな日本
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_yazaki.png&#34;
+	width=&#34;3154&#34;
+	height=&#34;1272&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_yazaki_hu_32d7fb01f087b20c.png 480w, http://localhost:1313/cartogram/images/continuous_cartogram_yazaki_hu_15da10d75010011b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;一票の格差でいびつな日本&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;247&#34;
+		data-flex-basis=&#34;595px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2021年衆院選の比例代表得票率-主な政党の得票率&#34;&gt;2021年衆院選の比例代表得票率 主な政党の得票率
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_chunichi.png&#34;
+	width=&#34;3326&#34;
+	height=&#34;1894&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, http://localhost:1313/cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;2021年衆院選の比例代表得票率 主な政党の得票率&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;421px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://static.chunichi.co.jp/chunichi/pages/feature/election/proportional_map.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;2021年衆院選の比例代表得票率 主な政党の得票率&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する&#34;&gt;カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee.png&#34;
+	width=&#34;1076&#34;
+	height=&#34;335&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Supercenters, Hamburgers, and Coffee&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;321&#34;
+		data-flex-basis=&#34;770px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20200510210032/http://www.stephabegg.com/home/projects/cartograms&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Supercenters, Hamburgers, and Coffee: Using density-equalizing cartograms to display the distribution of Walmarts, McDonalds, and Starbucks in the US&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;地球規模の生活環境がどのように変化しているかを考えるために必要な地図&#34;&gt;地球規模の生活環境がどのように変化しているかを考えるために必要な地図
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania.png&#34;
+	width=&#34;4878&#34;
+	height=&#34;3375&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Population of Asia and Oceania in 2018&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;346px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/world-population-cartogram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The map we need if we want to think about how global living conditions are changing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;連続的カルトグラムは、国境や県境といった隣接関係を保ちながら、各地域をデータに応じて面積ごと変形する手法です。
+たとえば人口を基準にすると、人口の多い地域は大きく、少ない地域は小さく変形されます。結果として全体の地図がぐにゃりと歪み、見慣れた地図とのギャップから「どこが大きく、どこが小さいのか」が直感的に理解できます。&lt;/p&gt;
+&lt;h3 id=&#34;非連続的カルトグラム-non-continuous-cartogram&#34;&gt;非連続的カルトグラム (Non-Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;選挙人地図11612選挙日&#34;&gt;選挙人地図（11/6/12）：選挙日
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/TheElectoralCollegeMap.png&#34;
+	width=&#34;640&#34;
+	height=&#34;494&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, http://localhost:1313/cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;The Electoral College Map (11/6/12): Election Day&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.frontloadinghq.com/2012/11/the-electoral-college-map-11612.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Electoral College Map (11/6/12): Election Day&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;非連続的カルトグラムは、隣接性を捨てて各地域を独立させた上で、面積をデータに比例させる手法です。
+たとえばアメリカの州ごとの投票結果を示す場合、州の位置や境界は保ちながらも州同士の距離感は無視されるため、全体としてはモザイク状の地図になります。隣接関係の形状の変化に影響を受けずに、それぞれの地域のデータ量が強調されるのが特徴です。&lt;/p&gt;
+&lt;h3 id=&#34;擬似連続カルトグラム-pseudo-continuous-cartogram&#34;&gt;擬似連続カルトグラム (Pseudo-Continuous Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;ニューヨークタイムズオリンピックメダル地図2012年&#34;&gt;ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a.png&#34;
+	width=&#34;966&#34;
+	height=&#34;492&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;New York Times — “A Map of Olympic Medals”, 2012.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;196&#34;
+		data-flex-basis=&#34;471px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2008/08/04/sports/olympics/20080804_MEDALCOUNT_MAP.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Map of Olympic Medals&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;オバマ大統領による変更前に保険契約を更新できる州&#34;&gt;オバマ大統領による変更前に、保険契約を更新できる州
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02.png&#34;
+	width=&#34;868&#34;
+	height=&#34;558&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;States Where Insured Could Renew Plans Before Change by Obama&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;373px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2013/11/20/us/which-states-will-allow-old-health-policies-to-be-renewed.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;States Where Insured Could Renew Plans Before Change by Obama&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;擬似連続カルトグラムは、地域を地形のまま表現するのではなく、丸や四角などの単純な幾何図形に置き換えた上で、それをデータに応じて大きさを変える方法です。
+代表例は「ドーリング・カルトグラム（Dorling cartogram）」と呼ばれる手法で、国や地域を円の大きさで表し、位置関係をできるだけ近づけて配置します。地形の正確さを犠牲にする代わりに、データの比較がしやすくなるのが利点です。&lt;/p&gt;
+&lt;h3 id=&#34;グリッドカルトグラム-gridded-cartogram&#34;&gt;グリッド・カルトグラム (Gridded Cartogram)
+&lt;/h3&gt;&lt;h4 id=&#34;すべては538人の選挙人票次第だ&#34;&gt;すべては538人の選挙人票次第だ
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/GriddedCartogram_01.png&#34;
+	width=&#34;1804&#34;
+	height=&#34;1447&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, http://localhost:1313/cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;It’s all about the 538 Electoral College votes&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;124&#34;
+		data-flex-basis=&#34;299px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20241213042407/http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=rrpromo#plus&amp;amp;electoral-map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;It’s all about the 538 Electoral College votes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;グリッド・カルトグラムは地形を、データに応じた個数のグリッド（四角形や六角形など）を並べて表現する方法です。個数以外に色でも別変数を表現することができます。位置関係をある程度保ちつつ、数の比較が直感的に理解できるのが特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;カルトグラムは「地図」という馴染みのあるフォーマットにデータを組み込むことで、地域差や規模感を強く訴えることができる表現手法です。適切なタイプを選ぶことで、データが持つストーリーを効果的に伝えることができます。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
         <link>http://localhost:1313/mapbox-gl-js-v2/</link>
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
@@ -221,6 +517,216 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/maplibre/maplibre-gl-js&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://github.com/maplibre/maplibre-gl-js&lt;/a&gt;&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>コロプレス・マップ（Choropleth Map）</title>
+        <link>http://localhost:1313/choropleth-map/</link>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/choropleth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
+&lt;p&gt;こういったコロプレス・マップの問題の一つとして、データをエンコーディングのための領域（行政区画）のサイズが、表現されるデータ量の認識に影響を与えることがあげられます。&lt;/p&gt;
+&lt;p&gt;データ値と地理的領域を混同するのを避けるために、データは絶対値ではなく正規化（例えば、密度、比率、平均）を使用することが推奨されます。&lt;/p&gt;
+&lt;p&gt;色やテクスチャでデータ値を表現する際に、データをいくつかにグルーピングする手法が取られることがあります。これを階級分類といい、ヒストグラムにおけるビンとはまた別の概念です。階級分類の数と手法が、見た目に大きく影響を与えるため、その選択には作り手による細心の注意が求められますし、作り手が「嘘をつく」ことも可能ではあります。ですので階級分類の数と手法を凡例に掲載しておくことが望ましいです。&lt;/p&gt;
+&lt;p&gt;階級分類数は、データの分類数として意味がある最適な数が求められる一方、大量の色を用いすぎても人はそもそも区別して認識できないため最大でも、マジックナンバー7に則れば5～9、5に則れば3〜7つほどに分類することが現実的でしょう。&lt;/p&gt;
+&lt;p&gt;離散データを面（領域）として表現するため、行政区画という領域の分割方法が、テーマとなるデータとしてふさわしいかどうかも検討する必要があるでしょう。たとえば日本の首都圏における人の行き来を含めた経済活動であれば、島しょ部を含めた東京都のみだけでなく、首都圏や東京圏とよばれる周辺都道府県も含めて評価する必要があるでしょう。&lt;/p&gt;
+&lt;p&gt;連続的な現象（例えば自然現象でいえば年間降雨量、気温など）は、その分布が政治的または行政的な境界ではないため、この方法ではマッピングすることはふさわしくありません。 その場合は、連続データを活用するための手法である、Dasymetric MapかIsarithmic Mapなどを利用してください。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;過去7日間のアメリカにおける郡county別covid-19人死亡者数&#34;&gt;過去7日間のアメリカにおける郡（county）別COVID-19人死亡者数
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png&#34;
+	width=&#34;1200&#34;
+	height=&#34;800&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_24b66d0a370f3fee.png 480w, http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_1d35a30a5c06a966.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://towardsdatascience.com/accessing-and-examining-covid-19-data-on-your-own-e9d9b4fbc09b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Covid-19 fatalities per capita by US County for the previous seven days&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;イングランドとウェールズにおける人口密度&#34;&gt;イングランドとウェールズにおける人口密度
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg.png&#34;
+	width=&#34;2775&#34;
+	height=&#34;3450&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_8e0c2f173fa3b6c8.png 480w, http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_f639086b57e9389c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;80&#34;
+		data-flex-basis=&#34;193px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@briskat/england-wales-population-density-heat-map-26a28a2b6091&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;England and Wales population density&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;イングランドウェールズにおける人口分散&#34;&gt;イングランド・ウェールズにおける人口分散
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/fletcher-map-population.jpg&#34;
+	width=&#34;1566&#34;
+	height=&#34;1970&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/fletcher-map-population_hu_2a9ef33f2711708.jpg 480w, http://localhost:1313/choropleth-map/images/fletcher-map-population_hu_1d39cfca0aa20152.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;79&#34;
+		data-flex-basis=&#34;190px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;おそらくイギリスの最も初期の人口密度マップです。&lt;/p&gt;
+&lt;p&gt;Dispersion of the Population in England &amp;amp; Wales&lt;/p&gt;
+&lt;h3 id=&#34;人に対する犯罪地図&#34;&gt;人に対する犯罪地図
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1.jpg&#34;
+	width=&#34;1699&#34;
+	height=&#34;2271&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1_hu_69a67413ac530b14.jpg 480w, http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1_hu_8f3144fa30c1b3e0.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;179px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Andre-Michel Guerryによって1833年に作成されました。1825年から1830年までのフランスの犯罪を描いています。犯罪のレベルを表す7つの陰影があります。濃い色がより多くの犯罪がある県で、より白に近い薄い色が犯罪の少なさを示します。&lt;/p&gt;
+&lt;p&gt;犯罪の多い順に県がランキングされ、地図上に番号で示されます。地図の下にランキング順に実際の犯罪数が示されています。&lt;/p&gt;
+&lt;p&gt;Crimes contre les personnes&lt;/p&gt;
+&lt;h3 id=&#34;アメリカにおける非雇用者-2009年&#34;&gt;アメリカにおける非雇用者 2009年
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA.png&#34;
+	width=&#34;625&#34;
+	height=&#34;396&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_882be5a1b7944408.png 480w, http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_7ea4b134375b9bb0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;U.S. unemployment in 2009&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ミレニアム開発目標マップ&#34;&gt;ミレニアム開発目標マップ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w.jpeg&#34;
+	width=&#34;865&#34;
+	height=&#34;692&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_972ed2acfbe62d02.jpeg 480w, http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_6c8ec60a0d7f6f63.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://scimaps.org/mapdetail/the_millennium_devel_90/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Millennium Development Goals Map&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Katy Börner — Atlas of Knowledge&lt;/li&gt;
+&lt;li&gt;Isabel Meirelles — Design For Information&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
+        <link>http://localhost:1313/dot-map/</link>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/dot-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
+個別の現象が、どのような地理的分布をしているのかを確認します。&lt;/p&gt;
+&lt;p&gt;分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。&lt;/p&gt;
+&lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
+&lt;p&gt;見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;地元民と観光客-写真撮影場所の違い東京編&#34;&gt;地元民と観光客 写真撮影場所の違い（東京編）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Flickrにアップロードされた写真を分析し、フォトグラファーを以下のように3つのグループに分類し、撮影地点をそれぞれ異なる色の点で示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;地元民（青い点）：同じ都市で1ヶ月以上撮影した人の写真&lt;/li&gt;
+&lt;li&gt;観光客（赤い点）：観光客は2つの基準によって定義されます。この都市で1ヶ月未満で写真を撮った人で、かつ別の都市の写真の枚数からそこの都市が地元であると推測される人の写真&lt;/li&gt;
+&lt;li&gt;未定義（黄色い点）：地元民か観光客かを判断することができなかった人の写真&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Locals and Tourists #5 (GTWA #20): Tokyo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;地元民と観光客-ツイート場所の違い東京編&#34;&gt;地元民と観光客 ツイート場所の違い（東京編）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1.png&#34;
+	width=&#34;2898&#34;
+	height=&#34;1802&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;385px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://labs.mapbox.com/labs/twitter-gnip/locals/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Locals &amp;amp; Tourists – Tokyo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;racial-dot-mapプロジェクト&#34;&gt;Racial Dot Mapプロジェクト
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/racialdotmap.png&#34;
+	width=&#34;2877&#34;
+	height=&#34;1949&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+	width=&#34;2875&#34;
+	height=&#34;1948&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Map of White Supremacy’s history of lynchings&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;john-snows-map-of-cholera-outbreaks&#34;&gt;John Snow’s map of cholera outbreaks
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
+	width=&#34;1400&#34;
+	height=&#34;1305&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;257px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ロンドン南部の1854年のコレラ流行を描いています。
+コレラが、当時信じられていたように、空気感染の病気ではなく、水で感染する病気であると主張するための地図です。円で表されているのが水源で、個々の死亡者数はバーで表されています。ドット分布マップと比例シンボル・マップの手法の組み合わさったものといえそうです。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;John Snow’s map of cholera outbreaks&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;問題点&#34;&gt;問題点
+&lt;/h2&gt;&lt;p&gt;同一の緯度経度を持つデータポイントが複数ある場合、注意が必要です。使用するツールによっては、同一の緯度経度であっても、重ならないように表示するアルゴリズムを採用しているものがあります。&lt;/p&gt;
+&lt;p&gt;同一の緯度経度を持つデータポイントが複数あって上手く処理できなかったり、あるエリアに固まってまともに描画できない、などの場合、点のデータを面（サーフェイス）に変換する方法を使います。その場合、長方形や菱形、六角形などのグリッド化や、行政区割のデータを用いたりします。&lt;/p&gt;</description>
         </item>
         <item>
         <title>比例シンボル・マップ(Proportional Symbol Map)</title>
@@ -276,6 +782,61 @@
 &lt;li&gt;Isabel Meirelles — Design For Information&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+        </item>
+        <item>
+        <title>コロナ禍による凡例の破綻</title>
+        <link>http://localhost:1313/corona-finviz-map/</link>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/corona-finviz-map/</guid>
+        <description>&lt;img src="http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
+&lt;p&gt;日本でいうところの日経平均にあたる、アメリカS&amp;amp;P500の時価総額の増減をツリーマップ形式で提供しているFinVizというサイトがあります。&lt;/p&gt;
+&lt;p&gt;これが本日（2020年7月20日）時点での市場の様子です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;1507&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507_hu_2400107edc7973c5.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507_hu_a57ddb7ea061f46b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;326px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Finviz Maps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;右下に凡例があり、増減幅が、最大プラスマイナス3%で定義されています。これは、このサイトを運営していくにあたって、時価総額の増減が最大でも3%程度であろう、というところから来ています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_legend.png&#34;
+	width=&#34;716&#34;
+	height=&#34;52&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_legend_hu_e0f4c29f5497eb8.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_legend_hu_dd2baba89ae19fe3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1376&#34;
+		data-flex-basis=&#34;3304px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ところが、コロナ禍において、この凡例が破綻している時期がありました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;1507&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507_hu_fe00c361f203d354.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507_hu_51ec69d3b5886196.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;326px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20200503183217/https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://web.archive.org/web/20200503183217/https://finviz.com/map.ashx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上記は、5月3日時点のものです。全体的に真っ赤になっており、業種を選ばず時価総額が全体的に下がっていることがわかります。&lt;/p&gt;
+&lt;p&gt;このうち、AMZN（Amazon）が-7.6%の下げを記録していますが、凡例として-3%までしか想定されていないため、-3%（たとえばNVDA…Nvidia）と-7%の視覚的区別がつかない状態になってしまっています。&lt;/p&gt;
+&lt;p&gt;凡例は、平常時における増減幅の想定であり、コロナ禍がその想定を軽く超えるくらい経済に影響があったことが、こんなところからもみてとれます。&lt;/p&gt;</description>
         </item>
         <item>
         <title>GeoJsonとは</title>

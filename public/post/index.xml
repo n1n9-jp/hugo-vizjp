@@ -7,36 +7,562 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
+        <link>http://localhost:1313/writing-without-words/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/writing-without-words/</guid>
+        <description>&lt;img src="http://localhost:1313/images/image-27.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
+&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する 「Literary Organism」 はその代表例で、ジャック・ケルアックの小説 On the Road（邦題『路上』） を“文学的有機体”として表現しています。&lt;/p&gt;
+&lt;h2 id=&#34;on-the-road路上とは&#34;&gt;『On the Road（路上）』とは？
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;著者：ジャック・ケルアック（1922–1969）&lt;/li&gt;
+&lt;li&gt;邦題：『路上』&lt;/li&gt;
+&lt;li&gt;内容：主人公サル・パラダイスとディーン・モリアーティが、車やヒッチハイクでアメリカを横断する放浪の旅を描く小説。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;日本でのイメージ&#34;&gt;日本でのイメージ
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ビート・ジェネレーションの代表作として「反体制的・自由な青春の象徴」&lt;/li&gt;
+&lt;li&gt;「ロードムービー的冒険」としての旅の物語&lt;/li&gt;
+&lt;li&gt;ジャズの即興演奏のようなリズムを持つ文体&lt;/li&gt;
+&lt;li&gt;1960年代以降、日本の若者文化やカウンターカルチャーに大きな影響を与えた作品&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;h3 id=&#34;1-基本構造&#34;&gt;1. 基本構造
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;テキストは PART（部） → CHAPTERS（章） → PARAGRAPHS（段落） → SENTENCES（文） → WORDS（単語） へと階層的に分解。&lt;/li&gt;
+&lt;li&gt;中心から外へ放射状に広がり、時計回りに読むことで物語の流れを追うことができます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-記法notation&#34;&gt;2. 記法（Notation）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;図上の文や段落は「章番号.段落番号」で対応。&lt;/li&gt;
+&lt;li&gt;例：3.5 → 第3章の第5段落。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-色分けcolors&#34;&gt;3. 色分け（Colors）
+&lt;/h3&gt;&lt;p&gt;内容やテーマに応じた色の凡例（英語＋日本語併記）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dean Moriarty (Protagonist) / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
+&lt;li&gt;Bop &amp;amp; Jazz Music / ボップとジャズ音楽 … 水色&lt;/li&gt;
+&lt;li&gt;Social Events &amp;amp; Interaction / 社会的出来事と交流 … 灰色&lt;/li&gt;
+&lt;li&gt;Travel / 旅 … 薄紫&lt;/li&gt;
+&lt;li&gt;Sketches of Regional Life / 地域生活のスケッチ … 薄青&lt;/li&gt;
+&lt;li&gt;Parties, Drinking &amp;amp; Drugs / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
+&lt;li&gt;Work &amp;amp; Survival / 労働と生存 … 黄色&lt;/li&gt;
+&lt;li&gt;Sal Paradise (Narrator) / 語り手サル・パラダイス … 赤&lt;/li&gt;
+&lt;li&gt;Women, Sex, &amp;amp; Relationships / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
+&lt;li&gt;Illegal Activities &amp;amp; Police Encounters / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
+&lt;li&gt;Character Sketches / 人物描写 … 黒青&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-文の長さword-count-chart&#34;&gt;4. 文の長さ（Word Count Chart）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;各文は「語数」に比例した扇形で表現。&lt;/li&gt;
+&lt;li&gt;最長は151語で、10語ごとに凡例が用意されており、文体のリズムを視覚的に捉えられます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;他の可視化手法との比較&#34;&gt;他の可視化手法との比較
+&lt;/h2&gt;&lt;h3 id=&#34;sentence-drawings文の描画&#34;&gt;Sentence Drawings（文の描画）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;各文を線の長さや角度として描く実験。&lt;/li&gt;
+&lt;li&gt;文ごとのリズムや流れが抽象的な「線のパターン」となり、作家ごとの文体の癖が浮かび上がる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rhythm-texturesリズムの質感&#34;&gt;Rhythm Textures（リズムの質感）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;引用部分のリズムを棒状や段階的な構造で表現。&lt;/li&gt;
+&lt;li&gt;短い文が連なると密度が高まり、長い文が入ると空間が広がる。ケルアック特有の“疾走感”を体験できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;sentence-length文の長さ比較&#34;&gt;Sentence Length（文の長さ比較）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;On the Road 全文を対象に、文の長さを数値化し並べる。&lt;/li&gt;
+&lt;li&gt;長文・短文の繰り返しが視覚化され、まるで「呼吸のリズム」を観察するように文体を分析できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの手法はすべて「文章を読む体験を拡張する」ことを目的とし、同じテキストを異なる視覚化で“多面的に”見せることに意義があります。&lt;/p&gt;
+&lt;h2 id=&#34;制作背景と意図posavec-の説明より&#34;&gt;制作背景と意図（Posavec の説明より）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;プロジェクト Writing Without Words は、Posavec が MA（修士課程）で制作した研究成果。&lt;/li&gt;
+&lt;li&gt;対象データ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
+&lt;li&gt;制作方法：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
+&lt;li&gt;目的：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Posavec の「文学を視覚化する試み」は、単なるデータ可視化にとどまらず、文学鑑賞の新しい扉を開いています。
+『路上』が持つ リズム・テーマ・旅のスピリット が、図解を通して「読む」から「見る」へと変換されるとき、私たちは物語をもう一度違う角度から体験することができるのです。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/writing-without-words&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — Stefanie Posavec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://history.siggraph.org/artwork/w-bradford-paley-textarc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc – W. Bradford Paley (SIGGRAPH Archive)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</title>
+        <link>http://localhost:1313/entangled-word-bank/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/entangled-word-bank/</guid>
+        <description>&lt;img src="http://localhost:1313/entangled-word-bank/images/cover-entangled-word-bank.jpeg" alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する" /&gt;&lt;p&gt;「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。&lt;/p&gt;
+&lt;p&gt;このプロジェクトは ケンブリッジ大学のダーウィン生誕記念フェスティバルで大型バナーとして展示されたほか &lt;strong&gt;ニューヨーク近代美術館（MoMA）の展覧会「Talk to Me」&lt;/strong&gt; にも収蔵・展示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank_hu_675c4d06a1da649f.png 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank_hu_40901a4903a93dce.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文学的有機体としての構造&#34;&gt;「文学的有機体」としての構造
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/legend-organism.jpeg&#34;
+	width=&#34;1713&#34;
+	height=&#34;770&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/legend-organism_hu_28f9f7c57ce09490.jpeg 480w, http://localhost:1313/entangled-word-bank/images/legend-organism_hu_759b807bda828a3c.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;「文学的有機体」としての構造&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;222&#34;
+		data-flex-basis=&#34;533px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この作品では、ダーウィンの『種の起源』のテキスト構造を 「文学的な生物（literary organism）」 に見立てています。図の中心から外側に向かって、文章の階層が植物の枝葉のように広がっていきます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1. 中心（根元）&lt;/strong&gt; ：本の最も大きな単位である「章（chapter）」が出発点です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2. 第一層の枝&lt;/strong&gt; ：章が「節（subchapter）」へと分かれます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3. 第二層の枝&lt;/strong&gt; ：節がさらに「段落（paragraph）」に分かれます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4. 末端の葉&lt;/strong&gt; ：段落が「文（sentence）」に分かれ、ここが最小単位です。文は「小さな葉（leaflet）」として描かれます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このようにして、本全体の構造が「幹 → 枝 → 葉」に対応し、自然の有機体のような姿になります。&lt;/p&gt;
+&lt;h3 id=&#34;基本コードの帯basic-codeとは&#34;&gt;「基本コードの帯（basic code）」とは？
+&lt;/h3&gt;&lt;p&gt;図の外周には、細かい線が並んだ 帯（コード状の外環） が描かれています。これは各文の「位置情報」を示す索引のようなものです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;章、節、段落、文といった階層ごとに区切られており、外側の帯を見るだけで「どの位置にどんな文が属しているか」がわかります。&lt;/li&gt;
+&lt;li&gt;つまり、内側の樹状図（植物のような構造）と、外側の帯（基本コード）は 対応関係 にあり、「この文は本のどの場所にあったのか」をダブルで確認できる仕組みです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;読み方reading-the-organism&#34;&gt;読み方（Reading the Organism）
+&lt;/h3&gt;&lt;p&gt;画像右側に示されている通り、読み進め方は時計回りです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;上部（12時の位置）から始まり、外周の「基本コードの帯」をたどりながら右回りに進みます。&lt;/li&gt;
+&lt;li&gt;内側の構造（章 → 節 → 段落 → 文）は、帯に対応して配置されており、左端から右へ、枝が細かく分かれて文に至るという順序で読むことができます。&lt;/li&gt;
+&lt;li&gt;たとえば、ある章の左端に位置する文から読み始めると、そこから節や段落を経て、最後の文まで自然に追いかけられるように設計されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;イメージとして&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;外周の帯&lt;/strong&gt; ：本全体の「索引」や「年輪」のようなもの。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内側の枝葉&lt;/strong&gt; ：その索引に対応する「文章の実体」。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;読み方&lt;/strong&gt; ：時計回りに「成長の輪」をたどるように読む。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまりこの構造は、本のテキストを「生きた植物の姿に変換した地図のようなもの」なのです。&lt;/p&gt;
+&lt;h2 id=&#34;色が語るテキストの寿命&#34;&gt;色が語る「テキストの寿命」
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/legend-color.jpeg&#34;
+	width=&#34;877&#34;
+	height=&#34;1515&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/legend-color_hu_af3b07cd27ef62a1.jpeg 480w, http://localhost:1313/entangled-word-bank/images/legend-color_hu_1e4a6b93c352f75.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;色の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;57&#34;
+		data-flex-basis=&#34;138px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;本作では、各「文」の寿命を 色の変化 で表しています。色は「その文がいつ加えられ、いつまで残り続けたか」を一目でわかるようにデザインされています。&lt;/p&gt;
+&lt;h3 id=&#34;青緑黒テキストが生き残っている場合&#34;&gt;青緑〜黒（テキストが“生き残っている”場合）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;青緑の文は「最近の版で新しく加えられた文」を意味します。&lt;/li&gt;
+&lt;li&gt;そこから版を重ねても削除されずに生き残ると、色がだんだん濃く変化していきます。&lt;/li&gt;
+&lt;li&gt;つまり、色が淡いほど“新入りの文”、濃くなるほど“長く生き残っている古参の文” だと理解できます。&lt;/li&gt;
+&lt;li&gt;最も濃い黒に近い色は「第1版から最後の第6版までずっと残り続けた文」です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;オレンジ系テキストが削除された場合&#34;&gt;オレンジ系（テキストが“削除された”場合）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;薄いオレンジは「加えられた直後に次の版で削除された文」を示します。&lt;/li&gt;
+&lt;li&gt;濃いオレンジになるほど「複数の版にわたってしばらく存在したが、その後で削除された文」であることを意味します。&lt;/li&gt;
+&lt;li&gt;たとえば鮮やかなオレンジなら「3〜4版分は生き残ったが、結局は削除された文」です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして見ると、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;青緑〜黒&lt;/strong&gt; は「その時点でまだ残っている現役の文」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オレンジ&lt;/strong&gt; は「すでに削除され、そこで役割を終えた文」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を表していることになります。ひとつの文が同時に青緑（生存中）とオレンジ（削除済み）で表示されることはありません。&lt;/p&gt;
+&lt;p&gt;流れとしては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;文が追加される → 青緑で登場&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;版を重ねて残れば → 色が濃くなり黒に近づく&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;ある版で削除される → その時点で最後に「オレンジ」で表示され、以降は図に現れなくなる&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という仕組みです。&lt;/p&gt;
+&lt;p&gt;このルールを理解すると、円形の図から「どの文がどの時点で登場し、どれだけ生き延び、どの時点で姿を消したか」が一目で読み取れるようになります。&lt;/p&gt;
+&lt;h2 id=&#34;読み方と展開&#34;&gt;読み方と展開
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各版のテキストは 時計回りに配置され、第1版から始まり、第6版で円が完全に埋まるように展開します。&lt;/li&gt;
+&lt;li&gt;初版はすべてが新規テキストなので、色はもっとも淡い「挿入色」で統一されます。&lt;/li&gt;
+&lt;li&gt;最終版（第6版）には削除の色は存在せず、積み重なった挿入色が「最終形」として残ります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうして、ダーウィンの言葉がどのように加筆・削除されながら進化したかを、まるで「生物の成長」を見るかのように辿ることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9_hu_9184a16674ae8dae.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank9_hu_2ea0607494bad652.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第1・2版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10_hu_a23f31f8544da839.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank10_hu_1b7a69583dc772ff.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第3・4版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11.webp&#34;
+	width=&#34;2000&#34;
+	height=&#34;1413&#34;
+	srcset=&#34;http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11_hu_f2471dbc680c16f9.webp 480w, http://localhost:1313/entangled-word-bank/images/Entangled&amp;#43;Word&amp;#43;Bank11_hu_3146c3e91f836dc2.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;第5・6版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;デザインと展示&#34;&gt;デザインと展示
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;各版ごとの可視化は「植物標本の図譜（botanical plate）」のようにデザインされ、博物学的な雰囲気を意識しています。&lt;/li&gt;
+&lt;li&gt;実際の展示では、高さ2.5mに及ぶ大判バナーとして出力され、文字通り「生命体の成長記録」のように観察できる規模で公開されました。&lt;/li&gt;
+&lt;li&gt;MoMA の解説では、この作品は「ダーウィンの思考の変化や修正の履歴を、文単位で追えるデータアート」として評価されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;データと技術&#34;&gt;データと技術
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;データソース：ダーウィン電子テキスト・アーカイブ（darwin-online.org.uk）から入手。&lt;/li&gt;
+&lt;li&gt;技術：C++、R、Processing、Illustrator などを用いてプログラミング・データ処理・可視化を行いました。&lt;/li&gt;
+&lt;li&gt;役割分担：McInerny がデータ収集とプログラミングを担当し、Posavec と共にビジュアルデザインを設計。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「(En)tangled Word Bank」 は、ダーウィンの代表作『種の起源』の改訂史を「文の生存と死」を軸にとらえ直し、テキストをまるで「進化する生物」のように見せる革新的な可視化作品です。&lt;/p&gt;
+&lt;p&gt;ここには、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;科学史における重要な書物の「編集の軌跡」&lt;/li&gt;
+&lt;li&gt;文学的・生物学的なメタファーをかけ合わせたデザイン&lt;/li&gt;
+&lt;li&gt;データ処理・プログラミング・グラフィックデザインの融合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が凝縮されています。&lt;/p&gt;
+&lt;p&gt;ダーウィンが生命の進化を描いたその書物自体が、版を重ねる中で「進化」していく様子を、視覚的かつ詩的に示す作品といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/entangled-word-bank&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stefanie Posavec 公式サイト: (En)tangled Word Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/interactives/exhibitions/2011/talktome/objects/145525/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MoMA 展覧会ページ: Talk to Me (En)tangled Word Bank&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>TextArc: アリスを「眺める」ための地図</title>
+        <link>http://localhost:1313/textarc/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/textarc/</guid>
+        <description>&lt;img src="http://localhost:1313/textarc/images/367_text-arc.png" alt="Featured image of post TextArc: アリスを「眺める」ための地図" /&gt;&lt;p&gt;2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/textarc/images/367_text-arc.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;http://localhost:1313/textarc/images/367_text-arc_hu_257643caf11eb7af.png 480w, http://localhost:1313/textarc/images/367_text-arc_hu_299929e0a45023b2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の仕組み&#34;&gt;作品の仕組み
+&lt;/h2&gt;&lt;p&gt;TextArc では、物語の全文が 円環状の螺旋 に沿って微細な文字で並べられています。これだけでは単なる全文表示ですが、Paley の工夫はそこからさらに進みます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;出現頻度の高い単語は、中央に大きく浮かび上がる。&lt;/li&gt;
+&lt;li&gt;出現位置は、外周テキストと中央の単語を結ぶ線で示される。&lt;/li&gt;
+&lt;li&gt;こうして、「その単語がどの場面で、どれほど繰り返し登場するか」を一目で把握できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば「Alice」は中心に明るく輝き、多数の線で物語全体に結び付けられています。一方で、1回しか登場しない単語は外縁に小さく沈み込み、背景の星屑のように散らばります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/textarc/images/367_text-arc-closeup.png&#34;
+	width=&#34;1292&#34;
+	height=&#34;2024&#34;
+	srcset=&#34;http://localhost:1313/textarc/images/367_text-arc-closeup_hu_2fb7518b5bef13ab.png 480w, http://localhost:1313/textarc/images/367_text-arc-closeup_hu_9d2af4c773581284.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;63&#34;
+		data-flex-basis=&#34;153px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;評価と文脈&#34;&gt;評価と文脈
+&lt;/h2&gt;&lt;p&gt;この作品は 第6回文化庁メディア芸術祭 デジタルアート（非インタラクティブ部門）大賞 を受賞しました。審査員は「データ分析と芸術表現を融合させた稀有な試み」と評し、可読性を保ちながら文学の全体像を新しい視点で可視化した点を高く評価しています。&lt;/p&gt;
+&lt;p&gt;さらに、SIGGRAPH のアーカイブに登録されることで、デジタルアートやコンピュータグラフィックスの歴史の中でも重要な位置を占める作品とされています。
+加えて、Archive of Digital Art (ADA) では「文学とインタラクティブアートを橋渡しする作品」として紹介されており、単なるアート作品にとどまらず、テキストを読むための新しいインターフェースの探求という文脈に置かれています。&lt;/p&gt;
+&lt;h2 id=&#34;作品が示すもの&#34;&gt;作品が示すもの
+&lt;/h2&gt;&lt;p&gt;TextArc は、「本を読む」という行為を別の角度から体験させます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全体の俯瞰：物語全体を一望できる。&lt;/li&gt;
+&lt;li&gt;出現のパターン：どの単語が繰り返され、どこで現れるかを直感的に把握できる。&lt;/li&gt;
+&lt;li&gt;美的体験：文字が星座のように散りばめられ、テキストが「宇宙」として立ち現れる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それはまるで、文学作品を「文学的な銀河」として再発見する体験でもあります。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;TextArc: Alice’s Adventures in Wonderland は、文学とデータ可視化、アートと分析をまたぐ稀有な試みです。
+文学作品をただ読むのではなく、言葉の出現と消失、中心と周縁をひとつの地図に描き出す。そこから見えてくるのは、テキストそのものの「もうひとつの姿」です。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://j-mediaarts-festival.bunka.go.jp/award/single/textarc-print-alices-adventure-in-wonderland/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc print: Alice&amp;rsquo;s Adventure in Wonderland - 文化庁メディア芸術祭&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://history.siggraph.org/artwork/w-bradford-paley-textarc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;W. Bradford Paley: TextArc – ACM SIGGRAPH HISTORY ARCHIVES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc - ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</title>
+        <link>http://localhost:1313/history-flow/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/history-flow/</guid>
+        <description>&lt;img src="http://localhost:1313/history-flow/images/chocolate-1.jpeg" alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語" /&gt;&lt;p&gt;私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。その舞台裏では、協力や対立、破壊と修復といった人間的な営みが絶えず繰り広げられています。&lt;/p&gt;
+&lt;p&gt;この「見えないダイナミクス」を可視化したのが History Flow です。2004年の国際会議 CHI で発表され、ニューヨーク近代美術館（MoMA）にも収蔵されたこの可視化は、単なる学術研究を超えて、アート作品としても高く評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;誰が作ったのか--開発の背景&#34;&gt;誰が作ったのか？ ― 開発の背景
+&lt;/h2&gt;&lt;p&gt;History Flow を開発したのは、Fernanda B. Viégas と Martin Wattenberg を中心とする研究チーム（MIT Media Lab と IBM Research）。2003年当時、Wikipedia は創設からわずか2年、まだ存在自体を疑う声も多く、「素人の寄せ集めで本当に百科事典が成立するのか？」と懐疑的に見られていました。&lt;/p&gt;
+&lt;p&gt;研究者たちは「なぜでたらめに見えるプロセスから高品質な記事が生まれるのか？」という疑問を出発点に、Wikipedia の膨大な編集履歴を分析するために History Flow を設計しました。&lt;/p&gt;
+&lt;h2 id=&#34;history-flow-の仕組み&#34;&gt;History Flow の仕組み
+&lt;/h2&gt;&lt;p&gt;History Flow は文書の改訂履歴を「流れ」として描きます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;横軸：時間（改訂の順序や日付）&lt;/li&gt;
+&lt;li&gt;縦軸：文書のテキスト位置&lt;/li&gt;
+&lt;li&gt;色：著者ごとの貢献部分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;帯が長く残れば「その著者の文章が生き残った」ことを意味し、帯が途切れれば削除を、ジグザグに色が切り替われば「編集戦争」を示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/legend.png&#34;
+	width=&#34;2546&#34;
+	height=&#34;1947&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/legend_hu_ab7bb28a07b07f6e.png 480w, http://localhost:1313/history-flow/images/legend_hu_762b54dda694233d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;313px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;色の割り当てには Java のハッシュ値を利用し、同じ著者は常に同じ色になるよう工夫されています。匿名編集は灰色で表されました。&lt;/p&gt;
+&lt;p&gt;また、インタラクションとして「特定の著者だけを強調表示する」機能も備えられ、研究ツールとしての完成度を高めました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/first-version.jpeg&#34;
+	width=&#34;659&#34;
+	height=&#34;688&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/first-version_hu_3c24c0707fb8e46c.jpeg 480w, http://localhost:1313/history-flow/images/first-version_hu_49fcbd88b397ba3b.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;当初のヴァージョン&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;229px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;当初は線の骨格だけの可視化でしたが、試行錯誤の末に帯を塗りつぶし、著者ごとに色を割り当てることで直感的にわかりやすくなりました。&lt;/p&gt;
+&lt;h2 id=&#34;ケーススタディ1-chocolate---編集戦争の痕跡&#34;&gt;ケーススタディ1： 「Chocolate」 - 編集戦争の痕跡
+&lt;/h2&gt;&lt;p&gt;最も有名な事例のひとつが Wikipedia の 「Chocolate（チョコレート）」記事 です。History Flow の図をみると、右半分に鋭いジグザグ模様が現れています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/chocolate-1.jpeg&#34;
+	width=&#34;1148&#34;
+	height=&#34;881&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/chocolate-1_hu_ce5aa752410cffa3.jpeg 480w, http://localhost:1313/history-flow/images/chocolate-1_hu_ea8ccb8e02e1533d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チョコレート記事-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/chocolate-2.jpeg&#34;
+	width=&#34;1152&#34;
+	height=&#34;874&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/chocolate-2_hu_5c41706044c9f62d.jpeg 480w, http://localhost:1313/history-flow/images/chocolate-2_hu_a5d7a7c77fdcf7fa.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;チョコレート記事-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これは「coulage（クーラージュ）」というチョコレート彫刻技法の段落をめぐって起きた編集戦争の痕跡です。二人の編集者が互いに挿入・削除を12回も繰り返し、最終的にはその段落が完全に削除されることで決着しました。&lt;/p&gt;
+&lt;p&gt;ジグザグ模様は、意見の対立と論争の緊張感を視覚的に映し出しています。&lt;/p&gt;
+&lt;h2 id=&#34;ケーススタディ2-abortion---荒らしと自浄作用&#34;&gt;ケーススタディ2： 「Abortion」 - 荒らしと自浄作用
+&lt;/h2&gt;&lt;p&gt;一方で、「Abortion（中絶）」記事 は別のパターンを示しました。&lt;/p&gt;
+&lt;p&gt;History Flow の図では、ページ全体が突然途切れる「黒い切れ目（gutters）」が現れます。これは記事の大半が削除される「mass deletion（大規模削除）」という典型的なバンダリズムです ￼。&lt;/p&gt;
+&lt;p&gt;ところが、時間軸を「実際の日時」に合わせて表示すると、この切れ目はほとんど見えなくなります。なぜなら、荒らしはわずか数分で修復されていたからです。統計的にも、大規模削除の半分は3分以内に修正され、下品な語を含む荒らしは中央値で2分以内に消去されていました。&lt;/p&gt;
+&lt;p&gt;「Abortion」記事は、Wikipedia の驚異的な 自浄作用 を象徴する例となりました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/abortion-1.jpeg&#34;
+	width=&#34;1187&#34;
+	height=&#34;789&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/abortion-1_hu_b57f532cb91a70b0.jpeg 480w, http://localhost:1313/history-flow/images/abortion-1_hu_7a63458eedbc778a.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;中絶記事-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/history-flow/images/abortion-2.jpeg&#34;
+	width=&#34;1146&#34;
+	height=&#34;874&#34;
+	srcset=&#34;http://localhost:1313/history-flow/images/abortion-2_hu_2c3305c067784785.jpeg 480w, http://localhost:1313/history-flow/images/abortion-2_hu_79ca436b6031b990.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;中絶記事-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;314px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;典型的なパターン&#34;&gt;典型的なパターン
+&lt;/h2&gt;&lt;p&gt;Viégas らの研究は、70以上の記事を分析し、次のようなパターンを浮かび上がらせました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;バンダリズムと修復&lt;/strong&gt; 大規模な削除や悪ふざけの挿入は頻繁に起こるが、半数はわずか数分で修復された。特に下品な荒らしは中央値で2分以内に消されていた。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;編集戦争（Edit Wars）&lt;/strong&gt; 複数人が交互に元に戻し続ける「ジグザグ模様」。Chocolate 記事はその代表例。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;著者性と匿名性&lt;/strong&gt; 匿名編集の割合は記事ごとに大きく異なる。Microsoft 記事は匿名が多く、Mythology 記事はほとんど登録ユーザーによる編集だった。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;コンテンツの不安定性&lt;/strong&gt; 記事は「完成」に近づくのではなく、常に変動し続ける。特に最初に書かれたテキストは生き残りやすい「first mover advantage」が観察された。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技術的な舞台裏&#34;&gt;技術的な舞台裏
+&lt;/h2&gt;&lt;p&gt;この可視化を成立させるためには、データ処理の工夫も必要でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;差分アルゴリズム&lt;/strong&gt; &amp;hellip;単語の入れ替えや移動を追跡するために、Paul Heckel（1978）のアルゴリズムを採用。これにより「quick → big」や「post → pots」といった変化も正しく検出できました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X軸の設計&lt;/strong&gt; &amp;hellip;バージョン番号で等間隔表示する方法と、実際の時間間隔に比例させる方法の2種類を提供。編集の「リズム」を明らかにできました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ユーザーインターフェース&lt;/strong&gt; &amp;hellip;可視化とテキストビューを連動させ、マウス操作で特定の場所の本文を即座に確認できる仕組みを実装。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;発展--chromogram-へ&#34;&gt;発展 ― Chromogram へ
+&lt;/h2&gt;&lt;p&gt;2006年以降、研究チームは Chromogram という新しい可視化を試みます。これは、編集者や管理者の活動を時間軸上にピクセルで塗り重ねる手法です。&lt;/p&gt;
+&lt;p&gt;驚くべき発見のひとつは、「虹のような模様」として現れたボットの活動でした。ボットがアルファベット順に記事を巡回・編集していた痕跡が、視覚的に浮かび上がったのです。これは Wikipedia の進化における自動化の重要性を示す象徴的な発見となりました。&lt;/p&gt;
+&lt;h2 id=&#34;可視化の意義&#34;&gt;可視化の意義
+&lt;/h2&gt;&lt;p&gt;History Flow の意義は、単に「面白い図を描いた」ということではありません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;荒らしがすぐに修復される「自浄作用」を実証&lt;/li&gt;
+&lt;li&gt;編集戦争や合意形成のパターンを直感的に示した&lt;/li&gt;
+&lt;li&gt;ボットや匿名編集といった Wikipedia 独自の文化を浮き彫りにした&lt;/li&gt;
+&lt;li&gt;そして、一般の人々に「知識がどのように作られていくのか」という舞台裏を鮮やかに伝えた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした点から、History Flow はデータビジュアライゼーションの傑作であると同時に、文化的にも意義深い作品といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bewitched.com/historyflow.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;History Flow (Martin Wattenberg 公式サイト)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://dl.acm.org/doi/10.1145/985692.985765&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Studying Cooperation and Conflict between Authors with History Flow Visualizations (CHI 2004 論文)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20180627195604/http://fernandaviegas.com/wikipedia.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fernanda B. Viégas: Visualizing Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/IBM_History_Flow_tool&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IBM History Flow tool - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.moma.org/collection/works/110349&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;History Flow – MoMA Collection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/sunburst/</guid>
-        <description>&lt;img src="http://localhost:1313/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。
-最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
+&lt;p&gt;最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/cover-Sunburst.jpg&#34;
+	width=&#34;890&#34;
+	height=&#34;445&#34;
+	srcset=&#34;http://localhost:1313/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:1313/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;サンバースト・チャートは以下のようにも呼ばれています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Radial Treemap（放射状トリーマップ）&lt;/li&gt;
-&lt;li&gt;Multi-level Pie Chart（多層円グラフ）&lt;/li&gt;
-&lt;li&gt;Ring Chart（リングチャート）&lt;/li&gt;
+&lt;li&gt;放射状トリーマップ（Radial Treemap）&lt;/li&gt;
+&lt;li&gt;多層円グラフ（Multi-level Pie Chart）&lt;/li&gt;
+&lt;li&gt;リングチャート（Ring Chart）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;誰が作ったのか--起源の探究&#34;&gt;誰が作ったのか ― 起源の探究
 &lt;/h2&gt;&lt;p&gt;サンバースト・チャートは「誰が最初に作ったか」を一人に特定することはできません。歴史を追うと、いくつかの重要な系譜が見えてきます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;1.19世紀末（1890年）
+&lt;li&gt;&lt;strong&gt;1. 19世紀末（1890年）&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;Lawrence W. Fike による動物分類の同心円チャート（zoological concentric chart）が知られています。&lt;/li&gt;
 &lt;li&gt;科 → 属 → 種といった階層を円環で表す教育・分類目的の可視化であり、現代的サンバーストの先駆的事例とされています。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;2.1921年（米国機械工学誌 “Mechanical Engineering”）
+&lt;li&gt;&lt;strong&gt;2. 1921年（米国機械工学誌 “Mechanical Engineering”）&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;1910〜1919年における米国連邦政府の年間支出構成を示す可視化が「sunburst diagram」として紹介されたという記録があります。&lt;/li&gt;
 &lt;li&gt;ここでは経済データ（支出カテゴリ）を階層的に分解して示す試みが行われました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;3.2000年頃（John Stasko, Georgia Tech）
+&lt;li&gt;&lt;strong&gt;3. 2000年頃（John Stasko, Georgia Tech）&lt;/strong&gt;
 &lt;ul&gt;
 &lt;li&gt;情報可視化研究の中で、Treemap に代わる「放射状の space-filling 可視化」として体系的に導入されました。&lt;/li&gt;
 &lt;li&gt;特に ファイルシステムの構造、Webサイト遷移、ソフトウェアパッケージの構成など、コンピュータ科学の文脈で大規模な階層を探索的に理解する目的で用いられています。&lt;/li&gt;
@@ -58,19 +584,13 @@
 &lt;li&gt;&lt;strong&gt;2.部分と全体の関係を示す&lt;/strong&gt; &amp;hellip;各階層が親カテゴリに対してどれほどの割合を持つかを可視化できる。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;3.空間効率&lt;/strong&gt; &amp;hellip;Treemap と比べて放射状に展開できるため、深い階層でも相対的にスペースを確保しやすい。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;サンバーストチャートの欠点注意点&#34;&gt;サンバースト・チャートの欠点・注意点
+&lt;h2 id=&#34;サンバーストチャートの欠点や注意点&#34;&gt;サンバースト・チャートの欠点や注意点
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;階層が深いと外側が細かくなり読みにくい。&lt;/li&gt;
-&lt;li&gt;角度比較は人間にとって難しいため、精密な比較には不向き。&lt;/li&gt;
+&lt;li&gt;角度の比較は人間にとって難しいため、精密な比較には不向き。&lt;/li&gt;
 &lt;li&gt;階層間の面積不整合が生じる場合があり、同じ値でも見た目が異なることがある。&lt;/li&gt;
 &lt;li&gt;隣接関係に意味がない場合があるため、並びの解釈には注意が必要。&lt;/li&gt;
-&lt;li&gt;ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要です。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;実装と普及&#34;&gt;実装と普及
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Microsoft Excel（2016以降）&lt;/strong&gt; ：「階層チャート」としてサポートされ、簡単に作成可能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;D3.js, Plotly, Python（plotly express, matplotlib 拡張）&lt;/strong&gt; ：labels と parents の指定により階層構造を描画可能。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;BIツール（Zoho Analytics, FusionCharts など）&lt;/strong&gt; ：サンバーストを標準機能として搭載し、売上・組織構造の分析に利用。&lt;/li&gt;
+&lt;li&gt;ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;サンバースト・チャートは、「誰か一人の発明」ではなく、複数の歴史的流れの中で育まれてきた可視化手法です。&lt;/p&gt;
@@ -82,11 +602,229 @@
 &lt;p&gt;今日では、階層データを「全体から部分へ」と直感的に探索できる方法として、教育・行政・研究・ビジネスの幅広い分野で活用されています。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://think.design/services/data-visualization-data-design/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Think.Design – Sunburst: A Circular Visualization Technique&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sites.cc.gatech.edu/gvu/ii/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Georgia Tech – SunBurst Page (Stasko Lab)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/endless-river-an-overview-of-dataviz-for-categorical-data/#a334&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Endless River: An Overview of Dataviz for Categorical Data | Nightingale&lt;/a&gt;&lt;/li&gt;
+    &gt;NightingaleDVS – Endless River: An Overview of Dataviz for Categorical Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardbrath.wordpress.com/2018/08/31/why-history-matters-in-data-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Richard Brath – Why history matters in data visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/John_Stasko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – John Stasko&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://drops.dagstuhl.de/storage/01oasics/oasics-vol027-vluds2012-irtg1131/OASIcs.VLUDS.2011.25/OASIcs.VLUDS.2011.25.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualization and Evolution of Software Architectures (OASIcs 2011)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chartexpo.com/blog/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Sunburst Chart: The Format That Fails at Layer Three – ChartExpo Blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化</title>
+        <link>http://localhost:1313/digital-nostalgia/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/digital-nostalgia/</guid>
+        <description>&lt;img src="http://localhost:1313/digital-nostalgia/images/cover-LifeOnline.jpeg" alt="Featured image of post デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化" /&gt;&lt;p&gt;グラフィックデザイナー Paul Butt による Digital Nostalgia シリーズは、近年のデジタル技術の急速な進化を振り返り、その背後にある社会的影響や「ノスタルジー（懐旧感）」を浮かび上がらせることを目的としています。今回紹介するポスター 「Life Online」 は、インターネットの誕生から2000年代初頭までの展開を俯瞰するインフォグラフィックです。&lt;/p&gt;
+&lt;h2 id=&#34;シリーズの背景&#34;&gt;シリーズの背景
+&lt;/h2&gt;&lt;p&gt;シリーズは以下の4テーマで構成されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インターネット&lt;/li&gt;
+&lt;li&gt;音声・映像フォーマット&lt;/li&gt;
+&lt;li&gt;コンピュータ記憶媒体&lt;/li&gt;
+&lt;li&gt;モバイル通信&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それぞれタイムライン形式のポスターで表現され、単なる技術史の年表ではなく「古い技術がいかに急速に陳腐化していったか」「その過程で生まれた文化的・社会的な波紋」を浮かび上がらせています。&lt;/p&gt;
+&lt;h2 id=&#34;life-onlineの概要&#34;&gt;「Life Online」の概要
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/digital-nostalgia/images/LifeOnline.jpeg&#34;
+	width=&#34;1830&#34;
+	height=&#34;2596&#34;
+	srcset=&#34;http://localhost:1313/digital-nostalgia/images/LifeOnline_hu_3c01d5f85004e5ca.jpeg 480w, http://localhost:1313/digital-nostalgia/images/LifeOnline_hu_9bce717bc50fb232.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Digital Nostalgia – Life Online&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;今回紹介する「Life Online」 は、インターネットの誕生から2000年代初頭までの展開を俯瞰する作品です。&lt;/p&gt;
+&lt;h3 id=&#34;上部主要サービスの利用者数&#34;&gt;上部：主要サービスの利用者数
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Google、Yahoo、Facebook、MSN、YouTube、eBay、Twitter など主要Webサービスの月間ユニークビジター数を棒グラフで可視化。&lt;/li&gt;
+&lt;li&gt;各サービスがどの年に登場し、どのような速度でユーザーを獲得していったのかを一望できます。&lt;/li&gt;
+&lt;li&gt;例えば、GoogleやYouTubeの急成長、Facebookの爆発的普及など、インターネット時代を象徴する動きが数字として明示されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;中央文化事件技術のタイムライン&#34;&gt;中央：文化・事件・技術のタイムライン
+&lt;/h3&gt;&lt;p&gt;横軸に時間（1970年代〜2000年代）、縦軸に「カテゴリー（Culture / Abuse / Technology）」を配置し、重要な出来事を色分けしたボックスで表現しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Culture（文化）&lt;/strong&gt; ネット文化の象徴（Dancing Baby、オンライン投票）、映画作品（『Hackers』『The Blair Witch Project』『WarGames』）など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abuse（悪用・事件）&lt;/strong&gt; 初期スパム、Creeper ウイルス、ILOVEYOU ウイルス、ドメイン攻撃、米国のサイバーセキュリティ政策など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology（技術）&lt;/strong&gt; ARPANETの誕生、WWW公開、FlashやMP3の普及、ブロードバンドの急速拡大など。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうしたイベント群は「技術革新」「文化現象」「リスクの拡大」が同時並行で進行してきたことを直感的に伝えています。&lt;/p&gt;
+&lt;h3 id=&#34;背景インターネット接続数の推移&#34;&gt;背景：インターネット接続数の推移
+&lt;/h3&gt;&lt;p&gt;図全体の背景にあるグレイの棒グラフは「インターネットに接続されたコンピュータ台数（Computers Connected To The Internet）」 を示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;右上に最大値 1,596m（約15億9600万台）と明記。&lt;/li&gt;
+&lt;li&gt;1970年代のARPANET黎明期（数台〜数百台規模）から、2000年代にかけて指数関数的に増加。&lt;/li&gt;
+&lt;li&gt;前景の出来事やサービスの普及と重なり「物理的な基盤の爆発的拡大」と「それがもたらした文化的・社会的展開」を二層構造で理解できるようになっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;図の読み解き方&#34;&gt;図の読み解き方
+&lt;/h2&gt;&lt;p&gt;この図は、以下の3つの視点を重ね合わせて読むと理解が深まります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.技術の軌跡（下段 Technology）&lt;/strong&gt; インフラやソフトウェアの進化を追う。ARPANETからWWW、Flash、ブロードバンドまで。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.社会の影響（中央 Culture / Abuse）&lt;/strong&gt; 技術がカルチャーに取り込まれる瞬間や、犯罪・攻撃に利用される側面を同じ年表上で確認。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.物理的な規模の拡大（背景棒グラフ + 上段サービス利用者数）&lt;/strong&gt; 接続台数とサービス利用者数が爆発的に増加していくスピード感を可視化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この3つの層を同時に視覚化することで、「インターネットの歴史」が単なる進歩の列挙ではなく、社会全体を揺るがす大規模なうねりとして描かれています。&lt;/p&gt;
+&lt;h2 id=&#34;なぜノスタルジーなのか&#34;&gt;なぜ「ノスタルジー」なのか
+&lt;/h2&gt;&lt;p&gt;タイトルの「デジタル・ノスタルジア（Digital Nostalgia）」は、このポスターが単なるデータ可視化ではなく、すでに過去となったデジタル文化への郷愁を込めている点を指しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;初期インターネット文化&lt;/strong&gt; ：Dancing BabyやNapsterのような出来事は、今や「懐かしいインターネットの象徴」として語られます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;失われた技術&lt;/strong&gt; ：Flashや初期ブラウザ戦争は、当時のインターネット体験を強く特徴づけましたが、すでに廃れてしまいました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黎明期の熱狂&lt;/strong&gt; ：ARPANETから始まるインターネット拡張の軌跡は、技術者やユーザーにとって強い思い出と結びついています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この図を見ること自体が、閲覧者に「自分がいつ、どのようにインターネットを経験したか」を思い出させ、個人の記憶と社会史が交錯するノスタルジー体験を呼び起こすのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Paul Butt の Digital Nostalgia シリーズは、デジタル技術の進化を「ノスタルジー」という視点で再構築したユニークな作品群です。&lt;/p&gt;
+&lt;p&gt;特に「Life Online」は、インターネット黎明期から2000年代初頭までの劇的な発展を、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;技術革新（Technology）&lt;/li&gt;
+&lt;li&gt;文化的な出来事（Culture）&lt;/li&gt;
+&lt;li&gt;リスクや犯罪（Abuse）&lt;/li&gt;
+&lt;li&gt;インフラ規模の増加（背景棒グラフ）&lt;/li&gt;
+&lt;li&gt;サービス普及数（上段棒グラフ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を重ね合わせることで多層的に描き出しています。&lt;/p&gt;
+&lt;p&gt;単なる「進歩の歴史」ではなく、すでに懐かしさを帯び始めているインターネット文化そのものを記録する、このシリーズの狙いがよく表れていると言えるでしょう。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス</title>
+        <link>http://localhost:1313/mission-to-mars/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/mission-to-mars/</guid>
+        <description>&lt;img src="http://localhost:1313/mission-to-mars/images/cover.jpeg" alt="Featured image of post 火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス" /&gt;&lt;p&gt;人類にとって火星は、もっとも近い「他の惑星」として、長いあいだ夢と挑戦の対象であり続けてきました。1960年代から今日まで、各国の宇宙機関は数多くの火星探査ミッションを打ち上げてきましたが、その道のりは決して平坦ではありません。むしろ初期のころは、失敗の連続だったのです。&lt;/p&gt;
+&lt;p&gt;そんな挑戦の歴史を一枚の図に凝縮したのが、Bryan Christie Design によるインフォグラフィックス「Mission(s) to Mars」です。もともとはテクノロジー雑誌 IEEE Spectrum に掲載された作品で、従来は表やリストで示されることが多かった「ミッション一覧」を、直感的に理解できるようにデザインし直しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mission-to-mars/images/mission-to-mars.jpeg&#34;
+	width=&#34;1433&#34;
+	height=&#34;1917&#34;
+	srcset=&#34;http://localhost:1313/mission-to-mars/images/mission-to-mars_hu_b2b7992aa5f3e9bb.jpeg 480w, http://localhost:1313/mission-to-mars/images/mission-to-mars_hu_ac673ea0e2b37dd4.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mission(s) to Mars&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;74&#34;
+		data-flex-basis=&#34;179px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図の読み解き方&#34;&gt;図の読み解き方
+&lt;/h2&gt;&lt;p&gt;この図の魅力は、情報が「火星に届くかどうか」という一点を中心に再構成されていることです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;全体構成&lt;/strong&gt; 中央には火星があり、左から右へ時間が流れます。1960年代から現代までのミッションが放射状に並び、時代の移り変わりを直感的にたどることができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バー（帯）の意味&lt;/strong&gt; ミッションの「結果」と「到達度合い」を表現しています。途中で終わっていれば失敗、火星に届けば成功。さらに、着陸やローバー運用まで進めば、バーは火星の表面にまで伸びています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色分け（国別）&lt;/strong&gt; 赤はソビエト連邦、青はアメリカ、紫は日本、水色はESA、オレンジはロシアといった具合に、国や機関ごとの挑戦を区別しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;記号（探査タイプ）&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;○ フライバイ&lt;/li&gt;
+&lt;li&gt;◐ オービター&lt;/li&gt;
+&lt;li&gt;◑ ランダー&lt;/li&gt;
+&lt;li&gt;◎ ローバー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と記号が整理され、帯の終点を見ればどんな探査を目指したのかが分かります。&lt;/p&gt;
+&lt;p&gt;このように &lt;strong&gt;「時間・国・方法・成果」&lt;/strong&gt; という4つの要素が一つのデザインの中で重ね合わせられています。&lt;/p&gt;
+&lt;h2 id=&#34;歴史の流れを図から読む&#34;&gt;歴史の流れを図から読む
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1960年代&lt;/strong&gt; ：ソ連とアメリカが競うように打ち上げるが、ほとんどが失敗。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1965年 Mariner 4（米）&lt;/strong&gt; ：初めて火星接近に成功、21枚の画像を送信。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1971年 Mars 3（ソ連）&lt;/strong&gt; ：世界初の着陸成功。しかし20秒で通信途絶。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;1976年 Viking 1 &amp;amp; 2（米）&lt;/strong&gt; ：安定した着陸と長期探査に成功。火星探査の大きな転換点。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2000年代以降&lt;/strong&gt; ：NASAのローバー（Spirit, Opportunity）や欧州の Mars Express が次々成功。長期間データを収集し、科学成果を拡大。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;図の読み方を踏まえて眺めると、当初は「失敗の連続」だった火星探査が、21世紀に入ると「成功の蓄積」へと変化していった様子が一目で分かります。&lt;/p&gt;
+&lt;h2 id=&#34;この図が伝えること&#34;&gt;この図が伝えること
+&lt;/h2&gt;&lt;p&gt;「Mission(s) to Mars」は、単なる年表や数字の羅列ではなく、人類の挑戦の歴史をひと目で物語るビジュアルです。火星まで伸びる青や水色の帯は希望の軌跡であり、途中で途切れる赤い帯は試行錯誤の痕跡です。&lt;/p&gt;
+&lt;p&gt;そして、現在も未来の計画が描かれ続けているように、この物語はまだ終わっていません。失敗の積み重ねがあったからこそ、いま私たちは火星の表面をローバーで走り回り、未来の有人探査へとつながる知識を手にしているのです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://science.nasa.gov/mission/mars-express/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NASA: Mars Express mission overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esa.int/Science_Exploration/Space_Science/Mars_Express&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ESA: Mars Express (European Space Agency)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pds-geosciences.wustl.edu/missions/mars_express/default.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ESA / PDS: Mars Express data archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Mars_Express&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Mars Express&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
+        <link>http://localhost:1313/multi-color/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/multi-color/</guid>
+        <description>&lt;img src="http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/IMG_0484.jpeg&#34;
+	width=&#34;1889&#34;
+	height=&#34;2508&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, http://localhost:1313/multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;多段階の項目を可視化する工夫&#34;&gt;多段階の項目を可視化する工夫
+&lt;/h2&gt;&lt;p&gt;この地図の大きな特徴は、収量を 最大15段階に区分して表現している点です。最低値は 0.61トン/ha、最高値は約 3.4トン/ha と広いレンジをカバーし、さらに帝国平均（Reichsdurchschnitt）を境界に「平均未満」「平均以上」をはっきり分けています。&lt;/p&gt;
+&lt;p&gt;現代の感覚では15階級はかなり細かい区分ですが、当時はこれを読みやすく見せるために &lt;strong&gt;色の明るさ（淡色〜濃色）＋テクスチャ（線・波線・格子・クロスなど）&lt;/strong&gt; を組み合わせるという工夫が凝らされています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_top.jpeg&#34;
+	width=&#34;288&#34;
+	height=&#34;674&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, http://localhost:1313/multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;上（冬小麦）の地図の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;42&#34;
+		data-flex-basis=&#34;102px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_bottom.jpeg&#34;
+	width=&#34;291&#34;
+	height=&#34;708&#34;
+	srcset=&#34;http://localhost:1313/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, http://localhost:1313/multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;下（夏小麦）の地図の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;41&#34;
+		data-flex-basis=&#34;98px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;低収量（0.6〜1.8トン/ha）&lt;/strong&gt; 薄いピンクやオレンジなどの淡色に、細かな線や波模様を重ねて表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中間（帝国平均付近、約1.9〜2.0トン/ha）&lt;/strong&gt; 少し濃い色合いに、より密度のある模様を加える。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高収量（2.0トン以上）&lt;/strong&gt; 黒に近い濃色を基調とし、斜線、格子、クロスハッチングなど大胆な模様を重ねて階層を細分化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、地図を一目見れば &lt;strong&gt;「明るい＝低収量、暗い＝高収量」&lt;/strong&gt; という直感的理解が可能になり、さらに模様の違いで数値区分をより細かく判別できるようになっています。&lt;/p&gt;
+&lt;h2 id=&#34;印刷制約下でのデザイン&#34;&gt;印刷制約下でのデザイン
+&lt;/h2&gt;&lt;p&gt;20世紀初頭は、統計図を多色刷りで印刷するのは技術的にも経済的にも難しい時代でした。微妙な色の濃淡だけで15段階を識別させるのは困難であり、そこで 模様によるパターン表現 が重要な役割を果たしています。&lt;/p&gt;
+&lt;p&gt;つまりこの図は、印刷技術の制約を逆手に取った「色＋テクスチャ」のハイブリッドデザインの好例と言えます。&lt;/p&gt;
+&lt;h2 id=&#34;現代の視点から&#34;&gt;現代の視点から
+&lt;/h2&gt;&lt;p&gt;今日では、ColorBrewer などの配色設計ツールを使って「見分けやすく、色覚にも配慮したカラーマップ」を作ることが可能です。分岐的なカラースキームを採用することもできたでしょう。しかし、この1904年の図版は、限られた手段でありながらも情報を正確に階層化し、直感的に伝えることに成功しています。&lt;/p&gt;
+&lt;p&gt;統計地図の歴史において、これは &lt;strong&gt;「コロプレスマップ（Choropleth Map）の初期的な多色使いの実践例」&lt;/strong&gt; であり、視覚化の工夫と印刷文化の関係を知る上で重要な作品です。&lt;/p&gt;</description>
         </item>
         <item>
         <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
@@ -94,8 +832,7 @@
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/radial-bar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、円グラフやローズチャート（Coxcomb chart）に近い形式を持つ可視化手法です。
-すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表す というのが大きな特徴です。
+        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
 歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
@@ -145,11 +882,6 @@
           &lt;td&gt;軸ごとに値を放射状に示し、点を線で結ぶ。&lt;/td&gt;
           &lt;td&gt;レーダーは全体の形を比較するのに強い。ポーラー・エリア・チャートはセクターごとの大きさを強調。&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;ローズチャート (Rose Chart, Coxcomb)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;ポーラー・エリア・チャートとほぼ同義。&lt;/td&gt;
-          &lt;td&gt;ナイチンゲールのコックスコム図が代表例。用語が重なる場合が多い。&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;ポーラーエリアチャートの強みと注意点&#34;&gt;ポーラー・エリア・チャートの強みと注意点
@@ -167,7 +899,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;ポーラー・エリア・チャートは、周期的なカテゴリデータをリズムとして見せたいときに有効な可視化手法です。
-正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「パターンを直感的に理解させる」 という点で強みを発揮します。&lt;/p&gt;</description>
+正確な数値比較には棒グラフが適している一方、ポーラー・エリア・チャートは 「周期パターンを把握する」という点で強みを発揮します。&lt;/p&gt;</description>
         </item>
         <item>
         <title>バンプ・チャート（Bump Chart）の歴史と役割</title>
@@ -191,22 +923,26 @@
 &lt;h2 id=&#34;起源--19世紀の統計図表&#34;&gt;起源 ― 19世紀の統計図表
 &lt;/h2&gt;&lt;p&gt;「誰が最初に発明したのか」を一人に帰すのは難しいですが、バンプ・チャートの原型はすでに19世紀に見られます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas.png&#34;
-	width=&#34;2000&#34;
-	height=&#34;1303&#34;
-	srcset=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_43d5bad184008f49.png 480w, http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_9791a561fb3e6bf1.png 1024w&#34;
+	width=&#34;2627&#34;
+	height=&#34;1747&#34;
+	srcset=&#34;http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_fb2899d2c5abee8.png 480w, http://localhost:1313/bump-chart/images/StatisticalAtlas_hu_9fc05d020ff06624.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;1890年 Statistical Atlas of the United States掲載のバンプ・チャートの原型&#34;
+		alt=&#34;Rank of States and Territories in Population at Each Census: 1790–1890&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;153&#34;
-		data-flex-basis=&#34;368px&#34;
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、1790年から1890年までの都市人口ランキングの推移を示す図版が含まれていました。この図は、ある時点の上位都市を比較できると同時に、個別の都市の順位がどのように変動してきたかを追跡できる構成となっています。&lt;/p&gt;
-&lt;p&gt;その目的は明確で &lt;strong&gt;「人口規模そのものではなく、都市の相対的な地位の変化を可視化する」&lt;/strong&gt; ことでした。国勢調査の結果を単に列挙するのではなく、社会的な位置付けのダイナミクスを一目で伝えるための工夫と言えます。&lt;/p&gt;
-&lt;p&gt;このように「順位を時系列で追う」発想は、現代的な意味でのバンプ・チャートの基本思想と一致しています。&lt;/p&gt;
+&lt;p&gt;米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、「Rank of States and Territories in Population at Each Census: 1790–1890」 という図版が収録されています。&lt;/p&gt;
+&lt;p&gt;このチャートは、1790年から1890年までの国勢調査ごとに、各州と準州の人口順位を並べ、線で結んだものです。これにより以下を実現できます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ある時点での上位・下位を比較することができる&lt;/li&gt;
+&lt;li&gt;さらに個別の州や準州が、時間の経過とともにどのように順位を変えてきたかを追跡できる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当時の目的は、単に人口数を提示するのではなく、「社会の中での相対的な位置の変化」を読み取れるようにすることでした。これは現代でいうバンプ・チャートの基本的な思想と一致しており、この図版はバンプ・チャートの最古級の実例と見なせます。&lt;/p&gt;
 &lt;h2 id=&#34;名称の誕生と再発見&#34;&gt;名称の誕生と再発見
 &lt;/h2&gt;&lt;p&gt;当時は「バンプ・チャート」という名称は存在せず、後にデータ可視化コミュニティで再発見・命名されました。&lt;/p&gt;
 &lt;ul&gt;
@@ -8271,14 +9007,14 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
     &gt;E. Tufte Slope Graphs contest&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>バンプ・チャート（Bump Chart）</title>
+        <title>バンプ・チャート（Bump Chart）の事例</title>
         <link>http://localhost:1313/bump-chart-example/</link>
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/bump-chart-example/</guid>
-        <description>&lt;img src="http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg" alt="Featured image of post バンプ・チャート（Bump Chart）" /&gt;&lt;p&gt;「バンプ・チャート」が利用されている事例を紹介します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg" alt="Featured image of post バンプ・チャート（Bump Chart）の事例" /&gt;&lt;p&gt;「バンプ・チャート」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;p&gt;スロープグラフに似ていますが、スロープグラフは、（たとえ何らかの基準でソートされていたとしても）比較する定性データが、経年でどの位置にいるかを比較します。バンプ・チャートは順位を基準とします。&lt;/p&gt;
-&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;h2 id=&#34;事例&#34;&gt;事例
 &lt;/h2&gt;&lt;h3 id=&#34;election2016-米大統領候補のtwitterバズ&#34;&gt;#Election2016 米大統領候補のTwitterバズ
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart-example/images/Election2016.png&#34;
 	width=&#34;2289&#34;
@@ -8354,8 +9090,71 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/news/the-intersect/wp/2014/12/15/from-lycos-to-ask-jeeves-to-facebook-tracking-the-20-most-popular-web-sites-every-year-since-1996/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;From Lycos to Ask Jeeves to Facebook: Tracking the 20 most popular web sites every year since 1996&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び方&#34;&gt;他の呼び方
-&lt;/h2&gt;&lt;p&gt;Bumps Chart, Rank Chartと呼ばれることもあります。&lt;/p&gt;</description>
+&lt;h3 id=&#34;サンジョルディ前のベストセラー可視化--バンプチャートの発展形&#34;&gt;サン・ジョルディ前のベストセラー可視化 ― バンプチャートの発展形
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bump-chart-example/images/Los-libros.jpeg&#34;
+	width=&#34;1945&#34;
+	height=&#34;1178&#34;
+	srcset=&#34;http://localhost:1313/bump-chart-example/images/Los-libros_hu_25ec59127baee03b.jpeg 480w, http://localhost:1313/bump-chart-example/images/Los-libros_hu_6a6cf819e68b312d.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Los libros más vendidos (antes de Sant Jordi)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;図の概要&#34;&gt;図の概要
+&lt;/h4&gt;&lt;p&gt;この図は、スペイン・カタルーニャ地方で行われる「サン・ジョルディの日」（毎年4月23日、本とバラを贈り合う伝統的な祝祭）の直前に、最も売れた書籍を可視化したものです。制作はバルセロナの新聞 La Vanguardia（ラ・バンガルディア）。2007年10月から2008年4月までの26週間にわたるベストセラー・ランキングの推移を、独自のインフォグラフィックとして発表しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図のタイトルは「Los libros más vendidos (antes de Sant Jordi)」＝「サン・ジョルディ前のベストセラー」&lt;/strong&gt; 。この地域における出版文化を象徴的に記録した作品といえます。&lt;/p&gt;
+&lt;h4 id=&#34;表現の構造&#34;&gt;表現の構造
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;横軸：時間（2007年10月〜2008年4月、週単位で26ステップ）&lt;/li&gt;
+&lt;li&gt;縦軸：順位（1位が最上段）&lt;/li&gt;
+&lt;li&gt;線の色：
+&lt;ul&gt;
+&lt;li&gt;赤 = カタルーニャ語の著者&lt;/li&gt;
+&lt;li&gt;青 = その他の著者&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;追加の記号：
+&lt;ul&gt;
+&lt;li&gt;黄色円 = ページ数&lt;/li&gt;
+&lt;li&gt;黒丸 = 特別価格（プロモーション）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実線 = トップ10に残り続けた週&lt;/li&gt;
+&lt;li&gt;点線 = トップ10圏外との接続&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これにより、「どの本が、いつ売れ始め、どのくらいランキングを維持したか」が一目でわかります。&lt;/p&gt;
+&lt;h4 id=&#34;バンプチャートとの関係&#34;&gt;バンプチャートとの関係
+&lt;/h4&gt;&lt;p&gt;この図は、基本構造として &lt;strong&gt;バンプチャート（Bump Chart）&lt;/strong&gt; を採用しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;バンプチャートの基本形は「縦軸に順位、横軸に時間、線で対象の推移を示す」ものです。&lt;/li&gt;
+&lt;li&gt;本作品もまさにその構造に従っており、週ごとのランキング推移を線でつないでいます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、本図は単なるバンプチャートを超えて以下の拡張を加えています：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1.多変量情報の統合&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;著者の属性（赤・青）&lt;/li&gt;
+&lt;li&gt;ページ数（黄色円）&lt;/li&gt;
+&lt;li&gt;特別価格（黒丸）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2.ランキング外の動態を可視化&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;トップ10から外れても点線で継続的に追跡し、「一時的なヒット」と「ロングセラー」を比較できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3.文化的背景の反映&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;サン・ジョルディという文化的イベントに関連付け、単なる商業データを超えた「文化現象」として位置づけている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このため、この図は「ランキングと時系列を組み合わせた可視化」であり「バンプチャートの発展形」と呼ぶのがふさわしいでしょう。&lt;/p&gt;</description>
         </item>
         <item>
         <title>モザイク・プロット（Mosaic Plot）の事例</title>
@@ -8365,12 +9164,56 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
-&lt;/h2&gt;&lt;h3 id=&#34;タイタニック号で事故に遭遇した人たち&#34;&gt;タイタニック号で事故に遭遇した人たち
+&lt;/h2&gt;&lt;h3 id=&#34;1904年ドイツ帝国統計局による農業統計図&#34;&gt;1904年ドイツ帝国統計局による農業統計図
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0483.jpeg&#34;
+	width=&#34;2031&#34;
+	height=&#34;1684&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0483_hu_3bdb0986bd086fab.jpeg 480w, http://localhost:1313/mosaic-plot-example/images/IMG_0483_hu_413c1d567c87eb91.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1904年ドイツ帝国統計局による農業統計図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図は、1904年にドイツ帝国統計局（Kaiserliches Statistisches Amt）が刊行した『ドイツ帝国統計季報』に掲載されたもので、各州における 耕作面積・単位面積あたり収量・総収穫量 を同時に示した農業統計図です。対象となっているのは冬ライ麦・燕麦・夏大麦・冬小麦・ジャガイモといった主要作物で、それぞれ別の棒グラフとして描かれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;横軸（棒の幅）&lt;/strong&gt; ：各州の耕作面積（ヘクタール単位）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦軸（棒の高さ）&lt;/strong&gt; ：1ヘクタールあたりの収量（収穫効率）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;長方形の面積&lt;/strong&gt; ：総収穫量（幅 × 高さ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;さらに、各州の値だけでなく、ドイツ全体の平均収量（実線） と 直前5年間（1899〜1903年）の平均収量（点線） も示されており、比較が容易になるよう工夫されています。色分けによって作物ごとに区別され、視覚的にも分かりやすく構成されています。&lt;/p&gt;
+&lt;h3 id=&#34;タイタニック犠牲者と生存者の統計図1912年the-sphere誌&#34;&gt;タイタニック犠牲者と生存者の統計図（1912年、『The Sphere』誌）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0488.jpeg&#34;
+	width=&#34;1703&#34;
+	height=&#34;2551&#34;
+	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/IMG_0488_hu_4d15aa6345503a22.jpeg 480w, http://localhost:1313/mosaic-plot-example/images/IMG_0488_hu_9db9884e9a447945.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;タイタニック犠牲者と生存者の統計図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;160px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;1912年4月のタイタニック号沈没事故の直後、イギリスの挿絵週刊誌『The Sphere』は、犠牲者と生存者の内訳を示す統計図を誌面に掲載しました。この図は、事故の全体像を一般読者に直感的に理解させるための、初期の「統計的インフォグラフィック」として位置づけられます。&lt;/p&gt;
+&lt;p&gt;図の構成はきわめてシンプルです。黒は犠牲者、白は生存者を示し、区分は一等・二等・三等の各船室階級と乗組員に分けられています。さらに男性・女性・子どもごとに帯を分割することで、どの集団がどの程度救われたのかを一目で比較できるようになっています。&lt;/p&gt;
+&lt;p&gt;注目すべきは、帯の縦幅そのものが区分ごとの人数規模を表している点です。一等船客の帯は細く、三等船客の帯は太く描かれており、横方向の黒白の分割（生死の比率）と組み合わさって、各集団の絶対数と相対的な生存率を同時に可視化しています。これは現代の統計学でいう &lt;strong&gt;モザイクプロット（Mosaic Plot）&lt;/strong&gt; と同じ構造を持っており、その先駆的な事例とみなすことができます。&lt;/p&gt;
+&lt;p&gt;この可視化によって浮かび上がるのは、明確な社会的格差です。一等船客の女性・子どもの生存率は非常に高かった一方で、三等船客や男性乗組員の犠牲率は圧倒的に高いものでした。「女性と子どもを優先する」という原則がどのように実際に適用されたかを、社会階級ごとに鋭く伝える図となっています。&lt;/p&gt;
+&lt;p&gt;現代的な可視化の観点からすれば、棒グラフのルール（幅を一定にする）から外れ、面積効果による視覚的強調を含むため必ずしも「正統」ではありません。しかし、歴史的背景を考えれば、これは当時の新聞・雑誌が持つ表現上の工夫であり、社会に衝撃を与えた大事故を伝える強い視覚的メッセージとなっていたといえるでしょう。&lt;/p&gt;
+&lt;h3 id=&#34;タイタニック犠牲者rによる作例&#34;&gt;タイタニック犠牲者（Rによる作例）
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/mosaic-plot-example/images/image-25.png&#34;
 	width=&#34;1344&#34;
 	height=&#34;960&#34;
 	srcset=&#34;http://localhost:1313/mosaic-plot-example/images/image-25_hu_73845f5104327f70.png 480w, http://localhost:1313/mosaic-plot-example/images/image-25_hu_b9191c9b8794a1ba.png 1024w&#34;
 	loading=&#34;lazy&#34;
+	
+		alt=&#34;タイタニック犠牲者（Rによる作例）&#34;
 	
 	
 		class=&#34;gallery-image&#34; 

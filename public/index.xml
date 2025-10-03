@@ -7,7 +7,103 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
+        <link>http://localhost:1313/writing-without-words/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/writing-without-words/</guid>
+        <description>&lt;img src="http://localhost:1313/writing-without-words/images/cover.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
+&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する 「Literary Organism」 はその代表例で、ジャック・ケルアックの小説「路上」(原題 &amp;ldquo;On the Road&amp;rdquo;) を「文学的有機体(Literary Organism)」として表現しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/writing-without-words/images/mainwork.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;2828&#34;
+	srcset=&#34;http://localhost:1313/writing-without-words/images/mainwork_hu_26febaeab8011763.png 480w, http://localhost:1313/writing-without-words/images/mainwork_hu_9ca8bd89b041f01c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;路上とは&#34;&gt;「路上」とは？
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;著者：ジャック・ケルアック（1922–1969）&lt;/li&gt;
+&lt;li&gt;原題：On the Road&lt;/li&gt;
+&lt;li&gt;内容：主人公サル・パラダイスとディーン・モリアーティが、車やヒッチハイクでアメリカを横断する放浪の旅を描く小説。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;日本でのイメージ&#34;&gt;日本でのイメージ
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ビート・ジェネレーションの代表作として「反体制的・自由な青春の象徴」&lt;/li&gt;
+&lt;li&gt;「ロードムービー的冒険」としての旅の物語&lt;/li&gt;
+&lt;li&gt;ジャズの即興演奏のようなリズムを持つ文体&lt;/li&gt;
+&lt;li&gt;1960年代以降、日本の若者文化やカウンターカルチャーに大きな影響を与えた作品&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/writing-without-words/images/legend.png&#34;
+	width=&#34;1407&#34;
+	height=&#34;658&#34;
+	srcset=&#34;http://localhost:1313/writing-without-words/images/legend_hu_6487816a340ccbc3.png 480w, http://localhost:1313/writing-without-words/images/legend_hu_481d2b4be9689f47.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;513px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-基本構造&#34;&gt;1. 基本構造
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;テキストは PART（部） → CHAPTERS（章） → PARAGRAPHS（段落） → SENTENCES（文） → WORDS（単語） へと階層的に分解。&lt;/li&gt;
+&lt;li&gt;中心から外へ放射状に広がり、時計回りに読むことで物語の流れを追うことができます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-記法notation&#34;&gt;2. 記法（Notation）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;図上の文や段落は「章番号.段落番号」で対応。&lt;/li&gt;
+&lt;li&gt;例：3.5 → 第3章の第5段落。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-色分けcolors&#34;&gt;3. 色分け（Colors）
+&lt;/h3&gt;&lt;p&gt;内容やテーマに応じた色の凡例（英語＋日本語併記）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dean Moriarty (Protagonist) / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
+&lt;li&gt;Bop &amp;amp; Jazz Music / ボップとジャズ音楽 … 水色&lt;/li&gt;
+&lt;li&gt;Social Events &amp;amp; Interaction / 社会的出来事と交流 … 灰色&lt;/li&gt;
+&lt;li&gt;Travel / 旅 … 薄紫&lt;/li&gt;
+&lt;li&gt;Sketches of Regional Life / 地域生活のスケッチ … 薄青&lt;/li&gt;
+&lt;li&gt;Parties, Drinking &amp;amp; Drugs / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
+&lt;li&gt;Work &amp;amp; Survival / 労働と生存 … 黄色&lt;/li&gt;
+&lt;li&gt;Sal Paradise (Narrator) / 語り手サル・パラダイス … 赤&lt;/li&gt;
+&lt;li&gt;Women, Sex, &amp;amp; Relationships / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
+&lt;li&gt;Illegal Activities &amp;amp; Police Encounters / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
+&lt;li&gt;Character Sketches / 人物描写 … 黒青&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-文の長さword-count-chart&#34;&gt;4. 文の長さ（Word Count Chart）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;各文は「語数」に比例した扇形で表現。&lt;/li&gt;
+&lt;li&gt;最長は151語で、10語ごとに凡例が用意されており、文体のリズムを視覚的に捉えられます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;制作背景と意図posavec-の説明より&#34;&gt;制作背景と意図（Posavec の説明より）
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;プロジェクト Writing Without Words は、Posavec が MA（修士課程）で制作した研究成果。&lt;/li&gt;
+&lt;li&gt;対象データ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
+&lt;li&gt;制作方法：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
+&lt;li&gt;目的：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Posavec の「文学を視覚化する試み」は、単なるデータ可視化にとどまらず、文学鑑賞の新しい扉を開いています。
+「路上」が持つリズム・テーマ・旅のスピリット が、図解を通して「読む」から「見る」へと変換されるとき、私たちは物語をもう一度違う角度から体験することができるのです。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/writing-without-words&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — Stefanie Posavec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://history.siggraph.org/artwork/w-bradford-paley-textarc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TextArc – W. Bradford Paley (SIGGRAPH Archive)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</title>
         <link>http://localhost:1313/entangled-word-bank/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>

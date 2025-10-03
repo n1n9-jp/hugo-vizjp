@@ -7,102 +7,438 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>サンバースト・チャートとは何か - 起源と特徴</title>
-        <link>http://localhost:1313/sunburst/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>沖積図（Alluvial Diagrams）</title>
+        <link>http://localhost:1313/alluvial-diagrams/</link>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/sunburst/</guid>
-        <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
-&lt;p&gt;最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/cover-Sunburst.jpg&#34;
-	width=&#34;890&#34;
-	height=&#34;445&#34;
-	srcset=&#34;http://localhost:1313/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:1313/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
+        <guid>http://localhost:1313/alluvial-diagrams/</guid>
+        <description>&lt;img src="http://localhost:1313/alluvial-diagrams/images/image-24.png" alt="Featured image of post 沖積図（Alluvial Diagrams）" /&gt;&lt;p&gt;沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。&lt;/p&gt;
+&lt;p&gt;ある時点における定量的な値（ノード）と、それらをつなぐ線（リンク）は、ノードの値を線の太さや色に反映させます。&lt;/p&gt;
+&lt;p&gt;たいてい、横軸に時間の流れを示します。縦軸に対象の大きい順に並べられていることが多いでしょう。&lt;/p&gt;
+&lt;p&gt;サンキー・ダイアグラムは時間の流れを表さないため、 沖積図とは明確に異なるチャートになります。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;科学に起こった大きな構造的変化&#34;&gt;科学に起こった大きな構造的変化
+&lt;/h3&gt;&lt;p&gt;過去10年間に科学に起こった大きな構造的変化を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/alluvial-diagrams/images/image-22-2048x815.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;815&#34;
+	srcset=&#34;http://localhost:1313/alluvial-diagrams/images/image-22-2048x815_hu_8d37fa02ef5899bc.png 480w, http://localhost:1313/alluvial-diagrams/images/image-22-2048x815_hu_c384e05aa5042c22.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;251&#34;
+		data-flex-basis=&#34;603px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008694&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapping Change in Large Networks&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ゲームオブスローンズシーズン1-7における所属の変化&#34;&gt;ゲーム・オブ・スローンズ(シーズン1-7)における所属の変化
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/alluvial-diagrams/images/image-23.png&#34;
+	width=&#34;3300&#34;
+	height=&#34;2550&#34;
+	srcset=&#34;http://localhost:1313/alluvial-diagrams/images/image-23_hu_cb5130129e5520ad.png 480w, http://localhost:1313/alluvial-diagrams/images/image-23_hu_3922adb8e728ca0c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;310px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@matthewlunkes/a-game-of-data-visualizations-243c3d8ceb1e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Game of Data Visualizations: Making Alluvial Diagrams Without Code | by Matthew Lunkes | Medium&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;アフリカ都市の人口1960年2025年&#34;&gt;アフリカ都市の人口（1960年～2025年）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/alluvial-diagrams/images/image-24.png&#34;
+	width=&#34;600&#34;
+	height=&#34;398&#34;
+	srcset=&#34;http://localhost:1313/alluvial-diagrams/images/image-24_hu_80b0f483c01286b4.png 480w, http://localhost:1313/alluvial-diagrams/images/image-24_hu_962a5699f4aed407.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/20553607/AFRICA-Big-Change-Big-Chance-Triennale-di-Milano&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AFRICA – Big Change / Big Chance&lt;/a&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>サンキー・ダイアグラム（Sankey Diagram）</title>
+        <link>http://localhost:1313/sankey-diagram/</link>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/sankey-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/sankey-diagram/images/image-13.png" alt="Featured image of post サンキー・ダイアグラム（Sankey Diagram）" /&gt;&lt;p&gt;Mario Schmidt の調査によると、19世紀後半当時、新興工業国の技術者たちは、蒸気機関をさらに改良し、それぞれの用途に最適化するために、科学的手法を応用しようとしていました。蒸気機関の熱効率を分析するために、アイルランドのエンジニアRiall Sankeyによって、1898年に開発されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;2040&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image_hu_147632c600020745.png 480w, http://localhost:1313/sankey-diagram/images/image_hu_d127ade97231e7a6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;94&#34;
+		data-flex-basis=&#34;225px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Eurostatではサンキー・ダイアグラムの意義をこう説明しています。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「サンキー・ダイアグラムは、エネルギーの収支を視覚的に表現するための非常に実用的なツールです。エネルギー収支は、経済のさまざまなセクター（供給、変換、消費など）におけるさまざまなエネルギー商品（燃料、熱、電力、すなわち市場性のある形でのエネルギーキャリア）の貢献度と相互関係をエネルギー単位でまとめたものです」
+&lt;a class=&#34;link&#34; href=&#34;https://ec.europa.eu/eurostat/web/energy/energy-flow-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Energy flow diagrams – Eurostat&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;エネルギー収支でいう、エネルギー商品と経済活動という、インプットとその結果としてのアウトプットを説明し、かつ入出力が一対一対応していない大量の物事が関連している様を示しつつ、その仕組み（システム）を概観するのに向いているといえます。&lt;/p&gt;
+&lt;p&gt;ネットワーク・ダイアグラムの一種といえ、対象とする物事（エネルギーや経済活動など）をノードとし、その間の流量をリンクとして線の幅やときには色も用いて示します。&lt;/p&gt;
+&lt;p&gt;明示的に時間軸を伴う流れを説明するチャートは別のチャート、Alluvial Diagramsを用います。サンキー・ダイアグラムは、インプットとその結果としてのアウトプットを説明しながらも、時間の情報は持ちません。有向グラフ的であり、矢印が一方向のみに向いていることのみを示します。&lt;/p&gt;
+&lt;p&gt;時間が経つにつれて、熱バランス、エネルギー、マテリアルの流れの可視化に用いられ、1990年代以降はライフサイクルアセスメント（LCA）における「代謝」の複雑さを示すためにサンキー・ダイアグラムを頻繁に使用していると、 Mario Schmidt はレポートしています。&lt;/p&gt;
+&lt;p&gt;近年では「インプットとその結果としてのアウトプット」を説明するチャートの特性を活かし、集めた税金とその使いみちに使われる事例がたくさんあります。&lt;/p&gt;
+&lt;h2 id=&#34;過去エネルギー関連をテーマに用いられてきた事例&#34;&gt;過去、エネルギー関連をテーマに用いられてきた事例
+&lt;/h2&gt;&lt;h3 id=&#34;2030馬力のルノー車の走行速度60kmhの場合のエネルギー図&#34;&gt;20/30馬力のルノー車の走行速度60km/hの場合のエネルギー図
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-1.png&#34;
+	width=&#34;1842&#34;
+	height=&#34;1172&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-1_hu_63f6dff0e62669c3.png 480w, http://localhost:1313/sankey-diagram/images/image-1_hu_455d9af354ec29aa.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;377px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Source:
+Riedler, A. 1911. Wissenschaftliche Automobil-Wertung.
+Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&lt;/p&gt;
+&lt;h3 id=&#34;セメント製造における理論的な熱消費量左と実用的な熱消費量右&#34;&gt;セメント製造における理論的な熱消費量（左）と実用的な熱消費量（右）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-2.png&#34;
+	width=&#34;1843&#34;
+	height=&#34;699&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-2_hu_14c3584cadbb868c.png 480w, http://localhost:1313/sankey-diagram/images/image-2_hu_1e74875f22e09daf.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;263&#34;
+		data-flex-basis=&#34;632px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Source:
+Schott, E. 1933. Waermewirtschaft in der Zementindustrie.
+Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&lt;/p&gt;
+&lt;h3 id=&#34;ドイツの鉄鋼業のための鉄のフローチャート鉱石中の鉄分100に関連する数値&#34;&gt;ドイツの鉄鋼業のための鉄のフローチャート。鉱石中の鉄分100％に関連する数値
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-3.png&#34;
+	width=&#34;1774&#34;
+	height=&#34;910&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-3_hu_bb08ad604a00cda3.png 480w, http://localhost:1313/sankey-diagram/images/image-3_hu_249a5dbfedd50221.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;467px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Source:
+Reichardt, P. 1937. Rohstofflage, Roheisen- und StahlSortenfrage.
+Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&lt;/p&gt;
+&lt;h3 id=&#34;エネルギーとマテリアルのフローによる管理&#34;&gt;エネルギーとマテリアルのフローによる管理
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-4.png&#34;
+	width=&#34;1106&#34;
+	height=&#34;1176&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-4_hu_b6f409ddfe20e48e.png 480w, http://localhost:1313/sankey-diagram/images/image-4_hu_52481c0f611910aa.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;94&#34;
+		data-flex-basis=&#34;225px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Source:
+Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
+Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&lt;/p&gt;
+&lt;h3 id=&#34;鉄鋼工場における材料の年間価値の流れを模式的に示す&#34;&gt;鉄鋼工場における材料の年間価値の流れを模式的に示す
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-5.png&#34;
+	width=&#34;1820&#34;
+	height=&#34;1361&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-5_hu_96206e7bc1a9be76.png 480w, http://localhost:1313/sankey-diagram/images/image-5_hu_b3f9391bb88cb24c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Source:
+Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
+Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&lt;/p&gt;
+&lt;h2 id=&#34;近年エネルギー関連をテーマに用いられてきた事例&#34;&gt;近年、エネルギー関連をテーマに用いられてきた事例
+&lt;/h2&gt;&lt;h3 id=&#34;米国天然ガス&#34;&gt;米国天然ガス
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-6.png&#34;
+	width=&#34;1948&#34;
+	height=&#34;1054&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-6_hu_6156b75759181f7c.png 480w, http://localhost:1313/sankey-diagram/images/image-6_hu_861a9ba7e14695aa.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;184&#34;
+		data-flex-basis=&#34;443px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;2019年の米国の天然ガスの供給（生産、輸入、貯蔵からの引き出し）と処理（消費、輸出、貯蔵への追加）の大きさを示しています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.eia.gov/totalenergy/issuestrends/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;U.S. Energy Information Administration (EIA) – Issuestrends&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;国際エネルギー機関international-energy-agency&#34;&gt;国際エネルギー機関（International Energy Agency）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-7.png&#34;
+	width=&#34;2984&#34;
+	height=&#34;1885&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-7_hu_db56a0fafa9ac965.png 480w, http://localhost:1313/sankey-diagram/images/image-7_hu_fca778553f2f587f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;379px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.iea.org/sankey/#?c=World&amp;amp;s=Balance&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IEA Sankey Diagram&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;eurostat&#34;&gt;Eurostat
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-8-2048x888.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;888&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-8-2048x888_hu_414f183e10f4b6ce.png 480w, http://localhost:1313/sankey-diagram/images/image-8-2048x888_hu_f1f57ada22a30887.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;553px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ec.europa.eu/eurostat/web/energy/energy-flow-diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Energy Flow Diagrams&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lmdi-decomposition-of-energy-related-co2-emissions-based-on-energy-and-co2-allocation-sankey-diagrams-the-method-and-an-application-to-china&#34;&gt;LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-9.png&#34;
+	width=&#34;2578&#34;
+	height=&#34;1504&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-9_hu_17bebd3292db075d.png 480w, http://localhost:1313/sankey-diagram/images/image-9_hu_adcc7739a4333142.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/322780248_LMDI_Decomposition_of_Energy-Related_CO2_Emissions_Based_on_Energy_and_CO2_Allocation_Sankey_Diagrams_The_Method_and_an_Application_to_China&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(PDF) LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China | Sustainability&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;llnl--energy-flow-charts&#34;&gt;LLNL – Energy Flow Charts
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-13.png&#34;
+	width=&#34;3249&#34;
+	height=&#34;1911&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-13_hu_474c34c79d6d2e12.png 480w, http://localhost:1313/sankey-diagram/images/image-13_hu_182eb0acfa18fa2d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;408px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;アメリカにおけるエネルギーのリソースとその使用先を示しています。ローレンス・リバモア国立研究所（LLNL）が1970年代に開発したもので、彼らは独自にEnergy Flow Chartsと呼んでいます。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowcharts.llnl.gov/commodities/energy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LLNL – Energy Flow Charts&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/G6dlvECRfcI&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;動画によるEnergy Flow Chartsの解説&lt;/p&gt;
+&lt;h3 id=&#34;the-flow-of-water-in-the-hydrologic-cycle&#34;&gt;The flow of water in the hydrologic cycle
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-10.png&#34;
+	width=&#34;2448&#34;
+	height=&#34;1254&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-10_hu_73b1eacad2287dbb.png 480w, http://localhost:1313/sankey-diagram/images/image-10_hu_c502f3aba1804ecd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;195&#34;
+		data-flex-basis=&#34;468px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ourenergypolicy.org/wp-content/uploads/2014/01/BP_ESC_Riosmallpdf.com_.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The flow of water in the hydrologic cycle&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;生産プロセスにおけるエネルギー効率化のための実践ガイド&#34;&gt;生産プロセスにおけるエネルギー効率化のための実践ガイド
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-11.png&#34;
+	width=&#34;724&#34;
+	height=&#34;644&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-11_hu_35dac9f5dd15a302.png 480w, http://localhost:1313/sankey-diagram/images/image-11_hu_449ee0287dfe5eb8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;112&#34;
+		data-flex-basis=&#34;269px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;‘A Practical Guide to Energy Efficiency in Production Processes’&lt;/p&gt;
+&lt;h2 id=&#34;エネルギー以外の分野でも&#34;&gt;エネルギー以外の分野でも
+&lt;/h2&gt;&lt;h3 id=&#34;2008年のスペインの主な収益と支出&#34;&gt;2008年のスペインの主な収益と支出
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/image-12.png&#34;
+	width=&#34;1500&#34;
+	height=&#34;2038&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/image-12_hu_452928d313266f28.png 480w, http://localhost:1313/sankey-diagram/images/image-12_hu_4b52ab3b267638be.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;73&#34;
+		data-flex-basis=&#34;176px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sankey-diagrams.com/infographics-experts-on-sankey-diagrams-part-2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Infographics Experts on Sankey Diagrams (Part 2) – Sankey Diagrams&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;g07--environmental-migration&#34;&gt;G07 – Environmental Migration
+&lt;/h3&gt;&lt;p&gt;2013年から2015年までの自然災害による人の移動を示しています。各大陸で影響を受けた最初の4カ国を考慮に入れています。大陸・国・災害・被害規模を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/30802188224_6d184a5b7a_k.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;1909&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/30802188224_6d184a5b7a_k_hu_11567ed69672d1e1.jpg 480w, http://localhost:1313/sankey-diagram/images/30802188224_6d184a5b7a_k_hu_49bdd6b3c7cc2f3c.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;257px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/30802188224/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;G07 – Environmental Migration&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;気候変動ファイナンスフローの複雑性&#34;&gt;気候変動ファイナンスフローの複雑性
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/31613433722_4ff462d2ab_k.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;993&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/31613433722_4ff462d2ab_k_hu_387a535d0c95b0bb.jpg 480w, http://localhost:1313/sankey-diagram/images/31613433722_4ff462d2ab_k_hu_1a8199218443724e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;206&#34;
+		data-flex-basis=&#34;494px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/31613433722/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Complexity of the Climate Change Finance Flow&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;外国人戦闘員のシリアとイラクへの旅路&#34;&gt;外国人戦闘員のシリアとイラクへの旅路
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/31527995451_8675c0d348_k.jpg&#34;
+	width=&#34;2048&#34;
+	height=&#34;993&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/31527995451_8675c0d348_k_hu_fb760223c6a62c0c.jpg 480w, http://localhost:1313/sankey-diagram/images/31527995451_8675c0d348_k_hu_2375864edd8c37e5.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;206&#34;
+		data-flex-basis=&#34;494px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/31527995451/in/dateposted/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;G08 – Travel the Distance&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;禁書&#34;&gt;禁書
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/banned-books1-1040x650-1.jpg&#34;
+	width=&#34;1040&#34;
+	height=&#34;650&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/banned-books1-1040x650-1_hu_ac81ec8337f00aff.jpg 480w, http://localhost:1313/sankey-diagram/images/banned-books1-1040x650-1_hu_69125b6f66c1049f.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;384px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://visualoop.com/infographics/banned-books&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Banned books – Visualoop&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;異形変型タイプ&#34;&gt;異形・変型タイプ
+&lt;/h2&gt;&lt;h3 id=&#34;eu28カ国における移民の最終的な庇護先の決定結果&#34;&gt;EU28カ国における移民の最終的な庇護先の決定結果
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/Do7WAWmXoAAHZ0O.jpeg&#34;
+	width=&#34;729&#34;
+	height=&#34;493&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/Do7WAWmXoAAHZ0O_hu_d79822f4c7d0b534.jpeg 480w, http://localhost:1313/sankey-diagram/images/Do7WAWmXoAAHZ0O_hu_bcce25c8142e3e5.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;147&#34;
+		data-flex-basis=&#34;354px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ft.com/content/58f2f7f8-c7c1-11e8-ba8f-ee390057b8c9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Outcome of final asylum decisions by year, eu28 countries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitter.com/theboysmithy/status/1049011087142768640&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;#frankensankey Migration: the riddle of Europe’s shadow populations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;トランプさんのツイートの怒りの矛先&#34;&gt;トランプさんのツイートの怒りの矛先
+&lt;/h3&gt;&lt;p&gt;サンキー・ダイアグラムかといわれると微妙ですが…。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sankey-diagram/images/sankey_trump.png&#34;
+	width=&#34;1664&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;http://localhost:1313/sankey-diagram/images/sankey_trump_hu_60a08c221df3ba61.png 480w, http://localhost:1313/sankey-diagram/images/sankey_trump_hu_f65b68e57e791e90.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;135&#34;
+		data-flex-basis=&#34;324px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.axios.com/2017/12/15/who-trump-attacks-the-most-on-twitter-1513305449&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Who Trump attacks the most on Twitter – Axios&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;参考文献&#34;&gt;参考文献
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/j.1530-9290.2008.00004.x&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Sankey Diagram in Energy and Material Flow Management – Schmidt – 2008 – Journal of Industrial Ecology – Wiley Online Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sankey-diagrams.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sankey Diagrams – A Sankey diagram says more than 1000 pie charts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Facebookで友達のつながりを可視化</title>
+        <link>http://localhost:1313/friendship-facebook/</link>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/friendship-facebook/</guid>
+        <description>&lt;img src="http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/notes/10158791468612200/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visualizing Friendships&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当初はまともに、個々人の住んでいる場所を点で描画し、それらを線でつないだそうですが、つながりの数が多すぎてまともな描画にならなかったそうです。&lt;/p&gt;
+&lt;p&gt;そこで個々人として扱うのではなく、その人が住んでいる都市同士の繋がりとして扱うことにして、そのつながりの強さを、都市間のユークリッド距離と都市間の友達の数の関数として定義し、つながりに重みをつけて、線の太さと色を調整し、重なり順にも反映させたら描画が上手くいったとのこと。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n.png&#34;
+	width=&#34;2368&#34;
+	height=&#34;1179&#34;
+	srcset=&#34;http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n_hu_667edd46b4847311.png 480w, http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n_hu_87d2059ea40ce869.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;200&#34;
-		data-flex-basis=&#34;480px&#34;
+		data-flex-basis=&#34;482px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;サンバースト・チャートは以下のようにも呼ばれています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;放射状トリーマップ（Radial Treemap）&lt;/li&gt;
-&lt;li&gt;多層円グラフ（Multi-level Pie Chart）&lt;/li&gt;
-&lt;li&gt;リングチャート（Ring Chart）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;誰が作ったのか--起源の探究&#34;&gt;誰が作ったのか ― 起源の探究
-&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは「誰が最初に作ったか」を一人に特定することはできません。歴史を追うと、いくつかの重要な系譜が見えてきます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;1. 19世紀末（1890年）&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Lawrence W. Fike による動物分類の同心円チャート（zoological concentric chart）が知られています。&lt;/li&gt;
-&lt;li&gt;科 → 属 → 種といった階層を円環で表す教育・分類目的の可視化であり、現代的サンバーストの先駆的事例とされています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2. 1921年（米国機械工学誌 “Mechanical Engineering”）&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;1910〜1919年における米国連邦政府の年間支出構成を示す可視化が「sunburst diagram」として紹介されたという記録があります。&lt;/li&gt;
-&lt;li&gt;ここでは経済データ（支出カテゴリ）を階層的に分解して示す試みが行われました。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;3. 2000年頃（John Stasko, Georgia Tech）&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;情報可視化研究の中で、Treemap に代わる「放射状の space-filling 可視化」として体系的に導入されました。&lt;/li&gt;
-&lt;li&gt;特に ファイルシステムの構造、Webサイト遷移、ソフトウェアパッケージの構成など、コンピュータ科学の文脈で大規模な階層を探索的に理解する目的で用いられています。&lt;/li&gt;
-&lt;li&gt;Georgia Tech の “SunBurst Page” では、Treemap の代替として階層構造を提示・探索する手法として紹介されています。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;このように、サンバーストは 教育的分類図 → 財政可視化 → 情報可視化研究 という異なる文脈を経ながら、現在の形に進化してきました。&lt;/p&gt;
-&lt;h2 id=&#34;どんな目的で使われてきたか&#34;&gt;どんな目的で使われてきたか
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;分類や系統の可視化&lt;/strong&gt; ：生物学的分類、図書館の階層分類など。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;財政・経済データの構成表示&lt;/strong&gt; ：政府支出や売上の構成を階層別に表現。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;IT領域での探索&lt;/strong&gt; ：ファイルシステムやWebサイトの階層構造を直感的にナビゲートするための可視化。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;インタラクティブ分析&lt;/strong&gt;：BIツールやD3.js／Plotlyなどを用いて、ユーザーが階層を掘り下げて詳細を確認できる仕組み。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;サンバーストチャートの利点&#34;&gt;サンバースト・チャートの利点
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;1.階層の直感的表現&lt;/strong&gt; &amp;hellip;中心から外側へ広がる放射状の構造で、親子関係が視覚的に理解しやすい。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2.部分と全体の関係を示す&lt;/strong&gt; &amp;hellip;各階層が親カテゴリに対してどれほどの割合を持つかを可視化できる。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;3.空間効率&lt;/strong&gt; &amp;hellip;Treemap と比べて放射状に展開できるため、深い階層でも相対的にスペースを確保しやすい。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;サンバーストチャートの欠点や注意点&#34;&gt;サンバースト・チャートの欠点や注意点
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;階層が深いと外側が細かくなり読みにくい。&lt;/li&gt;
-&lt;li&gt;角度の比較は人間にとって難しいため、精密な比較には不向き。&lt;/li&gt;
-&lt;li&gt;階層間の面積不整合が生じる場合があり、同じ値でも見た目が異なることがある。&lt;/li&gt;
-&lt;li&gt;隣接関係に意味がない場合があるため、並びの解釈には注意が必要。&lt;/li&gt;
-&lt;li&gt;ユーザー調査では必ずしも好まれないという研究もあり、利用には適切な場面選びが重要。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;サンバースト・チャートは、「誰か一人の発明」ではなく、複数の歴史的流れの中で育まれてきた可視化手法です。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;1890年&lt;/strong&gt; ：Fike による動物分類の同心円図&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;1921年&lt;/strong&gt; ：米国機械工学誌での財政データの可視化&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2000年頃&lt;/strong&gt; ：John Stasko らによる情報可視化研究での確立&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;今日では、階層データを「全体から部分へ」と直感的に探索できる方法として、教育・行政・研究・ビジネスの幅広い分野で活用されています。&lt;/p&gt;
-&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://think.design/services/data-visualization-data-design/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Think.Design – Sunburst: A Circular Visualization Technique&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sites.cc.gatech.edu/gvu/ii/sunburst/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Georgia Tech – SunBurst Page (Stasko Lab)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nightingaledvs.com/endless-river-an-overview-of-dataviz-for-categorical-data/#a334&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;NightingaleDVS – Endless River: An Overview of Dataviz for Categorical Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://richardbrath.wordpress.com/2018/08/31/why-history-matters-in-data-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Richard Brath – Why history matters in data visualization&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/John_Stasko&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Wikipedia – John Stasko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://drops.dagstuhl.de/storage/01oasics/oasics-vol027-vluds2012-irtg1131/OASIcs.VLUDS.2011.25/OASIcs.VLUDS.2011.25.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Visualization and Evolution of Software Architectures (OASIcs 2011)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chartexpo.com/blog/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Sunburst Chart: The Format That Fails at Layer Three – ChartExpo Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;いわゆるベースマップは表示せず、テーマデータの描画だけで世界地図が浮かび上がっています。&lt;/p&gt;
+&lt;p&gt;最適な線の太さや色の濃さなどの表現は、最終的な出力先＝画面解像度をはじめとした環境に依存します。一般的なディスプレイサイズと、展示やプロジェクションマッピングの場合には最適な美しさというのは異なってきます。解像度もそうですし、鑑賞者がどの距離からどの角度で眺めることになるのかにも依存します。&lt;/p&gt;
+&lt;p&gt;ビッグデータの可視化といったときに問題になるのがこの点です。データ量が膨大の場合、1.概観と詳細のビューを分ける、2.データ自体をあらかじめ絞り込む、3.画面にデータ全体を一度に描画することは諦め、スクロールを前提にする、などが考えられます。&lt;/p&gt;</description>
         </item>
         
     </channel>

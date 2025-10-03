@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing-without-words/</loc>
+    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/entangled-word-bank/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/textarc/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/history-flow/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sunburst/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/digital-nostalgia/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mission-to-mars/</loc>
+    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/multi-color/</loc>
     <lastmod>2025-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/radial-bar-chart/</loc>
@@ -50,9 +80,6 @@
     <loc>http://localhost:1313/newsmap/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/word-spectrum/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -86,6 +113,9 @@
     <loc>http://localhost:1313/provisional-inundation-depth-map/</loc>
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/spiralling-global-temperatures/</loc>
     <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -111,9 +141,6 @@
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chart-map-transportation-infrastructure/</loc>
-    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chart-map-railway/</loc>
@@ -242,9 +269,6 @@
     <loc>http://localhost:1313/covid-symptom-upset/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/network/</loc>
-    <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/sunburst-example/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -287,10 +311,16 @@
     <loc>http://localhost:1313/slopegraph/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bump-chart-example/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/mosaic-plot-example/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/alluvial-diagrams/</loc>
@@ -365,16 +395,10 @@
     <loc>http://localhost:1313/simon-rogers-workflow/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ia/</loc>
-    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/information-architecture/</loc>
-    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/katy-boerner-workflow/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ted/</loc>
@@ -393,9 +417,6 @@
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/airbnb-superset/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/facebook/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/friendship-facebook/</loc>
@@ -465,6 +486,9 @@
     <lastmod>2020-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/thesevencs/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</loc>
     <lastmod>2020-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tamar-4levels/</loc>
