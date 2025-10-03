@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "Stefanie Posavec による「路上(On the Road)」の可視化"
-slug = "writing-without-words"
+slug = "literary-organism"
 date = "2025-10-03"
 description = ""
 categories = [
@@ -15,7 +15,7 @@ image = "images/cover.png"
 
 この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。
 
-Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する 「Literary Organism」 はその代表例で、ジャック・ケルアックの小説「路上」(原題 "On the Road") を「文学的有機体(Literary Organism)」として表現しています。
+Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する **Literary Organism** はその代表例で、ジャック・ケルアックの小説「路上」(原題 "On the Road") を「文学的有機体(Literary Organism)」として表現しています。
 
 <!--more-->
 
@@ -51,17 +51,18 @@ Posavec は、テキストを「読む」だけでなく「見る」体験に変
 
 内容やテーマに応じた色の凡例（英語＋日本語併記）：
 
-- Dean Moriarty (Protagonist) / 主人公ディーン・モリアーティ … 青緑
-- Bop & Jazz Music / ボップとジャズ音楽 … 水色
-- Social Events & Interaction / 社会的出来事と交流 … 灰色
-- Travel / 旅 … 薄紫
-- Sketches of Regional Life / 地域生活のスケッチ … 薄青
-- Parties, Drinking & Drugs / パーティ・酒・ドラッグ … 黄土色
-- Work & Survival / 労働と生存 … 黄色
-- Sal Paradise (Narrator) / 語り手サル・パラダイス … 赤
-- Women, Sex, & Relationships / 女性・性愛・人間関係 … 赤茶
-- Illegal Activities & Police Encounters / 非合法行為と警察との遭遇 … 茶色
-- Character Sketches / 人物描写 … 黒青
+- **Dean Moriarty (Protagonist)** / 主人公ディーン・モリアーティ … 青緑
+- **Bop & Jazz Music** / ボップとジャズ音楽 … 水色
+- **Social Events & Interaction** / 社会的出来事と交流 … 灰色
+- **Travel** / 旅 … 薄紫
+- **Sketches of Regional Life** / 地域生活のスケッチ … 薄青
+- **Parties, Drinking & Drugs** / パーティ・酒・ドラッグ … 黄土色
+- **Work & Survival** / 労働と生存 … 黄色
+- **Sal Paradise (Narrator)** / 語り手サル・パラダイス … 赤
+- **Women, Sex, & Relationships** / 女性・性愛・人間関係 … 赤茶
+- **Illegal Activities & Police Encounters** / 非合法行為と警察との遭遇 … 茶色
+- **Character Sketches** / 人物描写 … 黒青
+
 
 ### 4. 文の長さ（Word Count Chart）
 
@@ -70,14 +71,12 @@ Posavec は、テキストを「読む」だけでなく「見る」体験に変
 
 
 
-
-
 ## 制作背景と意図（Posavec の説明より）
 
 - プロジェクト Writing Without Words は、Posavec が MA（修士課程）で制作した研究成果。
-- 対象データ：文の長さ、テーマ、品詞、句読点、文構造など。
-- 制作方法：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。
-- 目的：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。
+- **対象データ** ：文の長さ、テーマ、品詞、句読点、文構造など。
+- **制作方法** ：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。
+- **目的** ：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。
 
 
 
