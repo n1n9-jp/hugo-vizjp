@@ -278,24 +278,24 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;1080&#34;
-	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend_hu_ba81ad300f6cecfa.png 480w, http://localhost:1313/selling-at-sundance/images/legend_hu_caeb7226612a4d0e.png 1024w&#34;
+&lt;/h2&gt;&lt;p&gt;この図は &lt;strong&gt;上半分と下半分に分かれた二層構成&lt;/strong&gt;になっています。&lt;br&gt;
+それぞれが「映画の性質」と「経済的成果」という異なる側面を表します。&lt;/p&gt;
+&lt;h3 id=&#34;上半分映画の性質と文脈&#34;&gt;上半分：映画の性質と文脈
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend-top.png&#34;
+	width=&#34;1446&#34;
+	height=&#34;155&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend-top_hu_7e395ac9b5286ecc.png 480w, http://localhost:1313/selling-at-sundance/images/legend-top_hu_3f697b3a6b6289d9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;図解の見方&#34;
+		alt=&#34;図解の見方:上半分&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
+		data-flex-grow=&#34;932&#34;
+		data-flex-basis=&#34;2238px&#34;
 	
-&gt;&lt;/p&gt;
-&lt;p&gt;この図は &lt;strong&gt;上半分と下半分に分かれた二層構成&lt;/strong&gt;になっています。&lt;br&gt;
-それぞれが「映画の性質」と「経済的成果」という異なる側面を表します。&lt;/p&gt;
-&lt;h3 id=&#34;上半分映画の性質と文脈&#34;&gt;上半分：映画の性質と文脈
-&lt;/h3&gt;&lt;p&gt;上側の領域では、各作品の&lt;strong&gt;ジャンル的特徴や物語的傾向&lt;/strong&gt;が示されています。&lt;/p&gt;
+&gt;
+上側の領域では、各作品の&lt;strong&gt;ジャンル的特徴や物語的傾向&lt;/strong&gt;が示されています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;青から灰色へのグラデーション&lt;/strong&gt; ：ジャンルの位置づけを表し、左のドキュメンタリー（Non-fiction）から右のフィクション（Fiction）へと連続的に変化します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;矢印の形状&lt;/strong&gt; ：作品の &lt;strong&gt;時代設定&lt;/strong&gt; を示します。過去（左向き矢印）、現代（上向き）、架空の現代（斜め上）、未来（右向き）といった具合に視覚化されています。&lt;/li&gt;
@@ -305,7 +305,21 @@
 &lt;/ul&gt;
 &lt;p&gt;これらの要素によって「どんなタイプの映画がどんな評価を得ているか」を俯瞰的に捉えられる構造になっています。&lt;/p&gt;
 &lt;h3 id=&#34;下半分映画の経済データ&#34;&gt;下半分：映画の経済データ
-&lt;/h3&gt;&lt;p&gt;下側の領域は、映画ごとの &lt;strong&gt;経済的構造&lt;/strong&gt; を示します。各映画は、積み重なった三層の図形で構成されています。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend-bottom.png&#34;
+	width=&#34;810&#34;
+	height=&#34;154&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend-bottom_hu_58ef016e867e04da.png 480w, http://localhost:1313/selling-at-sundance/images/legend-bottom_hu_1bee81332375e69c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;図解の見方:下半分&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;525&#34;
+		data-flex-basis=&#34;1262px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下側の領域は、映画ごとの &lt;strong&gt;経済的構造&lt;/strong&gt; を示します。各映画は、積み重なった三層の図形で構成されています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;赤色部分&lt;/strong&gt; ：制作予算（Budget）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;灰色部分&lt;/strong&gt; ：販売価格（Sale price）&lt;/li&gt;
