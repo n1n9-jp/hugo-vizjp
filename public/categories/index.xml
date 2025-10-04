@@ -8,60 +8,60 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title></title>
+        <title>見るための記事</title>
         <link>http://localhost:1313/categories/consume/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/consume/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/consume/consume.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/consume/consume.png" alt="Featured image of post 見るための記事" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>チャート・カタログ</title>
         <link>http://localhost:1313/categories/chart/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/chart/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/chart/chart.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/chart/chart.png" alt="Featured image of post チャート・カタログ" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>作るための記事</title>
         <link>http://localhost:1313/categories/technology/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/technology/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/technology/technology.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/technology/technology.png" alt="Featured image of post 作るための記事" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>データ可視化の原理</title>
         <link>http://localhost:1313/categories/principle/</link>
         <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/principle/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/principle/principle.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/principle/principle.png" alt="Featured image of post データ可視化の原理" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>教えるための記事</title>
         <link>http://localhost:1313/categories/education/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/education/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/education/education.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/education/education.png" alt="Featured image of post 教えるための記事" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>データ・ジャーナリズム</title>
         <link>http://localhost:1313/categories/data-journalism/</link>
         <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/data-journalism/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/data-journalism/data-journalism.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/data-journalism/data-journalism.png" alt="Featured image of post データ・ジャーナリズム" /&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>イベント</title>
         <link>http://localhost:1313/categories/event/</link>
         <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/event/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/event/event.png" alt="Featured image of post " /&gt;</description>
+        <description>&lt;img src="http://localhost:1313/categories/event/event.png" alt="Featured image of post イベント" /&gt;</description>
         </item>
         
     </channel>

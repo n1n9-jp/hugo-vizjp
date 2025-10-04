@@ -13,10 +13,21 @@
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/waffle-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/images/cover.png" alt="Featured image of post ワッフル・チャート（Waffle Chart）" /&gt;&lt;p&gt;ワッフル・チャート（Waffle Chart）は、データの構成比を視覚的に示すためのチャートで、小さな正方形を格子状（多くは10×10＝100マス）に配置し、塗りつぶしたマスの数で全体に対する割合を表します。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/waffle-chart/images/cover.png" alt="Featured image of post ワッフル・チャート（Waffle Chart）" /&gt;&lt;p&gt;ワッフル・チャート（Waffle Chart）は、データの構成比を視覚的に示すためのチャートで、小さな正方形を格子状（多くは10×10＝100マス）に配置し、塗りつぶしたマスの数で全体に対する割合を表します。&lt;br&gt;
 円グラフや100%積み上げ棒グラフと同様に「全体に対する部分の大きさ」を示すのに用いられますが、「マスを数える」ことで割合を直感的に理解できるのが特徴です。&lt;/p&gt;
-&lt;p&gt;このチャートは、Flourish・Datawrapper・Tableauなど多くの可視化ツールで公式テンプレートとして採用されており、公的機関（例：CDCやEsriなど）のガイドラインにも登場するほど、汎用的な表現手法となっています。&lt;br&gt;
-特に、単一指標の達成率・進捗率・構成比をわかりやすく表す用途に向いています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/waffle-chart/images/main.png&#34;
+	width=&#34;1366&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/waffle-chart/images/main_hu_18860f67919adda9.png 480w, http://localhost:1313/waffle-chart/images/main_hu_d02e54337c6fd64d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;このチャートは、Flourish・Datawrapper・Tableauなど多くの可視化ツールで公式テンプレートとして採用されており、公的機関（例：CDCやEsriなど）のガイドラインにも登場するほど、汎用的な表現手法となっています。特に、単一指標の達成率・進捗率・構成比をわかりやすく表す用途に向いています。&lt;/p&gt;
 &lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
@@ -41,27 +52,29 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;背景と関連知識&#34;&gt;背景と関連知識
-&lt;/h3&gt;&lt;p&gt;ワッフル・チャートの発想は、オットー・ノイラートらが提唱した**アイソタイプ（ISOTYPE）**に源流があります。&lt;br&gt;
+&lt;/h3&gt;&lt;p&gt;ワッフル・チャートの発想は、オットー・ノイラートらが提唱した &lt;strong&gt;アイソタイプ（ISOTYPE）&lt;/strong&gt; に源流があります。
 これは「記号の大きさを変えず、数の多さで量を示す」という原則に基づく情報表現であり、ワッフル・チャートはその系譜上に位置づけられます。&lt;/p&gt;
-&lt;p&gt;近年では、データジャーナリズムや教育現場などでも、数値の理解を助ける「可算的（countable）」なチャートとして採用が進んでいます。&lt;br&gt;
-FlourishやDatawrapperの公式ビジュアルガイドでは、「構成比・シェア・進捗」のカテゴリに含まれており、視覚的明快さと親しみやすさが評価されています。&lt;/p&gt;
+&lt;p&gt;近年では、データジャーナリズムや教育現場などでも、数値の理解を助ける「可算的（countable）」なチャートとして採用が進んでいます。&lt;/p&gt;
+&lt;p&gt;FlourishやDatawrapperの公式ビジュアルガイドでは、「構成比・シェア・進捗」のカテゴリに含まれており、視覚的明快さと親しみやすさが評価されています。&lt;/p&gt;
 &lt;p&gt;また、ワッフル・チャートは精密な数値比較には不向きであり、「おおまかな比率」や「全体の一部を直感的に伝える」ことを目的に用いるのが適しています。&lt;/p&gt;
 &lt;h3 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h3&gt;&lt;p&gt;ワッフル・チャートは、データの割合をわかりやすく「マスで数える」形で伝える、ビジュアル的で教育効果の高いチャートです。&lt;br&gt;
-全体に対する部分の構成比や達成度を一目で理解できることから、円グラフの代替として多くの可視化ツールに標準搭載されています。&lt;br&gt;
-データの意味を「数える」「埋める」という操作に変換し、視覚的な比喩として定着した代表的なチャートの一つといえるでしょう。&lt;/p&gt;
+&lt;/h3&gt;&lt;p&gt;ワッフル・チャートは、データの割合をわかりやすく「マスで数える」形で伝える、ビジュアル的で教育効果の高いチャートです。&lt;/p&gt;
+&lt;p&gt;全体に対する部分の構成比や達成度を一目で理解できることから、円グラフの代替として多くの可視化ツールに標準搭載されています。&lt;/p&gt;
+&lt;p&gt;データの意味を「数える」「埋める」という操作に変換し、視覚的な比喩として定着した代表的なチャートの一つといえるでしょう。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flourish.studio/examples/waffle-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Flourish – Waffle Chart Template&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.datawrapper.de/chart-types-overview-poster/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Datawrapper – Chart taxonomy poster (Composition section)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cdc.gov/datavis/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Centers for Disease Control and Prevention (CDC) – Data Visualization Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://community.esri.com/t5/arcgis-insights-blog/chart-types-in-arcgis/ba-p/886570&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Esri – Chart types in ArcGIS: Waffle chart&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotypeinstitute.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Otto Neurath and ISOTYPE Institute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cdc.gov/cove/data-visualization-types/waffle-and-gauge.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CDC — Waffle and Gauge Chart | COVE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cdc.gov/wcms/4.0/cdc-wp/data-presentation/Waffle-Chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CDC — Waffle Chart (WCMS Template)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/mapping-coronavirus-waffles&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri — Mapping Coronavirus Waffles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://kirby.datawrapper.de/media/pages/blog/chart-types-guide/2dd7f89cdb-1750068284/visualization-types-poster.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datawrapper — Visualization Types Poster (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datawrapper.de/blog/chart-types-guide&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datawrapper — Chart Types Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://helpcenter.flourish.studio/hc/en-us/articles/8761551004815-Choosing-the-right-visualization-for-your-data&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flourish Help Center — Choosing the right visualization for your data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
