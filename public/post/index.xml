@@ -8,124 +8,86 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
-        <link>http://localhost:1313/italian-social-conditionpoverty/</link>
+        <title>映画の経済を描くインフォグラフィック — Selling at Sundance</title>
+        <link>http://localhost:1313/selling-at-sundance/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
-        <description>&lt;img src="http://localhost:1313/images/image-15.png" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
-&lt;p&gt;単なるデータ分析ではなく、デザイン教育の文脈において「社会課題をどのように読み取り、可視化を通じて理解を深められるか」という点が重視されています。課題文では「もし自分が貧困層に属していたら」という想像力を出発点に、社会構造を自らの眼で再構築することが求められていました。&lt;/p&gt;
-&lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
-&lt;/h2&gt;&lt;p&gt;この課題から生まれた作例は、複雑な社会データを直感的に理解できるよう工夫されています。&lt;/p&gt;
+        <guid>http://localhost:1313/selling-at-sundance/</guid>
+        <description>&lt;img src="http://localhost:1313/selling-at-sundance/images/cover.png" alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance" /&gt;&lt;p&gt;このインフォグラフィックは、イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; が制作した「Selling at Sundance」です。2011年から2013年にかけてサンダンス映画祭で売買されたインディペンデント映画を題材に &lt;strong&gt;予算・販売価格・興行収入・上映時間・ジャンル・受賞数&lt;/strong&gt; などを多次元的に可視化しています。もともとはスプレッドシートで管理されていたデータを「三次元的なアート」として再構成したものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual.png&#34;
+	width=&#34;3000&#34;
+	height=&#34;2305&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual_hu_ff9c4bbe6cc163b1.png 480w, http://localhost:1313/selling-at-sundance/images/mainvisual_hu_90b82951c70284b6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Selling at Sundance&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;この図は &lt;strong&gt;上半分と下半分に分かれた二層構成&lt;/strong&gt;になっています。&lt;br&gt;
+それぞれが「映画の性質」と「経済的成果」という異なる側面を表します。&lt;/p&gt;
+&lt;h3 id=&#34;上半分映画の性質と文脈&#34;&gt;上半分：映画の性質と文脈
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend-top.png&#34;
+	width=&#34;1446&#34;
+	height=&#34;155&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend-top_hu_7e395ac9b5286ecc.png 480w, http://localhost:1313/selling-at-sundance/images/legend-top_hu_3f697b3a6b6289d9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;図解の見方:上半分&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;932&#34;
+		data-flex-basis=&#34;2238px&#34;
+	
+&gt;
+上側の領域では、各作品の&lt;strong&gt;ジャンル的特徴や物語的傾向&lt;/strong&gt;が示されています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;属性ごとの分岐&lt;/strong&gt; 家族構成や教育水準、年齢などのカテゴリを扇形や樹状図で示し、それぞれがどの程度貧困に直結するかを視覚化。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;地域格差の強調&lt;/strong&gt; 北部・中部・南部イタリアを比較し、特に南部から多くの太いラインが伸びるデザインにより、格差の深刻さを強調。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;複数指標の同時表現&lt;/strong&gt; 実線／点線や色／太さなど、異なるビジュアル属性を用いて「シェア」と「発生率」を並列的に伝達。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;青から灰色へのグラデーション&lt;/strong&gt; ：ジャンルの位置づけを表し、左のドキュメンタリー（Non-fiction）から右のフィクション（Fiction）へと連続的に変化します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矢印の形状&lt;/strong&gt; ：作品の &lt;strong&gt;時代設定&lt;/strong&gt; を示します。過去（左向き矢印）、現代（上向き）、架空の現代（斜め上）、未来（右向き）といった具合に視覚化されています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小さな縦棒（Length）&lt;/strong&gt; ：映画の &lt;strong&gt;上映時間&lt;/strong&gt; 。長い棒ほど長尺作品を意味します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;緑色の多角形（Awards）&lt;/strong&gt; ：映画が受賞した &lt;strong&gt;賞の数と規模&lt;/strong&gt; を表現。形が大きいほど受賞歴が多いことを意味します。&lt;/li&gt;
+&lt;li&gt;さらに右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出された上位25語が示され、全体の作品傾向（テーマや題材）を俯瞰できます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;こうした図解の仕組みによって、単なる数値の列では見えにくい「誰が、どこで、なぜ貧困に陥りやすいのか」が視覚的に一目で理解できるようになります。&lt;/p&gt;
-&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
-&lt;/h2&gt;&lt;p&gt;この演習の価値は、学生が「データ」と「デザイン」を結びつける訓練を実地で経験できる点にあります。&lt;/p&gt;
+&lt;p&gt;これらの要素によって「どんなタイプの映画がどんな評価を得ているか」を俯瞰的に捉えられる構造になっています。&lt;/p&gt;
+&lt;h3 id=&#34;下半分映画の経済データ&#34;&gt;下半分：映画の経済データ
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend-bottom.png&#34;
+	width=&#34;810&#34;
+	height=&#34;154&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend-bottom_hu_58ef016e867e04da.png 480w, http://localhost:1313/selling-at-sundance/images/legend-bottom_hu_1bee81332375e69c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;図解の見方:下半分&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;525&#34;
+		data-flex-basis=&#34;1262px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下側の領域は、映画ごとの &lt;strong&gt;経済的構造&lt;/strong&gt; を示します。各映画は、積み重なった三層の図形で構成されています。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;統計の読み解き&lt;/strong&gt;公的データを調査し、指標を解釈することで、社会科学的リテラシーを身につける。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;表現技法の探求&lt;/strong&gt; グラフィックの変数を使い分けて複雑な関係性を整理し、情報を明確に伝える方法を学ぶ。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;批判的視点の育成&lt;/strong&gt; 「貧困をどう可視化すれば社会に伝わるか」という課題を通じ、デザインの社会的役割を自覚する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;赤色部分&lt;/strong&gt; ：制作予算（Budget）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灰色部分&lt;/strong&gt; ：販売価格（Sale price）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄色の数字&lt;/strong&gt; ：興行収入（Box office gross）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;このように教育的文脈の中で課題を位置づけることで、学生は単なるデータ処理者ではなく「社会に働きかけるデザイナー」としてのスキルを磨いていきます。&lt;/p&gt;
-&lt;h2 id=&#34;学生の代表的な作例&#34;&gt;学生の代表的な作例
-&lt;/h2&gt;&lt;p&gt;この課題からは数多くのポスターが制作されました。現在 Flickr 上で確認できる代表例は以下の通りです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b.jpg&#34;
-	width=&#34;724&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_f51de48f2f185cb5.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_cee659018d27d63d.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b.jpg&#34;
-	width=&#34;724&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_349fbf87027e4c57.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_f479df037f9ee406.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b.jpg&#34;
-	width=&#34;724&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_c60af6a939a45870.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_f51ee6dbe053053b.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b.jpg&#34;
-	width=&#34;724&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_98233af1f17dc309.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_77bf19f969125aba.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b.jpg&#34;
-	width=&#34;724&#34;
-	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_88db11d6a122b70b.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_266e7a2d3dab2a6e.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;alt text&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;70&#34;
-		data-flex-basis=&#34;169px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;これらの作例は、データの背後にある社会的現実を「読む」だけでなく、「見せる」ための実践知を体現しています。&lt;/p&gt;
+&lt;p&gt;これらを上下に重ねることで &lt;strong&gt;制作コストと販売価格、そして実際の収益&lt;/strong&gt; の関係が一目で比較できます。&lt;br&gt;
+販売価格が制作費を上回る場合や、興行的に成功した作品ほど、図形のバランスが異なり、「映画がどの段階で利益を得たか」が視覚的に浮かび上がります。&lt;/p&gt;
+&lt;h2 id=&#34;補足的な背景知識&#34;&gt;補足的な背景知識
+&lt;/h2&gt;&lt;p&gt;サンダンス映画祭は1980年代以降、アメリカ最大のインディペンデント映画のマーケットとして知られています。大作映画とは異なり、少額の予算で制作される一方で、作品によっては数百万ドルから数千万ドルの取引額になることもあります。&lt;/p&gt;
+&lt;p&gt;この図では &lt;strong&gt;映画祭での受賞数が必ずしも商業的成功につながらない&lt;/strong&gt; ことが強調されています。例えば、アカデミー賞にノミネートされたとしても、必ずしも利益が保証されるわけではないことが示されています。&lt;/p&gt;
+&lt;p&gt;また、右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出した映画を説明する上位25語が表示され、作品傾向を把握できる仕組みになっています。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;本課題は DensityDesign Lab による2008–2009年度の演習で、イタリアの貧困をテーマとした情報デザイン教育の実践。&lt;/li&gt;
-&lt;li&gt;図解は「属性 × 地域 × 貧困指標」を複層的に可視化し、南北格差の深刻さを直感的に示す。&lt;/li&gt;
-&lt;li&gt;学生はデータ分析と可視化を通じて、社会構造を理解するだけでなく、デザインによる社会的介入の可能性を体験した。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h2&gt;&lt;p&gt;「Selling at Sundance」は、映画祭におけるインディペンデント映画の経済的な位置づけを、多層的に表現したインフォグラフィックです。複雑な関係（予算、販売価格、興行収入、上映時間、ジャンル、受賞数）を一つの造形的な図形に凝縮することで &lt;strong&gt;「数字の物語」を直感的に理解させる可視化デザインの好例&lt;/strong&gt; となっています。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/course_projects/first-exercise/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;DensityDesign – Italian Social Condition (課題文ページ)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987241555/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Giulia Baldini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/3031632605/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Davide Passini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987255835/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Mario Porpora 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987259431/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pietro Righi Riva 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988128330/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Gabriela Cistino 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988106310/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Simone Magini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14264353/Selling-at-Sundance&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Selling at Sundance :: Behance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -5696,6 +5658,255 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://uncharted.software/research/why-two-y-axes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Why Two Y-Axes (Y2Y): A Case Study for Visual Correlation with Dual Axes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
+        <link>http://localhost:1313/italian-social-conditionpoverty/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
+        <description>&lt;img src="http://localhost:1313/italian-social-conditionpoverty/images/cover.jpg" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
+&lt;p&gt;単なるデータ分析ではなく、デザイン教育の文脈において「社会課題をどのように読み取り、可視化を通じて理解を深められるか」という点が重視されています。課題文では「もし自分が貧困層に属していたら」という想像力を出発点に、社会構造を自らの眼で再構築することが求められていました。&lt;/p&gt;
+&lt;h2 id=&#34;学生の代表的な作例&#34;&gt;学生の代表的な作例
+&lt;/h2&gt;&lt;p&gt;この課題からは数多くのポスターが制作されました。現在 Flickr 上で確認できる代表例は以下の通りです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_f51de48f2f185cb5.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_cee659018d27d63d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Davide Passini 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/3031632605/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Davide Passini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_349fbf87027e4c57.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_f479df037f9ee406.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Gabriela Cistino 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988128330/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gabriela Cistino 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_c60af6a939a45870.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_f51ee6dbe053053b.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pietro Righi Riva 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987259431/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pietro Righi Riva 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_98233af1f17dc309.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_77bf19f969125aba.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mario Porpora 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987255835/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mario Porpora 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_88db11d6a122b70b.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_266e7a2d3dab2a6e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Giulia Baldini 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987241555/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Giulia Baldini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_6f7b9a4d47cf6d03.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_522607f24ae1fee8.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Simone Magini 作例 (Flickr)&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988106310/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Simone Magini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの作例は、データの背後にある社会的現実を「読む」だけでなく、「見せる」ための実践知を体現しています。&lt;/p&gt;
+&lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
+&lt;/h2&gt;&lt;p&gt;この課題から生まれた作例は、複雑な社会データを直感的に理解できるよう工夫されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;属性ごとの分岐&lt;/strong&gt; 家族構成や教育水準、年齢などのカテゴリを扇形や樹状図で示し、それぞれがどの程度貧困に直結するかを視覚化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地域格差の強調&lt;/strong&gt; 北部・中部・南部イタリアを比較し、特に南部から多くの太いラインが伸びるデザインにより、格差の深刻さを強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;複数指標の同時表現&lt;/strong&gt; 実線／点線や色／太さなど、異なるビジュアル属性を用いて「シェア」と「発生率」を並列的に伝達。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした図解の仕組みによって、単なる数値の列では見えにくい「誰が、どこで、なぜ貧困に陥りやすいのか」が視覚的に一目で理解できるようになります。&lt;/p&gt;
+&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
+&lt;/h2&gt;&lt;p&gt;この演習の価値は、学生が「データ」と「デザイン」を結びつける訓練を実地で経験できる点にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;統計の読み解き&lt;/strong&gt;公的データを調査し、指標を解釈することで、社会科学的リテラシーを身につける。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表現技法の探求&lt;/strong&gt; グラフィックの変数を使い分けて複雑な関係性を整理し、情報を明確に伝える方法を学ぶ。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批判的視点の育成&lt;/strong&gt; 「貧困をどう可視化すれば社会に伝わるか」という課題を通じ、デザインの社会的役割を自覚する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように教育的文脈の中で課題を位置づけることで、学生は単なるデータ処理者ではなく「社会に働きかけるデザイナー」としてのスキルを磨いていきます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本課題は DensityDesign Lab による2008–2009年度の演習で、イタリアの貧困をテーマとした情報デザイン教育の実践。&lt;/li&gt;
+&lt;li&gt;図解は「属性 × 地域 × 貧困指標」を複層的に可視化し、南北格差の深刻さを直感的に示す。&lt;/li&gt;
+&lt;li&gt;学生はデータ分析と可視化を通じて、社会構造を理解するだけでなく、デザインによる社会的介入の可能性を体験した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/course_projects/first-exercise/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DensityDesign – Italian Social Condition (課題文ページ)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題</title>
+        <link>http://localhost:1313/densitydesign-lab-memento/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/densitydesign-lab-memento/</guid>
+        <description>&lt;img src="http://localhost:1313/densitydesign-lab-memento/images/cover.jpg" alt="Featured image of post 映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題" /&gt;&lt;p&gt;「Memento」課題は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2007–2008年度の教育課題です。テーマはクリストファー・ノーラン監督の映画『メメント』（2000年）。この映画は、記憶障害を持つ主人公が妻の死の真相を追う物語で、シーンの時系列が逆行や断片的構成で進むという極めて複雑なストーリーテリングを特徴としています。&lt;/p&gt;
+&lt;p&gt;課題の目的は、この映画の時間構造や物語の複雑さを「情報デザインの手法」によって可視化すること。学生たちは、物語をシーン単位に分解し、時間の流れ・登場人物の関係・記憶の断片化を図解として再構築しました。&lt;/p&gt;
+&lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
+&lt;/h2&gt;&lt;p&gt;学生が制作したビジュアルは、映画の独自の構造を「読む」のではなく「見る」ための試みとして設計されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;時間軸の再編成&lt;/strong&gt; 『メメント』特有の「逆行する白黒シーン」と「順行するカラーシーン」を整理し、どこで交差するかを図として明示。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;断片化された記憶の表現&lt;/strong&gt; 主人公の失われた記憶を「途切れた線」「分岐したノード」などで表現し、観客の混乱を再現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人物関係の可視化&lt;/strong&gt; 各登場人物との関わりや、情報の信頼度を色や線種で区別し、プロットの複雑さを構造的に示す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの図解は、物語分析の補助であると同時に「時間」や「記憶」といった抽象的概念をどのようにデザインで表せるかを探る実践になっています。&lt;/p&gt;
+&lt;h2 id=&#34;学生の作例&#34;&gt;学生の作例
+&lt;/h2&gt;&lt;p&gt;Flickr 上では、以下のような学生作品が確認できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_79112d708b39ca97.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_8447707cfc16e7e7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Eloisa Fontana&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2198257632/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Eloisa Fontana Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_ccd2bfcd89c64e61.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_8881bd511737f8d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Simone Trotti&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197472887/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Simone Trotti Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_bb799b3a550adc86.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_a1877b8970c8c9c3.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mauro Napoli&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197465859/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Mauro Napoli Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b.jpg&#34;
+	width=&#34;725&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_20b4d9cbb3943402.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_327795ea98ec25ef.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Valentina Ceruti&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197456027/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Valentina Ceruti Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
+&lt;/h2&gt;&lt;p&gt;この課題は、社会データを扱う「Poverty」課題とは異なり、物語や時間構造といった抽象的な対象をデザインで理解する訓練です。教育的意義は以下にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分析力の強化&lt;/strong&gt; 複雑な物語を分解し、要素間の関係を明示するスキルを育成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表現力の拡張&lt;/strong&gt; 時間や記憶といった非数値的データを可視化する方法を模索し、抽象的な対象を表現する柔軟性を培う。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批判的理解&lt;/strong&gt; 単なる映画鑑賞にとどまらず、「構造をどう表現すれば他者が理解できるか」を考えさせる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;教育現場において、こうした「映画をデータ化・図解化する課題」は、データジャーナリズム的な訓練とは異なる角度から、情報デザインの可能性を拡張する機会になっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;「Memento」課題は、映画『メメント』の時間構造・記憶・人物関係を可視化する演習。&lt;/li&gt;
+&lt;li&gt;学生は抽象的な物語要素を情報デザインで再構築することで、分析力・表現力・批判的理解 を鍛えた。&lt;/li&gt;
+&lt;li&gt;データだけでなく「物語」や「記憶」といった非数値的テーマも教育的対象になり得ることを示した事例である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/2008/01/memento/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DensityDesign – Memento (課題文ページ)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>

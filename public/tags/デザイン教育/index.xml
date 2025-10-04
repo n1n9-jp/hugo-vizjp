@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
         <link>http://localhost:1313/italian-social-conditionpoverty/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
         <description>&lt;img src="http://localhost:1313/italian-social-conditionpoverty/images/cover.jpg" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
@@ -152,6 +152,108 @@
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/course_projects/first-exercise/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DensityDesign – Italian Social Condition (課題文ページ)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題</title>
+        <link>http://localhost:1313/densitydesign-lab-memento/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/densitydesign-lab-memento/</guid>
+        <description>&lt;img src="http://localhost:1313/densitydesign-lab-memento/images/cover.jpg" alt="Featured image of post 映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題" /&gt;&lt;p&gt;「Memento」課題は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2007–2008年度の教育課題です。テーマはクリストファー・ノーラン監督の映画『メメント』（2000年）。この映画は、記憶障害を持つ主人公が妻の死の真相を追う物語で、シーンの時系列が逆行や断片的構成で進むという極めて複雑なストーリーテリングを特徴としています。&lt;/p&gt;
+&lt;p&gt;課題の目的は、この映画の時間構造や物語の複雑さを「情報デザインの手法」によって可視化すること。学生たちは、物語をシーン単位に分解し、時間の流れ・登場人物の関係・記憶の断片化を図解として再構築しました。&lt;/p&gt;
+&lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
+&lt;/h2&gt;&lt;p&gt;学生が制作したビジュアルは、映画の独自の構造を「読む」のではなく「見る」ための試みとして設計されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;時間軸の再編成&lt;/strong&gt; 『メメント』特有の「逆行する白黒シーン」と「順行するカラーシーン」を整理し、どこで交差するかを図として明示。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;断片化された記憶の表現&lt;/strong&gt; 主人公の失われた記憶を「途切れた線」「分岐したノード」などで表現し、観客の混乱を再現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;人物関係の可視化&lt;/strong&gt; 各登場人物との関わりや、情報の信頼度を色や線種で区別し、プロットの複雑さを構造的に示す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの図解は、物語分析の補助であると同時に「時間」や「記憶」といった抽象的概念をどのようにデザインで表せるかを探る実践になっています。&lt;/p&gt;
+&lt;h2 id=&#34;学生の作例&#34;&gt;学生の作例
+&lt;/h2&gt;&lt;p&gt;Flickr 上では、以下のような学生作品が確認できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_79112d708b39ca97.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_8447707cfc16e7e7.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Eloisa Fontana&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2198257632/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Eloisa Fontana Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_ccd2bfcd89c64e61.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_8881bd511737f8d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Simone Trotti&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197472887/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Simone Trotti Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_bb799b3a550adc86.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_a1877b8970c8c9c3.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Mauro Napoli&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197465859/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Mauro Napoli Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b.jpg&#34;
+	width=&#34;725&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_20b4d9cbb3943402.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_327795ea98ec25ef.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Valentina Ceruti&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197456027/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Memento | Valentina Ceruti Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
+&lt;/h2&gt;&lt;p&gt;この課題は、社会データを扱う「Poverty」課題とは異なり、物語や時間構造といった抽象的な対象をデザインで理解する訓練です。教育的意義は以下にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分析力の強化&lt;/strong&gt; 複雑な物語を分解し、要素間の関係を明示するスキルを育成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表現力の拡張&lt;/strong&gt; 時間や記憶といった非数値的データを可視化する方法を模索し、抽象的な対象を表現する柔軟性を培う。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批判的理解&lt;/strong&gt; 単なる映画鑑賞にとどまらず、「構造をどう表現すれば他者が理解できるか」を考えさせる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;教育現場において、こうした「映画をデータ化・図解化する課題」は、データジャーナリズム的な訓練とは異なる角度から、情報デザインの可能性を拡張する機会になっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;「Memento」課題は、映画『メメント』の時間構造・記憶・人物関係を可視化する演習。&lt;/li&gt;
+&lt;li&gt;学生は抽象的な物語要素を情報デザインで再構築することで、分析力・表現力・批判的理解 を鍛えた。&lt;/li&gt;
+&lt;li&gt;データだけでなく「物語」や「記憶」といった非数値的テーマも教育的対象になり得ることを示した事例である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/2008/01/memento/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DensityDesign – Memento (課題文ページ)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         

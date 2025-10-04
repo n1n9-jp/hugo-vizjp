@@ -48,14 +48,6 @@
         <description></description>
         </item>
         <item>
-        <title>Map</title>
-        <link>http://localhost:1313/tags/map/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/map/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>2-Axis</title>
         <link>http://localhost:1313/tags/2-axis/</link>
         <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
@@ -69,6 +61,14 @@
         <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/tags/chart/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>デザイン教育</title>
+        <link>http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/</guid>
         <description></description>
         </item>
         <item>
@@ -189,14 +189,6 @@
         <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/tags/311/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Uber</title>
-        <link>http://localhost:1313/tags/uber/</link>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/uber/</guid>
         <description></description>
         </item>
         <item>

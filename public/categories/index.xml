@@ -7,6 +7,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Consume</title>
+        <link>http://localhost:1313/categories/consume/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/consume/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Chart</title>
+        <link>http://localhost:1313/categories/chart/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/chart/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Technology</title>
+        <link>http://localhost:1313/categories/technology/</link>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/technology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Principle</title>
+        <link>http://localhost:1313/categories/principle/</link>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/principle/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Education</title>
+        <link>http://localhost:1313/categories/education/</link>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/education/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Data-Journalism</title>
+        <link>http://localhost:1313/categories/data-journalism/</link>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/data-journalism/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Event</title>
+        <link>http://localhost:1313/categories/event/</link>
+        <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/event/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>
