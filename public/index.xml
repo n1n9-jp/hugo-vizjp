@@ -257,6 +257,75 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>映画の経済を描くインフォグラフィック — Selling at Sundance</title>
+        <link>http://localhost:1313/selling-at-sundance/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/selling-at-sundance/</guid>
+        <description>&lt;img src="http://localhost:1313/selling-at-sundance/images/cover.png" alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance" /&gt;&lt;p&gt;このインフォグラフィックは、イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; が制作した「Selling at Sundance」です。2011年から2013年にかけてサンダンス映画祭で売買されたインディペンデント映画を題材に &lt;strong&gt;予算・販売価格・興行収入・上映時間・ジャンル・受賞数&lt;/strong&gt; などを多次元的に可視化しています。もともとはスプレッドシートで管理されていたデータを「三次元的なアート」として再構成したものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual.png&#34;
+	width=&#34;3000&#34;
+	height=&#34;2305&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual_hu_ff9c4bbe6cc163b1.png 480w, http://localhost:1313/selling-at-sundance/images/mainvisual_hu_90b82951c70284b6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Selling at Sundance&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend_hu_ba81ad300f6cecfa.png 480w, http://localhost:1313/selling-at-sundance/images/legend_hu_caeb7226612a4d0e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;図解の見方&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図は &lt;strong&gt;上半分と下半分に分かれた二層構成&lt;/strong&gt;になっています。&lt;br&gt;
+それぞれが「映画の性質」と「経済的成果」という異なる側面を表します。&lt;/p&gt;
+&lt;h3 id=&#34;上半分映画の性質と文脈&#34;&gt;上半分：映画の性質と文脈
+&lt;/h3&gt;&lt;p&gt;上側の領域では、各作品の&lt;strong&gt;ジャンル的特徴や物語的傾向&lt;/strong&gt;が示されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;青から灰色へのグラデーション&lt;/strong&gt; ：ジャンルの位置づけを表し、左のドキュメンタリー（Non-fiction）から右のフィクション（Fiction）へと連続的に変化します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;矢印の形状&lt;/strong&gt; ：作品の &lt;strong&gt;時代設定&lt;/strong&gt; を示します。過去（左向き矢印）、現代（上向き）、架空の現代（斜め上）、未来（右向き）といった具合に視覚化されています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;小さな縦棒（Length）&lt;/strong&gt; ：映画の &lt;strong&gt;上映時間&lt;/strong&gt; 。長い棒ほど長尺作品を意味します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;緑色の多角形（Awards）&lt;/strong&gt; ：映画が受賞した &lt;strong&gt;賞の数と規模&lt;/strong&gt; を表現。形が大きいほど受賞歴が多いことを意味します。&lt;/li&gt;
+&lt;li&gt;さらに右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出された上位25語が示され、全体の作品傾向（テーマや題材）を俯瞰できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの要素によって「どんなタイプの映画がどんな評価を得ているか」を俯瞰的に捉えられる構造になっています。&lt;/p&gt;
+&lt;h3 id=&#34;下半分映画の経済データ&#34;&gt;下半分：映画の経済データ
+&lt;/h3&gt;&lt;p&gt;下側の領域は、映画ごとの &lt;strong&gt;経済的構造&lt;/strong&gt; を示します。各映画は、積み重なった三層の図形で構成されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;赤色部分&lt;/strong&gt; ：制作予算（Budget）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灰色部分&lt;/strong&gt; ：販売価格（Sale price）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄色の数字&lt;/strong&gt; ：興行収入（Box office gross）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらを上下に重ねることで &lt;strong&gt;制作コストと販売価格、そして実際の収益&lt;/strong&gt; の関係が一目で比較できます。&lt;br&gt;
+販売価格が制作費を上回る場合や、興行的に成功した作品ほど、図形のバランスが異なり、「映画がどの段階で利益を得たか」が視覚的に浮かび上がります。&lt;/p&gt;
+&lt;h2 id=&#34;補足的な背景知識&#34;&gt;補足的な背景知識
+&lt;/h2&gt;&lt;p&gt;サンダンス映画祭は1980年代以降、アメリカ最大のインディペンデント映画のマーケットとして知られています。大作映画とは異なり、少額の予算で制作される一方で、作品によっては数百万ドルから数千万ドルの取引額になることもあります。&lt;/p&gt;
+&lt;p&gt;この図では &lt;strong&gt;映画祭での受賞数が必ずしも商業的成功につながらない&lt;/strong&gt; ことが強調されています。例えば、アカデミー賞にノミネートされたとしても、必ずしも利益が保証されるわけではないことが示されています。&lt;/p&gt;
+&lt;p&gt;また、右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出した映画を説明する上位25語が表示され、作品傾向を把握できる仕組みになっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Selling at Sundance」は、映画祭におけるインディペンデント映画の経済的な位置づけを、多層的に表現したインフォグラフィックです。複雑な関係（予算、販売価格、興行収入、上映時間、ジャンル、受賞数）を一つの造形的な図形に凝縮することで &lt;strong&gt;「数字の物語」を直感的に理解させる可視化デザインの好例&lt;/strong&gt; となっています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14264353/Selling-at-Sundance&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Selling at Sundance :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
         <link>http://localhost:1313/literary-organism/</link>
         <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
@@ -431,75 +500,6 @@
     &gt;Understanding Shakespeare / Approaches&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/23/understanding-shakespeare-with-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Understanding Shakespeare with visualization – FlowingData&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-        </item>
-        <item>
-        <title>映画の経済を描くインフォグラフィック — Selling at Sundance</title>
-        <link>http://localhost:1313/selling-at-sundance/</link>
-        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/selling-at-sundance/</guid>
-        <description>&lt;img src="http://localhost:1313/selling-at-sundance/images/cover.png" alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance" /&gt;&lt;p&gt;このインフォグラフィックは、イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; が制作した「Selling at Sundance」です。2011年から2013年にかけてサンダンス映画祭で売買されたインディペンデント映画を題材に &lt;strong&gt;予算・販売価格・興行収入・上映時間・ジャンル・受賞数&lt;/strong&gt; などを多次元的に可視化しています。もともとはスプレッドシートで管理されていたデータを「三次元的なアート」として再構成したものです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual.png&#34;
-	width=&#34;3000&#34;
-	height=&#34;2305&#34;
-	srcset=&#34;http://localhost:1313/selling-at-sundance/images/mainvisual_hu_ff9c4bbe6cc163b1.png 480w, http://localhost:1313/selling-at-sundance/images/mainvisual_hu_90b82951c70284b6.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Selling at Sundance&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;130&#34;
-		data-flex-basis=&#34;312px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/selling-at-sundance/images/legend.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;1080&#34;
-	srcset=&#34;http://localhost:1313/selling-at-sundance/images/legend_hu_ba81ad300f6cecfa.png 480w, http://localhost:1313/selling-at-sundance/images/legend_hu_caeb7226612a4d0e.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;図解の見方&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;この図は &lt;strong&gt;上半分と下半分に分かれた二層構成&lt;/strong&gt;になっています。&lt;br&gt;
-それぞれが「映画の性質」と「経済的成果」という異なる側面を表します。&lt;/p&gt;
-&lt;h3 id=&#34;上半分映画の性質と文脈&#34;&gt;上半分：映画の性質と文脈
-&lt;/h3&gt;&lt;p&gt;上側の領域では、各作品の&lt;strong&gt;ジャンル的特徴や物語的傾向&lt;/strong&gt;が示されています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;青から灰色へのグラデーション&lt;/strong&gt; ：ジャンルの位置づけを表し、左のドキュメンタリー（Non-fiction）から右のフィクション（Fiction）へと連続的に変化します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;矢印の形状&lt;/strong&gt; ：作品の &lt;strong&gt;時代設定&lt;/strong&gt; を示します。過去（左向き矢印）、現代（上向き）、架空の現代（斜め上）、未来（右向き）といった具合に視覚化されています。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;小さな縦棒（Length）&lt;/strong&gt; ：映画の &lt;strong&gt;上映時間&lt;/strong&gt; 。長い棒ほど長尺作品を意味します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;緑色の多角形（Awards）&lt;/strong&gt; ：映画が受賞した &lt;strong&gt;賞の数と規模&lt;/strong&gt; を表現。形が大きいほど受賞歴が多いことを意味します。&lt;/li&gt;
-&lt;li&gt;さらに右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出された上位25語が示され、全体の作品傾向（テーマや題材）を俯瞰できます。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これらの要素によって「どんなタイプの映画がどんな評価を得ているか」を俯瞰的に捉えられる構造になっています。&lt;/p&gt;
-&lt;h3 id=&#34;下半分映画の経済データ&#34;&gt;下半分：映画の経済データ
-&lt;/h3&gt;&lt;p&gt;下側の領域は、映画ごとの &lt;strong&gt;経済的構造&lt;/strong&gt; を示します。各映画は、積み重なった三層の図形で構成されています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;赤色部分&lt;/strong&gt; ：制作予算（Budget）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;灰色部分&lt;/strong&gt; ：販売価格（Sale price）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;黄色の数字&lt;/strong&gt; ：興行収入（Box office gross）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これらを上下に重ねることで &lt;strong&gt;制作コストと販売価格、そして実際の収益&lt;/strong&gt; の関係が一目で比較できます。&lt;br&gt;
-販売価格が制作費を上回る場合や、興行的に成功した作品ほど、図形のバランスが異なり、「映画がどの段階で利益を得たか」が視覚的に浮かび上がります。&lt;/p&gt;
-&lt;h2 id=&#34;補足的な背景知識&#34;&gt;補足的な背景知識
-&lt;/h2&gt;&lt;p&gt;サンダンス映画祭は1980年代以降、アメリカ最大のインディペンデント映画のマーケットとして知られています。大作映画とは異なり、少額の予算で制作される一方で、作品によっては数百万ドルから数千万ドルの取引額になることもあります。&lt;/p&gt;
-&lt;p&gt;この図では &lt;strong&gt;映画祭での受賞数が必ずしも商業的成功につながらない&lt;/strong&gt; ことが強調されています。例えば、アカデミー賞にノミネートされたとしても、必ずしも利益が保証されるわけではないことが示されています。&lt;/p&gt;
-&lt;p&gt;また、右上には &lt;strong&gt;タグクラウド&lt;/strong&gt; があり、IMDBのキーワードから抽出した映画を説明する上位25語が表示され、作品傾向を把握できる仕組みになっています。&lt;/p&gt;
-&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;「Selling at Sundance」は、映画祭におけるインディペンデント映画の経済的な位置づけを、多層的に表現したインフォグラフィックです。複雑な関係（予算、販売価格、興行収入、上映時間、ジャンル、受賞数）を一つの造形的な図形に凝縮することで &lt;strong&gt;「数字の物語」を直感的に理解させる可視化デザインの好例&lt;/strong&gt; となっています。&lt;/p&gt;
-&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14264353/Selling-at-Sundance&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Selling at Sundance :: Behance&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
