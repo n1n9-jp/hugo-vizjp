@@ -7,18 +7,151 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
+        <link>http://localhost:1313/italian-social-conditionpoverty/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
+        <description>&lt;img src="http://localhost:1313/images/image-15.png" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
+&lt;p&gt;単なるデータ分析ではなく、デザイン教育の文脈において「社会課題をどのように読み取り、可視化を通じて理解を深められるか」という点が重視されています。課題文では「もし自分が貧困層に属していたら」という想像力を出発点に、社会構造を自らの眼で再構築することが求められていました。&lt;/p&gt;
+&lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
+&lt;/h2&gt;&lt;p&gt;この課題から生まれた作例は、複雑な社会データを直感的に理解できるよう工夫されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;属性ごとの分岐&lt;/strong&gt; 家族構成や教育水準、年齢などのカテゴリを扇形や樹状図で示し、それぞれがどの程度貧困に直結するかを視覚化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地域格差の強調&lt;/strong&gt; 北部・中部・南部イタリアを比較し、特に南部から多くの太いラインが伸びるデザインにより、格差の深刻さを強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;複数指標の同時表現&lt;/strong&gt; 実線／点線や色／太さなど、異なるビジュアル属性を用いて「シェア」と「発生率」を並列的に伝達。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;こうした図解の仕組みによって、単なる数値の列では見えにくい「誰が、どこで、なぜ貧困に陥りやすいのか」が視覚的に一目で理解できるようになります。&lt;/p&gt;
+&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
+&lt;/h2&gt;&lt;p&gt;この演習の価値は、学生が「データ」と「デザイン」を結びつける訓練を実地で経験できる点にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;統計の読み解き&lt;/strong&gt;公的データを調査し、指標を解釈することで、社会科学的リテラシーを身につける。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表現技法の探求&lt;/strong&gt; グラフィックの変数を使い分けて複雑な関係性を整理し、情報を明確に伝える方法を学ぶ。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;批判的視点の育成&lt;/strong&gt; 「貧困をどう可視化すれば社会に伝わるか」という課題を通じ、デザインの社会的役割を自覚する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように教育的文脈の中で課題を位置づけることで、学生は単なるデータ処理者ではなく「社会に働きかけるデザイナー」としてのスキルを磨いていきます。&lt;/p&gt;
+&lt;h2 id=&#34;学生の代表的な作例&#34;&gt;学生の代表的な作例
+&lt;/h2&gt;&lt;p&gt;この課題からは数多くのポスターが制作されました。現在 Flickr 上で確認できる代表例は以下の通りです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_f51de48f2f185cb5.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_cee659018d27d63d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_349fbf87027e4c57.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_f479df037f9ee406.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_c60af6a939a45870.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_f51ee6dbe053053b.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_98233af1f17dc309.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_77bf19f969125aba.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b.jpg&#34;
+	width=&#34;724&#34;
+	height=&#34;1024&#34;
+	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_88db11d6a122b70b.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_266e7a2d3dab2a6e.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これらの作例は、データの背後にある社会的現実を「読む」だけでなく、「見せる」ための実践知を体現しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本課題は DensityDesign Lab による2008–2009年度の演習で、イタリアの貧困をテーマとした情報デザイン教育の実践。&lt;/li&gt;
+&lt;li&gt;図解は「属性 × 地域 × 貧困指標」を複層的に可視化し、南北格差の深刻さを直感的に示す。&lt;/li&gt;
+&lt;li&gt;学生はデータ分析と可視化を通じて、社会構造を理解するだけでなく、デザインによる社会的介入の可能性を体験した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://densitydesign.org/course_projects/first-exercise/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DensityDesign – Italian Social Condition (課題文ページ)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987241555/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Giulia Baldini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/3031632605/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Davide Passini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987255835/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mario Porpora 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987259431/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pietro Righi Riva 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988128330/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gabriela Cistino 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988106310/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Simone Magini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
-        <link>http://localhost:1313/writing-without-words/</link>
+        <link>http://localhost:1313/literary-organism/</link>
         <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/writing-without-words/</guid>
-        <description>&lt;img src="http://localhost:1313/images/image-27.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
-&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する 「Literary Organism」 はその代表例で、ジャック・ケルアックの小説 On the Road（邦題『路上』） を“文学的有機体”として表現しています。&lt;/p&gt;
-&lt;h2 id=&#34;on-the-road路上とは&#34;&gt;『On the Road（路上）』とは？
+        <guid>http://localhost:1313/literary-organism/</guid>
+        <description>&lt;img src="http://localhost:1313/literary-organism/images/cover.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
+&lt;p&gt;Posavec は、テキストを「読む」だけでなく「見る」体験に変換することを目指し、文体・リズム・テーマをデータとして可視化しました。本記事で紹介する &lt;strong&gt;Literary Organism&lt;/strong&gt; はその代表例で、ジャック・ケルアックの小説「路上」(原題 &amp;ldquo;On the Road&amp;rdquo;) を「文学的有機体(Literary Organism)」として表現しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/literary-organism/images/mainwork.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;2828&#34;
+	srcset=&#34;http://localhost:1313/literary-organism/images/mainwork_hu_26febaeab8011763.png 480w, http://localhost:1313/literary-organism/images/mainwork_hu_9ca8bd89b041f01c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;路上とは&#34;&gt;「路上」とは？
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;著者：ジャック・ケルアック（1922–1969）&lt;/li&gt;
-&lt;li&gt;邦題：『路上』&lt;/li&gt;
+&lt;li&gt;原題：On the Road&lt;/li&gt;
 &lt;li&gt;内容：主人公サル・パラダイスとディーン・モリアーティが、車やヒッチハイクでアメリカを横断する放浪の旅を描く小説。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;日本でのイメージ&#34;&gt;日本でのイメージ
@@ -29,7 +162,19 @@
 &lt;li&gt;1960年代以降、日本の若者文化やカウンターカルチャーに大きな影響を与えた作品&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h2&gt;&lt;h3 id=&#34;1-基本構造&#34;&gt;1. 基本構造
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/literary-organism/images/legend.png&#34;
+	width=&#34;1407&#34;
+	height=&#34;658&#34;
+	srcset=&#34;http://localhost:1313/literary-organism/images/legend_hu_6487816a340ccbc3.png 480w, http://localhost:1313/literary-organism/images/legend_hu_481d2b4be9689f47.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;213&#34;
+		data-flex-basis=&#34;513px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-基本構造&#34;&gt;1. 基本構造
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;テキストは PART（部） → CHAPTERS（章） → PARAGRAPHS（段落） → SENTENCES（文） → WORDS（単語） へと階層的に分解。&lt;/li&gt;
 &lt;li&gt;中心から外へ放射状に広がり、時計回りに読むことで物語の流れを追うことができます。&lt;/li&gt;
@@ -42,50 +187,33 @@
 &lt;h3 id=&#34;3-色分けcolors&#34;&gt;3. 色分け（Colors）
 &lt;/h3&gt;&lt;p&gt;内容やテーマに応じた色の凡例（英語＋日本語併記）：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dean Moriarty (Protagonist) / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
-&lt;li&gt;Bop &amp;amp; Jazz Music / ボップとジャズ音楽 … 水色&lt;/li&gt;
-&lt;li&gt;Social Events &amp;amp; Interaction / 社会的出来事と交流 … 灰色&lt;/li&gt;
-&lt;li&gt;Travel / 旅 … 薄紫&lt;/li&gt;
-&lt;li&gt;Sketches of Regional Life / 地域生活のスケッチ … 薄青&lt;/li&gt;
-&lt;li&gt;Parties, Drinking &amp;amp; Drugs / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
-&lt;li&gt;Work &amp;amp; Survival / 労働と生存 … 黄色&lt;/li&gt;
-&lt;li&gt;Sal Paradise (Narrator) / 語り手サル・パラダイス … 赤&lt;/li&gt;
-&lt;li&gt;Women, Sex, &amp;amp; Relationships / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
-&lt;li&gt;Illegal Activities &amp;amp; Police Encounters / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
-&lt;li&gt;Character Sketches / 人物描写 … 黒青&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dean Moriarty (Protagonist)&lt;/strong&gt; / 主人公ディーン・モリアーティ … 青緑&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bop &amp;amp; Jazz Music&lt;/strong&gt; / ボップとジャズ音楽 … 水色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social Events &amp;amp; Interaction&lt;/strong&gt; / 社会的出来事と交流 … 灰色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Travel&lt;/strong&gt; / 旅 … 薄紫&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sketches of Regional Life&lt;/strong&gt; / 地域生活のスケッチ … 薄青&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parties, Drinking &amp;amp; Drugs&lt;/strong&gt; / パーティ・酒・ドラッグ … 黄土色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Work &amp;amp; Survival&lt;/strong&gt; / 労働と生存 … 黄色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sal Paradise (Narrator)&lt;/strong&gt; / 語り手サル・パラダイス … 赤&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Women, Sex, &amp;amp; Relationships&lt;/strong&gt; / 女性・性愛・人間関係 … 赤茶&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Illegal Activities &amp;amp; Police Encounters&lt;/strong&gt; / 非合法行為と警察との遭遇 … 茶色&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Character Sketches&lt;/strong&gt; / 人物描写 … 黒青&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;4-文の長さword-count-chart&#34;&gt;4. 文の長さ（Word Count Chart）
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;各文は「語数」に比例した扇形で表現。&lt;/li&gt;
 &lt;li&gt;最長は151語で、10語ごとに凡例が用意されており、文体のリズムを視覚的に捉えられます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;他の可視化手法との比較&#34;&gt;他の可視化手法との比較
-&lt;/h2&gt;&lt;h3 id=&#34;sentence-drawings文の描画&#34;&gt;Sentence Drawings（文の描画）
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;各文を線の長さや角度として描く実験。&lt;/li&gt;
-&lt;li&gt;文ごとのリズムや流れが抽象的な「線のパターン」となり、作家ごとの文体の癖が浮かび上がる。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;rhythm-texturesリズムの質感&#34;&gt;Rhythm Textures（リズムの質感）
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;引用部分のリズムを棒状や段階的な構造で表現。&lt;/li&gt;
-&lt;li&gt;短い文が連なると密度が高まり、長い文が入ると空間が広がる。ケルアック特有の“疾走感”を体験できる。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;sentence-length文の長さ比較&#34;&gt;Sentence Length（文の長さ比較）
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;On the Road 全文を対象に、文の長さを数値化し並べる。&lt;/li&gt;
-&lt;li&gt;長文・短文の繰り返しが視覚化され、まるで「呼吸のリズム」を観察するように文体を分析できる。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これらの手法はすべて「文章を読む体験を拡張する」ことを目的とし、同じテキストを異なる視覚化で“多面的に”見せることに意義があります。&lt;/p&gt;
 &lt;h2 id=&#34;制作背景と意図posavec-の説明より&#34;&gt;制作背景と意図（Posavec の説明より）
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;プロジェクト Writing Without Words は、Posavec が MA（修士課程）で制作した研究成果。&lt;/li&gt;
-&lt;li&gt;対象データ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
-&lt;li&gt;制作方法：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
-&lt;li&gt;目的：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;対象データ&lt;/strong&gt; ：文の長さ、テーマ、品詞、句読点、文構造など。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;制作方法&lt;/strong&gt; ：コンピュータではなく手作業でデータ収集・描画を行い、グラフィックデザインの「労働性」と「人間的な介在」を重視。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt; ：定量的データに基づく客観性を持ちながら、作品に感情的なつながりを宿すこと。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;Posavec の「文学を視覚化する試み」は、単なるデータ可視化にとどまらず、文学鑑賞の新しい扉を開いています。
-『路上』が持つ リズム・テーマ・旅のスピリット が、図解を通して「読む」から「見る」へと変換されるとき、私たちは物語をもう一度違う角度から体験することができるのです。&lt;/p&gt;
+「路上」が持つリズム・テーマ・旅のスピリット が、図解を通して「読む」から「見る」へと変換されるとき、私たちは物語をもう一度違う角度から体験することができるのです。&lt;/p&gt;
 &lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/writing-without-words&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -94,6 +222,186 @@
     &gt;TextArc – W. Bradford Paley (SIGGRAPH Archive)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://digitalartarchive.at/database/work/3358/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Writing Without Words — ADA | Archive of Digital Art&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>シェイクスピアを「読む」新しい方法</title>
+        <link>http://localhost:1313/understanding-shakespeare/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/understanding-shakespeare/</guid>
+        <description>&lt;img src="http://localhost:1313/understanding-shakespeare/images/cover.png" alt="Featured image of post シェイクスピアを「読む」新しい方法" /&gt;&lt;p&gt;Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork.png&#34;
+	width=&#34;2125&#34;
+	height=&#34;2026&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_hu_3f7b84c8a1133ff0.png 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_hu_827e4958954e36d8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;251px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;プロジェクトは、ノースウェスタン大学の WordHoard プロジェクトのテキストデータを利用。計算機的手法を用いてテキストの中に潜む情報を抽出し、作品全体の「物語のアルゴリズム」を可視化する試みとして展開されました。ここで示された5つのアプローチは、こうした新しい読書体験の第一歩として、シェイクスピア作品を現代的に再解釈し直す試みです。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;作品は大判ポスター（90cm × 約220cm）の展示形式を想定しており、Web 上で見るのと印刷物で体験するのとでは印象が大きく異なります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;横方向：戯曲の進行（幕や場の順序）&lt;/li&gt;
+&lt;li&gt;縦方向：シーンごとの語彙や登場人物の分布&lt;/li&gt;
+&lt;li&gt;黄色い帯：特定の語が多用された部分を示す&lt;/li&gt;
+&lt;li&gt;文字サイズ：単語の使用頻度の多寡を表す&lt;/li&gt;
+&lt;li&gt;配置：キャラクターごとのセリフや場面での使用状況がわかる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば “time” や “man” のような語は全体を通じて大きく表示され、劇中で繰り返し使われる重要なテーマであることがひと目で理解できます。視覚的なパターンを追うことで、どの場面で特定の言葉が強調されているかを発見できる仕組みになっています。&lt;/p&gt;
+&lt;p&gt;また、現代の Google 検索結果を組み合わせた可視化も含まれており、古典文学の分析に現代的データを掛け合わせるユニークな手法が採用されています。&lt;/p&gt;
+&lt;p&gt;マクベスとハムレットをGoogle検索結果を通して見るというもので、重要な引用を見つけるために、フレーズを検索し、返された結果の数に基づいて単語に力を加えて、重要な部分を魚眼レンズでズームした文書のように見えます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_2.png&#34;
+	width=&#34;550&#34;
+	height=&#34;314&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_2_hu_e09680a66015a2b0.png 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_one_2_hu_e7f6d0952139b0dd.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;これにより、単なるテキスト解析を超えた「現代との対話」を試みています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と制作手法&#34;&gt;背景と制作手法
+&lt;/h2&gt;&lt;p&gt;この作品は Processing と toxiclibs（幾何学や色計算ライブラリ）、さらに Classifier4J など自然言語処理のツール群を用いて制作されました。途中経過は PDF 出力を重ねて動画化し、試行錯誤のプロセスを記録しています（一部の「Enter, Exit」アプローチのみ手作業による仕上げ）。&lt;/p&gt;
+&lt;p&gt;さらに、imagekind.com で一部の作品はポスターとして購入可能になっており、展示用の大判印刷を想定してデザインされています。可読性の観点から原寸大での印刷が推奨されますが、Google 検索を使ったアプローチなど一部は小さめでも楽しめると案内されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_1.jpg&#34;
+	width=&#34;922&#34;
+	height=&#34;425&#34;
+	srcset=&#34;http://localhost:1313/understanding-shakespeare/images/mainwork_one_1_hu_5f99642fa197528.jpg 480w, http://localhost:1313/understanding-shakespeare/images/mainwork_one_1_hu_27b6dd31667ad97d.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;216&#34;
+		data-flex-basis=&#34;520px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五つのアプローチと議論の出発点&#34;&gt;「五つのアプローチ」と議論の出発点
+&lt;/h2&gt;&lt;p&gt;Thiel はこれを「完全な読書の代替」ではなく、あくまで「議論の出発点」として提示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;登場人物ごとの語彙分布&lt;/li&gt;
+&lt;li&gt;シーンの進行と語の繰り返し&lt;/li&gt;
+&lt;li&gt;外部データ（Google 検索結果）を通した引用や関心の強さ&lt;/li&gt;
+&lt;li&gt;出入りするキャラクターの動線（Enter, Exit）&lt;/li&gt;
+&lt;li&gt;テキストのパターンを俯瞰できるビジュアル構造&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらのアプローチは、文学研究の枠を越えて一般の観客に開かれた“新しい読み方”を提供し、文化的遺産であるシェイクスピア作品への関心を呼び戻すことを目指しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Understanding Shakespeare」は、シェイクスピアを「読む」行為を情報可視化に変換し、デザインを介して再提示する挑戦的なプロジェクトです。大判の印刷物として全体構造を体験できるよう設計され、文学研究者から一般読者まで幅広い層に向けて、新しい洞察を呼び起こす仕組みを備えています。&lt;/p&gt;
+&lt;p&gt;文学、データサイエンス、情報デザインが交差する地点に立つこの作品は、古典を現代に生き返らせる試みとして注目に値します。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://understanding-shakespeare.com/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Understanding Shakespeare / Approaches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2010/08/23/understanding-shakespeare-with-visualization/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Understanding Shakespeare with visualization – FlowingData&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>視覚化された天才たち - Harold Bloomとカバラの樹形図</title>
+        <link>http://localhost:1313/geniuses-visualized/</link>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/geniuses-visualized/</guid>
+        <description>&lt;img src="http://localhost:1313/geniuses-visualized/images/cover.png" alt="Featured image of post 視覚化された天才たち - Harold Bloomとカバラの樹形図" /&gt;&lt;p&gt;文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。2012年にイタリアの新聞『Corriere della Sera』の日曜版文化誌『La Lettura（ラ・レットゥラ）』に掲載され、後にBehanceにも公開された「Geniuses, visualized」です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/mainwork.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;847&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_hu_5902a734aa807352.png 480w, http://localhost:1313/geniuses-visualized/images/mainwork_hu_f1aafe7e752a9eb5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;290px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ブルームが選出した文学的天才たち -シェイクスピアからルイス・キャロルに至るまで- を、カバラ思想における「セフィロトの樹（Tree of Sephiroth）」に見立てて配置することで、知の宇宙的な秩序を示しています。単なる人名リストではなく、文化的な影響関係や文学史上の広がりを「体系」として視覚化した点が大きな特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;このインフォグラフィックでは、文学的天才たちを多層的に表現するために、複数の視覚要素が組み合わされています。凡例を読み解くと以下のようになります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/legend.png&#34;
+	width=&#34;529&#34;
+	height=&#34;931&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/legend_hu_2859510b9fee5414.png 480w, http://localhost:1313/geniuses-visualized/images/legend_hu_555f78c6c5cfb991.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;136px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;円の大きさ&#34;&gt;円の大きさ
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;青い円の大きさ&lt;/strong&gt; ：2012年時点のWikipediaページ訪問数（知名度や一般的関心度を示す）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄色い円の大きさ&lt;/strong&gt; ：ハロルド・ブルームの著書『Genius』に割かれたページ数（ブルームの評価の比重）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灰色の点線で示される数&lt;/strong&gt; ：大英百科事典（britannica.com）における関連する歴史的人物の数（ネットワーク的広がり）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※これらのサイズは「5段階スケール」に基づいて正規化されています。&lt;/p&gt;
+&lt;h3 id=&#34;出身大陸色分け&#34;&gt;出身大陸（色分け）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;緑&lt;/strong&gt; ：ヨーロッパ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;赤&lt;/strong&gt; ：アジア&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黄&lt;/strong&gt; ：アフリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オレンジ&lt;/strong&gt; ：ラテンアメリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;青&lt;/strong&gt;：北アメリカ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;薄灰&lt;/strong&gt; ：不明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;性別追加記号&#34;&gt;性別（追加記号）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;女性の場合&lt;/strong&gt; ：円の下に小さな菱形（◇）が追加される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;男性の場合&lt;/strong&gt; ：追加記号なし（円のみ）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※つまり、基本記号は全員「円」で共通し、女性には菱形が付加される形で区別されます。&lt;/p&gt;
+&lt;h3 id=&#34;職業線の種類&#34;&gt;職業（線の種類）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;太実線&lt;/strong&gt; ：作家（writer）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中実線&lt;/strong&gt; ：詩人（poet）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;細実線&lt;/strong&gt; ：哲学者（philosopher）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点線&lt;/strong&gt; ：その他（other）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;誕生時代曲線の長さ&#34;&gt;誕生時代（曲線の長さ）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;最短&lt;/strong&gt; ：現代（Contemporary times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;やや長い&lt;/strong&gt; ：近代（Modern times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;長い&lt;/strong&gt; ：古代（Ancient times）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最長&lt;/strong&gt; ：古代以前（Antic age）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの要素を組み合わせることで、一人ひとりの天才の出自・時代背景・職業・影響力が一目でわかるように設計されています。セフィロトの樹を基盤に、10の段階（「理解」「冠」「知恵」「美」「永遠」など）ごとに人物が配置され、知の系譜が神秘思想的な秩序を持って描かれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_one.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1060&#34;
+	srcset=&#34;http://localhost:1313/geniuses-visualized/images/mainwork_one_hu_bc21b3365e4add33.png 480w, http://localhost:1313/geniuses-visualized/images/mainwork_one_hu_af0886ad5e29aad6.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;132&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;背景知識--セフィロトとブルームの文学観&#34;&gt;背景知識 ― セフィロトとブルームの文学観
+&lt;/h2&gt;&lt;p&gt;「セフィロトの樹」はユダヤ神秘思想（カバラ）において、宇宙や人間存在の原理を説明する図式で、10個のセフィラ（神的属性）が樹木の形に並び立ちます。この作品では、その枠組みを借り、文学的天才を「神的秩序」に見立てて分類しました。&lt;/p&gt;
+&lt;p&gt;ブルームの『Genius』は、言語と文学における「100人の偉大な創造者」を選出し、その文化的意義を論じた大著です。本作はその内容をさらに視覚化することで、読者が各天才の影響力や相互関係を直感的に理解できるよう補完しています。Wikipediaやブリタニカといった現代的な指標を参照することで、歴史的評価と現代的認知度を対比できるのも興味深い工夫です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Geniuses, visualized」は、文学的天才たちの文化的広がりや時代的背景を多次元的に表現したインフォグラフィックです。色・形・大きさ・線の種類・曲線の長さといった視覚要素を組み合わせることで、知名度・影響力・地理的背景・活動時代・職業などを同時に読み解くことができます。&lt;/p&gt;
+&lt;p&gt;ブルームの豊かな文学観を、カバラの象徴体系に重ね合わせた本作は、単なる批評やリストではなく「文学的宇宙の地図」として機能しています。視覚化によって、読者は比較し、探し、再発見するという体験を得ることができるのです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/18723575/Geniuses-visualized?locale=ja_JP&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Geniuses, visualized. :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.stefanieposavec.com/archive/writing-without-words&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Writing Without Words — Stefanie Posavec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.corriere.it/la-lettura/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Geniuses, visualized — La Lettura (2012)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
