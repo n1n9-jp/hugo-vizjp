@@ -1,0 +1,3 @@
+---
+image: "chart.png"
+---
