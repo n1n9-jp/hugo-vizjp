@@ -8,6 +8,63 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ワッフル・チャート（Waffle Chart）</title>
+        <link>http://localhost:1313/waffle-chart/</link>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/waffle-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/images/cover.png" alt="Featured image of post ワッフル・チャート（Waffle Chart）" /&gt;&lt;p&gt;ワッフル・チャート（Waffle Chart）は、データの構成比を視覚的に示すためのチャートで、小さな正方形を格子状（多くは10×10＝100マス）に配置し、塗りつぶしたマスの数で全体に対する割合を表します。&lt;br&gt;
+円グラフや100%積み上げ棒グラフと同様に「全体に対する部分の大きさ」を示すのに用いられますが、「マスを数える」ことで割合を直感的に理解できるのが特徴です。&lt;/p&gt;
+&lt;p&gt;このチャートは、Flourish・Datawrapper・Tableauなど多くの可視化ツールで公式テンプレートとして採用されており、公的機関（例：CDCやEsriなど）のガイドラインにも登場するほど、汎用的な表現手法となっています。&lt;br&gt;
+特に、単一指標の達成率・進捗率・構成比をわかりやすく表す用途に向いています。&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;全体＝100%&lt;/strong&gt;&lt;br&gt;
+グリッド全体（通常は10×10の100マス）が全体量を表します。1マス＝1%が基本単位です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;塗りつぶしマス＝割合の可視化&lt;/strong&gt;&lt;br&gt;
+例えば、68マスが塗られていれば「68%」を意味します。マスを数えることで、割合の大きさを直感的に把握できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;色と凡例の対応&lt;/strong&gt;&lt;br&gt;
+色やアイコンはカテゴリーを表し、凡例で対応関係を確認します。たとえば「青＝男性」「赤＝女性」など。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;複数比較（スモールマルチプル）&lt;/strong&gt;&lt;br&gt;
+同じスケールのワッフル・チャートを並べて比較することで、構成比や進捗を公平に比較できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;充填方向の一貫性&lt;/strong&gt;&lt;br&gt;
+左上から右下など、一定方向に塗りつぶすことで視覚的な統一感を保ちます（特に文化圏の読み方向に合わせることが推奨されます）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;背景と関連知識&#34;&gt;背景と関連知識
+&lt;/h3&gt;&lt;p&gt;ワッフル・チャートの発想は、オットー・ノイラートらが提唱した**アイソタイプ（ISOTYPE）**に源流があります。&lt;br&gt;
+これは「記号の大きさを変えず、数の多さで量を示す」という原則に基づく情報表現であり、ワッフル・チャートはその系譜上に位置づけられます。&lt;/p&gt;
+&lt;p&gt;近年では、データジャーナリズムや教育現場などでも、数値の理解を助ける「可算的（countable）」なチャートとして採用が進んでいます。&lt;br&gt;
+FlourishやDatawrapperの公式ビジュアルガイドでは、「構成比・シェア・進捗」のカテゴリに含まれており、視覚的明快さと親しみやすさが評価されています。&lt;/p&gt;
+&lt;p&gt;また、ワッフル・チャートは精密な数値比較には不向きであり、「おおまかな比率」や「全体の一部を直感的に伝える」ことを目的に用いるのが適しています。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;ワッフル・チャートは、データの割合をわかりやすく「マスで数える」形で伝える、ビジュアル的で教育効果の高いチャートです。&lt;br&gt;
+全体に対する部分の構成比や達成度を一目で理解できることから、円グラフの代替として多くの可視化ツールに標準搭載されています。&lt;br&gt;
+データの意味を「数える」「埋める」という操作に変換し、視覚的な比喩として定着した代表的なチャートの一つといえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flourish.studio/examples/waffle-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flourish – Waffle Chart Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.datawrapper.de/chart-types-overview-poster/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datawrapper – Chart taxonomy poster (Composition section)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cdc.gov/datavis/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Centers for Disease Control and Prevention (CDC) – Data Visualization Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://community.esri.com/t5/arcgis-insights-blog/chart-types-in-arcgis/ba-p/886570&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri – Chart types in ArcGIS: Waffle chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotypeinstitute.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Otto Neurath and ISOTYPE Institute&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>映画の経済を描くインフォグラフィック — Selling at Sundance</title>
         <link>http://localhost:1313/selling-at-sundance/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
