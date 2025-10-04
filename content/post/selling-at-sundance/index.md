@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "映画の経済を描くインフォグラフィック — Selling at Sundance"
 slug = "selling-at-sundance"
-date = "2025-10-03"
+date = "2025-10-04"
 description = ""
 categories = [
     "consume"
