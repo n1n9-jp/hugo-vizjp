@@ -2,10 +2,10 @@
 author = "Yuichi Yazaki"
 title = "映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題"
 slug = "densitydesign-lab-memento"
-date = "2025-10-04"
+date = "2024-10-04"
 description = ""
 categories = [
-    "consume"
+    "education"
 ]
 tags = [
     "デザイン教育",

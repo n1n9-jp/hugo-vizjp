@@ -2,10 +2,10 @@
 author = "Yuichi Yazaki"
 title = "デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題"
 slug = "italian-social-condition–poverty"
-date = "2025-10-04"
+date = "2024-10-04"
 description = ""
 categories = [
-    "consume"
+    "education"
 ]
 tags = [
     "デザイン教育",
