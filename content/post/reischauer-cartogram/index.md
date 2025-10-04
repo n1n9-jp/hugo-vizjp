@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "map",
+    "地図",
 ]
 image = "images/ライシャワー_Japanese_GNP.png"
 +++

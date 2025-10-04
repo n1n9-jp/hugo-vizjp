@@ -7,7 +7,7 @@ categories = [
     "technology"
 ]
 tags = [
-    "Map",
+    "地図",
 ]
 image = "images/12511022_closeup.png"
 +++

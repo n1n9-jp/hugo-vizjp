@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "map","uber"
+    "地図",
 ]
 image = "images/Twitter-H3.png"
 +++

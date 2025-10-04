@@ -5,10 +5,10 @@ slug = "italian-social-condition–poverty"
 date = "2025-10-04"
 description = ""
 categories = [
-    "chart"
+    "consume"
 ]
 tags = [
-    "",
+    "デザイン教育",
 ]
 image = "images/cover.jpg"
 +++

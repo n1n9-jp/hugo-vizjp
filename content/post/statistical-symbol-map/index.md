@@ -8,7 +8,7 @@ categories = [
     "chart"
 ]
 tags = [
-    "map",
+    "地図",
 ]
 image = "images/1064px-Minard-carte-viande-1858.png"
 +++
