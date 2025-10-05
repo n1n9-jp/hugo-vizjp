@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この作品は、世界の主要都市における 騒音汚染（noise pollution） と 聴覚損失（hearing loss） の関係を比較したものです。\nデータは、聴覚データ分析を専門とする mimi.io と、世界経済フォーラム (World Economic Forum) の共同調査に基づいています。 50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 World Hearing Loss Index（世界聴覚損失指数） 」として表しています。\n">
+<title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
+
+<link rel='canonical' href='http://localhost:1313/noise-pollution/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」">
+<meta property='og:description' content="この作品は、世界の主要都市における 騒音汚染（noise pollution） と 聴覚損失（hearing loss） の関係を比較したものです。\nデータは、聴覚データ分析を専門とする mimi.io と、世界経済フォーラム (World Economic Forum) の共同調査に基づいています。 50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 World Hearing Loss Index（世界聴覚損失指数） 」として表しています。\n">
+<meta property='og:url' content='http://localhost:1313/noise-pollution/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/noise-pollution/images/cover.png' />
+<meta name="twitter:title" content="世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」">
+<meta name="twitter:description" content="この作品は、世界の主要都市における 騒音汚染（noise pollution） と 聴覚損失（hearing loss） の関係を比較したものです。\nデータは、聴覚データ分析を専門とする mimi.io と、世界経済フォーラム (World Economic Forum) の共同調査に基づいています。 50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 World Hearing Loss Index（世界聴覚損失指数） 」として表しています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/noise-pollution/images/cover.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#作者情報">作者情報</a></li>
+    <li><a href="#凡例の読み方と構造の理解">凡例の読み方と構造の理解</a>
+      <ol>
+        <li><a href="#1-騒音汚染noise-pollution">1. 騒音汚染（Noise Pollution）</a></li>
+        <li><a href="#2-聴覚損失hearing-loss">2. 聴覚損失（Hearing Loss）</a></li>
+        <li><a href="#3-世界聴覚損失指数the-world-hearing-loss-index">3. 世界聴覚損失指数（The World Hearing Loss Index）</a></li>
+        <li><a href="#4-色colour">4. 色（Colour）</a></li>
+        <li><a href="#2つの指標を同時に見ることのポイント">2つの指標を「同時に見る」ことのポイント</a></li>
+        <li><a href="#凡例の一覧">凡例の一覧</a></li>
+      </ol>
+    </li>
+    <li><a href="#背景知識">背景知識</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参照リンク">参照リンク</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/noise-pollution/">
+                <img src="/noise-pollution/images/cover_hu_60d11a8c3e069ccf.png"
+                        srcset="/noise-pollution/images/cover_hu_60d11a8c3e069ccf.png 800w, /noise-pollution/images/cover_hu_bb796e24f82070be.png 1600w"
+                        width="800" 
+                        height="626" 
+                        loading="lazy"
+                        alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/noise-pollution/">世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 05, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>この作品は、世界の主要都市における <strong>騒音汚染（noise pollution）</strong> と <strong>聴覚損失（hearing loss）</strong> の関係を比較したものです。<br>
+データは、聴覚データ分析を専門とする <strong>mimi.io</strong> と、世界経済フォーラム <strong>(World Economic Forum)</strong> の共同調査に基づいています。
+50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 <strong>World Hearing Loss Index（世界聴覚損失指数）</strong> 」として表しています。</p>
+<p><img src="/noise-pollution/images/mainvisual.png"
+	width="2800"
+	height="1400"
+	srcset="/noise-pollution/images/mainvisual_hu_b1b72820c6138f47.png 480w, /noise-pollution/images/mainvisual_hu_f7cdea64b9c308b4.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="200"
+		data-flex-basis="480px"
+	
+></p>
+<h2 id="作者情報">作者情報
+</h2><p>この作品は、イタリアの主要新聞 <em>Corriere Della Sera</em> の文化別冊「 <em>La Lettura</em> 」内のデータビジュアライゼーション欄「 <em>Visual Data</em> 」のために制作されたものです。<br>
+作者のフェデリカ・フラガパーネ（Federica Fragapane）は、複雑な社会データを詩的かつ構造的に可視化することで知られるデータビジュアライゼーション・デザイナーです。<br>
+本作でも、科学的データと美的表現を両立させ <strong>都市の「音」と「健康」を結びつける新しい視覚言語</strong> を提示しています。</p>
+<h2 id="凡例の読み方と構造の理解">凡例の読み方と構造の理解
+</h2><p><img src="/noise-pollution/images/legend.png"
+	width="1603"
+	height="2611"
+	srcset="/noise-pollution/images/legend_hu_bb4ec388472862fb.png 480w, /noise-pollution/images/legend_hu_382df740ff8004b0.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="61"
+		data-flex-basis="147px"
+	
+></p>
+<p>この作品は <strong>都市ごとの「騒音環境」と「聴覚への影響」を同時に可視化</strong> したものです。<br>
+各都市は一本の縦線と、その先端に描かれた円で表されます。そして、</p>
+<ul>
+<li><strong>線</strong> が示すのは「聴覚損失」</li>
+<li><strong>円</strong> が示すのは「騒音汚染」</li>
+<li><strong>数値</strong> が示すのは「両者を合算した総合指数（World Hearing Loss Index）」</li>
+</ul>
+<p>です。この3要素が連動しており、「 <strong>音のうるささが、耳への影響にどの程度つながっているか</strong> 」を読み解くことが、この作品の肝です。</p>
+<h3 id="1-騒音汚染noise-pollution">1. 騒音汚染（Noise Pollution）
+</h3><p><strong>定義：</strong>
+都市の平均的な騒音レベルを数値化したもの。<br>
+交通量、工事、夜間活動など、日常環境における持続的な騒音を指します。<br>
+スコアは <strong>0（静か）〜1（非常にうるさい）</strong> の範囲で表されます。</p>
+<p><strong>図での表現：</strong></p>
+<ul>
+<li>円の「大きさ」で表現されます。円が大きいほど騒音が強いです。</li>
+<li>例：右下に位置する都市ほど、騒音が深刻な傾向があります。</li>
+</ul>
+<h3 id="2-聴覚損失hearing-loss">2. 聴覚損失（Hearing Loss）
+</h3><p><strong>定義：</strong></p>
+<p>住民の聴覚能力の低下度合いを示す指標。<br>
+長期的な騒音暴露や加齢による平均的な聴力低下が数値化されています。<br>
+こちらも <strong>0（正常）〜1（高度な損失）</strong> のスコアです。</p>
+<p><strong>図での表現：</strong></p>
+<ul>
+<li>各都市の「縦線の長さ」で表されます。線が長いほど聴覚損失が大きい（＝耳が悪くなっている）。</li>
+<li>都市の並びは地域別（アフリカ、アメリカ、アジア、オセアニア、ヨーロッパ）に分類されています。</li>
+</ul>
+<h3 id="3-世界聴覚損失指数the-world-hearing-loss-index">3. 世界聴覚損失指数（The World Hearing Loss Index）
+</h3><p><strong>定義：</strong><br>
+騒音汚染スコアと聴覚損失スコアを足し合わせた総合値。<br>
+都市の「騒音による健康影響」をひとつの数値にまとめたものです。</p>
+<p><strong>図での表現：</strong></p>
+<ul>
+<li>円の内部に記された数値（例：0.97）として表示されます。</li>
+<li>この数値が高い都市ほど、「騒音も聴覚損失も共に深刻」であることを意味します。</li>
+</ul>
+<h3 id="4-色colour">4. 色（Colour）
+</h3><p><strong>定義：</strong><br>
+都市ごとの値が、全都市平均より良いか悪いかを示す相対評価です。</p>
+<p><strong>図での表現：</strong></p>
+<ul>
+<li><strong>赤（Red）</strong> ：平均より悪い（＝騒音も損失も大きい）</li>
+<li><strong>青（Blue）</strong> ：平均より良い（＝静かで耳にも優しい）</li>
+</ul>
+<p><strong>意味：</strong><br>
+色を追うことで、どの地域が「より静かで健康的」か、あるいは「騒音の悪循環に陥っているか」を直感的に把握できます。</p>
+<h3 id="2つの指標を同時に見ることのポイント">2つの指標を「同時に見る」ことのポイント
+</h3><p>この作品は、「騒音が大きい都市が本当に耳への影響も大きいのか？」を一目で比較できるよう設計されています。<br>
+具体的には、</p>
+<ul>
+<li><strong>線が長くて、円が大きい都市</strong> &hellip;騒音も損失も深刻（たとえばカイロ、広州など）</li>
+<li><strong>線が短くて、円が小さい都市</strong> &hellip;静かで聴力への影響が少ない（たとえばストックホルム、オスロなど）</li>
+<li><strong>線が短いのに円が大きい都市</strong> &hellip;騒音は多いが、まだ耳への影響は限定的（短期的問題）</li>
+<li><strong>線が長いのに円が小さい都市</strong> &hellip;騒音以外の要因（加齢や産業構造など）が影響している可能性</li>
+</ul>
+<p>つまり <strong>円（騒音）と線（聴覚損失）を「対応づけて」見ることが、この作品の理解の核心</strong> です。</p>
+<h3 id="凡例の一覧">凡例の一覧
+</h3><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>意味</th>
+          <th>図での表現</th>
+          <th>読み取りのポイント</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>騒音汚染</td>
+          <td>都市のうるささ</td>
+          <td>円の大きさ</td>
+          <td>大きいほど騒音が大きい</td>
+      </tr>
+      <tr>
+          <td>聴覚損失</td>
+          <td>平均的な聴力低下</td>
+          <td>線の長さ</td>
+          <td>長いほど聴力損失が大きい</td>
+      </tr>
+      <tr>
+          <td>総合指数</td>
+          <td>騒音＋聴覚損失</td>
+          <td>円の中の数値</td>
+          <td>値が高いほど深刻</td>
+      </tr>
+      <tr>
+          <td>色</td>
+          <td>相対的な良し悪し</td>
+          <td>赤／青</td>
+          <td>赤＝悪化、青＝良好</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="背景知識">背景知識
+</h2><p>この可視化の背景には <strong>都市生活が人間の聴覚に与える影響</strong> を定量的に把握しようとする試みがあります。<br>
+近年、世界保健機関（WHO）は、都市部の環境騒音を「新しい公害」と位置づけており、交通騒音・建設音・娯楽施設の音量などが人の健康を脅かす要因として警鐘を鳴らしています。</p>
+<p>たとえば、図中で赤色が目立つ都市は、交通量や人口密度が極めて高く、生活騒音が深刻であることが知られています。<br>
+一方、青色で示された都市は、環境規制が厳しく、都市設計の段階で静音性が重視されている点が特徴です。</p>
+<h2 id="まとめ">まとめ
+</h2><p>この作品は、単なる環境データの比較にとどまらず <strong>「都市の静けさ」は社会的な豊かさの指標でもある</strong> ということを可視化しています。<br>
+騒音汚染はもはや生活の副産物ではなく、健康・福祉・都市政策を横断する重要なテーマです。<br>
+静かな都市は、人間の幸福度を支える「インフラ」でもあることを、この図は美しく明快に示しています。</p>
+<h2 id="参照リンク">参照リンク
+</h2><ul>
+<li><a class="link" href="https://www.behance.net/gallery/96908251/Noise-pollution"  target="_blank" rel="noopener"
+    >Noise pollution :: Behance</a></li>
+<li><a class="link" href="https://www.weforum.org/stories/2017/03/these-are-the-cities-with-the-worst-noise-pollution/"  target="_blank" rel="noopener"
+    >These are the cities with the worst noise pollution :: World Economic Forum</a></li>
+<li><a class="link" href="https://mimi.io/hearing-science/world-hearing-index"  target="_blank" rel="noopener"
+    >Mimi World Hearing Index :: Mimi Hearing Technologies</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/waffle-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/waffle-chart/images/cover.785bfe55496ae2847ca4c3269b3e1079.785bfe55496ae2847ca4c3269b3e1079_hu_9c7ce6a0aa5bbfd1.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ワッフル・チャート（Waffle Chart）"
+                        data-key="waffle-chart" 
+                        data-hash="md5-eFv&#43;VUlq4oR8pMMmmz4QeQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ワッフル・チャート（Waffle Chart）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/selling-at-sundance/">
+        
+        
+            <div class="article-image">
+                <img src="/selling-at-sundance/images/cover.3e4562d08540bb05ac87aecdaf2f8cb0.3e4562d08540bb05ac87aecdaf2f8cb0_hu_a23b8a8801d5e367.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance"
+                        data-key="selling-at-sundance" 
+                        data-hash="md5-PkVi0IVAuwWsh67Nry&#43;MsA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">映画の経済を描くインフォグラフィック — Selling at Sundance</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/entangled-word-bank/">
+        
+        
+            <div class="article-image">
+                <img src="/entangled-word-bank/images/cover-entangled-word-bank.3014b13eb86c929710586fc3f932e6d7.3014b13eb86c929710586fc3f932e6d7_hu_3ae4328fea1b93df.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
+                        data-key="entangled-word-bank" 
+                        data-hash="md5-MBSxPrhskpcQWG/D&#43;TLm1w==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/textarc/">
+        
+        
+            <div class="article-image">
+                <img src="/textarc/images/367_text-arc.97bd2d94caacbde8c2faf955f5246a0c.97bd2d94caacbde8c2faf955f5246a0c_hu_adf3c74830cc7f34.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post TextArc: アリスを「眺める」ための地図"
+                        data-key="textarc" 
+                        data-hash="md5-l70tlMqsvejC&#43;vlV9SRqDA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TextArc: アリスを「眺める」ための地図</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/history-flow/">
+        
+        
+            <div class="article-image">
+                <img src="/history-flow/images/chocolate-1.bdef23e21f82408b4f10e0c121b7396b.bdef23e21f82408b4f10e0c121b7396b_hu_641ca4dfcd833b2.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
+                        data-key="history-flow" 
+                        data-hash="md5-ve8j4h&#43;CQItPEODBIbc5aw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

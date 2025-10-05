@@ -7,7 +7,158 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
+        <link>http://localhost:1313/noise-pollution/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/noise-pollution/</guid>
+        <description>&lt;img src="http://localhost:1313/noise-pollution/images/cover.png" alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" /&gt;&lt;p&gt;この作品は、世界の主要都市における &lt;strong&gt;騒音汚染（noise pollution）&lt;/strong&gt; と &lt;strong&gt;聴覚損失（hearing loss）&lt;/strong&gt; の関係を比較したものです。&lt;br&gt;
+データは、聴覚データ分析を専門とする &lt;strong&gt;mimi.io&lt;/strong&gt; と、世界経済フォーラム &lt;strong&gt;(World Economic Forum)&lt;/strong&gt; の共同調査に基づいています。
+50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 &lt;strong&gt;World Hearing Loss Index（世界聴覚損失指数）&lt;/strong&gt; 」として表しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/mainvisual.png&#34;
+	width=&#34;2800&#34;
+	height=&#34;1400&#34;
+	srcset=&#34;http://localhost:1313/noise-pollution/images/mainvisual_hu_b1b72820c6138f47.png 480w, http://localhost:1313/noise-pollution/images/mainvisual_hu_f7cdea64b9c308b4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作者情報&#34;&gt;作者情報
+&lt;/h2&gt;&lt;p&gt;この作品は、イタリアの主要新聞 &lt;em&gt;Corriere Della Sera&lt;/em&gt; の文化別冊「 &lt;em&gt;La Lettura&lt;/em&gt; 」内のデータビジュアライゼーション欄「 &lt;em&gt;Visual Data&lt;/em&gt; 」のために制作されたものです。&lt;br&gt;
+作者のフェデリカ・フラガパーネ（Federica Fragapane）は、複雑な社会データを詩的かつ構造的に可視化することで知られるデータビジュアライゼーション・デザイナーです。&lt;br&gt;
+本作でも、科学的データと美的表現を両立させ &lt;strong&gt;都市の「音」と「健康」を結びつける新しい視覚言語&lt;/strong&gt; を提示しています。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の読み方と構造の理解&#34;&gt;凡例の読み方と構造の理解
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/legend.png&#34;
+	width=&#34;1603&#34;
+	height=&#34;2611&#34;
+	srcset=&#34;http://localhost:1313/noise-pollution/images/legend_hu_bb4ec388472862fb.png 480w, http://localhost:1313/noise-pollution/images/legend_hu_382df740ff8004b0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;61&#34;
+		data-flex-basis=&#34;147px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この作品は &lt;strong&gt;都市ごとの「騒音環境」と「聴覚への影響」を同時に可視化&lt;/strong&gt; したものです。&lt;br&gt;
+各都市は一本の縦線と、その先端に描かれた円で表されます。そして、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;線&lt;/strong&gt; が示すのは「聴覚損失」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;円&lt;/strong&gt; が示すのは「騒音汚染」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数値&lt;/strong&gt; が示すのは「両者を合算した総合指数（World Hearing Loss Index）」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;です。この3要素が連動しており、「 &lt;strong&gt;音のうるささが、耳への影響にどの程度つながっているか&lt;/strong&gt; 」を読み解くことが、この作品の肝です。&lt;/p&gt;
+&lt;h3 id=&#34;1-騒音汚染noise-pollution&#34;&gt;1. 騒音汚染（Noise Pollution）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;
+都市の平均的な騒音レベルを数値化したもの。&lt;br&gt;
+交通量、工事、夜間活動など、日常環境における持続的な騒音を指します。&lt;br&gt;
+スコアは &lt;strong&gt;0（静か）〜1（非常にうるさい）&lt;/strong&gt; の範囲で表されます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;円の「大きさ」で表現されます。円が大きいほど騒音が強いです。&lt;/li&gt;
+&lt;li&gt;例：右下に位置する都市ほど、騒音が深刻な傾向があります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-聴覚損失hearing-loss&#34;&gt;2. 聴覚損失（Hearing Loss）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;住民の聴覚能力の低下度合いを示す指標。&lt;br&gt;
+長期的な騒音暴露や加齢による平均的な聴力低下が数値化されています。&lt;br&gt;
+こちらも &lt;strong&gt;0（正常）〜1（高度な損失）&lt;/strong&gt; のスコアです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各都市の「縦線の長さ」で表されます。線が長いほど聴覚損失が大きい（＝耳が悪くなっている）。&lt;/li&gt;
+&lt;li&gt;都市の並びは地域別（アフリカ、アメリカ、アジア、オセアニア、ヨーロッパ）に分類されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-世界聴覚損失指数the-world-hearing-loss-index&#34;&gt;3. 世界聴覚損失指数（The World Hearing Loss Index）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;br&gt;
+騒音汚染スコアと聴覚損失スコアを足し合わせた総合値。&lt;br&gt;
+都市の「騒音による健康影響」をひとつの数値にまとめたものです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;円の内部に記された数値（例：0.97）として表示されます。&lt;/li&gt;
+&lt;li&gt;この数値が高い都市ほど、「騒音も聴覚損失も共に深刻」であることを意味します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-色colour&#34;&gt;4. 色（Colour）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;br&gt;
+都市ごとの値が、全都市平均より良いか悪いかを示す相対評価です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;赤（Red）&lt;/strong&gt; ：平均より悪い（＝騒音も損失も大きい）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;青（Blue）&lt;/strong&gt; ：平均より良い（＝静かで耳にも優しい）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;意味：&lt;/strong&gt;&lt;br&gt;
+色を追うことで、どの地域が「より静かで健康的」か、あるいは「騒音の悪循環に陥っているか」を直感的に把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;2つの指標を同時に見ることのポイント&#34;&gt;2つの指標を「同時に見る」ことのポイント
+&lt;/h3&gt;&lt;p&gt;この作品は、「騒音が大きい都市が本当に耳への影響も大きいのか？」を一目で比較できるよう設計されています。&lt;br&gt;
+具体的には、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;線が長くて、円が大きい都市&lt;/strong&gt; &amp;hellip;騒音も損失も深刻（たとえばカイロ、広州など）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が短くて、円が小さい都市&lt;/strong&gt; &amp;hellip;静かで聴力への影響が少ない（たとえばストックホルム、オスロなど）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が短いのに円が大きい都市&lt;/strong&gt; &amp;hellip;騒音は多いが、まだ耳への影響は限定的（短期的問題）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が長いのに円が小さい都市&lt;/strong&gt; &amp;hellip;騒音以外の要因（加齢や産業構造など）が影響している可能性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり &lt;strong&gt;円（騒音）と線（聴覚損失）を「対応づけて」見ることが、この作品の理解の核心&lt;/strong&gt; です。&lt;/p&gt;
+&lt;h3 id=&#34;凡例の一覧&#34;&gt;凡例の一覧
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;図での表現&lt;/th&gt;
+          &lt;th&gt;読み取りのポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;騒音汚染&lt;/td&gt;
+          &lt;td&gt;都市のうるささ&lt;/td&gt;
+          &lt;td&gt;円の大きさ&lt;/td&gt;
+          &lt;td&gt;大きいほど騒音が大きい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;聴覚損失&lt;/td&gt;
+          &lt;td&gt;平均的な聴力低下&lt;/td&gt;
+          &lt;td&gt;線の長さ&lt;/td&gt;
+          &lt;td&gt;長いほど聴力損失が大きい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;総合指数&lt;/td&gt;
+          &lt;td&gt;騒音＋聴覚損失&lt;/td&gt;
+          &lt;td&gt;円の中の数値&lt;/td&gt;
+          &lt;td&gt;値が高いほど深刻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色&lt;/td&gt;
+          &lt;td&gt;相対的な良し悪し&lt;/td&gt;
+          &lt;td&gt;赤／青&lt;/td&gt;
+          &lt;td&gt;赤＝悪化、青＝良好&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h2&gt;&lt;p&gt;この可視化の背景には &lt;strong&gt;都市生活が人間の聴覚に与える影響&lt;/strong&gt; を定量的に把握しようとする試みがあります。&lt;br&gt;
+近年、世界保健機関（WHO）は、都市部の環境騒音を「新しい公害」と位置づけており、交通騒音・建設音・娯楽施設の音量などが人の健康を脅かす要因として警鐘を鳴らしています。&lt;/p&gt;
+&lt;p&gt;たとえば、図中で赤色が目立つ都市は、交通量や人口密度が極めて高く、生活騒音が深刻であることが知られています。&lt;br&gt;
+一方、青色で示された都市は、環境規制が厳しく、都市設計の段階で静音性が重視されている点が特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この作品は、単なる環境データの比較にとどまらず &lt;strong&gt;「都市の静けさ」は社会的な豊かさの指標でもある&lt;/strong&gt; ということを可視化しています。&lt;br&gt;
+騒音汚染はもはや生活の副産物ではなく、健康・福祉・都市政策を横断する重要なテーマです。&lt;br&gt;
+静かな都市は、人間の幸福度を支える「インフラ」でもあることを、この図は美しく明快に示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/96908251/Noise-pollution&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Noise pollution :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.weforum.org/stories/2017/03/these-are-the-cities-with-the-worst-noise-pollution/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;These are the cities with the worst noise pollution :: World Economic Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mimi.io/hearing-science/world-hearing-index&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mimi World Hearing Index :: Mimi Hearing Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ワッフル・チャート（Waffle Chart）</title>
         <link>http://localhost:1313/waffle-chart/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>

@@ -7,7 +7,89 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
+        <link>http://localhost:1313/noise-pollution/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/noise-pollution/</guid>
+        <description>&lt;img src="http://localhost:1313/images/cover.png" alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" /&gt;&lt;p&gt;このインフォグラフィックは、世界の主要都市における**騒音汚染（noise pollution）&lt;strong&gt;と&lt;/strong&gt;聴覚損失（hearing loss）**の関係を比較したものです。&lt;br&gt;
+データは、聴覚データ分析を専門とする &lt;strong&gt;mimi.io&lt;/strong&gt; と、世界経済フォーラム &lt;strong&gt;(World Economic Forum)&lt;/strong&gt; の共同調査に基づいています。
+50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 &lt;strong&gt;World Hearing Loss Index（世界聴覚損失指数）&lt;/strong&gt; 」として表しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/mainvisual.png&#34;
+	width=&#34;2800&#34;
+	height=&#34;1400&#34;
+	srcset=&#34;http://localhost:1313/noise-pollution/images/mainvisual_hu_b1b72820c6138f47.png 480w, http://localhost:1313/noise-pollution/images/mainvisual_hu_f7cdea64b9c308b4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/legend.png&#34;
+	width=&#34;1603&#34;
+	height=&#34;2611&#34;
+	srcset=&#34;http://localhost:1313/noise-pollution/images/legend_hu_bb4ec388472862fb.png 480w, http://localhost:1313/noise-pollution/images/legend_hu_382df740ff8004b0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;61&#34;
+		data-flex-basis=&#34;147px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図は、各都市の騒音レベルと聴覚損失の度合いを &lt;strong&gt;垂直方向と円の大きさ・色&lt;/strong&gt; で表現しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;縦軸（hearing loss）&lt;/strong&gt;&lt;br&gt;
+0〜1のスコアで、聴覚損失の程度を示します。数値が高いほど聴覚への影響が大きいことを意味します。&lt;br&gt;
+各都市は、国・地域別（アフリカ、アメリカ、アジア、オセアニア、ヨーロッパ）に並べられています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;円の大きさ（element size）&lt;/strong&gt;&lt;br&gt;
+騒音汚染スコア（noise pollution）を表します。大きいほど騒音レベルが高く、環境騒音が深刻であることを意味します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;線の長さ（line length）&lt;/strong&gt;&lt;br&gt;
+聴覚損失スコア（hearing loss）の値を反映しています。長いほど損失が大きいことを示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;円の色（colour）&lt;/strong&gt;&lt;br&gt;
+平均値に対する相対的な良し悪しを示します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;赤：平均より悪い（高い騒音・大きな損失）&lt;/li&gt;
+&lt;li&gt;青：平均より良い（静かで聴覚への影響が少ない）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;円内の数値（circle area and value）&lt;/strong&gt;&lt;br&gt;
+それぞれの都市の「World Hearing Loss Index」を示します。&lt;br&gt;
+これは「騒音汚染 + 聴覚損失」の合計値で、総合的な影響度を示す指標です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h2&gt;&lt;p&gt;この可視化の背景には &lt;strong&gt;都市生活が人間の聴覚に与える影響&lt;/strong&gt; を定量的に把握しようとする試みがあります。&lt;br&gt;
+近年、世界保健機関（WHO）は、都市部の環境騒音を「新しい公害」と位置づけており、交通騒音・建設音・娯楽施設の音量などが人の健康を脅かす要因として警鐘を鳴らしています。&lt;/p&gt;
+&lt;p&gt;たとえば、図中で赤色が目立つ都市（デリー、カイロ、メキシコシティなど）は、交通量や人口密度が極めて高く、生活騒音が深刻であることが知られています。&lt;br&gt;
+一方、青色で示された都市（チューリッヒ、ウィーン、ストックホルムなど）は、環境規制が厳しく、都市設計の段階で静音性が重視されている点が特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;このインフォグラフィックは、単なる環境データの比較にとどまらず &lt;strong&gt;「都市の静けさ」は社会的な豊かさの指標でもある&lt;/strong&gt; ということを可視化しています。&lt;br&gt;
+騒音汚染はもはや生活の副産物ではなく、健康・福祉・都市政策を横断する重要なテーマです。&lt;br&gt;
+静かな都市は、人間の幸福度を支える「インフラ」でもあることを、この図は美しく明快に示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/96908251/Noise-pollution&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Noise pollution :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.weforum.org/stories/2017/03/these-are-the-cities-with-the-worst-noise-pollution/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;These are the cities with the worst noise pollution :: World Economic Forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://mimi.io/hearing-science/world-hearing-index&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mimi World Hearing Index :: Mimi Hearing Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ワッフル・チャート（Waffle Chart）</title>
         <link>http://localhost:1313/waffle-chart/</link>
         <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
