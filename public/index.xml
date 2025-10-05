@@ -8,6 +8,136 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>世界の記憶を可視化する「The Memory of the World Register」</title>
+        <link>http://localhost:1313/the-memory-of-the-world-register/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/the-memory-of-the-world-register/</guid>
+        <description>&lt;img src="http://localhost:1313/the-memory-of-the-world-register/images/cover.png" alt="Featured image of post 世界の記憶を可視化する「The Memory of the World Register」" /&gt;&lt;p&gt;本作は &lt;strong&gt;Federica Fragapane&lt;/strong&gt; による作品で、ユネスコ（UNESCO）が保護対象として登録している「 &lt;strong&gt;世界の記憶（Memory of the World Register）&lt;/strong&gt; 」を可視化したインフォグラフィックスです。文化遺産のうち「文書遺産（documentary heritage）」に焦点を当て、地理的地域、国、資料の種類ごとに分類し、世界各地の記録物がどのように分布しているかを円環状に描き出しています。&lt;/p&gt;
+&lt;p&gt;この作品は、Corriere della Sera紙の文化特集「La Lettura」向けに制作されたシリーズ &lt;strong&gt;“Visual Data”&lt;/strong&gt; の一部として発表されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/the-memory-of-the-world-register/images/mainvisual.png&#34;
+	width=&#34;2800&#34;
+	height=&#34;2800&#34;
+	srcset=&#34;http://localhost:1313/the-memory-of-the-world-register/images/mainvisual_hu_be832ce93164d8d9.png 480w, http://localhost:1313/the-memory-of-the-world-register/images/mainvisual_hu_ee0f4a89714b5a54.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方凡例の読み解き&#34;&gt;図解の見方（凡例の読み解き）
+&lt;/h2&gt;&lt;p&gt;このインフォグラフィックスは、ユネスコ「世界の記憶（Memory of the World Register）」に登録された文書遺産を、&lt;strong&gt;地理的エリア → 国 → 文書の種類&lt;/strong&gt;という3階層で可視化しています。凡例はその構造と記号の意味を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/the-memory-of-the-world-register/images/legend.png&#34;
+	width=&#34;1194&#34;
+	height=&#34;990&#34;
+	srcset=&#34;http://localhost:1313/the-memory-of-the-world-register/images/legend_hu_be75e4fa5d79d2b.png 480w, http://localhost:1313/the-memory-of-the-world-register/images/legend_hu_6654e53d2a5fbe5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;階層構造の理解&#34;&gt;階層構造の理解
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;geographic area（地理的エリア）&lt;/strong&gt;&lt;br&gt;
+中心から大きく分かれる枝が、世界の主要地域（Europe, Asia, Africa, Latin America, Middle East, North America, Oceania）を示しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Country（国）&lt;/strong&gt;&lt;br&gt;
+各地域から伸びる細い枝の先端に国名が並びます。枝の長さや数に比例して、その地域内での登録国の多さが視覚的に示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;type of document（文書の種類）&lt;/strong&gt;&lt;br&gt;
+各国名の横に並ぶ小さなシンボルが、その国で登録された文書遺産のタイプを表します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;記号symbolの意味&#34;&gt;記号（symbol）の意味
+&lt;/h3&gt;&lt;p&gt;凡例右側の「(1) symbol = type of document」に示されているように、シンボルは次の5種類です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;記号&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;英語分類&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;日本語訳&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;〰️（曲線）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;audio and music&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;音声・音楽資料&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;◆（菱形）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;drawings, graphs and maps&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;図面・地図・グラフ類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;□（四角）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;photographs, videos, films&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;写真・映像・映画資料&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;//（二重斜線）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;books and manuscripts&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;書籍・写本類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;●（黒丸）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;various documents, other&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;その他の資料・分類外の文書&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ 図中では、各国の名前の横にこれらのシンボルが配置され、登録された文書の種類を示しています。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;円の大きさarea-of-the-circle&#34;&gt;円の大きさ（area of the circle）
+&lt;/h3&gt;&lt;p&gt;凡例右下にある「(2) area of the circle = number of documents (when there are more than one)」が示すように、&lt;br&gt;
+&lt;strong&gt;円の面積は登録件数の多寡を表します。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;凡例には基準値として以下の目安が描かれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小さい円：2件&lt;/li&gt;
+&lt;li&gt;中くらいの円：5件&lt;/li&gt;
+&lt;li&gt;大きい円：10件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このスケールにより、同じ記号でも件数の多い国ほど大きな円で示されます。円の外周には淡いピンクのグラデーションが加えられ、件数の重みが柔らかく視覚化されています。&lt;/p&gt;
+&lt;h3 id=&#34;4-全体構造の読み方&#34;&gt;4. 全体構造の読み方
+&lt;/h3&gt;&lt;p&gt;凡例左側の図にあるように、各地域の領域が花弁のように広がり、その中で国ごとに小さな記号と円が並んでいます。&lt;br&gt;
+中央から外へ向かう放射状の配置は、&lt;strong&gt;地域 → 国 → 文書タイプ → 件数&lt;/strong&gt;というデータの階層構造をそのまま形として表現したものです。&lt;/p&gt;
+&lt;p&gt;この構造によって、「どの地域がどの分野の記録遺産を多く保有しているか」を、俯瞰的かつ一目で把握できるようになっています。&lt;/p&gt;
+&lt;h3 id=&#34;5-注釈にある定義文&#34;&gt;5. 注釈にある定義文
+&lt;/h3&gt;&lt;p&gt;凡例下部に引用されている注釈：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“The Memory of the World Register lists documentary heritage which has been recommended by the International Advisory Committee, and endorsed by the Director-General of UNESCO, as corresponding to the selection criteria regarding world significance and outstanding universal value.”&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;この一文は、登録対象の基準を示したユネスコ公式定義です。&lt;br&gt;
+つまり、この可視化に描かれたすべての点と線は、「&lt;strong&gt;世界的意義と顕著な普遍的価値をもつ記録遺産&lt;/strong&gt;」の位置づけを持つことを意味します。&lt;/p&gt;
+&lt;p&gt;この凡例全体は、単なる説明図ではなく、「どのような文脈で“記憶”が可視化されているか」を理解するための縮図になっています。図表全体を読む前に、この凡例を丁寧に読み解くことで、作品の構造的な意図がより明確に理解できるよう設計されています。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上の特徴&#34;&gt;デザイン上の特徴
+&lt;/h2&gt;&lt;p&gt;Fragapaneによる本作では、データを単なる数量の一覧ではなく、「世界の知のネットワーク」として視覚化しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射状の構造は、知識や記録が&lt;strong&gt;根を張る植物のように世界中に広がる様子&lt;/strong&gt;を連想させます。&lt;/li&gt;
+&lt;li&gt;各国が持つ文化的記録が、地域間でどのように偏在しているかを、形と密度で直感的に示します。&lt;/li&gt;
+&lt;li&gt;シンボルの形と円の面積によって、&lt;strong&gt;資料の多様性と量的規模&lt;/strong&gt;の両方を一目で比較できるようになっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fragapaneの一連の作品には共通して、「複雑なデータを詩的な形で表現する」という特徴があり、本作もその代表例といえます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「The Memory of the World Register」は、単なる統計図ではなく、「記憶」という抽象的な概念を世界スケールで視覚化した作品です。&lt;br&gt;
+データの背後には、人類が共有すべき知の遺産と、それを未来へと残そうとする努力の積み重ねがあります。&lt;/p&gt;
+&lt;p&gt;Fragapaneは、科学的な正確さと芸術的な感性を両立させることで、「情報を読む」だけでなく「感じ取る」インフォグラフィックスを実現しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/119713231/The-Memory-of-the-World-Register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Memory of the World Register :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.unesco.org/programme/mow/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UNESCO Memory of the World Register&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
         <link>http://localhost:1313/noise-pollution/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
