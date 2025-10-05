@@ -8,6 +8,174 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ジェンダー平等への進展の可視化</title>
+        <link>http://localhost:1313/progress-toward-gender-equality/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/progress-toward-gender-equality/</guid>
+        <description>&lt;img src="http://localhost:1313/progress-toward-gender-equality/images/cover.png" alt="Featured image of post ジェンダー平等への進展の可視化" /&gt;&lt;p&gt;本作は Federica Fragapane による作品で &lt;strong&gt;Scientific American (2024年12月号)&lt;/strong&gt; に掲載されたものです。&lt;br&gt;
+国連の &lt;strong&gt;持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」&lt;/strong&gt; に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。&lt;br&gt;
+データは主に &lt;strong&gt;UN Women&lt;/strong&gt; および &lt;strong&gt;UN DESA（国連経済社会局）&lt;/strong&gt; のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。&lt;br&gt;
+テキストは &lt;strong&gt;Clara Moskowitz&lt;/strong&gt; によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/progress-toward-gender-equality/images/mainvisual.png&#34;
+	width=&#34;2100&#34;
+	height=&#34;2800&#34;
+	srcset=&#34;http://localhost:1313/progress-toward-gender-equality/images/mainvisual_hu_aa50351785d1d18d.png 480w, http://localhost:1313/progress-toward-gender-equality/images/mainvisual_hu_ffafb230a5cc46b5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;この可視化の意義&#34;&gt;この可視化の意義
+&lt;/h2&gt;&lt;p&gt;Fragapaneの特徴である「 &lt;strong&gt;柔らかく流れるライン構成と多層データの視覚統合&lt;/strong&gt; 」がここでも発揮されています。&lt;br&gt;
+線の分岐と色のグラデーションが、&lt;strong&gt;政策領域間の関係性&lt;/strong&gt;を直感的に理解させるとともに、&lt;br&gt;
+数値以上に「世界全体の進展のムラ」を印象づけます。&lt;br&gt;
+特に &lt;strong&gt;サハラ以南アフリカや南アジアの遅れ&lt;/strong&gt; 、 &lt;strong&gt;欧州・北米の部分的停滞&lt;/strong&gt; などが可視的に比較できます。&lt;/p&gt;
+&lt;p&gt;本作品は、単なる統計の集積ではなく &lt;strong&gt;ジェンダー平等をめぐる構造的不均衡を美しく、同時に批判的に描く&lt;/strong&gt; 情報デザインとして評価されます。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の見方&#34;&gt;凡例の見方
+&lt;/h2&gt;&lt;p&gt;本作品の評価は2軸構成で示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/progress-toward-gender-equality/images/legend.png&#34;
+	width=&#34;842&#34;
+	height=&#34;1514&#34;
+	srcset=&#34;http://localhost:1313/progress-toward-gender-equality/images/legend_hu_cae7d2188d87480e.png 480w, http://localhost:1313/progress-toward-gender-equality/images/legend_hu_c7bfc95119b680d4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;55&#34;
+		data-flex-basis=&#34;133px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;trend-assessment進展傾向&#34;&gt;Trend assessment（進展傾向）
+&lt;/h3&gt;&lt;p&gt;各指標における「変化の方向と速さ」を示します。&lt;br&gt;
+矢印の形状と向きで、進展・停滞・後退の度合いを視覚化しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;● &lt;strong&gt;On track or target met&lt;/strong&gt;&lt;br&gt;
+目標をすでに達成、または順調に達成軌道にある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⇛ &lt;strong&gt;Moderate progress but acceleration needed&lt;/strong&gt;&lt;br&gt;
+一定の進展はあるが、目標到達には加速が必要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;→ &lt;strong&gt;Marginal progress and significant acceleration needed&lt;/strong&gt;&lt;br&gt;
+ごくわずかな進展のみで、大幅な加速が求められる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⟍ &lt;strong&gt;Stagnation&lt;/strong&gt;&lt;br&gt;
+停滞、進展が見られない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;← &lt;strong&gt;Regression&lt;/strong&gt;&lt;br&gt;
+後退、状況が悪化している。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;○ &lt;strong&gt;World average&lt;/strong&gt;&lt;br&gt;
+世界平均の基準値を示す。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-assessment現状レベル&#34;&gt;Level assessment（現状レベル）
+&lt;/h3&gt;&lt;p&gt;各地域が目標達成にどれだけ近いかを表します。&lt;br&gt;
+線の長さと濃淡で「距離感」を段階的に表現しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Target met or almost met&lt;/strong&gt;&lt;br&gt;
+目標を達成、もしくはほぼ達成している。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Close to target&lt;/strong&gt;&lt;br&gt;
+目標に近い水準。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Moderate distance to target&lt;/strong&gt;&lt;br&gt;
+目標から中程度に離れている。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Far from target&lt;/strong&gt;&lt;br&gt;
+目標から遠い。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Very far from target&lt;/strong&gt;&lt;br&gt;
+目標から非常に遠い。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;····· &lt;strong&gt;Insufficient data&lt;/strong&gt;&lt;br&gt;
+データが不十分なため評価できない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;│ &lt;strong&gt;World average&lt;/strong&gt;&lt;br&gt;
+世界平均を示す基準線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景知識sdg目標5と指標の体系&#34;&gt;背景知識：SDG目標5と指標の体系
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目標5: ジェンダー平等を実現しよう&lt;/strong&gt;&lt;br&gt;
+SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育、経済、政治参加など、多領域を横断します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.1 あらゆる場所における全ての女性及び少女に対するあらゆる形態の差別を撤廃する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.2 人身売買や性的、その他の種類の搾取など、全ての女性及び少女に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.3 未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.4 公共のサービス、インフラ及び社会保障政策の提供、並びに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.5 政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.6 国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.a 女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.b 女性の能力強化促進のため、ICTをはじめとする実現技術の活用を強化する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.c ジェンダー平等の促進、並びに全ての女性及び少女のあらゆるレベルでの能力強化のための適正な政策及び拘束力のある法規を導入・強化する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの指標の中には &lt;strong&gt;国・地域単位でデータの欠損が多い&lt;/strong&gt; ことが課題のものもあり、図中の「MISSING DATA」枠でその点が注意喚起されています。&lt;/p&gt;
+&lt;h2 id=&#34;背景知識地域区分について&#34;&gt;背景知識：地域区分について
+&lt;/h2&gt;&lt;p&gt;本図で使用されている地域名は &lt;strong&gt;国連統計部（UNSD: United Nations Statistics Division）による「UN geoscheme（国連地理的地域区分）」&lt;/strong&gt; に基づいています。この分類は、地理的・統計的整合性を保つために設計されたもので、政治的・文化的な境界とは必ずしも一致しません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sub-Saharan Africa&lt;/li&gt;
+&lt;li&gt;Northern Africa and Western Asia&lt;/li&gt;
+&lt;li&gt;Central and Southern Asia&lt;/li&gt;
+&lt;li&gt;Easten and Southeasten Asia&lt;/li&gt;
+&lt;li&gt;Latin America and the Caribbean&lt;/li&gt;
+&lt;li&gt;Oceania&lt;/li&gt;
+&lt;li&gt;Europe and Northern America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この作品は、ジェンダー平等の達成がいかに多次元的な課題であるかを可視化したものです。&lt;br&gt;
+「進展の速度」と「到達レベル」という二重の視点は、政策評価の枠組みを理解するうえで極めて有効です。&lt;br&gt;
+またFragapaneらしい繊細な構成によって、複雑な国際指標データが一枚で俯瞰できるデザインとして仕上がっています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/214611933/Tracking-Gender-Equality&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tracking Gender Equality :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.scientificamerican.com/article/see-how-close-we-are-to-gender-equality-around-the-world/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;See How Close We Are to Gender Equality around the World :: Scientific American&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sdgs-japan.net/goal5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;目標5 | SDGsジャパン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/grapher/world-regions-sdg-united-nations&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World regions in the SDG framework of the United Nations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>世界の記憶を可視化する「The Memory of the World Register」</title>
         <link>http://localhost:1313/the-memory-of-the-world-register/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>

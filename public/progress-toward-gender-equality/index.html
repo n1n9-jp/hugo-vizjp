@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n">
-<title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="本作は Federica Fragapane による作品で Scientific American (2024年12月号) に掲載されたものです。\n国連の 持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」 に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。\nデータは主に UN Women および UN DESA（国連経済社会局） のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。\nテキストは Clara Moskowitz によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。\n">
+<title>ジェンダー平等への進展の可視化</title>
 
-<link rel='canonical' href='http://localhost:1313/beeswarm-example/'>
+<link rel='canonical' href='http://localhost:1313/progress-toward-gender-equality/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ビースウォーム・プロット（Beeswarm Plot）の事例">
-<meta property='og:description' content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n">
-<meta property='og:url' content='http://localhost:1313/beeswarm-example/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ジェンダー平等への進展の可視化">
+<meta property='og:description' content="本作は Federica Fragapane による作品で Scientific American (2024年12月号) に掲載されたものです。\n国連の 持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」 に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。\nデータは主に UN Women および UN DESA（国連経済社会局） のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。\nテキストは Clara Moskowitz によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。\n">
+<meta property='og:url' content='http://localhost:1313/progress-toward-gender-equality/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-04T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png' />
-<meta name="twitter:title" content="ビースウォーム・プロット（Beeswarm Plot）の事例">
-<meta name="twitter:description" content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/progress-toward-gender-equality/images/cover.png' />
+<meta name="twitter:title" content="ジェンダー平等への進展の可視化">
+<meta name="twitter:description" content="本作は Federica Fragapane による作品で Scientific American (2024年12月号) に掲載されたものです。\n国連の 持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」 に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。\nデータは主に UN Women および UN DESA（国連経済社会局） のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。\nテキストは Clara Moskowitz によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/progress-toward-gender-equality/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,14 +386,17 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
+    <li><a href="#この可視化の意義">この可視化の意義</a></li>
+    <li><a href="#凡例の見方">凡例の見方</a>
       <ol>
-        <li><a href="#人種別世帯収入の比較">人種別世帯収入の比較</a></li>
-        <li><a href="#アメリカの80都市で報告された銃窃盗事件2010-15年">アメリカの80都市で報告された銃窃盗事件（2010-15年）</a></li>
-        <li><a href="#タイタニック号の乗客">タイタニック号の乗客</a></li>
-        <li><a href="#covid-19関連の検索語の推移">COVID-19関連の検索語の推移</a></li>
+        <li><a href="#trend-assessment進展傾向">Trend assessment（進展傾向）</a></li>
+        <li><a href="#level-assessment現状レベル">Level assessment（現状レベル）</a></li>
       </ol>
     </li>
+    <li><a href="#背景知識sdg目標5と指標の体系">背景知識：SDG目標5と指標の体系</a></li>
+    <li><a href="#背景知識地域区分について">背景知識：地域区分について</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -408,13 +411,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/beeswarm-example/">
-                <img src="/beeswarm-example/images/searchingcovid19_2_hu_8cad285b13107868.png"
-                        srcset="/beeswarm-example/images/searchingcovid19_2_hu_8cad285b13107868.png 800w, /beeswarm-example/images/searchingcovid19_2_hu_b08fcd79bb98c334.png 1600w"
+            <a href="/progress-toward-gender-equality/">
+                <img src="/progress-toward-gender-equality/images/cover_hu_2ff76c62f54236d8.png"
+                        srcset="/progress-toward-gender-equality/images/cover_hu_2ff76c62f54236d8.png 800w, /progress-toward-gender-equality/images/cover_hu_2168cb148ad40a94.png 1600w"
                         width="800" 
-                        height="484" 
+                        height="387" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" />
+                        alt="Featured image of post ジェンダー平等への進展の可視化" />
                 
             </a>
         </div>
@@ -424,8 +427,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/chart/" >
-                チャート・カタログ
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -433,7 +436,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/beeswarm-example/">ビースウォーム・プロット（Beeswarm Plot）の事例</a>
+            <a href="/progress-toward-gender-equality/">ジェンダー平等への進展の可視化</a>
         </h2>
     
         
@@ -455,7 +458,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 04, 2020</time>
+                <time class="article-time--published">Oct 05, 2025</time>
             </div>
         
 
@@ -485,80 +488,167 @@
     <section class="article-content">
     
     
-    <p>「ビースウォーム・プロット」が利用されている事例を紹介します。</p>
-<h2 id="作例">作例
-</h2><h3 id="人種別世帯収入の比較">人種別世帯収入の比較
-</h3><p><img src="/beeswarm-example/images/BeeSwarm_income-1.png"
-	width="2953"
-	height="1945"
-	srcset="/beeswarm-example/images/BeeSwarm_income-1_hu_b972b23d02f8e98c.png 480w, /beeswarm-example/images/BeeSwarm_income-1_hu_4adf059bc0a61bf.png 1024w"
+    <p>本作は Federica Fragapane による作品で <strong>Scientific American (2024年12月号)</strong> に掲載されたものです。<br>
+国連の <strong>持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」</strong> に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。<br>
+データは主に <strong>UN Women</strong> および <strong>UN DESA（国連経済社会局）</strong> のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。<br>
+テキストは <strong>Clara Moskowitz</strong> によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。</p>
+<p><img src="/progress-toward-gender-equality/images/mainvisual.png"
+	width="2100"
+	height="2800"
+	srcset="/progress-toward-gender-equality/images/mainvisual_hu_aa50351785d1d18d.png 480w, /progress-toward-gender-equality/images/mainvisual_hu_ffafb230a5cc46b5.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="151"
-		data-flex-basis="364px"
+		data-flex-grow="75"
+		data-flex-basis="180px"
 	
 ></p>
-<p><a class="link" href="https://gabriellelamarrlemee.github.io/thesis-simulation/"  target="_blank" rel="noopener"
-    >Educate Your Child</a></p>
-<h3 id="アメリカの80都市で報告された銃窃盗事件2010-15年">アメリカの80都市で報告された銃窃盗事件（2010-15年）
-</h3><p><img src="/beeswarm-example/images/BeeSwarm_reportedgun-1.png"
-	width="2405"
-	height="1266"
-	srcset="/beeswarm-example/images/BeeSwarm_reportedgun-1_hu_93751ac435842138.png 480w, /beeswarm-example/images/BeeSwarm_reportedgun-1_hu_8654c4727a8ecfa9.png 1024w"
+<h2 id="この可視化の意義">この可視化の意義
+</h2><p>Fragapaneの特徴である「 <strong>柔らかく流れるライン構成と多層データの視覚統合</strong> 」がここでも発揮されています。<br>
+線の分岐と色のグラデーションが、<strong>政策領域間の関係性</strong>を直感的に理解させるとともに、<br>
+数値以上に「世界全体の進展のムラ」を印象づけます。<br>
+特に <strong>サハラ以南アフリカや南アジアの遅れ</strong> 、 <strong>欧州・北米の部分的停滞</strong> などが可視的に比較できます。</p>
+<p>本作品は、単なる統計の集積ではなく <strong>ジェンダー平等をめぐる構造的不均衡を美しく、同時に批判的に描く</strong> 情報デザインとして評価されます。</p>
+<h2 id="凡例の見方">凡例の見方
+</h2><p>本作品の評価は2軸構成で示されています。</p>
+<p><img src="/progress-toward-gender-equality/images/legend.png"
+	width="842"
+	height="1514"
+	srcset="/progress-toward-gender-equality/images/legend_hu_cae7d2188d87480e.png 480w, /progress-toward-gender-equality/images/legend_hu_c7bfc95119b680d4.png 1024w"
 	loading="lazy"
+	
+		alt="凡例"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="189"
-		data-flex-basis="455px"
+		data-flex-grow="55"
+		data-flex-basis="133px"
 	
 ></p>
-<p><a class="link" href="https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive"  target="_blank" rel="noopener"
-    >Reported Gun Theft in 80 American Cities, 2010–15</a></p>
-<h3 id="タイタニック号の乗客">タイタニック号の乗客
-</h3><p><img src="/beeswarm-example/images/DfjgnOZXkAU0iMu.jpeg"
-	width="600"
-	height="350"
-	srcset="/beeswarm-example/images/DfjgnOZXkAU0iMu_hu_7b61946d38b265f8.jpeg 480w, /beeswarm-example/images/DfjgnOZXkAU0iMu_hu_f10a2d5492ad12f3.jpeg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="171"
-		data-flex-basis="411px"
-	
-></p>
-<p><a class="link" href="https://twitter.com/theboysmithy/status/1006801643076247552"  target="_blank" rel="noopener"
-    >Alan Smith on Twitter.</a></p>
-<h3 id="covid-19関連の検索語の推移">COVID-19関連の検索語の推移
-</h3><p><img src="/beeswarm-example/images/searchingcovid19_1-1.png"
-	width="2862"
-	height="1725"
-	srcset="/beeswarm-example/images/searchingcovid19_1-1_hu_cb8c92cd329b541.png 480w, /beeswarm-example/images/searchingcovid19_1-1_hu_7ae4052d38b94bb1.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="165"
-		data-flex-basis="398px"
-	
->
-<img src="/beeswarm-example/images/searchingcovid19_2.png"
-	width="2858"
-	height="1728"
-	srcset="/beeswarm-example/images/searchingcovid19_2_hu_e9c8bcffc7f49f5e.png 480w, /beeswarm-example/images/searchingcovid19_2_hu_f08bc5d3c2da7417.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="165"
-		data-flex-basis="396px"
-	
-></p>
-<p><a class="link" href="https://searchingcovid19.com/"  target="_blank" rel="noopener"
-    >searchingcovid19</a></p>
+<h3 id="trend-assessment進展傾向">Trend assessment（進展傾向）
+</h3><p>各指標における「変化の方向と速さ」を示します。<br>
+矢印の形状と向きで、進展・停滞・後退の度合いを視覚化しています。</p>
+<ul>
+<li>
+<p>● <strong>On track or target met</strong><br>
+目標をすでに達成、または順調に達成軌道にある。</p>
+</li>
+<li>
+<p>⇛ <strong>Moderate progress but acceleration needed</strong><br>
+一定の進展はあるが、目標到達には加速が必要。</p>
+</li>
+<li>
+<p>→ <strong>Marginal progress and significant acceleration needed</strong><br>
+ごくわずかな進展のみで、大幅な加速が求められる。</p>
+</li>
+<li>
+<p>⟍ <strong>Stagnation</strong><br>
+停滞、進展が見られない。</p>
+</li>
+<li>
+<p>← <strong>Regression</strong><br>
+後退、状況が悪化している。</p>
+</li>
+<li>
+<p>○ <strong>World average</strong><br>
+世界平均の基準値を示す。</p>
+</li>
+</ul>
+<h3 id="level-assessment現状レベル">Level assessment（現状レベル）
+</h3><p>各地域が目標達成にどれだけ近いかを表します。<br>
+線の長さと濃淡で「距離感」を段階的に表現しています。</p>
+<ul>
+<li>
+<p><strong>Target met or almost met</strong><br>
+目標を達成、もしくはほぼ達成している。</p>
+</li>
+<li>
+<p><strong>Close to target</strong><br>
+目標に近い水準。</p>
+</li>
+<li>
+<p><strong>Moderate distance to target</strong><br>
+目標から中程度に離れている。</p>
+</li>
+<li>
+<p><strong>Far from target</strong><br>
+目標から遠い。</p>
+</li>
+<li>
+<p><strong>Very far from target</strong><br>
+目標から非常に遠い。</p>
+</li>
+<li>
+<p>····· <strong>Insufficient data</strong><br>
+データが不十分なため評価できない。</p>
+</li>
+<li>
+<p>│ <strong>World average</strong><br>
+世界平均を示す基準線。</p>
+</li>
+</ul>
+<h2 id="背景知識sdg目標5と指標の体系">背景知識：SDG目標5と指標の体系
+</h2><ul>
+<li>
+<p><strong>目標5: ジェンダー平等を実現しよう</strong><br>
+SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育、経済、政治参加など、多領域を横断します。</p>
+</li>
+<li>
+<p>5.1 あらゆる場所における全ての女性及び少女に対するあらゆる形態の差別を撤廃する。</p>
+</li>
+<li>
+<p>5.2 人身売買や性的、その他の種類の搾取など、全ての女性及び少女に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。</p>
+</li>
+<li>
+<p>5.3 未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。</p>
+</li>
+<li>
+<p>5.4 公共のサービス、インフラ及び社会保障政策の提供、並びに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。</p>
+</li>
+<li>
+<p>5.5 政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。</p>
+</li>
+<li>
+<p>5.6 国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。</p>
+</li>
+<li>
+<p>5.a 女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。</p>
+</li>
+<li>
+<p>5.b 女性の能力強化促進のため、ICTをはじめとする実現技術の活用を強化する。</p>
+</li>
+<li>
+<p>5.c ジェンダー平等の促進、並びに全ての女性及び少女のあらゆるレベルでの能力強化のための適正な政策及び拘束力のある法規を導入・強化する。</p>
+</li>
+</ul>
+<p>これらの指標の中には <strong>国・地域単位でデータの欠損が多い</strong> ことが課題のものもあり、図中の「MISSING DATA」枠でその点が注意喚起されています。</p>
+<h2 id="背景知識地域区分について">背景知識：地域区分について
+</h2><p>本図で使用されている地域名は <strong>国連統計部（UNSD: United Nations Statistics Division）による「UN geoscheme（国連地理的地域区分）」</strong> に基づいています。この分類は、地理的・統計的整合性を保つために設計されたもので、政治的・文化的な境界とは必ずしも一致しません。</p>
+<ul>
+<li>Sub-Saharan Africa</li>
+<li>Northern Africa and Western Asia</li>
+<li>Central and Southern Asia</li>
+<li>Easten and Southeasten Asia</li>
+<li>Latin America and the Caribbean</li>
+<li>Oceania</li>
+<li>Europe and Northern America</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>この作品は、ジェンダー平等の達成がいかに多次元的な課題であるかを可視化したものです。<br>
+「進展の速度」と「到達レベル」という二重の視点は、政策評価の枠組みを理解するうえで極めて有効です。<br>
+またFragapaneらしい繊細な構成によって、複雑な国際指標データが一枚で俯瞰できるデザインとして仕上がっています。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.behance.net/gallery/214611933/Tracking-Gender-Equality"  target="_blank" rel="noopener"
+    >Tracking Gender Equality :: Behance</a></li>
+<li><a class="link" href="https://www.scientificamerican.com/article/see-how-close-we-are-to-gender-equality-around-the-world/"  target="_blank" rel="noopener"
+    >See How Close We Are to Gender Equality around the World :: Scientific American</a></li>
+<li><a class="link" href="https://www.sdgs-japan.net/goal5"  target="_blank" rel="noopener"
+    >目標5 | SDGsジャパン</a></li>
+<li><a class="link" href="https://ourworldindata.org/grapher/world-regions-sdg-united-nations"  target="_blank" rel="noopener"
+    >World regions in the SDG framework of the United Nations</a></li>
+</ul>
 </section>
 
 
@@ -598,23 +688,23 @@
             
                 
 <article class="has-image">
-    <a href="/bump-chart/">
+    <a href="/the-memory-of-the-world-register/">
         
         
             <div class="article-image">
-                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                <img src="/the-memory-of-the-world-register/images/cover.8527834c22861127cc65d785627bd954_hu_fda55d6167067488.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
-                        data-key="bump-chart" 
-                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
+                        alt="Featured image of post 世界の記憶を可視化する「The Memory of the World Register」"
+                        data-key="the-memory-of-the-world register" 
+                        data-hash="md5-hSeDTCKGESfMZdeFYnvZVA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
+            <h2 class="article-title">世界の記憶を可視化する「The Memory of the World Register」</h2>
         </div>
     </a>
 </article>
@@ -622,23 +712,23 @@
             
                 
 <article class="has-image">
-    <a href="/mosaic-plot/">
+    <a href="/noise-pollution/">
         
         
             <div class="article-image">
-                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                <img src="/noise-pollution/images/cover.1fa427d0b02f68c3f681e5ee0f636c8e_hu_caf3bbf26edfdfff.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post モザイク・プロット（Mosaic Plot）"
-                        data-key="mosaic-plot" 
-                        data-hash="md5-cWzGdFOL6/3tYEMNjlVlcg==">
+                        alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」"
+                        data-key="noise-pollution" 
+                        data-hash="md5-H6Qn0LAvaMP2geXuD2Nsjg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
+            <h2 class="article-title">世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</h2>
         </div>
     </a>
 </article>
@@ -646,23 +736,23 @@
             
                 
 <article class="has-image">
-    <a href="/parallel-sets/">
+    <a href="/waffle-chart/">
         
         
             <div class="article-image">
-                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
+                <img src="/waffle-chart/images/cover.785bfe55496ae2847ca4c3269b3e1079_hu_9c7ce6a0aa5bbfd1.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
-                        data-key="parallel-sets" 
-                        data-hash="md5-YEgAAux&#43;2oSlYRySD1I&#43;Og==">
+                        alt="Featured image of post ワッフル・チャート（Waffle Chart）"
+                        data-key="waffle-chart" 
+                        data-hash="md5-eFv&#43;VUlq4oR8pMMmmz4QeQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</h2>
+            <h2 class="article-title">ワッフル・チャート（Waffle Chart）</h2>
         </div>
     </a>
 </article>
@@ -670,23 +760,23 @@
             
                 
 <article class="has-image">
-    <a href="/beeswarm/">
+    <a href="/selling-at-sundance/">
         
         
             <div class="article-image">
-                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
+                <img src="/selling-at-sundance/images/cover.3e4562d08540bb05ac87aecdaf2f8cb0_hu_a23b8a8801d5e367.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？"
-                        data-key="beeswarm" 
-                        data-hash="md5-4uPxz1xcWafCcyxhxWbYAA==">
+                        alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance"
+                        data-key="selling-at-sundance" 
+                        data-hash="md5-PkVi0IVAuwWsh67Nry&#43;MsA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ビースウォーム・プロット（Beeswarm Plot）とは？</h2>
+            <h2 class="article-title">映画の経済を描くインフォグラフィック — Selling at Sundance</h2>
         </div>
     </a>
 </article>
@@ -694,23 +784,23 @@
             
                 
 <article class="has-image">
-    <a href="/quantityproportion-chart/">
+    <a href="/entangled-word-bank/">
         
         
             <div class="article-image">
-                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                <img src="/entangled-word-bank/images/cover-entangled-word-bank.3014b13eb86c929710586fc3f932e6d7_hu_3ae4328fea1b93df.jpeg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 量率グラフという呼び名の誕生史"
-                        data-key="quantity–proportion-chart" 
-                        data-hash="md5-gnWEnR18O8LTG1iIpx&#43;QCA==">
+                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
+                        data-key="entangled-word-bank" 
+                        data-hash="md5-MBSxPrhskpcQWG/D&#43;TLm1w==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">量率グラフという呼び名の誕生史</h2>
+            <h2 class="article-title"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</h2>
         </div>
     </a>
 </article>
