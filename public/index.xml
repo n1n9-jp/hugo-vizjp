@@ -8,6 +8,126 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Urban story: リスボンはホノルルと肩を並べる</title>
+        <link>http://localhost:1313/urban-story/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/urban-story/</guid>
+        <description>&lt;img src="http://localhost:1313/urban-story/images/cover.png" alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる" /&gt;&lt;p&gt;この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 &lt;em&gt;La Lettura&lt;/em&gt;（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。&lt;/p&gt;
+&lt;p&gt;世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。
+タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/urban-story/images/mainvisual.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;2056&#34;
+	srcset=&#34;http://localhost:1313/urban-story/images/mainvisual_hu_9500717e8873d22c.png 480w, http://localhost:1313/urban-story/images/mainvisual_hu_463f5aee76865a41.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;作品&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;291px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/urban-story/images/legend.png&#34;
+	width=&#34;458&#34;
+	height=&#34;443&#34;
+	srcset=&#34;http://localhost:1313/urban-story/images/legend_hu_481f984cf8c999eb.png 480w, http://localhost:1313/urban-story/images/legend_hu_3ddcc627790d0410.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;作品の中心には、各都市を表す多面体（ポリゴンチャート）が描かれています。&lt;br&gt;
+この図は、都市の複数の特徴量を一度に視覚的に把握できるよう設計されています。&lt;/p&gt;
+&lt;h3 id=&#34;都市名と基礎情報&#34;&gt;都市名と基礎情報
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;City name（都市名）&lt;/strong&gt; の下には &lt;strong&gt;foundation year（建設年）&lt;/strong&gt; が斜体で記されています。&lt;br&gt;
+例：&lt;em&gt;1825&lt;/em&gt;（ニューヨーク）や &lt;em&gt;138 BC&lt;/em&gt;（リスボン）など。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;都市の &lt;strong&gt;age（年齢）&lt;/strong&gt; は実線で示され、都市の歴史の長さを暗示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;指標&#34;&gt;指標
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の上辺（12時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Height of tallest building（最も高い建物の高さ, m）&lt;/strong&gt; 都市の垂直的な発展を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の下辺（6時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Average price of 120㎡ property in central urban zones（都心部120㎡物件の平均価格, €/㎡）&lt;/strong&gt; 生活コストや地価を反映します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の左辺（9時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Number of visitors and tourists（訪問者・観光客数, 百万人）&lt;/strong&gt; 観光的魅力度を表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の右辺（3時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Number of inhabitants（人口, 百万人）&lt;/strong&gt; 都市規模の大きさを表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形内部の左下&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;average annual temperature (°C)&lt;/strong&gt; 上側の斜め破線。年間平均気温を示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;average annual precipitation (mm)&lt;/strong&gt; 下側の斜め破線。年間降水量を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形そのものの大きさ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;surface area（面積, 千km²）&lt;/strong&gt; 都市の面積を、10段階のサイズの中央スクエアで表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;表現の意図と発見&#34;&gt;表現の意図と発見
+&lt;/h2&gt;&lt;p&gt;この作品は単なる都市比較ではなく「地理的距離」と「文化的距離」のズレに着目しています。&lt;br&gt;
+例えば、リスボンとホノルルは地理的に離れていますが、平均気温・降水量・都市規模などの多くの点で似通っていることがわかります。&lt;br&gt;
+また、ポリゴンの形状を通して、都市ごとの「プロフィール」が直感的に理解できるようになっています。&lt;br&gt;
+たとえば &lt;strong&gt;北京や上海&lt;/strong&gt; のようなメガシティは、人口や観光客数で突出した形状を持ち &lt;strong&gt;レイキャヴィークやダブリン&lt;/strong&gt; のような都市は、気候要因で特徴づけられます。&lt;/p&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景
+&lt;/h2&gt;&lt;p&gt;この可視化は &lt;strong&gt;気候データ（weatherbase.com）&lt;/strong&gt; &lt;strong&gt;経済データ（euromonitor.com）&lt;/strong&gt; &lt;strong&gt;人口統計（city-data.com）&lt;/strong&gt; &lt;strong&gt;建築情報（skyscrapercenter.com）&lt;/strong&gt; など、複数の公的データソースを統合して作成されています。&lt;/p&gt;
+&lt;p&gt;ジョルジア・ルピが率いる &lt;strong&gt;Accurat&lt;/strong&gt; による「データを人間的に語る」スタイルが顕著で、数字が「都市の肖像」として詩的に立ち上がる構成になっています。&lt;/p&gt;
+&lt;p&gt;グラフは単なる比較表ではなく、文化的・環境的アイデンティティを表すビジュアル・ポエトリー（visual poetry）です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Urban story: Lisbon is on a par with Honolulu」は、都市を“データのかたち”で描いた地政学的ポートレートです。&lt;/p&gt;
+&lt;p&gt;数値を超えた「都市の性格」が、温度や色、面積の広がりを通して伝わります。&lt;br&gt;
+単一の指標に頼らず、複数の要素の組み合わせによって、多様な都市像を一望することができる点が本作の魅力です。
+ジョルジア・ルピらしい人文主義的なデータアプローチがここに表れています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://giorgialupi.com/lalettura&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Data — Giorgia Lupi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.skyscrapercenter.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Skyscraper Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.weatherbase.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Weatherbase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.euromonitor.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Euromonitor International&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.city-data.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;City-data.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wikipedia.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ジェンダー平等への進展の可視化</title>
         <link>http://localhost:1313/progress-toward-gender-equality/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>

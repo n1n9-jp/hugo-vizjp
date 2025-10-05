@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n">
-<title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 La Lettura（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。\n世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。 タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。\n">
+<title>Urban story: リスボンはホノルルと肩を並べる</title>
 
-<link rel='canonical' href='http://localhost:1313/beeswarm-example/'>
+<link rel='canonical' href='http://localhost:1313/urban-story/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ビースウォーム・プロット（Beeswarm Plot）の事例">
-<meta property='og:description' content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n">
-<meta property='og:url' content='http://localhost:1313/beeswarm-example/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="Urban story: リスボンはホノルルと肩を並べる">
+<meta property='og:description' content="この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 La Lettura（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。\n世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。 タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。\n">
+<meta property='og:url' content='http://localhost:1313/urban-story/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-08-04T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png' />
-<meta name="twitter:title" content="ビースウォーム・プロット（Beeswarm Plot）の事例">
-<meta name="twitter:description" content="「ビースウォーム・プロット」が利用されている事例を紹介します。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-10-05T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:1313/urban-story/images/cover.png' />
+<meta name="twitter:title" content="Urban story: リスボンはホノルルと肩を並べる">
+<meta name="twitter:description" content="この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 La Lettura（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。\n世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。 タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/urban-story/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,14 +386,16 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
+    <li><a href="#図解の見方">図解の見方</a>
       <ol>
-        <li><a href="#人種別世帯収入の比較">人種別世帯収入の比較</a></li>
-        <li><a href="#アメリカの80都市で報告された銃窃盗事件2010-15年">アメリカの80都市で報告された銃窃盗事件（2010-15年）</a></li>
-        <li><a href="#タイタニック号の乗客">タイタニック号の乗客</a></li>
-        <li><a href="#covid-19関連の検索語の推移">COVID-19関連の検索語の推移</a></li>
+        <li><a href="#都市名と基礎情報">都市名と基礎情報</a></li>
+        <li><a href="#指標">指標</a></li>
       </ol>
     </li>
+    <li><a href="#表現の意図と発見">表現の意図と発見</a></li>
+    <li><a href="#背景">背景</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -408,13 +410,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/beeswarm-example/">
-                <img src="/beeswarm-example/images/searchingcovid19_2_hu_8cad285b13107868.png"
-                        srcset="/beeswarm-example/images/searchingcovid19_2_hu_8cad285b13107868.png 800w, /beeswarm-example/images/searchingcovid19_2_hu_b08fcd79bb98c334.png 1600w"
+            <a href="/urban-story/">
+                <img src="/urban-story/images/cover_hu_8f4d0c978925223e.png"
+                        srcset="/urban-story/images/cover_hu_8f4d0c978925223e.png 800w, /urban-story/images/cover_hu_6617c9cb7e21b5f4.png 1600w"
                         width="800" 
-                        height="484" 
+                        height="211" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" />
+                        alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる" />
                 
             </a>
         </div>
@@ -424,8 +426,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/chart/" >
-                チャート・カタログ
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -433,7 +435,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/beeswarm-example/">ビースウォーム・プロット（Beeswarm Plot）の事例</a>
+            <a href="/urban-story/">Urban story: リスボンはホノルルと肩を並べる</a>
         </h2>
     
         
@@ -455,7 +457,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 04, 2020</time>
+                <time class="article-time--published">Oct 05, 2025</time>
             </div>
         
 
@@ -485,80 +487,119 @@
     <section class="article-content">
     
     
-    <p>「ビースウォーム・プロット」が利用されている事例を紹介します。</p>
-<h2 id="作例">作例
-</h2><h3 id="人種別世帯収入の比較">人種別世帯収入の比較
-</h3><p><img src="/beeswarm-example/images/BeeSwarm_income-1.png"
-	width="2953"
-	height="1945"
-	srcset="/beeswarm-example/images/BeeSwarm_income-1_hu_b972b23d02f8e98c.png 480w, /beeswarm-example/images/BeeSwarm_income-1_hu_4adf059bc0a61bf.png 1024w"
+    <p>この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 <em>La Lettura</em>（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。</p>
+<p>世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。
+タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。</p>
+<p><img src="/urban-story/images/mainvisual.png"
+	width="2500"
+	height="2056"
+	srcset="/urban-story/images/mainvisual_hu_9500717e8873d22c.png 480w, /urban-story/images/mainvisual_hu_463f5aee76865a41.png 1024w"
 	loading="lazy"
+	
+		alt="作品"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="151"
-		data-flex-basis="364px"
+		data-flex-grow="121"
+		data-flex-basis="291px"
 	
 ></p>
-<p><a class="link" href="https://gabriellelamarrlemee.github.io/thesis-simulation/"  target="_blank" rel="noopener"
-    >Educate Your Child</a></p>
-<h3 id="アメリカの80都市で報告された銃窃盗事件2010-15年">アメリカの80都市で報告された銃窃盗事件（2010-15年）
-</h3><p><img src="/beeswarm-example/images/BeeSwarm_reportedgun-1.png"
-	width="2405"
-	height="1266"
-	srcset="/beeswarm-example/images/BeeSwarm_reportedgun-1_hu_93751ac435842138.png 480w, /beeswarm-example/images/BeeSwarm_reportedgun-1_hu_8654c4727a8ecfa9.png 1024w"
+<h2 id="図解の見方">図解の見方
+</h2><p><img src="/urban-story/images/legend.png"
+	width="458"
+	height="443"
+	srcset="/urban-story/images/legend_hu_481f984cf8c999eb.png 480w, /urban-story/images/legend_hu_3ddcc627790d0410.png 1024w"
 	loading="lazy"
+	
+		alt="凡例"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="189"
-		data-flex-basis="455px"
+		data-flex-grow="103"
+		data-flex-basis="248px"
 	
 ></p>
-<p><a class="link" href="https://www.thetrace.org/features/stolen-guns-violent-crime-america/#interactive"  target="_blank" rel="noopener"
-    >Reported Gun Theft in 80 American Cities, 2010–15</a></p>
-<h3 id="タイタニック号の乗客">タイタニック号の乗客
-</h3><p><img src="/beeswarm-example/images/DfjgnOZXkAU0iMu.jpeg"
-	width="600"
-	height="350"
-	srcset="/beeswarm-example/images/DfjgnOZXkAU0iMu_hu_7b61946d38b265f8.jpeg 480w, /beeswarm-example/images/DfjgnOZXkAU0iMu_hu_f10a2d5492ad12f3.jpeg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="171"
-		data-flex-basis="411px"
-	
-></p>
-<p><a class="link" href="https://twitter.com/theboysmithy/status/1006801643076247552"  target="_blank" rel="noopener"
-    >Alan Smith on Twitter.</a></p>
-<h3 id="covid-19関連の検索語の推移">COVID-19関連の検索語の推移
-</h3><p><img src="/beeswarm-example/images/searchingcovid19_1-1.png"
-	width="2862"
-	height="1725"
-	srcset="/beeswarm-example/images/searchingcovid19_1-1_hu_cb8c92cd329b541.png 480w, /beeswarm-example/images/searchingcovid19_1-1_hu_7ae4052d38b94bb1.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="165"
-		data-flex-basis="398px"
-	
->
-<img src="/beeswarm-example/images/searchingcovid19_2.png"
-	width="2858"
-	height="1728"
-	srcset="/beeswarm-example/images/searchingcovid19_2_hu_e9c8bcffc7f49f5e.png 480w, /beeswarm-example/images/searchingcovid19_2_hu_f08bc5d3c2da7417.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="165"
-		data-flex-basis="396px"
-	
-></p>
-<p><a class="link" href="https://searchingcovid19.com/"  target="_blank" rel="noopener"
-    >searchingcovid19</a></p>
+<p>作品の中心には、各都市を表す多面体（ポリゴンチャート）が描かれています。<br>
+この図は、都市の複数の特徴量を一度に視覚的に把握できるよう設計されています。</p>
+<h3 id="都市名と基礎情報">都市名と基礎情報
+</h3><ul>
+<li>
+<p><strong>City name（都市名）</strong> の下には <strong>foundation year（建設年）</strong> が斜体で記されています。<br>
+例：<em>1825</em>（ニューヨーク）や <em>138 BC</em>（リスボン）など。</p>
+</li>
+<li>
+<p>都市の <strong>age（年齢）</strong> は実線で示され、都市の歴史の長さを暗示します。</p>
+</li>
+</ul>
+<h3 id="指標">指標
+</h3><ul>
+<li>
+<p><strong>正方形の上辺（12時方向）</strong></p>
+<ul>
+<li><strong>Height of tallest building（最も高い建物の高さ, m）</strong> 都市の垂直的な発展を示します。</li>
+</ul>
+</li>
+<li>
+<p><strong>正方形の下辺（6時方向）</strong></p>
+<ul>
+<li><strong>Average price of 120㎡ property in central urban zones（都心部120㎡物件の平均価格, €/㎡）</strong> 生活コストや地価を反映します。</li>
+</ul>
+</li>
+<li>
+<p><strong>正方形の左辺（9時方向）</strong></p>
+<ul>
+<li><strong>Number of visitors and tourists（訪問者・観光客数, 百万人）</strong> 観光的魅力度を表します。</li>
+</ul>
+</li>
+<li>
+<p><strong>正方形の右辺（3時方向）</strong></p>
+<ul>
+<li><strong>Number of inhabitants（人口, 百万人）</strong> 都市規模の大きさを表します。</li>
+</ul>
+</li>
+<li>
+<p><strong>正方形内部の左下</strong></p>
+<ul>
+<li><strong>average annual temperature (°C)</strong> 上側の斜め破線。年間平均気温を示します。</li>
+<li><strong>average annual precipitation (mm)</strong> 下側の斜め破線。年間降水量を示します。</li>
+</ul>
+</li>
+<li>
+<p><strong>正方形そのものの大きさ</strong></p>
+<ul>
+<li><strong>surface area（面積, 千km²）</strong> 都市の面積を、10段階のサイズの中央スクエアで表します。</li>
+</ul>
+</li>
+</ul>
+<h2 id="表現の意図と発見">表現の意図と発見
+</h2><p>この作品は単なる都市比較ではなく「地理的距離」と「文化的距離」のズレに着目しています。<br>
+例えば、リスボンとホノルルは地理的に離れていますが、平均気温・降水量・都市規模などの多くの点で似通っていることがわかります。<br>
+また、ポリゴンの形状を通して、都市ごとの「プロフィール」が直感的に理解できるようになっています。<br>
+たとえば <strong>北京や上海</strong> のようなメガシティは、人口や観光客数で突出した形状を持ち <strong>レイキャヴィークやダブリン</strong> のような都市は、気候要因で特徴づけられます。</p>
+<h2 id="背景">背景
+</h2><p>この可視化は <strong>気候データ（weatherbase.com）</strong> <strong>経済データ（euromonitor.com）</strong> <strong>人口統計（city-data.com）</strong> <strong>建築情報（skyscrapercenter.com）</strong> など、複数の公的データソースを統合して作成されています。</p>
+<p>ジョルジア・ルピが率いる <strong>Accurat</strong> による「データを人間的に語る」スタイルが顕著で、数字が「都市の肖像」として詩的に立ち上がる構成になっています。</p>
+<p>グラフは単なる比較表ではなく、文化的・環境的アイデンティティを表すビジュアル・ポエトリー（visual poetry）です。</p>
+<h2 id="まとめ">まとめ
+</h2><p>「Urban story: Lisbon is on a par with Honolulu」は、都市を“データのかたち”で描いた地政学的ポートレートです。</p>
+<p>数値を超えた「都市の性格」が、温度や色、面積の広がりを通して伝わります。<br>
+単一の指標に頼らず、複数の要素の組み合わせによって、多様な都市像を一望することができる点が本作の魅力です。
+ジョルジア・ルピらしい人文主義的なデータアプローチがここに表れています。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://giorgialupi.com/lalettura"  target="_blank" rel="noopener"
+    >Visual Data — Giorgia Lupi</a></li>
+<li><a class="link" href="https://www.skyscrapercenter.com/"  target="_blank" rel="noopener"
+    >Skyscraper Center</a></li>
+<li><a class="link" href="https://www.weatherbase.com/"  target="_blank" rel="noopener"
+    >Weatherbase</a></li>
+<li><a class="link" href="https://www.euromonitor.com/"  target="_blank" rel="noopener"
+    >Euromonitor International</a></li>
+<li><a class="link" href="https://www.city-data.com/"  target="_blank" rel="noopener"
+    >City-data.com</a></li>
+<li><a class="link" href="https://www.wikipedia.org/"  target="_blank" rel="noopener"
+    >Wikipedia</a></li>
+</ul>
 </section>
 
 
@@ -598,23 +639,23 @@
             
                 
 <article class="has-image">
-    <a href="/bump-chart/">
+    <a href="/progress-toward-gender-equality/">
         
         
             <div class="article-image">
-                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                <img src="/progress-toward-gender-equality/images/cover.51edfd38159520740b2d8387bc55ccdd_hu_b80117c84d225694.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
-                        data-key="bump-chart" 
-                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
+                        alt="Featured image of post ジェンダー平等への進展の可視化"
+                        data-key="progress-toward-gender-equality" 
+                        data-hash="md5-Ue39OBWVIHQLLYOHvFXM3Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
+            <h2 class="article-title">ジェンダー平等への進展の可視化</h2>
         </div>
     </a>
 </article>
@@ -622,23 +663,23 @@
             
                 
 <article class="has-image">
-    <a href="/mosaic-plot/">
+    <a href="/the-memory-of-the-world-register/">
         
         
             <div class="article-image">
-                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                <img src="/the-memory-of-the-world-register/images/cover.8527834c22861127cc65d785627bd954_hu_fda55d6167067488.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post モザイク・プロット（Mosaic Plot）"
-                        data-key="mosaic-plot" 
-                        data-hash="md5-cWzGdFOL6/3tYEMNjlVlcg==">
+                        alt="Featured image of post 世界の記憶を可視化する「The Memory of the World Register」"
+                        data-key="the-memory-of-the-world register" 
+                        data-hash="md5-hSeDTCKGESfMZdeFYnvZVA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
+            <h2 class="article-title">世界の記憶を可視化する「The Memory of the World Register」</h2>
         </div>
     </a>
 </article>
@@ -646,23 +687,23 @@
             
                 
 <article class="has-image">
-    <a href="/parallel-sets/">
+    <a href="/noise-pollution/">
         
         
             <div class="article-image">
-                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
+                <img src="/noise-pollution/images/cover.1fa427d0b02f68c3f681e5ee0f636c8e_hu_caf3bbf26edfdfff.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
-                        data-key="parallel-sets" 
-                        data-hash="md5-YEgAAux&#43;2oSlYRySD1I&#43;Og==">
+                        alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」"
+                        data-key="noise-pollution" 
+                        data-hash="md5-H6Qn0LAvaMP2geXuD2Nsjg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</h2>
+            <h2 class="article-title">世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</h2>
         </div>
     </a>
 </article>
@@ -670,23 +711,23 @@
             
                 
 <article class="has-image">
-    <a href="/beeswarm/">
+    <a href="/objects-launched-into-space/">
         
         
             <div class="article-image">
-                <img src="/beeswarm/images/cover-beeswarm.e2e3f1cf5c5c59a7c2732c61c566d800_hu_8a0167e49fd5475a.png" 
+                <img src="/objects-launched-into-space/images/cover.912c59edc248b9e6dce16455665c5da9_hu_7ac4fe050fc0b83.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？"
-                        data-key="beeswarm" 
-                        data-hash="md5-4uPxz1xcWafCcyxhxWbYAA==">
+                        alt="Featured image of post 宇宙へ打ち上げられた物体たち"
+                        data-key="objects-launched-into-space" 
+                        data-hash="md5-kSxZ7cJIuebc4WRVZlxdqQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ビースウォーム・プロット（Beeswarm Plot）とは？</h2>
+            <h2 class="article-title">宇宙へ打ち上げられた物体たち</h2>
         </div>
     </a>
 </article>
@@ -694,23 +735,23 @@
             
                 
 <article class="has-image">
-    <a href="/quantityproportion-chart/">
+    <a href="/waffle-chart/">
         
         
             <div class="article-image">
-                <img src="/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.8275849d1d7c3bc2d31b5888a71f9008_hu_c0087e7b2fe4944c.jpeg" 
+                <img src="/waffle-chart/images/cover.785bfe55496ae2847ca4c3269b3e1079_hu_9c7ce6a0aa5bbfd1.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 量率グラフという呼び名の誕生史"
-                        data-key="quantity–proportion-chart" 
-                        data-hash="md5-gnWEnR18O8LTG1iIpx&#43;QCA==">
+                        alt="Featured image of post ワッフル・チャート（Waffle Chart）"
+                        data-key="waffle-chart" 
+                        data-hash="md5-eFv&#43;VUlq4oR8pMMmmz4QeQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">量率グラフという呼び名の誕生史</h2>
+            <h2 class="article-title">ワッフル・チャート（Waffle Chart）</h2>
         </div>
     </a>
 </article>
