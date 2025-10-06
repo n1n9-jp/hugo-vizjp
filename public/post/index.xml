@@ -7,13 +7,656 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Painters in the Making — 人生のなかの絵画を可視化する</title>
+        <link>http://localhost:1313/painters-in-the-making/</link>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/painters-in-the-making/</guid>
+        <description>&lt;img src="http://localhost:1313/painters-in-the-making/images/cover.png" alt="Featured image of post Painters in the Making — 人生のなかの絵画を可視化する" /&gt;&lt;p&gt;&lt;strong&gt;Giorgia Lupi&lt;/strong&gt; による「Painters in the Making」は、約800年にわたる画家たちの人生と代表作を一つの軸上で描き出した作品です。&lt;br&gt;
+中世から20世紀まで、90人の画家を対象に、それぞれの人生の長さ、作品を描いた時期、そして絵画の技法・色彩・サイズを統合的に可視化しています。&lt;br&gt;
+この作品は、イタリアの日刊紙 &lt;em&gt;Corriere della Sera&lt;/em&gt; の文化面「La Lettura」向けに制作されたものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/mainvisual.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;1053&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/mainvisual_hu_ee2a53c623ea26d4.png 480w, http://localhost:1313/painters-in-the-making/images/mainvisual_hu_2d578a745e9e66a9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Painters in the Making&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;466px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の見方&#34;&gt;作品の見方
+&lt;/h2&gt;&lt;p&gt;中央の横軸は時間（西暦1200〜1900年代）を示し、縦軸には代表的な画家が並びます。&lt;br&gt;
+各画家の &lt;strong&gt;人生の長さ&lt;/strong&gt; は一本の線で表され、その線の中に &lt;strong&gt;代表作が描かれた時期&lt;/strong&gt; が小さな矩形として配置されています。&lt;/p&gt;
+&lt;h3 id=&#34;1-人生の段階と作品&#34;&gt;1. 人生の段階と作品
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-left.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1414&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/legend-left_hu_255aa94643a0f350.png 480w, http://localhost:1313/painters-in-the-making/images/legend-left_hu_a4e9bbcbece7f67d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;左側の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;237px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;左側の凡例にあるように、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;灰色の線は人生の全体を、&lt;/li&gt;
+&lt;li&gt;濃い灰色の部分はその画家が代表作を制作した年齢帯を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;人生は以下の3段階に区分されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;young（若年期）&lt;/strong&gt;：35歳まで&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;adult（壮年期）&lt;/strong&gt;：36〜60歳&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mature（成熟期）&lt;/strong&gt;：61歳以上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、過去の時代では平均寿命が短いため、各世紀ごとの&lt;strong&gt;平均寿命に合わせて正規化&lt;/strong&gt;されています。これにより、1300年の「成人期」と1900年の「成人期」は異なる年齢でも同じ割合で可視化されています。&lt;/p&gt;
+&lt;h3 id=&#34;2-作品の属性&#34;&gt;2. 作品の属性
+&lt;/h3&gt;&lt;p&gt;各矩形はその画家の代表作を表し、次の情報が含まれます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作品の主な4色&lt;/strong&gt;（実際の絵画から抽出）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作品の大きさ（m²）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用された画法&lt;/strong&gt;（油彩、テンペラ、フレスコなど）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この多層的な情報により、画家の人生だけでなく、「どのような時期に」「どのような色と技法で」作品を生み出したかが一目でわかります。&lt;/p&gt;
+&lt;h2 id=&#34;時代ごとの変化&#34;&gt;時代ごとの変化
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-right.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1011&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/legend-right_hu_e082a1023800a424.png 480w, http://localhost:1313/painters-in-the-making/images/legend-right_hu_822ef26edd879ce8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;右上の表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右上の表「How does the way of painting change over the centuries?」は、時代ごとの特徴をまとめています。&lt;/p&gt;
+&lt;p&gt;| 世紀 | 主な傾向 | 代表的な色調 | 技法 | 平均作品サイズ |
+|||-||-|
+| 1200年代 | 老年画家はいない | 茶・赤系 | テンペラ | 約8.9㎡ |
+| 1500年代 | 風景色が主流 | 緑・青系 | 油彩・テンペラ併用 | 平均5.6㎡（ミケランジェロ「最後の審判」は例外的に164㎡） |
+| 1600年代 | 暗色の世紀 | 黒・深緑系 | 油彩が主流 | 約5.9㎡ |
+| 1800年代 | 明度の回復 | 茶〜淡青系 | 油彩中心 | 約2.4㎡ |
+| 1900年代 | 新技法の試み | 原色系・鮮やか | 油彩・アクリル・テンペラ混用 | 約3㎡ |&lt;/p&gt;
+&lt;p&gt;時代が進むにつれて作品サイズは小型化し、色調は再び明るさを取り戻しています。また、油彩は8世紀にわたって最も多く用いられた技法であることがわかります。&lt;/p&gt;
+&lt;h2 id=&#34;二つの代表作を選ぶ方法one-masterpiece-or-twojpeg&#34;&gt;二つの代表作を選ぶ方法（one masterpiece or two.jpeg）
+&lt;/h2&gt;&lt;p&gt;本作では各画家について「 &lt;strong&gt;主要作品を1点&lt;/strong&gt; 」だけでなく「 &lt;strong&gt;一般的に最も認知されている作品&lt;/strong&gt; 」も同時に表示しています。&lt;br&gt;
+前者はイタリア語版『Garzanti Art Encyclopedia』を参照し、後者は &lt;strong&gt;Google画像検索で最初に表示された作品&lt;/strong&gt; を採用しています。&lt;br&gt;
+つまり「美術史的に重要とされる作品」と「一般に人々の記憶に残る作品」の両方を比較できる構造になっています。&lt;br&gt;
+これにより、専門的評価と大衆的認知のズレをも浮かび上がらせています。&lt;/p&gt;
+&lt;h2 id=&#34;背景とコンセプト&#34;&gt;背景とコンセプト
+&lt;/h2&gt;&lt;p&gt;この作品は、Lupiが提唱する「 &lt;strong&gt;Data Humanism（データ・ヒューマニズム）&lt;/strong&gt; 」の初期代表作の一つです。&lt;br&gt;
+単なる統計情報ではなく &lt;strong&gt;人間の人生のリズムや芸術的成熟をデータとして可視化&lt;/strong&gt; する試みです。&lt;br&gt;
+数字の羅列を超えて、人生・時間・創造性の関係を感覚的に理解できるよう設計されています。&lt;/p&gt;
+&lt;p&gt;LupiはMedium記事「&lt;em&gt;Data Humanism, the Revolution will be Visualized&lt;/em&gt;」の中で、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“We need to reclaim the human essence behind data, to connect numbers back to what they stand for.”&lt;br&gt;
+と述べています。&lt;br&gt;
+本作はまさにその理念を体現したビジュアライゼーションです。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Painters in the Making」は、データを用いて人間の成長と創造性を描いた、視覚的年表の傑作です。&lt;br&gt;
+1本の線に凝縮された「人生」と「作品の瞬間」は、芸術家がどの時期に最も輝いたかを静かに語りかけます。&lt;br&gt;
+これは、アート史とデータビジュアライゼーションが融合する地点に生まれた、詩的な可視化です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14282281/Painters-in-the-making&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Painters in the Making — Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Humanism, the Revolution will be Visualized — Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Urban story: リスボンはホノルルと肩を並べる</title>
+        <link>http://localhost:1313/urban-story/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/urban-story/</guid>
+        <description>&lt;img src="http://localhost:1313/urban-story/images/cover.png" alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる" /&gt;&lt;p&gt;この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 &lt;em&gt;La Lettura&lt;/em&gt;（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。&lt;/p&gt;
+&lt;p&gt;世界25都市を比較し、それぞれの都市の特徴を多次元的に表現しています。
+タイトルの「Lisbon is on a par with Honolulu（リスボンはホノルルと肩を並べる）」が示すように、地理的にも文化的にも遠い都市同士が、意外な共通性を持つことを可視化する試みです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/urban-story/images/mainvisual.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;2056&#34;
+	srcset=&#34;http://localhost:1313/urban-story/images/mainvisual_hu_9500717e8873d22c.png 480w, http://localhost:1313/urban-story/images/mainvisual_hu_463f5aee76865a41.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;作品&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;121&#34;
+		data-flex-basis=&#34;291px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/urban-story/images/legend.png&#34;
+	width=&#34;458&#34;
+	height=&#34;443&#34;
+	srcset=&#34;http://localhost:1313/urban-story/images/legend_hu_481f984cf8c999eb.png 480w, http://localhost:1313/urban-story/images/legend_hu_3ddcc627790d0410.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;作品の中心には、各都市を表す多面体（ポリゴンチャート）が描かれています。&lt;br&gt;
+この図は、都市の複数の特徴量を一度に視覚的に把握できるよう設計されています。&lt;/p&gt;
+&lt;h3 id=&#34;都市名と基礎情報&#34;&gt;都市名と基礎情報
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;City name（都市名）&lt;/strong&gt; の下には &lt;strong&gt;foundation year（建設年）&lt;/strong&gt; が斜体で記されています。&lt;br&gt;
+例：&lt;em&gt;1825&lt;/em&gt;（ニューヨーク）や &lt;em&gt;138 BC&lt;/em&gt;（リスボン）など。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;都市の &lt;strong&gt;age（年齢）&lt;/strong&gt; は実線で示され、都市の歴史の長さを暗示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;指標&#34;&gt;指標
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の上辺（12時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Height of tallest building（最も高い建物の高さ, m）&lt;/strong&gt; 都市の垂直的な発展を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の下辺（6時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Average price of 120㎡ property in central urban zones（都心部120㎡物件の平均価格, €/㎡）&lt;/strong&gt; 生活コストや地価を反映します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の左辺（9時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Number of visitors and tourists（訪問者・観光客数, 百万人）&lt;/strong&gt; 観光的魅力度を表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形の右辺（3時方向）&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Number of inhabitants（人口, 百万人）&lt;/strong&gt; 都市規模の大きさを表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形内部の左下&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;average annual temperature (°C)&lt;/strong&gt; 上側の斜め破線。年間平均気温を示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;average annual precipitation (mm)&lt;/strong&gt; 下側の斜め破線。年間降水量を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;正方形そのものの大きさ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;surface area（面積, 千km²）&lt;/strong&gt; 都市の面積を、10段階のサイズの中央スクエアで表します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;表現の意図と発見&#34;&gt;表現の意図と発見
+&lt;/h2&gt;&lt;p&gt;この作品は単なる都市比較ではなく「地理的距離」と「文化的距離」のズレに着目しています。&lt;br&gt;
+例えば、リスボンとホノルルは地理的に離れていますが、平均気温・降水量・都市規模などの多くの点で似通っていることがわかります。&lt;br&gt;
+また、ポリゴンの形状を通して、都市ごとの「プロフィール」が直感的に理解できるようになっています。&lt;br&gt;
+たとえば &lt;strong&gt;北京や上海&lt;/strong&gt; のようなメガシティは、人口や観光客数で突出した形状を持ち &lt;strong&gt;レイキャヴィークやダブリン&lt;/strong&gt; のような都市は、気候要因で特徴づけられます。&lt;/p&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景
+&lt;/h2&gt;&lt;p&gt;この可視化は &lt;strong&gt;気候データ（weatherbase.com）&lt;/strong&gt; &lt;strong&gt;経済データ（euromonitor.com）&lt;/strong&gt; &lt;strong&gt;人口統計（city-data.com）&lt;/strong&gt; &lt;strong&gt;建築情報（skyscrapercenter.com）&lt;/strong&gt; など、複数の公的データソースを統合して作成されています。&lt;/p&gt;
+&lt;p&gt;ジョルジア・ルピが率いる &lt;strong&gt;Accurat&lt;/strong&gt; による「データを人間的に語る」スタイルが顕著で、数字が「都市の肖像」として詩的に立ち上がる構成になっています。&lt;/p&gt;
+&lt;p&gt;チャートは単なる比較表ではなく、文化的・環境的アイデンティティを表すビジュアル・ポエトリー（visual poetry）です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Urban story: Lisbon is on a par with Honolulu」は、都市を“データのかたち”で描いた地政学的ポートレートです。&lt;/p&gt;
+&lt;p&gt;数値を超えた「都市の性格」が、温度や色、面積の広がりを通して伝わります。&lt;br&gt;
+単一の指標に頼らず、複数の要素の組み合わせによって、多様な都市像を一望することができる点が本作の魅力です。
+ジョルジア・ルピらしい人文主義的なデータアプローチがここに表れています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://giorgialupi.com/lalettura&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Data — Giorgia Lupi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.skyscrapercenter.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Skyscraper Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.weatherbase.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Weatherbase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.euromonitor.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Euromonitor International&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.city-data.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;City-data.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wikipedia.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ジェンダー平等への進展の可視化</title>
+        <link>http://localhost:1313/progress-toward-gender-equality/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/progress-toward-gender-equality/</guid>
+        <description>&lt;img src="http://localhost:1313/progress-toward-gender-equality/images/cover.png" alt="Featured image of post ジェンダー平等への進展の可視化" /&gt;&lt;p&gt;本作は Federica Fragapane による作品で &lt;strong&gt;Scientific American (2024年12月号)&lt;/strong&gt; に掲載されたものです。&lt;br&gt;
+国連の &lt;strong&gt;持続可能な開発目標（SDGs）Goal 5「ジェンダー平等を実現しよう」&lt;/strong&gt; に関する達成度を、地域別・指標別に体系的に可視化したデータ可視化作品です。&lt;br&gt;
+データは主に &lt;strong&gt;UN Women&lt;/strong&gt; および &lt;strong&gt;UN DESA（国連経済社会局）&lt;/strong&gt; のレポートに基づき、各地域の進展状況を「トレンド（変化の方向）」と「レベル（目標達成度）」の2軸で比較しています。&lt;br&gt;
+テキストは &lt;strong&gt;Clara Moskowitz&lt;/strong&gt; によるもので、男女平等の現状と課題を科学誌読者向けに要約しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/progress-toward-gender-equality/images/mainvisual.png&#34;
+	width=&#34;2100&#34;
+	height=&#34;2800&#34;
+	srcset=&#34;http://localhost:1313/progress-toward-gender-equality/images/mainvisual_hu_aa50351785d1d18d.png 480w, http://localhost:1313/progress-toward-gender-equality/images/mainvisual_hu_ffafb230a5cc46b5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;この可視化の意義&#34;&gt;この可視化の意義
+&lt;/h2&gt;&lt;p&gt;Fragapaneの特徴である「 &lt;strong&gt;柔らかく流れるライン構成と多層データの視覚統合&lt;/strong&gt; 」がここでも発揮されています。&lt;br&gt;
+線の分岐と色のグラデーションが、&lt;strong&gt;政策領域間の関係性&lt;/strong&gt;を直感的に理解させるとともに、&lt;br&gt;
+数値以上に「世界全体の進展のムラ」を印象づけます。&lt;br&gt;
+特に &lt;strong&gt;サハラ以南アフリカや南アジアの遅れ&lt;/strong&gt; 、 &lt;strong&gt;欧州・北米の部分的停滞&lt;/strong&gt; などが可視的に比較できます。&lt;/p&gt;
+&lt;p&gt;本作品は、単なる統計の集積ではなく &lt;strong&gt;ジェンダー平等をめぐる構造的不均衡を美しく、同時に批判的に描く&lt;/strong&gt; 情報デザインとして評価されます。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の見方&#34;&gt;凡例の見方
+&lt;/h2&gt;&lt;p&gt;本作品の評価は2軸構成で示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/progress-toward-gender-equality/images/legend.png&#34;
+	width=&#34;842&#34;
+	height=&#34;1514&#34;
+	srcset=&#34;http://localhost:1313/progress-toward-gender-equality/images/legend_hu_cae7d2188d87480e.png 480w, http://localhost:1313/progress-toward-gender-equality/images/legend_hu_c7bfc95119b680d4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;55&#34;
+		data-flex-basis=&#34;133px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;trend-assessment進展傾向&#34;&gt;Trend assessment（進展傾向）
+&lt;/h3&gt;&lt;p&gt;各指標における「変化の方向と速さ」を示します。&lt;br&gt;
+矢印の形状と向きで、進展・停滞・後退の度合いを視覚化しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;● &lt;strong&gt;On track or target met&lt;/strong&gt;&lt;br&gt;
+目標をすでに達成、または順調に達成軌道にある。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⇛ &lt;strong&gt;Moderate progress but acceleration needed&lt;/strong&gt;&lt;br&gt;
+一定の進展はあるが、目標到達には加速が必要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;→ &lt;strong&gt;Marginal progress and significant acceleration needed&lt;/strong&gt;&lt;br&gt;
+ごくわずかな進展のみで、大幅な加速が求められる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;⟍ &lt;strong&gt;Stagnation&lt;/strong&gt;&lt;br&gt;
+停滞、進展が見られない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;← &lt;strong&gt;Regression&lt;/strong&gt;&lt;br&gt;
+後退、状況が悪化している。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;○ &lt;strong&gt;World average&lt;/strong&gt;&lt;br&gt;
+世界平均の基準値を示す。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;level-assessment現状レベル&#34;&gt;Level assessment（現状レベル）
+&lt;/h3&gt;&lt;p&gt;各地域が目標達成にどれだけ近いかを表します。&lt;br&gt;
+線の長さと濃淡で「距離感」を段階的に表現しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Target met or almost met&lt;/strong&gt;&lt;br&gt;
+目標を達成、もしくはほぼ達成している。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Close to target&lt;/strong&gt;&lt;br&gt;
+目標に近い水準。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Moderate distance to target&lt;/strong&gt;&lt;br&gt;
+目標から中程度に離れている。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Far from target&lt;/strong&gt;&lt;br&gt;
+目標から遠い。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Very far from target&lt;/strong&gt;&lt;br&gt;
+目標から非常に遠い。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;····· &lt;strong&gt;Insufficient data&lt;/strong&gt;&lt;br&gt;
+データが不十分なため評価できない。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;│ &lt;strong&gt;World average&lt;/strong&gt;&lt;br&gt;
+世界平均を示す基準線。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景知識sdg目標5と指標の体系&#34;&gt;背景知識：SDG目標5と指標の体系
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目標5: ジェンダー平等を実現しよう&lt;/strong&gt;&lt;br&gt;
+SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育、経済、政治参加など、多領域を横断します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.1 あらゆる場所における全ての女性及び少女に対するあらゆる形態の差別を撤廃する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.2 人身売買や性的、その他の種類の搾取など、全ての女性及び少女に対する、公共・私的空間におけるあらゆる形態の暴力を排除する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.3 未成年者の結婚、早期結婚、強制結婚及び女性器切除など、あらゆる有害な慣行を撤廃する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.4 公共のサービス、インフラ及び社会保障政策の提供、並びに各国の状況に応じた世帯・家族内における責任分担を通じて、無報酬の育児・介護や家事労働を認識・評価する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.5 政治、経済、公共分野でのあらゆるレベルの意思決定において、完全かつ効果的な女性の参画及び平等なリーダーシップの機会を確保する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.6 国際人口・開発会議（ICPD）の行動計画及び北京行動綱領、並びにこれらの検証会議の成果文書に従い、性と生殖に関する健康及び権利への普遍的アクセスを確保する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.a 女性に対し、経済的資源に対する同等の権利、並びに各国法に従い、オーナーシップ及び土地その他の財産、金融サービス、相続財産、天然資源に対するアクセスを与えるための改革に着手する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.b 女性の能力強化促進のため、ICTをはじめとする実現技術の活用を強化する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5.c ジェンダー平等の促進、並びに全ての女性及び少女のあらゆるレベルでの能力強化のための適正な政策及び拘束力のある法規を導入・強化する。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの指標の中には &lt;strong&gt;国・地域単位でデータの欠損が多い&lt;/strong&gt; ことが課題のものもあり、図中の「MISSING DATA」枠でその点が注意喚起されています。&lt;/p&gt;
+&lt;h2 id=&#34;背景知識地域区分について&#34;&gt;背景知識：地域区分について
+&lt;/h2&gt;&lt;p&gt;本図で使用されている地域名は &lt;strong&gt;国連統計部（UNSD: United Nations Statistics Division）による「UN geoscheme（国連地理的地域区分）」&lt;/strong&gt; に基づいています。この分類は、地理的・統計的整合性を保つために設計されたもので、政治的・文化的な境界とは必ずしも一致しません。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sub-Saharan Africa&lt;/li&gt;
+&lt;li&gt;Northern Africa and Western Asia&lt;/li&gt;
+&lt;li&gt;Central and Southern Asia&lt;/li&gt;
+&lt;li&gt;Easten and Southeasten Asia&lt;/li&gt;
+&lt;li&gt;Latin America and the Caribbean&lt;/li&gt;
+&lt;li&gt;Oceania&lt;/li&gt;
+&lt;li&gt;Europe and Northern America&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この作品は、ジェンダー平等の達成がいかに多次元的な課題であるかを可視化したものです。&lt;br&gt;
+「進展の速度」と「到達レベル」という二重の視点は、政策評価の枠組みを理解するうえで極めて有効です。&lt;br&gt;
+またFragapaneらしい繊細な構成によって、複雑な国際指標データが一枚で俯瞰できるデザインとして仕上がっています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/214611933/Tracking-Gender-Equality&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tracking Gender Equality :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.scientificamerican.com/article/see-how-close-we-are-to-gender-equality-around-the-world/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;See How Close We Are to Gender Equality around the World :: Scientific American&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sdgs-japan.net/goal5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;目標5 | SDGsジャパン&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/grapher/world-regions-sdg-united-nations&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World regions in the SDG framework of the United Nations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>宇宙へ打ち上げられた物体たち</title>
+        <link>http://localhost:1313/objects-launched-into-space/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/objects-launched-into-space/</guid>
+        <description>&lt;img src="http://localhost:1313/objects-launched-into-space/images/cover.png" alt="Featured image of post 宇宙へ打ち上げられた物体たち" /&gt;&lt;p&gt;この作品は、1957年のスプートニク打ち上げ以降に宇宙へ送られたすべての人工物を、時間軸に沿って丁寧に可視化したインフォグラフィックスです。イタリアの新聞 &lt;strong&gt;Corriere della Sera&lt;/strong&gt; の文化別冊 &lt;strong&gt;La Lettura&lt;/strong&gt; に掲載され、毎年恒例の「Orizzonti Visual Data」シリーズの一つとして発表されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/objects-launched-into-space/images/mainvisual.png&#34;
+	width=&#34;2800&#34;
+	height=&#34;1400&#34;
+	srcset=&#34;http://localhost:1313/objects-launched-into-space/images/mainvisual_hu_34f83bf1ce455b81.png 480w, http://localhost:1313/objects-launched-into-space/images/mainvisual_hu_34c2ed761d3c7587.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;英語版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の概要&#34;&gt;図解の概要
+&lt;/h2&gt;&lt;p&gt;中央の波形のような可視化は、1957年から2022年までに打ち上げられた人工物（衛星、ロケット、探査機、ステーションなど）の累積数を表しています。&lt;br&gt;
+それぞれの層は時間の経過を中心に左右対称に広がり、年ごとの増加を直感的に感じ取れるようになっています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;太い線と色の交替&lt;/strong&gt; ：各年の区切りを示しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;層の幅と線の密度&lt;/strong&gt; ：打ち上げ数の累積を示します。
+&lt;ul&gt;
+&lt;li&gt;1本の線が約50個のオブジェクトに相当します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色の交互変化（ピンクとブルー）&lt;/strong&gt; ：5年ごとのリズムを形成し、時間の流れを視覚的に強調しています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;右端には、2022年の国別打ち上げ数と、軌道上に残るオブジェクトの現況が示されています。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の見方&#34;&gt;凡例の見方
+&lt;/h2&gt;&lt;p&gt;左側の凡例は、この図の構造を理解するための鍵となっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/objects-launched-into-space/images/legend-left.png&#34;
+	width=&#34;1980&#34;
+	height=&#34;697&#34;
+	srcset=&#34;http://localhost:1313/objects-launched-into-space/images/legend-left_hu_1e01d7abaa3d1214.png 480w, http://localhost:1313/objects-launched-into-space/images/legend-left_hu_be85e1b779859d0b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;左側の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;284&#34;
+		data-flex-basis=&#34;681px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「太い線」と「色の交替」は年の境目を意味しています。&lt;/li&gt;
+&lt;li&gt;各層の幅と内部の線の本数が、その年までに打ち上げられた物体の累積数を示しています。&lt;/li&gt;
+&lt;li&gt;「1 = 50 objects」という注記により、1本の線が約50個の打ち上げに対応していることがわかります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、時間とともに層が広がっていく形が、そのまま人類の宇宙進出の歩みを象徴しているのです。&lt;/p&gt;
+&lt;p&gt;右側の凡例は、2022年における国別の打ち上げ数を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/objects-launched-into-space/images/legend-right.png&#34;
+	width=&#34;1349&#34;
+	height=&#34;2446&#34;
+	srcset=&#34;http://localhost:1313/objects-launched-into-space/images/legend-right_hu_8eb1df124ec71f59.png 480w, http://localhost:1313/objects-launched-into-space/images/legend-right_hu_4de84b87fbb7cb29.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;右側の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;55&#34;
+		data-flex-basis=&#34;132px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;円の大きさ&lt;/strong&gt;は打ち上げ数を表しています。&lt;/li&gt;
+&lt;li&gt;上部の「Current state of the objects」では、軌道上に残っている物体が約29％、すでに軌道を離脱したものが約71％であることがわかります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景とデータ&#34;&gt;背景とデータ
+&lt;/h2&gt;&lt;p&gt;この作品は、宇宙開発の加速を &lt;strong&gt;時系列で量的に把握する&lt;/strong&gt; ためのデータ・ビジュアライゼーションです。単なる統計グラフではなく、「時間」と「空間」の拡張を感じさせるデザインが特徴的です。&lt;/p&gt;
+&lt;p&gt;2010年代以降、民間企業（たとえばSpaceXなど）の参入によって打ち上げ数が急増していることが、図の右端からも読み取れます。&lt;/p&gt;
+&lt;p&gt;データは &lt;strong&gt;Our World in Data&lt;/strong&gt; による統計を基にしており、2022年時点での国別打ち上げ数では、アメリカが1,796件、中国が131件、イギリスが71件とされています。この差は宇宙産業の集中度を端的に示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/objects-launched-into-space/images/mainvisual_Italian.png&#34;
+	width=&#34;3568&#34;
+	height=&#34;2577&#34;
+	srcset=&#34;http://localhost:1313/objects-launched-into-space/images/mainvisual_Italian_hu_f4a957ea6387b3fa.png 480w, http://localhost:1313/objects-launched-into-space/images/mainvisual_Italian_hu_2adc499c2b900b4e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;イタリア語の全体版&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Federica Fragapaneの「Objects launched into space」は &lt;strong&gt;科学史とデータ美学の交差点&lt;/strong&gt; に立つ作品です。&lt;br&gt;
+人類の宇宙活動を、数量と形態の両面から俯瞰できるように設計されており、単なる情報の可視化を超えて &lt;strong&gt;時間の積み重ねそのものを造形化した作品&lt;/strong&gt; といえます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/169039001/Objects-launched-into-space?locale=en_US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Objects launched into space :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/grapher/cumulative-number-of-objects-launched-into-outer-space&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cumulative number of objects launched into outer space :: Our World in Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Annual number of objects launched into outer space :: Our World in Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.unoosa.org/oosa/en/spaceobjectregister/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;United Nations Register of Objects Launched into Outer Space :: UNOOSA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.unoosa.org/oosa/osoindex/search-ng.jspx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Online Index of Objects Launched into Outer Space :: UNOOSA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/space-exploration-satellites&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Space Exploration and Satellites :: Our World in Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ourworldindata.org/grapher/space-objects-by-orbit&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Payloads and rocket bodies in space, by orbit :: Our World in Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>世界の記憶を可視化する「The Memory of the World Register」</title>
+        <link>http://localhost:1313/the-memory-of-the-world-register/</link>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/the-memory-of-the-world-register/</guid>
+        <description>&lt;img src="http://localhost:1313/the-memory-of-the-world-register/images/cover.png" alt="Featured image of post 世界の記憶を可視化する「The Memory of the World Register」" /&gt;&lt;p&gt;本作は &lt;strong&gt;Federica Fragapane&lt;/strong&gt; による作品で、ユネスコ（UNESCO）が保護対象として登録している「 &lt;strong&gt;世界の記憶（Memory of the World Register）&lt;/strong&gt; 」を可視化したインフォグラフィックスです。文化遺産のうち「文書遺産（documentary heritage）」に焦点を当て、地理的地域、国、資料の種類ごとに分類し、世界各地の記録物がどのように分布しているかを円環状に描き出しています。&lt;/p&gt;
+&lt;p&gt;この作品は、Corriere della Sera紙の文化特集「La Lettura」向けに制作されたシリーズ &lt;strong&gt;“Visual Data”&lt;/strong&gt; の一部として発表されました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/the-memory-of-the-world-register/images/mainvisual.png&#34;
+	width=&#34;2800&#34;
+	height=&#34;2800&#34;
+	srcset=&#34;http://localhost:1313/the-memory-of-the-world-register/images/mainvisual_hu_be832ce93164d8d9.png 480w, http://localhost:1313/the-memory-of-the-world-register/images/mainvisual_hu_ee0f4a89714b5a54.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方凡例の読み解き&#34;&gt;図解の見方（凡例の読み解き）
+&lt;/h2&gt;&lt;p&gt;このインフォグラフィックスは、ユネスコ「世界の記憶（Memory of the World Register）」に登録された文書遺産を、&lt;strong&gt;地理的エリア → 国 → 文書の種類&lt;/strong&gt;という3階層で可視化しています。凡例はその構造と記号の意味を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/the-memory-of-the-world-register/images/legend.png&#34;
+	width=&#34;1194&#34;
+	height=&#34;990&#34;
+	srcset=&#34;http://localhost:1313/the-memory-of-the-world-register/images/legend_hu_be75e4fa5d79d2b.png 480w, http://localhost:1313/the-memory-of-the-world-register/images/legend_hu_6654e53d2a5fbe5.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;120&#34;
+		data-flex-basis=&#34;289px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;階層構造の理解&#34;&gt;階層構造の理解
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;geographic area（地理的エリア）&lt;/strong&gt;&lt;br&gt;
+中心から大きく分かれる枝が、世界の主要地域（Europe, Asia, Africa, Latin America, Middle East, North America, Oceania）を示しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Country（国）&lt;/strong&gt;&lt;br&gt;
+各地域から伸びる細い枝の先端に国名が並びます。枝の長さや数に比例して、その地域内での登録国の多さが視覚的に示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;type of document（文書の種類）&lt;/strong&gt;&lt;br&gt;
+各国名の横に並ぶ小さなシンボルが、その国で登録された文書遺産のタイプを表します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;記号symbolの意味&#34;&gt;記号（symbol）の意味
+&lt;/h3&gt;&lt;p&gt;凡例右側の「(1) symbol = type of document」に示されているように、シンボルは次の5種類です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;記号&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;英語分類&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;日本語訳&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;〰️（曲線）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;audio and music&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;音声・音楽資料&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;◆（菱形）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;drawings, graphs and maps&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;図面・地図・グラフ類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;□（四角）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;photographs, videos, films&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;写真・映像・映画資料&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;//（二重斜線）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;books and manuscripts&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;書籍・写本類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;●（黒丸）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;various documents, other&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;その他の資料・分類外の文書&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;※ 図中では、各国の名前の横にこれらのシンボルが配置され、登録された文書の種類を示しています。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;円の大きさarea-of-the-circle&#34;&gt;円の大きさ（area of the circle）
+&lt;/h3&gt;&lt;p&gt;凡例右下にある「(2) area of the circle = number of documents (when there are more than one)」が示すように、&lt;br&gt;
+&lt;strong&gt;円の面積は登録件数の多寡を表します。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;凡例には基準値として以下の目安が描かれています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小さい円：2件&lt;/li&gt;
+&lt;li&gt;中くらいの円：5件&lt;/li&gt;
+&lt;li&gt;大きい円：10件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このスケールにより、同じ記号でも件数の多い国ほど大きな円で示されます。円の外周には淡いピンクのグラデーションが加えられ、件数の重みが柔らかく視覚化されています。&lt;/p&gt;
+&lt;h3 id=&#34;4-全体構造の読み方&#34;&gt;4. 全体構造の読み方
+&lt;/h3&gt;&lt;p&gt;凡例左側の図にあるように、各地域の領域が花弁のように広がり、その中で国ごとに小さな記号と円が並んでいます。&lt;br&gt;
+中央から外へ向かう放射状の配置は、&lt;strong&gt;地域 → 国 → 文書タイプ → 件数&lt;/strong&gt;というデータの階層構造をそのまま形として表現したものです。&lt;/p&gt;
+&lt;p&gt;この構造によって、「どの地域がどの分野の記録遺産を多く保有しているか」を、俯瞰的かつ一目で把握できるようになっています。&lt;/p&gt;
+&lt;h3 id=&#34;5-注釈にある定義文&#34;&gt;5. 注釈にある定義文
+&lt;/h3&gt;&lt;p&gt;凡例下部に引用されている注釈：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“The Memory of the World Register lists documentary heritage which has been recommended by the International Advisory Committee, and endorsed by the Director-General of UNESCO, as corresponding to the selection criteria regarding world significance and outstanding universal value.”&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;この一文は、登録対象の基準を示したユネスコ公式定義です。&lt;br&gt;
+つまり、この可視化に描かれたすべての点と線は、「&lt;strong&gt;世界的意義と顕著な普遍的価値をもつ記録遺産&lt;/strong&gt;」の位置づけを持つことを意味します。&lt;/p&gt;
+&lt;p&gt;この凡例全体は、単なる説明図ではなく、「どのような文脈で“記憶”が可視化されているか」を理解するための縮図になっています。図表全体を読む前に、この凡例を丁寧に読み解くことで、作品の構造的な意図がより明確に理解できるよう設計されています。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上の特徴&#34;&gt;デザイン上の特徴
+&lt;/h2&gt;&lt;p&gt;Fragapaneによる本作では、データを単なる数量の一覧ではなく、「世界の知のネットワーク」として視覚化しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放射状の構造は、知識や記録が&lt;strong&gt;根を張る植物のように世界中に広がる様子&lt;/strong&gt;を連想させます。&lt;/li&gt;
+&lt;li&gt;各国が持つ文化的記録が、地域間でどのように偏在しているかを、形と密度で直感的に示します。&lt;/li&gt;
+&lt;li&gt;シンボルの形と円の面積によって、&lt;strong&gt;資料の多様性と量的規模&lt;/strong&gt;の両方を一目で比較できるようになっています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fragapaneの一連の作品には共通して、「複雑なデータを詩的な形で表現する」という特徴があり、本作もその代表例といえます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「The Memory of the World Register」は、単なる統計図ではなく、「記憶」という抽象的な概念を世界スケールで視覚化した作品です。&lt;br&gt;
+データの背後には、人類が共有すべき知の遺産と、それを未来へと残そうとする努力の積み重ねがあります。&lt;/p&gt;
+&lt;p&gt;Fragapaneは、科学的な正確さと芸術的な感性を両立させることで、「情報を読む」だけでなく「感じ取る」インフォグラフィックスを実現しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/119713231/The-Memory-of-the-World-Register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Memory of the World Register :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.unesco.org/programme/mow/register&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UNESCO Memory of the World Register&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
         <link>http://localhost:1313/noise-pollution/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/noise-pollution/</guid>
-        <description>&lt;img src="http://localhost:1313/images/cover.png" alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" /&gt;&lt;p&gt;このインフォグラフィックは、世界の主要都市における**騒音汚染（noise pollution）&lt;strong&gt;と&lt;/strong&gt;聴覚損失（hearing loss）**の関係を比較したものです。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/noise-pollution/images/cover.png" alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" /&gt;&lt;p&gt;この作品は、世界の主要都市における &lt;strong&gt;騒音汚染（noise pollution）&lt;/strong&gt; と &lt;strong&gt;聴覚損失（hearing loss）&lt;/strong&gt; の関係を比較したものです。&lt;br&gt;
 データは、聴覚データ分析を専門とする &lt;strong&gt;mimi.io&lt;/strong&gt; と、世界経済フォーラム &lt;strong&gt;(World Economic Forum)&lt;/strong&gt; の共同調査に基づいています。
 50都市を対象に、騒音環境と聴覚への影響を数値化し、都市ごとの「 &lt;strong&gt;World Hearing Loss Index（世界聴覚損失指数）&lt;/strong&gt; 」として表しています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/mainvisual.png&#34;
@@ -28,7 +671,11 @@
 		data-flex-basis=&#34;480px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;作者情報&#34;&gt;作者情報
+&lt;/h2&gt;&lt;p&gt;この作品は、イタリアの主要新聞 &lt;em&gt;Corriere Della Sera&lt;/em&gt; の文化別冊「 &lt;em&gt;La Lettura&lt;/em&gt; 」内のデータビジュアライゼーション欄「 &lt;em&gt;Visual Data&lt;/em&gt; 」のために制作されたものです。&lt;br&gt;
+作者のフェデリカ・フラガパーネ（Federica Fragapane）は、複雑な社会データを詩的かつ構造的に可視化することで知られるデータビジュアライゼーション・デザイナーです。&lt;br&gt;
+本作でも、科学的データと美的表現を両立させ &lt;strong&gt;都市の「音」と「健康」を結びつける新しい視覚言語&lt;/strong&gt; を提示しています。&lt;/p&gt;
+&lt;h2 id=&#34;凡例の読み方と構造の理解&#34;&gt;凡例の読み方と構造の理解
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/noise-pollution/images/legend.png&#34;
 	width=&#34;1603&#34;
 	height=&#34;2611&#34;
@@ -41,42 +688,107 @@
 		data-flex-basis=&#34;147px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;この図は、各都市の騒音レベルと聴覚損失の度合いを &lt;strong&gt;垂直方向と円の大きさ・色&lt;/strong&gt; で表現しています。&lt;/p&gt;
+&lt;p&gt;この作品は &lt;strong&gt;都市ごとの「騒音環境」と「聴覚への影響」を同時に可視化&lt;/strong&gt; したものです。&lt;br&gt;
+各都市は一本の縦線と、その先端に描かれた円で表されます。そして、&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;縦軸（hearing loss）&lt;/strong&gt;&lt;br&gt;
-0〜1のスコアで、聴覚損失の程度を示します。数値が高いほど聴覚への影響が大きいことを意味します。&lt;br&gt;
-各都市は、国・地域別（アフリカ、アメリカ、アジア、オセアニア、ヨーロッパ）に並べられています。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;円の大きさ（element size）&lt;/strong&gt;&lt;br&gt;
-騒音汚染スコア（noise pollution）を表します。大きいほど騒音レベルが高く、環境騒音が深刻であることを意味します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;線の長さ（line length）&lt;/strong&gt;&lt;br&gt;
-聴覚損失スコア（hearing loss）の値を反映しています。長いほど損失が大きいことを示します。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;円の色（colour）&lt;/strong&gt;&lt;br&gt;
-平均値に対する相対的な良し悪しを示します。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;線&lt;/strong&gt; が示すのは「聴覚損失」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;円&lt;/strong&gt; が示すのは「騒音汚染」&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数値&lt;/strong&gt; が示すのは「両者を合算した総合指数（World Hearing Loss Index）」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;です。この3要素が連動しており、「 &lt;strong&gt;音のうるささが、耳への影響にどの程度つながっているか&lt;/strong&gt; 」を読み解くことが、この作品の肝です。&lt;/p&gt;
+&lt;h3 id=&#34;1-騒音汚染noise-pollution&#34;&gt;1. 騒音汚染（Noise Pollution）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;
+都市の平均的な騒音レベルを数値化したもの。&lt;br&gt;
+交通量、工事、夜間活動など、日常環境における持続的な騒音を指します。&lt;br&gt;
+スコアは &lt;strong&gt;0（静か）〜1（非常にうるさい）&lt;/strong&gt; の範囲で表されます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;赤：平均より悪い（高い騒音・大きな損失）&lt;/li&gt;
-&lt;li&gt;青：平均より良い（静かで聴覚への影響が少ない）&lt;/li&gt;
+&lt;li&gt;円の「大きさ」で表現されます。円が大きいほど騒音が強いです。&lt;/li&gt;
+&lt;li&gt;例：右下に位置する都市ほど、騒音が深刻な傾向があります。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;円内の数値（circle area and value）&lt;/strong&gt;&lt;br&gt;
-それぞれの都市の「World Hearing Loss Index」を示します。&lt;br&gt;
-これは「騒音汚染 + 聴覚損失」の合計値で、総合的な影響度を示す指標です。&lt;/p&gt;
-&lt;/li&gt;
+&lt;h3 id=&#34;2-聴覚損失hearing-loss&#34;&gt;2. 聴覚損失（Hearing Loss）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;住民の聴覚能力の低下度合いを示す指標。&lt;br&gt;
+長期的な騒音暴露や加齢による平均的な聴力低下が数値化されています。&lt;br&gt;
+こちらも &lt;strong&gt;0（正常）〜1（高度な損失）&lt;/strong&gt; のスコアです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各都市の「縦線の長さ」で表されます。線が長いほど聴覚損失が大きい（＝耳が悪くなっている）。&lt;/li&gt;
+&lt;li&gt;都市の並びは地域別（アフリカ、アメリカ、アジア、オセアニア、ヨーロッパ）に分類されています。&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;3-世界聴覚損失指数the-world-hearing-loss-index&#34;&gt;3. 世界聴覚損失指数（The World Hearing Loss Index）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;br&gt;
+騒音汚染スコアと聴覚損失スコアを足し合わせた総合値。&lt;br&gt;
+都市の「騒音による健康影響」をひとつの数値にまとめたものです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;円の内部に記された数値（例：0.97）として表示されます。&lt;/li&gt;
+&lt;li&gt;この数値が高い都市ほど、「騒音も聴覚損失も共に深刻」であることを意味します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-色colour&#34;&gt;4. 色（Colour）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定義：&lt;/strong&gt;&lt;br&gt;
+都市ごとの値が、全都市平均より良いか悪いかを示す相対評価です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;図での表現：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;赤（Red）&lt;/strong&gt; ：平均より悪い（＝騒音も損失も大きい）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;青（Blue）&lt;/strong&gt; ：平均より良い（＝静かで耳にも優しい）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;意味：&lt;/strong&gt;&lt;br&gt;
+色を追うことで、どの地域が「より静かで健康的」か、あるいは「騒音の悪循環に陥っているか」を直感的に把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;2つの指標を同時に見ることのポイント&#34;&gt;2つの指標を「同時に見る」ことのポイント
+&lt;/h3&gt;&lt;p&gt;この作品は、「騒音が大きい都市が本当に耳への影響も大きいのか？」を一目で比較できるよう設計されています。&lt;br&gt;
+具体的には、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;線が長くて、円が大きい都市&lt;/strong&gt; &amp;hellip;騒音も損失も深刻（たとえばカイロ、広州など）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が短くて、円が小さい都市&lt;/strong&gt; &amp;hellip;静かで聴力への影響が少ない（たとえばストックホルム、オスロなど）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が短いのに円が大きい都市&lt;/strong&gt; &amp;hellip;騒音は多いが、まだ耳への影響は限定的（短期的問題）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線が長いのに円が小さい都市&lt;/strong&gt; &amp;hellip;騒音以外の要因（加齢や産業構造など）が影響している可能性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;つまり &lt;strong&gt;円（騒音）と線（聴覚損失）を「対応づけて」見ることが、この作品の理解の核心&lt;/strong&gt; です。&lt;/p&gt;
+&lt;h3 id=&#34;凡例の一覧&#34;&gt;凡例の一覧
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;図での表現&lt;/th&gt;
+          &lt;th&gt;読み取りのポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;騒音汚染&lt;/td&gt;
+          &lt;td&gt;都市のうるささ&lt;/td&gt;
+          &lt;td&gt;円の大きさ&lt;/td&gt;
+          &lt;td&gt;大きいほど騒音が大きい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;聴覚損失&lt;/td&gt;
+          &lt;td&gt;平均的な聴力低下&lt;/td&gt;
+          &lt;td&gt;線の長さ&lt;/td&gt;
+          &lt;td&gt;長いほど聴力損失が大きい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;総合指数&lt;/td&gt;
+          &lt;td&gt;騒音＋聴覚損失&lt;/td&gt;
+          &lt;td&gt;円の中の数値&lt;/td&gt;
+          &lt;td&gt;値が高いほど深刻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色&lt;/td&gt;
+          &lt;td&gt;相対的な良し悪し&lt;/td&gt;
+          &lt;td&gt;赤／青&lt;/td&gt;
+          &lt;td&gt;赤＝悪化、青＝良好&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;背景知識&#34;&gt;背景知識
 &lt;/h2&gt;&lt;p&gt;この可視化の背景には &lt;strong&gt;都市生活が人間の聴覚に与える影響&lt;/strong&gt; を定量的に把握しようとする試みがあります。&lt;br&gt;
 近年、世界保健機関（WHO）は、都市部の環境騒音を「新しい公害」と位置づけており、交通騒音・建設音・娯楽施設の音量などが人の健康を脅かす要因として警鐘を鳴らしています。&lt;/p&gt;
-&lt;p&gt;たとえば、図中で赤色が目立つ都市（デリー、カイロ、メキシコシティなど）は、交通量や人口密度が極めて高く、生活騒音が深刻であることが知られています。&lt;br&gt;
-一方、青色で示された都市（チューリッヒ、ウィーン、ストックホルムなど）は、環境規制が厳しく、都市設計の段階で静音性が重視されている点が特徴です。&lt;/p&gt;
+&lt;p&gt;たとえば、図中で赤色が目立つ都市は、交通量や人口密度が極めて高く、生活騒音が深刻であることが知られています。&lt;br&gt;
+一方、青色で示された都市は、環境規制が厳しく、都市設計の段階で静音性が重視されている点が特徴です。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;このインフォグラフィックは、単なる環境データの比較にとどまらず &lt;strong&gt;「都市の静けさ」は社会的な豊かさの指標でもある&lt;/strong&gt; ということを可視化しています。&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;この作品は、単なる環境データの比較にとどまらず &lt;strong&gt;「都市の静けさ」は社会的な豊かさの指標でもある&lt;/strong&gt; ということを可視化しています。&lt;br&gt;
 騒音汚染はもはや生活の副産物ではなく、健康・福祉・都市政策を横断する重要なテーマです。&lt;br&gt;
 静かな都市は、人間の幸福度を支える「インフラ」でもあることを、この図は美しく明快に示しています。&lt;/p&gt;
 &lt;h2 id=&#34;参照リンク&#34;&gt;参照リンク

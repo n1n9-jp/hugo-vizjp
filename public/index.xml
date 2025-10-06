@@ -7,7 +7,159 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>画家たちの人生と代表作</title>
+        <link>http://localhost:1313/painters-in-the-making/</link>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/painters-in-the-making/</guid>
+        <description>&lt;img src="http://localhost:1313/painters-in-the-making/images/cover.png" alt="Featured image of post 画家たちの人生と代表作" /&gt;&lt;p&gt;&lt;strong&gt;Giorgia Lupi&lt;/strong&gt; による「Painters in the Making」は、約800年にわたる画家たちの人生と代表作を一つの軸上で描き出した作品です。&lt;br&gt;
+中世から20世紀まで、90人の画家を対象に、それぞれの人生の長さ、作品を描いた時期、そして絵画の技法・色彩・サイズを統合的に可視化しています。&lt;br&gt;
+この作品は、イタリアの日刊紙 &lt;em&gt;Corriere della Sera&lt;/em&gt; の文化面「La Lettura」向けに制作されたものです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/mainvisual.png&#34;
+	width=&#34;2048&#34;
+	height=&#34;1053&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/mainvisual_hu_ee2a53c623ea26d4.png 480w, http://localhost:1313/painters-in-the-making/images/mainvisual_hu_2d578a745e9e66a9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Painters in the Making&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;466px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の見方&#34;&gt;作品の見方
+&lt;/h2&gt;&lt;p&gt;中央の横軸は時間（西暦1200〜1900年代）を示し、縦軸には代表的な画家が並びます。&lt;br&gt;
+各画家の &lt;strong&gt;人生の長さ&lt;/strong&gt; は一本の線で表され、その線の中に &lt;strong&gt;代表作が描かれた時期&lt;/strong&gt; が小さな矩形として配置されています。&lt;/p&gt;
+&lt;h3 id=&#34;1-人生の段階と作品&#34;&gt;1. 人生の段階と作品
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-left.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1414&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/legend-left_hu_255aa94643a0f350.png 480w, http://localhost:1313/painters-in-the-making/images/legend-left_hu_a4e9bbcbece7f67d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;左側の凡例を描き直したもの&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;99&#34;
+		data-flex-basis=&#34;237px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;左側の凡例にあるように、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;灰色の線は人生の全体を、&lt;/li&gt;
+&lt;li&gt;濃い灰色の部分はその画家が代表作を制作した年齢帯を示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;人生は以下の3段階に区分されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;young（若年期）&lt;/strong&gt;：35歳まで&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;adult（壮年期）&lt;/strong&gt;：36〜60歳&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mature（成熟期）&lt;/strong&gt;：61歳以上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、過去の時代では平均寿命が短いため、各世紀ごとの&lt;strong&gt;平均寿命に合わせて正規化&lt;/strong&gt;されています。これにより、1300年の「成人期」と1900年の「成人期」は異なる年齢でも同じ割合で可視化されています。&lt;/p&gt;
+&lt;h3 id=&#34;2-作品の属性&#34;&gt;2. 作品の属性
+&lt;/h3&gt;&lt;p&gt;各矩形はその画家の代表作を表し、次の情報が含まれます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作品の主な4色&lt;/strong&gt;（実際の絵画から抽出）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作品の大きさ（m²）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用された画法&lt;/strong&gt;（油彩、テンペラ、フレスコなど）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この多層的な情報により、画家の人生だけでなく、「どのような時期に」「どのような色と技法で」作品を生み出したかが一目でわかります。&lt;/p&gt;
+&lt;h2 id=&#34;時代ごとの変化&#34;&gt;時代ごとの変化
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-right.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1011&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/legend-right_hu_e082a1023800a424.png 480w, http://localhost:1313/painters-in-the-making/images/legend-right_hu_822ef26edd879ce8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;右上の表&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;138&#34;
+		data-flex-basis=&#34;332px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右上の表「How does the way of painting change over the centuries?」は、時代ごとの特徴をまとめています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;世紀&lt;/th&gt;
+          &lt;th&gt;主な傾向&lt;/th&gt;
+          &lt;th&gt;代表的な色調&lt;/th&gt;
+          &lt;th&gt;技法&lt;/th&gt;
+          &lt;th&gt;平均作品サイズ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1200年代&lt;/td&gt;
+          &lt;td&gt;老年画家はいない&lt;/td&gt;
+          &lt;td&gt;茶・赤系&lt;/td&gt;
+          &lt;td&gt;テンペラ&lt;/td&gt;
+          &lt;td&gt;約8.9㎡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1500年代&lt;/td&gt;
+          &lt;td&gt;風景色が主流&lt;/td&gt;
+          &lt;td&gt;緑・青系&lt;/td&gt;
+          &lt;td&gt;油彩・テンペラ併用&lt;/td&gt;
+          &lt;td&gt;平均5.6㎡（ミケランジェロ「最後の審判」は例外的に164㎡）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1600年代&lt;/td&gt;
+          &lt;td&gt;暗色の世紀&lt;/td&gt;
+          &lt;td&gt;黒・深緑系&lt;/td&gt;
+          &lt;td&gt;油彩が主流&lt;/td&gt;
+          &lt;td&gt;約5.9㎡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1800年代&lt;/td&gt;
+          &lt;td&gt;明度の回復&lt;/td&gt;
+          &lt;td&gt;茶〜淡青系&lt;/td&gt;
+          &lt;td&gt;油彩中心&lt;/td&gt;
+          &lt;td&gt;約2.4㎡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1900年代&lt;/td&gt;
+          &lt;td&gt;新技法の試み&lt;/td&gt;
+          &lt;td&gt;原色系・鮮やか&lt;/td&gt;
+          &lt;td&gt;油彩・アクリル・テンペラ混用&lt;/td&gt;
+          &lt;td&gt;約3㎡&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;時代が進むにつれて作品サイズは小型化し、色調は再び明るさを取り戻しています。また、油彩は8世紀にわたって最も多く用いられた技法であることがわかります。&lt;/p&gt;
+&lt;h2 id=&#34;二つの代表作を選ぶ方法&#34;&gt;二つの代表作を選ぶ方法
+&lt;/h2&gt;&lt;p&gt;本作では各画家について「 &lt;strong&gt;主要作品を1点&lt;/strong&gt; 」だけでなく「 &lt;strong&gt;一般的に最も認知されている作品&lt;/strong&gt; 」も同時に表示しています。&lt;br&gt;
+前者はイタリア語版『Garzanti Art Encyclopedia』を参照し、後者は &lt;strong&gt;Google画像検索で最初に表示された作品&lt;/strong&gt; を採用しています。&lt;br&gt;
+つまり「美術史的に重要とされる作品」と「一般に人々の記憶に残る作品」の両方を比較できる構造になっています。&lt;br&gt;
+これにより、専門的評価と大衆的認知のズレをも浮かび上がらせています。&lt;/p&gt;
+&lt;h2 id=&#34;背景とコンセプト&#34;&gt;背景とコンセプト
+&lt;/h2&gt;&lt;p&gt;この作品は、Lupiが提唱する「 &lt;strong&gt;Data Humanism（データ・ヒューマニズム）&lt;/strong&gt; 」の初期代表作の一つです。&lt;br&gt;
+単なる統計情報ではなく &lt;strong&gt;人間の人生のリズムや芸術的成熟をデータとして可視化&lt;/strong&gt; する試みです。&lt;br&gt;
+数字の羅列を超えて、人生・時間・創造性の関係を感覚的に理解できるよう設計されています。&lt;/p&gt;
+&lt;p&gt;LupiはMedium記事「&lt;em&gt;Data Humanism, the Revolution will be Visualized&lt;/em&gt;」の中で、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“We need to reclaim the human essence behind data, to connect numbers back to what they stand for.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;と述べています。&lt;br&gt;
+本作はまさにその理念を体現したビジュアライゼーションです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Painters in the Making」は、データを用いて人間の成長と創造性を描いた、視覚的年表の傑作です。&lt;br&gt;
+1本の線に凝縮された「人生」と「作品の瞬間」は、芸術家がどの時期に最も輝いたかを静かに語りかけます。&lt;br&gt;
+これは、アート史とデータビジュアライゼーションが融合する地点に生まれた、詩的な可視化です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14282281/Painters-in-the-making&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Painters in the Making — Behance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@giorgialupi/data-humanism-the-revolution-will-be-visualized-31486a30dbfb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Humanism, the Revolution will be Visualized — Medium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Urban story: リスボンはホノルルと肩を並べる</title>
         <link>http://localhost:1313/urban-story/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
