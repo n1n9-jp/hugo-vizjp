@@ -189,6 +189,181 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>学位のない天才たちを可視化する</title>
+        <link>http://localhost:1313/nobels-no-degrees/</link>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/nobels-no-degrees/</guid>
+        <description>&lt;img src="http://localhost:1313/nobels-no-degrees/images/cover.png" alt="Featured image of post 学位のない天才たちを可視化する" /&gt;&lt;p&gt;&lt;strong&gt;「Nobels, no degrees」&lt;/strong&gt; は、データ・ヴィジュアライゼーション・デザイナー &lt;strong&gt;Giorgia Lupi&lt;/strong&gt; による作品で、1901年から2012年までの &lt;strong&gt;ノーベル賞受賞者の学歴と年齢の傾向&lt;/strong&gt; を可視化したものです。&lt;/p&gt;
+&lt;p&gt;タイトルの &lt;strong&gt;&amp;ldquo;no degrees（学位なし）&amp;rdquo;&lt;/strong&gt; は、ノーベル賞受賞者の中に正式な学位を持たない人物が存在するという事実を象徴しており、&lt;strong&gt;教育制度や学歴偏重の枠組みを超えて「知の多様性」を描く&lt;/strong&gt;ことを目的としています。&lt;/p&gt;
+&lt;p&gt;Lupiは、データを数値ではなく「人間の物語」として扱う &lt;strong&gt;データ・ヒューマニズム（Data Humanism）&lt;/strong&gt; の提唱者であり、本作はその代表的な実践例です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/mainvisual.png&#34;
+	width=&#34;2000&#34;
+	height=&#34;2000&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/mainvisual_hu_4fde1a82712c2e84.png 480w, http://localhost:1313/nobels-no-degrees/images/mainvisual_hu_32bc6a84d06184fe.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;「Nobels, no degrees」&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;この作品は、一見複雑な大判ポスターですが、明確な構成ロジックに基づいて設計されています。全体は次の4つの情報レイヤーで構成されています。&lt;/p&gt;
+&lt;h3 id=&#34;1-年齢と時系列&#34;&gt;1. 年齢と時系列
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/legend-main.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1293&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/legend-main_hu_8c488229f877f8a1.png 480w, http://localhost:1313/nobels-no-degrees/images/legend-main_hu_61194ccd79c6a610.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;年齢と時系列の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;中央の折れ線状ドットチャートが主構造です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;横軸（X軸）&lt;/strong&gt; ：ノーベル賞の&lt;strong&gt;授与年（1901–2012）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦軸（Y軸）&lt;/strong&gt; ：受賞者の&lt;strong&gt;年齢&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;各点（dot）&lt;/strong&gt; は1人の受賞者を表し、
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;二重円（double-rounded dots）&lt;/strong&gt; は &lt;strong&gt;女性受賞者&lt;/strong&gt; を示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;カテゴリごとに色分け&lt;/strong&gt; ：
+&lt;ul&gt;
+&lt;li&gt;化学（赤）&lt;/li&gt;
+&lt;li&gt;経済学（青緑）&lt;/li&gt;
+&lt;li&gt;物理学（緑）&lt;/li&gt;
+&lt;li&gt;文学（黄）&lt;/li&gt;
+&lt;li&gt;医学（紫）&lt;/li&gt;
+&lt;li&gt;平和（橙）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;平均受賞年齢（例：物理・化学＝59歳、平和＝61歳）が各賞ごとにタイトル下部に記され、時代とともに受賞年齢が上昇する傾向を確認できます。&lt;/p&gt;
+&lt;h3 id=&#34;2-学歴&#34;&gt;2. 学歴
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/legend-blue-2.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;731&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/legend-blue-2_hu_f2199e235cf62c63.png 480w, http://localhost:1313/nobels-no-degrees/images/legend-blue-2_hu_7df209ec39e83bf4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;学歴の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;459px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;左側の棒グラフでは、各分野の受賞者の最終学位を比較します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PhD（博士）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Master（修士）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bachelor（学士）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No degree（学位なし）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この部分は「受賞者カテゴリ × 学位レベル」の二次元ヒートマップ的構造を持ち、教育的達成度と分野の専門性の相関を視覚的に表現しています。科学系（物理・化学・医学・経済学）はPhDが多数を占める一方、文学や平和賞では学位を持たない例が顕著です。&lt;/p&gt;
+&lt;h3 id=&#34;3-所属大学&#34;&gt;3. 所属大学
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/legend-blue-1.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;724&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/legend-blue-1_hu_f8e57954c9cdddfb.png 480w, http://localhost:1313/nobels-no-degrees/images/legend-blue-1_hu_48fd324cde638689.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;所属大学の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;464px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右上の流線図（サンキー・ダイアグラム）は、受賞者の主要な大学所属を示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主な7大学：
+&lt;ul&gt;
+&lt;li&gt;Harvard&lt;/li&gt;
+&lt;li&gt;MIT&lt;/li&gt;
+&lt;li&gt;Stanford&lt;/li&gt;
+&lt;li&gt;Caltech&lt;/li&gt;
+&lt;li&gt;Columbia&lt;/li&gt;
+&lt;li&gt;Cambridge&lt;/li&gt;
+&lt;li&gt;Berkeley&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;流線の色はカテゴリに対応（化学＝赤、物理＝緑、医学＝紫など）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この部分は「大学 ↔ 受賞者分野」の双方向ネットワークであり、ノード間の太さは受賞者数の分布を反映しています。文学・平和の流線がほとんど存在しないことから &lt;strong&gt;これらの分野は大学制度外の文脈で評価される傾向&lt;/strong&gt; が視覚化されています。&lt;/p&gt;
+&lt;h3 id=&#34;4-出身地&#34;&gt;4. 出身地
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/legend-timeline.png&#34;
+	width=&#34;1397&#34;
+	height=&#34;756&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/legend-timeline_hu_204a081d10542974.png 480w, http://localhost:1313/nobels-no-degrees/images/legend-timeline_hu_ef00e8a5de9184f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;出身地の凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;184&#34;
+		data-flex-basis=&#34;443px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;下部の棒グラフは、30年ごとに区切った受賞者の出身地分布を示します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1901年：ロンドン・パリ・ベルリンが中心（ &lt;strong&gt;ヨーロッパ主導&lt;/strong&gt; ）&lt;/li&gt;
+&lt;li&gt;1961年以降：シカゴ、ボストン、スタンフォードなど &lt;strong&gt;アメリカ出身者が急増&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この部分は時間スライス（30年ごと）における都市別頻度分布で &lt;strong&gt;研究の地理的重心がヨーロッパからアメリカへ移行した様子&lt;/strong&gt; を定量的に可視化しています。&lt;/p&gt;
+&lt;h3 id=&#34;5-特筆される7人の受賞者&#34;&gt;5. 特筆される7人の受賞者
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nobels-no-degrees/images/legend-description.png&#34;
+	width=&#34;514&#34;
+	height=&#34;559&#34;
+	srcset=&#34;http://localhost:1313/nobels-no-degrees/images/legend-description_hu_f20c94f6b57d4941.png 480w, http://localhost:1313/nobels-no-degrees/images/legend-description_hu_3382826a7c68bcc4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;特筆される7人の受賞者&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;220px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;右下には、作品中で特筆される7人の受賞者が紹介されています：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Marie Curie&lt;/strong&gt; – 二度の受賞（化学・物理）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leonid Hurwicz&lt;/strong&gt; – 最年長（90歳）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lawrence Bragg&lt;/strong&gt; – 最年少（25歳）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jan &amp;amp; Nikolaas Tinbergen&lt;/strong&gt; – 兄弟で別分野受賞（経済学・医学）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guglielmo Marconi&lt;/strong&gt; – 学位なしの物理学賞受賞者&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Erik Axel Karlfeldt&lt;/strong&gt; – 死後受賞（文学）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elinor Ostrom&lt;/strong&gt; – 経済学賞唯一の女性受賞者&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これらは作品全体のテーマ &lt;strong&gt;no degrees（学位に依存しない知）&lt;/strong&gt; を象徴的に補強しています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;この可視化は、単なるデータの可読化を超えて &lt;strong&gt;「教育制度と創造性の関係」&lt;/strong&gt; を問い直しています。&lt;br&gt;
+高学歴の科学者だけでなく、形式的な学位を持たずに世界を変えた人物たちも並列に描かれることで &lt;strong&gt;「知の到達は教育経路の多様性によって支えられている」&lt;/strong&gt; というLupiの思想が明確に伝わります。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;『Nobels, no degrees』は、ノーベル賞という“知の権威”を題材に、 &lt;strong&gt;人間の学びと発見の非線形性&lt;/strong&gt; を可視化した作品です。&lt;br&gt;
+学位・年齢・出身・性別・所属といった属性を超え、それぞれの人生の「知への道筋」を等価に描くことで &lt;strong&gt;「学び」と「創造」の関係を再定義するデータ叙事詩&lt;/strong&gt; として機能しています。&lt;/p&gt;
+&lt;p&gt;この作品を通じて、Giorgia Lupiが掲げる「データを人間的なものとして扱う」という理念が、視覚的にも哲学的にも結実していることがわかります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/14159439/Nobel-no-degrees&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nobels, no degrees :: Behance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Urban story: リスボンはホノルルと肩を並べる</title>
         <link>http://localhost:1313/urban-story/</link>
         <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
