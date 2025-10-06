@@ -78,7 +78,7 @@ image = "images/cover.png"
 
 本作では各画家について「 **主要作品を1点** 」だけでなく「 **一般的に最も認知されている作品** 」も同時に表示しています。  
 前者はイタリア語版『Garzanti Art Encyclopedia』を参照し、後者は **Google画像検索で最初に表示された作品** を採用しています。  
-つまり「美術史的に重要とされる作品」と「一般に人々の記憶に残る作品」の両方を比較できる構造になっています。  
+つまり「 **美術史的に重要とされる作品** 」と「 **一般に人々の記憶に残る作品** 」の両方を比較できる構造になっています。  
 これにより、専門的評価と大衆的認知のズレをも浮かび上がらせています。
 
 
@@ -91,6 +91,8 @@ image = "images/cover.png"
 
 LupiはMedium記事「*Data Humanism, the Revolution will be Visualized*」の中で、 
 
+> 「私たちは、データの背後にある人間の本質を取り戻し、数字をそれが表すものと結び付ける必要があります。」
+> 
 > “We need to reclaim the human essence behind data, to connect numbers back to what they stand for.”  
 
 と述べています。  
