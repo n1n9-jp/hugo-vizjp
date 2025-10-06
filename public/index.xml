@@ -31,7 +31,21 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;作品の見方&#34;&gt;作品の見方
-&lt;/h2&gt;&lt;p&gt;中央の横軸は時間（西暦1200〜1900年代）を示し、縦軸には代表的な画家が並びます。&lt;br&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-top.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;1374&#34;
+	srcset=&#34;http://localhost:1313/painters-in-the-making/images/legend-top_hu_cda2c8f9e0021576.png 480w, http://localhost:1313/painters-in-the-making/images/legend-top_hu_29d2b6895f953a27.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;二つの代表作を選ぶ方法&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;中央の縦軸は時間（西暦1200〜1900年代）を示し、横軸には代表的な画家が並びます。&lt;br&gt;
 各画家の &lt;strong&gt;人生の長さ&lt;/strong&gt; は一本の線で表され、その線の中に &lt;strong&gt;代表作が描かれた時期&lt;/strong&gt; が小さな矩形として配置されています。&lt;/p&gt;
 &lt;h3 id=&#34;1-人生の段階と作品&#34;&gt;1. 人生の段階と作品
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/painters-in-the-making/images/legend-left.png&#34;
