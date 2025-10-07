@@ -1,3 +1,4 @@
+timeZone: "Asia/Tokyo"
 timeout: "120s"
 
 baseURL: https://visualizing.jp
