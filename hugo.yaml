@@ -184,7 +184,49 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - identifier: education
+          name: 教えるための記事
+          url: /categories/education/
+          weight: 130
+          params:
+              icon: archives
+        - identifier: technology
+          name: 作るための記事
+          url: /categories/technology/
+          weight: 131
+          params:
+              icon: archives
+        - identifier: chart
+          name: チャート・カタログ
+          url: /categories/chart/
+          weight: 110
+          params:
+              icon: archives
+        - identifier: consume
+          name: 見るための記事
+          url: /categories/consume/
+          weight: 120
+          params:
+              icon: archives
+        - identifier: data-journalism
+          name: データ・ジャーナリズム
+          url: /categories/data-journalism/
+          weight: 210
+          params:
+              icon: archives
+        - identifier: event
+          name: イベント
+          url: /categories/event/
+          weight: 300
+          params:
+              icon: archives
+        - identifier: principle
+          name: データ可視化の原理
+          url: /categories/principle/
+          weight: 200
+          params:
+              icon: archives
 
     social:
 
