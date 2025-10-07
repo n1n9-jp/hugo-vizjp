@@ -7,10 +7,118 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>オイラー図（Euler Diagram）とは</title>
+        <link>http://localhost:1313/euler-diagram/</link>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/euler-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/euler-diagram/images/cover.png" alt="Featured image of post オイラー図（Euler Diagram）とは" /&gt;&lt;p&gt;オイラー図は、集合や命題の関係を直感的に表すための図解です。円や楕円などの閉じた曲線を用い、それぞれの領域が特定の集合を表します。曲線が重なる部分は集合の共通部分を示し、重ならない場合は互いに独立した関係を示します。&lt;/p&gt;
+&lt;p&gt;オイラー図は、18世紀の数学者レオンハルト・オイラー（Leonhard Euler）によって提案されたもので、後にジョン・ベン（John Venn）がその手法を拡張し、すべての可能な交差関係を描くベン図を考案しました。オイラー図は、ベン図に比べて「実際に存在する関係だけ」を描く点で、より簡潔で実用的です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/euler-diagram.png&#34;
+	width=&#34;954&#34;
+	height=&#34;1312&#34;
+	srcset=&#34;http://localhost:1313/euler-diagram/images/euler-diagram_hu_35285edb4e04b1cb.png 480w, http://localhost:1313/euler-diagram/images/euler-diagram_hu_1f42e526c657c80d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;オイラー円図（Eulerian circles）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;72&#34;
+		data-flex-basis=&#34;174px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図版は、18世紀に刊行されたレオンハルト・オイラーの著作『Lettres à une princesse d’Allemagne（ドイツの王女への手紙）』に掲載されたとされる、いわゆる オイラー円図（Eulerian circles） の一例です。&lt;/p&gt;
+&lt;p&gt;オイラーはこの書簡集の中で、論理や三段論法の説明を行う際に、円の包含や重なりを用いて命題の関係を視覚的に示しました。円の交わりは「共通部分」、包含は「すべての A は B である」、分離は「A と B は無関係である」といった関係を意味します。&lt;/p&gt;
+&lt;p&gt;この図版は、原典の中の具体的なページではなく、当時の印刷版に基づく実物ページの撮影です。オイラーが提案した論理の可視化手法を忠実に再現しており、近代的な「オイラー図」や「ベン図」の祖型といえる貴重な歴史的資料です。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/cover.png&#34;
+	width=&#34;873&#34;
+	height=&#34;770&#34;
+	srcset=&#34;http://localhost:1313/euler-diagram/images/cover_hu_cf2d4b885c94828f.png 480w, http://localhost:1313/euler-diagram/images/cover_hu_a2bb613288b49c91.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;オイラー図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;272px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;各円または曲線が集合を表す&lt;/strong&gt;&lt;br&gt;
+　例：A、B、Cという集合があれば、それぞれが異なる円で示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;重なりは共通部分を表す&lt;/strong&gt;&lt;br&gt;
+　AとBの円が交わっている部分は「AかつB」の集合を示します。&lt;br&gt;
+　重ならない場合は「AとBには共通の要素がない」ことを意味します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;包含関係の表現&lt;/strong&gt;&lt;br&gt;
+　一方の円が完全にもう一方の内部にある場合、「A ⊆ B（AはBに含まれる）」という関係を表します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;存在しない関係は省略可能&lt;/strong&gt;&lt;br&gt;
+　オイラー図では、要素が存在しない交差部分を描かなくても構いません。これにより、図がシンプルで読みやすくなります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ベン図との違い&#34;&gt;ベン図との違い
+&lt;/h2&gt;&lt;p&gt;オイラー図とベン図は混同されがちですが、根本的な違いは「全ての論理的関係を描くかどうか」にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ベン図&lt;/strong&gt;：すべての組み合わせ（2ⁿ通り）を描く。空集合の領域も明示的に存在する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オイラー図&lt;/strong&gt;：実際に存在する関係のみを描く。不要な領域は省略する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのため、オイラー図は現実的な分類や関係性を視覚的に表す際に適しています。たとえば「猫」「哺乳類」「動物」のような包含関係を簡潔に描くことができます。&lt;/p&gt;
+&lt;h2 id=&#34;応用例&#34;&gt;応用例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;論理・集合論教育&lt;/strong&gt;：&lt;br&gt;
+　命題「すべてのAはBである」「一部のAはBである」などを可視化して論理関係を理解しやすくします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;情報デザイン・概念整理&lt;/strong&gt;：&lt;br&gt;
+　ビジネスの関係性や研究分野の分類、概念マッピングなどで広く利用されています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;利点&#34;&gt;利点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;不要な関係を省くことで見やすく簡潔&lt;/li&gt;
+&lt;li&gt;包含・排他関係を直感的に理解可能&lt;/li&gt;
+&lt;li&gt;教育やプレゼン資料に適している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;制約と注意点&#34;&gt;制約と注意点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;曲線の数が多くなると、図が複雑化して理解しづらくなります。&lt;/li&gt;
+&lt;li&gt;すべての集合関係を「単純な閉曲線」で表現できるとは限りません。&lt;/li&gt;
+&lt;li&gt;レイアウト設計に注意しないと、ゾーンが分断されて可読性が下がります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可視化研究の分野では、「well-formedness（適正性）」と呼ばれる条件が研究されており、図が論理的かつ視覚的に正しくなるよう設計指針が提案されています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;オイラー図は、集合関係を「現実的な関係だけを残して描く」図解手法です。&lt;br&gt;
+ベン図よりも柔軟かつ実践的であり、論理や概念構造を整理・可視化するのに最適です。&lt;br&gt;
+教育から情報デザインまで、理解の助けとなる普遍的なツールといえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Euler_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Euler diagram - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Venn_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Venn diagram - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lucidchart.com/blog/euler-diagram-vs-venn-diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lucidchart: Euler vs Venn diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://math.libretexts.org/Courses/Fullerton_College/Math_100%3A_Liberal_Arts_Math_%28Claassen_and_Ikeda%29/05%3A_Logic/5.06%3A_Arguments_with_Euler_Diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Math LibreTexts: Arguments with Euler Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.brcommunity.com/articles.php?id=c021&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BRCommunity: The Use of Euler Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
@@ -107,7 +215,7 @@
         <item>
         <title>バンプ・チャート（Bump Chart）の歴史と役割</title>
         <link>http://localhost:1313/bump-chart/</link>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bump-chart/</guid>
         <description>&lt;img src="http://localhost:1313/bump-chart/images/G-20-countries-ranked.png" alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" /&gt;&lt;p&gt;バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで &lt;strong&gt;「どの対象がいつ上位に食い込み、または下がったか」&lt;/strong&gt; を直感的に読み取れる点が特徴です。&lt;/p&gt;
@@ -217,7 +325,7 @@
         <item>
         <title>モザイク・プロット（Mosaic Plot）</title>
         <link>http://localhost:1313/mosaic-plot/</link>
-        <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
@@ -322,7 +430,7 @@
         <item>
         <title>ビースウォーム・プロット（Beeswarm Plot）とは？</title>
         <link>http://localhost:1313/beeswarm/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/beeswarm/</guid>
         <description>&lt;img src="http://localhost:1313/beeswarm/images/cover-beeswarm.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？" /&gt;&lt;p&gt;データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。&lt;/p&gt;
@@ -381,7 +489,7 @@
         <item>
         <title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
         <link>http://localhost:1313/parallel-sets/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-sets/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-sets/images/Parallel_Sets.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
@@ -487,7 +595,7 @@
         <item>
         <title>量率グラフという呼び名の誕生史</title>
         <link>http://localhost:1313/quantityproportion-chart/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/quantityproportion-chart/</guid>
         <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
@@ -608,7 +716,7 @@
         <item>
         <title>Visual Vocabulary</title>
         <link>http://localhost:1313/visual-vocabulary/</link>
-        <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/visual-vocabulary/</guid>
         <description>&lt;img src="http://localhost:1313/visual-vocabulary/images/Visual-vocabulary-JP.png" alt="Featured image of post Visual Vocabulary" /&gt;&lt;p&gt;FTのAlan Smith氏が公開している、チャートの分類や種類を視覚的にまとめた一覧です。&lt;/p&gt;
@@ -642,7 +750,7 @@
         <item>
         <title>データ・タイプ別チャート分類</title>
         <link>http://localhost:1313/chart-catalogue-by-types/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-catalogue-by-types/</guid>
         <description>&lt;img src="http://localhost:1313/chart-catalogue-by-types/images/charts-by-types.png" alt="Featured image of post データ・タイプ別チャート分類" /&gt;&lt;p&gt;データ・タイプ別チャート分類です（後日追記します）。&lt;/p&gt;
@@ -679,7 +787,7 @@
         <item>
         <title>タスク別チャート分類</title>
         <link>http://localhost:1313/chart-catalogue-by-tasks/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-catalogue-by-tasks/</guid>
         <description>&lt;img src="http://localhost:1313/chart-catalogue-by-tasks/images/chart_chooser.jpg" alt="Featured image of post タスク別チャート分類" /&gt;&lt;p&gt;代表的な Visual Vocabulary を除いて、タスク別にチャート分類しているものをご紹介します。&lt;/p&gt;
@@ -835,7 +943,7 @@
         <item>
         <title>散布図行列</title>
         <link>http://localhost:1313/splom/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/splom/</guid>
         <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列" /&gt;&lt;p&gt;（後日更新いたします）&lt;/p&gt;
@@ -855,7 +963,7 @@
         <item>
         <title>ツリーマップ（Treemap）</title>
         <link>http://localhost:1313/treemap/</link>
-        <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/treemap/</guid>
         <description>&lt;img src="http://localhost:1313/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
@@ -1048,7 +1156,7 @@
         <item>
         <title>サンバースト（Sunburst）の事例</title>
         <link>http://localhost:1313/sunburst-example/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst-example/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
@@ -1164,7 +1272,7 @@
         <item>
         <title>ディシメトリック・マップ（Dasymetric Map）</title>
         <link>http://localhost:1313/dasymetric-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dasymetric-map/</guid>
         <description>&lt;img src="http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448.png" alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）" /&gt;&lt;p&gt;コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。&lt;/p&gt;
@@ -1308,7 +1416,7 @@
         <item>
         <title>ベクター・フィールド・マップ（Vector Field Map）</title>
         <link>http://localhost:1313/vector-field-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map/</guid>
         <description>&lt;img src="http://localhost:1313/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
@@ -1419,7 +1527,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>つららチャート（Icicle Chart）</title>
         <link>http://localhost:1313/icicle-chart/</link>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/icicle-chart/</guid>
         <description>&lt;img src="http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
@@ -1494,7 +1602,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>コロプレス・マップ（Choropleth Map）</title>
         <link>http://localhost:1313/choropleth-map/</link>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/choropleth-map/</guid>
         <description>&lt;img src="http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
@@ -1605,7 +1713,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
         <link>http://localhost:1313/beeswarm-example/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/beeswarm-example/</guid>
         <description>&lt;img src="http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" /&gt;&lt;p&gt;「ビースウォーム・プロット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -1686,7 +1794,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
         <link>http://localhost:1313/dot-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
@@ -1785,7 +1893,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット密度マップ（Dot Density Map）</title>
         <link>http://localhost:1313/dot-density-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
@@ -1848,7 +1956,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>等級シンボル・マップ(Graduated Symbol Map)</title>
         <link>http://localhost:1313/graduated-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/graduated-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png" alt="Featured image of post 等級シンボル・マップ(Graduated Symbol Map)" /&gt;&lt;p&gt;離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。&lt;/p&gt;
@@ -1879,7 +1987,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>統計記号マップ（Statistical Symbol Map）</title>
         <link>http://localhost:1313/statistical-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/statistical-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png" alt="Featured image of post 統計記号マップ（Statistical Symbol Map）" /&gt;&lt;p&gt;統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。&lt;/p&gt;
@@ -2042,7 +2150,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>比例シンボル・マップ(Proportional Symbol Map)</title>
         <link>http://localhost:1313/proportional-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/proportional-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
@@ -2097,7 +2205,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）</title>
         <link>http://localhost:1313/word-clouds-bubbles/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/word-clouds-bubbles/</guid>
         <description>&lt;img src="http://localhost:1313/word-clouds-bubbles/images/State-of-the-Union-2.png" alt="Featured image of post ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）" /&gt;&lt;p&gt;ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。起源は、1990年代後半にウェブサイトで一般的に使用されていたタグクラウドにあります。&lt;/p&gt;
@@ -2242,7 +2350,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>オイラー図とベン図（Euler Diagram &amp; Venn Diagram）</title>
         <link>http://localhost:1313/euler-venn-diagram/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/euler-venn-diagram/</guid>
         <description>&lt;img src="http://localhost:1313/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n.jpg" alt="Featured image of post オイラー図とベン図（Euler Diagram &amp; Venn Diagram）" /&gt;&lt;p&gt;ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。&lt;/p&gt;
@@ -2408,7 +2516,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>スロープグラフ（Slopegraph）</title>
         <link>http://localhost:1313/slopegraph/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/slopegraph/</guid>
         <description>&lt;img src="http://localhost:1313/slopegraph/images/infant_mortality.gif" alt="Featured image of post スロープグラフ（Slopegraph）" /&gt;&lt;p&gt;スロープグラフとは、異なるカテゴリーデータについて、定量値が2つの時点でどのように変化したかを示す、簡略化された折れ線グラフです。その結果、折れ線ではなく直線のみで構成されるため、通常の折れ線グラフよりも読みやすく、多くの系列が乱雑にならずに済みます。二軸はそれぞれ共通の値範囲を持ちます。&lt;/p&gt;
@@ -2509,7 +2617,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>バンプ・チャート（Bump Chart）の事例</title>
         <link>http://localhost:1313/bump-chart-example/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bump-chart-example/</guid>
         <description>&lt;img src="http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg" alt="Featured image of post バンプ・チャート（Bump Chart）の事例" /&gt;&lt;p&gt;「バンプ・チャート」が利用されている事例を紹介します。&lt;/p&gt;
@@ -2659,7 +2767,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>モザイク・プロット（Mosaic Plot）の事例</title>
         <link>http://localhost:1313/mosaic-plot-example/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -2772,7 +2880,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>沖積図（Alluvial Diagrams）</title>
         <link>http://localhost:1313/alluvial-diagrams/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/alluvial-diagrams/</guid>
         <description>&lt;img src="http://localhost:1313/alluvial-diagrams/images/image-24.png" alt="Featured image of post 沖積図（Alluvial Diagrams）" /&gt;&lt;p&gt;沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。&lt;/p&gt;
@@ -2830,7 +2938,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>サンキー・ダイアグラム（Sankey Diagram）</title>
         <link>http://localhost:1313/sankey-diagram/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sankey-diagram/</guid>
         <description>&lt;img src="http://localhost:1313/sankey-diagram/images/image-13.png" alt="Featured image of post サンキー・ダイアグラム（Sankey Diagram）" /&gt;&lt;p&gt;Mario Schmidt の調査によると、19世紀後半当時、新興工業国の技術者たちは、蒸気機関をさらに改良し、それぞれの用途に最適化するために、科学的手法を応用しようとしていました。蒸気機関の熱効率を分析するために、アイルランドのエンジニアRiall Sankeyによって、1898年に開発されました。&lt;/p&gt;
@@ -3178,7 +3286,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
         <item>
         <title>パラレル・セットの利用例紹介</title>
         <link>http://localhost:1313/parallel-sets-example/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-sets-example/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-sets-example/images/image-15.png" alt="Featured image of post パラレル・セットの利用例紹介" /&gt;&lt;p&gt;「パラレル・セット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -3325,7 +3433,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>フィネオ（Fineo）</title>
         <link>http://localhost:1313/fineo/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/fineo/</guid>
         <description>&lt;img src="http://localhost:1313/fineo/images/5950577682_6066025bc0_o.jpg" alt="Featured image of post フィネオ（Fineo）" /&gt;&lt;p&gt;Fineoは、連続データを可視化するために利用されるサンキー・ダイアグラムの視覚モデルを元に、多次元のカテゴリカルなデータの、ディメンション間の関係を表現するために使うことができるのではないかという考えから生まれました。&lt;/p&gt;
@@ -3470,7 +3578,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>「パラレル・コーディネイト」(Parallel Coordinates)</title>
         <link>http://localhost:1313/parallel-coordinates/</link>
-        <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-coordinates/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-coordinates/images/1_3-NrFUaSTYJHquNYv0P6Ag.jpeg" alt="Featured image of post 「パラレル・コーディネイト」(Parallel Coordinates)" /&gt;&lt;h2 id=&#34;どんなチャート&#34;&gt;どんなチャート？
@@ -3741,7 +3849,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>ストリームグラフ（Streamgraph）</title>
         <link>http://localhost:1313/streamgraph/</link>
-        <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/streamgraph/</guid>
         <description>&lt;img src="http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png" alt="Featured image of post ストリームグラフ（Streamgraph）" /&gt;&lt;h2 id=&#34;別名&#34;&gt;別名
@@ -3885,7 +3993,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>Small Multiplesとは何か？</title>
         <link>http://localhost:1313/small-multiples/</link>
-        <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/small-multiples/</guid>
         <description>&lt;img src="http://localhost:1313/small-multiples/images/03892018723903.5634a9e2d28bf.jpg" alt="Featured image of post Small Multiplesとは何か？" /&gt;&lt;p&gt;チャートのスタイルではなく、ビューのあり方の一つです。&lt;/p&gt;
@@ -4061,7 +4169,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>チャート・マップ（Chart Map）とは？</title>
         <link>http://localhost:1313/chart-map/</link>
-        <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map/images/1_bUT8E8oOLmX_my3TTFhHfA.png" alt="Featured image of post チャート・マップ（Chart Map）とは？" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
@@ -4250,7 +4358,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>ツイートから価値を発見する6の方法【Streamgraph】</title>
         <link>http://localhost:1313/hbr-vision-statement/</link>
-        <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/hbr-vision-statement/</guid>
         <description>&lt;img src="http://localhost:1313/hbr-vision-statement/images/F1006Z_A_lg.gif" alt="Featured image of post ツイートから価値を発見する6の方法【Streamgraph】" /&gt;&lt;p&gt;ツイートにはノイズが多いけども、消費者動向を探ることのできる無料データとみなしてもっと活用できるんじゃないかということで、チャートを使って具体的に示した事例を紹介します。&lt;/p&gt;
@@ -4279,7 +4387,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>どのチャートを使うべきか</title>
         <link>http://localhost:1313/chart-suggestions/</link>
-        <pubDate>Sat, 26 Oct 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 26 Oct 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-suggestions/</guid>
         <description>&lt;img src="http://localhost:1313/chart-suggestions/images/chartSuggestions-1.png" alt="Featured image of post どのチャートを使うべきか" /&gt;&lt;p&gt;20年以上シニア・エグゼクティブたちにプレゼンテーションのコーチングやティーチングをしてきているDr.Abela氏が、“Extreme Presentation method”というプレゼンテーションのためのメソッドを公開し本としても出版もしているのですが、その中で、チャートについてのチャートがとてもわかりやすいのでご紹介します。&lt;/p&gt;

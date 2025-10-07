@@ -7,10 +7,118 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 06 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>オイラー図（Euler Diagram）とは</title>
+        <link>http://localhost:1313/euler-diagram/</link>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/euler-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/euler-diagram/images/cover.png" alt="Featured image of post オイラー図（Euler Diagram）とは" /&gt;&lt;p&gt;オイラー図は、集合や命題の関係を直感的に表すための図解です。円や楕円などの閉じた曲線を用い、それぞれの領域が特定の集合を表します。曲線が重なる部分は集合の共通部分を示し、重ならない場合は互いに独立した関係を示します。&lt;/p&gt;
+&lt;p&gt;オイラー図は、18世紀の数学者レオンハルト・オイラー（Leonhard Euler）によって提案されたもので、後にジョン・ベン（John Venn）がその手法を拡張し、すべての可能な交差関係を描くベン図を考案しました。オイラー図は、ベン図に比べて「実際に存在する関係だけ」を描く点で、より簡潔で実用的です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/euler-diagram.png&#34;
+	width=&#34;954&#34;
+	height=&#34;1312&#34;
+	srcset=&#34;http://localhost:1313/euler-diagram/images/euler-diagram_hu_35285edb4e04b1cb.png 480w, http://localhost:1313/euler-diagram/images/euler-diagram_hu_1f42e526c657c80d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;オイラー円図（Eulerian circles）&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;72&#34;
+		data-flex-basis=&#34;174px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この図版は、18世紀に刊行されたレオンハルト・オイラーの著作『Lettres à une princesse d’Allemagne（ドイツの王女への手紙）』に掲載されたとされる、いわゆる オイラー円図（Eulerian circles） の一例です。&lt;/p&gt;
+&lt;p&gt;オイラーはこの書簡集の中で、論理や三段論法の説明を行う際に、円の包含や重なりを用いて命題の関係を視覚的に示しました。円の交わりは「共通部分」、包含は「すべての A は B である」、分離は「A と B は無関係である」といった関係を意味します。&lt;/p&gt;
+&lt;p&gt;この図版は、原典の中の具体的なページではなく、当時の印刷版に基づく実物ページの撮影です。オイラーが提案した論理の可視化手法を忠実に再現しており、近代的な「オイラー図」や「ベン図」の祖型といえる貴重な歴史的資料です。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/cover.png&#34;
+	width=&#34;873&#34;
+	height=&#34;770&#34;
+	srcset=&#34;http://localhost:1313/euler-diagram/images/cover_hu_cf2d4b885c94828f.png 480w, http://localhost:1313/euler-diagram/images/cover_hu_a2bb613288b49c91.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;オイラー図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;113&#34;
+		data-flex-basis=&#34;272px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;各円または曲線が集合を表す&lt;/strong&gt;&lt;br&gt;
+　例：A、B、Cという集合があれば、それぞれが異なる円で示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;重なりは共通部分を表す&lt;/strong&gt;&lt;br&gt;
+　AとBの円が交わっている部分は「AかつB」の集合を示します。&lt;br&gt;
+　重ならない場合は「AとBには共通の要素がない」ことを意味します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;包含関係の表現&lt;/strong&gt;&lt;br&gt;
+　一方の円が完全にもう一方の内部にある場合、「A ⊆ B（AはBに含まれる）」という関係を表します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;存在しない関係は省略可能&lt;/strong&gt;&lt;br&gt;
+　オイラー図では、要素が存在しない交差部分を描かなくても構いません。これにより、図がシンプルで読みやすくなります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ベン図との違い&#34;&gt;ベン図との違い
+&lt;/h2&gt;&lt;p&gt;オイラー図とベン図は混同されがちですが、根本的な違いは「全ての論理的関係を描くかどうか」にあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ベン図&lt;/strong&gt;：すべての組み合わせ（2ⁿ通り）を描く。空集合の領域も明示的に存在する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;オイラー図&lt;/strong&gt;：実際に存在する関係のみを描く。不要な領域は省略する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのため、オイラー図は現実的な分類や関係性を視覚的に表す際に適しています。たとえば「猫」「哺乳類」「動物」のような包含関係を簡潔に描くことができます。&lt;/p&gt;
+&lt;h2 id=&#34;応用例&#34;&gt;応用例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;論理・集合論教育&lt;/strong&gt;：&lt;br&gt;
+　命題「すべてのAはBである」「一部のAはBである」などを可視化して論理関係を理解しやすくします。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;情報デザイン・概念整理&lt;/strong&gt;：&lt;br&gt;
+　ビジネスの関係性や研究分野の分類、概念マッピングなどで広く利用されています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;利点&#34;&gt;利点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;不要な関係を省くことで見やすく簡潔&lt;/li&gt;
+&lt;li&gt;包含・排他関係を直感的に理解可能&lt;/li&gt;
+&lt;li&gt;教育やプレゼン資料に適している&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;制約と注意点&#34;&gt;制約と注意点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;曲線の数が多くなると、図が複雑化して理解しづらくなります。&lt;/li&gt;
+&lt;li&gt;すべての集合関係を「単純な閉曲線」で表現できるとは限りません。&lt;/li&gt;
+&lt;li&gt;レイアウト設計に注意しないと、ゾーンが分断されて可読性が下がります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可視化研究の分野では、「well-formedness（適正性）」と呼ばれる条件が研究されており、図が論理的かつ視覚的に正しくなるよう設計指針が提案されています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;オイラー図は、集合関係を「現実的な関係だけを残して描く」図解手法です。&lt;br&gt;
+ベン図よりも柔軟かつ実践的であり、論理や概念構造を整理・可視化するのに最適です。&lt;br&gt;
+教育から情報デザインまで、理解の助けとなる普遍的なツールといえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Euler_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Euler diagram - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Venn_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Venn diagram - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lucidchart.com/blog/euler-diagram-vs-venn-diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lucidchart: Euler vs Venn diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://math.libretexts.org/Courses/Fullerton_College/Math_100%3A_Liberal_Arts_Math_%28Claassen_and_Ikeda%29/05%3A_Logic/5.06%3A_Arguments_with_Euler_Diagrams&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Math LibreTexts: Arguments with Euler Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.brcommunity.com/articles.php?id=c021&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BRCommunity: The Use of Euler Diagrams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ナポレオンのロシア遠征を描いたミナールの「損耗の地図」</title>
         <link>http://localhost:1313/minard-napoleon-march-to-moscow/</link>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/minard-napoleon-march-to-moscow/</guid>
         <description>&lt;img src="http://localhost:1313/minard-napoleon-march-to-moscow/images/cover.png" alt="Featured image of post ナポレオンのロシア遠征を描いたミナールの「損耗の地図」" /&gt;&lt;p&gt;フランスの技師であり情報可視化の先駆者、シャルル・ジョゼフ・ミナール（Charles Joseph Minard）は1869年、ナポレオン軍のロシア遠征をテーマにした図「Carte Figurative des pertes successives en hommes de l’Armée Française dans la campagne de Russie 1812–1813」を発表しました。&lt;/p&gt;
@@ -107,7 +215,7 @@
         <item>
         <title>画家たちの人生と代表作</title>
         <link>http://localhost:1313/painters-in-the-making/</link>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/painters-in-the-making/</guid>
         <description>&lt;img src="http://localhost:1313/painters-in-the-making/images/cover.png" alt="Featured image of post 画家たちの人生と代表作" /&gt;&lt;p&gt;&lt;strong&gt;Giorgia Lupi&lt;/strong&gt; による「Painters in the Making」は、約800年にわたる画家たちの人生と代表作を一つの軸上で描き出した作品です。&lt;br&gt;
@@ -288,7 +396,7 @@
         <item>
         <title>学位のない天才たちを可視化する</title>
         <link>http://localhost:1313/nobels-no-degrees/</link>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nobels-no-degrees/</guid>
         <description>&lt;img src="http://localhost:1313/nobels-no-degrees/images/cover.png" alt="Featured image of post 学位のない天才たちを可視化する" /&gt;&lt;p&gt;&lt;strong&gt;「Nobels, no degrees」&lt;/strong&gt; は、データ・ヴィジュアライゼーション・デザイナー &lt;strong&gt;Giorgia Lupi&lt;/strong&gt; による作品で、1901年から2012年までの &lt;strong&gt;ノーベル賞受賞者の学歴と年齢の傾向&lt;/strong&gt; を可視化したものです。&lt;/p&gt;
@@ -463,7 +571,7 @@
         <item>
         <title>Urban story: リスボンはホノルルと肩を並べる</title>
         <link>http://localhost:1313/urban-story/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/urban-story/</guid>
         <description>&lt;img src="http://localhost:1313/urban-story/images/cover.png" alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる" /&gt;&lt;p&gt;この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 &lt;em&gt;La Lettura&lt;/em&gt;（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。&lt;/p&gt;
@@ -583,7 +691,7 @@
         <item>
         <title>ジェンダー平等への進展の可視化</title>
         <link>http://localhost:1313/progress-toward-gender-equality/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/progress-toward-gender-equality/</guid>
         <description>&lt;img src="http://localhost:1313/progress-toward-gender-equality/images/cover.png" alt="Featured image of post ジェンダー平等への進展の可視化" /&gt;&lt;p&gt;本作は Federica Fragapane による作品で &lt;strong&gt;Scientific American (2024年12月号)&lt;/strong&gt; に掲載されたものです。&lt;br&gt;
@@ -751,7 +859,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>宇宙へ打ち上げられた物体たち</title>
         <link>http://localhost:1313/objects-launched-into-space/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/objects-launched-into-space/</guid>
         <description>&lt;img src="http://localhost:1313/objects-launched-into-space/images/cover.png" alt="Featured image of post 宇宙へ打ち上げられた物体たち" /&gt;&lt;p&gt;この作品は、1957年のスプートニク打ち上げ以降に宇宙へ送られたすべての人工物を、時間軸に沿って丁寧に可視化したインフォグラフィックスです。イタリアの新聞 &lt;strong&gt;Corriere della Sera&lt;/strong&gt; の文化別冊 &lt;strong&gt;La Lettura&lt;/strong&gt; に掲載され、毎年恒例の「Orizzonti Visual Data」シリーズの一つとして発表されました。&lt;/p&gt;
@@ -865,7 +973,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>世界の記憶を可視化する「The Memory of the World Register」</title>
         <link>http://localhost:1313/the-memory-of-the-world-register/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/the-memory-of-the-world-register/</guid>
         <description>&lt;img src="http://localhost:1313/the-memory-of-the-world-register/images/cover.png" alt="Featured image of post 世界の記憶を可視化する「The Memory of the World Register」" /&gt;&lt;p&gt;本作は &lt;strong&gt;Federica Fragapane&lt;/strong&gt; による作品で、ユネスコ（UNESCO）が保護対象として登録している「 &lt;strong&gt;世界の記憶（Memory of the World Register）&lt;/strong&gt; 」を可視化したインフォグラフィックスです。文化遺産のうち「文書遺産（documentary heritage）」に焦点を当て、地理的地域、国、資料の種類ごとに分類し、世界各地の記録物がどのように分布しているかを円環状に描き出しています。&lt;/p&gt;
@@ -995,7 +1103,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」</title>
         <link>http://localhost:1313/noise-pollution/</link>
-        <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 05 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/noise-pollution/</guid>
         <description>&lt;img src="http://localhost:1313/noise-pollution/images/cover.png" alt="Featured image of post 世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」" /&gt;&lt;p&gt;この作品は、世界の主要都市における &lt;strong&gt;騒音汚染（noise pollution）&lt;/strong&gt; と &lt;strong&gt;聴覚損失（hearing loss）&lt;/strong&gt; の関係を比較したものです。&lt;br&gt;
@@ -1146,7 +1254,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>ワッフル・チャート（Waffle Chart）</title>
         <link>http://localhost:1313/waffle-chart/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/waffle-chart/</guid>
         <description>&lt;img src="http://localhost:1313/waffle-chart/images/cover.png" alt="Featured image of post ワッフル・チャート（Waffle Chart）" /&gt;&lt;p&gt;ワッフル・チャート（Waffle Chart）は、データの構成比を視覚的に示すためのチャートで、小さな正方形を格子状（多くは10×10＝100マス）に配置し、塗りつぶしたマスの数で全体に対する割合を表します。&lt;br&gt;
@@ -1216,7 +1324,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>映画の経済を描くインフォグラフィック — Selling at Sundance</title>
         <link>http://localhost:1313/selling-at-sundance/</link>
-        <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/selling-at-sundance/</guid>
         <description>&lt;img src="http://localhost:1313/selling-at-sundance/images/cover.png" alt="Featured image of post 映画の経済を描くインフォグラフィック — Selling at Sundance" /&gt;&lt;p&gt;このインフォグラフィックは、イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; が制作した「Selling at Sundance」です。2011年から2013年にかけてサンダンス映画祭で売買されたインディペンデント映画を題材に &lt;strong&gt;予算・販売価格・興行収入・上映時間・ジャンル・受賞数&lt;/strong&gt; などを多次元的に可視化しています。もともとはスプレッドシートで管理されていたデータを「三次元的なアート」として再構成したものです。&lt;/p&gt;
@@ -1299,7 +1407,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>Stefanie Posavec による「路上(On the Road)」の可視化</title>
         <link>http://localhost:1313/literary-organism/</link>
-        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/literary-organism/</guid>
         <description>&lt;img src="http://localhost:1313/literary-organism/images/cover.png" alt="Featured image of post Stefanie Posavec による「路上(On the Road)」の可視化" /&gt;&lt;p&gt;この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。&lt;/p&gt;
@@ -1395,7 +1503,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>シェイクスピアを「読む」新しい方法</title>
         <link>http://localhost:1313/understanding-shakespeare/</link>
-        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/understanding-shakespeare/</guid>
         <description>&lt;img src="http://localhost:1313/understanding-shakespeare/images/cover.png" alt="Featured image of post シェイクスピアを「読む」新しい方法" /&gt;&lt;p&gt;Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。その目的は、シェイクスピアの戯曲を従来の読み方とは異なるかたちで再発見させることにあります。近年の「物語を消費する習慣の変化」に対応し、インフォメーション・ヴィジュアライゼーションの力を借りて、戯曲の構造や言葉のパターンを直感的に理解できる新しい読書形態を提案しています。&lt;/p&gt;
@@ -1476,7 +1584,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>視覚化された天才たち - Harold Bloomとカバラの樹形図</title>
         <link>http://localhost:1313/geniuses-visualized/</link>
-        <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 03 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/geniuses-visualized/</guid>
         <description>&lt;img src="http://localhost:1313/geniuses-visualized/images/cover.png" alt="Featured image of post 視覚化された天才たち - Harold Bloomとカバラの樹形図" /&gt;&lt;p&gt;文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。2012年にイタリアの新聞『Corriere della Sera』の日曜版文化誌『La Lettura（ラ・レットゥラ）』に掲載され、後にBehanceにも公開された「Geniuses, visualized」です。&lt;/p&gt;
@@ -1575,7 +1683,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</title>
         <link>http://localhost:1313/entangled-word-bank/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/entangled-word-bank/</guid>
         <description>&lt;img src="http://localhost:1313/entangled-word-bank/images/cover-entangled-word-bank.jpeg" alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する" /&gt;&lt;p&gt;「(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。制作者は Stefanie Posavec（デザイナー）と Greg McInerny（当時 Microsoft Research 所属の研究者）で、両者の共同制作として発表されました。&lt;/p&gt;
@@ -1772,7 +1880,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>TextArc: アリスを「眺める」ための地図</title>
         <link>http://localhost:1313/textarc/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/textarc/</guid>
         <description>&lt;img src="http://localhost:1313/textarc/images/367_text-arc.png" alt="Featured image of post TextArc: アリスを「眺める」ための地図" /&gt;&lt;p&gt;2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。これは単なる文学の挿絵でもなく、データ解析の図表でもありません。テキスト全体を「読み」ではなく「眺める」対象とし、物語の構造やパターンを一望できる「テキストの地図」として機能します。&lt;/p&gt;
@@ -1836,7 +1944,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</title>
         <link>http://localhost:1313/history-flow/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/history-flow/</guid>
         <description>&lt;img src="http://localhost:1313/history-flow/images/chocolate-1.jpeg" alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語" /&gt;&lt;p&gt;私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。その舞台裏では、協力や対立、破壊と修復といった人間的な営みが絶えず繰り広げられています。&lt;/p&gt;
@@ -2000,7 +2108,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
@@ -2097,7 +2205,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化</title>
         <link>http://localhost:1313/digital-nostalgia/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/digital-nostalgia/</guid>
         <description>&lt;img src="http://localhost:1313/digital-nostalgia/images/cover-LifeOnline.jpeg" alt="Featured image of post デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化" /&gt;&lt;p&gt;グラフィックデザイナー Paul Butt による Digital Nostalgia シリーズは、近年のデジタル技術の急速な進化を振り返り、その背後にある社会的影響や「ノスタルジー（懐旧感）」を浮かび上がらせることを目的としています。今回紹介するポスター 「Life Online」 は、インターネットの誕生から2000年代初頭までの展開を俯瞰するインフォグラフィックです。&lt;/p&gt;
@@ -2179,7 +2287,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス</title>
         <link>http://localhost:1313/mission-to-mars/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mission-to-mars/</guid>
         <description>&lt;img src="http://localhost:1313/mission-to-mars/images/cover.jpeg" alt="Featured image of post 火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス" /&gt;&lt;p&gt;人類にとって火星は、もっとも近い「他の惑星」として、長いあいだ夢と挑戦の対象であり続けてきました。1960年代から今日まで、各国の宇宙機関は数多くの火星探査ミッションを打ち上げてきましたが、その道のりは決して平坦ではありません。むしろ初期のころは、失敗の連続だったのです。&lt;/p&gt;
@@ -2242,7 +2350,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
         <link>http://localhost:1313/multi-color/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/multi-color/</guid>
         <description>&lt;img src="http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
@@ -2305,7 +2413,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
         <link>http://localhost:1313/radial-bar-chart/</link>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/radial-bar-chart/</guid>
         <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
@@ -2380,7 +2488,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>バンプ・チャート（Bump Chart）の歴史と役割</title>
         <link>http://localhost:1313/bump-chart/</link>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bump-chart/</guid>
         <description>&lt;img src="http://localhost:1313/bump-chart/images/G-20-countries-ranked.png" alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" /&gt;&lt;p&gt;バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで &lt;strong&gt;「どの対象がいつ上位に食い込み、または下がったか」&lt;/strong&gt; を直感的に読み取れる点が特徴です。&lt;/p&gt;
@@ -2490,7 +2598,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>連結散布図 (Connected Scatterplot) の概要</title>
         <link>http://localhost:1313/connected-scatterplot/</link>
-        <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/connected-scatterplot/</guid>
         <description>&lt;img src="http://localhost:1313/connected-scatterplot/images/cover-connected-scatterplot.png" alt="Featured image of post 連結散布図 (Connected Scatterplot) の概要" /&gt;&lt;p&gt;連結散布図（Connected Scatterplot）は、散布図の各点を順序（多くは時間）に従って線で結んだグラフです。
@@ -2559,7 +2667,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>モザイク・プロット（Mosaic Plot）</title>
         <link>http://localhost:1313/mosaic-plot/</link>
-        <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 29 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
@@ -2664,7 +2772,7 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         <item>
         <title>NYT「Covid-19スパイラル可視化」をめぐる議論と代替案</title>
         <link>http://localhost:1313/spiral-chart-nyt/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/spiral-chart-nyt/</guid>
         <description>&lt;img src="http://localhost:1313/spiral-chart-nyt/images/spiral-chart-nyt-cover.jpg" alt="Featured image of post NYT「Covid-19スパイラル可視化」をめぐる議論と代替案" /&gt;&lt;p&gt;2022年1月、The New York Times が公開した「新型コロナウイルスの新規感染者数（米国）」を示す螺旋（スパイラル）型チャートは、データビジュアライゼーションの世界で大きな注目を集めました。
@@ -2781,7 +2889,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>ビースウォーム・プロット（Beeswarm Plot）とは？</title>
         <link>http://localhost:1313/beeswarm/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/beeswarm/</guid>
         <description>&lt;img src="http://localhost:1313/beeswarm/images/cover-beeswarm.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？" /&gt;&lt;p&gt;データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。&lt;/p&gt;
@@ -2840,7 +2948,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>レーダー・チャートと平行座標：読みやすさをめぐる議論</title>
         <link>http://localhost:1313/radar-parallel-coordinates/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/radar-parallel-coordinates/</guid>
         <description>&lt;img src="http://localhost:1313/radar-parallel-coordinates/images/thumbnail_combined.jpg" alt="Featured image of post レーダー・チャートと平行座標：読みやすさをめぐる議論" /&gt;&lt;p&gt;レーダー・チャート（radar chart、スパイダーチャート、蜘蛛の巣グラフとも呼ばれる）は、複数の項目を同時に比較するための可視化手法です。
@@ -2931,7 +3039,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
         <link>http://localhost:1313/parallel-sets/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-sets/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-sets/images/Parallel_Sets.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
@@ -3037,7 +3145,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》</title>
         <link>http://localhost:1313/vaccine-confidence-cascade/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vaccine-confidence-cascade/</guid>
         <description>&lt;img src="http://localhost:1313/vaccine-confidence-cascade/images/vaccine-confidence-cascade-cover.jpeg" alt="Featured image of post ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》" /&gt;&lt;p&gt;ロンドンの Wellcome Collection は「健康と人間の経験」を探る博物館・ライブラリーとして、科学や社会に関する企画展を多数行っています。その一つに、2019年に展示された Stefanie Posavec の作品《Vaccine Confidence Cascade》があります。本作はデータビジュアライザーである Posavec が、ライター Miriam Quick と共同で制作したインスタレーションで、ワクチンへの信頼が cascade する（滝のように連鎖的に崩れる／積み重なる）様子を視覚化したものです。&lt;/p&gt;
@@ -3163,7 +3271,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>量率グラフという呼び名の誕生史</title>
         <link>http://localhost:1313/quantityproportion-chart/</link>
-        <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/quantityproportion-chart/</guid>
         <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
@@ -3284,7 +3392,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
         <link>http://localhost:1313/treemap-rcep/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/treemap-rcep/</guid>
         <description>&lt;img src="http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
@@ -3347,7 +3455,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
         <link>http://localhost:1313/newsmap/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/newsmap/</guid>
         <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
@@ -3493,7 +3601,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>Word Spectrum ― Google のビッグデータで語の関係を可視化する</title>
         <link>http://localhost:1313/word-spectrum/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/word-spectrum/</guid>
         <description>&lt;img src="http://localhost:1313/word-spectrum/images/3cd57a4f-efeb-4bb8-b4f9-b640bbc9c916.png" alt="Featured image of post Word Spectrum ― Google のビッグデータで語の関係を可視化する" /&gt;&lt;p&gt;ある言葉が、別の言葉とどれほど「結びついて」使われているのか。言語学や自然言語処理の分野では、こうした関係を数値化し、モデルに組み込む試みが数多くなされてきました。米国の研究者 Chris Harrison 氏は、Google が公開した大規模な n-gram データセットを素材にして、語と語のつながりを直観的に読み取れるビジュアライゼーションを制作しました。それが Word Spectrum です。&lt;/p&gt;
@@ -3767,7 +3875,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>アメリカ財政をどう見せるか：Understanding USAとUSAFacts</title>
         <link>http://localhost:1313/government-budget-icicle/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/government-budget-icicle/</guid>
         <description>&lt;img src="http://localhost:1313/government-budget-icicle/images/fiscal_infographics_combined_horizontal.jpg" alt="Featured image of post アメリカ財政をどう見せるか：Understanding USAとUSAFacts" /&gt;&lt;p&gt;国家財政の可視化は、単なる統計表を超えて、市民に「税金がどこから来て、どこへ行くのか」を直感的に伝える重要な手段です。
@@ -3879,7 +3987,7 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         <item>
         <title>香港の感染拡大を可視化したインフォグラフィック</title>
         <link>http://localhost:1313/scmp-2020-covid-hk/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/scmp-2020-covid-hk/</guid>
         <description>&lt;img src="http://localhost:1313/scmp-2020-covid-hk/images/scmp_2020_covid-hk-00.png" alt="Featured image of post 香港の感染拡大を可視化したインフォグラフィック" /&gt;&lt;p&gt;2020年4月、パンデミック初期に制作された 「How the coronavirus spread in Hong Kong」（Dennis Wong &amp;amp; Adolfo Arranz）は、香港における新型コロナ感染拡大を「輸入症例」から「市中感染」までの流れで描き出したインフォグラフィックです。
@@ -3993,7 +4101,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ</title>
         <link>http://localhost:1313/visit-nordkyn-logo/</link>
-        <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 26 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/visit-nordkyn-logo/</guid>
         <description>&lt;img src="http://localhost:1313/visit-nordkyn-logo/images/cover.png" alt="Featured image of post 北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ" /&gt;&lt;p&gt;ノルウェー最北部、ノードキン（Nordkyn）を舞台とする観光プロジェクト「Visit Nordkyn」。この地域の魅力を表現すべく、デザイン・スタジオ Neue は“ただ刻一刻と形を変えるロゴ”を提案しました。風、温度といった自然の要素を可視化し、ブランドと気候がリアルタイムにつながる「動的ロゴ（Dynamic Logo）」の手法は、従来の静的ロゴの枠を超えた表現として、ブランディング界でも注目を浴びています。本記事では、Visit Nordkyn の動的ロゴの背景、仕組み、意義、課題・可能性について整理・考察します。&lt;/p&gt;
@@ -4103,7 +4211,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>#ShowYourStripes：気候変動を色で語る世界的キャンペーン</title>
         <link>http://localhost:1313/show-your-stripes/</link>
-        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/show-your-stripes/</guid>
         <description>&lt;img src="http://localhost:1313/show-your-stripes/images/ASIA-Japan-AllofJapan-1862-2024-BK.png" alt="Featured image of post #ShowYourStripes：気候変動を色で語る世界的キャンペーン" /&gt;&lt;p&gt;「#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。複雑なグラフや数値ではなく、青から赤へと変化する色の帯を使って、気温がどのように変化してきたかを示します。&lt;/p&gt;
@@ -4333,7 +4441,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>データ分析言語によるチャーノフの顔の実装</title>
         <link>http://localhost:1313/chernoff-face-implementation/</link>
-        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chernoff-face-implementation/</guid>
         <description>&lt;img src="http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png" alt="Featured image of post データ分析言語によるチャーノフの顔の実装" /&gt;&lt;p&gt;データ分析言語であるPythonやRを用いて、チャーノフの顔が実装されているものを集めてみました。&lt;/p&gt;
@@ -4463,7 +4571,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>デザイン性の高いチャーノフの顔</title>
         <link>http://localhost:1313/chernoff-face-design/</link>
-        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chernoff-face-design/</guid>
         <description>&lt;img src="http://localhost:1313/chernoff-face-design/images/cover.png" alt="Featured image of post デザイン性の高いチャーノフの顔" /&gt;&lt;p&gt;デザイン性の高いチャーノフの顔を集めてみました。&lt;/p&gt;
@@ -4573,7 +4681,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』</title>
         <link>http://localhost:1313/chernoff-face-on-map/</link>
-        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chernoff-face-on-map/</guid>
         <description>&lt;img src="http://localhost:1313/chernoff-face-on-map/images/lifeinla_cover.png" alt="Featured image of post 顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』" /&gt;&lt;p&gt;1970年代後半、カリフォルニア州立大学ノースリッジ校（CSUN）の地理学者 Eugene Turner は、社会経済データを可視化する独創的な地図作品 「Life in Los Angeles」 を発表しました。この作品は、統計学者 Herman Chernoff が提案した「チャーノフの顔」という手法を応用したもので、複雑な多変量データを「顔」の形や表情として表現したものです。&lt;/p&gt;
@@ -4731,7 +4839,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」</title>
         <link>http://localhost:1313/mit-media-lab-logo-2011/</link>
-        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mit-media-lab-logo-2011/</guid>
         <description>&lt;img src="http://localhost:1313/mit-media-lab-logo-2011/images/mit_logocolorvariations_logomain_014.jpg" alt="Featured image of post MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」" /&gt;&lt;p&gt;2011年、MIT Media Lab は創立25周年を記念し、ロゴを刷新しました。これを手掛けたのは E. Roon Kang と Richard The、そしてデザインスタジオ TheGreenEyl。
@@ -4879,7 +4987,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>データが「顔」に見える - チャーノフの顔という発想</title>
         <link>http://localhost:1313/chernoff-face/</link>
-        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chernoff-face/</guid>
         <description>&lt;img src="http://localhost:1313/chernoff-face/images/cover.jpeg" alt="Featured image of post データが「顔」に見える - チャーノフの顔という発想" /&gt;&lt;p&gt;1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。タイトルは&lt;a class=&#34;link&#34; href=&#34;http://wexler.free.fr/library/files/chernoff%20%281973%29%20the%20use%20of%20faces%20to%20represent%20points%20in%20k-dimensional%20space%20graphically.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -5099,7 +5207,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</title>
         <link>http://localhost:1313/provisional-inundation-depth-map/</link>
-        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/provisional-inundation-depth-map/</guid>
         <description>&lt;img src="http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
@@ -5203,7 +5311,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>気温スパイラルが見せる地球温暖化の軌跡</title>
         <link>http://localhost:1313/spiralling-global-temperatures/</link>
-        <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 21 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/spiralling-global-temperatures/</guid>
         <description>&lt;img src="http://localhost:1313/spiralling-global-temperatures/images/cover-spiralling.png" alt="Featured image of post 気温スパイラルが見せる地球温暖化の軌跡" /&gt;&lt;p&gt;「気候変動をどう伝えるか？」――これは科学者やメディアにとって長年の課題でした。
@@ -5541,7 +5649,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」</title>
         <link>http://localhost:1313/high-altitude/</link>
-        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/high-altitude/</guid>
         <description>&lt;img src="http://localhost:1313/high-altitude/images/nikkei_66-09.png" alt="Featured image of post 山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」" /&gt;&lt;p&gt;アルゼンチンのアンデス山脈を舞台にした壮大な山岳写真に、私たちの経済活動の痕跡が刻まれているとしたら―。ドイツ出身のアーティスト &lt;strong&gt;Michael Najjar（マイケル・ナジャー）&lt;/strong&gt; が手がけた写真シリーズ「High Altitude」は、その驚くべき試みを実現しています。&lt;/p&gt;
@@ -5636,7 +5744,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから</title>
         <link>http://localhost:1313/high-frequency-trading/</link>
-        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/high-frequency-trading/</guid>
         <description>&lt;img src="http://localhost:1313/high-frequency-trading/images/how_algorithms_shape_02.png" alt="Featured image of post 地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから" /&gt;&lt;p&gt;2011年のTEDGlobalで登壇したケヴィン・スレイヴィンは、私たちの世界がアルゴリズムによってどのように形作られているかを語りました。その中でも特に印象的なのが「高速取引（High-Frequency Trading）のために山を削った」というエピソードです。&lt;/p&gt;
@@ -5729,7 +5837,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>防災情報「キキクル」に見られる独自の色彩設計の工夫</title>
         <link>http://localhost:1313/bosai-kikikuru-color/</link>
-        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bosai-kikikuru-color/</guid>
         <description>&lt;img src="http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
@@ -5847,7 +5955,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>「Cognitive Bias Codex」で眺める人間の思考のクセ</title>
         <link>http://localhost:1313/cognitive-biases-blog/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-blog/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-blog/images/bias-blog.png" alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ" /&gt;&lt;p&gt;私たちの判断や意思決定は、合理的なようでいて、しばしば、予測可能な誤りを繰り返します。これが &lt;strong&gt;認知バイアス&lt;/strong&gt; です。たとえば「宝くじの当選確率」を過大評価したり、「自分の信念を裏づける情報」だけを集めてしまうといった現象がそうです。&lt;/p&gt;
@@ -5915,7 +6023,7 @@ South China Morning Post の「How the coronavirus spread in Hong Kong」(2020)&
         <item>
         <title>認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</title>
         <link>http://localhost:1313/cognitive-biases-compare/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-compare/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-compare/images/bias-comparison-final.png" alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？" /&gt;&lt;p&gt;私たちの判断や意思決定は、しばしば「合理的なはず」なのに予測可能な誤りを繰り返します。これが &lt;strong&gt;認知バイアス&lt;/strong&gt; です。&lt;br&gt;
@@ -6024,7 +6132,7 @@ Benson のブログ記事での整理は「わかりやすさ」を重視して�
         <item>
         <title>認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</title>
         <link>http://localhost:1313/cognitive-biases-paper/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-paper/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-paper/images/bias-paper.png" alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法" /&gt;&lt;p&gt;認知バイアスは、人間が合理的に考えているつもりでも陥ってしまう思考のクセです。&lt;br&gt;
@@ -6098,7 +6206,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
         <link>http://localhost:1313/chart-map-transportation-infrastructure/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-transportation-infrastructure/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
@@ -6175,7 +6283,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>鉄道の発展を「円の面積」で描いた鉄道発展図</title>
         <link>http://localhost:1313/chart-map-railway/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-railway/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-railway/images/12511022_closeup.png" alt="Featured image of post 鉄道の発展を「円の面積」で描いた鉄道発展図" /&gt;&lt;p&gt;19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。&lt;/p&gt;
@@ -6248,7 +6356,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>時間の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
@@ -6304,7 +6412,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>旅費の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map-price/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map-price/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
@@ -6358,7 +6466,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
         <link>http://localhost:1313/cartogram/</link>
-        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cartogram/</guid>
         <description>&lt;img src="http://localhost:1313/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
@@ -6550,7 +6658,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感</title>
         <link>http://localhost:1313/translate-statistics/</link>
-        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/translate-statistics/</guid>
         <description>&lt;img src="http://localhost:1313/translate-statistics/images/translate-statistics.png" alt="Featured image of post 「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感" /&gt;&lt;p&gt;いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために &lt;strong&gt;“新しい漢字”&lt;/strong&gt; まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。&lt;/p&gt;
@@ -6719,7 +6827,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</title>
         <link>http://localhost:1313/two-axis/</link>
-        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/two-axis/</guid>
         <description>&lt;img src="http://localhost:1313/two-axis/images/img-10.jpeg" alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは" /&gt;&lt;p&gt;データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。
@@ -6869,7 +6977,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
         <link>http://localhost:1313/italian-social-conditionpoverty/</link>
-        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
         <description>&lt;img src="http://localhost:1313/italian-social-conditionpoverty/images/cover.jpg" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
@@ -7016,7 +7124,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題</title>
         <link>http://localhost:1313/densitydesign-lab-memento/</link>
-        <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 04 Oct 2024 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/densitydesign-lab-memento/</guid>
         <description>&lt;img src="http://localhost:1313/densitydesign-lab-memento/images/cover.jpg" alt="Featured image of post 映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題" /&gt;&lt;p&gt;「Memento」課題は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2007–2008年度の教育課題です。テーマはクリストファー・ノーラン監督の映画『メメント』（2000年）。この映画は、記憶障害を持つ主人公が妻の死の真相を追う物語で、シーンの時系列が逆行や断片的構成で進むという極めて複雑なストーリーテリングを特徴としています。&lt;/p&gt;
@@ -7118,7 +7226,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Excelでのピボットテーブルの解除</title>
         <link>http://localhost:1313/excel-reverse-pivot/</link>
-        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/excel-reverse-pivot/</guid>
         <description>&lt;img src="http://localhost:1313/excel-reverse-pivot/images/thumb_ph_vizjp.png" alt="Featured image of post Excelでのピボットテーブルの解除" /&gt;&lt;p&gt;Excelでピボットテーブル化した（もしくはいわゆる横持ちと呼ばれる状態）の表を、ピボットテーブルする前の状態（もしくはいわゆる縦持ちと呼ばれる状態）に戻す作業は、これまでやや複雑でしたが、ExcelにPowerQueryエディタが搭載されてから、手順がかなりシンプルになりました。&lt;/p&gt;
@@ -7156,7 +7264,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>OpenRefineでのピボットテーブルの解除</title>
         <link>http://localhost:1313/openrefine-reverse-pivot/</link>
-        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openrefine-reverse-pivot/</guid>
         <description>&lt;img src="http://localhost:1313/openrefine-reverse-pivot/images/image_3hours_refine.png" alt="Featured image of post OpenRefineでのピボットテーブルの解除" /&gt;&lt;p&gt;Excelでピボットテーブル化した（もしくはいわゆる横持ちと呼ばれる状態）の表を、ピボットテーブルする前の状態（もしくはいわゆる縦持ちと呼ばれる状態）に戻す作業は、これまでやや複雑でした。オープンソースのクレンジングツールであるOpenRefineを用いると、かなりシンプルな手順で実行することが可能です。&lt;/p&gt;
@@ -7218,7 +7326,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>デザイン・ガイドラインにおけるデータ可視化</title>
         <link>http://localhost:1313/design-guideline/</link>
-        <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 14 Sep 2023 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/design-guideline/</guid>
         <description>&lt;p&gt;企業、NPO、政府機関などが、デザイン・ガイドラインにデータ可視化を取り入れる動きがあります。事例を集めました。&lt;/p&gt;
@@ -7232,7 +7340,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
         <link>http://localhost:1313/mapbox-gl-js-v2/</link>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mapbox-gl-js-v2/</guid>
         <description>&lt;img src="http://localhost:1313/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
@@ -7260,7 +7368,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>データジャーナリズム　その２　事例と手法から</title>
         <link>http://localhost:1313/asahi-journalism-2021-2/</link>
-        <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 10 May 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/asahi-journalism-2021-2/</guid>
         <description>&lt;img src="http://localhost:1313/asahi-journalism-2021-2/images/asahi-journalism-2021-2.jpg" alt="Featured image of post データジャーナリズム　その２　事例と手法から" /&gt;&lt;p&gt;※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム)  2021年5月号」に掲載された著者自身による記事の転載です。
@@ -7440,7 +7548,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>データジャーナリズム　その１　定義と歴史を概観する</title>
         <link>http://localhost:1313/asahi-journalism-2021-1/</link>
-        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 09 Apr 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/asahi-journalism-2021-1/</guid>
         <description>&lt;img src="http://localhost:1313/asahi-journalism-2021-1/images/asahi-journalism-2021-1.jpg" alt="Featured image of post データジャーナリズム　その１　定義と歴史を概観する" /&gt;&lt;p&gt;※本記事は朝日新聞社ジャーナリスト学校による「Journalism(ジャーナリズム)  2021年4月号」に掲載された著者自身による記事の転載です。
@@ -7603,7 +7711,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>シグマ・アワード 2021</title>
         <link>http://localhost:1313/sigma-awards-2021/</link>
-        <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sigma-awards-2021/</guid>
         <description>&lt;img src="http://localhost:1313/sigma-awards-2021/images/Sigmas-2021-promo-banner-twitterTFB1200x628.png" alt="Featured image of post シグマ・アワード 2021" /&gt;&lt;h3 id=&#34;データジャーナリズムにおけるグローバル最大規模のアワード&#34;&gt;データ・ジャーナリズムにおけるグローバル最大規模のアワード
@@ -7666,7 +7774,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>Focus&#43;Contextの実例</title>
         <link>http://localhost:1313/focus-context/</link>
-        <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Nov 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/focus-context/</guid>
         <description>&lt;img src="http://localhost:1313/focus-context/images/image-35.png" alt="Featured image of post Focus&#43;Contextの実例" /&gt;&lt;p&gt;情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。&lt;/p&gt;
@@ -7784,7 +7892,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>ビジュアル・アナリシスにおけるインタラクションの整理</title>
         <link>http://localhost:1313/visual-analytics-interaction/</link>
-        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/visual-analytics-interaction/</guid>
         <description>&lt;img src="http://localhost:1313/visual-analytics-interaction/images/thumb_ph_vizjp.png" alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" /&gt;&lt;p&gt;1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い&lt;strong&gt;Ben Shneidermanさん&lt;/strong&gt;と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した&lt;strong&gt;Jeff Heerさん&lt;/strong&gt;が二人で、&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;  title=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;
@@ -7947,7 +8055,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>情報可視化におけるインタラクション技術の分類法</title>
         <link>http://localhost:1313/infovis-interaction-taxonomy/</link>
-        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/infovis-interaction-taxonomy/</guid>
         <description>&lt;img src="http://localhost:1313/infovis-interaction-taxonomy/images/thumb_ph_vizjp.png" alt="Featured image of post 情報可視化におけるインタラクション技術の分類法" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/4376144&#34;  title=&#34;https://ieeexplore.ieee.org/document/4376144&#34;
@@ -8053,7 +8161,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
         <link>http://localhost:1313/d3-flexbox/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-flexbox/</guid>
         <description>&lt;img src="http://localhost:1313/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
@@ -8084,7 +8192,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>データ・ジャーナリズムにおけるデータ・ストーリー 四類型</title>
         <link>http://localhost:1313/data-story-4-types/</link>
-        <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 02 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-story-4-types/</guid>
         <description>&lt;img src="http://localhost:1313/data-story-4-types/images/NYT_SnowFall.png" alt="Featured image of post データ・ジャーナリズムにおけるデータ・ストーリー 四類型" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/&#34;  title=&#34;https://pudding.cool/&#34;
@@ -8314,7 +8422,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>コミュニケーションの媒介としてのデータ可視化</title>
         <link>http://localhost:1313/data-visualization-as-a-medium-for-communication/</link>
-        <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-visualization-as-a-medium-for-communication/</guid>
         <description>&lt;img src="http://localhost:1313/data-visualization-as-a-medium-for-communication/images/thumb_ph_vizjp.png" alt="Featured image of post コミュニケーションの媒介としてのデータ可視化" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jstage.jst.go.jp/article/jkg/70/8/70_413/_article/-char/ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -8613,7 +8721,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>Visual Vocabulary</title>
         <link>http://localhost:1313/visual-vocabulary/</link>
-        <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/visual-vocabulary/</guid>
         <description>&lt;img src="http://localhost:1313/visual-vocabulary/images/Visual-vocabulary-JP.png" alt="Featured image of post Visual Vocabulary" /&gt;&lt;p&gt;FTのAlan Smith氏が公開している、チャートの分類や種類を視覚的にまとめた一覧です。&lt;/p&gt;
@@ -8647,7 +8755,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>データ・タイプ別チャート分類</title>
         <link>http://localhost:1313/chart-catalogue-by-types/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-catalogue-by-types/</guid>
         <description>&lt;img src="http://localhost:1313/chart-catalogue-by-types/images/charts-by-types.png" alt="Featured image of post データ・タイプ別チャート分類" /&gt;&lt;p&gt;データ・タイプ別チャート分類です（後日追記します）。&lt;/p&gt;
@@ -8684,7 +8792,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>タスク別チャート分類</title>
         <link>http://localhost:1313/chart-catalogue-by-tasks/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-catalogue-by-tasks/</guid>
         <description>&lt;img src="http://localhost:1313/chart-catalogue-by-tasks/images/chart_chooser.jpg" alt="Featured image of post タスク別チャート分類" /&gt;&lt;p&gt;代表的な Visual Vocabulary を除いて、タスク別にチャート分類しているものをご紹介します。&lt;/p&gt;
@@ -8840,7 +8948,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>散布図行列</title>
         <link>http://localhost:1313/splom/</link>
-        <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/splom/</guid>
         <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列" /&gt;&lt;p&gt;（後日更新いたします）&lt;/p&gt;
@@ -8860,7 +8968,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>ツリーマップ（Treemap）</title>
         <link>http://localhost:1313/treemap/</link>
-        <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/treemap/</guid>
         <description>&lt;img src="http://localhost:1313/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
@@ -9053,7 +9161,7 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
         <item>
         <title>ナイチンゲールによる「鶏冠」チャート</title>
         <link>http://localhost:1313/nightingale-chart/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nightingale-chart/</guid>
         <description>&lt;img src="http://localhost:1313/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
@@ -9109,7 +9217,7 @@ report by Hugh Small
         <item>
         <title>ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図</title>
         <link>http://localhost:1313/reischauer-cartogram/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/reischauer-cartogram/</guid>
         <description>&lt;img src="http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
@@ -9188,7 +9296,7 @@ report by Hugh Small
         <item>
         <title>三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合</title>
         <link>http://localhost:1313/covid-symptom-upset/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/covid-symptom-upset/</guid>
         <description>&lt;img src="http://localhost:1313/covid-symptom-upset/images/EVn7qUfVAAAF-uY-scaled.jpeg" alt="Featured image of post 三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合" /&gt;&lt;p&gt;U.K.で利用されている、民間企業ZOEによる &lt;a class=&#34;link&#34; href=&#34;https://covid.joinzoe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -9273,7 +9381,7 @@ report by Hugh Small
         <item>
         <title>サンバースト（Sunburst）の事例</title>
         <link>http://localhost:1313/sunburst-example/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst-example/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
@@ -9389,7 +9497,7 @@ report by Hugh Small
         <item>
         <title>ディシメトリック・マップ（Dasymetric Map）</title>
         <link>http://localhost:1313/dasymetric-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dasymetric-map/</guid>
         <description>&lt;img src="http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448.png" alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）" /&gt;&lt;p&gt;コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。&lt;/p&gt;
@@ -9533,7 +9641,7 @@ report by Hugh Small
         <item>
         <title>ベクター・フィールド・マップ（Vector Field Map）</title>
         <link>http://localhost:1313/vector-field-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map/</guid>
         <description>&lt;img src="http://localhost:1313/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
@@ -9644,7 +9752,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>つららチャート（Icicle Chart）</title>
         <link>http://localhost:1313/icicle-chart/</link>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/icicle-chart/</guid>
         <description>&lt;img src="http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
@@ -9719,7 +9827,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>コロプレス・マップ（Choropleth Map）</title>
         <link>http://localhost:1313/choropleth-map/</link>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/choropleth-map/</guid>
         <description>&lt;img src="http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
@@ -9830,7 +9938,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
         <link>http://localhost:1313/beeswarm-example/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/beeswarm-example/</guid>
         <description>&lt;img src="http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" /&gt;&lt;p&gt;「ビースウォーム・プロット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -9911,7 +10019,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
         <link>http://localhost:1313/dot-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
@@ -10010,7 +10118,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット密度マップ（Dot Density Map）</title>
         <link>http://localhost:1313/dot-density-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
@@ -10073,7 +10181,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>等級シンボル・マップ(Graduated Symbol Map)</title>
         <link>http://localhost:1313/graduated-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/graduated-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png" alt="Featured image of post 等級シンボル・マップ(Graduated Symbol Map)" /&gt;&lt;p&gt;離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。&lt;/p&gt;
@@ -10104,7 +10212,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>統計記号マップ（Statistical Symbol Map）</title>
         <link>http://localhost:1313/statistical-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/statistical-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png" alt="Featured image of post 統計記号マップ（Statistical Symbol Map）" /&gt;&lt;p&gt;統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。&lt;/p&gt;
@@ -10267,7 +10375,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>比例シンボル・マップ(Proportional Symbol Map)</title>
         <link>http://localhost:1313/proportional-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/proportional-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
@@ -10322,7 +10430,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）</title>
         <link>http://localhost:1313/word-clouds-bubbles/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/word-clouds-bubbles/</guid>
         <description>&lt;img src="http://localhost:1313/word-clouds-bubbles/images/State-of-the-Union-2.png" alt="Featured image of post ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）" /&gt;&lt;p&gt;ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。起源は、1990年代後半にウェブサイトで一般的に使用されていたタグクラウドにあります。&lt;/p&gt;
@@ -10467,7 +10575,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>オイラー図とベン図（Euler Diagram &amp; Venn Diagram）</title>
         <link>http://localhost:1313/euler-venn-diagram/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/euler-venn-diagram/</guid>
         <description>&lt;img src="http://localhost:1313/euler-venn-diagram/images/93480617_10157150544363201_5537643846042648576_n.jpg" alt="Featured image of post オイラー図とベン図（Euler Diagram &amp; Venn Diagram）" /&gt;&lt;p&gt;ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。&lt;/p&gt;
@@ -10633,7 +10741,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>スロープグラフ（Slopegraph）</title>
         <link>http://localhost:1313/slopegraph/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/slopegraph/</guid>
         <description>&lt;img src="http://localhost:1313/slopegraph/images/infant_mortality.gif" alt="Featured image of post スロープグラフ（Slopegraph）" /&gt;&lt;p&gt;スロープグラフとは、異なるカテゴリーデータについて、定量値が2つの時点でどのように変化したかを示す、簡略化された折れ線グラフです。その結果、折れ線ではなく直線のみで構成されるため、通常の折れ線グラフよりも読みやすく、多くの系列が乱雑にならずに済みます。二軸はそれぞれ共通の値範囲を持ちます。&lt;/p&gt;
@@ -10734,7 +10842,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>バンプ・チャート（Bump Chart）の事例</title>
         <link>http://localhost:1313/bump-chart-example/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bump-chart-example/</guid>
         <description>&lt;img src="http://localhost:1313/bump-chart-example/images/Dogchangev4.jpeg" alt="Featured image of post バンプ・チャート（Bump Chart）の事例" /&gt;&lt;p&gt;「バンプ・チャート」が利用されている事例を紹介します。&lt;/p&gt;
@@ -10884,7 +10992,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>モザイク・プロット（Mosaic Plot）の事例</title>
         <link>http://localhost:1313/mosaic-plot-example/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot-example/</guid>
         <description>&lt;img src="http://localhost:1313/mosaic-plot-example/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）の事例" /&gt;&lt;p&gt;「モザイク・プロット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -10997,7 +11105,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>沖積図（Alluvial Diagrams）</title>
         <link>http://localhost:1313/alluvial-diagrams/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/alluvial-diagrams/</guid>
         <description>&lt;img src="http://localhost:1313/alluvial-diagrams/images/image-24.png" alt="Featured image of post 沖積図（Alluvial Diagrams）" /&gt;&lt;p&gt;沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。&lt;/p&gt;
@@ -11055,7 +11163,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>サンキー・ダイアグラム（Sankey Diagram）</title>
         <link>http://localhost:1313/sankey-diagram/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sankey-diagram/</guid>
         <description>&lt;img src="http://localhost:1313/sankey-diagram/images/image-13.png" alt="Featured image of post サンキー・ダイアグラム（Sankey Diagram）" /&gt;&lt;p&gt;Mario Schmidt の調査によると、19世紀後半当時、新興工業国の技術者たちは、蒸気機関をさらに改良し、それぞれの用途に最適化するために、科学的手法を応用しようとしていました。蒸気機関の熱効率を分析するために、アイルランドのエンジニアRiall Sankeyによって、1898年に開発されました。&lt;/p&gt;
@@ -11403,7 +11511,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
         <item>
         <title>パラレル・セットの利用例紹介</title>
         <link>http://localhost:1313/parallel-sets-example/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-sets-example/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-sets-example/images/image-15.png" alt="Featured image of post パラレル・セットの利用例紹介" /&gt;&lt;p&gt;「パラレル・セット」が利用されている事例を紹介します。&lt;/p&gt;
@@ -11550,7 +11658,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>フィネオ（Fineo）</title>
         <link>http://localhost:1313/fineo/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/fineo/</guid>
         <description>&lt;img src="http://localhost:1313/fineo/images/5950577682_6066025bc0_o.jpg" alt="Featured image of post フィネオ（Fineo）" /&gt;&lt;p&gt;Fineoは、連続データを可視化するために利用されるサンキー・ダイアグラムの視覚モデルを元に、多次元のカテゴリカルなデータの、ディメンション間の関係を表現するために使うことができるのではないかという考えから生まれました。&lt;/p&gt;
@@ -11695,7 +11803,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒</title>
         <link>http://localhost:1313/color-name-appearance/</link>
-        <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/color-name-appearance/</guid>
         <description>&lt;img src="http://localhost:1313/color-name-appearance/images/c736840e7ae1809abbe9ed7a2915627e.png" alt="Featured image of post 多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒" /&gt;&lt;p&gt;人類学者のBrent BerlinとPaul Kayさんの研究成果 (&lt;a class=&#34;link&#34; href=&#34;https://dl.ndl.go.jp/info:ndljp/pid/11073854&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -11763,7 +11871,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>色の変化、その物理的事実と心理的効果の違い</title>
         <link>http://localhost:1313/interaction-of-color-weber-fechner-kaw/</link>
-        <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 21 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/interaction-of-color-weber-fechner-kaw/</guid>
         <description>&lt;img src="http://localhost:1313/interaction-of-color-weber-fechner-kaw/images/Weber-Fechner-law_all_1.jpg" alt="Featured image of post 色の変化、その物理的事実と心理的効果の違い" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/3eL1qZt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -11851,7 +11959,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>データ可視化への批評への批評への批評</title>
         <link>http://localhost:1313/critique-of-the-critique/</link>
-        <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/critique-of-the-critique/</guid>
         <description>&lt;img src="http://localhost:1313/critique-of-the-critique/images/coronavirus_georgia.png" alt="Featured image of post データ可視化への批評への批評への批評" /&gt;&lt;p&gt;数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。&lt;/p&gt;
@@ -11915,7 +12023,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>コロナ禍による凡例の破綻</title>
         <link>http://localhost:1313/corona-finviz-map/</link>
-        <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/corona-finviz-map/</guid>
         <description>&lt;img src="http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
@@ -11970,7 +12078,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>12匹のデータ・ザウルス</title>
         <link>http://localhost:1313/the-datasaurus-dozen/</link>
-        <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 11 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/the-datasaurus-dozen/</guid>
         <description>&lt;img src="http://localhost:1313/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;
@@ -12034,7 +12142,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>「パラレル・コーディネイト」(Parallel Coordinates)</title>
         <link>http://localhost:1313/parallel-coordinates/</link>
-        <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-coordinates/</guid>
         <description>&lt;img src="http://localhost:1313/parallel-coordinates/images/1_3-NrFUaSTYJHquNYv0P6Ag.jpeg" alt="Featured image of post 「パラレル・コーディネイト」(Parallel Coordinates)" /&gt;&lt;h2 id=&#34;どんなチャート&#34;&gt;どんなチャート？
@@ -12305,7 +12413,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>ストリームグラフ（Streamgraph）</title>
         <link>http://localhost:1313/streamgraph/</link>
-        <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/streamgraph/</guid>
         <description>&lt;img src="http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png" alt="Featured image of post ストリームグラフ（Streamgraph）" /&gt;&lt;h2 id=&#34;別名&#34;&gt;別名
@@ -12449,7 +12557,7 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
         <item>
         <title>Small Multiplesとは何か？</title>
         <link>http://localhost:1313/small-multiples/</link>
-        <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/small-multiples/</guid>
         <description>&lt;img src="http://localhost:1313/small-multiples/images/03892018723903.5634a9e2d28bf.jpg" alt="Featured image of post Small Multiplesとは何か？" /&gt;&lt;p&gt;チャートのスタイルではなく、ビューのあり方の一つです。&lt;/p&gt;
@@ -12625,7 +12733,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>チャート・マップ（Chart Map）とは？</title>
         <link>http://localhost:1313/chart-map/</link>
-        <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 04 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map/images/1_bUT8E8oOLmX_my3TTFhHfA.png" alt="Featured image of post チャート・マップ（Chart Map）とは？" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
@@ -12814,7 +12922,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>残された我々のための「データ・ヒューマニティ」</title>
         <link>http://localhost:1313/data-humanity/</link>
-        <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-humanity/</guid>
         <description>&lt;img src="http://localhost:1313/data-humanity/images/dvj2019_yazaki.png" alt="Featured image of post 残された我々のための「データ・ヒューマニティ」" /&gt;&lt;p&gt;2019年12月に開催したイベント「&lt;a class=&#34;link&#34; href=&#34;https://data-visualization-japan.connpass.com/event/160042/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -12824,7 +12932,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>発信者主体の情報可視化作品作りにおけるスケッチの行い方考察</title>
         <link>http://localhost:1313/sender-oriented-vis/</link>
-        <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sender-oriented-vis/</guid>
         <description>&lt;img src="http://localhost:1313/sender-oriented-vis/images/md_yuichiyazaki.png" alt="Featured image of post 発信者主体の情報可視化作品作りにおけるスケッチの行い方考察" /&gt;&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;8db4aa5744e644d6b4276cfd40d2cf31&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
@@ -12834,7 +12942,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>世界の行政機関 情報可視化 事例</title>
         <link>http://localhost:1313/world-gov-infoviz-report/</link>
-        <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 24 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/world-gov-infoviz-report/</guid>
         <description>&lt;img src="http://localhost:1313/world-gov-infoviz-report/images/gov_viz.png" alt="Featured image of post 世界の行政機関 情報可視化 事例" /&gt;&lt;p&gt;内閣府委託事業の一部として、2019年10月ごろに筆者が実施したリサーチレポートです。一般公開の許可をいただけましたので共有します。何かしらお役に立ちましたら幸いです。&lt;/p&gt;
@@ -12853,7 +12961,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>はじめてテレビで放映された火星の写真は、データ可視化作品だった話</title>
         <link>http://localhost:1313/first-mars-on-tv-dataviz/</link>
-        <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/first-mars-on-tv-dataviz/</guid>
         <description>&lt;img src="http://localhost:1313/first-mars-on-tv-dataviz/images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg" alt="Featured image of post はじめてテレビで放映された火星の写真は、データ可視化作品だった話" /&gt;&lt;p&gt;テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。初めてわかる事実も多いので、これを元に紹介します。&lt;/p&gt;
@@ -12914,7 +13022,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>美大生に聞く、今気になるデータ可視化／インフォグラフィック作品</title>
         <link>http://localhost:1313/recent-interest-art-school-2020/</link>
-        <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/recent-interest-art-school-2020/</guid>
         <description>&lt;img src="http://localhost:1313/recent-interest-art-school-2020/images/3minutesCalorieMate.png" alt="Featured image of post 美大生に聞く、今気になるデータ可視化／インフォグラフィック作品" /&gt;&lt;p&gt;筆者が非常勤で半期受け持っている、多摩美術大学 情報デザイン学科 メディアデザイン三年生に聞いた「よかったデータ可視化／インフォグラフィック作品」をリストしました。従来のインフォグラフィックから、最近流行りのBar Chart Raceまで。まだ観たことないものがあれば、ぜひ楽しんでください。&lt;/p&gt;
@@ -13075,7 +13183,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程</title>
         <link>http://localhost:1313/wp-corona-simulation/</link>
-        <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/wp-corona-simulation/</guid>
         <description>&lt;img src="http://localhost:1313/wp-corona-simulation/images/corona-simulation.png" alt="Featured image of post ワシントン・ポストによる「曲線を平らにする」ための啓蒙記事の制作過程" /&gt;&lt;p&gt;日本でも大いに話題になった&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/graphics/2020/health/corona-simulation-japanese/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -13166,7 +13274,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー</title>
         <link>http://localhost:1313/simon-rogers-workflow/</link>
-        <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 26 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/simon-rogers-workflow/</guid>
         <description>&lt;img src="http://localhost:1313/simon-rogers-workflow/images/guardian-data-workflow-001.jpg" alt="Featured image of post サイモン・ロジャースの提唱するデータジャーナリズム・ワークフロー" /&gt;&lt;p&gt;データジャーナリズムにおける第一人者であるサイモン・ロジャースが提唱しているワークフローを紹介します。明確なステップに分かれていないため、筆者による意訳が含まれています。&lt;/p&gt;
@@ -13195,7 +13303,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」</title>
         <link>http://localhost:1313/katy-boerner-workflow/</link>
-        <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 22 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/katy-boerner-workflow/</guid>
         <description>&lt;img src="http://localhost:1313/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
@@ -13211,7 +13319,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>人が言葉を覚えるとき</title>
         <link>http://localhost:1313/ted-birth-of-word/</link>
-        <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 20 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/ted-birth-of-word/</guid>
         <description>&lt;img src="http://localhost:1313/ted-birth-of-word/images/The-birth-of-a-word_2.png" alt="Featured image of post 人が言葉を覚えるとき" /&gt;&lt;p&gt;MITの研究者デブ・ロイさんが研究として、人が生まれてから、言語を獲得していく様子をすべて動画として記録し、あとで分析できたらどんなことがわかるか。&lt;/p&gt;
@@ -13275,7 +13383,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>全飛行機の飛行情報からスパイ機を特定したBuzzFeedのデータジャーナリズム</title>
         <link>http://localhost:1313/buzzfeed-spyfly/</link>
-        <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 20 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/buzzfeed-spyfly/</guid>
         <description>&lt;img src="http://localhost:1313/buzzfeed-spyfly/images/BuzzFeed_SpyFly.png" alt="Featured image of post 全飛行機の飛行情報からスパイ機を特定したBuzzFeedのデータジャーナリズム" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -13347,7 +13455,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>311の際の世界からの応援ツイート</title>
         <link>http://localhost:1313/twitter-global-pulse/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/twitter-global-pulse/</guid>
         <description>&lt;img src="http://localhost:1313/twitter-global-pulse/images/5884626815_d851598b9a_c.jpg" alt="Featured image of post 311の際の世界からの応援ツイート" /&gt;&lt;p&gt;311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。&lt;/p&gt;
@@ -13378,7 +13486,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>AirBnBが開発したOSSのB.I.ツール、Superset</title>
         <link>http://localhost:1313/airbnb-superset/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/airbnb-superset/</guid>
         <description>&lt;img src="http://localhost:1313/airbnb-superset/images/bank_dash.png" alt="Featured image of post AirBnBが開発したOSSのB.I.ツール、Superset" /&gt;&lt;p&gt;AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。&lt;/p&gt;
@@ -13411,7 +13519,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>Facebookで友達のつながりを可視化</title>
         <link>http://localhost:1313/friendship-facebook/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/friendship-facebook/</guid>
         <description>&lt;img src="http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;
@@ -13438,7 +13546,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>パナマ文書におけるデータの構造化</title>
         <link>http://localhost:1313/panama-papers-wrangling/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/panama-papers-wrangling/</guid>
         <description>&lt;img src="http://localhost:1313/panama-papers-wrangling/images/160403-overview-01-2-1280x640.jpg" alt="Featured image of post パナマ文書におけるデータの構造化" /&gt;&lt;p&gt;数年前、モサック・フォンセカというパナマの法律事務所から大量の機密文書が流出しました。タックスヘイブンなどでの企業設立支援を扱う法律事務所として有名だったことから調査報道に値するのではないかと「国際調査報道ジャーナリスト連合」（ICIJ）が流出文書を元に調査を主導、データのラングリングを行い、世界中100の報道機関の記者とコラボレーションを行いました。いわゆる「&lt;a class=&#34;link&#34; href=&#34;https://www.icij.org/investigations/panama-papers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -13479,7 +13587,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>Uber H3</title>
         <link>http://localhost:1313/uber-h3/</link>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/uber-h3/</guid>
         <description>&lt;img src="http://localhost:1313/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
@@ -13541,7 +13649,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>東京都公式と厚労省公式で異なる、東京都での COVID-19 死亡者数</title>
         <link>http://localhost:1313/covid19tokyo/</link>
-        <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 21 Apr 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/covid19tokyo/</guid>
         <description>&lt;img src="http://localhost:1313/covid19tokyo/images/covid19tokyo_200420.png" alt="Featured image of post 東京都公式と厚労省公式で異なる、東京都での COVID-19 死亡者数" /&gt;&lt;p&gt;このページでは、Yahoo!ニュース個人での記事のフォローアップ記事として、データをアップデートしたチャートを掲載しています。週一度程度で更新していますのであらかじめご承知おきください。&lt;/p&gt;
@@ -13568,7 +13676,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>タマラさんによるタスクの定義（ターゲット）</title>
         <link>http://localhost:1313/tamar-targets/</link>
-        <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 26 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-targets/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-targets/images/tamar-targets-alldata.png" alt="Featured image of post タマラさんによるタスクの定義（ターゲット）" /&gt;&lt;p&gt;タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。ターゲットについて個別に図として独立させ、翻訳したものをご紹介します。&lt;/p&gt;
@@ -13616,7 +13724,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>緊急の管理措置なしには、北米でコロナウイルスの圧倒的な広がりが起こってしまう、とNew York Times紙</title>
         <link>http://localhost:1313/nyt-corona-200320/</link>
-        <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 21 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nyt-corona-200320/</guid>
         <description>&lt;img src="http://localhost:1313/nyt-corona-200320/images/nyt_colona_1.png" alt="Featured image of post 緊急の管理措置なしには、北米でコロナウイルスの圧倒的な広がりが起こってしまう、とNew York Times紙" /&gt;&lt;p&gt;北米においてもコロナウイルスが広がりをみせています。&lt;/p&gt;
@@ -13686,7 +13794,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>タマラさんによるタスクの定義（アクション）</title>
         <link>http://localhost:1313/tamar-action/</link>
-        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-action/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-action/images/fig3-1-action-analytics-consume-1.png" alt="Featured image of post タマラさんによるタスクの定義（アクション）" /&gt;&lt;p&gt;タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。&lt;/p&gt;
@@ -13750,7 +13858,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>デスクトップ版からモバイル版を作成する際に、どこを変更する？</title>
         <link>http://localhost:1313/desktop2mobile/</link>
-        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/desktop2mobile/</guid>
         <description>&lt;img src="http://localhost:1313/desktop2mobile/images/Techniques-for-Flexible-Responsive.png" alt="Featured image of post デスクトップ版からモバイル版を作成する際に、どこを変更する？" /&gt;&lt;p&gt;ワシントン大学の可視化の研究室とAdobe Reseachで共同研究した論文で、インタラクティブなチャートを利用していて、かつレスポンシブ対応（デバイスの解像度に自動的にフィットするような対応）している記事コンテンツを調査し、実際のところ、チャートのどの部分をどのように変更しているのか？代表的な12メディアの231コンテンツを調べたものがありましたので、引用しご紹介します。&lt;/p&gt;
@@ -13805,7 +13913,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>なぜ可視化を行うのか？そのアクションとターゲット</title>
         <link>http://localhost:1313/task-abstraction-tamar/</link>
-        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/task-abstraction-tamar/</guid>
         <description>&lt;img src="http://localhost:1313/task-abstraction-tamar/images/fig3.1_ja.png" alt="Featured image of post なぜ可視化を行うのか？そのアクションとターゲット" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/task-abstraction-tamar/images/fig3.1_ja.png&#34;
@@ -13831,7 +13939,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>GeoJsonとは</title>
         <link>http://localhost:1313/geojson/</link>
-        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 12 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/geojson/</guid>
         <description>&lt;img src="http://localhost:1313/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
@@ -13918,7 +14026,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データ-インク比</title>
         <link>http://localhost:1313/data-ink-ratio/</link>
-        <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-ink-ratio/</guid>
         <description>&lt;img src="http://localhost:1313/data-ink-ratio/images/DataInkRatio_Playfair_generated.png" alt="Featured image of post データ-インク比" /&gt;&lt;p&gt;データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。&lt;/p&gt;
@@ -14064,7 +14172,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データスケール（Data Scale）</title>
         <link>http://localhost:1313/data-scale/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-scale/</guid>
         <description>&lt;img src="http://localhost:1313/data-scale/images/1_aHohRnwe6dmiqzsiRYEpug.png" alt="Featured image of post データスケール（Data Scale）" /&gt;&lt;p&gt;データの分類方法は色々あります。&lt;/p&gt;
@@ -14149,7 +14257,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>スティーヴンスのべき法則(Stevens’ power law)</title>
         <link>http://localhost:1313/stevens-power-law/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/stevens-power-law/</guid>
         <description>&lt;img src="http://localhost:1313/stevens-power-law/images/1_Y5WnsJQi9dPl2C-9LMtCpg.png" alt="Featured image of post スティーヴンスのべき法則(Stevens’ power law)" /&gt;&lt;p&gt;1975年に発表された論文で、スタンレー・スミス・スティーブンス(Stanley Smith Stevens)は、「物理的刺激の大きさ」と「その知覚される強度」との間の関係は、べき乗関数に従うことを示しました。&lt;/p&gt;
@@ -14187,7 +14295,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>QGISにおける階級分類</title>
         <link>http://localhost:1313/qgis-classification/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-classification/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
@@ -14215,7 +14323,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>地図の階級分類におけるJenksって？</title>
         <link>http://localhost:1313/classification-jenks/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/classification-jenks/</guid>
         <description>&lt;img src="http://localhost:1313/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
@@ -14251,7 +14359,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
         <link>http://localhost:1313/qgis-processing/</link>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-processing/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
@@ -14277,7 +14385,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>EPSGコード</title>
         <link>http://localhost:1313/epsg-code/</link>
-        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/epsg-code/</guid>
         <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
@@ -14316,7 +14424,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
         <link>http://localhost:1313/thesevencs/</link>
-        <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/thesevencs/</guid>
         <description>&lt;img src="http://localhost:1313/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
@@ -14357,7 +14465,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する</title>
         <link>http://localhost:1313/tamar-4levels/</link>
-        <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 12 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-4levels/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-4levels/images/fig4.2_ja-1.png" alt="Featured image of post ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する" /&gt;&lt;p&gt;データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割することで、異なる懸念事項を個別に解決できる分析フレームワークを提供する」という意図で、Tamara Munznerさんが提示しているフレームワークをご紹介します。&lt;/p&gt;
@@ -14410,7 +14518,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>科学可視化と情報可視化</title>
         <link>http://localhost:1313/scientific-and-information/</link>
-        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/scientific-and-information/</guid>
         <description>&lt;img src="http://localhost:1313/scientific-and-information/images/science_information.png" alt="Featured image of post 科学可視化と情報可視化" /&gt;&lt;p&gt;可視化を科学可視化と情報可視化に分類する考え方があります。&lt;/p&gt;
@@ -14443,7 +14551,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>Open Refine - GREL日付関数 パターン文字一覧</title>
         <link>http://localhost:1313/open-refine-grel-date/</link>
-        <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 23 Nov 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/open-refine-grel-date/</guid>
         <description>&lt;img src="http://localhost:1313/open-refine-grel-date/images/image_3hours_refine.png" alt="Featured image of post Open Refine - GREL日付関数 パターン文字一覧" /&gt;&lt;p&gt;Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。適宜ご活用ください。&lt;/p&gt;
@@ -14606,7 +14714,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）</title>
         <link>http://localhost:1313/storytelling-edwardsiegel/</link>
-        <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 28 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/storytelling-edwardsiegel/</guid>
         <description>&lt;img src="http://localhost:1313/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png" alt="Featured image of post データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）" /&gt;&lt;p&gt;データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。そして、様々な切り口が登場しながらもそれらの関連付けがやや複雑かつ曖昧ですので、分類の枠組みとして参考にする程度がよいでしょう。引用する図版はすべて下記リンク先の論文からのものです。&lt;/p&gt;
@@ -14730,7 +14838,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>ハリケーン・マリアは人災だった。Quartz、AP通信、CPIによるコラボレーティブ・ジャーナリズム</title>
         <link>http://localhost:1313/hurricane-maria/</link>
-        <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/hurricane-maria/</guid>
         <description>&lt;img src="http://localhost:1313/hurricane-maria/images/hurricanemariasdead.png" alt="Featured image of post ハリケーン・マリアは人災だった。Quartz、AP通信、CPIによるコラボレーティブ・ジャーナリズム" /&gt;&lt;p&gt;※このページは随時更新されます。&lt;/p&gt;
@@ -14781,7 +14889,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>調査報道のためのファイル探索アプリDatashare</title>
         <link>http://localhost:1313/datashare/</link>
-        <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/datashare/</guid>
         <description>&lt;img src="http://localhost:1313/datashare/images/Datashare-topimage.png" alt="Featured image of post 調査報道のためのファイル探索アプリDatashare" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://datashare.icij.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -14845,7 +14953,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>考えすぎ? ハンドメイドの過剰なチャートたち</title>
         <link>http://localhost:1313/overthinking-this/</link>
-        <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 11 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/overthinking-this/</guid>
         <description>&lt;img src="http://localhost:1313/overthinking-this/images/EB3B25MVUAAOXDE.jpeg" alt="Featured image of post 考えすぎ? ハンドメイドの過剰なチャートたち" /&gt;&lt;p&gt;元バズフィードニュースデザイナーだったMichelle Rialさんのかわいらしい絵本です。毎日の生活でグルグル思い悩んでいることを時に過剰に、時にモノからテーマを発想してチャート作品作りをしています。いくつかご紹介します。&lt;/p&gt;
@@ -14966,7 +15074,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介</title>
         <link>http://localhost:1313/transcriber/</link>
-        <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/transcriber/</guid>
         <description>&lt;img src="http://localhost:1313/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
@@ -15074,7 +15182,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>ツイートから価値を発見する6の方法【Streamgraph】</title>
         <link>http://localhost:1313/hbr-vision-statement/</link>
-        <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/hbr-vision-statement/</guid>
         <description>&lt;img src="http://localhost:1313/hbr-vision-statement/images/F1006Z_A_lg.gif" alt="Featured image of post ツイートから価値を発見する6の方法【Streamgraph】" /&gt;&lt;p&gt;ツイートにはノイズが多いけども、消費者動向を探ることのできる無料データとみなしてもっと活用できるんじゃないかということで、チャートを使って具体的に示した事例を紹介します。&lt;/p&gt;
@@ -15103,7 +15211,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」</title>
         <link>http://localhost:1313/judgit-overview/</link>
-        <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 25 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/judgit-overview/</guid>
         <description>&lt;img src="http://localhost:1313/judgit-overview/images/fi_JudgitOverview.png" alt="Featured image of post 国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20190815-00138538/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -15294,7 +15402,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>「データ可視化」の指す、三種類の行為</title>
         <link>http://localhost:1313/viz-for-whom/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/viz-for-whom/</guid>
         <description>&lt;img src="http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png" alt="Featured image of post 「データ可視化」の指す、三種類の行為" /&gt;&lt;p&gt;「データ可視化」という言葉を使うとき、何だかふわっとしてるなと感じませんか？&lt;/p&gt;
@@ -15348,7 +15456,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】</title>
         <link>http://localhost:1313/vcs-liveserver/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vcs-liveserver/</guid>
         <description>&lt;img src="http://localhost:1313/vcs-liveserver/images/fi_VcsLiveServer.png" alt="Featured image of post 【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】" /&gt;&lt;p&gt;ローカル環境で簡易サーバを手軽に起動できる方法の一つとして、テキストエディタを使った例を紹介します。&lt;/p&gt;
@@ -15429,7 +15537,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>Tabula Windows版のインストールがうまくいかない方へ</title>
         <link>http://localhost:1313/tabula-windows-install/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tabula-windows-install/</guid>
         <description>&lt;img src="http://localhost:1313/tabula-windows-install/images/fi_TabulaWindows.png" alt="Featured image of post Tabula Windows版のインストールがうまくいかない方へ" /&gt;&lt;p&gt;PDFに含まれている表をテキストデータとして抜き出すことのできるTabulaというアプリケーションがあります。&lt;/p&gt;
@@ -15483,7 +15591,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データ可視化は相手の腹に落ちて価値が出る</title>
         <link>http://localhost:1313/nikkeibd-201404/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nikkeibd-201404/</guid>
         <description>&lt;img src="http://localhost:1313/nikkeibd-201404/images/thumb_ph_vizjp.png" alt="Featured image of post データ可視化は相手の腹に落ちて価値が出る" /&gt;&lt;p&gt;※日経ビッグデータ2014年4月号掲載記事の転載です。&lt;/p&gt;
@@ -15516,7 +15624,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>記事一覧</title>
         <link>http://localhost:1313/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/archives/</guid>
         <description></description>
@@ -15524,7 +15632,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データ可視化にとって最適なカラースペースは？</title>
         <link>http://localhost:1313/color-space/</link>
-        <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 23 Jun 2018 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/color-space/</guid>
         <description>&lt;img src="http://localhost:1313/color-space/images/fi_ColorSpace.png" alt="Featured image of post データ可視化にとって最適なカラースペースは？" /&gt;&lt;p&gt;データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。&lt;/p&gt;
@@ -15666,7 +15774,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>データビジュアライゼーションを学ぶ意義</title>
         <link>http://localhost:1313/meaning/</link>
-        <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 18 May 2018 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/meaning/</guid>
         <description>&lt;img src="http://localhost:1313/meaning/images/thumb_ph_vizjp.png" alt="Featured image of post データビジュアライゼーションを学ぶ意義" /&gt;&lt;p&gt;オープンデータ、ビッグデータというキーワードがここ数年普及してきており、活用する機運が高まっています。本格的なデータ分析までは必要ないもののデータを活用したい、という需要があるが、何をどう学んだらいいかわからない、という声をよく聞きます。&lt;/p&gt;
@@ -15679,7 +15787,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>社会課題を可視化する「データ・ビジュアライゼーション」とは</title>
         <link>http://localhost:1313/what-is-dataviz/</link>
-        <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 05 Aug 2017 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/what-is-dataviz/</guid>
         <description>&lt;img src="http://localhost:1313/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -15709,7 +15817,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>「最も美しい」や「最も楽しい」道順を提案する研究</title>
         <link>http://localhost:1313/most-beauty-route/</link>
-        <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 20 Jul 2016 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/most-beauty-route/</guid>
         <description>&lt;img src="http://localhost:1313/most-beauty-route/images/fi_MostBeautyRoute-1.png" alt="Featured image of post 「最も美しい」や「最も楽しい」道順を提案する研究" /&gt;&lt;p&gt;「A地点からB地点まで」。いわゆるナビゲーションシステムによるルート案内を、感性に訴えるものにしようという提案をした研究者がいます。彼の話を聞いてみましょう。&lt;/p&gt;
@@ -15772,7 +15880,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</title>
         <link>http://localhost:1313/ndl-dataviz/</link>
-        <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 13 Jul 2016 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/ndl-dataviz/</guid>
         <description>&lt;img src="http://localhost:1313/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
@@ -15951,7 +16059,7 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
         <item>
         <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
         <link>http://localhost:1313/responsive-d3/</link>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/responsive-d3/</guid>
         <description>&lt;img src="http://localhost:1313/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
@@ -16027,7 +16135,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>D3.jsを使ったreusableな実装</title>
         <link>http://localhost:1313/d3js-reusable/</link>
-        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3js-reusable/</guid>
         <description>&lt;img src="http://localhost:1313/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
@@ -16131,7 +16239,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>Natural Earth配布ファイルの国境について</title>
         <link>http://localhost:1313/natural-earth-border-issue/</link>
-        <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Nov 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/natural-earth-border-issue/</guid>
         <description>&lt;img src="http://localhost:1313/natural-earth-border-issue/images/fi_NaturalEarth.png" alt="Featured image of post Natural Earth配布ファイルの国境について" /&gt;&lt;p&gt;Natural Earthというサイトで、パブリックドメイン扱いで地図データを配布しています。&lt;br&gt;
@@ -16147,7 +16255,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>[OpenVis Conf 2014] John Resig講演</title>
         <link>http://localhost:1313/openvisconf-2014-johnresig/</link>
-        <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Jul 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openvisconf-2014-johnresig/</guid>
         <description>&lt;img src="http://localhost:1313/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
@@ -16533,7 +16641,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
         <link>http://localhost:1313/shapefile-to-topojson/</link>
-        <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/shapefile-to-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
@@ -16771,7 +16879,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>d3.unconfレポート[後篇]</title>
         <link>http://localhost:1313/d3-unconf-2014-2/</link>
-        <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 20 Apr 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-unconf-2014-2/</guid>
         <description>&lt;img src="http://localhost:1313/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
@@ -16992,7 +17100,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>d3.unconfレポート[前篇]</title>
         <link>http://localhost:1313/d3-unconf-2014-1/</link>
-        <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 11 Apr 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-unconf-2014-1/</guid>
         <description>&lt;img src="http://localhost:1313/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -17113,7 +17221,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>ビジュアライズにおける正規化</title>
         <link>http://localhost:1313/normalize-visualize/</link>
-        <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 24 Mar 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/normalize-visualize/</guid>
         <description>&lt;img src="http://localhost:1313/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
@@ -17180,7 +17288,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>すべてを明け渡すことではじめて完成する、茶道としてのオープンソース</title>
         <link>http://localhost:1313/how-to-give-everything-away/</link>
-        <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 14 Jan 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/how-to-give-everything-away/</guid>
         <description>&lt;img src="http://localhost:1313/how-to-give-everything-away/images/thumb_ph_vizjp.png" alt="Featured image of post すべてを明け渡すことではじめて完成する、茶道としてのオープンソース" /&gt;&lt;p&gt;去年（2013年）クラスカで行われたFITC Tokyoに参加してきて、最も印象深かった話の一つが、Kyle McDonaldの &amp;lsquo;How to Give Everything Away&amp;rsquo;（あらゆるものを公開する方法）という話でしたので、ご紹介させてください。&lt;/p&gt;
@@ -17250,7 +17358,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>data.go.jp開設</title>
         <link>http://localhost:1313/data-go-jp/</link>
-        <pubDate>Mon, 30 Dec 2013 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 30 Dec 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-go-jp/</guid>
         <description>&lt;img src="http://localhost:1313/data-go-jp/images/fi_DataGoJp.png" alt="Featured image of post data.go.jp開設" /&gt;&lt;p&gt;2013年12月20日、「データカタログサイト試行版」として、data.go.jpが開設されました。&lt;br&gt;
@@ -17307,7 +17415,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>Linked Data</title>
         <link>http://localhost:1313/linked-data/</link>
-        <pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 08 Nov 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/linked-data/</guid>
         <description>&lt;img src="http://localhost:1313/linked-data/images/fi_LinkedData.png" alt="Featured image of post Linked Data" /&gt;&lt;p&gt;Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。&lt;/p&gt;
@@ -17332,7 +17440,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
         <link>http://localhost:1313/openvisconf2013-miguel/</link>
-        <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 05 Nov 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openvisconf2013-miguel/</guid>
         <description>&lt;img src="http://localhost:1313/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;
@@ -17441,7 +17549,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>カントリー・コード</title>
         <link>http://localhost:1313/country-codes/</link>
-        <pubDate>Sun, 27 Oct 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 27 Oct 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/country-codes/</guid>
         <description>&lt;img src="http://localhost:1313/country-codes/images/fi_CountryCode.png" alt="Featured image of post カントリー・コード" /&gt;&lt;p&gt;世界各国のデータをビジュアライズする場合、国をIDで管理すると複数データの連携が取れ、便利です。&lt;/p&gt;
@@ -17468,7 +17576,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>どのチャートを使うべきか</title>
         <link>http://localhost:1313/chart-suggestions/</link>
-        <pubDate>Sat, 26 Oct 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 26 Oct 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-suggestions/</guid>
         <description>&lt;img src="http://localhost:1313/chart-suggestions/images/chartSuggestions-1.png" alt="Featured image of post どのチャートを使うべきか" /&gt;&lt;p&gt;20年以上シニア・エグゼクティブたちにプレゼンテーションのコーチングやティーチングをしてきているDr.Abela氏が、“Extreme Presentation method”というプレゼンテーションのためのメソッドを公開し本としても出版もしているのですが、その中で、チャートについてのチャートがとてもわかりやすいのでご紹介します。&lt;/p&gt;
@@ -17494,7 +17602,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>D3: データ形式</title>
         <link>http://localhost:1313/d3-requests/</link>
-        <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 22 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-requests/</guid>
         <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
@@ -17535,7 +17643,7 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         <item>
         <title>D3: TopoJSON</title>
         <link>http://localhost:1313/d3-topojson/</link>
-        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
@@ -17664,7 +17772,7 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         <item>
         <title>このサイトについて</title>
         <link>http://localhost:1313/about/</link>
-        <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 19 Jun 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/about/</guid>
         <description>&lt;h2 id=&#34;このサイトについて&#34;&gt;このサイトについて
@@ -17707,7 +17815,7 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         <item>
         <title>リンク</title>
         <link>http://localhost:1313/link/</link>
-        <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 19 Jun 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/link/</guid>
         <description></description>

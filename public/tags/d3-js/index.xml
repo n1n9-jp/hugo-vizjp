@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/d3-js/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 03 Oct 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/d3-js/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
         <link>http://localhost:1313/d3-flexbox/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-flexbox/</guid>
         <description>&lt;img src="http://localhost:1313/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
@@ -41,7 +41,7 @@
         <item>
         <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
         <link>http://localhost:1313/responsive-d3/</link>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/responsive-d3/</guid>
         <description>&lt;img src="http://localhost:1313/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
@@ -117,7 +117,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>D3.jsを使ったreusableな実装</title>
         <link>http://localhost:1313/d3js-reusable/</link>
-        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3js-reusable/</guid>
         <description>&lt;img src="http://localhost:1313/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
@@ -221,7 +221,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>d3.unconfレポート[後篇]</title>
         <link>http://localhost:1313/d3-unconf-2014-2/</link>
-        <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 20 Apr 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-unconf-2014-2/</guid>
         <description>&lt;img src="http://localhost:1313/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
@@ -442,7 +442,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>d3.unconfレポート[前篇]</title>
         <link>http://localhost:1313/d3-unconf-2014-1/</link>
-        <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 11 Apr 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-unconf-2014-1/</guid>
         <description>&lt;img src="http://localhost:1313/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -563,7 +563,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>ビジュアライズにおける正規化</title>
         <link>http://localhost:1313/normalize-visualize/</link>
-        <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 24 Mar 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/normalize-visualize/</guid>
         <description>&lt;img src="http://localhost:1313/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
@@ -630,7 +630,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>D3: データ形式</title>
         <link>http://localhost:1313/d3-requests/</link>
-        <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 22 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-requests/</guid>
         <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
@@ -671,7 +671,7 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         <item>
         <title>D3: TopoJSON</title>
         <link>http://localhost:1313/d3-topojson/</link>
-        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;

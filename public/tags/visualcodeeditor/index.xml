@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/visualcodeeditor/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 24 Aug 2019 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/visualcodeeditor/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】</title>
         <link>http://localhost:1313/vcs-liveserver/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vcs-liveserver/</guid>
         <description>&lt;img src="http://localhost:1313/vcs-liveserver/images/fi_VcsLiveServer.png" alt="Featured image of post 【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】" /&gt;&lt;p&gt;ローカル環境で簡易サーバを手軽に起動できる方法の一つとして、テキストエディタを使った例を紹介します。&lt;/p&gt;

@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 22 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 22 Sep 2013 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>D3: データ形式</title>
         <link>http://localhost:1313/d3-requests/</link>
-        <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 22 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-requests/</guid>
         <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;

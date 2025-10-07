@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/gis/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>EPSGコード</title>
         <link>http://localhost:1313/epsg-code/</link>
-        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/epsg-code/</guid>
         <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;

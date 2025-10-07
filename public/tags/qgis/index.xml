@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/qgis/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/qgis/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>QGISにおける階級分類</title>
         <link>http://localhost:1313/qgis-classification/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-classification/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
@@ -38,7 +38,7 @@
         <item>
         <title>地図の階級分類におけるJenksって？</title>
         <link>http://localhost:1313/classification-jenks/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/classification-jenks/</guid>
         <description>&lt;img src="http://localhost:1313/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
@@ -74,7 +74,7 @@
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
         <link>http://localhost:1313/qgis-processing/</link>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-processing/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
@@ -100,7 +100,7 @@
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
         <link>http://localhost:1313/shapefile-to-topojson/</link>
-        <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/shapefile-to-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON

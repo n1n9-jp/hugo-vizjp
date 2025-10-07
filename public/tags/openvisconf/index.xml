@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/openvisconf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Jul 2014 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/openvisconf/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>[OpenVis Conf 2014] John Resig講演</title>
         <link>http://localhost:1313/openvisconf-2014-johnresig/</link>
-        <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Jul 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openvisconf-2014-johnresig/</guid>
         <description>&lt;img src="http://localhost:1313/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
@@ -396,7 +396,7 @@
         <item>
         <title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
         <link>http://localhost:1313/openvisconf2013-miguel/</link>
-        <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 05 Nov 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openvisconf2013-miguel/</guid>
         <description>&lt;img src="http://localhost:1313/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;

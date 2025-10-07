@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/chart/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは</title>
         <link>http://localhost:1313/two-axis/</link>
-        <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/two-axis/</guid>
         <description>&lt;img src="http://localhost:1313/two-axis/images/img-10.jpeg" alt="Featured image of post なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは" /&gt;&lt;p&gt;データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。
@@ -160,7 +160,7 @@
         <item>
         <title>ナイチンゲールによる「鶏冠」チャート</title>
         <link>http://localhost:1313/nightingale-chart/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nightingale-chart/</guid>
         <description>&lt;img src="http://localhost:1313/nightingale-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ナイチンゲールによる「鶏冠」チャート" /&gt;&lt;p&gt;フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。&lt;/p&gt;
@@ -216,7 +216,7 @@ report by Hugh Small
         <item>
         <title>12匹のデータ・ザウルス</title>
         <link>http://localhost:1313/the-datasaurus-dozen/</link>
-        <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 11 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/the-datasaurus-dozen/</guid>
         <description>&lt;img src="http://localhost:1313/the-datasaurus-dozen/images/AllDinosGrey_1-2048x1431.png" alt="Featured image of post 12匹のデータ・ザウルス" /&gt;&lt;p&gt;データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。&lt;/p&gt;

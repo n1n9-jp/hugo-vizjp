@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>沖積図（Alluvial Diagrams）</title>
         <link>http://localhost:1313/alluvial-diagrams/</link>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/alluvial-diagrams/</guid>
         <description>&lt;img src="http://localhost:1313/alluvial-diagrams/images/image-24.png" alt="Featured image of post 沖積図（Alluvial Diagrams）" /&gt;&lt;p&gt;沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。&lt;/p&gt;
@@ -68,7 +68,7 @@
         <item>
         <title>サンキー・ダイアグラム（Sankey Diagram）</title>
         <link>http://localhost:1313/sankey-diagram/</link>
-        <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sankey-diagram/</guid>
         <description>&lt;img src="http://localhost:1313/sankey-diagram/images/image-13.png" alt="Featured image of post サンキー・ダイアグラム（Sankey Diagram）" /&gt;&lt;p&gt;Mario Schmidt の調査によると、19世紀後半当時、新興工業国の技術者たちは、蒸気機関をさらに改良し、それぞれの用途に最適化するために、科学的手法を応用しようとしていました。蒸気機関の熱効率を分析するために、アイルランドのエンジニアRiall Sankeyによって、1898年に開発されました。&lt;/p&gt;
@@ -416,7 +416,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
         <item>
         <title>Facebookで友達のつながりを可視化</title>
         <link>http://localhost:1313/friendship-facebook/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/friendship-facebook/</guid>
         <description>&lt;img src="http://localhost:1313/friendship-facebook/images/163413_479288597199_8388607_n.png" alt="Featured image of post Facebookで友達のつながりを可視化" /&gt;&lt;p&gt;2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。インフラエンジニアのインターンできていた人が、試作としてデータウェアハウスからデータを取得し、世界中の友達のつながりを約1000万組、世界地図への可視化を試みています。&lt;/p&gt;

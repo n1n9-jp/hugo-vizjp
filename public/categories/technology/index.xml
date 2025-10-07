@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
         <link>http://localhost:1313/multi-color/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/multi-color/</guid>
         <description>&lt;img src="http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
@@ -73,7 +73,7 @@
         <item>
         <title>データ分析言語によるチャーノフの顔の実装</title>
         <link>http://localhost:1313/chernoff-face-implementation/</link>
-        <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chernoff-face-implementation/</guid>
         <description>&lt;img src="http://localhost:1313/chernoff-face-implementation/images/P_Matplotlib/aflaxman.png" alt="Featured image of post データ分析言語によるチャーノフの顔の実装" /&gt;&lt;p&gt;データ分析言語であるPythonやRを用いて、チャーノフの顔が実装されているものを集めてみました。&lt;/p&gt;
@@ -203,7 +203,7 @@
         <item>
         <title>防災情報「キキクル」に見られる独自の色彩設計の工夫</title>
         <link>http://localhost:1313/bosai-kikikuru-color/</link>
-        <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bosai-kikikuru-color/</guid>
         <description>&lt;img src="http://localhost:1313/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.png" alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫" /&gt;&lt;p&gt;この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。&lt;/p&gt;
@@ -321,7 +321,7 @@
         <item>
         <title>「Cognitive Bias Codex」で眺める人間の思考のクセ</title>
         <link>http://localhost:1313/cognitive-biases-blog/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-blog/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-blog/images/bias-blog.png" alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ" /&gt;&lt;p&gt;私たちの判断や意思決定は、合理的なようでいて、しばしば、予測可能な誤りを繰り返します。これが &lt;strong&gt;認知バイアス&lt;/strong&gt; です。たとえば「宝くじの当選確率」を過大評価したり、「自分の信念を裏づける情報」だけを集めてしまうといった現象がそうです。&lt;/p&gt;
@@ -389,7 +389,7 @@
         <item>
         <title>認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</title>
         <link>http://localhost:1313/cognitive-biases-compare/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-compare/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-compare/images/bias-comparison-final.png" alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？" /&gt;&lt;p&gt;私たちの判断や意思決定は、しばしば「合理的なはず」なのに予測可能な誤りを繰り返します。これが &lt;strong&gt;認知バイアス&lt;/strong&gt; です。&lt;br&gt;
@@ -498,7 +498,7 @@ Benson のブログ記事での整理は「わかりやすさ」を重視して�
         <item>
         <title>認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</title>
         <link>http://localhost:1313/cognitive-biases-paper/</link>
-        <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cognitive-biases-paper/</guid>
         <description>&lt;img src="http://localhost:1313/cognitive-biases-paper/images/bias-paper.png" alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法" /&gt;&lt;p&gt;認知バイアスは、人間が合理的に考えているつもりでも陥ってしまう思考のクセです。&lt;br&gt;
@@ -572,7 +572,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
         <link>http://localhost:1313/chart-map-transportation-infrastructure/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-transportation-infrastructure/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
@@ -649,7 +649,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>鉄道の発展を「円の面積」で描いた鉄道発展図</title>
         <link>http://localhost:1313/chart-map-railway/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-railway/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-railway/images/12511022_closeup.png" alt="Featured image of post 鉄道の発展を「円の面積」で描いた鉄道発展図" /&gt;&lt;p&gt;19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。&lt;/p&gt;
@@ -722,7 +722,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>時間の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
@@ -778,7 +778,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>旅費の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map-price/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map-price/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
@@ -832,7 +832,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
         <link>http://localhost:1313/cartogram/</link>
-        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cartogram/</guid>
         <description>&lt;img src="http://localhost:1313/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
@@ -1024,7 +1024,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Excelでのピボットテーブルの解除</title>
         <link>http://localhost:1313/excel-reverse-pivot/</link>
-        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/excel-reverse-pivot/</guid>
         <description>&lt;img src="http://localhost:1313/excel-reverse-pivot/images/thumb_ph_vizjp.png" alt="Featured image of post Excelでのピボットテーブルの解除" /&gt;&lt;p&gt;Excelでピボットテーブル化した（もしくはいわゆる横持ちと呼ばれる状態）の表を、ピボットテーブルする前の状態（もしくはいわゆる縦持ちと呼ばれる状態）に戻す作業は、これまでやや複雑でしたが、ExcelにPowerQueryエディタが搭載されてから、手順がかなりシンプルになりました。&lt;/p&gt;
@@ -1062,7 +1062,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>OpenRefineでのピボットテーブルの解除</title>
         <link>http://localhost:1313/openrefine-reverse-pivot/</link>
-        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openrefine-reverse-pivot/</guid>
         <description>&lt;img src="http://localhost:1313/openrefine-reverse-pivot/images/image_3hours_refine.png" alt="Featured image of post OpenRefineでのピボットテーブルの解除" /&gt;&lt;p&gt;Excelでピボットテーブル化した（もしくはいわゆる横持ちと呼ばれる状態）の表を、ピボットテーブルする前の状態（もしくはいわゆる縦持ちと呼ばれる状態）に戻す作業は、これまでやや複雑でした。オープンソースのクレンジングツールであるOpenRefineを用いると、かなりシンプルな手順で実行することが可能です。&lt;/p&gt;
@@ -1124,7 +1124,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
         <link>http://localhost:1313/mapbox-gl-js-v2/</link>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mapbox-gl-js-v2/</guid>
         <description>&lt;img src="http://localhost:1313/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
@@ -1152,7 +1152,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Focus&#43;Contextの実例</title>
         <link>http://localhost:1313/focus-context/</link>
-        <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 11 Nov 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/focus-context/</guid>
         <description>&lt;img src="http://localhost:1313/focus-context/images/image-35.png" alt="Featured image of post Focus&#43;Contextの実例" /&gt;&lt;p&gt;情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。これは、コンテクストと詳細を分離せずに同時に提供する…というと少し複雑に聞こえますが、概要と詳細の両方を同一画面で地続きに表現するために、表示領域の空間を歪める方法です。&lt;/p&gt;
@@ -1270,7 +1270,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>ビジュアル・アナリシスにおけるインタラクションの整理</title>
         <link>http://localhost:1313/visual-analytics-interaction/</link>
-        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/visual-analytics-interaction/</guid>
         <description>&lt;img src="http://localhost:1313/visual-analytics-interaction/images/thumb_ph_vizjp.png" alt="Featured image of post ビジュアル・アナリシスにおけるインタラクションの整理" /&gt;&lt;p&gt;1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多い&lt;strong&gt;Ben Shneidermanさん&lt;/strong&gt;と、スタンフォード大学からワシントン大学へラボを移動させ、D3.jsのメイン・コントリビュータであるMike Bostockを排出した&lt;strong&gt;Jeff Heerさん&lt;/strong&gt;が二人で、&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;  title=&#34;http://portal.acm.org/ft_gateway.cfm?id=2146416&amp;amp;type=pdf&#34;
@@ -1433,7 +1433,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>情報可視化におけるインタラクション技術の分類法</title>
         <link>http://localhost:1313/infovis-interaction-taxonomy/</link>
-        <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/infovis-interaction-taxonomy/</guid>
         <description>&lt;img src="http://localhost:1313/infovis-interaction-taxonomy/images/thumb_ph_vizjp.png" alt="Featured image of post 情報可視化におけるインタラクション技術の分類法" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ieeexplore.ieee.org/document/4376144&#34;  title=&#34;https://ieeexplore.ieee.org/document/4376144&#34;
@@ -1539,7 +1539,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画</title>
         <link>http://localhost:1313/d3-flexbox/</link>
-        <pubDate>Sat, 03 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 03 Oct 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-flexbox/</guid>
         <description>&lt;img src="http://localhost:1313/d3-flexbox/images/social-facebook.png" alt="Featured image of post D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画" /&gt;&lt;p&gt;データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、&lt;a class=&#34;link&#34; href=&#34;https://pudding.cool/process/flexbox-layout/&#34;  title=&#34;https://pudding.cool/process/flexbox-layout/&#34;
@@ -1570,7 +1570,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒</title>
         <link>http://localhost:1313/color-name-appearance/</link>
-        <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/color-name-appearance/</guid>
         <description>&lt;img src="http://localhost:1313/color-name-appearance/images/c736840e7ae1809abbe9ed7a2915627e.png" alt="Featured image of post 多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒" /&gt;&lt;p&gt;人類学者のBrent BerlinとPaul Kayさんの研究成果 (&lt;a class=&#34;link&#34; href=&#34;https://dl.ndl.go.jp/info:ndljp/pid/11073854&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1638,7 +1638,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>色の変化、その物理的事実と心理的効果の違い</title>
         <link>http://localhost:1313/interaction-of-color-weber-fechner-kaw/</link>
-        <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 21 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/interaction-of-color-weber-fechner-kaw/</guid>
         <description>&lt;img src="http://localhost:1313/interaction-of-color-weber-fechner-kaw/images/Weber-Fechner-law_all_1.jpg" alt="Featured image of post 色の変化、その物理的事実と心理的効果の違い" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/3eL1qZt&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1726,7 +1726,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>発信者主体の情報可視化作品作りにおけるスケッチの行い方考察</title>
         <link>http://localhost:1313/sender-oriented-vis/</link>
-        <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sender-oriented-vis/</guid>
         <description>&lt;img src="http://localhost:1313/sender-oriented-vis/images/md_yuichiyazaki.png" alt="Featured image of post 発信者主体の情報可視化作品作りにおけるスケッチの行い方考察" /&gt;&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;8db4aa5744e644d6b4276cfd40d2cf31&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
@@ -1736,7 +1736,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」</title>
         <link>http://localhost:1313/katy-boerner-workflow/</link>
-        <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 22 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/katy-boerner-workflow/</guid>
         <description>&lt;img src="http://localhost:1313/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
@@ -1752,7 +1752,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>AirBnBが開発したOSSのB.I.ツール、Superset</title>
         <link>http://localhost:1313/airbnb-superset/</link>
-        <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/airbnb-superset/</guid>
         <description>&lt;img src="http://localhost:1313/airbnb-superset/images/bank_dash.png" alt="Featured image of post AirBnBが開発したOSSのB.I.ツール、Superset" /&gt;&lt;p&gt;AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。&lt;/p&gt;
@@ -1785,7 +1785,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>タマラさんによるタスクの定義（ターゲット）</title>
         <link>http://localhost:1313/tamar-targets/</link>
-        <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 26 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-targets/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-targets/images/tamar-targets-alldata.png" alt="Featured image of post タマラさんによるタスクの定義（ターゲット）" /&gt;&lt;p&gt;タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。ターゲットについて個別に図として独立させ、翻訳したものをご紹介します。&lt;/p&gt;
@@ -1833,7 +1833,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>タマラさんによるタスクの定義（アクション）</title>
         <link>http://localhost:1313/tamar-action/</link>
-        <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 14 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-action/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-action/images/fig3-1-action-analytics-consume-1.png" alt="Featured image of post タマラさんによるタスクの定義（アクション）" /&gt;&lt;p&gt;タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。&lt;/p&gt;
@@ -1897,7 +1897,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>デスクトップ版からモバイル版を作成する際に、どこを変更する？</title>
         <link>http://localhost:1313/desktop2mobile/</link>
-        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/desktop2mobile/</guid>
         <description>&lt;img src="http://localhost:1313/desktop2mobile/images/Techniques-for-Flexible-Responsive.png" alt="Featured image of post デスクトップ版からモバイル版を作成する際に、どこを変更する？" /&gt;&lt;p&gt;ワシントン大学の可視化の研究室とAdobe Reseachで共同研究した論文で、インタラクティブなチャートを利用していて、かつレスポンシブ対応（デバイスの解像度に自動的にフィットするような対応）している記事コンテンツを調査し、実際のところ、チャートのどの部分をどのように変更しているのか？代表的な12メディアの231コンテンツを調べたものがありましたので、引用しご紹介します。&lt;/p&gt;
@@ -1952,7 +1952,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>なぜ可視化を行うのか？そのアクションとターゲット</title>
         <link>http://localhost:1313/task-abstraction-tamar/</link>
-        <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/task-abstraction-tamar/</guid>
         <description>&lt;img src="http://localhost:1313/task-abstraction-tamar/images/fig3.1_ja.png" alt="Featured image of post なぜ可視化を行うのか？そのアクションとターゲット" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/task-abstraction-tamar/images/fig3.1_ja.png&#34;
@@ -1978,7 +1978,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>GeoJsonとは</title>
         <link>http://localhost:1313/geojson/</link>
-        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 12 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/geojson/</guid>
         <description>&lt;img src="http://localhost:1313/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
@@ -2065,7 +2065,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>データスケール（Data Scale）</title>
         <link>http://localhost:1313/data-scale/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-scale/</guid>
         <description>&lt;img src="http://localhost:1313/data-scale/images/1_aHohRnwe6dmiqzsiRYEpug.png" alt="Featured image of post データスケール（Data Scale）" /&gt;&lt;p&gt;データの分類方法は色々あります。&lt;/p&gt;
@@ -2150,7 +2150,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>スティーヴンスのべき法則(Stevens’ power law)</title>
         <link>http://localhost:1313/stevens-power-law/</link>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 07 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/stevens-power-law/</guid>
         <description>&lt;img src="http://localhost:1313/stevens-power-law/images/1_Y5WnsJQi9dPl2C-9LMtCpg.png" alt="Featured image of post スティーヴンスのべき法則(Stevens’ power law)" /&gt;&lt;p&gt;1975年に発表された論文で、スタンレー・スミス・スティーブンス(Stanley Smith Stevens)は、「物理的刺激の大きさ」と「その知覚される強度」との間の関係は、べき乗関数に従うことを示しました。&lt;/p&gt;
@@ -2188,7 +2188,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>QGISにおける階級分類</title>
         <link>http://localhost:1313/qgis-classification/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-classification/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
@@ -2216,7 +2216,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>地図の階級分類におけるJenksって？</title>
         <link>http://localhost:1313/classification-jenks/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/classification-jenks/</guid>
         <description>&lt;img src="http://localhost:1313/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
@@ -2252,7 +2252,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
         <link>http://localhost:1313/qgis-processing/</link>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-processing/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
@@ -2278,7 +2278,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>EPSGコード</title>
         <link>http://localhost:1313/epsg-code/</link>
-        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/epsg-code/</guid>
         <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
@@ -2317,7 +2317,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
         <link>http://localhost:1313/thesevencs/</link>
-        <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/thesevencs/</guid>
         <description>&lt;img src="http://localhost:1313/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
@@ -2358,7 +2358,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する</title>
         <link>http://localhost:1313/tamar-4levels/</link>
-        <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 12 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tamar-4levels/</guid>
         <description>&lt;img src="http://localhost:1313/tamar-4levels/images/fig4.2_ja-1.png" alt="Featured image of post ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割する" /&gt;&lt;p&gt;データビジュアライゼーションの作品を作ろうと思ったときに簡単に行かないのは「設計空間が膨大で、ほとんどの設計は効果がない」ことから、「ビジュアルデザインの複雑な問題を4つのカスケードレベルに分割することで、異なる懸念事項を個別に解決できる分析フレームワークを提供する」という意図で、Tamara Munznerさんが提示しているフレームワークをご紹介します。&lt;/p&gt;
@@ -2411,7 +2411,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Open Refine - GREL日付関数 パターン文字一覧</title>
         <link>http://localhost:1313/open-refine-grel-date/</link>
-        <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 23 Nov 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/open-refine-grel-date/</guid>
         <description>&lt;img src="http://localhost:1313/open-refine-grel-date/images/image_3hours_refine.png" alt="Featured image of post Open Refine - GREL日付関数 パターン文字一覧" /&gt;&lt;p&gt;Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。適宜ご活用ください。&lt;/p&gt;
@@ -2574,7 +2574,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）</title>
         <link>http://localhost:1313/storytelling-edwardsiegel/</link>
-        <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 28 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/storytelling-edwardsiegel/</guid>
         <description>&lt;img src="http://localhost:1313/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png" alt="Featured image of post データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）" /&gt;&lt;p&gt;データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。そして、様々な切り口が登場しながらもそれらの関連付けがやや複雑かつ曖昧ですので、分類の枠組みとして参考にする程度がよいでしょう。引用する図版はすべて下記リンク先の論文からのものです。&lt;/p&gt;
@@ -2698,7 +2698,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】</title>
         <link>http://localhost:1313/vcs-liveserver/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vcs-liveserver/</guid>
         <description>&lt;img src="http://localhost:1313/vcs-liveserver/images/fi_VcsLiveServer.png" alt="Featured image of post 【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】" /&gt;&lt;p&gt;ローカル環境で簡易サーバを手軽に起動できる方法の一つとして、テキストエディタを使った例を紹介します。&lt;/p&gt;
@@ -2779,7 +2779,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>Tabula Windows版のインストールがうまくいかない方へ</title>
         <link>http://localhost:1313/tabula-windows-install/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/tabula-windows-install/</guid>
         <description>&lt;img src="http://localhost:1313/tabula-windows-install/images/fi_TabulaWindows.png" alt="Featured image of post Tabula Windows版のインストールがうまくいかない方へ" /&gt;&lt;p&gt;PDFに含まれている表をテキストデータとして抜き出すことのできるTabulaというアプリケーションがあります。&lt;/p&gt;
@@ -2833,7 +2833,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>データ可視化にとって最適なカラースペースは？</title>
         <link>http://localhost:1313/color-space/</link>
-        <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 23 Jun 2018 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/color-space/</guid>
         <description>&lt;img src="http://localhost:1313/color-space/images/fi_ColorSpace.png" alt="Featured image of post データ可視化にとって最適なカラースペースは？" /&gt;&lt;p&gt;データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。そのための考え方の入り口をご紹介します。&lt;/p&gt;
@@ -2975,7 +2975,7 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
         <item>
         <title>D3.jsでレスポンシブ・レイアウトを実現するには</title>
         <link>http://localhost:1313/responsive-d3/</link>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/responsive-d3/</guid>
         <description>&lt;img src="http://localhost:1313/responsive-d3/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsでレスポンシブ・レイアウトを実現するには" /&gt;&lt;h3 id=&#34;d3jsでレスポンシブレイアウトを&#34;&gt;D3.jsでレスポンシブ・レイアウトを
@@ -3051,7 +3051,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>D3.jsを使ったreusableな実装</title>
         <link>http://localhost:1313/d3js-reusable/</link>
-        <pubDate>Thu, 18 Dec 2014 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 18 Dec 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3js-reusable/</guid>
         <description>&lt;img src="http://localhost:1313/d3js-reusable/images/thumb_ph_vizjp.png" alt="Featured image of post D3.jsを使ったreusableな実装" /&gt;&lt;p&gt;D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。&lt;/p&gt;
@@ -3155,7 +3155,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>Natural Earth配布ファイルの国境について</title>
         <link>http://localhost:1313/natural-earth-border-issue/</link>
-        <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 03 Nov 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/natural-earth-border-issue/</guid>
         <description>&lt;img src="http://localhost:1313/natural-earth-border-issue/images/fi_NaturalEarth.png" alt="Featured image of post Natural Earth配布ファイルの国境について" /&gt;&lt;p&gt;Natural Earthというサイトで、パブリックドメイン扱いで地図データを配布しています。&lt;br&gt;
@@ -3171,7 +3171,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
         <link>http://localhost:1313/shapefile-to-topojson/</link>
-        <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/shapefile-to-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
@@ -3409,7 +3409,7 @@ preserveAspectRatioの値は xMidYMid とします。これでviewBoxのX/Y中�
         <item>
         <title>ビジュアライズにおける正規化</title>
         <link>http://localhost:1313/normalize-visualize/</link>
-        <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 24 Mar 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/normalize-visualize/</guid>
         <description>&lt;img src="http://localhost:1313/normalize-visualize/images/fi_Normalize.png" alt="Featured image of post ビジュアライズにおける正規化" /&gt;&lt;p&gt;たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。またはあるバブルチャートでは円の直径はいくつになるでしょうか。&lt;/p&gt;
@@ -3476,7 +3476,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
         <link>http://localhost:1313/openvisconf2013-miguel/</link>
-        <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 05 Nov 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/openvisconf2013-miguel/</guid>
         <description>&lt;img src="http://localhost:1313/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;
@@ -3585,7 +3585,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>カントリー・コード</title>
         <link>http://localhost:1313/country-codes/</link>
-        <pubDate>Sun, 27 Oct 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 27 Oct 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/country-codes/</guid>
         <description>&lt;img src="http://localhost:1313/country-codes/images/fi_CountryCode.png" alt="Featured image of post カントリー・コード" /&gt;&lt;p&gt;世界各国のデータをビジュアライズする場合、国をIDで管理すると複数データの連携が取れ、便利です。&lt;/p&gt;
@@ -3612,7 +3612,7 @@ D3では統計学で必要なものが一通り用意されているので最適
         <item>
         <title>D3: データ形式</title>
         <link>http://localhost:1313/d3-requests/</link>
-        <pubDate>Sun, 22 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 22 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-requests/</guid>
         <description>&lt;img src="http://localhost:1313/d3-requests/images/fi_D3DatFormat.png" alt="Featured image of post D3: データ形式" /&gt;&lt;p&gt;D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。&lt;/p&gt;
@@ -3653,7 +3653,7 @@ csvは上図の通り、読み込まれるとデフォルトではオブジェ�
         <item>
         <title>D3: TopoJSON</title>
         <link>http://localhost:1313/d3-topojson/</link>
-        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;

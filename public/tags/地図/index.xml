@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</title>
         <link>http://localhost:1313/provisional-inundation-depth-map/</link>
-        <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/provisional-inundation-depth-map/</guid>
         <description>&lt;img src="http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
@@ -114,7 +114,7 @@
         <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
         <link>http://localhost:1313/chart-map-transportation-infrastructure/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-transportation-infrastructure/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
@@ -191,7 +191,7 @@
         <item>
         <title>鉄道の発展を「円の面積」で描いた鉄道発展図</title>
         <link>http://localhost:1313/chart-map-railway/</link>
-        <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/chart-map-railway/</guid>
         <description>&lt;img src="http://localhost:1313/chart-map-railway/images/12511022_closeup.png" alt="Featured image of post 鉄道の発展を「円の面積」で描いた鉄道発展図" /&gt;&lt;p&gt;19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。&lt;/p&gt;
@@ -264,7 +264,7 @@
         <item>
         <title>時間の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
@@ -320,7 +320,7 @@
         <item>
         <title>旅費の距離カルトグラム</title>
         <link>http://localhost:1313/time-distance-map-price/</link>
-        <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/time-distance-map-price/</guid>
         <description>&lt;img src="http://localhost:1313/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
@@ -374,7 +374,7 @@
         <item>
         <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
         <link>http://localhost:1313/cartogram/</link>
-        <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/cartogram/</guid>
         <description>&lt;img src="http://localhost:1313/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
@@ -566,7 +566,7 @@
         <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
         <link>http://localhost:1313/mapbox-gl-js-v2/</link>
-        <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mapbox-gl-js-v2/</guid>
         <description>&lt;img src="http://localhost:1313/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
@@ -594,7 +594,7 @@
         <item>
         <title>ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図</title>
         <link>http://localhost:1313/reischauer-cartogram/</link>
-        <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/reischauer-cartogram/</guid>
         <description>&lt;img src="http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
@@ -673,7 +673,7 @@
         <item>
         <title>ディシメトリック・マップ（Dasymetric Map）</title>
         <link>http://localhost:1313/dasymetric-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dasymetric-map/</guid>
         <description>&lt;img src="http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448.png" alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）" /&gt;&lt;p&gt;コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。&lt;/p&gt;
@@ -817,7 +817,7 @@
         <item>
         <title>ベクター・フィールド・マップ（Vector Field Map）</title>
         <link>http://localhost:1313/vector-field-map/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map/</guid>
         <description>&lt;img src="http://localhost:1313/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
@@ -928,7 +928,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>コロプレス・マップ（Choropleth Map）</title>
         <link>http://localhost:1313/choropleth-map/</link>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/choropleth-map/</guid>
         <description>&lt;img src="http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
@@ -1039,7 +1039,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
         <link>http://localhost:1313/dot-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
@@ -1138,7 +1138,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ドット密度マップ（Dot Density Map）</title>
         <link>http://localhost:1313/dot-density-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
@@ -1201,7 +1201,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>等級シンボル・マップ(Graduated Symbol Map)</title>
         <link>http://localhost:1313/graduated-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/graduated-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png" alt="Featured image of post 等級シンボル・マップ(Graduated Symbol Map)" /&gt;&lt;p&gt;離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。&lt;/p&gt;
@@ -1232,7 +1232,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>統計記号マップ（Statistical Symbol Map）</title>
         <link>http://localhost:1313/statistical-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/statistical-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png" alt="Featured image of post 統計記号マップ（Statistical Symbol Map）" /&gt;&lt;p&gt;統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。&lt;/p&gt;
@@ -1395,7 +1395,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>比例シンボル・マップ(Proportional Symbol Map)</title>
         <link>http://localhost:1313/proportional-symbol-map/</link>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/proportional-symbol-map/</guid>
         <description>&lt;img src="http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
@@ -1450,7 +1450,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>コロナ禍による凡例の破綻</title>
         <link>http://localhost:1313/corona-finviz-map/</link>
-        <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 20 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/corona-finviz-map/</guid>
         <description>&lt;img src="http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
@@ -1505,7 +1505,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>Uber H3</title>
         <link>http://localhost:1313/uber-h3/</link>
-        <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 18 May 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/uber-h3/</guid>
         <description>&lt;img src="http://localhost:1313/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
@@ -1567,7 +1567,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>GeoJsonとは</title>
         <link>http://localhost:1313/geojson/</link>
-        <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 12 Mar 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/geojson/</guid>
         <description>&lt;img src="http://localhost:1313/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
@@ -1654,7 +1654,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>QGISにおける階級分類</title>
         <link>http://localhost:1313/qgis-classification/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-classification/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
@@ -1682,7 +1682,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>地図の階級分類におけるJenksって？</title>
         <link>http://localhost:1313/classification-jenks/</link>
-        <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/classification-jenks/</guid>
         <description>&lt;img src="http://localhost:1313/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
@@ -1718,7 +1718,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
         <link>http://localhost:1313/qgis-processing/</link>
-        <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/qgis-processing/</guid>
         <description>&lt;img src="http://localhost:1313/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
@@ -1744,7 +1744,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>EPSGコード</title>
         <link>http://localhost:1313/epsg-code/</link>
-        <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Feb 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/epsg-code/</guid>
         <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
@@ -1783,7 +1783,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
         <link>http://localhost:1313/shapefile-to-topojson/</link>
-        <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 18 May 2014 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/shapefile-to-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
@@ -2021,7 +2021,7 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         <item>
         <title>D3: TopoJSON</title>
         <link>http://localhost:1313/d3-topojson/</link>
-        <pubDate>Wed, 18 Sep 2013 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 18 Sep 2013 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/d3-topojson/</guid>
         <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;

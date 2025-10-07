@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/principle/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/principle/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感</title>
         <link>http://localhost:1313/translate-statistics/</link>
-        <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/translate-statistics/</guid>
         <description>&lt;img src="http://localhost:1313/translate-statistics/images/translate-statistics.png" alt="Featured image of post 「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感" /&gt;&lt;p&gt;いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために &lt;strong&gt;“新しい漢字”&lt;/strong&gt; まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。&lt;/p&gt;
@@ -179,7 +179,7 @@
         <item>
         <title>コミュニケーションの媒介としてのデータ可視化</title>
         <link>http://localhost:1313/data-visualization-as-a-medium-for-communication/</link>
-        <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/data-visualization-as-a-medium-for-communication/</guid>
         <description>&lt;img src="http://localhost:1313/data-visualization-as-a-medium-for-communication/images/thumb_ph_vizjp.png" alt="Featured image of post コミュニケーションの媒介としてのデータ可視化" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jstage.jst.go.jp/article/jkg/70/8/70_413/_article/-char/ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -478,7 +478,7 @@
         <item>
         <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
         <link>http://localhost:1313/thesevencs/</link>
-        <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/thesevencs/</guid>
         <description>&lt;img src="http://localhost:1313/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
@@ -519,7 +519,7 @@
         <item>
         <title>科学可視化と情報可視化</title>
         <link>http://localhost:1313/scientific-and-information/</link>
-        <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/scientific-and-information/</guid>
         <description>&lt;img src="http://localhost:1313/scientific-and-information/images/science_information.png" alt="Featured image of post 科学可視化と情報可視化" /&gt;&lt;p&gt;可視化を科学可視化と情報可視化に分類する考え方があります。&lt;/p&gt;
@@ -552,7 +552,7 @@
         <item>
         <title>「データ可視化」の指す、三種類の行為</title>
         <link>http://localhost:1313/viz-for-whom/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/viz-for-whom/</guid>
         <description>&lt;img src="http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png" alt="Featured image of post 「データ可視化」の指す、三種類の行為" /&gt;&lt;p&gt;「データ可視化」という言葉を使うとき、何だかふわっとしてるなと感じませんか？&lt;/p&gt;
@@ -606,7 +606,7 @@
         <item>
         <title>データ可視化は相手の腹に落ちて価値が出る</title>
         <link>http://localhost:1313/nikkeibd-201404/</link>
-        <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/nikkeibd-201404/</guid>
         <description>&lt;img src="http://localhost:1313/nikkeibd-201404/images/thumb_ph_vizjp.png" alt="Featured image of post データ可視化は相手の腹に落ちて価値が出る" /&gt;&lt;p&gt;※日経ビッグデータ2014年4月号掲載記事の転載です。&lt;/p&gt;
@@ -639,7 +639,7 @@
         <item>
         <title>データビジュアライゼーションを学ぶ意義</title>
         <link>http://localhost:1313/meaning/</link>
-        <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 18 May 2018 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/meaning/</guid>
         <description>&lt;img src="http://localhost:1313/meaning/images/thumb_ph_vizjp.png" alt="Featured image of post データビジュアライゼーションを学ぶ意義" /&gt;&lt;p&gt;オープンデータ、ビッグデータというキーワードがここ数年普及してきており、活用する機運が高まっています。本格的なデータ分析までは必要ないもののデータを活用したい、という需要があるが、何をどう学んだらいいかわからない、という声をよく聞きます。&lt;/p&gt;
@@ -652,7 +652,7 @@
         <item>
         <title>社会課題を可視化する「データ・ビジュアライゼーション」とは</title>
         <link>http://localhost:1313/what-is-dataviz/</link>
-        <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 05 Aug 2017 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/what-is-dataviz/</guid>
         <description>&lt;img src="http://localhost:1313/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

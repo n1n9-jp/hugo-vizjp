@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
         <link>http://localhost:1313/sunburst/</link>
-        <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
@@ -107,7 +107,7 @@
         <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
         <link>http://localhost:1313/treemap-rcep/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/treemap-rcep/</guid>
         <description>&lt;img src="http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
@@ -170,7 +170,7 @@
         <item>
         <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
         <link>http://localhost:1313/newsmap/</link>
-        <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/newsmap/</guid>
         <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
@@ -316,7 +316,7 @@
         <item>
         <title>ツリーマップ（Treemap）</title>
         <link>http://localhost:1313/treemap/</link>
-        <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/treemap/</guid>
         <description>&lt;img src="http://localhost:1313/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
@@ -509,7 +509,7 @@
         <item>
         <title>サンバースト（Sunburst）の事例</title>
         <link>http://localhost:1313/sunburst-example/</link>
-        <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/sunburst-example/</guid>
         <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
@@ -625,7 +625,7 @@
         <item>
         <title>つららチャート（Icicle Chart）</title>
         <link>http://localhost:1313/icicle-chart/</link>
-        <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 09 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/icicle-chart/</guid>
         <description>&lt;img src="http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
