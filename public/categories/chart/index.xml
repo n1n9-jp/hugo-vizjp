@@ -34,17 +34,17 @@
 &lt;p&gt;この図版は、原典の中の具体的なページではなく、当時の印刷版に基づく実物ページの撮影です。オイラーが提案した論理の可視化手法を忠実に再現しており、近代的な「オイラー図」や「ベン図」の祖型といえる貴重な歴史的資料です。&lt;/p&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/cover.png&#34;
-	width=&#34;873&#34;
-	height=&#34;770&#34;
-	srcset=&#34;http://localhost:1313/euler-diagram/images/cover_hu_cf2d4b885c94828f.png 480w, http://localhost:1313/euler-diagram/images/cover_hu_a2bb613288b49c91.png 1024w&#34;
+	width=&#34;479&#34;
+	height=&#34;549&#34;
+	srcset=&#34;http://localhost:1313/euler-diagram/images/cover_hu_751a522bb0ad13ad.png 480w, http://localhost:1313/euler-diagram/images/cover_hu_dc0e49d9dfa78d59.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;オイラー図&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;113&#34;
-		data-flex-basis=&#34;272px&#34;
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;209px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;ol&gt;
