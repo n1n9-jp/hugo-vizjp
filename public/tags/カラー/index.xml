@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>カラー on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</link>
+        <link>http://localhost:59740/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</link>
         <description>Recent content in カラー on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/%E3%82%AB%E3%83%A9%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図</title>
-        <link>http://localhost:1313/multi-color/</link>
+        <link>http://localhost:59740/multi-color/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/multi-color/</guid>
-        <description>&lt;img src="http://localhost:1313/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/IMG_0484.jpeg&#34;
+        <guid>http://localhost:59740/multi-color/</guid>
+        <description>&lt;img src="http://localhost:59740/multi-color/images/cover-schematic-chropleth.jpeg" alt="Featured image of post 多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図" /&gt;&lt;p&gt;1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは &lt;strong&gt;冬小麦（Winter-Weizen）&lt;/strong&gt; と &lt;strong&gt;夏小麦（Sommer-Weizen）&lt;/strong&gt; の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/multi-color/images/IMG_0484.jpeg&#34;
 	width=&#34;1889&#34;
 	height=&#34;2508&#34;
-	srcset=&#34;http://localhost:1313/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, http://localhost:1313/multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:59740/multi-color/images/IMG_0484_hu_d6eb3af816462107.jpeg 480w, http://localhost:59740/multi-color/images/IMG_0484_hu_f253e610ff308173.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -29,10 +29,10 @@
 &lt;h2 id=&#34;多段階の項目を可視化する工夫&#34;&gt;多段階の項目を可視化する工夫
 &lt;/h2&gt;&lt;p&gt;この地図の大きな特徴は、収量を 最大15段階に区分して表現している点です。最低値は 0.61トン/ha、最高値は約 3.4トン/ha と広いレンジをカバーし、さらに帝国平均（Reichsdurchschnitt）を境界に「平均未満」「平均以上」をはっきり分けています。&lt;/p&gt;
 &lt;p&gt;現代の感覚では15階級はかなり細かい区分ですが、当時はこれを読みやすく見せるために &lt;strong&gt;色の明るさ（淡色〜濃色）＋テクスチャ（線・波線・格子・クロスなど）&lt;/strong&gt; を組み合わせるという工夫が凝らされています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_top.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/multi-color/images/legend_top.jpeg&#34;
 	width=&#34;288&#34;
 	height=&#34;674&#34;
-	srcset=&#34;http://localhost:1313/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, http://localhost:1313/multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:59740/multi-color/images/legend_top_hu_8820fb7ff17bb390.jpeg 480w, http://localhost:59740/multi-color/images/legend_top_hu_ead0092b12c216b3.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;上（冬小麦）の地図の凡例&#34;
@@ -43,10 +43,10 @@
 		data-flex-basis=&#34;102px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/multi-color/images/legend_bottom.jpeg&#34;
+&lt;img src=&#34;http://localhost:59740/multi-color/images/legend_bottom.jpeg&#34;
 	width=&#34;291&#34;
 	height=&#34;708&#34;
-	srcset=&#34;http://localhost:1313/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, http://localhost:1313/multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:59740/multi-color/images/legend_bottom_hu_3f71b31f3ba5960.jpeg 480w, http://localhost:59740/multi-color/images/legend_bottom_hu_feb85df20b6780ae.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;下（夏小麦）の地図の凡例&#34;

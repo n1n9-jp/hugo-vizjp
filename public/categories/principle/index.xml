@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>データ可視化の原理 on Visualizing.JP</title>
-        <link>http://localhost:1313/categories/principle/</link>
+        <link>http://localhost:59740/categories/principle/</link>
         <description>Recent content in データ可視化の原理 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/principle/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/categories/principle/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感</title>
-        <link>http://localhost:1313/translate-statistics/</link>
+        <link>http://localhost:59740/translate-statistics/</link>
         <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/translate-statistics/</guid>
-        <description>&lt;img src="http://localhost:1313/translate-statistics/images/translate-statistics.png" alt="Featured image of post 「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感" /&gt;&lt;p&gt;いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために &lt;strong&gt;“新しい漢字”&lt;/strong&gt; まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。&lt;/p&gt;
+        <guid>http://localhost:59740/translate-statistics/</guid>
+        <description>&lt;img src="http://localhost:59740/translate-statistics/images/translate-statistics.png" alt="Featured image of post 「統計」が「統計」になるまで—訳字論争と&#39;新漢字&#39;の時代感" /&gt;&lt;p&gt;いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために &lt;strong&gt;“新しい漢字”&lt;/strong&gt; まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。&lt;/p&gt;
 &lt;h2 id=&#34;1889年論争は始まる&#34;&gt;1889年、論争は始まる
 &lt;/h2&gt;&lt;p&gt;発端は明治22（1889）年。森鷗外（森林太郎）が、エステルレン著・呉秀三訳『医学統計論』の「題言」（序文）で統計観を示したことをきっかけに、スタチスチック社の今井武夫と論争が起こります。やりとりは約10か月に及び、複数の雑誌（『東京医事新誌』『スタチスチック雑誌』など）を舞台に続きました。 ￼ ￼ ￼&lt;/p&gt;
 &lt;p&gt;ここで、実際のやりとりをまとめた年表ミニ図をご覧ください。森鷗外（森林太郎）と今井武夫を中心に、複数誌で激しい応酬が続いたことが分かります。&lt;/p&gt;
@@ -139,10 +139,10 @@
 &lt;h2 id=&#34;統計が定着していく&#34;&gt;「統計」が定着していく
 &lt;/h2&gt;&lt;p&gt;結論としては &lt;strong&gt;「統計」&lt;/strong&gt; という訳語が次第に一般化していきます。実際、統計界の重鎮・杉亨二自身が「統計」という語を用いていた事実が、訳語の妥当性を支える根拠として挙げられています（森側の反論点）。 ￼&lt;/p&gt;
 &lt;h2 id=&#34;そして新漢字は残らなかった&#34;&gt;そして“新漢字”は残らなかった
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/translate-statistics/images/translate-statistics.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/translate-statistics/images/translate-statistics.png&#34;
 	width=&#34;600&#34;
 	height=&#34;300&#34;
-	srcset=&#34;http://localhost:1313/translate-statistics/images/translate-statistics_hu_f6a12c89ca0467b9.png 480w, http://localhost:1313/translate-statistics/images/translate-statistics_hu_b88596b56527a40c.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/translate-statistics/images/translate-statistics_hu_f6a12c89ca0467b9.png 480w, http://localhost:59740/translate-statistics/images/translate-statistics_hu_b88596b56527a40c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -178,11 +178,11 @@
         </item>
         <item>
         <title>コミュニケーションの媒介としてのデータ可視化</title>
-        <link>http://localhost:1313/data-visualization-as-a-medium-for-communication/</link>
+        <link>http://localhost:59740/data-visualization-as-a-medium-for-communication/</link>
         <pubDate>Tue, 01 Sep 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/data-visualization-as-a-medium-for-communication/</guid>
-        <description>&lt;img src="http://localhost:1313/data-visualization-as-a-medium-for-communication/images/thumb_ph_vizjp.png" alt="Featured image of post コミュニケーションの媒介としてのデータ可視化" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jstage.jst.go.jp/article/jkg/70/8/70_413/_article/-char/ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:59740/data-visualization-as-a-medium-for-communication/</guid>
+        <description>&lt;img src="http://localhost:59740/data-visualization-as-a-medium-for-communication/images/thumb_ph_vizjp.png" alt="Featured image of post コミュニケーションの媒介としてのデータ可視化" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jstage.jst.go.jp/article/jkg/70/8/70_413/_article/-char/ja&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「情報の科学と技術」2020年8月号 特集:RDF/SPARQLの検索と可視化&lt;/a&gt;にて初出の論考です。&lt;/p&gt;
 &lt;h3 id=&#34;要約&#34;&gt;要約
 &lt;/h3&gt;&lt;p&gt;大量のデータは，ただデータとして存在しているだけでは有効活用できない。データ可視化の価値について考察した。価値は人が感じるものである。そこでデータ可視化を発信者と受信者によるコミュニケーションの媒介と捉え，そのあり方を考察した。代表的なワークフローを選出し，発信者主体のものと受信者主体のもので二分し，概観した上で，そこから浮かび上がるニーズとコミュニケーションのあり方を考察した。データ可視化は人間社会において，人が人に何かを伝えたり，誰かの課題を解決することをサポートしたりと，今後も重要な役割を担うことは間違いない。&lt;/p&gt;
@@ -477,11 +477,11 @@
         </item>
         <item>
         <title>LATCHに代わる情報の分類法 the Seven C&#39;s</title>
-        <link>http://localhost:1313/thesevencs/</link>
+        <link>http://localhost:59740/thesevencs/</link>
         <pubDate>Mon, 13 Jan 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/thesevencs/</guid>
-        <description>&lt;img src="http://localhost:1313/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
+        <guid>http://localhost:59740/thesevencs/</guid>
+        <description>&lt;img src="http://localhost:59740/thesevencs/images/thesevencs.png" alt="Featured image of post LATCHに代わる情報の分類法 the Seven C&#39;s" /&gt;&lt;p&gt;「情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。彼は著述家としてだけでなく、TEDカンファレンスの創設者としても著名な人です。&lt;/p&gt;
 &lt;p&gt;彼が1996年の著書「Information Architects」の中で、情報の整理原則を提案しています。略語としてLATCHです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Location（場所）&lt;/li&gt;
@@ -493,10 +493,10 @@
 &lt;p&gt;データビジュアライゼーションの原理原則を学んでいる者からすると、LATCHは、1996年に作られたことや作者自身が否認していることもありますが、すべてを言い表せておらず、更新する必要性を感じています。&lt;/p&gt;
 &lt;p&gt;アルファベットとカテゴリーはカテゴリーとして同一に扱えそうですし、階層以外のネットワークが存在しないですし、数値について明示的な扱いもありません。&lt;/p&gt;
 &lt;p&gt;これらをアップデートするとして、Juuso Koponenさん, Jonatan Hildénさんが、頭文字をすべてCで統一的に扱って新たに &amp;ldquo;The Seven C&amp;rsquo;s&amp;quot;という略語を提案しています（Data Visualization Handbook, 2019）。覚えやすい。素晴らしいですね。これで充分ですね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/thesevencs/images/thesevencs.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/thesevencs/images/thesevencs.png&#34;
 	width=&#34;1648&#34;
 	height=&#34;746&#34;
-	srcset=&#34;http://localhost:1313/thesevencs/images/thesevencs_hu_e4e488588fd0215a.png 480w, http://localhost:1313/thesevencs/images/thesevencs_hu_f5c9eaa38a7d62b3.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/thesevencs/images/thesevencs_hu_e4e488588fd0215a.png 480w, http://localhost:59740/thesevencs/images/thesevencs_hu_f5c9eaa38a7d62b3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -518,11 +518,11 @@
         </item>
         <item>
         <title>科学可視化と情報可視化</title>
-        <link>http://localhost:1313/scientific-and-information/</link>
+        <link>http://localhost:59740/scientific-and-information/</link>
         <pubDate>Wed, 01 Jan 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/scientific-and-information/</guid>
-        <description>&lt;img src="http://localhost:1313/scientific-and-information/images/science_information.png" alt="Featured image of post 科学可視化と情報可視化" /&gt;&lt;p&gt;可視化を科学可視化と情報可視化に分類する考え方があります。&lt;/p&gt;
+        <guid>http://localhost:59740/scientific-and-information/</guid>
+        <description>&lt;img src="http://localhost:59740/scientific-and-information/images/science_information.png" alt="Featured image of post 科学可視化と情報可視化" /&gt;&lt;p&gt;可視化を科学可視化と情報可視化に分類する考え方があります。&lt;/p&gt;
 &lt;p&gt;それによると、可視化自体は、認知を増幅するために行うインタラクティブな視覚的表現の使用のことを指す、という点では共通ですが、以下のような違いがあります。&lt;/p&gt;
 &lt;h4 id=&#34;科学可視化&#34;&gt;科学可視化
 &lt;/h4&gt;&lt;ul&gt;
@@ -551,11 +551,11 @@
         </item>
         <item>
         <title>「データ可視化」の指す、三種類の行為</title>
-        <link>http://localhost:1313/viz-for-whom/</link>
+        <link>http://localhost:59740/viz-for-whom/</link>
         <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/viz-for-whom/</guid>
-        <description>&lt;img src="http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png" alt="Featured image of post 「データ可視化」の指す、三種類の行為" /&gt;&lt;p&gt;「データ可視化」という言葉を使うとき、何だかふわっとしてるなと感じませんか？&lt;/p&gt;
+        <guid>http://localhost:59740/viz-for-whom/</guid>
+        <description>&lt;img src="http://localhost:59740/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png" alt="Featured image of post 「データ可視化」の指す、三種類の行為" /&gt;&lt;p&gt;「データ可視化」という言葉を使うとき、何だかふわっとしてるなと感じませんか？&lt;/p&gt;
 &lt;p&gt;デザイナーとしての一個人としてはこのようなモヤモヤ体験があります。&lt;/p&gt;
 &lt;p&gt;「あくまでデータ分析がメインなのであって、可視化はその結果、おまけにすぎない」&lt;br&gt;
 「そのインフォグラフィック、良いんだけど、でもそれって統計的有意はないのでしょう？」&lt;/p&gt;
@@ -566,10 +566,10 @@
 &lt;li&gt;３つ目、 &lt;strong&gt;表現や伝達&lt;/strong&gt; のためのデータ可視化。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;です。図示すると以下の通りです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e.png&#34;
 	width=&#34;833&#34;
 	height=&#34;1191&#34;
-	srcset=&#34;http://localhost:1313/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e_hu_ed055a4446bff701.png 480w, http://localhost:1313/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e_hu_9955a1c93eae86d1.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e_hu_ed055a4446bff701.png 480w, http://localhost:59740/viz-for-whom/images/picture_pc_e391b9716975147cc57c41951695dc4e_hu_9955a1c93eae86d1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -583,10 +583,10 @@
 &lt;p&gt;&lt;strong&gt;「分析する」&lt;/strong&gt; というのは、データ分析全般をここではざっくり指すものとします。ここも学術・手法・目的などでいくらでも細分化できそうですが、本文章ではスコープ外としてこの程度の言及とさせてください。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;「表現・伝達する」&lt;/strong&gt; というのは、表現であれば最終的な成果物（アウトプット）として完成させることや、それを他者へ伝えることを指します。&lt;/p&gt;
 &lt;p&gt;ここへさらに**「誰にとって」**という視点を加えると、より違いが鮮明になります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;918&#34;
-	srcset=&#34;http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f_hu_8c19b5a0842db49a.png 480w, http://localhost:1313/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f_hu_2f61d0a5003c30c1.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f_hu_8c19b5a0842db49a.png 480w, http://localhost:59740/viz-for-whom/images/picture_pc_508a912df679a6045d79eb479914817f_hu_2f61d0a5003c30c1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -605,11 +605,11 @@
         </item>
         <item>
         <title>データ可視化は相手の腹に落ちて価値が出る</title>
-        <link>http://localhost:1313/nikkeibd-201404/</link>
+        <link>http://localhost:59740/nikkeibd-201404/</link>
         <pubDate>Sat, 24 Aug 2019 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/nikkeibd-201404/</guid>
-        <description>&lt;img src="http://localhost:1313/nikkeibd-201404/images/thumb_ph_vizjp.png" alt="Featured image of post データ可視化は相手の腹に落ちて価値が出る" /&gt;&lt;p&gt;※日経ビッグデータ2014年4月号掲載記事の転載です。&lt;/p&gt;
+        <guid>http://localhost:59740/nikkeibd-201404/</guid>
+        <description>&lt;img src="http://localhost:59740/nikkeibd-201404/images/thumb_ph_vizjp.png" alt="Featured image of post データ可視化は相手の腹に落ちて価値が出る" /&gt;&lt;p&gt;※日経ビッグデータ2014年4月号掲載記事の転載です。&lt;/p&gt;
 &lt;p&gt;データ活用とデータ分析の間には「データ可視化」、最近は「データビジュアライゼーション」と呼ぶ段階が存在している。 オープンデータが広がる今、市民がビジュアライゼーションの基本を身に付けることが社会を変える第一歩となる。&lt;/p&gt;
 &lt;p&gt;情報デザインの世界で著名な米カリフォルニア 芸術大学デザイン戦略MBAプログラム・ディレクターのネイサン・シェドロフ氏が考案した「理解のスペクトル」という図だ。単なる「データ」が「知恵」になるステップを説明するものだ。&lt;/p&gt;
 &lt;p&gt;データはそのままでは人の記憶に残りづらい。量が膨大だったり、特徴が視覚的に捉えづらかったりするからだ。そこでチャートやグラフなどで表現すると、特徴を視覚的に捉えられ短期記憶に残る。これは「情報」と呼ぶが、過去の経験や記憶と結びつき自分ごとになり得る。&lt;/p&gt;
@@ -618,10 +618,10 @@
 &lt;h3 id=&#34;相手の状況で異なる伝え方&#34;&gt;相手の状況で異なる伝え方
 &lt;/h3&gt;&lt;p&gt;こうして相手に何かを伝えようとするとき、相手が能動的に接しようとしているか、もしくは受動的かによっても伝え方を変えていく必要がある。また、相手の知識の多寡によっても、伝え方や伝える順番を考慮 する必要がある。知らないかつ受動的な場合、興味を持ってもらうために訴求方法を工夫し、エンタテインメント性を高めなければならない。&lt;/p&gt;
 &lt;p&gt;多くのチャートやグラフは、2次元(ディメンジョン)程度しか表現できず、工夫を凝らすことは難しい。そこで世に存在する多数のデータの中から適切なものを組み合わせ、次元を追加して表現することが有効である。意図したインサイトが表現できれば、誰にでも開かれた「データ分析の大衆化」につながる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;569&#34;
-	srcset=&#34;http://localhost:1313/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c_hu_8458c18f7a5ebf98.png 480w, http://localhost:1313/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c_hu_9a09285548a2d55e.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c_hu_8458c18f7a5ebf98.png 480w, http://localhost:59740/nikkeibd-201404/images/picture_pc_f4ab39e09db4f02b9a5ecc386da0dc6c_hu_9a09285548a2d55e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -638,11 +638,11 @@
         </item>
         <item>
         <title>データビジュアライゼーションを学ぶ意義</title>
-        <link>http://localhost:1313/meaning/</link>
+        <link>http://localhost:59740/meaning/</link>
         <pubDate>Fri, 18 May 2018 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/meaning/</guid>
-        <description>&lt;img src="http://localhost:1313/meaning/images/thumb_ph_vizjp.png" alt="Featured image of post データビジュアライゼーションを学ぶ意義" /&gt;&lt;p&gt;オープンデータ、ビッグデータというキーワードがここ数年普及してきており、活用する機運が高まっています。本格的なデータ分析までは必要ないもののデータを活用したい、という需要があるが、何をどう学んだらいいかわからない、という声をよく聞きます。&lt;/p&gt;
+        <guid>http://localhost:59740/meaning/</guid>
+        <description>&lt;img src="http://localhost:59740/meaning/images/thumb_ph_vizjp.png" alt="Featured image of post データビジュアライゼーションを学ぶ意義" /&gt;&lt;p&gt;オープンデータ、ビッグデータというキーワードがここ数年普及してきており、活用する機運が高まっています。本格的なデータ分析までは必要ないもののデータを活用したい、という需要があるが、何をどう学んだらいいかわからない、という声をよく聞きます。&lt;/p&gt;
 &lt;p&gt;これに答えるものとして、統計学を学ぶことが必須とされていますが、実は統計学が前提としている「確証的データ分析」に対して「探索的データ分析」という考え方があります。統計学によるデータ分析の結果が出てから初めて可視化を考えるのではなく、まずはデータを可視化してみるところから探索的にデータの活用の仕方や分析を考えるというアプローチです。課題が何かはっきりしていれば、それに即した統計学の手法を用いればよいですが、そもそも何が問題かがわからない段階では手段を選択することができません。「確証的データ分析」のみを前提としていると、そこで行き止まってしまいます。&lt;/p&gt;
 &lt;p&gt;コンピュータが大衆化し、大学のスーパーコンピュータだけではなく、一般的に手に入るコンピュータで充分可視化が行えることや、データが多種大量に存在しているにもかかわらず、可視化すらされず放置されているものが膨大に存在しているという現状があります。&lt;/p&gt;
 &lt;p&gt;これらの状況を踏まえて、問いの立て方から、データの扱い、可視化、プレゼンテーション、評価までを、実務・原理原則の両方を踏まえながら学ぶことができ、何をどう学んだらいいかという需要に答えることのできる講習が必要だと考えております。&lt;/p&gt;
@@ -651,11 +651,11 @@
         </item>
         <item>
         <title>社会課題を可視化する「データ・ビジュアライゼーション」とは</title>
-        <link>http://localhost:1313/what-is-dataviz/</link>
+        <link>http://localhost:59740/what-is-dataviz/</link>
         <pubDate>Sat, 05 Aug 2017 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/what-is-dataviz/</guid>
-        <description>&lt;img src="http://localhost:1313/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:59740/what-is-dataviz/</guid>
+        <description>&lt;img src="http://localhost:59740/what-is-dataviz/images/fi_WhatIsDataviz.png" alt="Featured image of post 社会課題を可視化する「データ・ビジュアライゼーション」とは" /&gt;&lt;p&gt;※&lt;a class=&#34;link&#34; href=&#34;https://news.yahoo.co.jp/byline/yazakiyuichi/20160825-00061522/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Yahoo!ニュース個人掲載記事&lt;/a&gt;の転載です。&lt;/p&gt;
 &lt;p&gt;Yahoo!ニュースで記事を書かせていただくことになりました矢崎です。私はデータ・ビジュアライゼーションとよばれる領域で実務家として活動しています。&lt;/p&gt;
 &lt;h2 id=&#34;データビジュアライゼーションとは&#34;&gt;データ・ビジュアライゼーションとは

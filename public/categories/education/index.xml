@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>教えるための記事 on Visualizing.JP</title>
-        <link>http://localhost:1313/categories/education/</link>
+        <link>http://localhost:59740/categories/education/</link>
         <description>Recent content in 教えるための記事 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/education/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/categories/education/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題</title>
-        <link>http://localhost:1313/italian-social-conditionpoverty/</link>
+        <link>http://localhost:59740/italian-social-conditionpoverty/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/italian-social-conditionpoverty/</guid>
-        <description>&lt;img src="http://localhost:1313/italian-social-conditionpoverty/images/cover.jpg" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
+        <guid>http://localhost:59740/italian-social-conditionpoverty/</guid>
+        <description>&lt;img src="http://localhost:59740/italian-social-conditionpoverty/images/cover.jpg" alt="Featured image of post デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題" /&gt;&lt;p&gt;「Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。テーマはイタリア社会における「貧困」。学生たちは統計資料や社会調査を基に、地域格差・世帯構成・教育水準・年齢といった多面的な要因を視覚化しました。&lt;/p&gt;
 &lt;p&gt;単なるデータ分析ではなく、デザイン教育の文脈において「社会課題をどのように読み取り、可視化を通じて理解を深められるか」という点が重視されています。課題文では「もし自分が貧困層に属していたら」という想像力を出発点に、社会構造を自らの眼で再構築することが求められていました。&lt;/p&gt;
 &lt;h2 id=&#34;学生の代表的な作例&#34;&gt;学生の代表的な作例
 &lt;/h2&gt;&lt;p&gt;この課題からは数多くのポスターが制作されました。現在 Flickr 上で確認できる代表例は以下の通りです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_f51de48f2f185cb5.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_cee659018d27d63d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_f51de48f2f185cb5.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/3031632605_7b532fb7b2_b_hu_cee659018d27d63d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Davide Passini 作例 (Flickr)&#34;
@@ -35,10 +35,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/3031632605/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Davide Passini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2988128330_80d3558871_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_349fbf87027e4c57.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_f479df037f9ee406.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_349fbf87027e4c57.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/2988128330_80d3558871_b_hu_f479df037f9ee406.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Gabriela Cistino 作例 (Flickr)&#34;
@@ -53,10 +53,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2988128330/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Gabriela Cistino 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_c60af6a939a45870.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_f51ee6dbe053053b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_c60af6a939a45870.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/2987259431_0fbe8010b6_b_hu_f51ee6dbe053053b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Pietro Righi Riva 作例 (Flickr)&#34;
@@ -71,10 +71,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987259431/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Pietro Righi Riva 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987255835_4302f7713f_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_98233af1f17dc309.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_77bf19f969125aba.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_98233af1f17dc309.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/2987255835_4302f7713f_b_hu_77bf19f969125aba.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Mario Porpora 作例 (Flickr)&#34;
@@ -89,10 +89,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987255835/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mario Porpora 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987241555_36954d268e_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_88db11d6a122b70b.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_266e7a2d3dab2a6e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_88db11d6a122b70b.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/2987241555_36954d268e_b_hu_266e7a2d3dab2a6e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Giulia Baldini 作例 (Flickr)&#34;
@@ -107,10 +107,10 @@
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2987241555/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Giulia Baldini 作例 (Flickr)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_6f7b9a4d47cf6d03.jpg 480w, http://localhost:1313/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_522607f24ae1fee8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_6f7b9a4d47cf6d03.jpg 480w, http://localhost:59740/italian-social-conditionpoverty/images/2988106310_1cf0eb84b4_b_hu_522607f24ae1fee8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Simone Magini 作例 (Flickr)&#34;
@@ -156,11 +156,11 @@
         </item>
         <item>
         <title>映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題</title>
-        <link>http://localhost:1313/densitydesign-lab-memento/</link>
+        <link>http://localhost:59740/densitydesign-lab-memento/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/densitydesign-lab-memento/</guid>
-        <description>&lt;img src="http://localhost:1313/densitydesign-lab-memento/images/cover.jpg" alt="Featured image of post 映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題" /&gt;&lt;p&gt;「Memento」課題は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2007–2008年度の教育課題です。テーマはクリストファー・ノーラン監督の映画『メメント』（2000年）。この映画は、記憶障害を持つ主人公が妻の死の真相を追う物語で、シーンの時系列が逆行や断片的構成で進むという極めて複雑なストーリーテリングを特徴としています。&lt;/p&gt;
+        <guid>http://localhost:59740/densitydesign-lab-memento/</guid>
+        <description>&lt;img src="http://localhost:59740/densitydesign-lab-memento/images/cover.jpg" alt="Featured image of post 映画『メメント』を可視化する ― DensityDesign Lab「Memento」課題" /&gt;&lt;p&gt;「Memento」課題は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2007–2008年度の教育課題です。テーマはクリストファー・ノーラン監督の映画『メメント』（2000年）。この映画は、記憶障害を持つ主人公が妻の死の真相を追う物語で、シーンの時系列が逆行や断片的構成で進むという極めて複雑なストーリーテリングを特徴としています。&lt;/p&gt;
 &lt;p&gt;課題の目的は、この映画の時間構造や物語の複雑さを「情報デザインの手法」によって可視化すること。学生たちは、物語をシーン単位に分解し、時間の流れ・登場人物の関係・記憶の断片化を図解として再構築しました。&lt;/p&gt;
 &lt;h2 id=&#34;図解の特徴と見方&#34;&gt;図解の特徴と見方
 &lt;/h2&gt;&lt;p&gt;学生が制作したビジュアルは、映画の独自の構造を「読む」のではなく「見る」ための試みとして設計されています。&lt;/p&gt;
@@ -172,10 +172,10 @@
 &lt;p&gt;これらの図解は、物語分析の補助であると同時に「時間」や「記憶」といった抽象的概念をどのようにデザインで表せるかを探る実践になっています。&lt;/p&gt;
 &lt;h2 id=&#34;学生の作例&#34;&gt;学生の作例
 &lt;/h2&gt;&lt;p&gt;Flickr 上では、以下のような学生作品が確認できます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/densitydesign-lab-memento/images/2198257632_a674d78060_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_79112d708b39ca97.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_8447707cfc16e7e7.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_79112d708b39ca97.jpg 480w, http://localhost:59740/densitydesign-lab-memento/images/2198257632_a674d78060_b_hu_8447707cfc16e7e7.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Eloisa Fontana&#34;
@@ -188,10 +188,10 @@
 &gt;
 &lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2198257632/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Memento | Eloisa Fontana Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197472887_730202e2c8_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_ccd2bfcd89c64e61.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_8881bd511737f8d.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_ccd2bfcd89c64e61.jpg 480w, http://localhost:59740/densitydesign-lab-memento/images/2197472887_730202e2c8_b_hu_8881bd511737f8d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Simone Trotti&#34;
@@ -204,10 +204,10 @@
 &gt;
 &lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197472887/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Memento | Simone Trotti Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197465859_1860973c38_b.jpg&#34;
 	width=&#34;724&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_bb799b3a550adc86.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_a1877b8970c8c9c3.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_bb799b3a550adc86.jpg 480w, http://localhost:59740/densitydesign-lab-memento/images/2197465859_1860973c38_b_hu_a1877b8970c8c9c3.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Mauro Napoli&#34;
@@ -220,10 +220,10 @@
 &gt;
 &lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/densitydesign/2197465859/in/album-72157603732273519&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Memento | Mauro Napoli Memento | DensityDesign Lab | Flickr&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b.jpg&#34;
 	width=&#34;725&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_20b4d9cbb3943402.jpg 480w, http://localhost:1313/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_327795ea98ec25ef.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_20b4d9cbb3943402.jpg 480w, http://localhost:59740/densitydesign-lab-memento/images/2197456027_aa5279fdb6_b_hu_327795ea98ec25ef.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Valentina Ceruti&#34;

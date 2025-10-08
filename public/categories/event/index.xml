@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>イベント on Visualizing.JP</title>
-        <link>http://localhost:1313/categories/event/</link>
+        <link>http://localhost:59740/categories/event/</link>
         <description>Recent content in イベント on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/event/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/categories/event/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介</title>
-        <link>http://localhost:1313/transcriber/</link>
+        <link>http://localhost:59740/transcriber/</link>
         <pubDate>Fri, 30 Aug 2019 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/transcriber/</guid>
-        <description>&lt;img src="http://localhost:1313/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
+        <guid>http://localhost:59740/transcriber/</guid>
+        <description>&lt;img src="http://localhost:59740/transcriber/images/fi_Transcribe.png" alt="Featured image of post 海外カンファレンス参加の強い味方、AI自動文字起こしアプリ四つご紹介" /&gt;&lt;p&gt;AIによる音声の自動文字起こし（トランスクライブ）、良いサービスが続々登場しています。英語にも当然対応しているので、特に海外のカンファレンスに参加される方には強い味方になります。ぼくも実際に、カンファレンス会場でのライブ録音や動画ファイルの文字起こしとして、アカウント制限の目一杯まで使いまくっています。&lt;/p&gt;
 &lt;h2 id=&#34;海外カンファレンス参加のお供なら-otter&#34;&gt;海外カンファレンス参加のお供なら Otter
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Otter.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/transcriber/images/Otter.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;http://localhost:1313/transcriber/images/Otter_hu_4e1eff60f4f4afc8.png 480w, http://localhost:1313/transcriber/images/Otter_hu_38381da38d532426.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/transcriber/images/Otter_hu_4e1eff60f4f4afc8.png 480w, http://localhost:59740/transcriber/images/Otter_hu_38381da38d532426.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Otter&#34;
@@ -41,10 +41,10 @@
 ファイルのアップロードにも対応しているが、ウェブサービス上の動画を直接読み込むといったことは出来ない。
 動画ファイルをアップロードしても、音声のみがサイトに保存される。講演の様子をみながら音声をみたい場合には Trint を使う。&lt;/p&gt;
 &lt;h2 id=&#34;海外カンファレンスの公演録画を活用したいなら-trint&#34;&gt;海外カンファレンスの公演録画を活用したいなら Trint
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Trint.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/transcriber/images/Trint.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;http://localhost:1313/transcriber/images/Trint_hu_1a45e1792bb90fe7.png 480w, http://localhost:1313/transcriber/images/Trint_hu_429d3aee24ec3b64.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/transcriber/images/Trint_hu_1a45e1792bb90fe7.png 480w, http://localhost:59740/transcriber/images/Trint_hu_429d3aee24ec3b64.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Trint&#34;
@@ -65,10 +65,10 @@
 &lt;/ul&gt;
 &lt;p&gt;カンファレンス会場で、スマートデバイスを使って録音した内容を、その場でトランスクライブしてくれるほか、様々なウェブサービスに掲載されている動画を直接読み込むことができる。Otterでは音声しか残らなかったが、Trintは映像と音声の両方がサイトに保存される。ただし利用料はOtterに比べてかなり高め。&lt;/p&gt;
 &lt;h2 id=&#34;自分が作成した動画に自動で字幕をつけたいなら-vrew&#34;&gt;自分が作成した動画に自動で字幕をつけたいなら Vrew
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/Vrew.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/transcriber/images/Vrew.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;http://localhost:1313/transcriber/images/Vrew_hu_fe1ea0870b5b8a5a.png 480w, http://localhost:1313/transcriber/images/Vrew_hu_81f6966fd8989347.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/transcriber/images/Vrew_hu_fe1ea0870b5b8a5a.png 480w, http://localhost:59740/transcriber/images/Vrew_hu_81f6966fd8989347.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Vrew&#34;
@@ -89,10 +89,10 @@
 &lt;/ul&gt;
 &lt;p&gt;アプリ上で動画を見ながら、AIが自動生成した文言の訂正が行える。作業後、字幕付きの動画として書き出すことができる。&lt;/p&gt;
 &lt;h2 id=&#34;自分がイベントを開催する側で字幕を提供したいなら-ud-talk&#34;&gt;自分がイベントを開催する側で字幕を提供したいなら UD Talk
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/transcriber/images/UD_Talk.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/transcriber/images/UD_Talk.png&#34;
 	width=&#34;1439&#34;
 	height=&#34;973&#34;
-	srcset=&#34;http://localhost:1313/transcriber/images/UD_Talk_hu_a683973c037b10a2.png 480w, http://localhost:1313/transcriber/images/UD_Talk_hu_649708f7662b5348.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/transcriber/images/UD_Talk_hu_a683973c037b10a2.png 480w, http://localhost:59740/transcriber/images/UD_Talk_hu_649708f7662b5348.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;UD Talk&#34;
@@ -117,11 +117,11 @@
         </item>
         <item>
         <title>国立国会図書館 初のデータビジュアライゼーションイベントが開催されます</title>
-        <link>http://localhost:1313/ndl-dataviz/</link>
+        <link>http://localhost:59740/ndl-dataviz/</link>
         <pubDate>Wed, 13 Jul 2016 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/ndl-dataviz/</guid>
-        <description>&lt;img src="http://localhost:1313/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
+        <guid>http://localhost:59740/ndl-dataviz/</guid>
+        <description>&lt;img src="http://localhost:59740/ndl-dataviz/images/ndl2016-1-1.png" alt="Featured image of post 国立国会図書館 初のデータビジュアライゼーションイベントが開催されます" /&gt;&lt;p&gt;国立国会図書館 初のデータビジュアライゼーションイベントが開催されます。&lt;/p&gt;
 &lt;h2 id=&#34;国会図書館にはデータがたくさん&#34;&gt;国会図書館にはデータがたくさん
 &lt;/h2&gt;&lt;p&gt;国会図書館には収蔵している書籍に関するデータもあるのですが、今回は「ウェブサイト」がテーマとなっています。
 国会図書館では、15年前よりウェブページのアーカイブをおこなっており、その結果はWARPというウェブサービスとして公開されています。&lt;/p&gt;
@@ -135,10 +135,10 @@
 &lt;h2 id=&#34;都道府県どう並べる&#34;&gt;都道府県、どう並べる？
 &lt;/h2&gt;&lt;p&gt;グラフの種類が…とか、ツールが…と考える前に自由に発想してみましょう。
 円状に並ぶと、かわいいですね。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_circle.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_circle.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_circle_hu_e2a26a195dd443b3.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_dot_circle_hu_e616068fde3c072d.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_circle_hu_e2a26a195dd443b3.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_dot_circle_hu_e616068fde3c072d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -148,10 +148,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;一直線に並べてみたり。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_line.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_line.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_line_hu_c4c79c30022e6676.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_dot_line_hu_7cb280d379117292.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_line_hu_c4c79c30022e6676.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_dot_line_hu_7cb280d379117292.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -161,10 +161,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;地図っぽく並べてみたり。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_map.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_map.png&#34;
 	width=&#34;823&#34;
 	height=&#34;823&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_dot_map_hu_e48883bedcd99f1e.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_dot_map_hu_1f258744085f0821.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_dot_map_hu_e48883bedcd99f1e.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_dot_map_hu_1f258744085f0821.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -177,10 +177,10 @@
 &lt;/h2&gt;&lt;p&gt;それではこれらを使って、都道府県同士のつながりを線で表現してみましょう。つながりが強いほど太い線で表してみます。またつながりの質によって色を変えてみることにします。&lt;/p&gt;
 &lt;h3 id=&#34;円状&#34;&gt;円状
 &lt;/h3&gt;&lt;p&gt;円状に置いた都道府県同士を曲線でつないでいます。またつながりが多い都道府県ほど、弧の長さが長くなっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_all.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_all.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_all_hu_e2ad63988cdf9635.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_all_hu_4274cc664af89719.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_all_hu_e2ad63988cdf9635.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_all_hu_4274cc664af89719.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -191,10 +191,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;ここでは静止画でいくつかの都道府県にフォーカスしてみましょう。&lt;/p&gt;
 &lt;p&gt;八方美人な北海道&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_hokkaido.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_hokkaido.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_hokkaido_hu_75d4e02fc1cdb74c.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_hokkaido_hu_9148a822d0ec37e.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_hokkaido_hu_75d4e02fc1cdb74c.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_hokkaido_hu_9148a822d0ec37e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -205,10 +205,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;たくさんの都道府県にまんべんなくエールを送る、そつのない北海道。&lt;/p&gt;
 &lt;p&gt;関東エリアと大阪のみの東京&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_tokyo.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_tokyo.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_tokyo_hu_f48828f85527307a.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_tokyo_hu_c229d6f46bfc5eaa.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_tokyo_hu_f48828f85527307a.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_tokyo_hu_c229d6f46bfc5eaa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -219,10 +219,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;意外と付き合いの範囲が狭い東京（汗）。&lt;/p&gt;
 &lt;p&gt;自由奔放な長崎&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/ndl_nagasaki.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/ndl_nagasaki.png&#34;
 	width=&#34;848&#34;
 	height=&#34;783&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/ndl_nagasaki_hu_dce6593b7f552308.png 480w, http://localhost:1313/ndl-dataviz/images/ndl_nagasaki_hu_83a60380d1164e5e.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/ndl_nagasaki_hu_dce6593b7f552308.png 480w, http://localhost:59740/ndl-dataviz/images/ndl_nagasaki_hu_83a60380d1164e5e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -237,10 +237,10 @@
     &gt;都道府県サイトのリンク関係&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;一直線&#34;&gt;一直線
 &lt;/h3&gt;&lt;p&gt;この例は筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/NDL2_v.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/NDL2_v.png&#34;
 	width=&#34;1094&#34;
 	height=&#34;2175&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/NDL2_v_hu_bc1a75c243ba25e.png 480w, http://localhost:1313/ndl-dataviz/images/NDL2_v_hu_418e0fdc495c7990.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/NDL2_v_hu_bc1a75c243ba25e.png 480w, http://localhost:59740/ndl-dataviz/images/NDL2_v_hu_418e0fdc495c7990.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -251,10 +251,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;地図っぽく&#34;&gt;地図っぽく
 &lt;/h3&gt;&lt;p&gt;この例も筆者の作例で、個別の関係性を明らかにすることよりも、全体的にみたときの印象を重視してみました。日本列島を描かずに、日本を浮かび上がらせたらと思いました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ndl-dataviz/images/NDL1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/ndl-dataviz/images/NDL1.png&#34;
 	width=&#34;1119&#34;
 	height=&#34;1654&#34;
-	srcset=&#34;http://localhost:1313/ndl-dataviz/images/NDL1_hu_fe03243d813601b8.png 480w, http://localhost:1313/ndl-dataviz/images/NDL1_hu_a444d86757912eb5.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/ndl-dataviz/images/NDL1_hu_fe03243d813601b8.png 480w, http://localhost:59740/ndl-dataviz/images/NDL1_hu_a444d86757912eb5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -296,11 +296,11 @@
         </item>
         <item>
         <title>[OpenVis Conf 2014] John Resig講演</title>
-        <link>http://localhost:1313/openvisconf-2014-johnresig/</link>
+        <link>http://localhost:59740/openvisconf-2014-johnresig/</link>
         <pubDate>Tue, 01 Jul 2014 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/openvisconf-2014-johnresig/</guid>
-        <description>&lt;img src="http://localhost:1313/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
+        <guid>http://localhost:59740/openvisconf-2014-johnresig/</guid>
+        <description>&lt;img src="http://localhost:59740/openvisconf-2014-johnresig/images/fi_AnalyzingJapaneseArt.png" alt="Featured image of post [OpenVis Conf 2014] John Resig講演" /&gt;&lt;h1 id=&#34;openvis-conference-2014&#34;&gt;OpenVis Conference 2014
 &lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Part 2: Keynote Day 2&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-john-resig-analyzing-art-data-for-fun-and-profit&#34;&gt;2. John Resig: &lt;em&gt;Analyzing Art Data for Fun and Profit&lt;/em&gt;
 &lt;/h2&gt;&lt;p&gt;二日目のキーノートスピーカーは言わずと知れた著名ライブラリjQueryの作者、John Resigでした。彼はJavaScript関連の本を何冊も執筆している有名なJavaScriptハッカーですが、他方、非常に熱心な日本文化、特に浮世絵のファンとしての一面も持っています。彼のキーノートは、まさにその両面が融合された非常に興味深いものでした。&lt;/p&gt;
@@ -317,10 +317,10 @@
 &lt;/div&gt;
 
 &lt;h3 id=&#34;日本文化と浮世絵&#34;&gt;日本文化と浮世絵
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig01-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu_33fdb3d5ce380c12.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu_92687fe1dc7981e6.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu_33fdb3d5ce380c12.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig01-1_hu_92687fe1dc7981e6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -329,10 +329,10 @@
 		data-flex-basis=&#34;401px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig02-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu_81327539eb8583f.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu_bb7dbcf4d3d5c225.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu_81327539eb8583f.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig02-1_hu_bb7dbcf4d3d5c225.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -385,10 +385,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig03-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu_a941bba5fa9bcf4f.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu_e04333bb95f8ce81.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu_a941bba5fa9bcf4f.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig03-1_hu_e04333bb95f8ce81.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -400,10 +400,10 @@
 &lt;h4 id=&#34;コメント&#34;&gt;コメント
 &lt;/h4&gt;&lt;p&gt;日本人である私よりも、遥かに江戸文化に理解があるようでした。趣味とは言え凄いことです。そして同時に海外で暮らす人間として、自国文化への知識の欠如は恥ずかしいことだとも改めて認識しました。自国文化におけるaestheticsに対して自分なりの考えと理解を持つことは、英語よりもずっと大切です。印象派絵画と浮世絵の関係などは、欧米人あたりが良く興味を持って聞いてくるトピックですし。&lt;/p&gt;
 &lt;h3 id=&#34;浮世絵のデータベース&#34;&gt;浮世絵のデータベース
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig04-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;425&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu_cd7cacfb1d19afe7.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu_acb467e17b9d9092.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu_cd7cacfb1d19afe7.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig04-1_hu_acb467e17b9d9092.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -430,10 +430,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig05-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu_36537c367d8f7a77.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu_b0467020711099c4.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu_36537c367d8f7a77.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig05-1_hu_b0467020711099c4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -449,10 +449,10 @@
 &lt;li&gt;大学や美術館のデータベースは必ずしもベストではない。検索もあまり使い勝手が良くなかった。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5 id=&#34;実際の作業&#34;&gt;実際の作業
-&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
+&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig06-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;412&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu_73cc88323cc3a3d7.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu_d2f3556dadc3148d.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu_73cc88323cc3a3d7.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig06-1_hu_d2f3556dadc3148d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -486,10 +486,10 @@
 &lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;実際の版画を撮影してネットで検索&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig07-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu_3fe8735f65e1f97a.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu_ecbf609ef7ffeaf0.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu_3fe8735f65e1f97a.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig07-1_hu_ecbf609ef7ffeaf0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -498,10 +498,10 @@
 		data-flex-basis=&#34;411px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig08-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu_e6a444e39fe6e136.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu_5ae62fa970b3ddc3.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu_e6a444e39fe6e136.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig08-1_hu_5ae62fa970b3ddc3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -516,10 +516,10 @@
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;スクレイピングで得たデータベースを検索すると、たくさんの類似した画像が見つかった。それらは別のものなのか、何か共通点があるのか？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig09-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;402&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu_b27395f0017aa009.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu_2594f0216aba02a2.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu_b27395f0017aa009.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig09-1_hu_2594f0216aba02a2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -528,10 +528,10 @@
 		data-flex-basis=&#34;411px&#34;
 	
 &gt; * 例：　二つの良く似た浮世絵（歌舞伎役者） * メトロポリタンの画像データでサインを改変してあるものを発見した * 元々は同じもの。 * 多面的なデータ比較により、歌川国芳もののだと発見した&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig10-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig10-1_hu_829d2c7f79d01d96.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig10-1_hu_349af4ec73d7e14b.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig10-1_hu_829d2c7f79d01d96.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig10-1_hu_349af4ec73d7e14b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -544,10 +544,10 @@
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;日本人の名前の表記の揺れを吸収してメタデータを作成するのは困難な作業。(これは日本人にとっても困難な作業なので、日本語の専門家でもない外国人である彼がこの作業を一人でやってのけたのは驚きです。)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig13-1_hu_1dee4b02b253f92.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig13-1_hu_debc2df230e73bfc.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig13-1_hu_1dee4b02b253f92.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig13-1_hu_debc2df230e73bfc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -556,10 +556,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * 例: 浮世絵画家の「歌川広重」を指す名前のメタデータ * 広重 * 歌川広重 * hiroshige * Hiroshige utagawa * ひろしげ&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig11-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig11-1_hu_725c34962d743b62.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig11-1_hu_a0e61ace4afab2f7.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig11-1_hu_725c34962d743b62.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig11-1_hu_a0e61ace4afab2f7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -568,10 +568,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * 例：苗字の表記の揺れ * Ando, 安藤, 安東, あんどう, 安堂, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig12-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig12-1_hu_6670ce3cd3c8fcdc.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig12-1_hu_861259037864290b.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig12-1_hu_6670ce3cd3c8fcdc.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig12-1_hu_861259037864290b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -580,10 +580,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * これらの揺れを統合して一つのメタデータエントリに仕上げる。 * 発音、漢字、ローマ字等のデータを統合 * JSONとしてストア * (この作業を、彼は_Artist Rectification_と呼んでいた。「アーティスト情報の整流作業」とでも訳せばよいのだろうか？)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig14-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig14-1_hu_c9bbab405576e276.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig14-1_hu_23434a893b973ce6.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig14-1_hu_c9bbab405576e276.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig14-1_hu_23434a893b973ce6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -599,10 +599,10 @@
 &lt;/h5&gt;&lt;p&gt;&lt;code&gt;JSON:syaraku.json { &amp;quot;original&amp;quot;: &amp;quot;Sharaku Tōshūsai (東洲斎写楽)&amp;quot;, &amp;quot;locale&amp;quot;: &amp;quot;ja&amp;quot;, &amp;quot;kanji&amp;quot;: &amp;quot;東洲斎写楽&amp;quot;, &amp;quot;given&amp;quot;: &amp;quot;Sharaku&amp;quot;, &amp;quot;given_kana&amp;quot;: &amp;quot;しゃらく&amp;quot;, &amp;quot;surname&amp;quot;: &amp;quot;Tōshūsai&amp;quot;, &amp;quot;surname_kana&amp;quot;: &amp;quot;とおしゅうさい&amp;quot;, &amp;quot;surname_kanji&amp;quot;: &amp;quot;東洲斎&amp;quot;, &amp;quot;given_kanji&amp;quot;: &amp;quot;写楽&amp;quot;, &amp;quot;name&amp;quot;: &amp;quot;Tōshūsai Sharaku&amp;quot;, &amp;quot;ascii&amp;quot;: &amp;quot;Tooshuusai Sharaku&amp;quot;, &amp;quot;plain&amp;quot;: &amp;quot;Toshusai Sharaku&amp;quot;, &amp;quot;kana&amp;quot;: &amp;quot;とおしゅうさいしゃらく&amp;quot; }&lt;/code&gt;&lt;/p&gt;
 &lt;h5 id=&#34;コメント-1&#34;&gt;コメント
 &lt;/h5&gt;&lt;p&gt;多分に力技な部分もありますが、趣味でよくここまでやったなあ、というのが正直な感想です。ずいぶんと良くなってきたとは言え、様々な形で保存されている生物学関連の公共データベースのデータを統合する作業を日頃行っている身としては、色々と頷ける部分もある一方、こういう苦労が少なくなる「機械にやさしいウェブ」が世界には必要だという認識も新たにしました。最近は、天文学分野で使われる「ダークマター」と言う語をもじって、「ダークデータ」などという呼び方もあるようですが、情報としては価値があるにもかかわらず、機械からのアクセスが困難なためにネットの海の底にひっそりと眠っているこういったデータをサルベージする技術や標準化がますます必要な時代になると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig15-1_hu_57f54dd47a893858.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig15-1_hu_26b6b3cd6a70342.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig15-1_hu_57f54dd47a893858.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig15-1_hu_26b6b3cd6a70342.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -613,10 +613,10 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;フリックコレクションとのコラボレーション&#34;&gt;フリックコレクションとのコラボレーション
 &lt;/h3&gt;&lt;p&gt;このようなデータベースを作成する過程で、世界各地の美術館とコンタクトを取り合うようになり、結果、業務としてフリック・コレクション（ニューヨークにある美術館）とコラボレーションすることになった。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig16-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig16-1_hu_ab209491f5931593.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig16-1_hu_2569b9376717f651.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig16-1_hu_ab209491f5931593.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig16-1_hu_2569b9376717f651.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -647,10 +647,10 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig17-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig17-1_hu_c700a81cffc88118.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig17-1_hu_62db7fdd77b8fb4f.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig17-1_hu_c700a81cffc88118.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig17-1_hu_62db7fdd77b8fb4f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -659,10 +659,10 @@
 		data-flex-basis=&#34;415px&#34;
 	
 &gt; * アートをハックするには？ * オークションに行くといい * プレビューの日を使うと、買うか買わないかはともかく、非常に高価なものに間近で見て触れることが出来る&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig18-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;399&#34;
-	srcset=&#34;http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig18-1_hu_5e5dc3adaccbb0f1.png 480w, http://localhost:1313/openvisconf-2014-johnresig/images/ovc2014_resig18-1_hu_3e9673b5c7096557.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig18-1_hu_5e5dc3adaccbb0f1.png 480w, http://localhost:59740/openvisconf-2014-johnresig/images/ovc2014_resig18-1_hu_3e9673b5c7096557.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -682,14 +682,14 @@
         </item>
         <item>
         <title>d3.unconfレポート[後篇]</title>
-        <link>http://localhost:1313/d3-unconf-2014-2/</link>
+        <link>http://localhost:59740/d3-unconf-2014-2/</link>
         <pubDate>Sun, 20 Apr 2014 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/d3-unconf-2014-2/</guid>
-        <description>&lt;img src="http://localhost:1313/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
+        <guid>http://localhost:59740/d3-unconf-2014-2/</guid>
+        <description>&lt;img src="http://localhost:59740/d3-unconf-2014-2/images/fi_D3Conf2014-2.png" alt="Featured image of post d3.unconfレポート[後篇]" /&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;518&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_b2de60d50b50a628.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_38e769900d05c77.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_b2de60d50b50a628.jpg 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-2-1_hu_38e769900d05c77.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -699,10 +699,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;参加者がディスカッションの議題を持ち寄りunconferenceがスタートしました。実際のタイムテーブルはこのような感じです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-schedule-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;2037&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_4e16cafa11edfcbe.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_585f1750a3c5af4.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_4e16cafa11edfcbe.png 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-schedule-1_hu_585f1750a3c5af4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -730,10 +730,10 @@
     &gt;D3 on AngularJS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;なお、AngularJSとD3.jsの連携に関しては、本も出ているようです&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/book_D3OnAngularJS-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;323&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_876b8365db6babdf.png 480w, http://localhost:1313/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_729677cc78cca070.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_876b8365db6babdf.png 480w, http://localhost:59740/d3-unconf-2014-2/images/book_D3OnAngularJS-1_hu_729677cc78cca070.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -750,10 +750,10 @@
     &gt;d3unconf session (11:30-12:30) Network Visualization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;「再利用可能なチャートモジュールを」と言う目標でd3.chartライブラリが作られているように、ネットワーク（グラフ）可視化分野にも同じような考えが必要だと感じました。D3.jsで作られたよくあるネットワーク図は、こんな感じのものだと思います&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/YeastPPINetwork-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;359&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_227fbd1e305bc7ca.png 480w, http://localhost:1313/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_463fa642d193baf5.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_227fbd1e305bc7ca.png 480w, http://localhost:59740/d3-unconf-2014-2/images/YeastPPINetwork-1_hu_463fa642d193baf5.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -773,10 +773,10 @@
 &lt;p&gt;また最近は、クライアントのパフォーマンスが非常に高い場合、サーバー側にタスクを投げる必要はあるのかと言う問題もあります。グラフの大きさや構造によりますが、今の計算機のパワーを考えると、最短経路検索や簡単なクラスタリングなどはJavaScriptで書かれたクライアント側での処理とする方が自然です。そうなるとますます自前での実装は効率が悪いので、既存のプロジェクト同士が協力して「車輪の再発明」を避ける方向に動くべきだと感じました。&lt;/p&gt;
 &lt;h3 id=&#34;webglwebclを利用した大規模データの可視化&#34;&gt;WebGL/WebCLを利用した大規模データの可視化
 &lt;/h3&gt;&lt;p&gt;このセッションはLeoさんと言う最近データ解析の会社を立ち上げた方がメインで開発しているSuperconductorと言うフレームワークの話題が中心でした。これは現状で考えられうる最も先端のWeb関連テクノロジーを組み合わせて作られています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/Superconductor-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;438&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1_hu_6f28723a740d9bf4.png 480w, http://localhost:1313/d3-unconf-2014-2/images/Superconductor-1_hu_137af75230477c2d.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/Superconductor-1_hu_6f28723a740d9bf4.png 480w, http://localhost:59740/d3-unconf-2014-2/images/Superconductor-1_hu_137af75230477c2d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -787,10 +787,10 @@
 &gt; * &lt;a class=&#34;link&#34; href=&#34;http://superconductor.github.io/superconductor/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Superconductor&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;これは独自のDSLでデータ可視化の方法を記述することにより、GPUプログラミング特有の極めてローレベルな記述を覆い隠すようなフレームワークです。目標としては、OpenGLやGPGPUプログラミングに精通していないデータ解析者やプログラマにもGPUのパワーを活用できる機会を与える、と言うもののようです。ウェブブラウザ上で大規模なグラフィックスを描画したいときは、WebGLを使うというのが徐々に一般的になってきています。ゲーム業界などでも盛んに使われ始めていますので、WebGLは実際のプロジェクトに使うのに十分成熟してきたと感じます。一方、WebCLに関してはまだまだ使える環境が極端に限られるため、これからの技術ですが、数十倍・数百倍のオーダーで並列可能なアルゴリズムを高速化したい場合、現実的にはこれしか選択肢はないと思われますので、これから普及に入っていくと思われます。データ可視化の分野だと、レイアウトの計算やエッジバンドリングなど、非常に重い計算をしなければならな部分が幾つか存在するので、そういった部分もGPUを使って並列化することにより、WebGLとの組み合わせで、ほぼリアルタイムでインタラクティブな解析ができるようになると思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;518&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_685e6c4a4b2f35bc.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_25e26cbde53c96e1.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_685e6c4a4b2f35bc.jpg 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-presentation-1_hu_25e26cbde53c96e1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -800,10 +800,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;更に、PathGLと言うこの辺りのGPU活用ノウハウをD3.jsと組み合わせたフレームワークも紹介されました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-PathGL-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;394&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1069461cc5184e56.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1b80d4938294e297.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1069461cc5184e56.png 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-PathGL-1_hu_1b80d4938294e297.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -816,10 +816,10 @@
 &lt;h4 id=&#34;バックエンドかフロントエンドか&#34;&gt;バックエンドかフロントエンドか？
 &lt;/h4&gt;&lt;p&gt;ここまでクライアントが高性能になると、何をバックエンドに任せ、何をフロントエンドで処理するかと言う問題も出てきます。現在は移行期に当たり、ハイパフォーマンスなクライアント（ハイエンドデスクトップマシンなど）が利用できる場合、かなりの部分をフロントエンドで行っても問題がない一方、タブレット等で走るブラウザではまだまだ使いものにならないアプリケーションも数多く存在します。もしユーザ（ここでは科学技術系の複雑な可視化ソフトウェアのユーザ）がそういったデバイスでの作業を求めた時、クライアントの種類によってサーバから配布するソフトウェアを切り替える必要があるかもしれません。&lt;/p&gt;
 &lt;p&gt;以下はこのセッションで触れられた最近のブラウザを使って実装されたアプリケーションの例です&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/GLSLSandbox-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;359&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1_hu_a536aea62daef4a4.png 480w, http://localhost:1313/d3-unconf-2014-2/images/GLSLSandbox-1_hu_6d7edce7166f5e8.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/GLSLSandbox-1_hu_a536aea62daef4a4.png 480w, http://localhost:59740/d3-unconf-2014-2/images/GLSLSandbox-1_hu_6d7edce7166f5e8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -829,10 +829,10 @@
 	
 &gt;* &lt;a class=&#34;link&#34; href=&#34;http://glsl.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GLSL Sandbox&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/StellarNeighborhood-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;528&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_19c531da901dd963.png 480w, http://localhost:1313/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_db0d5cb3496c0cd1.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_19c531da901dd963.png 480w, http://localhost:59740/d3-unconf-2014-2/images/StellarNeighborhood-1_hu_db0d5cb3496c0cd1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -850,10 +850,10 @@
 &lt;p&gt;（ちなみに、ラストオーサーの方はD3.js作者のMike Bostock氏の院生時代のアドバイザーです。）&lt;/p&gt;
 &lt;h3 id=&#34;ニューラルネットワークの可視化&#34;&gt;ニューラルネットワークの可視化
 &lt;/h3&gt;&lt;p&gt;バズワードと言っていいくらい、最近はメディアでも「機械学習」や「ディープラーニング」と言った言葉を耳にするようになってきました。このセッションは、機械学習の手法でも歴史の古いニューラルネットワークの学習過程等を可視化してみようというもので、計算機科学の博士課程の学生さんがリードしていました。よく入力、出力の各ユニット、その間の隠れ層を接続したネットワークを可視化したものはよく見かけると思います。教師あり学習の場合、トレーニングセットを食わせている時にどのようにネットワークがデータを学習しているのかをリアルタイムで見えるように、ブラウザで動くクライアントを作ろう、と言う感じです。このセッションで紹介された以下のライブラリは可視化そのものがゴールではないですが、ブラウザひとつで実際に学習プロセスを走らせてしまおうというもので、教材としても面白いのではないかと思いました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/ConvNetJS-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;580&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1_hu_33d9b80e2dbae8e1.png 480w, http://localhost:1313/d3-unconf-2014-2/images/ConvNetJS-1_hu_ff79e9016979ef86.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/ConvNetJS-1_hu_33d9b80e2dbae8e1.png 480w, http://localhost:59740/d3-unconf-2014-2/images/ConvNetJS-1_hu_ff79e9016979ef86.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -868,10 +868,10 @@
     &gt;HotNet&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;生物学と可視化&#34;&gt;生物学と可視化
 &lt;/h3&gt;&lt;p&gt;これも意外だったのですが、なぜか生物学関連のセッションがありましたので参加してみました。果たしてそのディスカッションのリーダーは、私の業務プロジェクトのコラボレーターの方でした。トピックは生化学的パスウェイの可視化についてでしたが、現実的にはそれをブラウザ上で行うと言う事は、ブラウザ上にHTML5関連技術を使ってVisioやOmniGraphのようなソフトウェアを構築する事に等しいので、他分野の方にこういう分野がある事を紹介し、協力者を募ると言う感じでした。私も便乗して、自分のプロジェクトを紹介してみました(下図を参照)。データの内容にはそれほど深く立ち入りませんでしたが、取り敢えず複雑な可視化を求められる問題のドメインが存在して、そういう方面で才能のあるプログラマを求めているよ、と言う思いは伝わったと思います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-nexo-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;404&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_33acac23c0cc2310.png 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_2f4147bb91788eaa.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_33acac23c0cc2310.png 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014-nexo-1_hu_2f4147bb91788eaa.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -887,10 +887,10 @@
 &lt;h3 id=&#34;リアルタイムデータ&#34;&gt;リアルタイムデータ
 &lt;/h3&gt;&lt;p&gt;さて最後のセッションにもなると、皆各自でコードを書いていたり酒を飲んでいたりとグダグダになりつつあったのですが、まあそれもこの形式のいいところということで。最後に覗いてみたこのセッションでは、Leap Motionを使い、そこから得られるデータをリアルタイムのデータストリームとみなし、それをD3.jsを使ったJavaScriptのコードで可視化する、と言った感じでした。まあお遊びといえばそれまでですが、ジェスチャー入力はまだまだ色んなポテンシャルがあると思うので、こういう遊びの中から色々と面白いものが生まれて行けばいいと思います。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014_turntable-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;442&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_ce6e3d3c67d7aa74.jpg 480w, http://localhost:1313/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_387855e27a2c235e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_ce6e3d3c67d7aa74.jpg 480w, http://localhost:59740/d3-unconf-2014-2/images/d3uncon2014_turntable-1_hu_387855e27a2c235e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -903,17 +903,17 @@
         </item>
         <item>
         <title>d3.unconfレポート[前篇]</title>
-        <link>http://localhost:1313/d3-unconf-2014-1/</link>
+        <link>http://localhost:59740/d3-unconf-2014-1/</link>
         <pubDate>Fri, 11 Apr 2014 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/d3-unconf-2014-1/</guid>
-        <description>&lt;img src="http://localhost:1313/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>http://localhost:59740/d3-unconf-2014-1/</guid>
+        <description>&lt;img src="http://localhost:59740/d3-unconf-2014-1/images/fi_D3Conf2014-1.png" alt="Featured image of post d3.unconfレポート[前篇]" /&gt;&lt;p&gt;Keiichiro Ono UC, San Diego School of Medicine &lt;a class=&#34;link&#34; href=&#34;http://www.cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Cytoscape Consortium&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;はじめに&#34;&gt;はじめに
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-pass.jpg&#34;
 	width=&#34;210&#34;
 	height=&#34;280&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass_hu_af860f46d4ccd577.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-pass_hu_eaddf50008cca1ca.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-pass_hu_af860f46d4ccd577.jpg 480w, http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-pass_hu_eaddf50008cca1ca.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;pass&#34;
@@ -930,10 +930,10 @@
     &gt;GitHub&lt;/a&gt;本社にて行われた&lt;a class=&#34;link&#34; href=&#34;http://visfest.com/d3unconf/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;d3.unconf&lt;/a&gt;というD3.jsや可視化周辺の実務的な話題を扱う会議がありました。Cesar Chavez Dayで三連休だと言うこともあり&lt;a class=&#34;link&#34; href=&#34;#1&#34; &gt;1&lt;/a&gt;、私にとってはちょうどいいタイミングでしたので、久しぶりにサンフランシスコまで足を伸ばしてみました。このカンファレンスがどのようなものだったか一通りレポートしてみます。&lt;/p&gt;
 &lt;h2 id=&#34;どんなカンファレンスか&#34;&gt;どんなカンファレンスか？
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-overview-1.jpg&#34;
 	width=&#34;650&#34;
 	height=&#34;433&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_af63d0cbe1705a8e.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_33d9dbd0fc38f42e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_af63d0cbe1705a8e.jpg 480w, http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-overview-1_hu_33d9dbd0fc38f42e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -961,10 +961,10 @@
     &gt;http://visfest.com/d3unconf/blocks.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;unconference&#34;&gt;Unconference
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-unconf.jpg&#34;
 	width=&#34;210&#34;
 	height=&#34;280&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_1ff562cd4d1b149c.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_d0056c9e53b35d95.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_1ff562cd4d1b149c.jpg 480w, http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-unconf_hu_d0056c9e53b35d95.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;unconf&#34;
@@ -977,10 +977,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;今回のカンファレンスは、d3.unconfと言う名前の通りunconference（アンコンファレンス）形式で行われました。日本ではあまり馴染みの無い言葉かもしれませんが、unconferenceと言うのはテック系のワークショップやカンファレンスでは最近よく使われる手法です。これは当日まで細かいトピックについては決定せず、スピーカーも基本的には決めない形で集まります。そして開催日の朝にその日話し合うトピックを参加者らが出し合い、主催者は各トラックの時間と場所だけを指定して、参加者から提示されたトピックを各トラックに割り当ててその日のスケジュールを決定します。その後ディスカッションが成立しやすいように、数人から数十人程度のグループに分かれて各トピックについて話し合います。余談ですが、Googleがオープンソースプロジェクト開発者向けに毎年本社で開催しているGoogle Summer of Codeの&lt;a class=&#34;link&#34; href=&#34;http://google-opensource.blogspot.com/2013/11/google-summer-of-code-mentor-summit-2013.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mentor Summit&lt;/a&gt;もこの形式で行われています。こちらにも何回か参加しましたが、様々な話題にカジュアルに参加できて楽しかったです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1.jpg&#34;
 	width=&#34;690&#34;
 	height=&#34;384&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_55323236db751199.jpg 480w, http://localhost:1313/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_c296e0194d339693.jpg 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_55323236db751199.jpg 480w, http://localhost:59740/d3-unconf-2014-1/images/d3uncon2014-IreneRoss-1_hu_c296e0194d339693.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -991,10 +991,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;今回はIrene Ross氏によるキーノートで始まりました。彼女は&lt;a class=&#34;link&#34; href=&#34;http://bocoup.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Bocoup&lt;/a&gt;と言う会社で各種可視化システムやアプリケーション構築のコンサルティング、オープンソースソフトウェアの開発、関連ツールの教育を行っている方で、Misoプロジェクト&lt;a class=&#34;link&#34; href=&#34;#2&#34; &gt;2&lt;/a&gt;と言うD3.jsをより便利に使うためのツール群を作っていらっしゃいます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-unconf-2014-1/images/logo-miso-project.png&#34;
 	width=&#34;600&#34;
 	height=&#34;200&#34;
-	srcset=&#34;http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project_hu_2049f7bbdb1c4fe9.png 480w, http://localhost:1313/d3-unconf-2014-1/images/logo-miso-project_hu_f384ba13009d2b1.png 1024w&#34;
+	srcset=&#34;http://localhost:59740/d3-unconf-2014-1/images/logo-miso-project_hu_2049f7bbdb1c4fe9.png 480w, http://localhost:59740/d3-unconf-2014-1/images/logo-miso-project_hu_f384ba13009d2b1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;miso&#34;

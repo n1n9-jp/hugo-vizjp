@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Visualizing.JP</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:59740/categories/</link>
         <description>Recent content in Categories on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>チャート・カタログ</title>
-        <link>http://localhost:1313/categories/chart/</link>
+        <link>http://localhost:59740/categories/chart/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/chart/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/chart/chart.png" alt="Featured image of post チャート・カタログ" /&gt;</description>
+        <guid>http://localhost:59740/categories/chart/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/chart/chart.png" alt="Featured image of post チャート・カタログ" /&gt;</description>
         </item>
         <item>
         <title>見るための記事</title>
-        <link>http://localhost:1313/categories/consume/</link>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
+        <link>http://localhost:59740/categories/consume/</link>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/consume/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/consume/consume.png" alt="Featured image of post 見るための記事" /&gt;</description>
+        <guid>http://localhost:59740/categories/consume/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/consume/consume.png" alt="Featured image of post 見るための記事" /&gt;</description>
         </item>
         <item>
         <title>作るための記事</title>
-        <link>http://localhost:1313/categories/technology/</link>
+        <link>http://localhost:59740/categories/technology/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/technology/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/technology/technology.png" alt="Featured image of post 作るための記事" /&gt;</description>
+        <guid>http://localhost:59740/categories/technology/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/technology/technology.png" alt="Featured image of post 作るための記事" /&gt;</description>
         </item>
         <item>
         <title>データ可視化の原理</title>
-        <link>http://localhost:1313/categories/principle/</link>
+        <link>http://localhost:59740/categories/principle/</link>
         <pubDate>Sun, 07 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/principle/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/principle/principle.png" alt="Featured image of post データ可視化の原理" /&gt;</description>
+        <guid>http://localhost:59740/categories/principle/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/principle/principle.png" alt="Featured image of post データ可視化の原理" /&gt;</description>
         </item>
         <item>
         <title>教えるための記事</title>
-        <link>http://localhost:1313/categories/education/</link>
+        <link>http://localhost:59740/categories/education/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/education/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/education/education.png" alt="Featured image of post 教えるための記事" /&gt;</description>
+        <guid>http://localhost:59740/categories/education/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/education/education.png" alt="Featured image of post 教えるための記事" /&gt;</description>
         </item>
         <item>
         <title>データ・ジャーナリズム</title>
-        <link>http://localhost:1313/categories/data-journalism/</link>
+        <link>http://localhost:59740/categories/data-journalism/</link>
         <pubDate>Mon, 10 May 2021 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/data-journalism/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/data-journalism/data-journalism.png" alt="Featured image of post データ・ジャーナリズム" /&gt;</description>
+        <guid>http://localhost:59740/categories/data-journalism/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/data-journalism/data-journalism.png" alt="Featured image of post データ・ジャーナリズム" /&gt;</description>
         </item>
         <item>
         <title>イベント</title>
-        <link>http://localhost:1313/categories/event/</link>
+        <link>http://localhost:59740/categories/event/</link>
         <pubDate>Fri, 30 Aug 2019 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/categories/event/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/event/event.png" alt="Featured image of post イベント" /&gt;</description>
+        <guid>http://localhost:59740/categories/event/</guid>
+        <description>&lt;img src="http://localhost:59740/categories/event/event.png" alt="Featured image of post イベント" /&gt;</description>
         </item>
         
     </channel>

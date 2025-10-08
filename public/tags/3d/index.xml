@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>3d on Visualizing.JP</title>
-        <link>http://localhost:1313/tags/3d/</link>
+        <link>http://localhost:59740/tags/3d/</link>
         <description>Recent content in 3d on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/3d/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/3d/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
-        <link>http://localhost:1313/mapbox-gl-js-v2/</link>
+        <link>http://localhost:59740/mapbox-gl-js-v2/</link>
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/mapbox-gl-js-v2/</guid>
-        <description>&lt;img src="http://localhost:1313/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
+        <guid>http://localhost:59740/mapbox-gl-js-v2/</guid>
+        <description>&lt;img src="http://localhost:59740/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
 &lt;/h2&gt;&lt;p&gt;mapbox-gl-jsとは、WebGLを用いてベクター形式の地図タイルをレンダリングし、インタラクティブに操作することを可能にするJavaScriptライブラリです。&lt;/p&gt;
 &lt;p&gt;v1.0台の頃は、このライブラリを使用するけども、サーバサイド側でMapboxのサービス（＝Mapbox提供の地図タイルサービス）を利用しない場合、料金はかかりませんでした。v2.0以降は、このライブラリを使用するだけでも、ライブラリの呼び出し回数に基づいた利用料を払う必要があるよう、規約が変更されました。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mapbox/mapbox-gl-js/issues/10162&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
