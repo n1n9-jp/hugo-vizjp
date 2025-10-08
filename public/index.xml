@@ -116,6 +116,129 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ベン図 (Venn Diagram) とは</title>
+        <link>http://localhost:1313/venn-diagram/</link>
+        <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/venn-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/venn-diagram/images/cover.png" alt="Featured image of post ベン図 (Venn Diagram) とは" /&gt;&lt;p&gt;ベン図（Venn diagram）は、複数の集合（set）の関係を視覚的に表す図法であり、論理学や集合論の基本的な概念を理解するための代表的な手段です。&lt;br&gt;
+各集合を円や楕円で表し、それらの重なり（交わり）や分離（排他性）によって、要素の関係を直感的に把握できる点が特徴です。&lt;/p&gt;
+&lt;p&gt;ベン図は、2つまたは3つの集合関係を示す場合が多く、それぞれの領域が「共通部分」「差集合」「補集合」などの意味を持ちます。数学・統計・情報科学・ビジネス分析など、幅広い分野で利用されています。&lt;/p&gt;
+&lt;h2 id=&#34;歴史的背景&#34;&gt;歴史的背景
+&lt;/h2&gt;&lt;p&gt;ベン図は、イギリスの論理学者 &lt;strong&gt;ジョン・ベン (John Venn, 1834–1923)&lt;/strong&gt; によって1880年に体系化されました。&lt;/p&gt;
+&lt;p&gt;彼の論文「&lt;em&gt;On the Diagrammatic and Mechanical Representation of Propositions and Reasonings&lt;/em&gt;」において、複数の集合の包含関係を図示する方法として提案されたのが起源です。&lt;/p&gt;
+&lt;p&gt;ただし、集合関係を図で表す試み自体は18世紀の数学者 &lt;strong&gt;レオンハルト・オイラー (Leonhard Euler)&lt;/strong&gt; にさかのぼります。オイラー図では、実際に存在する関係のみを描きますが、ベン図は&lt;strong&gt;すべての論理的な可能性&lt;/strong&gt;（2ⁿ通り）を含む点が異なります。&lt;/p&gt;
+&lt;p&gt;つまり、ベン図はオイラー図を拡張し、論理的完全性を備えた体系として確立されたものです。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;ベン図の基本構成は以下の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;記号&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;図中の位置関係&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(A) , (B)&lt;/td&gt;
+          &lt;td&gt;各集合&lt;/td&gt;
+          &lt;td&gt;円や楕円で表される領域&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(A \cup B)&lt;/td&gt;
+          &lt;td&gt;和集合（どちらかに属する）&lt;/td&gt;
+          &lt;td&gt;2つの円のすべての部分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(A \cap B)&lt;/td&gt;
+          &lt;td&gt;共通部分（両方に属する）&lt;/td&gt;
+          &lt;td&gt;2つの円の重なり部分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(A - B)&lt;/td&gt;
+          &lt;td&gt;差集合（Aのみに属する）&lt;/td&gt;
+          &lt;td&gt;AのうちBと重ならない部分&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;(A^c)&lt;/td&gt;
+          &lt;td&gt;補集合&lt;/td&gt;
+          &lt;td&gt;全体集合からAを除いた部分&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば、学生の集合を例にとると：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(A)：英語を履修している学生&lt;/li&gt;
+&lt;li&gt;(B)：数学を履修している学生&lt;/li&gt;
+&lt;li&gt;(A \cap B)：両方を履修している学生&lt;/li&gt;
+&lt;li&gt;(A - B)：英語のみ履修している学生&lt;/li&gt;
+&lt;li&gt;(B - A)：数学のみ履修している学生&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、集合間の関係を直感的に把握することができます。&lt;/p&gt;
+&lt;h2 id=&#34;応用例&#34;&gt;応用例
+&lt;/h2&gt;&lt;h3 id=&#34;1-教育論理学&#34;&gt;1. 教育・論理学
+&lt;/h3&gt;&lt;p&gt;論理式の真理値表を視覚的に示したり、集合演算（和・積・補）の導入教材として利用されます。&lt;/p&gt;
+&lt;h3 id=&#34;2-データ分析&#34;&gt;2. データ分析
+&lt;/h3&gt;&lt;p&gt;異なるデータ群（例：顧客層・購買層・Web閲覧層など）の重なりを示す際に用いられます。特にマーケティングやユーザー分析の分野では、要素の共通性を説明するための視覚ツールとして有効です。&lt;/p&gt;
+&lt;h3 id=&#34;3-コンピュータ科学&#34;&gt;3. コンピュータ科学
+&lt;/h3&gt;&lt;p&gt;論理回路の設計、確率論、データベースの集合演算など、数理的な構造を理解する上でも用いられます。&lt;/p&gt;
+&lt;h3 id=&#34;4-ビジュアルデザイン情報可視化&#34;&gt;4. ビジュアルデザイン・情報可視化
+&lt;/h3&gt;&lt;p&gt;要素の関係を簡潔に伝える図として、スライド資料やインフォグラフィックスでも広く活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;ベン図とオイラー図の違い&#34;&gt;ベン図とオイラー図の違い
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;項目&lt;/th&gt;
+          &lt;th&gt;ベン図&lt;/th&gt;
+          &lt;th&gt;オイラー図&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;発案者&lt;/td&gt;
+          &lt;td&gt;ジョン・ベン（1880）&lt;/td&gt;
+          &lt;td&gt;レオンハルト・オイラー（18世紀）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;表現対象&lt;/td&gt;
+          &lt;td&gt;すべての論理的可能性を網羅&lt;/td&gt;
+          &lt;td&gt;実際に存在する関係のみを表す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;領域数&lt;/td&gt;
+          &lt;td&gt;(2^n)（nは集合数）&lt;/td&gt;
+          &lt;td&gt;必要な領域のみ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;用途&lt;/td&gt;
+          &lt;td&gt;論理・集合論の教育、理論的解析&lt;/td&gt;
+          &lt;td&gt;実際の関係図示や概念分類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;図形の形&lt;/td&gt;
+          &lt;td&gt;通常は円または閉曲線&lt;/td&gt;
+          &lt;td&gt;任意の形（しばしば非対称）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、ベン図は理論的厳密性を優先するのに対し、オイラー図は現実的な関係を簡潔に表現するために使われます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ベン図は、複数の集合や概念の関係を &lt;strong&gt;論理的かつ直感的に表すための基礎的図法&lt;/strong&gt; であり、数学・教育・デザインなど多くの分野で重宝されています。&lt;br&gt;
+その単純な形の背後には、「論理の全可能性を包含する」という厳密な理念があり、オイラー図との対比を理解することで、より深い洞察を得ることができます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Venn_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Venn diagram - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%B3%E5%9B%B3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ベン図 - Wikipedia日本語版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.lucidchart.com/blog/ja/venn-diagram-symbols-explained&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lucidchart Blog: ベン図の使い方と記号の意味&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.investopedia.com/terms/v/venn-diagram.asp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Investopedia: What Is a Venn Diagram?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ナポレオンのロシア遠征を描いたミナールの「損耗の地図」</title>
         <link>http://localhost:1313/minard-napoleon-march-to-moscow/</link>
         <pubDate>Mon, 06 Oct 2025 00:00:00 +0900</pubDate>
