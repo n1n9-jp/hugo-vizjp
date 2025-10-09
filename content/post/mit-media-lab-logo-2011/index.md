@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "オリジナルのビジュアル変換",
 ]
 image = "images/mit_logocolorvariations_logomain_014.jpg"
 +++

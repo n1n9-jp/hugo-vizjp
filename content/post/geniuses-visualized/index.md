@@ -8,6 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
+    "オリジナルのビジュアル変換",
 ]
 image = "images/cover.png"
 +++

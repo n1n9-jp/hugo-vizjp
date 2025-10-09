@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "言葉"
+    "言葉","オリジナルのビジュアル変換"
 ]
 image = "images/cover.png"
 +++
