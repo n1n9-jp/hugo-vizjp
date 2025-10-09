@@ -7,7 +7,79 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>時間‐距離図（Time-Distance Diagram）とは</title>
+        <link>http://localhost:1313/time-distance-diagram/</link>
+        <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/time-distance-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/time-distance-diagram/images/thumb_ph_vizjp.png" alt="Featured image of post 時間‐距離図（Time-Distance Diagram）とは" /&gt;&lt;p&gt;&lt;strong&gt;時間‐距離図（Time-Distance Diagram）&lt;/strong&gt; は、鉄道・交通分野を中心に用いられる可視化手法で、縦軸に「距離（または駅・地点）」、横軸に「時間」をとり、列車やバスなどの移動体の運行を線で表現するダイアグラムです。&lt;/p&gt;
+&lt;p&gt;横軸を時間に、縦軸を距離に取ることで &lt;strong&gt;移動体の動き＝時間と空間の関係&lt;/strong&gt; を一枚で視覚的に把握できるのが特徴です。&lt;/p&gt;
+&lt;p&gt;この図は「ダイヤグラム（ダイヤグラフ）」とも呼ばれ、特に日本では鉄道運行管理やダイヤ作成で長く利用されています。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;時間‐距離図の基本的な読み方は以下の通りです。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;横軸：時間（Time）&lt;/strong&gt;&lt;br&gt;
+　左から右へ進むほど時間が経過します。多くの場合、縦線が一定間隔で引かれ、時刻（例：0時・6時・12時・18時など）が示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;縦軸：距離または地点（Distance / Station）&lt;/strong&gt;&lt;br&gt;
+　上から下、あるいは下から上に駅や地名が並び、物理的な距離や停車位置を表します。&lt;br&gt;
+　駅間の距離が等間隔でない場合もあり、&lt;strong&gt;距離に比例させるか、停車順序だけで並べるか&lt;/strong&gt;で情報の粒度が変わります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;斜線：移動体の運行経路（Train / Bus Line）&lt;/strong&gt;&lt;br&gt;
+　線の傾きが移動速度を意味します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;線が &lt;strong&gt;急傾斜（垂直に近い）&lt;/strong&gt; ：移動速度が遅い（時間がかかる）。&lt;/li&gt;
+&lt;li&gt;線が &lt;strong&gt;緩やか（水平に近い）&lt;/strong&gt; ：移動速度が速い。&lt;br&gt;
+　このため &lt;strong&gt;線の傾き＝速度&lt;/strong&gt; という直感的な理解が可能です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;交差点：列車同士のすれ違い（Meet / Pass）&lt;/strong&gt;&lt;br&gt;
+　2本の線が交わる点は、上下線の列車がすれ違う場所や時刻を示します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;停車区間（Horizontal segment）&lt;/strong&gt;&lt;br&gt;
+　水平に近い線分は、駅に停車している時間を表します。停車時間が長いほど水平線が長くなります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;時間‐距離図は19世紀末から20世紀初頭にかけて発展したもので、当初は&lt;strong&gt;鉄道運行の効率化と安全性確保&lt;/strong&gt;を目的に導入されました。&lt;/p&gt;
+&lt;p&gt;列車の遅延や待避、接続関係などを視覚的に把握できるため、運行管理者やダイヤ作成担当者にとって不可欠なツールとなっています。&lt;/p&gt;
+&lt;p&gt;また近年では、以下のような広い応用が見られます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;バス路線・都市交通の運行分析&lt;/strong&gt;&lt;br&gt;
+　混雑や遅延の可視化に用いられます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自動運転車・物流ネットワークのシミュレーション&lt;/strong&gt;&lt;br&gt;
+　複数車両の動きを時間軸上で統合的に解析可能です。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;鉄道ファンや教育用途でのデータ可視化&lt;/strong&gt;&lt;br&gt;
+　運行計画の理解、時刻表設計の学習にも利用されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;時間‐距離図は &lt;strong&gt;時間と空間を同時に扱う可視化の典型例&lt;/strong&gt; であり、単なる運行管理ツールにとどまらず、「動き」を直感的に理解するための強力な表現形式です。&lt;/p&gt;
+&lt;p&gt;その構造はシンプルでありながら、速度・遅延・接続など、複雑な関係を一目で伝える力を持っています。近年ではデジタル可視化やWebアプリ（例：D3.js, Observable, Mapboxなど）にも応用されており、交通設計・データジャーナリズム・教育など幅広い分野で再評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Time%E2%80%93distance_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Time–distance diagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.wikipedia.org/wiki/%E3%83%80%E3%82%A4%E3%83%A4%E3%82%B0%E3%83%A9%E3%83%A0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ウィキペディア：ダイヤグラム（鉄道）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.rtri.or.jp/sales/pdf/pamph_201610_transport.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;鉄道総研：運転曲線図作成システム（PDF）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bunken.rtri.or.jp/doc/fileDown.jsp?RairacID=0004003869&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;鉄道総研『輸送計画』解説（PDF）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.networkrail.co.uk/industry-and-commercial/information-for-operators/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Network Rail: Information for operators（Operational Rules/Working Timetable）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.atsb.gov.au/sites/default/files/media/1540704/rair2005005_001.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ATSB（豪州運輸安全局）：衝突事故報告書—Train control diagram の説明を含む（PDF）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.opentrack.ch/opentrack/downloads/OpenTrack.Info_EN.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenTrack: Simulation of Railway Networks（Train graph 図を含むPDF）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>オイラー図（Euler Diagram）とは</title>
         <link>http://localhost:1313/euler-diagram/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
