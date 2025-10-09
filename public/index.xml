@@ -288,6 +288,104 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</title>
+        <link>http://localhost:59740/population-attributable-fraction/</link>
+        <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:59740/population-attributable-fraction/</guid>
+        <description>&lt;img src="http://localhost:59740/population-attributable-fraction/images/cover.png" alt="Featured image of post 認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化" /&gt;&lt;p&gt;この図は &lt;strong&gt;『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』&lt;/strong&gt; に掲載された、認知症リスク要因の総覧図です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:59740/population-attributable-fraction/images/mainvisual.png&#34;
+	width=&#34;1480&#34;
+	height=&#34;2260&#34;
+	srcset=&#34;http://localhost:59740/population-attributable-fraction/images/mainvisual_hu_9a37c55f8e92701.png 480w, http://localhost:59740/population-attributable-fraction/images/mainvisual_hu_63e3514aebe6a1e8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;65&#34;
+		data-flex-basis=&#34;157px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この報告書は、医学・社会・教育・都市政策の観点から &lt;strong&gt;認知症の発症を遅らせ、予防するための実証的エビデンス&lt;/strong&gt; を体系化した国際的な政策提言文書であり、世界保健機関（WHO）や各国の国民保健指針に強い影響を与えています。&lt;/p&gt;
+&lt;p&gt;図は、人生の三段階（ &lt;strong&gt;Early life・Midlife・Late life&lt;/strong&gt; ）にわたる12の修正可能なリスク要因を示し、これらを取り除くことで &lt;strong&gt;最大45％の認知症症例が予防可能&lt;/strong&gt; であることを示唆しています。&lt;/p&gt;
+&lt;h3 id=&#34;図のコンテクスト&#34;&gt;図のコンテクスト
+&lt;/h3&gt;&lt;p&gt;この図は、報告書の中核セクションである &lt;strong&gt;“Potentially modifiable risk factors for dementia across the life course”&lt;/strong&gt; に含まれており、「認知症は加齢によって必ず発症するものではない」というメッセージを、科学的根拠に基づき示した象徴的なビジュアルです。&lt;/p&gt;
+&lt;p&gt;報告書では、次のように説明されています：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Modifiable risk factors account for around 45% of dementia cases, suggesting that nearly half of global dementia burden could be prevented or delayed.”&lt;br&gt;
+（修正可能なリスク要因は全体の約45％を占め、世界的な認知症負担のほぼ半分は予防または遅延が可能である。）&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;このビジュアルは論文の本文中だけでなく、WHOやOECDの政策資料、各国の公衆衛生ガイドラインにおいても引用されています。&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;p&gt;この図は、&lt;strong&gt;ライフコース視点の因果連鎖を可視化した図&lt;/strong&gt; と分類できます。&lt;br&gt;
+一般的な散布図や円グラフとは異なり、「人生の流れ（early → mid → late）」という &lt;strong&gt;時間軸を連続的に描きながら、リスク要因を重ね合わせる&lt;/strong&gt; 構造になっています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ライフステージ&lt;/th&gt;
+          &lt;th&gt;主なリスク要因&lt;/th&gt;
+          &lt;th&gt;寄与率（Population Attributable Fraction, %）&lt;/th&gt;
+          &lt;th&gt;色区分&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Early life（幼少期）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;低教育（Less education）&lt;/td&gt;
+          &lt;td&gt;約 5%&lt;/td&gt;
+          &lt;td&gt;緑&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Midlife（中年期）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;難聴（Hearing loss）、高LDLコレステロール（High LDL cholesterol）、うつ病（Depression）、頭部外傷（Head injury）、運動不足（Physical inactivity）、糖尿病（Diabetes）、喫煙（Smoking）、高血圧（Hypertension）、肥満（Obesity）、過度の飲酒（Excessive alcohol consumption）&lt;/td&gt;
+          &lt;td&gt;約 7〜1%&lt;/td&gt;
+          &lt;td&gt;黄&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Late life（老年期）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;社会的孤立（Social isolation）、大気汚染（Air pollution）、視覚障害（Visual impairment）&lt;/td&gt;
+          &lt;td&gt;約 5〜2%&lt;/td&gt;
+          &lt;td&gt;青&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;各円の &lt;strong&gt;大きさは寄与率（%）に比例&lt;/strong&gt; し、リスクの重みを表す。&lt;/li&gt;
+&lt;li&gt;線は各ステージを結び、「生涯を通じた連続的な予防の重要性」を示唆する。&lt;/li&gt;
+&lt;li&gt;右下の「45% potentially modifiable」は、これら要因を除外した場合の &lt;strong&gt;全体的なリスク減少の推計値&lt;/strong&gt; である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h3&gt;&lt;p&gt;この報告書は、2017年版（9因子）から2020年版（12因子）に更新されたもので、環境要因や社会的孤立など、従来の生物学的因子だけでなく &lt;strong&gt;社会・環境的リスク&lt;/strong&gt; を含む点が画期的でした。&lt;/p&gt;
+&lt;p&gt;とくに中年期の「難聴（Hearing loss）」は、単独で7%の寄与を持つ最大のリスクとされ &lt;strong&gt;聴覚補助や補聴器利用&lt;/strong&gt; が認知症予防策として重要であることを強調しています。&lt;br&gt;
+また教育水準の向上は幼少期の「認知予備能（cognitive reserve）」形成に寄与し、老年期の発症リスクを緩和すると説明されています。&lt;/p&gt;
+&lt;p&gt;さらに2020年版では、「大気汚染（Air pollution）」が新たに追加され、環境政策も認知症対策に組み込むべきだと明示されました。&lt;/p&gt;
+&lt;h3 id=&#34;図表デザインの特徴&#34;&gt;図表デザインの特徴
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;情報構造&lt;/strong&gt;：ライフコース時系列 × リスク強度の可視化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：数量的比較と時系列的関係を同時に示す&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;デザイン特徴&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;カラーコーディング（緑＝初期教育、黄＝中年期健康、青＝社会・環境要因）&lt;/li&gt;
+&lt;li&gt;面積比率による寄与率の表現&lt;/li&gt;
+&lt;li&gt;曲線的なフローによる「生涯連続性」の強調&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このような手法は、因果モデルの理解を補助するための &lt;strong&gt;説明型インフォグラフィックス（Explanatory Infographic）&lt;/strong&gt; として位置づけられます。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;この図は、科学的根拠と社会的メッセージを融合したデータビジュアライゼーションの好例です。&lt;br&gt;
+認知症を「個人の病」ではなく「社会構造・教育・環境・生活全体にまたがる課題」として可視化することにより、研究者・政策立案者・一般市民が共通の理解を持つための「共通言語」として機能しています。
+その意味で、本図は単なるチャートを超えた「社会的設計図（social blueprint）」とも言えます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1016/S0140-6736%2820%2930367-6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dementia prevention, intervention, and care: 2020 report of the Lancet Commission (Livingston et al., 2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.thelancet.com/commissions/dementia2020&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Lancet infographic summary – Dementia prevention (Lancet.com, accessed 2025-10-09)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.who.int/publications/i/item/risk-reduction-of-cognitive-decline-and-dementia&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World Health Organization: Risk reduction of cognitive decline and dementia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>オイラー図（Euler Diagram）とは</title>
         <link>http://localhost:59740/euler-diagram/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>

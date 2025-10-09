@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59740&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n">
-<title>バンプ・チャート（Bump Chart）の歴史と役割</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n">
+<title>認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</title>
 
-<link rel='canonical' href='http://localhost:59740/bump-chart/'>
+<link rel='canonical' href='http://localhost:59740/population-attributable-fraction/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="バンプ・チャート（Bump Chart）の歴史と役割">
-<meta property='og:description' content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n">
-<meta property='og:url' content='http://localhost:59740/bump-chart/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化">
+<meta property='og:description' content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n">
+<meta property='og:url' content='http://localhost:59740/population-attributable-fraction/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-30T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-09-30T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/bump-chart/images/G-20-countries-ranked.png' />
-<meta name="twitter:title" content="バンプ・チャート（Bump Chart）の歴史と役割">
-<meta name="twitter:description" content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:59740/bump-chart/images/G-20-countries-ranked.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/population-attributable-fraction/images/cover.png' />
+<meta name="twitter:title" content="認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化">
+<meta name="twitter:description" content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:59740/population-attributable-fraction/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,12 +386,16 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#起源--19世紀の統計図表">起源 ― 19世紀の統計図表</a></li>
-    <li><a href="#名称の誕生と再発見">名称の誕生と再発見</a></li>
-    <li><a href="#現代での普及とツール実装">現代での普及とツール実装</a></li>
-    <li><a href="#特徴と活用領域">特徴と活用領域</a></li>
-    <li><a href="#まとめ">まとめ</a></li>
-    <li><a href="#参考リンク">参考リンク</a></li>
+    <li>
+      <ol>
+        <li><a href="#図のコンテクスト">図のコンテクスト</a></li>
+        <li><a href="#図解の見方">図解の見方</a></li>
+        <li><a href="#背景と意義">背景と意義</a></li>
+        <li><a href="#図表デザインの特徴">図表デザインの特徴</a></li>
+        <li><a href="#まとめ">まとめ</a></li>
+      </ol>
+    </li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -406,13 +410,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/bump-chart/">
-                <img src="/bump-chart/images/G-20-countries-ranked_hu_a753de626b0d1705.png"
-                        srcset="/bump-chart/images/G-20-countries-ranked_hu_a753de626b0d1705.png 800w, /bump-chart/images/G-20-countries-ranked_hu_5700001c83bbb73d.png 1600w"
+            <a href="/population-attributable-fraction/">
+                <img src="/population-attributable-fraction/images/cover_hu_ec1626d6b19fbd65.png"
+                        srcset="/population-attributable-fraction/images/cover_hu_ec1626d6b19fbd65.png 800w, /population-attributable-fraction/images/cover_hu_f1506e3576738455.png 1600w"
                         width="800" 
-                        height="463" 
+                        height="405" 
                         loading="lazy"
-                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" />
+                        alt="Featured image of post 認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化" />
                 
             </a>
         </div>
@@ -422,8 +426,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/chart/" >
-                チャート・カタログ
+            <a href="/categories/consume/" >
+                見るための記事
             </a>
         
     </header>
@@ -431,7 +435,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/bump-chart/">バンプ・チャート（Bump Chart）の歴史と役割</a>
+            <a href="/population-attributable-fraction/">認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</a>
         </h2>
     
         
@@ -453,7 +457,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 30, 2025</time>
+                <time class="article-time--published">Oct 09, 2025</time>
             </div>
         
 
@@ -483,108 +487,96 @@
     <section class="article-content">
     
     
-    <p>バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで <strong>「どの対象がいつ上位に食い込み、または下がったか」</strong> を直感的に読み取れる点が特徴です。</p>
-<p><img src="/bump-chart/images/G-20-countries-ranked.png"
-	width="1825"
-	height="1057"
-	srcset="/bump-chart/images/G-20-countries-ranked_hu_4a9f132cc72e4698.png 480w, /bump-chart/images/G-20-countries-ranked_hu_e1897cf457ee440.png 1024w"
+    <p>この図は <strong>『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』</strong> に掲載された、認知症リスク要因の総覧図です。</p>
+<p><img src="/population-attributable-fraction/images/mainvisual.png"
+	width="1480"
+	height="2260"
+	srcset="/population-attributable-fraction/images/mainvisual_hu_9a37c55f8e92701.png 480w, /population-attributable-fraction/images/mainvisual_hu_63e3514aebe6a1e8.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="172"
-		data-flex-basis="414px"
+		data-flex-grow="65"
+		data-flex-basis="157px"
 	
 ></p>
-<h2 id="起源--19世紀の統計図表">起源 ― 19世紀の統計図表
-</h2><p>「誰が最初に発明したのか」を一人に帰すのは難しいですが、バンプ・チャートの原型はすでに19世紀に見られます。</p>
-<p><img src="/bump-chart/images/StatisticalAtlas.png"
-	width="2627"
-	height="1747"
-	srcset="/bump-chart/images/StatisticalAtlas_hu_fb2899d2c5abee8.png 480w, /bump-chart/images/StatisticalAtlas_hu_9fc05d020ff06624.png 1024w"
-	loading="lazy"
-	
-		alt="Rank of States and Territories in Population at Each Census: 1790–1890"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="150"
-		data-flex-basis="360px"
-	
-></p>
-<p>米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、「Rank of States and Territories in Population at Each Census: 1790–1890」 という図版が収録されています。</p>
-<p>このチャートは、1790年から1890年までの国勢調査ごとに、各州と準州の人口順位を並べ、線で結んだものです。これにより以下を実現できます。</p>
+<p>この報告書は、医学・社会・教育・都市政策の観点から <strong>認知症の発症を遅らせ、予防するための実証的エビデンス</strong> を体系化した国際的な政策提言文書であり、世界保健機関（WHO）や各国の国民保健指針に強い影響を与えています。</p>
+<p>図は、人生の三段階（ <strong>Early life・Midlife・Late life</strong> ）にわたる12の修正可能なリスク要因を示し、これらを取り除くことで <strong>最大45％の認知症症例が予防可能</strong> であることを示唆しています。</p>
+<h3 id="図のコンテクスト">図のコンテクスト
+</h3><p>この図は、報告書の中核セクションである <strong>“Potentially modifiable risk factors for dementia across the life course”</strong> に含まれており、「認知症は加齢によって必ず発症するものではない」というメッセージを、科学的根拠に基づき示した象徴的なビジュアルです。</p>
+<p>報告書では、次のように説明されています：</p>
+<blockquote>
+<p>“Modifiable risk factors account for around 45% of dementia cases, suggesting that nearly half of global dementia burden could be prevented or delayed.”<br>
+（修正可能なリスク要因は全体の約45％を占め、世界的な認知症負担のほぼ半分は予防または遅延が可能である。）</p></blockquote>
+<p>このビジュアルは論文の本文中だけでなく、WHOやOECDの政策資料、各国の公衆衛生ガイドラインにおいても引用されています。</p>
+<h3 id="図解の見方">図解の見方
+</h3><p>この図は、<strong>ライフコース視点の因果連鎖を可視化した図</strong> と分類できます。<br>
+一般的な散布図や円グラフとは異なり、「人生の流れ（early → mid → late）」という <strong>時間軸を連続的に描きながら、リスク要因を重ね合わせる</strong> 構造になっています。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>ライフステージ</th>
+          <th>主なリスク要因</th>
+          <th>寄与率（Population Attributable Fraction, %）</th>
+          <th>色区分</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Early life（幼少期）</strong></td>
+          <td>低教育（Less education）</td>
+          <td>約 5%</td>
+          <td>緑</td>
+      </tr>
+      <tr>
+          <td><strong>Midlife（中年期）</strong></td>
+          <td>難聴（Hearing loss）、高LDLコレステロール（High LDL cholesterol）、うつ病（Depression）、頭部外傷（Head injury）、運動不足（Physical inactivity）、糖尿病（Diabetes）、喫煙（Smoking）、高血圧（Hypertension）、肥満（Obesity）、過度の飲酒（Excessive alcohol consumption）</td>
+          <td>約 7〜1%</td>
+          <td>黄</td>
+      </tr>
+      <tr>
+          <td><strong>Late life（老年期）</strong></td>
+          <td>社会的孤立（Social isolation）、大気汚染（Air pollution）、視覚障害（Visual impairment）</td>
+          <td>約 5〜2%</td>
+          <td>青</td>
+      </tr>
+  </tbody>
+</table></div>
 <ul>
-<li>ある時点での上位・下位を比較することができる</li>
-<li>さらに個別の州や準州が、時間の経過とともにどのように順位を変えてきたかを追跡できる</li>
+<li>各円の <strong>大きさは寄与率（%）に比例</strong> し、リスクの重みを表す。</li>
+<li>線は各ステージを結び、「生涯を通じた連続的な予防の重要性」を示唆する。</li>
+<li>右下の「45% potentially modifiable」は、これら要因を除外した場合の <strong>全体的なリスク減少の推計値</strong> である。</li>
 </ul>
-<p>当時の目的は、単に人口数を提示するのではなく、「社会の中での相対的な位置の変化」を読み取れるようにすることでした。これは現代でいうバンプ・チャートの基本的な思想と一致しており、この図版はバンプ・チャートの最古級の実例と見なせます。</p>
-<h2 id="名称の誕生と再発見">名称の誕生と再発見
-</h2><p>当時は「バンプ・チャート」という名称は存在せず、後にデータ可視化コミュニティで再発見・命名されました。</p>
+<h3 id="背景と意義">背景と意義
+</h3><p>この報告書は、2017年版（9因子）から2020年版（12因子）に更新されたもので、環境要因や社会的孤立など、従来の生物学的因子だけでなく <strong>社会・環境的リスク</strong> を含む点が画期的でした。</p>
+<p>とくに中年期の「難聴（Hearing loss）」は、単独で7%の寄与を持つ最大のリスクとされ <strong>聴覚補助や補聴器利用</strong> が認知症予防策として重要であることを強調しています。<br>
+また教育水準の向上は幼少期の「認知予備能（cognitive reserve）」形成に寄与し、老年期の発症リスクを緩和すると説明されています。</p>
+<p>さらに2020年版では、「大気汚染（Air pollution）」が新たに追加され、環境政策も認知症対策に組み込むべきだと明示されました。</p>
+<h3 id="図表デザインの特徴">図表デザインの特徴
+</h3><ul>
+<li><strong>情報構造</strong>：ライフコース時系列 × リスク強度の可視化</li>
+<li><strong>目的</strong>：数量的比較と時系列的関係を同時に示す</li>
+<li><strong>デザイン特徴</strong>：
 <ul>
-<li>2013年 Datagraver による可視化例が、その後の基盤となりました。</li>
-<li>2015年〜2016年 Matt Chambers が Tableau Public に発表した Car Color Evolution は Reddit で30万ビュー以上の反響を呼び、モダンな「バンプ・チャート」の代表例として一気に広まりました。</li>
-<li>Rody Zakovich はこの表現をシグモイド曲線などで洗練し、視覚的な見やすさを強化しました。</li>
+<li>カラーコーディング（緑＝初期教育、黄＝中年期健康、青＝社会・環境要因）</li>
+<li>面積比率による寄与率の表現</li>
+<li>曲線的なフローによる「生涯連続性」の強調</li>
 </ul>
-<p><img src="/bump-chart/images/ColorRankOverTime.png"
-	width="1084"
-	height="784"
-	srcset="/bump-chart/images/ColorRankOverTime_hu_89dd471b31170e6a.png 480w, /bump-chart/images/ColorRankOverTime_hu_86fb80364fd951c5.png 1024w"
-	loading="lazy"
-	
-		alt="Matt Chambers による Car Color Evolution North America"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="138"
-		data-flex-basis="331px"
-	
-></p>
-<p>こうした実践を通じて、「順位の推移を描く線グラフ」が「バンプ・チャート」という呼び方とともに定着したのです。</p>
-<h2 id="現代での普及とツール実装">現代での普及とツール実装
-</h2><p>現在、バンプ・チャートは多くの可視化ツールに組み込まれています。</p>
-<ul>
-<li><strong>Datawrapper</strong> の公式解説では「順位の変化を示すチャート」として紹介され、ランキングデータに特化した用途を推奨しています。</li>
-<li><strong>Flourish</strong> では専用テンプレートが用意され、インタラクティブにハイライトや注釈を加えることが可能です。</li>
-<li><strong>Vega-Lite</strong> では rank-transform を利用して順位を生成し、それを折れ線で結ぶ例が公式ドキュメントに掲載されています。</li>
-<li><strong>Malloy</strong> などのモダンBI言語でも「時間×順位」を組み合わせた標準的なチャート型として紹介されています。</li>
+</li>
 </ul>
-<p>このように、19世紀に端を発する発想が、21世紀のデータ可視化ツールに正式な「チャート・タイプ」として組み込まれるまでに発展しました。</p>
-<h2 id="特徴と活用領域">特徴と活用領域
-</h2><p>バンプ・チャートが適しているのは <strong>「相対的な位置の変化そのものがストーリーになる」</strong> ケースです。</p>
-<ul>
-<li><strong>スポーツ</strong> リーグ戦の順位推移（シーズンを通じてどのチームが浮き沈みしたか）</li>
-<li><strong>市場</strong> 企業や製品のシェアランキングの変動</li>
-<li><strong>世論</strong> 人気投票やランキング調査の入れ替わり</li>
-<li><strong>教育・都市</strong> 大学ランキングや都市人口順位の長期推移</li>
-</ul>
-<p>絶対値よりも「順位の上下動」に意味がある領域で特に有効で、見る人は即座に「勝者と敗者」を把握できます。</p>
-<h2 id="まとめ">まとめ
+<p>このような手法は、因果モデルの理解を補助するための <strong>説明型インフォグラフィックス（Explanatory Infographic）</strong> として位置づけられます。</p>
+<h3 id="まとめ">まとめ
+</h3><p>この図は、科学的根拠と社会的メッセージを融合したデータビジュアライゼーションの好例です。<br>
+認知症を「個人の病」ではなく「社会構造・教育・環境・生活全体にまたがる課題」として可視化することにより、研究者・政策立案者・一般市民が共通の理解を持つための「共通言語」として機能しています。
+その意味で、本図は単なるチャートを超えた「社会的設計図（social blueprint）」とも言えます。</p>
+<h2 id="参考出典">参考・出典
 </h2><ul>
-<li>バンプ・チャートの思想は 1890年統計アトラスに見られるように、19世紀から存在していた。</li>
-<li>発明者を一人に特定することはできないが、Henry Gannett らが国勢調査の都市順位を示す中で <strong>「相対的な位置の変化を可視化する」</strong> 発想が実践されていた。</li>
-<li>現代では Matt Chambers や Rody Zakovich の活動を通じて再発見され、「Bump Chart」という呼称とともに普及。</li>
-<li>Datawrapper や Vega-Lite など主要ツールに公式実装され、ランキングのストーリーを伝えるための定番チャートになっている。</li>
-</ul>
-<p>バンプ・チャートは、社会の中での位置付けがどう変わったかを描くことができるチャートです。歴史的にも現代的にも「競争と変化」を伝えるのにちょうどいい表現手法の一つと言えるでしょう。</p>
-<h2 id="参考リンク">参考リンク
-</h2><ul>
-<li><a class="link" href="https://fraser.stlouisfed.org/title/statistical-atlas-united-states-5587"  target="_blank" rel="noopener"
-    >Statistical Atlas of the United States (1890) – FRASER</a></li>
-<li><a class="link" href="https://www.bocoup.com/blog/vintage-visualization-restoration-bump-chart"  target="_blank" rel="noopener"
-    >Vintage Visualization Restoration – Bump Chart Edition (Bocoup)</a></li>
-<li><a class="link" href="https://www.sirvizalot.com/2016/03/color-popularity-for-new-cars-2000-2015.html"  target="_blank" rel="noopener"
-    >How To: Using Ranks to Create Bump Charts in Tableau (Matt Chambers)</a></li>
-<li><a class="link" href="https://public.tableau.com/views/AreaBumpChart/AreaBumpChart?:showVizHome=no"  target="_blank" rel="noopener"
-    >Area Bump Chart (Rody Zakovich, Tableau Public)</a></li>
-<li><a class="link" href="https://academy.datawrapper.de/article/347-how-to-create-a-bump-chart"  target="_blank" rel="noopener"
-    >How to create a bump chart – Datawrapper Academy</a></li>
-<li><a class="link" href="https://helpcenter.flourish.studio/hc/en-us/articles/9951629626383-How-to-create-an-area-bump-chart"  target="_blank" rel="noopener"
-    >How to create an area bump chart – Flourish Help Center</a></li>
-<li><a class="link" href="https://vega.github.io/vega-lite/examples/line_bump.html"  target="_blank" rel="noopener"
-    >Bump Chart – Vega-Lite Examples</a></li>
-<li><a class="link" href="https://docs.malloydata.dev/blog/2023-10-26-malloy-bump-chart/"  target="_blank" rel="noopener"
-    >Bump charts – Malloy Documentation</a></li>
+<li><a class="link" href="https://doi.org/10.1016/S0140-6736%2820%2930367-6"  target="_blank" rel="noopener"
+    >Dementia prevention, intervention, and care: 2020 report of the Lancet Commission (Livingston et al., 2020)</a></li>
+<li><a class="link" href="https://www.thelancet.com/commissions/dementia2020"  target="_blank" rel="noopener"
+    >Lancet infographic summary – Dementia prevention (Lancet.com, accessed 2025-10-09)</a></li>
+<li><a class="link" href="https://www.who.int/publications/i/item/risk-reduction-of-cognitive-decline-and-dementia"  target="_blank" rel="noopener"
+    >World Health Organization: Risk reduction of cognitive decline and dementia</a></li>
 </ul>
 </section>
 
@@ -625,23 +617,23 @@
             
                 
 <article class="has-image">
-    <a href="/circle-packing/">
+    <a href="/ninomiya-sontoku-land-ratio-graph/">
         
         
             <div class="article-image">
-                <img src="/time-distance-map/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover.3613b30e7396ca1e4cf85932a591f3f6.3613b30e7396ca1e4cf85932a591f3f6_hu_3bcd986bc78d69e2.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post サークル・パッキング (Circle Packing)"
-                        data-key="circle-packing" 
-                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                        alt="Featured image of post 二宮尊徳と「土地分類」の思想"
+                        data-key="ninomiya-sontoku-land-ratio-graph" 
+                        data-hash="md5-NhOzDnOWyh5M&#43;FkypZHz9g==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">サークル・パッキング (Circle Packing)</h2>
+            <h2 class="article-title">二宮尊徳と「土地分類」の思想</h2>
         </div>
     </a>
 </article>
@@ -649,23 +641,23 @@
             
                 
 <article class="has-image">
-    <a href="/time-distance-diagram/">
+    <a href="/further-education-longer-life/">
         
         
             <div class="article-image">
-                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                <img src="/further-education-longer-life/images/cover.86f298300bb6c8234be74846468fa685_hu_1590f7cfed738869.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 時間‐距離図（Time-Distance Diagram）とは"
-                        data-key="time-distance-diagram" 
-                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                        alt="Featured image of post 学びと寿命のあいだ - 教育水準と社会構造の相関を描く"
+                        data-key="further-education-longer-life" 
+                        data-hash="md5-hvKYMAu2yCNL50hGRo&#43;mhQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">時間‐距離図（Time-Distance Diagram）とは</h2>
+            <h2 class="article-title">学びと寿命のあいだ - 教育水準と社会構造の相関を描く</h2>
         </div>
     </a>
 </article>
@@ -673,23 +665,23 @@
             
                 
 <article class="has-image">
-    <a href="/euler-diagram/">
+    <a href="/minard-napoleon-march-to-moscow/">
         
         
             <div class="article-image">
-                <img src="/euler-diagram/images/cover.14daa0a08675e395ec5679c53cd99e97_hu_c3d97da7e0c6d5c8.png" 
+                <img src="/minard-napoleon-march-to-moscow/images/cover.4548d12ab5cdda62d73e52987f9ab154.4548d12ab5cdda62d73e52987f9ab154_hu_6ddb6a5fe94d208c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post オイラー図（Euler Diagram）とは"
-                        data-key="euler-diagram" 
-                        data-hash="md5-FNqgoIZ145XsVnnFPNmelw==">
+                        alt="Featured image of post ナポレオンのロシア遠征を描いたミナールの「損耗の地図」"
+                        data-key="minard-napoleon-march-to-moscow" 
+                        data-hash="md5-RUjRKrXN2mLXPlKYf5qxVA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">オイラー図（Euler Diagram）とは</h2>
+            <h2 class="article-title">ナポレオンのロシア遠征を描いたミナールの「損耗の地図」</h2>
         </div>
     </a>
 </article>
@@ -697,23 +689,23 @@
             
                 
 <article class="has-image">
-    <a href="/venn-diagram/">
+    <a href="/nobels-no-degrees/">
         
         
             <div class="article-image">
-                <img src="/venn-diagram/images/cover.68093910fd9f36a63e1a99201a9ef38c_hu_aae0d10ad45594e4.png" 
+                <img src="/nobels-no-degrees/images/cover.d31a61f57b97c6b657d7095047ad00dc_hu_3c4a8a9bc3a301c1.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ベン図 (Venn Diagram) とは"
-                        data-key="venn-diagram" 
-                        data-hash="md5-aAk5EP2fNqY&#43;GpkgGp7zjA==">
+                        alt="Featured image of post 学位のない天才たちを可視化する"
+                        data-key="nobels-no-degrees" 
+                        data-hash="md5-0xph9XuXxrZX1wlQR60A3A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ベン図 (Venn Diagram) とは</h2>
+            <h2 class="article-title">学位のない天才たちを可視化する</h2>
         </div>
     </a>
 </article>
@@ -721,23 +713,23 @@
             
                 
 <article class="has-image">
-    <a href="/mosaic-plot/">
+    <a href="/painters-in-the-making/">
         
         
             <div class="article-image">
-                <img src="/mosaic-plot/images/image-27.716cc674538bebfded60430d8e556572.716cc674538bebfded60430d8e556572_hu_2fe6070ef6f4cb0.png" 
+                <img src="/painters-in-the-making/images/cover.2a05e41c12c9940cccb82ec44b82e784_hu_e4fce3231fc6a316.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post モザイク・プロット（Mosaic Plot）"
-                        data-key="mosaic-plot" 
-                        data-hash="md5-cWzGdFOL6/3tYEMNjlVlcg==">
+                        alt="Featured image of post 画家たちの人生と代表作"
+                        data-key="painters-in-the-making" 
+                        data-hash="md5-KgXkHBLJlAzMuC7ES4LnhA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
+            <h2 class="article-title">画家たちの人生と代表作</h2>
         </div>
     </a>
 </article>
