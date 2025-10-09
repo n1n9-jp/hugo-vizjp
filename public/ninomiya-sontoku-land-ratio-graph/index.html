@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。\n">
-<title>時間の距離カルトグラム</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n">
+<title>二宮尊徳と「土地分類」の思想</title>
 
-<link rel='canonical' href='http://localhost:1313/time-distance-map/'>
+<link rel='canonical' href='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="時間の距離カルトグラム">
-<meta property='og:description' content="1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。\n">
-<meta property='og:url' content='http://localhost:1313/time-distance-map/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="二宮尊徳と「土地分類」の思想">
+<meta property='og:description' content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n">
+<meta property='og:url' content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2025-09-14T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-09-14T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/time-distance-map/images/time-distance-closeup.png' />
-<meta name="twitter:title" content="時間の距離カルトグラム">
-<meta name="twitter:description" content="1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/time-distance-map/images/time-distance-closeup.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/images/cover.png' />
+<meta name="twitter:title" content="二宮尊徳と「土地分類」の思想">
+<meta name="twitter:description" content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,11 +386,10 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#どんな地図なのか">どんな地図なのか</a></li>
-    <li><a href="#バイヨンヌを例に">バイヨンヌを例に</a></li>
-    <li><a href="#見方のポイント">見方のポイント</a></li>
-    <li><a href="#旅行速度の劇的な進歩">旅行速度の劇的な進歩</a></li>
-    <li><a href="#凡例の工夫">凡例の工夫</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#歴史的背景と制度的意義">歴史的背景と制度的意義</a></li>
+    <li><a href="#用語の整合と当時の語彙">用語の整合と当時の語彙</a></li>
+    <li><a href="#測量統計史における意義">測量・統計史における意義</a></li>
     <li><a href="#まとめ">まとめ</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
@@ -407,13 +406,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/time-distance-map/">
-                <img src="/time-distance-map/images/time-distance-closeup_hu_51d9b080d4187a11.png"
-                        srcset="/time-distance-map/images/time-distance-closeup_hu_51d9b080d4187a11.png 800w, /time-distance-map/images/time-distance-closeup_hu_af5919224cab7cfc.png 1600w"
+            <a href="/ninomiya-sontoku-land-ratio-graph/">
+                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover_hu_85e192be292d94c2.png"
+                        srcset="/ninomiya-sontoku-land-ratio-graph/images/cover_hu_85e192be292d94c2.png 800w, /ninomiya-sontoku-land-ratio-graph/images/cover_hu_2e4fa1b3c230434.png 1600w"
                         width="800" 
-                        height="400" 
+                        height="324" 
                         loading="lazy"
-                        alt="Featured image of post 時間の距離カルトグラム" />
+                        alt="Featured image of post 二宮尊徳と「土地分類」の思想" />
                 
             </a>
         </div>
@@ -427,16 +426,12 @@
                 見るための記事
             </a>
         
-            <a href="/categories/technology/" >
-                作るための記事
-            </a>
-        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/time-distance-map/">時間の距離カルトグラム</a>
+            <a href="/ninomiya-sontoku-land-ratio-graph/">二宮尊徳と「土地分類」の思想</a>
         </h2>
     
         
@@ -458,7 +453,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 14, 2025</time>
+                <time class="article-time--published">Oct 09, 2025</time>
             </div>
         
 
@@ -488,54 +483,99 @@
     <section class="article-content">
     
     
-    <p>1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。</p>
-<p><img src="/time-distance-map/images/time-distance-full.png"
-	width="1600"
-	height="1998"
-	srcset="/time-distance-map/images/time-distance-full_hu_24851e57bf69ea5e.png 480w, /time-distance-map/images/time-distance-full_hu_94836d70378af7b2.png 1024w"
+    <p>江戸時代後期、農政家・思想家として知られる <strong>二宮尊徳（1787–1856）</strong> は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。</p>
+<p>その活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ <strong>土地利用の割合を可視化するための図表「量率グラフ」</strong> を作成しました。</p>
+<p><img src="/ninomiya-sontoku-land-ratio-graph/images/mainvisual.png"
+	width="526"
+	height="533"
+	srcset="/ninomiya-sontoku-land-ratio-graph/images/mainvisual_hu_d73d04594d697ccb.png 480w, /ninomiya-sontoku-land-ratio-graph/images/mainvisual_hu_7eaaf735ac2bb86a.png 1024w"
 	loading="lazy"
-	
-		alt="過去200年間にわたる旅の加速を表す地図"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="80"
-		data-flex-basis="192px"
+		data-flex-grow="98"
+		data-flex-basis="236px"
 	
 ></p>
-<h2 id="どんな地図なのか">どんな地図なのか
-</h2><p>地図はパリを中心に、フランス各地を放射状に描き出しています。しかし、表しているのは物理的な距離ではなく、所要時間です。</p>
-<ul>
-<li>外側の淡いテクスチャのエリア … 17世紀中頃の旅行時間</li>
-<li>内側に向かう濃いテクスチャのエリア … 1782年、1814年、1834年、1854年、1887年と時代を下るごとに短縮された旅行時間</li>
-</ul>
-<p>この6つの「同心円状の輪郭」が重なり合い、まるで地図全体が次第に縮んでいくように見える仕組みになっています。</p>
-<h2 id="バイヨンヌを例に">バイヨンヌを例に
-</h2><p>凡例では、パリからスペイン国境近くの都市バイヨンヌまでの所要時間が紹介されています。</p>
-<ul>
-<li>17世紀 … 358時間</li>
-<li>1782年 … 200時間</li>
-<li>1814年 … 116時間</li>
-<li>1834年 … 64時間</li>
-<li>1854年 … 27時間45分</li>
-<li>1887年 … 11時間51分</li>
-</ul>
-<p>つまり、わずか2世紀のあいだに、移動時間は30分の1に短縮されたのです。</p>
-<h2 id="見方のポイント">見方のポイント
-</h2><ul>
-<li><b>輪郭の形は地理的に正確ではない</b>&hellip;加速の度合いが地域によって異なるため、地図の形はゆがんでいます。だからこそ、どの方向に交通インフラの進歩が進んだかが一目でわかる仕組みです。</li>
-<li><b>縮んでいくフランス</b>&hellip;色の濃い時代ほど内側に収まり、結果として「フランス全体がセーヌ県の大きさまで縮んだ」かのように見えます。</li>
-</ul>
-<h2 id="旅行速度の劇的な進歩">旅行速度の劇的な進歩
-</h2><p>この地図が伝えるのは、<b>「20〜30倍の速さで旅する時代」</b>を我々が生きているという事実です。移動のスピードは単なる快適さにとどまらず、行動範囲そのものを広げ、社会や経済のダイナミズムを変えました。</p>
-<h2 id="凡例の工夫">凡例の工夫
-</h2><p>都市は青い点で示され、地図の縮尺が許す場合には、パリからの所要時間が直接書き込まれています。また、これらの数字は凡例の右側にまとめられ、読者が一覧できるようになっています。</p>
+<p>この「量率グラフ」は、のちに『二宮尊徳全集』第10巻に収録され、さらに2005年刊『測量』誌（日本測量協会）に「国土調査の先駆者」として再紹介されています。</p>
+<p>図は <strong>近代地籍測量以前の日本における土地分類統計図</strong> として注目される存在です。</p>
+<h2 id="図解の見方">図解の見方
+</h2><p>図の上部には「公」、下部には「私」とあり、それぞれが「年貢対象地」と「私的耕作地」を意味します。さらに各段は「田」「畑」「生地」「荒地」に細分化され、矩形の面積比がその割合を表しています。尊徳自身はこの比率をもとに、荒地を耕作地へ転換し、年貢収入を安定させる方策を立てました。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>区分</th>
+          <th>意味</th>
+          <th>位置</th>
+          <th>解説</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>公</td>
+          <td>年貢対象の土地</td>
+          <td>図の上段</td>
+          <td>領主に帰属する「公地」</td>
+      </tr>
+      <tr>
+          <td>私</td>
+          <td>自家耕作または永業地</td>
+          <td>図の下段</td>
+          <td>村民が利用・世襲可能な土地</td>
+      </tr>
+      <tr>
+          <td>田／畑</td>
+          <td>耕地分類</td>
+          <td>各段に配置</td>
+          <td>作付け用途に応じた区分</td>
+      </tr>
+      <tr>
+          <td>生地</td>
+          <td>現に耕作されている地</td>
+          <td>明色</td>
+          <td>既存の耕地</td>
+      </tr>
+      <tr>
+          <td>荒地</td>
+          <td>未耕地・休耕地</td>
+          <td>灰色</td>
+          <td>開墾対象地</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>この構成は、今日の「土地利用分類図（Land Use Classification Map）」や「地目別統計図」に近い概念を持ち <strong>公・私の二層構造と地目区分を一図で表した</strong> 初期の統計的地図表現です。</p>
+<h2 id="歴史的背景と制度的意義">歴史的背景と制度的意義
+</h2><p>尊徳は、藩や幕府から農村再建を命じられる中で、領地の現況を把握するために土地利用調査を行いました。
+桜町領（現・栃木県真岡市付近）の復興では、田畑の面積比を分析し、荒地の開墾を促す政策を立案しています。</p>
+<p>1830年代には冷害・飢饉に対応する作付け転換指導を行い、また <strong>土地利用の「量率」を算出して村ごとの耕作比を最適化する</strong> という、統計的な農政を実践しました。</p>
+<p>このような活動から「量率グラフ」は単なる図解ではなく <strong>近代国土調査や地籍測量に通じる合理的な土地認識の萌芽</strong> とみなされています。</p>
+<h2 id="用語の整合と当時の語彙">用語の整合と当時の語彙
+</h2><p>図中で使われている「公」「私」「田」「畑」「生地」「荒地」という語彙は、当時の農政文献（『地方凡例録』『農業全書』など）にも登場する一般的な用語です。</p>
+<p>特に「生地」「荒地」は天保期以降の土地整理や年貢徴収の際に用いられた分類であり、尊徳の分析は時代の実務語彙と完全に整合します。</p>
+<h2 id="測量統計史における意義">測量・統計史における意義
+</h2><p>日本の土地制度史において <strong>視覚的な土地比率表現（図的統計）</strong> が明確に確認できる事例はきわめて少なく、この「量率グラフ」は最古級の可視化資料とされます。
+尊徳は自ら地図や地形図を作成し、測角儀・磁針コンパス・望遠鏡などを購入して現地測量も行っていたことが記録に残っています。</p>
+<p>これらの活動は、今日の「土地分類調査」「地籍調査」の源流として再評価されています。</p>
 <h2 id="まとめ">まとめ
-</h2><p>この「時間の距離カルトグラム」は、フランスにおける移動の歴史を、数字ではなく体感的な距離感の変化として伝えてくれます。遠かったバイヨンヌやマルセイユが、数世代のうちに「ぐっと近く」なった様子を、地図を通して追体験できるのです。</p>
+</h2><p>この図は、中国の「均田制」や律令国家の「班田収授法」とは無関係であり <strong>江戸後期の実証的な土地利用調査の成果</strong> です。尊徳は、道徳的教化（報徳思想）と並行して、土地という「公共資源」を定量的に把握し、農村再建に結びつけました。それは後世の統計地図・地籍調査・土地分類制度へとつながる <strong>日本型ガバナンス・データビジュアライゼーションの原型</strong> といえます。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~309372~90079254"  target="_blank" rel="noopener"
-    >Acceleration des Voyages en France Depuis 200 ans. Baisse de Prix des Voyages en France Depuis 1798. - David Rumsey Historical Map Collection</a></li>
+<li><a class="link" href="https://ndlsearch.ndl.go.jp/books/R100000039-I1243452"  target="_blank" rel="noopener"
+    >国立国会図書館サーチ「二宮尊徳全集 第10巻」</a></li>
+<li><a class="link" href="https://ndlsearch.ndl.go.jp/rnavi/oldmaterials/sontoku"  target="_blank" rel="noopener"
+    >国立国会図書館 リサーチ・ナビ「二宮尊徳関係資料」</a></li>
+<li><a class="link" href="https://www.hotoku.or.jp/"  target="_blank" rel="noopener"
+    >報徳博物館 公式サイト</a></li>
+<li><a class="link" href="https://www.hotoku.or.jp/sontoku/"  target="_blank" rel="noopener"
+    >報徳博物館「二宮尊徳と報徳」</a></li>
+<li><a class="link" href="https://www.city.nikko.lg.jp/soshiki/10/1041/3/1960.html"  target="_blank" rel="noopener"
+    >日光市「歴史民俗資料館・二宮尊徳記念館の概要」</a></li>
+<li><a class="link" href="https://www.city.moka.lg.jp/kakuka/bunka/gyomu/rekishi_bunka/rekishi_bunkazai/5/index.html"  target="_blank" rel="noopener"
+    >真岡市「二宮尊徳資料館」</a></li>
+<li><a class="link" href="https://commons.wikimedia.org/wiki/File:Ninomiya_Sontoku_Graph_in_1823.jpg"  target="_blank" rel="noopener"
+    >Wikimedia Commons: Ninomiya Sontoku Graph in 1823.jpg</a></li>
+<li><a class="link" href="https://ci.nii.ac.jp/ncid/BN0082116X"  target="_blank" rel="noopener"
+    >CiNii Books「二宮尊徳全集」書誌</a></li>
 </ul>
 </section>
 
@@ -543,8 +583,6 @@
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
         
     </section>
 
@@ -578,23 +616,23 @@
             
                 
 <article class="has-image">
-    <a href="/time-distance-map-price/">
+    <a href="/further-education-longer-life/">
         
         
             <div class="article-image">
-                <img src="/time-distance-map-price/images/time-distance-price-closeup.d7da82a05969c86cf6f2c382e8b41db7_hu_223365cdc616f752.png" 
+                <img src="/further-education-longer-life/images/cover.86f298300bb6c8234be74846468fa685_hu_1590f7cfed738869.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 旅費の距離カルトグラム"
-                        data-key="time-distance-map-price" 
-                        data-hash="md5-19qCoFlpyGz28sOC6LQdtw==">
+                        alt="Featured image of post 学びと寿命のあいだ - 教育水準と社会構造の相関を描く"
+                        data-key="further-education-longer-life" 
+                        data-hash="md5-hvKYMAu2yCNL50hGRo&#43;mhQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">旅費の距離カルトグラム</h2>
+            <h2 class="article-title">学びと寿命のあいだ - 教育水準と社会構造の相関を描く</h2>
         </div>
     </a>
 </article>
@@ -602,23 +640,23 @@
             
                 
 <article class="has-image">
-    <a href="/cartogram/">
+    <a href="/minard-napoleon-march-to-moscow/">
         
         
             <div class="article-image">
-                <img src="/cartogram/images/cartogram.bc693c072d7f85948634a28cc783bcb6_hu_b2bf4f1bf20578f5.png" 
+                <img src="/minard-napoleon-march-to-moscow/images/cover.4548d12ab5cdda62d73e52987f9ab154_hu_6ddb6a5fe94d208c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ"
-                        data-key="cartogram" 
-                        data-hash="md5-vGk8By1/hZSGNKKMx4O8tg==">
+                        alt="Featured image of post ナポレオンのロシア遠征を描いたミナールの「損耗の地図」"
+                        data-key="minard-napoleon-march-to-moscow" 
+                        data-hash="md5-RUjRKrXN2mLXPlKYf5qxVA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">カルトグラム：見慣れた地図がデータで歪む面白さ</h2>
+            <h2 class="article-title">ナポレオンのロシア遠征を描いたミナールの「損耗の地図」</h2>
         </div>
     </a>
 </article>
@@ -626,23 +664,23 @@
             
                 
 <article class="has-image">
-    <a href="/bosai-kikikuru-color/">
+    <a href="/nobels-no-degrees/">
         
         
             <div class="article-image">
-                <img src="/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.c608f1a6d93497d56953b506d7f8f99e_hu_69644db5a9bf609f.png" 
+                <img src="/nobels-no-degrees/images/cover.d31a61f57b97c6b657d7095047ad00dc_hu_3c4a8a9bc3a301c1.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫"
-                        data-key="bosai-kikikuru-color" 
-                        data-hash="md5-xgjxptk0l9VpU7UG1/j5ng==">
+                        alt="Featured image of post 学位のない天才たちを可視化する"
+                        data-key="nobels-no-degrees" 
+                        data-hash="md5-0xph9XuXxrZX1wlQR60A3A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">防災情報「キキクル」に見られる独自の色彩設計の工夫</h2>
+            <h2 class="article-title">学位のない天才たちを可視化する</h2>
         </div>
     </a>
 </article>
@@ -650,23 +688,23 @@
             
                 
 <article class="has-image">
-    <a href="/provisional-inundation-depth-map/">
+    <a href="/painters-in-the-making/">
         
         
             <div class="article-image">
-                <img src="/provisional-inundation-depth-map/images/provisional-inundation-depth-map.62bd7dbb332f4055d863c9c380796bae_hu_e99fe38bb89f4885.png" 
+                <img src="/painters-in-the-making/images/cover.2a05e41c12c9940cccb82ec44b82e784_hu_e4fce3231fc6a316.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法"
-                        data-key="provisional-inundation-depth-map" 
-                        data-hash="md5-Yr19uzMvQFXYY8nDgHlrrg==">
+                        alt="Featured image of post 画家たちの人生と代表作"
+                        data-key="painters-in-the-making" 
+                        data-hash="md5-KgXkHBLJlAzMuC7ES4LnhA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</h2>
+            <h2 class="article-title">画家たちの人生と代表作</h2>
         </div>
     </a>
 </article>
@@ -674,23 +712,23 @@
             
                 
 <article class="has-image">
-    <a href="/chart-map-transportation-infrastructure/">
+    <a href="/urban-story/">
         
         
             <div class="article-image">
-                <img src="/chart-map-transportation-infrastructure/images/12511007_closeup.5bdb3dacb8c1d818c20a26bcec4d6e6f_hu_2906c13962f3791e.png" 
+                <img src="/urban-story/images/cover.2cf1968e0c6c03bef71a7c7a24d8867c.2cf1968e0c6c03bef71a7c7a24d8867c_hu_dc0502a8df4f5444.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図"
-                        data-key="chart-map-transportation-infrastructure" 
-                        data-hash="md5-W9s9rLjB2BjCCia87E1ubw==">
+                        alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる"
+                        data-key="urban-story" 
+                        data-hash="md5-LPGWjgxsA773Gnx6JNiGfA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">交通インフラの内訳を可視化した統計チャート地図</h2>
+            <h2 class="article-title">Urban story: リスボンはホノルルと肩を並べる</h2>
         </div>
     </a>
 </article>
