@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59740&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n">
-<title>認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="イタリアのデータビジュアライゼーション・スタジオ Accurat による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。\n通常の地図は一定の縮尺で地理的な正確さを保ちますが、本作はあえてそれを崩し、「比較」という視点で世界を再構築しています。\n">
+<title>もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</title>
 
-<link rel='canonical' href='http://localhost:59740/population-attributable-fraction/'>
+<link rel='canonical' href='http://localhost:59740/continents-showdown/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化">
-<meta property='og:description' content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n">
-<meta property='og:url' content='http://localhost:59740/population-attributable-fraction/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》">
+<meta property='og:description' content="イタリアのデータビジュアライゼーション・スタジオ Accurat による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。\n通常の地図は一定の縮尺で地理的な正確さを保ちますが、本作はあえてそれを崩し、「比較」という視点で世界を再構築しています。\n">
+<meta property='og:url' content='http://localhost:59740/continents-showdown/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/population-attributable-fraction/images/cover.png' />
-<meta name="twitter:title" content="認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化">
-<meta name="twitter:description" content="この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:59740/population-attributable-fraction/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/continents-showdown/images/cover.png' />
+<meta name="twitter:title" content="もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》">
+<meta name="twitter:description" content="イタリアのデータビジュアライゼーション・スタジオ Accurat による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。\n通常の地図は一定の縮尺で地理的な正確さを保ちますが、本作はあえてそれを崩し、「比較」という視点で世界を再構築しています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:59740/continents-showdown/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,15 +386,18 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#continents-showdown大陸対決">Continents’ Showdown（大陸対決）</a></li>
+    <li><a href="#図解の見方凡例の詳細">図解の見方（凡例の詳細）</a>
       <ol>
-        <li><a href="#図のコンテクスト">図のコンテクスト</a></li>
-        <li><a href="#図解の見方">図解の見方</a></li>
-        <li><a href="#背景と意義">背景と意義</a></li>
-        <li><a href="#図表デザインの特徴">図表デザインの特徴</a></li>
-        <li><a href="#まとめ">まとめ</a></li>
+        <li><a href="#各大陸の基本構成">各大陸の基本構成</a></li>
+        <li><a href="#面積地形に関するスケール">面積・地形に関するスケール</a></li>
+        <li><a href="#移動距離の指標">移動・距離の指標</a></li>
+        <li><a href="#自然要素の比較">自然要素の比較</a></li>
+        <li><a href="#都市と空港のスケール">都市と空港のスケール</a></li>
+        <li><a href="#-共通スケールの理念">⚖️ 共通スケールの理念</a></li>
       </ol>
     </li>
+    <li><a href="#背景と制作意図">背景と制作意図</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
@@ -410,13 +413,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/population-attributable-fraction/">
-                <img src="/population-attributable-fraction/images/cover_hu_ec1626d6b19fbd65.png"
-                        srcset="/population-attributable-fraction/images/cover_hu_ec1626d6b19fbd65.png 800w, /population-attributable-fraction/images/cover_hu_f1506e3576738455.png 1600w"
+            <a href="/continents-showdown/">
+                <img src="/continents-showdown/images/cover_hu_2754b6a97bb634af.png"
+                        srcset="/continents-showdown/images/cover_hu_2754b6a97bb634af.png 800w, /continents-showdown/images/cover_hu_56fa2eee0dd46b1a.png 1600w"
                         width="800" 
-                        height="405" 
+                        height="327" 
                         loading="lazy"
-                        alt="Featured image of post 認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化" />
+                        alt="Featured image of post もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》" />
                 
             </a>
         </div>
@@ -435,7 +438,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/population-attributable-fraction/">認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</a>
+            <a href="/continents-showdown/">もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</a>
         </h2>
     
         
@@ -487,96 +490,91 @@
     <section class="article-content">
     
     
-    <p>この図は <strong>『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』</strong> に掲載された、認知症リスク要因の総覧図です。</p>
-<p><img src="/population-attributable-fraction/images/mainvisual.png"
-	width="1480"
-	height="2260"
-	srcset="/population-attributable-fraction/images/mainvisual_hu_9a37c55f8e92701.png 480w, /population-attributable-fraction/images/mainvisual_hu_63e3514aebe6a1e8.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="65"
-		data-flex-basis="157px"
-	
-></p>
-<p>この報告書は、医学・社会・教育・都市政策の観点から <strong>認知症の発症を遅らせ、予防するための実証的エビデンス</strong> を体系化した国際的な政策提言文書であり、世界保健機関（WHO）や各国の国民保健指針に強い影響を与えています。</p>
-<p>図は、人生の三段階（ <strong>Early life・Midlife・Late life</strong> ）にわたる12の修正可能なリスク要因を示し、これらを取り除くことで <strong>最大45％の認知症症例が予防可能</strong> であることを示唆しています。</p>
-<h3 id="図のコンテクスト">図のコンテクスト
-</h3><p>この図は、報告書の中核セクションである <strong>“Potentially modifiable risk factors for dementia across the life course”</strong> に含まれており、「認知症は加齢によって必ず発症するものではない」というメッセージを、科学的根拠に基づき示した象徴的なビジュアルです。</p>
-<p>報告書では、次のように説明されています：</p>
-<blockquote>
-<p>“Modifiable risk factors account for around 45% of dementia cases, suggesting that nearly half of global dementia burden could be prevented or delayed.”<br>
-（修正可能なリスク要因は全体の約45％を占め、世界的な認知症負担のほぼ半分は予防または遅延が可能である。）</p></blockquote>
-<p>このビジュアルは論文の本文中だけでなく、WHOやOECDの政策資料、各国の公衆衛生ガイドラインにおいても引用されています。</p>
-<h3 id="図解の見方">図解の見方
-</h3><p>この図は、<strong>ライフコース視点の因果連鎖を可視化した図</strong> と分類できます。<br>
-一般的な散布図や円グラフとは異なり、「人生の流れ（early → mid → late）」という <strong>時間軸を連続的に描きながら、リスク要因を重ね合わせる</strong> 構造になっています。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>ライフステージ</th>
-          <th>主なリスク要因</th>
-          <th>寄与率（Population Attributable Fraction, %）</th>
-          <th>色区分</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>Early life（幼少期）</strong></td>
-          <td>低教育（Less education）</td>
-          <td>約 5%</td>
-          <td>緑</td>
-      </tr>
-      <tr>
-          <td><strong>Midlife（中年期）</strong></td>
-          <td>難聴（Hearing loss）、高LDLコレステロール（High LDL cholesterol）、うつ病（Depression）、頭部外傷（Head injury）、運動不足（Physical inactivity）、糖尿病（Diabetes）、喫煙（Smoking）、高血圧（Hypertension）、肥満（Obesity）、過度の飲酒（Excessive alcohol consumption）</td>
-          <td>約 7〜1%</td>
-          <td>黄</td>
-      </tr>
-      <tr>
-          <td><strong>Late life（老年期）</strong></td>
-          <td>社会的孤立（Social isolation）、大気汚染（Air pollution）、視覚障害（Visual impairment）</td>
-          <td>約 5〜2%</td>
-          <td>青</td>
-      </tr>
-  </tbody>
-</table></div>
-<ul>
-<li>各円の <strong>大きさは寄与率（%）に比例</strong> し、リスクの重みを表す。</li>
-<li>線は各ステージを結び、「生涯を通じた連続的な予防の重要性」を示唆する。</li>
-<li>右下の「45% potentially modifiable」は、これら要因を除外した場合の <strong>全体的なリスク減少の推計値</strong> である。</li>
-</ul>
-<h3 id="背景と意義">背景と意義
-</h3><p>この報告書は、2017年版（9因子）から2020年版（12因子）に更新されたもので、環境要因や社会的孤立など、従来の生物学的因子だけでなく <strong>社会・環境的リスク</strong> を含む点が画期的でした。</p>
-<p>とくに中年期の「難聴（Hearing loss）」は、単独で7%の寄与を持つ最大のリスクとされ <strong>聴覚補助や補聴器利用</strong> が認知症予防策として重要であることを強調しています。<br>
-また教育水準の向上は幼少期の「認知予備能（cognitive reserve）」形成に寄与し、老年期の発症リスクを緩和すると説明されています。</p>
-<p>さらに2020年版では、「大気汚染（Air pollution）」が新たに追加され、環境政策も認知症対策に組み込むべきだと明示されました。</p>
-<h3 id="図表デザインの特徴">図表デザインの特徴
+    <p>イタリアのデータビジュアライゼーション・スタジオ <strong>Accurat</strong> による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。<br>
+通常の地図は一定の縮尺で地理的な正確さを保ちますが、本作はあえてそれを崩し、<strong>「比較」という視点で世界を再構築</strong>しています。</p>
+<h2 id="continents-showdown大陸対決">Continents’ Showdown（大陸対決）
+</h2><p>この作品は「La Lettura（コリエーレ・デッラ・セーラ紙の文化付録）」に連載された <em>Visual Data</em> シリーズの一部として制作されたもので、創設者 Giorgia Lupi による“Data Humanism”の初期的実践とも位置づけられます。</p>
+<h2 id="図解の見方凡例の詳細">図解の見方（凡例の詳細）
+</h2><p>作品下部に配置された「How to read it?（この図の読み方）」は、データの意味とスケールの関係を理解するための凡例です。<br>
+各大陸がどのようなデータで構成され、どのように比較されているのかを読み解くための**共通言語（ビジュアル・グラマー）**を定義しています。</p>
+<h3 id="各大陸の基本構成">各大陸の基本構成
 </h3><ul>
-<li><strong>情報構造</strong>：ライフコース時系列 × リスク強度の可視化</li>
-<li><strong>目的</strong>：数量的比較と時系列的関係を同時に示す</li>
-<li><strong>デザイン特徴</strong>：
-<ul>
-<li>カラーコーディング（緑＝初期教育、黄＝中年期健康、青＝社会・環境要因）</li>
-<li>面積比率による寄与率の表現</li>
-<li>曲線的なフローによる「生涯連続性」の強調</li>
+<li><strong>棒線（｜）</strong>：<br>
+各大陸に含まれる国家の数（number of States）を示します。</li>
+<li><strong>黒い点（●）</strong>：<br>
+総人口（total population）。点の数が人口規模を表し、<br>
+1点＝1億人（100 million inhabitants）を意味します。</li>
+<li><strong>大きな点（●）</strong>：<br>
+最も人口の多い国（Most populated state）。</li>
+<li><strong>黒い四角（■）</strong>：<br>
+最高人口密度（Highest population density）を示します。</li>
 </ul>
+<h3 id="面積地形に関するスケール">面積・地形に関するスケール
+</h3><p>次の地理的要素は<strong>同一スケール</strong>で比較されています：</p>
+<ul>
+<li><strong>surface area（大陸総面積）</strong></li>
+<li><strong>countries（国の面積）</strong></li>
+<li><strong>water basins（水域・湖）</strong></li>
+<li><strong>islands（島）</strong></li>
+<li><strong>length of rivers（河川の長さ）</strong></li>
+</ul>
+<p>右側の凡例ボックスに示される：</p>
+<ul>
+<li>「Broadest state（最も広い国）」</li>
+<li>「5 broadest islands（5つの最大の島）」
+は、それぞれ面積の比較対象を示しています。</li>
+</ul>
+<h3 id="移動距離の指標">移動・距離の指標
+</h3><ul>
+<li><strong>n. of jet-lag crossed（時差線の数）</strong>：
+大陸を横断する際の「時差の数」を表現し、地理的広がりの実感を与えます。</li>
+</ul>
+<h3 id="自然要素の比較">自然要素の比較
+</h3><ul>
+<li><strong>Mountain height（山の高さ）</strong>：
+各大陸で最も高い5つの山（5 highest mountains）を三角形で表します。<br>
+高さは相対的なスケールで描かれています。</li>
+<li><strong>River length（河川の長さ）</strong>：
+各大陸の5つの主要河川（5 longest rivers）を波線で示し、<br>
+長さの比較が可能です。</li>
+</ul>
+<h3 id="都市と空港のスケール">都市と空港のスケール
+</h3><p>下段では「人の移動と集中」を示す2種類の円が登場します。</p>
+<ul>
+<li>
+<p><strong>5 airports with biggest number of passengers</strong><br>
+→ 年間旅客数が最も多い5つの空港。<br>
+円の面積は年間旅客数を表し、<br>
+小さな補助線により「10 million passengers per year」が基準スケールとして明記されています。</p>
+</li>
+<li>
+<p><strong>5 most populous cities</strong><br>
+→ 人口が最多の5都市。<br>
+内側の黒円が都市の「中心（urban area）」、<br>
+外側のグレー円が「都市圏（metropolitan area）」を示し、<br>
+人口密度の差を可視化します。<br>
+こちらも「10 million inhabitants」が基準。</p>
 </li>
 </ul>
-<p>このような手法は、因果モデルの理解を補助するための <strong>説明型インフォグラフィックス（Explanatory Infographic）</strong> として位置づけられます。</p>
-<h3 id="まとめ">まとめ
-</h3><p>この図は、科学的根拠と社会的メッセージを融合したデータビジュアライゼーションの好例です。<br>
-認知症を「個人の病」ではなく「社会構造・教育・環境・生活全体にまたがる課題」として可視化することにより、研究者・政策立案者・一般市民が共通の理解を持つための「共通言語」として機能しています。
-その意味で、本図は単なるチャートを超えた「社会的設計図（social blueprint）」とも言えます。</p>
+<h3 id="-共通スケールの理念">⚖️ 共通スケールの理念
+</h3><p>最後に記された文章：</p>
+<blockquote>
+<p>“number of city inhabitants and airport passengers are represented with the same scale”</p></blockquote>
+<p>は <strong>都市人口と空港旅客数が同じ尺度で比較可能</strong> であることを強調しています。<br>
+すなわち、「都市に住む人の数」と「空港を通る人の数」を一続きのヒューマンフローとして捉える設計思想です。</p>
+<p>この凡例全体は、単なる説明図ではなく、<strong>データと世界観を結ぶメタ構造</strong>として機能しています。
+地理・人口・交通という異なる次元のデータを「共通の尺度で比較する」ことこそが、この作品の核心的な発想です。</p>
+<h2 id="背景と制作意図">背景と制作意図
+</h2><p>Accurat は、情報デザインを通じて複雑な現実を理解可能な形に再構築することを使命とするスタジオです。</p>
+<p>この作品においては <strong>地理的正確さではなく認知的比較の明瞭さ</strong> が優先され、視覚化そのものが「問いを立てる装置」として機能しています。</p>
+<p>Giorgia Lupi が後に提唱する “Data Humanism” は、データを単なる数量ではなく、文脈・関係性・人間的解釈を含む「文化的素材」として扱う思想です。</p>
+<p>「Continents’ Showdown」はその初期の具体例であり、定量情報を通じて世界を新たに感じ取る可能性を提示しています。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://doi.org/10.1016/S0140-6736%2820%2930367-6"  target="_blank" rel="noopener"
-    >Dementia prevention, intervention, and care: 2020 report of the Lancet Commission (Livingston et al., 2020)</a></li>
-<li><a class="link" href="https://www.thelancet.com/commissions/dementia2020"  target="_blank" rel="noopener"
-    >Lancet infographic summary – Dementia prevention (Lancet.com, accessed 2025-10-09)</a></li>
-<li><a class="link" href="https://www.who.int/publications/i/item/risk-reduction-of-cognitive-decline-and-dementia"  target="_blank" rel="noopener"
-    >World Health Organization: Risk reduction of cognitive decline and dementia</a></li>
+<li><a class="link" href="https://www.flickr.com/photos/accurat/8250027430/in/album-72157632185046466/"  target="_blank" rel="noopener"
+    >Continents’ Showdown (Flickr)</a></li>
+<li><a class="link" href="https://giorgialupi.com/lalettura"  target="_blank" rel="noopener"
+    >Giorgia Lupi – Visual Data series on La Lettura</a></li>
 </ul>
 </section>
 
@@ -617,35 +615,11 @@
             
                 
 <article class="has-image">
-    <a href="/continents-showdown/">
-        
-        
-            <div class="article-image">
-                <img src="/continents-showdown/images/cover.c026a74b6e5fd82c864bf636c8a2c73a_hu_aa8da3133f1a9328.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》"
-                        data-key="continents-showdown" 
-                        data-hash="md5-wCanS25f2CyGS/Y2yKLHOg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/ninomiya-sontoku-land-ratio-graph/">
         
         
             <div class="article-image">
-                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover.3613b30e7396ca1e4cf85932a591f3f6_hu_3bcd986bc78d69e2.png" 
+                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover.3613b30e7396ca1e4cf85932a591f3f6.3613b30e7396ca1e4cf85932a591f3f6_hu_3bcd986bc78d69e2.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -665,11 +639,35 @@
             
                 
 <article class="has-image">
+    <a href="/population-attributable-fraction/">
+        
+        
+            <div class="article-image">
+                <img src="/population-attributable-fraction/images/cover.1a2ef346b60aa28d41990d2ca0534d4c.1a2ef346b60aa28d41990d2ca0534d4c_hu_ad64e9bf732a03cd.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化"
+                        data-key="population-attributable-fraction" 
+                        data-hash="md5-Gi7zRrYKoo1BmQ0soFNNTA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/further-education-longer-life/">
         
         
             <div class="article-image">
-                <img src="/further-education-longer-life/images/cover.86f298300bb6c8234be74846468fa685_hu_1590f7cfed738869.png" 
+                <img src="/further-education-longer-life/images/cover.86f298300bb6c8234be74846468fa685.86f298300bb6c8234be74846468fa685_hu_1590f7cfed738869.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -693,7 +691,7 @@
         
         
             <div class="article-image">
-                <img src="/minard-napoleon-march-to-moscow/images/cover.4548d12ab5cdda62d73e52987f9ab154_hu_6ddb6a5fe94d208c.png" 
+                <img src="/minard-napoleon-march-to-moscow/images/cover.4548d12ab5cdda62d73e52987f9ab154.4548d12ab5cdda62d73e52987f9ab154_hu_6ddb6a5fe94d208c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -717,7 +715,7 @@
         
         
             <div class="article-image">
-                <img src="/nobels-no-degrees/images/cover.d31a61f57b97c6b657d7095047ad00dc_hu_3c4a8a9bc3a301c1.png" 
+                <img src="/nobels-no-degrees/images/cover.d31a61f57b97c6b657d7095047ad00dc.d31a61f57b97c6b657d7095047ad00dc_hu_3c4a8a9bc3a301c1.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
