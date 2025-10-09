@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:59740/</loc>
-    <lastmod>2025-10-08T00:00:00+09:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:59740/categories/</loc>
-    <lastmod>2025-10-08T00:00:00+09:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:59740/post/</loc>
-    <lastmod>2025-10-08T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/euler-diagram/</loc>
-    <lastmod>2025-10-08T00:00:00+09:00</lastmod>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:59740/categories/chart/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:59740/time-distance-diagram/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:59740/euler-diagram/</loc>
     <lastmod>2025-10-08T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:59740/venn-diagram/</loc>
