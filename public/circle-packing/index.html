@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n">
-<title>バンプ・チャート（Bump Chart）の歴史と役割</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59740&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="サークル・パッキング（Circle Packing）は 階層的なデータを円の集合として可視化する手法 です。\n名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。ツリーマップ（Tree Map）と同じく階層構造を扱いますが、長方形ではなく円を使うことで より柔らかく直感的な印象 を与えます。特に教育・展示・広報などで、データの構造をやさしく見せたいときに有効です。\n">
+<title>サークル・パッキング (Circle Packing)</title>
 
-<link rel='canonical' href='http://localhost:1313/bump-chart/'>
+<link rel='canonical' href='http://localhost:59740/circle-packing/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="バンプ・チャート（Bump Chart）の歴史と役割">
-<meta property='og:description' content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n">
-<meta property='og:url' content='http://localhost:1313/bump-chart/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="サークル・パッキング (Circle Packing)">
+<meta property='og:description' content="サークル・パッキング（Circle Packing）は 階層的なデータを円の集合として可視化する手法 です。\n名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。ツリーマップ（Tree Map）と同じく階層構造を扱いますが、長方形ではなく円を使うことで より柔らかく直感的な印象 を与えます。特に教育・展示・広報などで、データの構造をやさしく見せたいときに有効です。\n">
+<meta property='og:url' content='http://localhost:59740/circle-packing/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-30T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-09-30T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/bump-chart/images/G-20-countries-ranked.png' />
-<meta name="twitter:title" content="バンプ・チャート（Bump Chart）の歴史と役割">
-<meta name="twitter:description" content="バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで 「どの対象がいつ上位に食い込み、または下がったか」 を直感的に読み取れる点が特徴です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/bump-chart/images/G-20-countries-ranked.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/time-distance-map/images/thumb_ph_vizjp.png' />
+<meta name="twitter:title" content="サークル・パッキング (Circle Packing)">
+<meta name="twitter:description" content="サークル・パッキング（Circle Packing）は 階層的なデータを円の集合として可視化する手法 です。\n名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。ツリーマップ（Tree Map）と同じく階層構造を扱いますが、長方形ではなく円を使うことで より柔らかく直感的な印象 を与えます。特に教育・展示・広報などで、データの構造をやさしく見せたいときに有効です。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:59740/time-distance-map/images/thumb_ph_vizjp.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,12 +386,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#起源--19世紀の統計図表">起源 ― 19世紀の統計図表</a></li>
-    <li><a href="#名称の誕生と再発見">名称の誕生と再発見</a></li>
-    <li><a href="#現代での普及とツール実装">現代での普及とツール実装</a></li>
-    <li><a href="#特徴と活用領域">特徴と活用領域</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#典型的な使用例">典型的な使用例</a></li>
+    <li><a href="#技術的背景">技術的背景</a></li>
+    <li><a href="#教育的意義">教育的意義</a></li>
     <li><a href="#まとめ">まとめ</a></li>
-    <li><a href="#参考リンク">参考リンク</a></li>
   </ol>
 </nav>
         </div>
@@ -406,13 +405,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/bump-chart/">
-                <img src="/bump-chart/images/G-20-countries-ranked_hu_a753de626b0d1705.png"
-                        srcset="/bump-chart/images/G-20-countries-ranked_hu_a753de626b0d1705.png 800w, /bump-chart/images/G-20-countries-ranked_hu_5700001c83bbb73d.png 1600w"
+            <a href="/circle-packing/">
+                <img src="/time-distance-map/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png"
+                        srcset="/time-distance-map/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png 800w, /time-distance-map/images/thumb_ph_vizjp_hu_982f6515b909acd4.png 1600w"
                         width="800" 
-                        height="463" 
+                        height="400" 
                         loading="lazy"
-                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割" />
+                        alt="Featured image of post サークル・パッキング (Circle Packing)" />
                 
             </a>
         </div>
@@ -431,7 +430,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/bump-chart/">バンプ・チャート（Bump Chart）の歴史と役割</a>
+            <a href="/circle-packing/">サークル・パッキング (Circle Packing)</a>
         </h2>
     
         
@@ -453,7 +452,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 30, 2025</time>
+                <time class="article-time--published">Oct 09, 2025</time>
             </div>
         
 
@@ -483,109 +482,106 @@
     <section class="article-content">
     
     
-    <p>バンプ・チャート（Bump Chart）は、順位の変化を時系列で示す可視化手法です。縦軸に順位、横軸に時間を置き、カテゴリごとの推移を線で結びます。折れ線グラフが「値の変動」を伝えるのに対し、バンプ・チャートは「相対的な位置付けの入れ替わり」を視覚化することに主眼があります。複数の線が交差することで <strong>「どの対象がいつ上位に食い込み、または下がったか」</strong> を直感的に読み取れる点が特徴です。</p>
-<p><img src="/bump-chart/images/G-20-countries-ranked.png"
-	width="1825"
-	height="1057"
-	srcset="/bump-chart/images/G-20-countries-ranked_hu_4a9f132cc72e4698.png 480w, /bump-chart/images/G-20-countries-ranked_hu_e1897cf457ee440.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="172"
-		data-flex-basis="414px"
-	
-></p>
-<h2 id="起源--19世紀の統計図表">起源 ― 19世紀の統計図表
-</h2><p>「誰が最初に発明したのか」を一人に帰すのは難しいですが、バンプ・チャートの原型はすでに19世紀に見られます。</p>
-<p><img src="/bump-chart/images/StatisticalAtlas.png"
-	width="2627"
-	height="1747"
-	srcset="/bump-chart/images/StatisticalAtlas_hu_fb2899d2c5abee8.png 480w, /bump-chart/images/StatisticalAtlas_hu_9fc05d020ff06624.png 1024w"
-	loading="lazy"
-	
-		alt="Rank of States and Territories in Population at Each Census: 1790–1890"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="150"
-		data-flex-basis="360px"
-	
-></p>
-<p>米国センサス局の地理学者 Henry Gannett らが編集した1890年版 Statistical Atlas of the United States には、「Rank of States and Territories in Population at Each Census: 1790–1890」 という図版が収録されています。</p>
-<p>このチャートは、1790年から1890年までの国勢調査ごとに、各州と準州の人口順位を並べ、線で結んだものです。これにより以下を実現できます。</p>
+    <p>サークル・パッキング（Circle Packing）は <strong>階層的なデータを円の集合として可視化する手法</strong> です。</p>
+<p>名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。ツリーマップ（Tree Map）と同じく階層構造を扱いますが、長方形ではなく円を使うことで <strong>より柔らかく直感的な印象</strong> を与えます。特に教育・展示・広報などで、データの構造をやさしく見せたいときに有効です。</p>
+<h2 id="図解の見方">図解の見方
+</h2><p>サークル・パッキングの基本的な読み方は以下の通りです。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>意味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>円のサイズ</strong></td>
+          <td>各要素の大きさ（数値や比率など）を表します。大きい円ほど値が大きいことを示します。</td>
+      </tr>
+      <tr>
+          <td><strong>親円と子円</strong></td>
+          <td>大きな円の中に小さな円が入ることで、階層構造（親カテゴリ→子カテゴリ）を表します。</td>
+      </tr>
+      <tr>
+          <td><strong>色</strong></td>
+          <td>多くの場合、カテゴリや変数の種類を示します。例：業種別・分類別など。</td>
+      </tr>
+      <tr>
+          <td><strong>円の位置</strong></td>
+          <td>近い位置に配置される円ほど関係が深いことを示す場合があります。ただし、位置には必ずしも数理的な意味はなく、配置は見やすさ重視です。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>図全体を見ることで、「どのグループが全体の中でどれくらいの割合を占めるのか」「どのグループにどの小分類が含まれているか」を同時に把握できます。</p>
+<h2 id="典型的な使用例">典型的な使用例
+</h2><p>サークル・パッキングは、以下のような階層的データに適しています。</p>
 <ul>
-<li>ある時点での上位・下位を比較することができる</li>
-<li>さらに個別の州や準州が、時間の経過とともにどのように順位を変えてきたかを追跡できる</li>
+<li><strong>ファイルシステム構造</strong>：フォルダ（親円）とファイル（子円）を大きさで示す</li>
+<li><strong>生物分類</strong>：界 → 門 → 綱 → 目 → 科 → 属 → 種の階層を視覚化</li>
+<li><strong>企業・産業構造</strong>：業種別・企業別の経済規模を比較</li>
+<li><strong>地域別データ</strong>：都道府県→市区町村→町丁などの人口構成</li>
 </ul>
-<p>当時の目的は、単に人口数を提示するのではなく、「社会の中での相対的な位置の変化」を読み取れるようにすることでした。これは現代でいうバンプ・チャートの基本的な思想と一致しており、この図版はバンプ・チャートの最古級の実例と見なせます。</p>
-<h2 id="名称の誕生と再発見">名称の誕生と再発見
-</h2><p>当時は「バンプ・チャート」という名称は存在せず、後にデータ可視化コミュニティで再発見・命名されました。</p>
-<ul>
-<li>2013年 Datagraver による可視化例が、その後の基盤となりました。</li>
-<li>2015年〜2016年 Matt Chambers が Tableau Public に発表した Car Color Evolution は Reddit で30万ビュー以上の反響を呼び、モダンな「バンプ・チャート」の代表例として一気に広まりました。</li>
-<li>Rody Zakovich はこの表現をシグモイド曲線などで洗練し、視覚的な見やすさを強化しました。</li>
-</ul>
-<p><img src="/bump-chart/images/ColorRankOverTime.png"
-	width="1084"
-	height="784"
-	srcset="/bump-chart/images/ColorRankOverTime_hu_89dd471b31170e6a.png 480w, /bump-chart/images/ColorRankOverTime_hu_86fb80364fd951c5.png 1024w"
-	loading="lazy"
-	
-		alt="Matt Chambers による Car Color Evolution North America"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="138"
-		data-flex-basis="331px"
-	
-></p>
-<p>こうした実践を通じて、「順位の推移を描く線グラフ」が「バンプ・チャート」という呼び方とともに定着したのです。</p>
-<h2 id="現代での普及とツール実装">現代での普及とツール実装
-</h2><p>現在、バンプ・チャートは多くの可視化ツールに組み込まれています。</p>
-<ul>
-<li><strong>Datawrapper</strong> の公式解説では「順位の変化を示すチャート」として紹介され、ランキングデータに特化した用途を推奨しています。</li>
-<li><strong>Flourish</strong> では専用テンプレートが用意され、インタラクティブにハイライトや注釈を加えることが可能です。</li>
-<li><strong>Vega-Lite</strong> では rank-transform を利用して順位を生成し、それを折れ線で結ぶ例が公式ドキュメントに掲載されています。</li>
-<li><strong>Malloy</strong> などのモダンBI言語でも「時間×順位」を組み合わせた標準的なチャート型として紹介されています。</li>
-</ul>
-<p>このように、19世紀に端を発する発想が、21世紀のデータ可視化ツールに正式な「チャート・タイプ」として組み込まれるまでに発展しました。</p>
-<h2 id="特徴と活用領域">特徴と活用領域
-</h2><p>バンプ・チャートが適しているのは <strong>「相対的な位置の変化そのものがストーリーになる」</strong> ケースです。</p>
-<ul>
-<li><strong>スポーツ</strong> リーグ戦の順位推移（シーズンを通じてどのチームが浮き沈みしたか）</li>
-<li><strong>市場</strong> 企業や製品のシェアランキングの変動</li>
-<li><strong>世論</strong> 人気投票やランキング調査の入れ替わり</li>
-<li><strong>教育・都市</strong> 大学ランキングや都市人口順位の長期推移</li>
-</ul>
-<p>絶対値よりも「順位の上下動」に意味がある領域で特に有効で、見る人は即座に「勝者と敗者」を把握できます。</p>
+<p>これらの用途では、階層全体の構造を俯瞰しやすく、個別の値も面積からおおよそ理解できます。</p>
+<h2 id="技術的背景">技術的背景
+</h2><p>サークル・パッキングのレイアウトは <strong>円充填問題（circle packing problem）</strong> を応用しています。<br>
+この問題では、「円を重ならないように配置し、できるだけコンパクトにまとめる」ことを目的とします。データ可視化においては、各階層の親円内に子円を最適に配置するアルゴリズムが用いられます。</p>
+<p>代表的な実装例として <strong>D3.js の “circle packing layout”</strong> が挙げられます。このレイアウトは各ノードの値（value）をもとに半径を計算し、再帰的に親子関係を描画します。</p>
+<p>ツリーマップとの比較をまとめると以下のようになります。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>比較項目</th>
+          <th>サークル・パッキング</th>
+          <th>ツリーマップ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>形状</td>
+          <td>円</td>
+          <td>長方形</td>
+      </tr>
+      <tr>
+          <td>空間効率</td>
+          <td>やや低い（すき間ができる）</td>
+          <td>高い（面積を埋める）</td>
+      </tr>
+      <tr>
+          <td>階層の見やすさ</td>
+          <td>親子関係が自然で直感的</td>
+          <td>構造は明確だが硬い印象</td>
+      </tr>
+      <tr>
+          <td>用途</td>
+          <td>教育・展示・芸術的可視化</td>
+          <td>ビジネス・分析的可視化</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="教育的意義">教育的意義
+</h2><p>美術大学や情報デザインの授業において、サークル・パッキングは以下の学習効果をもたらします。</p>
+<ol>
+<li>
+<p><strong>階層構造の理解</strong><br>
+　円の入れ子構造を通じて、「全体と部分」「親と子」という概念を視覚的に把握できる。</p>
+</li>
+<li>
+<p><strong>数量感覚の育成</strong><br>
+　面積の大小によって、量の違いを直感的に感じ取れる。</p>
+</li>
+<li>
+<p><strong>美的表現の探求</strong><br>
+　円による構成は視覚的バランスが良く、アート作品やインフォグラフィックスの素材としても応用できる。</p>
+</li>
+<li>
+<p><strong>他の図法との比較学習</strong><br>
+　ツリーマップやサンバーストチャートとの対比により、図法選択の意義を理解できる。</p>
+</li>
+</ol>
 <h2 id="まとめ">まとめ
-</h2><ul>
-<li>バンプ・チャートの思想は 1890年統計アトラスに見られるように、19世紀から存在していた。</li>
-<li>発明者を一人に特定することはできないが、Henry Gannett らが国勢調査の都市順位を示す中で <strong>「相対的な位置の変化を可視化する」</strong> 発想が実践されていた。</li>
-<li>現代では Matt Chambers や Rody Zakovich の活動を通じて再発見され、「Bump Chart」という呼称とともに普及。</li>
-<li>Datawrapper や Vega-Lite など主要ツールに公式実装され、ランキングのストーリーを伝えるための定番チャートになっている。</li>
-</ul>
-<p>バンプ・チャートは、社会の中での位置付けがどう変わったかを描くことができるチャートです。歴史的にも現代的にも「競争と変化」を伝えるのにちょうどいい表現手法の一つと言えるでしょう。</p>
-<h2 id="参考リンク">参考リンク
-</h2><ul>
-<li><a class="link" href="https://fraser.stlouisfed.org/title/statistical-atlas-united-states-5587"  target="_blank" rel="noopener"
-    >Statistical Atlas of the United States (1890) – FRASER</a></li>
-<li><a class="link" href="https://www.bocoup.com/blog/vintage-visualization-restoration-bump-chart"  target="_blank" rel="noopener"
-    >Vintage Visualization Restoration – Bump Chart Edition (Bocoup)</a></li>
-<li><a class="link" href="https://www.sirvizalot.com/2016/03/color-popularity-for-new-cars-2000-2015.html"  target="_blank" rel="noopener"
-    >How To: Using Ranks to Create Bump Charts in Tableau (Matt Chambers)</a></li>
-<li><a class="link" href="https://public.tableau.com/views/AreaBumpChart/AreaBumpChart?:showVizHome=no"  target="_blank" rel="noopener"
-    >Area Bump Chart (Rody Zakovich, Tableau Public)</a></li>
-<li><a class="link" href="https://academy.datawrapper.de/article/347-how-to-create-a-bump-chart"  target="_blank" rel="noopener"
-    >How to create a bump chart – Datawrapper Academy</a></li>
-<li><a class="link" href="https://helpcenter.flourish.studio/hc/en-us/articles/9951629626383-How-to-create-an-area-bump-chart"  target="_blank" rel="noopener"
-    >How to create an area bump chart – Flourish Help Center</a></li>
-<li><a class="link" href="https://vega.github.io/vega-lite/examples/line_bump.html"  target="_blank" rel="noopener"
-    >Bump Chart – Vega-Lite Examples</a></li>
-<li><a class="link" href="https://docs.malloydata.dev/blog/2023-10-26-malloy-bump-chart/"  target="_blank" rel="noopener"
-    >Bump charts – Malloy Documentation</a></li>
-</ul>
+</h2><p>サークル・パッキングは <strong>「階層構造のやさしい見せ方」</strong> として非常に有効な手法です。<br>
+空間効率よりも <strong>構造の直感的理解と視覚的魅力</strong> を重視する際に選ばれます。</p>
+<p>データの性質に応じて、ツリーマップや他の階層可視化手法と組み合わせることで、より効果的なデータ表現が可能になります。</p>
 </section>
 
 
@@ -697,6 +693,30 @@
             
                 
 <article class="has-image">
+    <a href="/bump-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
+                        data-key="bump-chart" 
+                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/mosaic-plot/">
         
         
@@ -714,30 +734,6 @@
 
         <div class="article-details">
             <h2 class="article-title">モザイク・プロット（Mosaic Plot）</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/parallel-sets/">
-        
-        
-            <div class="article-image">
-                <img src="/parallel-sets/images/Parallel_Sets.60480002ec7eda84a5611c920f523e3a_hu_1b7d170cd4dad316.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
-                        data-key="parallel-sets" 
-                        data-hash="md5-YEgAAux&#43;2oSlYRySD1I&#43;Og==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</h2>
         </div>
     </a>
 </article>

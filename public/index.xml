@@ -8,6 +8,113 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>サークル・パッキング (Circle Packing)</title>
+        <link>http://localhost:59740/circle-packing/</link>
+        <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:59740/circle-packing/</guid>
+        <description>&lt;img src="http://localhost:59740/time-distance-map/images/thumb_ph_vizjp.png" alt="Featured image of post サークル・パッキング (Circle Packing)" /&gt;&lt;p&gt;サークル・パッキング（Circle Packing）は &lt;strong&gt;階層的なデータを円の集合として可視化する手法&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。ツリーマップ（Tree Map）と同じく階層構造を扱いますが、長方形ではなく円を使うことで &lt;strong&gt;より柔らかく直感的な印象&lt;/strong&gt; を与えます。特に教育・展示・広報などで、データの構造をやさしく見せたいときに有効です。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;サークル・パッキングの基本的な読み方は以下の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;円のサイズ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各要素の大きさ（数値や比率など）を表します。大きい円ほど値が大きいことを示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;親円と子円&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;大きな円の中に小さな円が入ることで、階層構造（親カテゴリ→子カテゴリ）を表します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;多くの場合、カテゴリや変数の種類を示します。例：業種別・分類別など。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;円の位置&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;近い位置に配置される円ほど関係が深いことを示す場合があります。ただし、位置には必ずしも数理的な意味はなく、配置は見やすさ重視です。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;図全体を見ることで、「どのグループが全体の中でどれくらいの割合を占めるのか」「どのグループにどの小分類が含まれているか」を同時に把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;典型的な使用例&#34;&gt;典型的な使用例
+&lt;/h2&gt;&lt;p&gt;サークル・パッキングは、以下のような階層的データに適しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ファイルシステム構造&lt;/strong&gt;：フォルダ（親円）とファイル（子円）を大きさで示す&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生物分類&lt;/strong&gt;：界 → 門 → 綱 → 目 → 科 → 属 → 種の階層を視覚化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;企業・産業構造&lt;/strong&gt;：業種別・企業別の経済規模を比較&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地域別データ&lt;/strong&gt;：都道府県→市区町村→町丁などの人口構成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの用途では、階層全体の構造を俯瞰しやすく、個別の値も面積からおおよそ理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;技術的背景&#34;&gt;技術的背景
+&lt;/h2&gt;&lt;p&gt;サークル・パッキングのレイアウトは &lt;strong&gt;円充填問題（circle packing problem）&lt;/strong&gt; を応用しています。&lt;br&gt;
+この問題では、「円を重ならないように配置し、できるだけコンパクトにまとめる」ことを目的とします。データ可視化においては、各階層の親円内に子円を最適に配置するアルゴリズムが用いられます。&lt;/p&gt;
+&lt;p&gt;代表的な実装例として &lt;strong&gt;D3.js の “circle packing layout”&lt;/strong&gt; が挙げられます。このレイアウトは各ノードの値（value）をもとに半径を計算し、再帰的に親子関係を描画します。&lt;/p&gt;
+&lt;p&gt;ツリーマップとの比較をまとめると以下のようになります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;比較項目&lt;/th&gt;
+          &lt;th&gt;サークル・パッキング&lt;/th&gt;
+          &lt;th&gt;ツリーマップ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;形状&lt;/td&gt;
+          &lt;td&gt;円&lt;/td&gt;
+          &lt;td&gt;長方形&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;空間効率&lt;/td&gt;
+          &lt;td&gt;やや低い（すき間ができる）&lt;/td&gt;
+          &lt;td&gt;高い（面積を埋める）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;階層の見やすさ&lt;/td&gt;
+          &lt;td&gt;親子関係が自然で直感的&lt;/td&gt;
+          &lt;td&gt;構造は明確だが硬い印象&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;用途&lt;/td&gt;
+          &lt;td&gt;教育・展示・芸術的可視化&lt;/td&gt;
+          &lt;td&gt;ビジネス・分析的可視化&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;教育的意義&#34;&gt;教育的意義
+&lt;/h2&gt;&lt;p&gt;美術大学や情報デザインの授業において、サークル・パッキングは以下の学習効果をもたらします。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;階層構造の理解&lt;/strong&gt;&lt;br&gt;
+　円の入れ子構造を通じて、「全体と部分」「親と子」という概念を視覚的に把握できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;数量感覚の育成&lt;/strong&gt;&lt;br&gt;
+　面積の大小によって、量の違いを直感的に感じ取れる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;美的表現の探求&lt;/strong&gt;&lt;br&gt;
+　円による構成は視覚的バランスが良く、アート作品やインフォグラフィックスの素材としても応用できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;他の図法との比較学習&lt;/strong&gt;&lt;br&gt;
+　ツリーマップやサンバーストチャートとの対比により、図法選択の意義を理解できる。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;サークル・パッキングは &lt;strong&gt;「階層構造のやさしい見せ方」&lt;/strong&gt; として非常に有効な手法です。&lt;br&gt;
+空間効率よりも &lt;strong&gt;構造の直感的理解と視覚的魅力&lt;/strong&gt; を重視する際に選ばれます。&lt;/p&gt;
+&lt;p&gt;データの性質に応じて、ツリーマップや他の階層可視化手法と組み合わせることで、より効果的なデータ表現が可能になります。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>時間‐距離図（Time-Distance Diagram）とは</title>
         <link>http://localhost:59740/time-distance-diagram/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
