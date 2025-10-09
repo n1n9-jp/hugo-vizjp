@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "chart",
+    "",
 ]
 image = "images/AllDinosGrey_1-2048x1431.png"
 +++

@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "color","classification","tv"
+    "色"
 ]
 image = "images/1_FaYbeQRYIS7-C7hF-gNXYA.jpeg"
 +++

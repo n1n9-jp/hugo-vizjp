@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "2-axis","chart"
+    "2-axis"
 ]
 image = "/images/img-10.jpeg"
 +++

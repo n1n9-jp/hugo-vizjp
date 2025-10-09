@@ -7,7 +7,7 @@ categories = [
     "technology"
 ]
 tags = [
-    "color",
+    "色",
 ]
 image = "images/fi_ColorSpace.png"
 +++

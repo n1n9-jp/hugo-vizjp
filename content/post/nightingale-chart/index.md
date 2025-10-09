@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "chart",
+    "",
 ]
 image = "images/Nightingale-mortality.jpg"
 +++
