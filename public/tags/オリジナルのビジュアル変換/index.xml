@@ -378,6 +378,170 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>歴史地図帳によって歪められた歴史認識 -Atlases of world history-</title>
+        <link>http://localhost:1313/atlases-of-world-history/</link>
+        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/atlases-of-world-history/</guid>
+        <description>&lt;img src="http://localhost:1313/atlases-of-world-history/images/cover.png" alt="Featured image of post 歴史地図帳によって歪められた歴史認識 -Atlases of world history-" /&gt;&lt;p&gt;この作品「 &lt;strong&gt;Atlases of world history&lt;/strong&gt; 」は、歴史地図帳によってどのように私たちの「歴史認識」が歪められているのかを可視化したデータ・ヴィジュアライゼーションです。
+制作者は &lt;strong&gt;Accurat&lt;/strong&gt;（イタリアのデータ・デザインスタジオ）で、イタリア紙 &lt;em&gt;Corriere della Sera&lt;/em&gt; の文化付録「La Lettura」に掲載されたシリーズ作品のひとつです。
+De Agostini、Garzanti、Zanichelli という3種類の代表的な世界史アトラス（いずれもイタリアの出版社）を比較し、&lt;strong&gt;それぞれの地図帳が歴史のどの時代にどれだけの紙面を割いているか&lt;/strong&gt; を、歪んだタイムラインで示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/atlases-of-world-history/images/mainvisual.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;2192&#34;
+	srcset=&#34;http://localhost:1313/atlases-of-world-history/images/mainvisual_hu_870e0c767b169580.png 480w, http://localhost:1313/atlases-of-world-history/images/mainvisual_hu_7fdd78c38b809f94.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Atlases of world history&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;273px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;左側の「How to read it?」パネルに示されているように、この図の構造は以下の要素で構成されています。&lt;/p&gt;
+&lt;h3 id=&#34;distorted-timeline--時間の歪みを可視化する&#34;&gt;Distorted timeline — 時間の歪みを可視化する
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/atlases-of-world-history/images/legend-1.png&#34;
+	width=&#34;435&#34;
+	height=&#34;417&#34;
+	srcset=&#34;http://localhost:1313/atlases-of-world-history/images/legend-1_hu_64eed73717e30cd.png 480w, http://localhost:1313/atlases-of-world-history/images/legend-1_hu_25aeebb40baa722c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例-1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ここでは、実際の歴史の経過と、アトラス（教科書）で割かれている紙面量とを比較し &lt;strong&gt;時間の歪み（distortion of timeline）&lt;/strong&gt; を視覚的に表現しています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味・役割&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;actual timeline（下段）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;実際の時間の経過を示します。紀元前10000年から西暦2000年までを等間隔で描いた「正しい」時間軸です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;upper timeline（上段）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各アトラスでどの時代にどれだけの紙面が割かれているかに応じて歪められた時間軸です。多く扱われる時代は伸び、軽視される時代は圧縮されます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;縦方向の線群&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;実際の時間（下）と歪んだ時間（上）を結ぶ対応線です。実際の軸では250年ごと、歪んだ軸では50年ごとに線が引かれ、時代ごとの「強調度合い」を比較できます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;2000 BC の赤線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;歴史上の特定時点（古代エジプトの開始期）を基準として、時間のずれを強調しています。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;右端の注記&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;“50-year period size = % of textbook pages…” の文が示すように、各50年間に対して教科書の何％のページが割かれているかを表します。値が大きいほど時間が引き伸ばされます。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この凡例が示しているのは &lt;strong&gt;「教科書のページ数＝私たちが体感する歴史の長さ」&lt;/strong&gt; という構造です。実際の時間軸は一定でも、教育や出版物の中では、その時代の「重要度」に応じて時間が再スケーリングされてしまいます。&lt;/p&gt;
+&lt;p&gt;たとえば、古代エジプトは実際の歴史上では限られた期間ですが、アトラス上では多くのページを割かれているため、図上では長く引き伸ばされています。逆に、先史時代や中世初期のように扱いの少ない時代は、圧縮されてほとんど目に入らなくなります。&lt;/p&gt;
+&lt;p&gt;この歪みこそが「世界史をどのように記憶しているか」を決定づける要因であり、本作品のメッセージは &lt;strong&gt;「私たちは歴史を“学ぶ比率”によって時間感覚を再構築している」&lt;/strong&gt; ということにあります。&lt;/p&gt;
+&lt;h3 id=&#34;key-topics-and-continents--主題と地域の偏りを読む&#34;&gt;Key topics and continents — 主題と地域の偏りを読む
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/atlases-of-world-history/images/legend-2.png&#34;
+	width=&#34;435&#34;
+	height=&#34;395&#34;
+	srcset=&#34;http://localhost:1313/atlases-of-world-history/images/legend-2_hu_1ebeb1790935340.png 480w, http://localhost:1313/atlases-of-world-history/images/legend-2_hu_25336527b31a6a8f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例-2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;110&#34;
+		data-flex-basis=&#34;264px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この部分は、アトラス（世界史地図帳）において、どの時代に &lt;strong&gt;どの主題（トピック）&lt;/strong&gt; が重視され &lt;strong&gt;どの大陸が扱われているか&lt;/strong&gt; を示す凡例です。上部の「時間の歪み」とは異なり、ここでは &lt;strong&gt;内容の重み付けと地理的分布&lt;/strong&gt; を視覚化しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;棒の &lt;strong&gt;高さ&lt;/strong&gt; は「語られる量」、&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色&lt;/strong&gt; は「語られる内容」、&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点の位置&lt;/strong&gt; は「語られる場所」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;をそれぞれ表します。この三層構造によって、歴史が単に時間の流れとしてではなく、「 &lt;strong&gt;何を中心に語るかという編集の選択&lt;/strong&gt; 」として表現されています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味・役割&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;key topics for each 50-year period&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各50年区間ごとに扱われる主題を表します。縦の積み上げ棒の高さは、そのトピックが文章中で占める割合（＝段落数の比率）を示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;colour code + topic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;主題ごとに色が割り当てられています。社会（黄）、宗教（紫）、政治（青紫）、戦争（赤）、経済（茶）。色分けによって時代の関心領域が視覚的にわかります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;vertical size = topic importance&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;棒の高さがそのトピックの「重要度」（＝その50年間における記述の割合）を示します。高いほど、その時期にその主題が多く語られていることを意味します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;continent coverage for each 50-year period&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各50年ごとに、どの大陸が登場しているかをドットで表示します。上からヨーロッパ、アフリカ、アジア、オセアニア、北アメリカ、南アメリカの順です。ドットが濃いほど、その大陸が多く扱われています。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;各アトラス世界史地図帳の特徴&#34;&gt;各アトラス（世界史地図帳）の特徴
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;アトラス名&lt;/th&gt;
+          &lt;th&gt;出版社&lt;/th&gt;
+          &lt;th&gt;主な特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;De Agostini / Atlas of world history&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;De Agostini社&lt;/td&gt;
+          &lt;td&gt;比較的バランスが取れているが、ヨーロッパ中心の叙述が顕著。古代と近代に厚く紙面を割く。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Garzanti / Atlas of world history&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Garzanti社&lt;/td&gt;
+          &lt;td&gt;近代以降（1500年以降）の比重が高く、戦争と政治的イベントの扱いが多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Zanichelli / Atlas of world history&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Zanichelli社&lt;/td&gt;
+          &lt;td&gt;学術的網羅性が高いが、やはりヨーロッパと戦争史に重点を置く傾向がある。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この比較により &lt;strong&gt;どのアトラスも近代ヨーロッパに強く焦点を当てていること&lt;/strong&gt; が一目で理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景歴史の歪みを可視化する意義&#34;&gt;背景：歴史の「歪み」を可視化する意義
+&lt;/h2&gt;&lt;p&gt;本作は単なるデータ比較ではなく、「私たちが何を“世界史”として認識しているか」という教育的・文化的問いを投げかけています。同じ歴史でも、教材の構成によって「どこが長く、どこが短いか」という“時間の歪み”が生じ、それが集団的記憶の偏りにつながる - この構造を可視化するのが目的です。&lt;/p&gt;
+&lt;p&gt;この手法は、時間と内容の両方を比例的に扱わず &lt;strong&gt;紙面比率を軸に再スケーリングする「知識地図」&lt;/strong&gt; として特筆されます。Giorgia LupiらAccuratが得意とする「情報を感情的に理解させるビジュアライゼーション」の好例でもあります。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Atlases of world history」は、教育用地図帳という身近なメディアを通じて、私たちの歴史認識がどのように形成・歪曲されているのかを静かに問いかける作品です。&lt;/p&gt;
+&lt;p&gt;時間の伸縮と色分けによる主題分布の手法は、データ・ビジュアライゼーションが単なる統計表現ではなく、文化的記憶の再構築を促す「批評のメディア」となりうることを示しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://giorgialupi.com/lalettura&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Data — Atlases of world history (giorgialupi.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/accurat/8417324861/in/album-72157632185046466&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Comparing historical Atlases: | Comparing historical atlases… | Flickr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</title>
         <link>http://localhost:1313/continents-showdown/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
