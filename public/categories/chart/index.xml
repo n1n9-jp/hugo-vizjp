@@ -198,6 +198,562 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>アーク・ダイアグラム (Arc Diagram)</title>
+        <link>http://localhost:1313/arc-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/arc-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/arc-diagram/images/cover.png" alt="Featured image of post アーク・ダイアグラム (Arc Diagram)" /&gt;&lt;p&gt;アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/arc-diagram/images/mainvisual.png&#34;
+	width=&#34;2381&#34;
+	height=&#34;1244&#34;
+	srcset=&#34;http://localhost:1313/arc-diagram/images/mainvisual_hu_19363382ad04bcbd.png 480w, http://localhost:1313/arc-diagram/images/mainvisual_hu_1885a5d9d1a71f52.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;459px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ノード（点）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;対象となる要素（人物、単語、音符、登場キャラクターなど）を表す。直線上に等間隔または意味のある順序で並ぶ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;アーク（円弧）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ノード間の関係性や接続を表す。線の高さや太さ、色などで関係の種類や強さを表現できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;配置の順序&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;左から右へ、または上から下へと進む直線的な並びは、時間の流れや文脈の順序を意味することが多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;重なりのパターン&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;アークが交差したり密集したりする部分は、関係が集中している、または複雑な相互関係を持つことを示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;対称性&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;対称的なアーク配置は、構造的なパターンや循環性（再帰的な関係）を暗示する。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用例&#34;&gt;背景と応用例
+&lt;/h2&gt;&lt;p&gt;アーク・ダイアグラムは、ネットワーク可視化の中でも「直線的な時間軸」や「系列的なテキスト構造」との親和性が高い手法です。たとえば以下のような領域で活用されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テキスト分析&lt;/strong&gt; ：同じ語句の出現関係や文中の参照構造を表す（例：シェイクスピア作品における人物同士の登場関係）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音楽解析&lt;/strong&gt; ：曲中で繰り返されるモチーフや和音進行の関係を示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生物情報学&lt;/strong&gt; ：遺伝子間相互作用や配列の類似性を時間軸上で視覚化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソフトウェア解析&lt;/strong&gt; ：コード内の関数呼び出し関係を直線的に表す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この手法は、ネットワーク構造を「空間的に展開する」のではなく、「時間的・文脈的な線上に射影する」ことで、観察者が系列構造と関係構造を同時に理解できる点が特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;歴史的背景&#34;&gt;歴史的背景
+&lt;/h2&gt;&lt;p&gt;Martin Wattenberg（現・Google Research, 以前はIBM Visual Communication Lab）は2002年に、音楽の構造を可視化する「The Shape of Song」プロジェクトにおいてアーク・ダイアグラムを初めて一般に紹介しました。
+この作品では、音楽の繰り返し構造が左右対称のアークとして描かれ、聴覚的な構造が視覚的パターンに変換されています。&lt;/p&gt;
+&lt;p&gt;その後、アーク・ダイアグラムはネットワーク可視化ライブラリ（Gephi, D3.js, Vega-Liteなど）に取り込まれ、現在では「ネットワーク構造を簡潔に表現する代表的手法」として定着しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;アーク・ダイアグラムは、複雑な関係性を直線的な配置で単純化し、パターン認識を助ける強力な可視化手法です。「時間・順序・関係」の三要素を同時に理解できる点が特徴であり、特に情報デザイン・音楽分析・テキスト構造解析など &lt;strong&gt;系列的構造を持つデータ&lt;/strong&gt; において有効です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Arc Diagrams: Visualizing Structure in Strings” — Martin Wattenberg, IEEE InfoVis 2002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Arc_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc diagram — Wikipedia （頂点を直線上に配置し、半円弧などで辺を描く手法について解説&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega/examples/arc-diagram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc diagram Example | Vega （“arc diagrams were originally invented to depict repeated musical structures in Martin Wattenberg’s The Shape of Song.” と記述）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bewitched.com/song.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Shape of Song — “I created a visualization method called an arc diagram that highlighted repeated sections …”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Martin_M._Wattenberg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Martin M. Wattenberg — 可視化分野・Arc Diagram との関連を記述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc Diagrams: Visualizing Structure in Strings (IBM 公開版) — IBM サイト上での発表概要&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>コード・ダイアグラム (Chord Diagram)</title>
+        <link>http://localhost:1313/chord-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/chord-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/chord-diagram/images/cover.png" alt="Featured image of post コード・ダイアグラム (Chord Diagram)" /&gt;&lt;p&gt;&lt;strong&gt;コード・ダイアグラム（Chord Diagram）&lt;/strong&gt; は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に &lt;strong&gt;相互関係・双方向の関係・フロー量&lt;/strong&gt; などを表現するために使われ、データの対称性やバランスを直感的に把握できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01.png&#34;
+	width=&#34;900&#34;
+	height=&#34;255&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01_hu_c9ee5cff6f8f7c48.png 480w, http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01_hu_1f61eba1e3e4a06b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;352&#34;
+		data-flex-basis=&#34;847px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-sample-panel.png&#34;
+	width=&#34;950&#34;
+	height=&#34;234&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-sample-panel_hu_cd86c65cca2cebfe.png 480w, http://localhost:1313/chord-diagram/images/circos-sample-panel_hu_c5f8edb365f8dc0e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;405&#34;
+		data-flex-basis=&#34;974px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最初に広く知られるようになったのは、2000年代に登場した&lt;strong&gt;Circos&lt;/strong&gt;（Martin Krzywinski開発）という可視化ツールによります。その後、D3.jsなどの可視化ライブラリでも実装が普及し、遺伝子間関係・国際貿易・人口移動・産業間連関などの多様な分野で応用されています。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方chord-diagram-の場合&#34;&gt;図解の見方（Chord Diagram の場合）
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend.png&#34;
+	width=&#34;900&#34;
+	height=&#34;371&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_5a6faedc02942e79.png 480w, http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_7b9afecad1f7f4f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;242&#34;
+		data-flex-basis=&#34;582px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;表しているもの&lt;/th&gt;
+          &lt;th&gt;解釈のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;円周上のセグメント（Arc）&lt;/td&gt;
+          &lt;td&gt;各カテゴリ・ノード&lt;/td&gt;
+          &lt;td&gt;対象（国、産業、個体など）を円形に並べる。長さが値の大きさを示す場合もある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;弧（Chord）&lt;/td&gt;
+          &lt;td&gt;ノード間の関係またはフロー&lt;/td&gt;
+          &lt;td&gt;2つのノード間の関係や流入・流出の量を表す。弧の太さが数量を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色（Color）&lt;/td&gt;
+          &lt;td&gt;グループや方向性&lt;/td&gt;
+          &lt;td&gt;同系色でグループを示したり、グラデーションで方向（A→B）を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;弧の向き&lt;/td&gt;
+          &lt;td&gt;関係の方向性&lt;/td&gt;
+          &lt;td&gt;有向データの場合、片側が起点、もう片側が終点となる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;交差の有無&lt;/td&gt;
+          &lt;td&gt;相互関係の複雑さ&lt;/td&gt;
+          &lt;td&gt;弧が多く交差するほど関係構造が複雑であることを示す。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用例&#34;&gt;背景と応用例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;バイオインフォマティクス&lt;/strong&gt; では、遺伝子間の共発現や染色体間の関連を示すために使用される（例：ヒトゲノム間の相同性）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;経済学・貿易統計&lt;/strong&gt; では、国ごとの輸出入や産業間の資金・資源フローの可視化に用いられる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソーシャルネットワーク分析&lt;/strong&gt; では、人や組織間の関係性を円環的に整理でき、力学的レイアウトよりも対称性が強調される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的特徴&lt;/strong&gt; として、放射状・有機的な構造が美しく、アート的可読性とデータの網羅性を兼ね備えている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;代表的な作例ツール&#34;&gt;代表的な作例・ツール
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;開発者・機関&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Circos&lt;/td&gt;
+          &lt;td&gt;Martin Krzywinski&lt;/td&gt;
+          &lt;td&gt;ゲノムデータ可視化のために開発。円環構造による高密度な比較表現が可能。高解像度画像出力にも対応。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D3.js Chord Layout&lt;/td&gt;
+          &lt;td&gt;Mike Bostock&lt;/td&gt;
+          &lt;td&gt;Webブラウザ上で動的に描画できるオープンソースの実装。データ駆動型で双方向のフローを表現可能。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RAWGraphs Chord Diagram&lt;/td&gt;
+          &lt;td&gt;DensityDesign Lab（Politecnico di Milano）&lt;/td&gt;
+          &lt;td&gt;CSVをアップロードしてノーコードで生成できる可視化ツール。教育・研究向けに最適化。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Flourish Chord&lt;/td&gt;
+          &lt;td&gt;Flourish&lt;/td&gt;
+          &lt;td&gt;インタラクティブなチャート共有に対応。ストーリーテリングやプレゼンテーション向けに適する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Plotly Chord Diagram&lt;/td&gt;
+          &lt;td&gt;Plotly Technologies&lt;/td&gt;
+          &lt;td&gt;Python/R/JavaScriptで作成可能な分析可視化ツール。数値解析との連携が容易。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;コード・ダイアグラムは &lt;strong&gt;「多方向の関係を一目で理解させるための円環的マッピング」&lt;/strong&gt; であり、単なるネットワーク図よりも &lt;strong&gt;全体構造の対称性とバランス感覚&lt;/strong&gt; を強調する表現です。ただし、ノード数やリンクが多いと可読性が低下するため &lt;strong&gt;グルーピング・色分け・フィルタリング&lt;/strong&gt; の工夫が重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://circos.ca/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Circos - Circular Genome Data Visualization Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/d3/d3-chord&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js Official Chord Layout Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/chord-diagram.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chord diagram | the R Graph Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://python-graph-gallery.com/chord-diagram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chord diagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.exploratory.io/note/exploratory/How-to-Create-a-Chord-Diagram-in-Exploratory-sEM9CMh1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How to Create a Chord Diagram in Exploratory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ベクトル・フィールド・マップ（Vector Field Map）</title>
+        <link>http://localhost:1313/vector-field-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/vector-field-map/</guid>
+        <description>&lt;img src="http://localhost:1313/vector-field-map/images/cover.png" alt="Featured image of post ベクトル・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。&lt;/p&gt;
+&lt;p&gt;この可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。色や長さでベクトルの大きさを、角度で方向を表します。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;表すもの&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;矢印の方向&lt;/td&gt;
+          &lt;td&gt;ベクトルの向き&lt;/td&gt;
+          &lt;td&gt;各点における流れや力の方向を示します。例えば風向や電場の向きを意味します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;矢印の長さ&lt;/td&gt;
+          &lt;td&gt;ベクトルの大きさ（強度）&lt;/td&gt;
+          &lt;td&gt;長い矢印は強い力・速い流れ、短い矢印は弱い力・遅い流れを示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;矢印の色&lt;/td&gt;
+          &lt;td&gt;強度やスカラー値&lt;/td&gt;
+          &lt;td&gt;大きさを補助的に表したり、別の変数（温度や圧力など）を示す場合もあります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;背景グリッド&lt;/td&gt;
+          &lt;td&gt;位置の基準&lt;/td&gt;
+          &lt;td&gt;各ベクトルがどの位置に対応しているかを示す座標系です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;等高線や陰影&lt;/td&gt;
+          &lt;td&gt;補助的スカラー場&lt;/td&gt;
+          &lt;td&gt;ベクトルと同時にスカラー値の分布（例：速度ポテンシャル）を重ねることもあります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;主な用途と応用例&#34;&gt;主な用途と応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;主な対象&lt;/th&gt;
+          &lt;th&gt;代表的な用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;気象学&lt;/td&gt;
+          &lt;td&gt;風の流れ・海流&lt;/td&gt;
+          &lt;td&gt;風向・風速図、台風の流れ解析など&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;物理学&lt;/td&gt;
+          &lt;td&gt;電場・磁場&lt;/td&gt;
+          &lt;td&gt;力の方向と強度の空間分布&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;流体力学&lt;/td&gt;
+          &lt;td&gt;流速ベクトル&lt;/td&gt;
+          &lt;td&gt;流れの渦や収束・発散の可視化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;医学・生理学&lt;/td&gt;
+          &lt;td&gt;血流解析&lt;/td&gt;
+          &lt;td&gt;MRIベースの血流方向可視化など&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;コンピュータグラフィックス&lt;/td&gt;
+          &lt;td&gt;ベクトルノイズ、流線&lt;/td&gt;
+          &lt;td&gt;視覚的エフェクトやテクスチャ生成&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;関連する表現手法&#34;&gt;関連する表現手法
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;手法&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;比較点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ストリームライン（Streamline）&lt;/td&gt;
+          &lt;td&gt;連続した線で流れの方向を示す&lt;/td&gt;
+          &lt;td&gt;流れの連続性を強調できる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;パスライン（Pathline）&lt;/td&gt;
+          &lt;td&gt;粒子の時間経過を追跡&lt;/td&gt;
+          &lt;td&gt;動的な流れを表現&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;グリフ・プロット（Glyph Plot）&lt;/td&gt;
+          &lt;td&gt;矢印や円錐などの形状でベクトルを表す&lt;/td&gt;
+          &lt;td&gt;多次元データにも応用可能&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;コンツアー・マップ（Contour Map）&lt;/td&gt;
+          &lt;td&gt;スカラー値を線で表す&lt;/td&gt;
+          &lt;td&gt;ベクトルと重ねて使うと効果的&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;代表的な作例ツール&#34;&gt;代表的な作例・ツール
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称／ツール&lt;/th&gt;
+          &lt;th&gt;概要&lt;/th&gt;
+          &lt;th&gt;URL（参考）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;NASA Earth Observatory Wind Maps&lt;/td&gt;
+          &lt;td&gt;全球の風向・風速を動的に表示する可視化&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://earth.nullschool.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://earth.nullschool.net/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ParaView&lt;/td&gt;
+          &lt;td&gt;科学可視化ソフト。ベクトル場・流線の描画が可能&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.paraview.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.paraview.org/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;matplotlib（Python）&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;quiver()&lt;/code&gt; 関数でベクトル場の描画&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;d3.js + d3-force&lt;/td&gt;
+          &lt;td&gt;Webベースで流れや力学的ベクトルの可視化&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://d3js.org/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Flow Map Blue&lt;/td&gt;
+          &lt;td&gt;移動方向を表す流線型地図&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowmap.blue/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://flowmap.blue/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h2&gt;&lt;p&gt;ベクトル・フィールドの可視化は、19世紀の物理学や流体力学の発展とともに始まりました。マイケル・ファラデーは磁力線の概念を図として表現し、後にジェームズ・クラーク・マクスウェルが数式的なベクトル場理論を体系化しました。&lt;br&gt;
+現代では、数値流体シミュレーション（CFD）やリモートセンシングによって得られる高密度なデータを、ベクトル・フィールド・マップで動的に可視化することが一般的です。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ベクトル・フィールド・マップは、方向と大きさを同時に表現することで、空間的な力や流れの関係を理解するのに非常に有効です。物理現象や社会現象など、多様なデータに応用でき、科学・デザイン・教育の分野で広く利用されています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://earth.nullschool.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NASA Earth Observatory – Earth Wind Map (earth.nullschool.net)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Matplotlib Documentation – Quiver Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.paraview.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ParaView Official Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowmap.blue/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flow Map Blue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js Official Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Vector_field&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – Vector field visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>隣接行列（Adjacency Matrix）</title>
+        <link>http://localhost:1313/adiacency-matrix/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/adiacency-matrix/</guid>
+        <description>&lt;img src="http://localhost:1313/adiacency-matrix/images/cover.png" alt="Featured image of post 隣接行列（Adjacency Matrix）" /&gt;&lt;p&gt;隣接行列（adjacency matrix）は、&lt;strong&gt;ネットワーク（グラフ）構造を数値の表形式で表現する方法&lt;/strong&gt;です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/adiacency-matrix/images/mainvisual.jpg&#34;
+	width=&#34;836&#34;
+	height=&#34;918&#34;
+	srcset=&#34;http://localhost:1313/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, http://localhost:1313/adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Les Misérables Co-occurrence&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;218px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;隣接行列では、&lt;strong&gt;縦軸と横軸にすべてのノード（頂点）を並べ&lt;/strong&gt;、交差点のセル（マス目）に「接続があるかどうか」を記します。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;行・列&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;セルの値の意味&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;行（縦）&lt;/td&gt;
+          &lt;td&gt;出発ノード（From）&lt;/td&gt;
+          &lt;td&gt;1（または◯）：接続あり&lt;br&gt;0（または空白）：接続なし&lt;/td&gt;
+          &lt;td&gt;有向グラフでは「出発点」を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;列（横）&lt;/td&gt;
+          &lt;td&gt;到達ノード（To）&lt;/td&gt;
+          &lt;td&gt;1（または◯）：接続あり&lt;br&gt;0（または空白）：接続なし&lt;/td&gt;
+          &lt;td&gt;無向グラフでは行列が対称になる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対角成分&lt;/td&gt;
+          &lt;td&gt;自己ループ&lt;/td&gt;
+          &lt;td&gt;1の場合：ノードが自分自身へ接続&lt;/td&gt;
+          &lt;td&gt;多くのネットワークでは0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;例えば、3つのノード A, B, C のネットワークで&lt;br&gt;
+A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;A&lt;/th&gt;
+          &lt;th&gt;B&lt;/th&gt;
+          &lt;th&gt;C&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;B&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、&lt;strong&gt;行列の1つ1つのセルがエッジ（辺）を表す&lt;/strong&gt;ため、リンクの有無を簡潔に比較できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;発展の背景&lt;/strong&gt;&lt;br&gt;
+隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;長所&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行列演算が使えるため、ネットワークの &lt;strong&gt;連結成分・経路探索・中心性計算&lt;/strong&gt; に有効。&lt;/li&gt;
+&lt;li&gt;形式が単純で &lt;strong&gt;プログラム実装や保存&lt;/strong&gt; に適する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;短所&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは &lt;strong&gt;非効率&lt;/strong&gt; 。&lt;/li&gt;
+&lt;li&gt;視覚的な理解が難しく、大規模ネットワークでは &lt;strong&gt;密集したパターン（hairball）&lt;/strong&gt; になりやすい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;可視化上の応用&#34;&gt;可視化上の応用
+&lt;/h2&gt;&lt;p&gt;隣接行列は &lt;strong&gt;ネットワーク可視化の「行列型レイアウト」&lt;/strong&gt; として利用されます。&lt;br&gt;
+ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく &lt;strong&gt;構造的な規則性（クラスター、対称性、自己ループなど）&lt;/strong&gt; を視覚的に発見しやすい特徴があります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;可視化形式&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適用例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ノードリンク図&lt;/td&gt;
+          &lt;td&gt;直感的・空間的関係を表現&lt;/td&gt;
+          &lt;td&gt;小規模ネットワーク&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;隣接行列&lt;/td&gt;
+          &lt;td&gt;構造・関係パターンを強調&lt;/td&gt;
+          &lt;td&gt;大規模・密集ネットワーク、社会ネットワーク&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;関連する発展形&#34;&gt;関連する発展形
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ソート済み隣接行列（Sorted Adjacency Matrix）&lt;/strong&gt;：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相関行列との比較&lt;/strong&gt;：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BioFabric・Hive Plotなど&lt;/strong&gt;：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;隣接行列は &lt;strong&gt;ネットワークを数値的・構造的に理解するための基本フォーマット&lt;/strong&gt; であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Adjacency_matrix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Adjacency matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://networksciencebook.com/chapter/3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Network Science by Albert-László Barabási&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bost.ocks.org/mike/miserables/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Les Misérables Co-occurrence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サークル・パッキング (Circle Packing)</title>
         <link>http://localhost:1313/circle-packing/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
@@ -1907,18 +2463,18 @@
         </item>
         <item>
         <title>ベクター・フィールド・マップ（Vector Field Map）</title>
-        <link>http://localhost:1313/vector-field-map/</link>
+        <link>http://localhost:1313/vector-field-map-example/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/vector-field-map/</guid>
-        <description>&lt;img src="http://localhost:1313/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
+        <guid>http://localhost:1313/vector-field-map-example/</guid>
+        <description>&lt;img src="http://localhost:1313/vector-field-map-example/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
 &lt;p&gt;ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;wind-map&#34;&gt;wind map
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/wind_map.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/wind_map.png&#34;
 	width=&#34;1110&#34;
 	height=&#34;658&#34;
-	srcset=&#34;http://localhost:1313/vector-field-map/images/wind_map_hu_64a9c453fcd5f9a1.png 480w, http://localhost:1313/vector-field-map/images/wind_map_hu_ee250e296cf9eee4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map-example/images/wind_map_hu_64a9c453fcd5f9a1.png 480w, http://localhost:1313/vector-field-map-example/images/wind_map_hu_ee250e296cf9eee4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1935,10 +2491,10 @@
 &lt;p&gt;全米デジタル予測データベース（the National Digital Forecast Database）のデータを使用して、北米における風力を示し、1時間ごとに更新されています。
 過去のエピックな日付へのリンクも用意され、その特定の日時の風の様子を再現することが可能です。&lt;/p&gt;
 &lt;h3 id=&#34;earth&#34;&gt;Earth
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/null_earth.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/null_earth.png&#34;
 	width=&#34;1240&#34;
 	height=&#34;747&#34;
-	srcset=&#34;http://localhost:1313/vector-field-map/images/null_earth_hu_6043f2ea5ec1ed98.png 480w, http://localhost:1313/vector-field-map/images/null_earth_hu_1b135391e74d960b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map-example/images/null_earth_hu_6043f2ea5ec1ed98.png 480w, http://localhost:1313/vector-field-map-example/images/null_earth_hu_1b135391e74d960b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1951,10 +2507,10 @@
     &gt;earth :: a global map of wind, weather, and ocean conditions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;キャメロン・ベッカリオ（Cameron Beccario）による個人作品。”wind map”にインスピレーションを受けて制作されました。数時間ほどのタイムラグがあるデータを反映しており、様々なデータを、様々な地図投影法で可視化しています。&lt;/p&gt;
 &lt;h3 id=&#34;2008年9月1日のハリケーングスタフによる風速&#34;&gt;2008年9月1日のハリケーン・グスタフによる風速
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg&#34;
 	width=&#34;576&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_65da196ba1e53de3.jpeg 480w, http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_cbb5bbd162d3a9c9.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map-example/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_65da196ba1e53de3.jpeg 480w, http://localhost:1313/vector-field-map-example/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_cbb5bbd162d3a9c9.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1966,10 +2522,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2dベクトルフィールド可視化手法の比較&#34;&gt;2Dベクトルフィールド可視化手法の比較
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg&#34;
 	width=&#34;1400&#34;
 	height=&#34;1029&#34;
-	srcset=&#34;http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_d680c0d7a0609234.jpeg 480w, http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_f174e7826c1861ba.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map-example/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_d680c0d7a0609234.jpeg 480w, http://localhost:1313/vector-field-map-example/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_f174e7826c1861ba.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1992,10 +2548,10 @@
 &lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか
 &lt;/h2&gt;&lt;p&gt;不明。&lt;/p&gt;
 &lt;h2 id=&#34;以前の似た作例&#34;&gt;以前の似た作例
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
 	width=&#34;402&#34;
 	height=&#34;564&#34;
-	srcset=&#34;http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_769f9b693e68a809.png 480w, http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_bf6ecbcd1fc1a809.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map-example/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_769f9b693e68a809.png 480w, http://localhost:1313/vector-field-map-example/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_bf6ecbcd1fc1a809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

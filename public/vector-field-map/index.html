@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。\n">
-<title>ベクター・フィールド・マップ（Vector Field Map）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。\nこの可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。\n">
+<title>ベクトル・フィールド・マップ（Vector Field Map）</title>
 
 <link rel='canonical' href='http://localhost:1313/vector-field-map/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ベクター・フィールド・マップ（Vector Field Map）">
-<meta property='og:description' content="ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。\n">
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ベクトル・フィールド・マップ（Vector Field Map）">
+<meta property='og:description' content="ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。\nこの可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。\n">
 <meta property='og:url' content='http://localhost:1313/vector-field-map/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2020-08-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2020-08-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/vector-field-map/images/null_earth.png' />
-<meta name="twitter:title" content="ベクター・フィールド・マップ（Vector Field Map）">
-<meta name="twitter:description" content="ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/vector-field-map/images/null_earth.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/vector-field-map/images/cover.png' />
+<meta name="twitter:title" content="ベクトル・フィールド・マップ（Vector Field Map）">
+<meta name="twitter:description" content="ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。\nこの可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/vector-field-map/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,19 +386,13 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#wind-map">wind map</a></li>
-        <li><a href="#earth">Earth</a></li>
-        <li><a href="#2008年9月1日のハリケーングスタフによる風速">2008年9月1日のハリケーン・グスタフによる風速</a></li>
-        <li><a href="#2dベクトルフィールド可視化手法の比較">2Dベクトルフィールド可視化手法の比較</a></li>
-      </ol>
-    </li>
-    <li><a href="#誰が作ったのか">誰が作ったのか</a></li>
-    <li><a href="#以前の似た作例">以前の似た作例</a></li>
-    <li><a href="#類似する地図">類似する地図</a></li>
-    <li><a href="#他の呼び名">他の呼び名</a></li>
-    <li><a href="#参考文献">参考文献</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#主な用途と応用例">主な用途と応用例</a></li>
+    <li><a href="#関連する表現手法">関連する表現手法</a></li>
+    <li><a href="#代表的な作例ツール">代表的な作例・ツール</a></li>
+    <li><a href="#背景知識">背景知識</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -414,12 +408,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/vector-field-map/">
-                <img src="/vector-field-map/images/null_earth_hu_fa29f419a29442c2.png"
-                        srcset="/vector-field-map/images/null_earth_hu_fa29f419a29442c2.png 800w, /vector-field-map/images/null_earth_hu_28a534eda69d3efc.png 1600w"
+                <img src="/vector-field-map/images/cover_hu_198e53ca030da09.png"
+                        srcset="/vector-field-map/images/cover_hu_198e53ca030da09.png 800w, /vector-field-map/images/cover_hu_a94be104dcad3601.png 1600w"
                         width="800" 
-                        height="482" 
+                        height="588" 
                         loading="lazy"
-                        alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" />
+                        alt="Featured image of post ベクトル・フィールド・マップ（Vector Field Map）" />
                 
             </a>
         </div>
@@ -438,7 +432,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/vector-field-map/">ベクター・フィールド・マップ（Vector Field Map）</a>
+            <a href="/vector-field-map/">ベクトル・フィールド・マップ（Vector Field Map）</a>
         </h2>
     
         
@@ -460,7 +454,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 11, 2020</time>
+                <time class="article-time--published">Oct 11, 2025</time>
             </div>
         
 
@@ -490,50 +484,12 @@
     <section class="article-content">
     
     
-    <p>ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。</p>
-<p>ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。</p>
-<h2 id="作例">作例
-</h2><h3 id="wind-map">wind map
-</h3><p><img src="/vector-field-map/images/wind_map.png"
-	width="1110"
-	height="658"
-	srcset="/vector-field-map/images/wind_map_hu_64a9c453fcd5f9a1.png 480w, /vector-field-map/images/wind_map_hu_ee250e296cf9eee4.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="168"
-		data-flex-basis="404px"
-	
-></p>
-<p><a class="link" href="http://hint.fm/wind/"  target="_blank" rel="noopener"
-    >Wind Map</a></p>
-<p>フェルナンダ・ヴィーガス（Fernanda Viegas）とマーティン・ワッテンバーグ（Martin Wattenberg）による個人的なアートプロジェクト。</p>
-<p>エネルギー源としての風の視覚化を目的としています。</p>
-<p>「目に見えない古代のエネルギー源が、私たちを取り囲んでいます。これは、世界の最初の探検を推進するエネルギーであり、将来の鍵となる可能性があります。」</p>
-<p>全米デジタル予測データベース（the National Digital Forecast Database）のデータを使用して、北米における風力を示し、1時間ごとに更新されています。
-過去のエピックな日付へのリンクも用意され、その特定の日時の風の様子を再現することが可能です。</p>
-<h3 id="earth">Earth
-</h3><p><img src="/vector-field-map/images/null_earth.png"
-	width="1240"
-	height="747"
-	srcset="/vector-field-map/images/null_earth_hu_6043f2ea5ec1ed98.png 480w, /vector-field-map/images/null_earth_hu_1b135391e74d960b.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="165"
-		data-flex-basis="398px"
-	
-></p>
-<p><a class="link" href="https://earth.nullschool.net/"  target="_blank" rel="noopener"
-    >earth :: a global map of wind, weather, and ocean conditions</a></p>
-<p>キャメロン・ベッカリオ（Cameron Beccario）による個人作品。”wind map”にインスピレーションを受けて制作されました。数時間ほどのタイムラグがあるデータを反映しており、様々なデータを、様々な地図投影法で可視化しています。</p>
-<h3 id="2008年9月1日のハリケーングスタフによる風速">2008年9月1日のハリケーン・グスタフによる風速
-</h3><p><img src="/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg"
+    <p>ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。</p>
+<p>この可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。</p>
+<p><img src="/vector-field-map/images/mainvisual.png"
 	width="576"
 	height="576"
-	srcset="/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_65da196ba1e53de3.jpeg 480w, /vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_cbb5bbd162d3a9c9.jpeg 1024w"
+	srcset="/vector-field-map/images/mainvisual_hu_e0d09109beb69893.png 480w, /vector-field-map/images/mainvisual_hu_f97f713bfbbc8e17.png 1024w"
 	loading="lazy"
 	
 	
@@ -542,66 +498,165 @@
 		data-flex-basis="240px"
 	
 ></p>
-<p><a class="link" href="https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html"  target="_blank" rel="noopener"
-    >https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html</a></p>
-<h3 id="2dベクトルフィールド可視化手法の比較">2Dベクトルフィールド可視化手法の比較
-</h3><p><img src="/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg"
-	width="1400"
-	height="1029"
-	srcset="/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_d680c0d7a0609234.jpeg 480w, /vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_f174e7826c1861ba.jpeg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="136"
-		data-flex-basis="326px"
-	
-></p>
-<p>ある実験では、異なる可視化イディオムを６つ用意し、これに対する人間の応答を比較したものがあります。</p>
-<p><a class="link" href="https://www.cs.unc.edu/Courses/comp715-s14/papers/laidlaw_vector_vis_user_study_01359732.pdf"  target="_blank" rel="noopener"
-    >https://www.cs.unc.edu/Courses/comp715-s14/papers/laidlaw_vector_vis_user_study_01359732.pdf</a></p>
-<ul>
-<li>GRID: 通常のグリッド上のアイコン</li>
-<li>JIT: ジッタード・グリッド上のアイコン</li>
-<li>LIT: 油絵の概念を借用している可視化手法のレイヤー</li>
-<li>LIC: 線積分畳み込み</li>
-<li>OSTR: イメージガイド流線（積分曲線）</li>
-<li>GSTR: 規則的なグリッドにシードされた流線</li>
+<h2 id="図解の見方">図解の見方
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>表すもの</th>
+          <th>説明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>矢印の方向</td>
+          <td>ベクトルの向き</td>
+          <td>各点における流れや力の方向を示します。例えば風向や電場の向きを意味します。</td>
+      </tr>
+      <tr>
+          <td>矢印の長さ</td>
+          <td>ベクトルの大きさ（強度）</td>
+          <td>長い矢印は強い力・速い流れ、短い矢印は弱い力・遅い流れを示します。</td>
+      </tr>
+      <tr>
+          <td>矢印の色</td>
+          <td>強度やスカラー値</td>
+          <td>大きさを補助的に表したり、別の変数（温度や圧力など）を示す場合もあります。</td>
+      </tr>
+      <tr>
+          <td>背景グリッド</td>
+          <td>位置の基準</td>
+          <td>各ベクトルがどの位置に対応しているかを示す座標系です。</td>
+      </tr>
+      <tr>
+          <td>等高線や陰影</td>
+          <td>補助的スカラー場</td>
+          <td>ベクトルと同時にスカラー値の分布（例：速度ポテンシャル）を重ねることもあります。</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="主な用途と応用例">主な用途と応用例
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>分野</th>
+          <th>主な対象</th>
+          <th>代表的な用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>気象学</td>
+          <td>風の流れ・海流</td>
+          <td>風向・風速図、台風の流れ解析など</td>
+      </tr>
+      <tr>
+          <td>物理学</td>
+          <td>電場・磁場</td>
+          <td>力の方向と強度の空間分布</td>
+      </tr>
+      <tr>
+          <td>流体力学</td>
+          <td>流速ベクトル</td>
+          <td>流れの渦や収束・発散の可視化</td>
+      </tr>
+      <tr>
+          <td>医学・生理学</td>
+          <td>血流解析</td>
+          <td>MRIベースの血流方向可視化など</td>
+      </tr>
+      <tr>
+          <td>コンピュータグラフィックス</td>
+          <td>ベクトルノイズ、流線</td>
+          <td>視覚的エフェクトやテクスチャ生成</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="関連する表現手法">関連する表現手法
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>手法</th>
+          <th>特徴</th>
+          <th>比較点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ストリームライン（Streamline）</td>
+          <td>連続した線で流れの方向を示す</td>
+          <td>流れの連続性を強調できる</td>
+      </tr>
+      <tr>
+          <td>パスライン（Pathline）</td>
+          <td>粒子の時間経過を追跡</td>
+          <td>動的な流れを表現</td>
+      </tr>
+      <tr>
+          <td>グリフ・プロット（Glyph Plot）</td>
+          <td>矢印や円錐などの形状でベクトルを表す</td>
+          <td>多次元データにも応用可能</td>
+      </tr>
+      <tr>
+          <td>コンツアー・マップ（Contour Map）</td>
+          <td>スカラー値を線で表す</td>
+          <td>ベクトルと重ねて使うと効果的</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="代表的な作例ツール">代表的な作例・ツール
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>名称／ツール</th>
+          <th>概要</th>
+          <th>URL（参考）</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ParaView</td>
+          <td>科学可視化ソフト。ベクトル場・流線の描画が可能</td>
+          <td><a class="link" href="https://www.paraview.org/"  target="_blank" rel="noopener"
+    >https://www.paraview.org/</a></td>
+      </tr>
+      <tr>
+          <td>matplotlib（Python）</td>
+          <td><code>quiver()</code> 関数でベクトル場の描画</td>
+          <td><a class="link" href="https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html"  target="_blank" rel="noopener"
+    >https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html</a></td>
+      </tr>
+      <tr>
+          <td>d3.js + d3-force</td>
+          <td>Webベースで流れや力学的ベクトルの可視化</td>
+          <td><a class="link" href="https://d3js.org/"  target="_blank" rel="noopener"
+    >https://d3js.org/</a></td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="背景知識">背景知識
+</h2><p>ベクトル・フィールドの可視化は、19世紀の物理学や流体力学の発展とともに始まりました。マイケル・ファラデーは磁力線の概念を図として表現し、後にジェームズ・クラーク・マクスウェルが数式的なベクトル場理論を体系化しました。<br>
+現代では、数値流体シミュレーション（CFD）やリモートセンシングによって得られる高密度なデータを、ベクトル・フィールド・マップで動的に可視化することが一般的です。</p>
+<h2 id="まとめ">まとめ
+</h2><p>ベクトル・フィールド・マップは、方向と大きさを同時に表現することで、空間的な力や流れの関係を理解するのに非常に有効です。物理現象や社会現象など、多様なデータに応用でき、科学・デザイン・教育の分野で広く利用されています。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html"  target="_blank" rel="noopener"
+    >Matplotlib Documentation – Quiver Demo</a></li>
+<li><a class="link" href="https://www.paraview.org/"  target="_blank" rel="noopener"
+    >ParaView Official Site</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Vector_field"  target="_blank" rel="noopener"
+    >Wikipedia – Vector field visualization</a></li>
+<li>Katy Börner — Atlas of Knowledge</li>
+<li>Katy Börner — Atlas of Science</li>
+<li>Tamara Munzner — Visualization Analysis and Design</li>
 </ul>
-<h2 id="誰が作ったのか">誰が作ったのか
-</h2><p>不明。</p>
-<h2 id="以前の似た作例">以前の似た作例
-</h2><p><img src="/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q.png"
-	width="402"
-	height="564"
-	srcset="/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_769f9b693e68a809.png 480w, /vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_bf6ecbcd1fc1a809.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="71"
-		data-flex-basis="171px"
-	
-></p>
-<p>コンピュータによるマイグレーション・マッピングの実験</p>
-<p><a class="link" href="https://www.researchgate.net/publication/253604711_Experiments_In_Migration_Mapping_By_Computer"  target="_blank" rel="noopener"
-    >(PDF) Experiments In Migration Mapping By Computer</a></p>
-<h2 id="類似する地図">類似する地図
-</h2><p>特にありません。</p>
-<h2 id="他の呼び名">他の呼び名
-</h2><p>Migration Maps</p>
-<h2 id="参考文献">参考文献
-</h2><p>Katy Börner — Atlas of Knowledge
-Katy Börner — Atlas of Science
-Tamara Munzner — Visualization Analysis and Design</p>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
         
     </section>
 
@@ -635,23 +690,23 @@ Tamara Munzner — Visualization Analysis and Design</p>
             
                 
 <article class="has-image">
-    <a href="/dasymetric-map/">
+    <a href="/bio-fabric/">
         
         
             <div class="article-image">
-                <img src="/dasymetric-map/images/dasymetric-map-2048x1448.b0bb2747b91c12f03fb996f3978eeec1_hu_f9158bd6223f7898.png" 
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）"
-                        data-key="dasymetric-map" 
-                        data-hash="md5-sLsnR7kcEvA/uZbzl47uwQ==">
+                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する"
+                        data-key="bio-fabric" 
+                        data-hash="md5-zultgnlibb9do&#43;9BbpaNbA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ディシメトリック・マップ（Dasymetric Map）</h2>
+            <h2 class="article-title">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</h2>
         </div>
     </a>
 </article>
@@ -659,23 +714,23 @@ Tamara Munzner — Visualization Analysis and Design</p>
             
                 
 <article class="has-image">
-    <a href="/choropleth-map/">
+    <a href="/hive-plot/">
         
         
             <div class="article-image">
-                <img src="/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.f82f01c57f7b685bfb6db2e6cc0975b1_hu_8fa794f29d40e60b.png" 
+                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post コロプレス・マップ（Choropleth Map）"
-                        data-key="choropleth-map" 
-                        data-hash="md5-&#43;C8BxX97aFv7bbLmzAl1sQ==">
+                        alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法"
+                        data-key="hive-plot" 
+                        data-hash="md5-f736wYfshYjwkUiUuXWTww==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">コロプレス・マップ（Choropleth Map）</h2>
+            <h2 class="article-title">Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</h2>
         </div>
     </a>
 </article>
@@ -683,23 +738,23 @@ Tamara Munzner — Visualization Analysis and Design</p>
             
                 
 <article class="has-image">
-    <a href="/dot-map/">
+    <a href="/arc-diagram/">
         
         
             <div class="article-image">
-                <img src="/dot-map/images/racialdotmap.a7ff123d559d42182bfc0140d32a07fc_hu_b9a91f81d585796.png" 
+                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）"
-                        data-key="dot-map" 
-                        data-hash="md5-p/8SPVWdQhgr/AFA0yoH/A==">
+                        alt="Featured image of post アーク・ダイアグラム (Arc Diagram)"
+                        data-key="arc-diagram" 
+                        data-hash="md5-iLNVeT5tA1lr1GaqNHjJTw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</h2>
+            <h2 class="article-title">アーク・ダイアグラム (Arc Diagram)</h2>
         </div>
     </a>
 </article>
@@ -707,23 +762,23 @@ Tamara Munzner — Visualization Analysis and Design</p>
             
                 
 <article class="has-image">
-    <a href="/dot-density-map/">
+    <a href="/chord-diagram/">
         
         
             <div class="article-image">
-                <img src="/dot-density-map/images/dencity_ben_fry.67b0dcd0b33c4df918d2e3c5b888d129_hu_da5ca7e9eecd1938.png" 
+                <img src="/chord-diagram/images/cover.7efdad834e92b945c2b65211d2346c59.7efdad834e92b945c2b65211d2346c59_hu_27e255cef3676321.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ドット密度マップ（Dot Density Map）"
-                        data-key="dot-density-map" 
-                        data-hash="md5-Z7Dc0LM8TfkY0uPFuIjRKQ==">
+                        alt="Featured image of post コード・ダイアグラム (Chord Diagram)"
+                        data-key="chord-diagram" 
+                        data-hash="md5-fv2tg06SuUXCtlIR0jRsWQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ドット密度マップ（Dot Density Map）</h2>
+            <h2 class="article-title">コード・ダイアグラム (Chord Diagram)</h2>
         </div>
     </a>
 </article>
@@ -731,23 +786,23 @@ Tamara Munzner — Visualization Analysis and Design</p>
             
                 
 <article class="has-image">
-    <a href="/proportional-symbol-map/">
+    <a href="/adiacency-matrix/">
         
         
             <div class="article-image">
-                <img src="/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.1436281f6a4f87a060856c1790310bd7_hu_450825cf5aed6d3e.png" 
+                <img src="/adiacency-matrix/images/cover.e95b7c223212650f854b58a4155550a7.e95b7c223212650f854b58a4155550a7_hu_a32468799c14e4fc.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)"
-                        data-key="proportional-symbol-map" 
-                        data-hash="md5-FDYoH2pPh6BghWwXkDEL1w==">
+                        alt="Featured image of post 隣接行列（Adjacency Matrix）"
+                        data-key="adiacency-matrix" 
+                        data-hash="md5-6Vt8IjISZQ&#43;FS1ikFVVQpw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">比例シンボル・マップ(Proportional Symbol Map)</h2>
+            <h2 class="article-title">隣接行列（Adjacency Matrix）</h2>
         </div>
     </a>
 </article>
