@@ -1,96 +1,90 @@
 +++
 author = "Yuichi Yazaki"
-title = "ベクター・フィールド・マップ（Vector Field Map）"
-slug = "vector-field-map"
-date = "2020-08-11"
-description = ""
+title = "ベクトル・フィールド・マップ（Vector Field Map）"
+slug = "vector-field-map/"
+date = "2025-10-11"
 categories = [
     "chart"
 ]
 tags = [
-    "地図",
+    "",
 ]
-image = "images/null_earth.png"
+image = "images/cover.png"
 +++
 
-ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。
+
+ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。
+
+この可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。
+
 
 <!--more-->
 
-ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。
+![](images/mainvisual.png)
 
-## 作例
+## 図解の見方
 
-### wind map
-
-![](images/wind_map.png)
-
-
-[Wind Map](http://hint.fm/wind/)
-
-
-フェルナンダ・ヴィーガス（Fernanda Viegas）とマーティン・ワッテンバーグ（Martin Wattenberg）による個人的なアートプロジェクト。
-
-エネルギー源としての風の視覚化を目的としています。
-
-「目に見えない古代のエネルギー源が、私たちを取り囲んでいます。これは、世界の最初の探検を推進するエネルギーであり、将来の鍵となる可能性があります。」
-
-全米デジタル予測データベース（the National Digital Forecast Database）のデータを使用して、北米における風力を示し、1時間ごとに更新されています。
-過去のエピックな日付へのリンクも用意され、その特定の日時の風の様子を再現することが可能です。
-
-### Earth
-
-![](images/null_earth.png)
-
-[earth :: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/)
-
-キャメロン・ベッカリオ（Cameron Beccario）による個人作品。”wind map”にインスピレーションを受けて制作されました。数時間ほどのタイムラグがあるデータを反映しており、様々なデータを、様々な地図投影法で可視化しています。
-
-### 2008年9月1日のハリケーン・グスタフによる風速
-
-![](images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg)
-
-[https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html](https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html)
+| 要素 | 表すもの | 説明 |
+|------|-----------|------|
+| 矢印の方向 | ベクトルの向き | 各点における流れや力の方向を示します。例えば風向や電場の向きを意味します。 |
+| 矢印の長さ | ベクトルの大きさ（強度） | 長い矢印は強い力・速い流れ、短い矢印は弱い力・遅い流れを示します。 |
+| 矢印の色 | 強度やスカラー値 | 大きさを補助的に表したり、別の変数（温度や圧力など）を示す場合もあります。 |
+| 背景グリッド | 位置の基準 | 各ベクトルがどの位置に対応しているかを示す座標系です。 |
+| 等高線や陰影 | 補助的スカラー場 | ベクトルと同時にスカラー値の分布（例：速度ポテンシャル）を重ねることもあります。 |
 
 
-### 2Dベクトルフィールド可視化手法の比較
 
-![](images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg)
+## 主な用途と応用例
 
-ある実験では、異なる可視化イディオムを６つ用意し、これに対する人間の応答を比較したものがあります。
-
-[https://www.cs.unc.edu/Courses/comp715-s14/papers/laidlaw_vector_vis_user_study_01359732.pdf](https://www.cs.unc.edu/Courses/comp715-s14/papers/laidlaw_vector_vis_user_study_01359732.pdf)
-
-- GRID: 通常のグリッド上のアイコン
-- JIT: ジッタード・グリッド上のアイコン
-- LIT: 油絵の概念を借用している可視化手法のレイヤー
-- LIC: 線積分畳み込み
-- OSTR: イメージガイド流線（積分曲線）
-- GSTR: 規則的なグリッドにシードされた流線
+| 分野 | 主な対象 | 代表的な用途 |
+|------|-----------|--------------|
+| 気象学 | 風の流れ・海流 | 風向・風速図、台風の流れ解析など |
+| 物理学 | 電場・磁場 | 力の方向と強度の空間分布 |
+| 流体力学 | 流速ベクトル | 流れの渦や収束・発散の可視化 |
+| 医学・生理学 | 血流解析 | MRIベースの血流方向可視化など |
+| コンピュータグラフィックス | ベクトルノイズ、流線 | 視覚的エフェクトやテクスチャ生成 |
 
 
-## 誰が作ったのか
+## 関連する表現手法
 
-不明。
-
-## 以前の似た作例
-
-![](images/1_4o1FSaAcNjfBqreY8fP28Q.png)
-
-コンピュータによるマイグレーション・マッピングの実験
-
-[(PDF) Experiments In Migration Mapping By Computer](https://www.researchgate.net/publication/253604711_Experiments_In_Migration_Mapping_By_Computer)
+| 手法 | 特徴 | 比較点 |
+|------|------|--------|
+| ストリームライン（Streamline） | 連続した線で流れの方向を示す | 流れの連続性を強調できる |
+| パスライン（Pathline） | 粒子の時間経過を追跡 | 動的な流れを表現 |
+| グリフ・プロット（Glyph Plot） | 矢印や円錐などの形状でベクトルを表す | 多次元データにも応用可能 |
+| コンツアー・マップ（Contour Map） | スカラー値を線で表す | ベクトルと重ねて使うと効果的 |
 
 
-## 類似する地図
 
-特にありません。
+## 代表的な作例・ツール
 
-## 他の呼び名
-Migration Maps
+| 名称／ツール | 概要 | URL（参考） |
+|---------------|------|-------------|
+| ParaView | 科学可視化ソフト。ベクトル場・流線の描画が可能 | https://www.paraview.org/ |
+| matplotlib（Python） | `quiver()` 関数でベクトル場の描画 | https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html |
+| d3.js + d3-force | Webベースで流れや力学的ベクトルの可視化 | https://d3js.org/ |
 
-## 参考文献
 
-Katy Börner — Atlas of Knowledge
-Katy Börner — Atlas of Science
-Tamara Munzner — Visualization Analysis and Design
+
+## 背景知識
+
+ベクトル・フィールドの可視化は、19世紀の物理学や流体力学の発展とともに始まりました。マイケル・ファラデーは磁力線の概念を図として表現し、後にジェームズ・クラーク・マクスウェルが数式的なベクトル場理論を体系化しました。  
+現代では、数値流体シミュレーション（CFD）やリモートセンシングによって得られる高密度なデータを、ベクトル・フィールド・マップで動的に可視化することが一般的です。
+
+
+
+## まとめ
+
+ベクトル・フィールド・マップは、方向と大きさを同時に表現することで、空間的な力や流れの関係を理解するのに非常に有効です。物理現象や社会現象など、多様なデータに応用でき、科学・デザイン・教育の分野で広く利用されています。
+
+
+
+## 参考・出典
+
+
+- [Matplotlib Documentation – Quiver Demo](https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html)
+- [ParaView Official Site](https://www.paraview.org/)
+- [Wikipedia – Vector field visualization](https://en.wikipedia.org/wiki/Vector_field)
+- Katy Börner — Atlas of Knowledge
+- Katy Börner — Atlas of Science
+- Tamara Munzner — Visualization Analysis and Design
