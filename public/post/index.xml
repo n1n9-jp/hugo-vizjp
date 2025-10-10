@@ -7,7 +7,170 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>頭脳流出の可視化</title>
+        <link>http://localhost:1313/brain-drain/</link>
+        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/brain-drain/</guid>
+        <description>&lt;img src="http://localhost:1313/brain-drain/images/cover.png" alt="Featured image of post 頭脳流出の可視化" /&gt;&lt;p&gt;この作品は、&lt;strong&gt;「頭脳流出（Brain drain）」&lt;/strong&gt; と呼ばれる現象を、各国間での研究者の移動として可視化したものです。Giorgia Lupi（Accurat）が、イタリアの新聞 &lt;em&gt;Corriere della Sera&lt;/em&gt; の文化面「La Lettura」連載 &lt;em&gt;Visual Data&lt;/em&gt; のために制作しました。&lt;/p&gt;
+&lt;p&gt;国ごとに、研究開発（R&amp;amp;D）へのGDP投資割合や人口あたりの研究者数といった定量的な指標を配置軸とし、研究者の流入・流出関係を線で結んでいます。&lt;/p&gt;
+&lt;p&gt;この作品は単なる統計地図ではなく、科学研究の「知の循環」や「国家間の知的格差」を直感的に読み解く構成になっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/brain-drain/images/mainvisual.png&#34;
+	width=&#34;2500&#34;
+	height=&#34;1782&#34;
+	srcset=&#34;http://localhost:1313/brain-drain/images/mainvisual_hu_c4d4d9b157ec49bb.png 480w, http://localhost:1313/brain-drain/images/mainvisual_hu_dfd618ba067bce0b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;頭脳流出の可視化&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;140&#34;
+		data-flex-basis=&#34;336px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の見方&#34;&gt;作品の見方
+&lt;/h2&gt;&lt;p&gt;図の読み方は左下に「How to read it?」として明示されています。
+この図は、各国の研究環境と研究者の国際移動を多変量的に可視化したものです。
+横軸と縦軸の位置関係で研究環境を、色線と記号で社会的・経済的要因を示します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/brain-drain/images/legend.png&#34;
+	width=&#34;445&#34;
+	height=&#34;933&#34;
+	srcset=&#34;http://localhost:1313/brain-drain/images/legend_hu_163f81d56d98fda6.png 480w, http://localhost:1313/brain-drain/images/legend_hu_192c2e50b08fcadc.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;47&#34;
+		data-flex-basis=&#34;114px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-作品全体における座標国の位置&#34;&gt;1. 作品全体における座標（国の位置）
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X 軸&lt;/strong&gt; &amp;hellip; R&amp;amp;D 投資率（% of GDP invested in R&amp;amp;D）
+&lt;ul&gt;
+&lt;li&gt;国内総生産に占める研究開発費の割合。研究への経済的投資度合いを表す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Y 軸&lt;/strong&gt; &amp;hellip; 人口100万人あたりの研究者数（researchers per 1 million people）
+&lt;ul&gt;
+&lt;li&gt;研究者密度の高さ。研究職の社会的集積度を示す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この2 軸の交点として各国が配置されます。右上ほど「研究に投資が多く、研究者密度が高い」国です。&lt;/p&gt;
+&lt;h3 id=&#34;2-色と線の意味国ごとのビジュアル表現&#34;&gt;2. 色と線の意味（国ごとのビジュアル表現）
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;視覚要素&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;表す内容&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;主な出典&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;青の横棒&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;外国人研究者の割合 (%)&lt;/strong&gt; — 他国から来た研究者が全研究者に占める比率。&lt;br&gt;高いほど国外人材を受け入れている。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(2) Franzoni et al., 2012&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;青の下層棒&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;外国生まれ人口の割合 (%)&lt;/strong&gt; — 社会全体での国際化度合い。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(1) World Bank&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;赤の縦棒&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;国外で活動する自国出身研究者の割合 (%)&lt;/strong&gt; — 研究者流出の規模。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(2) Franzoni et al., 2012&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;赤の淡色部分／補助線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;国外在住自国民 (%)&lt;/strong&gt; および &lt;strong&gt;出身国へ帰国した研究者 (%)&lt;/strong&gt; — 流出人口と帰還率を補足。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(1)(2)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;黄の細線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;失業率 (%)&lt;/strong&gt; — 国内労働環境の安定度。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(1) World Bank&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;緑の小円群&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;女性就業率 (%)&lt;/strong&gt; — 女性の社会進出度。&lt;br&gt;小円は区間（&amp;lt;5%、5–10%、10–15%、&amp;gt;15%）で表現。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(1) World Bank&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;灰色の帯&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;大学ランキング指標（0–100スケール）&lt;/strong&gt; — 高等教育水準を示す。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(3) Times Higher Education 2011–2012&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;ベージュの円（背景）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;一人あたりGDP (GDP per capita)&lt;/strong&gt; — 経済的豊かさ。円が大きいほど高い。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;(1) World Bank&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;3-線でつながる国々&#34;&gt;3. 線でつながる国々
+&lt;/h3&gt;&lt;p&gt;各国の背後を走る &lt;strong&gt;点線のアーク（弧線）&lt;/strong&gt; は、研究者の移動経路（origin → destination）を示します。太さではなく存在と方向を表すもので、知の流れのネットワークを描いています。&lt;/p&gt;
+&lt;h3 id=&#34;4-読み取りのコツ&#34;&gt;4. 読み取りのコツ
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;座標位置&lt;/strong&gt; で研究環境の水準を把握（投資と密度）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;青と赤の棒&lt;/strong&gt; で、知の流入／流出の非対称性を見る。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;strong&gt;補助要素（黄・緑・円・灰帯）&lt;/strong&gt; で、社会・経済・教育背景を読み解く。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、図中の青＝受け入れ、赤＝流出、そのあいだを結ぶ曲線が研究者の移動経路を示し、
+研究開発への投資と人材循環の関係を一枚で描き出しています。&lt;/p&gt;
+&lt;h2 id=&#34;背景頭脳流出とは何か&#34;&gt;背景：頭脳流出とは何か
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;頭脳流出（Brain drain）&lt;/strong&gt; とは、高度な教育・専門技能を持つ人材（特に科学者・技術者・研究者）が、より良い経済的・研究環境を求めて国外へ移動する現象を指します。特に発展途上国や新興国から、欧米先進国へ向かう流れが長年問題視されています。&lt;/p&gt;
+&lt;p&gt;この作品では、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;World Bank&lt;/strong&gt;（2005–2012）によるGDPデータ、&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foreign Born Scientists Mobility dataset&lt;/strong&gt;（Franzoni, Scellato, Stephan, 2012）、&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Times Higher Education World University Rankings (2011–2012)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が基礎データとして使われています。これらのデータを統合し「科学研究という無形資本の流れ」をグローバルに描き出しています。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上の特徴&#34;&gt;デザイン上の特徴
+&lt;/h2&gt;&lt;p&gt;Lupi特有の情報詩的な設計が随所に見られます：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;幾何的精密さ&lt;/strong&gt; と &lt;strong&gt;有機的曲線&lt;/strong&gt; の対比&lt;/li&gt;
+&lt;li&gt;カラーの三原則（青＝流入、赤＝流出、黄＝定着）による視覚言語&lt;/li&gt;
+&lt;li&gt;背景の余白が「世界地図」的構図を暗示し、地理的配置ではなく &lt;strong&gt;知識経済の座標空間&lt;/strong&gt; として世界を再構成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのため、視聴者は「どこが豊かか」ではなく、「どこが知を失い、どこがそれを得ているか」という &lt;strong&gt;非対称的構造&lt;/strong&gt; を一目で理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この「頭脳流出」可視化は、単なる移民統計ではなく、「知の流れ」という新しいグローバル地図を提示しています。
+国家間の科学的ネットワークと格差を同時に映し出し、教育政策・研究支援の必要性をビジュアルに訴えかける作品です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://giorgialupi.com/lalettura&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Data — Giorgia Lupi (La Lettura)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.corriere.it/la-lettura/infografiche-visual-data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Data — La Lettura (Corriere della Sera)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Research and development expenditure (% of GDP) — World Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.nber.org/papers/w18067&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Foreign Born Scientists: Mobility Patterns for Sixteen Countries — NBER Working Paper 18067 (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.timeshighereducation.com/world-university-rankings/2012/world-ranking&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World University Rankings 2011–2012 — Times Higher Education&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サークル・パッキング (Circle Packing)</title>
         <link>http://localhost:1313/circle-packing/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
