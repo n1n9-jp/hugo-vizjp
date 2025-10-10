@@ -544,6 +544,140 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）</title>
+        <link>http://localhost:1313/force-directed-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/force-directed-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/force-directed-diagram/images/cover.png" alt="Featured image of post フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）" /&gt;&lt;p&gt;フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）は、ネットワーク構造を視覚的に表すためのグラフ描画手法の一つです。ノード（点）とエッジ（線）を持つネットワークを、物理的な「力」によって自動的にレイアウトします。一般に、ノード同士はバネのような力（引力・斥力）でつながり、エッジの長さや方向はそれらの力のバランスによって決まります。&lt;/p&gt;
+&lt;p&gt;このモデルは、複雑なネットワーク（たとえば人間関係、Webリンク構造、SNSのつながり、遺伝子相互作用など）を、直感的かつ均衡のとれた配置で可視化するのに適しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/force-directed-diagram/images/mainvisual.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1862&#34;
+	srcset=&#34;http://localhost:1313/force-directed-diagram/images/mainvisual_hu_12db5c1add2c3dca.png 480w, http://localhost:1313/force-directed-diagram/images/mainvisual_hu_3fb293a8cdd29e26.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;371px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ノード（Node）&lt;/td&gt;
+          &lt;td&gt;個体や要素&lt;/td&gt;
+          &lt;td&gt;各ノードは人物・ウェブページ・遺伝子など、関係を持つ対象を示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;エッジ（Edge）&lt;/td&gt;
+          &lt;td&gt;関係・リンク&lt;/td&gt;
+          &lt;td&gt;ノード間を結ぶ線で、相互作用や関係性の有無・強さを表します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;位置&lt;/td&gt;
+          &lt;td&gt;力学的均衡&lt;/td&gt;
+          &lt;td&gt;エッジの長さやノードの位置は、引力（近づけようとする力）と斥力（離そうとする力）のバランスで決定されます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色&lt;/td&gt;
+          &lt;td&gt;グループ・属性&lt;/td&gt;
+          &lt;td&gt;ノードの色は所属するクラスタやカテゴリーを示すことが多いです。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;サイズ&lt;/td&gt;
+          &lt;td&gt;重要度・次数&lt;/td&gt;
+          &lt;td&gt;ノードの大きさは、つながりの数（次数）や影響度などの数値を表すことがあります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このダイアグラムでは、密集したノード群は強い相互関係を持つクラスタを示し、孤立したノードは他とのつながりが少ないことを意味します。ネットワーク全体の構造（中心性、分断、モジュール性など）を視覚的に読み取ることができます。&lt;/p&gt;
+&lt;h2 id=&#34;背景とアルゴリズム&#34;&gt;背景とアルゴリズム
+&lt;/h2&gt;&lt;p&gt;フォース・ダイレクテッド法は、物理シミュレーションを基にしたレイアウトアルゴリズムで、代表的なものに以下のような手法があります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;アルゴリズム名&lt;/th&gt;
+          &lt;th&gt;提案者&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Fruchterman-Reingold&lt;/td&gt;
+          &lt;td&gt;Thomas M. J. Fruchterman, Edward M. Reingold (1991)&lt;/td&gt;
+          &lt;td&gt;最も代表的なモデル。単純な力学モデルに基づく。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Kamada-Kawai&lt;/td&gt;
+          &lt;td&gt;Tomihisa Kamada, Satoru Kawai (1989)&lt;/td&gt;
+          &lt;td&gt;エッジの長さを最適化するためのエネルギー最小化モデル。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ForceAtlas / ForceAtlas2&lt;/td&gt;
+          &lt;td&gt;Mathieu Jacomy et al. (Gephi)&lt;/td&gt;
+          &lt;td&gt;大規模ネットワークの可視化に適し、安定性と速度のバランスが良い。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このような手法により、計算機がネットワーク全体を「バランスよく」配置し、可読性の高い構造的なパターンを生成します。&lt;/p&gt;
+&lt;h2 id=&#34;主な活用ツールライブラリ&#34;&gt;主な活用ツール・ライブラリ
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ツール・ライブラリ名&lt;/th&gt;
+          &lt;th&gt;概要&lt;/th&gt;
+          &lt;th&gt;URL&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Gephi&lt;/td&gt;
+          &lt;td&gt;オープンソースのネットワーク可視化ソフトウェア。ForceAtlas2を搭載。&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://gephi.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gephi.org/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D3.js&lt;/td&gt;
+          &lt;td&gt;Webブラウザ上で動的なフォースレイアウトを実装可能。&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://d3js.org/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cytoscape&lt;/td&gt;
+          &lt;td&gt;バイオインフォマティクスなど科学分野で利用されるネットワーク解析ツール。&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://cytoscape.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://cytoscape.org/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Graph-tool&lt;/td&gt;
+          &lt;td&gt;Python用の高速ネットワーク解析ライブラリ。&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://graph-tool.skewed.de/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://graph-tool.skewed.de/&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;フォース・ダイレクテッド・ダイアグラムは、ネットワークの構造的特徴を直感的に理解するための有力な手法です。ノード間の関係性を物理的モデルで配置することで、クラスタ構造や中心的な要素を一目で把握できます。&lt;/p&gt;
+&lt;p&gt;しかし、ノード数が非常に多い場合は視認性が低下するため、フィルタリングやクラスタリングを併用することが一般的です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1002/spe.4380211102&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fruchterman, T.M.J., &amp;amp; Reingold, E.M. (1991). Graph Drawing by Force-directed Placement. &lt;em&gt;Software: Practice and Experience&lt;/em&gt;, 21(11), 1129–1164.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1016/0020-0190%2889%2990102-6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kamada, T., &amp;amp; Kawai, S. (1989). An Algorithm for Drawing General Undirected Graphs. &lt;em&gt;Information Processing Letters&lt;/em&gt;, 31(1), 7–15.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ベクトル・フィールド・マップ（Vector Field Map）</title>
         <link>http://localhost:1313/vector-field-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
