@@ -8,6 +8,104 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
+        <link>http://localhost:1313/bio-fabric/</link>
+        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bio-fabric/</guid>
+        <description>&lt;img src="http://localhost:1313/bio-fabric/images/cover.png" alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する" /&gt;&lt;p&gt;BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの &lt;strong&gt;複雑な相互関係を持つネットワーク構造&lt;/strong&gt; を、従来の「ノードとエッジのパラパラ図」ではなく &lt;strong&gt;線と格子によって秩序化された構造&lt;/strong&gt; として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bio-fabric/images/bedore-after.png&#34;
+	width=&#34;890&#34;
+	height=&#34;213&#34;
+	srcset=&#34;http://localhost:1313/bio-fabric/images/bedore-after_hu_fc484c285e73bf3c.png 480w, http://localhost:1313/bio-fabric/images/bedore-after_hu_8bb4ab25b7791b3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;417&#34;
+		data-flex-basis=&#34;1002px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;上図は「Comb the Hairball with BioFabric（BioFabricで“毛玉”をとかす）」という公式デモの一例で、左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図です。&lt;/p&gt;
+&lt;p&gt;左図ではノードとエッジが錯綜しており、相関や構造を把握することが困難です。一方で、右図では &lt;strong&gt;各ノードが水平線&lt;/strong&gt; 、 &lt;strong&gt;エッジが垂直線&lt;/strong&gt; として表現され、全体が格子状に整列されています。これにより、接続関係の密度やモジュール構造を直感的に読み取ることができます。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;見方のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;水平線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各ノード（遺伝子・人物・要素）を表す&lt;/td&gt;
+          &lt;td&gt;一行が一つのノードに対応する。行の位置がノードの順序関係を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;垂直線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;エッジ（ノード間の関係）を表す&lt;/td&gt;
+          &lt;td&gt;上下に交差する点が接続関係。密集度が高いほど関連が強い部分群を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ブロック構造&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;クラスタ・モジュール構造&lt;/td&gt;
+          &lt;td&gt;同じパターンの線群が塊を形成する部分。機能的モジュールやコミュニティに対応。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色分け&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;異なる属性や分類&lt;/td&gt;
+          &lt;td&gt;例えば、系統分類、サブネットワーク、重みなどを色で識別できる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;右下の拡大図（YOR372Cなど）は、実際のデータセット「Yeast High-Quality Network（酵母の高品質ネットワーク）」からの部分です。局所的な接続構造が格子状に展開され、どのノードがどのような関係を持つかが整然と示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bio-fabric/images/mainvisual.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;452&#34;
+	srcset=&#34;http://localhost:1313/bio-fabric/images/mainvisual_hu_bc5a12196960c822.png 480w, http://localhost:1313/bio-fabric/images/mainvisual_hu_8b59bcc006cc8ae2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;BioFabric&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;226&#34;
+		data-flex-basis=&#34;543px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;従来のネットワーク図は、ノード数やエッジ数が増えると「毛玉状（hairball）」になり、情報が読み取れなくなる問題がありました。BioFabricはこの問題を&lt;strong&gt;レイアウトの発想自体を変えることで解決&lt;/strong&gt;しました。&lt;br&gt;
+ノードを線に変換することで、次のような利点が得られます：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;重なりがない&lt;/strong&gt;ため、大規模ネットワークでも可視性が保たれる&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;エッジ密度や構造的特徴を定量的に観察&lt;/strong&gt;できる&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ヒートマップや時系列データとの統合が容易&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この発想は「ネットワークをテキスト化・表形式化する」方向への橋渡しとも言え、情報可視化の一つの新しいパラダイムです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;BioFabricは、従来の「点と線の混沌」から脱却し、&lt;strong&gt;構造の秩序と密度のパターン&lt;/strong&gt;を可視化する新しい手法です。&lt;br&gt;
+ネットワークを“毛玉”ではなく“織物”として描くことにより、膨大な関係性の中から秩序や機能的構造を見出すことが可能になります。生命科学だけでなく、社会ネットワークや都市構造の解析などにも応用が期待されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://biofabric.systemsbiology.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BioFabric: A novel network visualization tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://biofabric.systemsbiology.net/gallery/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Comb the Hairball with BioFabric (official tutorial)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-275&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Longabaugh, W. J. R. “Combing the hairball with BioFabric: a new approach for visualization of large networks.” &lt;em&gt;BMC Bioinformatics&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/wjrl/BioFabric&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wjrl/BioFabric: BioFabric is an open-source network visualization tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/BioFabric&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BioFabric — Wikipedia (English)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ggraph.data-imaginist.com/reference/layout_tbl_graph_fabric.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;layout_tbl_graph_fabric — ggraph R package documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>初出版から傑作まで、人生と創作キャリアのタイムライン</title>
         <link>http://localhost:1313/from-first-published-to-masterpieces/</link>
         <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>

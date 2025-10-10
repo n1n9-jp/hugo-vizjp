@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n">
-<title>二宮尊徳と「土地分類」の思想</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n">
+<title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
 
-<link rel='canonical' href='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/'>
+<link rel='canonical' href='http://localhost:1313/bio-fabric/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="二宮尊徳と「土地分類」の思想">
-<meta property='og:description' content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n">
-<meta property='og:url' content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する">
+<meta property='og:description' content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n">
+<meta property='og:url' content='http://localhost:1313/bio-fabric/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-09T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/images/cover.png' />
-<meta name="twitter:title" content="二宮尊徳と「土地分類」の思想">
-<meta name="twitter:description" content="江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。\nその活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ 土地利用の割合を可視化するための図表「量率グラフ」 を作成しました。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/ninomiya-sontoku-land-ratio-graph/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/bio-fabric/images/cover.png' />
+<meta name="twitter:title" content="BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する">
+<meta name="twitter:description" content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/bio-fabric/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -387,9 +387,7 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#図解の見方">図解の見方</a></li>
-    <li><a href="#歴史的背景と制度的意義">歴史的背景と制度的意義</a></li>
-    <li><a href="#用語の整合と当時の語彙">用語の整合と当時の語彙</a></li>
-    <li><a href="#測量統計史における意義">測量・統計史における意義</a></li>
+    <li><a href="#背景と意義">背景と意義</a></li>
     <li><a href="#まとめ">まとめ</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
@@ -406,13 +404,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/ninomiya-sontoku-land-ratio-graph/">
-                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover_hu_85e192be292d94c2.png"
-                        srcset="/ninomiya-sontoku-land-ratio-graph/images/cover_hu_85e192be292d94c2.png 800w, /ninomiya-sontoku-land-ratio-graph/images/cover_hu_2e4fa1b3c230434.png 1600w"
+            <a href="/bio-fabric/">
+                <img src="/bio-fabric/images/cover_hu_b9d9679fa7decbc0.png"
+                        srcset="/bio-fabric/images/cover_hu_b9d9679fa7decbc0.png 800w, /bio-fabric/images/cover_hu_9e12c1d61a9ae182.png 1600w"
                         width="800" 
-                        height="324" 
+                        height="353" 
                         loading="lazy"
-                        alt="Featured image of post 二宮尊徳と「土地分類」の思想" />
+                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する" />
                 
             </a>
         </div>
@@ -422,8 +420,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/consume/" >
-                見るための記事
+            <a href="/categories/chart/" >
+                チャート・カタログ
             </a>
         
     </header>
@@ -431,7 +429,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/ninomiya-sontoku-land-ratio-graph/">二宮尊徳と「土地分類」の思想</a>
+            <a href="/bio-fabric/">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</a>
         </h2>
     
         
@@ -453,7 +451,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Oct 09, 2025</time>
+                <time class="article-time--published">Oct 10, 2025</time>
             </div>
         
 
@@ -483,99 +481,96 @@
     <section class="article-content">
     
     
-    <p>江戸時代後期、農政家・思想家として知られる <strong>二宮尊徳（1787–1856）</strong> は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。</p>
-<p>その活動の中で尊徳は、領地の田・畑・荒地などを実地に調べ <strong>土地利用の割合を可視化するための図表「量率グラフ」</strong> を作成しました。</p>
-<p><img src="/ninomiya-sontoku-land-ratio-graph/images/mainvisual.png"
-	width="526"
-	height="533"
-	srcset="/ninomiya-sontoku-land-ratio-graph/images/mainvisual_hu_d73d04594d697ccb.png 480w, /ninomiya-sontoku-land-ratio-graph/images/mainvisual_hu_7eaaf735ac2bb86a.png 1024w"
+    <p>BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの <strong>複雑な相互関係を持つネットワーク構造</strong> を、従来の「ノードとエッジのパラパラ図」ではなく <strong>線と格子によって秩序化された構造</strong> として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。</p>
+<p><img src="/bio-fabric/images/bedore-after.png"
+	width="890"
+	height="213"
+	srcset="/bio-fabric/images/bedore-after_hu_fc484c285e73bf3c.png 480w, /bio-fabric/images/bedore-after_hu_8bb4ab25b7791b3.png 1024w"
 	loading="lazy"
+	
+		alt="左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="98"
-		data-flex-basis="236px"
+		data-flex-grow="417"
+		data-flex-basis="1002px"
 	
 ></p>
-<p>この「量率グラフ」は、のちに『二宮尊徳全集』第10巻に収録され、さらに2005年刊『測量』誌（日本測量協会）に「国土調査の先駆者」として再紹介されています。</p>
-<p>図は <strong>近代地籍測量以前の日本における土地分類統計図</strong> として注目される存在です。</p>
+<p>上図は「Comb the Hairball with BioFabric（BioFabricで“毛玉”をとかす）」という公式デモの一例で、左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図です。</p>
+<p>左図ではノードとエッジが錯綜しており、相関や構造を把握することが困難です。一方で、右図では <strong>各ノードが水平線</strong> 、 <strong>エッジが垂直線</strong> として表現され、全体が格子状に整列されています。これにより、接続関係の密度やモジュール構造を直感的に読み取ることができます。</p>
 <h2 id="図解の見方">図解の見方
-</h2><p>図の上部には「公」、下部には「私」とあり、それぞれが「年貢対象地」と「私的耕作地」を意味します。さらに各段は「田」「畑」「生地」「荒地」に細分化され、矩形の面積比がその割合を表しています。尊徳自身はこの比率をもとに、荒地を耕作地へ転換し、年貢収入を安定させる方策を立てました。</p>
-<div class="table-wrapper"><table>
+</h2><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>区分</th>
+          <th>要素</th>
           <th>意味</th>
-          <th>位置</th>
-          <th>解説</th>
+          <th>見方のポイント</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>公</td>
-          <td>年貢対象の土地</td>
-          <td>図の上段</td>
-          <td>領主に帰属する「公地」</td>
+          <td><strong>水平線</strong></td>
+          <td>各ノード（遺伝子・人物・要素）を表す</td>
+          <td>一行が一つのノードに対応する。行の位置がノードの順序関係を示す。</td>
       </tr>
       <tr>
-          <td>私</td>
-          <td>自家耕作または永業地</td>
-          <td>図の下段</td>
-          <td>村民が利用・世襲可能な土地</td>
+          <td><strong>垂直線</strong></td>
+          <td>エッジ（ノード間の関係）を表す</td>
+          <td>上下に交差する点が接続関係。密集度が高いほど関連が強い部分群を示す。</td>
       </tr>
       <tr>
-          <td>田／畑</td>
-          <td>耕地分類</td>
-          <td>各段に配置</td>
-          <td>作付け用途に応じた区分</td>
+          <td><strong>ブロック構造</strong></td>
+          <td>クラスタ・モジュール構造</td>
+          <td>同じパターンの線群が塊を形成する部分。機能的モジュールやコミュニティに対応。</td>
       </tr>
       <tr>
-          <td>生地</td>
-          <td>現に耕作されている地</td>
-          <td>明色</td>
-          <td>既存の耕地</td>
-      </tr>
-      <tr>
-          <td>荒地</td>
-          <td>未耕地・休耕地</td>
-          <td>灰色</td>
-          <td>開墾対象地</td>
+          <td><strong>色分け</strong></td>
+          <td>異なる属性や分類</td>
+          <td>例えば、系統分類、サブネットワーク、重みなどを色で識別できる。</td>
       </tr>
   </tbody>
 </table></div>
-<p>この構成は、今日の「土地利用分類図（Land Use Classification Map）」や「地目別統計図」に近い概念を持ち <strong>公・私の二層構造と地目区分を一図で表した</strong> 初期の統計的地図表現です。</p>
-<h2 id="歴史的背景と制度的意義">歴史的背景と制度的意義
-</h2><p>尊徳は、藩や幕府から農村再建を命じられる中で、領地の現況を把握するために土地利用調査を行いました。
-桜町領（現・栃木県真岡市付近）の復興では、田畑の面積比を分析し、荒地の開墾を促す政策を立案しています。</p>
-<p>1830年代には冷害・飢饉に対応する作付け転換指導を行い、また <strong>土地利用の「量率」を算出して村ごとの耕作比を最適化する</strong> という、統計的な農政を実践しました。</p>
-<p>このような活動から「量率グラフ」は単なる図解ではなく <strong>近代国土調査や地籍測量に通じる合理的な土地認識の萌芽</strong> とみなされています。</p>
-<h2 id="用語の整合と当時の語彙">用語の整合と当時の語彙
-</h2><p>図中で使われている「公」「私」「田」「畑」「生地」「荒地」という語彙は、当時の農政文献（『地方凡例録』『農業全書』など）にも登場する一般的な用語です。</p>
-<p>特に「生地」「荒地」は天保期以降の土地整理や年貢徴収の際に用いられた分類であり、尊徳の分析は時代の実務語彙と完全に整合します。</p>
-<h2 id="測量統計史における意義">測量・統計史における意義
-</h2><p>日本の土地制度史において <strong>視覚的な土地比率表現（図的統計）</strong> が明確に確認できる事例はきわめて少なく、この「量率グラフ」は最古級の可視化資料とされます。
-尊徳は自ら地図や地形図を作成し、測角儀・磁針コンパス・望遠鏡などを購入して現地測量も行っていたことが記録に残っています。</p>
-<p>これらの活動は、今日の「土地分類調査」「地籍調査」の源流として再評価されています。</p>
+<p>右下の拡大図（YOR372Cなど）は、実際のデータセット「Yeast High-Quality Network（酵母の高品質ネットワーク）」からの部分です。局所的な接続構造が格子状に展開され、どのノードがどのような関係を持つかが整然と示されています。</p>
+<p><img src="/bio-fabric/images/mainvisual.png"
+	width="1024"
+	height="452"
+	srcset="/bio-fabric/images/mainvisual_hu_bc5a12196960c822.png 480w, /bio-fabric/images/mainvisual_hu_8b59bcc006cc8ae2.png 1024w"
+	loading="lazy"
+	
+		alt="BioFabric"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="226"
+		data-flex-basis="543px"
+	
+></p>
+<h2 id="背景と意義">背景と意義
+</h2><p>従来のネットワーク図は、ノード数やエッジ数が増えると「毛玉状（hairball）」になり、情報が読み取れなくなる問題がありました。BioFabricはこの問題を<strong>レイアウトの発想自体を変えることで解決</strong>しました。<br>
+ノードを線に変換することで、次のような利点が得られます：</p>
+<ul>
+<li><strong>重なりがない</strong>ため、大規模ネットワークでも可視性が保たれる</li>
+<li><strong>エッジ密度や構造的特徴を定量的に観察</strong>できる</li>
+<li><strong>ヒートマップや時系列データとの統合が容易</strong></li>
+</ul>
+<p>この発想は「ネットワークをテキスト化・表形式化する」方向への橋渡しとも言え、情報可視化の一つの新しいパラダイムです。</p>
 <h2 id="まとめ">まとめ
-</h2><p>この図は、中国の「均田制」や律令国家の「班田収授法」とは無関係であり <strong>江戸後期の実証的な土地利用調査の成果</strong> です。尊徳は、道徳的教化（報徳思想）と並行して、土地という「公共資源」を定量的に把握し、農村再建に結びつけました。それは後世の統計地図・地籍調査・土地分類制度へとつながる <strong>日本型ガバナンス・データビジュアライゼーションの原型</strong> といえます。</p>
+</h2><p>BioFabricは、従来の「点と線の混沌」から脱却し、<strong>構造の秩序と密度のパターン</strong>を可視化する新しい手法です。<br>
+ネットワークを“毛玉”ではなく“織物”として描くことにより、膨大な関係性の中から秩序や機能的構造を見出すことが可能になります。生命科学だけでなく、社会ネットワークや都市構造の解析などにも応用が期待されています。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://ndlsearch.ndl.go.jp/books/R100000039-I1243452"  target="_blank" rel="noopener"
-    >国立国会図書館サーチ「二宮尊徳全集 第10巻」</a></li>
-<li><a class="link" href="https://ndlsearch.ndl.go.jp/rnavi/oldmaterials/sontoku"  target="_blank" rel="noopener"
-    >国立国会図書館 リサーチ・ナビ「二宮尊徳関係資料」</a></li>
-<li><a class="link" href="https://www.hotoku.or.jp/"  target="_blank" rel="noopener"
-    >報徳博物館 公式サイト</a></li>
-<li><a class="link" href="https://www.hotoku.or.jp/sontoku/"  target="_blank" rel="noopener"
-    >報徳博物館「二宮尊徳と報徳」</a></li>
-<li><a class="link" href="https://www.city.nikko.lg.jp/soshiki/10/1041/3/1960.html"  target="_blank" rel="noopener"
-    >日光市「歴史民俗資料館・二宮尊徳記念館の概要」</a></li>
-<li><a class="link" href="https://www.city.moka.lg.jp/kakuka/bunka/gyomu/rekishi_bunka/rekishi_bunkazai/5/index.html"  target="_blank" rel="noopener"
-    >真岡市「二宮尊徳資料館」</a></li>
-<li><a class="link" href="https://commons.wikimedia.org/wiki/File:Ninomiya_Sontoku_Graph_in_1823.jpg"  target="_blank" rel="noopener"
-    >Wikimedia Commons: Ninomiya Sontoku Graph in 1823.jpg</a></li>
-<li><a class="link" href="https://ci.nii.ac.jp/ncid/BN0082116X"  target="_blank" rel="noopener"
-    >CiNii Books「二宮尊徳全集」書誌</a></li>
+<li><a class="link" href="https://biofabric.systemsbiology.net/"  target="_blank" rel="noopener"
+    >BioFabric: A novel network visualization tool</a></li>
+<li><a class="link" href="https://biofabric.systemsbiology.net/gallery/index.html"  target="_blank" rel="noopener"
+    >Comb the Hairball with BioFabric (official tutorial)</a></li>
+<li><a class="link" href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-275"  target="_blank" rel="noopener"
+    >Longabaugh, W. J. R. “Combing the hairball with BioFabric: a new approach for visualization of large networks.” <em>BMC Bioinformatics</em> (2012)</a></li>
+<li><a class="link" href="https://github.com/wjrl/BioFabric"  target="_blank" rel="noopener"
+    >wjrl/BioFabric: BioFabric is an open-source network visualization tool</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/BioFabric"  target="_blank" rel="noopener"
+    >BioFabric — Wikipedia (English)</a></li>
+<li><a class="link" href="https://ggraph.data-imaginist.com/reference/layout_tbl_graph_fabric.html"  target="_blank" rel="noopener"
+    >layout_tbl_graph_fabric — ggraph R package documentation</a></li>
 </ul>
 </section>
 
@@ -616,23 +611,23 @@
             
                 
 <article class="has-image">
-    <a href="/population-attributable-fraction/">
+    <a href="/circle-packing/">
         
         
             <div class="article-image">
-                <img src="/population-attributable-fraction/images/cover.1a2ef346b60aa28d41990d2ca0534d4c.1a2ef346b60aa28d41990d2ca0534d4c_hu_ad64e9bf732a03cd.png" 
+                <img src="/circle-packing/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化"
-                        data-key="population-attributable-fraction" 
-                        data-hash="md5-Gi7zRrYKoo1BmQ0soFNNTA==">
+                        alt="Featured image of post サークル・パッキング (Circle Packing)"
+                        data-key="circle-packing" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化</h2>
+            <h2 class="article-title">サークル・パッキング (Circle Packing)</h2>
         </div>
     </a>
 </article>
@@ -640,23 +635,23 @@
             
                 
 <article class="has-image">
-    <a href="/waffle-chart/">
+    <a href="/time-distance-diagram/">
         
         
             <div class="article-image">
-                <img src="/waffle-chart/images/cover.785bfe55496ae2847ca4c3269b3e1079.785bfe55496ae2847ca4c3269b3e1079_hu_9c7ce6a0aa5bbfd1.png" 
+                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ワッフル・チャート（Waffle Chart）"
-                        data-key="waffle-chart" 
-                        data-hash="md5-eFv&#43;VUlq4oR8pMMmmz4QeQ==">
+                        alt="Featured image of post 時間‐距離図（Time-Distance Diagram）とは"
+                        data-key="time-distance-diagram" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ワッフル・チャート（Waffle Chart）</h2>
+            <h2 class="article-title">時間‐距離図（Time-Distance Diagram）とは</h2>
         </div>
     </a>
 </article>
@@ -664,23 +659,23 @@
             
                 
 <article class="has-image">
-    <a href="/entangled-word-bank/">
+    <a href="/euler-diagram/">
         
         
             <div class="article-image">
-                <img src="/entangled-word-bank/images/cover-entangled-word-bank.3014b13eb86c929710586fc3f932e6d7.3014b13eb86c929710586fc3f932e6d7_hu_3ae4328fea1b93df.jpeg" 
+                <img src="/euler-diagram/images/cover.14daa0a08675e395ec5679c53cd99e97.14daa0a08675e395ec5679c53cd99e97_hu_c3d97da7e0c6d5c8.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post  ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
-                        data-key="entangled-word-bank" 
-                        data-hash="md5-MBSxPrhskpcQWG/D&#43;TLm1w==">
+                        alt="Featured image of post オイラー図（Euler Diagram）とは"
+                        data-key="euler-diagram" 
+                        data-hash="md5-FNqgoIZ145XsVnnFPNmelw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title"> ダーウィン「種の起源」をめぐるテキストの進化を可視化する</h2>
+            <h2 class="article-title">オイラー図（Euler Diagram）とは</h2>
         </div>
     </a>
 </article>
@@ -688,23 +683,23 @@
             
                 
 <article class="has-image">
-    <a href="/textarc/">
+    <a href="/venn-diagram/">
         
         
             <div class="article-image">
-                <img src="/textarc/images/367_text-arc.97bd2d94caacbde8c2faf955f5246a0c.97bd2d94caacbde8c2faf955f5246a0c_hu_adf3c74830cc7f34.png" 
+                <img src="/venn-diagram/images/cover.68093910fd9f36a63e1a99201a9ef38c.68093910fd9f36a63e1a99201a9ef38c_hu_aae0d10ad45594e4.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post TextArc: アリスを「眺める」ための地図"
-                        data-key="textarc" 
-                        data-hash="md5-l70tlMqsvejC&#43;vlV9SRqDA==">
+                        alt="Featured image of post ベン図 (Venn Diagram) とは"
+                        data-key="venn-diagram" 
+                        data-hash="md5-aAk5EP2fNqY&#43;GpkgGp7zjA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">TextArc: アリスを「眺める」ための地図</h2>
+            <h2 class="article-title">ベン図 (Venn Diagram) とは</h2>
         </div>
     </a>
 </article>
@@ -712,23 +707,23 @@
             
                 
 <article class="has-image">
-    <a href="/history-flow/">
+    <a href="/bump-chart/">
         
         
             <div class="article-image">
-                <img src="/history-flow/images/chocolate-1.bdef23e21f82408b4f10e0c121b7396b.bdef23e21f82408b4f10e0c121b7396b_hu_641ca4dfcd833b2.jpeg" 
+                <img src="/bump-chart/images/G-20-countries-ranked.83b381fdfcb142815f0678d4d710ccc9.83b381fdfcb142815f0678d4d710ccc9_hu_46addd8d2e4c63b2.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
-                        data-key="history-flow" 
-                        data-hash="md5-ve8j4h&#43;CQItPEODBIbc5aw==">
+                        alt="Featured image of post バンプ・チャート（Bump Chart）の歴史と役割"
+                        data-key="bump-chart" 
+                        data-hash="md5-g7OB/fyxQoFfBnjU1xDMyQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語</h2>
+            <h2 class="article-title">バンプ・チャート（Bump Chart）の歴史と役割</h2>
         </div>
     </a>
 </article>
