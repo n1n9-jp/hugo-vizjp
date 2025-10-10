@@ -106,6 +106,98 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</title>
+        <link>http://localhost:1313/hive-plot/</link>
+        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/hive-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/hive-plot/images/cover.png" alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法" /&gt;&lt;p&gt;複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。&lt;br&gt;
+これに対し、Martin Krzywinski（BC Cancer Research Center）は &lt;strong&gt;Hive Plot（ハイブプロット）&lt;/strong&gt; という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hive-plot/images/mainvisual.png&#34;
+	width=&#34;1800&#34;
+	height=&#34;1350&#34;
+	srcset=&#34;http://localhost:1313/hive-plot/images/mainvisual_hu_45b1bfbe299388b9.png 480w, http://localhost:1313/hive-plot/images/mainvisual_hu_c4de1bcfd0898608.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hive Plotは、ネットワークノードを一つ以上の軸（通常3軸）上に配置し、ノードの特性（次数、クラスタ係数、中心性など）によって座標を決定します。エッジはこれらの軸を横断して描かれるため、ネットワークの階層性や連結の特徴が視覚的に整理されます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hive-plot/images/legend.png&#34;
+	width=&#34;575&#34;
+	height=&#34;436&#34;
+	srcset=&#34;http://localhost:1313/hive-plot/images/legend_hu_31bd33871a8d2766.png 480w, http://localhost:1313/hive-plot/images/legend_hu_ef6f0556dd7b349e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hive Plotは、ネットワークの &lt;strong&gt;構造的特徴を数量化された基準に基づいて配置する&lt;/strong&gt; ことが特徴です。以下は、図中の要素の読み方です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;図要素&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;意味&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;読み取り方&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸（Axis）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノードを配置する基準となる指標軸（例：次数、クラスタ係数、中心性など）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;各軸は1つの特性を示す。例えば、上軸は「高次数ノード」、左軸は「低クラスタ係数」など。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノード（Node）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;個々の要素（遺伝子、サーバー、ユーザーなど）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸上の位置が特性値に対応。外側ほど値が大きい場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;エッジ（Edge）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノード間の関係（相互作用、通信、共発現など）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸を跨いで接続し、関係の強さや方向性を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;色（Color）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;特定の属性やモジュールを区別&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;同系色は同じクラスタやサブネットを示す場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正規化／絶対（Normalized / Absolute）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;スケール調整の違い&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正規化図は比較分析、絶対図は全体構造の把握に向く。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば、E. coli や Linux のネットワーク図では、「IN／OUT／IN-OUT」の3軸構成により、入力中心ノード・出力中心ノード・双方向ノードが明確に分けられています。&lt;br&gt;
+また「Hive Plot Matrix」では、軸に異なる構造指標を割り当て、マトリクス的に比較することで、ネットワーク間の特徴差を定量的に比較することができます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;Hive Plotの発想は、「美しさ」ではなく「比較可能性」を目的としたネットワーク可視化にあります。力学モデルに依存したレイアウトはノードの初期条件やパラメータによって結果が大きく変わりますが、Hive Plotは &lt;strong&gt;数値的ルールに基づく再現可能な配置&lt;/strong&gt; を可能にします。&lt;/p&gt;
+&lt;p&gt;この設計思想により、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;異なるネットワーク間の比較（例：E. coli と Yeast の相互作用構造）&lt;/li&gt;
+&lt;li&gt;同一ネットワーク内での属性ごとの視点比較（例：次数 vs クラスタ係数）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が容易になります。&lt;/p&gt;
+&lt;p&gt;さらに、Hive Plotは &lt;strong&gt;BioFabric&lt;/strong&gt; などの後続技術にも影響を与え、ネットワーク構造を線ではなく「秩序ある構成要素」として再構築する流れを生みました。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Hive Plotは、「複雑さの中の秩序」を明示するための手法です。ノードやエッジの位置が &lt;strong&gt;意味をもつ&lt;/strong&gt; ことにより、従来のヘアボール的な混沌を超え、定量的で再現可能な構造分析を可能にしました。科学研究やソフトウェア解析、社会ネットワークなど、多様な分野で応用が進んでいます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hiveplot.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hive Plot — Linear Layout for Network Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>初出版から傑作まで、人生と創作キャリアのタイムライン</title>
         <link>http://localhost:1313/from-first-published-to-masterpieces/</link>
         <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>

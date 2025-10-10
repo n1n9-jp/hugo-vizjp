@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n">
-<title>ビースウォーム・プロット（Beeswarm Plot）とは？</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。\nこれに対し、Martin Krzywinski（BC Cancer Research Center）は Hive Plot（ハイブプロット） という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。\n">
+<title>Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</title>
 
-<link rel='canonical' href='http://localhost:1313/beeswarm/'>
+<link rel='canonical' href='http://localhost:1313/hive-plot/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ビースウォーム・プロット（Beeswarm Plot）とは？">
-<meta property='og:description' content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n">
-<meta property='og:url' content='http://localhost:1313/beeswarm/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法">
+<meta property='og:description' content="複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。\nこれに対し、Martin Krzywinski（BC Cancer Research Center）は Hive Plot（ハイブプロット） という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。\n">
+<meta property='og:url' content='http://localhost:1313/hive-plot/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-09-28T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-09-28T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/beeswarm/images/cover-beeswarm.png' />
-<meta name="twitter:title" content="ビースウォーム・プロット（Beeswarm Plot）とは？">
-<meta name="twitter:description" content="データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/beeswarm/images/cover-beeswarm.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/hive-plot/images/cover.png' />
+<meta name="twitter:title" content="Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法">
+<meta name="twitter:description" content="複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。\nこれに対し、Martin Krzywinski（BC Cancer Research Center）は Hive Plot（ハイブプロット） という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/hive-plot/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,16 +386,10 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#ビースウォームプロットの仕組み">ビースウォーム・プロットの仕組み</a></li>
-    <li><a href="#メリットと注意点">メリットと注意点</a>
-      <ol>
-        <li><a href="#メリット">メリット</a></li>
-        <li><a href="#注意点">注意点</a></li>
-      </ol>
-    </li>
-    <li><a href="#応用例">応用例</a></li>
+    <li><a href="#チャートの見方">チャートの見方</a></li>
+    <li><a href="#背景と意義">背景と意義</a></li>
     <li><a href="#まとめ">まとめ</a></li>
-    <li><a href="#参考リンク">参考リンク</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -410,13 +404,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/beeswarm/">
-                <img src="/beeswarm/images/cover-beeswarm_hu_28ac1cd9a4b82c32.png"
-                        srcset="/beeswarm/images/cover-beeswarm_hu_28ac1cd9a4b82c32.png 800w, /beeswarm/images/cover-beeswarm_hu_522935e103eddf5.png 1600w"
+            <a href="/hive-plot/">
+                <img src="/hive-plot/images/cover_hu_1ee7e1caec9d7318.png"
+                        srcset="/hive-plot/images/cover_hu_1ee7e1caec9d7318.png 800w, /hive-plot/images/cover_hu_5dad4a888a922a13.png 1600w"
                         width="800" 
-                        height="330" 
+                        height="793" 
                         loading="lazy"
-                        alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）とは？" />
+                        alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法" />
                 
             </a>
         </div>
@@ -435,7 +429,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/beeswarm/">ビースウォーム・プロット（Beeswarm Plot）とは？</a>
+            <a href="/hive-plot/">Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</a>
         </h2>
     
         
@@ -457,7 +451,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 28, 2025</time>
+                <time class="article-time--published">Oct 10, 2025</time>
             </div>
         
 
@@ -487,57 +481,90 @@
     <section class="article-content">
     
     
-    <p>データの分布を表現する方法には、箱ひげ図やバイオリンプロット、ヒストグラムなど様々なものがあります。その中で「すべてのデータ点を表示しつつ、分布の特徴も一目で分かる」手法として注目されているのが ビースウォーム・プロット（Beeswarm Plot） です。名前の通り、ミツバチの群れのようにデータ点が広がって見えるのが特徴です。</p>
-<p><img src="/beeswarm/images/cover-beeswarm.png"
-	width="2405"
-	height="993"
-	srcset="/beeswarm/images/cover-beeswarm_hu_5b63ea28e955d59d.png 480w, /beeswarm/images/cover-beeswarm_hu_7afa0bd349c7b2e8.png 1024w"
+    <p>複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。<br>
+これに対し、Martin Krzywinski（BC Cancer Research Center）は <strong>Hive Plot（ハイブプロット）</strong> という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。</p>
+<p><img src="/hive-plot/images/mainvisual.png"
+	width="1800"
+	height="1350"
+	srcset="/hive-plot/images/mainvisual_hu_45b1bfbe299388b9.png 480w, /hive-plot/images/mainvisual_hu_c4de1bcfd0898608.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="242"
-		data-flex-basis="581px"
+		data-flex-grow="133"
+		data-flex-basis="320px"
 	
 ></p>
-<h2 id="ビースウォームプロットの仕組み">ビースウォーム・プロットの仕組み
-</h2><ul>
-<li><strong>基本構造</strong> &hellip;縦軸（あるいは横軸）に数値データを、横軸（あるいは縦軸）にカテゴリ変数を配置します。</li>
-<li><strong>重なりの解消</strong> &hellip;単純なストリッププロット（strip plot）では点が重なってしまいますが、ビースウォームではアルゴリズムによって点をずらし、衝突しないように散らします。</li>
-<li><strong>配置の意味</strong> &hellip;数値軸方向はデータ値を保持し、カテゴリ軸方向には重なりを避けるための調整だけが行われます。そのため、点が横に広がるほど「その数値付近に多くの観測がある」ことを意味します。</li>
+<p>Hive Plotは、ネットワークノードを一つ以上の軸（通常3軸）上に配置し、ノードの特性（次数、クラスタ係数、中心性など）によって座標を決定します。エッジはこれらの軸を横断して描かれるため、ネットワークの階層性や連結の特徴が視覚的に整理されます。</p>
+<h2 id="チャートの見方">チャートの見方
+</h2><p><img src="/hive-plot/images/legend.png"
+	width="575"
+	height="436"
+	srcset="/hive-plot/images/legend_hu_31bd33871a8d2766.png 480w, /hive-plot/images/legend_hu_ef6f0556dd7b349e.png 1024w"
+	loading="lazy"
+	
+		alt="凡例"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="131"
+		data-flex-basis="316px"
+	
+></p>
+<p>Hive Plotは、ネットワークの <strong>構造的特徴を数量化された基準に基づいて配置する</strong> ことが特徴です。以下は、図中の要素の読み方です。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">図要素</th>
+          <th style="text-align: left">意味</th>
+          <th style="text-align: left">読み取り方</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">軸（Axis）</td>
+          <td style="text-align: left">ノードを配置する基準となる指標軸（例：次数、クラスタ係数、中心性など）</td>
+          <td style="text-align: left">各軸は1つの特性を示す。例えば、上軸は「高次数ノード」、左軸は「低クラスタ係数」など。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ノード（Node）</td>
+          <td style="text-align: left">個々の要素（遺伝子、サーバー、ユーザーなど）</td>
+          <td style="text-align: left">軸上の位置が特性値に対応。外側ほど値が大きい場合が多い。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">エッジ（Edge）</td>
+          <td style="text-align: left">ノード間の関係（相互作用、通信、共発現など）</td>
+          <td style="text-align: left">軸を跨いで接続し、関係の強さや方向性を示す。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">色（Color）</td>
+          <td style="text-align: left">特定の属性やモジュールを区別</td>
+          <td style="text-align: left">同系色は同じクラスタやサブネットを示す場合が多い。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">正規化／絶対（Normalized / Absolute）</td>
+          <td style="text-align: left">スケール調整の違い</td>
+          <td style="text-align: left">正規化図は比較分析、絶対図は全体構造の把握に向く。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>たとえば、E. coli や Linux のネットワーク図では、「IN／OUT／IN-OUT」の3軸構成により、入力中心ノード・出力中心ノード・双方向ノードが明確に分けられています。<br>
+また「Hive Plot Matrix」では、軸に異なる構造指標を割り当て、マトリクス的に比較することで、ネットワーク間の特徴差を定量的に比較することができます。</p>
+<h2 id="背景と意義">背景と意義
+</h2><p>Hive Plotの発想は、「美しさ」ではなく「比較可能性」を目的としたネットワーク可視化にあります。力学モデルに依存したレイアウトはノードの初期条件やパラメータによって結果が大きく変わりますが、Hive Plotは <strong>数値的ルールに基づく再現可能な配置</strong> を可能にします。</p>
+<p>この設計思想により、</p>
+<ul>
+<li>異なるネットワーク間の比較（例：E. coli と Yeast の相互作用構造）</li>
+<li>同一ネットワーク内での属性ごとの視点比較（例：次数 vs クラスタ係数）</li>
 </ul>
-<h2 id="メリットと注意点">メリットと注意点
-</h2><h3 id="メリット">メリット
-</h3><ul>
-<li><strong>すべての点が見える</strong> ：要約統計だけでなく、外れ値や個々の観測をそのまま確認可能。</li>
-<li><strong>分布の偏りが直感的</strong> ：点の群れ具合から、密集やばらつきがすぐに分かる。</li>
-<li><strong>比較がしやすい</strong> ：カテゴリごとに並べることで、グループ間の分布差を直接見比べられる。</li>
-</ul>
-<h3 id="注意点">注意点
-</h3><ul>
-<li><strong>大量データには不向き</strong> ：数万件単位のデータでは処理も表示も重くなる。</li>
-<li><strong>「幅」に定量性はない</strong> ：横方向の広がりは単なる重なり回避であり、密度を厳密に測るものではない。</li>
-<li><strong>視覚的調整が必要</strong> ：パラメータ設定を工夫しないと点が雑然として見えることがある。</li>
-</ul>
-<h2 id="応用例">応用例
-</h2><ul>
-<li><strong>統計可視化</strong> ：箱ひげ図やバイオリン図と組み合わせ、要約統計と生データを両立。</li>
-<li><strong>機械学習の解釈（SHAP）</strong> n：特徴量の重要度を視覚化する際に beeswarm プロットが使われ、個々の観測の影響度を直感的に理解できます。</li>
-<li><strong>教育・プレゼン</strong> ：点が「生きている」ように散らばるため、聴衆に分布の雰囲気を伝えるのに効果的。</li>
-</ul>
+<p>が容易になります。</p>
+<p>さらに、Hive Plotは <strong>BioFabric</strong> などの後続技術にも影響を与え、ネットワーク構造を線ではなく「秩序ある構成要素」として再構築する流れを生みました。</p>
 <h2 id="まとめ">まとめ
-</h2><p>ビースウォーム・プロットは、データの「個別性」と「分布性」を同時に示せる可視化手法です。適切なデータサイズで用いれば、他のチャートでは見えにくい外れ値や集中度を明快に伝えることができます。
-今後のデータ可視化の現場でも、ますます利用される機会が増えていくでしょう。</p>
-<h2 id="参考リンク">参考リンク
+</h2><p>Hive Plotは、「複雑さの中の秩序」を明示するための手法です。ノードやエッジの位置が <strong>意味をもつ</strong> ことにより、従来のヘアボール的な混沌を超え、定量的で再現可能な構造分析を可能にしました。科学研究やソフトウェア解析、社会ネットワークなど、多様な分野で応用が進んでいます。</p>
+<h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://cran.r-project.org/web/packages/beeswarm/beeswarm.pdf"  target="_blank" rel="noopener"
-    >R: beeswarm package (CRAN)</a></li>
-<li><a class="link" href="https://seaborn.pydata.org/generated/seaborn.swarmplot.html"  target="_blank" rel="noopener"
-    >Seaborn swarmplot (Python)</a></li>
-<li><a class="link" href="https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/beeswarm.html"  target="_blank" rel="noopener"
-    >SHAP beeswarm plot (公式ドキュメント)</a></li>
-<li><a class="link" href="https://data.europa.eu/apps/data-visualisation-guide/beeswarm-plots"  target="_blank" rel="noopener"
-    >Data Visualization Guide: Beeswarm Plots (EU)</a></li>
+<li><a class="link" href="https://hiveplot.com/"  target="_blank" rel="noopener"
+    >Hive Plot — Linear Layout for Network Visualization</a></li>
 </ul>
 </section>
 
@@ -582,7 +609,7 @@
         
         
             <div class="article-image">
-                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -595,30 +622,6 @@
 
         <div class="article-details">
             <h2 class="article-title">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/hive-plot/">
-        
-        
-            <div class="article-image">
-                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法"
-                        data-key="hive-plot" 
-                        data-hash="md5-f736wYfshYjwkUiUuXWTww==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</h2>
         </div>
     </a>
 </article>
@@ -691,6 +694,30 @@
 
         <div class="article-details">
             <h2 class="article-title">オイラー図（Euler Diagram）とは</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/venn-diagram/">
+        
+        
+            <div class="article-image">
+                <img src="/venn-diagram/images/cover.68093910fd9f36a63e1a99201a9ef38c_hu_aae0d10ad45594e4.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ベン図 (Venn Diagram) とは"
+                        data-key="venn-diagram" 
+                        data-hash="md5-aAk5EP2fNqY&#43;GpkgGp7zjA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ベン図 (Venn Diagram) とは</h2>
         </div>
     </a>
 </article>
