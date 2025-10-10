@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59740&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。適宜ご活用ください。\nhttps://github.com/OpenRefine/OpenRefine/wiki/GREL-Date-Functions パターン文字 日付・時刻コンポーネント データ型 例 G 時代表記（西暦） テキスト AD y 年 年 1996; 96 Y 年（年末年始などで週の半ばで年が変わる際に用います） 年 2009; 09 M 月名 月 July; Jul; 07 w 通年における何番目の週か 数値 27 W 月における何番目の週か 数値 2 D 通年における何番目の日にちか 数値 189 d 日にち 数値 10 F 月の初めから数えた曜日 数値 2 E 曜日名 テキスト Tuesday; Tue u 曜日の番号表記 (1 = 月曜, &hellip;, 7 = 日曜) 数値 1 a Am/pm マーカー テキスト PM H (0-23)時 数値 0 k (1-24)時 数値 24 K am/pm表示における (0-11)時 数値 0 h am/pm表示における (1-12)時 数値 12 m 分 数値 30 s 秒 数値 55 S ミリ秒（1000分の1秒） 数値 978 n ナノ秒（10億分の1秒） 数値 789000 z タイムゾーン General time zone Pacific Standard Time; PST; GMT-08:00 Z タイムゾーン RFC 822タイムゾーン -0800 X タイムゾーン ISO 8601 タイムゾーン -08; -0800; -08:00 ">
 <title>Open Refine - GREL日付関数 パターン文字一覧</title>
 
-<link rel='canonical' href='http://localhost:59740/open-refine-grel-date/'>
+<link rel='canonical' href='http://localhost:1313/open-refine-grel-date/'>
 
 <link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="Open Refine - GREL日付関数 パターン文字一覧">
 <meta property='og:description' content="Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。適宜ご活用ください。\nhttps://github.com/OpenRefine/OpenRefine/wiki/GREL-Date-Functions パターン文字 日付・時刻コンポーネント データ型 例 G 時代表記（西暦） テキスト AD y 年 年 1996; 96 Y 年（年末年始などで週の半ばで年が変わる際に用います） 年 2009; 09 M 月名 月 July; Jul; 07 w 通年における何番目の週か 数値 27 W 月における何番目の週か 数値 2 D 通年における何番目の日にちか 数値 189 d 日にち 数値 10 F 月の初めから数えた曜日 数値 2 E 曜日名 テキスト Tuesday; Tue u 曜日の番号表記 (1 = 月曜, &hellip;, 7 = 日曜) 数値 1 a Am/pm マーカー テキスト PM H (0-23)時 数値 0 k (1-24)時 数値 24 K am/pm表示における (0-11)時 数値 0 h am/pm表示における (1-12)時 数値 12 m 分 数値 30 s 秒 数値 55 S ミリ秒（1000分の1秒） 数値 978 n ナノ秒（10億分の1秒） 数値 789000 z タイムゾーン General time zone Pacific Standard Time; PST; GMT-08:00 Z タイムゾーン RFC 822タイムゾーン -0800 X タイムゾーン ISO 8601 タイムゾーン -08; -0800; -08:00 ">
-<meta property='og:url' content='http://localhost:59740/open-refine-grel-date/'>
+<meta property='og:url' content='http://localhost:1313/open-refine-grel-date/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='openrefine' /><meta property='article:published_time' content='2019-11-23T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2019-11-23T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:59740/open-refine-grel-date/images/image_3hours_refine.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='openrefine' /><meta property='article:published_time' content='2019-11-23T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2019-11-23T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/open-refine-grel-date/images/image_3hours_refine.png' />
 <meta name="twitter:title" content="Open Refine - GREL日付関数 パターン文字一覧">
 <meta name="twitter:description" content="Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。適宜ご活用ください。\nhttps://github.com/OpenRefine/OpenRefine/wiki/GREL-Date-Functions パターン文字 日付・時刻コンポーネント データ型 例 G 時代表記（西暦） テキスト AD y 年 年 1996; 96 Y 年（年末年始などで週の半ばで年が変わる際に用います） 年 2009; 09 M 月名 月 July; Jul; 07 w 通年における何番目の週か 数値 27 W 月における何番目の週か 数値 2 D 通年における何番目の日にちか 数値 189 d 日にち 数値 10 F 月の初めから数えた曜日 数値 2 E 曜日名 テキスト Tuesday; Tue u 曜日の番号表記 (1 = 月曜, &hellip;, 7 = 日曜) 数値 1 a Am/pm マーカー テキスト PM H (0-23)時 数値 0 k (1-24)時 数値 24 K am/pm表示における (0-11)時 数値 0 h am/pm表示における (1-12)時 数値 12 m 分 数値 30 s 秒 数値 55 S ミリ秒（1000分の1秒） 数値 978 n ナノ秒（10億分の1秒） 数値 789000 z タイムゾーン General time zone Pacific Standard Time; PST; GMT-08:00 Z タイムゾーン RFC 822タイムゾーン -0800 X タイムゾーン ISO 8601 タイムゾーン -08; -0800; -08:00 "><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:59740/open-refine-grel-date/images/image_3hours_refine.png' />
+    <meta name="twitter:image" content='http://localhost:1313/open-refine-grel-date/images/image_3hours_refine.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>

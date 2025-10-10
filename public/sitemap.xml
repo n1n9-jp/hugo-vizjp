@@ -2,744 +2,750 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:59740/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/chart/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/time-distance-diagram/</loc>
+    <loc>http://localhost:1313/circle-packing/</loc>
     <lastmod>2025-10-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/euler-diagram/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E5%A4%89%E6%8F%9B/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/chart/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/continents-showdown/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/consume/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/time-distance-diagram/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ninomiya-sontoku-land-ratio-graph/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/population-attributable-fraction/</loc>
+    <lastmod>2025-10-09T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/euler-diagram/</loc>
     <lastmod>2025-10-08T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/venn-diagram/</loc>
+    <loc>http://localhost:1313/venn-diagram/</loc>
     <lastmod>2025-10-08T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/further-education-longer-life/</loc>
+    <loc>http://localhost:1313/further-education-longer-life/</loc>
     <lastmod>2025-10-08T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/consume/</loc>
-    <lastmod>2025-10-08T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/minard-napoleon-march-to-moscow/</loc>
+    <loc>http://localhost:1313/minard-napoleon-march-to-moscow/</loc>
     <lastmod>2025-10-06T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/painters-in-the-making/</loc>
+    <loc>http://localhost:1313/painters-in-the-making/</loc>
     <lastmod>2025-10-06T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/nobels-no-degrees/</loc>
+    <loc>http://localhost:1313/nobels-no-degrees/</loc>
     <lastmod>2025-10-06T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/urban-story/</loc>
+    <loc>http://localhost:1313/urban-story/</loc>
     <lastmod>2025-10-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/progress-toward-gender-equality/</loc>
+    <loc>http://localhost:1313/progress-toward-gender-equality/</loc>
     <lastmod>2025-10-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/objects-launched-into-space/</loc>
+    <loc>http://localhost:1313/objects-launched-into-space/</loc>
     <lastmod>2025-10-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/the-memory-of-the-world-register/</loc>
+    <loc>http://localhost:1313/the-memory-of-the-world-register/</loc>
     <lastmod>2025-10-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/noise-pollution/</loc>
+    <loc>http://localhost:1313/noise-pollution/</loc>
     <lastmod>2025-10-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/waffle-chart/</loc>
+    <loc>http://localhost:1313/waffle-chart/</loc>
     <lastmod>2025-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/selling-at-sundance/</loc>
+    <loc>http://localhost:1313/selling-at-sundance/</loc>
     <lastmod>2025-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/literary-organism/</loc>
+    <loc>http://localhost:1313/literary-organism/</loc>
     <lastmod>2025-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/</loc>
+    <loc>http://localhost:1313/understanding-shakespeare/</loc>
     <lastmod>2025-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/understanding-shakespeare/</loc>
+    <loc>http://localhost:1313/tags/%E8%A8%80%E8%91%89/</loc>
     <lastmod>2025-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E8%A8%80%E8%91%89/</loc>
+    <loc>http://localhost:1313/geniuses-visualized/</loc>
     <lastmod>2025-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/geniuses-visualized/</loc>
-    <lastmod>2025-10-03T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/entangled-word-bank/</loc>
+    <loc>http://localhost:1313/entangled-word-bank/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/textarc/</loc>
+    <loc>http://localhost:1313/textarc/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/history-flow/</loc>
+    <loc>http://localhost:1313/history-flow/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%AB%E3%83%A9%E3%83%BC/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/sunburst/</loc>
+    <loc>http://localhost:1313/sunburst/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%84%E3%83%AA%E3%83%BC/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/digital-nostalgia/</loc>
+    <loc>http://localhost:1313/digital-nostalgia/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/mission-to-mars/</loc>
+    <loc>http://localhost:1313/mission-to-mars/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/technology/</loc>
+    <loc>http://localhost:1313/categories/technology/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/multi-color/</loc>
+    <loc>http://localhost:1313/multi-color/</loc>
     <lastmod>2025-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/radial-bar-chart/</loc>
+    <loc>http://localhost:1313/radial-bar-chart/</loc>
     <lastmod>2025-09-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/bump-chart/</loc>
+    <loc>http://localhost:1313/bump-chart/</loc>
     <lastmod>2025-09-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/connected-scatterplot/</loc>
+    <loc>http://localhost:1313/connected-scatterplot/</loc>
     <lastmod>2025-09-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/mosaic-plot/</loc>
+    <loc>http://localhost:1313/mosaic-plot/</loc>
     <lastmod>2025-09-29T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/spiral-chart-nyt/</loc>
+    <loc>http://localhost:1313/spiral-chart-nyt/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/beeswarm/</loc>
+    <loc>http://localhost:1313/beeswarm/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/radar-parallel-coordinates/</loc>
+    <loc>http://localhost:1313/radar-parallel-coordinates/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/parallel-sets/</loc>
+    <loc>http://localhost:1313/parallel-sets/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/vaccine-confidence-cascade/</loc>
+    <loc>http://localhost:1313/vaccine-confidence-cascade/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/quantityproportion-chart/</loc>
+    <loc>http://localhost:1313/quantityproportion-chart/</loc>
     <lastmod>2025-09-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/treemap-rcep/</loc>
+    <loc>http://localhost:1313/treemap-rcep/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/covid-19/</loc>
+    <loc>http://localhost:1313/tags/covid-19/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/newsmap/</loc>
+    <loc>http://localhost:1313/newsmap/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/word-spectrum/</loc>
+    <loc>http://localhost:1313/word-spectrum/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/government-budget-icicle/</loc>
+    <loc>http://localhost:1313/government-budget-icicle/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/scmp-2020-covid-hk/</loc>
+    <loc>http://localhost:1313/scmp-2020-covid-hk/</loc>
     <lastmod>2025-09-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/visit-nordkyn-logo/</loc>
+    <loc>http://localhost:1313/visit-nordkyn-logo/</loc>
     <lastmod>2025-09-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/show-your-stripes/</loc>
+    <loc>http://localhost:1313/show-your-stripes/</loc>
     <lastmod>2025-09-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chernoff-face-implementation/</loc>
+    <loc>http://localhost:1313/chernoff-face-implementation/</loc>
     <lastmod>2025-09-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chernoff-face-design/</loc>
+    <loc>http://localhost:1313/chernoff-face-design/</loc>
     <lastmod>2025-09-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chernoff-face-on-map/</loc>
+    <loc>http://localhost:1313/chernoff-face-on-map/</loc>
     <lastmod>2025-09-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/mit-media-lab-logo-2011/</loc>
+    <loc>http://localhost:1313/mit-media-lab-logo-2011/</loc>
     <lastmod>2025-09-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chernoff-face/</loc>
+    <loc>http://localhost:1313/chernoff-face/</loc>
     <lastmod>2025-09-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/provisional-inundation-depth-map/</loc>
+    <loc>http://localhost:1313/provisional-inundation-depth-map/</loc>
     <lastmod>2025-09-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E5%9C%B0%E5%9B%B3/</loc>
+    <loc>http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/</loc>
     <lastmod>2025-09-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/spiralling-global-temperatures/</loc>
+    <loc>http://localhost:1313/spiralling-global-temperatures/</loc>
     <lastmod>2025-09-21T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/high-altitude/</loc>
+    <loc>http://localhost:1313/high-altitude/</loc>
     <lastmod>2025-09-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/high-frequency-trading/</loc>
+    <loc>http://localhost:1313/high-frequency-trading/</loc>
     <lastmod>2025-09-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/bosai-kikikuru-color/</loc>
+    <loc>http://localhost:1313/bosai-kikikuru-color/</loc>
     <lastmod>2025-09-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/cognitive-biases-blog/</loc>
+    <loc>http://localhost:1313/cognitive-biases-blog/</loc>
     <lastmod>2025-09-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/cognitive-biases-compare/</loc>
+    <loc>http://localhost:1313/cognitive-biases-compare/</loc>
     <lastmod>2025-09-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/cognitive-biases-paper/</loc>
+    <loc>http://localhost:1313/cognitive-biases-paper/</loc>
     <lastmod>2025-09-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-map-transportation-infrastructure/</loc>
+    <loc>http://localhost:1313/chart-map-transportation-infrastructure/</loc>
     <lastmod>2025-09-15T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-map-railway/</loc>
+    <loc>http://localhost:1313/chart-map-railway/</loc>
     <lastmod>2025-09-15T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/time-distance-map/</loc>
+    <loc>http://localhost:1313/time-distance-map/</loc>
     <lastmod>2025-09-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/time-distance-map-price/</loc>
+    <loc>http://localhost:1313/time-distance-map-price/</loc>
     <lastmod>2025-09-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/cartogram/</loc>
+    <loc>http://localhost:1313/cartogram/</loc>
     <lastmod>2025-09-10T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/translate-statistics/</loc>
+    <loc>http://localhost:1313/translate-statistics/</loc>
     <lastmod>2025-09-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/principle/</loc>
+    <loc>http://localhost:1313/categories/principle/</loc>
     <lastmod>2025-09-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/2-axis/</loc>
+    <loc>http://localhost:1313/tags/2-axis/</loc>
     <lastmod>2025-08-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/chart/</loc>
+    <loc>http://localhost:1313/two-axis/</loc>
     <lastmod>2025-08-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/two-axis/</loc>
-    <lastmod>2025-08-28T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%95%99%E8%82%B2/</loc>
     <lastmod>2024-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/italian-social-conditionpoverty/</loc>
+    <loc>http://localhost:1313/italian-social-conditionpoverty/</loc>
     <lastmod>2024-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/densitydesign-lab-memento/</loc>
+    <loc>http://localhost:1313/densitydesign-lab-memento/</loc>
     <lastmod>2024-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/education/</loc>
+    <loc>http://localhost:1313/categories/education/</loc>
     <lastmod>2024-10-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/excel/</loc>
+    <loc>http://localhost:1313/tags/excel/</loc>
     <lastmod>2023-11-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/excel-reverse-pivot/</loc>
+    <loc>http://localhost:1313/excel-reverse-pivot/</loc>
     <lastmod>2023-11-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/openrefine/</loc>
+    <loc>http://localhost:1313/tags/openrefine/</loc>
     <lastmod>2023-11-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/openrefine-reverse-pivot/</loc>
+    <loc>http://localhost:1313/openrefine-reverse-pivot/</loc>
     <lastmod>2023-11-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%AF%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%B3%E3%82%B0/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%AF%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2023-11-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/design-guideline/</loc>
+    <loc>http://localhost:1313/design-guideline/</loc>
     <lastmod>2023-09-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/3d/</loc>
+    <loc>http://localhost:1313/tags/3d/</loc>
     <lastmod>2021-06-10T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/mapbox-gl-js-v2/</loc>
+    <loc>http://localhost:1313/mapbox-gl-js-v2/</loc>
     <lastmod>2021-06-10T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/data-journalism/</loc>
+    <loc>http://localhost:1313/categories/data-journalism/</loc>
     <lastmod>2021-05-10T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/asahi-journalism-2021-2/</loc>
+    <loc>http://localhost:1313/asahi-journalism-2021-2/</loc>
     <lastmod>2021-05-10T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/asahi-journalism-2021-1/</loc>
+    <loc>http://localhost:1313/asahi-journalism-2021-1/</loc>
     <lastmod>2021-04-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/sigma-awards-2021/</loc>
+    <loc>http://localhost:1313/sigma-awards-2021/</loc>
     <lastmod>2021-01-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/focus-context/</loc>
+    <loc>http://localhost:1313/focus-context/</loc>
     <lastmod>2020-11-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</loc>
     <lastmod>2020-10-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/visual-analytics-interaction/</loc>
+    <loc>http://localhost:1313/visual-analytics-interaction/</loc>
     <lastmod>2020-10-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/infovis-interaction-taxonomy/</loc>
+    <loc>http://localhost:1313/infovis-interaction-taxonomy/</loc>
     <lastmod>2020-10-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/d3-js/</loc>
+    <loc>http://localhost:1313/tags/d3-js/</loc>
     <lastmod>2020-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3-flexbox/</loc>
+    <loc>http://localhost:1313/d3-flexbox/</loc>
     <lastmod>2020-10-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-story-4-types/</loc>
+    <loc>http://localhost:1313/data-story-4-types/</loc>
     <lastmod>2020-10-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-visualization-as-a-medium-for-communication/</loc>
+    <loc>http://localhost:1313/data-visualization-as-a-medium-for-communication/</loc>
     <lastmod>2020-09-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/visual-vocabulary/</loc>
+    <loc>http://localhost:1313/visual-vocabulary/</loc>
     <lastmod>2020-08-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-catalogue-by-types/</loc>
+    <loc>http://localhost:1313/chart-catalogue-by-types/</loc>
     <lastmod>2020-08-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-catalogue-by-tasks/</loc>
+    <loc>http://localhost:1313/chart-catalogue-by-tasks/</loc>
     <lastmod>2020-08-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/splom/</loc>
+    <loc>http://localhost:1313/splom/</loc>
     <lastmod>2020-08-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/treemap/</loc>
+    <loc>http://localhost:1313/treemap/</loc>
     <lastmod>2020-08-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/nightingale-chart/</loc>
+    <loc>http://localhost:1313/nightingale-chart/</loc>
     <lastmod>2020-08-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/reischauer-cartogram/</loc>
+    <loc>http://localhost:1313/reischauer-cartogram/</loc>
     <lastmod>2020-08-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/covid-symptom-upset/</loc>
+    <loc>http://localhost:1313/covid-symptom-upset/</loc>
     <lastmod>2020-08-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/sunburst-example/</loc>
+    <loc>http://localhost:1313/sunburst-example/</loc>
     <lastmod>2020-08-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/dasymetric-map/</loc>
+    <loc>http://localhost:1313/dasymetric-map/</loc>
     <lastmod>2020-08-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/vector-field-map/</loc>
+    <loc>http://localhost:1313/vector-field-map/</loc>
     <lastmod>2020-08-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/icicle-chart/</loc>
+    <loc>http://localhost:1313/icicle-chart/</loc>
     <lastmod>2020-08-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/choropleth-map/</loc>
+    <loc>http://localhost:1313/choropleth-map/</loc>
     <lastmod>2020-08-06T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/beeswarm-example/</loc>
+    <loc>http://localhost:1313/beeswarm-example/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/dot-map/</loc>
+    <loc>http://localhost:1313/dot-map/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/dot-density-map/</loc>
+    <loc>http://localhost:1313/dot-density-map/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/graduated-symbol-map/</loc>
+    <loc>http://localhost:1313/graduated-symbol-map/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/statistical-symbol-map/</loc>
+    <loc>http://localhost:1313/statistical-symbol-map/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/proportional-symbol-map/</loc>
+    <loc>http://localhost:1313/proportional-symbol-map/</loc>
     <lastmod>2020-08-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/word-clouds-bubbles/</loc>
+    <loc>http://localhost:1313/word-clouds-bubbles/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/euler-venn-diagram/</loc>
+    <loc>http://localhost:1313/euler-venn-diagram/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/slopegraph/</loc>
+    <loc>http://localhost:1313/slopegraph/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/bump-chart-example/</loc>
+    <loc>http://localhost:1313/bump-chart-example/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/mosaic-plot-example/</loc>
+    <loc>http://localhost:1313/mosaic-plot-example/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/alluvial-diagrams/</loc>
+    <loc>http://localhost:1313/alluvial-diagrams/</loc>
     <lastmod>2020-08-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/sankey-diagram/</loc>
+    <loc>http://localhost:1313/sankey-diagram/</loc>
     <lastmod>2020-08-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/parallel-sets-example/</loc>
+    <loc>http://localhost:1313/parallel-sets-example/</loc>
     <lastmod>2020-08-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/fineo/</loc>
+    <loc>http://localhost:1313/fineo/</loc>
     <lastmod>2020-08-02T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/color-name-appearance/</loc>
+    <loc>http://localhost:1313/color-name-appearance/</loc>
     <lastmod>2020-07-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/interaction-of-color-weber-fechner-kaw/</loc>
+    <loc>http://localhost:1313/interaction-of-color-weber-fechner-kaw/</loc>
     <lastmod>2020-07-21T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/covid19/</loc>
+    <loc>http://localhost:1313/tags/covid19/</loc>
     <lastmod>2020-07-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/critique-of-the-critique/</loc>
+    <loc>http://localhost:1313/critique-of-the-critique/</loc>
     <lastmod>2020-07-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/corona-finviz-map/</loc>
+    <loc>http://localhost:1313/corona-finviz-map/</loc>
     <lastmod>2020-07-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/the-datasaurus-dozen/</loc>
+    <loc>http://localhost:1313/the-datasaurus-dozen/</loc>
     <lastmod>2020-07-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/parallel-coordinates/</loc>
+    <loc>http://localhost:1313/parallel-coordinates/</loc>
     <lastmod>2020-07-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/streamgraph/</loc>
+    <loc>http://localhost:1313/streamgraph/</loc>
     <lastmod>2020-07-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/small-multiples/</loc>
+    <loc>http://localhost:1313/small-multiples/</loc>
     <lastmod>2020-07-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-map/</loc>
+    <loc>http://localhost:1313/chart-map/</loc>
     <lastmod>2020-07-04T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-humanity/</loc>
+    <loc>http://localhost:1313/data-humanity/</loc>
     <lastmod>2020-06-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/sender-oriented-vis/</loc>
+    <loc>http://localhost:1313/sender-oriented-vis/</loc>
     <lastmod>2020-06-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/world-gov-infoviz-report/</loc>
+    <loc>http://localhost:1313/world-gov-infoviz-report/</loc>
     <lastmod>2020-06-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/classification/</loc>
+    <loc>http://localhost:1313/first-mars-on-tv-dataviz/</loc>
     <lastmod>2020-06-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/color/</loc>
+    <loc>http://localhost:1313/tags/%E8%89%B2/</loc>
     <lastmod>2020-06-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/tv/</loc>
+    <loc>http://localhost:1313/recent-interest-art-school-2020/</loc>
     <lastmod>2020-06-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/first-mars-on-tv-dataviz/</loc>
-    <lastmod>2020-06-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/recent-interest-art-school-2020/</loc>
-    <lastmod>2020-06-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:59740/wp-corona-simulation/</loc>
+    <loc>http://localhost:1313/wp-corona-simulation/</loc>
     <lastmod>2020-06-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/simon-rogers-workflow/</loc>
+    <loc>http://localhost:1313/simon-rogers-workflow/</loc>
     <lastmod>2020-05-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/katy-boerner-workflow/</loc>
+    <loc>http://localhost:1313/katy-boerner-workflow/</loc>
     <lastmod>2020-05-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</loc>
     <lastmod>2020-05-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/ted/</loc>
+    <loc>http://localhost:1313/tags/ted/</loc>
     <lastmod>2020-05-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/ted-birth-of-word/</loc>
+    <loc>http://localhost:1313/ted-birth-of-word/</loc>
     <lastmod>2020-05-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/buzzfeed-spyfly/</loc>
+    <loc>http://localhost:1313/buzzfeed-spyfly/</loc>
     <lastmod>2020-05-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/311/</loc>
+    <loc>http://localhost:1313/tags/311/</loc>
     <lastmod>2020-05-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/twitter-global-pulse/</loc>
+    <loc>http://localhost:1313/twitter-global-pulse/</loc>
     <lastmod>2020-05-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/airbnb-superset/</loc>
+    <loc>http://localhost:1313/airbnb-superset/</loc>
     <lastmod>2020-05-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/friendship-facebook/</loc>
+    <loc>http://localhost:1313/friendship-facebook/</loc>
     <lastmod>2020-05-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/panama-papers-wrangling/</loc>
+    <loc>http://localhost:1313/panama-papers-wrangling/</loc>
     <lastmod>2020-05-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/uber-h3/</loc>
+    <loc>http://localhost:1313/uber-h3/</loc>
     <lastmod>2020-05-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/covid19tokyo/</loc>
+    <loc>http://localhost:1313/covid19tokyo/</loc>
     <lastmod>2020-04-21T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tamar-targets/</loc>
+    <loc>http://localhost:1313/tamar-targets/</loc>
     <lastmod>2020-03-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/nyt-corona-200320/</loc>
+    <loc>http://localhost:1313/nyt-corona-200320/</loc>
     <lastmod>2020-03-21T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tamar-action/</loc>
+    <loc>http://localhost:1313/tamar-action/</loc>
     <lastmod>2020-03-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/desktop2mobile/</loc>
+    <loc>http://localhost:1313/desktop2mobile/</loc>
     <lastmod>2020-03-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/task-abstraction-tamar/</loc>
+    <loc>http://localhost:1313/task-abstraction-tamar/</loc>
     <lastmod>2020-03-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/geojson/</loc>
+    <loc>http://localhost:1313/tags/geojson/</loc>
     <lastmod>2020-03-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/geojson/</loc>
+    <loc>http://localhost:1313/geojson/</loc>
     <lastmod>2020-03-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/tufte/</loc>
+    <loc>http://localhost:1313/tags/tufte/</loc>
     <lastmod>2020-03-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-ink-ratio/</loc>
+    <loc>http://localhost:1313/data-ink-ratio/</loc>
     <lastmod>2020-03-09T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-scale/</loc>
+    <loc>http://localhost:1313/data-scale/</loc>
     <lastmod>2020-03-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/stevens-power-law/</loc>
+    <loc>http://localhost:1313/stevens-power-law/</loc>
     <lastmod>2020-03-07T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/qgis/</loc>
+    <loc>http://localhost:1313/tags/qgis/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/qgis-classification/</loc>
+    <loc>http://localhost:1313/qgis-classification/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/classification-jenks/</loc>
+    <loc>http://localhost:1313/classification-jenks/</loc>
     <lastmod>2020-02-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/qgis-processing/</loc>
+    <loc>http://localhost:1313/qgis-processing/</loc>
     <lastmod>2020-02-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/epsg-code/</loc>
+    <loc>http://localhost:1313/epsg-code/</loc>
     <lastmod>2020-02-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/gis/</loc>
+    <loc>http://localhost:1313/tags/gis/</loc>
     <lastmod>2020-02-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/thesevencs/</loc>
+    <loc>http://localhost:1313/thesevencs/</loc>
     <lastmod>2020-01-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</loc>
+    <loc>http://localhost:1313/tags/%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3/</loc>
     <lastmod>2020-01-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tamar-4levels/</loc>
+    <loc>http://localhost:1313/tamar-4levels/</loc>
     <lastmod>2020-01-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</loc>
+    <loc>http://localhost:1313/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</loc>
     <lastmod>2020-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E7%A7%91%E5%AD%A6/</loc>
+    <loc>http://localhost:1313/tags/%E7%A7%91%E5%AD%A6/</loc>
     <lastmod>2020-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/scientific-and-information/</loc>
+    <loc>http://localhost:1313/scientific-and-information/</loc>
     <lastmod>2020-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E6%83%85%E5%A0%B1/</loc>
+    <loc>http://localhost:1313/tags/%E6%83%85%E5%A0%B1/</loc>
     <lastmod>2020-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E5%88%86%E9%A1%9E/</loc>
+    <loc>http://localhost:1313/tags/%E5%88%86%E9%A1%9E/</loc>
     <lastmod>2020-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/open-refine-grel-date/</loc>
+    <loc>http://localhost:1313/open-refine-grel-date/</loc>
     <lastmod>2019-11-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/storytelling-edwardsiegel/</loc>
+    <loc>http://localhost:1313/storytelling-edwardsiegel/</loc>
     <lastmod>2019-10-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9/</loc>
     <lastmod>2019-10-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9/</loc>
     <lastmod>2019-10-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/hurricane-maria/</loc>
+    <loc>http://localhost:1313/hurricane-maria/</loc>
     <lastmod>2019-10-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/</loc>
+    <loc>http://localhost:1313/tags/%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86/</loc>
     <lastmod>2019-10-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/datashare/</loc>
+    <loc>http://localhost:1313/datashare/</loc>
     <lastmod>2019-10-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/overthinking-this/</loc>
+    <loc>http://localhost:1313/overthinking-this/</loc>
     <lastmod>2019-10-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/tools/</loc>
+    <loc>http://localhost:1313/tags/tools/</loc>
     <lastmod>2019-08-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/categories/event/</loc>
+    <loc>http://localhost:1313/categories/event/</loc>
     <lastmod>2019-08-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/transcriber/</loc>
+    <loc>http://localhost:1313/transcriber/</loc>
     <lastmod>2019-08-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/hbr-vision-statement/</loc>
+    <loc>http://localhost:1313/hbr-vision-statement/</loc>
     <lastmod>2019-08-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/judgit-overview/</loc>
+    <loc>http://localhost:1313/judgit-overview/</loc>
     <lastmod>2019-08-25T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/viz-for-whom/</loc>
+    <loc>http://localhost:1313/viz-for-whom/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/vcs-liveserver/</loc>
+    <loc>http://localhost:1313/vcs-liveserver/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/pdf/</loc>
+    <loc>http://localhost:1313/tags/pdf/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tabula-windows-install/</loc>
+    <loc>http://localhost:1313/tabula-windows-install/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/visualcodeeditor/</loc>
+    <loc>http://localhost:1313/tags/visualcodeeditor/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%A2%E3%83%97%E3%83%AA/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%A2%E3%83%97%E3%83%AA/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/nikkeibd-201404/</loc>
+    <loc>http://localhost:1313/nikkeibd-201404/</loc>
     <lastmod>2019-08-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2019-05-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/color-space/</loc>
+    <loc>http://localhost:1313/color-space/</loc>
     <lastmod>2018-06-23T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/meaning/</loc>
+    <loc>http://localhost:1313/meaning/</loc>
     <lastmod>2018-05-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/</loc>
+    <loc>http://localhost:1313/tags/yahoo%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%80%8B%E4%BA%BA/</loc>
     <lastmod>2017-08-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/what-is-dataviz/</loc>
+    <loc>http://localhost:1313/what-is-dataviz/</loc>
     <lastmod>2017-08-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/most-beauty-route/</loc>
+    <loc>http://localhost:1313/most-beauty-route/</loc>
     <lastmod>2016-07-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E7%A0%94%E7%A9%B6/</loc>
+    <loc>http://localhost:1313/tags/%E7%A0%94%E7%A9%B6/</loc>
     <lastmod>2016-07-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/ndl/</loc>
+    <loc>http://localhost:1313/tags/ndl/</loc>
     <lastmod>2016-07-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%8F%E3%83%83%E3%82%AB%E3%82%BD%E3%83%B3/</loc>
     <lastmod>2016-07-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/ndl-dataviz/</loc>
+    <loc>http://localhost:1313/ndl-dataviz/</loc>
     <lastmod>2016-07-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/responsive-d3/</loc>
+    <loc>http://localhost:1313/responsive-d3/</loc>
     <lastmod>2016-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96/</loc>
     <lastmod>2016-01-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3js-reusable/</loc>
+    <loc>http://localhost:1313/d3js-reusable/</loc>
     <lastmod>2014-12-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/</loc>
+    <loc>http://localhost:1313/tags/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/</loc>
     <lastmod>2014-12-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/natural-earth-border-issue/</loc>
+    <loc>http://localhost:1313/natural-earth-border-issue/</loc>
     <lastmod>2014-11-03T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/openvisconf-2014-johnresig/</loc>
+    <loc>http://localhost:1313/openvisconf-2014-johnresig/</loc>
     <lastmod>2014-07-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/john-resig/</loc>
+    <loc>http://localhost:1313/tags/john-resig/</loc>
     <lastmod>2014-07-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/openvisconf/</loc>
+    <loc>http://localhost:1313/tags/openvisconf/</loc>
     <lastmod>2014-07-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/shapefile-to-topojson/</loc>
+    <loc>http://localhost:1313/shapefile-to-topojson/</loc>
     <lastmod>2014-05-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3-unconf-2014-2/</loc>
+    <loc>http://localhost:1313/d3-unconf-2014-2/</loc>
     <lastmod>2014-04-20T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3-unconf-2014-1/</loc>
+    <loc>http://localhost:1313/d3-unconf-2014-1/</loc>
     <lastmod>2014-04-11T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/processing/</loc>
+    <loc>http://localhost:1313/tags/processing/</loc>
     <lastmod>2014-03-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/normalize-visualize/</loc>
+    <loc>http://localhost:1313/normalize-visualize/</loc>
     <lastmod>2014-03-24T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/fitc/</loc>
+    <loc>http://localhost:1313/tags/fitc/</loc>
     <lastmod>2014-01-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/how-to-give-everything-away/</loc>
+    <loc>http://localhost:1313/how-to-give-everything-away/</loc>
     <lastmod>2014-01-14T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/data-go-jp/</loc>
+    <loc>http://localhost:1313/data-go-jp/</loc>
     <lastmod>2013-12-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF/</loc>
+    <loc>http://localhost:1313/tags/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF/</loc>
     <lastmod>2013-12-30T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/linked-data/</loc>
+    <loc>http://localhost:1313/linked-data/</loc>
     <lastmod>2013-11-08T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/lod/</loc>
+    <loc>http://localhost:1313/tags/lod/</loc>
     <lastmod>2013-11-08T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/twitter/</loc>
+    <loc>http://localhost:1313/tags/twitter/</loc>
     <lastmod>2013-11-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/openvisconf2013-miguel/</loc>
+    <loc>http://localhost:1313/openvisconf2013-miguel/</loc>
     <lastmod>2013-11-05T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/country-codes/</loc>
+    <loc>http://localhost:1313/country-codes/</loc>
     <lastmod>2013-10-27T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/chart-suggestions/</loc>
+    <loc>http://localhost:1313/chart-suggestions/</loc>
     <lastmod>2013-10-26T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/tags/api/</loc>
+    <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2013-09-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3-requests/</loc>
+    <loc>http://localhost:1313/d3-requests/</loc>
     <lastmod>2013-09-22T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/d3-topojson/</loc>
+    <loc>http://localhost:1313/d3-topojson/</loc>
     <lastmod>2013-09-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2013-06-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/link/</loc>
+    <loc>http://localhost:1313/link/</loc>
     <lastmod>2013-06-19T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:59740/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

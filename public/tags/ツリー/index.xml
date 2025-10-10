@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ツリー on Visualizing.JP</title>
-        <link>http://localhost:59740/tags/%E3%83%84%E3%83%AA%E3%83%BC/</link>
+        <link>http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/</link>
         <description>Recent content in ツリー on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%84%E3%83%AA%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>サンバースト・チャートとは何か - 起源と特徴</title>
-        <link>http://localhost:59740/sunburst/</link>
+        <link>http://localhost:1313/sunburst/</link>
         <pubDate>Thu, 02 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/sunburst/</guid>
-        <description>&lt;img src="http://localhost:59740/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
+        <guid>http://localhost:1313/sunburst/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst/images/cover-Sunburst.jpg" alt="Featured image of post サンバースト・チャートとは何か - 起源と特徴" /&gt;&lt;p&gt;サンバースト・チャート（Sunburst Chart）は、階層構造（hierarchical data） を可視化するための手法で、同心円状のリングを用いて内側から外側にかけてデータの階層を展開します。&lt;/p&gt;
 &lt;p&gt;最も内側の円が「ルート（root）」を表し、外側へ進むほど下位階層（子・孫）が配置されます。各階層のセグメント（円弧）は、親カテゴリに対する割合を角度の大きさで示します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst/images/cover-Sunburst.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst/images/cover-Sunburst.jpg&#34;
 	width=&#34;890&#34;
 	height=&#34;445&#34;
-	srcset=&#34;http://localhost:59740/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:59740/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst/images/cover-Sunburst_hu_aa0bea18f56016ec.jpg 480w, http://localhost:1313/sunburst/images/cover-Sunburst_hu_b06a96814d77cf58.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -106,16 +106,16 @@
         </item>
         <item>
         <title>「A big deal」RCEPをめぐる経済規模の可視化</title>
-        <link>http://localhost:59740/treemap-rcep/</link>
+        <link>http://localhost:1313/treemap-rcep/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/treemap-rcep/</guid>
-        <description>&lt;img src="http://localhost:59740/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
+        <guid>http://localhost:1313/treemap-rcep/</guid>
+        <description>&lt;img src="http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP-cover.png" alt="Featured image of post 「A big deal」RCEPをめぐる経済規模の可視化" /&gt;&lt;p&gt;2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。人口で世界の約3分の1、GDPで約3分の1、貿易総額で約3割をカバーするという圧倒的なスケール感を誇ります。&lt;/p&gt;
 &lt;p&gt;この協定には、中国、日本、韓国、ASEAN10か国、さらにオーストラリアとニュージーランドが参加。インドは当初交渉に加わっていましたが、中国からの輸入品や豪州農産物との競合を懸念して最終的に離脱しました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap-rcep/images/scmp-2020-RCEP.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;2036&#34;
-	srcset=&#34;http://localhost:59740/treemap-rcep/images/scmp-2020-RCEP_hu_1e3668e8aae442f.png 480w, http://localhost:59740/treemap-rcep/images/scmp-2020-RCEP_hu_2cb38e88e83f425a.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_1e3668e8aae442f.png 480w, http://localhost:1313/treemap-rcep/images/scmp-2020-RCEP_hu_2cb38e88e83f425a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -169,16 +169,16 @@
         </item>
         <item>
         <title>Newsmap - ニュースを俯瞰する可視化の実験</title>
-        <link>http://localhost:59740/newsmap/</link>
+        <link>http://localhost:1313/newsmap/</link>
         <pubDate>Sat, 27 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/newsmap/</guid>
-        <description>&lt;img src="http://localhost:59740/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
+        <guid>http://localhost:1313/newsmap/</guid>
+        <description>&lt;img src="http://localhost:1313/newsmap/images/newsmap.png" alt="Featured image of post Newsmap - ニュースを俯瞰する可視化の実験" /&gt;&lt;p&gt;2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。データの出典は Google News。その記事群をもとに、ツリーマップという可視化手法を用いてニュース全体を俯瞰できるように設計されています。&lt;/p&gt;
 &lt;p&gt;MoMA（ニューヨーク近代美術館）の展覧会 Talk to Me にも展示され、また Ars Electronica 2004 で「Net Vision Distinction」を受賞するなど、デザインとテクノロジーの両面で国際的に高く評価されました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/newsmap/images/newsmap.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap.png&#34;
 	width=&#34;1440&#34;
 	height=&#34;722&#34;
-	srcset=&#34;http://localhost:59740/newsmap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:59740/newsmap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/newsmap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -199,10 +199,10 @@
 &lt;/h3&gt;&lt;p&gt;関連するニュースはクラスタ単位でまとめられ、矩形分割アルゴリズム（ツリーマップ）が読みやすさを保ちながら全体を配置しています。&lt;/p&gt;
 &lt;p&gt;Weskamp 氏は Newsmap を「Google News の置き換えではなく、補完ツール」と位置づけています。意図的に偏りを浮き彫りにすることで、ニュースの背後にある構造やバイアスを直感的に捉えられるようにしているのです。&lt;/p&gt;
 &lt;h2 id=&#34;画面デザイン&#34;&gt;画面デザイン
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/newsmap/images/TTM_201-large.jpg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/TTM_201-large.jpg&#34;
 	width=&#34;1200&#34;
 	height=&#34;692&#34;
-	srcset=&#34;http://localhost:59740/newsmap/images/TTM_201-large_hu_de414f0eea3c0c95.jpg 480w, http://localhost:59740/newsmap/images/TTM_201-large_hu_676568c11f161b20.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/TTM_201-large_hu_de414f0eea3c0c95.jpg 480w, http://localhost:1313/newsmap/images/TTM_201-large_hu_676568c11f161b20.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -211,10 +211,10 @@
 		data-flex-basis=&#34;416px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/newsmap/images/NewsMap-Image-All.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All.jpg&#34;
 	width=&#34;1362&#34;
 	height=&#34;650&#34;
-	srcset=&#34;http://localhost:59740/newsmap/images/NewsMap-Image-All_hu_9a341e5ba0f412a5.jpg 480w, http://localhost:59740/newsmap/images/NewsMap-Image-All_hu_cd0e7b15d89b589f.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_9a341e5ba0f412a5.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-All_hu_cd0e7b15d89b589f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -223,10 +223,10 @@
 		data-flex-basis=&#34;502px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/newsmap/images/NewsMap-Image-Top-Story.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story.jpg&#34;
 	width=&#34;763&#34;
 	height=&#34;428&#34;
-	srcset=&#34;http://localhost:59740/newsmap/images/NewsMap-Image-Top-Story_hu_1a2ff2a7b4633947.jpg 480w, http://localhost:59740/newsmap/images/NewsMap-Image-Top-Story_hu_c1a8713986b8843a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_1a2ff2a7b4633947.jpg 480w, http://localhost:1313/newsmap/images/NewsMap-Image-Top-Story_hu_c1a8713986b8843a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -235,10 +235,10 @@
 		data-flex-basis=&#34;427px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/newsmap/images/newsmap_alt.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/newsmap/images/newsmap_alt.png&#34;
 	width=&#34;660&#34;
 	height=&#34;403&#34;
-	srcset=&#34;http://localhost:59740/newsmap/images/newsmap_alt_hu_def42393f6f51df8.png 480w, http://localhost:59740/newsmap/images/newsmap_alt_hu_b48c03536cfdf82b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/newsmap/images/newsmap_alt_hu_def42393f6f51df8.png 480w, http://localhost:1313/newsmap/images/newsmap_alt_hu_b48c03536cfdf82b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -315,18 +315,18 @@
         </item>
         <item>
         <title>ツリーマップ（Treemap）</title>
-        <link>http://localhost:59740/treemap/</link>
+        <link>http://localhost:1313/treemap/</link>
         <pubDate>Sat, 22 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/treemap/</guid>
-        <description>&lt;img src="http://localhost:59740/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
+        <guid>http://localhost:1313/treemap/</guid>
+        <description>&lt;img src="http://localhost:1313/treemap/images/Stock-Market-Treemap.png" alt="Featured image of post ツリーマップ（Treemap）" /&gt;&lt;p&gt;階層データを可視化するチャートです。
 ノードとリンクではなく、空間充填技術を用いて、親と子の関係を表現します。モザイクグラフよりも、より深い階層構造を表現することが可能です。任意の階層数にも対応可能な再帰的な構造が特徴です。各矩形の面積と色は、データセットの属性を表現しています。&lt;/p&gt;
 &lt;h2 id=&#34;主な作例&#34;&gt;主な作例
 &lt;/h2&gt;&lt;h3 id=&#34;finviz&#34;&gt;FinViz
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/finviz_green.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/finviz_green.png&#34;
 	width=&#34;3202&#34;
 	height=&#34;2356&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/finviz_green_hu_4977be8a9c11b5a5.png 480w, http://localhost:59740/treemap/images/finviz_green_hu_bdc1e6e0effc0f58.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/finviz_green_hu_4977be8a9c11b5a5.png 480w, http://localhost:1313/treemap/images/finviz_green_hu_bdc1e6e0effc0f58.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -338,10 +338,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;S&amp;amp;P 500 Map&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2008年ごろのデザイン&#34;&gt;2008年ごろのデザイン
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/WS000059.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/WS000059.png&#34;
 	width=&#34;500&#34;
 	height=&#34;331&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:59740/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:1313/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -350,10 +350,10 @@
 		data-flex-basis=&#34;362px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:59740/treemap/images/WS000059.png&#34;
+&lt;img src=&#34;http://localhost:1313/treemap/images/WS000059.png&#34;
 	width=&#34;500&#34;
 	height=&#34;331&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:59740/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/WS000059_hu_f9db27d47be3a48e.png 480w, http://localhost:1313/treemap/images/WS000059_hu_4582120fba92e1d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -369,10 +369,10 @@
     &gt;株式市場へのTreemap適用例：FINVIZ.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;map-of-the-market&#34;&gt;Map of the Market
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/marketmap-490b.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/marketmap-490b.png&#34;
 	width=&#34;490&#34;
 	height=&#34;325&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/marketmap-490b_hu_c52b56ae14545e54.png 480w, http://localhost:59740/treemap/images/marketmap-490b_hu_cdb0706049145926.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/marketmap-490b_hu_c52b56ae14545e54.png 480w, http://localhost:1313/treemap/images/marketmap-490b_hu_cdb0706049145926.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -387,10 +387,10 @@
 &lt;/ul&gt;
 &lt;p&gt;1998年から10年以上にわたって株式市場のライブデータを表示してきました。長方形の面積はその企業の時価総額に対応し、色で前回の終値から株価がどのように変化したかを知ることができます。「より読みやすく、対話しやすい表示」ため、正方形に近いタイルを作成する独自のアルゴリズムを開発したとのことです。&lt;/p&gt;
 &lt;h3 id=&#34;newsmap&#34;&gt;Newsmap
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/newsmap.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap.png&#34;
 	width=&#34;1440&#34;
 	height=&#34;722&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:59740/treemap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_hu_f30a620f33032014.png 480w, http://localhost:1313/treemap/images/newsmap_hu_8a0069050f95c5fb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -401,13 +401,13 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:59740/newsmap/&#34;&gt;Newsmap - ニュースを俯瞰する可視化の実験&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/newsmap/&#34;&gt;Newsmap - ニュースを俯瞰する可視化の実験&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;newsmapjs&#34;&gt;Newsmap.JS
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/newsmap_js.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/newsmap_js.png&#34;
 	width=&#34;3260&#34;
 	height=&#34;1894&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/newsmap_js_hu_a40ee6b241b0a47b.png 480w, http://localhost:59740/treemap/images/newsmap_js_hu_2ead1a64e7c1283e.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/newsmap_js_hu_a40ee6b241b0a47b.png 480w, http://localhost:1313/treemap/images/newsmap_js_hu_2ead1a64e7c1283e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -422,10 +422,10 @@
     &gt;Newsmap.JS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;every-algorithm-has-art-in-it-treemap-art-project&#34;&gt;Every AlgoRiThm has ART in it: Treemap Art Project
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/Treemap-Art-Project.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/Treemap-Art-Project.png&#34;
 	width=&#34;1500&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/Treemap-Art-Project_hu_1694935660ca664b.png 480w, http://localhost:59740/treemap/images/Treemap-Art-Project_hu_2b4b2f58abd5caa1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/Treemap-Art-Project_hu_1694935660ca664b.png 480w, http://localhost:1313/treemap/images/Treemap-Art-Project_hu_2b4b2f58abd5caa1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -439,10 +439,10 @@
     &gt;Treemap Art Project&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;truck-sales-slip-tripping-up-chrysler&#34;&gt;Truck Sales Slip, Tripping Up Chrysler
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/0225-sbn-subCHRYSLER.gif&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER.gif&#34;
 	width=&#34;1171&#34;
 	height=&#34;991&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/0225-sbn-subCHRYSLER_hu_f677fd36ee47459c.gif 480w, http://localhost:59740/treemap/images/0225-sbn-subCHRYSLER_hu_e8b280b94513409b.gif 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER_hu_f677fd36ee47459c.gif 480w, http://localhost:1313/treemap/images/0225-sbn-subCHRYSLER_hu_e8b280b94513409b.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -456,10 +456,10 @@
     &gt;Truck Sales Slip, Tripping Up Chrysler&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;stock-market-overview-in-tableau&#34;&gt;Stock Market Overview in Tableau
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/Stock-Market-Treemap.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/Stock-Market-Treemap.png&#34;
 	width=&#34;1772&#34;
 	height=&#34;1023&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/Stock-Market-Treemap_hu_ca72d8887e4d35c8.png 480w, http://localhost:59740/treemap/images/Stock-Market-Treemap_hu_7549ed9c81df3528.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/Stock-Market-Treemap_hu_ca72d8887e4d35c8.png 480w, http://localhost:1313/treemap/images/Stock-Market-Treemap_hu_7549ed9c81df3528.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -473,10 +473,10 @@
     &gt;Stock Market Overview in Tableau&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;historywired-a-few-of-our-favorite-things&#34;&gt;HistoryWired: A Few of Our Favorite Things
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/treemap/images/wired_screenshot.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/treemap/images/wired_screenshot.png&#34;
 	width=&#34;653&#34;
 	height=&#34;532&#34;
-	srcset=&#34;http://localhost:59740/treemap/images/wired_screenshot_hu_6bc0112ed36235b5.png 480w, http://localhost:59740/treemap/images/wired_screenshot_hu_6413542150c99043.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/treemap/images/wired_screenshot_hu_6bc0112ed36235b5.png 480w, http://localhost:1313/treemap/images/wired_screenshot_hu_6413542150c99043.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -508,17 +508,17 @@
         </item>
         <item>
         <title>サンバースト（Sunburst）の事例</title>
-        <link>http://localhost:59740/sunburst-example/</link>
+        <link>http://localhost:1313/sunburst-example/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/sunburst-example/</guid>
-        <description>&lt;img src="http://localhost:59740/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
+        <guid>http://localhost:1313/sunburst-example/</guid>
+        <description>&lt;img src="http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png" alt="Featured image of post サンバースト（Sunburst）の事例" /&gt;&lt;p&gt;「サンバースト」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;わずか90社で人為的な地球温暖化の3分の2を排出&#34;&gt;わずか90社で人為的な地球温暖化の3分の2を排出
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/global-warming-companies.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies.png&#34;
 	width=&#34;600&#34;
 	height=&#34;521&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/global-warming-companies_hu_69545ec338540a16.png 480w, http://localhost:59740/sunburst-example/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/global-warming-companies_hu_69545ec338540a16.png 480w, http://localhost:1313/sunburst-example/images/global-warming-companies_hu_268bd46eb176eff1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -530,10 +530,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.theguardian.com/environment/2013/nov/20/90-companies-man-made-global-warming-emissions-climate-change&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Just 90 companies caused two-thirds of man-made global warming emissions | Environment | The Guardian&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;政府の形態&#34;&gt;政府の形態
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/f71q7foy55h41.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41.jpg&#34;
 	width=&#34;960&#34;
 	height=&#34;962&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, http://localhost:59740/sunburst-example/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_bb2bb3401cbb3dc2.jpg 480w, http://localhost:1313/sunburst-example/images/f71q7foy55h41_hu_b06a264b3c36e98b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -545,10 +545,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.reddit.com/r/dataisbeautiful/comments/f4eky8/oc_forms_of_government_sunburst_chart/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ibm-watsonによるpersonality-insights&#34;&gt;IBM WatsonによるPersonality Insights
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/personality-insights_OprahWinfrey.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey.png&#34;
 	width=&#34;1700&#34;
 	height=&#34;1853&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, http://localhost:59740/sunburst-example/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_8755229f510d9e4f.png 480w, http://localhost:1313/sunburst-example/images/personality-insights_OprahWinfrey_hu_9c441f38f940d74.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -561,10 +561,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://personality-insights-demo.ng.bluemix.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Personality Insights&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;メルボルン-モナッシュ大学での研究に使われたチャート&#34;&gt;メルボルン モナッシュ大学での研究に使われたチャート
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/MonashUniversity_SunBurst-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1.png&#34;
 	width=&#34;2247&#34;
 	height=&#34;1764&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, http://localhost:59740/sunburst-example/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_ef84aa8cbb77b19f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunBurst-1_hu_458e687529a76bc4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -574,10 +574,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;下図のサンバーストが半分になっているものを、彼らはサンダウン（Sun Down）と呼んでいる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/MonashUniversity_SunDown.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown.png&#34;
 	width=&#34;2248&#34;
 	height=&#34;1491&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, http://localhost:59740/sunburst-example/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_d62e3389c80a3e1f.png 480w, http://localhost:1313/sunburst-example/images/MonashUniversity_SunDown_hu_fa6c4a77a7dd5627.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -589,10 +589,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;コーヒーの味&#34;&gt;コーヒーの味
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/sb_coffeeflavour.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour.png&#34;
 	width=&#34;956&#34;
 	height=&#34;949&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, http://localhost:59740/sunburst-example/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_96efe0dc0776314a.png 480w, http://localhost:1313/sunburst-example/images/sb_coffeeflavour_hu_549b3c6a57cd9d7f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -605,10 +605,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.aculocity.com/labs/sunburst-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Software development | Sunburst chart | Data Integration | Aculocity&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した&#34;&gt;タンパク質をコードする遺伝子がクラスター化している割合を種ごとに示した
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640.jpg&#34;
 	width=&#34;640&#34;
 	height=&#34;715&#34;
-	srcset=&#34;http://localhost:59740/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, http://localhost:59740/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_cad79b0f0eb5fdd2.jpg 480w, http://localhost:1313/sunburst-example/images/Sunburst-chart-showing-the-percentage-of-clustered-protein-coding-genes-per-species-The_W640_hu_5d9bfac7defcf29.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -624,11 +624,11 @@
         </item>
         <item>
         <title>つららチャート（Icicle Chart）</title>
-        <link>http://localhost:59740/icicle-chart/</link>
+        <link>http://localhost:1313/icicle-chart/</link>
         <pubDate>Sun, 09 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/icicle-chart/</guid>
-        <description>&lt;img src="http://localhost:59740/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
+        <guid>http://localhost:1313/icicle-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png" alt="Featured image of post つららチャート（Icicle Chart）" /&gt;&lt;p&gt;1983年にKruskal and Landwherによって開発されました。彼らの論文「Icicle Plots：Better Displays for Hierarchical Clustering」で発表されました。つららに似ていることからこのような命名になったとのことです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.cs.middlebury.edu/~candrews/showcase/infovis_techniques_s16/icicle_plots/icicleplots.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Icicle Plots: Better Displays for Hierarchical Clustering&lt;/a&gt;&lt;/li&gt;
@@ -637,10 +637,10 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;dotmemory分析チャート&#34;&gt;dotMemory分析チャート
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/icicle-chart/images/analyse-deeper.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/analyse-deeper.png&#34;
 	width=&#34;896&#34;
 	height=&#34;422&#34;
-	srcset=&#34;http://localhost:59740/icicle-chart/images/analyse-deeper_hu_6e480683e82b3c6c.png 480w, http://localhost:59740/icicle-chart/images/analyse-deeper_hu_e194445b32e8f39.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/analyse-deeper_hu_6e480683e82b3c6c.png 480w, http://localhost:1313/icicle-chart/images/analyse-deeper_hu_e194445b32e8f39.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -652,10 +652,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/icicle-chart/a%20Memory%20Profiler%20&amp;amp;%20Unit-Testing%20Framework%20for%20.NET%20by%20JetBrains&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;dotMemory: a Memory Profiler &amp;amp; Unit-Testing Framework for .NET by JetBrains&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;メルボルン-モナッシュ大学での研究に使われたチャート&#34;&gt;メルボルン モナッシュ大学での研究に使われたチャート
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/icicle-chart/images/MonashUniversity_IcicleChart.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart.png&#34;
 	width=&#34;2704&#34;
 	height=&#34;1580&#34;
-	srcset=&#34;http://localhost:59740/icicle-chart/images/MonashUniversity_IcicleChart_hu_8810b39a99b08ad1.png 480w, http://localhost:59740/icicle-chart/images/MonashUniversity_IcicleChart_hu_1d1ff6d0bbf96698.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart_hu_8810b39a99b08ad1.png 480w, http://localhost:1313/icicle-chart/images/MonashUniversity_IcicleChart_hu_1d1ff6d0bbf96698.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -667,10 +667,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://deepai.org/publication/interactive-visualisation-of-hierarchical-quantitative-data-an-evaluation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;core-flow&#34;&gt;Core Flow
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/icicle-chart/images/coreflow.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/coreflow.png&#34;
 	width=&#34;1805&#34;
 	height=&#34;1394&#34;
-	srcset=&#34;http://localhost:59740/icicle-chart/images/coreflow_hu_21286e09cef90244.png 480w, http://localhost:59740/icicle-chart/images/coreflow_hu_457a37e5c01dcc3f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/coreflow_hu_21286e09cef90244.png 480w, http://localhost:1313/icicle-chart/images/coreflow_hu_457a37e5c01dcc3f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -682,10 +682,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.zcliu.org/coreflow/CoreFlow-EuroVis17.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CoreFlow: Extracting and Visualizing Branching Patterns from Event Sequences CoreFlow-EuroVis17.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;手描きのつららチャート&#34;&gt;手描きのつららチャート
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/icicle-chart/images/img007.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/icicle-chart/images/img007.jpg&#34;
 	width=&#34;805&#34;
 	height=&#34;600&#34;
-	srcset=&#34;http://localhost:59740/icicle-chart/images/img007_hu_d02d26de5fc56f45.jpg 480w, http://localhost:59740/icicle-chart/images/img007_hu_c29c76ac7843f55e.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/icicle-chart/images/img007_hu_d02d26de5fc56f45.jpg 480w, http://localhost:1313/icicle-chart/images/img007_hu_c29c76ac7843f55e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

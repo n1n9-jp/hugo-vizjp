@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>ワークフロー on Visualizing.JP</title>
-        <link>http://localhost:59740/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</link>
+        <link>http://localhost:1313/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/</link>
         <description>Recent content in ワークフロー on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 22 May 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 22 May 2020 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%95%E3%83%AD%E3%83%BC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」</title>
-        <link>http://localhost:59740/katy-boerner-workflow/</link>
+        <link>http://localhost:1313/katy-boerner-workflow/</link>
         <pubDate>Fri, 22 May 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/katy-boerner-workflow/</guid>
-        <description>&lt;img src="http://localhost:59740/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
+        <guid>http://localhost:1313/katy-boerner-workflow/</guid>
+        <description>&lt;img src="http://localhost:1313/katy-boerner-workflow/images/AofK_Workflow.png" alt="Featured image of post Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」" /&gt;&lt;p&gt;研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。以下の四大タスクを順に行っていく想定で、フィードバックを踏まえて、完成度が上がるまでグルグル繰り返すこともある想定です。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;取得（Acquire）…ユーザーのニーズ分析とデータの取得と準備&lt;/li&gt;
 &lt;li&gt;分析＆ビジュアライゼーション（Analyze &amp;amp; Visualize）…データを読み取り、計算アルゴリズムを適用してデータを視覚的な洞察に変換する&lt;/li&gt;

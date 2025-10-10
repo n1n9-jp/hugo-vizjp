@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>地図 on Visualizing.JP</title>
-        <link>http://localhost:59740/tags/%E5%9C%B0%E5%9B%B3/</link>
+        <link>http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/</link>
         <description>Recent content in 地図 on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%9C%B0%E5%9B%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</title>
-        <link>http://localhost:59740/provisional-inundation-depth-map/</link>
+        <link>http://localhost:1313/provisional-inundation-depth-map/</link>
         <pubDate>Wed, 24 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/provisional-inundation-depth-map/</guid>
-        <description>&lt;img src="http://localhost:59740/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
+        <guid>http://localhost:1313/provisional-inundation-depth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png" alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法" /&gt;&lt;p&gt;平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。&lt;/p&gt;
 &lt;p&gt;このとき国土地理院の職員が着目したのが SNSに投稿された被災現場の写真や映像 でした。市民が投稿した画像から水際の位置を特定し、航空レーザ測量による標高データ（5m DEM）と組み合わせることで、浸水範囲と水深を即座に推定。こうして試作されたのが 「浸水推定段彩図（速報版）」 です。&lt;/p&gt;
 &lt;p&gt;7月7日に作成され、翌8日には関係機関に提供、9日には非常災害対策本部で水害対応の判断資料として使われました。そして10日には国土地理院ウェブサイトで一般公開されます。
 これはトップダウンの指示ではなく、&lt;strong&gt;現場職員のアイデアから始まった「ボトムアップの挑戦」&lt;/strong&gt; でした。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map.png&#34;
 	width=&#34;780&#34;
 	height=&#34;540&#34;
-	srcset=&#34;http://localhost:59740/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_9e33b96cdee4c980.png 480w, http://localhost:59740/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_caa49b50920509c0.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_9e33b96cdee4c980.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/provisional-inundation-depth-map_hu_caa49b50920509c0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;平成30年7月豪雨による倉敷市真備町周辺浸水推定段彩図&#34;
@@ -35,10 +35,10 @@
 &lt;/h2&gt;&lt;p&gt;従来の浸水把握には、航空機による空撮や空中写真判読が使われてきました。これは浸水範囲を的確に捉える確実な方法ですが、発災直後には天候や飛行準備の制約から撮影まで時間がかかる場合があります。&lt;/p&gt;
 &lt;p&gt;この課題を補うために導入されたのが、SNS投稿＋標高データを活用する速報版でした。
 速報版は、現場の「いま」を迅速に把握するのに役立ち、その後に実施される空中写真や衛星画像、現地調査など他の手法とあわせて、被害の全体像を捉えるための重要な情報のひとつとなりました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C.png&#34;
 	width=&#34;1727&#34;
 	height=&#34;1639&#34;
-	srcset=&#34;http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_6a7e4e67735866ec.png 480w, http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_735352aac9cc290a.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_6a7e4e67735866ec.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E5%B2%A1%E5%B1%B1%E7%9C%8C_hu_735352aac9cc290a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;愛媛県肱川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
@@ -49,10 +49,10 @@
 		data-flex-basis=&#34;252px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C.png&#34;
 	width=&#34;1723&#34;
 	height=&#34;1479&#34;
-	srcset=&#34;http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_2473a1ed660c622.png 480w, http://localhost:59740/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_a64bbf4f6bc6705c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_2473a1ed660c622.png 480w, http://localhost:1313/provisional-inundation-depth-map/images/%E8%AA%BF%E6%9F%BB%E5%9C%B0%E5%9F%9F_%E6%84%9B%E5%AA%9B%E7%9C%8C_hu_a64bbf4f6bc6705c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;岡山県高梁川流域における速報版の調査範囲（赤破線）と空中写真判読版の調査範囲（黒線）&#34;
@@ -113,16 +113,16 @@
         </item>
         <item>
         <title>交通インフラの内訳を可視化した統計チャート地図</title>
-        <link>http://localhost:59740/chart-map-transportation-infrastructure/</link>
+        <link>http://localhost:1313/chart-map-transportation-infrastructure/</link>
         <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/chart-map-transportation-infrastructure/</guid>
-        <description>&lt;img src="http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
+        <guid>http://localhost:1313/chart-map-transportation-infrastructure/</guid>
+        <description>&lt;img src="http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_closeup.png" alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図" /&gt;&lt;p&gt;1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。
 地形を描くベース・マップの上に、各県ごとの「交通インフラの内訳」を扇形グラフにして地図上に配置した統計チャート地図です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/chart-map-transportation-infrastructure/images/12511007.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chart-map-transportation-infrastructure/images/12511007.png&#34;
 	width=&#34;2000&#34;
 	height=&#34;1616&#34;
-	srcset=&#34;http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_hu_dffac26f1e1c1e06.png 480w, http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_hu_c0b39e53db0513c2.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_hu_dffac26f1e1c1e06.png 480w, http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_hu_c0b39e53db0513c2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;「交通インフラの内訳」統計チャート地図&#34;
@@ -133,10 +133,10 @@
 		data-flex-basis=&#34;297px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_legend.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_legend.png&#34;
 	width=&#34;344&#34;
 	height=&#34;265&#34;
-	srcset=&#34;http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_legend_hu_e67c0b3a27a44a1e.png 480w, http://localhost:59740/chart-map-transportation-infrastructure/images/12511007_legend_hu_7833dd51f3b63210.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_legend_hu_e67c0b3a27a44a1e.png 480w, http://localhost:1313/chart-map-transportation-infrastructure/images/12511007_legend_hu_7833dd51f3b63210.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;この地図の凡例&#34;
@@ -190,16 +190,16 @@
         </item>
         <item>
         <title>鉄道の発展を「円の面積」で描いた鉄道発展図</title>
-        <link>http://localhost:59740/chart-map-railway/</link>
+        <link>http://localhost:1313/chart-map-railway/</link>
         <pubDate>Mon, 15 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/chart-map-railway/</guid>
-        <description>&lt;img src="http://localhost:59740/chart-map-railway/images/12511022_closeup.png" alt="Featured image of post 鉄道の発展を「円の面積」で描いた鉄道発展図" /&gt;&lt;p&gt;19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。&lt;/p&gt;
+        <guid>http://localhost:1313/chart-map-railway/</guid>
+        <description>&lt;img src="http://localhost:1313/chart-map-railway/images/12511022_closeup.png" alt="Featured image of post 鉄道の発展を「円の面積」で描いた鉄道発展図" /&gt;&lt;p&gt;19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。&lt;/p&gt;
 &lt;p&gt;一見すると地図の上に青い円が散りばめられただけのように見えますが、そこには当時のデータ可視化の工夫が詰まっています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/chart-map-railway/images/12511022_legend.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chart-map-railway/images/12511022_legend.png&#34;
 	width=&#34;472&#34;
 	height=&#34;532&#34;
-	srcset=&#34;http://localhost:59740/chart-map-railway/images/12511022_legend_hu_f37fe92506b2b5de.png 480w, http://localhost:59740/chart-map-railway/images/12511022_legend_hu_3c42f47a22c7c85b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chart-map-railway/images/12511022_legend_hu_f37fe92506b2b5de.png 480w, http://localhost:1313/chart-map-railway/images/12511022_legend_hu_3c42f47a22c7c85b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;この地図の凡例&#34;
@@ -222,10 +222,10 @@
 &lt;li&gt;黄色：人口に対する鉄道の比率&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;この扇形も、面積が比率に応じて変わるように描かれています。絶対量だけでなく「どれだけ便利に鉄道を使えるか」という相対的な指標まで一枚の図に盛り込んでいるのです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/chart-map-railway/images/12511022.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chart-map-railway/images/12511022.png&#34;
 	width=&#34;2200&#34;
 	height=&#34;1740&#34;
-	srcset=&#34;http://localhost:59740/chart-map-railway/images/12511022_hu_a951d6dee93ab63e.png 480w, http://localhost:59740/chart-map-railway/images/12511022_hu_4d229494f6de83bb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/chart-map-railway/images/12511022_hu_a951d6dee93ab63e.png 480w, http://localhost:1313/chart-map-railway/images/12511022_hu_4d229494f6de83bb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;鉄道発展図&#34;
@@ -263,15 +263,15 @@
         </item>
         <item>
         <title>時間の距離カルトグラム</title>
-        <link>http://localhost:59740/time-distance-map/</link>
+        <link>http://localhost:1313/time-distance-map/</link>
         <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/time-distance-map/</guid>
-        <description>&lt;img src="http://localhost:59740/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/time-distance-map/images/time-distance-full.png&#34;
+        <guid>http://localhost:1313/time-distance-map/</guid>
+        <description>&lt;img src="http://localhost:1313/time-distance-map/images/time-distance-closeup.png" alt="Featured image of post 時間の距離カルトグラム" /&gt;&lt;p&gt;1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。この地図は、私たちが今日当たり前に感じている「速さ」が、どのようにして獲得されたのかを示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/time-distance-map/images/time-distance-full.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;1998&#34;
-	srcset=&#34;http://localhost:59740/time-distance-map/images/time-distance-full_hu_24851e57bf69ea5e.png 480w, http://localhost:59740/time-distance-map/images/time-distance-full_hu_94836d70378af7b2.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/time-distance-map/images/time-distance-full_hu_24851e57bf69ea5e.png 480w, http://localhost:1313/time-distance-map/images/time-distance-full_hu_94836d70378af7b2.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;過去200年間にわたる旅の加速を表す地図&#34;
@@ -319,15 +319,15 @@
         </item>
         <item>
         <title>旅費の距離カルトグラム</title>
-        <link>http://localhost:59740/time-distance-map-price/</link>
+        <link>http://localhost:1313/time-distance-map-price/</link>
         <pubDate>Sun, 14 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/time-distance-map-price/</guid>
-        <description>&lt;img src="http://localhost:59740/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/time-distance-map-price/images/time-distance-price-full.png&#34;
+        <guid>http://localhost:1313/time-distance-map-price/</guid>
+        <description>&lt;img src="http://localhost:1313/time-distance-map-price/images/time-distance-price-closeup.png" alt="Featured image of post 旅費の距離カルトグラム" /&gt;&lt;p&gt;19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。フランス公共事業省が1888年に発表した統計地図シリーズには、旅が「どれだけ早くなったか」を示す時間カルトグラムと並んで&lt;b&gt;「どれだけ安くなったか」&lt;/b&gt;を示す興味深い地図が掲載されています。それが、この「Baisse de Prix des Voyages en France depuis 1798（1798年以降の旅費の低下）」です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/time-distance-map-price/images/time-distance-price-full.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;2007&#34;
-	srcset=&#34;http://localhost:59740/time-distance-map-price/images/time-distance-price-full_hu_31b32cb0b4167681.png 480w, http://localhost:59740/time-distance-map-price/images/time-distance-price-full_hu_7ab1985c0d4c302.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/time-distance-map-price/images/time-distance-price-full_hu_31b32cb0b4167681.png 480w, http://localhost:1313/time-distance-map-price/images/time-distance-price-full_hu_7ab1985c0d4c302.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;1798年以降の旅費の低下を表す地図&#34;
@@ -373,11 +373,11 @@
         </item>
         <item>
         <title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
-        <link>http://localhost:59740/cartogram/</link>
+        <link>http://localhost:1313/cartogram/</link>
         <pubDate>Wed, 10 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/cartogram/</guid>
-        <description>&lt;img src="http://localhost:59740/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
+        <guid>http://localhost:1313/cartogram/</guid>
+        <description>&lt;img src="http://localhost:1313/cartogram/images/cartogram.png" alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" /&gt;&lt;p&gt;データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;カルトグラム手法の比較一覧&#34;&gt;カルトグラム手法の比較一覧
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -417,10 +417,10 @@
 &lt;/table&gt;
 &lt;h3 id=&#34;連続的カルトグラム-continuous-cartogram&#34;&gt;連続的カルトグラム (Continuous Cartogram)
 &lt;/h3&gt;&lt;h4 id=&#34;一票の格差でいびつな日本&#34;&gt;一票の格差でいびつな日本
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/continuous_cartogram_yazaki.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_yazaki.png&#34;
 	width=&#34;3154&#34;
 	height=&#34;1272&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/continuous_cartogram_yazaki_hu_32d7fb01f087b20c.png 480w, http://localhost:59740/cartogram/images/continuous_cartogram_yazaki_hu_15da10d75010011b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_yazaki_hu_32d7fb01f087b20c.png 480w, http://localhost:1313/cartogram/images/continuous_cartogram_yazaki_hu_15da10d75010011b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;一票の格差でいびつな日本&#34;
@@ -432,10 +432,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;2021年衆院選の比例代表得票率-主な政党の得票率&#34;&gt;2021年衆院選の比例代表得票率 主な政党の得票率
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/continuous_cartogram_chunichi.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_chunichi.png&#34;
 	width=&#34;3326&#34;
 	height=&#34;1894&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, http://localhost:59740/cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, http://localhost:1313/cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;2021年衆院選の比例代表得票率 主な政党の得票率&#34;
@@ -449,10 +449,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://static.chunichi.co.jp/chunichi/pages/feature/election/proportional_map.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2021年衆院選の比例代表得票率 主な政党の得票率&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する&#34;&gt;カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/SupercentersHamburgersAndCoffee.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee.png&#34;
 	width=&#34;1076&#34;
 	height=&#34;335&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, http://localhost:59740/cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, http://localhost:1313/cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Supercenters, Hamburgers, and Coffee&#34;
@@ -466,10 +466,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20200510210032/http://www.stephabegg.com/home/projects/cartograms&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Supercenters, Hamburgers, and Coffee: Using density-equalizing cartograms to display the distribution of Walmarts, McDonalds, and Starbucks in the US&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;地球規模の生活環境がどのように変化しているかを考えるために必要な地図&#34;&gt;地球規模の生活環境がどのように変化しているかを考えるために必要な地図
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/Population-cartogram_Asia-and-Oceania.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania.png&#34;
 	width=&#34;4878&#34;
 	height=&#34;3375&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, http://localhost:59740/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, http://localhost:1313/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Population of Asia and Oceania in 2018&#34;
@@ -486,10 +486,10 @@
 たとえば人口を基準にすると、人口の多い地域は大きく、少ない地域は小さく変形されます。結果として全体の地図がぐにゃりと歪み、見慣れた地図とのギャップから「どこが大きく、どこが小さいのか」が直感的に理解できます。&lt;/p&gt;
 &lt;h3 id=&#34;非連続的カルトグラム-non-continuous-cartogram&#34;&gt;非連続的カルトグラム (Non-Continuous Cartogram)
 &lt;/h3&gt;&lt;h4 id=&#34;選挙人地図11612選挙日&#34;&gt;選挙人地図（11/6/12）：選挙日
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/TheElectoralCollegeMap.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/TheElectoralCollegeMap.png&#34;
 	width=&#34;640&#34;
 	height=&#34;494&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, http://localhost:59740/cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, http://localhost:1313/cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;The Electoral College Map (11/6/12): Election Day&#34;
@@ -506,10 +506,10 @@
 たとえばアメリカの州ごとの投票結果を示す場合、州の位置や境界は保ちながらも州同士の距離感は無視されるため、全体としてはモザイク状の地図になります。隣接関係の形状の変化に影響を受けずに、それぞれの地域のデータ量が強調されるのが特徴です。&lt;/p&gt;
 &lt;h3 id=&#34;擬似連続カルトグラム-pseudo-continuous-cartogram&#34;&gt;擬似連続カルトグラム (Pseudo-Continuous Cartogram)
 &lt;/h3&gt;&lt;h4 id=&#34;ニューヨークタイムズオリンピックメダル地図2012年&#34;&gt;ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_01a.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a.png&#34;
 	width=&#34;966&#34;
 	height=&#34;492&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;New York Times — “A Map of Olympic Medals”, 2012.&#34;
@@ -523,10 +523,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2008/08/04/sports/olympics/20080804_MEDALCOUNT_MAP.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A Map of Olympic Medals&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;オバマ大統領による変更前に保険契約を更新できる州&#34;&gt;オバマ大統領による変更前に、保険契約を更新できる州
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_02.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02.png&#34;
 	width=&#34;868&#34;
 	height=&#34;558&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, http://localhost:59740/cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, http://localhost:1313/cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;States Where Insured Could Renew Plans Before Change by Obama&#34;
@@ -543,10 +543,10 @@
 代表例は「ドーリング・カルトグラム（Dorling cartogram）」と呼ばれる手法で、国や地域を円の大きさで表し、位置関係をできるだけ近づけて配置します。地形の正確さを犠牲にする代わりに、データの比較がしやすくなるのが利点です。&lt;/p&gt;
 &lt;h3 id=&#34;グリッドカルトグラム-gridded-cartogram&#34;&gt;グリッド・カルトグラム (Gridded Cartogram)
 &lt;/h3&gt;&lt;h4 id=&#34;すべては538人の選挙人票次第だ&#34;&gt;すべては538人の選挙人票次第だ
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/cartogram/images/GriddedCartogram_01.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/cartogram/images/GriddedCartogram_01.png&#34;
 	width=&#34;1804&#34;
 	height=&#34;1447&#34;
-	srcset=&#34;http://localhost:59740/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, http://localhost:59740/cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, http://localhost:1313/cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;It’s all about the 538 Electoral College votes&#34;
@@ -565,11 +565,11 @@
         </item>
         <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
-        <link>http://localhost:59740/mapbox-gl-js-v2/</link>
+        <link>http://localhost:1313/mapbox-gl-js-v2/</link>
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/mapbox-gl-js-v2/</guid>
-        <description>&lt;img src="http://localhost:59740/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
+        <guid>http://localhost:1313/mapbox-gl-js-v2/</guid>
+        <description>&lt;img src="http://localhost:1313/mapbox-gl-js-v2/images/thumb_ph_vizjp.png" alt="Featured image of post mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ" /&gt;&lt;h2 id=&#34;mapbox-gl-jsとは&#34;&gt;mapbox-gl-jsとは
 &lt;/h2&gt;&lt;p&gt;mapbox-gl-jsとは、WebGLを用いてベクター形式の地図タイルをレンダリングし、インタラクティブに操作することを可能にするJavaScriptライブラリです。&lt;/p&gt;
 &lt;p&gt;v1.0台の頃は、このライブラリを使用するけども、サーバサイド側でMapboxのサービス（＝Mapbox提供の地図タイルサービス）を利用しない場合、料金はかかりませんでした。v2.0以降は、このライブラリを使用するだけでも、ライブラリの呼び出し回数に基づいた利用料を払う必要があるよう、規約が変更されました。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mapbox/mapbox-gl-js/issues/10162&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -593,15 +593,15 @@
         </item>
         <item>
         <title>ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図</title>
-        <link>http://localhost:59740/reischauer-cartogram/</link>
+        <link>http://localhost:1313/reischauer-cartogram/</link>
         <pubDate>Fri, 14 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/reischauer-cartogram/</guid>
-        <description>&lt;img src="http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/reischauer-cartogram/images/japanese.jpg&#34;
+        <guid>http://localhost:1313/reischauer-cartogram/</guid>
+        <description>&lt;img src="http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png" alt="Featured image of post ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図" /&gt;&lt;p&gt;ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。原書は1978年、翻訳書は翌1979年に出版されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/reischauer-cartogram/images/japanese.jpg&#34;
 	width=&#34;340&#34;
 	height=&#34;499&#34;
-	srcset=&#34;http://localhost:59740/reischauer-cartogram/images/japanese_hu_47b56504090d90a6.jpg 480w, http://localhost:59740/reischauer-cartogram/images/japanese_hu_79dcf4f5eebf80bb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/reischauer-cartogram/images/japanese_hu_47b56504090d90a6.jpg 480w, http://localhost:1313/reischauer-cartogram/images/japanese_hu_79dcf4f5eebf80bb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -615,10 +615,10 @@
     &gt;E・O・ライシャワー「ザ・ジャパニーズ」&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;カルトグラムというのは、データ値を国や行政区域の示す面積に反映させ、データ値を地図として眺めることを試みる手法です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population.png&#34;
 	width=&#34;884&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu_a7c9f13e727d2033.png 480w, http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu_ff6039367660b6e7.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu_a7c9f13e727d2033.png 480w, http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_population_hu_ff6039367660b6e7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -630,10 +630,10 @@
 &lt;ul&gt;
 &lt;li&gt;E・O・ライシャワーによる「国の大小が人口に比例して描かれている地図」&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP.png&#34;
 	width=&#34;885&#34;
 	height=&#34;577&#34;
-	srcset=&#34;http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu_41cdd38d9a4e1c8.png 480w, http://localhost:59740/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu_b8acd046eb0f6589.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu_41cdd38d9a4e1c8.png 480w, http://localhost:1313/reischauer-cartogram/images/%E3%83%A9%E3%82%A4%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC_Japanese_GNP_hu_b8acd046eb0f6589.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -655,10 +655,10 @@
 ところが一方で、1965年に元駐日大使のE・O・ライシャワーによる国民総生産地図や人口地図のようなものが現れた。これはアメリカのGNPがいかに世界を制覇しうるほどに大きくなっているかの説明するための地図なのですが、同時に、主題をとりかえ見方を変えることで、見なれた地形がものの見事に変化し、動きうることを示す地図でした。動かない地表の地図ではなく、その上で人が生き、笑い、動き回って自分たちの文化を築いている、人びとのふるまいを映しだすような、動く地図の可能性があることを示してくれた。人間のアクティビティーを主題にした地図表現があるということ。じつに新鮮な、晴天の霹靂のような地図でした。」
 アイデア誌（324 2007年9月号）&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;ライシャワーさんによる地図の主旨と杉浦さんの受け取りのすれ違い、現在からみるとある種ほほえましいですが、こういった刺激が直後の杉浦康平さんの素晴らしい時間軸変型地図をはじめとした主題地図群を生み出していったことにドキドキしますね。杉浦さんの上記のコメントは現在も古びることなく、むしろ今こそ改めて噛み締めたいものです。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/reischauer-cartogram/images/img_multimodal_view_01.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/reischauer-cartogram/images/img_multimodal_view_01.jpg&#34;
 	width=&#34;680&#34;
 	height=&#34;440&#34;
-	srcset=&#34;http://localhost:59740/reischauer-cartogram/images/img_multimodal_view_01_hu_a28a29990fca7f4f.jpg 480w, http://localhost:59740/reischauer-cartogram/images/img_multimodal_view_01_hu_39ba60a9bf677f46.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/reischauer-cartogram/images/img_multimodal_view_01_hu_a28a29990fca7f4f.jpg 480w, http://localhost:1313/reischauer-cartogram/images/img_multimodal_view_01_hu_39ba60a9bf677f46.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -672,11 +672,11 @@
         </item>
         <item>
         <title>ディシメトリック・マップ（Dasymetric Map）</title>
-        <link>http://localhost:59740/dasymetric-map/</link>
+        <link>http://localhost:1313/dasymetric-map/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/dasymetric-map/</guid>
-        <description>&lt;img src="http://localhost:59740/dasymetric-map/images/dasymetric-map-2048x1448.png" alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）" /&gt;&lt;p&gt;コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。&lt;/p&gt;
+        <guid>http://localhost:1313/dasymetric-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448.png" alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）" /&gt;&lt;p&gt;コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。&lt;/p&gt;
 &lt;p&gt;理由として、アーサー・H・ロビンソンらは以下のことを挙げています。&lt;/p&gt;
 &lt;p&gt;データを入手するために用いた単位地区の大きさが非常に異なっていたり効果的でない場合
 地理的に不連続な分布を示す事象
@@ -684,10 +684,10 @@
 &lt;p&gt;処理を自動化する地図の可視化アプリでは扱いづらいため、広くは利用されていませんが、科学分野の研究者が、クリティカルなGISの利用が必要なときに利用しているケースが多いようです。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;リスボンの人口密度コロプレス左とディシメトリック右&#34;&gt;リスボンの人口密度。コロプレス（左）とディシメトリック（右）。
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg&#34;
 	width=&#34;640&#34;
 	height=&#34;306&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_a09265deb7d226a5.jpg 480w, http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_d92aef8ee64400eb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_a09265deb7d226a5.jpg 480w, http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_d92aef8ee64400eb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -699,10 +699,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.arcgis.com/apps/Cascade/index.html?appid=fde9d5cc2716490faf1e861d171a6fdd&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.arcgis.com/apps/Cascade/index.html?appid=fde9d5cc2716490faf1e861d171a6fdd&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ウィーン市の人口密度コロプレス前者とディシメトリック後者&#34;&gt;ウィーン市の人口密度。コロプレス（前者）とディシメトリック（後者）。
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/dasy2.gif&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/dasy2.gif&#34;
 	width=&#34;419&#34;
 	height=&#34;336&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/dasy2_hu_c4b61a7515a5defb.gif 480w, http://localhost:59740/dasymetric-map/images/dasy2_hu_c4738209d6810072.gif 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/dasy2_hu_c4b61a7515a5defb.gif 480w, http://localhost:1313/dasymetric-map/images/dasy2_hu_c4738209d6810072.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -715,10 +715,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://anitagraser.com/2012/11/18/improving-population-density-maps-using-dasymetric-mapping/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://anitagraser.com/2012/11/18/improving-population-density-maps-using-dasymetric-mapping/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ベオグラード市のデータを対象にした研究&#34;&gt;ベオグラード市のデータを対象にした研究
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg&#34;
 	width=&#34;640&#34;
 	height=&#34;306&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_a09265deb7d226a5.jpg 480w, http://localhost:59740/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_d92aef8ee64400eb.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_a09265deb7d226a5.jpg 480w, http://localhost:1313/dasymetric-map/images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1_hu_d92aef8ee64400eb.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -729,10 +729,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;(PDF) Dasymetric modelling of population dynamics in urban areas&lt;/p&gt;
 &lt;h3 id=&#34;フロリダ州タンパにおけるコロプレスマップ左とディシメトリックマップ右の比較&#34;&gt;フロリダ州タンパにおけるコロプレス・マップ（左）とディシメトリック・マップ（右）の比較
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/dasymetric_728x210.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/dasymetric_728x210.jpg&#34;
 	width=&#34;728&#34;
 	height=&#34;210&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/dasymetric_728x210_hu_18a879fe05d4dfa9.jpg 480w, http://localhost:59740/dasymetric-map/images/dasymetric_728x210_hu_d8cc6ca9fe129171.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/dasymetric_728x210_hu_18a879fe05d4dfa9.jpg 480w, http://localhost:1313/dasymetric-map/images/dasymetric_728x210_hu_d8cc6ca9fe129171.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -744,10 +744,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.epa.gov/enviroatlas/dasymetric-toolbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.epa.gov/enviroatlas/dasymetric-toolbox&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2011年-ロンドンの人口密度&#34;&gt;2011年 ロンドンの人口密度
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/dasymetric-map-2048x1448.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1448&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/dasymetric-map-2048x1448_hu_47749a476082da2a.png 480w, http://localhost:59740/dasymetric-map/images/dasymetric-map-2048x1448_hu_3f27e0adc9b90a62.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448_hu_47749a476082da2a.png 480w, http://localhost:1313/dasymetric-map/images/dasymetric-map-2048x1448_hu_3f27e0adc9b90a62.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -758,10 +758,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;Dasymetric map of London’s population density, 2011 – James Gleeson&lt;/p&gt;
 &lt;h3 id=&#34;人口密度のマッピング国勢調査データと土地被覆の統合&#34;&gt;人口密度のマッピング。国勢調査データと土地被覆の統合
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A.png&#34;
 	width=&#34;667&#34;
 	height=&#34;392&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A_hu_cbd7d464161c892e.png 480w, http://localhost:59740/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A_hu_7cb3b2ec1f8d0623.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A_hu_cbd7d464161c892e.png 480w, http://localhost:1313/dasymetric-map/images/1_uGOsR0fQZHP1B1PNnHbb6A_hu_7cb3b2ec1f8d0623.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -773,10 +773,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://sites.tufts.edu/gis/files/2013/02/Nelson_Jason.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://sites.tufts.edu/gis/files/2013/02/Nelson_Jason.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;サンフランシスコベイエリアの地図&#34;&gt;サンフランシスコ・ベイエリアの地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/zoom2_lowres.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/zoom2_lowres.jpg&#34;
 	width=&#34;340&#34;
 	height=&#34;340&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/zoom2_lowres_hu_3680bfa2c246e133.jpg 480w, http://localhost:59740/dasymetric-map/images/zoom2_lowres_hu_f9d96e387d568d1b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/zoom2_lowres_hu_3680bfa2c246e133.jpg 480w, http://localhost:1313/dasymetric-map/images/zoom2_lowres_hu_f9d96e387d568d1b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -791,10 +791,10 @@
 &lt;/h2&gt;&lt;p&gt;1911年にTyan-Shanskyが名付け、J.K. Wrightが有名にした、と wiki.gis.comにあります。&lt;/p&gt;
 &lt;h2 id=&#34;以前の似た作例&#34;&gt;以前の似た作例
 &lt;/h2&gt;&lt;p&gt;Henry Drury Harness (1838)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng.png&#34;
 	width=&#34;661&#34;
 	height=&#34;795&#34;
-	srcset=&#34;http://localhost:59740/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng_hu_734bda0dc0235a53.png 480w, http://localhost:59740/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng_hu_aa13d83e50cf7d43.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng_hu_734bda0dc0235a53.png 480w, http://localhost:1313/dasymetric-map/images/1PWcStPNYxUMp8Q5gakALng_hu_aa13d83e50cf7d43.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -816,18 +816,18 @@
         </item>
         <item>
         <title>ベクター・フィールド・マップ（Vector Field Map）</title>
-        <link>http://localhost:59740/vector-field-map/</link>
+        <link>http://localhost:1313/vector-field-map/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/vector-field-map/</guid>
-        <description>&lt;img src="http://localhost:59740/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
+        <guid>http://localhost:1313/vector-field-map/</guid>
+        <description>&lt;img src="http://localhost:1313/vector-field-map/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
 &lt;p&gt;ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;wind-map&#34;&gt;wind map
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/vector-field-map/images/wind_map.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/wind_map.png&#34;
 	width=&#34;1110&#34;
 	height=&#34;658&#34;
-	srcset=&#34;http://localhost:59740/vector-field-map/images/wind_map_hu_64a9c453fcd5f9a1.png 480w, http://localhost:59740/vector-field-map/images/wind_map_hu_ee250e296cf9eee4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/wind_map_hu_64a9c453fcd5f9a1.png 480w, http://localhost:1313/vector-field-map/images/wind_map_hu_ee250e296cf9eee4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -844,10 +844,10 @@
 &lt;p&gt;全米デジタル予測データベース（the National Digital Forecast Database）のデータを使用して、北米における風力を示し、1時間ごとに更新されています。
 過去のエピックな日付へのリンクも用意され、その特定の日時の風の様子を再現することが可能です。&lt;/p&gt;
 &lt;h3 id=&#34;earth&#34;&gt;Earth
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/vector-field-map/images/null_earth.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/null_earth.png&#34;
 	width=&#34;1240&#34;
 	height=&#34;747&#34;
-	srcset=&#34;http://localhost:59740/vector-field-map/images/null_earth_hu_6043f2ea5ec1ed98.png 480w, http://localhost:59740/vector-field-map/images/null_earth_hu_1b135391e74d960b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/null_earth_hu_6043f2ea5ec1ed98.png 480w, http://localhost:1313/vector-field-map/images/null_earth_hu_1b135391e74d960b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -860,10 +860,10 @@
     &gt;earth :: a global map of wind, weather, and ocean conditions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;キャメロン・ベッカリオ（Cameron Beccario）による個人作品。”wind map”にインスピレーションを受けて制作されました。数時間ほどのタイムラグがあるデータを反映しており、様々なデータを、様々な地図投影法で可視化しています。&lt;/p&gt;
 &lt;h3 id=&#34;2008年9月1日のハリケーングスタフによる風速&#34;&gt;2008年9月1日のハリケーン・グスタフによる風速
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg&#34;
 	width=&#34;576&#34;
 	height=&#34;576&#34;
-	srcset=&#34;http://localhost:59740/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_65da196ba1e53de3.jpeg 480w, http://localhost:59740/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_cbb5bbd162d3a9c9.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_65da196ba1e53de3.jpeg 480w, http://localhost:1313/vector-field-map/images/1_seFS4uTmFtKn-y17xC0QIg-1_hu_cbb5bbd162d3a9c9.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -875,10 +875,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2dベクトルフィールド可視化手法の比較&#34;&gt;2Dベクトルフィールド可視化手法の比較
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg&#34;
 	width=&#34;1400&#34;
 	height=&#34;1029&#34;
-	srcset=&#34;http://localhost:59740/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_d680c0d7a0609234.jpeg 480w, http://localhost:59740/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_f174e7826c1861ba.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_d680c0d7a0609234.jpeg 480w, http://localhost:1313/vector-field-map/images/1_J6Xh_vc_supgN4dzDBpOJg_hu_f174e7826c1861ba.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -901,10 +901,10 @@
 &lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか
 &lt;/h2&gt;&lt;p&gt;不明。&lt;/p&gt;
 &lt;h2 id=&#34;以前の似た作例&#34;&gt;以前の似た作例
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
 	width=&#34;402&#34;
 	height=&#34;564&#34;
-	srcset=&#34;http://localhost:59740/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_769f9b693e68a809.png 480w, http://localhost:59740/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_bf6ecbcd1fc1a809.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_769f9b693e68a809.png 480w, http://localhost:1313/vector-field-map/images/1_4o1FSaAcNjfBqreY8fP28Q_hu_bf6ecbcd1fc1a809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -927,11 +927,11 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>コロプレス・マップ（Choropleth Map）</title>
-        <link>http://localhost:59740/choropleth-map/</link>
+        <link>http://localhost:1313/choropleth-map/</link>
         <pubDate>Thu, 06 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/choropleth-map/</guid>
-        <description>&lt;img src="http://localhost:59740/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
+        <guid>http://localhost:1313/choropleth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png" alt="Featured image of post コロプレス・マップ（Choropleth Map）" /&gt;&lt;p&gt;通常、行政区画単位によって集計されたデータを、色やテクスチャで表現する地図です。&lt;/p&gt;
 &lt;p&gt;こういったコロプレス・マップの問題の一つとして、データをエンコーディングのための領域（行政区画）のサイズが、表現されるデータ量の認識に影響を与えることがあげられます。&lt;/p&gt;
 &lt;p&gt;データ値と地理的領域を混同するのを避けるために、データは絶対値ではなく正規化（例えば、密度、比率、平均）を使用することが推奨されます。&lt;/p&gt;
 &lt;p&gt;色やテクスチャでデータ値を表現する際に、データをいくつかにグルーピングする手法が取られることがあります。これを階級分類といい、ヒストグラムにおけるビンとはまた別の概念です。階級分類の数と手法が、見た目に大きく影響を与えるため、その選択には作り手による細心の注意が求められますし、作り手が「嘘をつく」ことも可能ではあります。ですので階級分類の数と手法を凡例に掲載しておくことが望ましいです。&lt;/p&gt;
@@ -940,10 +940,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;連続的な現象（例えば自然現象でいえば年間降雨量、気温など）は、その分布が政治的または行政的な境界ではないため、この方法ではマッピングすることはふさわしくありません。 その場合は、連続データを活用するための手法である、Dasymetric MapかIsarithmic Mapなどを利用してください。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;過去7日間のアメリカにおける郡county別covid-19人死亡者数&#34;&gt;過去7日間のアメリカにおける郡（county）別COVID-19人死亡者数
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;800&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_24b66d0a370f3fee.png 480w, http://localhost:59740/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_1d35a30a5c06a966.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_24b66d0a370f3fee.png 480w, http://localhost:1313/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w_hu_1d35a30a5c06a966.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -955,10 +955,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://towardsdatascience.com/accessing-and-examining-covid-19-data-on-your-own-e9d9b4fbc09b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Covid-19 fatalities per capita by US County for the previous seven days&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;イングランドとウェールズにおける人口密度&#34;&gt;イングランドとウェールズにおける人口密度
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg.png&#34;
 	width=&#34;2775&#34;
 	height=&#34;3450&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_8e0c2f173fa3b6c8.png 480w, http://localhost:59740/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_f639086b57e9389c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_8e0c2f173fa3b6c8.png 480w, http://localhost:1313/choropleth-map/images/1_7PuOErZ1mOwPRURYEqkhOg_hu_f639086b57e9389c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -970,10 +970,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/@briskat/england-wales-population-density-heat-map-26a28a2b6091&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;England and Wales population density&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;イングランドウェールズにおける人口分散&#34;&gt;イングランド・ウェールズにおける人口分散
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/fletcher-map-population.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/fletcher-map-population.jpg&#34;
 	width=&#34;1566&#34;
 	height=&#34;1970&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/fletcher-map-population_hu_2a9ef33f2711708.jpg 480w, http://localhost:59740/choropleth-map/images/fletcher-map-population_hu_1d39cfca0aa20152.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/fletcher-map-population_hu_2a9ef33f2711708.jpg 480w, http://localhost:1313/choropleth-map/images/fletcher-map-population_hu_1d39cfca0aa20152.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -985,10 +985,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;おそらくイギリスの最も初期の人口密度マップです。&lt;/p&gt;
 &lt;p&gt;Dispersion of the Population in England &amp;amp; Wales&lt;/p&gt;
 &lt;h3 id=&#34;人に対する犯罪地図&#34;&gt;人に対する犯罪地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/guerry-map-crimes-against-people-1.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1.jpg&#34;
 	width=&#34;1699&#34;
 	height=&#34;2271&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/guerry-map-crimes-against-people-1_hu_69a67413ac530b14.jpg 480w, http://localhost:59740/choropleth-map/images/guerry-map-crimes-against-people-1_hu_8f3144fa30c1b3e0.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1_hu_69a67413ac530b14.jpg 480w, http://localhost:1313/choropleth-map/images/guerry-map-crimes-against-people-1_hu_8f3144fa30c1b3e0.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1001,10 +1001,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;犯罪の多い順に県がランキングされ、地図上に番号で示されます。地図の下にランキング順に実際の犯罪数が示されています。&lt;/p&gt;
 &lt;p&gt;Crimes contre les personnes&lt;/p&gt;
 &lt;h3 id=&#34;アメリカにおける非雇用者-2009年&#34;&gt;アメリカにおける非雇用者 2009年
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA.png&#34;
 	width=&#34;625&#34;
 	height=&#34;396&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_882be5a1b7944408.png 480w, http://localhost:59740/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_7ea4b134375b9bb0.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_882be5a1b7944408.png 480w, http://localhost:1313/choropleth-map/images/1_Ovjcva1yrMbkJMqlkGD5xA_hu_7ea4b134375b9bb0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1016,10 +1016,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;U.S. unemployment in 2009&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ミレニアム開発目標マップ&#34;&gt;ミレニアム開発目標マップ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w.jpeg&#34;
 	width=&#34;865&#34;
 	height=&#34;692&#34;
-	srcset=&#34;http://localhost:59740/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_972ed2acfbe62d02.jpeg 480w, http://localhost:59740/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_6c8ec60a0d7f6f63.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_972ed2acfbe62d02.jpeg 480w, http://localhost:1313/choropleth-map/images/1_eYAnZ0IMI5AWsQ9kUTbn6w_hu_6c8ec60a0d7f6f63.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1038,21 +1038,21 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
-        <link>http://localhost:59740/dot-map/</link>
+        <link>http://localhost:1313/dot-map/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/dot-map/</guid>
-        <description>&lt;img src="http://localhost:59740/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
+        <guid>http://localhost:1313/dot-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
 個別の現象が、どのような地理的分布をしているのかを確認します。&lt;/p&gt;
 &lt;p&gt;分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。&lt;/p&gt;
 &lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;地元民と観光客-写真撮影場所の違い東京編&#34;&gt;地元民と観光客 写真撮影場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-map/images/4671542165_ae093ddbed_k.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:59740/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:59740/dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1070,10 +1070,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals and Tourists #5 (GTWA #20): Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;地元民と観光客-ツイート場所の違い東京編&#34;&gt;地元民と観光客 ツイート場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-map/images/mapbox_twitter-gnip-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1.png&#34;
 	width=&#34;2898&#34;
 	height=&#34;1802&#34;
-	srcset=&#34;http://localhost:59740/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:59740/dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1085,10 +1085,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://labs.mapbox.com/labs/twitter-gnip/locals/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals &amp;amp; Tourists – Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;racial-dot-mapプロジェクト&#34;&gt;Racial Dot Mapプロジェクト
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-map/images/racialdotmap.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/racialdotmap.png&#34;
 	width=&#34;2877&#34;
 	height=&#34;1949&#34;
-	srcset=&#34;http://localhost:59740/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:59740/dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1100,10 +1100,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
 	width=&#34;2875&#34;
 	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:59740/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:59740/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1115,10 +1115,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Map of White Supremacy’s history of lynchings&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;john-snows-map-of-cholera-outbreaks&#34;&gt;John Snow’s map of cholera outbreaks
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
 	width=&#34;1400&#34;
 	height=&#34;1305&#34;
-	srcset=&#34;http://localhost:59740/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:59740/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1137,20 +1137,20 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>ドット密度マップ（Dot Density Map）</title>
-        <link>http://localhost:59740/dot-density-map/</link>
+        <link>http://localhost:1313/dot-density-map/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/dot-density-map/</guid>
-        <description>&lt;img src="http://localhost:59740/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
+        <guid>http://localhost:1313/dot-density-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
 &lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
 &lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;2010年-アメリカでの国勢調査--ニューヨークタイムズ&#34;&gt;2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;
 	width=&#34;1142&#34;
 	height=&#34;731&#34;
-	srcset=&#34;http://localhost:59740/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_59013f0f01b3e523.png 480w, http://localhost:59740/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_d8b57e82cf16e70c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_59013f0f01b3e523.png 480w, http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_d8b57e82cf16e70c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1163,10 +1163,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.nytimes.com/projects/census/2010/map.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mapping the 2010 U.S. Census — New York Times&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;dencity--ben-fry&#34;&gt;Dencity — Ben Fry
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-density-map/images/dencity_ben_fry.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/dencity_ben_fry.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;683&#34;
-	srcset=&#34;http://localhost:59740/dot-density-map/images/dencity_ben_fry_hu_23466ff575ee03fc.png 480w, http://localhost:59740/dot-density-map/images/dencity_ben_fry_hu_c9fe10c51cadd637.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map/images/dencity_ben_fry_hu_23466ff575ee03fc.png 480w, http://localhost:1313/dot-density-map/images/dencity_ben_fry_hu_c9fe10c51cadd637.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1178,10 +1178,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fathom.info/notebook/1981/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Dencity — Ben Fry&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-map-by-frère-de-montizon-1830&#34;&gt;The map by Frère de Montizon, 1830
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/dot-density-map/images/unnamed-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/unnamed-1.png&#34;
 	width=&#34;512&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://localhost:59740/dot-density-map/images/unnamed-1_hu_65b92246bfd71beb.png 480w, http://localhost:59740/dot-density-map/images/unnamed-1_hu_f09c8376d3557e3d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map/images/unnamed-1_hu_65b92246bfd71beb.png 480w, http://localhost:1313/dot-density-map/images/unnamed-1_hu_f09c8376d3557e3d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1200,20 +1200,20 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>等級シンボル・マップ(Graduated Symbol Map)</title>
-        <link>http://localhost:59740/graduated-symbol-map/</link>
+        <link>http://localhost:1313/graduated-symbol-map/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/graduated-symbol-map/</guid>
-        <description>&lt;img src="http://localhost:59740/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png" alt="Featured image of post 等級シンボル・マップ(Graduated Symbol Map)" /&gt;&lt;p&gt;離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。&lt;/p&gt;
+        <guid>http://localhost:1313/graduated-symbol-map/</guid>
+        <description>&lt;img src="http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png" alt="Featured image of post 等級シンボル・マップ(Graduated Symbol Map)" /&gt;&lt;p&gt;離散データを階級分類して、シンボルの大きさという視覚的変数で表現する地図です。階級分類しないものは比例シンボル・マップと呼ばれます。&lt;/p&gt;
 &lt;p&gt;シンボルの形状は円がよく利用されますが、円だけに限定されるものではなく、三角形や四角形も利用されます。円グラフが用いられる場合もあり、その場合はチャート・マップと呼ばれます。&lt;/p&gt;
 &lt;p&gt;サイズは、表現されるデータ値に比例しますが、それが存在する地理的領域に依存しないため、コロプレスマップで発生してしまうデータ値と地理的領域の大きさの混乱問題を回避することができます。&lt;/p&gt;
 &lt;p&gt;選択する階級分類数と階級分類の手法により、可視化される結果やその印象が大きく異なるため、作り手は探索的に色んな条件で試す必要があり、同時に最終的に作品が与える印象について責任を持つ必要があります。そして凡例として、階級分類数と階級分類の手法を示すのが望ましいです。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;p&gt;自然災害を避けるためにはどこに住むべきか&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw.png&#34;
 	width=&#34;964&#34;
 	height=&#34;784&#34;
-	srcset=&#34;http://localhost:59740/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw_hu_19a4cce28850f1e4.png 480w, http://localhost:59740/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw_hu_1d60afc3afb8b43d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw_hu_19a4cce28850f1e4.png 480w, http://localhost:1313/graduated-symbol-map/images/1_7DBQfNEPvNWGiIlMr2rLFw_hu_1d60afc3afb8b43d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1231,19 +1231,19 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>統計記号マップ（Statistical Symbol Map）</title>
-        <link>http://localhost:59740/statistical-symbol-map/</link>
+        <link>http://localhost:1313/statistical-symbol-map/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/statistical-symbol-map/</guid>
-        <description>&lt;img src="http://localhost:59740/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png" alt="Featured image of post 統計記号マップ（Statistical Symbol Map）" /&gt;&lt;p&gt;統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。&lt;/p&gt;
+        <guid>http://localhost:1313/statistical-symbol-map/</guid>
+        <description>&lt;img src="http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png" alt="Featured image of post 統計記号マップ（Statistical Symbol Map）" /&gt;&lt;p&gt;統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。&lt;/p&gt;
 &lt;p&gt;配置が上手くいかないことがあったり、比較が困難であったりと、今となっては一般的には使用を推奨することはありません。&lt;/p&gt;
 &lt;p&gt;同様の意図を実現したい場合はスモール・マルチプルを利用することを検討してみてください。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;ナショナルアトラス日本国勢地図帳-国および都道府県の歳入&#34;&gt;ナショナルアトラス（日本国勢地図帳） 国および都道府県の歳入
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/j-atlas-d_j_66.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/j-atlas-d_j_66.png&#34;
 	width=&#34;2480&#34;
 	height=&#34;3507&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/j-atlas-d_j_66_hu_cc9d1ecb854b864c.png 480w, http://localhost:59740/statistical-symbol-map/images/j-atlas-d_j_66_hu_8cd1e60439402c57.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/j-atlas-d_j_66_hu_cc9d1ecb854b864c.png 480w, http://localhost:1313/statistical-symbol-map/images/j-atlas-d_j_66_hu_8cd1e60439402c57.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1254,10 +1254,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;ナショナルアトラス（日本国勢地図帳） 国および都道府県の歳入&lt;/p&gt;
 &lt;h3 id=&#34;各地方からパリへ送られてくる食用牛肉の量&#34;&gt;各地方からパリへ送られてくる食用牛肉の量
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858.png&#34;
 	width=&#34;1064&#34;
 	height=&#34;1024&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1064px-Minard-carte-viande-1858_hu_6140731dfe0c8c7d.png 480w, http://localhost:59740/statistical-symbol-map/images/1064px-Minard-carte-viande-1858_hu_b11012490a6c9d54.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858_hu_6140731dfe0c8c7d.png 480w, http://localhost:1313/statistical-symbol-map/images/1064px-Minard-carte-viande-1858_hu_b11012490a6c9d54.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1269,10 +1269,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://commons.wikimedia.org/wiki/Charles_Joseph_Minard&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1858 map by Charles Minard&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pie-chart-map--belfast&#34;&gt;Pie Chart Map — Belfast
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw.jpg&#34;
 	width=&#34;1400&#34;
 	height=&#34;990&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw_hu_2823e3b0d27b68b1.jpg 480w, http://localhost:59740/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw_hu_744c57490391e7f8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw_hu_2823e3b0d27b68b1.jpg 480w, http://localhost:1313/statistical-symbol-map/images/1_U8xEpDAive7YsN3PIFzSjw_hu_744c57490391e7f8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1284,10 +1284,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://cain.ulst.ac.uk/victims/gis/maps/gismaps-16.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://cain.ulst.ac.uk/victims/gis/maps/gismaps-16.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bar-chart-on-a-map--tableau&#34;&gt;Bar Chart on a Map — Tableau
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;770&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw_hu_544d693cf1840c2f.png 480w, http://localhost:59740/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw_hu_7d8cf230307ef78f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw_hu_544d693cf1840c2f.png 480w, http://localhost:1313/statistical-symbol-map/images/1_pIOyHftfXVEwXNvuQTs4zw_hu_7d8cf230307ef78f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1299,10 +1299,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dataplusscience.com/BarChartMaps.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.dataplusscience.com/BarChartMaps.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pie-chart-on-a-symbol-map--tableau&#34;&gt;Pie chart on a symbol map — Tableau
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA.png&#34;
 	width=&#34;1166&#34;
 	height=&#34;604&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA_hu_154bd3790a0f66df.png 480w, http://localhost:59740/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA_hu_eb939cfb22050370.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA_hu_154bd3790a0f66df.png 480w, http://localhost:1313/statistical-symbol-map/images/1_Ht5L2vgisQsjjid5txzndA_hu_eb939cfb22050370.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1314,10 +1314,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://arunethan.com/?p=270&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://arunethan.com/?p=270&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;パイチャートマップpie-chart-map--arcgis&#34;&gt;パイ・チャート・マップ（Pie Chart Map） — ArcGIS
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw.png&#34;
 	width=&#34;522&#34;
 	height=&#34;316&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw_hu_905bbed215a0530b.png 480w, http://localhost:59740/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw_hu_e23d1f0a1716da86.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw_hu_905bbed215a0530b.png 480w, http://localhost:1313/statistical-symbol-map/images/1_y_P0ESrVxUwKqg6TA1s6bw_hu_e23d1f0a1716da86.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1328,10 +1328,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw.gif&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw.gif&#34;
 	width=&#34;499&#34;
 	height=&#34;380&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw_hu_2fd96399c5086f26.gif 480w, http://localhost:59740/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw_hu_8dce9a0ecd2d8b12.gif 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw_hu_2fd96399c5086f26.gif 480w, http://localhost:1313/statistical-symbol-map/images/1_mAK-AuR0oWkPtICrvXq8Tw_hu_8dce9a0ecd2d8b12.gif 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1343,10 +1343,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.e-education.psu.edu/natureofgeoinfo/c3_p17.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.e-education.psu.edu/natureofgeoinfo/c3_p17.html&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;パイチャートマップpie-chart-map--coloremaps&#34;&gt;パイ・チャート・マップ（Pie Chart Map） — Coloremaps
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA.png&#34;
 	width=&#34;800&#34;
 	height=&#34;556&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA_hu_48590dd8f2912ee1.png 480w, http://localhost:59740/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA_hu_31475bff13a65a14.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA_hu_48590dd8f2912ee1.png 480w, http://localhost:1313/statistical-symbol-map/images/1_f_EFGJlRSA2uTyp277EniA_hu_31475bff13a65a14.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1358,10 +1358,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://coloremaps.com/visualization-map-types/chart-maps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://coloremaps.com/visualization-map-types/chart-maps/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;100-biggest-cities-in-2010&#34;&gt;100 biggest cities in 2010
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g.jpeg&#34;
 	width=&#34;600&#34;
 	height=&#34;420&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g_hu_8d9c839193b94708.jpeg 480w, http://localhost:59740/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g_hu_74cd280ed9ca3aa.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g_hu_8d9c839193b94708.jpeg 480w, http://localhost:1313/statistical-symbol-map/images/1_vYlrcEajmqotd7pmMkhw3g_hu_74cd280ed9ca3aa.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1373,10 +1373,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/4610471/100-biggest-cities-2010-infographic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.behance.net/gallery/4610471/100-biggest-cities-2010-infographic&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;コラムチャートマップcolumns-chart-maps--coloremaps&#34;&gt;コラム・チャート・マップ（Columns chart maps） — Coloremaps
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ.png&#34;
 	width=&#34;800&#34;
 	height=&#34;556&#34;
-	srcset=&#34;http://localhost:59740/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ_hu_66b2a6a3f1ae1044.png 480w, http://localhost:59740/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ_hu_1a5e3f6ae213803.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ_hu_66b2a6a3f1ae1044.png 480w, http://localhost:1313/statistical-symbol-map/images/1_P_BLOe42fK636x5d-dkQQ_hu_1a5e3f6ae213803.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1394,21 +1394,21 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>比例シンボル・マップ(Proportional Symbol Map)</title>
-        <link>http://localhost:59740/proportional-symbol-map/</link>
+        <link>http://localhost:1313/proportional-symbol-map/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/proportional-symbol-map/</guid>
-        <description>&lt;img src="http://localhost:59740/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
+        <guid>http://localhost:1313/proportional-symbol-map/</guid>
+        <description>&lt;img src="http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png" alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)" /&gt;&lt;h2 id=&#34;どんな地図&#34;&gt;どんな地図？
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;離散データを階級分類せず&lt;/strong&gt;、シンボルの大きさという視覚的変数で表現する地図です。階級分類するものは等級シンボル・マップと呼ばれます。&lt;/p&gt;
 &lt;p&gt;シンボルの形状は円がよく利用されますが、円だけに限定されるものではなく、三角形や四角形も利用されます。円グラフが用いられる場合もあります（その場合、チャート・グラフと呼ばれます）。&lt;/p&gt;
 &lt;p&gt;サイズは、表現されるデータ値に比例しますが、それが存在する地理的領域に依存しないため、コロプレスマップで発生してしまうデータ値と地理的領域の大きさの混乱問題を回避することができます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h4 id=&#34;大統領選挙の結果ドナルドjトランプ氏が勝利&#34;&gt;大統領選挙の結果：ドナルドJ.トランプ氏が勝利
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.png&#34;
 	width=&#34;965&#34;
 	height=&#34;626&#34;
-	srcset=&#34;http://localhost:59740/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu_5dd09330ad661928.png 480w, http://localhost:59740/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu_e38a56c78565b800.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu_5dd09330ad661928.png 480w, http://localhost:1313/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg_hu_e38a56c78565b800.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1424,10 +1424,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/figure&gt;
 &lt;h4 id=&#34;カリフォルニアの各郡countyにはコロナウイルスの症例がいくつあるのか&#34;&gt;カリフォルニアの各郡（county）にはコロナウイルスの症例がいくつあるのか？
 &lt;/h4&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1366&#34;
-	srcset=&#34;http://localhost:59740/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188_hu_d6ec4104fea41fb5.png 480w, http://localhost:59740/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188_hu_a878e3a0e45b9661.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188_hu_d6ec4104fea41fb5.png 480w, http://localhost:1313/proportional-symbol-map/images/coronavirus-us-cases-map-promo-1583277425489-superJumbo-v188_hu_a878e3a0e45b9661.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1449,17 +1449,17 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>コロナ禍による凡例の破綻</title>
-        <link>http://localhost:59740/corona-finviz-map/</link>
+        <link>http://localhost:1313/corona-finviz-map/</link>
         <pubDate>Mon, 20 Jul 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/corona-finviz-map/</guid>
-        <description>&lt;img src="http://localhost:59740/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
+        <guid>http://localhost:1313/corona-finviz-map/</guid>
+        <description>&lt;img src="http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png" alt="Featured image of post コロナ禍による凡例の破綻" /&gt;&lt;p&gt;コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。&lt;/p&gt;
 &lt;p&gt;日本でいうところの日経平均にあたる、アメリカS&amp;amp;P500の時価総額の増減をツリーマップ形式で提供しているFinVizというサイトがあります。&lt;/p&gt;
 &lt;p&gt;これが本日（2020年7月20日）時点での市場の様子です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/corona-finviz-map/images/finviz_green-2048x1507.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1507&#34;
-	srcset=&#34;http://localhost:59740/corona-finviz-map/images/finviz_green-2048x1507_hu_2400107edc7973c5.png 480w, http://localhost:59740/corona-finviz-map/images/finviz_green-2048x1507_hu_a57ddb7ea061f46b.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507_hu_2400107edc7973c5.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_green-2048x1507_hu_a57ddb7ea061f46b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1471,10 +1471,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://finviz.com/map.ashx&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Finviz Maps&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;右下に凡例があり、増減幅が、最大プラスマイナス3%で定義されています。これは、このサイトを運営していくにあたって、時価総額の増減が最大でも3%程度であろう、というところから来ています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/corona-finviz-map/images/finviz_legend.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_legend.png&#34;
 	width=&#34;716&#34;
 	height=&#34;52&#34;
-	srcset=&#34;http://localhost:59740/corona-finviz-map/images/finviz_legend_hu_e0f4c29f5497eb8.png 480w, http://localhost:59740/corona-finviz-map/images/finviz_legend_hu_dd2baba89ae19fe3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_legend_hu_e0f4c29f5497eb8.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_legend_hu_dd2baba89ae19fe3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1484,10 +1484,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;ところが、コロナ禍において、この凡例が破綻している時期がありました。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/corona-finviz-map/images/finviz_red-2048x1507.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507.png&#34;
 	width=&#34;2048&#34;
 	height=&#34;1507&#34;
-	srcset=&#34;http://localhost:59740/corona-finviz-map/images/finviz_red-2048x1507_hu_fe00c361f203d354.png 480w, http://localhost:59740/corona-finviz-map/images/finviz_red-2048x1507_hu_51ec69d3b5886196.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507_hu_fe00c361f203d354.png 480w, http://localhost:1313/corona-finviz-map/images/finviz_red-2048x1507_hu_51ec69d3b5886196.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1504,11 +1504,11 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>Uber H3</title>
-        <link>http://localhost:59740/uber-h3/</link>
+        <link>http://localhost:1313/uber-h3/</link>
         <pubDate>Mon, 18 May 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/uber-h3/</guid>
-        <description>&lt;img src="http://localhost:59740/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
+        <guid>http://localhost:1313/uber-h3/</guid>
+        <description>&lt;img src="http://localhost:1313/uber-h3/images/Twitter-H3.png" alt="Featured image of post Uber H3" /&gt;&lt;p&gt;Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。こちらをご紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.uber.com/en-JP/blog/h3/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;H3: Uber’s Hexagonal Hierarchical Spatial Index&lt;/a&gt;&lt;/li&gt;
@@ -1522,10 +1522,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;li&gt;グリッドセルをクラスタリングすることで、近隣地域を効率的に表現することができる。別なクラスタリング方法、たとえば郵便番号では行政の都合である時突然変更してしまうが、そのようなこともない。&lt;/li&gt;
 &lt;li&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現できる。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/uber-h3/images/h3_346.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_346.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;528&#34;
-	srcset=&#34;http://localhost:59740/uber-h3/images/h3_346_hu_b5b740657799addd.png 480w, http://localhost:59740/uber-h3/images/h3_346_hu_a815816ee996de8d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/uber-h3/images/h3_346_hu_b5b740657799addd.png 480w, http://localhost:1313/uber-h3/images/h3_346_hu_a815816ee996de8d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1535,10 +1535,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;六角形であれば、接するグリッドとの距離が均等。三角形でも四角形でもそうはいかない。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/uber-h3/images/h3_hierarcical.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_hierarcical.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;667&#34;
-	srcset=&#34;http://localhost:59740/uber-h3/images/h3_hierarcical_hu_91129bdc77959147.png 480w, http://localhost:59740/uber-h3/images/h3_hierarcical_hu_9e45a6063ccb99d4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/uber-h3/images/h3_hierarcical_hu_91129bdc77959147.png 480w, http://localhost:1313/uber-h3/images/h3_hierarcical_hu_9e45a6063ccb99d4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1549,10 +1549,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;紙の地図でいうところの縮尺、グーグルマップでいうところのズームレベルも、六角形で表現。
 グローバルグリッドシステムには、通常、地図投影と地図の上に敷き詰められたグリッドの2つが必要です。グリッドはすでに説明した六角形で、地図投影にはメルカトルなどの歪みがある地図投影法ではなく、正二十面体の面を中心とした心射方位図法を採用しています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered.png&#34;
 	width=&#34;2136&#34;
 	height=&#34;661&#34;
-	srcset=&#34;http://localhost:59740/uber-h3/images/h3_gnomonic-projections-centered_hu_ef67625fc10cbb1f.png 480w, http://localhost:59740/uber-h3/images/h3_gnomonic-projections-centered_hu_cac6f2a0c3cc5231.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered_hu_ef67625fc10cbb1f.png 480w, http://localhost:1313/uber-h3/images/h3_gnomonic-projections-centered_hu_cac6f2a0c3cc5231.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1566,19 +1566,19 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>GeoJsonとは</title>
-        <link>http://localhost:59740/geojson/</link>
+        <link>http://localhost:1313/geojson/</link>
         <pubDate>Thu, 12 Mar 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/geojson/</guid>
-        <description>&lt;img src="http://localhost:59740/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
+        <guid>http://localhost:1313/geojson/</guid>
+        <description>&lt;img src="http://localhost:1313/geojson/images/GeoJson_3.png" alt="Featured image of post GeoJsonとは" /&gt;&lt;p&gt;GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。&lt;/p&gt;
 &lt;p&gt;空の状態から作り上げるというよりは、政府機関などから公開されているものを加工することが多いと思います。ファイルの内部構成をご紹介します。&lt;/p&gt;
 &lt;h3 id=&#34;ルート最上階層&#34;&gt;ルート（最上階層）
 &lt;/h3&gt;&lt;p&gt;ルート（最上階層）には、GeoJsonのメタデータ的な部分と実体のデータの部分があります。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/geojson/images/GeoJson_1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geojson/images/GeoJson_1.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;http://localhost:59740/geojson/images/GeoJson_1_hu_a4356b4c10e70f57.png 480w, http://localhost:59740/geojson/images/GeoJson_1_hu_aaae063b2653a3e4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/geojson/images/GeoJson_1_hu_a4356b4c10e70f57.png 480w, http://localhost:1313/geojson/images/GeoJson_1_hu_aaae063b2653a3e4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1598,10 +1598,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;h3 id=&#34;地物feature&#34;&gt;地物（feature）
 &lt;/h3&gt;&lt;p&gt;地物（feature）は、geometry（ジオメトリ = 空間データ）とproperties（プロパティ = 非空間データ）が格納されています。typeは固定で”Feature”です。geometryは地図上に描かれるベクターデータを、propertiesは地図には描かれない表データを格納しています。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/geojson/images/GeoJson_2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geojson/images/GeoJson_2.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;http://localhost:59740/geojson/images/GeoJson_2_hu_e64ed2856432ce8d.png 480w, http://localhost:59740/geojson/images/GeoJson_2_hu_250875bca0db27b9.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/geojson/images/GeoJson_2_hu_e64ed2856432ce8d.png 480w, http://localhost:1313/geojson/images/GeoJson_2_hu_250875bca0db27b9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1616,10 +1616,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/figure&gt;
 &lt;p&gt;一つの地物（feature）の中にgeometryとpropertiesが格納されていますので、たとえばオープンソースのQGISというアプリケーションでGeoJsonファイルを開いてみると、同一の地物（feature）が同一選択範囲であることがわかります（画像の、地図上の黄色くハイライトされている箇所geometryと、表データのハイライトしている箇所propertiesです）。&lt;/p&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/geojson/images/GeoJson_3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geojson/images/GeoJson_3.png&#34;
 	width=&#34;1754&#34;
 	height=&#34;1239&#34;
-	srcset=&#34;http://localhost:59740/geojson/images/GeoJson_3_hu_252560d70eb29acb.png 480w, http://localhost:59740/geojson/images/GeoJson_3_hu_3c82dd9eeb74f567.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/geojson/images/GeoJson_3_hu_252560d70eb29acb.png 480w, http://localhost:1313/geojson/images/GeoJson_3_hu_3c82dd9eeb74f567.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1635,10 +1635,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;データ地図（主題地図）を作る際に、たとえば他のデータと結合する際には、propertiesに格納されたデータフィールドを活用します。&lt;/p&gt;
 &lt;h3 id=&#34;geometry&#34;&gt;geometry
 &lt;/h3&gt;&lt;p&gt;ジオメトリはベクター形式で様々な地物を描きます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/geojson/images/GeoJson-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/geojson/images/GeoJson-1.png&#34;
 	width=&#34;600&#34;
 	height=&#34;600&#34;
-	srcset=&#34;http://localhost:59740/geojson/images/GeoJson-1_hu_9b55679f9d41c6ff.png 480w, http://localhost:59740/geojson/images/GeoJson-1_hu_7cd5cebab214053d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/geojson/images/GeoJson-1_hu_9b55679f9d41c6ff.png 480w, http://localhost:1313/geojson/images/GeoJson-1_hu_7cd5cebab214053d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1653,15 +1653,15 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>QGISにおける階級分類</title>
-        <link>http://localhost:59740/qgis-classification/</link>
+        <link>http://localhost:1313/qgis-classification/</link>
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/qgis-classification/</guid>
-        <description>&lt;img src="http://localhost:59740/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/qgis-classification/images/qgis_jenks.png&#34;
+        <guid>http://localhost:1313/qgis-classification/</guid>
+        <description>&lt;img src="http://localhost:1313/qgis-classification/images/qgis_jenks.png" alt="Featured image of post QGISにおける階級分類" /&gt;&lt;p&gt;QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/qgis-classification/images/qgis_jenks.png&#34;
 	width=&#34;985&#34;
 	height=&#34;698&#34;
-	srcset=&#34;http://localhost:59740/qgis-classification/images/qgis_jenks_hu_118ce5b076129fc6.png 480w, http://localhost:59740/qgis-classification/images/qgis_jenks_hu_ff04d6b32ffc726f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/qgis-classification/images/qgis_jenks_hu_118ce5b076129fc6.png 480w, http://localhost:1313/qgis-classification/images/qgis_jenks_hu_ff04d6b32ffc726f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;QGISでの階級分類&#34;
@@ -1681,11 +1681,11 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>地図の階級分類におけるJenksって？</title>
-        <link>http://localhost:59740/classification-jenks/</link>
+        <link>http://localhost:1313/classification-jenks/</link>
         <pubDate>Thu, 27 Feb 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/classification-jenks/</guid>
-        <description>&lt;img src="http://localhost:59740/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
+        <guid>http://localhost:1313/classification-jenks/</guid>
+        <description>&lt;img src="http://localhost:1313/classification-jenks/images/qgis_jenks.png" alt="Featured image of post 地図の階級分類におけるJenksって？" /&gt;&lt;p&gt;様々なGISアプリケーションで階級分類する際に、&lt;strong&gt;Natural breaks (Jenks)&lt;strong&gt;や&lt;/strong&gt;Jenks&lt;/strong&gt;などという名称の分類があります。一体これは何か？ということで、いくつかのリソースから引用してみましょう。&lt;/p&gt;
 &lt;h3 id=&#34;geospatial-analysis-6th-edition-2020-update&#34;&gt;Geospatial Analysis 6th Edition, 2020 update
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://spatialanalysisonline.com/HTML/index.html?building_blocks_of_spatial_ana.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1717,20 +1717,20 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>QGISで、fToolsとGDALToolsが見当たらない?</title>
-        <link>http://localhost:59740/qgis-processing/</link>
+        <link>http://localhost:1313/qgis-processing/</link>
         <pubDate>Sun, 23 Feb 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/qgis-processing/</guid>
-        <description>&lt;img src="http://localhost:59740/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
+        <guid>http://localhost:1313/qgis-processing/</guid>
+        <description>&lt;img src="http://localhost:1313/qgis-processing/images/qgis_processing.png" alt="Featured image of post QGISで、fToolsとGDALToolsが見当たらない?" /&gt;&lt;p&gt;QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。&lt;/p&gt;
 &lt;p&gt;QGISをインストールしたタイミングによっては、お使いのQGIS上で利用可能かもしれませんが、今後はこの形態では提供されないことになります。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/54&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;QEP 54: Dropping fTools and GDALTools core plugins in favor of the Processing · Issue #54 · qgis/QGIS-Enhancement-Proposals&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;メニュー項目として後ろから3番目あたりに「プロセッシング」というメニューが表示されていれば、そちらから利用できます。&lt;/p&gt;
 &lt;p&gt;表示されていない場合は、「プラグインの管理とインストール」から入手します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/qgis-processing/images/qgis_processing.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/qgis-processing/images/qgis_processing.png&#34;
 	width=&#34;1032&#34;
 	height=&#34;647&#34;
-	srcset=&#34;http://localhost:59740/qgis-processing/images/qgis_processing_hu_a2219112974f2efd.png 480w, http://localhost:59740/qgis-processing/images/qgis_processing_hu_b7deda22351fd152.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/qgis-processing/images/qgis_processing_hu_a2219112974f2efd.png 480w, http://localhost:1313/qgis-processing/images/qgis_processing_hu_b7deda22351fd152.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1743,11 +1743,11 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>EPSGコード</title>
-        <link>http://localhost:59740/epsg-code/</link>
+        <link>http://localhost:1313/epsg-code/</link>
         <pubDate>Sat, 22 Feb 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/epsg-code/</guid>
-        <description>&lt;img src="http://localhost:59740/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
+        <guid>http://localhost:1313/epsg-code/</guid>
+        <description>&lt;img src="http://localhost:1313/epsg-code/images/epsg.png" alt="Featured image of post EPSGコード" /&gt;&lt;p&gt;コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要があります。個別に扱うのは大変なので、これらをセットとして、IDを発番し、多くの地理情報システム（GIS）ではこれを使用しています。&lt;/p&gt;
 &lt;p&gt;概念的には、空間参照ID、英語ではSRID（Spatial Reference System Identifiers）と呼ばれるもので、事実上の標準として、EPSGコードが使用されています。EPSGは、the European Petroleum Survey Group（欧州石油調査グループ）の略称です。&lt;/p&gt;
 &lt;h3 id=&#34;日本でよく使用される測地基準系と座標系一覧筆者調べ&#34;&gt;日本でよく使用される測地基準系と座標系一覧（筆者調べ）
 &lt;/h3&gt;&lt;table class=&#34;wp-block-table&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Tokyo&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2000&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;JGD2011&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;WGS84&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;地理座標系&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;4612&lt;/td&gt;&lt;td&gt;6668&lt;/td&gt;&lt;td&gt;4326&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UTM投影座標系&lt;/td&gt;&lt;td&gt;3092〜3096&lt;/td&gt;&lt;td&gt;3097〜3101&lt;/td&gt;&lt;td&gt;6688〜6692&lt;/td&gt;&lt;td&gt;32651〜32656&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;平面直角投影座標系&lt;/td&gt;&lt;td&gt;30161〜30179&lt;/td&gt;&lt;td&gt;2443〜2461&lt;/td&gt;&lt;td&gt;6669〜6687&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;球面メルカトル図法&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;3857&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
@@ -1782,18 +1782,18 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>ShapefileからTopoJSONを生成する</title>
-        <link>http://localhost:59740/shapefile-to-topojson/</link>
+        <link>http://localhost:1313/shapefile-to-topojson/</link>
         <pubDate>Sun, 18 May 2014 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/shapefile-to-topojson/</guid>
-        <description>&lt;img src="http://localhost:59740/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
+        <guid>http://localhost:1313/shapefile-to-topojson/</guid>
+        <description>&lt;img src="http://localhost:1313/shapefile-to-topojson/images/fi_Shape2Topo.png" alt="Featured image of post ShapefileからTopoJSONを生成する" /&gt;&lt;h2 id=&#34;shapefilegeojsontopojson&#34;&gt;Shapefile→GeoJSON→TopoJSON
 &lt;/h2&gt;&lt;p&gt;Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。今回は都道府県ごとに分かれた日本地図を描画することをゴールにします。まずはShapefileからGeoJSONを生成し、その後GeoJSONからTopoJSONを生成することとします。&lt;/p&gt;
 &lt;h2 id=&#34;shapefileを編集する&#34;&gt;Shapefileを編集する
 &lt;/h2&gt;&lt;h3 id=&#34;国土地理院地球地図からshapefileをダウンロードする&#34;&gt;国土地理院「地球地図」からShapefileをダウンロードする
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;749&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hu_a483d5e38634545a.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hu_be477d8732b8bb79.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hu_a483d5e38634545a.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-ChukyuChizu-1_hu_be477d8732b8bb79.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1805,10 +1805,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;今回の目的から都道府県ごとの粒度のものがいいのですが、ないので市区町村ごとの粒度のものをダウンロードし、手元で修正することにします。&lt;a class=&#34;link&#34; href=&#34;http://www.gsi.go.jp/kankyochiri/gm_jpn.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「地球地図日本のデータ」&lt;/a&gt;から第2版ベクタ（2011年公開）行政界 Shapeファイルをダウンロードします。&lt;/p&gt;
 &lt;h3 id=&#34;qgisでshapefileを読み込む&#34;&gt;QGISでShapefileを読み込む
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-02-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-02-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-02-1_hu_583df3f38da677a.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-02-1_hu_19f9a026fbb49069.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-02-1_hu_583df3f38da677a.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-02-1_hu_19f9a026fbb49069.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1819,10 +1819,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;ここからQGISというアプリケーションを使います。展開したフォルダ内にはShapefileが３つありますが、そのうちpolbnda_jpn.shpというファイルをQGISで読み込みます。QGISで「ベクターレイヤーの追加」を選択するとダイアログが表示されますので、ソース→データセットの箇所でShapefileを指定する、という方法で取り込みます。&lt;/p&gt;
 &lt;h3 id=&#34;crsを確認する&#34;&gt;CRSを確認する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-03-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-03-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-03-1_hu_50d31270603596ef.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-03-1_hu_a1a1b2a1cbcfbb4c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-03-1_hu_50d31270603596ef.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-03-1_hu_a1a1b2a1cbcfbb4c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1833,10 +1833,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;するとこんな感じで表示されます。見慣れた日本地図の形ではないな？と思ったら（そうでなくても）右下を見てください。ここに現在の描画用のCRS(Coordinate Reference System=空間参照系)の設定が(EPSG:&amp;hellip;)と表示されています。赤丸箇所のボタンをクリックすると設定画面のCRSタブが開きます。&lt;/p&gt;
 &lt;h3 id=&#34;crsを変更する&#34;&gt;CRSを変更する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-04-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-04-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;616&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-04-1_hu_5c0d726eaa45c13f.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-04-1_hu_b713b55e38984feb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-04-1_hu_5c0d726eaa45c13f.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-04-1_hu_b713b55e38984feb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1847,10 +1847,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;最上段の「&amp;lsquo;オンザフライ&amp;rsquo;CRS変換を有効にする」にチェックを入れると、座標参照システムを変更できるようになりますので、EPSG:900913（Google Mercator）を選択し、この画面を閉じます。&lt;/p&gt;
 &lt;h3 id=&#34;属性テーブルを開く&#34;&gt;属性テーブルを開く
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-05-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-05-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;486&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-05-1_hu_55b548d3c0cdea.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-05-1_hu_abdf0cdbd1948671.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-05-1_hu_55b548d3c0cdea.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-05-1_hu_abdf0cdbd1948671.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1861,10 +1861,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;日本地図の乗っているベクターレイヤーを右クリックし、「属性テーブルを開く」を選択します。&lt;/p&gt;
 &lt;h3 id=&#34;不要のカラムを削除する&#34;&gt;不要のカラムを削除する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-06-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-06-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;478&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-06-1_hu_280d7c909b0da786.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-06-1_hu_a158a321ce56462f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-06-1_hu_280d7c909b0da786.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-06-1_hu_a158a321ce56462f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1875,10 +1875,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;不要のカラムを削除します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「カラムを削除する」ボタンを押すと、ダイアログが表示され、そこで削除するカラムを選択します。今回はnamカラム以外をすべて削除します。&lt;/p&gt;
 &lt;h3 id=&#34;namカラムの表記揺れを解消する&#34;&gt;namカラムの表記揺れを解消する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-07.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-07.png&#34;
 	width=&#34;305&#34;
 	height=&#34;307&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-07_hu_7b24ae6bc6512679.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-07_hu_93205ead1b9d368d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-07_hu_7b24ae6bc6512679.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-07_hu_93205ead1b9d368d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-07&#34;
@@ -1891,10 +1891,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;愛知県と福岡県と長野県が表記揺れしているので、表記を統一します(例：Aichi KenとAICHIなど)。&lt;/p&gt;
 &lt;h3 id=&#34;都道府県ごとにまとめる&#34;&gt;都道府県ごとにまとめる
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-09.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-09.png&#34;
 	width=&#34;381&#34;
 	height=&#34;386&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-09_hu_948187dc3423aa65.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-09_hu_68fb985a25a90805.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-09_hu_948187dc3423aa65.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-09_hu_68fb985a25a90805.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-09&#34;
@@ -1907,10 +1907,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;現在のデータは市区町村ごとにわかれていますので、namカラムの都道府県表記を使って、都道府県ごとにまとめます。「ベクター」→「空間演算ツール」→「融合」を選択すると図のようなダイアログが表示されるので、融合フィールドに「nam」を選択します。「出力シェープファイル」はお好きなものを、「結果をキャンパスに追加する」をチェックすると融合した結果を現在開いているファイルへベクターレイヤーとして追加されます。&lt;/p&gt;
 &lt;h3 id=&#34;日本語表記とidを追加する&#34;&gt;日本語表記とIDを追加する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-10-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-10-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;597&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-10-1_hu_d7f52b72531feeea.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-10-1_hu_d7067317351342f9.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-10-1_hu_d7f52b72531feeea.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-10-1_hu_d7067317351342f9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1921,10 +1921,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;使い勝手を考えて、カラムを追加します。左上の鉛筆アイコンの「編集モードを切替」ボタンをクリックして編集モードに入り、「新規カラムを作る」ボタンを押すと、ダイアログが表示され、そこで新規カラムの名称と幅を指定します。追加には外部ファイルを読み込む方法と、QGIS上で手入力する方法とあります。&lt;/p&gt;
 &lt;h3 id=&#34;shapefileとして保存する&#34;&gt;Shapefileとして保存する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-11-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-11-1.png&#34;
 	width=&#34;613&#34;
 	height=&#34;583&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-11-1_hu_d87dd75b6e259e0f.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-11-1_hu_a1c65b920891a5e3.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-11-1_hu_d87dd75b6e259e0f.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-11-1_hu_a1c65b920891a5e3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1936,10 +1936,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;ベクターレイヤーを右クリックし「名前をつけて保存」を選択すると図のようなダイアログが表示されるので任意の設定をして保存します。これでShapefileの編集をおわります。&lt;/p&gt;
 &lt;h2 id=&#34;shapefileをgeojsonに変換する&#34;&gt;ShapefileをGeoJSONに変換する
 &lt;/h2&gt;&lt;h3 id=&#34;shapefileをgeojsonに変換する-1&#34;&gt;ShapefileをGeoJSONに変換する
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-12.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-12.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-12_hu_4db74bd5a5b487c3.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-12_hu_9e426196d4346920.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-12_hu_4db74bd5a5b487c3.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-12_hu_9e426196d4346920.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-12&#34;
@@ -1952,10 +1952,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.gdal.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GDAL&lt;/a&gt;というツールを使って、ShapeファイルをGeoJSONに変換します。一つ前のステップで、ファイルを保存する際にGeoJSON形式を選べばGeoJSONに変換することが可能です。別な方法としてGDALを使う方法もあります。GDALはMacであればHomebrewでインストール可能です。ogr2ogr -f geoJSON (出力ファイル名) (入力ファイル名)というコマンドを実行すると変換されます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1966,10 +1966,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
 &lt;h2 id=&#34;geojsonをtopojsonに変換する&#34;&gt;GeoJSONをTopoJSONに変換する
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-14.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-14.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-14&#34;
@@ -1985,10 +1985,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/d3-topojson/#commandline&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;手元のPCでGeoJsonをTopoJsonに変換したい場合&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1999,10 +1999,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &gt;&lt;/p&gt;
 &lt;p&gt;生成されたファイルの中身はこんな感じです。&lt;/p&gt;
 &lt;h2 id=&#34;topojsonを読み込んで地形を描画する&#34;&gt;TopoJSONを読み込んで地形を描画する
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-16-1.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-16-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;422&#34;
-	srcset=&#34;http://localhost:59740/shapefile-to-topojson/images/shgeotopo-16-1_hu_f21cc30feebd9d48.png 480w, http://localhost:59740/shapefile-to-topojson/images/shgeotopo-16-1_hu_599b79974bd2f755.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/shapefile-to-topojson/images/shgeotopo-16-1_hu_f21cc30feebd9d48.png 480w, http://localhost:1313/shapefile-to-topojson/images/shgeotopo-16-1_hu_599b79974bd2f755.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2020,11 +2020,11 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
         </item>
         <item>
         <title>D3: TopoJSON</title>
-        <link>http://localhost:59740/d3-topojson/</link>
+        <link>http://localhost:1313/d3-topojson/</link>
         <pubDate>Wed, 18 Sep 2013 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/d3-topojson/</guid>
-        <description>&lt;img src="http://localhost:59740/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
+        <guid>http://localhost:1313/d3-topojson/</guid>
+        <description>&lt;img src="http://localhost:1313/d3-topojson/images/fi_TopoJson.png" alt="Featured image of post D3: TopoJSON" /&gt;&lt;p&gt;耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/mbostock/topojson&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;TopoJSON on Github&lt;/a&gt;&lt;/li&gt;
@@ -2041,10 +2041,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;p&gt;とのことでこの結果、ファイルサイズをかなり削減(通常のものでは80%程度)できて、効率的にデータの活用もできるとのことです。&lt;/p&gt;
 &lt;h3 id=&#34;手元のpcでgeojsonをtopojsonに変換したい場合&#34;&gt;手元のPCでGeoJsonをTopoJsonに変換したい場合
 &lt;/h3&gt;&lt;p&gt;コマンドラインで実行します。Node.js、topojsonをインストールしたのち、Macの場合はTerminalで、topojson -o output.json input.json といったコマンドを実行します。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-14.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-14.png&#34;
 	width=&#34;505&#34;
 	height=&#34;366&#34;
-	srcset=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, http://localhost:59740/d3-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-14_hu_d279a1b82718bdf6.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-14_hu_a52795970f739988.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;shgeotopo-14&#34;
@@ -2093,10 +2093,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/ul&gt;
 &lt;h3 id=&#34;topojsonファイルの構造&#34;&gt;topojsonファイルの構造
 &lt;/h3&gt;&lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-15-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-15-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, http://localhost:59740/d3-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-15-1_hu_e82108a03b534d08.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-15-1_hu_6eef44068f7095f1.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2110,10 +2110,10 @@ Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-13-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-13-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;540&#34;
-	srcset=&#34;http://localhost:59740/d3-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, http://localhost:59740/d3-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/d3-topojson/images/shgeotopo-13-1_hu_fbd6d6d44c37f0cf.png 480w, http://localhost:1313/d3-topojson/images/shgeotopo-13-1_hu_6cba3d8efd9c1c21.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

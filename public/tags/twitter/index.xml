@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Twitter on Visualizing.JP</title>
-        <link>http://localhost:59740/tags/twitter/</link>
+        <link>http://localhost:1313/tags/twitter/</link>
         <description>Recent content in Twitter on Visualizing.JP</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Tue, 05 Nov 2013 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:59740/tags/twitter/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 05 Nov 2013 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/twitter/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント</title>
-        <link>http://localhost:59740/openvisconf2013-miguel/</link>
+        <link>http://localhost:1313/openvisconf2013-miguel/</link>
         <pubDate>Tue, 05 Nov 2013 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:59740/openvisconf2013-miguel/</guid>
-        <description>&lt;img src="http://localhost:59740/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;
+        <guid>http://localhost:1313/openvisconf2013-miguel/</guid>
+        <description>&lt;img src="http://localhost:1313/openvisconf2013-miguel/images/fi_OVC2013Miguel.png" alt="Featured image of post ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント" /&gt;&lt;p&gt;ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。そんなテーマでTwitter社でVisual Analysis &amp;amp; Insights teamのMiguel Rios氏が、今年5月にボストンのOpenVis Conferenceで講演しました。&lt;/p&gt;
 &lt;p&gt;講演での順番とはちょうど逆になりますが、話の流れがわかりやすい順番に構成します。&lt;/p&gt;
 &lt;p&gt;主にブラウザーのレンダリングの仕方が、DOM構造を残した状態なのか、そうでなく1つのDOM要素(canvas要素)の中にすべて描画するのか、という点を切り口に、主要な実装方法であるHTML/CSS、SVG、HTML5 Canvas、WebGLを取り上げ、整理しています。&lt;/p&gt;
 &lt;h3 id=&#34;実装にとりかかる前に明らかにすべきこと&#34;&gt;実装にとりかかる前に明らかにすべきこと
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;465&#34;
-	srcset=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu_73988db0312b3eed.png 480w, http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu_e5b0effafdf44acb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu_73988db0312b3eed.png 480w, http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2-1_hu_e5b0effafdf44acb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -39,10 +39,10 @@
 &lt;/ul&gt;
 &lt;p&gt;これらの検討項目とともに依ってたつ実装方法と実際のTwitter社での事例とともにまとめた表を使いながら説明がされました。&lt;/p&gt;
 &lt;h3 id=&#34;ウェブ標準技術とビジュアライゼーションとの親和性&#34;&gt;ウェブ標準技術とビジュアライゼーションとの親和性
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-3-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-3-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;465&#34;
-	srcset=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu_7446323758e1bd2c.png 480w, http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu_d0061a39481a8660.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu_7446323758e1bd2c.png 480w, http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-3-1_hu_d0061a39481a8660.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -58,10 +58,10 @@
 &lt;p&gt;HTML/SVG要素が少ない、形状が複雑、インタラクティブなビジュアライゼーションに適している。CANVAS小規模から比較的多数の要素やアニメーションに適している。WEBGL小規模から非常に大多数の要素、複雑な形状のアニメーションや3Dビジュアライゼーションに適している。&lt;/p&gt;
 &lt;h3 id=&#34;参照したtwitter社の実装例&#34;&gt;参照したTwitter社の実装例
 &lt;/h3&gt;&lt;h4 id=&#34;2012-us-elections-map&#34;&gt;2012 U.S. ELECTIONS MAP
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;719&#34;
-	srcset=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1_hu_af70cda0aa07758a.png 480w, http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1_hu_3b137f9cadbcc215.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1_hu_af70cda0aa07758a.png 480w, http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-Political-Engagement-Map-Explore-engagement-with-candidates-Tweets-during-the-2012-campaign.-1_hu_3b137f9cadbcc215.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -72,10 +72,10 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;2012年選挙の際、大統領候補者によって送られたTweetによるエンゲージメントの可視化。&lt;/p&gt;
 &lt;h4 id=&#34;2011-japan-earthquakeリンク先は動画&#34;&gt;2011 JAPAN EARTHQUAKE（リンク先は動画）
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1.png&#34;
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;483&#34;
-	srcset=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu_276bb61c34c12742.png 480w, http://localhost:59740/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu_1513de23cc3f01f4.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu_276bb61c34c12742.png 480w, http://localhost:1313/openvisconf2013-miguel/images/openvis2013Miguel-2011-JAPAN-EARTHQUAKE-1_hu_1513de23cc3f01f4.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -87,10 +87,10 @@
 &lt;p&gt;3.11の地震発生一時間後、日本発のTweetがどのようにRetweetされ世界中に伝播していったかの可視化。&lt;/p&gt;
 &lt;h4 id=&#34;neil-armstrongs-visualizationリンク先は動画&#34;&gt;NEIL ARMSTRONG&amp;rsquo;S VISUALIZATION（リンク先は動画）
 &lt;/h4&gt;&lt;p&gt;ニール·アームストロングが亡くなったことについての@NASAのTweetがどのようにRetweetされ世界中に伝播していったかの可視化。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1.png&#34;
 	width=&#34;690&#34;
 	height=&#34;516&#34;
-	srcset=&#34;http://localhost:59740/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu_8228fbb41d2e8e4e.png 480w, http://localhost:59740/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu_43c7ddaadc428491.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu_8228fbb41d2e8e4e.png 480w, http://localhost:1313/openvisconf2013-miguel/images/openvis2013MiguelNEIL-ARMSTRONG-1_hu_43c7ddaadc428491.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
