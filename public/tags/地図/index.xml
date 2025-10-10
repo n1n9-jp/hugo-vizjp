@@ -815,13 +815,12 @@
 &lt;/h2&gt;&lt;p&gt;アーサー・H・ロビンソンら「地図学の基礎」&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ベクター・フィールド・マップ（Vector Field Map）</title>
+        <title>ベクター・フィールド・マップ（Vector Field Map）の事例</title>
         <link>http://localhost:1313/vector-field-map-example/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map-example/</guid>
-        <description>&lt;img src="http://localhost:1313/vector-field-map-example/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
-&lt;p&gt;ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/vector-field-map-example/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）の事例" /&gt;&lt;p&gt;ベクター・フィールド・マップの作例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;wind-map&#34;&gt;wind map
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/wind_map.png&#34;
@@ -898,8 +897,6 @@
 &lt;li&gt;OSTR: イメージガイド流線（積分曲線）&lt;/li&gt;
 &lt;li&gt;GSTR: 規則的なグリッドにシードされた流線&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか
-&lt;/h2&gt;&lt;p&gt;不明。&lt;/p&gt;
 &lt;h2 id=&#34;以前の似た作例&#34;&gt;以前の似た作例
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
 	width=&#34;402&#34;
@@ -916,14 +913,12 @@
 &lt;p&gt;コンピュータによるマイグレーション・マッピングの実験&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/253604711_Experiments_In_Migration_Mapping_By_Computer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;(PDF) Experiments In Migration Mapping By Computer&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;類似する地図&#34;&gt;類似する地図
-&lt;/h2&gt;&lt;p&gt;特にありません。&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び名&#34;&gt;他の呼び名
-&lt;/h2&gt;&lt;p&gt;Migration Maps&lt;/p&gt;
 &lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;p&gt;Katy Börner — Atlas of Knowledge
-Katy Börner — Atlas of Science
-Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Katy Börner — Atlas of Knowledge&lt;/li&gt;
+&lt;li&gt;Katy Börner — Atlas of Science&lt;/li&gt;
+&lt;li&gt;Tamara Munzner — Visualization Analysis and Design&lt;/li&gt;
+&lt;/ul&gt;</description>
         </item>
         <item>
         <title>コロプレス・マップ（Choropleth Map）</title>

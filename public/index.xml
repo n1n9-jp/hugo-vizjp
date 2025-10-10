@@ -596,6 +596,146 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
+        <link>http://localhost:1313/bivariate-choropleth-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bivariate-choropleth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/bivariate-choropleth-map/images/cover.png" alt="Featured image of post 二変数コロプレス・マップ（Bivariate Choropleth Map）とは" /&gt;&lt;p&gt;二変数コロプレス・マップ（Bivariate Choropleth Map）は &lt;strong&gt;2つの異なる変数を同時に地理的に表現する地図&lt;/strong&gt; です。通常のコロプレス・マップ（単変量地図）が地域ごとの1つの値（例えば人口密度や所得水準など）を色の濃淡で表すのに対し、二変数コロプレスでは &lt;strong&gt;2軸（2つの変数）を組み合わせて色相と明度、または2色のブレンドによって表現&lt;/strong&gt; します。&lt;/p&gt;
+&lt;p&gt;例えば、「平均所得（高⇄低）」を赤系の濃淡で、「教育水準（高⇄低）」を青系の濃淡で表現し、結果として紫色の濃淡が現れる場合、その地域は「所得も教育水準も高い」と解釈できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bivariate-choropleth-map/images/mainvisual.png&#34;
+	width=&#34;960&#34;
+	height=&#34;601&#34;
+	srcset=&#34;http://localhost:1313/bivariate-choropleth-map/images/mainvisual_hu_617d1c14c2beb565.png 480w, http://localhost:1313/bivariate-choropleth-map/images/mainvisual_hu_de5e16ce5dbc7eea.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;383px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色相1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;変数A（例：所得水準など）を表し、値の高低を色の濃淡で示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色相2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;変数B（例：教育水準など）を表し、別の色系統で値の高低を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色のブレンド（交点の色）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2つの変数が交差する地点を示す混色（例：赤×青＝紫）。地域の「2軸の組み合わせ的特徴」を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;凡例（Bivariate Legend）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2次元の色マトリクスとして表示され、縦軸・横軸の関係性を視覚的に理解できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;地図本体&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各地域が、2変数の組み合わせを色で表し、地理的分布と相関パターンを確認できる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;活用例と意義&#34;&gt;活用例と意義
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップは &lt;strong&gt;社会経済・健康・環境など、複数の要因が関係しあう現象を理解するために非常に有効&lt;/strong&gt; です。たとえば：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;変数A&lt;/th&gt;
+          &lt;th&gt;変数B&lt;/th&gt;
+          &lt;th&gt;意図&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;社会経済&lt;/td&gt;
+          &lt;td&gt;所得水準&lt;/td&gt;
+          &lt;td&gt;教育水準&lt;/td&gt;
+          &lt;td&gt;経済と教育の地域格差の可視化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;公衆衛生&lt;/td&gt;
+          &lt;td&gt;高齢化率&lt;/td&gt;
+          &lt;td&gt;医療施設密度&lt;/td&gt;
+          &lt;td&gt;医療アクセスの地域差を把握&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;都市研究&lt;/td&gt;
+          &lt;td&gt;住宅価格&lt;/td&gt;
+          &lt;td&gt;犯罪率&lt;/td&gt;
+          &lt;td&gt;都市環境と治安の関係を分析&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;環境統計&lt;/td&gt;
+          &lt;td&gt;森林率&lt;/td&gt;
+          &lt;td&gt;CO₂排出量&lt;/td&gt;
+          &lt;td&gt;環境保全と産業活動のバランスを検討&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;これらの関係を1枚の地図上で可視化することで、地域間の特徴や潜在的な課題をより立体的に把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上の工夫&#34;&gt;デザイン上の工夫
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;デザイン要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;2色選定&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;補色関係（例：青と赤）を選び、混色で中間値を自然に表現。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色の段階数&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;通常は3×3または4×4のマトリクス（9〜16段階）で表現。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;凡例の配置&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;地図右下などに二次元マトリクス凡例を配置し、軸名と方向（高・低）を明示。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;視認性の確保&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;色覚多様性に配慮し、ColorBrewerのBivariateスキームなどを使用。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;関連する背景知識&#34;&gt;関連する背景知識
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップの概念は、20世紀後半以降の &lt;strong&gt;多変量地図学（Multivariate Cartography）&lt;/strong&gt; の発展とともに注目されました。特にGIS技術が普及した1990年代以降、統計データの地理的相関を1枚で把握するための手法として定着しています。&lt;/p&gt;
+&lt;p&gt;代表的なツールとしては：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ArcGIS Pro&lt;/strong&gt;（Esri社）：「Bivariate Color Symbology」をサポート&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QGIS&lt;/strong&gt;（オープンソースGIS）：スタイル設定で2変数表現が可能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R（ggplot2, tmap, cartographyパッケージ）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vega-Lite&lt;/strong&gt; などのWeb可視化ツールでも実装可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップは、単一変数では見落としがちな &lt;strong&gt;複雑な地域特性の関係性を、直感的に理解できる強力な可視化手法&lt;/strong&gt; です。特に社会科学・都市研究・公衆衛生などの分野で有効に用いられています。デザイン面では、色の選定と凡例の明確化が成否を左右します。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Multivariate_map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Multivariate map - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://learn.arcgis.com/en/projects/create-a-bivariate-choropleth-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri: Create a bivariate choropleth map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Joshua Stevens: Bivariate Choropleth Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/how-make-effective-bivariate-choropleth-maps-tableau-83121&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How to make effective bivariate choropleth maps with Tableau&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>隣接行列（Adjacency Matrix）</title>
         <link>http://localhost:1313/adiacency-matrix/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>

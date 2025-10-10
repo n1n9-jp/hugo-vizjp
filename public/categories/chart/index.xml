@@ -427,8 +427,20 @@
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map/</guid>
-        <description>&lt;img src="http://localhost:1313/vector-field-map/images/cover.png" alt="Featured image of post ベクトル・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。&lt;/p&gt;
-&lt;p&gt;この可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。色や長さでベクトルの大きさを、角度で方向を表します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/vector-field-map/images/cover.png" alt="Featured image of post ベクトル・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点でベクトル（向きと大きさを持つ量）を可視化する図です。こグリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、色や長さでベクトルの大きさを、角度で方向を表します。主に物理現象や流体の動き、風向・風速、磁場や電場の分布など、方向性を持つデータを直感的に理解するために使われます。&lt;/p&gt;
+&lt;p&gt;この可視化は、各点に矢印（ベクトル）を描くことで、どの方向にどれだけの強さで「力」や「流れ」があるかを示します。ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map/images/mainvisual.png&#34;
+	width=&#34;576&#34;
+	height=&#34;576&#34;
+	srcset=&#34;http://localhost:1313/vector-field-map/images/mainvisual_hu_e0d09109beb69893.png 480w, http://localhost:1313/vector-field-map/images/mainvisual_hu_f97f713bfbbc8e17.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -466,7 +478,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;主な用途と応用例&#34;&gt;主な用途と応用例
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -504,7 +515,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;関連する表現手法&#34;&gt;関連する表現手法
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -537,7 +547,6 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;代表的な作例ツール&#34;&gt;代表的な作例・ツール
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -548,12 +557,6 @@
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;NASA Earth Observatory Wind Maps&lt;/td&gt;
-          &lt;td&gt;全球の風向・風速を動的に表示する可視化&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://earth.nullschool.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://earth.nullschool.net/&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;ParaView&lt;/td&gt;
           &lt;td&gt;科学可視化ソフト。ベクトル場・流線の描画が可能&lt;/td&gt;
@@ -572,36 +575,164 @@
           &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://d3js.org/&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Flow Map Blue&lt;/td&gt;
-          &lt;td&gt;移動方向を表す流線型地図&lt;/td&gt;
-          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowmap.blue/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://flowmap.blue/&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;背景知識&#34;&gt;背景知識
 &lt;/h2&gt;&lt;p&gt;ベクトル・フィールドの可視化は、19世紀の物理学や流体力学の発展とともに始まりました。マイケル・ファラデーは磁力線の概念を図として表現し、後にジェームズ・クラーク・マクスウェルが数式的なベクトル場理論を体系化しました。&lt;br&gt;
 現代では、数値流体シミュレーション（CFD）やリモートセンシングによって得られる高密度なデータを、ベクトル・フィールド・マップで動的に可視化することが一般的です。&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;ベクトル・フィールド・マップは、方向と大きさを同時に表現することで、空間的な力や流れの関係を理解するのに非常に有効です。物理現象や社会現象など、多様なデータに応用でき、科学・デザイン・教育の分野で広く利用されています。&lt;/p&gt;
-&lt;hr&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://earth.nullschool.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;NASA Earth Observatory – Earth Wind Map (earth.nullschool.net)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/images_contours_and_fields/quiver_demo.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Matplotlib Documentation – Quiver Demo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.paraview.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ParaView Official Site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowmap.blue/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Flow Map Blue&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;D3.js Official Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Vector_field&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wikipedia – Vector field visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Katy Börner — Atlas of Knowledge&lt;/li&gt;
+&lt;li&gt;Katy Börner — Atlas of Science&lt;/li&gt;
+&lt;li&gt;Tamara Munzner — Visualization Analysis and Design&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
+        <link>http://localhost:1313/bivariate-choropleth-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bivariate-choropleth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/bivariate-choropleth-map/images/cover.png" alt="Featured image of post 二変数コロプレス・マップ（Bivariate Choropleth Map）とは" /&gt;&lt;p&gt;二変数コロプレス・マップ（Bivariate Choropleth Map）は &lt;strong&gt;2つの異なる変数を同時に地理的に表現する地図&lt;/strong&gt; です。通常のコロプレス・マップ（単変量地図）が地域ごとの1つの値（例えば人口密度や所得水準など）を色の濃淡で表すのに対し、二変数コロプレスでは &lt;strong&gt;2軸（2つの変数）を組み合わせて色相と明度、または2色のブレンドによって表現&lt;/strong&gt; します。&lt;/p&gt;
+&lt;p&gt;例えば、「平均所得（高⇄低）」を赤系の濃淡で、「教育水準（高⇄低）」を青系の濃淡で表現し、結果として紫色の濃淡が現れる場合、その地域は「所得も教育水準も高い」と解釈できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bivariate-choropleth-map/images/mainvisual.png&#34;
+	width=&#34;960&#34;
+	height=&#34;601&#34;
+	srcset=&#34;http://localhost:1313/bivariate-choropleth-map/images/mainvisual_hu_617d1c14c2beb565.png 480w, http://localhost:1313/bivariate-choropleth-map/images/mainvisual_hu_de5e16ce5dbc7eea.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;383px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色相1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;変数A（例：所得水準など）を表し、値の高低を色の濃淡で示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色相2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;変数B（例：教育水準など）を表し、別の色系統で値の高低を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色のブレンド（交点の色）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2つの変数が交差する地点を示す混色（例：赤×青＝紫）。地域の「2軸の組み合わせ的特徴」を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;凡例（Bivariate Legend）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2次元の色マトリクスとして表示され、縦軸・横軸の関係性を視覚的に理解できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;地図本体&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各地域が、2変数の組み合わせを色で表し、地理的分布と相関パターンを確認できる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;活用例と意義&#34;&gt;活用例と意義
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップは &lt;strong&gt;社会経済・健康・環境など、複数の要因が関係しあう現象を理解するために非常に有効&lt;/strong&gt; です。たとえば：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;変数A&lt;/th&gt;
+          &lt;th&gt;変数B&lt;/th&gt;
+          &lt;th&gt;意図&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;社会経済&lt;/td&gt;
+          &lt;td&gt;所得水準&lt;/td&gt;
+          &lt;td&gt;教育水準&lt;/td&gt;
+          &lt;td&gt;経済と教育の地域格差の可視化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;公衆衛生&lt;/td&gt;
+          &lt;td&gt;高齢化率&lt;/td&gt;
+          &lt;td&gt;医療施設密度&lt;/td&gt;
+          &lt;td&gt;医療アクセスの地域差を把握&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;都市研究&lt;/td&gt;
+          &lt;td&gt;住宅価格&lt;/td&gt;
+          &lt;td&gt;犯罪率&lt;/td&gt;
+          &lt;td&gt;都市環境と治安の関係を分析&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;環境統計&lt;/td&gt;
+          &lt;td&gt;森林率&lt;/td&gt;
+          &lt;td&gt;CO₂排出量&lt;/td&gt;
+          &lt;td&gt;環境保全と産業活動のバランスを検討&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;これらの関係を1枚の地図上で可視化することで、地域間の特徴や潜在的な課題をより立体的に把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上の工夫&#34;&gt;デザイン上の工夫
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;デザイン要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;2色選定&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;補色関係（例：青と赤）を選び、混色で中間値を自然に表現。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色の段階数&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;通常は3×3または4×4のマトリクス（9〜16段階）で表現。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;凡例の配置&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;地図右下などに二次元マトリクス凡例を配置し、軸名と方向（高・低）を明示。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;視認性の確保&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;色覚多様性に配慮し、ColorBrewerのBivariateスキームなどを使用。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;関連する背景知識&#34;&gt;関連する背景知識
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップの概念は、20世紀後半以降の &lt;strong&gt;多変量地図学（Multivariate Cartography）&lt;/strong&gt; の発展とともに注目されました。特にGIS技術が普及した1990年代以降、統計データの地理的相関を1枚で把握するための手法として定着しています。&lt;/p&gt;
+&lt;p&gt;代表的なツールとしては：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ArcGIS Pro&lt;/strong&gt;（Esri社）：「Bivariate Color Symbology」をサポート&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QGIS&lt;/strong&gt;（オープンソースGIS）：スタイル設定で2変数表現が可能&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R（ggplot2, tmap, cartographyパッケージ）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vega-Lite&lt;/strong&gt; などのWeb可視化ツールでも実装可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;二変数コロプレス・マップは、単一変数では見落としがちな &lt;strong&gt;複雑な地域特性の関係性を、直感的に理解できる強力な可視化手法&lt;/strong&gt; です。特に社会科学・都市研究・公衆衛生などの分野で有効に用いられています。デザイン面では、色の選定と凡例の明確化が成否を左右します。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Multivariate_map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Multivariate map - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://learn.arcgis.com/en/projects/create-a-bivariate-choropleth-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri: Create a bivariate choropleth map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Joshua Stevens: Bivariate Choropleth Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/how-make-effective-bivariate-choropleth-maps-tableau-83121&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How to make effective bivariate choropleth maps with Tableau&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -2462,13 +2593,12 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;/h2&gt;&lt;p&gt;アーサー・H・ロビンソンら「地図学の基礎」&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ベクター・フィールド・マップ（Vector Field Map）</title>
+        <title>ベクター・フィールド・マップ（Vector Field Map）の事例</title>
         <link>http://localhost:1313/vector-field-map-example/</link>
         <pubDate>Tue, 11 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vector-field-map-example/</guid>
-        <description>&lt;img src="http://localhost:1313/vector-field-map-example/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）" /&gt;&lt;p&gt;ベクター・フィールド・マップは、連続的な位置において、多変量のベクター（ベクトル）を持ちます。幾何学的には各点は、方向と長さを持っています。この方向と長さを、グリフ（例えば、長さと幅にデータ値を反映させた矢印）を使用して、場の力と方向を示すための地図です。&lt;/p&gt;
-&lt;p&gt;ある点での（外向きの）拡散と（内向きの）吸収の傾向を予測するために使用することができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/vector-field-map-example/images/null_earth.png" alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）の事例" /&gt;&lt;p&gt;ベクター・フィールド・マップの作例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;wind-map&#34;&gt;wind map
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/wind_map.png&#34;
@@ -2545,8 +2675,6 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;li&gt;OSTR: イメージガイド流線（積分曲線）&lt;/li&gt;
 &lt;li&gt;GSTR: 規則的なグリッドにシードされた流線&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか
-&lt;/h2&gt;&lt;p&gt;不明。&lt;/p&gt;
 &lt;h2 id=&#34;以前の似た作例&#34;&gt;以前の似た作例
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/vector-field-map-example/images/1_4o1FSaAcNjfBqreY8fP28Q.png&#34;
 	width=&#34;402&#34;
@@ -2563,14 +2691,12 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;p&gt;コンピュータによるマイグレーション・マッピングの実験&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/253604711_Experiments_In_Migration_Mapping_By_Computer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;(PDF) Experiments In Migration Mapping By Computer&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;類似する地図&#34;&gt;類似する地図
-&lt;/h2&gt;&lt;p&gt;特にありません。&lt;/p&gt;
-&lt;h2 id=&#34;他の呼び名&#34;&gt;他の呼び名
-&lt;/h2&gt;&lt;p&gt;Migration Maps&lt;/p&gt;
 &lt;h2 id=&#34;参考文献&#34;&gt;参考文献
-&lt;/h2&gt;&lt;p&gt;Katy Börner — Atlas of Knowledge
-Katy Börner — Atlas of Science
-Tamara Munzner — Visualization Analysis and Design&lt;/p&gt;</description>
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Katy Börner — Atlas of Knowledge&lt;/li&gt;
+&lt;li&gt;Katy Börner — Atlas of Science&lt;/li&gt;
+&lt;li&gt;Tamara Munzner — Visualization Analysis and Design&lt;/li&gt;
+&lt;/ul&gt;</description>
         </item>
         <item>
         <title>つららチャート（Icicle Chart）</title>
