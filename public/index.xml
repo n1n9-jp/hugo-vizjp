@@ -198,6 +198,87 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>アーク・ダイアグラム (Arc Diagram)</title>
+        <link>http://localhost:1313/arc-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/arc-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/arc-diagram/images/cover.png" alt="Featured image of post アーク・ダイアグラム (Arc Diagram)" /&gt;&lt;p&gt;アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/arc-diagram/images/mainvisual.png&#34;
+	width=&#34;2381&#34;
+	height=&#34;1244&#34;
+	srcset=&#34;http://localhost:1313/arc-diagram/images/mainvisual_hu_19363382ad04bcbd.png 480w, http://localhost:1313/arc-diagram/images/mainvisual_hu_1885a5d9d1a71f52.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;459px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ノード（点）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;対象となる要素（人物、単語、音符、登場キャラクターなど）を表す。直線上に等間隔または意味のある順序で並ぶ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;アーク（円弧）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ノード間の関係性や接続を表す。線の高さや太さ、色などで関係の種類や強さを表現できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;配置の順序&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;左から右へ、または上から下へと進む直線的な並びは、時間の流れや文脈の順序を意味することが多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;重なりのパターン&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;アークが交差したり密集したりする部分は、関係が集中している、または複雑な相互関係を持つことを示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;対称性&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;対称的なアーク配置は、構造的なパターンや循環性（再帰的な関係）を暗示する。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用例&#34;&gt;背景と応用例
+&lt;/h2&gt;&lt;p&gt;アーク・ダイアグラムは、ネットワーク可視化の中でも「直線的な時間軸」や「系列的なテキスト構造」との親和性が高い手法です。たとえば以下のような領域で活用されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テキスト分析&lt;/strong&gt; ：同じ語句の出現関係や文中の参照構造を表す（例：シェイクスピア作品における人物同士の登場関係）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音楽解析&lt;/strong&gt; ：曲中で繰り返されるモチーフや和音進行の関係を示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生物情報学&lt;/strong&gt; ：遺伝子間相互作用や配列の類似性を時間軸上で視覚化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソフトウェア解析&lt;/strong&gt; ：コード内の関数呼び出し関係を直線的に表す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この手法は、ネットワーク構造を「空間的に展開する」のではなく、「時間的・文脈的な線上に射影する」ことで、観察者が系列構造と関係構造を同時に理解できる点が特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;歴史的背景&#34;&gt;歴史的背景
+&lt;/h2&gt;&lt;p&gt;Martin Wattenberg（現・Google Research, 以前はIBM Visual Communication Lab）は2002年に、音楽の構造を可視化する「The Shape of Song」プロジェクトにおいてアーク・ダイアグラムを初めて一般に紹介しました。
+この作品では、音楽の繰り返し構造が左右対称のアークとして描かれ、聴覚的な構造が視覚的パターンに変換されています。&lt;/p&gt;
+&lt;p&gt;その後、アーク・ダイアグラムはネットワーク可視化ライブラリ（Gephi, D3.js, Vega-Liteなど）に取り込まれ、現在では「ネットワーク構造を簡潔に表現する代表的手法」として定着しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;アーク・ダイアグラムは、複雑な関係性を直線的な配置で単純化し、パターン認識を助ける強力な可視化手法です。「時間・順序・関係」の三要素を同時に理解できる点が特徴であり、特に情報デザイン・音楽分析・テキスト構造解析など &lt;strong&gt;系列的構造を持つデータ&lt;/strong&gt; において有効です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Arc Diagrams: Visualizing Structure in Strings” — Martin Wattenberg, IEEE InfoVis 2002&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Arc_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc diagram — Wikipedia （頂点を直線上に配置し、半円弧などで辺を描く手法について解説&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega/examples/arc-diagram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc diagram Example | Vega （“arc diagrams were originally invented to depict repeated musical structures in Martin Wattenberg’s The Shape of Song.” と記述）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bewitched.com/song.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Shape of Song — “I created a visualization method called an arc diagram that highlighted repeated sections …”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Martin_M._Wattenberg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Martin M. Wattenberg — 可視化分野・Arc Diagram との関連を記述&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arc Diagrams: Visualizing Structure in Strings (IBM 公開版) — IBM サイト上での発表概要&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>隣接行列（Adjacency Matrix）</title>
         <link>http://localhost:1313/adiacency-matrix/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>

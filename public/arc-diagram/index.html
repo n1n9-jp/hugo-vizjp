@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<title>隣接行列（Adjacency Matrix）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。\n">
+<title>アーク・ダイアグラム (Arc Diagram)</title>
 
-<link rel='canonical' href='http://localhost:1313/adiacency-matrix/'>
+<link rel='canonical' href='http://localhost:1313/arc-diagram/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="隣接行列（Adjacency Matrix）">
-<meta property='og:description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<meta property='og:url' content='http://localhost:1313/adiacency-matrix/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="アーク・ダイアグラム (Arc Diagram)">
+<meta property='og:description' content="アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。\n">
+<meta property='og:url' content='http://localhost:1313/arc-diagram/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/adiacency-matrix/images/cover.png' />
-<meta name="twitter:title" content="隣接行列（Adjacency Matrix）">
-<meta name="twitter:description" content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/adiacency-matrix/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/arc-diagram/images/cover.png' />
+<meta name="twitter:title" content="アーク・ダイアグラム (Arc Diagram)">
+<meta name="twitter:description" content="アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/arc-diagram/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -387,9 +387,8 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#図解の見方">図解の見方</a></li>
-    <li><a href="#背景と特徴">背景と特徴</a></li>
-    <li><a href="#可視化上の応用">可視化上の応用</a></li>
-    <li><a href="#関連する発展形">関連する発展形</a></li>
+    <li><a href="#背景と応用例">背景と応用例</a></li>
+    <li><a href="#歴史的背景">歴史的背景</a></li>
     <li><a href="#まとめ">まとめ</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
@@ -406,13 +405,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/adiacency-matrix/">
-                <img src="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png"
-                        srcset="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png 800w, /adiacency-matrix/images/cover_hu_9509c67c3058f6e3.png 1600w"
+            <a href="/arc-diagram/">
+                <img src="/arc-diagram/images/cover_hu_17494c113a13bf71.png"
+                        srcset="/arc-diagram/images/cover_hu_17494c113a13bf71.png 800w, /arc-diagram/images/cover_hu_6dca4f5cf34e483e.png 1600w"
                         width="800" 
-                        height="385" 
+                        height="418" 
                         loading="lazy"
-                        alt="Featured image of post 隣接行列（Adjacency Matrix）" />
+                        alt="Featured image of post アーク・ダイアグラム (Arc Diagram)" />
                 
             </a>
         </div>
@@ -431,7 +430,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/adiacency-matrix/">隣接行列（Adjacency Matrix）</a>
+            <a href="/arc-diagram/">アーク・ダイアグラム (Arc Diagram)</a>
         </h2>
     
         
@@ -483,147 +482,79 @@
     <section class="article-content">
     
     
-    <p>隣接行列（adjacency matrix）は、<strong>ネットワーク（グラフ）構造を数値の表形式で表現する方法</strong>です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。</p>
-<p><img src="/adiacency-matrix/images/mainvisual.jpg"
-	width="836"
-	height="918"
-	srcset="/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, /adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w"
+    <p>アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。</p>
+<p><img src="/arc-diagram/images/mainvisual.png"
+	width="2381"
+	height="1244"
+	srcset="/arc-diagram/images/mainvisual_hu_19363382ad04bcbd.png 480w, /arc-diagram/images/mainvisual_hu_1885a5d9d1a71f52.png 1024w"
 	loading="lazy"
-	
-		alt="Les Misérables Co-occurrence"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="91"
-		data-flex-basis="218px"
+		data-flex-grow="191"
+		data-flex-basis="459px"
 	
 ></p>
 <h2 id="図解の見方">図解の見方
-</h2><p>隣接行列では、<strong>縦軸と横軸にすべてのノード（頂点）を並べ</strong>、交差点のセル（マス目）に「接続があるかどうか」を記します。</p>
-<div class="table-wrapper"><table>
+</h2><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>行・列</th>
-          <th>意味</th>
-          <th>セルの値の意味</th>
-          <th>備考</th>
+          <th>要素</th>
+          <th>説明</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>行（縦）</td>
-          <td>出発ノード（From）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>有向グラフでは「出発点」を示す</td>
+          <td><strong>ノード（点）</strong></td>
+          <td>対象となる要素（人物、単語、音符、登場キャラクターなど）を表す。直線上に等間隔または意味のある順序で並ぶ。</td>
       </tr>
       <tr>
-          <td>列（横）</td>
-          <td>到達ノード（To）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>無向グラフでは行列が対称になる</td>
+          <td><strong>アーク（円弧）</strong></td>
+          <td>ノード間の関係性や接続を表す。線の高さや太さ、色などで関係の種類や強さを表現できる。</td>
       </tr>
       <tr>
-          <td>対角成分</td>
-          <td>自己ループ</td>
-          <td>1の場合：ノードが自分自身へ接続</td>
-          <td>多くのネットワークでは0</td>
+          <td><strong>配置の順序</strong></td>
+          <td>左から右へ、または上から下へと進む直線的な並びは、時間の流れや文脈の順序を意味することが多い。</td>
+      </tr>
+      <tr>
+          <td><strong>重なりのパターン</strong></td>
+          <td>アークが交差したり密集したりする部分は、関係が集中している、または複雑な相互関係を持つことを示す。</td>
+      </tr>
+      <tr>
+          <td><strong>対称性</strong></td>
+          <td>対称的なアーク配置は、構造的なパターンや循環性（再帰的な関係）を暗示する。</td>
       </tr>
   </tbody>
 </table></div>
-<p>例えば、3つのノード A, B, C のネットワークで<br>
-A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th></th>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>A</strong></td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-      </tr>
-      <tr>
-          <td><strong>B</strong></td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-      </tr>
-      <tr>
-          <td><strong>C</strong></td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-      </tr>
-  </tbody>
-</table></div>
-<p>このように、<strong>行列の1つ1つのセルがエッジ（辺）を表す</strong>ため、リンクの有無を簡潔に比較できます。</p>
-<h2 id="背景と特徴">背景と特徴
-</h2><ul>
-<li>
-<p><strong>発展の背景</strong><br>
-隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。</p>
-</li>
-<li>
-<p><strong>長所</strong></p>
+<h2 id="背景と応用例">背景と応用例
+</h2><p>アーク・ダイアグラムは、ネットワーク可視化の中でも「直線的な時間軸」や「系列的なテキスト構造」との親和性が高い手法です。たとえば以下のような領域で活用されています。</p>
 <ul>
-<li>行列演算が使えるため、ネットワークの <strong>連結成分・経路探索・中心性計算</strong> に有効。</li>
-<li>形式が単純で <strong>プログラム実装や保存</strong> に適する。</li>
+<li><strong>テキスト分析</strong> ：同じ語句の出現関係や文中の参照構造を表す（例：シェイクスピア作品における人物同士の登場関係）。</li>
+<li><strong>音楽解析</strong> ：曲中で繰り返されるモチーフや和音進行の関係を示す。</li>
+<li><strong>生物情報学</strong> ：遺伝子間相互作用や配列の類似性を時間軸上で視覚化。</li>
+<li><strong>ソフトウェア解析</strong> ：コード内の関数呼び出し関係を直線的に表す。</li>
 </ul>
-</li>
-<li>
-<p><strong>短所</strong></p>
-<ul>
-<li>ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは <strong>非効率</strong> 。</li>
-<li>視覚的な理解が難しく、大規模ネットワークでは <strong>密集したパターン（hairball）</strong> になりやすい。</li>
-</ul>
-</li>
-</ul>
-<h2 id="可視化上の応用">可視化上の応用
-</h2><p>隣接行列は <strong>ネットワーク可視化の「行列型レイアウト」</strong> として利用されます。<br>
-ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく <strong>構造的な規則性（クラスター、対称性、自己ループなど）</strong> を視覚的に発見しやすい特徴があります。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>可視化形式</th>
-          <th>特徴</th>
-          <th>適用例</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>ノードリンク図</td>
-          <td>直感的・空間的関係を表現</td>
-          <td>小規模ネットワーク</td>
-      </tr>
-      <tr>
-          <td>隣接行列</td>
-          <td>構造・関係パターンを強調</td>
-          <td>大規模・密集ネットワーク、社会ネットワーク</td>
-      </tr>
-  </tbody>
-</table></div>
-<h2 id="関連する発展形">関連する発展形
-</h2><ul>
-<li><strong>ソート済み隣接行列（Sorted Adjacency Matrix）</strong>：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。</li>
-<li><strong>相関行列との比較</strong>：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。</li>
-<li><strong>BioFabric・Hive Plotなど</strong>：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。</li>
-</ul>
+<p>この手法は、ネットワーク構造を「空間的に展開する」のではなく、「時間的・文脈的な線上に射影する」ことで、観察者が系列構造と関係構造を同時に理解できる点が特徴です。</p>
+<h2 id="歴史的背景">歴史的背景
+</h2><p>Martin Wattenberg（現・Google Research, 以前はIBM Visual Communication Lab）は2002年に、音楽の構造を可視化する「The Shape of Song」プロジェクトにおいてアーク・ダイアグラムを初めて一般に紹介しました。
+この作品では、音楽の繰り返し構造が左右対称のアークとして描かれ、聴覚的な構造が視覚的パターンに変換されています。</p>
+<p>その後、アーク・ダイアグラムはネットワーク可視化ライブラリ（Gephi, D3.js, Vega-Liteなど）に取り込まれ、現在では「ネットワーク構造を簡潔に表現する代表的手法」として定着しています。</p>
 <h2 id="まとめ">まとめ
-</h2><p>隣接行列は <strong>ネットワークを数値的・構造的に理解するための基本フォーマット</strong> であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。</p>
+</h2><p>アーク・ダイアグラムは、複雑な関係性を直線的な配置で単純化し、パターン認識を助ける強力な可視化手法です。「時間・順序・関係」の三要素を同時に理解できる点が特徴であり、特に情報デザイン・音楽分析・テキスト構造解析など <strong>系列的構造を持つデータ</strong> において有効です。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://en.wikipedia.org/wiki/Adjacency_matrix"  target="_blank" rel="noopener"
-    >Wikipedia: Adjacency matrix</a></li>
-<li><a class="link" href="https://networksciencebook.com/chapter/3"  target="_blank" rel="noopener"
-    >Network Science by Albert-László Barabási</a></li>
-<li><a class="link" href="https://bost.ocks.org/mike/miserables/"  target="_blank" rel="noopener"
-    >Les Misérables Co-occurrence</a></li>
+<li><a class="link" href="https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings"  target="_blank" rel="noopener"
+    >“Arc Diagrams: Visualizing Structure in Strings” — Martin Wattenberg, IEEE InfoVis 2002</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Arc_diagram"  target="_blank" rel="noopener"
+    >Arc diagram — Wikipedia （頂点を直線上に配置し、半円弧などで辺を描く手法について解説</a></li>
+<li><a class="link" href="https://vega.github.io/vega/examples/arc-diagram/"  target="_blank" rel="noopener"
+    >Arc diagram Example | Vega （“arc diagrams were originally invented to depict repeated musical structures in Martin Wattenberg’s The Shape of Song.” と記述）</a></li>
+<li><a class="link" href="https://www.bewitched.com/song.html"  target="_blank" rel="noopener"
+    >The Shape of Song — “I created a visualization method called an arc diagram that highlighted repeated sections …”</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Martin_M._Wattenberg"  target="_blank" rel="noopener"
+    >Martin M. Wattenberg — 可視化分野・Arc Diagram との関連を記述</a></li>
+<li><a class="link" href="https://research.ibm.com/publications/arc-diagrams-visualizing-structure-in-strings"  target="_blank" rel="noopener"
+    >Arc Diagrams: Visualizing Structure in Strings (IBM 公開版) — IBM サイト上での発表概要</a></li>
 </ul>
 </section>
 
@@ -712,23 +643,23 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
             
                 
 <article class="has-image">
-    <a href="/arc-diagram/">
+    <a href="/adiacency-matrix/">
         
         
             <div class="article-image">
-                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
+                <img src="/adiacency-matrix/images/cover.e95b7c223212650f854b58a4155550a7_hu_a32468799c14e4fc.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post アーク・ダイアグラム (Arc Diagram)"
-                        data-key="arc-diagram" 
-                        data-hash="md5-iLNVeT5tA1lr1GaqNHjJTw==">
+                        alt="Featured image of post 隣接行列（Adjacency Matrix）"
+                        data-key="adiacency-matrix" 
+                        data-hash="md5-6Vt8IjISZQ&#43;FS1ikFVVQpw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">アーク・ダイアグラム (Arc Diagram)</h2>
+            <h2 class="article-title">隣接行列（Adjacency Matrix）</h2>
         </div>
     </a>
 </article>
@@ -764,7 +695,7 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         
         
             <div class="article-image">
-                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
