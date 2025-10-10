@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法"
 slug = "hive-plot"
-date = "2025-10-10"
+date = "2025-10-11"
 categories = [
     "chart"
 ]

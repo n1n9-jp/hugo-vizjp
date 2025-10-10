@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する"
 slug = "bio-fabric"
-date = "2025-10-10"
+date = "2025-10-11"
 categories = [
     "chart"
 ]
