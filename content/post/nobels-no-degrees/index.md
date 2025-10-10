@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "オリジナルのビジュアル変換",
+    "複数チャートの組み合わせ"
 ]
 image = "images/cover.png"
 +++

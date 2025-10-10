@@ -8,7 +8,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "複数チャートの組み合わせ"
 ]
 image = "images/cover-LifeOnline.jpeg"
 +++
