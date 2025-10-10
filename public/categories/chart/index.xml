@@ -7,7 +7,197 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/chart/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
+        <link>http://localhost:1313/bio-fabric/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bio-fabric/</guid>
+        <description>&lt;img src="http://localhost:1313/bio-fabric/images/cover.png" alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する" /&gt;&lt;p&gt;BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの &lt;strong&gt;複雑な相互関係を持つネットワーク構造&lt;/strong&gt; を、従来の「ノードとエッジのパラパラ図」ではなく &lt;strong&gt;線と格子によって秩序化された構造&lt;/strong&gt; として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bio-fabric/images/bedore-after.png&#34;
+	width=&#34;890&#34;
+	height=&#34;213&#34;
+	srcset=&#34;http://localhost:1313/bio-fabric/images/bedore-after_hu_fc484c285e73bf3c.png 480w, http://localhost:1313/bio-fabric/images/bedore-after_hu_8bb4ab25b7791b3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;417&#34;
+		data-flex-basis=&#34;1002px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;上図は「Comb the Hairball with BioFabric（BioFabricで“毛玉”をとかす）」という公式デモの一例で、左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図です。&lt;/p&gt;
+&lt;p&gt;左図ではノードとエッジが錯綜しており、相関や構造を把握することが困難です。一方で、右図では &lt;strong&gt;各ノードが水平線&lt;/strong&gt; 、 &lt;strong&gt;エッジが垂直線&lt;/strong&gt; として表現され、全体が格子状に整列されています。これにより、接続関係の密度やモジュール構造を直感的に読み取ることができます。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;見方のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;水平線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各ノード（遺伝子・人物・要素）を表す&lt;/td&gt;
+          &lt;td&gt;一行が一つのノードに対応する。行の位置がノードの順序関係を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;垂直線&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;エッジ（ノード間の関係）を表す&lt;/td&gt;
+          &lt;td&gt;上下に交差する点が接続関係。密集度が高いほど関連が強い部分群を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ブロック構造&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;クラスタ・モジュール構造&lt;/td&gt;
+          &lt;td&gt;同じパターンの線群が塊を形成する部分。機能的モジュールやコミュニティに対応。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色分け&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;異なる属性や分類&lt;/td&gt;
+          &lt;td&gt;例えば、系統分類、サブネットワーク、重みなどを色で識別できる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;右下の拡大図（YOR372Cなど）は、実際のデータセット「Yeast High-Quality Network（酵母の高品質ネットワーク）」からの部分です。局所的な接続構造が格子状に展開され、どのノードがどのような関係を持つかが整然と示されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bio-fabric/images/mainvisual.png&#34;
+	width=&#34;1024&#34;
+	height=&#34;452&#34;
+	srcset=&#34;http://localhost:1313/bio-fabric/images/mainvisual_hu_bc5a12196960c822.png 480w, http://localhost:1313/bio-fabric/images/mainvisual_hu_8b59bcc006cc8ae2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;BioFabric&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;226&#34;
+		data-flex-basis=&#34;543px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;従来のネットワーク図は、ノード数やエッジ数が増えると「毛玉状（hairball）」になり、情報が読み取れなくなる問題がありました。BioFabricはこの問題を&lt;strong&gt;レイアウトの発想自体を変えることで解決&lt;/strong&gt;しました。&lt;br&gt;
+ノードを線に変換することで、次のような利点が得られます：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;重なりがない&lt;/strong&gt;ため、大規模ネットワークでも可視性が保たれる&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;エッジ密度や構造的特徴を定量的に観察&lt;/strong&gt;できる&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ヒートマップや時系列データとの統合が容易&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この発想は「ネットワークをテキスト化・表形式化する」方向への橋渡しとも言え、情報可視化の一つの新しいパラダイムです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;BioFabricは、従来の「点と線の混沌」から脱却し、&lt;strong&gt;構造の秩序と密度のパターン&lt;/strong&gt;を可視化する新しい手法です。&lt;br&gt;
+ネットワークを“毛玉”ではなく“織物”として描くことにより、膨大な関係性の中から秩序や機能的構造を見出すことが可能になります。生命科学だけでなく、社会ネットワークや都市構造の解析などにも応用が期待されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://biofabric.systemsbiology.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BioFabric: A novel network visualization tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://biofabric.systemsbiology.net/gallery/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Comb the Hairball with BioFabric (official tutorial)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-275&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Longabaugh, W. J. R. “Combing the hairball with BioFabric: a new approach for visualization of large networks.” &lt;em&gt;BMC Bioinformatics&lt;/em&gt; (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/wjrl/BioFabric&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;wjrl/BioFabric: BioFabric is an open-source network visualization tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/BioFabric&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BioFabric — Wikipedia (English)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ggraph.data-imaginist.com/reference/layout_tbl_graph_fabric.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;layout_tbl_graph_fabric — ggraph R package documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</title>
+        <link>http://localhost:1313/hive-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/hive-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/hive-plot/images/cover.png" alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法" /&gt;&lt;p&gt;複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。&lt;br&gt;
+これに対し、Martin Krzywinski（BC Cancer Research Center）は &lt;strong&gt;Hive Plot（ハイブプロット）&lt;/strong&gt; という方法を提案し、ネットワークを「意味のある軸上に秩序立てて配置」することにより、構造的パターンを明確に読み取れるようにしました。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hive-plot/images/mainvisual.png&#34;
+	width=&#34;1800&#34;
+	height=&#34;1350&#34;
+	srcset=&#34;http://localhost:1313/hive-plot/images/mainvisual_hu_45b1bfbe299388b9.png 480w, http://localhost:1313/hive-plot/images/mainvisual_hu_c4de1bcfd0898608.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hive Plotは、ネットワークノードを一つ以上の軸（通常3軸）上に配置し、ノードの特性（次数、クラスタ係数、中心性など）によって座標を決定します。エッジはこれらの軸を横断して描かれるため、ネットワークの階層性や連結の特徴が視覚的に整理されます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hive-plot/images/legend.png&#34;
+	width=&#34;575&#34;
+	height=&#34;436&#34;
+	srcset=&#34;http://localhost:1313/hive-plot/images/legend_hu_31bd33871a8d2766.png 480w, http://localhost:1313/hive-plot/images/legend_hu_ef6f0556dd7b349e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;131&#34;
+		data-flex-basis=&#34;316px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Hive Plotは、ネットワークの &lt;strong&gt;構造的特徴を数量化された基準に基づいて配置する&lt;/strong&gt; ことが特徴です。以下は、図中の要素の読み方です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;図要素&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;意味&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;読み取り方&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸（Axis）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノードを配置する基準となる指標軸（例：次数、クラスタ係数、中心性など）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;各軸は1つの特性を示す。例えば、上軸は「高次数ノード」、左軸は「低クラスタ係数」など。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノード（Node）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;個々の要素（遺伝子、サーバー、ユーザーなど）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸上の位置が特性値に対応。外側ほど値が大きい場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;エッジ（Edge）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ノード間の関係（相互作用、通信、共発現など）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;軸を跨いで接続し、関係の強さや方向性を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;色（Color）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;特定の属性やモジュールを区別&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;同系色は同じクラスタやサブネットを示す場合が多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正規化／絶対（Normalized / Absolute）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;スケール調整の違い&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;正規化図は比較分析、絶対図は全体構造の把握に向く。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば、E. coli や Linux のネットワーク図では、「IN／OUT／IN-OUT」の3軸構成により、入力中心ノード・出力中心ノード・双方向ノードが明確に分けられています。&lt;br&gt;
+また「Hive Plot Matrix」では、軸に異なる構造指標を割り当て、マトリクス的に比較することで、ネットワーク間の特徴差を定量的に比較することができます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;Hive Plotの発想は、「美しさ」ではなく「比較可能性」を目的としたネットワーク可視化にあります。力学モデルに依存したレイアウトはノードの初期条件やパラメータによって結果が大きく変わりますが、Hive Plotは &lt;strong&gt;数値的ルールに基づく再現可能な配置&lt;/strong&gt; を可能にします。&lt;/p&gt;
+&lt;p&gt;この設計思想により、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;異なるネットワーク間の比較（例：E. coli と Yeast の相互作用構造）&lt;/li&gt;
+&lt;li&gt;同一ネットワーク内での属性ごとの視点比較（例：次数 vs クラスタ係数）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が容易になります。&lt;/p&gt;
+&lt;p&gt;さらに、Hive Plotは &lt;strong&gt;BioFabric&lt;/strong&gt; などの後続技術にも影響を与え、ネットワーク構造を線ではなく「秩序ある構成要素」として再構築する流れを生みました。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Hive Plotは、「複雑さの中の秩序」を明示するための手法です。ノードやエッジの位置が &lt;strong&gt;意味をもつ&lt;/strong&gt; ことにより、従来のヘアボール的な混沌を超え、定量的で再現可能な構造分析を可能にしました。科学研究やソフトウェア解析、社会ネットワークなど、多様な分野で応用が進んでいます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hiveplot.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hive Plot — Linear Layout for Network Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サークル・パッキング (Circle Packing)</title>
         <link>http://localhost:1313/circle-packing/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>

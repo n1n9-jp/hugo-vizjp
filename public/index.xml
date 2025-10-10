@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
         <link>http://localhost:1313/bio-fabric/</link>
-        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bio-fabric/</guid>
         <description>&lt;img src="http://localhost:1313/bio-fabric/images/cover.png" alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する" /&gt;&lt;p&gt;BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの &lt;strong&gt;複雑な相互関係を持つネットワーク構造&lt;/strong&gt; を、従来の「ノードとエッジのパラパラ図」ではなく &lt;strong&gt;線と格子によって秩序化された構造&lt;/strong&gt; として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。&lt;/p&gt;
@@ -108,7 +108,7 @@
         <item>
         <title>Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</title>
         <link>http://localhost:1313/hive-plot/</link>
-        <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/hive-plot/</guid>
         <description>&lt;img src="http://localhost:1313/hive-plot/images/cover.png" alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法" /&gt;&lt;p&gt;複雑なネットワークは、従来の力学的配置（force-directed layout）では「ヘアボール（Hairball）」のように絡まり、構造的な洞察を得にくいとされてきました。&lt;br&gt;
