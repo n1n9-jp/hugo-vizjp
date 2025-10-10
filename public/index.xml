@@ -279,6 +279,149 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>コード・ダイアグラム (Chord Diagram)</title>
+        <link>http://localhost:1313/chord-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/chord-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/chord-diagram/images/cover.png" alt="Featured image of post コード・ダイアグラム (Chord Diagram)" /&gt;&lt;p&gt;&lt;strong&gt;コード・ダイアグラム（Chord Diagram）&lt;/strong&gt; は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に &lt;strong&gt;相互関係・双方向の関係・フロー量&lt;/strong&gt; などを表現するために使われ、データの対称性やバランスを直感的に把握できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01.png&#34;
+	width=&#34;900&#34;
+	height=&#34;255&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01_hu_c9ee5cff6f8f7c48.png 480w, http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-01_hu_1f61eba1e3e4a06b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;352&#34;
+		data-flex-basis=&#34;847px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-sample-panel.png&#34;
+	width=&#34;950&#34;
+	height=&#34;234&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-sample-panel_hu_cd86c65cca2cebfe.png 480w, http://localhost:1313/chord-diagram/images/circos-sample-panel_hu_c5f8edb365f8dc0e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;405&#34;
+		data-flex-basis=&#34;974px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;最初に広く知られるようになったのは、2000年代に登場した&lt;strong&gt;Circos&lt;/strong&gt;（Martin Krzywinski開発）という可視化ツールによります。その後、D3.jsなどの可視化ライブラリでも実装が普及し、遺伝子間関係・国際貿易・人口移動・産業間連関などの多様な分野で応用されています。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方chord-diagram-の場合&#34;&gt;図解の見方（Chord Diagram の場合）
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend.png&#34;
+	width=&#34;900&#34;
+	height=&#34;371&#34;
+	srcset=&#34;http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_5a6faedc02942e79.png 480w, http://localhost:1313/chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_7b9afecad1f7f4f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;242&#34;
+		data-flex-basis=&#34;582px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;表しているもの&lt;/th&gt;
+          &lt;th&gt;解釈のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;円周上のセグメント（Arc）&lt;/td&gt;
+          &lt;td&gt;各カテゴリ・ノード&lt;/td&gt;
+          &lt;td&gt;対象（国、産業、個体など）を円形に並べる。長さが値の大きさを示す場合もある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;弧（Chord）&lt;/td&gt;
+          &lt;td&gt;ノード間の関係またはフロー&lt;/td&gt;
+          &lt;td&gt;2つのノード間の関係や流入・流出の量を表す。弧の太さが数量を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色（Color）&lt;/td&gt;
+          &lt;td&gt;グループや方向性&lt;/td&gt;
+          &lt;td&gt;同系色でグループを示したり、グラデーションで方向（A→B）を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;弧の向き&lt;/td&gt;
+          &lt;td&gt;関係の方向性&lt;/td&gt;
+          &lt;td&gt;有向データの場合、片側が起点、もう片側が終点となる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;交差の有無&lt;/td&gt;
+          &lt;td&gt;相互関係の複雑さ&lt;/td&gt;
+          &lt;td&gt;弧が多く交差するほど関係構造が複雑であることを示す。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用例&#34;&gt;背景と応用例
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;バイオインフォマティクス&lt;/strong&gt; では、遺伝子間の共発現や染色体間の関連を示すために使用される（例：ヒトゲノム間の相同性）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;経済学・貿易統計&lt;/strong&gt; では、国ごとの輸出入や産業間の資金・資源フローの可視化に用いられる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソーシャルネットワーク分析&lt;/strong&gt; では、人や組織間の関係性を円環的に整理でき、力学的レイアウトよりも対称性が強調される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的特徴&lt;/strong&gt; として、放射状・有機的な構造が美しく、アート的可読性とデータの網羅性を兼ね備えている。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;代表的な作例ツール&#34;&gt;代表的な作例・ツール
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;開発者・機関&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Circos&lt;/td&gt;
+          &lt;td&gt;Martin Krzywinski&lt;/td&gt;
+          &lt;td&gt;ゲノムデータ可視化のために開発。円環構造による高密度な比較表現が可能。高解像度画像出力にも対応。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D3.js Chord Layout&lt;/td&gt;
+          &lt;td&gt;Mike Bostock&lt;/td&gt;
+          &lt;td&gt;Webブラウザ上で動的に描画できるオープンソースの実装。データ駆動型で双方向のフローを表現可能。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RAWGraphs Chord Diagram&lt;/td&gt;
+          &lt;td&gt;DensityDesign Lab（Politecnico di Milano）&lt;/td&gt;
+          &lt;td&gt;CSVをアップロードしてノーコードで生成できる可視化ツール。教育・研究向けに最適化。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Flourish Chord&lt;/td&gt;
+          &lt;td&gt;Flourish&lt;/td&gt;
+          &lt;td&gt;インタラクティブなチャート共有に対応。ストーリーテリングやプレゼンテーション向けに適する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Plotly Chord Diagram&lt;/td&gt;
+          &lt;td&gt;Plotly Technologies&lt;/td&gt;
+          &lt;td&gt;Python/R/JavaScriptで作成可能な分析可視化ツール。数値解析との連携が容易。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;コード・ダイアグラムは &lt;strong&gt;「多方向の関係を一目で理解させるための円環的マッピング」&lt;/strong&gt; であり、単なるネットワーク図よりも &lt;strong&gt;全体構造の対称性とバランス感覚&lt;/strong&gt; を強調する表現です。ただし、ノード数やリンクが多いと可読性が低下するため &lt;strong&gt;グルーピング・色分け・フィルタリング&lt;/strong&gt; の工夫が重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://circos.ca/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Circos - Circular Genome Data Visualization Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/d3/d3-chord&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js Official Chord Layout Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/chord-diagram.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chord diagram | the R Graph Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://python-graph-gallery.com/chord-diagram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chord diagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.exploratory.io/note/exploratory/How-to-Create-a-Chord-Diagram-in-Exploratory-sEM9CMh1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How to Create a Chord Diagram in Exploratory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>隣接行列（Adjacency Matrix）</title>
         <link>http://localhost:1313/adiacency-matrix/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>

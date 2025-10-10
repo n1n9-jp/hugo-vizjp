@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。\n">
-<title>沖積図（Alluvial Diagrams）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="コード・ダイアグラム（Chord Diagram） は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に 相互関係・双方向の関係・フロー量 などを表現するために使われ、データの対称性やバランスを直感的に把握できます。\n">
+<title>コード・ダイアグラム (Chord Diagram)</title>
 
-<link rel='canonical' href='http://localhost:1313/alluvial-diagrams/'>
+<link rel='canonical' href='http://localhost:1313/chord-diagram/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="沖積図（Alluvial Diagrams）">
-<meta property='og:description' content="沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。\n">
-<meta property='og:url' content='http://localhost:1313/alluvial-diagrams/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="コード・ダイアグラム (Chord Diagram)">
+<meta property='og:description' content="コード・ダイアグラム（Chord Diagram） は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に 相互関係・双方向の関係・フロー量 などを表現するために使われ、データの対称性やバランスを直感的に把握できます。\n">
+<meta property='og:url' content='http://localhost:1313/chord-diagram/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ネットワーク' /><meta property='article:published_time' content='2020-08-03T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2020-08-03T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/alluvial-diagrams/images/image-24.png' />
-<meta name="twitter:title" content="沖積図（Alluvial Diagrams）">
-<meta name="twitter:description" content="沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/alluvial-diagrams/images/image-24.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/chord-diagram/images/cover.png' />
+<meta name="twitter:title" content="コード・ダイアグラム (Chord Diagram)">
+<meta name="twitter:description" content="コード・ダイアグラム（Chord Diagram） は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に 相互関係・双方向の関係・フロー量 などを表現するために使われ、データの対称性やバランスを直感的に把握できます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/chord-diagram/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,13 +386,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#科学に起こった大きな構造的変化">科学に起こった大きな構造的変化</a></li>
-        <li><a href="#ゲームオブスローンズシーズン1-7における所属の変化">ゲーム・オブ・スローンズ(シーズン1-7)における所属の変化</a></li>
-        <li><a href="#アフリカ都市の人口1960年2025年">アフリカ都市の人口（1960年～2025年）</a></li>
-      </ol>
-    </li>
+    <li><a href="#図解の見方chord-diagram-の場合">図解の見方（Chord Diagram の場合）</a></li>
+    <li><a href="#背景と応用例">背景と応用例</a></li>
+    <li><a href="#代表的な作例ツール">代表的な作例・ツール</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -407,13 +405,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/alluvial-diagrams/">
-                <img src="/alluvial-diagrams/images/image-24_hu_cf9bcb5219a0986f.png"
-                        srcset="/alluvial-diagrams/images/image-24_hu_cf9bcb5219a0986f.png 800w, /alluvial-diagrams/images/image-24_hu_5ec2c55721ad8b07.png 1600w"
+            <a href="/chord-diagram/">
+                <img src="/chord-diagram/images/cover_hu_788ac15eb234fe26.png"
+                        srcset="/chord-diagram/images/cover_hu_788ac15eb234fe26.png 800w, /chord-diagram/images/cover_hu_6249ae1f805d88fd.png 1600w"
                         width="800" 
-                        height="531" 
+                        height="589" 
                         loading="lazy"
-                        alt="Featured image of post 沖積図（Alluvial Diagrams）" />
+                        alt="Featured image of post コード・ダイアグラム (Chord Diagram)" />
                 
             </a>
         </div>
@@ -432,7 +430,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/alluvial-diagrams/">沖積図（Alluvial Diagrams）</a>
+            <a href="/chord-diagram/">コード・ダイアグラム (Chord Diagram)</a>
         </h2>
     
         
@@ -454,7 +452,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 03, 2020</time>
+                <time class="article-time--published">Oct 11, 2025</time>
             </div>
         
 
@@ -484,65 +482,148 @@
     <section class="article-content">
     
     
-    <p>沖積図（沖積グラフとも呼ばれます）は、時間の経過とともに、対象が合併したり分裂したりする様子を示すのに使用することができるチャートです。</p>
-<p>ある時点における定量的な値（ノード）と、それらをつなぐ線（リンク）は、ノードの値を線の太さや色に反映させます。</p>
-<p>たいてい、横軸に時間の流れを示します。縦軸に対象の大きい順に並べられていることが多いでしょう。</p>
-<p>サンキー・ダイアグラムは時間の流れを表さないため、 沖積図とは明確に異なるチャートになります。</p>
-<h2 id="作例">作例
-</h2><h3 id="科学に起こった大きな構造的変化">科学に起こった大きな構造的変化
-</h3><p>過去10年間に科学に起こった大きな構造的変化を示しています。</p>
-<p><img src="/alluvial-diagrams/images/image-22-2048x815.png"
-	width="2048"
-	height="815"
-	srcset="/alluvial-diagrams/images/image-22-2048x815_hu_8d37fa02ef5899bc.png 480w, /alluvial-diagrams/images/image-22-2048x815_hu_c384e05aa5042c22.png 1024w"
+    <p><strong>コード・ダイアグラム（Chord Diagram）</strong> は、円周上に配置した複数の要素（ノード）間の関係性や流れを、弧（コード）によって視覚化する図です。主に <strong>相互関係・双方向の関係・フロー量</strong> などを表現するために使われ、データの対称性やバランスを直感的に把握できます。</p>
+<p><img src="/chord-diagram/images/circos-global-flow-people-migration-01.png"
+	width="900"
+	height="255"
+	srcset="/chord-diagram/images/circos-global-flow-people-migration-01_hu_c9ee5cff6f8f7c48.png 480w, /chord-diagram/images/circos-global-flow-people-migration-01_hu_1f61eba1e3e4a06b.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="251"
-		data-flex-basis="603px"
+		data-flex-grow="352"
+		data-flex-basis="847px"
 	
 ></p>
-<p><a class="link" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0008694"  target="_blank" rel="noopener"
-    >Mapping Change in Large Networks</a></p>
-<h3 id="ゲームオブスローンズシーズン1-7における所属の変化">ゲーム・オブ・スローンズ(シーズン1-7)における所属の変化
-</h3><p><img src="/alluvial-diagrams/images/image-23.png"
-	width="3300"
-	height="2550"
-	srcset="/alluvial-diagrams/images/image-23_hu_cb5130129e5520ad.png 480w, /alluvial-diagrams/images/image-23_hu_3922adb8e728ca0c.png 1024w"
+<p><img src="/chord-diagram/images/circos-sample-panel.png"
+	width="950"
+	height="234"
+	srcset="/chord-diagram/images/circos-sample-panel_hu_cd86c65cca2cebfe.png 480w, /chord-diagram/images/circos-sample-panel_hu_c5f8edb365f8dc0e.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="129"
-		data-flex-basis="310px"
+		data-flex-grow="405"
+		data-flex-basis="974px"
 	
 ></p>
-<p><a class="link" href="https://medium.com/@matthewlunkes/a-game-of-data-visualizations-243c3d8ceb1e"  target="_blank" rel="noopener"
-    >A Game of Data Visualizations: Making Alluvial Diagrams Without Code | by Matthew Lunkes | Medium</a></p>
-<h3 id="アフリカ都市の人口1960年2025年">アフリカ都市の人口（1960年～2025年）
-</h3><p><img src="/alluvial-diagrams/images/image-24.png"
-	width="600"
-	height="398"
-	srcset="/alluvial-diagrams/images/image-24_hu_80b0f483c01286b4.png 480w, /alluvial-diagrams/images/image-24_hu_962a5699f4aed407.png 1024w"
+<p>最初に広く知られるようになったのは、2000年代に登場した<strong>Circos</strong>（Martin Krzywinski開発）という可視化ツールによります。その後、D3.jsなどの可視化ライブラリでも実装が普及し、遺伝子間関係・国際貿易・人口移動・産業間連関などの多様な分野で応用されています。</p>
+<h2 id="図解の見方chord-diagram-の場合">図解の見方（Chord Diagram の場合）
+</h2><p><img src="/chord-diagram/images/circos-global-flow-people-migration-02-legend.png"
+	width="900"
+	height="371"
+	srcset="/chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_5a6faedc02942e79.png 480w, /chord-diagram/images/circos-global-flow-people-migration-02-legend_hu_7b9afecad1f7f4f.png 1024w"
 	loading="lazy"
+	
+		alt="alt text"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="150"
-		data-flex-basis="361px"
+		data-flex-grow="242"
+		data-flex-basis="582px"
 	
 ></p>
-<p><a class="link" href="https://www.behance.net/gallery/20553607/AFRICA-Big-Change-Big-Chance-Triennale-di-Milano"  target="_blank" rel="noopener"
-    >AFRICA – Big Change / Big Chance</a></p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>表しているもの</th>
+          <th>解釈のポイント</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>円周上のセグメント（Arc）</td>
+          <td>各カテゴリ・ノード</td>
+          <td>対象（国、産業、個体など）を円形に並べる。長さが値の大きさを示す場合もある。</td>
+      </tr>
+      <tr>
+          <td>弧（Chord）</td>
+          <td>ノード間の関係またはフロー</td>
+          <td>2つのノード間の関係や流入・流出の量を表す。弧の太さが数量を示す。</td>
+      </tr>
+      <tr>
+          <td>色（Color）</td>
+          <td>グループや方向性</td>
+          <td>同系色でグループを示したり、グラデーションで方向（A→B）を表す。</td>
+      </tr>
+      <tr>
+          <td>弧の向き</td>
+          <td>関係の方向性</td>
+          <td>有向データの場合、片側が起点、もう片側が終点となる。</td>
+      </tr>
+      <tr>
+          <td>交差の有無</td>
+          <td>相互関係の複雑さ</td>
+          <td>弧が多く交差するほど関係構造が複雑であることを示す。</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="背景と応用例">背景と応用例
+</h2><ul>
+<li><strong>バイオインフォマティクス</strong> では、遺伝子間の共発現や染色体間の関連を示すために使用される（例：ヒトゲノム間の相同性）。</li>
+<li><strong>経済学・貿易統計</strong> では、国ごとの輸出入や産業間の資金・資源フローの可視化に用いられる。</li>
+<li><strong>ソーシャルネットワーク分析</strong> では、人や組織間の関係性を円環的に整理でき、力学的レイアウトよりも対称性が強調される。</li>
+<li><strong>視覚的特徴</strong> として、放射状・有機的な構造が美しく、アート的可読性とデータの網羅性を兼ね備えている。</li>
+</ul>
+<h2 id="代表的な作例ツール">代表的な作例・ツール
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>名称</th>
+          <th>開発者・機関</th>
+          <th>特徴</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Circos</td>
+          <td>Martin Krzywinski</td>
+          <td>ゲノムデータ可視化のために開発。円環構造による高密度な比較表現が可能。高解像度画像出力にも対応。</td>
+      </tr>
+      <tr>
+          <td>D3.js Chord Layout</td>
+          <td>Mike Bostock</td>
+          <td>Webブラウザ上で動的に描画できるオープンソースの実装。データ駆動型で双方向のフローを表現可能。</td>
+      </tr>
+      <tr>
+          <td>RAWGraphs Chord Diagram</td>
+          <td>DensityDesign Lab（Politecnico di Milano）</td>
+          <td>CSVをアップロードしてノーコードで生成できる可視化ツール。教育・研究向けに最適化。</td>
+      </tr>
+      <tr>
+          <td>Flourish Chord</td>
+          <td>Flourish</td>
+          <td>インタラクティブなチャート共有に対応。ストーリーテリングやプレゼンテーション向けに適する。</td>
+      </tr>
+      <tr>
+          <td>Plotly Chord Diagram</td>
+          <td>Plotly Technologies</td>
+          <td>Python/R/JavaScriptで作成可能な分析可視化ツール。数値解析との連携が容易。</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="まとめ">まとめ
+</h2><p>コード・ダイアグラムは <strong>「多方向の関係を一目で理解させるための円環的マッピング」</strong> であり、単なるネットワーク図よりも <strong>全体構造の対称性とバランス感覚</strong> を強調する表現です。ただし、ノード数やリンクが多いと可読性が低下するため <strong>グルーピング・色分け・フィルタリング</strong> の工夫が重要です。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="http://circos.ca/"  target="_blank" rel="noopener"
+    >Circos - Circular Genome Data Visualization Tool</a></li>
+<li><a class="link" href="https://github.com/d3/d3-chord"  target="_blank" rel="noopener"
+    >D3.js Official Chord Layout Documentation</a></li>
+<li><a class="link" href="https://r-graph-gallery.com/chord-diagram.html"  target="_blank" rel="noopener"
+    >Chord diagram | the R Graph Gallery</a></li>
+<li><a class="link" href="https://python-graph-gallery.com/chord-diagram/"  target="_blank" rel="noopener"
+    >Chord diagram</a></li>
+<li><a class="link" href="https://ja.exploratory.io/note/exploratory/How-to-Create-a-Chord-Diagram-in-Exploratory-sEM9CMh1"  target="_blank" rel="noopener"
+    >How to Create a Chord Diagram in Exploratory</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF/">ネットワーク</a>
         
     </section>
 
@@ -573,30 +654,6 @@
     <h2 class="section-title"></h2>
     <div class="related-content">
         <div class="flex article-list--tile">
-            
-                
-<article class="has-image">
-    <a href="/sankey-diagram/">
-        
-        
-            <div class="article-image">
-                <img src="/sankey-diagram/images/image-13.132ae9b07d509cacddd1cc74d900234c.132ae9b07d509cacddd1cc74d900234c_hu_a0862f47abee9ec7.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post サンキー・ダイアグラム（Sankey Diagram）"
-                        data-key="sankey-diagram" 
-                        data-hash="md5-EyrpsH1QnKzd0cx02QAjTA==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">サンキー・ダイアグラム（Sankey Diagram）</h2>
-        </div>
-    </a>
-</article>
-
             
                 
 <article class="has-image">
@@ -672,23 +729,47 @@
             
                 
 <article class="has-image">
-    <a href="/chord-diagram/">
+    <a href="/adiacency-matrix/">
         
         
             <div class="article-image">
-                <img src="/chord-diagram/images/cover.7efdad834e92b945c2b65211d2346c59_hu_27e255cef3676321.png" 
+                <img src="/adiacency-matrix/images/cover.e95b7c223212650f854b58a4155550a7_hu_a32468799c14e4fc.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post コード・ダイアグラム (Chord Diagram)"
-                        data-key="chord-diagram" 
-                        data-hash="md5-fv2tg06SuUXCtlIR0jRsWQ==">
+                        alt="Featured image of post 隣接行列（Adjacency Matrix）"
+                        data-key="adiacency-matrix" 
+                        data-hash="md5-6Vt8IjISZQ&#43;FS1ikFVVQpw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">コード・ダイアグラム (Chord Diagram)</h2>
+            <h2 class="article-title">隣接行列（Adjacency Matrix）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/circle-packing/">
+        
+        
+            <div class="article-image">
+                <img src="/circle-packing/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post サークル・パッキング (Circle Packing)"
+                        data-key="circle-packing" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">サークル・パッキング (Circle Packing)</h2>
         </div>
     </a>
 </article>
