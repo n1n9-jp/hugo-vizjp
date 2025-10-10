@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<title>隣接行列（Adjacency Matrix）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は 肯定・否定や賛成・反対など、相反するカテゴリーの分布を左右対称に比較する可視化手法 です。一般的な積み重ね棒グラフの一種ですが、中心線（ゼロ点）を基準に、値がプラスとマイナスの方向に分岐して表示される点が特徴です。主に世論調査、顧客満足度調査、アンケート結果の可視化などで用いられます。\n例えば「非常に満足」「やや満足」「どちらでもない」「やや不満」「非常に不満」といった回答がある場合、「どちらでもない」を中心に、満足側を右、不満側を左に配置することで 全体のバランスと傾向 を一目で確認できます。\n">
+<title>分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)</title>
 
-<link rel='canonical' href='http://localhost:1313/adiacency-matrix/'>
+<link rel='canonical' href='http://localhost:1313/diverging-stacked-bar-chart/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="隣接行列（Adjacency Matrix）">
-<meta property='og:description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<meta property='og:url' content='http://localhost:1313/adiacency-matrix/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)">
+<meta property='og:description' content="分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は 肯定・否定や賛成・反対など、相反するカテゴリーの分布を左右対称に比較する可視化手法 です。一般的な積み重ね棒グラフの一種ですが、中心線（ゼロ点）を基準に、値がプラスとマイナスの方向に分岐して表示される点が特徴です。主に世論調査、顧客満足度調査、アンケート結果の可視化などで用いられます。\n例えば「非常に満足」「やや満足」「どちらでもない」「やや不満」「非常に不満」といった回答がある場合、「どちらでもない」を中心に、満足側を右、不満側を左に配置することで 全体のバランスと傾向 を一目で確認できます。\n">
+<meta property='og:url' content='http://localhost:1313/diverging-stacked-bar-chart/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/adiacency-matrix/images/cover.png' />
-<meta name="twitter:title" content="隣接行列（Adjacency Matrix）">
-<meta name="twitter:description" content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/adiacency-matrix/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/diverging-stacked-bar-chart/images/cover.png' />
+<meta name="twitter:title" content="分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)">
+<meta name="twitter:description" content="分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は 肯定・否定や賛成・反対など、相反するカテゴリーの分布を左右対称に比較する可視化手法 です。一般的な積み重ね棒グラフの一種ですが、中心線（ゼロ点）を基準に、値がプラスとマイナスの方向に分岐して表示される点が特徴です。主に世論調査、顧客満足度調査、アンケート結果の可視化などで用いられます。\n例えば「非常に満足」「やや満足」「どちらでもない」「やや不満」「非常に不満」といった回答がある場合、「どちらでもない」を中心に、満足側を右、不満側を左に配置することで 全体のバランスと傾向 を一目で確認できます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/diverging-stacked-bar-chart/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,11 +386,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#図解の見方">図解の見方</a></li>
-    <li><a href="#背景と特徴">背景と特徴</a></li>
-    <li><a href="#可視化上の応用">可視化上の応用</a></li>
-    <li><a href="#関連する発展形">関連する発展形</a></li>
-    <li><a href="#まとめ">まとめ</a></li>
+    <li>
+      <ol>
+        <li><a href="#図解の見方">図解の見方</a></li>
+        <li><a href="#利点と用途">利点と用途</a></li>
+        <li><a href="#背景と派生">背景と派生</a></li>
+        <li><a href="#代表的な作例ツール">代表的な作例・ツール</a></li>
+        <li><a href="#まとめ">まとめ</a></li>
+      </ol>
+    </li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
@@ -406,13 +410,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/adiacency-matrix/">
-                <img src="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png"
-                        srcset="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png 800w, /adiacency-matrix/images/cover_hu_9509c67c3058f6e3.png 1600w"
+            <a href="/diverging-stacked-bar-chart/">
+                <img src="/diverging-stacked-bar-chart/images/cover_hu_3d50b64cec1afd2c.png"
+                        srcset="/diverging-stacked-bar-chart/images/cover_hu_3d50b64cec1afd2c.png 800w, /diverging-stacked-bar-chart/images/cover_hu_499057611e00f4ca.png 1600w"
                         width="800" 
-                        height="385" 
+                        height="290" 
                         loading="lazy"
-                        alt="Featured image of post 隣接行列（Adjacency Matrix）" />
+                        alt="Featured image of post 分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)" />
                 
             </a>
         </div>
@@ -431,7 +435,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/adiacency-matrix/">隣接行列（Adjacency Matrix）</a>
+            <a href="/diverging-stacked-bar-chart/">分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)</a>
         </h2>
     
         
@@ -483,147 +487,102 @@
     <section class="article-content">
     
     
-    <p>隣接行列（adjacency matrix）は、<strong>ネットワーク（グラフ）構造を数値の表形式で表現する方法</strong>です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。</p>
-<p><img src="/adiacency-matrix/images/mainvisual.jpg"
-	width="836"
-	height="918"
-	srcset="/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, /adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w"
+    <p>分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は <strong>肯定・否定や賛成・反対など、相反するカテゴリーの分布を左右対称に比較する可視化手法</strong> です。一般的な積み重ね棒グラフの一種ですが、中心線（ゼロ点）を基準に、値がプラスとマイナスの方向に分岐して表示される点が特徴です。主に<strong>世論調査、顧客満足度調査、アンケート結果の可視化</strong>などで用いられます。</p>
+<p>例えば「非常に満足」「やや満足」「どちらでもない」「やや不満」「非常に不満」といった回答がある場合、「どちらでもない」を中心に、満足側を右、不満側を左に配置することで <strong>全体のバランスと傾向</strong> を一目で確認できます。</p>
+<p><img src="/diverging-stacked-bar-chart/images/mainvisual.png"
+	width="1920"
+	height="697"
+	srcset="/diverging-stacked-bar-chart/images/mainvisual_hu_37a434f3c4921731.png 480w, /diverging-stacked-bar-chart/images/mainvisual_hu_ed8f6b3a438abcc3.png 1024w"
 	loading="lazy"
-	
-		alt="Les Misérables Co-occurrence"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="91"
-		data-flex-basis="218px"
+		data-flex-grow="275"
+		data-flex-basis="661px"
 	
 ></p>
-<h2 id="図解の見方">図解の見方
-</h2><p>隣接行列では、<strong>縦軸と横軸にすべてのノード（頂点）を並べ</strong>、交差点のセル（マス目）に「接続があるかどうか」を記します。</p>
-<div class="table-wrapper"><table>
+<h3 id="図解の見方">図解の見方
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>行・列</th>
-          <th>意味</th>
-          <th>セルの値の意味</th>
-          <th>備考</th>
+          <th>要素</th>
+          <th>内容</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>行（縦）</td>
-          <td>出発ノード（From）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>有向グラフでは「出発点」を示す</td>
+          <td><strong>中央軸（ゼロライン）</strong></td>
+          <td>意見の分岐点。左右対称の基準線として設計される。</td>
       </tr>
       <tr>
-          <td>列（横）</td>
-          <td>到達ノード（To）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>無向グラフでは行列が対称になる</td>
+          <td><strong>左側バー</strong></td>
+          <td>ネガティブまたは反対の値を表す。通常は赤系などで表示。</td>
       </tr>
       <tr>
-          <td>対角成分</td>
-          <td>自己ループ</td>
-          <td>1の場合：ノードが自分自身へ接続</td>
-          <td>多くのネットワークでは0</td>
+          <td><strong>右側バー</strong></td>
+          <td>ポジティブまたは賛成の値を表す。通常は青系または緑系で表示。</td>
+      </tr>
+      <tr>
+          <td><strong>セグメントの長さ</strong></td>
+          <td>各カテゴリーの比率や人数を示す。棒の長さは割合に比例。</td>
+      </tr>
+      <tr>
+          <td><strong>ラベルまたは凡例</strong></td>
+          <td>各回答選択肢やスケールを示す。一般に、棒の内部または外部に配置される。</td>
       </tr>
   </tbody>
 </table></div>
-<p>例えば、3つのノード A, B, C のネットワークで<br>
-A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。</p>
-<div class="table-wrapper"><table>
+<p>このように、左右の長さのバランスを比較することで、特定の項目に対して回答が偏っているかどうかが視覚的に理解できます。</p>
+<h3 id="利点と用途">利点と用途
+</h3><ul>
+<li><strong>バランス比較が容易</strong>：全体に対する肯定・否定の傾向を一目で把握可能。</li>
+<li><strong>空間効率が良い</strong>：多数の質問項目を縦方向に並べて比較できる。</li>
+<li><strong>定性評価の定量化</strong>：Likertスケール（5段階評価など）を直感的に可視化できる。</li>
+</ul>
+<p>特に社会調査や企業の顧客満足度調査、政治的支持・反対意識の可視化などにおいて、多くの研究者・デザイナーが採用しています。</p>
+<h3 id="背景と派生">背景と派生
+</h3><p>この手法は、20世紀後半の <strong>社会調査統計グラフィックス</strong> の文脈で発展しました。Likertスケールを扱う際、単純な棒グラフでは中立意見を挟む対称性が表現しづらいため <strong>左右対称型の積み重ね構造</strong> が考案されました。現在では、Excel、Tableau、Power BI、ggplot2（R）、Plotly、Vega-Liteなど、多くの可視化ツールで容易に実装可能です。</p>
+<h3 id="代表的な作例ツール">代表的な作例・ツール
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th></th>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
+          <th>ツール／ライブラリ</th>
+          <th>実装例・特徴</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td><strong>A</strong></td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
+          <td><strong>Tableau</strong></td>
+          <td>「Diverging Bar Chart」テンプレートを利用可。中心をゼロに揃える設定が可能。</td>
       </tr>
       <tr>
-          <td><strong>B</strong></td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
+          <td><strong>Power BI</strong></td>
+          <td>「積み重ね棒グラフ」で軸の最小値・最大値を調整することで実現。</td>
       </tr>
       <tr>
-          <td><strong>C</strong></td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
+          <td><strong>ggplot2（R）</strong></td>
+          <td><code>geom_bar(position=&quot;stack&quot;)</code> と <code>scale_x_continuous(limits=c(-100,100))</code> で構築。</td>
+      </tr>
+      <tr>
+          <td><strong>Vega-Lite / D3.js</strong></td>
+          <td>軸を中央に設定し、正負値のデータを分岐表示。ウェブ実装に適す。</td>
       </tr>
   </tbody>
 </table></div>
-<p>このように、<strong>行列の1つ1つのセルがエッジ（辺）を表す</strong>ため、リンクの有無を簡潔に比較できます。</p>
-<h2 id="背景と特徴">背景と特徴
-</h2><ul>
-<li>
-<p><strong>発展の背景</strong><br>
-隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。</p>
-</li>
-<li>
-<p><strong>長所</strong></p>
-<ul>
-<li>行列演算が使えるため、ネットワークの <strong>連結成分・経路探索・中心性計算</strong> に有効。</li>
-<li>形式が単純で <strong>プログラム実装や保存</strong> に適する。</li>
-</ul>
-</li>
-<li>
-<p><strong>短所</strong></p>
-<ul>
-<li>ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは <strong>非効率</strong> 。</li>
-<li>視覚的な理解が難しく、大規模ネットワークでは <strong>密集したパターン（hairball）</strong> になりやすい。</li>
-</ul>
-</li>
-</ul>
-<h2 id="可視化上の応用">可視化上の応用
-</h2><p>隣接行列は <strong>ネットワーク可視化の「行列型レイアウト」</strong> として利用されます。<br>
-ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく <strong>構造的な規則性（クラスター、対称性、自己ループなど）</strong> を視覚的に発見しやすい特徴があります。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>可視化形式</th>
-          <th>特徴</th>
-          <th>適用例</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>ノードリンク図</td>
-          <td>直感的・空間的関係を表現</td>
-          <td>小規模ネットワーク</td>
-      </tr>
-      <tr>
-          <td>隣接行列</td>
-          <td>構造・関係パターンを強調</td>
-          <td>大規模・密集ネットワーク、社会ネットワーク</td>
-      </tr>
-  </tbody>
-</table></div>
-<h2 id="関連する発展形">関連する発展形
-</h2><ul>
-<li><strong>ソート済み隣接行列（Sorted Adjacency Matrix）</strong>：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。</li>
-<li><strong>相関行列との比較</strong>：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。</li>
-<li><strong>BioFabric・Hive Plotなど</strong>：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。</li>
-</ul>
-<h2 id="まとめ">まとめ
-</h2><p>隣接行列は <strong>ネットワークを数値的・構造的に理解するための基本フォーマット</strong> であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。</p>
+<h3 id="まとめ">まとめ
+</h3><p>分岐的積み重ね棒グラフは、データの中心性と対称性を視覚的に表現するための強力な手法です。単なる比率の提示に留まらず、<strong>人々の意識の偏りや分極化の度合いを直感的に示す</strong>ことができるため、社会的・心理的調査データの分析において極めて有効です。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://en.wikipedia.org/wiki/Adjacency_matrix"  target="_blank" rel="noopener"
-    >Wikipedia: Adjacency matrix</a></li>
-<li><a class="link" href="https://networksciencebook.com/chapter/3"  target="_blank" rel="noopener"
-    >Network Science by Albert-László Barabási</a></li>
-<li><a class="link" href="https://bost.ocks.org/mike/miserables/"  target="_blank" rel="noopener"
-    >Les Misérables Co-occurrence</a></li>
+<li><a class="link" href="https://r-graph-gallery.com/202-barplot-for-likert-type-items.html"  target="_blank" rel="noopener"
+    >Barplot for Likert type items — R Graph Gallery</a></li>
+<li><a class="link" href="https://r-graph-gallery.com/web-diverging-bar-plot-recreated-from-nytimes.html"  target="_blank" rel="noopener"
+    >Diverging Barplot with R and ggplot2 — R Graph Gallery</a></li>
+<li><a class="link" href="https://www.datarevelations.com/rethinkingdivergent/"  target="_blank" rel="noopener"
+    >Rethinking the divergent stacked bar chart — Data Revelations</a></li>
+<li><a class="link" href="https://medium.com/visumd/two-ways-of-creating-diverging-stacked-bar-charts-in-r-6d505e5180d2"  target="_blank" rel="noopener"
+    >Two ways of creating diverging stacked bar charts in R — Medium (VisUMD)</a></li>
+<li><a class="link" href="https://depictdatastudio.com/charts/diverging-stacked-bar/"  target="_blank" rel="noopener"
+    >Diverging Stacked Bar — Depict Data Studio</a></li>
 </ul>
 </section>
 
@@ -668,7 +627,7 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         
         
             <div class="article-image">
-                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -692,7 +651,7 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         
         
             <div class="article-image">
-                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
+                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -716,7 +675,7 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         
         
             <div class="article-image">
-                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
+                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"

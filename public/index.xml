@@ -992,6 +992,110 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)</title>
+        <link>http://localhost:1313/diverging-stacked-bar-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/diverging-stacked-bar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/diverging-stacked-bar-chart/images/cover.png" alt="Featured image of post 分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)" /&gt;&lt;p&gt;分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は &lt;strong&gt;肯定・否定や賛成・反対など、相反するカテゴリーの分布を左右対称に比較する可視化手法&lt;/strong&gt; です。一般的な積み重ね棒グラフの一種ですが、中心線（ゼロ点）を基準に、値がプラスとマイナスの方向に分岐して表示される点が特徴です。主に&lt;strong&gt;世論調査、顧客満足度調査、アンケート結果の可視化&lt;/strong&gt;などで用いられます。&lt;/p&gt;
+&lt;p&gt;例えば「非常に満足」「やや満足」「どちらでもない」「やや不満」「非常に不満」といった回答がある場合、「どちらでもない」を中心に、満足側を右、不満側を左に配置することで &lt;strong&gt;全体のバランスと傾向&lt;/strong&gt; を一目で確認できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/diverging-stacked-bar-chart/images/mainvisual.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;697&#34;
+	srcset=&#34;http://localhost:1313/diverging-stacked-bar-chart/images/mainvisual_hu_37a434f3c4921731.png 480w, http://localhost:1313/diverging-stacked-bar-chart/images/mainvisual_hu_ed8f6b3a438abcc3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;275&#34;
+		data-flex-basis=&#34;661px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;中央軸（ゼロライン）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;意見の分岐点。左右対称の基準線として設計される。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;左側バー&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ネガティブまたは反対の値を表す。通常は赤系などで表示。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;右側バー&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ポジティブまたは賛成の値を表す。通常は青系または緑系で表示。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;セグメントの長さ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各カテゴリーの比率や人数を示す。棒の長さは割合に比例。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ラベルまたは凡例&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各回答選択肢やスケールを示す。一般に、棒の内部または外部に配置される。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、左右の長さのバランスを比較することで、特定の項目に対して回答が偏っているかどうかが視覚的に理解できます。&lt;/p&gt;
+&lt;h3 id=&#34;利点と用途&#34;&gt;利点と用途
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;バランス比較が容易&lt;/strong&gt;：全体に対する肯定・否定の傾向を一目で把握可能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;空間効率が良い&lt;/strong&gt;：多数の質問項目を縦方向に並べて比較できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定性評価の定量化&lt;/strong&gt;：Likertスケール（5段階評価など）を直感的に可視化できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;特に社会調査や企業の顧客満足度調査、政治的支持・反対意識の可視化などにおいて、多くの研究者・デザイナーが採用しています。&lt;/p&gt;
+&lt;h3 id=&#34;背景と派生&#34;&gt;背景と派生
+&lt;/h3&gt;&lt;p&gt;この手法は、20世紀後半の &lt;strong&gt;社会調査統計グラフィックス&lt;/strong&gt; の文脈で発展しました。Likertスケールを扱う際、単純な棒グラフでは中立意見を挟む対称性が表現しづらいため &lt;strong&gt;左右対称型の積み重ね構造&lt;/strong&gt; が考案されました。現在では、Excel、Tableau、Power BI、ggplot2（R）、Plotly、Vega-Liteなど、多くの可視化ツールで容易に実装可能です。&lt;/p&gt;
+&lt;h3 id=&#34;代表的な作例ツール&#34;&gt;代表的な作例・ツール
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ツール／ライブラリ&lt;/th&gt;
+          &lt;th&gt;実装例・特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Tableau&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;「Diverging Bar Chart」テンプレートを利用可。中心をゼロに揃える設定が可能。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Power BI&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;「積み重ね棒グラフ」で軸の最小値・最大値を調整することで実現。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ggplot2（R）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;geom_bar(position=&amp;quot;stack&amp;quot;)&lt;/code&gt; と &lt;code&gt;scale_x_continuous(limits=c(-100,100))&lt;/code&gt; で構築。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Vega-Lite / D3.js&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;軸を中央に設定し、正負値のデータを分岐表示。ウェブ実装に適す。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;分岐的積み重ね棒グラフは、データの中心性と対称性を視覚的に表現するための強力な手法です。単なる比率の提示に留まらず、&lt;strong&gt;人々の意識の偏りや分極化の度合いを直感的に示す&lt;/strong&gt;ことができるため、社会的・心理的調査データの分析において極めて有効です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/202-barplot-for-likert-type-items.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Barplot for Likert type items — R Graph Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/web-diverging-bar-plot-recreated-from-nytimes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Diverging Barplot with R and ggplot2 — R Graph Gallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datarevelations.com/rethinkingdivergent/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rethinking the divergent stacked bar chart — Data Revelations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://medium.com/visumd/two-ways-of-creating-diverging-stacked-bar-charts-in-r-6d505e5180d2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Two ways of creating diverging stacked bar charts in R — Medium (VisUMD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://depictdatastudio.com/charts/diverging-stacked-bar/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Diverging Stacked Bar — Depict Data Studio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>隣接行列（Adjacency Matrix）</title>
         <link>http://localhost:1313/adiacency-matrix/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
