@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<title>隣接行列（Adjacency Matrix）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="カレンダー・ヒートマップ（Calendar Heat Map）は、日付を単位としてデータの量や強度を可視化するためのグラフ形式です。1 年のカレンダーや月間のスケジュールを格子状に配置し、各日を色の濃淡で表現します。色は通常、値の大小を表し、濃いほど数値が高いことを示します。GitHub の「Contributions（貢献度）」グラフが代表的な例で、日ごとの活動量を直感的に把握できます。\nこの形式は「時系列データをカレンダー構造で配置する」ことで、週・月・季節などの周期的な傾向を視覚的に理解することを目的としています。\n">
+<title>カレンダー・ヒートマップ (Calendar Heat Map)</title>
 
-<link rel='canonical' href='http://localhost:1313/adiacency-matrix/'>
+<link rel='canonical' href='http://localhost:1313/calendar-heat-map/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="隣接行列（Adjacency Matrix）">
-<meta property='og:description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
-<meta property='og:url' content='http://localhost:1313/adiacency-matrix/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="カレンダー・ヒートマップ (Calendar Heat Map)">
+<meta property='og:description' content="カレンダー・ヒートマップ（Calendar Heat Map）は、日付を単位としてデータの量や強度を可視化するためのグラフ形式です。1 年のカレンダーや月間のスケジュールを格子状に配置し、各日を色の濃淡で表現します。色は通常、値の大小を表し、濃いほど数値が高いことを示します。GitHub の「Contributions（貢献度）」グラフが代表的な例で、日ごとの活動量を直感的に把握できます。\nこの形式は「時系列データをカレンダー構造で配置する」ことで、週・月・季節などの周期的な傾向を視覚的に理解することを目的としています。\n">
+<meta property='og:url' content='http://localhost:1313/calendar-heat-map/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/adiacency-matrix/images/cover.png' />
-<meta name="twitter:title" content="隣接行列（Adjacency Matrix）">
-<meta name="twitter:description" content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/adiacency-matrix/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/calendar-heat-map/images/cover.png' />
+<meta name="twitter:title" content="カレンダー・ヒートマップ (Calendar Heat Map)">
+<meta name="twitter:description" content="カレンダー・ヒートマップ（Calendar Heat Map）は、日付を単位としてデータの量や強度を可視化するためのグラフ形式です。1 年のカレンダーや月間のスケジュールを格子状に配置し、各日を色の濃淡で表現します。色は通常、値の大小を表し、濃いほど数値が高いことを示します。GitHub の「Contributions（貢献度）」グラフが代表的な例で、日ごとの活動量を直感的に把握できます。\nこの形式は「時系列データをカレンダー構造で配置する」ことで、週・月・季節などの周期的な傾向を視覚的に理解することを目的としています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/calendar-heat-map/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,12 +386,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#図解の見方">図解の見方</a></li>
-    <li><a href="#背景と特徴">背景と特徴</a></li>
-    <li><a href="#可視化上の応用">可視化上の応用</a></li>
-    <li><a href="#関連する発展形">関連する発展形</a></li>
-    <li><a href="#まとめ">まとめ</a></li>
-    <li><a href="#参考出典">参考・出典</a></li>
+    <li>
+      <ol>
+        <li><a href="#図解の見方">図解の見方</a></li>
+        <li><a href="#利用分野と応用例">利用分野と応用例</a></li>
+        <li><a href="#背景と歴史">背景と歴史</a></li>
+        <li><a href="#まとめ">まとめ</a></li>
+        <li><a href="#参考出典">参考・出典</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -406,13 +409,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/adiacency-matrix/">
-                <img src="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png"
-                        srcset="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png 800w, /adiacency-matrix/images/cover_hu_9509c67c3058f6e3.png 1600w"
+            <a href="/calendar-heat-map/">
+                <img src="/calendar-heat-map/images/cover_hu_7735438562d12d9c.png"
+                        srcset="/calendar-heat-map/images/cover_hu_7735438562d12d9c.png 800w, /calendar-heat-map/images/cover_hu_d7e169fe393d2764.png 1600w"
                         width="800" 
-                        height="385" 
+                        height="149" 
                         loading="lazy"
-                        alt="Featured image of post 隣接行列（Adjacency Matrix）" />
+                        alt="Featured image of post カレンダー・ヒートマップ (Calendar Heat Map)" />
                 
             </a>
         </div>
@@ -431,7 +434,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/adiacency-matrix/">隣接行列（Adjacency Matrix）</a>
+            <a href="/calendar-heat-map/">カレンダー・ヒートマップ (Calendar Heat Map)</a>
         </h2>
     
         
@@ -483,147 +486,120 @@
     <section class="article-content">
     
     
-    <p>隣接行列（adjacency matrix）は、<strong>ネットワーク（グラフ）構造を数値の表形式で表現する方法</strong>です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。</p>
-<p><img src="/adiacency-matrix/images/mainvisual.jpg"
-	width="836"
-	height="918"
-	srcset="/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, /adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w"
+    <p>カレンダー・ヒートマップ（Calendar Heat Map）は、日付を単位としてデータの量や強度を可視化するためのグラフ形式です。1 年のカレンダーや月間のスケジュールを格子状に配置し、各日を色の濃淡で表現します。色は通常、値の大小を表し、濃いほど数値が高いことを示します。GitHub の「Contributions（貢献度）」グラフが代表的な例で、日ごとの活動量を直感的に把握できます。</p>
+<p>この形式は「時系列データをカレンダー構造で配置する」ことで、週・月・季節などの周期的な傾向を視覚的に理解することを目的としています。</p>
+<p><img src="/calendar-heat-map/images/mainvisual.png"
+	width="2505"
+	height="467"
+	srcset="/calendar-heat-map/images/mainvisual_hu_37b199d477c862af.png 480w, /calendar-heat-map/images/mainvisual_hu_3783c0064d24770e.png 1024w"
 	loading="lazy"
-	
-		alt="Les Misérables Co-occurrence"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="91"
-		data-flex-basis="218px"
+		data-flex-grow="536"
+		data-flex-basis="1287px"
 	
 ></p>
-<h2 id="図解の見方">図解の見方
-</h2><p>隣接行列では、<strong>縦軸と横軸にすべてのノード（頂点）を並べ</strong>、交差点のセル（マス目）に「接続があるかどうか」を記します。</p>
-<div class="table-wrapper"><table>
+<h3 id="図解の見方">図解の見方
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>行・列</th>
+          <th>要素</th>
           <th>意味</th>
-          <th>セルの値の意味</th>
-          <th>備考</th>
+          <th>表現方法</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>行（縦）</td>
-          <td>出発ノード（From）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>有向グラフでは「出発点」を示す</td>
+          <td>各セル（マス）</td>
+          <td>日付</td>
+          <td>格子状に配置され、曜日と週で並ぶ</td>
       </tr>
       <tr>
-          <td>列（横）</td>
-          <td>到達ノード（To）</td>
-          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
-          <td>無向グラフでは行列が対称になる</td>
+          <td>色の濃淡</td>
+          <td>値の大小</td>
+          <td>濃い色ほど値が高く、薄い色ほど低い</td>
       </tr>
       <tr>
-          <td>対角成分</td>
-          <td>自己ループ</td>
-          <td>1の場合：ノードが自分自身へ接続</td>
-          <td>多くのネットワークでは0</td>
-      </tr>
-  </tbody>
-</table></div>
-<p>例えば、3つのノード A, B, C のネットワークで<br>
-A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th></th>
-          <th>A</th>
-          <th>B</th>
-          <th>C</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>A</strong></td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
+          <td>行（横軸）</td>
+          <td>週</td>
+          <td>時間の進行方向を示す</td>
       </tr>
       <tr>
-          <td><strong>B</strong></td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
+          <td>列（縦軸）</td>
+          <td>曜日</td>
+          <td>各週の繰り返し構造を形成</td>
       </tr>
       <tr>
-          <td><strong>C</strong></td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
+          <td>凡例</td>
+          <td>カラースケール</td>
+          <td>最小値から最大値までの連続的な色で示される</td>
+      </tr>
+      <tr>
+          <td>連続する高濃度領域</td>
+          <td>活動が集中する期間</td>
+          <td>特定の季節性やイベントを示唆</td>
       </tr>
   </tbody>
 </table></div>
-<p>このように、<strong>行列の1つ1つのセルがエッジ（辺）を表す</strong>ため、リンクの有無を簡潔に比較できます。</p>
-<h2 id="背景と特徴">背景と特徴
-</h2><ul>
-<li>
-<p><strong>発展の背景</strong><br>
-隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。</p>
-</li>
-<li>
-<p><strong>長所</strong></p>
-<ul>
-<li>行列演算が使えるため、ネットワークの <strong>連結成分・経路探索・中心性計算</strong> に有効。</li>
-<li>形式が単純で <strong>プログラム実装や保存</strong> に適する。</li>
-</ul>
-</li>
-<li>
-<p><strong>短所</strong></p>
-<ul>
-<li>ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは <strong>非効率</strong> 。</li>
-<li>視覚的な理解が難しく、大規模ネットワークでは <strong>密集したパターン（hairball）</strong> になりやすい。</li>
-</ul>
-</li>
-</ul>
-<h2 id="可視化上の応用">可視化上の応用
-</h2><p>隣接行列は <strong>ネットワーク可視化の「行列型レイアウト」</strong> として利用されます。<br>
-ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく <strong>構造的な規則性（クラスター、対称性、自己ループなど）</strong> を視覚的に発見しやすい特徴があります。</p>
-<div class="table-wrapper"><table>
+<h3 id="利用分野と応用例">利用分野と応用例
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>可視化形式</th>
+          <th>分野</th>
+          <th>利用例</th>
           <th>特徴</th>
-          <th>適用例</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>ノードリンク図</td>
-          <td>直感的・空間的関係を表現</td>
-          <td>小規模ネットワーク</td>
+          <td>ソフトウェア開発</td>
+          <td>GitHub のコミット履歴可視化</td>
+          <td>開発頻度や休止期間が一目でわかる</td>
       </tr>
       <tr>
-          <td>隣接行列</td>
-          <td>構造・関係パターンを強調</td>
-          <td>大規模・密集ネットワーク、社会ネットワーク</td>
+          <td>健康・ライフログ</td>
+          <td>歩数や睡眠時間の可視化</td>
+          <td>生活リズムや季節変動の把握</td>
+      </tr>
+      <tr>
+          <td>教育・学習</td>
+          <td>学習日数の記録</td>
+          <td>習慣形成や継続度の評価に利用</td>
+      </tr>
+      <tr>
+          <td>ビジネス分析</td>
+          <td>売上や来店数の推移</td>
+          <td>曜日効果や月次トレンドの発見</td>
+      </tr>
+      <tr>
+          <td>環境データ</td>
+          <td>気温・降水量の分布</td>
+          <td>季節的パターンや異常値の可視化</td>
       </tr>
   </tbody>
 </table></div>
-<h2 id="関連する発展形">関連する発展形
-</h2><ul>
-<li><strong>ソート済み隣接行列（Sorted Adjacency Matrix）</strong>：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。</li>
-<li><strong>相関行列との比較</strong>：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。</li>
-<li><strong>BioFabric・Hive Plotなど</strong>：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。</li>
-</ul>
-<h2 id="まとめ">まとめ
-</h2><p>隣接行列は <strong>ネットワークを数値的・構造的に理解するための基本フォーマット</strong> であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。</p>
-<h2 id="参考出典">参考・出典
-</h2><ul>
-<li><a class="link" href="https://en.wikipedia.org/wiki/Adjacency_matrix"  target="_blank" rel="noopener"
-    >Wikipedia: Adjacency matrix</a></li>
-<li><a class="link" href="https://networksciencebook.com/chapter/3"  target="_blank" rel="noopener"
-    >Network Science by Albert-László Barabási</a></li>
-<li><a class="link" href="https://bost.ocks.org/mike/miserables/"  target="_blank" rel="noopener"
-    >Les Misérables Co-occurrence</a></li>
+<h3 id="背景と歴史">背景と歴史
+</h3><p>この手法の起源は、1980〜1990年代における時系列データ可視化の研究に遡ります。2000年代に入り、ウェブアプリケーションの普及とともにカレンダー形式のデータ可視化が一般化し、特に 2012 年以降の GitHub「Contribution Graph」の登場によって、一般ユーザーにも広く知られるようになりました。現在では D3.js や Vega-Lite、Plotly、Tableau など多くの可視化ツールがカレンダー・ヒートマップをサポートしています。</p>
+<h3 id="まとめ">まとめ
+</h3><p>カレンダー・ヒートマップは、日単位でのデータの変動を把握し、周期的な傾向を発見するための強力なビジュアル手法です。その見た目の親しみやすさと即時性により、個人のライフログから企業データまで幅広く利用されています。時間の流れを「数字」ではなく「季節やリズム」として捉え直す視点を提供する点に、この可視化の魅力があります。</p>
+<h3 id="参考出典">参考・出典
+</h3><ul>
+<li><a class="link" href="https://docs.github.com/articles/viewing-contributions-on-your-profile-page"  target="_blank" rel="noopener"
+    >Viewing contributions on your profile — GitHub Docs</a>  <a class="link" href="https://docs.github.com/articles/viewing-contributions-on-your-profile-page?utm_source=chatgpt.com"  target="_blank" rel="noopener"
+    >oai_citation:0‡GitHub Docs</a></li>
+<li><a class="link" href="https://vega.github.io/vega/examples/calendar-view/"  target="_blank" rel="noopener"
+    >Calendar Example — Vega (calendar-view example)</a>  <a class="link" href="https://vega.github.io/vega/examples/calendar-view/?utm_source=chatgpt.com"  target="_blank" rel="noopener"
+    >oai_citation:1‡Vega</a></li>
+<li><a class="link" href="https://developers.google.com/chart/interactive/docs/gallery/calendar"  target="_blank" rel="noopener"
+    >Calendar Chart — Google Charts (calendar visualization)</a>  <a class="link" href="https://developers.google.com/chart/interactive/docs/gallery/calendar?utm_source=chatgpt.com"  target="_blank" rel="noopener"
+    >oai_citation:2‡Google for Developers</a></li>
+<li><a class="link" href="https://cal-heatmap.com/v2/"  target="_blank" rel="noopener"
+    >Cal-Heatmap: Calendar Heat Map JS plugin</a>  <a class="link" href="https://cal-heatmap.com/v2/?utm_source=chatgpt.com"  target="_blank" rel="noopener"
+    >oai_citation:3‡Cal-Heatmap</a></li>
+<li><a class="link" href="https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/"  target="_blank" rel="noopener"
+    >Tutorial: Building a D3.js Calendar Heatmap</a>  <a class="link" href="https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/?utm_source=chatgpt.com"  target="_blank" rel="noopener"
+    >oai_citation:4‡RisingStack Engineering</a></li>
 </ul>
 </section>
 
@@ -716,7 +692,7 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         
         
             <div class="article-image">
-                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
+                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -729,30 +705,6 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 
         <div class="article-details">
             <h2 class="article-title">アーク・ダイアグラム (Arc Diagram)</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/calendar-heat-map/">
-        
-        
-            <div class="article-image">
-                <img src="/calendar-heat-map/images/cover.e8bffe56b518e94d187e1d2dd70b5562_hu_cec21b2b24065d14.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post カレンダー・ヒートマップ (Calendar Heat Map)"
-                        data-key="calendar-heat-map" 
-                        data-hash="md5-6L/&#43;VrUY6U0Yfh0t1wtVYg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">カレンダー・ヒートマップ (Calendar Heat Map)</h2>
         </div>
     </a>
 </article>
@@ -777,6 +729,30 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 
         <div class="article-details">
             <h2 class="article-title">コード・ダイアグラム (Chord Diagram)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/vector-field-map/">
+        
+        
+            <div class="article-image">
+                <img src="/vector-field-map/images/cover.7cf8502629abd5083f5e980ea6449bcd_hu_d785553607ae5e16.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ベクトル・フィールド・マップ（Vector Field Map）"
+                        data-key="vector-field-map/" 
+                        data-hash="md5-fPhQJimr1Qg/XpgOpkSbzQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ベクトル・フィールド・マップ（Vector Field Map）</h2>
         </div>
     </a>
 </article>
