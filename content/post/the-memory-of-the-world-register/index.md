@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "世界の記憶を可視化する「The Memory of the World Register」"
-slug = "the-memory-of-the-world register"
+slug = "the-memory-of-the-world-register"
 date = "2025-10-05"
 description = ""
 categories = [
