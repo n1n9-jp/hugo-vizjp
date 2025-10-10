@@ -198,6 +198,155 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>隣接行列（Adjacency Matrix）</title>
+        <link>http://localhost:1313/adiacency-matrix/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/adiacency-matrix/</guid>
+        <description>&lt;img src="http://localhost:1313/adiacency-matrix/images/cover.png" alt="Featured image of post 隣接行列（Adjacency Matrix）" /&gt;&lt;p&gt;隣接行列（adjacency matrix）は、&lt;strong&gt;ネットワーク（グラフ）構造を数値の表形式で表現する方法&lt;/strong&gt;です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/adiacency-matrix/images/mainvisual.jpg&#34;
+	width=&#34;836&#34;
+	height=&#34;918&#34;
+	srcset=&#34;http://localhost:1313/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, http://localhost:1313/adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Les Misérables Co-occurrence&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;218px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;隣接行列では、&lt;strong&gt;縦軸と横軸にすべてのノード（頂点）を並べ&lt;/strong&gt;、交差点のセル（マス目）に「接続があるかどうか」を記します。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;行・列&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;セルの値の意味&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;行（縦）&lt;/td&gt;
+          &lt;td&gt;出発ノード（From）&lt;/td&gt;
+          &lt;td&gt;1（または◯）：接続あり&lt;br&gt;0（または空白）：接続なし&lt;/td&gt;
+          &lt;td&gt;有向グラフでは「出発点」を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;列（横）&lt;/td&gt;
+          &lt;td&gt;到達ノード（To）&lt;/td&gt;
+          &lt;td&gt;1（または◯）：接続あり&lt;br&gt;0（または空白）：接続なし&lt;/td&gt;
+          &lt;td&gt;無向グラフでは行列が対称になる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対角成分&lt;/td&gt;
+          &lt;td&gt;自己ループ&lt;/td&gt;
+          &lt;td&gt;1の場合：ノードが自分自身へ接続&lt;/td&gt;
+          &lt;td&gt;多くのネットワークでは0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;例えば、3つのノード A, B, C のネットワークで&lt;br&gt;
+A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;A&lt;/th&gt;
+          &lt;th&gt;B&lt;/th&gt;
+          &lt;th&gt;C&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;B&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;C&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、&lt;strong&gt;行列の1つ1つのセルがエッジ（辺）を表す&lt;/strong&gt;ため、リンクの有無を簡潔に比較できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;発展の背景&lt;/strong&gt;&lt;br&gt;
+隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;長所&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;行列演算が使えるため、ネットワークの &lt;strong&gt;連結成分・経路探索・中心性計算&lt;/strong&gt; に有効。&lt;/li&gt;
+&lt;li&gt;形式が単純で &lt;strong&gt;プログラム実装や保存&lt;/strong&gt; に適する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;短所&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは &lt;strong&gt;非効率&lt;/strong&gt; 。&lt;/li&gt;
+&lt;li&gt;視覚的な理解が難しく、大規模ネットワークでは &lt;strong&gt;密集したパターン（hairball）&lt;/strong&gt; になりやすい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;可視化上の応用&#34;&gt;可視化上の応用
+&lt;/h2&gt;&lt;p&gt;隣接行列は &lt;strong&gt;ネットワーク可視化の「行列型レイアウト」&lt;/strong&gt; として利用されます。&lt;br&gt;
+ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく &lt;strong&gt;構造的な規則性（クラスター、対称性、自己ループなど）&lt;/strong&gt; を視覚的に発見しやすい特徴があります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;可視化形式&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適用例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ノードリンク図&lt;/td&gt;
+          &lt;td&gt;直感的・空間的関係を表現&lt;/td&gt;
+          &lt;td&gt;小規模ネットワーク&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;隣接行列&lt;/td&gt;
+          &lt;td&gt;構造・関係パターンを強調&lt;/td&gt;
+          &lt;td&gt;大規模・密集ネットワーク、社会ネットワーク&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;関連する発展形&#34;&gt;関連する発展形
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ソート済み隣接行列（Sorted Adjacency Matrix）&lt;/strong&gt;：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;相関行列との比較&lt;/strong&gt;：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BioFabric・Hive Plotなど&lt;/strong&gt;：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;隣接行列は &lt;strong&gt;ネットワークを数値的・構造的に理解するための基本フォーマット&lt;/strong&gt; であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Adjacency_matrix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Adjacency matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://networksciencebook.com/chapter/3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Network Science by Albert-László Barabási&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://bost.ocks.org/mike/miserables/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Les Misérables Co-occurrence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>初出版から傑作まで、人生と創作キャリアのタイムライン</title>
         <link>http://localhost:1313/from-first-published-to-masterpieces/</link>
         <pubDate>Fri, 10 Oct 2025 00:00:00 +0900</pubDate>

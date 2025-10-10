@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n">
-<title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
+<title>隣接行列（Adjacency Matrix）</title>
 
-<link rel='canonical' href='http://localhost:1313/bio-fabric/'>
+<link rel='canonical' href='http://localhost:1313/adiacency-matrix/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する">
-<meta property='og:description' content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n">
-<meta property='og:url' content='http://localhost:1313/bio-fabric/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="隣接行列（Adjacency Matrix）">
+<meta property='og:description' content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n">
+<meta property='og:url' content='http://localhost:1313/adiacency-matrix/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/bio-fabric/images/cover.png' />
-<meta name="twitter:title" content="BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する">
-<meta name="twitter:description" content="BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの 複雑な相互関係を持つネットワーク構造 を、従来の「ノードとエッジのパラパラ図」ではなく 線と格子によって秩序化された構造 として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/bio-fabric/images/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/adiacency-matrix/images/cover.png' />
+<meta name="twitter:title" content="隣接行列（Adjacency Matrix）">
+<meta name="twitter:description" content="隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を数値の表形式で表現する方法です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/adiacency-matrix/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -387,7 +387,9 @@
             <nav id="TableOfContents">
   <ol>
     <li><a href="#図解の見方">図解の見方</a></li>
-    <li><a href="#背景と意義">背景と意義</a></li>
+    <li><a href="#背景と特徴">背景と特徴</a></li>
+    <li><a href="#可視化上の応用">可視化上の応用</a></li>
+    <li><a href="#関連する発展形">関連する発展形</a></li>
     <li><a href="#まとめ">まとめ</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
@@ -404,13 +406,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/bio-fabric/">
-                <img src="/bio-fabric/images/cover_hu_b9d9679fa7decbc0.png"
-                        srcset="/bio-fabric/images/cover_hu_b9d9679fa7decbc0.png 800w, /bio-fabric/images/cover_hu_9e12c1d61a9ae182.png 1600w"
+            <a href="/adiacency-matrix/">
+                <img src="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png"
+                        srcset="/adiacency-matrix/images/cover_hu_ab87ef7e1fe2db96.png 800w, /adiacency-matrix/images/cover_hu_9509c67c3058f6e3.png 1600w"
                         width="800" 
-                        height="353" 
+                        height="385" 
                         loading="lazy"
-                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する" />
+                        alt="Featured image of post 隣接行列（Adjacency Matrix）" />
                 
             </a>
         </div>
@@ -429,7 +431,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/bio-fabric/">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</a>
+            <a href="/adiacency-matrix/">隣接行列（Adjacency Matrix）</a>
         </h2>
     
         
@@ -481,96 +483,147 @@
     <section class="article-content">
     
     
-    <p>BioFabric（バイオファブリック）は、生命科学や社会ネットワークなどの <strong>複雑な相互関係を持つネットワーク構造</strong> を、従来の「ノードとエッジのパラパラ図」ではなく <strong>線と格子によって秩序化された構造</strong> として再構築・可視化するツールです。開発はGary Baderらによるもので、Systems Biology領域での大規模データ解析に用いられています。</p>
-<p><img src="/bio-fabric/images/bedore-after.png"
-	width="890"
-	height="213"
-	srcset="/bio-fabric/images/bedore-after_hu_fc484c285e73bf3c.png 480w, /bio-fabric/images/bedore-after_hu_8bb4ab25b7791b3.png 1024w"
+    <p>隣接行列（adjacency matrix）は、<strong>ネットワーク（グラフ）構造を数値の表形式で表現する方法</strong>です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。</p>
+<p><img src="/adiacency-matrix/images/mainvisual.jpg"
+	width="836"
+	height="918"
+	srcset="/adiacency-matrix/images/mainvisual_hu_ca9e79a755056b95.jpg 480w, /adiacency-matrix/images/mainvisual_hu_38a8eb71003f4b00.jpg 1024w"
 	loading="lazy"
 	
-		alt="左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図"
+		alt="Les Misérables Co-occurrence"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="417"
-		data-flex-basis="1002px"
+		data-flex-grow="91"
+		data-flex-basis="218px"
 	
 ></p>
-<p>上図は「Comb the Hairball with BioFabric（BioFabricで“毛玉”をとかす）」という公式デモの一例で、左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図です。</p>
-<p>左図ではノードとエッジが錯綜しており、相関や構造を把握することが困難です。一方で、右図では <strong>各ノードが水平線</strong> 、 <strong>エッジが垂直線</strong> として表現され、全体が格子状に整列されています。これにより、接続関係の密度やモジュール構造を直感的に読み取ることができます。</p>
 <h2 id="図解の見方">図解の見方
-</h2><div class="table-wrapper"><table>
+</h2><p>隣接行列では、<strong>縦軸と横軸にすべてのノード（頂点）を並べ</strong>、交差点のセル（マス目）に「接続があるかどうか」を記します。</p>
+<div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>要素</th>
+          <th>行・列</th>
           <th>意味</th>
-          <th>見方のポイント</th>
+          <th>セルの値の意味</th>
+          <th>備考</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td><strong>水平線</strong></td>
-          <td>各ノード（遺伝子・人物・要素）を表す</td>
-          <td>一行が一つのノードに対応する。行の位置がノードの順序関係を示す。</td>
+          <td>行（縦）</td>
+          <td>出発ノード（From）</td>
+          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
+          <td>有向グラフでは「出発点」を示す</td>
       </tr>
       <tr>
-          <td><strong>垂直線</strong></td>
-          <td>エッジ（ノード間の関係）を表す</td>
-          <td>上下に交差する点が接続関係。密集度が高いほど関連が強い部分群を示す。</td>
+          <td>列（横）</td>
+          <td>到達ノード（To）</td>
+          <td>1（または◯）：接続あり<br>0（または空白）：接続なし</td>
+          <td>無向グラフでは行列が対称になる</td>
       </tr>
       <tr>
-          <td><strong>ブロック構造</strong></td>
-          <td>クラスタ・モジュール構造</td>
-          <td>同じパターンの線群が塊を形成する部分。機能的モジュールやコミュニティに対応。</td>
-      </tr>
-      <tr>
-          <td><strong>色分け</strong></td>
-          <td>異なる属性や分類</td>
-          <td>例えば、系統分類、サブネットワーク、重みなどを色で識別できる。</td>
+          <td>対角成分</td>
+          <td>自己ループ</td>
+          <td>1の場合：ノードが自分自身へ接続</td>
+          <td>多くのネットワークでは0</td>
       </tr>
   </tbody>
 </table></div>
-<p>右下の拡大図（YOR372Cなど）は、実際のデータセット「Yeast High-Quality Network（酵母の高品質ネットワーク）」からの部分です。局所的な接続構造が格子状に展開され、どのノードがどのような関係を持つかが整然と示されています。</p>
-<p><img src="/bio-fabric/images/mainvisual.png"
-	width="1024"
-	height="452"
-	srcset="/bio-fabric/images/mainvisual_hu_bc5a12196960c822.png 480w, /bio-fabric/images/mainvisual_hu_8b59bcc006cc8ae2.png 1024w"
-	loading="lazy"
-	
-		alt="BioFabric"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="226"
-		data-flex-basis="543px"
-	
-></p>
-<h2 id="背景と意義">背景と意義
-</h2><p>従来のネットワーク図は、ノード数やエッジ数が増えると「毛玉状（hairball）」になり、情報が読み取れなくなる問題がありました。BioFabricはこの問題を<strong>レイアウトの発想自体を変えることで解決</strong>しました。<br>
-ノードを線に変換することで、次のような利点が得られます：</p>
+<p>例えば、3つのノード A, B, C のネットワークで<br>
+A→B、B→C、C→A という接続がある場合の隣接行列は次の通りです。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>A</strong></td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td><strong>B</strong></td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+      <tr>
+          <td><strong>C</strong></td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>このように、<strong>行列の1つ1つのセルがエッジ（辺）を表す</strong>ため、リンクの有無を簡潔に比較できます。</p>
+<h2 id="背景と特徴">背景と特徴
+</h2><ul>
+<li>
+<p><strong>発展の背景</strong><br>
+隣接行列は、グラフ理論の基礎的な表現方法として、コンピュータサイエンスや社会ネットワーク分析で早くから採用されてきました。特に、ノード数が少ない場合や、行列演算を通して連結性を計算する場合に適しています。</p>
+</li>
+<li>
+<p><strong>長所</strong></p>
 <ul>
-<li><strong>重なりがない</strong>ため、大規模ネットワークでも可視性が保たれる</li>
-<li><strong>エッジ密度や構造的特徴を定量的に観察</strong>できる</li>
-<li><strong>ヒートマップや時系列データとの統合が容易</strong></li>
+<li>行列演算が使えるため、ネットワークの <strong>連結成分・経路探索・中心性計算</strong> に有効。</li>
+<li>形式が単純で <strong>プログラム実装や保存</strong> に適する。</li>
 </ul>
-<p>この発想は「ネットワークをテキスト化・表形式化する」方向への橋渡しとも言え、情報可視化の一つの新しいパラダイムです。</p>
+</li>
+<li>
+<p><strong>短所</strong></p>
+<ul>
+<li>ノード数が増えると、要素数が急増（O(n²)）し、疎なネットワークでは <strong>非効率</strong> 。</li>
+<li>視覚的な理解が難しく、大規模ネットワークでは <strong>密集したパターン（hairball）</strong> になりやすい。</li>
+</ul>
+</li>
+</ul>
+<h2 id="可視化上の応用">可視化上の応用
+</h2><p>隣接行列は <strong>ネットワーク可視化の「行列型レイアウト」</strong> として利用されます。<br>
+ノードを円や線で描く「ノードリンク図」に比べ、リンクの重なりがなく <strong>構造的な規則性（クラスター、対称性、自己ループなど）</strong> を視覚的に発見しやすい特徴があります。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>可視化形式</th>
+          <th>特徴</th>
+          <th>適用例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ノードリンク図</td>
+          <td>直感的・空間的関係を表現</td>
+          <td>小規模ネットワーク</td>
+      </tr>
+      <tr>
+          <td>隣接行列</td>
+          <td>構造・関係パターンを強調</td>
+          <td>大規模・密集ネットワーク、社会ネットワーク</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="関連する発展形">関連する発展形
+</h2><ul>
+<li><strong>ソート済み隣接行列（Sorted Adjacency Matrix）</strong>：ノードを特定の属性（例：コミュニティ、次数、モジュール）で並べ替え、構造的パターンを強調。</li>
+<li><strong>相関行列との比較</strong>：隣接行列が「接続の有無（binary）」を表すのに対し、相関行列は「関係の強さ（continuous）」を示す。</li>
+<li><strong>BioFabric・Hive Plotなど</strong>：隣接行列の欠点を克服し、構造を線形・規則的に描く手法として発展している。</li>
+</ul>
 <h2 id="まとめ">まとめ
-</h2><p>BioFabricは、従来の「点と線の混沌」から脱却し、<strong>構造の秩序と密度のパターン</strong>を可視化する新しい手法です。<br>
-ネットワークを“毛玉”ではなく“織物”として描くことにより、膨大な関係性の中から秩序や機能的構造を見出すことが可能になります。生命科学だけでなく、社会ネットワークや都市構造の解析などにも応用が期待されています。</p>
+</h2><p>隣接行列は <strong>ネットワークを数値的・構造的に理解するための基本フォーマット</strong> であり、可視化においても「構造の秩序を読む」ことを重視する設計思想に通じています。ノード間の関係を抽象的に捉える練習として、インフォグラフィックス教育でも有効な素材となります。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
-<li><a class="link" href="https://biofabric.systemsbiology.net/"  target="_blank" rel="noopener"
-    >BioFabric: A novel network visualization tool</a></li>
-<li><a class="link" href="https://biofabric.systemsbiology.net/gallery/index.html"  target="_blank" rel="noopener"
-    >Comb the Hairball with BioFabric (official tutorial)</a></li>
-<li><a class="link" href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-275"  target="_blank" rel="noopener"
-    >Longabaugh, W. J. R. “Combing the hairball with BioFabric: a new approach for visualization of large networks.” <em>BMC Bioinformatics</em> (2012)</a></li>
-<li><a class="link" href="https://github.com/wjrl/BioFabric"  target="_blank" rel="noopener"
-    >wjrl/BioFabric: BioFabric is an open-source network visualization tool</a></li>
-<li><a class="link" href="https://en.wikipedia.org/wiki/BioFabric"  target="_blank" rel="noopener"
-    >BioFabric — Wikipedia (English)</a></li>
-<li><a class="link" href="https://ggraph.data-imaginist.com/reference/layout_tbl_graph_fabric.html"  target="_blank" rel="noopener"
-    >layout_tbl_graph_fabric — ggraph R package documentation</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Adjacency_matrix"  target="_blank" rel="noopener"
+    >Wikipedia: Adjacency matrix</a></li>
+<li><a class="link" href="https://networksciencebook.com/chapter/3"  target="_blank" rel="noopener"
+    >Network Science by Albert-László Barabási</a></li>
+<li><a class="link" href="https://bost.ocks.org/mike/miserables/"  target="_blank" rel="noopener"
+    >Les Misérables Co-occurrence</a></li>
 </ul>
 </section>
 
@@ -611,11 +664,35 @@
             
                 
 <article class="has-image">
+    <a href="/bio-fabric/">
+        
+        
+            <div class="article-image">
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する"
+                        data-key="bio-fabric" 
+                        data-hash="md5-zultgnlibb9do&#43;9BbpaNbA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/hive-plot/">
         
         
             <div class="article-image">
-                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
+                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -635,35 +712,11 @@
             
                 
 <article class="has-image">
-    <a href="/adiacency-matrix/">
-        
-        
-            <div class="article-image">
-                <img src="/adiacency-matrix/images/cover.e95b7c223212650f854b58a4155550a7_hu_a32468799c14e4fc.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 隣接行列（Adjacency Matrix）"
-                        data-key="adiacency-matrix" 
-                        data-hash="md5-6Vt8IjISZQ&#43;FS1ikFVVQpw==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">隣接行列（Adjacency Matrix）</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/circle-packing/">
         
         
             <div class="article-image">
-                <img src="/circle-packing/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                <img src="/circle-packing/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -687,7 +740,7 @@
         
         
             <div class="article-image">
-                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                <img src="/time-distance-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -711,7 +764,7 @@
         
         
             <div class="article-image">
-                <img src="/euler-diagram/images/cover.14daa0a08675e395ec5679c53cd99e97.14daa0a08675e395ec5679c53cd99e97_hu_c3d97da7e0c6d5c8.png" 
+                <img src="/euler-diagram/images/cover.14daa0a08675e395ec5679c53cd99e97_hu_c3d97da7e0c6d5c8.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
