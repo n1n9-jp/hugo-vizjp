@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。\n">
-<title>カルトグラム：見慣れた地図がデータで歪む面白さ</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この作品は、「頭脳流出（Brain drain）」 と呼ばれる現象を、各国間での研究者の移動として可視化したものです。Giorgia Lupi（Accurat）が、イタリアの新聞 Corriere della Sera の文化面「La Lettura」連載 Visual Data のために制作しました。\n国ごとに、研究開発（R&amp;D）へのGDP投資割合や人口あたりの研究者数といった定量的な指標を配置軸とし、研究者の流入・流出関係を線で結んでいます。\nこの作品は単なる統計地図ではなく、科学研究の「知の循環」や「国家間の知的格差」を直感的に読み解く構成になっています。\n">
+<title>頭脳流出の可視化</title>
 
-<link rel='canonical' href='http://localhost:1313/cartogram/'>
+<link rel='canonical' href='http://localhost:1313/brain-drain/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="カルトグラム：見慣れた地図がデータで歪む面白さ">
-<meta property='og:description' content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。\n">
-<meta property='og:url' content='http://localhost:1313/cartogram/'>
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="頭脳流出の可視化">
+<meta property='og:description' content="この作品は、「頭脳流出（Brain drain）」 と呼ばれる現象を、各国間での研究者の移動として可視化したものです。Giorgia Lupi（Accurat）が、イタリアの新聞 Corriere della Sera の文化面「La Lettura」連載 Visual Data のために制作しました。\n国ごとに、研究開発（R&amp;D）へのGDP投資割合や人口あたりの研究者数といった定量的な指標を配置軸とし、研究者の流入・流出関係を線で結んでいます。\nこの作品は単なる統計地図ではなく、科学研究の「知の循環」や「国家間の知的格差」を直感的に読み解く構成になっています。\n">
+<meta property='og:url' content='http://localhost:1313/brain-drain/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2025-09-10T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-09-10T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/cartogram/images/cartogram.png' />
-<meta name="twitter:title" content="カルトグラム：見慣れた地図がデータで歪む面白さ">
-<meta name="twitter:description" content="データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/cartogram/images/cartogram.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='オリジナルのビジュアル変換' /><meta property='article:published_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-10T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/brain-drain/images/cover.png' />
+<meta name="twitter:title" content="頭脳流出の可視化">
+<meta name="twitter:description" content="この作品は、「頭脳流出（Brain drain）」 と呼ばれる現象を、各国間での研究者の移動として可視化したものです。Giorgia Lupi（Accurat）が、イタリアの新聞 Corriere della Sera の文化面「La Lettura」連載 Visual Data のために制作しました。\n国ごとに、研究開発（R&amp;D）へのGDP投資割合や人口あたりの研究者数といった定量的な指標を配置軸とし、研究者の流入・流出関係を線で結んでいます。\nこの作品は単なる統計地図ではなく、科学研究の「知の循環」や「国家間の知的格差」を直感的に読み解く構成になっています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/brain-drain/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,35 +386,18 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#カルトグラム手法の比較一覧">カルトグラム手法の比較一覧</a>
+    <li><a href="#作品の見方">作品の見方</a>
       <ol>
-        <li><a href="#連続的カルトグラム-continuous-cartogram">連続的カルトグラム (Continuous Cartogram)</a>
-          <ol>
-            <li><a href="#一票の格差でいびつな日本">一票の格差でいびつな日本</a></li>
-            <li><a href="#2021年衆院選の比例代表得票率-主な政党の得票率">2021年衆院選の比例代表得票率 主な政党の得票率</a></li>
-            <li><a href="#カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する">カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する</a></li>
-            <li><a href="#地球規模の生活環境がどのように変化しているかを考えるために必要な地図">地球規模の生活環境がどのように変化しているかを考えるために必要な地図</a></li>
-          </ol>
-        </li>
-        <li><a href="#非連続的カルトグラム-non-continuous-cartogram">非連続的カルトグラム (Non-Continuous Cartogram)</a>
-          <ol>
-            <li><a href="#選挙人地図11612選挙日">選挙人地図（11/6/12）：選挙日</a></li>
-          </ol>
-        </li>
-        <li><a href="#擬似連続カルトグラム-pseudo-continuous-cartogram">擬似連続カルトグラム (Pseudo-Continuous Cartogram)</a>
-          <ol>
-            <li><a href="#ニューヨークタイムズオリンピックメダル地図2012年">ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。</a></li>
-            <li><a href="#オバマ大統領による変更前に保険契約を更新できる州">オバマ大統領による変更前に、保険契約を更新できる州</a></li>
-          </ol>
-        </li>
-        <li><a href="#グリッドカルトグラム-gridded-cartogram">グリッド・カルトグラム (Gridded Cartogram)</a>
-          <ol>
-            <li><a href="#すべては538人の選挙人票次第だ">すべては538人の選挙人票次第だ</a></li>
-          </ol>
-        </li>
+        <li><a href="#1-作品全体における座標国の位置">1. 作品全体における座標（国の位置）</a></li>
+        <li><a href="#2-色と線の意味国ごとのビジュアル表現">2. 色と線の意味（国ごとのビジュアル表現）</a></li>
+        <li><a href="#3-線でつながる国々">3. 線でつながる国々</a></li>
+        <li><a href="#4-読み取りのコツ">4. 読み取りのコツ</a></li>
       </ol>
     </li>
+    <li><a href="#背景頭脳流出とは何か">背景：頭脳流出とは何か</a></li>
+    <li><a href="#デザイン上の特徴">デザイン上の特徴</a></li>
     <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -429,13 +412,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/cartogram/">
-                <img src="/cartogram/images/cartogram_hu_ac705e8882b063cd.png"
-                        srcset="/cartogram/images/cartogram_hu_ac705e8882b063cd.png 800w, /cartogram/images/cartogram_hu_9d9dde100c7ae1a7.png 1600w"
+            <a href="/brain-drain/">
+                <img src="/brain-drain/images/cover_hu_20ece8b1bbefd8f8.png"
+                        srcset="/brain-drain/images/cover_hu_20ece8b1bbefd8f8.png 800w, /brain-drain/images/cover_hu_5b4fc243df88c4b8.png 1600w"
                         width="800" 
-                        height="410" 
+                        height="302" 
                         loading="lazy"
-                        alt="Featured image of post カルトグラム：見慣れた地図がデータで歪む面白さ" />
+                        alt="Featured image of post 頭脳流出の可視化" />
                 
             </a>
         </div>
@@ -449,16 +432,12 @@
                 見るための記事
             </a>
         
-            <a href="/categories/technology/" >
-                作るための記事
-            </a>
-        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/cartogram/">カルトグラム：見慣れた地図がデータで歪む面白さ</a>
+            <a href="/brain-drain/">頭脳流出の可視化</a>
         </h2>
     
         
@@ -480,7 +459,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Sep 10, 2025</time>
+                <time class="article-time--published">Oct 10, 2025</time>
             </div>
         
 
@@ -510,191 +489,162 @@
     <section class="article-content">
     
     
-    <p>データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。これは地図上の領域（国や都道府県など）の面積や形を、人口や経済規模、投票数などの数値データに比例させて変形した地図です。普段見慣れている地図が大きく歪むことで、データの特徴が一目でわかるのが魅力です。ここではデータを面積に反映させる面積カルトグラムのうち、代表的な4種類のカルトグラムを紹介します。</p>
-<h2 id="カルトグラム手法の比較一覧">カルトグラム手法の比較一覧
-</h2><div class="table-wrapper"><table>
+    <p>この作品は、<strong>「頭脳流出（Brain drain）」</strong> と呼ばれる現象を、各国間での研究者の移動として可視化したものです。Giorgia Lupi（Accurat）が、イタリアの新聞 <em>Corriere della Sera</em> の文化面「La Lettura」連載 <em>Visual Data</em> のために制作しました。</p>
+<p>国ごとに、研究開発（R&amp;D）へのGDP投資割合や人口あたりの研究者数といった定量的な指標を配置軸とし、研究者の流入・流出関係を線で結んでいます。</p>
+<p>この作品は単なる統計地図ではなく、科学研究の「知の循環」や「国家間の知的格差」を直感的に読み解く構成になっています。</p>
+<p><img src="/brain-drain/images/mainvisual.png"
+	width="2500"
+	height="1782"
+	srcset="/brain-drain/images/mainvisual_hu_c4d4d9b157ec49bb.png 480w, /brain-drain/images/mainvisual_hu_dfd618ba067bce0b.png 1024w"
+	loading="lazy"
+	
+		alt="頭脳流出の可視化"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="140"
+		data-flex-basis="336px"
+	
+></p>
+<h2 id="作品の見方">作品の見方
+</h2><p>図の読み方は左下に「How to read it?」として明示されています。
+この図は、各国の研究環境と研究者の国際移動を多変量的に可視化したものです。
+横軸と縦軸の位置関係で研究環境を、色線と記号で社会的・経済的要因を示します。</p>
+<p><img src="/brain-drain/images/legend.png"
+	width="445"
+	height="933"
+	srcset="/brain-drain/images/legend_hu_163f81d56d98fda6.png 480w, /brain-drain/images/legend_hu_192c2e50b08fcadc.png 1024w"
+	loading="lazy"
+	
+		alt="凡例"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="47"
+		data-flex-basis="114px"
+	
+></p>
+<h3 id="1-作品全体における座標国の位置">1. 作品全体における座標（国の位置）
+</h3><ul>
+<li><strong>X 軸</strong> &hellip; R&amp;D 投資率（% of GDP invested in R&amp;D）
+<ul>
+<li>国内総生産に占める研究開発費の割合。研究への経済的投資度合いを表す。</li>
+</ul>
+</li>
+<li><strong>Y 軸</strong> &hellip; 人口100万人あたりの研究者数（researchers per 1 million people）
+<ul>
+<li>研究者密度の高さ。研究職の社会的集積度を示す。</li>
+</ul>
+</li>
+</ul>
+<p>この2 軸の交点として各国が配置されます。右上ほど「研究に投資が多く、研究者密度が高い」国です。</p>
+<h3 id="2-色と線の意味国ごとのビジュアル表現">2. 色と線の意味（国ごとのビジュアル表現）
+</h3><div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>手法</th>
-          <th>特徴</th>
-          <th>メリット</th>
-          <th>デメリット</th>
+          <th style="text-align: left">視覚要素</th>
+          <th style="text-align: left">表す内容</th>
+          <th style="text-align: left">主な出典</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>連続的カルトグラム</td>
-          <td>隣接関係を保ちながら、面積をデータに比例させて変形</td>
-          <td>地図らしさが残るため直感的</td>
-          <td>全体的に歪んで読みにくい場合がある</td>
+          <td style="text-align: left"><strong>青の横棒</strong></td>
+          <td style="text-align: left"><strong>外国人研究者の割合 (%)</strong> — 他国から来た研究者が全研究者に占める比率。<br>高いほど国外人材を受け入れている。</td>
+          <td style="text-align: left">(2) Franzoni et al., 2012</td>
       </tr>
       <tr>
-          <td>非連続的カルトグラム</td>
-          <td>地域ごとに独立させ、面積をデータに比例</td>
-          <td>歪みが少なく比較しやすい</td>
-          <td>隣接関係が失われる</td>
+          <td style="text-align: left"><strong>青の下層棒</strong></td>
+          <td style="text-align: left"><strong>外国生まれ人口の割合 (%)</strong> — 社会全体での国際化度合い。</td>
+          <td style="text-align: left">(1) World Bank</td>
       </tr>
       <tr>
-          <td>擬似連続カルトグラム</td>
-          <td>丸や四角など幾何図形の大きさや色で表現</td>
-          <td>データ比較がしやすい</td>
-          <td>地形が失われる</td>
+          <td style="text-align: left"><strong>赤の縦棒</strong></td>
+          <td style="text-align: left"><strong>国外で活動する自国出身研究者の割合 (%)</strong> — 研究者流出の規模。</td>
+          <td style="text-align: left">(2) Franzoni et al., 2012</td>
       </tr>
       <tr>
-          <td>グリッド・カルトグラム</td>
-          <td>グリッド単位で地域を置換</td>
-          <td>個数や色による表現が明確</td>
-          <td>位置関係が単純化されすぎる</td>
+          <td style="text-align: left"><strong>赤の淡色部分／補助線</strong></td>
+          <td style="text-align: left"><strong>国外在住自国民 (%)</strong> および <strong>出身国へ帰国した研究者 (%)</strong> — 流出人口と帰還率を補足。</td>
+          <td style="text-align: left">(1)(2)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>黄の細線</strong></td>
+          <td style="text-align: left"><strong>失業率 (%)</strong> — 国内労働環境の安定度。</td>
+          <td style="text-align: left">(1) World Bank</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>緑の小円群</strong></td>
+          <td style="text-align: left"><strong>女性就業率 (%)</strong> — 女性の社会進出度。<br>小円は区間（&lt;5%、5–10%、10–15%、&gt;15%）で表現。</td>
+          <td style="text-align: left">(1) World Bank</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>灰色の帯</strong></td>
+          <td style="text-align: left"><strong>大学ランキング指標（0–100スケール）</strong> — 高等教育水準を示す。</td>
+          <td style="text-align: left">(3) Times Higher Education 2011–2012</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ベージュの円（背景）</strong></td>
+          <td style="text-align: left"><strong>一人あたりGDP (GDP per capita)</strong> — 経済的豊かさ。円が大きいほど高い。</td>
+          <td style="text-align: left">(1) World Bank</td>
       </tr>
   </tbody>
 </table></div>
-<h3 id="連続的カルトグラム-continuous-cartogram">連続的カルトグラム (Continuous Cartogram)
-</h3><h4 id="一票の格差でいびつな日本">一票の格差でいびつな日本
-</h4><p><img src="/cartogram/images/continuous_cartogram_yazaki.png"
-	width="3154"
-	height="1272"
-	srcset="/cartogram/images/continuous_cartogram_yazaki_hu_32d7fb01f087b20c.png 480w, /cartogram/images/continuous_cartogram_yazaki_hu_15da10d75010011b.png 1024w"
-	loading="lazy"
-	
-		alt="一票の格差でいびつな日本"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="247"
-		data-flex-basis="595px"
-	
-></p>
-<h4 id="2021年衆院選の比例代表得票率-主な政党の得票率">2021年衆院選の比例代表得票率 主な政党の得票率
-</h4><p><img src="/cartogram/images/continuous_cartogram_chunichi.png"
-	width="3326"
-	height="1894"
-	srcset="/cartogram/images/continuous_cartogram_chunichi_hu_ba2a470a245456ea.png 480w, /cartogram/images/continuous_cartogram_chunichi_hu_51c98e1a6c417c8c.png 1024w"
-	loading="lazy"
-	
-		alt="2021年衆院選の比例代表得票率 主な政党の得票率"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="175"
-		data-flex-basis="421px"
-	
-></p>
-<p><a class="link" href="https://static.chunichi.co.jp/chunichi/pages/feature/election/proportional_map.html"  target="_blank" rel="noopener"
-    >2021年衆院選の比例代表得票率 主な政党の得票率</a></p>
-<h4 id="カルトグラムを利用して米国におけるウォルマートマクドナルドスターバックスの分布を表示する">カルトグラムを利用して、米国におけるウォルマート、マクドナルド、スターバックスの分布を表示する
-</h4><p><img src="/cartogram/images/SupercentersHamburgersAndCoffee.png"
-	width="1076"
-	height="335"
-	srcset="/cartogram/images/SupercentersHamburgersAndCoffee_hu_c7021bb662039007.png 480w, /cartogram/images/SupercentersHamburgersAndCoffee_hu_921d16d3806d9bcd.png 1024w"
-	loading="lazy"
-	
-		alt="Supercenters, Hamburgers, and Coffee"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="321"
-		data-flex-basis="770px"
-	
-></p>
-<p><a class="link" href="https://web.archive.org/web/20200510210032/http://www.stephabegg.com/home/projects/cartograms"  target="_blank" rel="noopener"
-    >Supercenters, Hamburgers, and Coffee: Using density-equalizing cartograms to display the distribution of Walmarts, McDonalds, and Starbucks in the US</a></p>
-<h4 id="地球規模の生活環境がどのように変化しているかを考えるために必要な地図">地球規模の生活環境がどのように変化しているかを考えるために必要な地図
-</h4><p><img src="/cartogram/images/Population-cartogram_Asia-and-Oceania.png"
-	width="4878"
-	height="3375"
-	srcset="/cartogram/images/Population-cartogram_Asia-and-Oceania_hu_d6e2a9c350c93f25.png 480w, /cartogram/images/Population-cartogram_Asia-and-Oceania_hu_827f5a0531469007.png 1024w"
-	loading="lazy"
-	
-		alt="Population of Asia and Oceania in 2018"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="144"
-		data-flex-basis="346px"
-	
-></p>
-<p><a class="link" href="https://ourworldindata.org/world-population-cartogram"  target="_blank" rel="noopener"
-    >The map we need if we want to think about how global living conditions are changing</a></p>
-<p>連続的カルトグラムは、国境や県境といった隣接関係を保ちながら、各地域をデータに応じて面積ごと変形する手法です。
-たとえば人口を基準にすると、人口の多い地域は大きく、少ない地域は小さく変形されます。結果として全体の地図がぐにゃりと歪み、見慣れた地図とのギャップから「どこが大きく、どこが小さいのか」が直感的に理解できます。</p>
-<h3 id="非連続的カルトグラム-non-continuous-cartogram">非連続的カルトグラム (Non-Continuous Cartogram)
-</h3><h4 id="選挙人地図11612選挙日">選挙人地図（11/6/12）：選挙日
-</h4><p><img src="/cartogram/images/TheElectoralCollegeMap.png"
-	width="640"
-	height="494"
-	srcset="/cartogram/images/TheElectoralCollegeMap_hu_a63bbba096f805f.png 480w, /cartogram/images/TheElectoralCollegeMap_hu_6400f2d855f8270a.png 1024w"
-	loading="lazy"
-	
-		alt="The Electoral College Map (11/6/12): Election Day"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="129"
-		data-flex-basis="310px"
-	
-></p>
-<p><a class="link" href="https://www.frontloadinghq.com/2012/11/the-electoral-college-map-11612.html"  target="_blank" rel="noopener"
-    >The Electoral College Map (11/6/12): Election Day</a></p>
-<p>非連続的カルトグラムは、隣接性を捨てて各地域を独立させた上で、面積をデータに比例させる手法です。
-たとえばアメリカの州ごとの投票結果を示す場合、州の位置や境界は保ちながらも州同士の距離感は無視されるため、全体としてはモザイク状の地図になります。隣接関係の形状の変化に影響を受けずに、それぞれの地域のデータ量が強調されるのが特徴です。</p>
-<h3 id="擬似連続カルトグラム-pseudo-continuous-cartogram">擬似連続カルトグラム (Pseudo-Continuous Cartogram)
-</h3><h4 id="ニューヨークタイムズオリンピックメダル地図2012年">ニューヨーク・タイムズ「オリンピックメダル地図」、2012年。
-</h4><p><img src="/cartogram/images/Pseudo-ContinuousCartogram_01a.png"
-	width="966"
-	height="492"
-	srcset="/cartogram/images/Pseudo-ContinuousCartogram_01a_hu_a3ee5821bda211f1.png 480w, /cartogram/images/Pseudo-ContinuousCartogram_01a_hu_ced1827ce6946d14.png 1024w"
-	loading="lazy"
-	
-		alt="New York Times — “A Map of Olympic Medals”, 2012."
-	
-	
-		class="gallery-image" 
-		data-flex-grow="196"
-		data-flex-basis="471px"
-	
-></p>
-<p><a class="link" href="https://archive.nytimes.com/www.nytimes.com/interactive/2008/08/04/sports/olympics/20080804_MEDALCOUNT_MAP.html"  target="_blank" rel="noopener"
-    >A Map of Olympic Medals</a></p>
-<h4 id="オバマ大統領による変更前に保険契約を更新できる州">オバマ大統領による変更前に、保険契約を更新できる州
-</h4><p><img src="/cartogram/images/Pseudo-ContinuousCartogram_02.png"
-	width="868"
-	height="558"
-	srcset="/cartogram/images/Pseudo-ContinuousCartogram_02_hu_f10cc311851943d8.png 480w, /cartogram/images/Pseudo-ContinuousCartogram_02_hu_e35335f0854eba3f.png 1024w"
-	loading="lazy"
-	
-		alt="States Where Insured Could Renew Plans Before Change by Obama"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="155"
-		data-flex-basis="373px"
-	
-></p>
-<p><a class="link" href="https://archive.nytimes.com/www.nytimes.com/interactive/2013/11/20/us/which-states-will-allow-old-health-policies-to-be-renewed.html"  target="_blank" rel="noopener"
-    >States Where Insured Could Renew Plans Before Change by Obama</a></p>
-<p>擬似連続カルトグラムは、地域を地形のまま表現するのではなく、丸や四角などの単純な幾何図形に置き換えた上で、それをデータに応じて大きさを変える方法です。
-代表例は「ドーリング・カルトグラム（Dorling cartogram）」と呼ばれる手法で、国や地域を円の大きさで表し、位置関係をできるだけ近づけて配置します。地形の正確さを犠牲にする代わりに、データの比較がしやすくなるのが利点です。</p>
-<h3 id="グリッドカルトグラム-gridded-cartogram">グリッド・カルトグラム (Gridded Cartogram)
-</h3><h4 id="すべては538人の選挙人票次第だ">すべては538人の選挙人票次第だ
-</h4><p><img src="/cartogram/images/GriddedCartogram_01.png"
-	width="1804"
-	height="1447"
-	srcset="/cartogram/images/GriddedCartogram_01_hu_547dc068eda829a3.png 480w, /cartogram/images/GriddedCartogram_01_hu_d6154491904bf4cd.png 1024w"
-	loading="lazy"
-	
-		alt="It’s all about the 538 Electoral College votes"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="124"
-		data-flex-basis="299px"
-	
-></p>
-<p><a class="link" href="https://web.archive.org/web/20241213042407/http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=rrpromo#plus&amp;electoral-map"  target="_blank" rel="noopener"
-    >It’s all about the 538 Electoral College votes</a></p>
-<p>グリッド・カルトグラムは地形を、データに応じた個数のグリッド（四角形や六角形など）を並べて表現する方法です。個数以外に色でも別変数を表現することができます。位置関係をある程度保ちつつ、数の比較が直感的に理解できるのが特徴です。</p>
+<h3 id="3-線でつながる国々">3. 線でつながる国々
+</h3><p>各国の背後を走る <strong>点線のアーク（弧線）</strong> は、研究者の移動経路（origin → destination）を示します。太さではなく存在と方向を表すもので、知の流れのネットワークを描いています。</p>
+<h3 id="4-読み取りのコツ">4. 読み取りのコツ
+</h3><ul>
+<li>
+<ol>
+<li><strong>座標位置</strong> で研究環境の水準を把握（投資と密度）。</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li><strong>青と赤の棒</strong> で、知の流入／流出の非対称性を見る。</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li><strong>補助要素（黄・緑・円・灰帯）</strong> で、社会・経済・教育背景を読み解く。</li>
+</ol>
+</li>
+</ul>
+<p>このように、図中の青＝受け入れ、赤＝流出、そのあいだを結ぶ曲線が研究者の移動経路を示し、
+研究開発への投資と人材循環の関係を一枚で描き出しています。</p>
+<h2 id="背景頭脳流出とは何か">背景：頭脳流出とは何か
+</h2><p><strong>頭脳流出（Brain drain）</strong> とは、高度な教育・専門技能を持つ人材（特に科学者・技術者・研究者）が、より良い経済的・研究環境を求めて国外へ移動する現象を指します。特に発展途上国や新興国から、欧米先進国へ向かう流れが長年問題視されています。</p>
+<p>この作品では、</p>
+<ul>
+<li><strong>World Bank</strong>（2005–2012）によるGDPデータ、</li>
+<li><strong>Foreign Born Scientists Mobility dataset</strong>（Franzoni, Scellato, Stephan, 2012）、</li>
+<li><strong>Times Higher Education World University Rankings (2011–2012)</strong></li>
+</ul>
+<p>が基礎データとして使われています。これらのデータを統合し「科学研究という無形資本の流れ」をグローバルに描き出しています。</p>
+<h2 id="デザイン上の特徴">デザイン上の特徴
+</h2><p>Lupi特有の情報詩的な設計が随所に見られます：</p>
+<ul>
+<li><strong>幾何的精密さ</strong> と <strong>有機的曲線</strong> の対比</li>
+<li>カラーの三原則（青＝流入、赤＝流出、黄＝定着）による視覚言語</li>
+<li>背景の余白が「世界地図」的構図を暗示し、地理的配置ではなく <strong>知識経済の座標空間</strong> として世界を再構成</li>
+</ul>
+<p>そのため、視聴者は「どこが豊かか」ではなく、「どこが知を失い、どこがそれを得ているか」という <strong>非対称的構造</strong> を一目で理解できます。</p>
 <h2 id="まとめ">まとめ
-</h2><p>カルトグラムは「地図」という馴染みのあるフォーマットにデータを組み込むことで、地域差や規模感を強く訴えることができる表現手法です。適切なタイプを選ぶことで、データが持つストーリーを効果的に伝えることができます。</p>
+</h2><p>この「頭脳流出」可視化は、単なる移民統計ではなく、「知の流れ」という新しいグローバル地図を提示しています。
+国家間の科学的ネットワークと格差を同時に映し出し、教育政策・研究支援の必要性をビジュアルに訴えかける作品です。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://giorgialupi.com/lalettura"  target="_blank" rel="noopener"
+    >Visual Data — Giorgia Lupi (La Lettura)</a></li>
+<li><a class="link" href="https://www.corriere.it/la-lettura/infografiche-visual-data/"  target="_blank" rel="noopener"
+    >Visual Data — La Lettura (Corriere della Sera)</a></li>
+<li><a class="link" href="https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS"  target="_blank" rel="noopener"
+    >Research and development expenditure (% of GDP) — World Bank</a></li>
+<li><a class="link" href="https://www.nber.org/papers/w18067"  target="_blank" rel="noopener"
+    >Foreign Born Scientists: Mobility Patterns for Sixteen Countries — NBER Working Paper 18067 (2012)</a></li>
+<li><a class="link" href="https://www.timeshighereducation.com/world-university-rankings/2012/world-ranking"  target="_blank" rel="noopener"
+    >World University Rankings 2011–2012 — Times Higher Education</a></li>
+</ul>
 </section>
 
 
@@ -702,7 +652,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
+            <a href="/tags/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E5%A4%89%E6%8F%9B/">オリジナルのビジュアル変換</a>
         
     </section>
 
@@ -736,23 +686,23 @@
             
                 
 <article class="has-image">
-    <a href="/time-distance-map-price/">
+    <a href="/continents-showdown/">
         
         
             <div class="article-image">
-                <img src="/time-distance-map-price/images/time-distance-price-closeup.d7da82a05969c86cf6f2c382e8b41db7_hu_223365cdc616f752.png" 
+                <img src="/continents-showdown/images/cover.c026a74b6e5fd82c864bf636c8a2c73a.c026a74b6e5fd82c864bf636c8a2c73a_hu_aa8da3133f1a9328.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 旅費の距離カルトグラム"
-                        data-key="time-distance-map-price" 
-                        data-hash="md5-19qCoFlpyGz28sOC6LQdtw==">
+                        alt="Featured image of post もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》"
+                        data-key="continents-showdown" 
+                        data-hash="md5-wCanS25f2CyGS/Y2yKLHOg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">旅費の距離カルトグラム</h2>
+            <h2 class="article-title">もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</h2>
         </div>
     </a>
 </article>
@@ -760,23 +710,23 @@
             
                 
 <article class="has-image">
-    <a href="/time-distance-map/">
+    <a href="/further-education-longer-life/">
         
         
             <div class="article-image">
-                <img src="/time-distance-map/images/time-distance-closeup.a6957e159d1f739ddd5130f6bd21e65e_hu_2f1f24c1f6279b36.png" 
+                <img src="/further-education-longer-life/images/cover.86f298300bb6c8234be74846468fa685.86f298300bb6c8234be74846468fa685_hu_1590f7cfed738869.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 時間の距離カルトグラム"
-                        data-key="time-distance-map" 
-                        data-hash="md5-ppV&#43;FZ0fc53dUTD2vSHmXg==">
+                        alt="Featured image of post 学びと寿命のあいだ - 教育水準と社会構造の相関を描く"
+                        data-key="further-education-longer-life" 
+                        data-hash="md5-hvKYMAu2yCNL50hGRo&#43;mhQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">時間の距離カルトグラム</h2>
+            <h2 class="article-title">学びと寿命のあいだ - 教育水準と社会構造の相関を描く</h2>
         </div>
     </a>
 </article>
@@ -784,23 +734,23 @@
             
                 
 <article class="has-image">
-    <a href="/bosai-kikikuru-color/">
+    <a href="/painters-in-the-making/">
         
         
             <div class="article-image">
-                <img src="/bosai-kikikuru-color/images/sequential_kikikuru_compare_5_jp.c608f1a6d93497d56953b506d7f8f99e.c608f1a6d93497d56953b506d7f8f99e_hu_69644db5a9bf609f.png" 
+                <img src="/painters-in-the-making/images/cover.2a05e41c12c9940cccb82ec44b82e784.2a05e41c12c9940cccb82ec44b82e784_hu_e4fce3231fc6a316.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 防災情報「キキクル」に見られる独自の色彩設計の工夫"
-                        data-key="bosai-kikikuru-color" 
-                        data-hash="md5-xgjxptk0l9VpU7UG1/j5ng==">
+                        alt="Featured image of post 画家たちの人生と代表作"
+                        data-key="painters-in-the-making" 
+                        data-hash="md5-KgXkHBLJlAzMuC7ES4LnhA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">防災情報「キキクル」に見られる独自の色彩設計の工夫</h2>
+            <h2 class="article-title">画家たちの人生と代表作</h2>
         </div>
     </a>
 </article>
@@ -808,23 +758,23 @@
             
                 
 <article class="has-image">
-    <a href="/provisional-inundation-depth-map/">
+    <a href="/urban-story/">
         
         
             <div class="article-image">
-                <img src="/provisional-inundation-depth-map/images/provisional-inundation-depth-map.62bd7dbb332f4055d863c9c380796bae.62bd7dbb332f4055d863c9c380796bae_hu_e99fe38bb89f4885.png" 
+                <img src="/urban-story/images/cover.2cf1968e0c6c03bef71a7c7a24d8867c.2cf1968e0c6c03bef71a7c7a24d8867c_hu_dc0502a8df4f5444.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法"
-                        data-key="provisional-inundation-depth-map" 
-                        data-hash="md5-Yr19uzMvQFXYY8nDgHlrrg==">
+                        alt="Featured image of post Urban story: リスボンはホノルルと肩を並べる"
+                        data-key="urban-story" 
+                        data-hash="md5-LPGWjgxsA773Gnx6JNiGfA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法</h2>
+            <h2 class="article-title">Urban story: リスボンはホノルルと肩を並べる</h2>
         </div>
     </a>
 </article>
@@ -832,23 +782,23 @@
             
                 
 <article class="has-image">
-    <a href="/chart-map-transportation-infrastructure/">
+    <a href="/progress-toward-gender-equality/">
         
         
             <div class="article-image">
-                <img src="/chart-map-transportation-infrastructure/images/12511007_closeup.5bdb3dacb8c1d818c20a26bcec4d6e6f.5bdb3dacb8c1d818c20a26bcec4d6e6f_hu_2906c13962f3791e.png" 
+                <img src="/progress-toward-gender-equality/images/cover.51edfd38159520740b2d8387bc55ccdd.51edfd38159520740b2d8387bc55ccdd_hu_b80117c84d225694.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 交通インフラの内訳を可視化した統計チャート地図"
-                        data-key="chart-map-transportation-infrastructure" 
-                        data-hash="md5-W9s9rLjB2BjCCia87E1ubw==">
+                        alt="Featured image of post ジェンダー平等への進展の可視化"
+                        data-key="progress-toward-gender-equality" 
+                        data-hash="md5-Ue39OBWVIHQLLYOHvFXM3Q==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">交通インフラの内訳を可視化した統計チャート地図</h2>
+            <h2 class="article-title">ジェンダー平等への進展の可視化</h2>
         </div>
     </a>
 </article>
