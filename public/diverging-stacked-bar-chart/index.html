@@ -386,15 +386,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
-      <ol>
-        <li><a href="#図解の見方">図解の見方</a></li>
-        <li><a href="#利点と用途">利点と用途</a></li>
-        <li><a href="#背景と派生">背景と派生</a></li>
-        <li><a href="#代表的な作例ツール">代表的な作例・ツール</a></li>
-        <li><a href="#まとめ">まとめ</a></li>
-      </ol>
-    </li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#利点と用途">利点と用途</a></li>
+    <li><a href="#背景と派生">背景と派生</a></li>
+    <li><a href="#代表的な作例ツール">代表的な作例・ツール</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
     <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
@@ -501,8 +497,8 @@
 		data-flex-basis="661px"
 	
 ></p>
-<h3 id="図解の見方">図解の見方
-</h3><div class="table-wrapper"><table>
+<h2 id="図解の見方">図解の見方
+</h2><div class="table-wrapper"><table>
   <thead>
       <tr>
           <th>要素</th>
@@ -533,17 +529,17 @@
   </tbody>
 </table></div>
 <p>このように、左右の長さのバランスを比較することで、特定の項目に対して回答が偏っているかどうかが視覚的に理解できます。</p>
-<h3 id="利点と用途">利点と用途
-</h3><ul>
+<h2 id="利点と用途">利点と用途
+</h2><ul>
 <li><strong>バランス比較が容易</strong>：全体に対する肯定・否定の傾向を一目で把握可能。</li>
 <li><strong>空間効率が良い</strong>：多数の質問項目を縦方向に並べて比較できる。</li>
 <li><strong>定性評価の定量化</strong>：Likertスケール（5段階評価など）を直感的に可視化できる。</li>
 </ul>
 <p>特に社会調査や企業の顧客満足度調査、政治的支持・反対意識の可視化などにおいて、多くの研究者・デザイナーが採用しています。</p>
-<h3 id="背景と派生">背景と派生
-</h3><p>この手法は、20世紀後半の <strong>社会調査統計グラフィックス</strong> の文脈で発展しました。Likertスケールを扱う際、単純な棒グラフでは中立意見を挟む対称性が表現しづらいため <strong>左右対称型の積み重ね構造</strong> が考案されました。現在では、Excel、Tableau、Power BI、ggplot2（R）、Plotly、Vega-Liteなど、多くの可視化ツールで容易に実装可能です。</p>
-<h3 id="代表的な作例ツール">代表的な作例・ツール
-</h3><div class="table-wrapper"><table>
+<h2 id="背景と派生">背景と派生
+</h2><p>この手法は、20世紀後半の <strong>社会調査統計グラフィックス</strong> の文脈で発展しました。Likertスケールを扱う際、単純な棒グラフでは中立意見を挟む対称性が表現しづらいため <strong>左右対称型の積み重ね構造</strong> が考案されました。現在では、Excel、Tableau、Power BI、ggplot2（R）、Plotly、Vega-Liteなど、多くの可視化ツールで容易に実装可能です。</p>
+<h2 id="代表的な作例ツール">代表的な作例・ツール
+</h2><div class="table-wrapper"><table>
   <thead>
       <tr>
           <th>ツール／ライブラリ</th>
@@ -569,8 +565,8 @@
       </tr>
   </tbody>
 </table></div>
-<h3 id="まとめ">まとめ
-</h3><p>分岐的積み重ね棒グラフは、データの中心性と対称性を視覚的に表現するための強力な手法です。単なる比率の提示に留まらず、<strong>人々の意識の偏りや分極化の度合いを直感的に示す</strong>ことができるため、社会的・心理的調査データの分析において極めて有効です。</p>
+<h2 id="まとめ">まとめ
+</h2><p>分岐的積み重ね棒グラフは、データの中心性と対称性を視覚的に表現するための強力な手法です。単なる比率の提示に留まらず、<strong>人々の意識の偏りや分極化の度合いを直感的に示す</strong>ことができるため、社会的・心理的調査データの分析において極めて有効です。</p>
 <h2 id="参考出典">参考・出典
 </h2><ul>
 <li><a class="link" href="https://r-graph-gallery.com/202-barplot-for-likert-type-items.html"  target="_blank" rel="noopener"
@@ -583,6 +579,8 @@
     >Two ways of creating diverging stacked bar charts in R — Medium (VisUMD)</a></li>
 <li><a class="link" href="https://depictdatastudio.com/charts/diverging-stacked-bar/"  target="_blank" rel="noopener"
     >Diverging Stacked Bar — Depict Data Studio</a></li>
+<li><a class="link" href="https://www.datawrapper.de/blog/divergingbars"  target="_blank" rel="noopener"
+    >The case against diverging stacked bars | Datawrapper Blog</a></li>
 </ul>
 </section>
 
