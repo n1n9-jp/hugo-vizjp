@@ -75,6 +75,98 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>3Dコロプレス・マップ（3D Choropleth Map）</title>
+        <link>http://localhost:1313/3d-choropleth-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/3d-choropleth-map/</guid>
+        <description>&lt;img src="http://localhost:1313/3d-choropleth-map/images/thumb_ph_vizjp.png" alt="Featured image of post 3Dコロプレス・マップ（3D Choropleth Map）" /&gt;&lt;p&gt;3Dコロプレス・マップ（3D Choropleth Map）は、地理的な区画ごとに統計値を色で示す「コロプレス・マップ（Choropleth Map）」を三次元的に拡張した可視化手法です。&lt;/p&gt;
+&lt;p&gt;各地域の値を「高さ（立体のプリズム）」として表現し、色と高さの両方で変数の大小を表します。地表から突き出たような立体構造が特徴で、人口密度や所得水準などを直感的に把握できる利点があります。&lt;/p&gt;
+&lt;p&gt;Mapboxやdeck.gl、ArcGISなどのGISプラットフォームでは、この3Dコロプレス表現がよく利用されます。
+都市の「盛り上がり」を見るような表現が得られ、視覚的なインパクトが強い反面、誤読や視点依存性にも注意が必要です。&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;色（Color）&lt;/strong&gt;&lt;br&gt;
+　各ポリゴン（地域単位）は、統計値の大きさに応じてカラースケールで塗り分けられます。&lt;br&gt;
+　たとえば、明るい色は低い値、濃い色は高い値を示すことが多いです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高さ（Height / Extrusion）&lt;/strong&gt;&lt;br&gt;
+　各地域の高さは、対象変数（人口、所得、比率など）の値に比例します。&lt;br&gt;
+　高さが高いほど値が大きいことを意味します。これにより、平面マップよりも直感的な「地形的印象」でデータを把握できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;視点操作（Viewpoint / Camera）&lt;/strong&gt;&lt;br&gt;
+　視点を傾けることで高さの違いをより明確に確認できますが、視点の角度や距離によって見え方が変化します。&lt;br&gt;
+　特に高いプリズムが後方の領域を隠す「オクルージョン（遮蔽）」には注意が必要です。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;背景と利点&#34;&gt;背景と利点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;直感的な理解&lt;/strong&gt;：高さを用いることで、値の大小を視覚的に直感的に理解できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;空間的傾向の把握&lt;/strong&gt;：隣接地域の値の変化を「地形的な勾配」として認識できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的訴求力&lt;/strong&gt;：プレゼンテーションやデータストーリーテリングで印象的な表現となる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一方で、&lt;strong&gt;遠近歪み・視点依存性・過剰装飾による誤読&lt;/strong&gt;といったリスクも指摘されています。&lt;br&gt;
+実務上は、インタラクティブな操作性（回転・ズーム）を付加して、ユーザーが自由に視点を調整できるようにすることが望まれます。&lt;/p&gt;
+&lt;h3 id=&#34;代表的なツール実装例&#34;&gt;代表的なツール・実装例
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ツール／ライブラリ&lt;/th&gt;
+          &lt;th&gt;機能概要&lt;/th&gt;
+          &lt;th&gt;公式ドキュメント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mapbox GL JS&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;fill-extrusion&lt;/code&gt;レイヤで地域ポリゴンを高さ付きで描画&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.mapbox.com/mapbox-gl-js/example/3d-extrusion-floorplan/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapbox GL JS: Extrusions&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;deck.gl&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;GeoJsonLayer&lt;/code&gt;の&lt;code&gt;extruded: true&lt;/code&gt;設定で3Dプリズム表示&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://deck.gl/docs/api-reference/layers/geojson-layer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;deck.gl GeoJsonLayer&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ArcGIS Scene Viewer&lt;/td&gt;
+          &lt;td&gt;3D空間上でコロプレスを立体表示可能&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esri.com/en-us/arcgis/products/arcgis-scene-viewer/overview&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri ArcGIS Scene Viewer&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Kepler.gl&lt;/td&gt;
+          &lt;td&gt;3Dヒートマップ／コロプレス対応のオープンソースツール&lt;/td&gt;
+          &lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;https://kepler.gl/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kepler.gl Official Site&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;関連研究批判的視点&#34;&gt;関連研究・批判的視点
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Wheeler (2012) は、3Dコロプレス・マップの「効果的な使い方」と「誤解を招く使い方」を実例とともに比較し &lt;strong&gt;誤読のリスクが高い&lt;/strong&gt; と指摘しています。&lt;/li&gt;
+&lt;li&gt;arXiv (2020) の研究では、3D表現は視覚的な魅力を高める一方で &lt;strong&gt;定量比較の正確性を損ねる傾向&lt;/strong&gt; があると報告されています。&lt;/li&gt;
+&lt;li&gt;また、VR環境での3Dコロプレス（“Prism Map”）操作に関する研究も進んでおり &lt;strong&gt;2Dと3Dを補完的に用いる設計&lt;/strong&gt; が有効とされています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;3Dコロプレス・マップは、地理的な統計値を立体的に表現することで、空間的な傾向や分布を印象的に伝える手法です。しかし、データの正確な比較・判断を重視する分析用途よりも &lt;strong&gt;説明・プレゼンテーション・探索的分析&lt;/strong&gt; の文脈で使うことが望ましい可視化形式といえます。効果的な利用には、色・高さ・視点のバランス設計が重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Choropleth_map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Choropleth map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://andrewpwheeler.com/2012/01/29/example-good-and-bad-uses-of-3d-choropleth-maps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Andrew P. Wheeler: Example (good and bad) uses of 3D choropleth maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2005.00324&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;arXiv: An Evaluation of Visualization Methods for Population Statistics Based on Choropleth Maps (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2006.14120&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;arXiv: Tilt Map – Interactive Transitions Between Choropleth Map, Prism Map and Bar Chart in Immersive Environments (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>3D棒グラフ・マップ (3D Bar Chart Map)</title>
         <link>http://localhost:1313/3d-bar-chart-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -455,6 +547,67 @@
     &gt;Dataviz Catalogue — Pictogram Chart&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotype.univie.ac.at/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;University of Vienna — Isotype: Origin, development, and legacy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>サーキュラー・チャート（Circular Chart）</title>
+        <link>http://localhost:1313/circular-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/circular-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/circular-chart/images/thumb_ph_vizjp.png" alt="Featured image of post サーキュラー・チャート（Circular Chart）" /&gt;&lt;p&gt;サーキュラー・チャート（Circular Chart）は、時間の経過や周期性を円形に配置して表すチャートの総称です。&lt;/p&gt;
+&lt;p&gt;線・面・棒などの形式をとり、時間的データの「周期的なパターン」や「季節変動」「日内変化」などを可視化するのに適しています。&lt;/p&gt;
+&lt;p&gt;極座標系を利用するため、1日の24時間、1年の12か月といった「周期的に繰り返すデータ」を自然に表現できるのが特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;サーキュラー・チャートでは、アナログ時計のように円の外周を時間軸として使用します。たとえば12時の位置を起点とし、時計回りに時間が進行します。半径方向に値を示すことで、1周で1周期のデータを直感的に読み取れます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/circular-chart/images/mainvisual.png&#34;
+	width=&#34;1227&#34;
+	height=&#34;364&#34;
+	srcset=&#34;http://localhost:1313/circular-chart/images/mainvisual_hu_b8a9e0e28a51c9d0.png 480w, http://localhost:1313/circular-chart/images/mainvisual_hu_d4f3f83c27e763d4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;337&#34;
+		data-flex-basis=&#34;809px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;図の左から順に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;折れ線で値をつなぐ「サーキュラー折れ線グラフ」&lt;/li&gt;
+&lt;li&gt;面の広がりで値を示す「サーキュラー面グラフ」&lt;/li&gt;
+&lt;li&gt;放射状に棒を配置する「サーキュラー棒グラフ」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と呼ばれます。いずれも中心からの距離（または棒の長さ）で量を表し、角度方向が時間スケールを意味します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と活用例&#34;&gt;背景と活用例
+&lt;/h2&gt;&lt;p&gt;この形式は「極座標（Polar Coordinate）」を基盤としており、線形グラフを円形に変換したものといえます。&lt;br&gt;
+季節や時間帯の繰り返し構造をもつデータの可視化に向いており、気温や日照時間、交通量、電力消費、睡眠時間などの周期的な変化を把握するのに有効です。&lt;/p&gt;
+&lt;p&gt;ビジネスダッシュボードや環境データの可視化では、Flourish Studio や Tableau などの可視化ツールでも「Circular bar chart」「Radial line chart」として利用可能です。&lt;br&gt;
+特に、データが一周で完結するように配置されるため、1周期の比較や時間帯ごとのピークを直感的に把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;サーキュラー・チャートは、時間や季節のような周期的なデータを「円」という形にマッピングすることで、&lt;br&gt;
+トレンドや繰り返しのパターンを視覚的に理解しやすくするチャートです。&lt;br&gt;
+棒・線・面などのバリエーションを使い分けることで、周期データの特徴を柔軟に表現できます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/radial_column_chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Visualization Catalogue – Radial Column Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/radial_bar_chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Visualization Catalogue – Radial Bar Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_bar.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Matplotlib – Bar chart on polar axis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Matplotlib – Polar plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/d3-shape/radial-line&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 (d3-shape) – Radial lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/d3-shape/radial-area&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3 (d3-shape) – Radial areas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://observablehq.com/@d3/d3-lineradial&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Observable – d3.lineRadial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/radial-area-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Viz Project – Radial Area Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/radical-line-graph/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Viz Project – Radial Line Graph&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -2019,6 +2172,88 @@
     &gt;Experiments with dot density — ArcGIS Blog（Part One）&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://luminocity3d.org/WorldPopDen/#5/26.902/106.040&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;World Population Density&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ハイパーボリック・ツリー（Hyperbolic Tree）</title>
+        <link>http://localhost:1313/hyperbolic-trees/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/hyperbolic-trees/</guid>
+        <description>&lt;img src="http://localhost:1313/hyperbolic-trees/images/thumb_ph_vizjp.png" alt="Featured image of post ハイパーボリック・ツリー（Hyperbolic Tree）" /&gt;&lt;p&gt;ハイパーボリック・ツリー（Hyperbolic Tree）は、階層的な情報構造を効率的に表示するために考案された可視化手法です。双曲幾何学（hyperbolic geometry）の空間特性を利用し、ユークリッド平面上では扱いにくい大規模な木構造を、視認性を保ちながらコンパクトに描画することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-1.png&#34;
+	width=&#34;887&#34;
+	height=&#34;887&#34;
+	srcset=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-1_hu_963e3564c71cc0c7.png 480w, http://localhost:1313/hyperbolic-trees/images/mainvisual-1_hu_8700c8c56ecbbc38.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-2.png&#34;
+	width=&#34;570&#34;
+	height=&#34;595&#34;
+	srcset=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-2_hu_d1b2f685dab2dedb.png 480w, http://localhost:1313/hyperbolic-trees/images/mainvisual-2_hu_7d24049b7b6ec77.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;95&#34;
+		data-flex-basis=&#34;229px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-3.png&#34;
+	width=&#34;751&#34;
+	height=&#34;736&#34;
+	srcset=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-3_hu_76effd807989a5b0.png 480w, http://localhost:1313/hyperbolic-trees/images/mainvisual-3_hu_87f0ebdedbd0d34f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要
+&lt;/h2&gt;&lt;p&gt;通常のツリーレイアウトでは、ノード数が増えるほど枝が指数的に増加し、全体を一画面で表現するのが難しくなります。これに対してハイパーボリック・ツリーは、負の曲率を持つ「双曲空間」にツリーを埋め込み、中心から外側に向かってノードを配置します。この空間では、同じ半径でも円周の長さが指数的に広がるため、多数のノードを円盤内に収められるという利点があります。&lt;/p&gt;
+&lt;p&gt;可視化の際は、双曲平面を &lt;strong&gt;ポアンカレ円板モデル（Poincaré disk model）&lt;/strong&gt; に写像して表現します。中心には注目ノード（focus）があり、周囲にコンテクスト（context）として関連ノードが縮小されながら配置されます。ユーザーは任意のノードをクリックして再中心化（re-centering）することで、ツリーを動的に探索できます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;ハイパーボリック・ツリーの典型的な表示では、以下のような構造になっています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;中央（Focus Node）&lt;/strong&gt;：現在の注目ノード。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;周辺ノード（Context Nodes）&lt;/strong&gt;：関連する親・子ノード。距離が遠いほど小さく表示される。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;リンク（Edges）&lt;/strong&gt;：ノード間の階層関係を示す線。双曲空間上では曲線として描かれる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;再中心化操作&lt;/strong&gt;：任意のノードをクリックすると、そのノードが新たな中心となり、周囲が再配置される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この「フォーカス＋コンテクスト（focus+context）」のアプローチにより、ユーザーは全体構造を見失うことなく、部分構造をズーム的に探索できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;ハイパーボリック・ツリーの原理は、インフォメーション・ビジュアライゼーション分野で1990年代から研究されており、代表的な研究例としては &lt;strong&gt;Tamara Munzner&lt;/strong&gt; による“H3: Laying Out Large Directed Graphs in 3D Hyperbolic Space”（Stanford University, 1997）が知られています。この論文では、3次元の双曲空間（H3空間）にグラフを埋め込み、大規模ネットワークを滑らかに探索できるインタラクティブ手法を提案しています。&lt;/p&gt;
+&lt;p&gt;現在では、ハイパーボリック・ツリーの考え方は以下のような応用に見られます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Webサイトやフォルダ階層の可視化&lt;/li&gt;
+&lt;li&gt;系統樹や生物分類の表示（Tree of Lifeプロジェクトなど）&lt;/li&gt;
+&lt;li&gt;大規模ネットワークや知識グラフのブラウジング&lt;/li&gt;
+&lt;li&gt;ハイパーボリック埋め込みを利用したグラフ学習モデル（Hyperbolic Graph Embedding）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ハイパーボリック・ツリーは、双曲幾何学の空間的余裕を利用して、複雑な階層構造を「焦点を保ちながら俯瞰」できる優れた可視化手法です。ユークリッド空間では扱いにくい大規模データを、コンパクトかつインタラクティブに探索するための重要な発想であり、今日のグラフ・ネットワーク可視化にも応用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Hyperbolic_tree&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hyperbolic tree — Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://iv.cns.iu.edu/sw/hyptree.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hyperbolic Trees — InfoVis CyberInfrastructure (Indiana University)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/hyperbolic-tree/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hyperbolic Tree — DataVizProject&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.stanford.edu/papers/h3/html.nosplit/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;H3: Laying Out Large Directed Graphs in 3D Hyperbolic Space — Tamara Munzner (Stanford University)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://philogb.github.io/jit/static/v20/Docs/files/Visualizations/Hypertree-js.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hypertree.js — Nicolas Garcia Belmonte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ucjeps.berkeley.edu/TreeofLife/hyperbolic2.php&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Green Tree of Life — Hyperbolic Tree Viewer (UC Berkeley)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>

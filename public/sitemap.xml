@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/3d-treemaps/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/3d-choropleth-map/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/3d-bar-chart-map/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
@@ -27,6 +30,9 @@
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/isotype-chart/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/circular-chart/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/circular-layout/</loc>
@@ -78,6 +84,9 @@
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dot-density-map/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hyperbolic-trees/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/violin-plot/</loc>
