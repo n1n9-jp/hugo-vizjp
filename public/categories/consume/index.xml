@@ -3131,16 +3131,16 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
         </item>
         <item>
         <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
-        <link>http://localhost:1313/radial-bar-chart/</link>
+        <link>http://localhost:1313/polar-area-chart/</link>
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/radial-bar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
+        <guid>http://localhost:1313/polar-area-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/polar-area-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
 歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/polar-area-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
 	height=&#34;1609&#34;
-	srcset=&#34;http://localhost:1313/radial-bar-chart/images/Nightingale-mortality_hu_8e36e152ebfabbcb.jpg 480w, http://localhost:1313/radial-bar-chart/images/Nightingale-mortality_hu_f906448a365be01b.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/polar-area-chart/images/Nightingale-mortality_hu_8e36e152ebfabbcb.jpg 480w, http://localhost:1313/polar-area-chart/images/Nightingale-mortality_hu_f906448a365be01b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;コックスコム図&#34;

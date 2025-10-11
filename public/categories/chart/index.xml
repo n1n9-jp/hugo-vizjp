@@ -3036,6 +3036,73 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ラディアル・バー・チャート（Radial Bar Chart）</title>
+        <link>http://localhost:1313/radial-bar-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/radial-bar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/cover.png" alt="Featured image of post ラディアル・バー・チャート（Radial Bar Chart）" /&gt;&lt;p&gt;ラディアル・バー・チャート（Radial Bar Chart）は、一般的な棒グラフ（Bar Chart）を円形に配置したチャートです。データの値を棒の長さで表現する点は同じですが、棒が放射状に配置され、全体が円形を描くようになっているのが特徴です。時系列や周期的データ（月、季節、時間など）を直感的に表現する際に適しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-1.png&#34;
+	width=&#34;2481&#34;
+	height=&#34;2481&#34;
+	srcset=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-1_hu_72be10c57db60021.png 480w, http://localhost:1313/radial-bar-chart/images/mainvisual-1_hu_3978b6a21a76d82f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-2.png&#34;
+	width=&#34;683&#34;
+	height=&#34;649&#34;
+	srcset=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-2_hu_b77fdda92a6417ca.png 480w, http://localhost:1313/radial-bar-chart/images/mainvisual-2_hu_9152a08c4d660232.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;105&#34;
+		data-flex-basis=&#34;252px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-3.png&#34;
+	width=&#34;1655&#34;
+	height=&#34;1018&#34;
+	srcset=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-3_hu_9327c72e0fd0306f.png 480w, http://localhost:1313/radial-bar-chart/images/mainvisual-3_hu_85c601b9837c86f9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;162&#34;
+		data-flex-basis=&#34;390px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;ラディアル・バー・チャートでは &lt;strong&gt;円の中心から外側に向かう方向&lt;/strong&gt; に値が増加します。各棒は「カテゴリ」や「期間」を表しており、角度方向でグループ化されます。&lt;/p&gt;
+&lt;p&gt;例えば、左の緑色のチャートでは「4月〜11月」の月ごとの値を円環状に配置しています。内側が早い月、外側が後の月を示しています。棒の長さはデータの大きさを表し、長いほど値が大きいことを意味します。&lt;/p&gt;
+&lt;p&gt;右の青いチャートでは「1922〜1928年」の各年を円環で表しています。内側が古い年、外側が新しい年を示しています。月次や年次のデータをラディアル形式で可視化することで、季節的傾向や年ごとの周期的変化を視覚的に比較できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と利用例&#34;&gt;背景と利用例
+&lt;/h2&gt;&lt;p&gt;ラディアル・バー・チャートは、主に以下のような場面で利用されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;季節性のあるデータ&lt;/strong&gt;（例：月別平均気温、降水量、販売データなど）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間的なサイクル&lt;/strong&gt;を強調したい場合（例：1日の時刻ごとの活動量）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;美的な円形構成&lt;/strong&gt;を重視したデータビジュアライゼーションやインフォグラフィックス&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、棒の長さが円の外周方向に伸びるため、通常の棒グラフよりも &lt;strong&gt;長さの比較が直感的でない&lt;/strong&gt; 場合があります。そのため、比較目的よりも &lt;strong&gt;周期性やパターンの可視化&lt;/strong&gt; に向いています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ラディアル・バー・チャートは、データを円形に展開することで周期的パターンを強調できる可視化手法です。月や年など、時間的サイクルを持つデータの傾向を美しく表現する際に有効です。一方で、棒の長さの比較精度は低下するため、デザイン的意図や全体傾向の把握を目的とした利用が推奨されます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/radial_bar_chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radial Bar Charts - The Data Visualisation Catalogue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/circular-bar-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radial/Circular Bar Chart – Data Viz Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.highcharts.com/demo/polar-radial-bar/grid-light&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radial bar chart demo – Highcharts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>リッジライン・プロット（Ridgeline Plot）</title>
         <link>http://localhost:1313/ridgeline-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
