@@ -800,6 +800,124 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>コレログラム (Correlogram)</title>
+        <link>http://localhost:1313/correlogram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/correlogram/</guid>
+        <description>&lt;img src="http://localhost:1313/correlogram/images/cover.png" alt="Featured image of post コレログラム (Correlogram)" /&gt;&lt;p&gt;コレログラム（Correlogram）は、複数の変数間の &lt;strong&gt;相関関係（correlation）&lt;/strong&gt; を視覚的に表現する図です。
+各変数同士の相関係数（Pearson、Spearmanなど）を、色の濃淡や円の大きさなどでマトリクス状に示すことで、データ全体の関係構造を直感的に把握できます。
+特に、データの多変量分析や特徴量選択の前段階で利用されることが多く、散布図行列のように「関係の方向性」ではなく「関係の強さ」に焦点を当てる点が特徴です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/correlogram/images/mainvisual-1.png&#34;
+	width=&#34;768&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/correlogram/images/mainvisual-1_hu_690cba75ea666e6b.png 480w, http://localhost:1313/correlogram/images/mainvisual-1_hu_3cc77e21fdabc1b8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/correlogram/images/mainvisual-2.png&#34;
+	width=&#34;672&#34;
+	height=&#34;672&#34;
+	srcset=&#34;http://localhost:1313/correlogram/images/mainvisual-2_hu_b7419aefe25eee74.png 480w, http://localhost:1313/correlogram/images/mainvisual-2_hu_c860596d0f456429.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/correlogram/images/mainvisual-3.png&#34;
+	width=&#34;672&#34;
+	height=&#34;672&#34;
+	srcset=&#34;http://localhost:1313/correlogram/images/mainvisual-3_hu_c69bb731925ff8b8.png 480w, http://localhost:1313/correlogram/images/mainvisual-3_hu_ffa250e5a862d801.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;コレログラムの構造は以下のようになっています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+          &lt;th&gt;解釈のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;行・列&lt;/td&gt;
+          &lt;td&gt;変数の一覧&lt;/td&gt;
+          &lt;td&gt;それぞれの組み合わせごとに相関を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;セルの色&lt;/td&gt;
+          &lt;td&gt;相関係数の符号と強さ（例：青＝正、赤＝負）&lt;/td&gt;
+          &lt;td&gt;相関の方向と大きさを視覚的に判断&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色の濃さ・円の大きさ&lt;/td&gt;
+          &lt;td&gt;相関の絶対値（強弱）&lt;/td&gt;
+          &lt;td&gt;強い関係ほど濃く・大きく表示される&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対角線上&lt;/td&gt;
+          &lt;td&gt;各変数自身（相関=1）&lt;/td&gt;
+          &lt;td&gt;通常は空白、または1.0と表示される&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;数値ラベル（任意）&lt;/td&gt;
+          &lt;td&gt;相関係数の実数値&lt;/td&gt;
+          &lt;td&gt;精度を確認したい場合に併記される&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、コレログラムは&lt;strong&gt;相関の方向（正負）と強さ&lt;/strong&gt;を瞬時に読み取れる設計になっています。&lt;br&gt;
+視覚的なパターンから、似た傾向を持つ変数群を特定することが可能です。&lt;/p&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;p&gt;コレログラムの考え方は統計学の「相関行列（correlation matrix）」を基盤としています。&lt;br&gt;
+数値として表された相関行列を、可視的に理解しやすい形に変換したのがコレログラムです。&lt;/p&gt;
+&lt;p&gt;用途としては以下が代表的です：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;特徴量間の関係確認&lt;/strong&gt;：多重共線性（multicollinearity）の検出&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;クラスタリング前の探索分析&lt;/strong&gt;：似た傾向を持つ変数のグルーピング&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;データ前処理の判断&lt;/strong&gt;：変数削除・縮約の判断材料&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EDA (探索的データ解析)&lt;/strong&gt;：全体的な関係構造の理解&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;特に機械学習モデルの前段階では、変数選択の補助ツールとして非常に重宝されます。&lt;/p&gt;
+&lt;h2 id=&#34;注意点&#34;&gt;注意点
+&lt;/h2&gt;&lt;p&gt;コレログラムは「線形相関」のみを対象とすることが多いため、非線形関係を見落とす可能性があります。&lt;br&gt;
+また、カテゴリ変数を扱う場合には別途相関係数の選択（Cramér’s V など）が必要です。&lt;br&gt;
+さらに、変数数が多いと視覚的に密集し、解釈が難しくなるため、主要変数のみを抽出して表示するのが望ましいです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;コレログラムは、データ全体の関係性を一目で把握するための有効な手法です。&lt;br&gt;
+数値では捉えにくい相関の構造やグループ化の傾向を、色や形のパターンとして表すことができます。&lt;br&gt;
+特にデータ分析の初期段階で、相関構造を見極めるための標準的な可視化として広く利用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Correlogram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Correlogram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R Documentation — corrplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seaborn.pydata.org/generated/seaborn.heatmap.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seaborn Documentation — heatmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://plotly.com/python/imshow/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Plotly Express — imshow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega-lite/examples/rect_heatmap.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vega-Lite: Heatmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）</title>
         <link>http://localhost:1313/force-directed-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
