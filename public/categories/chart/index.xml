@@ -279,6 +279,121 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ウォーターフォール・チャート（Waterfall Chart）</title>
+        <link>http://localhost:1313/waterfall-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/waterfall-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/waterfall-chart/images/cover.png" alt="Featured image of post ウォーターフォール・チャート（Waterfall Chart）" /&gt;&lt;p&gt;ウォーターフォール・チャート（Waterfall Chart）は、ある値がどのように増減して最終的な値に至るのかを段階的に可視化するためのグラフです。日本語では「滝グラフ」や「橋グラフ」とも呼ばれます。主に「利益」「売上」「コスト」など、数値の変化を構成要素ごとに分解して理解するのに適しています。&lt;/p&gt;
+&lt;p&gt;ウォーターフォールという名称は、棒グラフが段階的に上下に「滝のように」連なって見えることに由来します。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/waterfall-chart/images/mainvisual.jpg&#34;
+	width=&#34;890&#34;
+	height=&#34;606&#34;
+	srcset=&#34;http://localhost:1313/waterfall-chart/images/mainvisual_hu_5e0dc342d21298f6.jpg 480w, http://localhost:1313/waterfall-chart/images/mainvisual_hu_ba109207ca5b85a9.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;146&#34;
+		data-flex-basis=&#34;352px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;開始値（Initial Value）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;最初に基準となる値。例：前期の利益など。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;増加項目（Positive Change）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;値を増やす要素。緑や青などの上向きの棒で表現されることが多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;減少項目（Negative Change）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;値を減らす要素。赤やオレンジなど下向きの棒で表現されることが多い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;中間小計（Intermediate Subtotal）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;途中段階での累計を示す棒。色を変えて区別される場合がある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;最終値（Final Value）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;すべての増減を経た後の最終的な値。例：当期純利益など。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;棒の高さと位置が、それぞれの要素が全体にどのような影響を与えるかを視覚的に示します。一般的には、棒が「浮いて」配置され、前の棒の上端または下端から次の棒が始まる形になります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と活用例&#34;&gt;背景と活用例
+&lt;/h2&gt;&lt;p&gt;ウォーターフォール・チャートは1980年代後半、マッキンゼー・アンド・カンパニーなどの経営コンサルティングの現場で広く使われ始めました。その後、財務分析やプロジェクトマネジメントにおける標準的な可視化手法として定着しました。&lt;/p&gt;
+&lt;p&gt;ExcelやTableau、Power BI、Google Data Studioなどの多くのBIツールで標準サポートされています。特に、営業利益や純利益の増減要因分析（「前期→今期」のブリッジ）としてよく利用されます。&lt;/p&gt;
+&lt;h2 id=&#34;他のグラフとの比較&#34;&gt;他のグラフとの比較
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;グラフ種別&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適した用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;積み上げ棒グラフ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;要素の内訳を比較&lt;/td&gt;
+          &lt;td&gt;全体構成比の把握&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ウォーターフォール・チャート&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;値の変化のプロセスを段階的に表示&lt;/td&gt;
+          &lt;td&gt;原因分析や要因分解&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ガントチャート&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;時間軸に沿った工程を表示&lt;/td&gt;
+          &lt;td&gt;スケジュール管理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ブレットグラフ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;目標と実績を比較&lt;/td&gt;
+          &lt;td&gt;KPI可視化&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;デザイン上のポイント&#34;&gt;デザイン上のポイント
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;増加と減少を明確に色分け&lt;/strong&gt;する（例：緑＝増加、赤＝減少）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;中間値を強調&lt;/strong&gt;し、ステップ構造が視覚的に追いやすいようにする&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;最終値を強調表示&lt;/strong&gt;（太い枠や異なる色など）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;横向き配置&lt;/strong&gt;にすることでラベルを読みやすくする場合もある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ウォーターフォール・チャートは、ある数値がどのような要因によって変化したのかを、直感的に理解できる強力な手法です。財務分析だけでなく、ユーザー数・売上・コスト・リスクなどの要因を分解して説明する際にも有効です。&lt;br&gt;
+視覚的に「変化の物語」を語ることができるため、ストーリーテリング型のデータプレゼンテーションにも向いています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://learn.microsoft.com/ja-jp/power-bi/visuals/power-bi-visualization-waterfall-charts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Learn: Power BI のウォーターフォール チャート&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/ja-jp/office/%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E5%9B%B3%E3%81%AE%E4%BD%9C%E6%88%90-8de1ece4-ff21-4d37-acd7-546f5527f185&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft サポート: Excel でウォーターフォール グラフ（滝グラフ）を作成する&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.originlab.com/doc/ja/Origin-Help/PD-Dialog-BridgeChart-Tab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OriginLab 日本語サイト: 『滝グラフ』タブ（Bridge Chart）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://jp.smartsheet.com/how-create-waterfall-chart-excel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Smartsheet Japan: Excel／PowerPoint でウォーターフォール グラフを作成する方法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ja.extendoffice.com/excel/excel-charts/excel-waterfall-chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ExtendOffice: Excel でウォーターフォールチャートまたはブリッジチャートを作成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.excel-no-mori-blog.jp/?p=20582&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Excelの森ブログ: Excel のウォーターフォールグラフ（滝グラフ）の作り方&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Waterfall_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Waterfall chart - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>コード・ダイアグラム (Chord Diagram)</title>
         <link>http://localhost:1313/chord-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -675,6 +790,112 @@
     &gt;Fruchterman, T.M.J., &amp;amp; Reingold, E.M. (1991). Graph Drawing by Force-directed Placement. &lt;em&gt;Software: Practice and Experience&lt;/em&gt;, 21(11), 1129–1164.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://doi.org/10.1016/0020-0190%2889%2990102-6&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kamada, T., &amp;amp; Kawai, S. (1989). An Algorithm for Drawing General Undirected Graphs. &lt;em&gt;Information Processing Letters&lt;/em&gt;, 31(1), 7–15.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ブレット・グラフ（Bullet Graph）</title>
+        <link>http://localhost:1313/bullet-graph/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bullet-graph/</guid>
+        <description>&lt;img src="http://localhost:1313/bullet-graph/images/cover.png" alt="Featured image of post ブレット・グラフ（Bullet Graph）" /&gt;&lt;p&gt;ブレット・グラフ（Bullet Graph）は、棒グラフを拡張して設計された可視化手法で &lt;strong&gt;目標値と実績値を一目で比較&lt;/strong&gt; することを目的としています。2005年にデータ可視化の専門家スティーブン・フュー（Stephen Few）によって提案されました。ダッシュボードや業務レポートでの利用に最適化されており、従来のメーターやゲージ型グラフよりも情報密度が高く、省スペースで多くの比較情報を伝えられます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bullet-graph/images/mainvisual.png&#34;
+	width=&#34;2636&#34;
+	height=&#34;1058&#34;
+	srcset=&#34;http://localhost:1313/bullet-graph/images/mainvisual_hu_ae034b9205aec4d3.png 480w, http://localhost:1313/bullet-graph/images/mainvisual_hu_7488bf1b20bea877.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;249&#34;
+		data-flex-basis=&#34;597px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは、以下の要素で構成されます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+          &lt;th&gt;視覚的表現&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;実績値（メインバー）&lt;/td&gt;
+          &lt;td&gt;現在の達成状況&lt;/td&gt;
+          &lt;td&gt;横向きの太い棒（濃色）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目標値（ターゲット）&lt;/td&gt;
+          &lt;td&gt;目標または基準値&lt;/td&gt;
+          &lt;td&gt;細い縦線（通常は黒線）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;比較範囲（定性的レンジ）&lt;/td&gt;
+          &lt;td&gt;良・可・不可などの基準領域&lt;/td&gt;
+          &lt;td&gt;背景の階層的な濃淡バー（薄〜濃）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;補助指標（オプション）&lt;/td&gt;
+          &lt;td&gt;前期値や平均値などの追加情報&lt;/td&gt;
+          &lt;td&gt;小さな補助線や別色バー&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この構造により &lt;strong&gt;「どの程度目標に近づいているか」「現状は良・可・不可のどの水準か」&lt;/strong&gt; をすぐに読み取ることができます。棒の長さが「実績」、縦線が「目標」、背景の帯が「評価基準」として機能します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは、従来の &lt;strong&gt;スピードメーター型ゲージ（Dial Gauge）&lt;/strong&gt; の代替として開発されました。メーター表示は直感的ではあるものの、スペースを多く取り、数値精度や比較情報の提示に不向きでした。これに対し、ブレット・グラフは以下の特徴を持ちます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;情報密度が高い&lt;/strong&gt;：目標・実績・評価レンジを1本のバーで表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;省スペース&lt;/strong&gt;：複数指標を縦に並べやすく、ダッシュボード向き。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;モノクロでも判読可能&lt;/strong&gt;：階調表現に依存し、色覚バリアフリー。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定量比較が容易&lt;/strong&gt;：バーの長さで数値を直接比較できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;主な用途と応用例&#34;&gt;主な用途と応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;使用例&lt;/th&gt;
+          &lt;th&gt;表現目的&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ビジネスダッシュボード&lt;/td&gt;
+          &lt;td&gt;売上・利益・KPI進捗&lt;/td&gt;
+          &lt;td&gt;目標達成率を簡潔に表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育・行政統計&lt;/td&gt;
+          &lt;td&gt;評価指標の目標値対比&lt;/td&gt;
+          &lt;td&gt;政策目標とのギャップを視覚化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;医療・健康管理&lt;/td&gt;
+          &lt;td&gt;検査値と基準範囲&lt;/td&gt;
+          &lt;td&gt;正常域・注意域・危険域の把握&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;製造・品質管理&lt;/td&gt;
+          &lt;td&gt;生産効率・不良率&lt;/td&gt;
+          &lt;td&gt;規格内外の判定&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば「売上：目標1000万円、実績850万円、平均域：600〜900万円」という場合、ブレット・グラフは「平均より上だが目標未達」と即座に読み取れます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは &lt;strong&gt;「目標との距離を一目で伝える」&lt;/strong&gt; ことに特化したシンプルかつ強力なチャートです。視覚的ノイズが少なく、省スペースで複数の指標を並列比較できるため &lt;strong&gt;経営ダッシュボードや報告資料における定番可視化手法&lt;/strong&gt; として高く評価されています。色や装飾を最小限にとどめ、意味を明確に設計することが、効果的な活用の鍵となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stephen Few: Bullet Graph Design Specification (Perceptual Edge)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bullet.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau Help: Bullet Graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://observablehq.com/@observablehq/plot-bullet-graph&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js Bullet Chart Example by Mike Bostock&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
