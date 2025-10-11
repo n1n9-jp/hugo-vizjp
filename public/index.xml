@@ -30,7 +30,7 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;上図は「Comb the Hairball with BioFabric（BioFabricで“毛玉”をとかす）」という公式デモの一例で、左が従来のネットワーク図（いわゆる“ヘアボール”）、右がBioFabricによる図です。&lt;/p&gt;
 &lt;p&gt;左図ではノードとエッジが錯綜しており、相関や構造を把握することが困難です。一方で、右図では &lt;strong&gt;各ノードが水平線&lt;/strong&gt; 、 &lt;strong&gt;エッジが垂直線&lt;/strong&gt; として表現され、全体が格子状に整列されています。これにより、接続関係の密度やモジュール構造を直感的に読み取ることができます。&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -216,7 +216,7 @@
 		data-flex-basis=&#34;459px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -297,8 +297,8 @@
 		data-flex-basis=&#34;714px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h3&gt;&lt;table&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;要素&lt;/th&gt;
@@ -325,8 +325,8 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;このレイアウトは、ノードの数が多くても均等配置により視覚的に整理しやすい特徴があります。ただし、リンクが多く交差すると「スパゲッティ状」になり、可読性が低下することがあります。&lt;/p&gt;
-&lt;h3 id=&#34;コードダイアグラムとの違い&#34;&gt;コード・ダイアグラムとの違い
-&lt;/h3&gt;&lt;p&gt;コード・ダイアグラム（Chord Diagram）は、サーキュラー・レイアウトと同様にノードを円周上に配置しますが、各ノード間の関係強度を「帯（コード）」の太さや形で表現します。すなわち：&lt;/p&gt;
+&lt;h2 id=&#34;コードダイアグラムとの違い&#34;&gt;コード・ダイアグラムとの違い
+&lt;/h2&gt;&lt;p&gt;コード・ダイアグラム（Chord Diagram）は、サーキュラー・レイアウトと同様にノードを円周上に配置しますが、各ノード間の関係強度を「帯（コード）」の太さや形で表現します。すなわち：&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -395,7 +395,7 @@
 		data-flex-basis=&#34;352px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -966,7 +966,7 @@
         
         <guid>http://localhost:1313/gantt-chart/</guid>
         <description>&lt;img src="http://localhost:1313/gantt-chart/images/thumb_ph_vizjp.png" alt="Featured image of post ガント・チャート（Gantt Chart）" /&gt;&lt;p&gt;ガント・チャート（Gantt Chart）は、プロジェクト管理で広く用いられる可視化手法の一つで、各作業（タスク）の期間と進捗を横棒（バー）で表現します。1910年代にアメリカの機械工学者ヘンリー・ガント（Henry L. Gantt）が考案したもので、工場の作業計画を視覚的に把握する目的で生まれました。今日では、ソフトウェア開発、建築、研究、教育など多くの分野で活用されています。&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;ガント・チャートの基本構成は以下の通りです。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1118,7 +1118,7 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;コレログラムの構造は以下のようになっています。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1212,7 +1212,7 @@
 		data-flex-basis=&#34;365px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1269,7 +1269,7 @@
         <guid>http://localhost:1313/dot-map/</guid>
         <description>&lt;img src="http://localhost:1313/dot-map/images/cover.png" alt="Featured image of post ドット・マップ（Dot Map）とは" /&gt;&lt;p&gt;ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く &lt;strong&gt;1ドット＝1件（または1単位）&lt;/strong&gt; という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。&lt;/p&gt;
 &lt;p&gt;たとえば「地震の発生地点」や「美術館の所在地」「感染症の発生場所」など、個別の位置情報をそのままマップ上に可視化する際に使われます。密度の高い領域は視覚的に点が集まり、分布傾向を直感的に読み取ることができます。&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1462,7 +1462,7 @@
 		data-flex-basis=&#34;396px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;バイオリン・プロットは、中心に箱ひげ図の要素を含み、両側に分布を反映した「バイオリン（弦楽器）」のような形状が描かれます。以下の要素で構成されます。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1557,7 +1557,7 @@
         
         <guid>http://localhost:1313/histogram/</guid>
         <description>&lt;img src="http://localhost:1313/histogram/images/thumb_ph_vizjp.png" alt="Featured image of post ヒストグラム (Histogram)" /&gt;&lt;p&gt;ヒストグラムは &lt;strong&gt;データの分布を視覚的に把握するための基本的なグラフ&lt;/strong&gt; です。数値データを区間（ビン、bin）ごとに分け、各区間に含まれるデータの数（頻度）を棒の高さで表します。主に連続量データ（例：身長、温度、収入など）のばらつきや傾向を把握するのに使われます。&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1679,7 +1679,7 @@
 		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;ファネル・チャートでは、上から下に向かって段階的に値が減少する構造を持ちます。以下のような要素で構成されています。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1755,7 +1755,7 @@
 		data-flex-basis=&#34;371px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -1888,7 +1888,7 @@
 		data-flex-basis=&#34;597px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;ブレット・グラフは、以下の要素で構成されます。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1995,7 +1995,7 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2181,8 +2181,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;この手法は2004年にMichael Balzer、Oliver Deussenらによって提案され、伝統的な長方形ベースのツリーマップに比べ、ユーザーがグループや階層の関係性をより直感的に認識できる点が特徴です。&lt;/p&gt;
-&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h3&gt;&lt;table&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;要素&lt;/th&gt;
@@ -2209,11 +2209,11 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;ボロノイ・ツリーマップの大きな特徴は、領域が不規則な形状でありながらも、隣接関係や階層構造を視覚的に自然に伝える点にあります。例えば、関連するカテゴリーは物理的にも近い位置に配置され、分布全体の「まとまり感」を強調します。&lt;/p&gt;
-&lt;h3 id=&#34;背景知識&#34;&gt;背景知識
-&lt;/h3&gt;&lt;p&gt;ボロノイ分割は、平面上の点集合に対して、それぞれの点に最も近い領域を割り当てる幾何学的構造です。ツリーマップにこの概念を応用することで、矩形分割では表現しにくかった「有機的な領域分割」を実現しました。また、ボロノイ・ツリーマップは科学可視化や生物分類、都市構造の分析など、非均質な空間構造を伴うデータに適しています。&lt;/p&gt;
+&lt;h2 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h2&gt;&lt;p&gt;ボロノイ分割は、平面上の点集合に対して、それぞれの点に最も近い領域を割り当てる幾何学的構造です。ツリーマップにこの概念を応用することで、矩形分割では表現しにくかった「有機的な領域分割」を実現しました。また、ボロノイ・ツリーマップは科学可視化や生物分類、都市構造の分析など、非均質な空間構造を伴うデータに適しています。&lt;/p&gt;
 &lt;p&gt;可視化ライブラリとしては、D3.jsやProcessingを使った実装例も多く、Balzerらの論文では「連続的な変形（Continuous Voronoi Treemap）」も提案されています。これはデータの更新時に領域の形がスムーズに変化することで、ユーザーの認知的負荷を軽減することを目的としています。&lt;/p&gt;
-&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
-&lt;/h3&gt;&lt;p&gt;ボロノイ・ツリーマップは、階層データをより自然で直感的に可視化する手法として、近年注目されています。矩形ベースのツリーマップに比べて美的表現力が高く、情報デザインや生物学的データ、地理情報などにも応用可能です。ボロノイ分割の幾何学的性質を利用することで、階層構造を「自然の中の分布」に近い形で理解できる点が大きな利点です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ボロノイ・ツリーマップは、階層データをより自然で直感的に可視化する手法として、近年注目されています。矩形ベースのツリーマップに比べて美的表現力が高く、情報デザインや生物学的データ、地理情報などにも応用可能です。ボロノイ分割の幾何学的性質を利用することで、階層構造を「自然の中の分布」に近い形で理解できる点が大きな利点です。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.uni-konstanz.de/publikationen/Balzer2005VoronoiTreemaps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2243,8 +2243,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;別名として「Joyplot」とも呼ばれます。これは、イギリスのバンド Joy Division のアルバム『Unknown Pleasures』（1979年）のカバーアートに形が似ていることに由来します。このアルバムジャケットは、電波パルス信号を可視化した図形であり、その「波打つ山並み」がリッジライン・プロットの象徴的なイメージの原点となりました。&lt;/p&gt;
-&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h3&gt;&lt;table&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;要素&lt;/th&gt;
@@ -2329,7 +2329,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 		data-flex-basis=&#34;370px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;幹葉図は、次のような構造を持っています。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -2457,7 +2457,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
         <guid>http://localhost:1313/space-time-cube/</guid>
         <description>&lt;img src="http://localhost:1313/space-time-cube/images/thumb_ph_vizjp.png" alt="Featured image of post 時空間キューブ（Space-Time Cube）とは" /&gt;&lt;p&gt;&lt;strong&gt;時空間キューブ（Space-Time Cube）&lt;/strong&gt; とは、時間と空間の関係を同時に可視化するための3次元的な図表です。地理情報科学（GIS）やデータビジュアライゼーションの分野で、時間変化を伴う空間データを分析する際に用いられます。&lt;/p&gt;
 &lt;p&gt;2次元の地図では空間のみ、時系列グラフでは時間のみを扱いますが、時空間キューブでは「横軸＝地理的な位置（X・Y）」「縦軸＝時間（Z軸）」という構造で両方を一体的に示します。&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2557,7 +2557,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 		data-flex-basis=&#34;383px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2696,7 +2696,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 		data-flex-basis=&#34;387px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2785,7 +2785,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 		data-flex-basis=&#34;661px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -13327,8 +13327,8 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
-&lt;/h3&gt;&lt;p&gt;散布図行列では、行列の各セルが「2つの変数の関係」を表しています。
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;散布図行列では、行列の各セルが「2つの変数の関係」を表しています。
 一般的な構成は以下の通りです。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -13362,8 +13362,8 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;また、プロットの上部と下部を非対称に設定することで、一方に相関係数（例えばPearson相関）や回帰線を併記することもあります。&lt;/p&gt;
-&lt;h3 id=&#34;背景と用途&#34;&gt;背景と用途
-&lt;/h3&gt;&lt;p&gt;この可視化手法は統計分析の分野で古くから用いられており、R言語の&lt;code&gt;pairs()&lt;/code&gt;関数やPythonの&lt;code&gt;seaborn.pairplot()&lt;/code&gt;などで簡便に生成できます。&lt;br&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;p&gt;この可視化手法は統計分析の分野で古くから用いられており、R言語の&lt;code&gt;pairs()&lt;/code&gt;関数やPythonの&lt;code&gt;seaborn.pairplot()&lt;/code&gt;などで簡便に生成できます。&lt;br&gt;
 多変量回帰分析や主成分分析の前処理として使われることが多く、次のような目的に活用されます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;データの全体的な傾向・分布を確認する&lt;/li&gt;
@@ -13372,8 +13372,8 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
 &lt;li&gt;特徴量選択（feature selection）の指針とする&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;また、次元数が多い場合は、主成分得点を用いた「縮約後の散布図行列」や「部分選択行列」を用いることもあります。&lt;/p&gt;
-&lt;h3 id=&#34;注意点&#34;&gt;注意点
-&lt;/h3&gt;&lt;p&gt;散布図行列は変数の数が多くなると、視覚的な過密や理解の困難さを招きます。&lt;br&gt;
+&lt;h2 id=&#34;注意点&#34;&gt;注意点
+&lt;/h2&gt;&lt;p&gt;散布図行列は変数の数が多くなると、視覚的な過密や理解の困難さを招きます。&lt;br&gt;
 そのため、分析対象の変数をあらかじめ絞り込み、補助的にヒートマップや相関係数行列と併用するのが一般的です。&lt;br&gt;
 また、数値変数以外（カテゴリ変数など）は、形や色などで表現を工夫する必要があります。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
