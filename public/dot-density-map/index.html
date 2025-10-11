@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\nこの手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n">
 <title>ドット密度マップ（Dot Density Map）</title>
 
 <link rel='canonical' href='http://localhost:1313/dot-density-map/'>
 
 <link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ドット密度マップ（Dot Density Map）">
-<meta property='og:description' content="1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n">
+<meta property='og:description' content="ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\nこの手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n">
 <meta property='og:url' content='http://localhost:1313/dot-density-map/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2020-08-04T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2020-08-04T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/dot-density-map/images/dencity_ben_fry.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/dot-density-map/images/cover.png' />
 <meta name="twitter:title" content="ドット密度マップ（Dot Density Map）">
-<meta name="twitter:description" content="1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/dot-density-map/images/dencity_ben_fry.png' />
+<meta name="twitter:description" content="ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。\nデータは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。\nこの手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。\n見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/dot-density-map/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,14 +386,10 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#2010年-アメリカでの国勢調査--ニューヨークタイムズ">2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ</a></li>
-        <li><a href="#dencity--ben-fry">Dencity — Ben Fry</a></li>
-        <li><a href="#the-map-by-frère-de-montizon-1830">The map by Frère de Montizon, 1830</a></li>
-      </ol>
-    </li>
-    <li><a href="#参考文献">参考文献</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#背景と活用例">背景と活用例</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -409,10 +405,10 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/dot-density-map/">
-                <img src="/dot-density-map/images/dencity_ben_fry_hu_e5cb2585b0b02b3b.png"
-                        srcset="/dot-density-map/images/dencity_ben_fry_hu_e5cb2585b0b02b3b.png 800w, /dot-density-map/images/dencity_ben_fry_hu_6455b9e5536e594e.png 1600w"
+                <img src="/dot-density-map/images/cover_hu_c6167605f550df76.png"
+                        srcset="/dot-density-map/images/cover_hu_c6167605f550df76.png 800w, /dot-density-map/images/cover_hu_6a5993eb8e2b5337.png 1600w"
                         width="800" 
-                        height="534" 
+                        height="448" 
                         loading="lazy"
                         alt="Featured image of post ドット密度マップ（Dot Density Map）" />
                 
@@ -455,7 +451,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 04, 2020</time>
+                <time class="article-time--published">Oct 11, 2025</time>
             </div>
         
 
@@ -485,61 +481,78 @@
     <section class="article-content">
     
     
-    <p>1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。</p>
+    <p>ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。</p>
 <p>データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。</p>
-<p>何らかの質的特徴を確認するために、着色することもあります。</p>
+<p>この手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。</p>
 <p>見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。</p>
-<h2 id="作例">作例
-</h2><h3 id="2010年-アメリカでの国勢調査--ニューヨークタイムズ">2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
-</h3><p><img src="/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g.png"
-	width="1142"
-	height="731"
-	srcset="/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_59013f0f01b3e523.png 480w, /dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_d8b57e82cf16e70c.png 1024w"
+<p><img src="/dot-density-map/images/mainvisual.png"
+	width="2880"
+	height="1802"
+	srcset="/dot-density-map/images/mainvisual_hu_7f88c99557012114.png 480w, /dot-density-map/images/mainvisual_hu_a252ae088483c451.png 1024w"
 	loading="lazy"
 	
 	
 		class="gallery-image" 
-		data-flex-grow="156"
-		data-flex-basis="374px"
+		data-flex-grow="159"
+		data-flex-basis="383px"
 	
 ></p>
-<p>Flashによる作成のため、現在閲覧することができません。2010年の国勢調査の結果を用いて、アメリカの人種と民族の分布を描いています。1ドット=25,000人です。前回2000年からの変化もわかります。</p>
-<p><a class="link" href="http://www.nytimes.com/projects/census/2010/map.html"  target="_blank" rel="noopener"
-    >Mapping the 2010 U.S. Census — New York Times</a></p>
-<h3 id="dencity--ben-fry">Dencity — Ben Fry
-</h3><p><img src="/dot-density-map/images/dencity_ben_fry.png"
-	width="1024"
-	height="683"
-	srcset="/dot-density-map/images/dencity_ben_fry_hu_23466ff575ee03fc.png 480w, /dot-density-map/images/dencity_ben_fry_hu_c9fe10c51cadd637.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="149"
-		data-flex-basis="359px"
-	
-></p>
-<p><a class="link" href="https://fathom.info/notebook/1981/"  target="_blank" rel="noopener"
-    >Dencity — Ben Fry</a></p>
-<h3 id="the-map-by-frère-de-montizon-1830">The map by Frère de Montizon, 1830
-</h3><p><img src="/dot-density-map/images/unnamed-1.png"
-	width="512"
-	height="350"
-	srcset="/dot-density-map/images/unnamed-1_hu_65b92246bfd71beb.png 480w, /dot-density-map/images/unnamed-1_hu_f09c8376d3557e3d.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="146"
-		data-flex-basis="351px"
-	
-></p>
-<p>フランスの人口を行政区割によって表しています。</p>
-<p>The map by Frère de Montizon, 1830</p>
-<h2 id="参考文献">参考文献
+<h2 id="図解の見方">図解の見方
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>説明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ドット（点）</td>
+          <td>特定の数量を表す最小単位。例：「1ドット＝100人」。</td>
+      </tr>
+      <tr>
+          <td>エリア（ポリゴン）</td>
+          <td>行政区や地域の境界線を示す。点はその中に分布する。</td>
+      </tr>
+      <tr>
+          <td>ドットの密集度</td>
+          <td>値の多い地域では点が密集し、少ない地域では疎になる。</td>
+      </tr>
+      <tr>
+          <td>色の使い分け</td>
+          <td>複数カテゴリ（例：人種、産業、作物）を区別する場合に色で示す。</td>
+      </tr>
+      <tr>
+          <td>配置方法</td>
+          <td>点をランダムまたは格子状に分布させるが、重なりすぎないように調整する。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>たとえば「アメリカの人種別人口ドットマップ」では、各人種を異なる色のドットで表し、地図上に人口1人＝1ドットをプロットすることで、都市部での多様な構成や郊外での偏りなどが一目でわかるように設計されています。</p>
+<h2 id="背景と活用例">背景と活用例
+</h2><p>ドット密度マップは、19世紀の地図作成技術に起源をもち、Charles Dupin（シャルル・デュパン）やHenry Drury Harnessなどが社会統計を地図化する試みの中で発展しました。現在では、ArcGIS、QGIS、Mapbox、D3.jsなどのツールを使って容易に生成できます。</p>
+<p>特に <strong>「密度ヒートマップ」</strong> や <strong>「カーネル密度推定（KDE）」</strong> と異なり、ドット密度マップは「数量の実在性」を強調しやすく、統計値を直接的に可視化する教育・行政用途にも適しています。</p>
+<p>代表的な応用例には以下のものがあります。</p>
+<ul>
+<li>国勢調査データの可視化（人口・人種・所得など）</li>
+<li>農業統計（作付面積・収穫量など）</li>
+<li>都市部の居住パターン・空き家分布</li>
+<li>犯罪発生地点・災害被害件数の表示</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>ドット密度マップは、色による面積的な表現ではなく「点の数と分布」で数量を伝える地図表現です。数値の大小や地域的な偏りを直感的に把握でき、視覚的インパクトも強い一方で、点の重なりや縮尺によって解釈が変わる点には注意が必要です。適切なスケール設定とドット値の選定が、効果的な表現の鍵となります。</p>
+<h2 id="参考出典">参考・出典
 </h2><ul>
-<li>Isabel Meirelle — Design For Information</li>
-<li>谷村 晋 (著), 金 明哲 (編集) — 地理空間データ分析 (Rで学ぶデータサイエンス 7)</li>
+<li><a class="link" href="https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/dot-density.htm"  target="_blank" rel="noopener"
+    >Dot density — ArcGIS Pro ドキュメント</a></li>
+<li><a class="link" href="https://support.esri.com/en-us/gis-dictionary/dot-density-map"  target="_blank" rel="noopener"
+    >Dot density map の定義 — GIS Dictionary（Esri サポート）</a></li>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Dot_distribution_map"  target="_blank" rel="noopener"
+    >Dot distribution map（英語版ウィキペディア）</a></li>
+<li><a class="link" href="https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/experiments-with-dot-density-part-one"  target="_blank" rel="noopener"
+    >Experiments with dot density — ArcGIS Blog（Part One）</a></li>
+<li><a class="link" href="https://luminocity3d.org/WorldPopDen/#5/26.902/106.040"  target="_blank" rel="noopener"
+    >World Population Density</a></li>
 </ul>
 </section>
 
@@ -547,8 +560,6 @@
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
         
     </section>
 
@@ -582,23 +593,23 @@
             
                 
 <article class="has-image">
-    <a href="/dasymetric-map/">
+    <a href="/bio-fabric/">
         
         
             <div class="article-image">
-                <img src="/dasymetric-map/images/dasymetric-map-2048x1448.b0bb2747b91c12f03fb996f3978eeec1_hu_f9158bd6223f7898.png" 
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）"
-                        data-key="dasymetric-map" 
-                        data-hash="md5-sLsnR7kcEvA/uZbzl47uwQ==">
+                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する"
+                        data-key="bio-fabric" 
+                        data-hash="md5-zultgnlibb9do&#43;9BbpaNbA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ディシメトリック・マップ（Dasymetric Map）</h2>
+            <h2 class="article-title">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</h2>
         </div>
     </a>
 </article>
@@ -606,23 +617,23 @@
             
                 
 <article class="has-image">
-    <a href="/vector-field-map-example/">
+    <a href="/hive-plot/">
         
         
             <div class="article-image">
-                <img src="/vector-field-map-example/images/null_earth.7b47ce1aaf5b10e046ad7f27523e12e5_hu_d032b58b51fcbb19.png" 
+                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）の事例"
-                        data-key="vector-field-map-example" 
-                        data-hash="md5-e0fOGq9bEOBGrX8nUj4S5Q==">
+                        alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法"
+                        data-key="hive-plot" 
+                        data-hash="md5-f736wYfshYjwkUiUuXWTww==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ベクター・フィールド・マップ（Vector Field Map）の事例</h2>
+            <h2 class="article-title">Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</h2>
         </div>
     </a>
 </article>
@@ -630,23 +641,23 @@
             
                 
 <article class="has-image">
-    <a href="/choropleth-map/">
+    <a href="/arc-diagram/">
         
         
             <div class="article-image">
-                <img src="/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.f82f01c57f7b685bfb6db2e6cc0975b1_hu_8fa794f29d40e60b.png" 
+                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post コロプレス・マップ（Choropleth Map）"
-                        data-key="choropleth-map" 
-                        data-hash="md5-&#43;C8BxX97aFv7bbLmzAl1sQ==">
+                        alt="Featured image of post アーク・ダイアグラム (Arc Diagram)"
+                        data-key="arc-diagram" 
+                        data-hash="md5-iLNVeT5tA1lr1GaqNHjJTw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">コロプレス・マップ（Choropleth Map）</h2>
+            <h2 class="article-title">アーク・ダイアグラム (Arc Diagram)</h2>
         </div>
     </a>
 </article>
@@ -654,23 +665,23 @@
             
                 
 <article class="has-image">
-    <a href="/dot-map/">
+    <a href="/waterfall-chart/">
         
         
             <div class="article-image">
-                <img src="/dot-map/images/racialdotmap.a7ff123d559d42182bfc0140d32a07fc_hu_b9a91f81d585796.png" 
+                <img src="/waterfall-chart/images/cover.c27ab3f57c29c74c5fa42aaecbde3c40_hu_30dddf61a24a401d.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）"
-                        data-key="dot-map" 
-                        data-hash="md5-p/8SPVWdQhgr/AFA0yoH/A==">
+                        alt="Featured image of post ウォーターフォール・チャート（Waterfall Chart）"
+                        data-key="waterfall-chart" 
+                        data-hash="md5-wnqz9Xwpx0xfpCquy948QA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</h2>
+            <h2 class="article-title">ウォーターフォール・チャート（Waterfall Chart）</h2>
         </div>
     </a>
 </article>
@@ -678,23 +689,23 @@
             
                 
 <article class="has-image">
-    <a href="/proportional-symbol-map/">
+    <a href="/calendar-heat-map/">
         
         
             <div class="article-image">
-                <img src="/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.1436281f6a4f87a060856c1790310bd7_hu_450825cf5aed6d3e.png" 
+                <img src="/calendar-heat-map/images/cover.e8bffe56b518e94d187e1d2dd70b5562_hu_cec21b2b24065d14.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)"
-                        data-key="proportional-symbol-map" 
-                        data-hash="md5-FDYoH2pPh6BghWwXkDEL1w==">
+                        alt="Featured image of post カレンダー・ヒートマップ (Calendar Heat Map)"
+                        data-key="calendar-heat-map" 
+                        data-hash="md5-6L/&#43;VrUY6U0Yfh0t1wtVYg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">比例シンボル・マップ(Proportional Symbol Map)</h2>
+            <h2 class="article-title">カレンダー・ヒートマップ (Calendar Heat Map)</h2>
         </div>
     </a>
 </article>
