@@ -1553,6 +1553,79 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ボロノイ・ツリーマップ（Voronoi Treemaps）</title>
+        <link>http://localhost:1313/voronoi-treemaps/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/voronoi-treemaps/</guid>
+        <description>&lt;img src="http://localhost:1313/voronoi-treemaps/images/cover.png" alt="Featured image of post ボロノイ・ツリーマップ（Voronoi Treemaps）" /&gt;&lt;p&gt;ボロノイ・ツリーマップ（Voronoi Treemaps）は、階層構造データを可視化するためのツリーマップ（Treemap）の一種です。従来のツリーマップが矩形分割によって領域を表現するのに対し、ボロノイ・ツリーマップは「ボロノイ分割（Voronoi diagram）」を用いて、より自然で有機的な形状を生成します。これにより、複雑な階層データを視覚的に心地よく、かつ識別しやすく表示することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/voronoi-treemaps/images/mainvisual-2.png&#34;
+	width=&#34;1170&#34;
+	height=&#34;1120&#34;
+	srcset=&#34;http://localhost:1313/voronoi-treemaps/images/mainvisual-2_hu_76bcdc18bc6a16bf.png 480w, http://localhost:1313/voronoi-treemaps/images/mainvisual-2_hu_664f9fc192e08fe4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/voronoi-treemaps/images/mainvisual-1.png&#34;
+	width=&#34;1639&#34;
+	height=&#34;1590&#34;
+	srcset=&#34;http://localhost:1313/voronoi-treemaps/images/mainvisual-1_hu_2c7efd4f16720507.png 480w, http://localhost:1313/voronoi-treemaps/images/mainvisual-1_hu_25f09f5b7736fd5b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;247px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;この手法は2004年にMichael Balzer、Oliver Deussenらによって提案され、伝統的な長方形ベースのツリーマップに比べ、ユーザーがグループや階層の関係性をより直感的に認識できる点が特徴です。&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;セル（領域）&lt;/td&gt;
+          &lt;td&gt;各データ項目を示し、ボロノイ分割によって生成された多角形として表示されます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;サイズ&lt;/td&gt;
+          &lt;td&gt;各領域の面積は、データの値（例：売上、人数、割合など）に比例して割り当てられます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色&lt;/td&gt;
+          &lt;td&gt;階層構造のレベルやカテゴリを区別するために用いられます。上位階層は明るい色、下位階層は濃い色で表現される場合があります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;境界線&lt;/td&gt;
+          &lt;td&gt;隣接する領域との境界を示し、階層レベルに応じて線の太さやスタイルが異なることがあります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ボロノイ・ツリーマップの大きな特徴は、領域が不規則な形状でありながらも、隣接関係や階層構造を視覚的に自然に伝える点にあります。例えば、関連するカテゴリーは物理的にも近い位置に配置され、分布全体の「まとまり感」を強調します。&lt;/p&gt;
+&lt;h3 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h3&gt;&lt;p&gt;ボロノイ分割は、平面上の点集合に対して、それぞれの点に最も近い領域を割り当てる幾何学的構造です。ツリーマップにこの概念を応用することで、矩形分割では表現しにくかった「有機的な領域分割」を実現しました。また、ボロノイ・ツリーマップは科学可視化や生物分類、都市構造の分析など、非均質な空間構造を伴うデータに適しています。&lt;/p&gt;
+&lt;p&gt;可視化ライブラリとしては、D3.jsやProcessingを使った実装例も多く、Balzerらの論文では「連続的な変形（Continuous Voronoi Treemap）」も提案されています。これはデータの更新時に領域の形がスムーズに変化することで、ユーザーの認知的負荷を軽減することを目的としています。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;ボロノイ・ツリーマップは、階層データをより自然で直感的に可視化する手法として、近年注目されています。矩形ベースのツリーマップに比べて美的表現力が高く、情報デザインや生物学的データ、地理情報などにも応用可能です。ボロノイ分割の幾何学的性質を利用することで、階層構造を「自然の中の分布」に近い形で理解できる点が大きな利点です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphics.uni-konstanz.de/publikationen/Balzer2005VoronoiTreemaps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Voronoi Treemaps for the Visualization of Software Metrics – University of Konstanz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Voronoi_treemap&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Voronoi Treemaps – Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>リッジライン・プロット（Ridgeline Plot）</title>
         <link>http://localhost:1313/ridgeline-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
