@@ -8,6 +8,73 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3D ツリーマップ（3D Treemaps）</title>
+        <link>http://localhost:1313/3d-treemaps/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/3d-treemaps/</guid>
+        <description>&lt;img src="http://localhost:1313/3d-treemaps/images/thumb_ph_vizjp.png" alt="Featured image of post 3D ツリーマップ（3D Treemaps）" /&gt;&lt;p&gt;3D ツリーマップ（3D Treemaps）は、従来のツリーマップを三次元空間に拡張した可視化手法です。ツリーマップは階層構造を持つデータを長方形の面積で表現しますが、3D ツリーマップではこれに「高さ（Z軸）」を加えることで、もう一つの数量的変数を同時に表現できます。&lt;/p&gt;
+&lt;p&gt;3D ツリーマップは「押し出し型（extrusion-based）」とも呼ばれ、各ノードが立体的なブロックとして描画されます。これにより、面積はカテゴリーの大きさ、高さは数値変数（たとえば売上や成長率など）を表すことができます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;底面の位置と面積&lt;/strong&gt;&lt;br&gt;
+　各長方形の底面はツリーマップのレイアウトに基づいて配置されており、親子関係を示します。面積が大きいほど上位カテゴリーの重要度が高いことを意味します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高さ（Z軸方向）&lt;/strong&gt;&lt;br&gt;
+　ブロックの高さは、別の数量的指標を表します。たとえば企業の売上やプロジェクトの進行度などを高さで表現します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;階層構造の認識&lt;/strong&gt;&lt;br&gt;
+　親ノードの上に子ノードが積み重なるように可視化される場合や、同一平面上に配置される場合があります。視点を回転・ズームして階層全体を探索することが想定されています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;利点と課題&#34;&gt;利点と課題
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;利点&lt;/th&gt;
+          &lt;th&gt;課題&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;高さを用いてもう一つの変数を可視化できる&lt;/td&gt;
+          &lt;td&gt;奥行き方向の重なりや視点の歪みが生じやすい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;情報密度が高く、インタラクティブな操作に適する&lt;/td&gt;
+          &lt;td&gt;面積と高さを同時に比較するのが難しい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;視覚的に印象的で、3D空間での探索が可能&lt;/td&gt;
+          &lt;td&gt;実用的な理解には操作スキルが必要&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;3D ツリーマップは見た目の印象が強い一方、情報の読み取りには注意が必要です。とくに奥行き方向の歪みや遮蔽が生じるため、重要な値を正確に比較する場面では2Dのほうが適している場合もあります。&lt;/p&gt;
+&lt;h2 id=&#34;応用と設計の工夫&#34;&gt;応用と設計の工夫
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ソフトウェア構造の可視化&lt;/strong&gt;：モジュール階層を3Dツリーマップとして表現し、バグ密度やコードサイズを高さで示す例があります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ファイルシステムの分析&lt;/strong&gt;：ディレクトリ構造をツリーマップで表し、ファイルサイズを高さとして可視化する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;設計上の工夫&lt;/strong&gt;：視点操作・ツールチップ・陰影処理などを組み合わせて奥行き感を補い、情報の読みやすさを高める研究も行われています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;3D ツリーマップは階層データを三次元的に表現する拡張手法であり、追加変数の可視化やインタラクティブな探索に向いています。ただし、視点の歪みや認知的負荷が高いため、用途によっては従来の2Dツリーマップのほうが効果的な場合もあります。実用設計では、目的に応じて2D／3Dを使い分ける判断が重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/blog/3d-treemaps-that-use-extrusion/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Data Visualisation Catalogue – 3D Treemaps That Use Extrusion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cs.au.dk/~hjschulz/pdfs/3dtreema.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Exploration of the 3D Treemap Design Space – Hans-Jörg Schulz (Aarhus University)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/236895537_Interactive_Rendering_of_Complex_3D-Treemaps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Interactive Rendering of Complex 3D-Treemaps – ResearchGate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Treemapping&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – Treemapping&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>3D棒グラフ・マップ (3D Bar Chart Map)</title>
         <link>http://localhost:1313/3d-bar-chart-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
