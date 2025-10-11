@@ -294,6 +294,84 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>Gapminder World Map 2010</title>
+        <link>http://localhost:1313/gapminder-world-map-2010/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/gapminder-world-map-2010/</guid>
+        <description>&lt;img src="http://localhost:1313/gapminder-world-map-2010/images/cover.png" alt="Featured image of post Gapminder World Map 2010" /&gt;&lt;p&gt;「Gapminder World Map 2010」は、各国の &lt;strong&gt;所得（GDP）&lt;/strong&gt; と &lt;strong&gt;平均寿命&lt;/strong&gt; の関係を視覚化したバブルチャートです。スウェーデン・ストックホルムに拠点を置く &lt;strong&gt;Gapminder財団&lt;/strong&gt; によって制作され、統計学者であり公衆衛生の教育者でもあった &lt;strong&gt;ハンス・ロスリング（Hans Rosling）&lt;/strong&gt; によって広く知られるようになりました。この図は、データをもとに「世界の健康と豊かさ」を直感的に理解できるよう設計されています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/gapminder-world-map-2010/images/mainvisual.png&#34;
+	width=&#34;3626&#34;
+	height=&#34;2564&#34;
+	srcset=&#34;http://localhost:1313/gapminder-world-map-2010/images/mainvisual_hu_6505a8d0b2b1a63e.png 480w, http://localhost:1313/gapminder-world-map-2010/images/mainvisual_hu_56d38b843d04fe74.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;このチャートは、横軸に「 &lt;strong&gt;1人あたりGDP（購買力平価調整済み、対数スケール）&lt;/strong&gt; 」、縦軸に「 &lt;strong&gt;出生時の平均寿命（年）&lt;/strong&gt; 」を取っています。各国は &lt;strong&gt;円（バブル）&lt;/strong&gt; で表され、その &lt;strong&gt;位置&lt;/strong&gt; ・ &lt;strong&gt;大きさ&lt;/strong&gt; ・ &lt;strong&gt;色&lt;/strong&gt; に意味があります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;表現要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸（X軸）&lt;/td&gt;
+          &lt;td&gt;1人あたりGDP（購買力平価、米ドル換算）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦軸（Y軸）&lt;/td&gt;
+          &lt;td&gt;平均寿命（出生時）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バブルの大きさ&lt;/td&gt;
+          &lt;td&gt;各国の人口規模&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バブルの色&lt;/td&gt;
+          &lt;td&gt;地域（例：アジア＝赤、ヨーロッパ＝黄、アフリカ＝青など）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;横軸は対数スケールであるため、1人あたりGDPが10倍になっても等間隔には描かれません。これにより、低所得国から高所得国までを一枚の図で比較できるようになっています。
+縦軸では、健康状態を「平均寿命」で表現しており、上に行くほど健康で長寿な国となります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と目的&#34;&gt;背景と目的
+&lt;/h2&gt;&lt;p&gt;Gapminderは「統計をアニメーションでわかりやすく伝える」ことを目的としたプロジェクトです。このポスター版は、もともと&lt;strong&gt;インタラクティブな「Gapminder World」ツール&lt;/strong&gt;をもとに作られた静的な可視化で、世界の格差を一目で把握できるようになっています。&lt;/p&gt;
+&lt;p&gt;ハンス・ロスリングは講演の中で、この図を使って「世界は貧困と病気の2極構造ではなく、中間層の国々が急速に伸びている」ことを示しました。&lt;/p&gt;
+&lt;p&gt;たとえば2010年時点では &lt;strong&gt;中国&lt;/strong&gt; や &lt;strong&gt;インド&lt;/strong&gt; が「低所得・短寿命」から「中所得・長寿命」へと移行しつつあることが見て取れます。&lt;/p&gt;
+&lt;h2 id=&#34;特徴と意義&#34;&gt;特徴と意義
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;データの統合性&lt;/strong&gt;：世界各国の統計（GDP、寿命、人口）を組み合わせて視覚化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;対数スケール&lt;/strong&gt;：極端な値を持つ国を含めても、全体像が見やすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;デザイン性&lt;/strong&gt;：丸の大きさと色によって、直感的に地域差と人口構成を理解可能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;教育的価値&lt;/strong&gt;：ロスリングはこの図を通じて、データが持つ「物語性」を伝えることを重視しました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;「Gapminder World Map 2010」は、統計を単なる数字ではなく「動的なストーリー」として見せる代表的な可視化作品です。&lt;/p&gt;
+&lt;p&gt;所得と健康という二つの指標を組み合わせることで、世界の発展段階をわかりやすく示し、また「世界は確実に健康で豊かになっている」という希望のメッセージを発信しています。&lt;/p&gt;
+&lt;p&gt;今日でもこのアプローチは、教育・国際開発・データリテラシー教育などの分野で広く参照されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gapminder.org/about/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gapminder — About the Foundation and mission&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gapminder.org/about/about-gapminder/history/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gapminder — History (establishment, founders etc.) &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gapminder.org/tools/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gapminder Tools (インタラクティブ版の可視化ツール) &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gapminder.org/data/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gapminder — データダウンロードページ（各種指標を含む）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pmc.ncbi.nlm.nih.gov/articles/PMC7320389/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Health advocacy with Gapminder animated statistics （Gapminder World の説明を含む論文）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</title>
         <link>http://localhost:1313/hive-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
