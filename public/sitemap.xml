@@ -95,6 +95,9 @@
     <loc>http://localhost:1313/space-time-cube/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/time-series-linear-dendrogram/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bivariate-choropleth-map/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>

@@ -2840,6 +2840,100 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>時系列リニア・デンドログラム（Time-series Linear Dendrogram）</title>
+        <link>http://localhost:1313/time-series-linear-dendrogram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/time-series-linear-dendrogram/</guid>
+        <description>&lt;img src="http://localhost:1313/time-series-linear-dendrogram/images/mainvisual.png" alt="Featured image of post 時系列リニア・デンドログラム（Time-series Linear Dendrogram）" /&gt;&lt;p&gt;時系列リニア・デンドログラム（Time-series Linear Dendrogram）は &lt;strong&gt;階層的な関係構造（ツリー構造）を時間の流れに沿って可視化するチャート&lt;/strong&gt; です。従来のデンドログラム（系統樹）が主に左右または上下方向に枝分かれを描くのに対し、リニア型では&lt;strong&gt;横軸または縦軸に時間をとり、分岐が時系列に沿って展開&lt;/strong&gt;される点が特徴です。&lt;/p&gt;
+&lt;p&gt;この形式は、生物進化の系統関係、製品やサービスのバージョン進化、組織やプロジェクトの分岐履歴など、「時間と系統の両方を同時に表したい」場合に適しています。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;横軸（または縦軸）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;時間の経過を表す。左から右、あるいは上から下へ時間が進む。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;線（ブランチ）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;対象（種、バージョン、系列など）の関係性や派生を示す。分岐点は共通の祖先や基点を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ノード（点）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ある時点での存在（種・製品・状態など）を示す。ノードのサイズや色で数量・重要度などを表す場合もある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;枝の傾きや長さ&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;分岐の時点の差異や期間を表す。長い枝は独立していた期間が長いことを示すことがある。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、ツリー構造の縦軸（階層）に加えて横軸（時間）を導入することで、「いつ・どのように分化・派生したか」を視覚的に理解しやすくなります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用例&#34;&gt;背景と応用例
+&lt;/h2&gt;&lt;p&gt;時系列リニア・デンドログラムは &lt;strong&gt;時間軸をもつ階層構造&lt;/strong&gt; の可視化という観点から、以下のような応用が見られます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;進化生物学&lt;/strong&gt;：生物種や遺伝子系統の進化を、発生時期とともに示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ソフトウェア開発&lt;/strong&gt;：バージョン分岐やフォーク、リリース履歴の可視化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文化史・言語史&lt;/strong&gt;：言語の派生や文化的変遷の流れを時系列で示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;プロジェクト管理&lt;/strong&gt;：組織再編やタスクの派生関係を、時間とともに整理する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この可視化は特に「ツリー × タイムライン」という二軸を融合しており、単純な樹状図やガントチャートでは表せない &lt;strong&gt;系統的連続性の理解&lt;/strong&gt; に優れています。&lt;/p&gt;
+&lt;h2 id=&#34;関連概念との比較&#34;&gt;関連概念との比較
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート名&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;時系列情報&lt;/th&gt;
+          &lt;th&gt;構造的関係&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;デンドログラム（Dendrogram）&lt;/td&gt;
+          &lt;td&gt;階層クラスタの関係をツリーで表現&lt;/td&gt;
+          &lt;td&gt;✕&lt;/td&gt;
+          &lt;td&gt;○&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;タイムライン（Timeline）&lt;/td&gt;
+          &lt;td&gt;時間の流れに沿った出来事を表示&lt;/td&gt;
+          &lt;td&gt;○&lt;/td&gt;
+          &lt;td&gt;✕&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;時系列リニア・デンドログラム&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;両者を統合し、時間に沿って階層構造を展開&lt;/td&gt;
+          &lt;td&gt;○&lt;/td&gt;
+          &lt;td&gt;○&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;時系列リニア・デンドログラムは &lt;strong&gt;時間の経過と階層的な関係性を同時に示すハイブリッドな可視化手法&lt;/strong&gt; です。変化や進化のプロセスを、派生関係とともに理解するのに適しています。特に、ツリー構造が静的な関係を表すのに対し、リニア型では時間軸を導入することで &lt;strong&gt;「過程」や「進化の連続性」&lt;/strong&gt; を強調できます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://nextstrain.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nextstrain — real-time tracking of pathogen evolution（公式サイト）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.nextstrain.org/en/latest/learn/interpret/how-to-read-a-tree.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“How to interpret the phylogenetic trees” — Nextstrain ドキュメンテーション&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pmc.ncbi.nlm.nih.gov/articles/PMC6247931/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Nextstrain: real-time tracking of pathogen evolution — PubMed Central（論文・紹介記事）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.displayr.com/what-is-dendrogram/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“What is a Dendrogram? Hierarchical Cluster Analysis” — Displayr による説明記事&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/dendrogram.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Dendrogram” — R Graph Gallery による系統図の説明ページ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Hierarchical_clustering&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Hierarchical clustering” — Wikipedia における階層クラスタリングの一般解説&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
         <link>http://localhost:1313/bivariate-choropleth-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
