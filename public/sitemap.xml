@@ -29,6 +29,9 @@
     <loc>http://localhost:1313/gauge-chart/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/radar-chart/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/chord-diagram/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>

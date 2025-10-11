@@ -632,6 +632,99 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>レーダー・チャート（Radar Chart）</title>
+        <link>http://localhost:1313/radar-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/radar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/radar-chart/images/cover.png" alt="Featured image of post レーダー・チャート（Radar Chart）" /&gt;&lt;p&gt;レーダー・チャート（Radar Chart）は、多変量データを放射状に配置して比較するためのグラフです。別名としてスパイダー・チャート（Spider Chart）やウェブ・チャート（Web Chart）とも呼ばれます。各軸が異なる変数を表し、中心から外に向かって値が大きくなります。1つのデータ系列は多角形として描かれ、複数の系列を重ねることで、パターンや特徴の違いを視覚的に比較することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-chart/images/mainvisual.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;1600&#34;
+	srcset=&#34;http://localhost:1313/radar-chart/images/mainvisual_hu_92ecc83664f14b50.png 480w, http://localhost:1313/radar-chart/images/mainvisual_hu_e06fedfc4cd3968f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;軸（Axes）&lt;/td&gt;
+          &lt;td&gt;各軸は異なる変数を表す。例：製品の性能指標（速度、精度、価格、耐久性など）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中心点&lt;/td&gt;
+          &lt;td&gt;すべての軸が交わる中心点は、最小値（または0）を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スケール&lt;/td&gt;
+          &lt;td&gt;軸上の目盛りは値の範囲を示す。すべての軸でスケールが一致している必要がある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;多角形（Polygon）&lt;/td&gt;
+          &lt;td&gt;各データ系列を結んだ線。形状の違いから強みや弱みを一目で把握できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;塗りつぶし（Fill Area）&lt;/td&gt;
+          &lt;td&gt;面を塗ることで、比較を視覚的に強調できる。重なり部分の透明度調整も重要。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;例えば、5つの性能指標をもつ製品AとBを比較する場合、製品Aのレーダー形状がより外側に広がっていれば、総合的に性能が高いことを示します。一方、特定の軸だけ突出している場合は、その要素が強みであることを示唆します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と利用例&#34;&gt;背景と利用例
+&lt;/h2&gt;&lt;p&gt;レーダー・チャートは、もともと心理学やスポーツ科学などで人物やチームの特性を多次元的に評価するために使われてきました。現在では、マーケティングや製品比較、ビジネス戦略分析など幅広い分野で利用されています。&lt;/p&gt;
+&lt;p&gt;しかし、軸が多すぎると見づらくなり、またスケールの不一致や変数の単位が異なる場合は誤解を生む恐れがあります。そのため、使用する際は軸の順序やスケールを慎重に設計する必要があります。特に視覚的バランスを取るためには、軸の配置順が比較結果に与える影響にも注意を払うことが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;関連ツール応用例&#34;&gt;関連ツール・応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ツール・ライブラリ&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Microsoft Excel / Google Sheets&lt;/td&gt;
+          &lt;td&gt;標準でレーダー・チャート機能を搭載。ビジネス向けに最も普及。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D3.js / Plotly.js&lt;/td&gt;
+          &lt;td&gt;Webでの動的インタラクションが可能。ホバーで値表示やアニメーション比較も実装可能。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Vega-Lite&lt;/td&gt;
+          &lt;td&gt;宣言的記述で簡潔に定義可能。学術・教育用途に向く。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RAWGraphs&lt;/td&gt;
+          &lt;td&gt;多次元データを簡単にレーダー形式で可視化できるOSSツール。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;レーダー・チャートは、多変量データを直感的に比較するのに適した可視化手法です。中心からの距離で各項目の強弱を示し、全体の形状で傾向を読み取ることができます。ただし、軸の数や順序、スケール設計を誤ると誤解を招くため、慎重な設計が必要です。適切に設計されたレーダー・チャートは、ビジネス評価からスポーツ分析まで、幅広い分野で「全体像をひと目で伝える」強力な手段となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Radar_chart?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radar chart — Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.chartjs.org/docs/latest/charts/radar.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radar Chart | Chart.js Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apexcharts.com/docs/chart-types/radar/?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Radar Chart Guide — ApexCharts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>コード・ダイアグラム (Chord Diagram)</title>
         <link>http://localhost:1313/chord-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
