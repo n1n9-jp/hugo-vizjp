@@ -340,6 +340,20 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/gapminder-world-map-2010/images/legend.png&#34;
+	width=&#34;665&#34;
+	height=&#34;957&#34;
+	srcset=&#34;http://localhost:1313/gapminder-world-map-2010/images/legend_hu_b2476a1a039b362c.png 480w, http://localhost:1313/gapminder-world-map-2010/images/legend_hu_50c6df3c9d5166f1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;凡例&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;69&#34;
+		data-flex-basis=&#34;166px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;横軸は対数スケールであるため、1人あたりGDPが10倍になっても等間隔には描かれません。これにより、低所得国から高所得国までを一枚の図で比較できるようになっています。
 縦軸では、健康状態を「平均寿命」で表現しており、上に行くほど健康で長寿な国となります。&lt;/p&gt;
 &lt;h2 id=&#34;背景と目的&#34;&gt;背景と目的
@@ -3483,6 +3497,73 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
     &gt;CK-12 Foundation: Stem-and-Leaf Plots&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://study.com/skill/learn/interpreting-a-stem-and-leaf-plot-explanation.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Study.com: Interpreting a Stem-and-Leaf Plot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>最多書体デザイナーの可視化</title>
+        <link>http://localhost:1313/most-prolific-type-designers/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/most-prolific-type-designers/</guid>
+        <description>&lt;img src="http://localhost:1313/most-prolific-type-designers/images/cover.png" alt="Featured image of post 最多書体デザイナーの可視化" /&gt;&lt;p&gt;このインフォグラフィックは、歴代の代表的な書体デザイナーを、制作したフォント数とカテゴリー別に可視化した作品です。デザインはClara Prieto氏によるもので、視覚的に整然とした情報構成が特徴です。作品全体は、左側の「最多書体デザイナー」と右側の「国際様式」の2部構成になっています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual.jpg&#34;
+	width=&#34;1920&#34;
+	height=&#34;1354&#34;
+	srcset=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual_hu_679d980931b1737c.jpg 480w, http://localhost:1313/most-prolific-type-designers/images/mainvisual_hu_ea8e63eb43b42dcd.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;340px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;左側の図&#34;&gt;左側の図
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual-left.jpg&#34;
+	width=&#34;823&#34;
+	height=&#34;1172&#34;
+	srcset=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual-left_hu_d2ee0ca63f208b35.jpg 480w, http://localhost:1313/most-prolific-type-designers/images/mainvisual-left_hu_9f28b0a0cfcf9eba.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;168px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;p&gt;左側の図では、各デザイナーの制作書体数が円弧状に放射され、ジャンル（Sans Serif、Serif、Blackletter、その他）ごとに色分けされています。各円弧の角度が作品数を示しており、外側に向かうほど多くの書体を制作したことを意味します。&lt;/p&gt;
+&lt;p&gt;たとえば &lt;strong&gt;Morris Fuller Benton&lt;/strong&gt; は87書体（うち47がSans Serif）を手がけており、20世紀初頭アメリカの商業印刷時代における多様なフォント開発を牽引しました。&lt;/p&gt;
+&lt;p&gt;同様に &lt;strong&gt;Hermann Zapf&lt;/strong&gt; （ドイツ）は、書体の美学と可読性を両立させたデザインで知られ、後のユニバーサル・デザイン思想にも影響を与えています。&lt;/p&gt;
+&lt;p&gt;下部にはタイムラインがあり、各デザイナーが活動した年代が一目で分かるようになっています。1870年代から2000年代までの軸上に、主要な活動時期が点で示されています。&lt;/p&gt;
+&lt;h3 id=&#34;背景と意図&#34;&gt;背景と意図
+&lt;/h3&gt;&lt;p&gt;この作品は、書体デザインの歴史的潮流を俯瞰し、技術革新とデザイン思想の発展を同時に捉えることを意図しています。Sans Serifが増加する20世紀半ばのモダニズム的転換期に注目しながら、クラシックなSerifや装飾的Blackletterも同列に扱うことで、タイポグラフィの多様性を表現しています。&lt;/p&gt;
+&lt;h2 id=&#34;右側の図&#34;&gt;右側の図
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual-right.jpg&#34;
+	width=&#34;827&#34;
+	height=&#34;1172&#34;
+	srcset=&#34;http://localhost:1313/most-prolific-type-designers/images/mainvisual-right_hu_f06f9801aa59f035.jpg 480w, http://localhost:1313/most-prolific-type-designers/images/mainvisual-right_hu_77c76a8eaadc4ebf.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;70&#34;
+		data-flex-basis=&#34;169px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;estilo-internacional国際様式&#34;&gt;Estilo Internacional（国際様式）
+&lt;/h3&gt;&lt;p&gt;右側の図は、1950年から1960年の間に生まれた「インターナショナル・タイポグラフィック・スタイル（スイス様式）」の時代を描いたものです。中心に置かれた「a」のシンボルは、アクシデンツ・グロテスク（Akzidenz Grotesk）を象徴しており、無駄のない構造と中立的なデザインが特徴です。&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方-1&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;p&gt;放射状の年表に沿って、1950年から1960年までに登場した主要フォントが扇状に配置されています。緑色はSans Serif系フォント、オレンジ色はSerif系フォントを表します。&lt;/p&gt;
+&lt;p&gt;例えば、1957年には &lt;strong&gt;Helvetica&lt;/strong&gt;（Max Miedinger）と &lt;strong&gt;Univers&lt;/strong&gt;（Adrian Frutiger）が登場し、スイス・デザインの黄金期を象徴しています。翌年1958年には &lt;strong&gt;Optima&lt;/strong&gt;（Hermann Zapf）や &lt;strong&gt;Numbus Sans&lt;/strong&gt; などが発表され、これらは後の国際的なデザイン標準となりました。&lt;/p&gt;
+&lt;p&gt;下部には主要な書体デザイナー（Zapf, Frutiger, Miedinger, Bauer, Baum）の肖像と活動期間が示されています。これにより、国際スタイルの形成における主要人物が視覚的に理解できるようになっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;Clara Prieto氏による「Tipográficos」シリーズは、タイポグラフィ史をデータビジュアライゼーションとして再構成した優れた作品です。書体という静的なデザイン要素を時間軸とカテゴリーで整理することで、デザイナーたちの創作の広がりと、時代ごとの美学的変遷を一目で理解できる構造になっています。
+情報デザインとしても完成度が高く、教育・展示用途にも適した作品です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.claraprieto.com/tipograficos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Clara Prieto | Tipográficos – Data Visualisation &amp;amp; Scientific Illustration&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
