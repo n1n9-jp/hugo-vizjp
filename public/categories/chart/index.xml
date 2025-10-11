@@ -1073,6 +1073,92 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>リッジライン・プロット（Ridgeline Plot）</title>
+        <link>http://localhost:1313/ridgeline-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/ridgeline-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/ridgeline-plot/images/cover.png" alt="Featured image of post リッジライン・プロット（Ridgeline Plot）" /&gt;&lt;p&gt;リッジライン・プロット（Ridgeline Plot）は、複数のグループ（カテゴリ）ごとの &lt;strong&gt;連続変数の分布&lt;/strong&gt; を縦方向に重ねて描画するグラフです。&lt;br&gt;
+各グループの分布を「稜線（ridge）」のように積み重ねることで、全体の比較や変化の傾向を直感的に理解できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/ridgeline-plot/images/mainvisual.png&#34;
+	width=&#34;1536&#34;
+	height=&#34;1152&#34;
+	srcset=&#34;http://localhost:1313/ridgeline-plot/images/mainvisual_hu_9fd100ba5faa2bf.png 480w, http://localhost:1313/ridgeline-plot/images/mainvisual_hu_c9d272be40595d70.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;別名として「Joyplot」とも呼ばれます。これは、イギリスのバンド Joy Division のアルバム『Unknown Pleasures』（1979年）のカバーアートに形が似ていることに由来します。このアルバムジャケットは、電波パルス信号を可視化した図形であり、その「波打つ山並み」がリッジライン・プロットの象徴的なイメージの原点となりました。&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;各曲線（稜線）&lt;/td&gt;
+          &lt;td&gt;特定カテゴリの分布（例：各年、各地域など）を表す。密度曲線やヒストグラムに基づく。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦方向の並び&lt;/td&gt;
+          &lt;td&gt;分類（カテゴリ）の順序。通常は時系列やカテゴリー順に並べる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸&lt;/td&gt;
+          &lt;td&gt;対象となる数値変数（例：収入、温度、測定値など）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;稜線間の重なり&lt;/td&gt;
+          &lt;td&gt;分布同士の比較を視覚的に可能にする。重なりすぎると見づらくなるため、透明度やスケール調整が重要。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色や透明度&lt;/td&gt;
+          &lt;td&gt;各カテゴリを区別したり、強調するために使用される。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h3&gt;&lt;p&gt;リッジライン・プロットは、データ分布を &lt;strong&gt;省スペースで多層的に&lt;/strong&gt; 表現できる手法として、時系列や地域別の変化を比較する際に有効です。&lt;br&gt;
+とくに以下の点で優れています：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分布の形状の比較&lt;/strong&gt;：複数のカテゴリを一枚の図で俯瞰できる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;トレンドの可視化&lt;/strong&gt;：時間や順序に応じた変化を滑らかに見せることができる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的魅力&lt;/strong&gt;：稜線が波のように連なるため、芸術的・印象的な表現としても活用される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一方で、重なり具合が大きすぎると識別が困難になるため、適切な「スケール」や「透明度（alpha）」の設定が重要です。&lt;/p&gt;
+&lt;h3 id=&#34;実践上のポイント&#34;&gt;実践上のポイント
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;カテゴリ順の設定&lt;/strong&gt;：平均値や中央値順に並べると分布差が明瞭になる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バンド幅の調整&lt;/strong&gt;：平滑化（カーネル密度推定）パラメータを変えることで山の鋭さを調整可能。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;透明度設定&lt;/strong&gt;：オーバーラップが強い場合は &lt;code&gt;alpha&lt;/code&gt; 値を小さくして視認性を確保する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;補助線・注釈&lt;/strong&gt;：平均や四分位線を重ねると、定量的比較が容易になる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;リッジライン・プロットは、統計的な分布比較を「層の重なり」で魅せるグラフです。&lt;br&gt;
+Joyplotに由来するビジュアル的美しさと、分布比較の実用性を兼ね備えており、RやPythonなどの環境で手軽に作成できます。&lt;br&gt;
+データ数が十分にある場合には、複数群の「変化の風景」を描く強力な手法となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/graph/ridgeline.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data to Viz — Ridgeline plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Ridgeline_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia — Ridgeline plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://r-graph-gallery.com/294-basic-ridgeline-plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R Graph Gallery — Basic ridgeline plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://altair-viz.github.io/gallery/ridgeline_plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Altair — Ridgeline Plot Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.analyticsvidhya.com/blog/2021/06/ridgeline-plots-visualize-data-with-a-joy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Analytics Vidhya — Visualize data with a Joyplot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
         <link>http://localhost:1313/bivariate-choropleth-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
