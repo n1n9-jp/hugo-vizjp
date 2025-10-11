@@ -1219,6 +1219,82 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ファネル・チャート（Funnel Chart）</title>
+        <link>http://localhost:1313/funnel-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/funnel-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/funnel-chart/images/cover.png" alt="Featured image of post ファネル・チャート（Funnel Chart）" /&gt;&lt;p&gt;ファネル・チャート（Funnel Chart）は、ビジネスやマーケティング領域でよく用いられる可視化手法で、プロセスの各段階でのデータ量や割合の減少を、上から下へと流れる「漏斗（ファネル）」の形で表します。&lt;br&gt;
+たとえば、ウェブサイト訪問者が「閲覧 → 商品ページ閲覧 → カート追加 → 購入完了」という流れをたどる際に、どの段階でどれだけの人数が離脱したかを視覚的に示すのに適しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/funnel-chart/images/mainvisual.png&#34;
+	width=&#34;600&#34;
+	height=&#34;450&#34;
+	srcset=&#34;http://localhost:1313/funnel-chart/images/mainvisual_hu_65c8dea9084e89cd.png 480w, http://localhost:1313/funnel-chart/images/mainvisual_hu_6cdb24fc041a8807.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;ファネル・チャートでは、上から下に向かって段階的に値が減少する構造を持ちます。以下のような要素で構成されています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;段階（Stage）&lt;/td&gt;
+          &lt;td&gt;プロセスの各ステップ（例：訪問、登録、購入など）を表します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;幅（Width）&lt;/td&gt;
+          &lt;td&gt;各段階での数量または割合を示します。上の段階ほど多く、下に行くほど少なくなります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;比率（Conversion Rate）&lt;/td&gt;
+          &lt;td&gt;各段階から次の段階に進む割合を示します。分析では特にこの値が重要です。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色の使い方&lt;/td&gt;
+          &lt;td&gt;ステージごとに異なる色を用いることで、視覚的区別を明確にします。グラデーションで連続性を表す場合もあります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;一般的に、上段は「流入」や「潜在顧客」、下段は「成果」や「コンバージョン完了」を意味します。&lt;/p&gt;
+&lt;h2 id=&#34;用途と背景&#34;&gt;用途と背景
+&lt;/h2&gt;&lt;p&gt;ファネル・チャートは、データ分析の分野でも特にマーケティング・営業・サービス運用において定番の指標可視化方法です。代表的な応用としては以下が挙げられます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Eコマース分析&lt;/strong&gt;：購買プロセスでの離脱率分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;営業パイプライン&lt;/strong&gt;：見込み顧客から契約成立までの進捗追跡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アプリ利用分析&lt;/strong&gt;：インストールから課金ユーザーまでの行動段階の把握&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この図の利点は、プロセス全体を直感的に把握できる点にあります。一方で、各段階の詳細な原因分析には別のチャート（たとえば棒グラフやサンキー・ダイアグラム）を併用するのが望ましいです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ファネル・チャートは、ユーザーや顧客が特定のプロセスをどのように通過していくかを示す「流れの図」です。上から下への形状の変化が、自然に「減少」や「離脱」を想起させ、特にビジネス領域で効果的なデータストーリーテリングを実現します。&lt;br&gt;
+ただし、単一の指標に頼らず、補助的なグラフと組み合わせることで、より多面的な分析が可能になります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-funnel-charts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Power BI 公式 — Create and use funnel charts in Power BI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://plotly.com/javascript/funnel-charts/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Plotly.js 公式 — Funnel and Funnelarea Charts in JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://highcharts.com/docs/chart-and-series-types/funnel-series&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Highcharts 公式ドキュメント — Funnel series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://api.highcharts.com/highcharts/series.funnel&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Highcharts API — series.funnel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://echarts.apache.org/en/cheat-sheet.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apache ECharts 公式 — Cheat Sheet（Funnel を含む）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tableau.com/blog/three-different-ways-build-funnels-tableau-and-why-89871&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau 公式ブログ — Three different ways to build funnels in Tableau—and why&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）</title>
         <link>http://localhost:1313/force-directed-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
