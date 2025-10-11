@@ -1,79 +1,75 @@
 +++
 author = "Yuichi Yazaki"
-title = "ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）"
+title = "ドット・マップ（Dot Map）とは"
 slug = "dot-map"
-date = "2020-08-04"
-description = ""
+date = "2025-10-11"
 categories = [
     "chart"
 ]
 tags = [
-    "地図"
+    "",
 ]
-image = "images/racialdotmap.png"
+image = "images/cover.png"
 +++
 
-1つのドットが1つの観測値を表します。
-個別の現象が、どのような地理的分布をしているのかを確認します。
-
-分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。
-
-何らかの質的特徴を確認するために、着色することもあります。
-
-見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。
+ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く **1ドット＝1件（または1単位）** という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。
 
 <!--more-->
 
-## 作例
-
-### 地元民と観光客 写真撮影場所の違い（東京編）
-
-![](images/4671542165_ae093ddbed_k.jpg)
-
-Flickrにアップロードされた写真を分析し、フォトグラファーを以下のように3つのグループに分類し、撮影地点をそれぞれ異なる色の点で示しています。
-
-- 地元民（青い点）：同じ都市で1ヶ月以上撮影した人の写真
-- 観光客（赤い点）：観光客は2つの基準によって定義されます。この都市で1ヶ月未満で写真を撮った人で、かつ別の都市の写真の枚数からそこの都市が地元であると推測される人の写真
-- 未定義（黄色い点）：地元民か観光客かを判断することができなかった人の写真
-
-[Locals and Tourists #5 (GTWA #20): Tokyo](https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/)
-
-
-### 地元民と観光客 ツイート場所の違い（東京編）
-
-![](images/mapbox_twitter-gnip-1.png)
-
-[Locals & Tourists – Tokyo](https://labs.mapbox.com/labs/twitter-gnip/locals/#)
-
-
-### Racial Dot Mapプロジェクト
-
-![](images/racialdotmap.png)
-
-[Racial Dot Map Project](http://racialdotmap.demographics.coopercenter.org/)
+たとえば「地震の発生地点」や「美術館の所在地」「感染症の発生場所」など、個別の位置情報をそのままマップ上に可視化する際に使われます。密度の高い領域は視覚的に点が集まり、分布傾向を直感的に読み取ることができます。
 
 
 
-### 白人至上主義のリンチの歴史の地図
+## 図解の見方
 
-![](images/Map-of-White-Supremacy’s-history-of-lynchings-1.png)
+| 要素 | 説明 |
+|------|------|
+| ドットの位置 | 観測対象の実際の位置を正確に表す。地図上の地理座標に基づく。 |
+| ドットの数 | 観測された事象や対象の数。1点が1件を意味する。 |
+| ドットの色 | 分類属性（例：種類、カテゴリー、年次）を示すことがある。 |
+| スケール | ドット同士の重なりを避けるため、ズームや透明度を調整する場合もある。 |
 
-[Map of White Supremacy’s history of lynchings](https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5)
-
-
-
-### John Snow’s map of cholera outbreaks
-
-![](images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg)
-
-ロンドン南部の1854年のコレラ流行を描いています。
-コレラが、当時信じられていたように、空気感染の病気ではなく、水で感染する病気であると主張するための地図です。円で表されているのが水源で、個々の死亡者数はバーで表されています。ドット分布マップと比例シンボル・マップの手法の組み合わさったものといえそうです。
-
-[John Snow’s map of cholera outbreaks](https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map)
+ドット・マップでは「位置そのもの」を伝えることが目的であり、ドットの数を地域ごとに統計的に均すことはしません。そのため **点の位置が意味を持つ** ことが最大の特徴です。
 
 
-## 問題点
 
-同一の緯度経度を持つデータポイントが複数ある場合、注意が必要です。使用するツールによっては、同一の緯度経度であっても、重ならないように表示するアルゴリズムを採用しているものがあります。
+## ドット密度マップとの違い
 
-同一の緯度経度を持つデータポイントが複数あって上手く処理できなかったり、あるエリアに固まってまともに描画できない、などの場合、点のデータを面（サーフェイス）に変換する方法を使います。その場合、長方形や菱形、六角形などのグリッド化や、行政区割のデータを用いたりします。
+ドット密度マップ（Dot Density Map）は、似た見た目を持ちながら目的が異なります。
+
+| 比較項目 | ドット・マップ（Dot Map） | ドット密度マップ（Dot Density Map） |
+|-----------|----------------------------|-------------------------------------|
+| ドットの意味 | 1点＝1件など、個別の実体を示す | 統計値を一定の密度に応じてドットで擬似的に配置 |
+| ドットの位置 | 実際の位置データに基づく | 行政区画などの内部でランダムまたは均等に配置 |
+| 表現目的 | 分布傾向・位置の可視化 | 数量・密度の比較を視覚化 |
+| 典型例 | 犯罪発生地点マップ、店舗分布 | 人口密度、農地面積、種族分布 |
+| 見方の焦点 | 点の位置に注目 | 点の密度に注目 |
+
+このように、「ドット・マップ」は位置の忠実な可視化であり、「ドット密度マップ」は統計的な面密度の表現という点で明確に区別されます。
+
+
+
+## 背景と応用
+
+ドット・マップは19世紀以来の地図表現法であり、地理情報システム（GIS）やオンラインマッピングツール（Mapbox、Leafletなど）によって現在も広く使われています。近年では、インタラクティブなドット・マップが多く登場し、マウスオーバーで属性情報を表示するなど、単なる可視化を超えた分析用途にも活用されています。
+
+
+
+## まとめ
+
+- **ドット・マップ** は個々の位置データを正確に示す地図表現。1点が1対象。
+- **ドット密度マップ** は集計データを面内に分布させる統計的表現。
+- 目的が「位置の表示」か「密度の比較」かで使い分けることが重要。
+- 現在では両者とも、GISやWeb地図可視化ツールによって動的に作成できる。
+
+
+
+## 参考・出典
+
+- [Dot distribution map - Wikipedia](https://en.wikipedia.org/wiki/Dot_distribution_map)
+- [Dot mapping cartograms for detection of infectious disease - NCBI (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5779165/)
+- [Creation and evaluation of graduated dot maps - ResearchGate](https://www.researchgate.net/publication/318722017_Creation_and_evaluation_of_graduated_dot_maps)
+- [Dot Distribution Map | Data Visualization Standards (XDgov)](https://xdgov.github.io/data-design-standards/visualizations/dot-distribution-map)
+- [Racial Dot Maps Based on Dasymetrically Modeled Gridded Population Data - MDPI](https://www.mdpi.com/2076-0760/8/5/157)
+- [Scaling the Interactive Dot Map - NSF Public Access Repository](https://par.nsf.gov/servlets/purl/10079287)
+- [Automated Dot Mapping: How to Dot the Dot Map - Taylor & Francis Online](https://www.tandfonline.com/doi/abs/10.1559/1523040639117)
