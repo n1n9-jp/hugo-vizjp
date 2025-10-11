@@ -4643,21 +4643,21 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;p&gt;同一の緯度経度を持つデータポイントが複数あって上手く処理できなかったり、あるエリアに固まってまともに描画できない、などの場合、点のデータを面（サーフェイス）に変換する方法を使います。その場合、長方形や菱形、六角形などのグリッド化や、行政区割のデータを用いたりします。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ドット密度マップ（Dot Density Map）</title>
-        <link>http://localhost:1313/dot-density-map/</link>
+        <title>ドット密度マップ（Dot Density Map）の事例</title>
+        <link>http://localhost:1313/dot-density-map-example/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/dot-density-map/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-density-map/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
+        <guid>http://localhost:1313/dot-density-map-example/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）の事例" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
 &lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
 &lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;2010年-アメリカでの国勢調査--ニューヨークタイムズ&#34;&gt;2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map-example/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;
 	width=&#34;1142&#34;
 	height=&#34;731&#34;
-	srcset=&#34;http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_59013f0f01b3e523.png 480w, http://localhost:1313/dot-density-map/images/1_Boi8uA89rJqqprcRS-8P6g_hu_d8b57e82cf16e70c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map-example/images/1_Boi8uA89rJqqprcRS-8P6g_hu_59013f0f01b3e523.png 480w, http://localhost:1313/dot-density-map-example/images/1_Boi8uA89rJqqprcRS-8P6g_hu_d8b57e82cf16e70c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -4670,10 +4670,10 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.nytimes.com/projects/census/2010/map.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Mapping the 2010 U.S. Census — New York Times&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;dencity--ben-fry&#34;&gt;Dencity — Ben Fry
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/dencity_ben_fry.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png&#34;
 	width=&#34;1024&#34;
 	height=&#34;683&#34;
-	srcset=&#34;http://localhost:1313/dot-density-map/images/dencity_ben_fry_hu_23466ff575ee03fc.png 480w, http://localhost:1313/dot-density-map/images/dencity_ben_fry_hu_c9fe10c51cadd637.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map-example/images/dencity_ben_fry_hu_23466ff575ee03fc.png 480w, http://localhost:1313/dot-density-map-example/images/dencity_ben_fry_hu_c9fe10c51cadd637.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -4685,10 +4685,10 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fathom.info/notebook/1981/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Dencity — Ben Fry&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;the-map-by-frère-de-montizon-1830&#34;&gt;The map by Frère de Montizon, 1830
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/unnamed-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map-example/images/unnamed-1.png&#34;
 	width=&#34;512&#34;
 	height=&#34;350&#34;
-	srcset=&#34;http://localhost:1313/dot-density-map/images/unnamed-1_hu_65b92246bfd71beb.png 480w, http://localhost:1313/dot-density-map/images/unnamed-1_hu_f09c8376d3557e3d.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map-example/images/unnamed-1_hu_65b92246bfd71beb.png 480w, http://localhost:1313/dot-density-map-example/images/unnamed-1_hu_f09c8376d3557e3d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
