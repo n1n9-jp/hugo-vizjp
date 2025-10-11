@@ -1262,6 +1262,115 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ストリップ・チャート（Strip Chart）</title>
+        <link>http://localhost:1313/strip-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/strip-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/strip-chart/images/cover.png" alt="Featured image of post ストリップ・チャート（Strip Chart）" /&gt;&lt;p&gt;ストリップ・チャート（Strip Chart）は、時間の経過やカテゴリごとのデータ点を、&lt;strong&gt;線または点の連続&lt;/strong&gt;として表示するチャートです。用途によって意味が少し異なりますが、共通するのは「&lt;strong&gt;個々のデータ変化を連続的に可視化する&lt;/strong&gt;」点です。もともとは物理的なチャートレコーダ（strip chart recorder）として登場し、現在では統計可視化やリアルタイム監視画面などでも広く使われています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/strip-chart/images/mainvisual-1.png&#34;
+	width=&#34;768&#34;
+	height=&#34;672&#34;
+	srcset=&#34;http://localhost:1313/strip-chart/images/mainvisual-1_hu_e4bd395e755cde9d.png 480w, http://localhost:1313/strip-chart/images/mainvisual-1_hu_29e208c5f4b9dd04.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;114&#34;
+		data-flex-basis=&#34;274px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸（X軸）&lt;/td&gt;
+          &lt;td&gt;時間またはカテゴリを表す。多くの場合、左から右に経過する時系列を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦軸（Y軸）&lt;/td&gt;
+          &lt;td&gt;計測値や観測値を示す。温度、圧力、電圧、あるいは数値変数など。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;データ点／線&lt;/td&gt;
+          &lt;td&gt;各瞬間または各観測データを表す。連続的な線でつなぐ場合も、点で離散的に示す場合もある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;更新・スクロール&lt;/td&gt;
+          &lt;td&gt;リアルタイムの場合、新しいデータが右端に追加され、古いデータが左へ流れる（または消える）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ジッター処理&lt;/td&gt;
+          &lt;td&gt;統計的ストリップ・チャートでは、データ点の重なりを防ぐために位置をわずかにずらすことがある。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;h3 id=&#34;1-計測記録機器としてのストリップチャート&#34;&gt;1. 計測・記録機器としてのストリップ・チャート
+&lt;/h3&gt;&lt;p&gt;20世紀中頃まで、ストリップ・チャート・レコーダーは温度や電圧などの信号を&lt;strong&gt;紙テープに連続記録&lt;/strong&gt;する装置として用いられていました。記録ペンが時間軸に沿って動くことで、変化を一目で把握できました。&lt;br&gt;
+今日ではこの形式がデジタル化され、リアルタイム監視用の&lt;strong&gt;波形ビューア&lt;/strong&gt;や&lt;strong&gt;ダッシュボードチャート&lt;/strong&gt;として継承されています。&lt;/p&gt;
+&lt;h3 id=&#34;2-統計的ストリップチャートstrip-plot&#34;&gt;2. 統計的ストリップ・チャート（Strip Plot）
+&lt;/h3&gt;&lt;p&gt;統計学・データ可視化の分野では、ストリップ・チャートはカテゴリ別にデータ点を並べるシンプルな分布可視化手法です。&lt;br&gt;
+箱ひげ図（Box Plot）やバイオリンプロット（Violin Plot）と併用されることが多く、&lt;strong&gt;各観測値をそのまま点として可視化する&lt;/strong&gt;ことで、外れ値や分布のばらつきを確認できます。&lt;/p&gt;
+&lt;h3 id=&#34;3-リアルタイム監視やiotダッシュボード&#34;&gt;3. リアルタイム監視やIoTダッシュボード
+&lt;/h3&gt;&lt;p&gt;センサー値やトランザクション量など、常時更新されるデータを時系列で追跡するために、ストリップ・チャートは現在も重要な役割を果たしています。スクロール式UIにより、常に最新の状態を右端で確認できます。&lt;/p&gt;
+&lt;h2 id=&#34;関連類似チャートとの比較&#34;&gt;関連・類似チャートとの比較
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート名&lt;/th&gt;
+          &lt;th&gt;概要&lt;/th&gt;
+          &lt;th&gt;ストリップ・チャートとの違い&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ラインチャート (Line Chart)&lt;/td&gt;
+          &lt;td&gt;連続的なデータを線で結んで表示&lt;/td&gt;
+          &lt;td&gt;ストリップ・チャートはリアルタイム更新・長時間データ記録を重視&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スキャッタープロット (Scatter Plot)&lt;/td&gt;
+          &lt;td&gt;2変数間の関係を点で表示&lt;/td&gt;
+          &lt;td&gt;ストリップ・チャートは1軸を時間に固定する点が異なる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バイオリンプロット (Violin Plot)&lt;/td&gt;
+          &lt;td&gt;分布の形状を密度として可視化&lt;/td&gt;
+          &lt;td&gt;ストリップ・チャートは個別点をそのまま可視化するため、構造が単純&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スパークライン (Sparkline)&lt;/td&gt;
+          &lt;td&gt;コンパクトな時系列線グラフ&lt;/td&gt;
+          &lt;td&gt;ストリップ・チャートは記録・監視用途で長時間スパンを扱う&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ストリップ・チャートは、データを「&lt;strong&gt;時間に沿って一目で把握する&lt;/strong&gt;」ための基本的な可視化形式です。&lt;br&gt;
+歴史的にはアナログ記録機から始まり、現代ではソフトウェア上の&lt;strong&gt;リアルタイム波形ビュー&lt;/strong&gt;や&lt;strong&gt;統計的分布図&lt;/strong&gt;として進化しています。&lt;br&gt;
+単純な形式ながら、&lt;strong&gt;個々のデータ点の変化を可視化する力&lt;/strong&gt;に優れており、時系列データの理解に欠かせない存在です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Chart_recorder&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – Chart recorder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lightningchart.com/net-charts/docs/tutorials/strip-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LightningChart – Strip Chart Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datamentor.io/r-programming/strip-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DataMentor – R stripchart() Function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ux.stackexchange.com/questions/24768/how-should-a-strip-chart-of-data-be-displayed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UX StackExchange – How should a strip chart of data be displayed?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://chartexpo.com/blog/strip-charts&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chartexpo – What Is a Strip Chart?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>スパイラル・チャート（Spiral Chart）</title>
         <link>http://localhost:1313/spiral-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
