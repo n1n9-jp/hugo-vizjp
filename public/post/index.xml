@@ -279,6 +279,103 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>サーキュラー・レイアウト（Circular Layout）</title>
+        <link>http://localhost:1313/circular-layout/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/circular-layout/</guid>
+        <description>&lt;img src="http://localhost:1313/circular-layout/images/cover.png" alt="Featured image of post サーキュラー・レイアウト（Circular Layout）" /&gt;&lt;p&gt;サーキュラー・レイアウトは、ネットワーク構造を持つデータを円周上に均等に配置して表現する手法です。各ノード（点）は円の外周上に配置され、ノード間のリンク（線）が円の内側を通って描かれます。この配置により、ネットワーク全体の構造を俯瞰的に確認することができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/circular-layout/images/mainvisual.png&#34;
+	width=&#34;2907&#34;
+	height=&#34;977&#34;
+	srcset=&#34;http://localhost:1313/circular-layout/images/mainvisual_hu_85aa27a00731a390.png 480w, http://localhost:1313/circular-layout/images/mainvisual_hu_e06f426a8f97288b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;297&#34;
+		data-flex-basis=&#34;714px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ノード（点）&lt;/td&gt;
+          &lt;td&gt;ネットワーク内の個々の要素を表す。円周上に均等に配置される。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;リンク（線）&lt;/td&gt;
+          &lt;td&gt;ノード同士の関係や結びつきを示す。円の内側を通って結ばれる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;配置規則&lt;/td&gt;
+          &lt;td&gt;ノードの順序はデータ属性やカテゴリに基づいて決定される場合がある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;座標系&lt;/td&gt;
+          &lt;td&gt;円周上の角度でノードを定義する極座標系を使用。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このレイアウトは、ノードの数が多くても均等配置により視覚的に整理しやすい特徴があります。ただし、リンクが多く交差すると「スパゲッティ状」になり、可読性が低下することがあります。&lt;/p&gt;
+&lt;h3 id=&#34;コードダイアグラムとの違い&#34;&gt;コード・ダイアグラムとの違い
+&lt;/h3&gt;&lt;p&gt;コード・ダイアグラム（Chord Diagram）は、サーキュラー・レイアウトと同様にノードを円周上に配置しますが、各ノード間の関係強度を「帯（コード）」の太さや形で表現します。すなわち：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;比較項目&lt;/th&gt;
+          &lt;th&gt;サーキュラー・レイアウト&lt;/th&gt;
+          &lt;th&gt;コード・ダイアグラム&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;主な目的&lt;/td&gt;
+          &lt;td&gt;ネットワークの接続関係の構造を示す&lt;/td&gt;
+          &lt;td&gt;ノード間の関係量・相互作用を強調する&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;表現要素&lt;/td&gt;
+          &lt;td&gt;ノード（点）とリンク（線）&lt;/td&gt;
+          &lt;td&gt;ノード（扇形）とコード（帯状の線）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;線の意味&lt;/td&gt;
+          &lt;td&gt;接続の有無や関係の存在を示す&lt;/td&gt;
+          &lt;td&gt;関係の強度や量を面積・太さで表す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;使用例&lt;/td&gt;
+          &lt;td&gt;ソーシャルネットワーク、通信経路など&lt;/td&gt;
+          &lt;td&gt;国間の貿易量、移動フロー、カテゴリ間の相関など&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、サーキュラー・レイアウトは構造を見せるのに適しており、コード・ダイアグラムは「関係の量」を可視化するのに適しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;サーキュラー・レイアウトは、ノードを円環上に並べ、ネットワーク全体を俯瞰するのに適したレイアウトです。データ間のリンク構造を視覚的に把握できるため、関係性の全体像を捉えるのに有効です。一方で、関係の強さや方向性を表現するにはコード・ダイアグラムなど他の拡張形式を用いると効果的です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://networkx.org/documentation/stable/reference/generated/networkx.drawing.layout.circular_layout.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NetworkX Documentation — circular_layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Circular_layout&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia — Circular layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://graphviz.org/documentation/GK06.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Graphviz Paper — Improved Circular Layouts (GK06)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://observablehq.com/@drom/circular-graph-layout&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ObservableHQ — Circular Graph Layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://networkx.org/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_circular.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NetworkX Documentation — draw_circular&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ウォーターフォール・チャート（Waterfall Chart）</title>
         <link>http://localhost:1313/waterfall-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
