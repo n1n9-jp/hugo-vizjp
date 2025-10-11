@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
-title = "ドット密度マップ（Dot Density Map）"
-slug = "dot-density-map"
+title = "ドット密度マップ（Dot Density Map）の事例"
+slug = "dot-density-map-example"
 date = "2020-08-04"
 description = ""
 categories = [
