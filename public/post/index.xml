@@ -923,7 +923,7 @@
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/violin-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/violin-plot/images/cover.png" alt="Featured image of post バイオリン・プロット（Violin Plot）" /&gt;&lt;p&gt;&lt;strong&gt;バイオリン・プロット（Violin Plot）&lt;/strong&gt; は、データの分布を可視化するための図であり &lt;strong&gt;箱ひげ図（Box-and-Whisker Plot）とカーネル密度推定（Kernel Density Estimation, KDE）を組み合わせた&lt;/strong&gt; チャートです。データの中央値や四分位範囲といった要約統計量に加え、分布の形状を滑らかに示すことで、より直感的に「データの山（モード）」や「広がり」、「偏り」を読み取ることができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/violin-plot/images/cover.png" alt="Featured image of post バイオリン・プロット（Violin Plot）" /&gt;&lt;p&gt;&lt;strong&gt;バイオリン・プロット（Violin Plot）&lt;/strong&gt; は、データの分布を可視化するための図であり &lt;strong&gt;箱ひげ図（Box-and-Whisker Plot）とカーネル密度推定（Kernel Density Estimation, KDE）を組み合わせた&lt;/strong&gt; チャートです。データの中央値や四分位範囲といった要約統計量に加え、分布の形状を滑らかに示すことで、より直感的に「データの山（モード）」や「広がり」「偏り」を読み取ることができます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/violin-plot/images/mainvisual.png&#34;
 	width=&#34;2811&#34;
 	height=&#34;1702&#34;
@@ -1997,6 +1997,65 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
     &gt;Diverging Stacked Bar — Depict Data Studio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datawrapper.de/blog/divergingbars&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;The case against diverging stacked bars | Datawrapper Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>密度プロット（Density Plot）</title>
+        <link>http://localhost:1313/density-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/density-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/density-plot/images/thumb_ph_vizjp.png" alt="Featured image of post 密度プロット（Density Plot）" /&gt;&lt;p&gt;密度プロット（Density Plot）は、データの分布を滑らかに可視化するためのグラフです。ヒストグラムと同様にデータの頻度を表しますが、棒ではなく &lt;strong&gt;連続的な曲線&lt;/strong&gt; で描かれる点が特徴です。データがどの範囲に多く分布しているかを視覚的に捉えることができます。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸（X軸）&lt;/td&gt;
+          &lt;td&gt;データの値（例：身長、収入など）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦軸（Y軸）&lt;/td&gt;
+          &lt;td&gt;確率密度（density）。面積が1になるように正規化されている&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;曲線の形&lt;/td&gt;
+          &lt;td&gt;データの分布の形状を表す（尖りや裾の長さで特徴を判断）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;面積&lt;/td&gt;
+          &lt;td&gt;全体の面積が1に調整されるため、確率を表している&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色分け&lt;/td&gt;
+          &lt;td&gt;複数グループを比較する際に用いる。例：男女別、地域別など&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;密度プロットは &lt;strong&gt;ヒストグラムの滑らか版&lt;/strong&gt; と考えると理解しやすいです。各データ点の周囲に「カーネル関数」と呼ばれる滑らかな曲線を重ね合わせて、全体の分布を推定します。これを「カーネル密度推定（Kernel Density Estimation, KDE）」と呼びます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と活用例&#34;&gt;背景と活用例
+&lt;/h2&gt;&lt;p&gt;密度プロットは、統計学やデータサイエンスの分野で広く用いられています。特に以下のような目的に有効です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分布の形状を比較する&lt;/strong&gt;：例えば、ある商品の購入金額分布を男女別で比較する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;異常値や多峰性を発見する&lt;/strong&gt;：ピークが複数ある場合は、異なる集団が混在している可能性を示す。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;サンプルサイズの違いを吸収して比較する&lt;/strong&gt;：正規化されているため、標本数が異なるグループでも比較可能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;密度プロットはしばしば &lt;strong&gt;箱ひげ図やバイオリンプロット&lt;/strong&gt; と併用されます。特にバイオリンプロットは密度プロットを左右対称にした形で、分布の全体像をより直感的に示す手法です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;密度プロットは、データの分布形状を滑らかに表現し、比較や異常値発見に役立つグラフです。ヒストグラムよりも視覚的にわかりやすく、複数の分布を重ねて比較する際にも効果的です。データ分析や可視化の初歩として、ぜひ理解しておきたい基本図法のひとつです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Kernel_density_estimation&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Kernel density estimation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seaborn.pydata.org/generated/seaborn.kdeplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seaborn Documentation — kdeplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ggplot2.tidyverse.org/reference/geom_density.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ggplot2: geom_density function reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
