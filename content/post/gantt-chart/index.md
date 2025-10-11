@@ -17,7 +17,7 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
-## 図解の見方
+## チャートの見方
 
 ガント・チャートの基本構成は以下の通りです。
 

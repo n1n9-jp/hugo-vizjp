@@ -22,7 +22,7 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
-## 図解の見方
+## チャートの見方
 
 | 要素 | 表すもの | 説明 |
 |------|-----------|------|

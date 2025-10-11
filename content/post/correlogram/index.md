@@ -25,7 +25,8 @@ image = "images/cover.png"
 ![](images/mainvisual-3.png)
 
 
-## 図解の見方
+## チャートの見方
+
 コレログラムの構造は以下のようになっています。
 
 | 要素 | 内容 | 解釈のポイント |

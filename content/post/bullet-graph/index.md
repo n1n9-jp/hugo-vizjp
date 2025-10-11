@@ -18,7 +18,7 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
-## 図解の見方
+## チャートの見方
 
 ブレット・グラフは、以下の要素で構成されます。
 

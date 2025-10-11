@@ -21,7 +21,7 @@ image = "images/cover.png"
 ![](images/mainvisual.png)
 
 
-## 図解の見方
+## チャートの見方
 
 幹葉図は、次のような構造を持っています。
 

@@ -20,7 +20,7 @@ image = "images/thumb_ph_vizjp.png"
 
 ![Global Internet Map Map 2021](images/mainvisual.png)
 
-## 図解の見方
+## チャートの見方
 
 | 要素 | 内容 |
 |------|------|
