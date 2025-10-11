@@ -1299,6 +1299,94 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>箱ひげ図（Box-and-Whisker Plot）</title>
+        <link>http://localhost:1313/box-andwhisker-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/box-andwhisker-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/box-andwhisker-plot/images/cover.png" alt="Featured image of post 箱ひげ図（Box-and-Whisker Plot）" /&gt;&lt;p&gt;箱ひげ図（Box-and-Whisker Plot）は、データの分布・散らばり・偏り・外れ値を一目で把握できる統計グラフです。箱とひげで構成され、データの「代表値（中央値）」と「ばらつき（四分位数）」を同時に表します。1970年代にジョン・テューキー（John Tukey）によって提案され、探索的データ解析（EDA）の基本的な可視化手法として広く使われています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/box-andwhisker-plot/images/mainvisual.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;866&#34;
+	srcset=&#34;http://localhost:1313/box-andwhisker-plot/images/mainvisual_hu_b4cee1c13b6ccd5c.png 480w, http://localhost:1313/box-andwhisker-plot/images/mainvisual_hu_441d6a0aa0f6fa56.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;387px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;表現&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;最小値 (Minimum)&lt;/td&gt;
+          &lt;td&gt;データの最も小さい値&lt;/td&gt;
+          &lt;td&gt;左端のひげの先端&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;第1四分位数 (Q1)&lt;/td&gt;
+          &lt;td&gt;下位25%の境界&lt;/td&gt;
+          &lt;td&gt;箱の左端&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中央値 (Median, Q2)&lt;/td&gt;
+          &lt;td&gt;データの中心&lt;/td&gt;
+          &lt;td&gt;箱内の線&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;第3四分位数 (Q3)&lt;/td&gt;
+          &lt;td&gt;上位25%の境界&lt;/td&gt;
+          &lt;td&gt;箱の右端&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;最大値 (Maximum)&lt;/td&gt;
+          &lt;td&gt;データの最も大きい値&lt;/td&gt;
+          &lt;td&gt;右端のひげの先端&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;四分位範囲 (IQR = Q3 - Q1)&lt;/td&gt;
+          &lt;td&gt;中央50%のばらつき&lt;/td&gt;
+          &lt;td&gt;箱の幅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;外れ値 (Outliers)&lt;/td&gt;
+          &lt;td&gt;1.5×IQRを超える値&lt;/td&gt;
+          &lt;td&gt;ひげの外に点で表示&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;箱の中の線が箱の中央より左にある場合は分布が右に歪んでおり、右にある場合は左に歪んでいると読み取れます。ひげの長さの非対称性は分布の偏りを、箱の大きさは中間データの散らばりを示します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;箱ひげ図は、複数のカテゴリやグループ間で分布を比較する際に非常に有効です。例えば、男女別の試験点数や年度別の売上分布などを同一スケールで比較できます。また、外れ値（異常値）の検出にも適しており、データ品質確認や異常検知の初期分析でもよく用いられます。&lt;/p&gt;
+&lt;p&gt;近年では &lt;strong&gt;変形版として「バイオリンプロット（Violin Plot）」や「ビーズプロット（Beeswarm Plot）」&lt;/strong&gt; など、分布形状の情報をより詳細に付加したバリエーションも登場しています。ただし、箱ひげ図はあくまで5点要約（five-number summary）に基づく可視化であり、分布の形状（例えば双峰性や歪度）を完全に表現するものではありません。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;箱ひげ図は、分布の特徴を簡潔に要約し、比較や外れ値検出を支援する基本的な統計グラフです。データの散らばりや偏りを直感的に理解できるため、探索的データ分析やレポート作成、教育など幅広い分野で利用されています。ただし、平均値や標準偏差の情報は含まれないため、必要に応じて他の可視化（ヒストグラム・密度プロットなど）と併用するのが望ましいです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Box_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Box plot - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Build a Box Plot — Tableau Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/box_plot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Box and Whisker Plots — The Data Visualisation Catalogue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.itl.nist.gov/div898/handbook/eda/section3/boxplot.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;1.3.3.7. Box Plot — NIST/ITL Engineering Statistics Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/box-whisker-plots/a/box-plot-review&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Box plot review — Khan Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ggplot2.tidyverse.org/reference/geom_boxplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;geom_boxplot — ggplot2 reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>分岐的積み重ね棒グラフ (Diverging Stacked Bar Chart)</title>
         <link>http://localhost:1313/diverging-stacked-bar-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
