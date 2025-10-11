@@ -3590,6 +3590,96 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>植民地時代ボストン商人の一日：時間と空間の可視化</title>
+        <link>http://localhost:1313/spacetime-path-diagram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/spacetime-path-diagram/</guid>
+        <description>&lt;img src="http://localhost:1313/spacetime-path-diagram/images/thumb_ph_vizjp.png" alt="Featured image of post 植民地時代ボストン商人の一日：時間と空間の可視化" /&gt;&lt;p&gt;この図は、地理学者アラン・プレッド（Allan Pred）が1984年に発表した論文「Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period」に掲載されたもので、18世紀末のボストン商人が一日をどのように過ごしたかを、時間と空間の両軸で示したものです。&lt;/p&gt;
+&lt;p&gt;社会学的な「構造化理論（Structuration Theory）」の文脈で、人間の行動と都市空間の関係を示す重要な事例として知られています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/spacetime-path-diagram/images/mainvisual.png&#34;
+	width=&#34;1184&#34;
+	height=&#34;1942&#34;
+	srcset=&#34;http://localhost:1313/spacetime-path-diagram/images/mainvisual_hu_a409f1a78bce99ae.png 480w, http://localhost:1313/spacetime-path-diagram/images/mainvisual_hu_b1f4ef3b1d5779c2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;60&#34;
+		data-flex-basis=&#34;146px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;作品の構造と見方&#34;&gt;作品の構造と見方
+&lt;/h2&gt;&lt;p&gt;この図は縦軸が &lt;strong&gt;時間の経過（午前0時〜翌日の午前0時）&lt;/strong&gt; を表し、上下に「midnight」があります。&lt;/p&gt;
+&lt;p&gt;横方向には &lt;strong&gt;商人の移動経路&lt;/strong&gt; が線で描かれ、さらに上下の円形図は &lt;strong&gt;空間上での活動範囲&lt;/strong&gt; を示しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;下部の円は、ボストン市街地の地図であり、商人の実際の移動経路（home → countinghouse → coffeehouseなど）が示されています。&lt;/li&gt;
+&lt;li&gt;上部の円は、行動の抽象的な「時間的距離」を表しており、地理的距離よりも「社会的・機能的距離」に焦点を当てています。&lt;/li&gt;
+&lt;li&gt;縦のラインは、1日の時間軸を示しており、9:00 a.m.、noon、3:00 p.m.などの時刻が明記されています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;各番号は以下の場所に対応しています：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;番号&lt;/th&gt;
+          &lt;th&gt;訪問場所&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;home&lt;/td&gt;
+          &lt;td&gt;自宅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;Faneuil Hall&lt;/td&gt;
+          &lt;td&gt;商取引や集会が行われた市場・公共ホール&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;countinghouse&lt;/td&gt;
+          &lt;td&gt;事務所・帳簿管理所&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;coffeehouse&lt;/td&gt;
+          &lt;td&gt;商談・情報交換の場&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5&lt;/td&gt;
+          &lt;td&gt;“change” on State Street&lt;/td&gt;
+          &lt;td&gt;株式取引や商人たちの立ち話の場&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;6&lt;/td&gt;
+          &lt;td&gt;club-meeting site&lt;/td&gt;
+          &lt;td&gt;社交クラブの集まり場所&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この図のユニークな点は、商人の「日常的な動き」を、地図上の空間的配置と時間軸上のリズムの両方から表現している点にあります。単なる地理的地図ではなく、「時間の地理学（Time Geography）」の初期的実例として高く評価されています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と意義&#34;&gt;背景と意義
+&lt;/h2&gt;&lt;p&gt;アラン・プレッドは、スウェーデンのトルステン・ヘーゲルストランド（Torsten Hägerstrand）の「時間地理学（Time-Geography）」の影響を受けながら、社会構造と個人行動の関係を地理的に分析しました。この図は、単なる1人の商人の行動記録ではなく、「都市における社会的リズム」の象徴として位置づけられます。&lt;/p&gt;
+&lt;p&gt;特に、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;経済活動（CountinghouseやState Street）&lt;/li&gt;
+&lt;li&gt;情報交換（Coffeehouse）&lt;/li&gt;
+&lt;li&gt;社交的場面（Club Meeting）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が時間的・空間的にどのように交差するかを示しており &lt;strong&gt;経済地理学・都市社会学・歴史地理学の交点&lt;/strong&gt; にある重要な図といえます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この図は、18世紀ボストンの商人が「どこで」「いつ」「どのように」活動していたかを統合的に可視化した例です。&lt;/p&gt;
+&lt;p&gt;現代のデータビジュアライゼーションでいえば、「時空間軸をもつネットワーク図」や「ライフログの可視化」に近い発想です。&lt;/p&gt;
+&lt;p&gt;空間と時間を同時に扱うことの難しさを克服した初期の試みとして、今日の「時空間分析」や「行動地理学」につながる基礎を築いたと言えるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://journals.sagepub.com/doi/10.1068/d020251&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period - A Pred, 1984&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>垂直樹（Vertical Trees）と水平樹（Horizontal Trees）</title>
         <link>http://localhost:1313/vertical-tree-horizontal-trees/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
