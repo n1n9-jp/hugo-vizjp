@@ -8,6 +8,35 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3D棒グラフ・マップ (3D Bar Chart Map)</title>
+        <link>http://localhost:1313/3d-bar-chart-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/3d-bar-chart-map/</guid>
+        <description>&lt;img src="http://localhost:1313/3d-bar-chart-map/images/thumb_ph_vizjp.png" alt="Featured image of post 3D棒グラフ・マップ (3D Bar Chart Map)" /&gt;&lt;p&gt;3D棒グラフ・マップ（3D Bar Chart Map）は、地理的な位置情報をもとに、棒グラフを三次元的に配置してデータの分布や比較を視覚的に表現するチャートです。主に都市や地域単位の統計データ（人口、GDP、売上高、観光客数など）を地図上に立体的に可視化するために用いられます。&lt;/p&gt;
+&lt;p&gt;棒の高さによって数量の大小を示し、地図の広がりによって空間的な分布を同時に把握できるため、「地理的ヒートマップ」と「棒グラフ」の特性を兼ね備えた手法といえます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;地図上に立てられた棒1本が、特定の地域や都市を表しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;棒の位置&lt;/strong&gt;：地理的な座標（緯度・経度）に対応&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;棒の高さ&lt;/strong&gt;：数値の大きさ（例：人口、販売数、取引量）を表す&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;棒の色&lt;/strong&gt;（任意）：分類やカテゴリーを示す（例：産業別、年度別など）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3Dで表現することで、平面のヒートマップでは見落としがちな地域間の「数量の差」や「密集度」を立体的に把握できます。多くの場合、ユーザーが地図を回転・ズームすることで、視点を自由に切り替えながら分析できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;3D棒グラフ・マップは、地理情報システム（GIS）やWebGL技術の発展とともに普及しました。特に &lt;strong&gt;Mapbox GL JS&lt;/strong&gt; や &lt;strong&gt;deck.gl&lt;/strong&gt;、&lt;strong&gt;Kepler.gl&lt;/strong&gt; などのツールでは、標準機能として「3D extruded layer」や「Column Layer」が用意されています。これにより、地理データをもとにした動的・対話的な3Dビジュアライゼーションが容易になりました。&lt;/p&gt;
+&lt;p&gt;応用例としては次のようなものがあります：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;都市別CO₂排出量の比較&lt;/li&gt;
+&lt;li&gt;不動産価格の地域差分析&lt;/li&gt;
+&lt;li&gt;世界各国のGDPや貿易額の立体表示&lt;/li&gt;
+&lt;li&gt;災害リスク（浸水深や被害規模など）の地理的強調表示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、データ・アートやインフォグラフィックスの分野でも、立体的な棒グラフマップは「情報の密度と造形の美しさ」を両立できる表現としてしばしば採用されています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;3D棒グラフ・マップは、数値の大小と地理的分布を同時に伝える強力なビジュアル手法です。視覚的なインパクトが強く、インタラクティブな探索に適していますが、データ密度が高すぎる場合は可読性が損なわれることもあるため、棒のスケールや透明度、表示密度の調整が重要です。平面地図との併用により、空間的な文脈と量的比較をバランスよく伝えることができます。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</title>
         <link>http://localhost:1313/bio-fabric/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
