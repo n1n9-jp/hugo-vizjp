@@ -918,6 +918,113 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>バイオリン・プロット（Violin Plot）</title>
+        <link>http://localhost:1313/violin-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/violin-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/violin-plot/images/cover.png" alt="Featured image of post バイオリン・プロット（Violin Plot）" /&gt;&lt;p&gt;&lt;strong&gt;バイオリン・プロット（Violin Plot）&lt;/strong&gt; は、データの分布を可視化するための図であり &lt;strong&gt;箱ひげ図（Box-and-Whisker Plot）とカーネル密度推定（Kernel Density Estimation, KDE）を組み合わせた&lt;/strong&gt; チャートです。データの中央値や四分位範囲といった要約統計量に加え、分布の形状を滑らかに示すことで、より直感的に「データの山（モード）」や「広がり」、「偏り」を読み取ることができます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/violin-plot/images/mainvisual.png&#34;
+	width=&#34;2811&#34;
+	height=&#34;1702&#34;
+	srcset=&#34;http://localhost:1313/violin-plot/images/mainvisual_hu_468381fff96a924f.png 480w, http://localhost:1313/violin-plot/images/mainvisual_hu_ba08445c56a6cf3d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;165&#34;
+		data-flex-basis=&#34;396px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;バイオリン・プロットは、中心に箱ひげ図の要素を含み、両側に分布を反映した「バイオリン（弦楽器）」のような形状が描かれます。以下の要素で構成されます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;外形（バイオリン部分）&lt;/td&gt;
+          &lt;td&gt;データの分布密度を示す（左右対称のカーネル密度曲線）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;太線（中央の黒線など）&lt;/td&gt;
+          &lt;td&gt;中央値（Median）を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;箱（四分位範囲）&lt;/td&gt;
+          &lt;td&gt;第1四分位（Q1）から第3四分位（Q3）の範囲を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上下のひげ（Whisker）&lt;/td&gt;
+          &lt;td&gt;外れ値を除いたデータ範囲を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;点（外れ値）&lt;/td&gt;
+          &lt;td&gt;分布から大きく外れた値を示す&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;利点と活用例&#34;&gt;利点と活用例
+&lt;/h2&gt;&lt;p&gt;バイオリン・プロットは、単なる箱ひげ図よりも &lt;strong&gt;分布の形状やモードの数を視覚的に把握できる&lt;/strong&gt; 点が優れています。&lt;br&gt;
+特に以下のような場面で有用です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;グループごとのデータ分布を比較するとき（例：性別別テストスコア）&lt;/li&gt;
+&lt;li&gt;データが正規分布でない場合や複数モードを持つ場合&lt;/li&gt;
+&lt;li&gt;サンプル数の多いデータにおける偏りの可視化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また &lt;strong&gt;Seaborn（Python）&lt;/strong&gt; や &lt;strong&gt;Plotly&lt;/strong&gt; &lt;strong&gt;ggplot2（R）&lt;/strong&gt; などの主要な可視化ライブラリでも標準機能としてサポートされています。&lt;/p&gt;
+&lt;h2 id=&#34;他の図との違い&#34;&gt;他の図との違い
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;比較対象&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適するケース&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;箱ひげ図&lt;/td&gt;
+          &lt;td&gt;四分位数のみ表示。分布の形状は不明&lt;/td&gt;
+          &lt;td&gt;シンプルな分布比較&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ヒストグラム&lt;/td&gt;
+          &lt;td&gt;分布形状は見やすいが、カテゴリ比較には不向き&lt;/td&gt;
+          &lt;td&gt;単一変数の分布解析&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バイオリン・プロット&lt;/td&gt;
+          &lt;td&gt;四分位数＋分布形状を統合&lt;/td&gt;
+          &lt;td&gt;グループ間比較・分布の偏り検出&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景カーネル密度推定とは&#34;&gt;背景：カーネル密度推定とは
+&lt;/h2&gt;&lt;p&gt;バイオリン・プロットの滑らかな形状は &lt;strong&gt;カーネル密度推定（Kernel Density Estimation, KDE）&lt;/strong&gt; という統計的手法によって生成されます。KDEは、ヒストグラムよりも滑らかに分布を近似する方法で、バンド幅（Bandwidth）の設定によって滑らかさを調整します。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;バイオリン・プロットは、単なる中央値や範囲だけでなく &lt;strong&gt;分布の形そのものを「見せる」可視化手法&lt;/strong&gt; です。&lt;br&gt;
+特に、複数のグループや条件でデータの分布を比較する際に、従来の箱ひげ図よりも豊かな情報を伝えることができます。&lt;br&gt;
+視覚的なわかりやすさと統計的な深みを兼ね備えたこのチャートは、探索的データ分析や教育の現場でも広く活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seaborn.pydata.org/generated/seaborn.violinplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seaborn Violinplot — official documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ggplot2.tidyverse.org/reference/geom_violin.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ggplot2 Reference — geom_violin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://plotly.com/python/violin/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Plotly: Violin Plots in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Violin_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Violin plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://exploratory.io/note/kanaugust/Introduction-to-Vionlin-Plot-jAq8egs3VC/note_content/note.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Introduction to Vionlin Plot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）</title>
         <link>http://localhost:1313/force-directed-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
