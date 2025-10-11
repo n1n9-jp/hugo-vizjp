@@ -1095,6 +1095,102 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ドット・マップ（Dot Map）とは</title>
+        <link>http://localhost:1313/dot-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/dot-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-map/images/cover.png" alt="Featured image of post ドット・マップ（Dot Map）とは" /&gt;&lt;p&gt;ドット・マップ（Dot Map、またはドット分布マップ Dot Distribution Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く &lt;strong&gt;1ドット＝1件（または1単位）&lt;/strong&gt; という明確な対応関係を持つのが特徴です。&lt;/p&gt;
+&lt;p&gt;たとえば「地震の発生地点」や「美術館の所在地」「感染症の発生場所」など、個別の位置情報をそのままマップ上に可視化する際に使われます。密度の高い領域は視覚的に点が集まり、分布傾向を直感的に読み取ることができます。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの位置&lt;/td&gt;
+          &lt;td&gt;観測対象の実際の位置を正確に表す。地図上の地理座標に基づく。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの数&lt;/td&gt;
+          &lt;td&gt;観測された事象や対象の数。1点が1件を意味する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの色&lt;/td&gt;
+          &lt;td&gt;分類属性（例：種類、カテゴリー、年次）を示すことがある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スケール&lt;/td&gt;
+          &lt;td&gt;ドット同士の重なりを避けるため、ズームや透明度を調整する場合もある。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ドット・マップでは「位置そのもの」を伝えることが目的であり、ドットの数を地域ごとに統計的に均すことはしません。そのため &lt;strong&gt;点の位置が意味を持つ&lt;/strong&gt; ことが最大の特徴です。&lt;/p&gt;
+&lt;h2 id=&#34;ドット密度マップとの違い&#34;&gt;ドット密度マップとの違い
+&lt;/h2&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）は、似た見た目を持ちながら目的が異なります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;比較項目&lt;/th&gt;
+          &lt;th&gt;ドット・マップ（Dot Map）&lt;/th&gt;
+          &lt;th&gt;ドット密度マップ（Dot Density Map）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの意味&lt;/td&gt;
+          &lt;td&gt;1点＝1件など、個別の実体を示す&lt;/td&gt;
+          &lt;td&gt;統計値を一定の密度に応じてドットで擬似的に配置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの位置&lt;/td&gt;
+          &lt;td&gt;実際の位置データに基づく&lt;/td&gt;
+          &lt;td&gt;行政区画などの内部でランダムまたは均等に配置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;表現目的&lt;/td&gt;
+          &lt;td&gt;分布傾向・位置の可視化&lt;/td&gt;
+          &lt;td&gt;数量・密度の比較を視覚化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;典型例&lt;/td&gt;
+          &lt;td&gt;犯罪発生地点マップ、店舗分布&lt;/td&gt;
+          &lt;td&gt;人口密度、農地面積、種族分布&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;見方の焦点&lt;/td&gt;
+          &lt;td&gt;点の位置に注目&lt;/td&gt;
+          &lt;td&gt;点の密度に注目&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このように、「ドット・マップ」は位置の忠実な可視化であり、「ドット密度マップ」は統計的な面密度の表現という点で明確に区別されます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;ドット・マップは19世紀以来の地図表現法であり、地理情報システム（GIS）やオンラインマッピングツール（Mapbox、Leafletなど）によって現在も広く使われています。近年では、インタラクティブなドット・マップが多く登場し、マウスオーバーで属性情報を表示するなど、単なる可視化を超えた分析用途にも活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ドット・マップ&lt;/strong&gt; は個々の位置データを正確に示す地図表現。1点が1対象。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ドット密度マップ&lt;/strong&gt; は集計データを面内に分布させる統計的表現。&lt;/li&gt;
+&lt;li&gt;目的が「位置の表示」か「密度の比較」かで使い分けることが重要。&lt;/li&gt;
+&lt;li&gt;現在では両者とも、GISやWeb地図可視化ツールによって動的に作成できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/dot-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ドット・マップ（Dot Map） | Visualizing.jp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://visualizing.jp/dot-density-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ドット密度マップ（Dot Density Map） | Visualizing.jp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/mapping-population-with-dots/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Esri ArcGIS Blog: Mapping Population with Dots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://education.nationalgeographic.org/resource/dot-distribution-map/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;National Geographic: Dot Distribution Maps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ドット密度マップ（Dot Density Map）</title>
         <link>http://localhost:1313/dot-density-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -2186,7 +2282,7 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/space-time-cube/</guid>
-        <description>&lt;img src="http://localhost:1313/candlestick-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 時空間キューブ（Space-Time Cube）とは" /&gt;&lt;p&gt;&lt;strong&gt;時空間キューブ（Space-Time Cube）&lt;/strong&gt; とは、時間と空間の関係を同時に可視化するための3次元的な図表です。地理情報科学（GIS）やデータビジュアライゼーションの分野で、時間変化を伴う空間データを分析する際に用いられます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/space-time-cube/images/thumb_ph_vizjp.png" alt="Featured image of post 時空間キューブ（Space-Time Cube）とは" /&gt;&lt;p&gt;&lt;strong&gt;時空間キューブ（Space-Time Cube）&lt;/strong&gt; とは、時間と空間の関係を同時に可視化するための3次元的な図表です。地理情報科学（GIS）やデータビジュアライゼーションの分野で、時間変化を伴う空間データを分析する際に用いられます。&lt;/p&gt;
 &lt;p&gt;2次元の地図では空間のみ、時系列グラフでは時間のみを扱いますが、時空間キューブでは「横軸＝地理的な位置（X・Y）」「縦軸＝時間（Z軸）」という構造で両方を一体的に示します。&lt;/p&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
 &lt;/h2&gt;&lt;table&gt;
@@ -14172,22 +14268,22 @@ report by Hugh Small
     &gt;searchingcovid19&lt;/a&gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
-        <link>http://localhost:1313/dot-map/</link>
+        <title>ドット・マップ（Dot Map）の事例</title>
+        <link>http://localhost:1313/dot-map-example/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/dot-map/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
+        <guid>http://localhost:1313/dot-map-example/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-map-example/images/racialdotmap.png" alt="Featured image of post ドット・マップ（Dot Map）の事例" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
 個別の現象が、どのような地理的分布をしているのかを確認します。&lt;/p&gt;
 &lt;p&gt;分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。&lt;/p&gt;
 &lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;地元民と観光客-写真撮影場所の違い東京編&#34;&gt;地元民と観光客 写真撮影場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -14205,10 +14301,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals and Tourists #5 (GTWA #20): Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;地元民と観光客-ツイート場所の違い東京編&#34;&gt;地元民と観光客 ツイート場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1.png&#34;
 	width=&#34;2898&#34;
 	height=&#34;1802&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -14220,10 +14316,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://labs.mapbox.com/labs/twitter-gnip/locals/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals &amp;amp; Tourists – Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;racial-dot-mapプロジェクト&#34;&gt;Racial Dot Mapプロジェクト
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/racialdotmap.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/racialdotmap.png&#34;
 	width=&#34;2877&#34;
 	height=&#34;1949&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map-example/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -14235,10 +14331,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
 	width=&#34;2875&#34;
 	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -14250,10 +14346,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Map of White Supremacy’s history of lynchings&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;john-snows-map-of-cholera-outbreaks&#34;&gt;John Snow’s map of cholera outbreaks
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
 	width=&#34;1400&#34;
 	height=&#34;1305&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

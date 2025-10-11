@@ -1032,22 +1032,22 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
-        <link>http://localhost:1313/dot-map/</link>
+        <title>ドット・マップ（Dot Map）の事例</title>
+        <link>http://localhost:1313/dot-map-example/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/dot-map/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-map/images/racialdotmap.png" alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
+        <guid>http://localhost:1313/dot-map-example/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-map-example/images/racialdotmap.png" alt="Featured image of post ドット・マップ（Dot Map）の事例" /&gt;&lt;p&gt;1つのドットが1つの観測値を表します。
 個別の現象が、どのような地理的分布をしているのかを確認します。&lt;/p&gt;
 &lt;p&gt;分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。&lt;/p&gt;
 &lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;地元民と観光客-写真撮影場所の違い東京編&#34;&gt;地元民と観光客 写真撮影場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k.jpg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k.jpg&#34;
 	width=&#34;2048&#34;
 	height=&#34;2048&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, http://localhost:1313/dot-map-example/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1065,10 +1065,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals and Tourists #5 (GTWA #20): Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;地元民と観光客-ツイート場所の違い東京編&#34;&gt;地元民と観光客 ツイート場所の違い（東京編）
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1.png&#34;
 	width=&#34;2898&#34;
 	height=&#34;1802&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, http://localhost:1313/dot-map-example/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1080,10 +1080,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://labs.mapbox.com/labs/twitter-gnip/locals/#&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Locals &amp;amp; Tourists – Tokyo&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;racial-dot-mapプロジェクト&#34;&gt;Racial Dot Mapプロジェクト
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/racialdotmap.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/racialdotmap.png&#34;
 	width=&#34;2877&#34;
 	height=&#34;1949&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/racialdotmap_hu_b80cd0180eba565d.png 480w, http://localhost:1313/dot-map-example/images/racialdotmap_hu_1803fd57e3041420.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1095,10 +1095,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
 	width=&#34;2875&#34;
 	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1110,10 +1110,10 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Map of White Supremacy’s history of lynchings&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;john-snows-map-of-cholera-outbreaks&#34;&gt;John Snow’s map of cholera outbreaks
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg&#34;
 	width=&#34;1400&#34;
 	height=&#34;1305&#34;
-	srcset=&#34;http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, http://localhost:1313/dot-map-example/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

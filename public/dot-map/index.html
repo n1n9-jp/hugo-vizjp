@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1つのドットが1つの観測値を表します。 個別の現象が、どのような地理的分布をしているのかを確認します。\n分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。\n">
-<title>ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く 1ドット＝1件（または1単位） という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。\n">
+<title>ドット・マップ（Dot Map）とは</title>
 
 <link rel='canonical' href='http://localhost:1313/dot-map/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）">
-<meta property='og:description' content="1つのドットが1つの観測値を表します。 個別の現象が、どのような地理的分布をしているのかを確認します。\n分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。\n">
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="ドット・マップ（Dot Map）とは">
+<meta property='og:description' content="ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く 1ドット＝1件（または1単位） という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。\n">
 <meta property='og:url' content='http://localhost:1313/dot-map/'>
 <meta property='og:site_name' content='Visualizing.JP'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='地図' /><meta property='article:published_time' content='2020-08-04T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2020-08-04T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/dot-map/images/racialdotmap.png' />
-<meta name="twitter:title" content="ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）">
-<meta name="twitter:description" content="1つのドットが1つの観測値を表します。 個別の現象が、どのような地理的分布をしているのかを確認します。\n分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。\n何らかの質的特徴を確認するために、着色することもあります。\n見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/dot-map/images/racialdotmap.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-11T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/dot-map/images/cover.png' />
+<meta name="twitter:title" content="ドット・マップ（Dot Map）とは">
+<meta name="twitter:description" content="ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く 1ドット＝1件（または1単位） という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/dot-map/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -386,16 +386,11 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#作例">作例</a>
-      <ol>
-        <li><a href="#地元民と観光客-写真撮影場所の違い東京編">地元民と観光客 写真撮影場所の違い（東京編）</a></li>
-        <li><a href="#地元民と観光客-ツイート場所の違い東京編">地元民と観光客 ツイート場所の違い（東京編）</a></li>
-        <li><a href="#racial-dot-mapプロジェクト">Racial Dot Mapプロジェクト</a></li>
-        <li><a href="#白人至上主義のリンチの歴史の地図">白人至上主義のリンチの歴史の地図</a></li>
-        <li><a href="#john-snows-map-of-cholera-outbreaks">John Snow’s map of cholera outbreaks</a></li>
-      </ol>
-    </li>
-    <li><a href="#問題点">問題点</a></li>
+    <li><a href="#図解の見方">図解の見方</a></li>
+    <li><a href="#ドット密度マップとの違い">ドット密度マップとの違い</a></li>
+    <li><a href="#背景と応用">背景と応用</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
   </ol>
 </nav>
         </div>
@@ -411,12 +406,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/dot-map/">
-                <img src="/dot-map/images/racialdotmap_hu_a44efdce283a2906.png"
-                        srcset="/dot-map/images/racialdotmap_hu_a44efdce283a2906.png 800w, /dot-map/images/racialdotmap_hu_f3fec1595b8b2c7e.png 1600w"
+                <img src="/dot-map/images/cover_hu_ad5306e9e7095337.png"
+                        srcset="/dot-map/images/cover_hu_ad5306e9e7095337.png 800w, /dot-map/images/cover_hu_c99d5ba26ad41a4f.png 1600w"
                         width="800" 
-                        height="542" 
+                        height="412" 
                         loading="lazy"
-                        alt="Featured image of post ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）" />
+                        alt="Featured image of post ドット・マップ（Dot Map）とは" />
                 
             </a>
         </div>
@@ -435,7 +430,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/dot-map/">ドット・マップ Or ドット分布マップ（Dot Map Or Dot Distribution Map）</a>
+            <a href="/dot-map/">ドット・マップ（Dot Map）とは</a>
         </h2>
     
         
@@ -457,7 +452,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 04, 2020</time>
+                <time class="article-time--published">Oct 11, 2025</time>
             </div>
         
 
@@ -487,106 +482,107 @@
     <section class="article-content">
     
     
-    <p>1つのドットが1つの観測値を表します。
-個別の現象が、どのような地理的分布をしているのかを確認します。</p>
-<p>分布に注目するため、ドットの大きさをデータに連動して変更しません。付随して、データを階級分類しないことになります。</p>
-<p>何らかの質的特徴を確認するために、着色することもあります。</p>
-<p>見た目が似たドット密度マップは、何らかの集計値を表し、ドットの表示位置が実際の発生位置を表しませんので、その点で明確に異なるデータ地図といえます。</p>
-<h2 id="作例">作例
-</h2><h3 id="地元民と観光客-写真撮影場所の違い東京編">地元民と観光客 写真撮影場所の違い（東京編）
-</h3><p><img src="/dot-map/images/4671542165_ae093ddbed_k.jpg"
-	width="2048"
-	height="2048"
-	srcset="/dot-map/images/4671542165_ae093ddbed_k_hu_ead1d4bbcbbd4d96.jpg 480w, /dot-map/images/4671542165_ae093ddbed_k_hu_8509dbaa67cf673a.jpg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="100"
-		data-flex-basis="240px"
-	
-></p>
-<p>Flickrにアップロードされた写真を分析し、フォトグラファーを以下のように3つのグループに分類し、撮影地点をそれぞれ異なる色の点で示しています。</p>
-<ul>
-<li>地元民（青い点）：同じ都市で1ヶ月以上撮影した人の写真</li>
-<li>観光客（赤い点）：観光客は2つの基準によって定義されます。この都市で1ヶ月未満で写真を撮った人で、かつ別の都市の写真の枚数からそこの都市が地元であると推測される人の写真</li>
-<li>未定義（黄色い点）：地元民か観光客かを判断することができなかった人の写真</li>
+    <p>ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く <strong>1ドット＝1件（または1単位）</strong> という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。</p>
+<p>たとえば「地震の発生地点」や「美術館の所在地」「感染症の発生場所」など、個別の位置情報をそのままマップ上に可視化する際に使われます。密度の高い領域は視覚的に点が集まり、分布傾向を直感的に読み取ることができます。</p>
+<h2 id="図解の見方">図解の見方
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>説明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ドットの位置</td>
+          <td>観測対象の実際の位置を正確に表す。地図上の地理座標に基づく。</td>
+      </tr>
+      <tr>
+          <td>ドットの数</td>
+          <td>観測された事象や対象の数。1点が1件を意味する。</td>
+      </tr>
+      <tr>
+          <td>ドットの色</td>
+          <td>分類属性（例：種類、カテゴリー、年次）を示すことがある。</td>
+      </tr>
+      <tr>
+          <td>スケール</td>
+          <td>ドット同士の重なりを避けるため、ズームや透明度を調整する場合もある。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>ドット・マップでは「位置そのもの」を伝えることが目的であり、ドットの数を地域ごとに統計的に均すことはしません。そのため <strong>点の位置が意味を持つ</strong> ことが最大の特徴です。</p>
+<h2 id="ドット密度マップとの違い">ドット密度マップとの違い
+</h2><p>ドット密度マップ（Dot Density Map）は、似た見た目を持ちながら目的が異なります。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>比較項目</th>
+          <th>ドット・マップ（Dot Map）</th>
+          <th>ドット密度マップ（Dot Density Map）</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>ドットの意味</td>
+          <td>1点＝1件など、個別の実体を示す</td>
+          <td>統計値を一定の密度に応じてドットで擬似的に配置</td>
+      </tr>
+      <tr>
+          <td>ドットの位置</td>
+          <td>実際の位置データに基づく</td>
+          <td>行政区画などの内部でランダムまたは均等に配置</td>
+      </tr>
+      <tr>
+          <td>表現目的</td>
+          <td>分布傾向・位置の可視化</td>
+          <td>数量・密度の比較を視覚化</td>
+      </tr>
+      <tr>
+          <td>典型例</td>
+          <td>犯罪発生地点マップ、店舗分布</td>
+          <td>人口密度、農地面積、種族分布</td>
+      </tr>
+      <tr>
+          <td>見方の焦点</td>
+          <td>点の位置に注目</td>
+          <td>点の密度に注目</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>このように、「ドット・マップ」は位置の忠実な可視化であり、「ドット密度マップ」は統計的な面密度の表現という点で明確に区別されます。</p>
+<h2 id="背景と応用">背景と応用
+</h2><p>ドット・マップは19世紀以来の地図表現法であり、地理情報システム（GIS）やオンラインマッピングツール（Mapbox、Leafletなど）によって現在も広く使われています。近年では、インタラクティブなドット・マップが多く登場し、マウスオーバーで属性情報を表示するなど、単なる可視化を超えた分析用途にも活用されています。</p>
+<h2 id="まとめ">まとめ
+</h2><ul>
+<li><strong>ドット・マップ</strong> は個々の位置データを正確に示す地図表現。1点が1対象。</li>
+<li><strong>ドット密度マップ</strong> は集計データを面内に分布させる統計的表現。</li>
+<li>目的が「位置の表示」か「密度の比較」かで使い分けることが重要。</li>
+<li>現在では両者とも、GISやWeb地図可視化ツールによって動的に作成できる。</li>
 </ul>
-<p><a class="link" href="https://www.flickr.com/photos/walkingsf/albums/72157624209158632/with/4671542165/"  target="_blank" rel="noopener"
-    >Locals and Tourists #5 (GTWA #20): Tokyo</a></p>
-<h3 id="地元民と観光客-ツイート場所の違い東京編">地元民と観光客 ツイート場所の違い（東京編）
-</h3><p><img src="/dot-map/images/mapbox_twitter-gnip-1.png"
-	width="2898"
-	height="1802"
-	srcset="/dot-map/images/mapbox_twitter-gnip-1_hu_96b366a46d946230.png 480w, /dot-map/images/mapbox_twitter-gnip-1_hu_95d19a2718844472.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="160"
-		data-flex-basis="385px"
-	
-></p>
-<p><a class="link" href="https://labs.mapbox.com/labs/twitter-gnip/locals/#"  target="_blank" rel="noopener"
-    >Locals &amp; Tourists – Tokyo</a></p>
-<h3 id="racial-dot-mapプロジェクト">Racial Dot Mapプロジェクト
-</h3><p><img src="/dot-map/images/racialdotmap.png"
-	width="2877"
-	height="1949"
-	srcset="/dot-map/images/racialdotmap_hu_b80cd0180eba565d.png 480w, /dot-map/images/racialdotmap_hu_1803fd57e3041420.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="147"
-		data-flex-basis="354px"
-	
-></p>
-<p><a class="link" href="http://racialdotmap.demographics.coopercenter.org/"  target="_blank" rel="noopener"
-    >Racial Dot Map Project</a></p>
-<h3 id="白人至上主義のリンチの歴史の地図">白人至上主義のリンチの歴史の地図
-</h3><p><img src="/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png"
-	width="2875"
-	height="1948"
-	srcset="/dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, /dot-map/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="147"
-		data-flex-basis="354px"
-	
-></p>
-<p><a class="link" href="https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5"  target="_blank" rel="noopener"
-    >Map of White Supremacy’s history of lynchings</a></p>
-<h3 id="john-snows-map-of-cholera-outbreaks">John Snow’s map of cholera outbreaks
-</h3><p><img src="/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ.jpeg"
-	width="1400"
-	height="1305"
-	srcset="/dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_1024d607fcaab81b.jpeg 480w, /dot-map/images/1_xSgf4BwiLgQ8qXzV10hJBQ_hu_42f2b362b5a5e005.jpeg 1024w"
-	loading="lazy"
-	
-	
-		class="gallery-image" 
-		data-flex-grow="107"
-		data-flex-basis="257px"
-	
-></p>
-<p>ロンドン南部の1854年のコレラ流行を描いています。
-コレラが、当時信じられていたように、空気感染の病気ではなく、水で感染する病気であると主張するための地図です。円で表されているのが水源で、個々の死亡者数はバーで表されています。ドット分布マップと比例シンボル・マップの手法の組み合わさったものといえそうです。</p>
-<p><a class="link" href="https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map"  target="_blank" rel="noopener"
-    >John Snow’s map of cholera outbreaks</a></p>
-<h2 id="問題点">問題点
-</h2><p>同一の緯度経度を持つデータポイントが複数ある場合、注意が必要です。使用するツールによっては、同一の緯度経度であっても、重ならないように表示するアルゴリズムを採用しているものがあります。</p>
-<p>同一の緯度経度を持つデータポイントが複数あって上手く処理できなかったり、あるエリアに固まってまともに描画できない、などの場合、点のデータを面（サーフェイス）に変換する方法を使います。その場合、長方形や菱形、六角形などのグリッド化や、行政区割のデータを用いたりします。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Dot_distribution_map"  target="_blank" rel="noopener"
+    >Dot distribution map - Wikipedia</a></li>
+<li><a class="link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5779165/"  target="_blank" rel="noopener"
+    >Dot mapping cartograms for detection of infectious disease - NCBI (PMC)</a></li>
+<li><a class="link" href="https://www.researchgate.net/publication/318722017_Creation_and_evaluation_of_graduated_dot_maps"  target="_blank" rel="noopener"
+    >Creation and evaluation of graduated dot maps - ResearchGate</a></li>
+<li><a class="link" href="https://xdgov.github.io/data-design-standards/visualizations/dot-distribution-map"  target="_blank" rel="noopener"
+    >Dot Distribution Map | Data Visualization Standards (XDgov)</a></li>
+<li><a class="link" href="https://www.mdpi.com/2076-0760/8/5/157"  target="_blank" rel="noopener"
+    >Racial Dot Maps Based on Dasymetrically Modeled Gridded Population Data - MDPI</a></li>
+<li><a class="link" href="https://par.nsf.gov/servlets/purl/10079287"  target="_blank" rel="noopener"
+    >Scaling the Interactive Dot Map - NSF Public Access Repository</a></li>
+<li><a class="link" href="https://www.tandfonline.com/doi/abs/10.1559/1523040639117"  target="_blank" rel="noopener"
+    >Automated Dot Mapping: How to Dot the Dot Map - Taylor &amp; Francis Online</a></li>
+</ul>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E5%9C%B0%E5%9B%B3/">地図</a>
         
     </section>
 
@@ -620,23 +616,23 @@
             
                 
 <article class="has-image">
-    <a href="/dasymetric-map/">
+    <a href="/bio-fabric/">
         
         
             <div class="article-image">
-                <img src="/dasymetric-map/images/dasymetric-map-2048x1448.b0bb2747b91c12f03fb996f3978eeec1_hu_f9158bd6223f7898.png" 
+                <img src="/bio-fabric/images/cover.cee96d8279626dbf5da3ef416e968d6c.cee96d8279626dbf5da3ef416e968d6c_hu_6f74fc2c8d3b4c93.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ディシメトリック・マップ（Dasymetric Map）"
-                        data-key="dasymetric-map" 
-                        data-hash="md5-sLsnR7kcEvA/uZbzl47uwQ==">
+                        alt="Featured image of post BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する"
+                        data-key="bio-fabric" 
+                        data-hash="md5-zultgnlibb9do&#43;9BbpaNbA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ディシメトリック・マップ（Dasymetric Map）</h2>
+            <h2 class="article-title">BioFabric: 複雑なネットワークを「髪の毛をとかす」ように可視化する</h2>
         </div>
     </a>
 </article>
@@ -644,23 +640,23 @@
             
                 
 <article class="has-image">
-    <a href="/vector-field-map-example/">
+    <a href="/hive-plot/">
         
         
             <div class="article-image">
-                <img src="/vector-field-map-example/images/null_earth.7b47ce1aaf5b10e046ad7f27523e12e5_hu_d032b58b51fcbb19.png" 
+                <img src="/hive-plot/images/cover.7fbdfac187ec8588f0914894b97593c3.7fbdfac187ec8588f0914894b97593c3_hu_6bad698f89d5aae7.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ベクター・フィールド・マップ（Vector Field Map）の事例"
-                        data-key="vector-field-map-example" 
-                        data-hash="md5-e0fOGq9bEOBGrX8nUj4S5Q==">
+                        alt="Featured image of post Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法"
+                        data-key="hive-plot" 
+                        data-hash="md5-f736wYfshYjwkUiUuXWTww==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ベクター・フィールド・マップ（Vector Field Map）の事例</h2>
+            <h2 class="article-title">Hive Plot — ネットワーク構造を「秩序」で見る新しい可視化手法</h2>
         </div>
     </a>
 </article>
@@ -668,23 +664,23 @@
             
                 
 <article class="has-image">
-    <a href="/choropleth-map/">
+    <a href="/arc-diagram/">
         
         
             <div class="article-image">
-                <img src="/choropleth-map/images/1_vCq7XE-jQGK_OxfmIUiA7w.f82f01c57f7b685bfb6db2e6cc0975b1_hu_8fa794f29d40e60b.png" 
+                <img src="/arc-diagram/images/cover.88b355793e6d03596bd466aa3478c94f.88b355793e6d03596bd466aa3478c94f_hu_435533483b1e6e6c.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post コロプレス・マップ（Choropleth Map）"
-                        data-key="choropleth-map" 
-                        data-hash="md5-&#43;C8BxX97aFv7bbLmzAl1sQ==">
+                        alt="Featured image of post アーク・ダイアグラム (Arc Diagram)"
+                        data-key="arc-diagram" 
+                        data-hash="md5-iLNVeT5tA1lr1GaqNHjJTw==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">コロプレス・マップ（Choropleth Map）</h2>
+            <h2 class="article-title">アーク・ダイアグラム (Arc Diagram)</h2>
         </div>
     </a>
 </article>
@@ -692,23 +688,23 @@
             
                 
 <article class="has-image">
-    <a href="/dot-density-map-example/">
+    <a href="/waterfall-chart/">
         
         
             <div class="article-image">
-                <img src="/dot-density-map-example/images/dencity_ben_fry.67b0dcd0b33c4df918d2e3c5b888d129_hu_da5ca7e9eecd1938.png" 
+                <img src="/waterfall-chart/images/cover.c27ab3f57c29c74c5fa42aaecbde3c40.c27ab3f57c29c74c5fa42aaecbde3c40_hu_30dddf61a24a401d.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post ドット密度マップ（Dot Density Map）の事例"
-                        data-key="dot-density-map-example" 
-                        data-hash="md5-Z7Dc0LM8TfkY0uPFuIjRKQ==">
+                        alt="Featured image of post ウォーターフォール・チャート（Waterfall Chart）"
+                        data-key="waterfall-chart" 
+                        data-hash="md5-wnqz9Xwpx0xfpCquy948QA==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">ドット密度マップ（Dot Density Map）の事例</h2>
+            <h2 class="article-title">ウォーターフォール・チャート（Waterfall Chart）</h2>
         </div>
     </a>
 </article>
@@ -716,23 +712,23 @@
             
                 
 <article class="has-image">
-    <a href="/proportional-symbol-map/">
+    <a href="/calendar-heat-map/">
         
         
             <div class="article-image">
-                <img src="/proportional-symbol-map/images/1_sVDldGcKHfB10ZU31PfgWg.1436281f6a4f87a060856c1790310bd7_hu_450825cf5aed6d3e.png" 
+                <img src="/calendar-heat-map/images/cover.e8bffe56b518e94d187e1d2dd70b5562.e8bffe56b518e94d187e1d2dd70b5562_hu_cec21b2b24065d14.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post 比例シンボル・マップ(Proportional Symbol Map)"
-                        data-key="proportional-symbol-map" 
-                        data-hash="md5-FDYoH2pPh6BghWwXkDEL1w==">
+                        alt="Featured image of post カレンダー・ヒートマップ (Calendar Heat Map)"
+                        data-key="calendar-heat-map" 
+                        data-hash="md5-6L/&#43;VrUY6U0Yfh0t1wtVYg==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">比例シンボル・マップ(Proportional Symbol Map)</h2>
+            <h2 class="article-title">カレンダー・ヒートマップ (Calendar Heat Map)</h2>
         </div>
     </a>
 </article>
