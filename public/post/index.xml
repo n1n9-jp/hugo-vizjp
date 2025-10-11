@@ -678,6 +678,69 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ローソク足チャート（Candlestick Chart）</title>
+        <link>http://localhost:1313/candlestick-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/candlestick-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/candlestick-chart/images/thumb_ph_vizjp.png" alt="Featured image of post ローソク足チャート（Candlestick Chart）" /&gt;&lt;p&gt;ローソク足チャートは、株価や為替などの値動きを視覚的に表現するための代表的な金融チャートの一つです。&lt;br&gt;
+江戸時代の米相場において日本人商人・本間宗久（ほんまそうきゅう）が考案したと伝えられ、のちに世界中の金融市場で標準的な可視化手法として普及しました。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;ローソク足は「一本の棒（ローソク）」で一定期間（1日、1時間、1分など）の価格変動を表します。それぞれの要素には以下の意味があります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;始値（Open）&lt;/td&gt;
+          &lt;td&gt;その期間の最初の取引価格&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;終値（Close）&lt;/td&gt;
+          &lt;td&gt;その期間の最後の取引価格&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;高値（High）&lt;/td&gt;
+          &lt;td&gt;その期間中の最高価格&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;安値（Low）&lt;/td&gt;
+          &lt;td&gt;その期間中の最安価格&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;実体（Body）&lt;/td&gt;
+          &lt;td&gt;始値と終値の差を表す四角形部分。価格が上昇した場合は「陽線（白または緑）」、下落した場合は「陰線（黒または赤）」で示される&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ヒゲ（Wick / Shadow）&lt;/td&gt;
+          &lt;td&gt;高値と安値を示す細い線。上ヒゲは高値、下ヒゲは安値を示す&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;ローソク1本で価格の動きの「始まりと終わり」「強さと勢い」を読み取ることができ、複数のローソクを連続して見ることで、トレンドや転換点を予測します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;ローソク足はもともと日本で生まれた伝統的なデータ可視化手法であり、欧米では1980年代以降、テクニカル分析（Technical Analysis）の重要な指標として再評価されました。&lt;br&gt;
+近年では株価分析だけでなく、暗号資産（仮想通貨）やコモディティ市場でも広く用いられています。&lt;/p&gt;
+&lt;p&gt;また、陽線と陰線の組み合わせから「包み足」「十字線」「はらみ線」「カラカサ」などと呼ばれる多様なパターンが知られており、それぞれが市場心理やトレンド転換のシグナルとして解釈されます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ローソク足チャートは、価格の動きと市場心理を直感的に捉えるための優れた可視化手法です。&lt;br&gt;
+一本一本の「ローソク」が、市場参加者の心理戦を映し出すともいわれます。&lt;br&gt;
+日本発祥のこのチャートは、今もなお世界の金融可視化の基礎として生き続けています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.investopedia.com/terms/c/candlestick.asp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Investopedia – Candlestick Chart Definition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.tradingview.com/education/candlestick/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TradingView – What Is a Candlestick?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Candlestick_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – Candlestick chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>カレンダー・ヒートマップ (Calendar Heat Map)</title>
         <link>http://localhost:1313/calendar-heat-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -1216,6 +1279,115 @@
     &gt;Wikipedia: Violin plot&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://exploratory.io/note/kanaugust/Introduction-to-Vionlin-Plot-jAq8egs3VC/note_content/note.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Introduction to Vionlin Plot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ヒストグラム (Histogram)</title>
+        <link>http://localhost:1313/histogram/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/histogram/</guid>
+        <description>&lt;img src="http://localhost:1313/histogram/images/thumb_ph_vizjp.png" alt="Featured image of post ヒストグラム (Histogram)" /&gt;&lt;p&gt;ヒストグラムは &lt;strong&gt;データの分布を視覚的に把握するための基本的なグラフ&lt;/strong&gt; です。数値データを区間（ビン、bin）ごとに分け、各区間に含まれるデータの数（頻度）を棒の高さで表します。主に連続量データ（例：身長、温度、収入など）のばらつきや傾向を把握するのに使われます。&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸 (X軸)&lt;/td&gt;
+          &lt;td&gt;データの範囲を表します。例：0〜10、10〜20などの区間（ビン）に分割されます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦軸 (Y軸)&lt;/td&gt;
+          &lt;td&gt;各区間に含まれるデータの数（頻度）を表します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;棒の幅&lt;/td&gt;
+          &lt;td&gt;ビンの幅。幅が広いと大まかな傾向、狭いと細かい変動が見えます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;棒の高さ&lt;/td&gt;
+          &lt;td&gt;該当する区間内の観測値の数を示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;総面積&lt;/td&gt;
+          &lt;td&gt;度数の合計が全体のデータ数に対応します。確率密度ヒストグラムでは面積が1になります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;p&gt;ヒストグラムは &lt;strong&gt;統計学の基本的な可視化手法のひとつ&lt;/strong&gt; で、19世紀後半にフランスの数学者アドルフ・ケトレー（Adolphe Quetelet）やイギリスの統計学者フランシス・ガルトン（Francis Galton）らによって広く用いられるようになりました。&lt;/p&gt;
+&lt;p&gt;ガウス分布（正規分布）との関連が深く、データの中心傾向やばらつきを把握するための標準的な手段として教育・研究・ビジネス分析など幅広い分野で利用されています。&lt;/p&gt;
+&lt;p&gt;ビンの幅や区間の設定方法によって印象が大きく変わるため &lt;strong&gt;適切なビン幅の選択（例：Sturges法、Freedman–Diaconis法など）&lt;/strong&gt; が重要です。&lt;/p&gt;
+&lt;h2 id=&#34;応用例&#34;&gt;応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;利用目的&lt;/th&gt;
+          &lt;th&gt;例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育・心理&lt;/td&gt;
+          &lt;td&gt;テスト点数の分布を把握&lt;/td&gt;
+          &lt;td&gt;80点以上の学生の割合など&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;医学・生物&lt;/td&gt;
+          &lt;td&gt;測定値のばらつき分析&lt;/td&gt;
+          &lt;td&gt;血圧・体温・体重の分布&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;経済・マーケティング&lt;/td&gt;
+          &lt;td&gt;顧客層の把握&lt;/td&gt;
+          &lt;td&gt;年収や購買金額の分布&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;製造・品質管理&lt;/td&gt;
+          &lt;td&gt;製品誤差の分析&lt;/td&gt;
+          &lt;td&gt;製品の寸法精度や不良率&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;類似関連チャート&#34;&gt;類似・関連チャート
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート名&lt;/th&gt;
+          &lt;th&gt;違い・特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;棒グラフ&lt;/td&gt;
+          &lt;td&gt;カテゴリデータ（離散値）を比較する。間隔に意味はない。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;密度プロット&lt;/td&gt;
+          &lt;td&gt;ヒストグラムを平滑化し、滑らかな曲線で分布を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ボックスプロット&lt;/td&gt;
+          &lt;td&gt;四分位数・外れ値など、分布の要約統計を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ヒストグラムは、数値データの分布や偏り、ばらつきを一目で理解できる、最も基本的でありながら強力な可視化手法です。ビン幅や区間設定の工夫によって、データの特徴をより的確に伝えることができます。統計的理解の出発点として、データ分析・教育・報告書など幅広い用途で活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.w3schools.com/python/matplotlib_histograms.asp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;W3Schools: Histogram in Data Visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/histogram.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DatavizCatalogue: Histogram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Histogram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Histogram&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
