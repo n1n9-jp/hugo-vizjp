@@ -279,6 +279,89 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>アイソタイプ・チャート（Isotype Chart）</title>
+        <link>http://localhost:1313/isotype-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/isotype-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/isotype-chart/images/thumb_ph_vizjp.png" alt="Featured image of post アイソタイプ・チャート（Isotype Chart）" /&gt;&lt;p&gt;アイソタイプ・チャートは &lt;strong&gt;ピクトグラムを用いて数量を視覚的に比較する図表&lt;/strong&gt; です。社会統計や人口データなどを、よりわかりやすく・親しみやすく表現するために用いられます。&lt;br&gt;
+その起源は1920年代にオーストリアの社会学者 &lt;strong&gt;オットー・ノイラート（Otto Neurath）&lt;/strong&gt; と、デザイナーの &lt;strong&gt;ゲルト・アルンツ（Gerd Arntz）&lt;/strong&gt; によって開発された「ISOTYPE（International System Of Typographic Picture Education）」にあります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/isotype-chart/images/mainvisual.png&#34;
+	width=&#34;475&#34;
+	height=&#34;310&#34;
+	srcset=&#34;http://localhost:1313/isotype-chart/images/mainvisual_hu_27636648c883cb59.png 480w, http://localhost:1313/isotype-chart/images/mainvisual_hu_c49012869df5d2a4.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;153&#34;
+		data-flex-basis=&#34;367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;アイソタイプ・チャートでは、各カテゴリ（例：男女・職業・年齢層など）に対応するピクトグラムを &lt;strong&gt;個数で数量を表す&lt;/strong&gt; のが特徴です。&lt;br&gt;
+棒グラフや円グラフのように長さや角度ではなく &lt;strong&gt;同一サイズのアイコンを繰り返すことで値の差を直感的に理解&lt;/strong&gt; できます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;可視化の目的&lt;/td&gt;
+          &lt;td&gt;カテゴリ別の数量の比較&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;表現方法&lt;/td&gt;
+          &lt;td&gt;ピクトグラム（配置・色・個数）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スケール&lt;/td&gt;
+          &lt;td&gt;名義スケール・線形スケール&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;座標系&lt;/td&gt;
+          &lt;td&gt;直交座標系（X軸・Y軸を用いる）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;デザイン上の留意点&lt;/td&gt;
+          &lt;td&gt;扱うテーマに沿ったピクトグラムを選ぶこと&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば図中の例では、縦軸と横軸をもつグラフ上に、人型のピクトグラムを並べ &lt;strong&gt;人数の差を視覚的に比較&lt;/strong&gt; しています。&lt;br&gt;
+このように &lt;strong&gt;1アイコン = 一定数量（例：1人、10人など）&lt;/strong&gt; を意味するよう設定し、テーマに適した図柄（人・家・車など）を選ぶことで、意味がより伝わりやすくなります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;p&gt;ISOTYPEは「視覚による教育（Visual Education）」を理念としており、文字に頼らず &lt;strong&gt;誰にでも理解できる普遍的な情報伝達手段&lt;/strong&gt; を目指しました。
+この考え方は、現代の情報デザインやアイコン表現の基礎ともなっています。
+ノイラートとアルンツは、ウィーン社会・経済博物館の展示や出版物でこの手法を確立し、後に多くの統計図表や教育資料に応用されました。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;アイソタイプ・チャートは &lt;strong&gt;数量を“数える”ことで見せる&lt;/strong&gt; という点に特徴があります。&lt;br&gt;
+棒グラフよりも情緒的で親しみやすく、テーマ性を活かしたビジュアル表現が可能です。&lt;br&gt;
+社会統計・教育資料・公共デザインなど、幅広い分野で活用されています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotyperevisited.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Isotype Revisited — Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotyperevisited.org/exhibition/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Isotype: international picture language — Exhibition (Isotype Revisited)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotyperevisited.org/isotype-collection/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Isotype Collection (Isotype Revisited)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reading.ac.uk/typography/collections-and-archives&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;University of Reading — Isotype Collection (Collections &amp;amp; Archives)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gerdarntz.org/isotype.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gerd Arntz Web Archive — Isotype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Isotype_%28picture_language%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Isotype (picture language) — Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/pictogram.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dataviz Catalogue — Pictogram Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://isotype.univie.ac.at/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;University of Vienna — Isotype: Origin, development, and legacy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>サーキュラー・レイアウト（Circular Layout）</title>
         <link>http://localhost:1313/circular-layout/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -1355,6 +1438,50 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>シンボル・チャート（Symbol Chart）</title>
+        <link>http://localhost:1313/symbol-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/symbol-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/symbol-chart/images/thumb_ph_vizjp.png" alt="Featured image of post シンボル・チャート（Symbol Chart）" /&gt;&lt;p&gt;シンボル・チャートは、円や正方形などの「シンボル」を用いてデータの値を可視化する手法です。シンボルの&lt;strong&gt;大きさ（面積）や色&lt;/strong&gt;を変化させることで、数量の大小やカテゴリの違いを直感的に比較できます。&lt;/p&gt;
+&lt;p&gt;主に名義スケールまたは線形スケールのデータを扱い &lt;strong&gt;配置・サイズ・色&lt;/strong&gt; が主要な視覚変数となります。座標軸を持たない場合もありますが、名義的な並び順（例：左から右へ、中心から外側へ）によって、カテゴリーや重要度を示すことが多いです。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;見方の要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;シンボル&lt;/td&gt;
+          &lt;td&gt;円や四角などの形で、データ項目を表す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;サイズ&lt;/td&gt;
+          &lt;td&gt;面積（または半径）によって数量の大小を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色&lt;/td&gt;
+          &lt;td&gt;カテゴリの違いや値の区分を表現する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;配置&lt;/td&gt;
+          &lt;td&gt;大きい順に中心から外へ、または左から右へ並べるなど、相対的な比較を容易にする配置。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;軸&lt;/td&gt;
+          &lt;td&gt;明確な数値軸を持たない場合も多く、シンボルの相対的な大きさが主要情報となる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;人間の視覚は &lt;strong&gt;長さよりも面積の比較に弱い&lt;/strong&gt; ため、シンボル・チャートでは過大・過小評価が起きやすい点に注意が必要です。正確な値を伝えるよりも、「おおまかな傾向や印象的な差」を伝えるビジュアライゼーションとして有効です。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;シンボル・チャートは、単純な棒グラフよりも感覚的・象徴的にデータを表現できる手法です。シンボルの大きさや色を巧みに使い、数量の違いを直感的に伝えることで、見る人に印象的な理解を促す効果があります。一方で、面積の知覚バイアスに注意し、正確さよりも比較や印象重視の場面で用いるのが適切です。&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>ストリップ・チャート（Strip Chart）</title>
         <link>http://localhost:1313/strip-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -1561,6 +1688,59 @@
     &gt;Spiral Histogram — Data Viz Project&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.geeksforgeeks.org/data-visualization/creating-a-temporal-range-time-series-spiral-plot/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Creating a Temporal Range Time-Series Spiral Plot — GeeksforGeeks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>ドット・プロット（Dot Plot）</title>
+        <link>http://localhost:1313/dot-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/dot-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-plot/images/thumb_ph_vizjp.png" alt="Featured image of post ドット・プロット（Dot Plot）" /&gt;&lt;p&gt;ドット・プロット（Dot Plot）は、1つのデータ点を1つのドット（点）で表し、データの分布や度数を視覚的に示すグラフです。1データ＝1ドットの関係で、変数の値を横軸に、度数を縦軸方向に積み上げて表示します。主に少量のデータやカテゴリ別の分布比較に適しています。&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;p&gt;ドット・プロットは以下のように読み取ります。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;横軸&lt;/td&gt;
+          &lt;td&gt;データ値またはカテゴリ（名義・順序スケール）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦軸&lt;/td&gt;
+          &lt;td&gt;度数（その値を取るデータの数）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;点の配置&lt;/td&gt;
+          &lt;td&gt;各値の上にドットを積み上げて頻度を表す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;点の個数&lt;/td&gt;
+          &lt;td&gt;データの度数をそのまま表現する&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;配色や形状&lt;/td&gt;
+          &lt;td&gt;複数のカテゴリ比較やグループ分けのために用いられることがある&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;このチャートでは、棒グラフのように面積ではなく「点の数」で度数を伝えるため、データの離散的な分布を直感的に把握できます。また、値が重なる場合は上下にドットが積み上がることで分布の密度を視覚的に表現します。&lt;/p&gt;
+&lt;h3 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h3&gt;&lt;p&gt;ドット・プロットは統計学や教育現場で頻繁に利用される基本的な可視化手法です。特に、サンプルサイズが小さいときや、個々の観測値を可視化したい場合に有効です。棒グラフやヒストグラムと異なり、データの粒度を失わずに度数分布を表現できます。&lt;br&gt;
+また、データ分析や説明の場面で「ヒストグラムよりも正確に個々の値を見せたい」場合に有効です。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;ドット・プロットは、1つ1つの観測値を視覚的に確認できるシンプルな分布図です。度数を点の数で示すことで、少量データの比較やカテゴリ別の分布把握に優れています。棒グラフやヒストグラムに比べ、データの個々の構成をより直感的に伝えることができます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/dot-plot/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Viz Project – Dot Plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Dot_plot_%28statistics%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia – Dot plot (statistics)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -2931,6 +3111,88 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
     &gt;“Dendrogram” — R Graph Gallery による系統図の説明ページ&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Hierarchical_clustering&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;“Hierarchical clustering” — Wikipedia における階層クラスタリングの一般解説&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>垂直樹（Vertical Trees）と水平樹（Horizontal Trees）</title>
+        <link>http://localhost:1313/vertical-tree-horizontal-trees/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/vertical-tree-horizontal-trees/</guid>
+        <description>&lt;img src="http://localhost:1313/vertical-tree-horizontal-trees/images/thumb_ph_vizjp.png" alt="Featured image of post 垂直樹（Vertical Trees）と水平樹（Horizontal Trees）" /&gt;&lt;p&gt;垂直樹（Vertical Trees）と水平樹（Horizontal Trees）は &lt;strong&gt;階層構造（hierarchical structure）を可視化するための基本的なツリー・ダイアグラム（Tree Diagram）&lt;/strong&gt; のバリエーションです。どちらも「ノード（節点）」と「枝（エッジ）」によって構成され、親子関係を明確に示す図式であり、組織図や分類体系、進化系統樹などによく用いられます。&lt;/p&gt;
+&lt;h2 id=&#34;垂直樹vertical-tree&#34;&gt;垂直樹（Vertical Tree）
+&lt;/h2&gt;&lt;p&gt;垂直樹では &lt;strong&gt;ルートノード（根）を上部に配置し、枝を下方向に展開する&lt;/strong&gt; ことで階層を表現します。最も一般的な形式であり、「トップダウン構造」を強調するのに適しています。企業組織図やファイル階層構造などでよく見られます。&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;上から下へ&lt;/strong&gt;：親ノードが上位にあり、下方に子ノードが展開されます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;分岐の深さ&lt;/strong&gt;が階層の深さを示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;枝の長さ&lt;/strong&gt;や角度は一般に意味を持たず、階層関係を視覚的に区別する補助要素として扱われます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;垂直樹は、人間の「読む方向」（上から下へ）に自然であるため、理解しやすく、情報設計や組織構造の提示に適しています。&lt;/p&gt;
+&lt;h2 id=&#34;水平樹horizontal-tree&#34;&gt;水平樹（Horizontal Tree）
+&lt;/h2&gt;&lt;p&gt;水平樹は &lt;strong&gt;左から右（あるいは右から左）へ展開するツリー構造&lt;/strong&gt; です。系統的な分類図や言語学的ツリーなど、時間的・因果的な流れを表すときに効果的です。&lt;/p&gt;
+&lt;h3 id=&#34;チャートの見方-1&#34;&gt;チャートの見方
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;左端（または右端）&lt;/strong&gt; がルートノード。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;横方向&lt;/strong&gt; に分岐が展開され、各ノードが次の階層を指し示します。&lt;/li&gt;
+&lt;li&gt;階層が深くなると横方向に広がるため &lt;strong&gt;横長レイアウトや横スクロール表示&lt;/strong&gt; に向いています。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、デジタルデバイスでは &lt;strong&gt;画面比率（ワイド比）に合わせやすい&lt;/strong&gt; ため、Webアプリケーションやネットワーク図で多用されます。&lt;/p&gt;
+&lt;h2 id=&#34;応用とツール&#34;&gt;応用とツール
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+          &lt;th&gt;チャートタイプ&lt;/th&gt;
+          &lt;th&gt;使用例&lt;/th&gt;
+          &lt;th&gt;主なツール&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;組織図&lt;/td&gt;
+          &lt;td&gt;垂直樹&lt;/td&gt;
+          &lt;td&gt;企業の組織構造&lt;/td&gt;
+          &lt;td&gt;draw.io, Lucidchart&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;系統樹&lt;/td&gt;
+          &lt;td&gt;水平樹&lt;/td&gt;
+          &lt;td&gt;言語・生物の進化系統&lt;/td&gt;
+          &lt;td&gt;D3.js, RAWGraphs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;構造解析&lt;/td&gt;
+          &lt;td&gt;垂直樹／水平樹&lt;/td&gt;
+          &lt;td&gt;データ構造やXML構造&lt;/td&gt;
+          &lt;td&gt;Graphviz, Gephi&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;知識体系&lt;/td&gt;
+          &lt;td&gt;垂直樹&lt;/td&gt;
+          &lt;td&gt;教育カリキュラムの構造&lt;/td&gt;
+          &lt;td&gt;yEd, Cytoscape&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と発展&#34;&gt;背景と発展
+&lt;/h2&gt;&lt;p&gt;ツリーダイアグラムの起源は、13世紀の哲学的分類図（ポルフィリオスの樹）まで遡ることができます。以降、進化論的系統樹や情報科学におけるデータ構造（ツリー構造）として発展し、現在では &lt;strong&gt;情報可視化の基本構文&lt;/strong&gt; のひとつとなっています。&lt;br&gt;
+特に現代の可視化ライブラリ（D3.jsやVegaなど）では、ツリー構造を垂直・水平・放射状など多様なレイアウトで自動生成できるようになっています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;垂直樹と水平樹はいずれも、階層構造を理解しやすくするための基本的な可視化手法です。垂直樹は組織的・制度的な構造の提示に、水平樹は時間的・系統的な展開に適しています。&lt;br&gt;
+それぞれの方向性は &lt;strong&gt;情報の「流れ」や「優先関係」&lt;/strong&gt; を視覚的に補強するものであり、目的に応じて使い分けることが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Tree_diagram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: &lt;em&gt;Tree diagram&lt;/em&gt; — ツリー図・階層構造の一般的説明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Tree_structure&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: &lt;em&gt;Tree structure&lt;/em&gt; — ツリー構造（階層構造）一般の説明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/d3-hierarchy&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js（Observable）：&lt;code&gt;d3-hierarchy&lt;/code&gt;モジュール&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://d3js.org/d3-hierarchy/tree&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js：&lt;code&gt;tree&lt;/code&gt; レイアウト（ツリー描画用レイアウト）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Dendrogram&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: &lt;em&gt;Dendrogram&lt;/em&gt; — 階層クラスタリングなどで使われる樹形図（デンドログラム）&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>

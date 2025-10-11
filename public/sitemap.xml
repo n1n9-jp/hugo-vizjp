@@ -20,6 +20,9 @@
     <loc>http://localhost:1313/arc-diagram/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/isotype-chart/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/circular-layout/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
@@ -50,6 +53,9 @@
     <loc>http://localhost:1313/geography-based-connection/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/symbol-chart/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/strip-chart/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
@@ -57,6 +63,9 @@
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/chart/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dot-plot/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dot-map/</loc>
@@ -96,6 +105,9 @@
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/time-series-linear-dendrogram/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vertical-tree-horizontal-trees/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bivariate-choropleth-map/</loc>
