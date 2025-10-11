@@ -678,6 +678,112 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ブレット・グラフ（Bullet Graph）</title>
+        <link>http://localhost:1313/bullet-graph/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bullet-graph/</guid>
+        <description>&lt;img src="http://localhost:1313/bullet-graph/images/cover.png" alt="Featured image of post ブレット・グラフ（Bullet Graph）" /&gt;&lt;p&gt;ブレット・グラフ（Bullet Graph）は、棒グラフを拡張して設計された可視化手法で &lt;strong&gt;目標値と実績値を一目で比較&lt;/strong&gt; することを目的としています。2005年にデータ可視化の専門家スティーブン・フュー（Stephen Few）によって提案されました。ダッシュボードや業務レポートでの利用に最適化されており、従来のメーターやゲージ型グラフよりも情報密度が高く、省スペースで多くの比較情報を伝えられます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/bullet-graph/images/mainvisual.png&#34;
+	width=&#34;2636&#34;
+	height=&#34;1058&#34;
+	srcset=&#34;http://localhost:1313/bullet-graph/images/mainvisual_hu_ae034b9205aec4d3.png 480w, http://localhost:1313/bullet-graph/images/mainvisual_hu_7488bf1b20bea877.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;249&#34;
+		data-flex-basis=&#34;597px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは、以下の要素で構成されます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+          &lt;th&gt;視覚的表現&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;実績値（メインバー）&lt;/td&gt;
+          &lt;td&gt;現在の達成状況&lt;/td&gt;
+          &lt;td&gt;横向きの太い棒（濃色）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;目標値（ターゲット）&lt;/td&gt;
+          &lt;td&gt;目標または基準値&lt;/td&gt;
+          &lt;td&gt;細い縦線（通常は黒線）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;比較範囲（定性的レンジ）&lt;/td&gt;
+          &lt;td&gt;良・可・不可などの基準領域&lt;/td&gt;
+          &lt;td&gt;背景の階層的な濃淡バー（薄〜濃）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;補助指標（オプション）&lt;/td&gt;
+          &lt;td&gt;前期値や平均値などの追加情報&lt;/td&gt;
+          &lt;td&gt;小さな補助線や別色バー&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この構造により &lt;strong&gt;「どの程度目標に近づいているか」「現状は良・可・不可のどの水準か」&lt;/strong&gt; をすぐに読み取ることができます。棒の長さが「実績」、縦線が「目標」、背景の帯が「評価基準」として機能します。&lt;/p&gt;
+&lt;h2 id=&#34;背景と特徴&#34;&gt;背景と特徴
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは、従来の &lt;strong&gt;スピードメーター型ゲージ（Dial Gauge）&lt;/strong&gt; の代替として開発されました。メーター表示は直感的ではあるものの、スペースを多く取り、数値精度や比較情報の提示に不向きでした。これに対し、ブレット・グラフは以下の特徴を持ちます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;情報密度が高い&lt;/strong&gt;：目標・実績・評価レンジを1本のバーで表現。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;省スペース&lt;/strong&gt;：複数指標を縦に並べやすく、ダッシュボード向き。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;モノクロでも判読可能&lt;/strong&gt;：階調表現に依存し、色覚バリアフリー。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定量比較が容易&lt;/strong&gt;：バーの長さで数値を直接比較できる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;主な用途と応用例&#34;&gt;主な用途と応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;使用例&lt;/th&gt;
+          &lt;th&gt;表現目的&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ビジネスダッシュボード&lt;/td&gt;
+          &lt;td&gt;売上・利益・KPI進捗&lt;/td&gt;
+          &lt;td&gt;目標達成率を簡潔に表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育・行政統計&lt;/td&gt;
+          &lt;td&gt;評価指標の目標値対比&lt;/td&gt;
+          &lt;td&gt;政策目標とのギャップを視覚化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;医療・健康管理&lt;/td&gt;
+          &lt;td&gt;検査値と基準範囲&lt;/td&gt;
+          &lt;td&gt;正常域・注意域・危険域の把握&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;製造・品質管理&lt;/td&gt;
+          &lt;td&gt;生産効率・不良率&lt;/td&gt;
+          &lt;td&gt;規格内外の判定&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば「売上：目標1000万円、実績850万円、平均域：600〜900万円」という場合、ブレット・グラフは「平均より上だが目標未達」と即座に読み取れます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ブレット・グラフは &lt;strong&gt;「目標との距離を一目で伝える」&lt;/strong&gt; ことに特化したシンプルかつ強力なチャートです。視覚的ノイズが少なく、省スペースで複数の指標を並列比較できるため &lt;strong&gt;経営ダッシュボードや報告資料における定番可視化手法&lt;/strong&gt; として高く評価されています。色や装飾を最小限にとどめ、意味を明確に設計することが、効果的な活用の鍵となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stephen Few: Bullet Graph Design Specification (Perceptual Edge)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://help.tableau.com/current/pro/desktop/en-us/buildexamples_bullet.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau Help: Bullet Graphs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://observablehq.com/@observablehq/plot-bullet-graph&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js Bullet Chart Example by Mike Bostock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ベクトル・フィールド・マップ（Vector Field Map）</title>
         <link>http://localhost:1313/vector-field-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
