@@ -1418,6 +1418,147 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>幹葉図（stem-and-leaf plot）</title>
+        <link>http://localhost:1313/stem-and-leaf-plot/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/stem-and-leaf-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/stem-and-leaf-plot/images/cover.png" alt="Featured image of post 幹葉図（stem-and-leaf plot）" /&gt;&lt;p&gt;幹葉図（stem-and-leaf plot）は、数値データを「幹（stem）」と「葉（leaf）」に分けて表示することで、分布の形を視覚的に把握できる統計図法です。
+ヒストグラムと似ていますが &lt;strong&gt;個々の観測値が保持されたまま&lt;/strong&gt; 表示される点に特徴があります。
+主に少量〜中量データの探索的分析に用いられます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/stem-and-leaf-plot/images/mainvisual.png&#34;
+	width=&#34;400&#34;
+	height=&#34;259&#34;
+	srcset=&#34;http://localhost:1313/stem-and-leaf-plot/images/mainvisual_hu_36f46c3bf183f709.png 480w, http://localhost:1313/stem-and-leaf-plot/images/mainvisual_hu_6860e8f290c9cf7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;154&#34;
+		data-flex-basis=&#34;370px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;p&gt;幹葉図は、次のような構造を持っています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;幹（Stem）&lt;/td&gt;
+          &lt;td&gt;データの上位桁（十の位・百の位など）を表す。左側に縦に並ぶ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;葉（Leaf）&lt;/td&gt;
+          &lt;td&gt;データの下位桁（一の位・小数第一位など）を表す。幹の右側に横方向に並ぶ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;縦線（｜）&lt;/td&gt;
+          &lt;td&gt;幹と葉を区切る。例：「6｜3 5 7」は63, 65, 67を意味する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;凡例（Key）&lt;/td&gt;
+          &lt;td&gt;幹葉の対応関係を示す。「2｜4＝24」のように表記しておく。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;空行（Gap）&lt;/td&gt;
+          &lt;td&gt;葉が存在しない幹を空白として残すことで、分布の“谷間”を視覚化する。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;作成手順&#34;&gt;作成手順
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;手順&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1.&lt;/td&gt;
+          &lt;td&gt;データを昇順に並べる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2.&lt;/td&gt;
+          &lt;td&gt;幹と葉に分ける桁（区切り）を決める。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3.&lt;/td&gt;
+          &lt;td&gt;幹を小さい順に縦に並べる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4.&lt;/td&gt;
+          &lt;td&gt;各幹に対応する葉を右側に並べる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5.&lt;/td&gt;
+          &lt;td&gt;凡例（キー）を添えて図を完成させる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;例：&lt;br&gt;
+2｜4 7
+3｜1 2 5 9
+4｜0 3 8&lt;/p&gt;
+&lt;p&gt;→ 「2｜4＝24」「3｜1＝31」を意味する。&lt;/p&gt;
+&lt;h2 id=&#34;読み取り方&#34;&gt;読み取り方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;観察点&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;データの集中&lt;/td&gt;
+          &lt;td&gt;葉が多い幹が、頻度の高い階級を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;分布の形&lt;/td&gt;
+          &lt;td&gt;左右対称・右裾／左裾が長いなど、分布の偏りを確認できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;最小値・最大値&lt;/td&gt;
+          &lt;td&gt;最も左下・右上の葉がそれぞれ最小・最大を示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中央値&lt;/td&gt;
+          &lt;td&gt;葉を順に数えることで中央値を求められる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;外れ値&lt;/td&gt;
+          &lt;td&gt;幹から離れた位置に1つだけ葉がある場合、それが外れ値の候補。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と応用&#34;&gt;背景と応用
+&lt;/h2&gt;&lt;p&gt;幹葉図は、ジョン・チューキー（John W. Tukey）が提唱した &lt;strong&gt;探索的データ解析（Exploratory Data Analysis）&lt;/strong&gt; の一環として1970年代に広まりました。&lt;br&gt;
+現在では統計教育や小規模データの視覚的要約に多用され &lt;strong&gt;ヒストグラム・箱ひげ図・ドットプロット&lt;/strong&gt; などとともに、基本的な分布可視化手法の一つとされています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;幹葉図は、データの値を保持しながら分布を直感的に表せる、手軽で教育的な可視化方法です。&lt;br&gt;
+少数データの傾向を素早くつかみ、中心傾向や外れ値を確認する際に有効です。&lt;br&gt;
+ただし、データが多すぎる場合や桁数が大きい場合は、ヒストグラムなど他の手法に切り替えるのが適しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Stem-and-leaf_display&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Stem-and-leaf display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://statisticsbyjim.com/graphs/stem-and-leaf-plot/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Statistics by Jim: How to Make and Interpret Stem-and-Leaf Plots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mathsisfun.com/data/stem-leaf-plots.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Math is Fun: Stem and Leaf Plots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ck12.org/statistics/stem-and-leaf-plots/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CK-12 Foundation: Stem-and-Leaf Plots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://study.com/skill/learn/interpreting-a-stem-and-leaf-plot-explanation.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Study.com: Interpreting a Stem-and-Leaf Plot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
         <link>http://localhost:1313/bivariate-choropleth-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>

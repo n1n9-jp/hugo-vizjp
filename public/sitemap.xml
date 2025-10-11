@@ -50,6 +50,9 @@
     <loc>http://localhost:1313/ridgeline-plot/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/stem-and-leaf-plot/</loc>
+    <lastmod>2025-10-11T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bivariate-choropleth-map/</loc>
     <lastmod>2025-10-11T00:00:00+09:00</lastmod>
   </url><url>
