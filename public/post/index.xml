@@ -1032,6 +1032,86 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ドット密度マップ（Dot Density Map）</title>
+        <link>http://localhost:1313/dot-density-map/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/dot-density-map/</guid>
+        <description>&lt;img src="http://localhost:1313/dot-density-map/images/cover.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。&lt;/p&gt;
+&lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
+&lt;p&gt;この手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。&lt;/p&gt;
+&lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map/images/mainvisual.png&#34;
+	width=&#34;2880&#34;
+	height=&#34;1802&#34;
+	srcset=&#34;http://localhost:1313/dot-density-map/images/mainvisual_hu_7f88c99557012114.png 480w, http://localhost:1313/dot-density-map/images/mainvisual_hu_a252ae088483c451.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;383px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドット（点）&lt;/td&gt;
+          &lt;td&gt;特定の数量を表す最小単位。例：「1ドット＝100人」。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;エリア（ポリゴン）&lt;/td&gt;
+          &lt;td&gt;行政区や地域の境界線を示す。点はその中に分布する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドットの密集度&lt;/td&gt;
+          &lt;td&gt;値の多い地域では点が密集し、少ない地域では疎になる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色の使い分け&lt;/td&gt;
+          &lt;td&gt;複数カテゴリ（例：人種、産業、作物）を区別する場合に色で示す。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;配置方法&lt;/td&gt;
+          &lt;td&gt;点をランダムまたは格子状に分布させるが、重なりすぎないように調整する。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;たとえば「アメリカの人種別人口ドットマップ」では、各人種を異なる色のドットで表し、地図上に人口1人＝1ドットをプロットすることで、都市部での多様な構成や郊外での偏りなどが一目でわかるように設計されています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と活用例&#34;&gt;背景と活用例
+&lt;/h2&gt;&lt;p&gt;ドット密度マップは、19世紀の地図作成技術に起源をもち、Charles Dupin（シャルル・デュパン）やHenry Drury Harnessなどが社会統計を地図化する試みの中で発展しました。現在では、ArcGIS、QGIS、Mapbox、D3.jsなどのツールを使って容易に生成できます。&lt;/p&gt;
+&lt;p&gt;特に &lt;strong&gt;「密度ヒートマップ」&lt;/strong&gt; や &lt;strong&gt;「カーネル密度推定（KDE）」&lt;/strong&gt; と異なり、ドット密度マップは「数量の実在性」を強調しやすく、統計値を直接的に可視化する教育・行政用途にも適しています。&lt;/p&gt;
+&lt;p&gt;代表的な応用例には以下のものがあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;国勢調査データの可視化（人口・人種・所得など）&lt;/li&gt;
+&lt;li&gt;農業統計（作付面積・収穫量など）&lt;/li&gt;
+&lt;li&gt;都市部の居住パターン・空き家分布&lt;/li&gt;
+&lt;li&gt;犯罪発生地点・災害被害件数の表示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ドット密度マップは、色による面積的な表現ではなく「点の数と分布」で数量を伝える地図表現です。数値の大小や地域的な偏りを直感的に把握でき、視覚的インパクトも強い一方で、点の重なりや縮尺によって解釈が変わる点には注意が必要です。適切なスケール設定とドット値の選定が、効果的な表現の鍵となります。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://pro.arcgis.com/en/pro-app/latest/help/mapping/layer-properties/dot-density.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dot density — ArcGIS Pro ドキュメント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.esri.com/en-us/gis-dictionary/dot-density-map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dot density map の定義 — GIS Dictionary（Esri サポート）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Dot_distribution_map&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dot distribution map（英語版ウィキペディア）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/experiments-with-dot-density-part-one&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Experiments with dot density — ArcGIS Blog（Part One）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://luminocity3d.org/WorldPopDen/#5/26.902/106.040&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;World Population Density&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>バイオリン・プロット（Violin Plot）</title>
         <link>http://localhost:1313/violin-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -13860,10 +13940,7 @@ report by Hugh Small
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map-example/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）の事例" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
-&lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
-&lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
-&lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）の事例" /&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）の事例です。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;2010年-アメリカでの国勢調査--ニューヨークタイムズ&#34;&gt;2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map-example/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;

@@ -1136,10 +1136,7 @@
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map-example/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）の事例" /&gt;&lt;p&gt;1つのドットが複数の観測値の集計値を表します。集計値の単位は地図の作り手により調整され、例えば1000人を1つのドットで表すなどとします。凡例にそのことを示します。&lt;/p&gt;
-&lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
-&lt;p&gt;何らかの質的特徴を確認するために、着色することもあります。&lt;/p&gt;
-&lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/dot-density-map-example/images/dencity_ben_fry.png" alt="Featured image of post ドット密度マップ（Dot Density Map）の事例" /&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）の事例です。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;2010年-アメリカでの国勢調査--ニューヨークタイムズ&#34;&gt;2010年 アメリカでの国勢調査 – ニューヨーク・タイムズ
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-density-map-example/images/1_Boi8uA89rJqqprcRS-8P6g.png&#34;
