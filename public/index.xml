@@ -708,6 +708,84 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>イールド・カーブ（Yield Curve）</title>
+        <link>http://localhost:1313/yield-curve/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/yield-curve/</guid>
+        <description>&lt;img src="http://localhost:1313/yield-curve/images/thumb_ph_vizjp.png" alt="Featured image of post イールド・カーブ（Yield Curve）" /&gt;&lt;p&gt;イールド・カーブ（Yield Curve）とは、国債などの &lt;strong&gt;異なる満期（期間）の利回りを結んだ曲線&lt;/strong&gt; のことを指します。日本語では「利回り曲線」とも呼ばれます。通常、横軸に「満期（年数）」、縦軸に「利回り（％）」をとり、短期から長期までの金利の関係を視覚的に示すチャートです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/yield-curve/images/mainvisual.png&#34;
+	width=&#34;1671&#34;
+	height=&#34;1239&#34;
+	srcset=&#34;http://localhost:1313/yield-curve/images/mainvisual_hu_4999c3bf355d3895.png 480w, http://localhost:1313/yield-curve/images/mainvisual_hu_d563a922b581d70b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;323px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;イールド・カーブは &lt;strong&gt;金利の期間構造（term structure of interest rates）&lt;/strong&gt; を表し、景気動向の予測や金融政策の判断に広く利用されます。特に国債市場では、経済全体のリスク認識を反映する重要な指標とされています。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;横軸（X軸）&lt;/strong&gt;：国債などの満期（例：3か月、2年、5年、10年、30年など）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦軸（Y軸）&lt;/strong&gt;：それぞれの満期に対応する利回り（％）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;曲線（カーブ）&lt;/strong&gt;：各満期の利回りを線で結んだもの&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;たとえば、10年物国債の利回りが2年物より高い場合、長期の金利が高い「順イールド（upward-sloping）」となります。逆に、短期の金利が長期よりも高い場合、「逆イールド（inverted）」と呼ばれ、景気後退の前兆とみなされることがあります。&lt;/p&gt;
+&lt;h2 id=&#34;主な形状と意味&#34;&gt;主な形状と意味
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;形状&lt;/th&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;特徴・解釈&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上昇型&lt;/td&gt;
+          &lt;td&gt;順イールド&lt;/td&gt;
+          &lt;td&gt;通常の形。長期金利が高く、経済成長への期待が強い。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;平坦型&lt;/td&gt;
+          &lt;td&gt;フラット&lt;/td&gt;
+          &lt;td&gt;短期と長期の金利差が小さい。経済の転換期を示唆する場合がある。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下降型&lt;/td&gt;
+          &lt;td&gt;逆イールド&lt;/td&gt;
+          &lt;td&gt;短期金利が長期金利を上回る。景気後退の予兆とされる。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景知識&#34;&gt;背景知識
+&lt;/h2&gt;&lt;p&gt;イールド・カーブは &lt;strong&gt;債券価格と金利の逆相関関係&lt;/strong&gt; に基づいています。金利が上昇すると債券価格は下がり、金利が低下すると価格は上がります。この関係が、期間による利回り差（イールドスプレッド）として現れます。&lt;/p&gt;
+&lt;p&gt;また、中央銀行（日本では日本銀行）の &lt;strong&gt;政策金利&lt;/strong&gt; の変化もイールド・カーブの形状に影響を与えます。たとえば政策金利が引き上げられると短期金利が上昇し、逆イールド化が進むことがあります。&lt;/p&gt;
+&lt;p&gt;米国ではFRB（連邦準備制度理事会）が発表する**「米国債利回り曲線（U.S. Treasury Yield Curve）」**が世界的に注目されています。これは経済アナリストや投資家が最も参照する指標のひとつです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;イールド・カーブは &lt;strong&gt;金融市場の期待と経済の未来を読み解く「鏡」&lt;/strong&gt; のような存在です。順イールドが続く時は経済拡大期、逆イールドが発生する時は景気後退期の前触れとして注目されます。したがって、投資家や政策立案者にとって、このカーブの形状を理解することは極めて重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;U.S. Department of the Treasury — Interest Rate Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/treasury-yield-curve-methodology&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;U.S. Department of the Treasury — Treasury Yield Curve Methodology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.boj.or.jp/mopo/outlook/box/2404box6a.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;日本銀行 — “（BOX6）国債買入れがイールドカーブに及ぼす影響”（PDF）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sangiin.go.jp/japanese/annai/chousa/keizai_prism/backnumber/h28pdf/201615405.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;参議院 経済調査会 「イールドカーブとは？」（PDF）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.matsui.co.jp/stock/study/article/yield-curve/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;松井証券 — 「イールドカーブは何がわかる？投資への活用方法」&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.orixbank.co.jp/column/article/292/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ORIX Bank — 「イールドカーブ・コントロール（YCC）とは？」&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sangiin.go.jp/japanese/annai/chousa/keizai_prism/backnumber/h28pdf/201615405.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sangiin（参議院）発行「経済のプリズム」シリーズ — イールドカーブ・コントロール導入時解説&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ウォーターフォール・チャート（Waterfall Chart）</title>
         <link>http://localhost:1313/waterfall-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
