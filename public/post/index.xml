@@ -394,6 +394,147 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ゲージ・チャート（Gauge Chart）</title>
+        <link>http://localhost:1313/gauge-chart/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/gauge-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/gauge-chart/images/cover.png" alt="Featured image of post ゲージ・チャート（Gauge Chart）" /&gt;&lt;p&gt;ゲージ・チャート（Gauge Chart）は、円弧や半円の形状を用いて、単一の数値が全体の中でどの位置にあるかを直感的に示す可視化手法です。見た目はスピードメーターや燃料計に似ており、「現在の値がどの程度の状態か」を針や色で分かりやすく伝えます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/gauge-chart/images/mainvisual.png&#34;
+	width=&#34;1798&#34;
+	height=&#34;533&#34;
+	srcset=&#34;http://localhost:1313/gauge-chart/images/mainvisual_hu_28019fdcc2961aa7.png 480w, http://localhost:1313/gauge-chart/images/mainvisual_hu_184f591cbcdb0a24.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;337&#34;
+		data-flex-basis=&#34;809px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1. スケール範囲（最小値〜最大値）&lt;/td&gt;
+          &lt;td&gt;値の全体的な範囲を示す円弧部分。通常は0を起点とし、最大値を右端に設定します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2. 目盛り（刻み）&lt;/td&gt;
+          &lt;td&gt;数値の読み取りを補助する線や数字。針の位置の定量的な理解を助けます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3. 色域（セグメント）&lt;/td&gt;
+          &lt;td&gt;範囲ごとに異なる色を割り当て、「危険・注意・良好」などを視覚的に分類します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;4. 針（インジケータ）&lt;/td&gt;
+          &lt;td&gt;現在の値を指す要素。スケール上の角度で、現在値を示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;5. 目標値ライン（任意）&lt;/td&gt;
+          &lt;td&gt;KPIや目標値を別のマークで明示する場合に用いられます。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;特徴と用途&#34;&gt;特徴と用途
+&lt;/h2&gt;&lt;p&gt;ゲージ・チャートは、主に &lt;strong&gt;単一の指標（KPIなど）&lt;/strong&gt; を評価するために使用されます。
+具体的には、次のような用途に適しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目標達成率の表示（例：売上目標の進捗）&lt;/li&gt;
+&lt;li&gt;設備の稼働率や利用率の監視&lt;/li&gt;
+&lt;li&gt;顧客満足度・品質スコアの視覚化&lt;/li&gt;
+&lt;li&gt;センサー値（温度・圧力・速度など）のリアルタイムモニタリング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このチャートは &lt;strong&gt;直感的な理解&lt;/strong&gt; を促す一方で &lt;strong&gt;複数指標の比較&lt;/strong&gt; や &lt;strong&gt;時系列変化の表示&lt;/strong&gt; には不向きです。&lt;/p&gt;
+&lt;h2 id=&#34;長所と短所&#34;&gt;長所と短所
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;観点&lt;/th&gt;
+          &lt;th&gt;長所&lt;/th&gt;
+          &lt;th&gt;短所&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;視覚的理解&lt;/td&gt;
+          &lt;td&gt;一目で状況を把握できる直感的デザイン&lt;/td&gt;
+          &lt;td&gt;針の角度で誤解を生みやすい設定もある&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;情報量&lt;/td&gt;
+          &lt;td&gt;単一の値を強調するには最適&lt;/td&gt;
+          &lt;td&gt;同時に複数値を比較するには不向き&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スペース効率&lt;/td&gt;
+          &lt;td&gt;単体ではインパクトがある&lt;/td&gt;
+          &lt;td&gt;多数並べると冗長になりやすい&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;デザイン上の注意点&#34;&gt;デザイン上の注意点
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;最小値は原則0に設定する&lt;/strong&gt;&lt;br&gt;
+　0以外から始めると、針の位置が誤解を招く場合があります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色の分割は慎重に&lt;/strong&gt;&lt;br&gt;
+　閾値の設定が曖昧だと「良・悪」の判断が不明確になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;過剰な装飾を避ける&lt;/strong&gt;&lt;br&gt;
+　立体的な影や光沢を付けすぎると、情報伝達よりデザイン重視に見える恐れがあります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;比較には代替チャートを検討&lt;/strong&gt;&lt;br&gt;
+　複数KPIを比較する場合は、バレット・グラフや棒グラフの方が適切です。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;関連する可視化手法との比較&#34;&gt;関連する可視化手法との比較
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート種別&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適した用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バレット・グラフ（Bullet Graph）&lt;/td&gt;
+          &lt;td&gt;ゲージを直線上で表現し、複数値の比較に向く&lt;/td&gt;
+          &lt;td&gt;KPIの並列比較&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドーナツ・チャート&lt;/td&gt;
+          &lt;td&gt;円環の一部を塗りつぶして割合を示す&lt;/td&gt;
+          &lt;td&gt;全体に対する進捗率表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;棒グラフ&lt;/td&gt;
+          &lt;td&gt;値の比較・増減が明快&lt;/td&gt;
+          &lt;td&gt;複数項目の比較や時系列分析&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ゲージ・チャートは、「ひと目で現状を把握する」ための優れた可視化手法です。特に経営ダッシュボードやモニタリング系のUIで広く用いられています。ただし、情報量や比較性には限界があるため &lt;strong&gt;使用目的を明確にし、代替チャートとの使い分け&lt;/strong&gt; を行うことが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cloud.google.com/looker/docs/studio/gauge-chart-reference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gauge Chart Reference - Google Looker Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.jaspersoft.com/articles/what-is-a-gauge-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;What is a Gauge Chart? - Jaspersoft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.preset.io/docs/gauge-chart-1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gauge Chart Documentation - Apache Superset (Preset)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.spotfire.com/glossary/what-is-a-gauge-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotfire Glossary: Gauge Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.delldesignsystem.com/data-visualization/gauge-chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gauge Chart - Dell Design System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>コード・ダイアグラム (Chord Diagram)</title>
         <link>http://localhost:1313/chord-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
