@@ -2872,6 +2872,96 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>放射樹 (Radial Tree)</title>
+        <link>http://localhost:1313/radial-trees/</link>
+        <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/radial-trees/</guid>
+        <description>&lt;img src="http://localhost:1313/radial-trees/images/thumb_ph_vizjp.png" alt="Featured image of post 放射樹 (Radial Tree)" /&gt;&lt;p&gt;放射樹（Radial Tree）は、階層構造を放射状に配置して可視化するチャートです。ルートノード（根）を中心に置き、子ノードが外側へ向かって円形に展開されます。ツリー構造を俯瞰できるため、親子関係や階層の深さを直感的に理解することができます。主に系統図や組織図、分類体系、ファイル階層の可視化などに用いられます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-trees/images/mainvisual.png&#34;
+	width=&#34;1638&#34;
+	height=&#34;1803&#34;
+	srcset=&#34;http://localhost:1313/radial-trees/images/mainvisual_hu_2ee23d3456b144c3.png 480w, http://localhost:1313/radial-trees/images/mainvisual_hu_e41e48c1e6c467ed.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;90&#34;
+		data-flex-basis=&#34;218px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;放射樹は「ツリー構造」を放射状に配置する点が特徴です。以下のような要素で構成されます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;中心ノード (Root)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ツリーの起点。すべての関係がここから放射状に展開します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;枝 (Edge)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;親子ノードをつなぐ線。放射方向に伸びるため、階層が増えると円環状に広がります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ノード (Node)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各階層の要素。大きさや色で属性（人数、重み、カテゴリなど）を表すこともあります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;角度配置 (Angular Layout)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;ノードが中心から均等な角度で配置され、全体で円形を形成します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;階層距離 (Radial Distance)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;階層の深さに応じて中心からの距離が変わります。外側ほど下位の階層になります。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この構造により、上下や左右の方向性に依存せず、情報を均等に視覚化できる利点があります。&lt;/p&gt;
+&lt;h2 id=&#34;コードダイアグラムやツリー図との違い&#34;&gt;コード・ダイアグラムやツリー図との違い
+&lt;/h2&gt;&lt;p&gt;放射樹は &lt;strong&gt;ツリー構造の空間配置&lt;/strong&gt; に重点を置いた可視化です。例えば、同じ階層構造を表現する &lt;strong&gt;コード・ダイアグラム (Chord Diagram)&lt;/strong&gt; は「要素間の関係性」を円周上のリンクで示すのに対し、放射樹は「階層的な親子関係」を放射状に展開します。また、通常の縦型ツリー図（Tree Diagram）に比べて、放射樹は &lt;strong&gt;階層が深くてもバランス良く全体を表示できる&lt;/strong&gt; という利点があります。&lt;/p&gt;
+&lt;h2 id=&#34;主な用途と応用例&#34;&gt;主な用途と応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;分類体系の表示&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;動植物の分類やファイル構造など、明確な階層関係をもつデータの可視化。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;組織図・家系図&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;上位と下位の関係をコンパクトに示す際に有効。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;系統進化の表示&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;系統樹 (Phylogenetic Tree) の放射型レイアウトとしても利用される。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;知識体系の可視化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;概念やテーマの関連を階層的に整理するマインドマップ的用途にも応用可能。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と技術的特徴&#34;&gt;背景と技術的特徴
+&lt;/h2&gt;&lt;p&gt;放射樹は古典的なツリー構造可視化の一形態であり、1980年代以降、計算機科学や情報可視化分野で発展しました。&lt;br&gt;
+特に &lt;strong&gt;Tamara Munzner&lt;/strong&gt; や &lt;strong&gt;Ben Shneiderman&lt;/strong&gt; らの研究を通じて、ツリー構造の多様なレイアウト手法（矩形、円形、放射状など）が体系化されました。近年では、&lt;strong&gt;D3.js&lt;/strong&gt; や &lt;strong&gt;RAWGraphs&lt;/strong&gt; 、&lt;strong&gt;Gephi&lt;/strong&gt; などの可視化ツールで簡単に放射樹レイアウトを生成できます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://observablehq.com/@d3/radial-tree&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;D3.js – Radial Tree Layout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>密度プロット（Density Plot）</title>
         <link>http://localhost:1313/density-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
