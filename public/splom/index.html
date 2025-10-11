@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="（後日更新いたします）\n">
-<title>散布図行列</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。\n縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。\n特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。\n">
+<title>散布図行列 (Scatterplot Matrix)</title>
 
 <link rel='canonical' href='http://localhost:1313/splom/'>
 
-<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="散布図行列">
-<meta property='og:description' content="（後日更新いたします）\n">
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="散布図行列 (Scatterplot Matrix)">
+<meta property='og:description' content="散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。\n縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。\n特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。\n">
 <meta property='og:url' content='http://localhost:1313/splom/'>
 <meta property='og:site_name' content='Visualizing.JP'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2020-08-28T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2020-08-28T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png' />
-<meta name="twitter:title" content="散布図行列">
-<meta name="twitter:description" content="（後日更新いたします）\n"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="散布図行列 (Scatterplot Matrix)">
+<meta name="twitter:description" content="散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。\n縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。\n特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -364,7 +364,46 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#図解の見方">図解の見方</a></li>
+        <li><a href="#背景と用途">背景と用途</a></li>
+        <li><a href="#注意点">注意点</a></li>
+      </ol>
+    </li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="has-image main-article">
@@ -376,7 +415,7 @@
                         width="800" 
                         height="800" 
                         loading="lazy"
-                        alt="Featured image of post 散布図行列" />
+                        alt="Featured image of post 散布図行列 (Scatterplot Matrix)" />
                 
             </a>
         </div>
@@ -395,7 +434,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/splom/">散布図行列</a>
+            <a href="/splom/">散布図行列 (Scatterplot Matrix)</a>
         </h2>
     
         
@@ -447,7 +486,9 @@
     <section class="article-content">
     
     
-    <p>（後日更新いたします）</p>
+    <p>散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。<br>
+縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。<br>
+特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。</p>
 <p><img src="/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png"
 	width="1000"
 	height="1000"
@@ -460,6 +501,72 @@
 		data-flex-basis="240px"
 	
 ></p>
+<h3 id="図解の見方">図解の見方
+</h3><p>散布図行列では、行列の各セルが「2つの変数の関係」を表しています。
+一般的な構成は以下の通りです。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>位置</th>
+          <th>内容</th>
+          <th>解釈のポイント</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>対角線上</td>
+          <td>各変数自身を示す（ヒストグラムやカーネル密度推定が置かれることも）</td>
+          <td>その変数の分布形状を把握する</td>
+      </tr>
+      <tr>
+          <td>対角線より上・下</td>
+          <td>2変数間の散布図</td>
+          <td>点の傾き・広がりから相関関係を読み取る</td>
+      </tr>
+      <tr>
+          <td>点の密集・傾き</td>
+          <td>正・負の相関の傾向を示す</td>
+          <td>線形関係の強さや外れ値の有無を観察できる</td>
+      </tr>
+      <tr>
+          <td>色やサイズ（任意）</td>
+          <td>第3の変数をエンコードする場合あり</td>
+          <td>多次元的な関係を一枚で表現可能</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>また、プロットの上部と下部を非対称に設定することで、一方に相関係数（例えばPearson相関）や回帰線を併記することもあります。</p>
+<h3 id="背景と用途">背景と用途
+</h3><p>この可視化手法は統計分析の分野で古くから用いられており、R言語の<code>pairs()</code>関数やPythonの<code>seaborn.pairplot()</code>などで簡便に生成できます。<br>
+多変量回帰分析や主成分分析の前処理として使われることが多く、次のような目的に活用されます。</p>
+<ul>
+<li>データの全体的な傾向・分布を確認する</li>
+<li>強い相関関係のある変数を見つける</li>
+<li>特定の変数間で外れ値やクラスター構造を見つける</li>
+<li>特徴量選択（feature selection）の指針とする</li>
+</ul>
+<p>また、次元数が多い場合は、主成分得点を用いた「縮約後の散布図行列」や「部分選択行列」を用いることもあります。</p>
+<h3 id="注意点">注意点
+</h3><p>散布図行列は変数の数が多くなると、視覚的な過密や理解の困難さを招きます。<br>
+そのため、分析対象の変数をあらかじめ絞り込み、補助的にヒートマップや相関係数行列と併用するのが一般的です。<br>
+また、数値変数以外（カテゴリ変数など）は、形や色などで表現を工夫する必要があります。</p>
+<h2 id="まとめ">まとめ
+</h2><p>散布図行列は、多変量データの構造を直感的に理解するための強力な手法です。<br>
+単一の散布図では見逃されがちな相関構造や分布の偏りを、全体的に可視化できる点が大きな利点です。<br>
+ただし、変数数が多すぎる場合には可読性を損ねるため、選択的・補助的に利用することが重要です。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://en.wikipedia.org/wiki/Scatterplot_matrix"  target="_blank" rel="noopener"
+    >Wikipedia: Scatter plot matrix</a></li>
+<li><a class="link" href="https://seaborn.pydata.org/generated/seaborn.pairplot.html"  target="_blank" rel="noopener"
+    >Seaborn Documentation — pairplot</a></li>
+<li><a class="link" href="https://plotly.com/python/splom/"  target="_blank" rel="noopener"
+    >Plotly Express — scatter_matrix</a></li>
+<li><a class="link" href="https://vega.github.io/vega-lite/docs/repeat.html"  target="_blank" rel="noopener"
+    >Vega-Lite: Repeat Charts</a></li>
+<li><a class="link" href="https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/pairs.html"  target="_blank" rel="noopener"
+    >R Documentation — pairs()</a></li>
+</ul>
 </section>
 
 

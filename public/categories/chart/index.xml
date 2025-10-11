@@ -3018,12 +3018,14 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>散布図行列</title>
+        <title>散布図行列 (Scatterplot Matrix)</title>
         <link>http://localhost:1313/splom/</link>
         <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/splom/</guid>
-        <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列" /&gt;&lt;p&gt;（後日更新いたします）&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列 (Scatterplot Matrix)" /&gt;&lt;p&gt;散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。&lt;br&gt;
+縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。&lt;br&gt;
+特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png&#34;
 	width=&#34;1000&#34;
 	height=&#34;1000&#34;
@@ -3035,7 +3037,73 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;&lt;/p&gt;</description>
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;/h3&gt;&lt;p&gt;散布図行列では、行列の各セルが「2つの変数の関係」を表しています。
+一般的な構成は以下の通りです。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;位置&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+          &lt;th&gt;解釈のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対角線上&lt;/td&gt;
+          &lt;td&gt;各変数自身を示す（ヒストグラムやカーネル密度推定が置かれることも）&lt;/td&gt;
+          &lt;td&gt;その変数の分布形状を把握する&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対角線より上・下&lt;/td&gt;
+          &lt;td&gt;2変数間の散布図&lt;/td&gt;
+          &lt;td&gt;点の傾き・広がりから相関関係を読み取る&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;点の密集・傾き&lt;/td&gt;
+          &lt;td&gt;正・負の相関の傾向を示す&lt;/td&gt;
+          &lt;td&gt;線形関係の強さや外れ値の有無を観察できる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色やサイズ（任意）&lt;/td&gt;
+          &lt;td&gt;第3の変数をエンコードする場合あり&lt;/td&gt;
+          &lt;td&gt;多次元的な関係を一枚で表現可能&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;また、プロットの上部と下部を非対称に設定することで、一方に相関係数（例えばPearson相関）や回帰線を併記することもあります。&lt;/p&gt;
+&lt;h3 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h3&gt;&lt;p&gt;この可視化手法は統計分析の分野で古くから用いられており、R言語の&lt;code&gt;pairs()&lt;/code&gt;関数やPythonの&lt;code&gt;seaborn.pairplot()&lt;/code&gt;などで簡便に生成できます。&lt;br&gt;
+多変量回帰分析や主成分分析の前処理として使われることが多く、次のような目的に活用されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;データの全体的な傾向・分布を確認する&lt;/li&gt;
+&lt;li&gt;強い相関関係のある変数を見つける&lt;/li&gt;
+&lt;li&gt;特定の変数間で外れ値やクラスター構造を見つける&lt;/li&gt;
+&lt;li&gt;特徴量選択（feature selection）の指針とする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、次元数が多い場合は、主成分得点を用いた「縮約後の散布図行列」や「部分選択行列」を用いることもあります。&lt;/p&gt;
+&lt;h3 id=&#34;注意点&#34;&gt;注意点
+&lt;/h3&gt;&lt;p&gt;散布図行列は変数の数が多くなると、視覚的な過密や理解の困難さを招きます。&lt;br&gt;
+そのため、分析対象の変数をあらかじめ絞り込み、補助的にヒートマップや相関係数行列と併用するのが一般的です。&lt;br&gt;
+また、数値変数以外（カテゴリ変数など）は、形や色などで表現を工夫する必要があります。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;散布図行列は、多変量データの構造を直感的に理解するための強力な手法です。&lt;br&gt;
+単一の散布図では見逃されがちな相関構造や分布の偏りを、全体的に可視化できる点が大きな利点です。&lt;br&gt;
+ただし、変数数が多すぎる場合には可読性を損ねるため、選択的・補助的に利用することが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Scatterplot_matrix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Scatter plot matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seaborn.pydata.org/generated/seaborn.pairplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seaborn Documentation — pairplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://plotly.com/python/splom/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Plotly Express — scatter_matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega-lite/docs/repeat.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vega-Lite: Repeat Charts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stat.ethz.ch/R-manual/R-devel/library/graphics/html/pairs.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;R Documentation — pairs()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
         </item>
         <item>
         <title>ツリーマップ（Treemap）</title>
