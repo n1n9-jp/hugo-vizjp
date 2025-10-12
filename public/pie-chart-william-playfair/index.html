@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『The Statistical Breviary』に収録されたものです。\n正式タイトルは「Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude」。\nヨーロッパ諸国の領土面積・人口・国家歳入という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。\n">
+<title>円グラフの発明</title>
+
+<link rel='canonical' href='http://localhost:1313/pie-chart-william-playfair/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="円グラフの発明">
+<meta property='og:description' content="この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『The Statistical Breviary』に収録されたものです。\n正式タイトルは「Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude」。\nヨーロッパ諸国の領土面積・人口・国家歳入という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。\n">
+<meta property='og:url' content='http://localhost:1313/pie-chart-william-playfair/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-12T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-12T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/pie-chart-william-playfair/images/cover.png' />
+<meta name="twitter:title" content="円グラフの発明">
+<meta name="twitter:description" content="この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『The Statistical Breviary』に収録されたものです。\n正式タイトルは「Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude」。\nヨーロッパ諸国の領土面積・人口・国家歳入という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/pie-chart-william-playfair/images/cover.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#チャートの構造と読み方">チャートの構造と読み方</a></li>
+    <li><a href="#プレイフェア本人の説明">プレイフェア本人の説明</a></li>
+    <li><a href="#部分拡大フランススペインブリテンの比較">部分拡大：フランス・スペイン・ブリテンの比較</a></li>
+    <li><a href="#歴史的背景と意義">歴史的背景と意義</a></li>
+    <li><a href="#現代的視点からの再評価">現代的視点からの再評価</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/pie-chart-william-playfair/">
+                <img src="/pie-chart-william-playfair/images/cover_hu_52cf5b06f7045c8c.png"
+                        srcset="/pie-chart-william-playfair/images/cover_hu_52cf5b06f7045c8c.png 800w, /pie-chart-william-playfair/images/cover_hu_d6354f3b0f853514.png 1600w"
+                        width="800" 
+                        height="358" 
+                        loading="lazy"
+                        alt="Featured image of post 円グラフの発明" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/pie-chart-william-playfair/">円グラフの発明</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 12, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『<em>The Statistical Breviary</em>』に収録されたものです。</p>
+<p>正式タイトルは「<em>Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude</em>」。</p>
+<p>ヨーロッパ諸国の<strong>領土面積・人口・国家歳入</strong>という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。</p>
+<p><img src="/pie-chart-william-playfair/images/Playfair-pie-chairt.png"
+	width="2300"
+	height="1385"
+	srcset="/pie-chart-william-playfair/images/Playfair-pie-chairt_hu_473d3d89fe09cdb7.png 480w, /pie-chart-william-playfair/images/Playfair-pie-chairt_hu_346abcff74a8b124.png 1024w"
+	loading="lazy"
+	
+		alt="Statistical Chart, showing the Extent, the Population & Revenues of the Principal Nations of Europe, in the order of their Magnitude"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="166"
+		data-flex-basis="398px"
+	
+></p>
+<h2 id="チャートの構造と読み方">チャートの構造と読み方
+</h2><p><img src="/pie-chart-william-playfair/images/legend.png"
+	width="361"
+	height="859"
+	srcset="/pie-chart-william-playfair/images/legend_hu_4bd8be8fe6bf3456.png 480w, /pie-chart-william-playfair/images/legend_hu_987449cbc0b7da92.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="42"
+		data-flex-basis="100px"
+	
+></p>
+<p>一見して凡例は見当たりませんが、プレイフェア本人の解説（『Statistical Breviary』本文）および後世の研究（Friendly, Pritchard, Spence など）から、図の構造は次のように解釈されています。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>視覚的表現</th>
+          <th>内容・意味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>円の面積</td>
+          <td>比例スケール</td>
+          <td>各国の総面積（平方マイル）</td>
+      </tr>
+      <tr>
+          <td>内側の円</td>
+          <td>外円との比</td>
+          <td>ヨーロッパ領土部分（European Dominions）</td>
+      </tr>
+      <tr>
+          <td>左側の縦線（実線）</td>
+          <td>ピンク系</td>
+          <td>人口（左目盛に対応, 単位: 百万人）</td>
+      </tr>
+      <tr>
+          <td>右側の縦線（実線）</td>
+          <td>黄系</td>
+          <td>国家歳入（右目盛に対応, 単位: 百万ポンド）</td>
+      </tr>
+      <tr>
+          <td>両線を結ぶ点線</td>
+          <td>斜線・破線</td>
+          <td>同一国の人口線と歳入線を結ぶ補助線（比較を視覚的に対応づけるため）</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="プレイフェア本人の説明">プレイフェア本人の説明
+</h2><p>プレイフェアは原著の本文で次のように述べています。</p>
+<blockquote>
+<p>“The figures within the circles shew the number of square miles in the countries they represent.<br>
+The dotted lines drawn between the population and revenue, are merely intended to connect together the lines belonging to the same country.”<br>
+（『The Statistical Breviary』1801年より）</p></blockquote>
+<p>この記述から、</p>
+<ul>
+<li><strong>円内の数値＝国土の面積</strong></li>
+<li><strong>点線＝人口線と歳入線を「同一国のもの」として結ぶ補助線</strong></li>
+</ul>
+<p>であることが明確にわかります。つまり、点線は新たな変数を表すものではなく <strong>二つのスケールを対比するための導線</strong> として描かれているのです。</p>
+<h2 id="部分拡大フランススペインブリテンの比較">部分拡大：フランス・スペイン・ブリテンの比較
+</h2><p>図の右半分では、フランス（France）、スペイン（Spain）、ブリテンおよびアイルランド（Britain &amp; Ireland）の三国が並びます。</p>
+<ul>
+<li>
+<p><strong>円（面積）</strong><br>
+フランス149,000平方マイル、スペイン148,000平方マイル、ブリテン105,000平方マイル。<br>
+面積ではフランスとスペインがほぼ同等、ブリテンはやや小さい。</p>
+</li>
+<li>
+<p><strong>左側の線（人口）</strong><br>
+フランス：約2,700万人、スペイン：約1,500万人、ブリテン：約1,000万人。</p>
+</li>
+<li>
+<p><strong>右側の線（歳入）</strong><br>
+フランス：約174百万ポンド、スペイン：約74百万ポンド、ブリテン：約210百万ポンド。<br>
+→ 面積・人口で劣るブリテンが、歳入では突出して高い位置に描かれています。</p>
+</li>
+<li>
+<p><strong>点線の傾き</strong><br>
+右上がりに描かれることで「人口に対して歳入が多い国」を直感的に示します。<br>
+フランスとスペインは線がほぼ水平ですが、ブリテンでは右の線（歳入）が極端に高く、急な右上がりの点線が描かれています。<br>
+これは <strong>少ない人口で多くの収入を得る国＝経済効率が高い国</strong> としてのブリテンの姿を視覚的に表しています。</p>
+</li>
+</ul>
+<h2 id="歴史的背景と意義">歴史的背景と意義
+</h2><p>1801年はナポレオン戦争直前、ヨーロッパ諸国の勢力比較が政治的関心の的となっていた時代です。<br>
+プレイフェアは『Statistical Breviary』において、各国の「国力」を数字だけでなく <strong>視覚的に理解できる形に翻訳</strong> することを目的としていました。</p>
+<p>この図では、</p>
+<ul>
+<li>面積（国土の広さ）</li>
+<li>人口（人的資源）</li>
+<li>歳入（財政力）</li>
+</ul>
+<p>という三つの要素を重ねて表現することで、「国家の規模と富の関係」を一目で理解できるように設計されています。</p>
+<p>この試みは、後世の「バブルチャート」や「複合グラフ」の原型とされ、データ・ビジュアライゼーション史における画期的な発明でした。</p>
+<h2 id="現代的視点からの再評価">現代的視点からの再評価
+</h2><p>この図は、今日の情報可視化においてもいくつかの重要な教訓を与えます。</p>
+<ol>
+<li><strong>異なるスケールの変数を一つの図に統合する方法</strong> &hellip;現代のマルチアクシス・チャートの先駆例</li>
+<li><strong>構造的凡例がなくても、視覚的秩序で意味を導く設計</strong> &hellip;情報デザインとしての強い直感性</li>
+<li><strong>「傾き」や「高さ」の比較が象徴的なメッセージを持つ</strong> &hellip;定量精度よりも関係性の強調</li>
+</ol>
+<p>これらはいずれも、プレイフェアが単に統計を示すのではなく <strong>ストーリーを伝えるための図</strong> を構想していたことを示しています。</p>
+<h2 id="まとめ">まとめ
+</h2><p>ウィリアム・プレイフェアの『Statistical Chart』は、凡例を欠きながらも構造的秩序によって「国土・人口・歳入」という三つの変数を同時に比較させる視覚言語を確立しました。</p>
+<p>彼が述べたように点線は単なる「連結線」ですが、それによって三つの尺度が統合され、見る者は<strong>国の規模・人の数・富の力</strong>を一目で感じ取ることができます。</p>
+<p>この図は、現代の情報デザインやデータビジュアライゼーションの原点に位置づけられる作品です。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://books.google.com/books/about/The_statistical_breviary_shewing_the_res.html?id=Y4wBAAAAQAAJ"  target="_blank" rel="noopener"
+    >Google Books – <em>The Statistical Breviary</em> (1801, William Playfair)</a></li>
+<li><a class="link" href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~287375~90062410"  target="_blank" rel="noopener"
+    >David Rumsey Map Collection – Statistical Chart, 1801</a></li>
+<li><a class="link" href="https://dokumen.pub/a-history-of-data-visualization-and-graphic-communication-illustrated-0674975235-9780674975231.html"  target="_blank" rel="noopener"
+    >Friendly, M. – <em>A History of Data Visualization and Graphic Communication</em> (Harvard University Press, 2021)</a></li>
+<li><a class="link" href="https://m-a.org.uk/resources/PE4LifeofPie.pdf"  target="_blank" rel="noopener"
+    >Pritchard, C. – “Life of Pie: William Playfair and the Impact of the Visual” (Mathematical Association, 2019)</a></li>
+<li><a class="link" href="https://branchcollective.org/?ps_articles=jonathan-sachs-17861801-william-playfair-statistical-graphics-and-the-meaning-of-an-event"  target="_blank" rel="noopener"
+    >Branch Collective – Jonathan Sachs, “William Playfair, Statistical Graphics, and the Meaning of an Event”</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/pie-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/pie-chart/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 円グラフ (Pie Chart)"
+                        data-key="pie-chart" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">円グラフ (Pie Chart)</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/gapminder-world-map-2010/">
+        
+        
+            <div class="article-image">
+                <img src="/gapminder-world-map-2010/images/cover.baf81f016a1a309f9c1048a7da80e22f_hu_5266f313067797fb.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Gapminder World Map 2010"
+                        data-key="gapminder-world-map-2010" 
+                        data-hash="md5-uvgfAWoaMJ&#43;cEEin2oDiLw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Gapminder World Map 2010</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/most-prolific-type-designers/">
+        
+        
+            <div class="article-image">
+                <img src="/most-prolific-type-designers/images/cover.fd85bd5867173a424489210b78591910_hu_cf22886bae56cd3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 最多書体デザイナーの可視化"
+                        data-key="most-prolific-type-designers" 
+                        data-hash="md5-/YW9WGcXOkJEiSELeFkZEA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">最多書体デザイナーの可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/spacetime-path-diagram/">
+        
+        
+            <div class="article-image">
+                <img src="/spacetime-path-diagram/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 植民地時代ボストン商人の一日：時間と空間の可視化"
+                        data-key="space–time-path-diagram" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">植民地時代ボストン商人の一日：時間と空間の可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/ninomiya-sontoku-land-ratio-graph/">
+        
+        
+            <div class="article-image">
+                <img src="/ninomiya-sontoku-land-ratio-graph/images/cover.3613b30e7396ca1e4cf85932a591f3f6_hu_3bcd986bc78d69e2.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 二宮尊徳と「土地分類」の思想"
+                        data-key="ninomiya-sontoku-land-ratio-graph" 
+                        data-hash="md5-NhOzDnOWyh5M&#43;FkypZHz9g==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">二宮尊徳と「土地分類」の思想</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
