@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "円グラフの発明"
-slug = "pie-chart-william-playfair"
+slug = "pie-chart-william-playfair-area"
 date = "2025-10-12"
 categories = [
     "consume"
