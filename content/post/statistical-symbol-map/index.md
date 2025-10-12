@@ -62,7 +62,7 @@ image = "images/1064px-Minard-carte-viande-1858.png"
 
 [http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm](http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm)
 
-![](images/1_mAK-AuR0oWkPtICrvXq8Tw.gif)
+![](images/1_mAK-AuR0oWkPtICrvXq8Tw.png)
 
 [https://www.e-education.psu.edu/natureofgeoinfo/c3_p17.html](https://www.e-education.psu.edu/natureofgeoinfo/c3_p17.html
 )

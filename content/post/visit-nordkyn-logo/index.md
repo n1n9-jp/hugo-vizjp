@@ -30,7 +30,7 @@ Nordkyn はノルウェー北部、フィンマルク県に位置する半島地
 ### ブランド統一と連携強化
 
 
-![生成されたロゴ群](images/90-visit-nordkyn-logos-generated-over-90-days-to-illustrate-the-dynamic-identity.gif)
+![生成されたロゴ群](images/90-visit-nordkyn-logos-generated-over-90-days-to-illustrate-the-dynamic-identity.png)
 
 Visit Nordkyn は、複数の町・自治体・観光事業者が連携して観光振興を図る組織です。地域の各プレイヤーの意見、視点、訴求ポイントを統合しつつ、それぞれを束ねる共通のビジュアル表現を持つ必要がありました。静的なロゴではなく、柔軟で変化できる表現は、それぞれの関係性をうまく包摂できる可能性を秘めています。  ￼
 

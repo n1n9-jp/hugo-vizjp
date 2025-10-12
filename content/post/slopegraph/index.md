@@ -10,7 +10,7 @@ categories = [
 tags = [
     "",
 ]
-image = "images/infant_mortality.gif"
+image = "images/infant_mortality.png"
 +++
 
 スロープグラフとは、異なるカテゴリーデータについて、定量値が2つの時点でどのように変化したかを示す、簡略化された折れ線グラフです。その結果、折れ線ではなく直線のみで構成されるため、通常の折れ線グラフよりも読みやすく、多くの系列が乱雑にならずに済みます。二軸はそれぞれ共通の値範囲を持ちます。
@@ -25,14 +25,14 @@ image = "images/infant_mortality.gif"
 
 ### Edward Tufteの書籍に掲載の作例
 
-![](images/0003nk-10289.gif)
+![](images/0003nk-10289.png)
 
 [Slopegraphs for comparing gradients: Slopegraph theory and practice](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0003nk)
 
 
 ### ニューヨーク・タイムズ紙 1960年から2004年までの乳児死亡率の比較
 
-![](images/infant_mortality.gif)
+![](images/infant_mortality.png)
 
 [The New York Times > Health > Image > Infant Mortality Rates World Wide](https://archive.nytimes.com/www.nytimes.com/imagepages/2009/04/06/health/infant_stats.html)
 

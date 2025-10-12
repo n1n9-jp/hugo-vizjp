@@ -90,7 +90,7 @@ image = "images/1_bUT8E8oOLmX_my3TTFhHfA.png"
 
 <figure>
 
-![](images/1_mAK-AuR0oWkPtICrvXq8Tw.gif)
+![](images/1_mAK-AuR0oWkPtICrvXq8Tw.png)
 
 <figcaption>
 

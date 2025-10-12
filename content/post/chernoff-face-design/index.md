@@ -53,7 +53,7 @@ image = "images/cover.png"
 
 [Q&A: Oliver Uberti, Oliver Uberti Creative | AIGA Washington, DC](https://dc.aiga.org/qa-oliver-uberti-oliver-uberti-creative/)
 
-![](images/islingtonhasissues-1024x585.gif)
+![](images/islingtonhasissues-1024x585.png)
 
 
 ## 作者不明

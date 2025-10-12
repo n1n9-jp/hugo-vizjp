@@ -57,9 +57,9 @@ CreativeApplications.Net の記事によると、ロゴ生成には Processing �
 - SVG をエクスポートし、Illustrator のスクリプトで CMYK PDF に変換。
 
 
-![](images/Identity_short1.gif)
+![](images/Identity_short1.png)
 
-![](images/Identity_short2.gif)
+![](images/Identity_short2.png)
 
 
 ## 割り当て方式 ― 自動ではなく「選択」

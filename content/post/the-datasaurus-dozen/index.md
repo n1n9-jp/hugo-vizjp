@@ -33,7 +33,7 @@ image = "images/AllDinosGrey_1-2048x1431.png"
 
 共通の要約統計量を持つデータセットをゼロベースから生成するのは難しいと考え、既存のデータセットからスタートし、それらの統計的特性を維持しながら、望みの視覚的印象に近づくまで、少しづつ繰り返し修正を行う、というアプローチをとっています。
 
-![Anscombe’s Quartet](images/DinoSequentialSmaller.gif)
+![Anscombe’s Quartet](images/DinoSequentialSmaller.png)
 
 - [Animation showing the progression of the Datasaurus Dozen dataset through all of the target shapes.](https://www.autodeskresearch.com/publications/samestats)
 - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)

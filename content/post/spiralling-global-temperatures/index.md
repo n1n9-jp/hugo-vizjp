@@ -24,7 +24,7 @@ image = "images/cover-spiralling.png"
 
 ## Ed Hawkins の「Spiralling global temperatures」
 
-![Spiralling global temperatures](images/global_temperature_spiral_latest_large.gif)
+![Spiralling global temperatures](images/global_temperature_spiral_latest_large.png)
 
 https://www.climate-lab-book.ac.uk/2016/spiralling-global-temperatures/
 
@@ -109,7 +109,7 @@ https://www.rmets.org/metmatters/olympic-ceremony-features-uk-scientists-climate
 
 ![三次元版](images/gmst_tornado-2.png)
 
-![三次元版（アニメーション）](images/tornado2_spin.gif)
+![三次元版（アニメーション）](images/tornado2_spin.png)
 
 https://www.climate-lab-book.ac.uk/spirals/
 

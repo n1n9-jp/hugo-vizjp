@@ -72,7 +72,7 @@ Marcosさんのnewsmapにインスパイアされた作品をJSで実装。
 
 ### Truck Sales Slip, Tripping Up Chrysler
 
-![](images/0225-sbn-subCHRYSLER.gif)
+![](images/0225-sbn-subCHRYSLER.png)
 
 - [Truck Sales Slip, Tripping Up Chrysler](https://archive.nytimes.com/www.nytimes.com/imagepages/2007/02/25/business/20070225_CHRYSLER_GRAPHIC.html)
 

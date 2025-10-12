@@ -35,7 +35,7 @@ https://www.arcgis.com/apps/Cascade/index.html?appid=fde9d5cc2716490faf1e861d171
 
 ### ウィーン市の人口密度。コロプレス（前者）とディシメトリック（後者）。
 
-![](images/dasy2.gif)
+![](images/dasy2.png)
 
 GIFアニメーションで切り替わるように処理されている画像
 

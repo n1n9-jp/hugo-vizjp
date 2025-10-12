@@ -87,7 +87,7 @@ image = "images/State-of-the-Union-2.png"
 
 ### 使われた言葉
 
-![](images/words_for_web.gif)
+![](images/words_for_web.png)
 
 [The Words They Used – New York Times](https://archive.nytimes.com/www.nytimes.com/interactive/2008/09/04/us/politics/20080905_WORDS_GRAPHIC.html)
 
