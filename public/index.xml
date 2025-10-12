@@ -74,12 +74,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ウィリアム・プレイフェアが描いた「円」のグラフは2種類あった</title>
+        <title>ウィリアム・プレイフェアが描いた「円」グラフは2種類あった</title>
         <link>http://localhost:1313/pie-chart-william-playfair/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/pie-chart-william-playfair/</guid>
-        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post ウィリアム・プレイフェアが描いた「円」のグラフは2種類あった" /&gt;&lt;p&gt;ウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」チャートとして「円グラフ（Pie Chart）」を発明したと言われています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post ウィリアム・プレイフェアが描いた「円」グラフは2種類あった" /&gt;&lt;p&gt;ウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」チャートとして「円グラフ（Pie Chart）」を発明したと言われています。&lt;/p&gt;
 &lt;p&gt;ところが、彼が実際に描いた円の図には、少し異なる2つの形式があったのです。どちらも1801年の著書『Statistical Breviary（統計摘要）』に登場します。&lt;/p&gt;
 &lt;h2 id=&#34;1-扇形で分けるタイプ--世界初の円グラフpie-chart&#34;&gt;1. 「扇形で分ける」タイプ —— 世界初の円グラフ（Pie Chart）
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt-1.png&#34;
@@ -94,7 +94,8 @@
 		data-flex-basis=&#34;250px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;プレイフェアは &lt;strong&gt;トルコ帝国（オスマン帝国）&lt;/strong&gt; の領土を「ヨーロッパ・アジア・アフリカ」に分けて示すため、ひとつの円を3つの扇形に区切りました。各部分の角度（＝円周の比率）が全体に対する割合を表しています。これが、現在私たちが使う円グラフ（pie chart）の原点です。&lt;/p&gt;
+&lt;p&gt;この図は、アメリカ合衆国の各州および新たに取得された領土（ルイジアナ、フロリダなど）の面積を比例的に示したものです。タイトル下には「This Proportional Method is intended to shew the Proportion between the divisions of a Territory」（この比例的な方法は領土の区分間の比率を示すことを意図している）と書かれています。&lt;/p&gt;
+&lt;p&gt;プレイフェアは、経済や地理的規模などの比較を視覚的に理解させるため、データを図として表現することに強い関心を持っていました。この作品では、円の扇形（セクター）の角度が各州の面積に比例しており、現在の円グラフ（Pie Chart）の原理そのものです。&lt;/p&gt;
 &lt;h2 id=&#34;2-同心円で分けるタイプ--面積で比較する円circle-area-chart&#34;&gt;2. 「同心円で分ける」タイプ —— 面積で比較する円（Circle Area Chart）
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt-2.png&#34;
 	width=&#34;2300&#34;
@@ -108,45 +109,51 @@
 		data-flex-basis=&#34;398px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;もうひとつは、ロシア帝国を表した図です。ロシアはヨーロッパとアジアの両方にまたがる国。&lt;/p&gt;
-&lt;p&gt;そのため、プレイフェアは円を &lt;strong&gt;二重構造（同心円）&lt;/strong&gt; にして、中心の円をヨーロッパ領、外側の輪（環）をアジア領としました。&lt;/p&gt;
-&lt;p&gt;この図では &lt;strong&gt;半径の大きさ（＝面積）&lt;/strong&gt; によって領土の比率を示しています。
+&lt;p&gt;この図では &lt;strong&gt;面積&lt;/strong&gt; によって領土の比率を示しています。
 つまり、ここでの円は「角度」ではなく「面積」で数量を比較する図であり、
-現代でいう 円面積チャート（circle area chart） の原型です。&lt;/p&gt;
-&lt;table&gt;
+現代でいう &lt;strong&gt;円面積チャート（circle area chart）&lt;/strong&gt; の原型です。&lt;/p&gt;
+&lt;p&gt;ただ、この中で、ロシア帝国とトルコ帝国（オスマン帝国）についてのみ、内訳を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend.png&#34;
+	width=&#34;823&#34;
+	height=&#34;617&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend_hu_2347505f0bc92373.png 480w, http://localhost:1313/pie-chart-william-playfair/images/legend_hu_cbe435e5728d14f2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ロシア帝国とトルコ帝国&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ロシア帝国は円を &lt;strong&gt;二重構造（同心円）&lt;/strong&gt; にして &lt;strong&gt;中心の円をヨーロッパ領、外側の円（環）をアジア領&lt;/strong&gt; としました。&lt;/p&gt;
+&lt;p&gt;トルコ帝国では、現代の円グラフ風に &lt;strong&gt;角度&lt;/strong&gt; として &lt;strong&gt;ヨーロッパ・アジア・アフリカという領土の内訳&lt;/strong&gt; が示されています。各部分の角度（＝円周の比率）が全体に対する割合を表しています。&lt;/p&gt;
+&lt;p&gt;なぜ2種類を使い分けたのかについては、プレイフェア自身の意図というよりは、描く都合の違いが大きかったと考えられています。
+当時は手描きの彩色版で、図の大きさにも限界がありました。ロシアのように大きい国は円を二重構造にしても描けましたが、トルコ帝国のように小さな国では、放射状に分けたほうが見やすかったのです。つまり、技術的な制約の中で生まれた2種類の円表現だったわけです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;種類&lt;/th&gt;
           &lt;th&gt;現代の呼び方&lt;/th&gt;
           &lt;th&gt;表現原理&lt;/th&gt;
-          &lt;th&gt;対象&lt;/th&gt;
           &lt;th&gt;特徴&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;1&lt;/td&gt;
           &lt;td&gt;円グラフ（Pie Chart）&lt;/td&gt;
           &lt;td&gt;&lt;strong&gt;角度&lt;/strong&gt; で割合を示す&lt;/td&gt;
-          &lt;td&gt;トルコ帝国&lt;/td&gt;
           &lt;td&gt;円を扇形に分割して、地域ごとの比率を表す。世界初の「円グラフ」。&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;2&lt;/td&gt;
           &lt;td&gt;円面積チャート（Circle Area Chart）&lt;/td&gt;
-          &lt;td&gt;&lt;strong&gt;面積（半径²）&lt;/strong&gt; で数量を示す&lt;/td&gt;
-          &lt;td&gt;ロシア帝国&lt;/td&gt;
-          &lt;td&gt;同心円の面積でヨーロッパ領とアジア領を比較する。円グラフとは異なり「面積比較図」。&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;面積&lt;/strong&gt; で数値を示す&lt;/td&gt;
+          &lt;td&gt;同心円の面積で比較する。円グラフとは異なり「面積比較図」。&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;なぜ2種類を使ったのか&#34;&gt;なぜ2種類を使ったのか？
-&lt;/h2&gt;&lt;p&gt;プレイフェア自身の意図というよりは、描く都合の違いが大きかったと考えられています。
-当時は手描きの彩色版で、図の大きさにも限界がありました。&lt;/p&gt;
-&lt;p&gt;ロシアのように大きい国は円を二重構造にしても描けましたが、トルコ帝国のように小さな国では、放射状に分けたほうが見やすかったのです。&lt;/p&gt;
-&lt;p&gt;つまり、技術的な制約の中で生まれた2種類の円表現だったわけです。&lt;/p&gt;
-&lt;h2 id=&#34;一言でまとめると&#34;&gt;一言でまとめると
-&lt;/h2&gt;&lt;p&gt;プレイフェアの「円の図」は、ひとつは &lt;strong&gt;角度で割合を見せる円グラフ（Pie Chart）&lt;/strong&gt; 、もうひとつは &lt;strong&gt;面積で比較する円面積チャート（Circle Area Chart）&lt;/strong&gt; と呼べるものでした。&lt;/p&gt;
+&lt;p&gt;プレイフェアの「円の図」は、ひとつは &lt;strong&gt;角度で割合を見せる円グラフ（Pie Chart）&lt;/strong&gt; 、もうひとつは &lt;strong&gt;面積で比較する円面積チャート（Circle Area Chart）&lt;/strong&gt; と呼べるものでした。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://m-a.org.uk/resources/PE4LifeofPie.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
