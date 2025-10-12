@@ -7,7 +7,287 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/consume/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>円グラフ (Pie Chart)</title>
+        <link>http://localhost:1313/pie-chart/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/pie-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/pie-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 円グラフ (Pie Chart)" /&gt;&lt;p&gt;円グラフ（Pie Chart）は、全体に対する各部分の割合を円形で表現する代表的な可視化手法です。円を「パイ（pie）」に見立て、全体を1（100%）として分割し、各カテゴリーの占める割合を扇形（スライス）で示します。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;円グラフでは、各スライスの &lt;strong&gt;角度&lt;/strong&gt; がデータの割合を表します。たとえば全体が100人で、そのうち40人がA、30人がB、30人がCのグループに属している場合、Aは円の40%、つまり144°（360°×0.4）の角度を持ちます。スライスの &lt;strong&gt;面積や色&lt;/strong&gt; を通じて、視覚的に構成比を直感的に比較できるのが特徴です。&lt;/p&gt;
+&lt;p&gt;多くの場合、スライスには &lt;strong&gt;凡例&lt;/strong&gt; や &lt;strong&gt;ラベル&lt;/strong&gt; が添えられ、カテゴリー名や比率（%）が明記されます。&lt;/p&gt;
+&lt;p&gt;また、強調したい項目を &lt;strong&gt;少し外に引き出す（explode）&lt;/strong&gt; ことで視覚的なアクセントをつけることもあります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と歴史&#34;&gt;背景と歴史
+&lt;/h2&gt;&lt;p&gt;円グラフは、1801年にスコットランドの経済学者 &lt;strong&gt;ウィリアム・プレイフェア（William Playfair）&lt;/strong&gt; によって初めて提案されたとされています。彼は『Statistical Breviary』の中で、各国の領土や人口の比較を目的に円グラフを使用しました。以来、新聞、行政資料、プレゼンテーションなど、定性的な比較に広く利用されてきました。&lt;/p&gt;
+&lt;p&gt;ただし、円グラフは視覚的には印象的ですが、&lt;strong&gt;角度の比較が難しい&lt;/strong&gt;ため、数値の差が小さい場合には棒グラフなど他の可視化手法の方が有効です。特にカテゴリー数が多い場合や、差異を精確に比較する目的では適しません。&lt;/p&gt;
+&lt;h2 id=&#34;使用上の注意点&#34;&gt;使用上の注意点
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;注意点&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スライスの数&lt;/td&gt;
+          &lt;td&gt;多すぎると識別が困難（通常5〜7カテゴリ以内が望ましい）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ラベル&lt;/td&gt;
+          &lt;td&gt;パーセント表示や凡例を明確に配置する&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;色使い&lt;/td&gt;
+          &lt;td&gt;類似色を避け、コントラストを確保する&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;並び順&lt;/td&gt;
+          &lt;td&gt;値の大きい順や時計回りの順序で配置すると理解しやすい&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;現代的な応用&#34;&gt;現代的な応用
+&lt;/h2&gt;&lt;p&gt;今日では、デジタル可視化ツール（Tableau、Excel、Google Charts、D3.jsなど）で容易に作成でき &lt;strong&gt;ドーナツチャート（Doughnut Chart）&lt;/strong&gt; や &lt;strong&gt;3D円グラフ&lt;/strong&gt; など派生形式も広く用いられています。特にダッシュボードや報告資料では、「全体の中の割合を直感的に伝える」目的で今なお重要な役割を担っています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;円グラフは、構成比を単純明快に表す基本的なチャートであり、定性的な比較や比率の可視化に適しています。ただし、視覚的な美しさとわかりやすさの反面、角度の認識誤差や多カテゴリでの識別難などの限界もあるため、目的に応じて適切に使い分けることが重要です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/William_Playfair&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;William Playfair - Statistical Breviary (Wikipedia)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/pie_chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Visualization Catalogue – Pie Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/ja-jp/office/%E5%86%86%E3%82%B0%E3%83%A9%E3%83%95%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-8f46d2f5-6eab-4f32-8b1a-0c7e5f9e0a8a&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Learn – 円グラフを作成する&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://help.tableau.com/current/pro/desktop/ja-jp/buildexamples_pie.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau Help – 円グラフ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>円グラフの発明</title>
+        <link>http://localhost:1313/pie-chart-william-playfair/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/pie-chart-william-playfair/</guid>
+        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post 円グラフの発明" /&gt;&lt;p&gt;この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『&lt;em&gt;The Statistical Breviary&lt;/em&gt;』に収録されたものです。&lt;/p&gt;
+&lt;p&gt;正式タイトルは「&lt;em&gt;Statistical Chart, showing the Extent, the Population &amp;amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude&lt;/em&gt;」。&lt;/p&gt;
+&lt;p&gt;ヨーロッパ諸国の&lt;strong&gt;領土面積・人口・国家歳入&lt;/strong&gt;という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt.png&#34;
+	width=&#34;2300&#34;
+	height=&#34;1385&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt_hu_473d3d89fe09cdb7.png 480w, http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt_hu_346abcff74a8b124.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;166&#34;
+		data-flex-basis=&#34;398px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの構造と読み方&#34;&gt;チャートの構造と読み方
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend.png&#34;
+	width=&#34;361&#34;
+	height=&#34;859&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend_hu_4bd8be8fe6bf3456.png 480w, http://localhost:1313/pie-chart-william-playfair/images/legend_hu_987449cbc0b7da92.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;42&#34;
+		data-flex-basis=&#34;100px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;一見して凡例は見当たりませんが、プレイフェア本人の解説（『Statistical Breviary』本文）および後世の研究（Friendly, Pritchard, Spence など）から、図の構造は次のように解釈されています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;視覚的表現&lt;/th&gt;
+          &lt;th&gt;内容・意味&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;円の面積&lt;/td&gt;
+          &lt;td&gt;比例スケール&lt;/td&gt;
+          &lt;td&gt;各国の総面積（平方マイル）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;内側の円&lt;/td&gt;
+          &lt;td&gt;外円との比&lt;/td&gt;
+          &lt;td&gt;ヨーロッパ領土部分（European Dominions）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;左側の縦線（実線）&lt;/td&gt;
+          &lt;td&gt;ピンク系&lt;/td&gt;
+          &lt;td&gt;人口（左目盛に対応, 単位: 百万人）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;右側の縦線（実線）&lt;/td&gt;
+          &lt;td&gt;黄系&lt;/td&gt;
+          &lt;td&gt;国家歳入（右目盛に対応, 単位: 百万ポンド）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;両線を結ぶ点線&lt;/td&gt;
+          &lt;td&gt;斜線・破線&lt;/td&gt;
+          &lt;td&gt;同一国の人口線と歳入線を結ぶ補助線（比較を視覚的に対応づけるため）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;プレイフェア本人の説明&#34;&gt;プレイフェア本人の説明
+&lt;/h2&gt;&lt;p&gt;プレイフェアは原著の本文で次のように述べています。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The figures within the circles shew the number of square miles in the countries they represent.&lt;br&gt;
+The dotted lines drawn between the population and revenue, are merely intended to connect together the lines belonging to the same country.”&lt;br&gt;
+（『The Statistical Breviary』1801年より）&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;この記述から、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;円内の数値＝国土の面積&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点線＝人口線と歳入線を「同一国のもの」として結ぶ補助線&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;であることが明確にわかります。つまり、点線は新たな変数を表すものではなく &lt;strong&gt;二つのスケールを対比するための導線&lt;/strong&gt; として描かれているのです。&lt;/p&gt;
+&lt;h2 id=&#34;部分拡大フランススペインブリテンの比較&#34;&gt;部分拡大：フランス・スペイン・ブリテンの比較
+&lt;/h2&gt;&lt;p&gt;図の右半分では、フランス（France）、スペイン（Spain）、ブリテンおよびアイルランド（Britain &amp;amp; Ireland）の三国が並びます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;円（面積）&lt;/strong&gt;&lt;br&gt;
+フランス149,000平方マイル、スペイン148,000平方マイル、ブリテン105,000平方マイル。&lt;br&gt;
+面積ではフランスとスペインがほぼ同等、ブリテンはやや小さい。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;左側の線（人口）&lt;/strong&gt;&lt;br&gt;
+フランス：約2,700万人、スペイン：約1,500万人、ブリテン：約1,000万人。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;右側の線（歳入）&lt;/strong&gt;&lt;br&gt;
+フランス：約174百万ポンド、スペイン：約74百万ポンド、ブリテン：約210百万ポンド。&lt;br&gt;
+→ 面積・人口で劣るブリテンが、歳入では突出して高い位置に描かれています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;点線の傾き&lt;/strong&gt;&lt;br&gt;
+右上がりに描かれることで「人口に対して歳入が多い国」を直感的に示します。&lt;br&gt;
+フランスとスペインは線がほぼ水平ですが、ブリテンでは右の線（歳入）が極端に高く、急な右上がりの点線が描かれています。&lt;br&gt;
+これは &lt;strong&gt;少ない人口で多くの収入を得る国＝経済効率が高い国&lt;/strong&gt; としてのブリテンの姿を視覚的に表しています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;歴史的背景と意義&#34;&gt;歴史的背景と意義
+&lt;/h2&gt;&lt;p&gt;1801年はナポレオン戦争直前、ヨーロッパ諸国の勢力比較が政治的関心の的となっていた時代です。&lt;br&gt;
+プレイフェアは『Statistical Breviary』において、各国の「国力」を数字だけでなく &lt;strong&gt;視覚的に理解できる形に翻訳&lt;/strong&gt; することを目的としていました。&lt;/p&gt;
+&lt;p&gt;この図では、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;面積（国土の広さ）&lt;/li&gt;
+&lt;li&gt;人口（人的資源）&lt;/li&gt;
+&lt;li&gt;歳入（財政力）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という三つの要素を重ねて表現することで、「国家の規模と富の関係」を一目で理解できるように設計されています。&lt;/p&gt;
+&lt;p&gt;この試みは、後世の「バブルチャート」や「複合グラフ」の原型とされ、データ・ビジュアライゼーション史における画期的な発明でした。&lt;/p&gt;
+&lt;h2 id=&#34;現代的視点からの再評価&#34;&gt;現代的視点からの再評価
+&lt;/h2&gt;&lt;p&gt;この図は、今日の情報可視化においてもいくつかの重要な教訓を与えます。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;異なるスケールの変数を一つの図に統合する方法&lt;/strong&gt; &amp;hellip;現代のマルチアクシス・チャートの先駆例&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;構造的凡例がなくても、視覚的秩序で意味を導く設計&lt;/strong&gt; &amp;hellip;情報デザインとしての強い直感性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;「傾き」や「高さ」の比較が象徴的なメッセージを持つ&lt;/strong&gt; &amp;hellip;定量精度よりも関係性の強調&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;これらはいずれも、プレイフェアが単に統計を示すのではなく &lt;strong&gt;ストーリーを伝えるための図&lt;/strong&gt; を構想していたことを示しています。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;ウィリアム・プレイフェアの『Statistical Chart』は、凡例を欠きながらも構造的秩序によって「国土・人口・歳入」という三つの変数を同時に比較させる視覚言語を確立しました。&lt;/p&gt;
+&lt;p&gt;彼が述べたように点線は単なる「連結線」ですが、それによって三つの尺度が統合され、見る者は&lt;strong&gt;国の規模・人の数・富の力&lt;/strong&gt;を一目で感じ取ることができます。&lt;/p&gt;
+&lt;p&gt;この図は、現代の情報デザインやデータビジュアライゼーションの原点に位置づけられる作品です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://books.google.com/books/about/The_statistical_breviary_shewing_the_res.html?id=Y4wBAAAAQAAJ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Books – &lt;em&gt;The Statistical Breviary&lt;/em&gt; (1801, William Playfair)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~287375~90062410&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;David Rumsey Map Collection – Statistical Chart, 1801&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://dokumen.pub/a-history-of-data-visualization-and-graphic-communication-illustrated-0674975235-9780674975231.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Friendly, M. – &lt;em&gt;A History of Data Visualization and Graphic Communication&lt;/em&gt; (Harvard University Press, 2021)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://m-a.org.uk/resources/PE4LifeofPie.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pritchard, C. – “Life of Pie: William Playfair and the Impact of the Visual” (Mathematical Association, 2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://branchcollective.org/?ps_articles=jonathan-sachs-17861801-william-playfair-statistical-graphics-and-the-meaning-of-an-event&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Branch Collective – Jonathan Sachs, “William Playfair, Statistical Graphics, and the Meaning of an Event”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>散布図（Scatterplot）</title>
+        <link>http://localhost:1313/scatterplot/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/scatterplot/</guid>
+        <description>&lt;img src="http://localhost:1313/scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 散布図（Scatterplot）" /&gt;&lt;p&gt;散布図（スキャッタープロット）は、&lt;strong&gt;2つの変数の関係を視覚的に示すための基本的な統計図&lt;/strong&gt;です。横軸（X軸）に一方の変数を、縦軸（Y軸）にもう一方の変数を取り、各データ点を1つの点としてプロットします。これにより、変数間の相関関係や分布傾向を直感的に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;散布図の1点は1つの観測対象（例：人、都市、商品など）を表します。&lt;br&gt;
+横軸は「説明変数（独立変数）」、縦軸は「目的変数（従属変数）」を取ることが一般的です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;右上がりの傾向&lt;/strong&gt;：Xが大きくなるとYも大きくなる → 正の相関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;右下がりの傾向&lt;/strong&gt;：Xが大きくなるとYが小さくなる → 負の相関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点がばらばらに散らばる&lt;/strong&gt;：相関が弱い、または関係がない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;データ点が一直線に近い場合、2変数の間には強い相関関係があると判断されます。&lt;br&gt;
+さらに、各点の&lt;strong&gt;色やサイズ&lt;/strong&gt;を別の変数に対応させることで、3次元的な情報（例：人口やカテゴリ）を加えることもできます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;p&gt;散布図は &lt;strong&gt;統計学やデータサイエンスの基礎的な可視化手法&lt;/strong&gt; であり、初期のデータ探索（Exploratory Data Analysis, EDA）で頻繁に使われます。&lt;/p&gt;
+&lt;p&gt;歴史的には &lt;strong&gt;19世紀初頭にフランスの統計学者アドルフ・ケトレー（Adolphe Quetelet）&lt;/strong&gt; が、人体測定データの研究において散布図を用いたことが知られています。その後 &lt;strong&gt;フランシス・ゴルトン（Francis Galton）&lt;/strong&gt; が「回帰（regression）」と「相関（correlation）」の概念を提唱する中で散布図を多用し、現在の統計可視化の基礎を築きました。&lt;/p&gt;
+&lt;p&gt;現代では、機械学習や経済分析、環境データ、医療データなど &lt;strong&gt;2変数の関係性を確認する最初のステップ&lt;/strong&gt; として広く利用されています。&lt;/p&gt;
+&lt;h2 id=&#34;典型的な応用例&#34;&gt;典型的な応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+          &lt;th&gt;X軸&lt;/th&gt;
+          &lt;th&gt;Y軸&lt;/th&gt;
+          &lt;th&gt;補助情報（色・サイズなど）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;経済分析&lt;/td&gt;
+          &lt;td&gt;1人当たりGDP&lt;/td&gt;
+          &lt;td&gt;平均寿命&lt;/td&gt;
+          &lt;td&gt;国の地域分類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育データ&lt;/td&gt;
+          &lt;td&gt;勉強時間&lt;/td&gt;
+          &lt;td&gt;テスト得点&lt;/td&gt;
+          &lt;td&gt;学校や学年&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;マーケティング&lt;/td&gt;
+          &lt;td&gt;広告費&lt;/td&gt;
+          &lt;td&gt;売上高&lt;/td&gt;
+          &lt;td&gt;商品カテゴリ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;科学データ&lt;/td&gt;
+          &lt;td&gt;温度&lt;/td&gt;
+          &lt;td&gt;反応速度&lt;/td&gt;
+          &lt;td&gt;材料の種類&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;散布図の拡張&#34;&gt;散布図の拡張
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;回帰線の追加&lt;/strong&gt;：データ全体の傾向を線で示すことで、相関をより明確にする。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バブルチャート（Bubble Chart）&lt;/strong&gt;：点の大きさを第三の変数に対応させる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;散布図行列（Scatterplot Matrix）&lt;/strong&gt;：複数の変数ペアの関係をまとめて表示する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの拡張により、単純な2変数の可視化から、より多次元的な理解へと発展させることができます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;散布図は「相関を見るための最初のレンズ」ともいえる基本的な可視化です。データの傾向をざっくりと把握し、次の分析ステップ（回帰分析やクラスタリングなど）へと導くための重要な出発点になります。見た目はシンプルですが、その背後には統計的洞察が詰まっています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Scatter_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Scatter plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/graph/scatter.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data to Viz: Scatterplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/scatterplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dataviz Catalogue: Scatterplot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Gapminder World Map 2010</title>
         <link>http://localhost:1313/gapminder-world-map-2010/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
@@ -151,12 +431,12 @@
 		data-flex-basis=&#34;169px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h3 id=&#34;estilo-internacional国際様式&#34;&gt;Estilo Internacional（国際様式）
-&lt;/h3&gt;&lt;p&gt;右側の図は、1950年から1960年の間に生まれた「インターナショナル・タイポグラフィック・スタイル（スイス様式）」の時代を描いたものです。中心に置かれた「a」のシンボルは、アクシデンツ・グロテスク（Akzidenz Grotesk）を象徴しており、無駄のない構造と中立的なデザインが特徴です。&lt;/p&gt;
 &lt;h3 id=&#34;チャートの見方-1&#34;&gt;チャートの見方
 &lt;/h3&gt;&lt;p&gt;放射状の年表に沿って、1950年から1960年までに登場した主要フォントが扇状に配置されています。緑色はSans Serif系フォント、オレンジ色はSerif系フォントを表します。&lt;/p&gt;
 &lt;p&gt;例えば、1957年には &lt;strong&gt;Helvetica&lt;/strong&gt;（Max Miedinger）と &lt;strong&gt;Univers&lt;/strong&gt;（Adrian Frutiger）が登場し、スイス・デザインの黄金期を象徴しています。翌年1958年には &lt;strong&gt;Optima&lt;/strong&gt;（Hermann Zapf）や &lt;strong&gt;Numbus Sans&lt;/strong&gt; などが発表され、これらは後の国際的なデザイン標準となりました。&lt;/p&gt;
 &lt;p&gt;下部には主要な書体デザイナー（Zapf, Frutiger, Miedinger, Bauer, Baum）の肖像と活動期間が示されています。これにより、国際スタイルの形成における主要人物が視覚的に理解できるようになっています。&lt;/p&gt;
+&lt;h3 id=&#34;背景と意図-1&#34;&gt;背景と意図
+&lt;/h3&gt;&lt;p&gt;右側の図は、1950年から1960年の間に生まれた「インターナショナル・タイポグラフィック・スタイル（スイス様式）」の時代を描いたものです。中心に置かれた「a」のシンボルは、アクシデンツ・グロテスク（Akzidenz Grotesk）を象徴しており、無駄のない構造と中立的なデザインが特徴です。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;Clara Prieto氏による「Tipográficos」シリーズは、タイポグラフィ史をデータビジュアライゼーションとして再構成した優れた作品です。書体という静的なデザイン要素を時間軸とカテゴリーで整理することで、デザイナーたちの創作の広がりと、時代ごとの美学的変遷を一目で理解できる構造になっています。
 情報デザインとしても完成度が高く、教育・展示用途にも適した作品です。&lt;/p&gt;

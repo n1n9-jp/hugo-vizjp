@@ -211,6 +211,83 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>散布図（Scatterplot）</title>
+        <link>http://localhost:1313/scatterplot/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/scatterplot/</guid>
+        <description>&lt;img src="http://localhost:1313/scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 散布図（Scatterplot）" /&gt;&lt;p&gt;散布図（スキャッタープロット）は、&lt;strong&gt;2つの変数の関係を視覚的に示すための基本的な統計図&lt;/strong&gt;です。横軸（X軸）に一方の変数を、縦軸（Y軸）にもう一方の変数を取り、各データ点を1つの点としてプロットします。これにより、変数間の相関関係や分布傾向を直感的に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;散布図の1点は1つの観測対象（例：人、都市、商品など）を表します。&lt;br&gt;
+横軸は「説明変数（独立変数）」、縦軸は「目的変数（従属変数）」を取ることが一般的です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;右上がりの傾向&lt;/strong&gt;：Xが大きくなるとYも大きくなる → 正の相関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;右下がりの傾向&lt;/strong&gt;：Xが大きくなるとYが小さくなる → 負の相関&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点がばらばらに散らばる&lt;/strong&gt;：相関が弱い、または関係がない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;データ点が一直線に近い場合、2変数の間には強い相関関係があると判断されます。&lt;br&gt;
+さらに、各点の&lt;strong&gt;色やサイズ&lt;/strong&gt;を別の変数に対応させることで、3次元的な情報（例：人口やカテゴリ）を加えることもできます。&lt;/p&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;p&gt;散布図は &lt;strong&gt;統計学やデータサイエンスの基礎的な可視化手法&lt;/strong&gt; であり、初期のデータ探索（Exploratory Data Analysis, EDA）で頻繁に使われます。&lt;/p&gt;
+&lt;p&gt;歴史的には &lt;strong&gt;19世紀初頭にフランスの統計学者アドルフ・ケトレー（Adolphe Quetelet）&lt;/strong&gt; が、人体測定データの研究において散布図を用いたことが知られています。その後 &lt;strong&gt;フランシス・ゴルトン（Francis Galton）&lt;/strong&gt; が「回帰（regression）」と「相関（correlation）」の概念を提唱する中で散布図を多用し、現在の統計可視化の基礎を築きました。&lt;/p&gt;
+&lt;p&gt;現代では、機械学習や経済分析、環境データ、医療データなど &lt;strong&gt;2変数の関係性を確認する最初のステップ&lt;/strong&gt; として広く利用されています。&lt;/p&gt;
+&lt;h2 id=&#34;典型的な応用例&#34;&gt;典型的な応用例
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+          &lt;th&gt;X軸&lt;/th&gt;
+          &lt;th&gt;Y軸&lt;/th&gt;
+          &lt;th&gt;補助情報（色・サイズなど）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;経済分析&lt;/td&gt;
+          &lt;td&gt;1人当たりGDP&lt;/td&gt;
+          &lt;td&gt;平均寿命&lt;/td&gt;
+          &lt;td&gt;国の地域分類&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育データ&lt;/td&gt;
+          &lt;td&gt;勉強時間&lt;/td&gt;
+          &lt;td&gt;テスト得点&lt;/td&gt;
+          &lt;td&gt;学校や学年&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;マーケティング&lt;/td&gt;
+          &lt;td&gt;広告費&lt;/td&gt;
+          &lt;td&gt;売上高&lt;/td&gt;
+          &lt;td&gt;商品カテゴリ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;科学データ&lt;/td&gt;
+          &lt;td&gt;温度&lt;/td&gt;
+          &lt;td&gt;反応速度&lt;/td&gt;
+          &lt;td&gt;材料の種類&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;散布図の拡張&#34;&gt;散布図の拡張
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;回帰線の追加&lt;/strong&gt;：データ全体の傾向を線で示すことで、相関をより明確にする。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;バブルチャート（Bubble Chart）&lt;/strong&gt;：点の大きさを第三の変数に対応させる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;散布図行列（Scatterplot Matrix）&lt;/strong&gt;：複数の変数ペアの関係をまとめて表示する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの拡張により、単純な2変数の可視化から、より多次元的な理解へと発展させることができます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;散布図は「相関を見るための最初のレンズ」ともいえる基本的な可視化です。データの傾向をざっくりと把握し、次の分析ステップ（回帰分析やクラスタリングなど）へと導くための重要な出発点になります。見た目はシンプルですが、その背後には統計的洞察が詰まっています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Scatter_plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Scatter plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/graph/scatter.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data to Viz: Scatterplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/scatterplot.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dataviz Catalogue: Scatterplot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>3D ツリーマップ（3D Treemaps）</title>
         <link>http://localhost:1313/3d-treemaps/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
