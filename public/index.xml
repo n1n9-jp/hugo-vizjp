@@ -8,6 +8,83 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>バブル・チャート（Bubble Chart）</title>
+        <link>http://localhost:1313/bubble-chart/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bubble-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/bubble-chart/images/thumb_ph_vizjp.png" alt="Featured image of post バブル・チャート（Bubble Chart）" /&gt;&lt;p&gt;バブル・チャート（Bubble Chart）は &lt;strong&gt;散布図（Scatter Plot）を拡張した多次元データの可視化手法&lt;/strong&gt; です。基本的な散布図では、横軸（X軸）と縦軸（Y軸）の2変数でデータ点をプロットしますが、バブル・チャートではさらに &lt;strong&gt;「円（バブル）の大きさ」&lt;/strong&gt; で3つ目の変数を表現します。場合によっては色や透明度を使って4つ目、5つ目の変数を同時に可視化することも可能です。&lt;/p&gt;
+&lt;p&gt;このように、バブル・チャートは &lt;strong&gt;「3次元以上の情報を2次元平面上で表す」&lt;/strong&gt; ことを目的としています。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;各データ点は「円（バブル）」として表されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X軸&lt;/strong&gt;：1つ目の変数（例：GDP）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Y軸&lt;/strong&gt;：2つ目の変数（例：平均寿命）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;円の大きさ（面積）&lt;/strong&gt;：3つ目の変数（例：人口）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;円の色&lt;/strong&gt;（オプション）：4つ目の変数（例：地域、産業区分など）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;たとえば、有名な例として「Gapminderの世界開発データ」では、X軸をGDP、Y軸を平均寿命、バブルの大きさを人口とし、各国を一つの円として表示します。これにより、国ごとの経済力、健康水準、人口規模を&lt;strong&gt;同時に&lt;/strong&gt;理解することができます。&lt;/p&gt;
+&lt;h2 id=&#34;特徴と応用&#34;&gt;特徴と応用
+&lt;/h2&gt;&lt;p&gt;バブル・チャートは以下のような特徴を持ちます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;説明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;情報量が多い&lt;/td&gt;
+          &lt;td&gt;3〜5変数を一枚の図で可視化できる&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;直感的理解が可能&lt;/td&gt;
+          &lt;td&gt;面積による数量表現は視覚的に分かりやすい&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;比較が容易&lt;/td&gt;
+          &lt;td&gt;同一カテゴリ間の差異や傾向を直感的に捉えられる&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;主に以下の分野で利用されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;経済データ（GDP、人口、寿命など）の国際比較&lt;/li&gt;
+&lt;li&gt;マーケティング分析（市場規模×成長率×シェア）&lt;/li&gt;
+&lt;li&gt;環境データ（CO₂排出量、人口密度、エネルギー消費量など）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;デザイン上の注意点&#34;&gt;デザイン上の注意点
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;バブルの&lt;strong&gt;面積が値に比例する&lt;/strong&gt;ように設定すること（半径ではない）。&lt;/li&gt;
+&lt;li&gt;バブルが重なりすぎる場合は、透明度（opacity）を下げる。&lt;/li&gt;
+&lt;li&gt;色の選択にはカテゴリや値の意味を考慮し、&lt;strong&gt;連続値ならグラデーション、離散値なら明確な色分け&lt;/strong&gt;を使う。&lt;/li&gt;
+&lt;li&gt;数値スケールをログ変換するなどして、極端な値の偏りを抑える。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;歴史的背景&#34;&gt;歴史的背景
+&lt;/h2&gt;&lt;p&gt;バブル・チャートという形式自体は20世紀後半から普及しましたが、概念的には &lt;strong&gt;ウィリアム・プレイフェア（William Playfair）&lt;/strong&gt; による散布図（18世紀末）を継承しています。プレイフェアが確立した軸構造を基礎に、「面積を変数として使う」発想を加えたことで、より多次元的な表現が可能になりました。&lt;/p&gt;
+&lt;p&gt;現代では、Hans Rosling（ハンス・ロスリング）が &lt;strong&gt;Gapminder&lt;/strong&gt; プロジェクトでこの形式を広く一般に知らしめ &lt;strong&gt;「動的バブル・チャート」&lt;/strong&gt; としてアニメーション表示を行ったことが特に有名です。&lt;/p&gt;
+&lt;h3 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h3&gt;&lt;p&gt;バブル・チャートは、散布図の拡張として &lt;strong&gt;多変量データを直感的に理解できる&lt;/strong&gt; 強力な可視化手法です。適切なスケール設定とデザイン上の配慮を行うことで、複雑な社会・経済・環境データを視覚的にわかりやすく表現できます。特に、変化や比較を強調したい場合には非常に効果的です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Bubble_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Bubble chart” — Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/methods/bubble_chart.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Bubble Chart” — The Data Visualisation Catalogue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.atlassian.com/data/charts/bubble-chart-complete-guide&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“A Complete Guide to Bubble Charts” — Atlassian (data/charts)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/en-us/office/present-your-data-in-a-bubble-chart-424d7bda-93e8-4983-9b51-c766f3e330d9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Present your data in a bubble chart” — Microsoft サポートページ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.netsuite.com/portal/resource/articles/erp/bubble-charts.shtml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Bubble Charts Explained” — NetSuite（Ultimate Guide to Bubble Charts）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Motion_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Motion chart” — Wikipedia（動的バブル・チャート）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Trendalyzer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Trendalyzer” — Wikipedia（Gapminder の可視化手法）&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>円グラフ (Pie Chart)</title>
         <link>http://localhost:1313/pie-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
