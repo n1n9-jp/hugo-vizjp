@@ -74,12 +74,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ウィリアム・プレイフェアが描いた「円グラフ」は2種類あった</title>
+        <title>ウィリアム・プレイフェアが描いた「円」のグラフは2種類あった</title>
         <link>http://localhost:1313/pie-chart-william-playfair/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/pie-chart-william-playfair/</guid>
-        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post ウィリアム・プレイフェアが描いた「円グラフ」は2種類あった" /&gt;&lt;p&gt;「円グラフ（Pie Chart）」を発明したウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」アイデアを生み出しました。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post ウィリアム・プレイフェアが描いた「円」のグラフは2種類あった" /&gt;&lt;p&gt;ウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」チャートとして「円グラフ（Pie Chart）」を発明したと言われています。&lt;/p&gt;
 &lt;p&gt;ところが、彼が実際に描いた円の図には、少し異なる2つの形式があったのです。どちらも1801年の著書『Statistical Breviary（統計摘要）』に登場します。&lt;/p&gt;
 &lt;h2 id=&#34;1-扇形で分けるタイプ--世界初の円グラフpie-chart&#34;&gt;1. 「扇形で分ける」タイプ —— 世界初の円グラフ（Pie Chart）
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt-1.png&#34;
@@ -146,7 +146,7 @@
 &lt;p&gt;ロシアのように大きい国は円を二重構造にしても描けましたが、トルコ帝国のように小さな国では、放射状に分けたほうが見やすかったのです。&lt;/p&gt;
 &lt;p&gt;つまり、技術的な制約の中で生まれた2種類の円表現だったわけです。&lt;/p&gt;
 &lt;h2 id=&#34;一言でまとめると&#34;&gt;一言でまとめると
-&lt;/h2&gt;&lt;p&gt;プレイフェアの「円の図」は、ひとつは &lt;strong&gt;角度で割合を見せる円グラフ（Pie Chart）&lt;/strong&gt; 、もうひとつは &lt;strong&gt;面積で比較する円面積チャート（Circle Area Chart）&lt;/strong&gt; でした。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;プレイフェアの「円の図」は、ひとつは &lt;strong&gt;角度で割合を見せる円グラフ（Pie Chart）&lt;/strong&gt; 、もうひとつは &lt;strong&gt;面積で比較する円面積チャート（Circle Area Chart）&lt;/strong&gt; と呼べるものでした。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://m-a.org.uk/resources/PE4LifeofPie.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
