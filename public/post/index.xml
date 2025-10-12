@@ -162,6 +162,84 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>ウィリアム・プレイフェアによる「アメリカ合衆国の統計的表現」</title>
+        <link>http://localhost:1313/pie-chart-william-playfair-part/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/pie-chart-william-playfair-part/</guid>
+        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair-part/images/cover.png" alt="Featured image of post ウィリアム・プレイフェアによる「アメリカ合衆国の統計的表現」" /&gt;&lt;p&gt;この図は、統計図の発明者として知られるウィリアム・プレイフェア（William Playfair）による『Statistical Representation of the United States of America』（1805年頃）の作品です。アメリカ合衆国の領土の広がりを円の面積で表現しており、プレイフェアが発明した「円グラフ（Pie Chart）」の初期形態のひとつとされています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair-part/images/mailvisual.png&#34;
+	width=&#34;800&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair-part/images/mailvisual_hu_818849607f39d079.png 480w, http://localhost:1313/pie-chart-william-playfair-part/images/mailvisual_hu_e1a02e54002dfe4c.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;104&#34;
+		data-flex-basis=&#34;250px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要
+&lt;/h2&gt;&lt;p&gt;この図は、アメリカ合衆国の各州および新たに取得された領土（ルイジアナ、フロリダなど）の面積を比例的に示したものです。タイトル下には「This Proportional Method is intended to shew the Proportion between the divisions of a Territory」（この比例的な方法は領土の区分間の比率を示すことを意図している）と書かれています。&lt;/p&gt;
+&lt;p&gt;プレイフェアは、経済や地理的規模などの比較を視覚的に理解させるため、データを図として表現することに強い関心を持っていました。この作品では、円の扇形（セクター）の角度が各州の面積に比例しており、現在の円グラフ（Pie Chart）の原理そのものです。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;この「統計的表現」は、一見すると時計のように円形に配置された図です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;円全体&lt;/strong&gt; はアメリカ合衆国全体の領土面積（約2,310,000平方マイル）を表しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;扇形の角度&lt;/strong&gt; が各州や地域の面積比を表します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;色の違い&lt;/strong&gt; は地域の分類を示しており、たとえばピンク系が既存の州、緑系が新領土を意味します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ラベルには州名と面積値&lt;/strong&gt; が記されています（例：&amp;ldquo;Virginia 105,000 Sq. Miles&amp;rdquo;）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;右下の大きな緑色の部分「Louisiana Newly Acquired in 1804」は、ルイジアナ買収後の広大な新領土を示しており、当時の領土拡張のスケールを視覚的に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景
+&lt;/h2&gt;&lt;p&gt;1803年に行われた &lt;strong&gt;ルイジアナ買収（Louisiana Purchase）&lt;/strong&gt; は、アメリカの領土を一挙に倍増させる出来事でした。プレイフェアは、この歴史的変化を視覚的に捉える方法として「面積に比例する円の分割」を採用しました。&lt;/p&gt;
+&lt;p&gt;当時は統計データのグラフィカル表現がほとんど存在せず、彼の図は印刷物の中で非常に革新的なものでした。彼はこの図を「比較を直感的に理解できる手段」として提示しており、後世の統計図法やインフォグラフィックスの基礎を築いたといえます。&lt;/p&gt;
+&lt;h2 id=&#34;特徴&#34;&gt;特徴
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;作者&lt;/td&gt;
+          &lt;td&gt;ウィリアム・プレイフェア（William Playfair）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;制作年&lt;/td&gt;
+          &lt;td&gt;約1805年&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;主題&lt;/td&gt;
+          &lt;td&gt;アメリカ合衆国の領土面積比較&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;表現手法&lt;/td&gt;
+          &lt;td&gt;面積比例の円グラフ（Pie Chart）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;技法上の特徴&lt;/td&gt;
+          &lt;td&gt;扇形の角度が面積に比例／色で地域区分を示す&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;歴史的意義&lt;/td&gt;
+          &lt;td&gt;世界初期の円グラフの例として知られる&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;この作品は、プレイフェアが提唱した「データを形で理解する」という理念の象徴といえます。現代のグラフやインフォグラフィックスにおける「可視化」の概念が、すでに18世紀末から19世紀初頭に存在していたことを示す貴重な史料です。&lt;/p&gt;
+&lt;p&gt;円という単純な形の中に、国家の拡張・構造・関係性を一目で理解させようとしたプレイフェアの発想は、今日のデータビジュアライゼーションにも通じる普遍的なアイデアといえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/William_Playfair&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: William Playfair&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>バブル・チャート（Bubble Chart）</title>
         <link>http://localhost:1313/bubble-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
