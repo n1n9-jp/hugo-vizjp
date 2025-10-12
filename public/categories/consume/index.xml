@@ -404,19 +404,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;チャートの構造と読み方&#34;&gt;チャートの構造と読み方
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend.png&#34;
-	width=&#34;361&#34;
-	height=&#34;859&#34;
-	srcset=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_4bd8be8fe6bf3456.png 480w, http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_987449cbc0b7da92.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;42&#34;
-		data-flex-basis=&#34;100px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;一見して凡例は見当たりませんが、プレイフェア本人の解説（『Statistical Breviary』本文）および後世の研究（Friendly, Pritchard, Spence など）から、図の構造は次のように解釈されています。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;一見して凡例は見当たりませんが、プレイフェア本人の解説（『Statistical Breviary』本文）および後世の研究（Friendly, Pritchard, Spence など）から、図の構造は次のように解釈されています。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -430,11 +418,6 @@
           &lt;td&gt;円の面積&lt;/td&gt;
           &lt;td&gt;比例スケール&lt;/td&gt;
           &lt;td&gt;各国の総面積（平方マイル）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;内側の円&lt;/td&gt;
-          &lt;td&gt;外円との比&lt;/td&gt;
-          &lt;td&gt;ヨーロッパ領土部分（European Dominions）&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;左側の縦線（実線）&lt;/td&gt;
@@ -484,11 +467,32 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;点線の傾き&lt;/strong&gt;&lt;br&gt;
-右上がりに描かれることで「人口に対して歳入が多い国」を直感的に示します。&lt;br&gt;
-フランスとスペインは線がほぼ水平ですが、ブリテンでは右の線（歳入）が極端に高く、急な右上がりの点線が描かれています。&lt;br&gt;
+右上がりに描かれることで「人口に対して歳入が多い国」を直感的に示します。ブリテンでは右の線（歳入）が極端に高く、急な右上がりの点線が描かれています。&lt;br&gt;
 これは &lt;strong&gt;少ない人口で多くの収入を得る国＝経済効率が高い国&lt;/strong&gt; としてのブリテンの姿を視覚的に表しています。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;単数変数の面積と複数変数の面積の比較&#34;&gt;単数変数の面積と、複数変数の面積の比較
+&lt;/h2&gt;&lt;p&gt;この図では基本的には &lt;strong&gt;面積&lt;/strong&gt; によって領土の比率を示しています。これ自体は現代でいう &lt;strong&gt;円グラフ(pie chart)&lt;/strong&gt; というよりは &lt;strong&gt;円面積チャート（circle area chart）&lt;/strong&gt; の原型といえます。&lt;/p&gt;
+&lt;p&gt;この中で、ロシア帝国とトルコ帝国（オスマン帝国）についてのみ、内訳を示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend.png&#34;
+	width=&#34;823&#34;
+	height=&#34;617&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_2347505f0bc92373.png 480w, http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_cbe435e5728d14f2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ロシア帝国とトルコ帝国&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;ロシア帝国は円を &lt;strong&gt;二重構造（同心円）&lt;/strong&gt; にして &lt;strong&gt;中心の円をヨーロッパ領、外側の円（環）をアジア領&lt;/strong&gt; としました。&lt;/p&gt;
+&lt;p&gt;トルコ帝国では、現代の円グラフ風に &lt;strong&gt;角度&lt;/strong&gt; として &lt;strong&gt;ヨーロッパ・アジア・アフリカという領土の内訳&lt;/strong&gt; が示されています。各部分の角度（＝円周の比率）が全体に対する割合を表しています。&lt;/p&gt;
+&lt;p&gt;なぜ2種類を使い分けたのかについては、プレイフェア自身の意図というよりは、描く都合の違いが大きかったと考えられています。
+当時は手描きの彩色版で、図の大きさにも限界がありました。ロシアのように大きい国は円を二重構造にしても描けましたが、トルコ帝国のように小さな国では、放射状に分けたほうが見やすかったのです。つまり、技術的な制約の中で生まれた2種類の円表現だったわけです。&lt;/p&gt;
+&lt;p&gt;ここでのトルコ帝国を描くために用いられた手法が、現代でいう &lt;strong&gt;円グラフ(pie chart)&lt;/strong&gt; に通じる手法といえそうです。&lt;/p&gt;
 &lt;h2 id=&#34;歴史的背景と意義&#34;&gt;歴史的背景と意義
 &lt;/h2&gt;&lt;p&gt;1801年はナポレオン戦争直前、ヨーロッパ諸国の勢力比較が政治的関心の的となっていた時代です。&lt;br&gt;
 プレイフェアは『Statistical Breviary』において、各国の「国力」を数字だけでなく &lt;strong&gt;視覚的に理解できる形に翻訳&lt;/strong&gt; することを目的としていました。&lt;/p&gt;
@@ -510,7 +514,7 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;p&gt;これらはいずれも、プレイフェアが単に統計を示すのではなく &lt;strong&gt;ストーリーを伝えるための図&lt;/strong&gt; を構想していたことを示しています。&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ
 &lt;/h2&gt;&lt;p&gt;ウィリアム・プレイフェアの『Statistical Chart』は、凡例を欠きながらも構造的秩序によって「国土・人口・歳入」という三つの変数を同時に比較させる視覚言語を確立しました。&lt;/p&gt;
-&lt;p&gt;彼が述べたように点線は単なる「連結線」ですが、それによって三つの尺度が統合され、見る者は&lt;strong&gt;国の規模・人の数・富の力&lt;/strong&gt;を一目で感じ取ることができます。&lt;/p&gt;
+&lt;p&gt;彼が述べたように点線は単なる「連結線」ですが、それによって三つの尺度が統合され、見る者は &lt;strong&gt;国の規模・人の数・富の力&lt;/strong&gt; を一目で感じ取ることができます。&lt;/p&gt;
 &lt;p&gt;この図は、現代の情報デザインやデータビジュアライゼーションの原点に位置づけられる作品です。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
