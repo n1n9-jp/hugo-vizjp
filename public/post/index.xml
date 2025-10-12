@@ -8,6 +8,72 @@
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
         <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>3D散布図（3D Scatterplot）</title>
+        <link>http://localhost:1313/3d-scatterplot/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/3d-scatterplot/</guid>
+        <description>&lt;img src="http://localhost:1313/3d-scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 3D散布図（3D Scatterplot）" /&gt;&lt;p&gt;3D散布図は、データの三つの数値変数をそれぞれX軸・Y軸・Z軸に対応させて配置するチャートです。通常の散布図（2D）に奥行きの次元を加えることで、より多次元的な関係性や分布のパターンを視覚的に理解できます。&lt;/p&gt;
+&lt;p&gt;三次元空間上に点として描かれた各データは、色や大きさによって追加の変数を表すこともあり、四次元・五次元的なデータの要素を持たせることも可能です。インタラクティブに回転・拡大・縮小できる可視化ツール（例：Plotly、Matplotlibのmplot3d、Tableau、Power BIなど）では、視点を変えることでデータの構造を多角的に観察できます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;各点の位置は、3つの数値軸（X, Y, Z）の交点によって定義されます。たとえば、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;X軸&lt;/strong&gt;：変数A&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Y軸&lt;/strong&gt;：変数B&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Z軸&lt;/strong&gt;：変数C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と設定した場合、各データ点の座標 ((x, y, z)) は、それぞれの観測値を表しています。点の「色」や「形状」はカテゴリ情報、あるいは別の定量値（例：温度や売上など）を付加的に表現できます。&lt;/p&gt;
+&lt;p&gt;視点を固定したままでは重なりによる情報の欠落が生じやすいため、3D散布図では &lt;strong&gt;視点の回転や透過処理&lt;/strong&gt; が重要です。インタラクティブ環境で操作することで、隠れたクラスターや傾向を発見しやすくなります。&lt;/p&gt;
+&lt;h2 id=&#34;背景と利用例&#34;&gt;背景と利用例
+&lt;/h2&gt;&lt;p&gt;3D散布図は、物理・化学・生物学・地理学など、複数の連続変数を扱う分野でよく用いられます。たとえば、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分子構造や化学反応のパラメータ分布&lt;/li&gt;
+&lt;li&gt;顧客属性（年齢・所得・支出）によるクラスタ分析&lt;/li&gt;
+&lt;li&gt;地理空間データの3次元分布（緯度・経度・高度）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ただし、印刷物や静止画像では情報が重なりやすく、2Dよりも &lt;strong&gt;可読性が低下しやすい&lt;/strong&gt; という欠点があります。&lt;/p&gt;
+&lt;p&gt;そのため、3D散布図は分析過程での探索的データ分析（Exploratory Data Analysis）に向いており、プレゼンテーションや報告書では2D投影や別の視点からのスライス図に変換されることも多いです。&lt;/p&gt;
+&lt;h2 id=&#34;関連チャート&#34;&gt;関連チャート
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート名&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+          &lt;th&gt;適用場面&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;散布図（2D Scatterplot）&lt;/td&gt;
+          &lt;td&gt;二変数間の関係を視覚化&lt;/td&gt;
+          &lt;td&gt;基本的な相関分析&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;バブル・チャート（Bubble Chart）&lt;/td&gt;
+          &lt;td&gt;点の大きさで第三の変数を表現&lt;/td&gt;
+          &lt;td&gt;多変量データの概要表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;パラレル・コーディネーツ（Parallel Coordinates）&lt;/td&gt;
+          &lt;td&gt;多次元データを平面上に表現&lt;/td&gt;
+          &lt;td&gt;高次元の関係把握&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;3D散布図は、三つの数値変数の関係性を空間的に把握するのに有効なチャートです。特にインタラクティブな環境では、データの構造や分布を多角的に観察できる利点があります。&lt;/p&gt;
+&lt;p&gt;一方で、視覚的な混雑や重なりによる可読性の低下には注意が必要です。適切な視点操作や補助的な投影図の併用によって、分析結果の理解を深めることができます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://plotly.com/python/3d-scatter-plots/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Plotly – 3D Scatter Plots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/mplot3d/scatter3d.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Matplotlib – mplot3d API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://help.tableau.com/current/pro/desktop/en-us/examples_scatter.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tableau Help – 3D Visualization and Scatter Plots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>バブル・チャート（Bubble Chart）</title>
         <link>http://localhost:1313/bubble-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
