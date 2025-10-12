@@ -585,6 +585,156 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）</title>
+        <link>http://localhost:1313/3d-cylindrical-polar-scatter-graph/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/3d-cylindrical-polar-scatter-graph/</guid>
+        <description>&lt;img src="http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/thumb_ph_vizjp.png" alt="Featured image of post 三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）" /&gt;&lt;p&gt;この図は「三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）」と呼ばれるグラフの一例です。円筒座標系を用いて、極角・半径・高さという三つの値の関係を可視化しています。&lt;/p&gt;
+&lt;p&gt;一般的な散布図が二次元平面上に点をプロットするのに対し、この図では「角度（θ）」「半径（r）」「高さ（z）」の三要素を組み合わせることで、三次元的な分布を表現します。&lt;/p&gt;
+&lt;p&gt;これは極座標プロット（Polar Plot）の三次元拡張とみなすことができます。二次元の極座標散布図では平面上の角度と距離で表現しますが、さらに高さ軸を加えることで、データの変化をより立体的に理解できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-1.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1859&#34;
+	srcset=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-1_hu_a1ab80a4ca7eafd1.png 480w, http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-1_hu_5646cca7601bda55.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;247px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-2.png&#34;
+	width=&#34;1280&#34;
+	height=&#34;960&#34;
+	srcset=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-2_hu_4d4aac349d50d22b.png 480w, http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-2_hu_80d1a5cf5351efd7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;
+&lt;img src=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-3.png&#34;
+	width=&#34;786&#34;
+	height=&#34;810&#34;
+	srcset=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-3_hu_7834ed3b031c8ed.png 480w, http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-3_hu_4b582297949a71e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;97&#34;
+		data-flex-basis=&#34;232px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;底面（水平の円）&lt;/strong&gt;：角度方向（0°〜360°）と半径方向（0〜10）の二軸を表します。0°、30°、60°、…といった目盛りは、円周上の角度（極角θ）を示しています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;垂直軸（高さ方向）&lt;/strong&gt;：数値（ここでは0〜25）を表し、縦方向の値（z軸）として機能します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;黒い点（データポイント）&lt;/strong&gt;：各データの位置を示します。点の位置は、
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;角度（θ）&lt;/strong&gt; … 円周上の方向&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;半径（r）&lt;/strong&gt; … 中心からの距離&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高さ（z）&lt;/strong&gt; … 垂直方向の値&lt;br&gt;
+によって決定されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦線（ドロップライン）&lt;/strong&gt;：データ点と底面を結ぶ線で、点の高さを明確にする補助線です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、データを「方向」「距離」「高さ」という三つの変数で表すため、気象学・地球科学・工学など、周期性や角度を含む多変量データの分析によく用いられます。&lt;/p&gt;
+&lt;h2 id=&#34;目的と利用分野&#34;&gt;目的と利用分野
+&lt;/h2&gt;&lt;p&gt;三次元円筒座標散布図は、「角度」「距離」「高さ」という三つの変数を同時に可視化できるグラフです。主に次のような目的で利用されます。&lt;/p&gt;
+&lt;h3 id=&#34;1-方向性をもつデータの分析&#34;&gt;1. 方向性をもつデータの分析
+&lt;/h3&gt;&lt;p&gt;角度（0°〜360°）を用いることで &lt;strong&gt;方位や方向をもつデータ&lt;/strong&gt; を扱えます。たとえば次のような分野です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;具体例&lt;/th&gt;
+          &lt;th&gt;解釈のポイント&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;気象学&lt;/td&gt;
+          &lt;td&gt;風向・風速・高度&lt;/td&gt;
+          &lt;td&gt;風がどの方向からどのくらいの強さで吹いているか&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;海洋学&lt;/td&gt;
+          &lt;td&gt;潮流の方向・深さ&lt;/td&gt;
+          &lt;td&gt;各深度での潮流方向の変化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;通信工学&lt;/td&gt;
+          &lt;td&gt;アンテナの方向特性&lt;/td&gt;
+          &lt;td&gt;角度ごとの信号強度（ゲイン）を立体的に表示&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;2-周期的な現象の可視化&#34;&gt;2. 周期的な現象の可視化
+&lt;/h3&gt;&lt;p&gt;360°の角度を時間や周期に見立て &lt;strong&gt;周期的な変化&lt;/strong&gt; を表すことができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;例：1日を360°に見立てて、時刻ごとの温度や電力消費量をプロット&lt;/li&gt;
+&lt;li&gt;例：1年を円周に割り当て、月ごとの降水量や日照時間を高さで表現&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように「円周上の繰り返し」と「高さ方向の変化」を同時に見ることで、周期的パターンを一目で把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;3-三変数の同時比較&#34;&gt;3. 三変数の同時比較
+&lt;/h3&gt;&lt;p&gt;一般的な散布図では2軸（x, y）でしか関係を示せませんが、&lt;br&gt;
+円筒座標では次のように3軸を対応づけることができます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;軸&lt;/th&gt;
+          &lt;th&gt;意味&lt;/th&gt;
+          &lt;th&gt;例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;角度（θ）&lt;/td&gt;
+          &lt;td&gt;カテゴリ・方向・時間&lt;/td&gt;
+          &lt;td&gt;方位・時間・角度&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;半径（r）&lt;/td&gt;
+          &lt;td&gt;距離・大きさ&lt;/td&gt;
+          &lt;td&gt;測定点までの距離、周波数など&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;高さ（z）&lt;/td&gt;
+          &lt;td&gt;量的変数&lt;/td&gt;
+          &lt;td&gt;強度、頻度、値の大きさなど&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;これにより &lt;strong&gt;3つの連続変数の関係性やパターン&lt;/strong&gt; を立体的に把握できます。&lt;/p&gt;
+&lt;h3 id=&#34;4-視覚的なプレゼンテーション&#34;&gt;4. 視覚的なプレゼンテーション
+&lt;/h3&gt;&lt;p&gt;立体的な形状が特徴的なため &lt;strong&gt;研究発表・学会ポスター・技術報告書&lt;/strong&gt; などでも利用されます。&lt;/p&gt;
+&lt;p&gt;特に、通常の平面グラフでは伝わりにくい「方向＋強度＋高さ」の関係を視覚的に表現できるため、観察的データの探索（exploratory data analysis）にも適しています。&lt;/p&gt;
+&lt;h2 id=&#34;背景と数理的基盤&#34;&gt;背景と数理的基盤
+&lt;/h2&gt;&lt;p&gt;円筒座標系（Cylindrical Coordinates）は、三次元空間を角度・半径・高さで表す数学的座標系です。これを視覚化に応用したのが本チャートです。&lt;/p&gt;
+&lt;p&gt;特に &lt;strong&gt;風向・風速・高度&lt;/strong&gt; 、&lt;strong&gt;信号強度の方向特性&lt;/strong&gt; 、&lt;strong&gt;極座標上の周期データの振幅変化&lt;/strong&gt; などを分析する際に有用です。&lt;/p&gt;
+&lt;p&gt;3D円筒散布図は、極座標プロット（Polar Plot）の三次元拡張とみなすことができます。二次元の極座標散布図では平面上の角度と距離で表現しますが、さらに高さ軸を加えることで、データの変化をより立体的に理解できます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;三次元円筒座標散布図は、角度・距離・高さという3変数の関係を一度に把握できる強力な可視化手法です。&lt;/p&gt;
+&lt;p&gt;ドロップラインによって高さ情報が明確に示され、角度的な周期性と縦方向の変化を同時に読むことができます。&lt;/p&gt;
+&lt;p&gt;ただし、視点によっては奥行き方向の重なりが発生するため、適切な視角の設定やインタラクティブ表示が推奨されます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;3D surface with polar coordinates&lt;/em&gt; — Matplotlib ドキュメント：極座標／円筒座標を用いた 3D 表面描画例  &lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/mplot3d/surface3d_radial.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;oai_citation:0‡matplotlib.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Cylindrical Coordinates&lt;/em&gt; — Wolfram MathWorld：円筒座標系の定義および性質  &lt;a class=&#34;link&#34; href=&#34;https://mathworld.wolfram.com/CylindricalCoordinates.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;oai_citation:1‡ウルフラム数学ワールド&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Cylindrical coordinate system&lt;/em&gt; — Wikipedia：座標系としての概要と応用例  &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Cylindrical_coordinate_system?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;oai_citation:3‡ウィキペディア&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Three-dimensional plotting in Matplotlib&lt;/em&gt; — Jake VanderPlas によるチュートリアル：「極座標グリッド」を 3D プロットに使う例  &lt;a class=&#34;link&#34; href=&#34;https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;oai_citation:4‡jakevdp.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>散布図（Scatterplot）</title>
         <link>http://localhost:1313/scatterplot/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
