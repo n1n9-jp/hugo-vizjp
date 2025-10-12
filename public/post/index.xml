@@ -209,17 +209,17 @@
         </item>
         <item>
         <title>円グラフの発明</title>
-        <link>http://localhost:1313/pie-chart-william-playfair/</link>
+        <link>http://localhost:1313/pie-chart-william-playfair-area/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/pie-chart-william-playfair/</guid>
-        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair/images/cover.png" alt="Featured image of post 円グラフの発明" /&gt;&lt;p&gt;この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『&lt;em&gt;The Statistical Breviary&lt;/em&gt;』に収録されたものです。&lt;/p&gt;
+        <guid>http://localhost:1313/pie-chart-william-playfair-area/</guid>
+        <description>&lt;img src="http://localhost:1313/pie-chart-william-playfair-area/images/cover.png" alt="Featured image of post 円グラフの発明" /&gt;&lt;p&gt;この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『&lt;em&gt;The Statistical Breviary&lt;/em&gt;』に収録されたものです。&lt;/p&gt;
 &lt;p&gt;正式タイトルは「&lt;em&gt;Statistical Chart, showing the Extent, the Population &amp;amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude&lt;/em&gt;」。&lt;/p&gt;
 &lt;p&gt;ヨーロッパ諸国の&lt;strong&gt;領土面積・人口・国家歳入&lt;/strong&gt;という三つの異なる数値を、一つの図で同時に比較するという試みで、これは世界初の多変量可視化（multivariate visualization）の一例とされています。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/Playfair-pie-chairt.png&#34;
 	width=&#34;2300&#34;
 	height=&#34;1385&#34;
-	srcset=&#34;http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt_hu_473d3d89fe09cdb7.png 480w, http://localhost:1313/pie-chart-william-playfair/images/Playfair-pie-chairt_hu_346abcff74a8b124.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/Playfair-pie-chairt_hu_473d3d89fe09cdb7.png 480w, http://localhost:1313/pie-chart-william-playfair-area/images/Playfair-pie-chairt_hu_346abcff74a8b124.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Statistical Chart, showing the Extent, the Population &amp; Revenues of the Principal Nations of Europe, in the order of their Magnitude&#34;
@@ -231,10 +231,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;チャートの構造と読み方&#34;&gt;チャートの構造と読み方
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend.png&#34;
 	width=&#34;361&#34;
 	height=&#34;859&#34;
-	srcset=&#34;http://localhost:1313/pie-chart-william-playfair/images/legend_hu_4bd8be8fe6bf3456.png 480w, http://localhost:1313/pie-chart-william-playfair/images/legend_hu_987449cbc0b7da92.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_4bd8be8fe6bf3456.png 480w, http://localhost:1313/pie-chart-william-playfair-area/images/legend_hu_987449cbc0b7da92.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
