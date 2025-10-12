@@ -431,6 +431,78 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>折れ線グラフ（Line Chart）</title>
+        <link>http://localhost:1313/line-chart/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/line-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/line-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 折れ線グラフ（Line Chart）" /&gt;&lt;p&gt;折れ線グラフ（Line Chart）は &lt;strong&gt;数値の変化を線でつないで示す&lt;/strong&gt; 代表的な統計図のひとつです。主に、時間の経過や連続した数値軸に沿った変化を視覚的に表現するために使われます。横軸（X軸）に時間や順序を、縦軸（Y軸）に数量をとるのが一般的です。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;折れ線グラフは &lt;strong&gt;「点と点を線でつなぐ」&lt;/strong&gt; という単純な構造をもっています。&lt;br&gt;
+各点は特定の時点またはカテゴリーにおける数値を表しており、これらを線で結ぶことで「増減の傾向」や「周期的変化」を一目で読み取ることができます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;上昇する線&lt;/strong&gt;：値が増加していることを示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;下降する線&lt;/strong&gt;：値が減少していることを示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;水平な線&lt;/strong&gt;：値が安定していることを示します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;複数の系列（線）を重ねることで、異なる項目や地域の傾向を比較することもできます。&lt;br&gt;
+このとき、色や線のスタイル（実線・点線など）を変えることで識別を容易にします。&lt;/p&gt;
+&lt;h2 id=&#34;背景と用途&#34;&gt;背景と用途
+&lt;/h2&gt;&lt;p&gt;折れ線グラフは18世紀後半 &lt;strong&gt;ウィリアム・プレイフェア（William Playfair）&lt;/strong&gt; によって考案されました。
+彼は経済データを視覚化する方法として折れ線グラフや棒グラフ、円グラフを発明し、統計図の基礎を築きました。&lt;/p&gt;
+&lt;p&gt;今日では、以下のような多様な分野で利用されています。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;分野&lt;/th&gt;
+          &lt;th&gt;用途の例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;経済・金融&lt;/td&gt;
+          &lt;td&gt;株価やGDPの推移、為替レートの変化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;気象&lt;/td&gt;
+          &lt;td&gt;気温や降水量の変化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;医療・健康&lt;/td&gt;
+          &lt;td&gt;体温や血圧の経時変化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;教育・社会調査&lt;/td&gt;
+          &lt;td&gt;学力テストや人口動態の時系列分析&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;また、デジタル環境では &lt;strong&gt;インタラクティブな折れ線グラフ&lt;/strong&gt; も一般的です。&lt;br&gt;
+マウスオーバーで数値を確認したり、範囲を拡大して詳細を分析するなど、動的な要素が加わることで理解がより深まります。&lt;/p&gt;
+&lt;h2 id=&#34;デザイン上のポイント&#34;&gt;デザイン上のポイント
+&lt;/h2&gt;&lt;p&gt;折れ線グラフを設計する際には、以下の点に注意が必要です。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;スケールの一貫性&lt;/strong&gt;：軸のスケールが異なると誤解を招くため、統一する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;点の間隔&lt;/strong&gt;：時間間隔が不均一なデータを扱う場合は、プロット位置を正確に反映させる。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;線の色・太さ&lt;/strong&gt;：複数系列を区別できるよう、視認性の高い配色を選ぶ。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;補助線と注釈&lt;/strong&gt;：トレンドの転換点や重要な時期を示す補助線を追加すると理解が深まる。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;折れ線グラフは &lt;strong&gt;時系列データや連続データの変化を直感的に把握する&lt;/strong&gt; ための最も基本的で強力なツールです。
+適切なスケール設定や色使いを心がけることで、シンプルながら説得力のある可視化を実現できます。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Line_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;Line chart&lt;/em&gt; — Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/line-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;Line Graph&lt;/em&gt; — Data Viz Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.data-to-viz.com/graph/line.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;Line chart&lt;/em&gt; — Data-to-Viz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.atlassian.com/data/charts/line-chart-complete-guide&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;A Complete Guide to Line Charts&lt;/em&gt; — Atlassian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>棒グラフ (Bar Chart)</title>
         <link>http://localhost:1313/bar-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
