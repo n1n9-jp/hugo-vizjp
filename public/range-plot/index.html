@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="レンジ・プロット（Range Plot） は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その 範囲（レンジ） を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。\n">
+<title>レンジ・プロット（Range Plot）とは</title>
+
+<link rel='canonical' href='http://localhost:1313/range-plot/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="レンジ・プロット（Range Plot）とは">
+<meta property='og:description' content="レンジ・プロット（Range Plot） は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その 範囲（レンジ） を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。\n">
+<meta property='og:url' content='http://localhost:1313/range-plot/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-12T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-12T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/range-plot/images/thumb_ph_vizjp.png' />
+<meta name="twitter:title" content="レンジ・プロット（Range Plot）とは">
+<meta name="twitter:description" content="レンジ・プロット（Range Plot） は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その 範囲（レンジ） を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/range-plot/images/thumb_ph_vizjp.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#チャートの構造と読み方">チャートの構造と読み方</a></li>
+    <li><a href="#主な用途">主な用途</a></li>
+    <li><a href="#他のチャートとの関係">他のチャートとの関係</a></li>
+    <li><a href="#利点と注意点">利点と注意点</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/range-plot/">
+                <img src="/range-plot/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png"
+                        srcset="/range-plot/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png 800w, /range-plot/images/thumb_ph_vizjp_hu_982f6515b909acd4.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post レンジ・プロット（Range Plot）とは" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/consume/" >
+                見るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/range-plot/">レンジ・プロット（Range Plot）とは</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 12, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><strong>レンジ・プロット（Range Plot）</strong> は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その <strong>範囲（レンジ）</strong> を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。</p>
+<p>構造としては <strong>ドット・プロット（Dot Plot）</strong> を拡張した形であり、2つの点を線で結ぶことにより「差」や「広がり」を一目で理解できるようにしたものです。</p>
+<p>別名として「 <strong>ギャップ・チャート（Gap Chart）</strong> 」「 <strong>ダンベル・チャート（Dumbbell Chart）</strong> 」「 <strong>レンジ・ライン・チャート（Range Line Chart）</strong> 」などが使われます。</p>
+<h2 id="チャートの構造と読み方">チャートの構造と読み方
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>要素</th>
+          <th>内容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>軸（X軸またはY軸）</strong></td>
+          <td>比較したい数値の尺度（価格、時間、割合など）を取ります。</td>
+      </tr>
+      <tr>
+          <td><strong>カテゴリ軸</strong></td>
+          <td>各比較対象（商品、国、年など）を並べます。</td>
+      </tr>
+      <tr>
+          <td><strong>2つのマーカー</strong></td>
+          <td>比較したい2つの値（開始値と終了値、最小値と最大値など）を表します。</td>
+      </tr>
+      <tr>
+          <td><strong>線（区間）</strong></td>
+          <td>2つのマーカーを結び、範囲や変化量を示します。</td>
+      </tr>
+      <tr>
+          <td><strong>色または形</strong></td>
+          <td>グループや比較対象を区別するために用いられます。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>見方としては、線が長いほど「差」や「変化量」が大きく、短いほど差が小さいことを意味します。また、右上がり・右下がりの傾向などから、全体のトレンドや方向性を把握できます。</p>
+<h2 id="主な用途">主な用途
+</h2><p>レンジ・プロットは次のような分析に適しています。</p>
+<ol>
+<li>
+<p><strong>前後比較（Before–After）</strong><br>
+　例：製品の価格改定前後、男女間の平均給与の比較、前年と今年の値など。</p>
+</li>
+<li>
+<p><strong>最小値と最大値の可視化</strong><br>
+　例：気温の最低・最高、年収レンジ、誤差範囲の表現など。</p>
+</li>
+<li>
+<p><strong>差分・ギャップの強調</strong><br>
+　単に2点の数値を示すよりも、線の長さで差を視覚的に表現できるため、「どこで差が大きいか」をすぐに見つけられます。</p>
+</li>
+<li>
+<p><strong>複数対象の比較</strong><br>
+　複数の項目を縦に並べることで、全体のパターン（差の大きい対象、小さい対象）を俯瞰できます。</p>
+</li>
+</ol>
+<h2 id="他のチャートとの関係">他のチャートとの関係
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>チャート形式</th>
+          <th>違い・関係</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>ドット・プロット</strong></td>
+          <td>単一の値を点で示す。レンジ・プロットはその拡張で、2点間を線で結ぶ。</td>
+      </tr>
+      <tr>
+          <td><strong>誤差棒グラフ（Error Bar）</strong></td>
+          <td>中央値と上下の誤差範囲を示す。レンジ・プロットは個々の実測値（2点）を直接比較する。</td>
+      </tr>
+      <tr>
+          <td><strong>ボックス・プロット</strong></td>
+          <td>分布全体（中央値・四分位点など）を表す。レンジ・プロットは単純な2値比較に特化。</td>
+      </tr>
+      <tr>
+          <td><strong>ガント・チャート</strong></td>
+          <td>時間の範囲を表すという点で似ているが、目的はスケジュール管理にある。</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="利点と注意点">利点と注意点
+</h2><p><strong>利点</strong></p>
+<ul>
+<li>2つの値の差・方向を視覚的に理解しやすい</li>
+<li>複数対象を並列比較できる</li>
+<li>情報がシンプルで、余計な装飾が不要</li>
+</ul>
+<p><strong>注意点</strong></p>
+<ul>
+<li>3点以上のデータ（例：時系列の推移）には不向き</li>
+<li>線が重なりすぎると読みづらくなるため、項目数が多い場合は色分けや並べ替えが必要</li>
+<li>単位や軸スケールの統一が重要</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><p>レンジ・プロットは、「2つの数値の差や範囲を、直感的かつコンパクトに比較する」ためのチャートです。</p>
+<p>ビジネス分析や統計報告、デザイン分野でもよく用いられ、シンプルながら情報量の高い可視化手法といえます。</p>
+<p>ドット・プロットの拡張形として <strong>変化・差・範囲を一目で見せる</strong> という点において非常に有効です。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.datylon.com/resources/chart-library/range-plot"  target="_blank" rel="noopener"
+    >Datylon: Range Plot – Chart Library</a></li>
+<li><a class="link" href="https://academy.datawrapper.de/article/111-how-to-create-a-range-plot"  target="_blank" rel="noopener"
+    >Datawrapper Academy: How to create a range plot</a></li>
+<li><a class="link" href="https://vizzlo.com/create/range-plot"  target="_blank" rel="noopener"
+    >Vizzlo: Range Plot Maker</a></li>
+<li><a class="link" href="https://datavizcatalogue.com/blog/chart-snapshot-dumbbell-plot/"  target="_blank" rel="noopener"
+    >Dataviz Catalogue: Dumbbell Plot Overview</a></li>
+<li><a class="link" href="https://www.highcharts.com/docs/chart-and-series-types/dumbbell-series"  target="_blank" rel="noopener"
+    >Highcharts Documentation: Dumbbell Chart</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/3d-scatterplot/">
+        
+        
+            <div class="article-image">
+                <img src="/3d-scatterplot/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 3D散布図（3D Scatterplot）"
+                        data-key="3d-scatterplot" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">3D散布図（3D Scatterplot）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/pie-chart-william-playfair/">
+        
+        
+            <div class="article-image">
+                <img src="/pie-chart-william-playfair/images/cover.d4dca181c5054be0577bf949d426aeac_hu_19308ebb63a3c568.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ウィリアム・プレイフェアが描いた「円」グラフは2種類あった"
+                        data-key="pie-chart-william-playfair" 
+                        data-hash="md5-1NyhgcUFS&#43;BXe/lJ1CaurA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ウィリアム・プレイフェアが描いた「円」グラフは2種類あった</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/pie-chart-william-playfair-part/">
+        
+        
+            <div class="article-image">
+                <img src="/pie-chart-william-playfair-part/images/cover.56a7e41e9501538ae667cfbafe431af0_hu_ed9e359923a53cca.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ウィリアム・プレイフェアによる「アメリカ合衆国の統計的表現」"
+                        data-key="pie-chart-william-playfair-part" 
+                        data-hash="md5-VqfkHpUBU4rmZ8&#43;6/kMa8A==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ウィリアム・プレイフェアによる「アメリカ合衆国の統計的表現」</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/bubble-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/bubble-chart/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post バブル・チャート（Bubble Chart）"
+                        data-key="bubble-chart" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">バブル・チャート（Bubble Chart）</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/crocodile-chart/">
+        
+        
+            <div class="article-image">
+                <img src="/crocodile-chart/images/cover.971080447a2cc39e883b467d522c2bbd_hu_bf7b6f286dd5a735.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post ワニの口チャート ― 日本財政を象徴する独自の比喩的可視化"
+                        data-key="crocodile-chart" 
+                        data-hash="md5-lxCARHosw56IO0Z9UiwrvQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">ワニの口チャート ― 日本財政を象徴する独自の比喩的可視化</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

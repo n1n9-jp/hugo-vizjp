@@ -324,6 +324,125 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>レンジ・プロット（Range Plot）とは</title>
+        <link>http://localhost:1313/range-plot/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/range-plot/</guid>
+        <description>&lt;img src="http://localhost:1313/range-plot/images/thumb_ph_vizjp.png" alt="Featured image of post レンジ・プロット（Range Plot）とは" /&gt;&lt;p&gt;&lt;strong&gt;レンジ・プロット（Range Plot）&lt;/strong&gt; は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その &lt;strong&gt;範囲（レンジ）&lt;/strong&gt; を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。&lt;/p&gt;
+&lt;p&gt;構造としては &lt;strong&gt;ドット・プロット（Dot Plot）&lt;/strong&gt; を拡張した形であり、2つの点を線で結ぶことにより「差」や「広がり」を一目で理解できるようにしたものです。&lt;/p&gt;
+&lt;p&gt;別名として「 &lt;strong&gt;ギャップ・チャート（Gap Chart）&lt;/strong&gt; 」「 &lt;strong&gt;ダンベル・チャート（Dumbbell Chart）&lt;/strong&gt; 」「 &lt;strong&gt;レンジ・ライン・チャート（Range Line Chart）&lt;/strong&gt; 」などが使われます。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの構造と読み方&#34;&gt;チャートの構造と読み方
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;要素&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;軸（X軸またはY軸）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;比較したい数値の尺度（価格、時間、割合など）を取ります。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;カテゴリ軸&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各比較対象（商品、国、年など）を並べます。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;2つのマーカー&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;比較したい2つの値（開始値と終了値、最小値と最大値など）を表します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;線（区間）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;2つのマーカーを結び、範囲や変化量を示します。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;色または形&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;グループや比較対象を区別するために用いられます。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;見方としては、線が長いほど「差」や「変化量」が大きく、短いほど差が小さいことを意味します。また、右上がり・右下がりの傾向などから、全体のトレンドや方向性を把握できます。&lt;/p&gt;
+&lt;h2 id=&#34;主な用途&#34;&gt;主な用途
+&lt;/h2&gt;&lt;p&gt;レンジ・プロットは次のような分析に適しています。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;前後比較（Before–After）&lt;/strong&gt;&lt;br&gt;
+　例：製品の価格改定前後、男女間の平均給与の比較、前年と今年の値など。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;最小値と最大値の可視化&lt;/strong&gt;&lt;br&gt;
+　例：気温の最低・最高、年収レンジ、誤差範囲の表現など。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;差分・ギャップの強調&lt;/strong&gt;&lt;br&gt;
+　単に2点の数値を示すよりも、線の長さで差を視覚的に表現できるため、「どこで差が大きいか」をすぐに見つけられます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;複数対象の比較&lt;/strong&gt;&lt;br&gt;
+　複数の項目を縦に並べることで、全体のパターン（差の大きい対象、小さい対象）を俯瞰できます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;他のチャートとの関係&#34;&gt;他のチャートとの関係
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート形式&lt;/th&gt;
+          &lt;th&gt;違い・関係&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ドット・プロット&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;単一の値を点で示す。レンジ・プロットはその拡張で、2点間を線で結ぶ。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;誤差棒グラフ（Error Bar）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;中央値と上下の誤差範囲を示す。レンジ・プロットは個々の実測値（2点）を直接比較する。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ボックス・プロット&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;分布全体（中央値・四分位点など）を表す。レンジ・プロットは単純な2値比較に特化。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ガント・チャート&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;時間の範囲を表すという点で似ているが、目的はスケジュール管理にある。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;利点と注意点&#34;&gt;利点と注意点
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;利点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2つの値の差・方向を視覚的に理解しやすい&lt;/li&gt;
+&lt;li&gt;複数対象を並列比較できる&lt;/li&gt;
+&lt;li&gt;情報がシンプルで、余計な装飾が不要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;注意点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3点以上のデータ（例：時系列の推移）には不向き&lt;/li&gt;
+&lt;li&gt;線が重なりすぎると読みづらくなるため、項目数が多い場合は色分けや並べ替えが必要&lt;/li&gt;
+&lt;li&gt;単位や軸スケールの統一が重要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;レンジ・プロットは、「2つの数値の差や範囲を、直感的かつコンパクトに比較する」ためのチャートです。&lt;/p&gt;
+&lt;p&gt;ビジネス分析や統計報告、デザイン分野でもよく用いられ、シンプルながら情報量の高い可視化手法といえます。&lt;/p&gt;
+&lt;p&gt;ドット・プロットの拡張形として &lt;strong&gt;変化・差・範囲を一目で見せる&lt;/strong&gt; という点において非常に有効です。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datylon.com/resources/chart-library/range-plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datylon: Range Plot – Chart Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://academy.datawrapper.de/article/111-how-to-create-a-range-plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Datawrapper Academy: How to create a range plot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vizzlo.com/create/range-plot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vizzlo: Range Plot Maker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizcatalogue.com/blog/chart-snapshot-dumbbell-plot/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Dataviz Catalogue: Dumbbell Plot Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.highcharts.com/docs/chart-and-series-types/dumbbell-series&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Highcharts Documentation: Dumbbell Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>ワニの口チャート ― 日本財政を象徴する独自の比喩的可視化</title>
         <link>http://localhost:1313/crocodile-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
