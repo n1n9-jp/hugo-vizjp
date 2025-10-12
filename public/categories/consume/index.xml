@@ -563,6 +563,141 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>棒グラフの使い分け方：比べ方で変わる4つの基本形</title>
+        <link>http://localhost:1313/bar-chart-compare/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bar-chart-compare/</guid>
+        <description>&lt;img src="http://localhost:1313/bar-chart-compare/images/thumb_ph_vizjp.png" alt="Featured image of post 棒グラフの使い分け方：比べ方で変わる4つの基本形" /&gt;&lt;p&gt;データを「棒」で表す棒グラフ。
+見慣れたグラフですが、実は使い分け方を知らないと、伝えたいことが正しく伝わらないことがあります。
+この記事では、初学者でも直感的に理解できるように、「ディメンション」と「メジャー」という視点を使って、棒グラフの4つの基本形を整理します。&lt;/p&gt;
+&lt;h2 id=&#34;ディメンションとメジャーってなに&#34;&gt;ディメンションとメジャーってなに？
+&lt;/h2&gt;&lt;p&gt;棒グラフを理解するためには、まずデータを構成する2種類の変数「ディメンション」と「メジャー」の違いを知っておく必要があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ディメンション（Dimension）&lt;/strong&gt; ：カテゴリ・区分・名前など &lt;strong&gt;データを「分ける」ための情報&lt;/strong&gt; 。例：地域・性別・年度など&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メジャー（Measure）&lt;/strong&gt; ：数値・量・比率など &lt;strong&gt;データを「測る」情報&lt;/strong&gt; 。例：売上・人数・点数など&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;棒グラフってなに&#34;&gt;棒グラフってなに？
+&lt;/h2&gt;&lt;p&gt;棒グラフは、カテゴリごとの数値を棒の長さで表すグラフです。
+つまり &lt;strong&gt;ディメンションで分けて、メジャーで棒の長さを決める。&lt;/strong&gt; これが棒グラフの基本ルールです。&lt;/p&gt;
+&lt;h3 id=&#34;a-棒グラフ-bar-chart&#34;&gt;A. 棒グラフ (Bar Chart)
+&lt;/h3&gt;&lt;p&gt;まずは「ひとつの軸で比べる」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;どんなときに使う？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;単純な比較をしたいとき&lt;/li&gt;
+&lt;li&gt;「どこが一番多い？」をすぐ知りたいとき&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;→ 棒の長さがそのまま売上の大きさを表す。「東京が一番売れている」がすぐわかる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 ディメンション：地域&lt;/li&gt;
+&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;b-グループ棒グラフ-grouped-bar-chart&#34;&gt;B. グループ棒グラフ (Grouped Bar Chart)
+&lt;/h3&gt;&lt;p&gt;項目を「横に並べて比べる」&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;どんなときに使う？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2つの条件で比べたいとき&lt;/li&gt;
+&lt;li&gt;「地域ごとに、年度ごとの違いを見たい」など&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;→ 「東京は去年より増えているけど、大阪はあまり変わらない」など、変化や差を読み取れる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;📊 サブディメンション：年度&lt;/li&gt;
+&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;c-積み重ね棒グラフ-stacked-bar-chart&#34;&gt;C. 積み重ね棒グラフ (Stacked Bar Chart)
+&lt;/h3&gt;&lt;p&gt;全体と内訳を一緒に見たいとき&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;どんなときに使う？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全体の合計と、内訳のバランスを見たいとき&lt;/li&gt;
+&lt;li&gt;「売上の中で、どの商品がどれくらい占めるか」を知りたいとき&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;→ 棒の高さで合計がわかり、色分けで内訳も見える。ただし、途中の棒（真ん中の部分）は比較しにくい点に注意。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;📊 サブディメンション：商品カテゴリー&lt;/li&gt;
+&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;d-100積み上げ棒グラフ-100-stacked-bar-chart&#34;&gt;D. 100%積み上げ棒グラフ (100% Stacked Bar Chart)
+&lt;/h3&gt;&lt;p&gt;構成比の違いを見る&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;どんなときに使う？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全体の大きさではなく、構成比を比べたいとき&lt;/li&gt;
+&lt;li&gt;「地域によって売上構成がどう違うか」を見たいとき&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;→ 全体を100%として「どの要素がどれくらい占めるか」を比較できる。「東京は食品が多い」「大阪はバランス型」などが見える。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;📊 サブディメンション：商品カテゴリー&lt;/li&gt;
+&lt;li&gt;📈 メジャー：構成比（割合）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ比べ方でグラフを選ぼう&#34;&gt;まとめ：比べ方でグラフを選ぼう
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;チャート名&lt;/th&gt;
+          &lt;th&gt;比べ方の特徴&lt;/th&gt;
+          &lt;th&gt;主な目的&lt;/th&gt;
+          &lt;th&gt;ディメンション数&lt;/th&gt;
+          &lt;th&gt;メジャー数&lt;/th&gt;
+          &lt;th&gt;メジャーの扱い&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;棒グラフ (Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1軸でシンプルに比べる&lt;/td&gt;
+          &lt;td&gt;単純な多い・少ないの比較&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;各カテゴリで1値を表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;グループ棒グラフ (Grouped Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;横に並べて比べる&lt;/td&gt;
+          &lt;td&gt;項目ごとの差や変化を比較&lt;/td&gt;
+          &lt;td&gt;複数&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;同一メジャーをサブカテゴリで横並び比較&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;積み重ね棒グラフ (Stacked Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;縦に積んで比べる&lt;/td&gt;
+          &lt;td&gt;全体量と内訳を同時に確認&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;複数&lt;/td&gt;
+          &lt;td&gt;各メジャーを縦に積み上げ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;100%積み上げ棒グラフ (100% Stacked Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;割合で比べる&lt;/td&gt;
+          &lt;td&gt;構成比やパターンの違いを比較&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;複数&lt;/td&gt;
+          &lt;td&gt;各メジャーを割合化して積み上げ&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;まず「何を比べたいのか？」を明確にする。&lt;/li&gt;
+&lt;li&gt;ディメンションを比較したいなら「並べる」、メジャーを比較したいなら「積む」。&lt;/li&gt;
+&lt;li&gt;「合計を見たい」なら積み重ね棒グラフ、「構成比を見たい」なら100%積み上げ棒グラフを使う。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/bar-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bar Chart (Vertical) – Data Viz Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/stacked-bar-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stacked Bar Chart – Data Viz Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.atlassian.com/data/charts/stacked-bar-chart-complete-guide&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;A Complete Guide to Stacked Bar Charts – Atlassian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.statology.org/excel-100-stacked-bar-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Excel: How to Create a 100% Stacked Bar Chart – Statology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://domohelp.domo.com/hc/en-us/articles/360043428993-100-Percent-Stacked-Bar-Chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;100 Percent Stacked Bar Chart – Domo Knowledge Base&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Gapminder World Map 2010</title>
         <link>http://localhost:1313/gapminder-world-map-2010/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
