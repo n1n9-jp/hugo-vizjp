@@ -329,7 +329,19 @@
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/range-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/range-plot/images/thumb_ph_vizjp.png" alt="Featured image of post レンジ・プロット（Range Plot）とは" /&gt;&lt;p&gt;&lt;strong&gt;レンジ・プロット（Range Plot）&lt;/strong&gt; は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その &lt;strong&gt;範囲（レンジ）&lt;/strong&gt; を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/range-plot/images/cover.png" alt="Featured image of post レンジ・プロット（Range Plot）とは" /&gt;&lt;p&gt;&lt;strong&gt;レンジ・プロット（Range Plot）&lt;/strong&gt; は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その &lt;strong&gt;範囲（レンジ）&lt;/strong&gt; を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/range-plot/images/mainvisual.png&#34;
+	width=&#34;2133&#34;
+	height=&#34;1200&#34;
+	srcset=&#34;http://localhost:1313/range-plot/images/mainvisual_hu_cd0095c4e4e7214.png 480w, http://localhost:1313/range-plot/images/mainvisual_hu_73e2cca3b40d013f.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;構造としては &lt;strong&gt;ドット・プロット（Dot Plot）&lt;/strong&gt; を拡張した形であり、2つの点を線で結ぶことにより「差」や「広がり」を一目で理解できるようにしたものです。&lt;/p&gt;
 &lt;p&gt;別名として「 &lt;strong&gt;ギャップ・チャート（Gap Chart）&lt;/strong&gt; 」「 &lt;strong&gt;ダンベル・チャート（Dumbbell Chart）&lt;/strong&gt; 」「 &lt;strong&gt;レンジ・ライン・チャート（Range Line Chart）&lt;/strong&gt; 」などが使われます。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの構造と読み方&#34;&gt;チャートの構造と読み方
@@ -14348,20 +14360,6 @@ Wikipedia には170を超えるバイアスがリストアップされていま�
 </description>
         </item>
         <item>
-        <title>デザイン・ガイドラインにおけるデータ可視化</title>
-        <link>http://localhost:1313/design-guideline/</link>
-        <pubDate>Thu, 14 Sep 2023 00:00:00 +0900</pubDate>
-        
-        <guid>http://localhost:1313/design-guideline/</guid>
-        <description>&lt;p&gt;企業、NPO、政府機関などが、デザイン・ガイドラインにデータ可視化を取り入れる動きがあります。事例を集めました。&lt;/p&gt;
-&lt;p&gt;※随時更新します。最新更新日 2023-09-14。&lt;/p&gt;
-&lt;h3 id=&#34;データ可視化スタイルガイド時系列分野別&#34;&gt;データ可視化スタイルガイド（時系列・分野別）
-&lt;/h3&gt;&lt;script src=&#34;https://public.flourish.studio/resources/embed.js&#34;&gt;&lt;/script&gt;
-&lt;iframe src=&#39;https://flo.uri.sh/visualisation/6196823/embed&#39; title=&#39;Interactive or visual content&#39; class=&#39;flourish-embed-iframe&#39; frameborder=&#39;0&#39; scrolling=&#39;no&#39; style=&#39;width:100%;height:600px;&#39; sandbox=&#39;allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation&#39;&gt;&lt;/iframe&gt;&lt;div style=&#39;width:100%!;margin-top:4px!important;text-align:right!important;&#39;&gt;&lt;a class=&#39;flourish-credit&#39; href=&#39;https://public.flourish.studio/visualisation/6196823/?utm_source=embed&amp;utm_campaign=visualisation/6196823&#39; target=&#39;_top&#39; style=&#39;text-decoration:none!important&#39;&gt;&lt;img alt=&#39;Made with Flourish&#39; src=&#39;https://public.flourish.studio/resources/made_with_flourish.svg&#39; style=&#39;width:105px!important;height:16px!important;border:none!important;margin:0!important;&#39;&gt; &lt;/a&gt;&lt;/div&gt;
-&lt;h3 id=&#34;データ可視化スタイルガイド内容一覧&#34;&gt;データ可視化スタイルガイド（内容一覧）
-&lt;/h3&gt;&lt;iframe src=&#39;https://flo.uri.sh/visualisation/6197049/embed&#39; title=&#39;Interactive or visual content&#39; class=&#39;flourish-embed-iframe&#39; frameborder=&#39;0&#39; scrolling=&#39;no&#39; style=&#39;width:100%;height:600px;&#39; sandbox=&#39;allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation&#39;&gt;&lt;/iframe&gt;&lt;div style=&#39;width:100%!;margin-top:4px!important;text-align:right!important;&#39;&gt;&lt;a class=&#39;flourish-credit&#39; href=&#39;https://public.flourish.studio/visualisation/6197049/?utm_source=embed&amp;utm_campaign=visualisation/6197049&#39; target=&#39;_top&#39; style=&#39;text-decoration:none!important&#39;&gt;&lt;img alt=&#39;Made with Flourish&#39; src=&#39;https://public.flourish.studio/resources/made_with_flourish.svg&#39; style=&#39;width:105px!important;height:16px!important;border:none!important;margin:0!important;&#39;&gt; &lt;/a&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>mapbox-gl-jsがv2.0へヴァージョンアップと共に有料化へ</title>
         <link>http://localhost:1313/mapbox-gl-js-v2/</link>
         <pubDate>Thu, 10 Jun 2021 00:00:00 +0900</pubDate>
@@ -19628,13 +19626,8 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;/ul&gt;
 &lt;p&gt;それとは別に、last.fmのユーザー・リスニング履歴を制作したLee ByronとMartin Wattenbergによって、2008年に書かれた論文が存在します。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Stacked Graphs – Geometry &amp;amp; Aesthetics&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Stacked Graphs – Geometry &amp;amp; Aesthetics&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stacked Graphs – Geometry &amp;amp; Aesthetics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;現在はストリームグラフ（Streamgraph）と呼ばれることが一般的です。&lt;/p&gt;</description>
         </item>
