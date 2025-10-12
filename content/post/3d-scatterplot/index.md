@@ -4,7 +4,7 @@ title = "3D散布図（3D Scatterplot）"
 slug = "3d-scatterplot"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

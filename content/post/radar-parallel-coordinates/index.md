@@ -4,7 +4,7 @@ title = "レーダー・チャートと平行座標：読みやすさをめぐ�
 slug = "radar-parallel-coordinates"
 date = "2025-09-28"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
 ]

@@ -4,7 +4,7 @@ title = "折れ線グラフ（Line Chart）"
 slug = "line-chart"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

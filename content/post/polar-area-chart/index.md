@@ -4,7 +4,7 @@ title = "ポーラー・エリア・チャートとは？ ― 周期性データ
 slug = "polar-area-chart"
 date = "2025-09-30"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

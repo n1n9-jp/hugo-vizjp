@@ -5,7 +5,7 @@ slug = "two-axis"
 date = "2025-08-28"
 description = ""
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "2-axis"

@@ -4,7 +4,7 @@ title = "棒グラフ (Bar Chart)"
 slug = "bar-chart"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

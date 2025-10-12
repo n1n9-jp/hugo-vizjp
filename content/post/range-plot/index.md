@@ -4,7 +4,7 @@ title = "レンジ・プロット（Range Plot）とは"
 slug = "range-plot"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

@@ -4,7 +4,7 @@ title = "三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar 
 slug = "3d-cylindrical-polar-scatter-graph"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

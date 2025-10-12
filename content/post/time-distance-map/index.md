@@ -4,7 +4,7 @@ title = "時間の距離カルトグラム"
 slug = "time-distance-map"
 date = "2025-09-14"
 categories = [
-    "consume","technology"
+    "chart"
 ]
 tags = [
     "地図",

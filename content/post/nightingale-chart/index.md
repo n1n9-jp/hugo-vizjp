@@ -5,7 +5,7 @@ slug = "nightingale-chart"
 date = "2020-08-14"
 description = ""
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

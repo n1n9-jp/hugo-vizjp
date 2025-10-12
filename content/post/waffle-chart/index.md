@@ -5,7 +5,7 @@ slug = "waffle-chart"
 date = "2025-10-04"
 description = ""
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     ""

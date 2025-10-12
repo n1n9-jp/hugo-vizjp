@@ -4,7 +4,7 @@ title = "バブル・チャート（Bubble Chart）"
 slug = "bubble-chart"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

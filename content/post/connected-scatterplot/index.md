@@ -4,7 +4,7 @@ title = "連結散布図 (Connected Scatterplot) の概要"
 slug = "connected-scatterplot"
 date = "2025-09-30"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

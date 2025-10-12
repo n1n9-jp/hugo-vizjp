@@ -4,7 +4,7 @@ title = "カルトグラム：見慣れた地図がデータで歪む面白さ"
 slug = "cartogram"
 date = "2025-09-10"
 categories = [
-    "consume","technology"
+    "chart"
 ]
 tags = [
     "地図"

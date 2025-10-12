@@ -4,7 +4,7 @@ title = "棒グラフの使い分け方：比べ方で変わる4つの基本形"
 slug = "bar-chart-compare"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

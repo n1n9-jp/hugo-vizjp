@@ -95,8 +95,6 @@ Susan Havreらが2000年に出願登録したThemeRiverという名称で論文�
 
 それとは別に、last.fmのユーザー・リスニング履歴を制作したLee ByronとMartin Wattenbergによって、2008年に書かれた論文が存在します。
 
-- Stacked Graphs – Geometry & Aesthetics
-
 - [Stacked Graphs – Geometry & Aesthetics](http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf)
 
 現在はストリームグラフ（Streamgraph）と呼ばれることが一般的です。

@@ -4,7 +4,7 @@ title = "散布図（Scatterplot）"
 slug = "scatterplot"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",

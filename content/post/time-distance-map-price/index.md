@@ -4,7 +4,7 @@ title = "旅費の距離カルトグラム"
 slug = "time-distance-map-price"
 date = "2025-09-14"
 categories = [
-    "consume","technology"
+    "chart"
 ]
 tags = [
     "地図",

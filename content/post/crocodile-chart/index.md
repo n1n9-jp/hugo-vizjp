@@ -4,7 +4,7 @@ title = "ワニの口チャート ― 日本財政を象徴する独自の比喩
 slug = "crocodile-chart"
 date = "2025-10-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",
