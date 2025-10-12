@@ -365,6 +365,66 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
+        <title>棒グラフ (Bar Chart)</title>
+        <link>http://localhost:1313/bar-chart/</link>
+        <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/bar-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/bar-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 棒グラフ (Bar Chart)" /&gt;&lt;p&gt;棒グラフは、カテゴリごとの数量や値を長方形の棒の長さで比較するグラフです。英語では「Bar Chart」または「Bar Graph」と呼ばれ、最も基本的で広く使われている可視化の一つです。&lt;/p&gt;
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
+&lt;/h2&gt;&lt;p&gt;棒グラフは通常 &lt;strong&gt;横軸（x軸）&lt;/strong&gt; に比較対象となるカテゴリ（例：年、製品、地域など）を &lt;strong&gt;縦軸（y軸）&lt;/strong&gt; に数量や数値（例：売上、人口、得点など）を取ります。各棒の長さが値の大きさを表しており、棒が長いほど値が大きいことを意味します。&lt;/p&gt;
+&lt;p&gt;棒は垂直に配置する「縦棒グラフ（Vertical Bar Chart）」と、水平に配置する「横棒グラフ（Horizontal Bar Chart）」の2種類があります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;縦棒グラフ&lt;/strong&gt; は時間や連続的な順序を持つカテゴリ（例：年ごとの売上）に適します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;横棒グラフ&lt;/strong&gt; はカテゴリ名が長い場合や項目数が多い場合に見やすくなります。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;バリエーション&#34;&gt;バリエーション
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;種類&lt;/th&gt;
+          &lt;th&gt;特徴&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;積み上げ棒グラフ (Stacked Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各カテゴリ内の構成要素を棒の中で積み上げて表示する。全体と内訳の両方を比較できる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;百分率積み上げ棒グラフ (100% Stacked Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;各棒を100%に正規化し、割合の比較に用いる。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;グループ化棒グラフ (Grouped Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;複数系列を並べて比較する形式。男女別・年度別などの比較に有効。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;横棒グラフ (Horizontal Bar Chart)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;横方向に棒を配置し、カテゴリ数が多い場合やラベルが長い場合に適する。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;背景と歴史&#34;&gt;背景と歴史
+&lt;/h2&gt;&lt;p&gt;棒グラフは18世紀末、スコットランドの経済学者 &lt;strong&gt;ウィリアム・プレイフェア (William Playfair)&lt;/strong&gt; によって発明されました。彼は1786年の著書『The Commercial and Political Atlas』の中で、国ごとの輸出入を比較するために棒グラフを使用しています。この発明により、数値比較が視覚的に容易になり、後の統計グラフィックス発展の礎となりました。&lt;/p&gt;
+&lt;h2 id=&#34;活用例&#34;&gt;活用例
+&lt;/h2&gt;&lt;p&gt;棒グラフは教育、ビジネス、政策分析などあらゆる場面で利用されます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;企業の年度別売上高比較&lt;/li&gt;
+&lt;li&gt;学校ごとの平均点比較&lt;/li&gt;
+&lt;li&gt;国・地域別の人口やGDP比較&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;棒グラフは、カテゴリデータを比較するためのもっとも基本的な可視化手法です。そのシンプルさゆえに誤読の少ない表現が可能であり、配色・スケール・軸ラベルなどの工夫により、情報を直感的に伝えることができます。歴史的にはウィリアム・プレイフェアによって創案され、現代でも最も信頼性の高いグラフ形式の一つです。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Bar_chart&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wikipedia: Bar chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://datavizproject.com/data-type/bar-chart/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Data Viz Project: Bar Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>Gapminder World Map 2010</title>
         <link>http://localhost:1313/gapminder-world-map-2010/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
