@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "量率グラフという呼び名の誕生史"
-slug = "quantity–proportion-chart"
+slug = "quantity-proportion-chart"
 date = "2025-09-28"
 description = ""
 categories = [

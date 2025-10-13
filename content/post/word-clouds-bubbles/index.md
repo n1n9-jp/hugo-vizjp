@@ -80,7 +80,7 @@ image = "images/State-of-the-Union-2.png"
 
 ### このグラフはどうなっているでしょうか？
 
-![](images/What’s-Going-On-in-This-Graph_NYT.png)
+![](images/Whats-Going-On-in-This-Graph_NYT.png)
 
 [What’s Going On in This Graph? – New York Times](https://www.nytimes.com/interactive/2018/02/08/learning/13WGOITGraphLN.html)
 

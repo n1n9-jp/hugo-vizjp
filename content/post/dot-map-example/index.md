@@ -56,7 +56,7 @@ Flickrにアップロードされた写真を分析し、フォトグラファ�
 
 ### 白人至上主義のリンチの歴史の地図
 
-![](images/Map-of-White-Supremacy’s-history-of-lynchings-1.png)
+![](images/Map-of-White-Supremacys-history-of-lynchings-1.png)
 
 [Map of White Supremacy’s history of lynchings](https://plaintalkhistory.com/monroeandflorencework/explore/map1/#3/38/-97.5)
 
