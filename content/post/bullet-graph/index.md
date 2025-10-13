@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ブレット・グラフ（Bullet Graph）"
+title = "ブレット・グラフ"
 slug = "bullet-graph"
 date = "2025-10-11"
 categories = [

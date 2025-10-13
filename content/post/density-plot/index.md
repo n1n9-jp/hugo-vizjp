@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "密度プロット（Density Plot）"
+title = "密度プロット"
 slug = "density-plot"
 date = "2025-10-11"
 categories = [

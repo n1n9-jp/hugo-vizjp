@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ヒストグラム (Histogram)"
+title = "ヒストグラム"
 slug = "histogram"
 date = "2025-10-11"
 categories = [

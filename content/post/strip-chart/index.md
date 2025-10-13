@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ストリップ・チャート（Strip Chart）"
+title = "ストリップ・チャート"
 slug = "strip-chart"
 date = "2025-10-11"
 categories = [

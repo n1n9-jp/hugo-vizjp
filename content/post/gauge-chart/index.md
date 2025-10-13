@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ゲージ・チャート（Gauge Chart）"
+title = "ゲージ・チャート"
 slug = "gauge-chart"
 date = "2025-10-11"
 categories = [
@@ -19,7 +19,7 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
-## 図解の見方
+## チャートの見方
 
 | 要素 | 説明 |
 |------|------|

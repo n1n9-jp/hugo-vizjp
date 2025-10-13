@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "アイソタイプ・チャート（Isotype Chart）"
+title = "アイソタイプ・チャート"
 slug = "isotype-chart"
 date = "2025-10-11"
 categories = [

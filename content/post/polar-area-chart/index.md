@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法"
+title = "ポーラー・エリア・チャート"
 slug = "polar-area-chart"
 date = "2025-09-30"
 categories = [

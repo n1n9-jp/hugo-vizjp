@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "シンボル・チャート（Symbol Chart）"
+title = "シンボル・チャート"
 slug = "symbol-chart"
 date = "2025-10-11"
 categories = [

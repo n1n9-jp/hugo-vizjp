@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "「パラレル・コーディネイト」(Parallel Coordinates)"
+title = "パラレル・コーディネイト"
 slug = "parallel-coordinates"
 date = "2020-07-07"
 

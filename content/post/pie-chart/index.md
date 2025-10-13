@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "円グラフ (Pie Chart)"
+title = "円グラフ"
 slug = "pie-chart"
 date = "2025-10-12"
 categories = [

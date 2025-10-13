@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "連結散布図 (Connected Scatterplot) の概要"
+title = "連結散布図"
 slug = "connected-scatterplot"
 date = "2025-09-30"
 categories = [

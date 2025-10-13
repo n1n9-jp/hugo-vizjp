@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "オイラー図（Euler Diagram）とは"
+title = "オイラー図"
 slug = "euler-diagram"
 date = "2025-10-08"
 description = ""

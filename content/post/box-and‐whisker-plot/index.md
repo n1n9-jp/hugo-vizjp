@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "箱ひげ図（Box-and-Whisker Plot）"
+title = "箱ひげ図"
 slug = "box-and‐whisker-plot"
 date = "2025-10-11"
 categories = [

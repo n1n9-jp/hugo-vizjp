@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ワード・クラウドとワード・バブル（Word Clouds & Word Bubbles）"
+title = "ワード・クラウドとワード・バブル"
 slug = "word-clouds-bubbles"
 date = "2020-08-03"
 description = ""

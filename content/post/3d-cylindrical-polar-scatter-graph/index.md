@@ -111,7 +111,7 @@ image = "images/thumb_ph_vizjp.png"
 
 ## 参考・出典
 
-- *3D surface with polar coordinates* — Matplotlib ドキュメント：極座標／円筒座標を用いた 3D 表面描画例  [oai_citation:0‡matplotlib.org](https://matplotlib.org/stable/gallery/mplot3d/surface3d_radial.html?utm_source=chatgpt.com)  
-- *Cylindrical Coordinates* — Wolfram MathWorld：円筒座標系の定義および性質  [oai_citation:1‡ウルフラム数学ワールド](https://mathworld.wolfram.com/CylindricalCoordinates.html?utm_source=chatgpt.com)  
-- *Cylindrical coordinate system* — Wikipedia：座標系としての概要と応用例  [oai_citation:3‡ウィキペディア](https://en.wikipedia.org/wiki/Cylindrical_coordinate_system?utm_source=chatgpt.com)  
-- *Three-dimensional plotting in Matplotlib* — Jake VanderPlas によるチュートリアル：「極座標グリッド」を 3D プロットに使う例  [oai_citation:4‡jakevdp.github.io](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html?utm_source=chatgpt.com)  
+- *3D surface with polar coordinates* — Matplotlib ドキュメント：極座標／円筒座標を用いた 3D 表面描画例  [oai_citation:0‡matplotlib.org](https://matplotlib.org/stable/gallery/mplot3d/surface3d_radial.html)  
+- *Cylindrical Coordinates* — Wolfram MathWorld：円筒座標系の定義および性質  [oai_citation:1‡ウルフラム数学ワールド](https://mathworld.wolfram.com/CylindricalCoordinates.html)  
+- *Cylindrical coordinate system* — Wikipedia：座標系としての概要と応用例  [oai_citation:3‡ウィキペディア](https://en.wikipedia.org/wiki/Cylindrical_coordinate_system)  
+- *Three-dimensional plotting in Matplotlib* — Jake VanderPlas によるチュートリアル：「極座標グリッド」を 3D プロットに使う例  [oai_citation:4‡jakevdp.github.io](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html)  

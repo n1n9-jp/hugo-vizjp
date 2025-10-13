@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ベン図 (Venn Diagram) とは"
+title = "ベン図"
 slug = "venn-diagram"
 date = "2025-10-08"
 description = ""

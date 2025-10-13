@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "コレログラム (Correlogram)"
+title = "コレログラム"
 slug = "correlogram"
 date = "2025-10-11"
 categories = [

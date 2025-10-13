@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "散布図行列 (Scatterplot Matrix)"
+title = "散布図行列"
 slug = "splom"
 date = "2020-08-28"
 description = ""

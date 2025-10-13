@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ラディアル・バー・チャート（Radial Bar Chart）"
+title = "ラディアル・バー・チャート"
 slug = "radial-bar-chart"
 date = "2025-10-11"
 categories = [

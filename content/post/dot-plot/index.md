@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ドット・プロット（Dot Plot）"
+title = "ドット・プロット"
 slug = "dot-plot"
 date = "2025-10-11"
 categories = [

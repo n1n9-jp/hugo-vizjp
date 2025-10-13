@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法"
+title = "パラレル・セット"
 slug = "parallel-sets"
 date = "2025-09-28"
 description = ""

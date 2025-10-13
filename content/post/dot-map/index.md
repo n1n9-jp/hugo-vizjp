@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ドット・マップ（Dot Map）とは"
+title = "ドット・マップ"
 slug = "dot-map"
 date = "2025-10-11"
 categories = [

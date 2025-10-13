@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "リッジライン・プロット（Ridgeline Plot）"
+title = "リッジライン・プロット"
 slug = "ridgeline-plot"
 date = "2025-10-11"
 categories = [

@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ストリームグラフ（Streamgraph）"
+title = "ストリームグラフ"
 slug = "streamgraph"
 date = "2020-07-07"
 description = ""

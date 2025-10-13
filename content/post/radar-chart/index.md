@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "レーダー・チャート（Radar Chart）"
+title = "レーダー・チャート"
 slug = "radar-chart"
 date = "2025-10-11"
 categories = [

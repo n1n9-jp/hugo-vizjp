@@ -58,8 +58,8 @@ image = "images/cover.png"
 
 ### 参考・出典
 
-- [Viewing contributions on your profile — GitHub Docs](https://docs.github.com/articles/viewing-contributions-on-your-profile-page)  [oai_citation:0‡GitHub Docs](https://docs.github.com/articles/viewing-contributions-on-your-profile-page?utm_source=chatgpt.com)  
-- [Calendar Example — Vega (calendar-view example)](https://vega.github.io/vega/examples/calendar-view/)  [oai_citation:1‡Vega](https://vega.github.io/vega/examples/calendar-view/?utm_source=chatgpt.com)  
-- [Calendar Chart — Google Charts (calendar visualization)](https://developers.google.com/chart/interactive/docs/gallery/calendar)  [oai_citation:2‡Google for Developers](https://developers.google.com/chart/interactive/docs/gallery/calendar?utm_source=chatgpt.com)  
-- [Cal-Heatmap: Calendar Heat Map JS plugin](https://cal-heatmap.com/v2/)  [oai_citation:3‡Cal-Heatmap](https://cal-heatmap.com/v2/?utm_source=chatgpt.com)  
-- [Tutorial: Building a D3.js Calendar Heatmap](https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/)  [oai_citation:4‡RisingStack Engineering](https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/?utm_source=chatgpt.com)  
+- [Viewing contributions on your profile — GitHub Docs](https://docs.github.com/articles/viewing-contributions-on-your-profile-page)  
+- [Calendar Example — Vega (calendar-view example)](https://vega.github.io/vega/examples/calendar-view/) 
+- [Calendar Chart — Google Charts (calendar visualization)](https://developers.google.com/chart/interactive/docs/gallery/calendar)
+- [Cal-Heatmap: Calendar Heat Map JS plugin](https://cal-heatmap.com/v2/)
+- [Tutorial: Building a D3.js Calendar Heatmap](https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/)

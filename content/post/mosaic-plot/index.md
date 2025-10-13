@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "モザイク・プロット（Mosaic Plot）"
+title = "モザイク・プロット"
 slug = "mosaic-plot"
 date = "2025-09-29"
 description = ""
