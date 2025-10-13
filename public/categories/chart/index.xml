@@ -6376,18 +6376,18 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
         </item>
         <item>
         <title>量率グラフという呼び名の誕生史</title>
-        <link>http://localhost:1313/quantityproportion-chart/</link>
+        <link>http://localhost:1313/quantity-proportion-chart/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/quantityproportion-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
+        <guid>http://localhost:1313/quantity-proportion-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/quantity-proportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
 &lt;p&gt;国際的には モザイク・プロット（Mosaic Plot）が統計ソフトに実装されており、ビジネス界隈ではマリメッコ・チャート（Marimekko Chart）の名称が浸透しています。これに対して「量率グラフ」という呼称は、日本独自に広まった言い方であり、教育や普及活動の中で生まれました。&lt;/p&gt;
 &lt;h2 id=&#34;量率グラフの例&#34;&gt;量率グラフの例
 &lt;/h2&gt;&lt;h3 id=&#34;棒グラフと円の面積で表現した総額&#34;&gt;棒グラフと円の面積で表現した総額
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/bar-chart.jpeg&#34;
 	width=&#34;1710&#34;
 	height=&#34;1180&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より、棒グラフと円の面積で表現した総額&#34;
@@ -6399,10 +6399,10 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;全く同じデータを量率グラフで表現したもの&#34;&gt;全く同じデータを量率グラフで表現したもの
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
 	width=&#34;1682&#34;
 	height=&#34;2302&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より、量率グラフ&#34;
@@ -6429,10 +6429,10 @@ A→B、B→C、C→A という接続がある場合の隣接行列は次の通�
 &lt;/ul&gt;
 &lt;p&gt;この三者の協働があって、今日「量率グラフ」という日本語名称が登場したといえます。&lt;/p&gt;
 &lt;h2 id=&#34;量率グラフの仕組みと特徴&#34;&gt;量率グラフの仕組みと特徴
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
 	width=&#34;1145&#34;
 	height=&#34;2094&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より&#34;
@@ -8293,10 +8293,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1.png&#34;
 	width=&#34;2875&#34;
 	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -8747,10 +8747,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2012/08/28/us/politics/convention-word-counts.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;At the Republican Convention, the Words Being Used&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;このグラフはどうなっているでしょうか&#34;&gt;このグラフはどうなっているでしょうか？
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT.png&#34;
 	width=&#34;2352&#34;
 	height=&#34;1819&#34;
-	srcset=&#34;http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT_hu_d2036c814ab50fc0.png 480w, http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT_hu_10aab41378e885d8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT_hu_d2036c814ab50fc0.png 480w, http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT_hu_10aab41378e885d8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
