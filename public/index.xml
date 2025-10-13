@@ -247,12 +247,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>バブル・チャート（Bubble Chart）</title>
+        <title>バブル・チャート</title>
         <link>http://localhost:1313/bubble-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bubble-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/bubble-chart/images/thumb_ph_vizjp.png" alt="Featured image of post バブル・チャート（Bubble Chart）" /&gt;&lt;p&gt;バブル・チャート（Bubble Chart）は &lt;strong&gt;散布図（Scatter Plot）を拡張した多次元データの可視化手法&lt;/strong&gt; です。基本的な散布図では、横軸（X軸）と縦軸（Y軸）の2変数でデータ点をプロットしますが、バブル・チャートではさらに &lt;strong&gt;「円（バブル）の大きさ」&lt;/strong&gt; で3つ目の変数を表現します。場合によっては色や透明度を使って4つ目、5つ目の変数を同時に可視化することも可能です。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bubble-chart/images/thumb_ph_vizjp.png" alt="Featured image of post バブル・チャート" /&gt;&lt;p&gt;バブル・チャート（Bubble Chart）は &lt;strong&gt;散布図（Scatter Plot）を拡張した多次元データの可視化手法&lt;/strong&gt; です。基本的な散布図では、横軸（X軸）と縦軸（Y軸）の2変数でデータ点をプロットしますが、バブル・チャートではさらに &lt;strong&gt;「円（バブル）の大きさ」&lt;/strong&gt; で3つ目の変数を表現します。場合によっては色や透明度を使って4つ目、5つ目の変数を同時に可視化することも可能です。&lt;/p&gt;
 &lt;p&gt;このように、バブル・チャートは &lt;strong&gt;「3次元以上の情報を2次元平面上で表す」&lt;/strong&gt; ことを目的としています。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;各データ点は「円（バブル）」として表されます。&lt;/p&gt;
@@ -324,12 +324,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>レンジ・プロット（Range Plot）とは</title>
+        <title>レンジ・プロット</title>
         <link>http://localhost:1313/range-plot/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/range-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/range-plot/images/cover.png" alt="Featured image of post レンジ・プロット（Range Plot）とは" /&gt;&lt;p&gt;&lt;strong&gt;レンジ・プロット（Range Plot）&lt;/strong&gt; は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その &lt;strong&gt;範囲（レンジ）&lt;/strong&gt; を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/range-plot/images/cover.png" alt="Featured image of post レンジ・プロット" /&gt;&lt;p&gt;&lt;strong&gt;レンジ・プロット（Range Plot）&lt;/strong&gt; は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その &lt;strong&gt;範囲（レンジ）&lt;/strong&gt; を可視化するチャートです。カテゴリごとに2点の数値を持つデータ（例：最低値と最高値、前年と今年、男性と女性など）を比較する際に使われます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/range-plot/images/mainvisual.png&#34;
 	width=&#34;2133&#34;
 	height=&#34;1200&#34;
@@ -716,12 +716,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）</title>
+        <title>三次元 円筒座標 散布図</title>
         <link>http://localhost:1313/3d-cylindrical-polar-scatter-graph/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/3d-cylindrical-polar-scatter-graph/</guid>
-        <description>&lt;img src="http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/thumb_ph_vizjp.png" alt="Featured image of post 三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）" /&gt;&lt;p&gt;この図は「三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）」と呼ばれるグラフの一例です。円筒座標系を用いて、極角・半径・高さという三つの値の関係を可視化しています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/thumb_ph_vizjp.png" alt="Featured image of post 三次元 円筒座標 散布図" /&gt;&lt;p&gt;この図は「三次元 円筒座標 散布図（Three-dimensional Cylindrical Polar Scatter Graph）」と呼ばれるグラフの一例です。円筒座標系を用いて、極角・半径・高さという三つの値の関係を可視化しています。&lt;/p&gt;
 &lt;p&gt;一般的な散布図が二次元平面上に点をプロットするのに対し、この図では「角度（θ）」「半径（r）」「高さ（z）」の三要素を組み合わせることで、三次元的な分布を表現します。&lt;/p&gt;
 &lt;p&gt;これは極座標プロット（Polar Plot）の三次元拡張とみなすことができます。二次元の極座標散布図では平面上の角度と距離で表現しますが、さらに高さ軸を加えることで、データの変化をより立体的に理解できます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/3d-cylindrical-polar-scatter-graph/images/mainvisual-1.png&#34;
@@ -866,12 +866,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>散布図（Scatterplot）</title>
+        <title>散布図</title>
         <link>http://localhost:1313/scatterplot/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/scatterplot/</guid>
-        <description>&lt;img src="http://localhost:1313/scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 散布図（Scatterplot）" /&gt;&lt;p&gt;散布図（スキャッタープロット）は、&lt;strong&gt;2つの変数の関係を視覚的に示すための基本的な統計図&lt;/strong&gt;です。横軸（X軸）に一方の変数を、縦軸（Y軸）にもう一方の変数を取り、各データ点を1つの点としてプロットします。これにより、変数間の相関関係や分布傾向を直感的に理解できます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 散布図" /&gt;&lt;p&gt;散布図（スキャッタープロット）は、&lt;strong&gt;2つの変数の関係を視覚的に示すための基本的な統計図&lt;/strong&gt;です。横軸（X軸）に一方の変数を、縦軸（Y軸）にもう一方の変数を取り、各データ点を1つの点としてプロットします。これにより、変数間の相関関係や分布傾向を直感的に理解できます。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;散布図の1点は1つの観測対象（例：人、都市、商品など）を表します。&lt;br&gt;
 横軸は「説明変数（独立変数）」、縦軸は「目的変数（従属変数）」を取ることが一般的です。&lt;/p&gt;
@@ -1277,12 +1277,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>3Dコロプレス・マップ（3D Choropleth Map）</title>
+        <title>3Dコロプレス・マップ</title>
         <link>http://localhost:1313/3d-choropleth-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/3d-choropleth-map/</guid>
-        <description>&lt;img src="http://localhost:1313/3d-choropleth-map/images/thumb_ph_vizjp.png" alt="Featured image of post 3Dコロプレス・マップ（3D Choropleth Map）" /&gt;&lt;p&gt;3Dコロプレス・マップ（3D Choropleth Map）は、地理的な区画ごとに統計値を色で示す「コロプレス・マップ（Choropleth Map）」を三次元的に拡張した可視化手法です。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/3d-choropleth-map/images/thumb_ph_vizjp.png" alt="Featured image of post 3Dコロプレス・マップ" /&gt;&lt;p&gt;3Dコロプレス・マップ（3D Choropleth Map）は、地理的な区画ごとに統計値を色で示す「コロプレス・マップ（Choropleth Map）」を三次元的に拡張した可視化手法です。&lt;/p&gt;
 &lt;p&gt;各地域の値を「高さ（立体のプリズム）」として表現し、色と高さの両方で変数の大小を表します。地表から突き出たような立体構造が特徴で、人口密度や所得水準などを直感的に把握できる利点があります。&lt;/p&gt;
 &lt;p&gt;Mapboxやdeck.gl、ArcGISなどのGISプラットフォームでは、この3Dコロプレス表現がよく利用されます。
 都市の「盛り上がり」を見るような表現が得られ、視覚的なインパクトが強い反面、誤読や視点依存性にも注意が必要です。&lt;/p&gt;
@@ -1680,12 +1680,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>アーク・ダイアグラム (Arc Diagram)</title>
+        <title>アーク・ダイアグラム</title>
         <link>http://localhost:1313/arc-diagram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/arc-diagram/</guid>
-        <description>&lt;img src="http://localhost:1313/arc-diagram/images/cover.png" alt="Featured image of post アーク・ダイアグラム (Arc Diagram)" /&gt;&lt;p&gt;アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/arc-diagram/images/cover.png" alt="Featured image of post アーク・ダイアグラム" /&gt;&lt;p&gt;アーク・ダイアグラム（Arc Diagram）は、ネットワーク構造を直線上に配置したノード（点）と、それらを結ぶ円弧（アーク）によって関係性を可視化する図法です。2000年代初頭にマサチューセッツ工科大学のMartin Wattenbergが提案した手法で、複雑なネットワーク構造を「時間的順序」や「系列関係」とともに視覚的に理解できるように設計されています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/arc-diagram/images/mainvisual.png&#34;
 	width=&#34;2381&#34;
 	height=&#34;1244&#34;
@@ -2002,12 +2002,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>イールド・カーブ（Yield Curve）</title>
+        <title>イールド・カーブ</title>
         <link>http://localhost:1313/yield-curve/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/yield-curve/</guid>
-        <description>&lt;img src="http://localhost:1313/yield-curve/images/thumb_ph_vizjp.png" alt="Featured image of post イールド・カーブ（Yield Curve）" /&gt;&lt;p&gt;イールド・カーブ（Yield Curve）とは、国債などの &lt;strong&gt;異なる満期（期間）の利回りを結んだ曲線&lt;/strong&gt; のことを指します。日本語では「利回り曲線」とも呼ばれます。通常、横軸に「満期（年数）」、縦軸に「利回り（％）」をとり、短期から長期までの金利の関係を視覚的に示すチャートです。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/yield-curve/images/thumb_ph_vizjp.png" alt="Featured image of post イールド・カーブ" /&gt;&lt;p&gt;イールド・カーブ（Yield Curve）とは、国債などの &lt;strong&gt;異なる満期（期間）の利回りを結んだ曲線&lt;/strong&gt; のことを指します。日本語では「利回り曲線」とも呼ばれます。通常、横軸に「満期（年数）」、縦軸に「利回り（％）」をとり、短期から長期までの金利の関係を視覚的に示すチャートです。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/yield-curve/images/mainvisual.png&#34;
 	width=&#34;1671&#34;
 	height=&#34;1239&#34;
@@ -2080,12 +2080,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ウォーターフォール・チャート（Waterfall Chart）</title>
+        <title>ウォーターフォール・チャート</title>
         <link>http://localhost:1313/waterfall-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/waterfall-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/waterfall-chart/images/cover.png" alt="Featured image of post ウォーターフォール・チャート（Waterfall Chart）" /&gt;&lt;p&gt;ウォーターフォール・チャート（Waterfall Chart）は、ある値がどのように増減して最終的な値に至るのかを段階的に可視化するためのグラフです。日本語では「滝グラフ」や「橋グラフ」とも呼ばれます。主に「利益」「売上」「コスト」など、数値の変化を構成要素ごとに分解して理解するのに適しています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/waterfall-chart/images/cover.png" alt="Featured image of post ウォーターフォール・チャート" /&gt;&lt;p&gt;ウォーターフォール・チャート（Waterfall Chart）は、ある値がどのように増減して最終的な値に至るのかを段階的に可視化するためのグラフです。日本語では「滝グラフ」や「橋グラフ」とも呼ばれます。主に「利益」「売上」「コスト」など、数値の変化を構成要素ごとに分解して理解するのに適しています。&lt;/p&gt;
 &lt;p&gt;ウォーターフォールという名称は、棒グラフが段階的に上下に「滝のように」連なって見えることに由来します。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/waterfall-chart/images/mainvisual.jpg&#34;
 	width=&#34;890&#34;
@@ -3467,12 +3467,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ドット密度マップ（Dot Density Map）</title>
+        <title>ドット密度マップ</title>
         <link>http://localhost:1313/dot-density-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-density-map/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-density-map/images/cover.png" alt="Featured image of post ドット密度マップ（Dot Density Map）" /&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/dot-density-map/images/cover.png" alt="Featured image of post ドット密度マップ" /&gt;&lt;p&gt;ドット密度マップ（Dot Density Map）は、地理的な分布を点（ドット）で表す地図表現です。各ドットは一定の数量（例：1ドット＝100人、1ドット＝1戸など）を意味し、ドットの密度によって地域ごとの値の大小を視覚的に把握することができます。主に人口分布、産業活動、農業生産などの地域的パターンを示す際に用いられます。&lt;/p&gt;
 &lt;p&gt;データは、実際の発生位置ではありません。そのため、地図上のどこに配置するのかについて、メソッドや考え方が様々存在します。統計単位に該当する地物の重心や、地形や都市にとって意味のある地理情報に関連付けることが多い印象です。&lt;/p&gt;
 &lt;p&gt;この手法は、エリア（行政区、国、都道府県など）の境界内にランダムまたは均等に配置された点を使って、総量を表現します。ドットの密集具合によって直感的に「多い・少ない」を伝える点が特徴です。&lt;/p&gt;
 &lt;p&gt;見た目が似たドット分布マップは、集計値ではなく観測値をそのまま表し、表示位置が実際の発生位置を表しますので、その点で明確に異なるデータ地図といえます。&lt;/p&gt;
@@ -3547,12 +3547,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ハイパーボリック・ツリー（Hyperbolic Tree）</title>
+        <title>ハイパーボリック・ツリー</title>
         <link>http://localhost:1313/hyperbolic-trees/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/hyperbolic-trees/</guid>
-        <description>&lt;img src="http://localhost:1313/hyperbolic-trees/images/thumb_ph_vizjp.png" alt="Featured image of post ハイパーボリック・ツリー（Hyperbolic Tree）" /&gt;&lt;p&gt;ハイパーボリック・ツリー（Hyperbolic Tree）は、階層的な情報構造を効率的に表示するために考案された可視化手法です。双曲幾何学（hyperbolic geometry）の空間特性を利用し、ユークリッド平面上では扱いにくい大規模な木構造を、視認性を保ちながらコンパクトに描画することができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/hyperbolic-trees/images/thumb_ph_vizjp.png" alt="Featured image of post ハイパーボリック・ツリー" /&gt;&lt;p&gt;ハイパーボリック・ツリー（Hyperbolic Tree）は、階層的な情報構造を効率的に表示するために考案された可視化手法です。双曲幾何学（hyperbolic geometry）の空間特性を利用し、ユークリッド平面上では扱いにくい大規模な木構造を、視認性を保ちながらコンパクトに描画することができます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/hyperbolic-trees/images/mainvisual-1.png&#34;
 	width=&#34;887&#34;
 	height=&#34;887&#34;
@@ -3629,12 +3629,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>バイオリン・プロット（Violin Plot）</title>
+        <title>バイオリン・プロット</title>
         <link>http://localhost:1313/violin-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/violin-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/violin-plot/images/cover.png" alt="Featured image of post バイオリン・プロット（Violin Plot）" /&gt;&lt;p&gt;&lt;strong&gt;バイオリン・プロット（Violin Plot）&lt;/strong&gt; は、データの分布を可視化するための図であり &lt;strong&gt;箱ひげ図（Box-and-Whisker Plot）とカーネル密度推定（Kernel Density Estimation, KDE）を組み合わせた&lt;/strong&gt; チャートです。データの中央値や四分位範囲といった要約統計量に加え、分布の形状を滑らかに示すことで、より直感的に「データの山（モード）」や「広がり」「偏り」を読み取ることができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/violin-plot/images/cover.png" alt="Featured image of post バイオリン・プロット" /&gt;&lt;p&gt;&lt;strong&gt;バイオリン・プロット（Violin Plot）&lt;/strong&gt; は、データの分布を可視化するための図であり &lt;strong&gt;箱ひげ図（Box-and-Whisker Plot）とカーネル密度推定（Kernel Density Estimation, KDE）を組み合わせた&lt;/strong&gt; チャートです。データの中央値や四分位範囲といった要約統計量に加え、分布の形状を滑らかに示すことで、より直感的に「データの山（モード）」や「広がり」「偏り」を読み取ることができます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/violin-plot/images/mainvisual.png&#34;
 	width=&#34;2811&#34;
 	height=&#34;1702&#34;
@@ -4561,12 +4561,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>幹葉図（stem-and-leaf plot）</title>
+        <title>幹葉図</title>
         <link>http://localhost:1313/stem-and-leaf-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/stem-and-leaf-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/stem-and-leaf-plot/images/cover.png" alt="Featured image of post 幹葉図（stem-and-leaf plot）" /&gt;&lt;p&gt;幹葉図（stem-and-leaf plot）は、数値データを「幹（stem）」と「葉（leaf）」に分けて表示することで、分布の形を視覚的に把握できる統計図法です。
+        <description>&lt;img src="http://localhost:1313/stem-and-leaf-plot/images/cover.png" alt="Featured image of post 幹葉図" /&gt;&lt;p&gt;幹葉図（stem-and-leaf plot）は、数値データを「幹（stem）」と「葉（leaf）」に分けて表示することで、分布の形を視覚的に把握できる統計図法です。
 ヒストグラムと似ていますが &lt;strong&gt;個々の観測値が保持されたまま&lt;/strong&gt; 表示される点に特徴があります。
 主に少量〜中量データの探索的分析に用いられます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/stem-and-leaf-plot/images/mainvisual.png&#34;
@@ -5041,12 +5041,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>垂直樹（Vertical Trees）と水平樹（Horizontal Trees）</title>
+        <title>垂直樹と水平樹</title>
         <link>http://localhost:1313/vertical-tree-horizontal-trees/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/vertical-tree-horizontal-trees/</guid>
-        <description>&lt;img src="http://localhost:1313/vertical-tree-horizontal-trees/images/thumb_ph_vizjp.png" alt="Featured image of post 垂直樹（Vertical Trees）と水平樹（Horizontal Trees）" /&gt;&lt;p&gt;垂直樹（Vertical Trees）と水平樹（Horizontal Trees）は &lt;strong&gt;階層構造（hierarchical structure）を可視化するための基本的なツリー・ダイアグラム（Tree Diagram）&lt;/strong&gt; のバリエーションです。どちらも「ノード（節点）」と「枝（エッジ）」によって構成され、親子関係を明確に示す図式であり、組織図や分類体系、進化系統樹などによく用いられます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/vertical-tree-horizontal-trees/images/thumb_ph_vizjp.png" alt="Featured image of post 垂直樹と水平樹" /&gt;&lt;p&gt;垂直樹（Vertical Trees）と水平樹（Horizontal Trees）は &lt;strong&gt;階層構造（hierarchical structure）を可視化するための基本的なツリー・ダイアグラム（Tree Diagram）&lt;/strong&gt; のバリエーションです。どちらも「ノード（節点）」と「枝（エッジ）」によって構成され、親子関係を明確に示す図式であり、組織図や分類体系、進化系統樹などによく用いられます。&lt;/p&gt;
 &lt;h2 id=&#34;垂直樹vertical-tree&#34;&gt;垂直樹（Vertical Tree）
 &lt;/h2&gt;&lt;p&gt;垂直樹では &lt;strong&gt;ルートノード（根）を上部に配置し、枝を下方向に展開する&lt;/strong&gt; ことで階層を表現します。最も一般的な形式であり、「トップダウン構造」を強調するのに適しています。企業組織図やファイル階層構造などでよく見られます。&lt;/p&gt;
 &lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
@@ -5123,12 +5123,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>二変数コロプレス・マップ（Bivariate Choropleth Map）とは</title>
+        <title>二変数コロプレス・マップ</title>
         <link>http://localhost:1313/bivariate-choropleth-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bivariate-choropleth-map/</guid>
-        <description>&lt;img src="http://localhost:1313/bivariate-choropleth-map/images/cover.png" alt="Featured image of post 二変数コロプレス・マップ（Bivariate Choropleth Map）とは" /&gt;&lt;p&gt;二変数コロプレス・マップ（Bivariate Choropleth Map）は &lt;strong&gt;2つの異なる変数を同時に地理的に表現する地図&lt;/strong&gt; です。通常のコロプレス・マップ（単変量地図）が地域ごとの1つの値（例えば人口密度や所得水準など）を色の濃淡で表すのに対し、二変数コロプレスでは &lt;strong&gt;2軸（2つの変数）を組み合わせて色相と明度、または2色のブレンドによって表現&lt;/strong&gt; します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bivariate-choropleth-map/images/cover.png" alt="Featured image of post 二変数コロプレス・マップ" /&gt;&lt;p&gt;二変数コロプレス・マップ（Bivariate Choropleth Map）は &lt;strong&gt;2つの異なる変数を同時に地理的に表現する地図&lt;/strong&gt; です。通常のコロプレス・マップ（単変量地図）が地域ごとの1つの値（例えば人口密度や所得水準など）を色の濃淡で表すのに対し、二変数コロプレスでは &lt;strong&gt;2軸（2つの変数）を組み合わせて色相と明度、または2色のブレンドによって表現&lt;/strong&gt; します。&lt;/p&gt;
 &lt;p&gt;例えば、「平均所得（高⇄低）」を赤系の濃淡で、「教育水準（高⇄低）」を青系の濃淡で表現し、結果として紫色の濃淡が現れる場合、その地域は「所得も教育水準も高い」と解釈できます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/bivariate-choropleth-map/images/mainvisual.png&#34;
 	width=&#34;960&#34;
@@ -5606,12 +5606,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>隣接行列（Adjacency Matrix）</title>
+        <title>隣接行列</title>
         <link>http://localhost:1313/adiacency-matrix/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/adiacency-matrix/</guid>
-        <description>&lt;img src="http://localhost:1313/adiacency-matrix/images/cover.png" alt="Featured image of post 隣接行列（Adjacency Matrix）" /&gt;&lt;p&gt;隣接行列（adjacency matrix）は、&lt;strong&gt;ネットワーク（グラフ）構造を数値の表形式で表現する方法&lt;/strong&gt;です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/adiacency-matrix/images/cover.png" alt="Featured image of post 隣接行列" /&gt;&lt;p&gt;隣接行列（adjacency matrix）は、&lt;strong&gt;ネットワーク（グラフ）構造を数値の表形式で表現する方法&lt;/strong&gt;です。頂点（ノード）同士の接続関係を、行と列で示します。可視化の基本的な構造であり、ネットワーク理論・社会ネットワーク分析・グラフアルゴリズムなどの分野で広く用いられています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/adiacency-matrix/images/mainvisual.jpg&#34;
 	width=&#34;836&#34;
 	height=&#34;918&#34;
@@ -6396,12 +6396,12 @@ De Agostini、Garzanti、Zanichelli という3種類の代表的な世界史ア�
 &lt;p&gt;データの性質に応じて、ツリーマップや他の階層可視化手法と組み合わせることで、より効果的なデータ表現が可能になります。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》</title>
+        <title>もし世界の大陸を同じスケールで描いたら？</title>
         <link>http://localhost:1313/continents-showdown/</link>
         <pubDate>Thu, 09 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/continents-showdown/</guid>
-        <description>&lt;img src="http://localhost:1313/continents-showdown/images/cover.png" alt="Featured image of post もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》" /&gt;&lt;p&gt;イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/continents-showdown/images/cover.png" alt="Featured image of post もし世界の大陸を同じスケールで描いたら？" /&gt;&lt;p&gt;イタリアのデータビジュアライゼーション・スタジオ &lt;strong&gt;Accurat&lt;/strong&gt; による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。&lt;br&gt;
 通常の地図は一定の縮尺で地理的な正確さを保ちますが、本作はあえてそれを崩し &lt;strong&gt;「比較」という視点で世界を再構築&lt;/strong&gt; しています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/continents-showdown/images/mainvisual.png&#34;
 	width=&#34;2500&#34;
@@ -18628,7 +18628,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;National Front breakthrough stuns France’s traditional parties | Financial Times&lt;/a&gt;&lt;/p&gt;
+    &gt;National Front breakthrough stuns France&amp;rsquo;s traditional parties | Financial Times&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ピッツバーグの橋梁の構造材別長さ別建設年代別橋梁が架かる河川別の内訳&#34;&gt;ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-16.png&#34;
 	width=&#34;1371&#34;
@@ -18644,11 +18644,11 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://serialmentor.com/dataviz/nested-proportions.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fundamentals of Data Visualization&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;tracking-the-earths-300-nano-satellites&#34;&gt;TRACKING THE EARTH’S 300 NANO-SATELLITES
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/1280.webp&#34;
+&lt;h3 id=&#34;tracking-the-earths-300-nano-satellites&#34;&gt;TRACKING THE EARTH&amp;rsquo;S 300 NANO-SATELLITES
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/1280.png&#34;
 	width=&#34;1280&#34;
 	height=&#34;1920&#34;
-	srcset=&#34;http://localhost:1313/parallel-sets-example/images/1280_hu_e56a3fa3121752a2.webp 480w, http://localhost:1313/parallel-sets-example/images/1280_hu_c9c16bc54e81ffd3.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/parallel-sets-example/images/1280_hu_ca7c08b00f93885c.png 480w, http://localhost:1313/parallel-sets-example/images/1280_hu_ba309c4b3d7631db.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -18658,7 +18658,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini&lt;/a&gt;&lt;/p&gt;
+    &gt;TRACKING THE EARTH&amp;rsquo;S 300 NANO-SATELLITES by Valerio Pallegrini&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ドローンが空から落下してくるとき--the-washington-post&#34;&gt;ドローンが空から落下してくるとき | The Washington Post
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-18.png&#34;
 	width=&#34;1170&#34;
@@ -18674,7 +18674,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.washingtonpost.com/sf/investigative/2014/06/20/when-drones-fall-from-the-sky/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;When drones fall from the sky | The Washington Post&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;rotem-blinder-of-ibm-hierarchical-parallel-sets&#34;&gt;Rotem Blinder of IBM “Hierarchical Parallel Sets”
+&lt;h3 id=&#34;rotem-blinder-of-ibm-hierarchical-parallel-sets&#34;&gt;Rotem Blinder of IBM &amp;ldquo;Hierarchical Parallel Sets&amp;rdquo;
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-19.png&#34;
 	width=&#34;1536&#34;
 	height=&#34;2048&#34;
@@ -18688,8 +18688,8 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=P3FAyWbDlI4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Rotem Blinder – YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;pantheon-corriere-della-sera--la-lettura-181&#34;&gt;PANTHEON Corriere della Sera – La Lettura #181
+    &gt;Rotem Blinder - YouTube&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pantheon-corriere-della-sera---la-lettura-181&#34;&gt;PANTHEON Corriere della Sera - La Lettura #181
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-20.png&#34;
 	width=&#34;1200&#34;
 	height=&#34;1207&#34;
@@ -18703,7 +18703,7 @@ Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.&
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PANTHEON Corriere della Sera – La Lettura #181&lt;/a&gt;&lt;/p&gt;
+    &gt;PANTHEON Corriere della Sera - La Lettura #181&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;news-use-across-social-media-platforms&#34;&gt;News Use Across Social Media Platforms
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets-example/images/image-21.png&#34;
 	width=&#34;421&#34;
@@ -18732,9 +18732,9 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.vrvis.at/en/publications/PB-VRVis-2005-034&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VRVis: Parallel Sets: Visual Analysis of Categorical Data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9810&amp;amp;rep=rep1&amp;amp;type=pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): “Parallel Sets: Visual analysis of categorical data”. Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.&lt;/a&gt;&lt;/li&gt;
+    &gt;Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): &amp;ldquo;Parallel Sets: Visual analysis of categorical data&amp;rdquo;. Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.&lt;/a&gt;&lt;/li&gt;
+    &gt;Kosara,Robert，FabianBendix, HelwigHauser(2006): &amp;ldquo;ParallelSets: Interactive exploration and visual analysis of categorical data&amp;rdquo;. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -21789,12 +21789,12 @@ Edward Tufte, “Envisioning Information”, 1990. 訳は筆者。&lt;/p&gt;&lt;
 </description>
         </item>
         <item>
-        <title>データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）</title>
+        <title>エドワルド・シーゲルさんの分類によるデータ・ストーリーテリングの体系化</title>
         <link>http://localhost:1313/storytelling-edwardsiegel/</link>
         <pubDate>Mon, 28 Oct 2019 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/storytelling-edwardsiegel/</guid>
-        <description>&lt;img src="http://localhost:1313/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png" alt="Featured image of post データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）" /&gt;&lt;p&gt;データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。そして、様々な切り口が登場しながらもそれらの関連付けがやや複雑かつ曖昧ですので、分類の枠組みとして参考にする程度がよいでしょう。引用する図版はすべて下記リンク先の論文からのものです。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/storytelling-edwardsiegel/images/Genres-of-Narrative-Visualization.png" alt="Featured image of post エドワルド・シーゲルさんの分類によるデータ・ストーリーテリングの体系化" /&gt;&lt;p&gt;データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。そして、様々な切り口が登場しながらもそれらの関連付けがやや複雑かつ曖昧ですので、分類の枠組みとして参考にする程度がよいでしょう。引用する図版はすべて下記リンク先の論文からのものです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf&lt;/a&gt;&lt;/li&gt;
