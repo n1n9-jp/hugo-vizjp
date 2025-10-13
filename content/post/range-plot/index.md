@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "レンジ・プロット（Range Plot）とは"
+title = "レンジ・プロット"
 slug = "range-plot"
 date = "2025-10-12"
 categories = [

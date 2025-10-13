@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "散布図（Scatterplot）"
+title = "散布図"
 slug = "scatterplot"
 date = "2025-10-12"
 categories = [

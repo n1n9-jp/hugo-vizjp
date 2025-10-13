@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "3Dコロプレス・マップ（3D Choropleth Map）"
+title = "3Dコロプレス・マップ"
 slug = "3d-choropleth-map"
 date = "2025-10-11"
 categories = [

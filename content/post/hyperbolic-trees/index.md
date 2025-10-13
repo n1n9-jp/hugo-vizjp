@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ハイパーボリック・ツリー（Hyperbolic Tree）"
+title = "ハイパーボリック・ツリー"
 slug = "hyperbolic-trees"
 date = "2025-10-11"
 categories = [

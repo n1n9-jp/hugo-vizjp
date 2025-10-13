@@ -32,7 +32,7 @@ image = "images/image-15.png"
 
 ![](images/image-15.png)
 
-[National Front breakthrough stuns France’s traditional parties | Financial Times](https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0)
+[National Front breakthrough stuns France's traditional parties | Financial Times](https://www.ft.com/content/181619a2-9cba-11e5-b45d-4812f209f861#slide0)
 
 
 
@@ -44,11 +44,11 @@ image = "images/image-15.png"
 
 
 
-### TRACKING THE EARTH’S 300 NANO-SATELLITES
+### TRACKING THE EARTH'S 300 NANO-SATELLITES
 
-![](images/1280.webp)
+![](images/1280.png)
 
-[TRACKING THE EARTH’S 300 NANO-SATELLITES by Valerio Pallegrini](https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics)
+[TRACKING THE EARTH'S 300 NANO-SATELLITES by Valerio Pallegrini](https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics)
 
 
 ### ドローンが空から落下してくるとき | The Washington Post
@@ -59,18 +59,18 @@ image = "images/image-15.png"
 
 
 
-### Rotem Blinder of IBM “Hierarchical Parallel Sets”
+### Rotem Blinder of IBM "Hierarchical Parallel Sets"
 
 ![](images/image-19.png)
 
-[Rotem Blinder – YouTube](https://www.youtube.com/watch?v=P3FAyWbDlI4)
+[Rotem Blinder - YouTube](https://www.youtube.com/watch?v=P3FAyWbDlI4)
 
 
-### PANTHEON Corriere della Sera – La Lettura #181
+### PANTHEON Corriere della Sera - La Lettura #181
 
 ![](images/image-20.png)
 
-[PANTHEON Corriere della Sera – La Lettura #181](https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181)
+[PANTHEON Corriere della Sera - La Lettura #181](https://www.behance.net/gallery/26338543/PANTHEON-Corriere-della-Sera-La-Lettura-181)
 
 
 
@@ -94,5 +94,5 @@ image = "images/image-15.png"
 - Riccardo Mazza「情報を見える形にする技術」 P63
 - [Parallel Sets](https://eagereyes.org/parallel-sets)
 - [VRVis: Parallel Sets: Visual Analysis of Categorical Data](https://www.vrvis.at/en/publications/PB-VRVis-2005-034)
-- [Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): “Parallel Sets: Visual analysis of categorical data”. Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9810&rep=rep1&type=pdf)
-- [Kosara,Robert，FabianBendix, HelwigHauser(2006): “ParallelSets: Interactive exploration and visual analysis of categorical data”. IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.](https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf)
+- [Bendix, Fabian，Robert Kosara，Helwig Hauser(2005): "Parallel Sets: Visual analysis of categorical data". Proceedings of the IEEE Symposium on Information Visualization, 133-140.Los Alamitos, CA: IEEE Press.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.9810&rep=rep1&type=pdf)
+- [Kosara,Robert，FabianBendix, HelwigHauser(2006): "ParallelSets: Interactive exploration and visual analysis of categorical data". IEEE Transactions on Visualization and Computer Graphics 12，no.4: 558-568.](https://research.tableau.com/sites/default/files/Kosara_TVCG_2006.pdf)

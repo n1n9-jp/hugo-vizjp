@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "垂直樹（Vertical Trees）と水平樹（Horizontal Trees）"
+title = "垂直樹と水平樹"
 slug = "vertical-tree-horizontal-trees"
 date = "2025-10-11"
 categories = [

@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "バブル・チャート（Bubble Chart）"
+title = "バブル・チャート"
 slug = "bubble-chart"
 date = "2025-10-12"
 categories = [

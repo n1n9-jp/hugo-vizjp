@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "バイオリン・プロット（Violin Plot）"
+title = "バイオリン・プロット"
 slug = "violin-plot"
 date = "2025-10-11"
 categories = [

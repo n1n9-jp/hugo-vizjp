@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "イールド・カーブ（Yield Curve）"
+title = "イールド・カーブ"
 slug = "yield-curve"
 date = "2025-10-11"
 categories = [

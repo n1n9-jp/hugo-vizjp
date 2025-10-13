@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "もし世界の大陸を同じスケールで描いたら？ Accurat《Continents’ Showdown》"
+title = "もし世界の大陸を同じスケールで描いたら？"
 slug = "continents-showdown"
 date = "2025-10-09"
 categories = [

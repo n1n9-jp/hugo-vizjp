@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ドット密度マップ（Dot Density Map）"
+title = "ドット密度マップ"
 slug = "dot-density-map"
 date = "2025-10-11"
 categories = [

@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "データ・ストーリーテリングの体系化（エドワルド・シーゲルさんの分類）"
+title = "エドワルド・シーゲルさんの分類によるデータ・ストーリーテリングの体系化"
 slug = "storytelling-edwardsiegel"
 date = "2019-10-28"
 categories = [

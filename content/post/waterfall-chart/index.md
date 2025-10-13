@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ウォーターフォール・チャート（Waterfall Chart）"
+title = "ウォーターフォール・チャート"
 slug = "waterfall-chart"
 date = "2025-10-11"
 categories = [

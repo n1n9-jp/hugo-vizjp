@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "二変数コロプレス・マップ（Bivariate Choropleth Map）とは"
+title = "二変数コロプレス・マップ"
 slug = "bivariate-choropleth-map"
 date = "2025-10-11"
 categories = [

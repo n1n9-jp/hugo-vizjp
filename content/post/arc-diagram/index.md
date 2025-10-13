@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "アーク・ダイアグラム (Arc Diagram)"
+title = "アーク・ダイアグラム"
 slug = "arc-diagram"
 date = "2025-10-11"
 categories = [
