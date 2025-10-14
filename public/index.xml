@@ -7,13 +7,144 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Sun, 12 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>3D散布図（3D Scatterplot）</title>
+        <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる</title>
+        <link>http://localhost:1313/mapbox-studio-issue/</link>
+        <pubDate>Wed, 15 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/mapbox-studio-issue/</guid>
+        <description>&lt;img src="http://localhost:1313/mapbox-studio-issue/images/cover.png" alt="Featured image of post Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる" /&gt;&lt;p&gt;かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。&lt;/p&gt;
+&lt;p&gt;以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。&lt;/p&gt;
+&lt;p&gt;この原因は、Mapbox Studio側の仕様変更にあります。本記事では、Mapboxのスタイル仕様がどのように変わり、なぜこのような互換性問題が起きているのかを解説します。&lt;/p&gt;
+&lt;h2 id=&#34;現象の概要&#34;&gt;現象の概要
+&lt;/h2&gt;&lt;p&gt;Kepler.glやFoursquare Studioなど、Mapboxベースのビジュアライゼーションツールを使用しているユーザーの間で、以下のような問題が報告されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mapbox Studioで作成したスタイルをKepler.glに指定しても地図が真っ白になる&lt;/li&gt;
+&lt;li&gt;「Failed to load map style」または「This style uses Mapbox Standard」というエラーが表示される&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;背景mapbox-standardへの移行&#34;&gt;背景：Mapbox Standardへの移行
+&lt;/h2&gt;&lt;p&gt;2024年以降、Mapboxは従来の「Classicスタイル（v2以前）」を段階的に廃止し、新しい「Mapbox Standard」形式（GL JS v3専用）へ完全移行しました。この変更はMapbox Studioの内部仕様とUIの両方に影響を与えています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;主な変更点は以下の通りです。&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;項目&lt;/th&gt;
+          &lt;th&gt;旧仕様（Classicスタイル）&lt;/th&gt;
+          &lt;th&gt;新仕様（Mapbox Standard）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;対応バージョン&lt;/td&gt;
+          &lt;td&gt;Mapbox GL JS v2以前&lt;/td&gt;
+          &lt;td&gt;Mapbox GL JS v3以降&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;スタイル名例&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;light-v11&lt;/code&gt;, &lt;code&gt;dark-v11&lt;/code&gt;, &lt;code&gt;streets-v12&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;standard&lt;/code&gt;, &lt;code&gt;monochrome&lt;/code&gt;, &lt;code&gt;faded&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;互換性&lt;/td&gt;
+          &lt;td&gt;Kepler.glやMapLibreで使用可能&lt;/td&gt;
+          &lt;td&gt;非互換（v3専用機能を含む）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Mapbox Standardでは、地形（terrain）や霧（fog）などの3D表現機能が統合されており、MapLibreやKepler.glのようなv2互換エンジンでは解釈できない要素が含まれています。そのため、従来のClassicスタイルを参照する外部ツールが正常に動作しなくなっています。&lt;/p&gt;
+&lt;h2 id=&#34;回避策classicスタイルを再登録する&#34;&gt;回避策：Classicスタイルを再登録する
+&lt;/h2&gt;&lt;p&gt;現時点でも、Mapboxは一部のClassicスタイルを「Legacy（レガシー）」としてAPI経由で提供しています。スタイルの一覧です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;スタイル名&lt;/th&gt;
+          &lt;th&gt;スタイル URL&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Streets&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/streets-v12&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;標準道路地図&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Light&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/light-v11&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;明るいテーマ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Dark&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/dark-v11&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;暗めのテーマ&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Outdoors&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/outdoors-v12&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;アウトドア地形＋道路表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Satellite&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/satellite-v9&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;衛星写真地図&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Satellite Streets&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/satellite-streets-v12&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;衛星写真＋道路ラベル表示&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Navigation Day&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/navigation-day-v1&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;ナビゲーション用：日中モード&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Navigation Night&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;mapbox://styles/mapbox/navigation-night-v1&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;ナビゲーション用：夜間モード&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;これらのJSONファイルをAPI経由でダウンロードし、Mapbox Studioに「Upload」→「Publish」して再登録することで、Kepler.glやFoursquare Studioでも再び利用できるようになります。&lt;/p&gt;
+&lt;p&gt;この手法は、旧仕様に依存する外部ツール（Kepler.glやFoursquare Studioによるベースマップの読み込み機能）を今後も使い続けたいユーザーにとって、現実的かつ安定した解決策となります。&lt;/p&gt;
+&lt;p&gt;容易にJSONファイルを取得するためのツールを作成しましたので、役立ててください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://n1n9-jp.github.io/Classic-Mapbox-Styles-Generator/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapbox URL ジェネレーター&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;今後の見通し&#34;&gt;今後の見通し
+&lt;/h2&gt;&lt;p&gt;Mapboxは「Mapbox Standard」を中心としたv3世代への移行を進めています。
+地形や3D要素を含む新表現が増える一方で、Classicスタイルとの互換性は今後さらに限定される見込みです。&lt;/p&gt;
+&lt;p&gt;そのため、データビジュアライゼーション用途でKepler.glなどを継続使用する場合は、ClassicスタイルのJSONをローカルにバックアップし、Mapbox Studio上で再登録する方法を維持することが推奨されます。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Mapbox Studioは2024年以降「Mapbox Standard」形式へ全面移行&lt;/li&gt;
+&lt;li&gt;Classicスタイル（Light v11など）は新UIから直接作成できなくなった&lt;/li&gt;
+&lt;li&gt;Kepler.glやFoursquare Studioで地図が表示されない原因は、この仕様変更によるもの&lt;/li&gt;
+&lt;li&gt;ClassicスタイルをJSONとして再登録することで回避可能&lt;/li&gt;
+&lt;li&gt;将来的には、Mapbox GL JS v3またはMapLibreへの移行が求められる可能性が高い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意：Classicスタイルは今後更新されません。&lt;/strong&gt;&lt;br&gt;
+Mapboxは Classic スタイルを「互換性維持のために限定的に提供」していますが、道路・建物・行政界などの地物データは新しい更新を受けていません。&lt;br&gt;
+そのため、現行の地図と差異が生じる可能性があります。&lt;br&gt;
+特に行政区画の変更や新しい道路の追加などは反映されません。&lt;/p&gt;
+&lt;p&gt;可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard または MapLibre系タイルへの移行を検討してください。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.mapbox.com/api/maps/styles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mapbox Styles API Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.mapbox.com/deprecating-studio-classic-styles-d8892ac38cb4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Studio Classicスタイルの廃止 | Mapbox | 開発者向けマップ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>3D散布図</title>
         <link>http://localhost:1313/3d-scatterplot/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/3d-scatterplot/</guid>
-        <description>&lt;img src="http://localhost:1313/3d-scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 3D散布図（3D Scatterplot）" /&gt;&lt;p&gt;3D散布図は、データの三つの数値変数をそれぞれX軸・Y軸・Z軸に対応させて配置するチャートです。通常の散布図（2D）に奥行きの次元を加えることで、より多次元的な関係性や分布のパターンを視覚的に理解できます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/3d-scatterplot/images/thumb_ph_vizjp.png" alt="Featured image of post 3D散布図" /&gt;&lt;p&gt;3D散布図は、データの三つの数値変数をそれぞれX軸・Y軸・Z軸に対応させて配置するチャートです。通常の散布図（2D）に奥行きの次元を加えることで、より多次元的な関係性や分布のパターンを視覚的に理解できます。&lt;/p&gt;
 &lt;p&gt;三次元空間上に点として描かれた各データは、色や大きさによって追加の変数を表すこともあり、四次元・五次元的なデータの要素を持たせることも可能です。インタラクティブに回転・拡大・縮小できる可視化ツール（例：Plotly、Matplotlibのmplot3d、Tableau、Power BIなど）では、視点を変えることでデータの構造を多角的に観察できます。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;各点の位置は、3つの数値軸（X, Y, Z）の交点によって定義されます。たとえば、&lt;/p&gt;
@@ -509,12 +640,12 @@
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>円グラフ (Pie Chart)</title>
+        <title>円グラフ</title>
         <link>http://localhost:1313/pie-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/pie-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/pie-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 円グラフ (Pie Chart)" /&gt;&lt;p&gt;円グラフ（Pie Chart）は、全体に対する各部分の割合を円形で表現する代表的な可視化手法です。円を「パイ（pie）」に見立て、全体を1（100%）として分割し、各カテゴリーの占める割合を扇形（スライス）で示します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/pie-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 円グラフ" /&gt;&lt;p&gt;円グラフ（Pie Chart）は、全体に対する各部分の割合を円形で表現する代表的な可視化手法です。円を「パイ（pie）」に見立て、全体を1（100%）として分割し、各カテゴリーの占める割合を扇形（スライス）で示します。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;円グラフでは、各スライスの &lt;strong&gt;角度&lt;/strong&gt; がデータの割合を表します。たとえば全体が100人で、そのうち40人がA、30人がB、30人がCのグループに属している場合、Aは円の40%、つまり144°（360°×0.4）の角度を持ちます。スライスの &lt;strong&gt;面積や色&lt;/strong&gt; を通じて、視覚的に構成比を直感的に比較できるのが特徴です。&lt;/p&gt;
 &lt;p&gt;多くの場合、スライスには &lt;strong&gt;凡例&lt;/strong&gt; や &lt;strong&gt;ラベル&lt;/strong&gt; が添えられ、カテゴリー名や比率（%）が明記されます。&lt;/p&gt;
@@ -855,13 +986,13 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;p&gt;ただし、視点によっては奥行き方向の重なりが発生するため、適切な視角の設定やインタラクティブ表示が推奨されます。&lt;/p&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;3D surface with polar coordinates&lt;/em&gt; — Matplotlib ドキュメント：極座標／円筒座標を用いた 3D 表面描画例  &lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/mplot3d/surface3d_radial.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;em&gt;3D surface with polar coordinates&lt;/em&gt; — Matplotlib ドキュメント：極座標／円筒座標を用いた 3D 表面描画例  &lt;a class=&#34;link&#34; href=&#34;https://matplotlib.org/stable/gallery/mplot3d/surface3d_radial.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oai_citation:0‡matplotlib.org&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Cylindrical Coordinates&lt;/em&gt; — Wolfram MathWorld：円筒座標系の定義および性質  &lt;a class=&#34;link&#34; href=&#34;https://mathworld.wolfram.com/CylindricalCoordinates.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;em&gt;Cylindrical Coordinates&lt;/em&gt; — Wolfram MathWorld：円筒座標系の定義および性質  &lt;a class=&#34;link&#34; href=&#34;https://mathworld.wolfram.com/CylindricalCoordinates.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oai_citation:1‡ウルフラム数学ワールド&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Cylindrical coordinate system&lt;/em&gt; — Wikipedia：座標系としての概要と応用例  &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Cylindrical_coordinate_system?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;em&gt;Cylindrical coordinate system&lt;/em&gt; — Wikipedia：座標系としての概要と応用例  &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Cylindrical_coordinate_system&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oai_citation:3‡ウィキペディア&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Three-dimensional plotting in Matplotlib&lt;/em&gt; — Jake VanderPlas によるチュートリアル：「極座標グリッド」を 3D プロットに使う例  &lt;a class=&#34;link&#34; href=&#34;https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;em&gt;Three-dimensional plotting in Matplotlib&lt;/em&gt; — Jake VanderPlas によるチュートリアル：「極座標グリッド」を 3D プロットに使う例  &lt;a class=&#34;link&#34; href=&#34;https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;oai_citation:4‡jakevdp.github.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
@@ -1015,17 +1146,17 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>棒グラフ (Bar Chart)</title>
+        <title>棒グラフ</title>
         <link>http://localhost:1313/bar-chart/</link>
         <pubDate>Sun, 12 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/bar-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 棒グラフ (Bar Chart)" /&gt;&lt;p&gt;棒グラフは、カテゴリごとの数量や値を長方形の棒の長さで比較するグラフです。英語では「Bar Chart」または「Bar Graph」と呼ばれ、最も基本的で広く使われている可視化の一つです。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bar-chart/images/thumb_ph_vizjp.png" alt="Featured image of post 棒グラフ" /&gt;&lt;p&gt;棒グラフは、カテゴリごとの数量や値を長方形の棒の長さで比較するグラフです。英語では「Bar Chart」または「Bar Graph」と呼ばれ、最も基本的で広く使われている可視化の一つです。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;p&gt;棒グラフは通常 &lt;strong&gt;横軸（x軸）&lt;/strong&gt; に比較対象となるカテゴリ（例：年、製品、地域など）を &lt;strong&gt;縦軸（y軸）&lt;/strong&gt; に数量や数値（例：売上、人口、得点など）を取ります。各棒の長さが値の大きさを表しており、棒が長いほど値が大きいことを意味します。&lt;/p&gt;
 &lt;p&gt;棒は垂直に配置する「縦棒グラフ（Vertical Bar Chart）」と、水平に配置する「横棒グラフ（Horizontal Bar Chart）」の2種類があります。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;縦棒グラフ&lt;/strong&gt; は時間や連続的な順序を持つカテゴリ（例：年ごとの売上）に適します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;縦棒グラフ&lt;/strong&gt; は時間や連続的な順序を持つカテゴリに適します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;横棒グラフ&lt;/strong&gt; はカテゴリ名が長い場合や項目数が多い場合に見やすくなります。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;バリエーション&#34;&gt;バリエーション
@@ -1101,8 +1232,8 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;
 &lt;p&gt;→ 棒の長さがそのまま売上の大きさを表す。「東京が一番売れている」がすぐわかる。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;📊 ディメンション：地域&lt;/li&gt;
-&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;li&gt;ディメンション：地域&lt;/li&gt;
+&lt;li&gt;メジャー：売上金額&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;b-グループ棒グラフ-grouped-bar-chart&#34;&gt;B. グループ棒グラフ (Grouped Bar Chart)
 &lt;/h3&gt;&lt;p&gt;項目を「横に並べて比べる」&lt;/p&gt;
@@ -1113,9 +1244,9 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;
 &lt;p&gt;→ 「東京は去年より増えているけど、大阪はあまり変わらない」など、変化や差を読み取れる。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
-&lt;li&gt;📊 サブディメンション：年度&lt;/li&gt;
-&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;li&gt;主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;サブディメンション：年度&lt;/li&gt;
+&lt;li&gt;メジャー：売上金額&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;c-積み重ね棒グラフ-stacked-bar-chart&#34;&gt;C. 積み重ね棒グラフ (Stacked Bar Chart)
 &lt;/h3&gt;&lt;p&gt;全体と内訳を一緒に見たいとき&lt;/p&gt;
@@ -1126,9 +1257,9 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;
 &lt;p&gt;→ 棒の高さで合計がわかり、色分けで内訳も見える。ただし、途中の棒（真ん中の部分）は比較しにくい点に注意。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
-&lt;li&gt;📊 サブディメンション：商品カテゴリー&lt;/li&gt;
-&lt;li&gt;📈 メジャー：売上金額&lt;/li&gt;
+&lt;li&gt;主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;サブディメンション：商品カテゴリー&lt;/li&gt;
+&lt;li&gt;メジャー：売上金額&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;d-100積み上げ棒グラフ-100-stacked-bar-chart&#34;&gt;D. 100%積み上げ棒グラフ (100% Stacked Bar Chart)
 &lt;/h3&gt;&lt;p&gt;構成比の違いを見る&lt;/p&gt;
@@ -1139,9 +1270,9 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;
 &lt;p&gt;→ 全体を100%として「どの要素がどれくらい占めるか」を比較できる。「東京は食品が多い」「大阪はバランス型」などが見える。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;📊 主ディメンション：地域&lt;/li&gt;
-&lt;li&gt;📊 サブディメンション：商品カテゴリー&lt;/li&gt;
-&lt;li&gt;📈 メジャー：構成比（割合）&lt;/li&gt;
+&lt;li&gt;主ディメンション：地域&lt;/li&gt;
+&lt;li&gt;サブディメンション：商品カテゴリー&lt;/li&gt;
+&lt;li&gt;メジャー：構成比（割合）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;まとめ比べ方でグラフを選ぼう&#34;&gt;まとめ：比べ方でグラフを選ぼう
 &lt;/h2&gt;&lt;table&gt;
@@ -1761,12 +1892,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>アイソタイプ・チャート（Isotype Chart）</title>
+        <title>アイソタイプ・チャート</title>
         <link>http://localhost:1313/isotype-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/isotype-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/isotype-chart/images/thumb_ph_vizjp.png" alt="Featured image of post アイソタイプ・チャート（Isotype Chart）" /&gt;&lt;p&gt;アイソタイプ・チャートは &lt;strong&gt;ピクトグラムを用いて数量を視覚的に比較する図表&lt;/strong&gt; です。社会統計や人口データなどを、よりわかりやすく・親しみやすく表現するために用いられます。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/isotype-chart/images/thumb_ph_vizjp.png" alt="Featured image of post アイソタイプ・チャート" /&gt;&lt;p&gt;アイソタイプ・チャートは &lt;strong&gt;ピクトグラムを用いて数量を視覚的に比較する図表&lt;/strong&gt; です。社会統計や人口データなどを、よりわかりやすく・親しみやすく表現するために用いられます。&lt;br&gt;
 その起源は1920年代にオーストリアの社会学者 &lt;strong&gt;オットー・ノイラート（Otto Neurath）&lt;/strong&gt; と、デザイナーの &lt;strong&gt;ゲルト・アルンツ（Gerd Arntz）&lt;/strong&gt; によって開発された「ISOTYPE（International System Of Typographic Picture Education）」にあります。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/isotype-chart/images/mainvisual.png&#34;
 	width=&#34;475&#34;
@@ -2195,12 +2326,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ゲージ・チャート（Gauge Chart）</title>
+        <title>ゲージ・チャート</title>
         <link>http://localhost:1313/gauge-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/gauge-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/gauge-chart/images/cover.png" alt="Featured image of post ゲージ・チャート（Gauge Chart）" /&gt;&lt;p&gt;ゲージ・チャート（Gauge Chart）は、円弧や半円の形状を用いて、単一の数値が全体の中でどの位置にあるかを直感的に示す可視化手法です。見た目はスピードメーターや燃料計に似ており、「現在の値がどの程度の状態か」を針や色で分かりやすく伝えます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/gauge-chart/images/cover.png" alt="Featured image of post ゲージ・チャート" /&gt;&lt;p&gt;ゲージ・チャート（Gauge Chart）は、円弧や半円の形状を用いて、単一の数値が全体の中でどの位置にあるかを直感的に示す可視化手法です。見た目はスピードメーターや燃料計に似ており、「現在の値がどの程度の状態か」を針や色で分かりやすく伝えます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/gauge-chart/images/mainvisual.png&#34;
 	width=&#34;1798&#34;
 	height=&#34;533&#34;
@@ -2213,7 +2344,7 @@ The dotted lines drawn between the population and revenue, are merely intended t
 		data-flex-basis=&#34;809px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
+&lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
@@ -2336,12 +2467,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>レーダー・チャート（Radar Chart）</title>
+        <title>レーダー・チャート</title>
         <link>http://localhost:1313/radar-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/radar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/radar-chart/images/cover.png" alt="Featured image of post レーダー・チャート（Radar Chart）" /&gt;&lt;p&gt;レーダー・チャート（Radar Chart）は、多変量データを放射状に配置して比較するためのグラフです。別名としてスパイダー・チャート（Spider Chart）やウェブ・チャート（Web Chart）とも呼ばれます。各軸が異なる変数を表し、中心から外に向かって値が大きくなります。1つのデータ系列は多角形として描かれ、複数の系列を重ねることで、パターンや特徴の違いを視覚的に比較することができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/radar-chart/images/cover.png" alt="Featured image of post レーダー・チャート" /&gt;&lt;p&gt;レーダー・チャート（Radar Chart）は、多変量データを放射状に配置して比較するためのグラフです。別名としてスパイダー・チャート（Spider Chart）やウェブ・チャート（Web Chart）とも呼ばれます。各軸が異なる変数を表し、中心から外に向かって値が大きくなります。1つのデータ系列は多角形として描かれ、複数の系列を重ねることで、パターンや特徴の違いを視覚的に比較することができます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/radar-chart/images/mainvisual.png&#34;
 	width=&#34;1600&#34;
 	height=&#34;1600&#34;
@@ -2740,20 +2871,15 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;h3 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/articles/viewing-contributions-on-your-profile-page&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Viewing contributions on your profile — GitHub Docs&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://docs.github.com/articles/viewing-contributions-on-your-profile-page?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;oai_citation:0‡GitHub Docs&lt;/a&gt;&lt;/li&gt;
+    &gt;Viewing contributions on your profile — GitHub Docs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega/examples/calendar-view/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Calendar Example — Vega (calendar-view example)&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://vega.github.io/vega/examples/calendar-view/?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;oai_citation:1‡Vega&lt;/a&gt;&lt;/li&gt;
+    &gt;Calendar Example — Vega (calendar-view example)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://developers.google.com/chart/interactive/docs/gallery/calendar&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Calendar Chart — Google Charts (calendar visualization)&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://developers.google.com/chart/interactive/docs/gallery/calendar?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;oai_citation:2‡Google for Developers&lt;/a&gt;&lt;/li&gt;
+    &gt;Calendar Chart — Google Charts (calendar visualization)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://cal-heatmap.com/v2/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Cal-Heatmap: Calendar Heat Map JS plugin&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://cal-heatmap.com/v2/?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;oai_citation:3‡Cal-Heatmap&lt;/a&gt;&lt;/li&gt;
+    &gt;Cal-Heatmap: Calendar Heat Map JS plugin&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Tutorial: Building a D3.js Calendar Heatmap&lt;/a&gt;  &lt;a class=&#34;link&#34; href=&#34;https://blog.risingstack.com/tutorial-d3-js-calendar-heatmap/?utm_source=chatgpt.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;oai_citation:4‡RisingStack Engineering&lt;/a&gt;&lt;/li&gt;
+    &gt;Tutorial: Building a D3.js Calendar Heatmap&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
@@ -2871,12 +2997,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>コレログラム (Correlogram)</title>
+        <title>コレログラム</title>
         <link>http://localhost:1313/correlogram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/correlogram/</guid>
-        <description>&lt;img src="http://localhost:1313/correlogram/images/cover.png" alt="Featured image of post コレログラム (Correlogram)" /&gt;&lt;p&gt;コレログラム（Correlogram）は、複数の変数間の &lt;strong&gt;相関関係（correlation）&lt;/strong&gt; を視覚的に表現する図です。
+        <description>&lt;img src="http://localhost:1313/correlogram/images/cover.png" alt="Featured image of post コレログラム" /&gt;&lt;p&gt;コレログラム（Correlogram）は、複数の変数間の &lt;strong&gt;相関関係（correlation）&lt;/strong&gt; を視覚的に表現する図です。
 各変数同士の相関係数（Pearson、Spearmanなど）を、色の濃淡や円の大きさなどでマトリクス状に示すことで、データ全体の関係構造を直感的に把握できます。
 特に、データの多変量分析や特徴量選択の前段階で利用されることが多く、散布図行列のように「関係の方向性」ではなく「関係の強さ」に焦点を当てる点が特徴です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/correlogram/images/mainvisual-1.png&#34;
@@ -3059,12 +3185,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>シンボル・チャート（Symbol Chart）</title>
+        <title>シンボル・チャート</title>
         <link>http://localhost:1313/symbol-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/symbol-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/symbol-chart/images/thumb_ph_vizjp.png" alt="Featured image of post シンボル・チャート（Symbol Chart）" /&gt;&lt;p&gt;シンボル・チャートは、円や正方形などの「シンボル」を用いてデータの値を可視化する手法です。シンボルの&lt;strong&gt;大きさ（面積）や色&lt;/strong&gt;を変化させることで、数量の大小やカテゴリの違いを直感的に比較できます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/symbol-chart/images/thumb_ph_vizjp.png" alt="Featured image of post シンボル・チャート" /&gt;&lt;p&gt;シンボル・チャートは、円や正方形などの「シンボル」を用いてデータの値を可視化する手法です。シンボルの&lt;strong&gt;大きさ（面積）や色&lt;/strong&gt;を変化させることで、数量の大小やカテゴリの違いを直感的に比較できます。&lt;/p&gt;
 &lt;p&gt;主に名義スケールまたは線形スケールのデータを扱い &lt;strong&gt;配置・サイズ・色&lt;/strong&gt; が主要な視覚変数となります。座標軸を持たない場合もありますが、名義的な並び順（例：左から右へ、中心から外側へ）によって、カテゴリーや重要度を示すことが多いです。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
@@ -3103,12 +3229,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/h2&gt;&lt;p&gt;シンボル・チャートは、単純な棒グラフよりも感覚的・象徴的にデータを表現できる手法です。シンボルの大きさや色を巧みに使い、数量の違いを直感的に伝えることで、見る人に印象的な理解を促す効果があります。一方で、面積の知覚バイアスに注意し、正確さよりも比較や印象重視の場面で用いるのが適切です。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ストリップ・チャート（Strip Chart）</title>
+        <title>ストリップ・チャート</title>
         <link>http://localhost:1313/strip-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/strip-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/strip-chart/images/cover.png" alt="Featured image of post ストリップ・チャート（Strip Chart）" /&gt;&lt;p&gt;ストリップ・チャート（Strip Chart）は、時間の経過やカテゴリごとのデータ点を、&lt;strong&gt;線または点の連続&lt;/strong&gt;として表示するチャートです。用途によって意味が少し異なりますが、共通するのは「&lt;strong&gt;個々のデータ変化を連続的に可視化する&lt;/strong&gt;」点です。もともとは物理的なチャートレコーダ（strip chart recorder）として登場し、現在では統計可視化やリアルタイム監視画面などでも広く使われています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/strip-chart/images/cover.png" alt="Featured image of post ストリップ・チャート" /&gt;&lt;p&gt;ストリップ・チャート（Strip Chart）は、時間の経過やカテゴリごとのデータ点を、&lt;strong&gt;線または点の連続&lt;/strong&gt;として表示するチャートです。用途によって意味が少し異なりますが、共通するのは「&lt;strong&gt;個々のデータ変化を連続的に可視化する&lt;/strong&gt;」点です。もともとは物理的なチャートレコーダ（strip chart recorder）として登場し、現在では統計可視化やリアルタイム監視画面などでも広く使われています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/strip-chart/images/mainvisual-1.png&#34;
 	width=&#34;768&#34;
 	height=&#34;672&#34;
@@ -3312,12 +3438,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ドット・プロット（Dot Plot）</title>
+        <title>ドット・プロット</title>
         <link>http://localhost:1313/dot-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-plot/images/thumb_ph_vizjp.png" alt="Featured image of post ドット・プロット（Dot Plot）" /&gt;&lt;p&gt;ドット・プロット（Dot Plot）は、1つのデータ点を1つのドット（点）で表し、データの分布や度数を視覚的に示すグラフです。1データ＝1ドットの関係で、変数の値を横軸に、度数を縦軸方向に積み上げて表示します。主に少量のデータやカテゴリ別の分布比較に適しています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/dot-plot/images/thumb_ph_vizjp.png" alt="Featured image of post ドット・プロット" /&gt;&lt;p&gt;ドット・プロット（Dot Plot）は、1つのデータ点を1つのドット（点）で表し、データの分布や度数を視覚的に示すグラフです。1データ＝1ドットの関係で、変数の値を横軸に、度数を縦軸方向に積み上げて表示します。主に少量のデータやカテゴリ別の分布比較に適しています。&lt;/p&gt;
 &lt;h3 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h3&gt;&lt;p&gt;ドット・プロットは以下のように読み取ります。&lt;/p&gt;
 &lt;table&gt;
@@ -3365,12 +3491,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ドット・マップ（Dot Map）とは</title>
+        <title>ドット・マップ</title>
         <link>http://localhost:1313/dot-map/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/dot-map/</guid>
-        <description>&lt;img src="http://localhost:1313/dot-map/images/cover.png" alt="Featured image of post ドット・マップ（Dot Map）とは" /&gt;&lt;p&gt;ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く &lt;strong&gt;1ドット＝1件（または1単位）&lt;/strong&gt; という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/dot-map/images/cover.png" alt="Featured image of post ドット・マップ" /&gt;&lt;p&gt;ドット・マップ（Dot Map）は、地理的なデータを点（ドット）によって表す地図表現手法です。各ドットは、特定の場所における「個別の出来事」や「観測対象そのもの」を示すことが多く &lt;strong&gt;1ドット＝1件（または1単位）&lt;/strong&gt; という明確な対応関係を持つのが特徴です。ドット分布マップ（Dot Distribution Map）と呼ばれることもあります。&lt;/p&gt;
 &lt;p&gt;たとえば「地震の発生地点」や「美術館の所在地」「感染症の発生場所」など、個別の位置情報をそのままマップ上に可視化する際に使われます。密度の高い領域は視覚的に点が集まり、分布傾向を直感的に読み取ることができます。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
@@ -3736,12 +3862,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ヒストグラム (Histogram)</title>
+        <title>ヒストグラム</title>
         <link>http://localhost:1313/histogram/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/histogram/</guid>
-        <description>&lt;img src="http://localhost:1313/histogram/images/thumb_ph_vizjp.png" alt="Featured image of post ヒストグラム (Histogram)" /&gt;&lt;p&gt;ヒストグラムは &lt;strong&gt;データの分布を視覚的に把握するための基本的なグラフ&lt;/strong&gt; です。数値データを区間（ビン、bin）ごとに分け、各区間に含まれるデータの数（頻度）を棒の高さで表します。主に連続量データ（例：身長、温度、収入など）のばらつきや傾向を把握するのに使われます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/histogram/images/thumb_ph_vizjp.png" alt="Featured image of post ヒストグラム" /&gt;&lt;p&gt;ヒストグラムは &lt;strong&gt;データの分布を視覚的に把握するための基本的なグラフ&lt;/strong&gt; です。数値データを区間（ビン、bin）ごとに分け、各区間に含まれるデータの数（頻度）を棒の高さで表します。主に連続量データ（例：身長、温度、収入など）のばらつきや傾向を把握するのに使われます。&lt;/p&gt;
 &lt;h2 id=&#34;チャートの見方&#34;&gt;チャートの見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -4055,12 +4181,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ブレット・グラフ（Bullet Graph）</title>
+        <title>ブレット・グラフ</title>
         <link>http://localhost:1313/bullet-graph/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/bullet-graph/</guid>
-        <description>&lt;img src="http://localhost:1313/bullet-graph/images/cover.png" alt="Featured image of post ブレット・グラフ（Bullet Graph）" /&gt;&lt;p&gt;ブレット・グラフ（Bullet Graph）は、棒グラフを拡張して設計された可視化手法で &lt;strong&gt;目標値と実績値を一目で比較&lt;/strong&gt; することを目的としています。2005年にデータ可視化の専門家スティーブン・フュー（Stephen Few）によって提案されました。ダッシュボードや業務レポートでの利用に最適化されており、従来のメーターやゲージ型グラフよりも情報密度が高く、省スペースで多くの比較情報を伝えられます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/bullet-graph/images/cover.png" alt="Featured image of post ブレット・グラフ" /&gt;&lt;p&gt;ブレット・グラフ（Bullet Graph）は、棒グラフを拡張して設計された可視化手法で &lt;strong&gt;目標値と実績値を一目で比較&lt;/strong&gt; することを目的としています。2005年にデータ可視化の専門家スティーブン・フュー（Stephen Few）によって提案されました。ダッシュボードや業務レポートでの利用に最適化されており、従来のメーターやゲージ型グラフよりも情報密度が高く、省スペースで多くの比較情報を伝えられます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/bullet-graph/images/mainvisual.png&#34;
 	width=&#34;2636&#34;
 	height=&#34;1058&#34;
@@ -4408,12 +4534,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ラディアル・バー・チャート（Radial Bar Chart）</title>
+        <title>ラディアル・バー・チャート</title>
         <link>http://localhost:1313/radial-bar-chart/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/radial-bar-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/cover.png" alt="Featured image of post ラディアル・バー・チャート（Radial Bar Chart）" /&gt;&lt;p&gt;ラディアル・バー・チャート（Radial Bar Chart）は、一般的な棒グラフ（Bar Chart）を円形に配置したチャートです。データの値を棒の長さで表現する点は同じですが、棒が放射状に配置され、全体が円形を描くようになっているのが特徴です。時系列や周期的データ（月、季節、時間など）を直感的に表現する際に適しています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/radial-bar-chart/images/cover.png" alt="Featured image of post ラディアル・バー・チャート" /&gt;&lt;p&gt;ラディアル・バー・チャート（Radial Bar Chart）は、一般的な棒グラフ（Bar Chart）を円形に配置したチャートです。データの値を棒の長さで表現する点は同じですが、棒が放射状に配置され、全体が円形を描くようになっているのが特徴です。時系列や周期的データ（月、季節、時間など）を直感的に表現する際に適しています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/radial-bar-chart/images/mainvisual-1.png&#34;
 	width=&#34;2481&#34;
 	height=&#34;2481&#34;
@@ -4475,12 +4601,12 @@ The dotted lines drawn between the population and revenue, are merely intended t
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>リッジライン・プロット（Ridgeline Plot）</title>
+        <title>リッジライン・プロット</title>
         <link>http://localhost:1313/ridgeline-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/ridgeline-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/ridgeline-plot/images/cover.png" alt="Featured image of post リッジライン・プロット（Ridgeline Plot）" /&gt;&lt;p&gt;リッジライン・プロット（Ridgeline Plot）は、複数のグループ（カテゴリ）ごとの &lt;strong&gt;連続変数の分布&lt;/strong&gt; を縦方向に重ねて描画するグラフです。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/ridgeline-plot/images/cover.png" alt="Featured image of post リッジライン・プロット" /&gt;&lt;p&gt;リッジライン・プロット（Ridgeline Plot）は、複数のグループ（カテゴリ）ごとの &lt;strong&gt;連続変数の分布&lt;/strong&gt; を縦方向に重ねて描画するグラフです。&lt;br&gt;
 各グループの分布を「稜線（ridge）」のように積み重ねることで、全体の比較や変化の傾向を直感的に理解できます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/ridgeline-plot/images/mainvisual.png&#34;
 	width=&#34;1536&#34;
@@ -5263,12 +5389,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>箱ひげ図（Box-and-Whisker Plot）</title>
+        <title>箱ひげ図</title>
         <link>http://localhost:1313/box-andwhisker-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/box-andwhisker-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/box-andwhisker-plot/images/cover.png" alt="Featured image of post 箱ひげ図（Box-and-Whisker Plot）" /&gt;&lt;p&gt;箱ひげ図（Box-and-Whisker Plot）は、データの分布・散らばり・偏り・外れ値を一目で把握できる統計グラフです。箱とひげで構成され、データの「代表値（中央値）」と「ばらつき（四分位数）」を同時に表します。1970年代にジョン・テューキー（John Tukey）によって提案され、探索的データ解析（EDA）の基本的な可視化手法として広く使われています。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/box-andwhisker-plot/images/cover.png" alt="Featured image of post 箱ひげ図" /&gt;&lt;p&gt;箱ひげ図（Box-and-Whisker Plot）は、データの分布・散らばり・偏り・外れ値を一目で把握できる統計グラフです。箱とひげで構成され、データの「代表値（中央値）」と「ばらつき（四分位数）」を同時に表します。1970年代にジョン・テューキー（John Tukey）によって提案され、探索的データ解析（EDA）の基本的な可視化手法として広く使われています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/box-andwhisker-plot/images/mainvisual.png&#34;
 	width=&#34;1400&#34;
 	height=&#34;866&#34;
@@ -5547,12 +5673,12 @@ Joyplotに由来するビジュアル的美しさと、分布比較の実用性�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>密度プロット（Density Plot）</title>
+        <title>密度プロット</title>
         <link>http://localhost:1313/density-plot/</link>
         <pubDate>Sat, 11 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/density-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/density-plot/images/thumb_ph_vizjp.png" alt="Featured image of post 密度プロット（Density Plot）" /&gt;&lt;p&gt;密度プロット（Density Plot）は、データの分布を滑らかに可視化するためのグラフです。ヒストグラムと同様にデータの頻度を表しますが、棒ではなく &lt;strong&gt;連続的な曲線&lt;/strong&gt; で描かれる点が特徴です。データがどの範囲に多く分布しているかを視覚的に捉えることができます。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/density-plot/images/thumb_ph_vizjp.png" alt="Featured image of post 密度プロット" /&gt;&lt;p&gt;密度プロット（Density Plot）は、データの分布を滑らかに可視化するためのグラフです。ヒストグラムと同様にデータの頻度を表しますが、棒ではなく &lt;strong&gt;連続的な曲線&lt;/strong&gt; で描かれる点が特徴です。データがどの範囲に多く分布しているかを視覚的に捉えることができます。&lt;/p&gt;
 &lt;h2 id=&#34;図解の見方&#34;&gt;図解の見方
 &lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -6826,12 +6952,12 @@ De Agostini、Garzanti、Zanichelli という3種類の代表的な世界史ア�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>オイラー図（Euler Diagram）とは</title>
+        <title>オイラー図</title>
         <link>http://localhost:1313/euler-diagram/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/euler-diagram/</guid>
-        <description>&lt;img src="http://localhost:1313/euler-diagram/images/cover.png" alt="Featured image of post オイラー図（Euler Diagram）とは" /&gt;&lt;p&gt;オイラー図は、集合や命題の関係を直感的に表すための図解です。円や楕円などの閉じた曲線を用い、それぞれの領域が特定の集合を表します。曲線が重なる部分は集合の共通部分を示し、重ならない場合は互いに独立した関係を示します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/euler-diagram/images/cover.png" alt="Featured image of post オイラー図" /&gt;&lt;p&gt;オイラー図は、集合や命題の関係を直感的に表すための図解です。円や楕円などの閉じた曲線を用い、それぞれの領域が特定の集合を表します。曲線が重なる部分は集合の共通部分を示し、重ならない場合は互いに独立した関係を示します。&lt;/p&gt;
 &lt;p&gt;オイラー図は、18世紀の数学者レオンハルト・オイラー（Leonhard Euler）によって提案されたもので、後にジョン・ベン（John Venn）がその手法を拡張し、すべての可能な交差関係を描くベン図を考案しました。オイラー図は、ベン図に比べて「実際に存在する関係だけ」を描く点で、より簡潔で実用的です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/euler-diagram/images/euler-diagram.png&#34;
 	width=&#34;954&#34;
@@ -6934,12 +7060,12 @@ De Agostini、Garzanti、Zanichelli という3種類の代表的な世界史ア�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ベン図 (Venn Diagram) とは</title>
+        <title>ベン図</title>
         <link>http://localhost:1313/venn-diagram/</link>
         <pubDate>Wed, 08 Oct 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/venn-diagram/</guid>
-        <description>&lt;img src="http://localhost:1313/venn-diagram/images/cover.png" alt="Featured image of post ベン図 (Venn Diagram) とは" /&gt;&lt;p&gt;ベン図（Venn diagram）は、複数の集合（set）の関係を視覚的に表す図法であり、論理学や集合論の基本的な概念を理解するための代表的な手段です。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/venn-diagram/images/cover.png" alt="Featured image of post ベン図" /&gt;&lt;p&gt;ベン図（Venn diagram）は、複数の集合（set）の関係を視覚的に表す図法であり、論理学や集合論の基本的な概念を理解するための代表的な手段です。&lt;br&gt;
 各集合を円や楕円で表し、それらの重なり（交わり）や分離（排他性）によって、要素の関係を直感的に把握できる点が特徴です。&lt;/p&gt;
 &lt;p&gt;ベン図は、2つまたは3つの集合関係を示す場合が多く、それぞれの領域が「共通部分」「差集合」「補集合」などの意味を持ちます。数学・統計・情報科学・ビジネス分析など、幅広い分野で利用されています。&lt;/p&gt;
 &lt;h2 id=&#34;歴史的背景&#34;&gt;歴史的背景
@@ -9447,12 +9573,12 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
 &lt;p&gt;統計地図の歴史において、これは &lt;strong&gt;「コロプレスマップ（Choropleth Map）の初期的な多色使いの実践例」&lt;/strong&gt; であり、視覚化の工夫と印刷文化の関係を知る上で重要な作品です。&lt;/p&gt;</description>
         </item>
         <item>
-        <title>ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法</title>
+        <title>ポーラー・エリア・チャート</title>
         <link>http://localhost:1313/polar-area-chart/</link>
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/polar-area-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/polar-area-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャートとは？ ― 周期性データを強調する可視化手法" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
+        <description>&lt;img src="http://localhost:1313/polar-area-chart/images/Nightingale-mortality.jpg" alt="Featured image of post ポーラー・エリア・チャート" /&gt;&lt;p&gt;ポーラー・エリア・チャート（Polar Area Chart）は、すべてのセクターが等しい角度を持ち、半径の長さ（あるいは面積）が値の大小を表すというのが大きな特徴です。
 歴史的には、フローレンス・ナイチンゲールがクリミア戦争の病死原因を示す際に用いた「コックスコム図（Coxcomb diagram）」が代表的な先駆例として知られています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/polar-area-chart/images/Nightingale-mortality.jpg&#34;
 	width=&#34;2560&#34;
@@ -9632,12 +9758,12 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>連結散布図 (Connected Scatterplot) の概要</title>
+        <title>連結散布図</title>
         <link>http://localhost:1313/connected-scatterplot/</link>
         <pubDate>Tue, 30 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/connected-scatterplot/</guid>
-        <description>&lt;img src="http://localhost:1313/connected-scatterplot/images/cover-connected-scatterplot.png" alt="Featured image of post 連結散布図 (Connected Scatterplot) の概要" /&gt;&lt;p&gt;連結散布図（Connected Scatterplot）は、散布図の各点を順序（多くは時間）に従って線で結んだグラフです。
+        <description>&lt;img src="http://localhost:1313/connected-scatterplot/images/cover-connected-scatterplot.png" alt="Featured image of post 連結散布図" /&gt;&lt;p&gt;連結散布図（Connected Scatterplot）は、散布図の各点を順序（多くは時間）に従って線で結んだグラフです。
 従来の散布図が「2つの変数の関係」を示すのに対し、連結散布図はさらに「その関係がどのように変化してきたか」を視覚的に伝えることができます。&lt;/p&gt;
 &lt;p&gt;Haroz, Kosara, Franconeri の論文 “The Connected Scatterplot for Presenting Paired Time Series” では、2本の時系列の関係性を伝える手法として位置づけられています。たとえば「失業率」と「インフレ率」をプロットし、年ごとの推移を線で結ぶことで、2変数間の関係とその変化の軌跡が同時に理解できるのです。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/connected-scatterplot/images/connected-scatterplot.png&#34;
@@ -9701,12 +9827,12 @@ SDGsの中でも特に包括的な目標で、法制度、暴力撤廃、教育�
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>モザイク・プロット（Mosaic Plot）</title>
+        <title>モザイク・プロット</title>
         <link>http://localhost:1313/mosaic-plot/</link>
         <pubDate>Mon, 29 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/mosaic-plot/</guid>
-        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット（Mosaic Plot）" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/mosaic-plot/images/image-27.png" alt="Featured image of post モザイク・プロット" /&gt;&lt;p&gt;モザイク・プロット（Mosaic Plot, Mosaic Display）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。Hartigan &amp;amp; Kleiner (1981) によって提案され、その後 Friendly (2001) が歴史的・理論的に整理しました。&lt;/p&gt;
 &lt;p&gt;基本原理は以下のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;1.横方向の分割：最初の変数のカテゴリごとに、全体に対する比率に応じた幅を割り当てる。&lt;/li&gt;
@@ -10073,12 +10199,12 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法</title>
+        <title>パラレル・セット</title>
         <link>http://localhost:1313/parallel-sets/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-sets/</guid>
-        <description>&lt;img src="http://localhost:1313/parallel-sets/images/Parallel_Sets.png" alt="Featured image of post パラレル・セット (Parallel Sets) - カテゴリデータを読み解く新しい方法" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/parallel-sets/images/Parallel_Sets.png" alt="Featured image of post パラレル・セット" /&gt;&lt;p&gt;データ可視化の世界では、数値データを扱うグラフやチャートは豊富に存在します。しかし、性別・職業・地域といった &lt;strong&gt;カテゴリデータ（属性データ）&lt;/strong&gt; を多次元で扱える手法は意外と限られています。そこで登場したのが パラレル・セット (Parallel Sets 別名 ParSets) です。&lt;/p&gt;
 &lt;p&gt;この手法は 2005–2006 年に Robert Kosara, Fabian Bendix, Helwig Hauser によって発表されました。学術論文としては IEEE Transactions on Visualization and Computer Graphics (2006) に掲載され、さらに Kosara 自身による解説記事や『ビューティフル・ビジュアライゼーション』第12章でも詳しく紹介されています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/parallel-sets/images/Parallel_Sets.png&#34;
 	width=&#34;2008&#34;
@@ -10306,18 +10432,18 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
         </item>
         <item>
         <title>量率グラフという呼び名の誕生史</title>
-        <link>http://localhost:1313/quantityproportion-chart/</link>
+        <link>http://localhost:1313/quantity-proportion-chart/</link>
         <pubDate>Sun, 28 Sep 2025 00:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/quantityproportion-chart/</guid>
-        <description>&lt;img src="http://localhost:1313/quantityproportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
+        <guid>http://localhost:1313/quantity-proportion-chart/</guid>
+        <description>&lt;img src="http://localhost:1313/quantity-proportion-chart/images/cover-quantity%E2%80%93proportion.jpeg" alt="Featured image of post 量率グラフという呼び名の誕生史" /&gt;&lt;p&gt;量率グラフは、長方形の面積を用いて &lt;strong&gt;量（絶対値）と率（割合）&lt;/strong&gt; を同時に表現する可視化手法です。横幅でカテゴリ全体の量を示し、その中を縦方向に割合で分割することで、各小矩形の面積が量×割合に相当します。&lt;/p&gt;
 &lt;p&gt;国際的には モザイク・プロット（Mosaic Plot）が統計ソフトに実装されており、ビジネス界隈ではマリメッコ・チャート（Marimekko Chart）の名称が浸透しています。これに対して「量率グラフ」という呼称は、日本独自に広まった言い方であり、教育や普及活動の中で生まれました。&lt;/p&gt;
 &lt;h2 id=&#34;量率グラフの例&#34;&gt;量率グラフの例
 &lt;/h2&gt;&lt;h3 id=&#34;棒グラフと円の面積で表現した総額&#34;&gt;棒グラフと円の面積で表現した総額
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/bar-chart.jpeg&#34;
 	width=&#34;1710&#34;
 	height=&#34;1180&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/bar-chart_hu_24b7fcd614fee395.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/bar-chart_hu_57b3b7c8c24ce7a7.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より、棒グラフと円の面積で表現した総額&#34;
@@ -10329,10 +10455,10 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;全く同じデータを量率グラフで表現したもの&#34;&gt;全く同じデータを量率グラフで表現したもの
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart.jpeg&#34;
 	width=&#34;1682&#34;
 	height=&#34;2302&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart_hu_ace94898b67e02eb.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-chart_hu_4d5172cb2ce97e23.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より、量率グラフ&#34;
@@ -10359,10 +10485,10 @@ CDC や各州の保健当局の公式データをもとに、7日間平均を赤
 &lt;/ul&gt;
 &lt;p&gt;この三者の協働があって、今日「量率グラフ」という日本語名称が登場したといえます。&lt;/p&gt;
 &lt;h2 id=&#34;量率グラフの仕組みと特徴&#34;&gt;量率グラフの仕組みと特徴
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto.jpeg&#34;
 	width=&#34;1145&#34;
 	height=&#34;2094&#34;
-	srcset=&#34;http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantityproportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto_hu_d5f0b1f1f64f8c66.jpeg 480w, http://localhost:1313/quantity-proportion-chart/images/quantity%E2%80%93proportion-howto_hu_7fa59a510f66f08e.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;松崎重広『社会を見なおすメガネ』より&#34;
@@ -15968,12 +16094,12 @@ Journalismは残念ながら現在休刊中ですが、&lt;a class=&#34;link&#34
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>散布図行列 (Scatterplot Matrix)</title>
+        <title>散布図行列</title>
         <link>http://localhost:1313/splom/</link>
         <pubDate>Fri, 28 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/splom/</guid>
-        <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列 (Scatterplot Matrix)" /&gt;&lt;p&gt;散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。&lt;br&gt;
+        <description>&lt;img src="http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png" alt="Featured image of post 散布図行列" /&gt;&lt;p&gt;散布図行列（Scatterplot Matrix）は、多変量データの各変数間の関係を一度に視覚的に確認できる図表です。&lt;br&gt;
 縦軸と横軸に同じ変数群を並べ、行列状に散布図を配置することで、各変数ペア間の相関関係を俯瞰的に把握できます。&lt;br&gt;
 特にデータ探索（Exploratory Data Analysis, EDA）の初期段階で、異常値や傾向、線形・非線形の関係などを視覚的に発見するのに有効です。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/splom/images/1_bPYf9c07ZBLRvgxCbCkPSQ.png&#34;
@@ -17021,12 +17147,12 @@ report by Hugh Small
 &lt;/ul&gt;</description>
         </item>
         <item>
-        <title>ビースウォーム・プロット（Beeswarm Plot）の事例</title>
+        <title>ビースウォーム・プロットの事例</title>
         <link>http://localhost:1313/beeswarm-example/</link>
         <pubDate>Tue, 04 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/beeswarm-example/</guid>
-        <description>&lt;img src="http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロット（Beeswarm Plot）の事例" /&gt;&lt;p&gt;「ビースウォーム・プロット」が利用されている事例を紹介します。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/beeswarm-example/images/searchingcovid19_2.png" alt="Featured image of post ビースウォーム・プロットの事例" /&gt;&lt;p&gt;「ビースウォーム・プロット」が利用されている事例を紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;作例&#34;&gt;作例
 &lt;/h2&gt;&lt;h3 id=&#34;人種別世帯収入の比較&#34;&gt;人種別世帯収入の比較
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/beeswarm-example/images/BeeSwarm_income-1.png&#34;
@@ -17165,10 +17291,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://racialdotmap.demographics.coopercenter.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Racial Dot Map Project&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;白人至上主義のリンチの歴史の地図&#34;&gt;白人至上主義のリンチの歴史の地図
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1.png&#34;
 	width=&#34;2875&#34;
 	height=&#34;1948&#34;
-	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacy%E2%80%99s-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1_hu_a754482dd16f9703.png 480w, http://localhost:1313/dot-map-example/images/Map-of-White-Supremacys-history-of-lynchings-1_hu_683aeb983a0dffcb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -17510,12 +17636,12 @@ report by Hugh Small
 </description>
         </item>
         <item>
-        <title>ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）</title>
+        <title>ワード・クラウドとワード・バブル</title>
         <link>http://localhost:1313/word-clouds-bubbles/</link>
         <pubDate>Mon, 03 Aug 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/word-clouds-bubbles/</guid>
-        <description>&lt;img src="http://localhost:1313/word-clouds-bubbles/images/State-of-the-Union-2.png" alt="Featured image of post ワード・クラウドとワード・バブル（Word Clouds &amp; Word Bubbles）" /&gt;&lt;p&gt;ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。起源は、1990年代後半にウェブサイトで一般的に使用されていたタグクラウドにあります。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/word-clouds-bubbles/images/State-of-the-Union-2.png" alt="Featured image of post ワード・クラウドとワード・バブル" /&gt;&lt;p&gt;ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。起源は、1990年代後半にウェブサイトで一般的に使用されていたタグクラウドにあります。&lt;/p&gt;
 &lt;h3 id=&#34;問題&#34;&gt;問題
 &lt;/h3&gt;&lt;p&gt;その単語の元々持っている文字数による長さによる視覚的な影響を、重み付けが影響を受けてしまうことです。たとえ同じ重み付けであっても、元々の単語の文字数によって視覚的なインパクトは異なってしまいます。&lt;/p&gt;
 &lt;p&gt;この問題は、単語を円の中に配置し、円の面積で重み付けを表現すれば解決することが可能です。これらはWord Bubblesと呼ばれます。&lt;/p&gt;
@@ -17619,10 +17745,10 @@ report by Hugh Small
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2012/08/28/us/politics/convention-word-counts.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;At the Republican Convention, the Words Being Used&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;このグラフはどうなっているでしょうか&#34;&gt;このグラフはどうなっているでしょうか？
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT.png&#34;
 	width=&#34;2352&#34;
 	height=&#34;1819&#34;
-	srcset=&#34;http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT_hu_d2036c814ab50fc0.png 480w, http://localhost:1313/word-clouds-bubbles/images/What%E2%80%99s-Going-On-in-This-Graph_NYT_hu_10aab41378e885d8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT_hu_d2036c814ab50fc0.png 480w, http://localhost:1313/word-clouds-bubbles/images/Whats-Going-On-in-This-Graph_NYT_hu_10aab41378e885d8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -19222,12 +19348,151 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>「パラレル・コーディネイト」(Parallel Coordinates)</title>
+        <title>ストリームグラフ</title>
+        <link>http://localhost:1313/streamgraph/</link>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/streamgraph/</guid>
+        <description>&lt;img src="http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png" alt="Featured image of post ストリームグラフ" /&gt;&lt;h2 id=&#34;別名&#34;&gt;別名
+&lt;/h2&gt;&lt;p&gt;ThemeRiver、Stream Graph、Stacked Graphs&lt;/p&gt;
+&lt;h2 id=&#34;特徴&#34;&gt;特徴
+&lt;/h2&gt;&lt;p&gt;時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。&lt;/p&gt;
+&lt;p&gt;ベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。&lt;/p&gt;
+&lt;h2 id=&#34;議論&#34;&gt;議論
+&lt;/h2&gt;&lt;p&gt;正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。&lt;/p&gt;
+&lt;h4 id=&#34;ディメンションやメジャー&#34;&gt;ディメンションやメジャー
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;時系列（ディメンション）…水平軸&lt;/li&gt;
+&lt;li&gt;数値（メジャー）…（水平・垂直軸を考慮した）面積&lt;/li&gt;
+&lt;li&gt;カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。&lt;/p&gt;
+&lt;h2 id=&#34;作例&#34;&gt;作例
+&lt;/h2&gt;&lt;h3 id=&#34;映画の辺境と流れボックスオフィスの領収書-19862008&#34;&gt;「映画の辺境と流れ：ボックスオフィスの領収書 1986–2008」
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q.png&#34;
+	width=&#34;967&#34;
+	height=&#34;721&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu_e7525d4fbaf8fda0.png 480w, http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu_a5ab3894e4003fbe.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;134&#34;
+		data-flex-basis=&#34;321px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://archive.nytimes.com/www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Ebb and Flow of Movies: Box Office Receipts 1986–2008&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;stream-graph-of-the-most-played-music-month-by-month&#34;&gt;Stream graph of the most-played music month-by-month
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;538&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu_8a67b5ba63d61666.png 480w, http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu_7c4ae9ac8ea4b275.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;260&#34;
+		data-flex-basis=&#34;624px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://blog.last.fm/2010/12/16/the-data-behind-best-of-2010&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream graph of the most-played music month-by-month&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-a-hundred-million-calls-to-311-reveal-about-new-york&#34;&gt;What A Hundred Million Calls to 311 Reveal About New York
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ.jpeg&#34;
+	width=&#34;1000&#34;
+	height=&#34;642&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu_a4aa82bcc3a949b4.jpeg 480w, http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu_d83212c135feae2c.jpeg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;155&#34;
+		data-flex-basis=&#34;373px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wired.com/2010/11/ff_311_new_york/all/1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;What A Hundred Million Calls to 311 Reveal About New York&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;年代性別人種別一日の過ごし方&#34;&gt;年代・性別・人種別一日の過ごし方
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day.png&#34;
+	width=&#34;1932&#34;
+	height=&#34;1298&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day_hu_d064c8d90cfc9be7.png 480w, http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day_hu_ead883caa3d0e527.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;148&#34;
+		data-flex-basis=&#34;357px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;How Different Groups Spend Their Day&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;euro-2012-streamgraph-b-sides&#34;&gt;Euro 2012 Streamgraph B-sides
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ.png&#34;
+	width=&#34;500&#34;
+	height=&#34;490&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu_69005d8ac597e9e7.png 480w, http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu_2a7f45e69c9404d9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;244px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://philogb.github.io/blog/2012/07/02/euro2012-streamgraph-bsides/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Euro 2012 Streamgraph B-sides&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;top-ten-cars-in-the-uk&#34;&gt;Top Ten Cars in the UK
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png&#34;
+	width=&#34;1400&#34;
+	height=&#34;880&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu_45b8fe9bb5f3d662.png 480w, http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu_5821ec9cae2e8cc2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;159&#34;
+		data-flex-basis=&#34;381px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.neoformix.com/2011/TopTenCarsUK.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Top Ten Cars in the UK&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ミームトラッキングとニュースサイクルのダイナミクス&#34;&gt;ミームトラッキングとニュースサイクルのダイナミクス
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/meme-tracking.png&#34;
+	width=&#34;2067&#34;
+	height=&#34;1055&#34;
+	srcset=&#34;http://localhost:1313/streamgraph/images/meme-tracking_hu_b147e8b34c32b4a.png 480w, http://localhost:1313/streamgraph/images/meme-tracking_hu_7fb4a3de93991904.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;195&#34;
+		data-flex-basis=&#34;470px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://learning.mpi-sws.org/networks-seminar/papers/kdd09-quotes.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Meme-tracking and the Dynamics of the News Cycle&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか？
+&lt;/h2&gt;&lt;p&gt;Susan Havreらが2000年に出願登録したThemeRiverという名称で論文を発表しています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.ifs.tuwien.ac.at/~silvia/wien/gwa/ws05/articles/Havre-InfoVis1999.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ThemeRiverTM*: In Search of Trends, Patterns, and Relationships&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;それとは別に、last.fmのユーザー・リスニング履歴を制作したLee ByronとMartin Wattenbergによって、2008年に書かれた論文が存在します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stacked Graphs – Geometry &amp;amp; Aesthetics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現在はストリームグラフ（Streamgraph）と呼ばれることが一般的です。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>パラレル・コーディネイト</title>
         <link>http://localhost:1313/parallel-coordinates/</link>
         <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
         
         <guid>http://localhost:1313/parallel-coordinates/</guid>
-        <description>&lt;img src="http://localhost:1313/parallel-coordinates/images/1_3-NrFUaSTYJHquNYv0P6Ag.jpeg" alt="Featured image of post 「パラレル・コーディネイト」(Parallel Coordinates)" /&gt;&lt;h2 id=&#34;どんなチャート&#34;&gt;どんなチャート？
+        <description>&lt;img src="http://localhost:1313/parallel-coordinates/images/1_3-NrFUaSTYJHquNYv0P6Ag.jpeg" alt="Featured image of post パラレル・コーディネイト" /&gt;&lt;h2 id=&#34;どんなチャート&#34;&gt;どんなチャート？
 &lt;/h2&gt;&lt;p&gt;Tamara Munznerさんの “Visualization Analysis and Design”においての紹介文が的確なのでこれを引用します。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;『その名が示すように、軸は直角に垂直ではなく、互いに平行に配置される。散布図では、項目がドットで表示されるのに対し、平行座標では、1つの項目が平行軸をジグザグに移動するギザギザの線で表現され、関連する属性の項目の値の位置で各軸を1回だけ正確に横断します。』&lt;/p&gt;
@@ -19491,145 +19756,6 @@ Beautiful Visualization 12章 表のツリー表現 P183-193&lt;/p&gt;&lt;/block
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.researchgate.net/publication/3505028_Parallel_Coordinates_A_Tool_for_Visualizing_Multi-Dimensional_Geometry&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;A. Inselberg &amp;amp; B. Dimsdale：Parallel coordinates: a tool for visualizing multi-dimensional geometry&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>ストリームグラフ（Streamgraph）</title>
-        <link>http://localhost:1313/streamgraph/</link>
-        <pubDate>Tue, 07 Jul 2020 00:00:00 +0900</pubDate>
-        
-        <guid>http://localhost:1313/streamgraph/</guid>
-        <description>&lt;img src="http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png" alt="Featured image of post ストリームグラフ（Streamgraph）" /&gt;&lt;h2 id=&#34;別名&#34;&gt;別名
-&lt;/h2&gt;&lt;p&gt;ThemeRiver、Stream Graph、Stacked Graphs&lt;/p&gt;
-&lt;h2 id=&#34;特徴&#34;&gt;特徴
-&lt;/h2&gt;&lt;p&gt;時間の経過とともに変化する数値を、総体と個別を同時に、流れとして把握できることを意図したチャート。流れとして全体感を把握するところから、名称にstreamやriverといった単語が用いられている。初出は2000年ごろで比較的最近登場したチャート。&lt;/p&gt;
-&lt;p&gt;ベースラインとしての水平軸が存在しないため、データの総体と個別が生み出す造形は、予想できない美しさと傾向や発見の手がかりを生み出す。&lt;/p&gt;
-&lt;h2 id=&#34;議論&#34;&gt;議論
-&lt;/h2&gt;&lt;p&gt;正確な数値の読み取りやすさが足りないと指摘する声もあり、視覚的な美しさと正確な数値の読み取りやすさのバランスについて、議論になることが多い。レイヤーをどの順序で積み重ねるかはアルゴリズム次第で、データのどの属性を用いるかによって印象は相当変わる。この点も、正確な数値の読み取りやすさのバランスについて懸念される原因の一つとなっている。&lt;/p&gt;
-&lt;h4 id=&#34;ディメンションやメジャー&#34;&gt;ディメンションやメジャー
-&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;時系列（ディメンション）…水平軸&lt;/li&gt;
-&lt;li&gt;数値（メジャー）…（水平・垂直軸を考慮した）面積&lt;/li&gt;
-&lt;li&gt;カテゴリー（ディメンション）…色（基本的にはベタ塗りが多いが、記号やテキストで埋め尽くす作例も存在する）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;※チャート全体が90度回転させた場合は、時系列と数値の軸が逆になる。&lt;/p&gt;
-&lt;h2 id=&#34;作例&#34;&gt;作例
-&lt;/h2&gt;&lt;h3 id=&#34;映画の辺境と流れボックスオフィスの領収書-19862008&#34;&gt;「映画の辺境と流れ：ボックスオフィスの領収書 1986–2008」
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q.png&#34;
-	width=&#34;967&#34;
-	height=&#34;721&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu_e7525d4fbaf8fda0.png 480w, http://localhost:1313/streamgraph/images/1_fIBSrw8bOE6AxsG_6dRa7Q_hu_a5ab3894e4003fbe.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;134&#34;
-		data-flex-basis=&#34;321px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://archive.nytimes.com/www.nytimes.com/interactive/2008/02/23/movies/20080223_REVENUE_GRAPHIC.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Ebb and Flow of Movies: Box Office Receipts 1986–2008&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;stream-graph-of-the-most-played-music-month-by-month&#34;&gt;Stream graph of the most-played music month-by-month
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q.png&#34;
-	width=&#34;1400&#34;
-	height=&#34;538&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu_8a67b5ba63d61666.png 480w, http://localhost:1313/streamgraph/images/1_lfRGArscw7aXPXNouf2D5Q_hu_7c4ae9ac8ea4b275.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;260&#34;
-		data-flex-basis=&#34;624px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://blog.last.fm/2010/12/16/the-data-behind-best-of-2010&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Stream graph of the most-played music month-by-month&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;what-a-hundred-million-calls-to-311-reveal-about-new-york&#34;&gt;What A Hundred Million Calls to 311 Reveal About New York
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ.jpeg&#34;
-	width=&#34;1000&#34;
-	height=&#34;642&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu_a4aa82bcc3a949b4.jpeg 480w, http://localhost:1313/streamgraph/images/1_DM2ltegeUZ9ZKjdNFHvPzQ_hu_d83212c135feae2c.jpeg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;155&#34;
-		data-flex-basis=&#34;373px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.wired.com/2010/11/ff_311_new_york/all/1/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;What A Hundred Million Calls to 311 Reveal About New York&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;年代性別人種別一日の過ごし方&#34;&gt;年代・性別・人種別一日の過ごし方
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day.png&#34;
-	width=&#34;1932&#34;
-	height=&#34;1298&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day_hu_d064c8d90cfc9be7.png 480w, http://localhost:1313/streamgraph/images/How-Different-Groups-Spend-Their-Day_hu_ead883caa3d0e527.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;148&#34;
-		data-flex-basis=&#34;357px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://archive.nytimes.com/www.nytimes.com/interactive/2009/07/31/business/20080801-metrics-graphic.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;How Different Groups Spend Their Day&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;euro-2012-streamgraph-b-sides&#34;&gt;Euro 2012 Streamgraph B-sides
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ.png&#34;
-	width=&#34;500&#34;
-	height=&#34;490&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu_69005d8ac597e9e7.png 480w, http://localhost:1313/streamgraph/images/1_7vh_GjGLRbaNJS-x47bqhQ_hu_2a7f45e69c9404d9.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;102&#34;
-		data-flex-basis=&#34;244px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://philogb.github.io/blog/2012/07/02/euro2012-streamgraph-bsides/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Euro 2012 Streamgraph B-sides&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;top-ten-cars-in-the-uk&#34;&gt;Top Ten Cars in the UK
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA.png&#34;
-	width=&#34;1400&#34;
-	height=&#34;880&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu_45b8fe9bb5f3d662.png 480w, http://localhost:1313/streamgraph/images/1_8-t2eXWZyBAQ90tCjZEfvA_hu_5821ec9cae2e8cc2.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;159&#34;
-		data-flex-basis=&#34;381px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.neoformix.com/2011/TopTenCarsUK.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Top Ten Cars in the UK&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ミームトラッキングとニュースサイクルのダイナミクス&#34;&gt;ミームトラッキングとニュースサイクルのダイナミクス
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/streamgraph/images/meme-tracking.png&#34;
-	width=&#34;2067&#34;
-	height=&#34;1055&#34;
-	srcset=&#34;http://localhost:1313/streamgraph/images/meme-tracking_hu_b147e8b34c32b4a.png 480w, http://localhost:1313/streamgraph/images/meme-tracking_hu_7fb4a3de93991904.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;195&#34;
-		data-flex-basis=&#34;470px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://learning.mpi-sws.org/networks-seminar/papers/kdd09-quotes.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Meme-tracking and the Dynamics of the News Cycle&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;誰が作ったのか&#34;&gt;誰が作ったのか？
-&lt;/h2&gt;&lt;p&gt;Susan Havreらが2000年に出願登録したThemeRiverという名称で論文を発表しています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.ifs.tuwien.ac.at/~silvia/wien/gwa/ws05/articles/Havre-InfoVis1999.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;ThemeRiverTM*: In Search of Trends, Patterns, and Relationships&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;それとは別に、last.fmのユーザー・リスニング履歴を制作したLee ByronとMartin Wattenbergによって、2008年に書かれた論文が存在します。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;http://leebyron.com/streamgraph/stackedgraphs_byron_wattenberg.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Stacked Graphs – Geometry &amp;amp; Aesthetics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;現在はストリームグラフ（Streamgraph）と呼ばれることが一般的です。&lt;/p&gt;</description>
         </item>
         <item>
         <title>Small Multiplesとは何か？</title>
