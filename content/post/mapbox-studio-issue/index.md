@@ -97,5 +97,5 @@ Mapboxは「Mapbox Standard」を中心としたv3世代への移行を進めて
 
 ## 参考・出典
 
-- [Mapbox Styles API Documentation](https://docs.mapbox.com/api/maps/styles/)
 - [Studio Classicスタイルの廃止 | Mapbox | 開発者向けマップ](https://blog.mapbox.com/deprecating-studio-classic-styles-d8892ac38cb4)
+- [Styles API | API Docs | Mapbox](https://docs.mapbox.com/api/maps/styles/#classic-mapbox-styles)
