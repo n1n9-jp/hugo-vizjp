@@ -132,10 +132,10 @@ Mapboxは Classic スタイルを「互換性維持のために限定的に提�
 &lt;p&gt;可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard または MapLibre系タイルへの移行を検討してください。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.mapbox.com/api/maps/styles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Mapbox Styles API Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.mapbox.com/deprecating-studio-classic-styles-d8892ac38cb4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Studio Classicスタイルの廃止 | Mapbox | 開発者向けマップ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.mapbox.com/api/maps/styles/#classic-mapbox-styles&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Styles API | API Docs | Mapbox&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
         </item>
         <item>
