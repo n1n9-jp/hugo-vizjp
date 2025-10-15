@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja-jp" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n">
 <title>Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる</title>
 
 <link rel='canonical' href='http://localhost:1313/mapbox-studio-issue/'>
 
 <link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる">
-<meta property='og:description' content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n">
+<meta property='og:description' content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n">
 <meta property='og:url' content='http://localhost:1313/mapbox-studio-issue/'>
 <meta property='og:site_name' content='Visualizing.JP'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-15T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-15T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/mapbox-studio-issue/images/cover.png' />
 <meta name="twitter:title" content="Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる">
-<meta name="twitter:description" content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。\n以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/mapbox-studio-issue/images/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -483,7 +483,7 @@
     <section class="article-content">
     
     
-    <p>かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。</p>
+    <p>かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。</p>
 <p>以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。</p>
 <p>この原因は、Mapbox Studio側の仕様変更にあります。本記事では、Mapboxのスタイル仕様がどのように変わり、なぜこのような互換性問題が起きているのかを解説します。</p>
 <h2 id="現象の概要">現象の概要
@@ -592,14 +592,14 @@
 <li>Classicスタイル（Light v11など）は新UIから直接作成できなくなった</li>
 <li>Kepler.glやFoursquare Studioで地図が表示されない原因は、この仕様変更によるもの</li>
 <li>ClassicスタイルをJSONとして再登録することで回避可能</li>
-<li>将来的には、Mapbox GL JS v3またはMapLibreへの移行が求められる可能性が高い</li>
+<li>将来的には、Mapbox GL JS v3への移行が求められる可能性が高い</li>
 </ul>
 <blockquote>
 <p><strong>注意：Classicスタイルは今後更新されません。</strong><br>
 Mapboxは Classic スタイルを「互換性維持のために限定的に提供」していますが、道路・建物・行政界などの地物データは新しい更新を受けていません。<br>
 そのため、現行の地図と差異が生じる可能性があります。<br>
 特に行政区画の変更や新しい道路の追加などは反映されません。</p>
-<p>可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard または MapLibre系タイルへの移行を検討してください。</p></blockquote>
+<p>可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard への移行を検討してください。</p></blockquote>
 <h2 id="参考出典">参考・出典
 </h2><ul>
 <li><a class="link" href="https://blog.mapbox.com/deprecating-studio-classic-styles-d8892ac38cb4"  target="_blank" rel="noopener"
