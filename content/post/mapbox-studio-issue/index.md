@@ -12,7 +12,7 @@ tags = [
 image = "images/cover.png"
 +++
 
-かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、最近、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。
+かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定しても、地図が表示されないという現象が報告されています。
 
 以前は正常に読み込めていたにもかかわらず、突然「Failed to load map style」などのエラーが出るようになりました。
 
@@ -86,14 +86,14 @@ Mapboxは「Mapbox Standard」を中心としたv3世代への移行を進めて
 - Classicスタイル（Light v11など）は新UIから直接作成できなくなった  
 - Kepler.glやFoursquare Studioで地図が表示されない原因は、この仕様変更によるもの  
 - ClassicスタイルをJSONとして再登録することで回避可能  
-- 将来的には、Mapbox GL JS v3またはMapLibreへの移行が求められる可能性が高い
+- 将来的には、Mapbox GL JS v3への移行が求められる可能性が高い
 
 > **注意：Classicスタイルは今後更新されません。**  
 > Mapboxは Classic スタイルを「互換性維持のために限定的に提供」していますが、道路・建物・行政界などの地物データは新しい更新を受けていません。  
 > そのため、現行の地図と差異が生じる可能性があります。  
 > 特に行政区画の変更や新しい道路の追加などは反映されません。  
 >  
-> 可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard または MapLibre系タイルへの移行を検討してください。
+> 可視化背景として利用する場合は問題ありませんが、最新の地理情報を重視する用途では　Mapbox Standard への移行を検討してください。
 
 ## 参考・出典
 
