@@ -21,10 +21,10 @@
 &lt;p&gt;そんなふうに、いくつかのヨーグルトを並べて&lt;strong&gt;栄養バランスを比較&lt;/strong&gt;したいとき、レーダーチャートはとても便利な方法です。&lt;/p&gt;
 &lt;p&gt;でも、いざ数字を入れてみると……&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;脂質の軸だけ長すぎて、他がぺたんこ。
-炭水化物の数値だけ大きくて、形がいびつ。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;炭水化物の数値だけ大きくて、形がいびつ。
+たんぱく質よりもカルシウムが大きいが、実は単位がミリグラムとグラム。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;そう &lt;strong&gt;栄養成分ごとに単位やスケールが違う&lt;/strong&gt; ため、そのままでは「形の比較」ができません。&lt;/p&gt;
-&lt;p&gt;そこで登場するのが - &lt;strong&gt;正規化（Normalization）&lt;/strong&gt; と &lt;strong&gt;標準化（Standardization）&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;そこで登場するのが &lt;strong&gt;正規化（Normalization）&lt;/strong&gt; と &lt;strong&gt;標準化（Standardization）&lt;/strong&gt; です。&lt;/p&gt;
 &lt;h2 id=&#34;正規化とはそれぞれを01におさめる&#34;&gt;正規化とは「それぞれを0〜1におさめる」
 &lt;/h2&gt;&lt;p&gt;正規化とは &lt;strong&gt;最小値を0、最大値を1にしてスケールをそろえる&lt;/strong&gt; ことです。
 たとえば、タンパク質が3〜10gの範囲でばらついている場合、&lt;/p&gt;
