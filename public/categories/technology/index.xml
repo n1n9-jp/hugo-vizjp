@@ -16,8 +16,8 @@
         <description>&lt;img src="http://localhost:1313/normalize-standarize/images/yogurt.png" alt="Featured image of post Googleスプレッドシートで学ぶ「正規化・標準化」の考え方" /&gt;&lt;p&gt;チャートは「きれいに描くこと」よりも &lt;strong&gt;「正しく比べること」&lt;/strong&gt; が大事です。&lt;/p&gt;
 &lt;p&gt;単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。&lt;/p&gt;
 &lt;h2 id=&#34;はじめに&#34;&gt;はじめに
-&lt;/h2&gt;&lt;p&gt;「このヨーグルト、タンパク質が多い！」&lt;br&gt;
-「こっちはカルシウムがすごい！」&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;「このヨーグルト、タンパク質が多い」
+「こっちのは炭水化物が多い」&lt;/p&gt;
 &lt;p&gt;そんなふうに、いくつかのヨーグルトを並べて&lt;strong&gt;栄養バランスを比較&lt;/strong&gt;したいとき、レーダーチャートはとても便利な方法です。&lt;/p&gt;
 &lt;p&gt;でも、いざ数字を入れてみると……&lt;/p&gt;
 &lt;blockquote&gt;
@@ -133,7 +133,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;注：対象データの範囲が2行目から20行目まである場合 「$B$2:$B$20」 とします。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;この方法は「平均との差」を見る分析に向いています。
-値がマイナスになることがあるので、レーダーチャートに使うときは注意してください。&lt;/p&gt;
+結果がマイナスになることがあるので、レーダーチャートに使うときは注意してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/normalize-standarize/images/standalize.png&#34;
 	width=&#34;3136&#34;
 	height=&#34;1268&#34;
