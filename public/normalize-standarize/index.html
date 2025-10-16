@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="チャートは「きれいに描くこと」よりも 「正しく比べること」 が大事です。\n単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。\n">
+<title>Googleスプレッドシートで学ぶ「正規化・標準化」の考え方</title>
+
+<link rel='canonical' href='http://localhost:1313/normalize-standarize/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="Googleスプレッドシートで学ぶ「正規化・標準化」の考え方">
+<meta property='og:description' content="チャートは「きれいに描くこと」よりも 「正しく比べること」 が大事です。\n単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。\n">
+<meta property='og:url' content='http://localhost:1313/normalize-standarize/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-16T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-16T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/normalize-standarize/images/yogurt.png' />
+<meta name="twitter:title" content="Googleスプレッドシートで学ぶ「正規化・標準化」の考え方">
+<meta name="twitter:description" content="チャートは「きれいに描くこと」よりも 「正しく比べること」 が大事です。\n単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/normalize-standarize/images/yogurt.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#正規化とはそれぞれを01におさめる">正規化とは「それぞれを0〜1におさめる」</a>
+      <ol>
+        <li><a href="#スプレッドシートでの式">スプレッドシートでの式</a></li>
+      </ol>
+    </li>
+    <li><a href="#標準化とは平均を0ズレを数値化する">標準化とは「平均を0、ズレを数値化する」</a>
+      <ol>
+        <li><a href="#スプレッドシートでの式-1">スプレッドシートでの式</a></li>
+      </ol>
+    </li>
+    <li><a href="#どちらを使えばいいの">どちらを使えばいいの？</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#おわりに">おわりに</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/normalize-standarize/">
+                <img src="/normalize-standarize/images/yogurt_hu_e6f9a2bfa473ebe7.png"
+                        srcset="/normalize-standarize/images/yogurt_hu_e6f9a2bfa473ebe7.png 800w, /normalize-standarize/images/yogurt_hu_61b662b18d086076.png 1600w"
+                        width="800" 
+                        height="481" 
+                        loading="lazy"
+                        alt="Featured image of post Googleスプレッドシートで学ぶ「正規化・標準化」の考え方" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                作るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/normalize-standarize/">Googleスプレッドシートで学ぶ「正規化・標準化」の考え方</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 16, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>チャートは「きれいに描くこと」よりも <strong>「正しく比べること」</strong> が大事です。</p>
+<p>単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。</p>
+<h2 id="はじめに">はじめに
+</h2><p>「このヨーグルト、タンパク質が多い！」<br>
+「こっちはカルシウムがすごい！」</p>
+<p>そんなふうに、いくつかのヨーグルトを並べて<strong>栄養バランスを比較</strong>したいとき、レーダーチャートはとても便利な方法です。</p>
+<p>でも、いざ数字を入れてみると……</p>
+<blockquote>
+<p>脂質の軸だけ長すぎて、他がぺたんこ。
+炭水化物の数値だけ大きくて、形がいびつ。</p></blockquote>
+<p>そう <strong>栄養成分ごとに単位やスケールが違う</strong> ため、そのままでは「形の比較」ができません。</p>
+<p>そこで登場するのが - <strong>正規化（Normalization）</strong> と <strong>標準化（Standardization）</strong> です。</p>
+<h2 id="正規化とはそれぞれを01におさめる">正規化とは「それぞれを0〜1におさめる」
+</h2><p>正規化とは <strong>最小値を0、最大値を1にしてスケールをそろえる</strong> ことです。
+たとえば、タンパク質が3〜10gの範囲でばらついている場合、</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>商品</th>
+          <th>タンパク質 (g)</th>
+          <th>正規化後の値</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>3</td>
+          <td>0.00</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>5</td>
+          <td>0.29</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>10</td>
+          <td>1.00</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>といった具合に、すべて「0〜1」の間に変換されます。
+こうすることで、どの栄養素も<strong>同じ物差し</strong>で比べられるようになります。</p>
+<h3 id="スプレッドシートでの式">スプレッドシートでの式
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">=(B2 - MIN($B$2:$B$10)) / (MAX($B$2:$B$10) - MIN($B$2:$B$10))
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>B2</code> … 今のセルの値</li>
+<li><code>MIN($B$2:$B$10)</code> … その列の最小値</li>
+<li><code>MAX($B$2:$B$10)</code> … その列の最大値</li>
+<li><code>$</code> … 範囲を固定する記号（コピーしてもズレないように）</li>
+</ul>
+<blockquote>
+<p>注：対象データの範囲が2行目から20行目まである場合 「$B$2:$B$20」 とします。</p></blockquote>
+<p><img src="/normalize-standarize/images/normalize.png"
+	width="3136"
+	height="1268"
+	srcset="/normalize-standarize/images/normalize_hu_7a7949809ee2d949.png 480w, /normalize-standarize/images/normalize_hu_7f047009fe95fee.png 1024w"
+	loading="lazy"
+	
+		alt="ヨーグルトの栄養成分_正規化"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="247"
+		data-flex-basis="593px"
+	
+></p>
+<h2 id="標準化とは平均を0ズレを数値化する">標準化とは「平均を0、ズレを数値化する」
+</h2><p>もうひとつの方法が「標準化」です。
+こちらは <strong>平均を0にして、平均からどれくらい離れているか</strong> を示すものです。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>商品</th>
+          <th>脂質 (g)</th>
+          <th>標準化後の値</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>1.2</td>
+          <td>-1.05</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>2.5</td>
+          <td>0.12</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>4.0</td>
+          <td>1.27</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>プラスなら平均より多い、マイナスなら少ない、という見方になります。</p>
+<h3 id="スプレッドシートでの式-1">スプレッドシートでの式
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">=(B2 - AVERAGE($B$2:$B$10)) / STDEV($B$2:$B$10)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>AVERAGE()</code> … 平均を計算</li>
+<li><code>STDEV()</code> … 標準偏差（ばらつきの大きさ）</li>
+</ul>
+<blockquote>
+<p>注：対象データの範囲が2行目から20行目まである場合 「$B$2:$B$20」 とします。</p></blockquote>
+<p>この方法は「平均との差」を見る分析に向いています。
+値がマイナスになることがあるので、レーダーチャートに使うときは注意してください。</p>
+<p><img src="/normalize-standarize/images/standalize.png"
+	width="3136"
+	height="1268"
+	srcset="/normalize-standarize/images/standalize_hu_3c8de28752c15ebe.png 480w, /normalize-standarize/images/standalize_hu_258f9095f265fa55.png 1024w"
+	loading="lazy"
+	
+		alt="ヨーグルトの栄養成分_標準化"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="247"
+		data-flex-basis="593px"
+	
+></p>
+<h2 id="どちらを使えばいいの">どちらを使えばいいの？
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>目的</th>
+          <th>向いている方法</th>
+          <th>特徴</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0〜1の間で比較したい</td>
+          <td>正規化</td>
+          <td>値がきれいに0〜1に収まる。レーダーチャートに最適。</td>
+      </tr>
+      <tr>
+          <td>平均との差を分析したい</td>
+          <td>標準化</td>
+          <td>平均を基準に、プラス・マイナスで比較できる。</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>初心者がまずレーダーチャートを描きたいときは <strong>正規化（0〜1にそろえる）</strong> から始めるのがおすすめです。</p>
+<h2 id="まとめ">まとめ
+</h2><ul>
+<li>正規化＝ <strong>スケールを0〜1にそろえる</strong></li>
+<li>標準化＝ <strong>平均を0、ばらつきをそろえる</strong></li>
+<li>どちらも「バラバラの単位を共通の物差しにする」ための手法</li>
+<li>スプレッドシートでも数式ひとつで簡単にできます！</li>
+</ul>
+<h2 id="おわりに">おわりに
+</h2><p>チャートは「きれいに描くこと」よりも <strong>「正しく比べること」</strong> が大事です。</p>
+<p>単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。</p>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://support.google.com/docs/table/25273"  target="_blank" rel="noopener"
+    >Google スプレッドシートの関数リファレンス</a></li>
+<li><a class="link" href="https://towardsdatascience.com/standardization-vs-normalization-dc81f23085e3/"  target="_blank" rel="noopener"
+    >Normalization vs Standardization — Towards Data Science</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/mapbox-studio-issue/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-studio-issue/images/cover.902342201bcfe88bcd22d365846dd55e_hu_eb9e0833f0f1614f.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる"
+                        data-key="mapbox-studio-issue" 
+                        data-hash="md5-kCNCIBvP6IvNItNlhG3VXg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face-implementation/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
+                        data-key="chernoff-face-implementation" 
+                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-blog/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
+                        data-key="cognitive-biases-blog" 
+                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-compare/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-compare/images/bias-comparison-final.425ad14333be02f49f5513d864c6f9cc_hu_df47b332f91dcecf.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
+                        data-key="cognitive-biases-compare" 
+                        data-hash="md5-QlrRQzO&#43;AvSfVRPYZMb5zA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-paper/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-paper/images/bias-paper.a70495da15a0bceabd8783171ad70d38_hu_c06ba9c91eac0a00.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知バイアスを「タスク」で整理する──Dimara らの新しい分類法"
+                        data-key="cognitive-biases-paper" 
+                        data-hash="md5-pwSV2hWgvOq9h4MXGtcNOA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知バイアスを「タスク」で整理する──Dimara らの新しい分類法</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
