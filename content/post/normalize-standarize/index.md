@@ -123,6 +123,12 @@ image = "images/yogurt.png"
 単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。
 
 
+## おまけ
+
+説明に用いたスプレッドシートです。データ自体は少し古いですが、セルに埋め込まれた計算式は参照できると思います。お役立てください。
+
+- [ヨーグルトの栄養成分](https://docs.google.com/spreadsheets/d/13ONRlk_UlW7z2iI3Rkstbj5xDbyvFEGrcaMsgFytMM0/edit?usp=sharing)
+
 
 ## 参考・出典
 
