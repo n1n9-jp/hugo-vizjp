@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="地図のデザインを定義する「スタイル JSON」は、Mapbox が定めた Mapbox Style Specification をもとに発展してきました。現在では、オープンソース版である MapLibre Style Spec 、そして日本の 国土地理院（GSI）による地理院地図 Vector スタイル仕様 が存在します。ここでは、Mapbox を基準にそれぞれの仕様の違いを整理します。\n">
+<title>地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較</title>
+
+<link rel='canonical' href='http://localhost:1313/vector-tile-style-specification/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較">
+<meta property='og:description' content="地図のデザインを定義する「スタイル JSON」は、Mapbox が定めた Mapbox Style Specification をもとに発展してきました。現在では、オープンソース版である MapLibre Style Spec 、そして日本の 国土地理院（GSI）による地理院地図 Vector スタイル仕様 が存在します。ここでは、Mapbox を基準にそれぞれの仕様の違いを整理します。\n">
+<meta property='og:url' content='http://localhost:1313/vector-tile-style-specification/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-17T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-17T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/vector-tile-style-specification/images/thumb_ph_vizjp.png' />
+<meta name="twitter:title" content="地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較">
+<meta name="twitter:description" content="地図のデザインを定義する「スタイル JSON」は、Mapbox が定めた Mapbox Style Specification をもとに発展してきました。現在では、オープンソース版である MapLibre Style Spec 、そして日本の 国土地理院（GSI）による地理院地図 Vector スタイル仕様 が存在します。ここでは、Mapbox を基準にそれぞれの仕様の違いを整理します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/vector-tile-style-specification/images/thumb_ph_vizjp.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#地図スタイル仕様の歴史的背景">地図スタイル仕様の歴史的背景</a></li>
+    <li><a href="#主な経緯">主な経緯</a></li>
+    <li><a href="#mapbox-スタイル-と-gsi地理院地図-vector-スタイルの比較">Mapbox スタイル と GSI（地理院地図 Vector スタイル）の比較</a></li>
+    <li><a href="#mapbox-スタイル-と-maplibre-スタイルの比較">Mapbox スタイル と MapLibre スタイルの比較</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/vector-tile-style-specification/">
+                <img src="/vector-tile-style-specification/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png"
+                        srcset="/vector-tile-style-specification/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png 800w, /vector-tile-style-specification/images/thumb_ph_vizjp_hu_982f6515b909acd4.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post 地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                作るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/vector-tile-style-specification/">地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 17, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>地図のデザインを定義する「スタイル JSON」は、Mapbox が定めた <strong>Mapbox Style Specification</strong> をもとに発展してきました。現在では、オープンソース版である <strong>MapLibre Style Spec</strong> 、そして日本の <strong>国土地理院（GSI）による地理院地図 Vector スタイル仕様</strong> が存在します。ここでは、Mapbox を基準にそれぞれの仕様の違いを整理します。</p>
+<h2 id="地図スタイル仕様の歴史的背景">地図スタイル仕様の歴史的背景
+</h2><p>現在使われている「スタイル JSON」という形式の地図デザイン定義は <strong>Mapbox 社が 2010 年代半ばに確立した Mapbox Style Specification</strong> に端を発します。</p>
+<p>この仕様は Mapbox GL JS の登場とともに公開され、WebGL による動的な地図描画を可能にするデファクト・スタンダードとなりました。</p>
+<p>その後、オープンソースの継承版である <strong>MapLibre Style Spec</strong> が派生し、さらに日本では国土地理院が同構造を参照して <strong>地理院地図 Vector スタイル</strong> を策定しました。現在の多くの地図プラットフォームは、この流れのいずれかに位置づけられます。</p>
+<h2 id="主な経緯">主な経緯
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">年</th>
+          <th style="text-align: left">出来事</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>2013年</strong></td>
+          <td style="text-align: left">Mapbox がベクトルタイル技術を発表。Mapbox Streets などに導入。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2014年</strong></td>
+          <td style="text-align: left">公式ブログで「Introducing Mapbox GL」を発表。スタイル JSON による地図表現を実装。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2019年7月29日</strong></td>
+          <td style="text-align: left">国土地理院が「地理院地図 Vector」を試験公開。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2020年3月19日</strong></td>
+          <td style="text-align: left">国土地理院が全国データの提供を開始。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2020年12月</strong></td>
+          <td style="text-align: left">Mapbox GL JS v2 のライセンス変更により OSS ではなくなる。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2021年1月</strong></td>
+          <td style="text-align: left">MapLibre プロジェクトが発足し、Mapbox GL JS v1 をフォークして継続開発へ。</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="mapbox-スタイル-と-gsi地理院地図-vector-スタイルの比較">Mapbox スタイル と GSI（地理院地図 Vector スタイル）の比較
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">比較項目</th>
+          <th style="text-align: left">Mapbox Style Specification（基準）</th>
+          <th style="text-align: left">GSI 地理院地図 Vector スタイル</th>
+          <th style="text-align: left">備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>基本構造</strong></td>
+          <td style="text-align: left">JSON 構造で、<code>version</code>, <code>sources</code>, <code>layers</code>, <code>sprite</code>, <code>glyphs</code> 等をルート要素に持つ</td>
+          <td style="text-align: left">JSON 構造（PDF仕様書で定義）。<code>group</code>, <code>directory</code>, <code>item</code>, <code>layer</code>, <code>draw</code> の階層構造を持つ</td>
+          <td style="text-align: left">GSI は階層的グルーピングを導入</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>レイヤ構造</strong></td>
+          <td style="text-align: left"><code>layers</code> 配列にレイヤを列挙</td>
+          <td style="text-align: left"><code>group</code> や <code>directory</code> に複数レイヤ (<code>layer</code> 要素) を含む</td>
+          <td style="text-align: left">表示制御・UIとの親和性を意識</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>レイヤタイプ</strong></td>
+          <td style="text-align: left"><code>&quot;type&quot;</code> に <code>&quot;fill&quot;</code>, <code>&quot;line&quot;</code>, <code>&quot;symbol&quot;</code>, <code>&quot;circle&quot;</code>, <code>&quot;raster&quot;</code>, <code>&quot;background&quot;</code>, <code>&quot;fill-extrusion&quot;</code>, <code>&quot;heatmap&quot;</code>, <code>&quot;hillshade&quot;</code> 等</td>
+          <td style="text-align: left"><code>&quot;draw&quot;</code> の中で <code>&quot;type&quot;: &quot;fill&quot;</code>, <code>&quot;line&quot;</code>, <code>&quot;symbol&quot;</code> 等を指定</td>
+          <td style="text-align: left">3D系は明記されていない</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>描画プロパティ</strong></td>
+          <td style="text-align: left"><code>&quot;paint&quot;</code>, <code>&quot;layout&quot;</code> に属性を定義</td>
+          <td style="text-align: left"><code>&quot;draw&quot;</code> の中で <code>color</code>, <code>opacity</code>, <code>weight</code> などを指定</td>
+          <td style="text-align: left">簡略化され、読みやすい構成</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>追加描画指定</strong></td>
+          <td style="text-align: left"><code>&quot;fill-pattern&quot;</code> 等の標準機能</td>
+          <td style="text-align: left"><code>&quot;fill-style&quot;</code>（斜線・網掛け）など独自拡張</td>
+          <td style="text-align: left">網掛け・ハッチ表現をサポート</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>属性フィルタ</strong></td>
+          <td style="text-align: left"><code>&quot;filter&quot;</code> に Mapbox 式</td>
+          <td style="text-align: left"><code>&quot;filter&quot;</code> 準拠</td>
+          <td style="text-align: left">式の機能は限定的</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ズーム範囲</strong></td>
+          <td style="text-align: left"><code>&quot;minzoom&quot;</code>, <code>&quot;maxzoom&quot;</code></td>
+          <td style="text-align: left">同等にサポート</td>
+          <td style="text-align: left">互換性あり</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>描画順序</strong></td>
+          <td style="text-align: left"><code>layers</code> の配列順序</td>
+          <td style="text-align: left"><code>&quot;zIndex&quot;</code> 数値で制御</td>
+          <td style="text-align: left">独自の順序指定</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>グループ構造</strong></td>
+          <td style="text-align: left">標準仕様には無い</td>
+          <td style="text-align: left"><code>&quot;group&quot;</code>, <code>&quot;directory&quot;</code>, <code>&quot;item&quot;</code> で階層構造</td>
+          <td style="text-align: left">GSIサイトのUI構成に対応</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>独自プロパティ</strong></td>
+          <td style="text-align: left">無し</td>
+          <td style="text-align: left"><code>&quot;additional-filter&quot;</code>, <code>&quot;blend&quot;</code>, <code>&quot;editZIndex&quot;</code> 等あり</td>
+          <td style="text-align: left">行政用途に最適化</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>互換性</strong></td>
+          <td style="text-align: left">Mapbox／MapLibreで利用可能</td>
+          <td style="text-align: left">Mapbox準拠だが完全互換ではない</td>
+          <td style="text-align: left">拡張部分は無視される場合あり</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>更新頻度</strong></td>
+          <td style="text-align: left">継続的に更新</td>
+          <td style="text-align: left">2020年版（PDF固定）</td>
+          <td style="text-align: left">国内向け限定仕様</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>公式仕様</strong></td>
+          <td style="text-align: left"><a class="link" href="https://docs.mapbox.com/style-spec/"  target="_blank" rel="noopener"
+    >Mapbox Style Spec</a></td>
+          <td style="text-align: left"><a class="link" href="https://maps.gsi.go.jp/help/pdf/vector/stylespec.pdf"  target="_blank" rel="noopener"
+    >地理院地図Vector仕様(PDF)</a></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="mapbox-スタイル-と-maplibre-スタイルの比較">Mapbox スタイル と MapLibre スタイルの比較
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">比較項目</th>
+          <th style="text-align: left">Mapbox Style Specification（基準）</th>
+          <th style="text-align: left">MapLibre Style Specification</th>
+          <th style="text-align: left">備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>基本構造</strong></td>
+          <td style="text-align: left"><code>version</code>, <code>sources</code>, <code>layers</code>, <code>sprite</code>, <code>glyphs</code></td>
+          <td style="text-align: left">同一構造。Mapbox仕様のフォーク</td>
+          <td style="text-align: left">完全互換ベース</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>目的</strong></td>
+          <td style="text-align: left">Mapbox社の商用プラットフォーム向け</td>
+          <td style="text-align: left">OSS 互換実装（MapLibre GL JS / Native）</td>
+          <td style="text-align: left">コミュニティ主導</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>互換性</strong></td>
+          <td style="text-align: left">最新 Mapbox GL JS に追従</td>
+          <td style="text-align: left">Mapbox v1系を基に後方互換重視</td>
+          <td style="text-align: left">実装差は最小限</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>仕様更新方針</strong></td>
+          <td style="text-align: left">商用更新サイクル</td>
+          <td style="text-align: left">OSS コミュニティで審議</td>
+          <td style="text-align: left">運営主体が異なる</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>拡張機能</strong></td>
+          <td style="text-align: left"><code>&quot;terrain&quot;</code>, <code>&quot;sky&quot;</code>, <code>&quot;fog&quot;</code> など</td>
+          <td style="text-align: left">段階的対応または未対応</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>式（Expressions）</strong></td>
+          <td style="text-align: left">高度な式構文をサポート</td>
+          <td style="text-align: left">同等の式構文を実装</td>
+          <td style="text-align: left">互換性高い</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>3D表現</strong></td>
+          <td style="text-align: left"><code>&quot;fill-extrusion&quot;</code>, <code>&quot;terrain&quot;</code>, <code>&quot;sky&quot;</code></td>
+          <td style="text-align: left"><code>&quot;fill-extrusion&quot;</code> 対応。その他は実装依存</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>仕様拡張性</strong></td>
+          <td style="text-align: left">Mapbox独自追加あり</td>
+          <td style="text-align: left">Mapbox依存削除・独立維持</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>ライセンス</strong></td>
+          <td style="text-align: left">Mapbox社 商用</td>
+          <td style="text-align: left">MapLibre Org BSD系OSS</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>適用範囲</strong></td>
+          <td style="text-align: left">Mapbox Studio, API, GL JS v2+</td>
+          <td style="text-align: left">MapLibre GL JS, Native, QGIS等</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>公式仕様</strong></td>
+          <td style="text-align: left"><a class="link" href="https://docs.mapbox.com/style-spec/"  target="_blank" rel="noopener"
+    >Mapbox Style Spec</a></td>
+          <td style="text-align: left"><a class="link" href="https://maplibre.org/maplibre-style-spec/"  target="_blank" rel="noopener"
+    >MapLibre Style Spec</a></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="まとめ">まとめ
+</h2><ul>
+<li><strong>GSIスタイル</strong> は Mapbox仕様を拡張し、行政地図や日本特有の表現（網掛け、階層構造など）を取り込んだ独自仕様。</li>
+<li><strong>MapLibreスタイル</strong> は Mapbox仕様のフォークであり <strong>互換性を保ったオープンソース版</strong> 。</li>
+<li>両者とも Mapbox の影響下にありながら、目的に応じて異なる方向に進化している。</li>
+</ul>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://docs.mapbox.com/style-spec/"  target="_blank" rel="noopener"
+    >Mapbox Style Specification</a></li>
+<li><a class="link" href="https://blog.mapbox.com/introducing-mapbox-gl-7a1f4e960e16"  target="_blank" rel="noopener"
+    >Introducing Mapbox GL</a></li>
+<li><a class="link" href="https://www.maplibre.org/maplibre-style-spec/"  target="_blank" rel="noopener"
+    >MapLibre Style Spec</a></li>
+<li><a class="link" href="https://maps.gsi.go.jp/help/pdf/vector/stylespec.pdf"  target="_blank" rel="noopener"
+    >地理院地図Vector 地図デザインファイル仕様 (PDF)</a></li>
+<li><a class="link" href="https://repository.exst.jaxa.jp/dspace/bitstream/a-is/960741/1/AA1940350022.pdf"  target="_blank" rel="noopener"
+    >地理院地図 Vector の試験公開（国土地理院 PDF）</a></li>
+<li><a class="link" href="https://maps.gsi.go.jp/development/vt.html"  target="_blank" rel="noopener"
+    >ベクトルタイルとその提供実験について（国土地理院公式）</a></li>
+<li><a class="link" href="https://carto.com/blog/our-thoughts-as-mapboxgl-js-2-goes-proprietary"  target="_blank" rel="noopener"
+    >Our Thoughts as MapboxGL JS v2 Goes Proprietary</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/normalize-standarize/">
+        
+        
+            <div class="article-image">
+                <img src="/normalize-standarize/images/yogurt.40cf1b81004e0625a70f12a45d36eccc_hu_302aed81d2a88271.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Googleスプレッドシートで学ぶ「正規化・標準化」の考え方"
+                        data-key="normalize-standarize" 
+                        data-hash="md5-QM8bgQBOBiWnDxKkXTbszA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Googleスプレッドシートで学ぶ「正規化・標準化」の考え方</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-studio-issue/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-studio-issue/images/cover.902342201bcfe88bcd22d365846dd55e_hu_eb9e0833f0f1614f.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる"
+                        data-key="mapbox-studio-issue" 
+                        data-hash="md5-kCNCIBvP6IvNItNlhG3VXg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face-implementation/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
+                        data-key="chernoff-face-implementation" 
+                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-blog/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
+                        data-key="cognitive-biases-blog" 
+                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-compare/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-compare/images/bias-comparison-final.425ad14333be02f49f5513d864c6f9cc_hu_df47b332f91dcecf.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
+                        data-key="cognitive-biases-compare" 
+                        data-hash="md5-QlrRQzO&#43;AvSfVRPYZMb5zA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
