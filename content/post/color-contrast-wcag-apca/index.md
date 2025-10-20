@@ -30,9 +30,9 @@ W3C（World Wide Web Consortium）の WAI (Web Accessibility Initiative) が策�
 
 WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。
 
-```
-(L₁ + 0.05) / (L₂ + 0.05)
-```
+
+> (L₁ + 0.05) / (L₂ + 0.05)
+
 
 ここで、  
 
@@ -52,9 +52,9 @@ WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance�
 - 白（#FFFFFF）：L₁ = 1.0  
 - 黒（#000000）：L₂ = 0.0  
 
-```
-(1.0 + 0.05) / (0.0 + 0.05) = 21
-```
+
+> (1.0 + 0.05) / (0.0 + 0.05) = 21
+
 ![文字色#FFFFFF、背景色#000000](<images/452 - Color Contrast Checker - Coolors.png>)
 - [Color Contrast Checker - Coolors](https://coolors.co/contrast-checker/ffffff-000000)
 
@@ -64,9 +64,9 @@ WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance�
 
 背景が白（L₁ = 1.0）、文字が中間グレー（L₂ = 0.183）のとき：
 
-```
-(1.0 + 0.05) / (0.183 + 0.05) = 4.5
-```
+
+> (1.0 + 0.05) / (0.183 + 0.05) = 4.5
+
 
 ![文字色#767676、背景色#FFFFFF](<images/454 - Color Contrast Checker - Coolors.png>)
 - [Color Contrast Checker - Coolors](https://coolors.co/contrast-checker/767676-ffffff)
