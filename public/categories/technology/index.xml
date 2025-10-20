@@ -15,6 +15,10 @@
         <guid>http://localhost:1313/color-contrast-wcag-apca/</guid>
         <description>&lt;img src="http://localhost:1313/color-contrast-wcag-apca/images/thumb_ph_vizjp.png" alt="Featured image of post 色のコントラストを見直す：WCAG 2.x から APCA への流れ" /&gt;&lt;p&gt;データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。&lt;/p&gt;
 &lt;p&gt;しかし、私たちが長年「正しい」と信じてきたコントラスト基準 - &lt;strong&gt;WCAG 2.x （Web Content Accessibility Guidelines）&lt;/strong&gt; - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。&lt;/p&gt;
+&lt;h2 id=&#34;wcag-2x-とは何か&#34;&gt;WCAG 2.x とは何か
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;WCAG（Web Content Accessibility Guidelines）&lt;/strong&gt; とは、ウェブ上のコンテンツをすべての人が利用しやすくするための国際的なガイドラインです。&lt;/p&gt;
+&lt;p&gt;W3C（World Wide Web Consortium）の WAI (Web Accessibility Initiative) が策定し、現在主流となっている 2.x シリーズ（2.0／2.1／2.2）では、視覚・聴覚・運動・認知などさまざまな障害のある人にも配慮した設計基準を示しています。&lt;/p&gt;
+&lt;p&gt;その中でも「&lt;strong&gt;1.4.3 Contrast (Minimum)&lt;/strong&gt;」は、文字と背景の明るさの差を数値で評価することで可読性を確保するための指針です。&lt;/p&gt;
 &lt;h2 id=&#34;wcag-2x-のコントラスト定義&#34;&gt;WCAG 2.x のコントラスト定義
 &lt;/h2&gt;&lt;p&gt;WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -22,7 +26,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(L1 + 0.05) / (L2 + 0.05)
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(L₁ + 0.05) / (L₂ + 0.05)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;ここで、&lt;/p&gt;

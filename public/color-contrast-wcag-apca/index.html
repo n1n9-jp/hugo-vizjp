@@ -386,6 +386,7 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
+    <li><a href="#wcag-2x-とは何か">WCAG 2.x とは何か</a></li>
     <li><a href="#wcag-2x-のコントラスト定義">WCAG 2.x のコントラスト定義</a></li>
     <li><a href="#なぜ451になるのか">なぜ「4.5:1」になるのか？</a>
       <ol>
@@ -495,6 +496,10 @@
     
     <p>データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。</p>
 <p>しかし、私たちが長年「正しい」と信じてきたコントラスト基準 - <strong>WCAG 2.x （Web Content Accessibility Guidelines）</strong> - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。</p>
+<h2 id="wcag-2x-とは何か">WCAG 2.x とは何か
+</h2><p><strong>WCAG（Web Content Accessibility Guidelines）</strong> とは、ウェブ上のコンテンツをすべての人が利用しやすくするための国際的なガイドラインです。</p>
+<p>W3C（World Wide Web Consortium）の WAI (Web Accessibility Initiative) が策定し、現在主流となっている 2.x シリーズ（2.0／2.1／2.2）では、視覚・聴覚・運動・認知などさまざまな障害のある人にも配慮した設計基準を示しています。</p>
+<p>その中でも「<strong>1.4.3 Contrast (Minimum)</strong>」は、文字と背景の明るさの差を数値で評価することで可読性を確保するための指針です。</p>
 <h2 id="wcag-2x-のコントラスト定義">WCAG 2.x のコントラスト定義
 </h2><p>WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。</p>
 <div class="highlight"><div class="chroma">
@@ -502,7 +507,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(L1 + 0.05) / (L2 + 0.05)
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(L₁ + 0.05) / (L₂ + 0.05)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>ここで、</p>
