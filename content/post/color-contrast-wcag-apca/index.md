@@ -47,6 +47,8 @@ WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance�
 ```
 (1.0 + 0.05) / (0.0 + 0.05) = 21
 ```
+![文字色#FFFFFF、背景色#000000](<images/452 - Color Contrast Checker - Coolors.png>)
+- [Color Contrast Checker - Coolors](https://coolors.co/contrast-checker/ffffff-000000)
 
 よって、白と黒のコントラスト比は **21:1**。これが理論上の最大値です。
 
@@ -57,6 +59,9 @@ WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance�
 ```
 (1.0 + 0.05) / (0.183 + 0.05) = 4.5
 ```
+
+![文字色#767676、背景色#FFFFFF](<images/454 - Color Contrast Checker - Coolors.png>)
+- [Color Contrast Checker - Coolors](https://coolors.co/contrast-checker/767676-ffffff)
 
 このときのコントラスト比が **4.5:1** です。  
 つまり、白背景にやや暗いグレー文字を置いたときの明暗差が「4.5倍」という意味になります。
