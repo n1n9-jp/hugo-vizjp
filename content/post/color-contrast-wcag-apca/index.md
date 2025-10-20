@@ -18,12 +18,20 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
+## WCAG 2.x とは何か
+
+**WCAG（Web Content Accessibility Guidelines）** とは、ウェブ上のコンテンツをすべての人が利用しやすくするための国際的なガイドラインです。
+
+W3C（World Wide Web Consortium）の WAI (Web Accessibility Initiative) が策定し、現在主流となっている 2.x シリーズ（2.0／2.1／2.2）では、視覚・聴覚・運動・認知などさまざまな障害のある人にも配慮した設計基準を示しています。
+
+その中でも「**1.4.3 Contrast (Minimum)**」は、文字と背景の明るさの差を数値で評価することで可読性を確保するための指針です。
+
 ## WCAG 2.x のコントラスト定義
 
 WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。
 
 ```
-(L1 + 0.05) / (L2 + 0.05)
+(L₁ + 0.05) / (L₂ + 0.05)
 ```
 
 ここで、  
