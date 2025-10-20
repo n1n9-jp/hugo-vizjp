@@ -21,15 +21,9 @@
 &lt;p&gt;その中でも「&lt;strong&gt;1.4.3 Contrast (Minimum)&lt;/strong&gt;」は、文字と背景の明るさの差を数値で評価することで可読性を確保するための指針です。&lt;/p&gt;
 &lt;h2 id=&#34;wcag-2x-のコントラスト定義&#34;&gt;WCAG 2.x のコントラスト定義
 &lt;/h2&gt;&lt;p&gt;WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(L₁ + 0.05) / (L₂ + 0.05)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;ここで、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;(L₁ + 0.05) / (L₂ + 0.05)&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;ここで、&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;L₁：明るい方の輝度（0〜1）&lt;/li&gt;
 &lt;li&gt;L₂：暗い方の輝度（0〜1）&lt;/li&gt;
@@ -43,15 +37,9 @@
 &lt;li&gt;白（#FFFFFF）：L₁ = 1.0&lt;/li&gt;
 &lt;li&gt;黒（#000000）：L₂ = 0.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(1.0 + 0.05) / (0.0 + 0.05) = 21
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors.png&#34;
+&lt;blockquote&gt;
+&lt;p&gt;(1.0 + 0.05) / (0.0 + 0.05) = 21&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors.png&#34;
 	width=&#34;3320&#34;
 	height=&#34;1894&#34;
 	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_fe721d343b9050e8.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_cf396f24105b7968.png 1024w&#34;
@@ -72,15 +60,9 @@
 &lt;p&gt;よって、白と黒のコントラスト比は &lt;strong&gt;21:1&lt;/strong&gt;。これが理論上の最大値です。&lt;/p&gt;
 &lt;h3 id=&#34;グレーの場合&#34;&gt;グレーの場合
 &lt;/h3&gt;&lt;p&gt;背景が白（L₁ = 1.0）、文字が中間グレー（L₂ = 0.183）のとき：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(1.0 + 0.05) / (0.183 + 0.05) = 4.5
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors.png&#34;
+&lt;blockquote&gt;
+&lt;p&gt;(1.0 + 0.05) / (0.183 + 0.05) = 4.5&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors.png&#34;
 	width=&#34;3320&#34;
 	height=&#34;1894&#34;
 	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_9cdbd7149fa39a24.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_3478953afa2945a1.png 1024w&#34;

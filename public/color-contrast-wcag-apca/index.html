@@ -502,15 +502,9 @@
 <p>その中でも「<strong>1.4.3 Contrast (Minimum)</strong>」は、文字と背景の明るさの差を数値で評価することで可読性を確保するための指針です。</p>
 <h2 id="wcag-2x-のコントラスト定義">WCAG 2.x のコントラスト定義
 </h2><p>WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(L₁ + 0.05) / (L₂ + 0.05)
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>ここで、</p>
+<blockquote>
+<p>(L₁ + 0.05) / (L₂ + 0.05)</p></blockquote>
+<p>ここで、</p>
 <ul>
 <li>L₁：明るい方の輝度（0〜1）</li>
 <li>L₂：暗い方の輝度（0〜1）</li>
@@ -524,15 +518,9 @@
 <li>白（#FFFFFF）：L₁ = 1.0</li>
 <li>黒（#000000）：L₂ = 0.0</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(1.0 + 0.05) / (0.0 + 0.05) = 21
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><img src="/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors.png"
+<blockquote>
+<p>(1.0 + 0.05) / (0.0 + 0.05) = 21</p></blockquote>
+<p><img src="/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors.png"
 	width="3320"
 	height="1894"
 	srcset="/color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_fe721d343b9050e8.png 480w, /color-contrast-wcag-apca/images/452%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_cf396f24105b7968.png 1024w"
@@ -553,15 +541,9 @@
 <p>よって、白と黒のコントラスト比は <strong>21:1</strong>。これが理論上の最大値です。</p>
 <h3 id="グレーの場合">グレーの場合
 </h3><p>背景が白（L₁ = 1.0）、文字が中間グレー（L₂ = 0.183）のとき：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(1.0 + 0.05) / (0.183 + 0.05) = 4.5
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><img src="/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors.png"
+<blockquote>
+<p>(1.0 + 0.05) / (0.183 + 0.05) = 4.5</p></blockquote>
+<p><img src="/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors.png"
 	width="3320"
 	height="1894"
 	srcset="/color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_9cdbd7149fa39a24.png 480w, /color-contrast-wcag-apca/images/454%20-%20Color%20Contrast%20Checker%20-%20Coolors_hu_3478953afa2945a1.png 1024w"
