@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。\nしかし、私たちが長年「正しい」と信じてきたコントラスト基準 - WCAG 2.x （Web Content Accessibility Guidelines） - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。\n">
+<title>色のコントラストを見直す：WCAG 2.x から APCA への流れ</title>
+
+<link rel='canonical' href='http://localhost:1313/color-contrast-wcag-apca/'>
+
+<link rel="stylesheet" href="/scss/style.min.5e02e8cf5da8ef7dbbb27c132c22b1b2a71939e7917524c0e011c301004bf9ff.css"><meta property='og:title' content="色のコントラストを見直す：WCAG 2.x から APCA への流れ">
+<meta property='og:description' content="データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。\nしかし、私たちが長年「正しい」と信じてきたコントラスト基準 - WCAG 2.x （Web Content Accessibility Guidelines） - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。\n">
+<meta property='og:url' content='http://localhost:1313/color-contrast-wcag-apca/'>
+<meta property='og:site_name' content='Visualizing.JP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='' /><meta property='article:published_time' content='2025-10-20T00:00:00&#43;09:00'/><meta property='article:modified_time' content='2025-10-20T00:00:00&#43;09:00'/><meta property='og:image' content='http://localhost:1313/color-contrast-wcag-apca/images/thumb_ph_vizjp.png' />
+<meta name="twitter:title" content="色のコントラストを見直す：WCAG 2.x から APCA への流れ">
+<meta name="twitter:description" content="データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。\nしかし、私たちが長年「正しい」と信じてきたコントラスト基準 - WCAG 2.x （Web Content Accessibility Guidelines） - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/color-contrast-wcag-apca/images/thumb_ph_vizjp.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_95dfd4982eb7db7d.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Visualizing.JP</a></h1>
+            <h2 class="site-description">データ可視化にまつわる実践的な手法や実例を紹介しています。</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/visualizing_jp'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>トップ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>検索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>記事一覧</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/chart/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>チャート・カタログ</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/consume/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>見るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/education/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>教えるための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/technology/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>作るための記事</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/principle/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ可視化の原理</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/data-journalism/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>データ・ジャーナリズム</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/event/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>イベント</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/link/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>リンク</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>このサイトについて</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span></span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title"></h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#wcag-2x-のコントラスト定義">WCAG 2.x のコントラスト定義</a></li>
+    <li><a href="#なぜ451になるのか">なぜ「4.5:1」になるのか？</a>
+      <ol>
+        <li><a href="#白と黒の場合">白と黒の場合</a></li>
+        <li><a href="#グレーの場合">グレーの場合</a></li>
+        <li><a href="#比率1の意味">比率「:1」の意味</a></li>
+        <li><a href="#なぜ基準が45か">なぜ基準が4.5か？</a></li>
+      </ol>
+    </li>
+    <li><a href="#輝度と明度は違う">「輝度」と「明度」は違う</a></li>
+    <li><a href="#知覚とのズレが生む問題">知覚とのズレが生む問題</a></li>
+    <li><a href="#apca知覚に基づく新しいコントラストモデル">APCA：知覚に基づく新しいコントラストモデル</a></li>
+    <li><a href="#wcag-30-へ知覚的尺度への移行">WCAG 3.0 へ：知覚的尺度への移行</a></li>
+    <li><a href="#データ可視化への示唆">データ可視化への示唆</a></li>
+    <li><a href="#まとめ">まとめ</a></li>
+    <li><a href="#参考出典">参考・出典</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/color-contrast-wcag-apca/">
+                <img src="/color-contrast-wcag-apca/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png"
+                        srcset="/color-contrast-wcag-apca/images/thumb_ph_vizjp_hu_da9fb6880314ba00.png 800w, /color-contrast-wcag-apca/images/thumb_ph_vizjp_hu_982f6515b909acd4.png 1600w"
+                        width="800" 
+                        height="400" 
+                        loading="lazy"
+                        alt="Featured image of post 色のコントラストを見直す：WCAG 2.x から APCA への流れ" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/technology/" >
+                作るための記事
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/color-contrast-wcag-apca/">色のコントラストを見直す：WCAG 2.x から APCA への流れ</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 20, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。</p>
+<p>しかし、私たちが長年「正しい」と信じてきたコントラスト基準 - <strong>WCAG 2.x （Web Content Accessibility Guidelines）</strong> - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。</p>
+<h2 id="wcag-2x-のコントラスト定義">WCAG 2.x のコントラスト定義
+</h2><p>WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(L1 + 0.05) / (L2 + 0.05)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>ここで、</p>
+<ul>
+<li>L1：明るい方の輝度（0〜1）</li>
+<li>L2：暗い方の輝度（0〜1）</li>
+</ul>
+<p>結果として得られる比率（例：4.5:1 や 7:1）を基準に「読める／読めない」を判定します。<br>
+この考え方は <strong>物理的な光の強さ（luminance）</strong> に基づくもので、人間が感じる <strong>「明るさ（lightness）」</strong> や <strong>「読みやすさ」</strong> とは異なります。</p>
+<h2 id="なぜ451になるのか">なぜ「4.5:1」になるのか？
+</h2><p>この式は、明るい色と暗い色の <strong>相対的な明るさの比</strong> を表します。結果は「暗い方を1としたとき、明るい方が何倍明るいか」を示す比率になります。</p>
+<h3 id="白と黒の場合">白と黒の場合
+</h3><ul>
+<li>白（#FFFFFF）：L₁ = 1.0</li>
+<li>黒（#000000）：L₂ = 0.0</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(1.0 + 0.05) / (0.0 + 0.05) = 21
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>よって、白と黒のコントラスト比は <strong>21:1</strong>。これが理論上の最大値です。</p>
+<h3 id="グレーの場合">グレーの場合
+</h3><p>背景が白（L₁ = 1.0）、文字が中間グレー（L₂ = 0.183）のとき：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">(1.0 + 0.05) / (0.183 + 0.05) = 4.5
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>このときのコントラスト比が <strong>4.5:1</strong> です。<br>
+つまり、白背景にやや暗いグレー文字を置いたときの明暗差が「4.5倍」という意味になります。</p>
+<h3 id="比率1の意味">比率「:1」の意味
+</h3><p>この「:1」は単位ではなく比率表現であり、暗い方を1とした相対比です。「4.5:1」なら「明るい方が暗い方の4.5倍明るい」という意味です。</p>
+<h3 id="なぜ基準が45か">なぜ基準が4.5か？
+</h3><p>WCAGでは以下のように定められています：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>対象</th>
+          <th>最低コントラスト比</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>通常の本文テキスト</td>
+          <td><strong>4.5:1</strong></td>
+      </tr>
+      <tr>
+          <td>大きな文字（18pt以上 or 太字14pt以上）</td>
+          <td><strong>3:1</strong></td>
+      </tr>
+      <tr>
+          <td>装飾的テキスト・ロゴなど</td>
+          <td>規定なし</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>この「4.5:1」は、視力が低下した利用者でもおおむね読めるとされる実験データに基づいています。
+ただし、人間の視覚は非線形で、明背景と暗背景では“読みやすさ”が同じ比率でも異なります。</p>
+<p><img src="/color-contrast-wcag-apca/images/Artboard-448-copy-3.png"
+	width="1920"
+	height="1779"
+	srcset="/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_32794a2e61dd0d31.png 480w, /color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_b831078181a73b40.png 1024w"
+	loading="lazy"
+	
+		alt="https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="107"
+		data-flex-basis="259px"
+	
+></p>
+<h2 id="輝度と明度は違う">「輝度」と「明度」は違う
+</h2><p>混同されやすい用語ですが <strong>輝度（luminance）</strong> は物理量、 <strong>明度（value/lightness）</strong> は知覚量です。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>概念</th>
+          <th>種類</th>
+          <th>定義</th>
+          <th>備考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>輝度 (luminance)</td>
+          <td>物理的尺度</td>
+          <td>光の強さ（cd/m² など）</td>
+          <td>WCAG 2.x が採用</td>
+      </tr>
+      <tr>
+          <td>明度 (value/lightness)</td>
+          <td>知覚的尺度</td>
+          <td>人が感じる明るさ</td>
+          <td>マンセル表色系や CIELAB の L* が対応</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>つまり、WCAG 2.x が扱う「輝度比」は <strong>物理的な光量の差</strong> であり <strong>知覚的な明るさの差</strong> ではありません。<br>
+そのため、人間の視覚が非線形であることや、暗背景／明背景での見え方の違いを反映できないという欠点があります。</p>
+<h2 id="知覚とのズレが生む問題">知覚とのズレが生む問題
+</h2><ul>
+<li><strong>暗背景＋淡色文字</strong>：数値上は合格でも、実際には読みにくい。</li>
+<li><strong>明背景＋中間グレー文字</strong>：数値上は不合格でも、実際には十分読みやすい。</li>
+<li><strong>文字の太さやサイズ</strong>：WCAG 2.x では一切考慮されていない。</li>
+</ul>
+<p>このように、物理量ベースの単純なコントラスト比では、<strong>「見える／読める」実感と数値評価が一致しません</strong>。<br>
+特にチャートやインフォグラフィックスでは、軸ラベルや注釈など「小さくて薄い文字」が多く、現行基準では適切な評価が難しいのです。</p>
+<h2 id="apca知覚に基づく新しいコントラストモデル">APCA：知覚に基づく新しいコントラストモデル
+</h2><p>こうした限界を克服しようと開発されたのが、<strong>APCA (Advanced Perceptual Contrast Algorithm)</strong> です。</p>
+<p><img src="/color-contrast-wcag-apca/images/APCAContrastCalculator.png"
+	width="2211"
+	height="1480"
+	srcset="/color-contrast-wcag-apca/images/APCAContrastCalculator_hu_3d86bc4b4f1e5061.png 480w, /color-contrast-wcag-apca/images/APCAContrastCalculator_hu_3f03735b006dcf1a.png 1024w"
+	loading="lazy"
+	
+		alt="APCA Contrast Calculator"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="149"
+		data-flex-basis="358px"
+	
+></p>
+<ul>
+<li><a class="link" href="https://apcacontrast.com/"  target="_blank" rel="noopener"
+    >APCA Contrast Calculator</a></li>
+</ul>
+<p>APCA は次の要素を考慮し、人間の視覚により近いコントラスト評価を行います。</p>
+<ul>
+<li>背景の明暗（明るさの非対称性）</li>
+<li>文字のサイズや太さ（ウェイト）</li>
+<li>色相や彩度の影響</li>
+<li>人間の視覚感度の非線形性</li>
+</ul>
+<p>APCA では、同じ色の組み合わせでも背景が白か黒かによって評価が変わります。たとえば、暗背景に置いたグレー文字は、従来の WCAG 2.x よりも<strong>高コントラストが必要</strong>とされます。</p>
+<h2 id="wcag-30-へ知覚的尺度への移行">WCAG 3.0 へ：知覚的尺度への移行
+</h2><p>現在策定中の <strong>WCAG 3.0 （W3C Accessibility Guidelines）</strong> では、APCA のような知覚的モデルを正式に取り入れる方向で検討が進められています。<br>
+まだ Working Draft （草案）段階ですが、次のような特徴が示されています。</p>
+<ul>
+<li>WCAG 2.x の「A／AA／AAA」基準から、柔軟な評価モデル（Bronze／Silver／Gold など）へ移行</li>
+<li>成果（outcomes）と方法（methods）を明確化し、実際の利用者体験に即した評価へ</li>
+<li>Web ページだけでなく、アプリケーション・出版物・XR なども対象範囲に拡大</li>
+</ul>
+<p>現時点では WCAG 2.x と 3.0 が併存する期間が続く見込みですが、将来的には<strong>知覚ベースのコントラスト評価</strong>が標準となるでしょう。</p>
+<h2 id="データ可視化への示唆">データ可視化への示唆
+</h2><p>データ可視化では、次のような意識が求められます。</p>
+<ul>
+<li><strong>「薄い文字」や「背景色に溶ける色」を意図的に使う場合でも、知覚的な読みやすさを検証する。</strong></li>
+<li><strong>暗背景（ダークモード）のチャートでは、従来以上にコントラストを確保する。</strong></li>
+<li><strong>APCA 対応ツール</strong>を使って、単なる比率ではなく「読める／読めない」を実感に即して評価する。</li>
+</ul>
+<h2 id="まとめ">まとめ
+</h2><ul>
+<li>WCAG 2.x のコントラスト比は <strong>相対輝度という物理的尺度</strong> に基づくため <strong>人間の知覚と一致しない</strong>。</li>
+<li>その限界を克服するために <strong>知覚モデル（APCA）</strong> が開発され <strong>WCAG 3.0</strong> で導入が検討されている。</li>
+<li>デザインの目的は「基準に合格すること」ではなく、「誰にでも読みやすく見えること」。そのために <strong>知覚的コントラスト評価</strong> への理解と応用がこれからのデータ可視化に求められているといえます。</li>
+</ul>
+<h2 id="参考出典">参考・出典
+</h2><ul>
+<li><a class="link" href="https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca"  target="_blank" rel="noopener"
+    >“It’s time for a more sophisticated color contrast check for data visualizations.” <em>Datawrapper Blog</em>, 12 Jan 2022.</a></li>
+<li><a class="link" href="https://apcaw3.myndex.com/"  target="_blank" rel="noopener"
+    >“APCA™ for W3C &amp; WCAG3.” Myndex.</a></li>
+<li><a class="link" href="https://git.myndex.com/"  target="_blank" rel="noopener"
+    >Accurate ContrastUsing the APCA | Myndex</a></li>
+<li><a class="link" href="https://git.apcacontrast.com/documentation/APCAeasyIntro.html"  target="_blank" rel="noopener"
+    >“The Easy Intro to the APCA Contrast Method.” Myndex/S-Luv.</a></li>
+<li><a class="link" href="https://www.w3.org/WAI/GL/task-forces/silver/wiki/Visual_Contrast_of_Text_Subgroup"  target="_blank" rel="noopener"
+    >“Visual Contrast of Text Subgroup.” W3C Silver Task Force</a></li>
+<li><a class="link" href="https://data.europa.eu/apps/data-visualisation-guide/colour-contrast"  target="_blank" rel="noopener"
+    >“Colour contrast — data.europa.eu.” European Union.</a></li>
+<li><a class="link" href="https://designsystemet.no/en/best-practices/accessibility/contrast/"  target="_blank" rel="noopener"
+    >“WCAG 3.0 introduces a new contrast method.” DesignSystemet.no. 10 Apr 2023.</a></li>
+</ul>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/vector-tile-style-specification/">
+        
+        
+            <div class="article-image">
+                <img src="/vector-tile-style-specification/images/thumb_ph_vizjp.42a76cc0eac6d839323c8e711dbbe64a_hu_4b1e3e5a170e7eea.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較"
+                        data-key="vector-tile-style-specification" 
+                        data-hash="md5-QqdswOrG2DkyPI5xHbvmSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/normalize-standarize/">
+        
+        
+            <div class="article-image">
+                <img src="/normalize-standarize/images/yogurt.40cf1b81004e0625a70f12a45d36eccc_hu_302aed81d2a88271.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Googleスプレッドシートで学ぶ「正規化・標準化」の考え方"
+                        data-key="normalize-standarize" 
+                        data-hash="md5-QM8bgQBOBiWnDxKkXTbszA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Googleスプレッドシートで学ぶ「正規化・標準化」の考え方</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/mapbox-studio-issue/">
+        
+        
+            <div class="article-image">
+                <img src="/mapbox-studio-issue/images/cover.902342201bcfe88bcd22d365846dd55e_hu_eb9e0833f0f1614f.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる"
+                        data-key="mapbox-studio-issue" 
+                        data-hash="md5-kCNCIBvP6IvNItNlhG3VXg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/chernoff-face-implementation/">
+        
+        
+            <div class="article-image">
+                <img src="/chernoff-face-implementation/images/P_Matplotlib/aflaxman.0d8564e2fb8e79b750e8726db9aa62c7_hu_59b0b3698fc29f87.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post データ分析言語によるチャーノフの顔の実装"
+                        data-key="chernoff-face-implementation" 
+                        data-hash="md5-DYVk4vuOebdQ6HJtuapixw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">データ分析言語によるチャーノフの顔の実装</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/cognitive-biases-blog/">
+        
+        
+            <div class="article-image">
+                <img src="/cognitive-biases-blog/images/bias-blog.e6fc52a590342d2140fa7c880c67a996_hu_de1d4adad295298c.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 「Cognitive Bias Codex」で眺める人間の思考のクセ"
+                        data-key="cognitive-biases-blog" 
+                        data-hash="md5-5vxSpZA0LSFA&#43;nyIDGeplg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">「Cognitive Bias Codex」で眺める人間の思考のクセ</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2013 - 
+        
+        2025 Yuichi Yazaki
+    </section>
+    
+    <section class="powerby">
+         <br />
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

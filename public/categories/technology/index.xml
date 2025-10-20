@@ -7,7 +7,206 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>色のコントラストを見直す：WCAG 2.x から APCA への流れ</title>
+        <link>http://localhost:1313/color-contrast-wcag-apca/</link>
+        <pubDate>Mon, 20 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/color-contrast-wcag-apca/</guid>
+        <description>&lt;img src="http://localhost:1313/color-contrast-wcag-apca/images/thumb_ph_vizjp.png" alt="Featured image of post 色のコントラストを見直す：WCAG 2.x から APCA への流れ" /&gt;&lt;p&gt;データビジュアライゼーションやウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。&lt;/p&gt;
+&lt;p&gt;しかし、私たちが長年「正しい」と信じてきたコントラスト基準 - &lt;strong&gt;WCAG 2.x （Web Content Accessibility Guidelines）&lt;/strong&gt; - は、実は人間の知覚に完全には一致していないことが近年明らかになっています。この記事では、その背景と改善の方向性について解説します。&lt;/p&gt;
+&lt;h2 id=&#34;wcag-2x-のコントラスト定義&#34;&gt;WCAG 2.x のコントラスト定義
+&lt;/h2&gt;&lt;p&gt;WCAG 2.x では、文字色と背景色の「相対輝度（relative luminance）」をもとに、次の式でコントラスト比を定義しています。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(L1 + 0.05) / (L2 + 0.05)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;ここで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;L1：明るい方の輝度（0〜1）&lt;/li&gt;
+&lt;li&gt;L2：暗い方の輝度（0〜1）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結果として得られる比率（例：4.5:1 や 7:1）を基準に「読める／読めない」を判定します。&lt;br&gt;
+この考え方は &lt;strong&gt;物理的な光の強さ（luminance）&lt;/strong&gt; に基づくもので、人間が感じる &lt;strong&gt;「明るさ（lightness）」&lt;/strong&gt; や &lt;strong&gt;「読みやすさ」&lt;/strong&gt; とは異なります。&lt;/p&gt;
+&lt;h2 id=&#34;なぜ451になるのか&#34;&gt;なぜ「4.5:1」になるのか？
+&lt;/h2&gt;&lt;p&gt;この式は、明るい色と暗い色の &lt;strong&gt;相対的な明るさの比&lt;/strong&gt; を表します。結果は「暗い方を1としたとき、明るい方が何倍明るいか」を示す比率になります。&lt;/p&gt;
+&lt;h3 id=&#34;白と黒の場合&#34;&gt;白と黒の場合
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;白（#FFFFFF）：L₁ = 1.0&lt;/li&gt;
+&lt;li&gt;黒（#000000）：L₂ = 0.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(1.0 + 0.05) / (0.0 + 0.05) = 21
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;よって、白と黒のコントラスト比は &lt;strong&gt;21:1&lt;/strong&gt;。これが理論上の最大値です。&lt;/p&gt;
+&lt;h3 id=&#34;グレーの場合&#34;&gt;グレーの場合
+&lt;/h3&gt;&lt;p&gt;背景が白（L₁ = 1.0）、文字が中間グレー（L₂ = 0.183）のとき：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;(1.0 + 0.05) / (0.183 + 0.05) = 4.5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;このときのコントラスト比が &lt;strong&gt;4.5:1&lt;/strong&gt; です。&lt;br&gt;
+つまり、白背景にやや暗いグレー文字を置いたときの明暗差が「4.5倍」という意味になります。&lt;/p&gt;
+&lt;h3 id=&#34;比率1の意味&#34;&gt;比率「:1」の意味
+&lt;/h3&gt;&lt;p&gt;この「:1」は単位ではなく比率表現であり、暗い方を1とした相対比です。「4.5:1」なら「明るい方が暗い方の4.5倍明るい」という意味です。&lt;/p&gt;
+&lt;h3 id=&#34;なぜ基準が45か&#34;&gt;なぜ基準が4.5か？
+&lt;/h3&gt;&lt;p&gt;WCAGでは以下のように定められています：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;対象&lt;/th&gt;
+          &lt;th&gt;最低コントラスト比&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;通常の本文テキスト&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;4.5:1&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;大きな文字（18pt以上 or 太字14pt以上）&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;3:1&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;装飾的テキスト・ロゴなど&lt;/td&gt;
+          &lt;td&gt;規定なし&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;この「4.5:1」は、視力が低下した利用者でもおおむね読めるとされる実験データに基づいています。
+ただし、人間の視覚は非線形で、明背景と暗背景では“読みやすさ”が同じ比率でも異なります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1779&#34;
+	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_32794a2e61dd0d31.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_b831078181a73b40.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;輝度と明度は違う&#34;&gt;「輝度」と「明度」は違う
+&lt;/h2&gt;&lt;p&gt;混同されやすい用語ですが &lt;strong&gt;輝度（luminance）&lt;/strong&gt; は物理量、 &lt;strong&gt;明度（value/lightness）&lt;/strong&gt; は知覚量です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;概念&lt;/th&gt;
+          &lt;th&gt;種類&lt;/th&gt;
+          &lt;th&gt;定義&lt;/th&gt;
+          &lt;th&gt;備考&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;輝度 (luminance)&lt;/td&gt;
+          &lt;td&gt;物理的尺度&lt;/td&gt;
+          &lt;td&gt;光の強さ（cd/m² など）&lt;/td&gt;
+          &lt;td&gt;WCAG 2.x が採用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;明度 (value/lightness)&lt;/td&gt;
+          &lt;td&gt;知覚的尺度&lt;/td&gt;
+          &lt;td&gt;人が感じる明るさ&lt;/td&gt;
+          &lt;td&gt;マンセル表色系や CIELAB の L* が対応&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;つまり、WCAG 2.x が扱う「輝度比」は &lt;strong&gt;物理的な光量の差&lt;/strong&gt; であり &lt;strong&gt;知覚的な明るさの差&lt;/strong&gt; ではありません。&lt;br&gt;
+そのため、人間の視覚が非線形であることや、暗背景／明背景での見え方の違いを反映できないという欠点があります。&lt;/p&gt;
+&lt;h2 id=&#34;知覚とのズレが生む問題&#34;&gt;知覚とのズレが生む問題
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;暗背景＋淡色文字&lt;/strong&gt;：数値上は合格でも、実際には読みにくい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;明背景＋中間グレー文字&lt;/strong&gt;：数値上は不合格でも、実際には十分読みやすい。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文字の太さやサイズ&lt;/strong&gt;：WCAG 2.x では一切考慮されていない。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このように、物理量ベースの単純なコントラスト比では、&lt;strong&gt;「見える／読める」実感と数値評価が一致しません&lt;/strong&gt;。&lt;br&gt;
+特にチャートやインフォグラフィックスでは、軸ラベルや注釈など「小さくて薄い文字」が多く、現行基準では適切な評価が難しいのです。&lt;/p&gt;
+&lt;h2 id=&#34;apca知覚に基づく新しいコントラストモデル&#34;&gt;APCA：知覚に基づく新しいコントラストモデル
+&lt;/h2&gt;&lt;p&gt;こうした限界を克服しようと開発されたのが、&lt;strong&gt;APCA (Advanced Perceptual Contrast Algorithm)&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/APCAContrastCalculator.png&#34;
+	width=&#34;2211&#34;
+	height=&#34;1480&#34;
+	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/APCAContrastCalculator_hu_3d86bc4b4f1e5061.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/APCAContrastCalculator_hu_3f03735b006dcf1a.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;APCA Contrast Calculator&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apcacontrast.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APCA Contrast Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;APCA は次の要素を考慮し、人間の視覚により近いコントラスト評価を行います。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;背景の明暗（明るさの非対称性）&lt;/li&gt;
+&lt;li&gt;文字のサイズや太さ（ウェイト）&lt;/li&gt;
+&lt;li&gt;色相や彩度の影響&lt;/li&gt;
+&lt;li&gt;人間の視覚感度の非線形性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;APCA では、同じ色の組み合わせでも背景が白か黒かによって評価が変わります。たとえば、暗背景に置いたグレー文字は、従来の WCAG 2.x よりも&lt;strong&gt;高コントラストが必要&lt;/strong&gt;とされます。&lt;/p&gt;
+&lt;h2 id=&#34;wcag-30-へ知覚的尺度への移行&#34;&gt;WCAG 3.0 へ：知覚的尺度への移行
+&lt;/h2&gt;&lt;p&gt;現在策定中の &lt;strong&gt;WCAG 3.0 （W3C Accessibility Guidelines）&lt;/strong&gt; では、APCA のような知覚的モデルを正式に取り入れる方向で検討が進められています。&lt;br&gt;
+まだ Working Draft （草案）段階ですが、次のような特徴が示されています。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;WCAG 2.x の「A／AA／AAA」基準から、柔軟な評価モデル（Bronze／Silver／Gold など）へ移行&lt;/li&gt;
+&lt;li&gt;成果（outcomes）と方法（methods）を明確化し、実際の利用者体験に即した評価へ&lt;/li&gt;
+&lt;li&gt;Web ページだけでなく、アプリケーション・出版物・XR なども対象範囲に拡大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現時点では WCAG 2.x と 3.0 が併存する期間が続く見込みですが、将来的には&lt;strong&gt;知覚ベースのコントラスト評価&lt;/strong&gt;が標準となるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;データ可視化への示唆&#34;&gt;データ可視化への示唆
+&lt;/h2&gt;&lt;p&gt;データ可視化では、次のような意識が求められます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;「薄い文字」や「背景色に溶ける色」を意図的に使う場合でも、知覚的な読みやすさを検証する。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;暗背景（ダークモード）のチャートでは、従来以上にコントラストを確保する。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;APCA 対応ツール&lt;/strong&gt;を使って、単なる比率ではなく「読める／読めない」を実感に即して評価する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;WCAG 2.x のコントラスト比は &lt;strong&gt;相対輝度という物理的尺度&lt;/strong&gt; に基づくため &lt;strong&gt;人間の知覚と一致しない&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;その限界を克服するために &lt;strong&gt;知覚モデル（APCA）&lt;/strong&gt; が開発され &lt;strong&gt;WCAG 3.0&lt;/strong&gt; で導入が検討されている。&lt;/li&gt;
+&lt;li&gt;デザインの目的は「基準に合格すること」ではなく、「誰にでも読みやすく見えること」。そのために &lt;strong&gt;知覚的コントラスト評価&lt;/strong&gt; への理解と応用がこれからのデータ可視化に求められているといえます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“It’s time for a more sophisticated color contrast check for data visualizations.” &lt;em&gt;Datawrapper Blog&lt;/em&gt;, 12 Jan 2022.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://apcaw3.myndex.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“APCA™ for W3C &amp;amp; WCAG3.” Myndex.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://git.myndex.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Accurate ContrastUsing the APCA | Myndex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://git.apcacontrast.com/documentation/APCAeasyIntro.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“The Easy Intro to the APCA Contrast Method.” Myndex/S-Luv.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.w3.org/WAI/GL/task-forces/silver/wiki/Visual_Contrast_of_Text_Subgroup&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Visual Contrast of Text Subgroup.” W3C Silver Task Force&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://data.europa.eu/apps/data-visualisation-guide/colour-contrast&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“Colour contrast — data.europa.eu.” European Union.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://designsystemet.no/en/best-practices/accessibility/contrast/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;“WCAG 3.0 introduces a new contrast method.” DesignSystemet.no. 10 Apr 2023.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較</title>
         <link>http://localhost:1313/vector-tile-style-specification/</link>
         <pubDate>Fri, 17 Oct 2025 00:00:00 +0900</pubDate>
