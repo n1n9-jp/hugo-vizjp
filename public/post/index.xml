@@ -27,8 +27,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;ここで、&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;L1：明るい方の輝度（0〜1）&lt;/li&gt;
-&lt;li&gt;L2：暗い方の輝度（0〜1）&lt;/li&gt;
+&lt;li&gt;L₁：明るい方の輝度（0〜1）&lt;/li&gt;
+&lt;li&gt;L₂：暗い方の輝度（0〜1）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;結果として得られる比率（例：4.5:1 や 7:1）を基準に「読める／読めない」を判定します。&lt;br&gt;
 この考え方は &lt;strong&gt;物理的な光の強さ（luminance）&lt;/strong&gt; に基づくもので、人間が感じる &lt;strong&gt;「明るさ（lightness）」&lt;/strong&gt; や &lt;strong&gt;「読みやすさ」&lt;/strong&gt; とは異なります。&lt;/p&gt;
