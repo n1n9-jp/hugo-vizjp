@@ -91,7 +91,6 @@ WCAGでは以下のように定められています：
 この「4.5:1」は、視力が低下した利用者でもおおむね読めるとされる実験データに基づいています。
 ただし、人間の視覚は非線形で、明背景と暗背景では“読みやすさ”が同じ比率でも異なります。
 
-![https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用](images/Artboard-448-copy-3.png)
 
 
 ## 「輝度」と「明度」は違う
@@ -107,7 +106,7 @@ WCAGでは以下のように定められています：
 
 そのため、人間の視覚が非線形であることや、暗背景／明背景での見え方の違いを反映できないという欠点があります。
 
-
+![https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用](images/Artboard-448-copy-3.png)
 
 ## 知覚とのズレが生む問題
 
