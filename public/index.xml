@@ -128,20 +128,6 @@
 &lt;/table&gt;
 &lt;p&gt;この「4.5:1」は、視力が低下した利用者でもおおむね読めるとされる実験データに基づいています。
 ただし、人間の視覚は非線形で、明背景と暗背景では“読みやすさ”が同じ比率でも異なります。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;1779&#34;
-	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_32794a2e61dd0d31.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_b831078181a73b40.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;107&#34;
-		data-flex-basis=&#34;259px&#34;
-	
-&gt;&lt;/p&gt;
 &lt;h2 id=&#34;輝度と明度は違う&#34;&gt;「輝度」と「明度」は違う
 &lt;/h2&gt;&lt;p&gt;混同されやすい用語ですが &lt;strong&gt;輝度（luminance）&lt;/strong&gt; は物理量、 &lt;strong&gt;明度（value/lightness）&lt;/strong&gt; は知覚量です。&lt;/p&gt;
 &lt;table&gt;
@@ -170,6 +156,20 @@
 &lt;/table&gt;
 &lt;p&gt;つまり、WCAG 2.x が扱う「輝度比」は &lt;strong&gt;物理的な光量の差&lt;/strong&gt; であり &lt;strong&gt;知覚的な明るさの差&lt;/strong&gt; ではありません。&lt;/p&gt;
 &lt;p&gt;そのため、人間の視覚が非線形であることや、暗背景／明背景での見え方の違いを反映できないという欠点があります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1779&#34;
+	srcset=&#34;http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_32794a2e61dd0d31.png 480w, http://localhost:1313/color-contrast-wcag-apca/images/Artboard-448-copy-3_hu_b831078181a73b40.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca からの引用&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;107&#34;
+		data-flex-basis=&#34;259px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;h2 id=&#34;知覚とのズレが生む問題&#34;&gt;知覚とのズレが生む問題
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;暗背景＋淡色文字&lt;/strong&gt;：数値上は合格でも、実際には読みにくい。&lt;/li&gt;
