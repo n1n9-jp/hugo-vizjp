@@ -36,7 +36,7 @@
 &lt;/ul&gt;
 &lt;p&gt;結果として得られる比率を基準に「読める／読めない」を判定します。&lt;br&gt;
 この考え方は &lt;strong&gt;物理的な光の強さ（luminance）&lt;/strong&gt; に基づくもので、人間が感じる &lt;strong&gt;「明るさ（lightness）」&lt;/strong&gt; や &lt;strong&gt;「読みやすさ」&lt;/strong&gt; とは異なります。&lt;/p&gt;
-&lt;h2 id=&#34;なぜ451になるのか&#34;&gt;なぜ「4.5:1」になるのか？
+&lt;h2 id=&#34;コントラスト比の例&#34;&gt;コントラスト比の例
 &lt;/h2&gt;&lt;p&gt;この式は、明るい色と暗い色の &lt;strong&gt;相対的な明るさの比&lt;/strong&gt; を表します。結果は「暗い方を1としたとき、明るい方が何倍明るいか」を示す比率になります。&lt;/p&gt;
 &lt;h3 id=&#34;白と黒の場合&#34;&gt;白と黒の場合
 &lt;/h3&gt;&lt;ul&gt;
