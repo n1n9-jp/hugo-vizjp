@@ -170,3 +170,5 @@ APCA では、同じ色の組み合わせでも背景が白か黒かによって
 - [“Visual Contrast of Text Subgroup.” W3C Silver Task Force](https://www.w3.org/WAI/GL/task-forces/silver/wiki/Visual_Contrast_of_Text_Subgroup)
 - [“Colour contrast — data.europa.eu.” European Union.](https://data.europa.eu/apps/data-visualisation-guide/colour-contrast)  
 - [“WCAG 3.0 introduces a new contrast method.” DesignSystemet.no. 10 Apr 2023.](https://designsystemet.no/en/best-practices/accessibility/contrast/)
+- [SAPC-APCA/documentation/WhyAPCA.md at master · Myndex/SAPC-APCA](https://github.com/Myndex/SAPC-APCA/blob/master/documentation/WhyAPCA.md)
+
