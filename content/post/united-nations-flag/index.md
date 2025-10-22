@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "国際連合旗（United Nations Flag）"
+title = "国際連合旗での地図投影法"
 slug = "united-nations-flag"
 date = "2025-10-22"
 categories = [
