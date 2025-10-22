@@ -57,7 +57,9 @@ image = "images/cover.png"
 
 ## 現代版「Projection Face」
 
-ボストン公共図書館附属の Norman B. Leventhal Map & Education Center が制作した「[Projection Face](https://www.leventhalmap.org/digital-exhibitions/bending-lines/interactives/projection-face/)」は、この1921年の図をもとにしたインタラクティブ作品です。投影法を選ぶと、顔がリアルタイムに変形し、各投影の特徴を視覚的に体験できます。
+ボストン公共図書館附属の Norman B. Leventhal Map & Education Center が制作した[Projection Face](https://www.leventhalmap.org/digital-exhibitions/bending-lines/interactives/projection-face/)は、この1921年の図をもとにしたインタラクティブ作品です。投影法を選ぶと、顔がリアルタイムに変形し、各投影の特徴を視覚的に体験できます。筆者が日本語化したものを以下に公開しています。
+
+- [顔でわかる地図投影](https://projection-face.dataviz.jp)
 
 上記の表で取り上げていた、Orthographic（正射図法）、Stereographic（ステレオ投影）、Mercator（メルカトル図法）はもちろん、それ以外の投影法についても人の横顔を用いて、その歪み方をわかりやすく把握することができます。どの投影も「どこを保ち、どこを犠牲にしているか」が視覚的に伝わる仕組みになっています。
 
