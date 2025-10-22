@@ -1,10 +1,6 @@
-
-themes/.DS_Store
-resources/_gen/
-resources/.DS_Store
-.DS_Store
-content/
+themes/
+public/
+resources/
+resources/
 widgets/q
-themes/hugo-theme-stack
-/themes
-/public
+.DS_Store
