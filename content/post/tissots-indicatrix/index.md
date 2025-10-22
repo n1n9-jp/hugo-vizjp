@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "教えるための記事",
 ]
 image = "images/Tissot_mercator.png"
 +++

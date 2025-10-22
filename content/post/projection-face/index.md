@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "教えるための記事",
 ]
 image = "images/cover.png"
 +++
