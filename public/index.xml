@@ -7,7 +7,140 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja-jp</language>
         <copyright>Yuichi Yazaki</copyright>
-        <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>顔で見る地図投影のゆがみ：Projection Face</title>
+        <link>http://localhost:1313/projection-face/</link>
+        <pubDate>Wed, 22 Oct 2025 00:00:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/projection-face/</guid>
+        <description>&lt;img src="http://localhost:1313/projection-face/images/cover.png" alt="Featured image of post 顔で見る地図投影のゆがみ：Projection Face" /&gt;&lt;p&gt;地図投影法（map projection）は、球体である地球(3D)を平面の地図(2D)に写すための方法です。しかし、どんな投影法を使っても「距離・面積・方角」をすべて正確に保つことはできません。&lt;/p&gt;
+&lt;p&gt;この避けられない「ゆがみ」を、直感的に理解できるようにしたのが、&lt;strong&gt;顔を使った投影比較&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;本記事では、1921年に出版された地図学の古典と、現代のインタラクティブ作品「Projection Face」を通して、投影の歪みを“顔の変形”として見ていきます。&lt;/p&gt;
+&lt;h2 id=&#34;地図投影とは何か3dから2dへの変換&#34;&gt;地図投影とは何か：3Dから2Dへの変換
+&lt;/h2&gt;&lt;p&gt;私たちが見ている地図は、地球という &lt;strong&gt;三次元の球体（3D）&lt;/strong&gt; を、紙や画面という &lt;strong&gt;二次元の平面（2D）&lt;/strong&gt; に置き換えたものです。&lt;/p&gt;
+&lt;p&gt;地球の表面は曲面であり、そのままでは平面上に正確に広げることができません。&lt;/p&gt;
+&lt;p&gt;オレンジの皮をむいて机に押し広げると破れたり重なったりするように、球面を平面に変換すると &lt;strong&gt;どこかで距離・面積・角度のいずれかがゆがむ&lt;/strong&gt; のです。&lt;/p&gt;
+&lt;p&gt;この「球面を平面にうつす数学的手法」が &lt;strong&gt;地図投影法（map projection）&lt;/strong&gt; です。&lt;/p&gt;
+&lt;p&gt;地図投影法には、目的に応じてさまざまな種類があります。&lt;/p&gt;
+&lt;p&gt;たとえば、航海では角度を正しく保つメルカトル図法が、人口密度や面積比較では面積を正しく保つモルワイデ図法やアルバース図法が使われます。&lt;/p&gt;
+&lt;p&gt;地球を「どう見るか」を決めることは、地図を「どう歪むことを許容するか」を選ぶことでもあるのです。&lt;/p&gt;
+&lt;h2 id=&#34;1921年の原典illustrations-of-relative-distortions&#34;&gt;1921年の原典：「Illustrations of Relative Distortions」
+&lt;/h2&gt;&lt;p&gt;アメリカ沿岸測地局が1921年に刊行した『Elements of Map Projection with Applications to Map and Chart Construction』には、「Illustrations of Relative Distortions（相対的な歪みの図示）」というページがあります。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/projection-face/images/Illustrations%20Of%20Relative%20Distortions.png&#34;
+	width=&#34;1060&#34;
+	height=&#34;1475&#34;
+	srcset=&#34;http://localhost:1313/projection-face/images/Illustrations%20Of%20Relative%20Distortions_hu_c7f08af42eb611e9.png 480w, http://localhost:1313/projection-face/images/Illustrations%20Of%20Relative%20Distortions_hu_c635f1f0de7a5817.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;相対的な歪みの図示&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;71&#34;
+		data-flex-basis=&#34;172px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;そこでは、人の顔を緯度・経度の格子上に配置し、異なる投影法で描いたときの変形を比較しています。以下の4図が代表例です。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;図番号&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;投影法&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;特徴&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;歪みの見え方&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fig. 43&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Globular（球面図法）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;曲面を自然に表現。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;最も自然な顔。比較の基準。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fig. 44&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Orthographic（正射図法）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;遠方から見た投影。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;頭部が押しつぶされる。距離が誇張。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fig. 45&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Stereographic（ステレオ投影）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;角度を保つ。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;鼻が伸び、外縁が広がる。面積が歪む。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Fig. 46&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Mercator（メルカトル図法）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;航海用・角度保持。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;額が伸び、上部が巨大化。高緯度の誇張。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;顔という「よく知った形」を使うことで、どの部分が伸び、どの部分が縮むのかが一目でわかります。数式で説明される「角度保持」「面積保持」の違いを、視覚的に理解できる優れた教材といえるでしょう。&lt;/p&gt;
+&lt;h2 id=&#34;現代版projection-face&#34;&gt;現代版「Projection Face」
+&lt;/h2&gt;&lt;p&gt;ボストン公共図書館附属の Norman B. Leventhal Map &amp;amp; Education Center が制作した「&lt;a class=&#34;link&#34; href=&#34;https://www.leventhalmap.org/digital-exhibitions/bending-lines/interactives/projection-face/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Projection Face&lt;/a&gt;」は、この1921年の図をもとにしたインタラクティブ作品です。投影法を選ぶと、顔がリアルタイムに変形し、各投影の特徴を視覚的に体験できます。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/projection-face/images/PROJECTION%20FACE.png&#34;
+	width=&#34;2031&#34;
+	height=&#34;1190&#34;
+	srcset=&#34;http://localhost:1313/projection-face/images/PROJECTION%20FACE_hu_5555dc01bc9dcaf7.png 480w, http://localhost:1313/projection-face/images/PROJECTION%20FACE_hu_94e4408172207484.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Projection Face&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;409px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;このツールでは、Aitoff、Albers equal-area conic、Mercator など、複数の投影法を比較できます。メルカトルを選ぶと頭頂部が大きく伸び、アジアが拡大して見える地図の特徴と重なります。一方、正距方位図法では中央（鼻付近）が自然に見える代わりに、耳の位置が内側へ寄ります。どの投影も「どこを保ち、どこを犠牲にしているか」が視覚的に伝わる仕組みになっています 。&lt;/p&gt;
+&lt;h2 id=&#34;歪みの種類と顔の変形&#34;&gt;歪みの種類と顔の変形
+&lt;/h2&gt;&lt;p&gt;顔の歪みを通して、地図投影の歪みのタイプを直感的に推察することができます。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;歪みの種類&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;顔での見え方&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;主な原因&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;距離の歪み&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;目と耳の間が引き伸ばされる&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;高緯度方向に距離が拡大（メルカトルなど）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;面積の歪み&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;鼻や額が巨大化&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;角度を保つ正角図法の影響&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;方位（角度）の歪み&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;顔の輪郭がねじれる&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;等距離・等面積を優先する投影法&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;総合的な歪み&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;顔全体が引き延ばされる&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;曲率の異なる空間間での写像&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;方向こそ逆（地図は3D→2D、顔は2D→3D→2D）ですが &lt;strong&gt;曲率の不一致による変形&lt;/strong&gt; という点では共通しています。つまり、地図も顔も「異なる空間に写し取ると必ずゆがむ」という幾何学的真理を共有しているのです。&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ
+&lt;/h2&gt;&lt;p&gt;地図の歪みは、地球という球体を平面に表そうとする幾何学的制約から生じます。そして、1921年の顔の投影図や現代の Projection Face は、その歪みを「人間の顔の変形」として示すことで、抽象的な数理を感覚的に理解させる試みです。顔の中に見える歪みは、世界をどう切り取るかという地図設計の本質を映し出しています。&lt;/p&gt;
+&lt;h2 id=&#34;参考出典&#34;&gt;参考・出典
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://flowingdata.com/2014/01/13/map-projections-illustrated-with-a-face/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Map projections illustrated with a face.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.leventhalmap.org/digital-exhibitions/bending-lines/interactives/projection-face/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PROJECTION FACE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
         <title>色のコントラストを見直す：WCAG 2.x から APCA への流れ</title>
         <link>http://localhost:1313/color-contrast-wcag-apca/</link>
         <pubDate>Mon, 20 Oct 2025 00:00:00 +0900</pubDate>
