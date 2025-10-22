@@ -104,6 +104,7 @@ image = "images/Tissot_mercator.png"
 
 ## 参考・出典
 
+
 - [Tissot’s indicatrix — Wikipedia](https://en.wikipedia.org/wiki/Tissot%27s_indicatrix) 
 - [Tissot’s Indicatrix — Cartopy Gallery (SciTools)](https://scitools.org.uk/cartopy/docs/v0.16/gallery/tissot.html)
 - [Nicolas Auguste Tissot — Wikipedia](https://en.wikipedia.org/wiki/Nicolas_Auguste_Tissot)
