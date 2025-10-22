@@ -28,7 +28,7 @@ image = "images/craig-projection.png"
 
 このため、クレイグ図法はしばしば「**メッカ図法（Mecca projection）**」とも呼ばれます。宗教的な実用性から生まれた地図投影法であり、地理学と信仰の結びつきを象徴する図法といえます。
 
-
+![クレイグ図法](images/1280px_Craig_projection_SW.jpg)
 
 ## チャートの見方：どこから・どこへ
 
