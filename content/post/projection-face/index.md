@@ -48,7 +48,7 @@ image = "images/cover.png"
 | 図番号 | 投影法 | 特徴 | 歪みの見え方 |
 |:--|:--|:--|:--|
 | Fig. 43 | Globular（球面図法） | 曲面を自然に表現。 | 最も自然な顔。比較の基準。 |
-| Fig. 44 | Orthographic（正射図法） | 遠方から見た投影。 | 顔の奥行き方向が圧縮され、耳や後頭部が小さく見える。 |
+| Fig. 44 | Orthographic（正射図法） | 遠方から見た投影。 | 顔が球面に張りついたようにふくらみ、立体的に見える。 |
 | Fig. 45 | Stereographic（ステレオ投影） | 角度を保つ。 | 鼻が伸び、外縁が広がる。面積が歪む。 |
 | Fig. 46 | Mercator（メルカトル図法） | 航海用・角度保持。 | 額が伸び、上部が巨大化。高緯度の誇張。 |
 
@@ -59,9 +59,9 @@ image = "images/cover.png"
 
 ボストン公共図書館附属の Norman B. Leventhal Map & Education Center が制作した「[Projection Face](https://www.leventhalmap.org/digital-exhibitions/bending-lines/interactives/projection-face/)」は、この1921年の図をもとにしたインタラクティブ作品です。投影法を選ぶと、顔がリアルタイムに変形し、各投影の特徴を視覚的に体験できます。
 
-![Projection Face](<images/PROJECTION FACE.png>)
+上記の表で取り上げていた、Orthographic（正射図法）、Stereographic（ステレオ投影）、Mercator（メルカトル図法）はもちろん、それ以外の投影法についても人の横顔を用いて、その歪み方をわかりやすく把握することができます。どの投影も「どこを保ち、どこを犠牲にしているか」が視覚的に伝わる仕組みになっています。
 
-このツールでは、Aitoff、Albers equal-area conic、Mercator など、複数の投影法を比較できます。メルカトルを選ぶと頭頂部が大きく伸び、アジアが拡大して見える地図の特徴と重なります。一方、正距方位図法では中央（鼻付近）が自然に見える代わりに、耳の位置が内側へ寄ります。どの投影も「どこを保ち、どこを犠牲にしているか」が視覚的に伝わる仕組みになっています 。
+![Projection Face](<images/PROJECTION FACE.png>)
 
 
 
