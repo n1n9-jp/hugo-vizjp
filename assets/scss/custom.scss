@@ -4,3 +4,8 @@
     border-radius: 100%;
     box-shadow: none;
 }
+
+:root {
+    --ja-font-family: "Noto Sans JP", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    --base-font-family: "Noto Sans JP", var(--ja-font-family), var(--sys-font-family), var(--zh-font-family), sans-serif;
+}
