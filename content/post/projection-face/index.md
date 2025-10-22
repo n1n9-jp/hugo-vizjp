@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "顔で見る地図投影のゆがみ：Projection Face"
+title = "顔でわかる地図投影のゆがみ：Projection Face"
 slug = "projection-face"
 date = "2025-10-22"
 categories = [
