@@ -9,3 +9,58 @@
 
 [context.deploy-preview]
   command = "hugo --gc -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/asahi-journalism-2021-1"
+  to = "https://journalism.visualizing.jp/asahi-journalism-2021-1"
+  status = 301
+
+[[redirects]]
+  from = "/asahi-journalism-2021-2"
+  to = "https://journalism.visualizing.jp/asahi-journalism-2021-2"
+  status = 301
+
+[[redirects]]
+  from = "/buzzfeed-spyfly"
+  to = "https://journalism.visualizing.jp/buzzfeed-spyfly"
+  status = 301
+
+[[redirects]]
+  from = "/data-story-4-types"
+  to = "https://journalism.visualizing.jp/data-story-4-types"
+  status = 301
+
+[[redirects]]
+  from = "/datashare"
+  to = "https://journalism.visualizing.jp/datashare"
+  status = 301
+
+[[redirects]]
+  from = "/hurricane-maria"
+  to = "https://journalism.visualizing.jp/hurricane-maria"
+  status = 301
+
+[[redirects]]
+  from = "/nyt-corona-200320"
+  to = "https://journalism.visualizing.jp/nyt-corona-200320"
+  status = 301
+
+[[redirects]]
+  from = "/panama-papers-wrangling"
+  to = "https://journalism.visualizing.jp/panama-papers-wrangling"
+  status = 301
+
+[[redirects]]
+  from = "/sigma-awards-2021"
+  to = "https://journalism.visualizing.jp/sigma-awards-2021"
+  status = 301
+
+[[redirects]]
+  from = "/simon-rogers-workflow"
+  to = "https://journalism.visualizing.jp/simon-rogers-workflow"
+  status = 301
+
+[[redirects]]
+  from = "/wp-corona-simulation"
+  to = "https://journalism.visualizing.jp/wp-corona-simulation"
+  status = 301
