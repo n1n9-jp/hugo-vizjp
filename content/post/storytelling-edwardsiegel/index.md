@@ -4,7 +4,7 @@ title = "エドワルド・シーゲルさんの分類によるデータ・ス�
 slug = "storytelling-edwardsiegel"
 date = "2019-10-28"
 categories = [
-    "data-journalism","technology"
+    "technology"
 ]
 tags = [
     "",

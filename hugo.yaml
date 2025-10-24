@@ -210,12 +210,6 @@ menu:
           weight: 120
           params:
               icon: archives
-        - identifier: data-journalism
-          name: データ・ジャーナリズム
-          url: /categories/data-journalism/
-          weight: 210
-          params:
-              icon: archives
         - identifier: event
           name: イベント
           url: /categories/event/
