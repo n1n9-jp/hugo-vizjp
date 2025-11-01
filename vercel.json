@@ -1,0 +1,70 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "hugo",
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.152.0",
+      "HUGO_ENV": "production",
+      "HUGO_ENABLEGITINFO": "true"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/asahi-journalism-2021-1",
+      "destination": "https://journalism.visualizing.jp/asahi-journalism-2021-1",
+      "statusCode": 301
+    },
+    {
+      "source": "/asahi-journalism-2021-2",
+      "destination": "https://journalism.visualizing.jp/asahi-journalism-2021-2",
+      "statusCode": 301
+    },
+    {
+      "source": "/buzzfeed-spyfly",
+      "destination": "https://journalism.visualizing.jp/buzzfeed-spyfly",
+      "statusCode": 301
+    },
+    {
+      "source": "/data-story-4-types",
+      "destination": "https://journalism.visualizing.jp/data-story-4-types",
+      "statusCode": 301
+    },
+    {
+      "source": "/datashare",
+      "destination": "https://journalism.visualizing.jp/datashare",
+      "statusCode": 301
+    },
+    {
+      "source": "/hurricane-maria",
+      "destination": "https://journalism.visualizing.jp/hurricane-maria",
+      "statusCode": 301
+    },
+    {
+      "source": "/nyt-corona-200320",
+      "destination": "https://journalism.visualizing.jp/nyt-corona-200320",
+      "statusCode": 301
+    },
+    {
+      "source": "/panama-papers-wrangling",
+      "destination": "https://journalism.visualizing.jp/panama-papers-wrangling",
+      "statusCode": 301
+    },
+    {
+      "source": "/sigma-awards-2021",
+      "destination": "https://journalism.visualizing.jp/sigma-awards-2021",
+      "statusCode": 301
+    },
+    {
+      "source": "/simon-rogers-workflow",
+      "destination": "https://journalism.visualizing.jp/simon-rogers-workflow",
+      "statusCode": 301
+    },
+    {
+      "source": "/wp-corona-simulation",
+      "destination": "https://journalism.visualizing.jp/wp-corona-simulation",
+      "statusCode": 301
+    }
+  ]
+}
