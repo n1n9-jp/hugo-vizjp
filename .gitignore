@@ -4,3 +4,4 @@ resources/
 resources/
 widgets/q
 .DS_Store
+.vercel
