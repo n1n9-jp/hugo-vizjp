@@ -1,0 +1,39 @@
+<footer class="article-footer">
+    {{ partial "article/components/tags" . }}
+
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showAuthor := .Params.author }}
+    {{ if or $showDate $showAuthor }}
+    <section class="article-time">
+        <div>
+            {{ if $showDate }}
+                {{ partial "helper/icon" "date" }}
+                <time class="article-date">
+                    {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            {{ end }}
+
+            {{ if $showAuthor }}
+                {{ partial "helper/icon" "user" }}
+                <span class="article-author">{{ $showAuthor }}</span>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
+    <section class="article-copyright">
+        {{ partial "helper/icon" "copyright" }}
+        <span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>
+    </section>
+    {{ end }}
+
+    {{- if ne .Lastmod .Date -}}
+    <section class="article-lastmod">
+        {{ partial "helper/icon" "date" }}
+        <span>
+            {{ T "article.lastUpdatedOn" }} {{ .Lastmod.Format ( or .Site.Params.dateFormat.lastUpdated "Jan 02, 2006 15:04 MST" ) }}
+        </span>
+    </section>
+    {{- end -}}
+</footer>

@@ -1,0 +1,57 @@
+<div class="article-details">
+    {{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                {{ .LinkTitle }}
+            </a>
+        {{ end }}
+    </header>
+    {{ end }}
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h2>
+
+        {{ with .Params.description }}
+        <h3 class="article-subtitle">
+            {{ . }}
+        </h3>
+        {{ end }}
+    </div>
+
+    {{ $showDate := not .Date.IsZero }}
+    {{ $showAuthor := .Params.author }}
+    {{ $showFooter := or $showDate $showAuthor }}
+    {{ if $showFooter }}
+    <footer class="article-time">
+        <div>
+            {{ if $showDate }}
+                {{ partial "helper/icon" "date" }}
+                <time class="article-time--published">
+                    {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                </time>
+            {{ end }}
+
+            {{ if $showAuthor }}
+                {{ partial "helper/icon" "user" }}
+                <span class="article-author">{{ $showAuthor }}</span>
+            {{ end }}
+        </div>
+    </footer>
+    {{ end }}
+
+    {{ if .IsTranslated }}
+        <footer class="article-translations">
+            {{ partial "helper/icon" "language" }}
+            <div>
+                {{ range .Translations }}
+                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+                {{ end }}
+            </div>
+        </footer>
+    {{ end }}
+</div>
