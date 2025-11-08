@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "階級区分図とコロプレス・マップ──データ処理と地図表現の違い"
+title = "階級区分図とコロプレス・マップ - データ処理と地図表現の違い"
 slug = "classification-and-coloplethmap"
 date = "2025-11-08"
 categories = [
