@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "ビースウォーム・プロット（Beeswarm Plot）とは？"
+title = "ビースウォーム・プロット（Beeswarm Plot）"
 slug = "beeswarm"
 date = "2025-09-28"
 description = ""

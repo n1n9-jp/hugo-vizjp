@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "サンバースト（Sunburst）とは何か"
+title = "サンバースト（Sunburst）"
 slug = "sunburst"
 date = "2025-10-02"
 description = ""

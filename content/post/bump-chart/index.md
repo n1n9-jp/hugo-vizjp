@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "バンプ・チャート（Bump Chart）の歴史と役割"
+title = "バンプ・チャート（Bump Chart）"
 slug = "bump-chart"
 date = "2025-09-30"
 description = ""
