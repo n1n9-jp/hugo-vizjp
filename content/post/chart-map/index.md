@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "チャート・マップ（Chart Map）とは？"
+title = "チャート・マップ（Chart Map）"
 slug = "chart-map"
 date = "2020-07-04"
 categories = [
@@ -9,143 +9,90 @@ categories = [
 tags = [
     "",
 ]
-image = "images/1_bUT8E8oOLmX_my3TTFhHfA.png"
+image = "images/cover.png"
 +++
 
-## どんな地図？
+チャート・マップ（Chart Map）は、多種多様なグラフや図表を地図のように整理し、相互の関係性を視覚的に表現するメタ・ビジュアライゼーションです。つまり、チャートそのものをデータとみなし、分類や特徴を俯瞰的に示す「チャートの地図」です。主にデータ可視化の教育やリファレンス、設計支援を目的に活用されます。
 
-統計チャート（円グラフや棒グラフなど）を地図上に配置することで、地理的分布と統計的分布を同時に把握することを目的とした地図です。地図の位置情報に限定した[Small Multiple](https://visualizing.jp/small-multiples/)ともいえそうです。
+<!--more-->
 
-## 主な作例
 
-#### ナショナルアトラス
+## 歴史的経緯
 
-<figure>
+「チャートをマッピングする」という考え方は、2000年代後半以降に可視化研究とデザイン教育の両領域で発展しました。代表的な初期例として、2008年にデザイナーのJerome Cukierが発表した“Chart Chooser”や、Datawrapper、Visualizing Dataなどによる「チャート選択ガイド」が挙げられます。
 
-![](images/1_bUT8E8oOLmX_my3TTFhHfA.png)
+2010年代には、Andrew Abelaによる「Chart Chooser Diagram」、Graphic Continuum（Jon Schwabish & Severino Ribecca, 2014）などが広く知られるようになり、以後はオンライン上でインタラクティブにチャートを探索できる地図型インターフェース（例：DataVizProject、Visual Vocabulary、From Data to Viz）が登場しました。
 
-<figcaption>
 
-[http://www.gsi.go.jp/atlas/atlas-etsuran.html](http://www.gsi.go.jp/atlas/atlas-etsuran.html)
+## データ構造
 
-</figcaption>
+チャート・マップの基盤データは、各チャートの分類情報と属性情報（例：入力データ構造、目的、表現方法、軸構成、相関性など）です。  
+典型的には以下のような構造を持ちます：
 
-</figure>
+| フィールド | 説明 |
+|-------------|------|
+| name | チャート名 |
+| category | 分類（比較・関係・分布・構成など） |
+| data_type | 対応するデータ構造（定量・カテゴリ・時系列など） |
+| purpose | 可視化の目的 |
+| related | 関連チャート（ネットワーク的関係） |
+| url | 外部リファレンス |
 
-#### Pie Chart Map — Belfast
 
-<figure>
+## 目的
 
-![](images/1_U8xEpDAive7YsN3PIFzSjw.jpg)
+- 可視化手法を俯瞰的に学ぶ教育ツール
+- データに適した可視化手法を選ぶ設計ガイド
+- 可視化表現の分類・研究基盤としての利用
+- データ可視化カタログやライブラリ開発の整理基盤
 
-<figcaption>
 
-[http://cain.ulst.ac.uk/victims/gis/maps/gismaps-16.html](http://cain.ulst.ac.uk/victims/gis/maps/gismaps-16.html)
+## ユースケース
 
-</figcaption>
+- データ可視化教育の教材として（例：大学の情報デザイン授業）
+- Web上の可視化選択支援ツール（例：From Data to Viz）
+- 社内のダッシュボード設計ガイドラインの作成
+- 書籍・記事での図表分類解説（例：Graphic Continuum）
 
-</figure>
 
-#### Bar Chart on a Map — Tableau
+## 特徴
 
-<figure>
+- **俯瞰性**：多様なチャートを一つの空間に配置し、関係性を一望できる。  
+- **分類的構造**：表現目的やデータ型による階層化が容易。  
+- **ナビゲーション性**：チャート探索を支援するインターフェースとして機能。  
+- **拡張性**：新しい可視化手法を追加していく柔軟なデータ構造。
 
-![](images/1_pIOyHftfXVEwXNvuQTs4zw.png)
 
-<figcaption>
+## チャートの見方
 
-[https://www.dataplusscience.com/BarChartMaps.html](https://www.dataplusscience.com/BarChartMaps.html)
+一般に、チャート・マップは「軸」や「カテゴリ」をベースに配置されます。  
+例えば、「データの種類（定量／カテゴリ） × 目的（比較／関係／分布）」のような二次元マトリクスで配置される場合や、ネットワーク的に「類似度」や「機能的近さ」をもとに距離配置する場合もあります。  
+ユーザーは地図を探索するように各チャートをクリックして詳細情報にアクセスします。
 
-</figcaption>
 
-</figure>
+## デザイン上の注意点
 
-#### Pie chart on a symbol map — Tableau
+- カテゴリや軸の設計思想を明確にすること（分類基準の一貫性）  
+- 配色・配置による可読性の確保  
+- チャート同士の距離・接続線の意味を明示する  
+- スマートフォンなどの小画面でも見やすいレイアウト  
+- ラベル・ツールチップ・プレビュー画像などの情報設計を丁寧に行う  
 
-<figure>
 
-![](images/1_Ht5L2vgisQsjjid5txzndA.png)
+## 応用例
 
-<figcaption>
+チャート・マップは統計チャート（円グラフや棒グラフなど）を地図上に配置することで、地理的分布と統計的分布を同時に把握することを目的とした地図です。地図の位置情報に限定した[Small Multiple](https://visualizing.jp/small-multiples/)ともいえそうです。
 
-[http://arunethan.com/?p=270](http://arunethan.com/?p=270)
 
-</figcaption>
+## 代替例
 
-</figure>
+(To be delivered.)
 
-#### パイ・チャート・マップ（Pie Chart Map） — ArcGIS
+## まとめ
 
-<figure>
+チャート・マップは、可視化手法を単なる一覧ではなく「知識地図」として構造化する手法です。教育・設計・研究の各場面で、チャート間の関係を理解しながら、目的に応じた最適な表現を選ぶための有効なツールとなります。将来的にはAIとの統合により、データ特性から自動的にチャート候補を提案する「インテリジェント・チャートマップ」への発展も期待されています。
 
-![](images/1_y_P0ESrVxUwKqg6TA1s6bw.png)
 
-<figcaption>
+## 参考・出典
 
-[http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm](http://desktop.arcgis.com/ja/arcmap/10.3/map/working-with-layers/drawing-features-to-show-quantities-drawing-pie-ch.htm)
-
-</figcaption>
-
-</figure>
-
-<figure>
-
-![](images/1_mAK-AuR0oWkPtICrvXq8Tw.png)
-
-<figcaption>
-
-[https://www.e-education.psu.edu/natureofgeoinfo/c3\_p17.html](https://www.e-education.psu.edu/natureofgeoinfo/c3_p17.html)
-
-</figcaption>
-
-</figure>
-
-#### パイ・チャート・マップ（Pie Chart Map） — Coloremaps
-
-<figure>
-
-![](images/1_f_EFGJlRSA2uTyp277EniA.png)
-
-<figcaption>
-
-[https://coloremaps.com/visualization-map-types/chart-maps/](https://coloremaps.com/visualization-map-types/chart-maps/)
-
-</figcaption>
-
-</figure>
-
-#### 100 biggest cities in 2010
-
-<figure>
-
-![](images/1_vYlrcEajmqotd7pmMkhw3g.jpeg)
-
-<figcaption>
-
-[https://www.behance.net/gallery/4610471/100-biggest-cities-2010-infographic](https://www.behance.net/gallery/4610471/100-biggest-cities-2010-infographic)
-
-</figcaption>
-
-</figure>
-
-#### コラム・チャート・マップ（Columns chart maps） — Coloremaps
-
-<figure>
-
-![](images/1_P_BLOe42fK636x5d-dkQQ.png)
-
-<figcaption>
-
-[https://coloremaps.com/visualization-map-types/chart-maps/](https://coloremaps.com/visualization-map-types/chart-maps/)
-
-</figcaption>
-
-</figure>
-
-## 類似する手法
-
-チャート・マップではうまくチャートの比較ができない場合もあり、その場合は[Small Multiplesという手法](https://visualizing.jp/small-multiples/)を用います。
-
-## 参考文献
-
-- 谷村 晋 (著), 金 明哲 (編集) — 地理空間データ分析 (Rで学ぶデータサイエンス 7)
+(To be delivered.)
