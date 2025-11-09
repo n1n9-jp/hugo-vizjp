@@ -13,14 +13,13 @@ tags = [
 image = "images/image-27.png"
 +++
 
-「モザイク・プロット」が利用されている事例を紹介します。
+モザイク・プロット（Mosaic Plot）の事例を紹介します。
 
 
 <!--more-->
 
-## 作例
 
-### 1904年ドイツ帝国統計局による農業統計図
+## 1904年ドイツ帝国統計局による農業統計図
 
 ![1904年ドイツ帝国統計局による農業統計図](images/IMG_0483.jpeg)
 
@@ -33,7 +32,7 @@ image = "images/image-27.png"
 さらに、各州の値だけでなく、ドイツ全体の平均収量（実線） と 直前5年間（1899〜1903年）の平均収量（点線） も示されており、比較が容易になるよう工夫されています。色分けによって作物ごとに区別され、視覚的にも分かりやすく構成されています。
 
 
-### タイタニック犠牲者と生存者の統計図（1912年、『The Sphere』誌）
+## タイタニック犠牲者と生存者の統計図（1912年、『The Sphere』誌）
 
 ![タイタニック犠牲者と生存者の統計図](images/IMG_0488.jpeg)
 
@@ -48,27 +47,27 @@ image = "images/image-27.png"
 現代的な可視化の観点からすれば、棒グラフのルール（幅を一定にする）から外れ、面積効果による視覚的強調を含むため必ずしも「正統」ではありません。しかし、歴史的背景を考えれば、これは当時の新聞・雑誌が持つ表現上の工夫であり、社会に衝撃を与えた大事故を伝える強い視覚的メッセージとなっていたといえるでしょう。
 
 
-### タイタニック犠牲者（Rによる作例）
+## タイタニック犠牲者（Rによる作例）
 
 ![タイタニック犠牲者（Rによる作例）](images/image-25.png)
 
 [Data Visualization with R](https://rkabacoff.github.io/datavis/Models.html)
 
 
-### ggplot2による作例
+## ggplot2による作例
 
 ![](images/image-26.png)
 
 [https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html](https://cran.r-project.org/web/packages/ggmosaic/vignettes/ggmosaic.html)
 
-### 識別テストへの回答結果
+## 識別テストへの回答結果
 
 ![](images/image-27.png)
 
 [(PDF) Effect of Product Involvement on Panels’ Vocabulary Generation, Attribute Identification, and Sample Configurations in Beer](https://www.researchgate.net/publication/336517849_Effect_of_Product_Involvement_on_Panels%27_Vocabulary_Generation_Attribute_Identification_and_Sample_Configurations_in_Beer/figures?lo=1)
 
 
-### Hair and Eye Color of Statistics Students
+## Hair and Eye Color of Statistics Students
 
 ![](images/009-visualizing-multivariate-categorical-data-r-graphics-cookbook-and-examples-for-great-data-visualization-mosaic-plot-1.png)
 

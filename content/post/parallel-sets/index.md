@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "パラレル・セット"
+title = "パラレル・セット (Parallel Sets) "
 slug = "parallel-sets"
 date = "2025-09-28"
 description = ""

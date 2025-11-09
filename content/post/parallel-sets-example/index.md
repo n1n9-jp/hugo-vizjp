@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "パラレル・セットの利用例紹介"
+title = "パラレル・セット (Parallel Sets) の事例"
 slug = "parallel-sets-example"
 date = "2020-08-02"
 description = ""
@@ -13,14 +13,13 @@ tags = [
 image = "images/image-15.png"
 +++
 
-「パラレル・セット」が利用されている事例を紹介します。
+パラレル・セット (Parallel Sets) の事例を紹介します。
 
 <!--more-->
 
 
-## 作例
 
-### ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
+## ミネソタ州（上）とノースカロライナ州（下）の住宅データを比較
 
 ![](images/image-14.png)
 
@@ -28,7 +27,7 @@ image = "images/image-15.png"
 
 寒い気候の人々は、暖房燃料として電気よりもガスを好み、移動式の家もあまり好きではありません。南部の住宅は平均的にベッドルーム数がやや少ないが、3ベッドルームの一戸建て住宅は北部よりも多いことがわかります。
 
-### 国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
+## 国民戦線の躍進はフランスの伝統的な政党を揺さぶる｜フィナンシャル・タイムズ
 
 ![](images/image-15.png)
 
@@ -36,7 +35,7 @@ image = "images/image-15.png"
 
 
 
-### ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
+## ピッツバーグの橋梁の構造材別、長さ別、建設年代別、橋梁が架かる河川別の内訳
 
 ![](images/image-16.png)
 
@@ -44,14 +43,14 @@ image = "images/image-15.png"
 
 
 
-### TRACKING THE EARTH'S 300 NANO-SATELLITES
+## TRACKING THE EARTH'S 300 NANO-SATELLITES
 
 ![](images/1280.png)
 
 [TRACKING THE EARTH'S 300 NANO-SATELLITES by Valerio Pallegrini](https://www.wired.co.uk/gallery/infoporn-wired-handpicks-the-webs-best-infographics)
 
 
-### ドローンが空から落下してくるとき | The Washington Post
+## ドローンが空から落下してくるとき | The Washington Post
 
 ![](images/image-18.png)
 
@@ -59,14 +58,14 @@ image = "images/image-15.png"
 
 
 
-### Rotem Blinder of IBM "Hierarchical Parallel Sets"
+## Rotem Blinder of IBM "Hierarchical Parallel Sets"
 
 ![](images/image-19.png)
 
 [Rotem Blinder - YouTube](https://www.youtube.com/watch?v=P3FAyWbDlI4)
 
 
-### PANTHEON Corriere della Sera - La Lettura #181
+## PANTHEON Corriere della Sera - La Lettura #181
 
 ![](images/image-20.png)
 
@@ -74,7 +73,7 @@ image = "images/image-15.png"
 
 
 
-### News Use Across Social Media Platforms
+## News Use Across Social Media Platforms
 
 ![](images/image-21.png)
 

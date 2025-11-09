@@ -13,14 +13,12 @@ tags = [
 image = "images/null_earth.png"
 +++
 
-ベクター・フィールド・マップの作例を紹介します。
+ベクター・フィールド・マップ（Vector Field Map）の事例を紹介します。
 
 <!--more-->
 
 
-## 作例
-
-### wind map
+## wind map
 
 ![](images/wind_map.png)
 
@@ -37,7 +35,7 @@ image = "images/null_earth.png"
 全米デジタル予測データベース（the National Digital Forecast Database）のデータを使用して、北米における風力を示し、1時間ごとに更新されています。
 過去のエピックな日付へのリンクも用意され、その特定の日時の風の様子を再現することが可能です。
 
-### Earth
+## Earth
 
 ![](images/null_earth.png)
 
@@ -45,14 +43,14 @@ image = "images/null_earth.png"
 
 キャメロン・ベッカリオ（Cameron Beccario）による個人作品。”wind map”にインスピレーションを受けて制作されました。数時間ほどのタイムラグがあるデータを反映しており、様々なデータを、様々な地図投影法で可視化しています。
 
-### 2008年9月1日のハリケーン・グスタフによる風速
+## 2008年9月1日のハリケーン・グスタフによる風速
 
 ![](images/1_seFS4uTmFtKn-y17xC0QIg-1.jpeg)
 
 [https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html](https://www.wolfram.com/mathematica/newin7/content/VectorAndFieldVisualization/VisualizeWindVelocityData.html)
 
 
-### 2Dベクトルフィールド可視化手法の比較
+## 2Dベクトルフィールド可視化手法の比較
 
 ![](images/1_J6Xh_vc_supgN4dzDBpOJg.jpeg)
 
