@@ -112,6 +112,7 @@ image = "images/cover.png"
 
 
 ## 参考・出典
+
 - [Fruchterman, T.M.J., & Reingold, E.M. (1991). Graph Drawing by Force-directed Placement. *Software: Practice and Experience*, 21(11), 1129–1164.](https://doi.org/10.1002/spe.4380211102)
 - [Kamada, T., & Kawai, S. (1989). An Algorithm for Drawing General Undirected Graphs. *Information Processing Letters*, 31(1), 7–15.](https://doi.org/10.1016/0020-0190(89)90102-6)
 - [Fruchterman, T.M.J. & Reingold, E.M. (1991). Graph Drawing by Force‐Directed Placement. *Software: Practice and Experience*, 21(11), 1129–1164.](https://doi.org/10.1002/spe.4380211102)
