@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "Matplotlib が jet から Viridis へ移行した物語"
+title = "Matplotlib がカラーマップを jet から Viridis へ移行した物語"
 slug = "matplotlib-colorscheme"
 date = "2025-11-11"
 categories = [
