@@ -14,11 +14,37 @@ image = "images/image-13.png"
 
 +++
 
-Mario Schmidt の調査によると、19世紀後半当時、新興工業国の技術者たちは、蒸気機関をさらに改良し、それぞれの用途に最適化するために、科学的手法を応用しようとしていました。蒸気機関の熱効率を分析するために、アイルランドのエンジニアRiall Sankeyによって、1898年に開発されました。
+サンキー・ダイアグラム（Sankey Diagram）は、エネルギーや物質、資金などの「流れ（flow）」を太さで表現する可視化手法です。矢印の幅が流量の大きさに比例しており、入力から出力への分配や変換を直感的に理解することができます。主に、エネルギーフローやコスト配分、サプライチェーンなどの分析に用いられます。
+
 
 <!--more-->
 
 ![](images/image.png)
+
+
+## 歴史的経緯
+
+この手法は、1898年にイギリスの技術者マシュー・ヘンリー・フィニー・サンキー（Matthew Henry Phineas Riall Sankey）が蒸気機関のエネルギー効率を示すために使用した図に由来します。その後、フランスの技師チャールズ・ミナール（Charles Minard）のナポレオン遠征図など、関連する流量表現図の影響を受けながら発展しました。20世紀後半には産業分析やエネルギー統計の分野で広く採用され、現在ではウェブ可視化ライブラリ（D3.jsなど）でも一般的なチャートタイプとして定着しています。
+
+
+## データ構造
+
+サンキー・ダイアグラムは、「ノード（node）」と「リンク（link）」の2要素から成ります。
+- **ノード**：流れの出発点または到達点（例：発電所、家庭、工場など）
+- **リンク**：ノード間をつなぐ流れであり、数量値（value）を持つ
+
+| 要素 | 説明 | 例 |
+|------|------|----|
+| source | 出発ノード | "発電" |
+| target | 到達ノード | "産業" |
+| value  | 流量値 | 1200 GWh |
+
+これらのデータをJSONやCSV形式で構造化し、ライブラリ側でネットワークとして描画します。
+
+
+## 目的
+
+サンキー・ダイアグラムの目的は、複雑なシステム内の流れを俯瞰的に可視化し、どの部分で損失や集中が起きているかを把握することにあります。特にエネルギー効率、コスト配分、資源循環などのテーマで有効です。
 
 Eurostatではサンキー・ダイアグラムの意義をこう説明しています。
 
@@ -34,169 +60,66 @@ Eurostatではサンキー・ダイアグラムの意義をこう説明してい
 
 時間が経つにつれて、熱バランス、エネルギー、マテリアルの流れの可視化に用いられ、1990年代以降はライフサイクルアセスメント（LCA）における「代謝」の複雑さを示すためにサンキー・ダイアグラムを頻繁に使用していると、 Mario Schmidt はレポートしています。
 
-近年では「インプットとその結果としてのアウトプット」を説明するチャートの特性を活かし、集めた税金とその使いみちに使われる事例がたくさんあります。
+## ユースケース
 
+- 国別エネルギーフロー（IEA、経済産業省など）
+- 企業のコスト構造分析
+- サプライチェーンの物流経路
+- ウェブトラフィックやユーザー行動の流れ分析
+- 財政支出の可視化（国家予算フロー図など）
 
-## 過去、エネルギー関連をテーマに用いられてきた事例
 
-### 20/30馬力のルノー車の走行速度60km/hの場合のエネルギー図
+## 特徴
 
-![](images/image-1.png)
+- 流量を面積（線の太さ）で表す定量可視化
+- 方向性を持つ（主に左→右または上→下）
+- 分岐や合流を自然に表現可能
+- 色によってカテゴリや属性を補助的に示す
 
-Source:
-Riedler, A. 1911. Wissenschaftliche Automobil-Wertung.
-Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
-### セメント製造における理論的な熱消費量（左）と実用的な熱消費量（右）
+## チャートの見方
 
-![](images/image-2.png)
+ノード間を結ぶ帯の太さが流量を示します。帯が太いほど大きな量が流れていることを意味します。また、色分けによりエネルギー源や部門、カテゴリを区別できます。左から右へ視線を動かすことで、入力から出力までの全体構造を理解できます。
 
-Source:
-Schott, E. 1933. Waermewirtschaft in der Zementindustrie.
-Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
-### ドイツの鉄鋼業のための鉄のフローチャート。鉱石中の鉄分100％に関連する数値
+## デザイン上の注意点
 
-![](images/image-3.png)
+- 流量のスケールを適切に設定する（極端な差を抑制）
+- ノード間の重なりや交差を減らす配置調整
+- カラーマッピングは意味に基づき一貫性を保つ
+- 流れの方向を視覚的に明確にする
+- 凡例と単位（例：GWh、t、¥）を明記する
 
-Source:
-Reichardt, P. 1937. Rohstofflage, Roheisen- und StahlSortenfrage.
-Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
-### エネルギーとマテリアルのフローによる管理
+## 応用例
 
-![](images/image-4.png)
+- **エネルギーフロー図**（日本エネルギー白書など）
+- **資金の流れ**（寄付金の分配や予算の用途）
+- **人材の移動**（社内配置や人事異動の可視化）
+- **廃棄物フロー**（リサイクル率の見える化）
+- **Web分析**（ユーザー遷移の可視化）
 
-Source:
-Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
-Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
-### 鉄鋼工場における材料の年間価値の流れを模式的に示す
+## 代替例
 
-![](images/image-5.png)
+| 目的 | 代替チャート | 特徴 |
+|------|---------------|------|
+| 分岐・合流の強調 | フローチャート | 構造の理解に優れる |
+| 全体構成比の強調 | ツリーマップ | 面積で割合を示す |
+| 階層的関係の可視化 | サンバースト | 同心円構造で階層を表現 |
 
-Source:
-Schmidt, H. 1936. Grundsaetzliche Fragen zur Rohstoffbewirtschaftung.
-Mario Schmidt. 2008. The Sankey Diagram in Energy and Material Flow Management.
 
-## 近年、エネルギー関連をテーマに用いられてきた事例
+## まとめ
 
-### 米国天然ガス
+サンキー・ダイアグラムは、複雑な流れを「太さ」で定量的に示すことで、エネルギーや資金、物流などの動態を一目で把握できる優れた可視化手法です。歴史的には工学的分析のために生まれましたが、現在では経済、環境、UX設計など多様な分野で応用されています。
 
-![](images/image-6.png)
 
-2019年の米国の天然ガスの供給（生産、輸入、貯蔵からの引き出し）と処理（消費、輸出、貯蔵への追加）の大きさを示しています。
-
-[U.S. Energy Information Administration (EIA) – Issuestrends](https://www.eia.gov/totalenergy/issuestrends/)
-
-
-### 国際エネルギー機関（International Energy Agency）
-
-![](images/image-7.png)
-
-[IEA Sankey Diagram](https://www.iea.org/sankey/#?c=World&s=Balance)
-
-### Eurostat
-
-![](images/image-8-2048x888.png)
-
-[Energy Flow Diagrams](https://ec.europa.eu/eurostat/web/energy/energy-flow-diagrams)
-
-### LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China
-
-![](images/image-9.png)
-
-[(PDF) LMDI Decomposition of Energy-Related CO2 Emissions Based on Energy and CO2 Allocation Sankey Diagrams: The Method and an Application to China | Sustainability](https://www.researchgate.net/publication/322780248_LMDI_Decomposition_of_Energy-Related_CO2_Emissions_Based_on_Energy_and_CO2_Allocation_Sankey_Diagrams_The_Method_and_an_Application_to_China)
-
-
-
-### LLNL – Energy Flow Charts
-
-![](images/image-13.png)
-
-アメリカにおけるエネルギーのリソースとその使用先を示しています。ローレンス・リバモア国立研究所（LLNL）が1970年代に開発したもので、彼らは独自にEnergy Flow Chartsと呼んでいます。
-
-[LLNL – Energy Flow Charts](https://flowcharts.llnl.gov/commodities/energy)
-
-{{< youtube G6dlvECRfcI >}}
-
-動画によるEnergy Flow Chartsの解説
-
-### The flow of water in the hydrologic cycle
-
-![](images/image-10.png)
-
-[The flow of water in the hydrologic cycle](https://www.ourenergypolicy.org/wp-content/uploads/2014/01/BP_ESC_Riosmallpdf.com_.pdf)
-
-
-### 生産プロセスにおけるエネルギー効率化のための実践ガイド
-
-![](images/image-11.png)
-
-‘A Practical Guide to Energy Efficiency in Production Processes’
-
-## エネルギー以外の分野でも
-
-### 2008年のスペインの主な収益と支出
-
-![](images/image-12.png)
-
-[Infographics Experts on Sankey Diagrams (Part 2) – Sankey Diagrams](http://www.sankey-diagrams.com/infographics-experts-on-sankey-diagrams-part-2/)
-
-
-### G07 – Environmental Migration
-2013年から2015年までの自然災害による人の移動を示しています。各大陸で影響を受けた最初の4カ国を考慮に入れています。大陸・国・災害・被害規模を示しています。
-
-![](images/30802188224_6d184a5b7a_k.jpg)
-
-[G07 – Environmental Migration](https://www.flickr.com/photos/densitydesign/30802188224/)
-
-
-### 気候変動ファイナンスフローの複雑性
-
-![](images/31613433722_4ff462d2ab_k.jpg)
-
-[The Complexity of the Climate Change Finance Flow](https://www.flickr.com/photos/densitydesign/31613433722/)
-
-
-### 外国人戦闘員のシリアとイラクへの旅路
-
-![](images/31527995451_8675c0d348_k.jpg)
-
-[G08 – Travel the Distance](https://www.flickr.com/photos/densitydesign/31527995451/in/dateposted/)
-
-
-
-### 禁書
-
-![](images/banned-books1-1040x650-1.jpg)
-
-[Banned books – Visualoop](http://visualoop.com/infographics/banned-books)
-
-
-
-## 異形・変型タイプ
-
-### EU28カ国における移民の最終的な庇護先の決定結果
-
-![](images/Do7WAWmXoAAHZ0O.jpeg)
-
-- [Outcome of final asylum decisions by year, eu28 countries](https://www.ft.com/content/58f2f7f8-c7c1-11e8-ba8f-ee390057b8c9)
-- [#frankensankey Migration: the riddle of Europe’s shadow populations](https://twitter.com/theboysmithy/status/1049011087142768640)
-
-
-### トランプさんのツイートの怒りの矛先
-
-サンキー・ダイアグラムかといわれると微妙ですが…。
-
-![](images/sankey_trump.png)
-
-[Who Trump attacks the most on Twitter – Axios](https://www.axios.com/2017/12/15/who-trump-attacks-the-most-on-twitter-1513305449)
-
-
-
-## 参考文献
+## 参考・出典
 
 - [The Sankey Diagram in Energy and Material Flow Management – Schmidt – 2008 – Journal of Industrial Ecology – Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1530-9290.2008.00004.x)
 - [Sankey Diagrams – A Sankey diagram says more than 1000 pie charts](http://www.sankey-diagrams.com/)
+- [The Sankey Diagram in Energy and Material Flow Management – Schmidt – 2008 – Journal of Industrial Ecology – Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1530-9290.2008.00004.x)
+- [Sankey Diagrams – A Sankey diagram says more than 1000 pie charts](http://www.sankey-diagrams.com/)
+
+
 
