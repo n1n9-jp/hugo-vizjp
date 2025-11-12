@@ -12,7 +12,14 @@ tags = [
 image = "images/cover.png"
 +++
 
-コレログラム（Correlogram）は **複数の変数間の相関関係を行列形式で可視化するチャート** です。縦軸・横軸に変数を配置し、それぞれの交点において **相関係数（correlation coefficient）** を色や形で表現します。データの相関構造を俯瞰的に把握でき **強い正の相関・負の相関・無相関** を一目で判別できます。
+コレログラム（Correlogram）は **複数の変数間の相関関係を行列形式で可視化するチャート** です。縦軸・横軸に変数を配置し、それぞれの交点において **相関係数（correlation coefficient）** を色や形で表現します。データの相関構造を俯瞰的に把握でき **強い正の相関・負の相関・無相関** を一目で判別できます。散布図行列のように「関係の方向性」ではなく「関係の強さ」に焦点を当てる点が特徴です。
+
+<!--more-->
+
+![](images/mainvisual-1.png)
+![](images/mainvisual-2.png)
+
+![](images/mainvisual-3.png)
 
 ## 歴史的経緯
 
@@ -42,6 +49,11 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', center=0)
 コレログラムの主な目的は、変数間の関係性を全体として把握することです。
 どの変数が似た傾向を持つか、逆の動きをするかを視覚的に確認でき、多変量間の相関構造を一目で理解するための探索的ツールとして用いられます。
 
+- **特徴量間の関係確認**：多重共線性（multicollinearity）の検出  
+- **クラスタリング前の探索分析**：似た傾向を持つ変数のグルーピング  
+- **データ前処理の判断**：変数削除・縮約の判断材料  
+- **EDA (探索的データ解析)**：全体的な関係構造の理解  
+
 ## ユースケース
 - 統計分析や機械学習の前処理における特徴量選定
 - 経済指標・株価データなどの変動関係の分析
@@ -64,17 +76,17 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', center=0)
 
 ## チャートの見方
 
-各セルの色または形が示すのは、対応する変数間の相関係数です。
-一般的に以下のように解釈されます：
+コレログラムの構造は以下のようになっています。
 
-| 相関係数 | 色・形の傾向 | 意味 |
-|-----------|----------------|------|
-| +1.0 | 濃い赤・大きな円 | 完全な正の相関（変数が同方向に変化） |
-| +0.5〜+0.9 | 明るい赤 | 中程度〜強い正の相関 |
-| 0.0 | 白または灰色 | 無相関（関係がほとんどない） |
-| -0.5〜-0.9 | 明るい青 | 中程度〜強い負の相関 |
-| -1.0 | 濃い青・逆向きの円 | 完全な負の相関（変数が逆方向に変化） |
-| 対称性 | 上下が対称（変数A–BとB–Aは同じ値） | 片側（上または下三角）のみを表示する場合も多い |
+| 要素 | 内容 | 解釈のポイント |
+|------|------|----------------|
+| 行・列 | 変数の一覧 | それぞれの組み合わせごとに相関を示す |
+| セルの色 | 相関係数の符号と強さ（例：青＝正、赤＝負） | 相関の方向と大きさを視覚的に判断 |
+| 色の濃さ・円の大きさ | 相関の絶対値（強弱） | 強い関係ほど濃く・大きく表示される |
+| 対角線上 | 各変数自身（相関=1） | 通常は空白、または1.0と表示される |
+| 数値ラベル（任意） | 相関係数の実数値 | 精度を確認したい場合に併記される |
+
+このように、コレログラムは **相関の方向（正負）と強さ** を瞬時に読み取れる設計になっています。視覚的なパターンから、似た傾向を持つ変数群を特定することが可能です。
 
 左右対称な行列構造のため、上三角・下三角のどちらかのみを表示する簡略版も一般的です。
 
@@ -83,6 +95,10 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', center=0)
 - 相関係数の大小を強調するために彩度コントラストを確保する。
 - 変数数が多い場合は、相関が強いペアのみを抽出するなどの工夫が必要。
 - 外れ値やスケーリングの影響を考慮し、**相関の算出方法（Pearson, Spearmanなど）**を明示する。
+
+コレログラムは「線形相関」のみを対象とすることが多いため、非線形関係を見落とす可能性があります。  
+また、カテゴリ変数を扱う場合には別途相関係数の選択（Cramér’s V など）が必要です。  
+さらに、変数数が多いと視覚的に密集し、解釈が難しくなるため、主要変数のみを抽出して表示するのが望ましいです。
 
 ## 応用例
 - Seaborn Heatmap：標準的な相関可視化手法。色で相関強度を表現。
@@ -110,4 +126,6 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', center=0)
 - [Seaborn Heatmap Documentation](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 - [Wikipedia: Correlogram](https://en.wikipedia.org/wiki/Correlogram)
 - [Visualizing Correlation Matrices in Python – Seaborn Guide](https://seaborn.pydata.org/examples/many_pairwise_correlations.html)
-
+- [R Documentation — corrplot](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html)
+- [Plotly Express — imshow](https://plotly.com/python/imshow/)
+- [Vega-Lite: Heatmap](https://vega.github.io/vega-lite/examples/rect_heatmap.html)

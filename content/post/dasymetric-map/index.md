@@ -13,82 +13,95 @@ tags = [
 image = "images/dasymetric-map-2048x1448.png"
 +++
 
-コロプレスマップは、行政区域の境界とデータ集計単位地区の境界が一致している前提でした。デイシメトリック・マップでは、これら二つの境界が一致させない処理をした地図を指します。
+ディシメトリック・マップ（Dasymetric Map）は **補助データを用いて統計データを再配分し、実際の空間分布をより正確に示す地図** です。
+
+通常のコロプレスマップ（Choropleth Map）が行政界などの固定境界に基づいてデータを塗り分けるのに対し、ディシメトリック・マップは **土地利用や地表被覆などの補助情報を活用し、実際に人や現象が存在する範囲に応じて再分配する** のが特徴です。
 
 <!--more-->
 
-理由として、アーサー・H・ロビンソンらは以下のことを挙げています。
 
-データを入手するために用いた単位地区の大きさが非常に異なっていたり効果的でない場合
-地理的に不連続な分布を示す事象
-リモートセンシング画像などを利用して、テーマデータを面で表現するのにより適切な領域を設定します。その結果、元の行政区域がより小さく、そして適切な空間単位に分割されます。たとえば人口密度のデータであれば、住宅地として土地利用されているエリアのみを対象にしてデータを描画します。
+## 歴史的経緯
 
-処理を自動化する地図の可視化アプリでは扱いづらいため、広くは利用されていませんが、科学分野の研究者が、クリティカルなGISの利用が必要なときに利用しているケースが多いようです。
+この手法は、**1930年代のJ.K. Wright**によって理論的に体系化されました。彼は従来のコロプレスマップが「行政単位による区分の恣意性」を内包していることを指摘し **人口分布のより現実的な表現方法としてダシメトリック法（dasymetric method）** を提案しました。
 
-## 作例
+その後、衛星画像やリモートセンシングデータの普及により、土地利用データ（例えば、森林・農地・都市域）を用いた自動化手法が進み **1990年代以降はGIS環境でのディシメトリック補正（dasymetric refinement）** として実用化が広がりました。
 
-### リスボンの人口密度。コロプレス（左）とディシメトリック（右）。
 
-![](images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg)
+## データ構造
 
-https://www.arcgis.com/apps/Cascade/index.html?appid=fde9d5cc2716490faf1e861d171a6fdd
+ディシメトリック・マップは、主に以下の3つのデータ層を組み合わせて作成されます。
 
-### ウィーン市の人口密度。コロプレス（前者）とディシメトリック（後者）。
+| データ層 | 役割 |
+|-----------|------|
+| 統計データ | 再配分の基となる属性値（例：人口、所得など） |
+| 空間単位データ | 元となる行政区画などの境界情報 |
+| 補助データ | 再配分を導くためのマスク情報（例：土地利用、夜間光、建物分布） |
 
-![](images/dasy2.png)
+この組み合わせにより、「どの地域に人が住んでいるか」「どの土地が非居住か」を推定して、統計値を空間的に再分配します。
 
-GIFアニメーションで切り替わるように処理されている画像
 
-https://anitagraser.com/2012/11/18/improving-population-density-maps-using-dasymetric-mapping/
+## 目的
 
-### ベオグラード市のデータを対象にした研究
+ディシメトリック・マップの目的は **統計単位の境界を超えて、現実に即した分布を表すこと** です。これにより、行政単位のサイズや形状によって生じる「モッド可能性問題（Modifiable Areal Unit Problem, MAUP）」を軽減し、空間データの偏りを減らすことができます。
 
-![](images/Choroplet-map-left-and-dasymetric-map-right-depicting-population-density-for-the-year_W640-1.jpg)
+## ユースケース
 
-(PDF) Dasymetric modelling of population dynamics in urban areas
+- 人口密度の実態を反映したマッピング（例：都市部と山岳部を分ける）
+- 災害リスク評価（非居住地を除いた実居住域の被害想定）
+- 都市計画・交通分析（建物分布や夜間光から居住集中地を推定）
+- 環境評価（森林・農地などの土地利用別負荷推定）
 
-### フロリダ州タンパにおけるコロプレス・マップ（左）とディシメトリック・マップ（右）の比較
+## 特徴
 
-![](images/dasymetric_728x210.jpg)
+| 観点 | 内容 |
+|------|------|
+| 表現対象 | 統計値の現実的分布 |
+| 主な入力 | 統計値＋土地利用などの補助データ |
+| 境界処理 | 行政区画を超えた再配分が可能 |
+| 長所 | 空間的な現実性・精度が高い |
+| 短所 | 補助データの品質に依存／処理が複雑 |
+| 主な利用ツール | GIS（ArcGIS, QGIS, GRASSなど）／Python（Rasterio, GeoPandas） |
+| 関連概念 | コロプレスマップ、ドット密度マップ、ラスタ分析 |
 
-https://www.epa.gov/enviroatlas/dasymetric-toolbox
+## チャートの見方
 
-### 2011年 ロンドンの人口密度
+ディシメトリック・マップでは、色の濃淡は単純に行政単位内の平均値ではなく **補助データによって推定された実際の分布密度** を示します。  
+例えば、同じ市区町村でも森林地域では値が低く、居住地周辺では高く表現されます。視覚的にはコロプレスマップに似ていますが **境界の「内部」での濃淡変化が存在する** 点が特徴です。
 
-![](images/dasymetric-map-2048x1448.png)
+## デザイン上の注意点
 
-Dasymetric map of London’s population density, 2011 – James Gleeson
+- 使用する補助データの精度・更新頻度を明示すること。
+- コロプレスマップとの違い（再配分の有無）を明確に示す凡例や注記をつける。
+- 色階調は連続スケール（例：ブルー系、赤系）を使用し **極端なコントラストを避ける**。
+- 凡例に「推定値である」旨を記載する。
 
-### 人口密度のマッピング。国勢調査データと土地被覆の統合
 
-![](images/1_uGOsR0fQZHP1B1PNnHbb6A.png)
+## 応用例
 
-http://sites.tufts.edu/gis/files/2013/02/Nelson_Jason.pdf
+- **NASA SEDAC** によるGlobal Population Density (GPW) データセット：夜間光と土地利用を用いて推定。
+- **Esri ArcGIS Pro** のダシメトリックマッピングツール：人口再配分解析に対応。
+- **QGIS Processing Toolbox** の「Dasymetric Mapping Plugin」：土地利用シェープファイルを活用した再配分。
 
-### サンフランシスコ・ベイエリアの地図
 
-![](images/zoom2_lowres.jpg)
+## 代替例
 
-https://www.usgs.gov/centers/wgsc/science/dasymetric-mapping?qt-science_center_objects=0#qt-science_center_objects
+| 手法 | 特徴 | 適する状況 |
+|------|------|-------------|
+| コロプレスマップ（Choropleth Map） | 統計単位ごとの平均値を塗り分ける | 補助データがない場合の標準的手法 |
+| ドット密度マップ（Dot Density Map） | 値を点で表現し、密度を示す | 分布の傾向を直感的に見せたい場合 |
+| カーネル密度推定図（Kernel Density Map） | 連続的な分布推定 | 平滑な分布を表したい場合 |
+| グリッドマップ（Grid Map） | 均一なメッシュ単位で表示 | 行政単位に依存せず比較したい場合 |
 
-## 誰が作ったのか
 
-1911年にTyan-Shanskyが名付け、J.K. Wrightが有名にした、と wiki.gis.comにあります。
 
-## 以前の似た作例
-Henry Drury Harness (1838)
+## まとめ
 
-![](images/1PWcStPNYxUMp8Q5gakALng.png)
+ディシメトリック・マップは、単なる境界単位の塗り分けにとどまらず **「どこに人がいるのか」を正確に描き出す** ことを目的とした地図です。補助データを用いることで現実に即した表現が可能になりますが、その信頼性はデータソースと手法の妥当性に大きく依存します。
 
-https://digital.ucd.ie/view-media/ivrla:45724/bookView#40a90816-2189-4a97-8c09-bb6c3ebf5c2b http://www.complexcity.info/files/2011/06/harness-1837-flowmap.pdf
+地図表現の精緻化を目指す上で、ディシメトリック法はコロプレス表現の重要な発展形として位置づけられます。
 
-## 類似する地図
 
-コロプレスマップ（Colopleth Map）
-等充線図（Isoplethic Map）
+## 参考・出典
 
-## 他の呼び名
-特になし。
-
-## 参考文献
-アーサー・H・ロビンソンら「地図学の基礎」
+- [Wright, J.K. (1936). A Method of Mapping Densities of Population: With Cape Cod as an Example. Geographical Review, 26(1)](https://doi.org/10.2307/209467)
+- [Wikipedia: Dasymetric map](https://en.wikipedia.org/wiki/Dasymetric_map)
