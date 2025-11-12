@@ -13,101 +13,103 @@ tags = [
 image = "images/Stock-Market-Treemap.png"
 +++
 
-階層データを可視化するチャートです。
-ノードとリンクではなく、空間充填技術を用いて、親と子の関係を表現します。モザイクグラフよりも、より深い階層構造を表現することが可能です。任意の階層数にも対応可能な再帰的な構造が特徴です。各矩形の面積と色は、データセットの属性を表現しています。
+ツリーマップ（Treemap）は、階層構造を持つデータを長方形の領域で表現する可視化手法です。各ノード（要素）の値に応じて領域の面積が割り当てられ、親子関係を入れ子構造（nested rectangles）として描画します。これにより、複雑な階層データの全体像を一目で把握できるのが特徴です。ツリーマップは情報可視化の分野で広く用いられ、企業の財務構成、ファイルシステムの容量分析、マーケットシェアの比較などで活用されています。
 
 <!--more-->
 
-## 主な作例
-
-### FinViz
-
-![](images/finviz_green.png)
-
-[S&P 500 Map](https://finviz.com/map.ashx)
-
-#### 2008年ごろのデザイン
-
-![](images/WS000059.png)
-![](images/WS000059.png)
-
-- [Treemaps: Data Visualization of Complex Hierarchies](https://visualizing.jp/treemap/Data%20Visualization%20of%20Complex%20Hierarchies)
-- [株式市場へのTreemap適用例：FINVIZ.com](https://visualizing.info/article/463.html)
-
-
-
-### Map of the Market
-
-![](images/marketmap-490b.png)
-
-- [Map of the Market](http://www.bewitched.com/marketmap.html)
-
-1998年から10年以上にわたって株式市場のライブデータを表示してきました。長方形の面積はその企業の時価総額に対応し、色で前回の終値から株価がどのように変化したかを知ることができます。「より読みやすく、対話しやすい表示」ため、正方形に近いタイルを作成する独自のアルゴリズムを開発したとのことです。
-
-### Newsmap
-
-![](images/newsmap.png)
-
-Marcos WeskampさんがFlashで実装した、株式市場ではなくニュースリーダーをテーマとしたツリーマップ。
-
-- <a class="link" href="{{< ref "newsmap.md" >}}">Newsmap - ニュースを俯瞰する可視化の実験</a>
-
-
-### Newsmap.JS
-
-![](images/newsmap_js.png)
-
-Marcosさんのnewsmapにインスパイアされた作品をJSで実装。
-
-- [Newsmap.JS](https://newsmap.ijmacd.com/?edition=JP_ja)
-
-
-
-### Every AlgoRiThm has ART in it: Treemap Art Project
-
-![](images/Treemap-Art-Project.png)
-
-- [Treemap Art Project](http://www.cpnas.org/exhibitions/archive/every-algorithm-has-art-in.html)
-
-
-### Truck Sales Slip, Tripping Up Chrysler
-
-![](images/0225-sbn-subCHRYSLER.png)
-
-- [Truck Sales Slip, Tripping Up Chrysler](https://archive.nytimes.com/www.nytimes.com/imagepages/2007/02/25/business/20070225_CHRYSLER_GRAPHIC.html)
-
-
-### Stock Market Overview in Tableau
-
-![](images/Stock-Market-Treemap.png)
-
-- [Stock Market Overview in Tableau](https://www.youtube.com/watch?v=fBR8KA_-UsM)
-
-### HistoryWired: A Few of Our Favorite Things
-
-![](images/wired_screenshot.png)
-
-SmartMoneyの「Map of the Market」をベースにしており、ユーザーが博物館のコレクションの一部を探索できるように設計されていました。現在のウェブ標準との互換性がなくなったため、2016年8月にサイトは閉鎖されました。
-
-- [HistoryWired: A Few of Our Favorite Things](https://americanhistory.si.edu/exhibitions/history-wired)
-
-
-## 誰が作ったのか
+## 歴史的経緯
 
 1990年、Ben ShneidermanとMaryland Human-Computer Interaction Labの学生たちが、空間充填技術を使ってファイルの階層を視覚化する方法として考案しました。
 
 1994 年に Mountaz Hascoet と Michel Beaudouin-Lafon が、「二乗化」アルゴリズムを発明しました（後に Jarke van Wijk によって普及しました）。
 
-1999年にMartin Wattenbergが、株式市場における可視化に利用しました。SmartMoney の “Map of the Market” というサービスのUIとして実装されました。その際は従来のツリーマップの欠点として二つをあげています。
+1999年にMartin Wattenbergが、株式市場における可視化に利用しました。
 
-- [Visualizing the Stock Market](http://hint.fm/papers/marketmap-wattenberg.pdf)
+その後、色や余白を工夫した「Squarified Treemap」（Mark Bruls, Huub van Wijk, Jarke J. van Wijk, 2000）や「Voronoi Treemap」などの改良手法が登場し、情報美学の観点からも注目されるようになりました。
 
-1.「スライス・アンド・ダイス」レイアウト “slice-and-dice” layoutでは、アスペクト比が大きすぎて比較が困難。なるべく正方形に近い矩形を創出するようにした。
 
-2.類似した企業やセクターを隣り合わせに配置したい。過去のレイアウト方法では、階層情報のみを使用していたため、それが実現できなかった。
+## データ構造
 
-これらを解消するアルゴリズムを独自に実装し「ピボット＆スライス」レイアウトと名付けています。
+ツリーマップは階層構造（ツリー構造）を前提としています。データは通常、親子関係を持つノードとして構成され、各ノードには数値（例：売上、容量など）とカテゴリ情報が含まれます。可視化時には、ノードの「値」に基づいて面積を割り当て、色やラベルで属性を表します。
 
-## 類似する手法
+| 属性 | 内容 |
+|------|------|
+| 名前（name） | 各ノードのラベル |
+| 値（value） | 面積に対応する数値 |
+| 階層（children） | 下位ノード（サブカテゴリー） |
+| 色（color） | カテゴリや値の変化を表現するために使用 |
 
-- モザイク・プロット（Mosaic Plot）
+
+## 目的
+
+ツリーマップの主な目的は、「限られた空間に階層データを効率的に詰め込み、全体の構成比を直感的に理解できるようにする」ことです。棒グラフや円グラフでは表現が難しい、入れ子構造や大規模な項目群の比較に適しています。
+
+
+## ユースケース
+
+- **企業の財務分析**：部門別・商品別の売上や利益構成を可視化  
+- **ファイルシステムの可視化**：フォルダごとのディスク容量を比較  
+- **株式市場の構成分析**：セクター別・企業別の時価総額を比較  
+- **人口や国別統計**：国や地域の構成比を示すデータジャーナリズムで活用
+
+
+## 特徴
+
+- 空間を効率的に活用できる（全体が100%で埋まる）
+- 数値の大小を面積で直接比較できる
+- 階層構造の可視化に適する
+- ただし、形状が不規則になると比較が難しいという欠点もある
+
+| 長所 | 短所 |
+|------|------|
+| コンパクトに全体を表示できる | 長方形の形が不規則で比較が困難な場合がある |
+| 階層構造を保持できる | 小さな領域のラベルが読みにくい |
+| 色や面積で多次元データを表現可能 | 階層の深さが増えると可読性が低下 |
+
+
+## チャートの見方
+
+ツリーマップでは、各長方形が「要素」を表し、その面積が「値」を表します。色の濃淡やグラデーションを用いることで、別の指標（例えば成長率や変化率）を重ねて表現することも可能です。  
+親ノードの内部に子ノードが収まっているため、マウスオーバーやズームを用いて詳細を確認するインタラクティブなツリーマップも一般的です。
+
+
+## デザイン上の注意点
+
+- 面積の比較を誤解しないように、色のスケールを明確にする  
+- 小さな領域のラベルが読めない場合はツールチップで補完する  
+- 過剰な階層表示を避け、2〜3階層程度にとどめる  
+- 重要なカテゴリが視覚的に埋もれないようにレイアウトを工夫する
+
+
+## 応用例
+
+- **ニュースメディア**：株価や市場構成のダッシュボード（例：Finviz, Bloomberg）  
+- **データジャーナリズム**：COVID-19感染者数や予算構成の可視化  
+- **企業内BIツール**：TableauやPower BIでの階層データ分析  
+- **教育用可視化**：情報構造や組織構造の説明に利用
+
+
+## 代替例
+
+ツリーマップの代替として、以下のような可視化手法が用いられることがあります。
+
+| 手法 | 適した場面 |
+|------|-------------|
+| サンバーストチャート | 階層構造を円形に表現する場合 |
+| Icicleチャート | ツリー構造を縦方向に示す場合 |
+| パッキングチャート | 円形のエリアで階層を表す場合 |
+| ボロノイ・ツリーマップ | 領域の形をより自然に配置したい場合 |
+
+
+## まとめ
+
+ツリーマップは、階層構造を直感的に理解するための強力な可視化手法です。ベン・シュナイダーマンによる発明以降、情報可視化の分野で標準的なツールとして定着し、多様なデータ解析やビジュアル報告で活用されています。特に「限られたスペースで全体を俯瞰する」という設計思想は、今日のダッシュボード設計や情報デザインにも通じています。
+
+
+## 参考・出典
+
+- [Ben Shneiderman, “Tree Visualization with Tree-Maps: A 2D Space-Filling Approach” (University of Maryland, 1991)](https://www.cs.umd.edu/hcil/treemap-history/)
+- [Bruls, Mark, Huub van Wijk, and Jarke J. van Wijk. “Squarified Treemaps.” (2000)](https://www.win.tue.nl/~vanwijk/stm.pdf)
+- [D3.js Treemap Documentation (Observable / D3 Official)](https://observablehq.com/@d3/treemap)
+- [Tableau Help: Treemaps](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_treemap.htm)
+- [Power BI Documentation: Treemap Visual](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-treemaps)
