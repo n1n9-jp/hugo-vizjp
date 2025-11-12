@@ -79,20 +79,14 @@ Matplotlib の開発リポジトリ（GitHub）には、2012年5月17日付け�
 
 
 
-## 移行期：Matplotlib 1.5（2015年10月）で4色すべてを収録
+## 移行フェーズ：Matplotlib 1.5（2015年10月）で4色すべてを収録
 
-設計フェーズから数ヶ月後、Matplotlib の公式リリースである バージョン 1.5（2015年10月26日付） において、Magma／Inferno／Plasma／Viridis の4つの新カラーマップが初めて同梱されました。公式 “What’s New in 1.5” ページには、次のような記述があります：
-
-> 『新しいカラーマップを追加しました: magma、inferno、plasma、viridis (CC0) — これらは、Nathaniel J. Smith と Stéfan van der Walt によって設計された、知覚的に均一なシーケンシャルカラーマップです。オプション D (viridis) は、次期 2.0 リリースのデフォルトとなります。￼』
->
-> “Added new colormaps: magma, inferno, plasma and viridis (CC0) — these are perceptually uniform sequential colormaps designed by Nathaniel J. Smith and Stéfan van der Walt. Option D (viridis) is the default for the upcoming 2.0 release.”  ￼
-
-さらに、同ページには「従来の jet は強く推奨しない（strongly discouraged）となった」とも記されており、移行が公式に方向づけられました。
+設計フェーズから数ヶ月後、Matplotlib の公式リリースである バージョン 1.5（2015年10月26日付） において、Magma／Inferno／Plasma／Viridis の4つの新カラーマップが初めて同梱されました。同ページには「従来の jet は強く推奨しない（strongly discouraged）扱いとなりました」とも記されており、移行が公式に方向づけられました。
 
 これにより、ユーザーはバージョン 1.5 から新しいカラーマップを手動で選択可能となり、かつ将来バージョンでの既定切り替えに備えることができるようになりました。いわば “導入フェーズ” としての意味をもっており、混在状態・移行期間が明示された形です。
 
 
-## 切り替え：Matplotlib 2.0（2017年1月）
+## 切り替えフェーズ：Matplotlib 2.0（2017年1月）
 
 新しいカラーマップの含有を経て、ついに Matplotlib 2.0（2017年1月17日リリース） において、デフォルトのカラーマップが jet から viridis に切り替えられました。公式ドキュメント「Default Style Changes」には明確に次のように記載されています：
 
