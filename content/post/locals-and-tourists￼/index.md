@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "Locals & Tourists"
+title = "地元住民（Locals）と観光客（Tourists）の行動をツイートで比較"
 slug = "locals-and-tourists"
 date = "2025-11-20"
 categories = [
