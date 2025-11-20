@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "Locals & Tourists"
-slug = "locals-and-tourists￼"
+slug = "locals-and-tourists"
 date = "2025-11-20"
 categories = [
     "consume"
