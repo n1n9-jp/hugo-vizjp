@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "データ物質化",
 ]
 image = "images/quotidian_record_7@2x.jpg"
 +++

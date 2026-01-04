@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "データ物質化",
 ]
 image = "images/da_sosolimited-4545260255_07e9441dcc_b.jpg"
 +++

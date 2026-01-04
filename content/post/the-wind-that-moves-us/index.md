@@ -7,7 +7,7 @@ categories = [
     "consume"
 ]
 tags = [
-    "",
+    "データ物質化",
 ]
 image = "images/3xl-webp_DOMESTIC_DATA_STREAMERS_THE_WIND_THAT_MOVE_US_MANGO_1_1_65a9c71701.png"
 +++
