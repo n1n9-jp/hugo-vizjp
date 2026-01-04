@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "Prime Numerics"
-slug = "prime-numerics "
+slug = "prime-numerics-2010"
 date = "2026-01-04"
 categories = [
     "consume"
