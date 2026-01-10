@@ -22,7 +22,6 @@ image = "images/a-day-of-life.png"
 {{< video src="images/a-day-of-life.mp4" controls="true" >}}
 
 
-
 ## データと方法：ATUSとシミュレーション
 
 このプロジェクトの基となっているのは、アメリカ労働統計局が実施する American Time Use Survey（ATUS） の 2014年版データです。ATUSは、15歳以上のアメリカ人が1日の行動を細かく記録した調査で、起きている間の行動をカテゴリ別に集計しています。 ￼

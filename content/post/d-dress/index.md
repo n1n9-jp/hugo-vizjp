@@ -93,10 +93,9 @@ D.dress（2010）は、単に「早い時期のデジタル・ファッション
 ## 参考・出典
 
 - [D.dress – Mary Huang（公式）](https://mary-huang.com/projects/ddress/ddress.html)
+- [Continuum Ddress UI on Vimeo](https://vimeo.com/17253049?fl=pl&fe=vl)
 - [まるでSF?! 3Dプリントで未来のファッションを探る「Continuum Fashion」の挑戦とは？ | Fragments](https://www.fragmentsmag.com/2012/08/continuum-fashion/)
 - [Ddress | Flickr](https://www.flickr.com/photos/23551807@N04/albums/72157625386241079/with/5225804878)
 - [Processing Hour of Code | About](https://hello.processing.org/about/)
 - [The Little Black Dress Gets Deconstructed, Then Designed By You (VICE)](https://www.vice.com/en/article/the-little-black-dress-gets-deconstructed-then-designed-by-you/)
 - [Delaunay triangulation (Wikipedia)](https://en.wikipedia.org/wiki/Delaunay_triangulation)
-
-
