@@ -10,6 +10,7 @@ title: Visualizing.JP
 copyright: Yuichi Yazaki
 
 DefaultContentLanguage: ja-jp
+enableRobotsTXT: true
 hasCJKLanguage: true
 
 languages:
@@ -164,9 +165,13 @@ params:
 
     defaultImage:
         opengraph:
-            enabled: false
+            enabled: true
             local: false
-            src:
+            src: img/avatar.png
+    opengraph:
+        twitter:
+            site: visualizing_jp
+            card: summary
 
     colorScheme:
         # Display toggle
