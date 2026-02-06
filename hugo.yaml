@@ -1,6 +1,10 @@
 timeZone: "Asia/Tokyo"
 timeout: "120s"
 
+minify:
+    disableXML: true
+    minifyOutput: true
+
 baseURL: https://visualizing.jp
 languageCode: ja-jp
 theme: hugo-theme-stack
@@ -56,6 +60,11 @@ params:
             enabled: true
             local: true
             src: img/avatar.png
+
+        author:
+            name: Yuichi Yazaki
+            image: img/avatar.png
+            bio: データ可視化の実践者。Visualization Design / Information Architecture / UI/UX Design
 
     article:
         math: false
