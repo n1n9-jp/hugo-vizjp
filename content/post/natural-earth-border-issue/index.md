@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "Natural Earth配布ファイルの国境について"
+title = "Natural Earth配布ファイルの国境について(2014年記事)"
 slug = "natural-earth-border-issue"
 date = "2014-11-03"
 categories = [
