@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "統計記号マップ（Statistical Symbol Map）"
-slug = "statistical-symbol-map"
+slug = "statistical-symbol-map-example"
 date = "2020-08-04"
 description = ""
 categories = [

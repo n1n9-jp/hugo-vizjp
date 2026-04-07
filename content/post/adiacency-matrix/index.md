@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "隣接行列"
+title = "隣接行列（Adiacency Matrix）"
 slug = "adiacency-matrix"
 date = "2025-10-11"
 categories = [

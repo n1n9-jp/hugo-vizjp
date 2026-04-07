@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "幹葉図"
+title = "幹葉図 (Stem and Leaf Plot)"
 slug = "stem-and-leaf-plot"
 date = "2025-10-11"
 categories = [
