@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "リバー・ラベルつきパラレル・コーディネイト（Parallel Coordinates with River Label）"
 slug = "parallel-coordinates-with-river-label"
-date = "2026-04-18"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

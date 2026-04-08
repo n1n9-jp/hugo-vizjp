@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "タイポグラフィック・散布図（Typographic Scatterplots）"
 slug = "typographic-scatterplots"
-date = "2026-04-16"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

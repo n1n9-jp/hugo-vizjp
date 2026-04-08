@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "100%積み上げ棒グラフ（100% Stacked Bar Chart）"
 slug = "100-percent-stacked-bar-chart"
-date = "2026-04-10"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

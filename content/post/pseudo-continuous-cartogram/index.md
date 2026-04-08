@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "擬似連続カルトグラム（Pseudo-Continuous Cartogram）"
 slug = "pseudo-continuous-cartogram"
-date = "2026-04-30"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

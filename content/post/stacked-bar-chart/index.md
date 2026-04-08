@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "積み重ね棒グラフ（Stacked Bar Chart）"
 slug = "stacked-bar-chart"
-date = "2026-04-09"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

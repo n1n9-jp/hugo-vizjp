@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "スパーク・ワード（Spark Words）"
 slug = "spark-words"
-date = "2026-04-24"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

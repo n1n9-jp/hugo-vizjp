@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "段階的フロー・マップ（Graduated Flow Map）"
 slug = "graduated-flow-map"
-date = "2026-04-25"
+date = "2026-04-08"
 categories = [
     "chart"
 ]

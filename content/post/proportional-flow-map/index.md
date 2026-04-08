@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "比例的フロー・マップ（Proportional Flow Map）"
 slug = "proportional-flow-map"
-date = "2026-04-26"
+date = "2026-04-08"
 categories = [
     "chart"
 ]
