@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "メッコ・チャート（Mekko Chart）"
 slug = "mekko-chart"
-date = "2026-04-08"
+date = "2026-03-12"
 categories = [
     "chart"
 ]

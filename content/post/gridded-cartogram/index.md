@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "グリッド・カルトグラム（Gridded Cartogram）"
 slug = "gridded-cartogram"
-date = "2026-04-08"
+date = "2026-03-31"
 categories = [
     "chart"
 ]

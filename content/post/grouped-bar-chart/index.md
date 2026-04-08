@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "グループ棒グラフ（Grouped Bar Chart）"
 slug = "grouped-bar-chart"
-date = "2026-04-08"
+date = "2026-03-08"
 categories = [
     "chart"
 ]

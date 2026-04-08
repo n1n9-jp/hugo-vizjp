@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "リバー・ラベルつき折れ線グラフ（Line Chart with River Label）"
 slug = "line-chart-with-river-label"
-date = "2026-04-08"
+date = "2026-03-17"
 categories = [
     "chart"
 ]

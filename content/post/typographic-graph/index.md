@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "タイポグラフィック・グラフ（Typographic Graph）"
 slug = "typographic-graph"
-date = "2026-04-08"
+date = "2026-03-19"
 categories = [
     "chart"
 ]

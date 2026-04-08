@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "非連続的カルトグラム（Non-Continuous Cartogram）"
 slug = "non-continuous-cartogram"
-date = "2026-04-08"
+date = "2026-03-29"
 categories = [
     "chart"
 ]

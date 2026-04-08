@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "3Dイールド・カーブ（3D Yield Curve）"
 slug = "3d-yield-curve"
-date = "2026-04-08"
+date = "2026-03-15"
 categories = [
     "chart"
 ]

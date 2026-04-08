@@ -2,7 +2,7 @@
 author = "Yuichi Yazaki"
 title = "テキスト・スキミング（Text Skimming）"
 slug = "text-skimming"
-date = "2026-04-08"
+date = "2026-03-23"
 categories = [
     "chart"
 ]
