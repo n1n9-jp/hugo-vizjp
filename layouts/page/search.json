@@ -1,6 +1,7 @@
 {{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+{{- $sameLanguage := where $pages "Language.Lang" .Site.Language.Lang -}}
 {{- $notHidden := where .Site.RegularPages "Params.hidden" "!=" true -}}
-{{- $filtered := ($pages | intersect $notHidden) -}}
+{{- $filtered := ($sameLanguage | intersect $notHidden) -}}
 
 {{- $result := slice -}}
 

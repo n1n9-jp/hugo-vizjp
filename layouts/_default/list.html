@@ -12,7 +12,7 @@
             <div class="section-details">
                 <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
                 <h1 class="section-term">
-                    {{ $menuEntry := where site.Menus.main "URL" .RelPermalink }}
+                    {{ $menuEntry := where .Site.Menus.main "URL" .RelPermalink }}
                     {{ if $menuEntry }}
                         {{ (index $menuEntry 0).Name }}
                     {{ else }}

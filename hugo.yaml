@@ -6,24 +6,41 @@ minify:
     minifyOutput: true
 
 baseURL: https://visualizing.jp
-languageCode: ja-jp
+languageCode: ja-JP
 theme: hugo-theme-stack
 pagination:
     pagerSize: 10
 title: Visualizing.JP
 copyright: Yuichi Yazaki
 
-DefaultContentLanguage: ja-jp
+defaultContentLanguage: ja
+defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 hasCJKLanguage: true
 
 languages:
-    ja-jp:
+    ja:
         languageName: 日本語
+        languageCode: ja-JP
         title: Visualizing.JP
         weight: 1
         params:
             description: データ可視化にまつわる実践的な手法や実例を紹介しています。
+            sidebar:
+                subtitle: データ可視化にまつわる実践的な手法や実例を紹介しています。
+                author:
+                    bio: データ可視化の実践者。Visualization Design / Information Architecture / UI/UX Design
+    en:
+        languageName: English
+        languageCode: en-US
+        title: Visualizing.JP
+        weight: 2
+        params:
+            description: Practical methods and examples around data visualization.
+            sidebar:
+                subtitle: Practical methods and examples around data visualization.
+                author:
+                    bio: Visualization Design / Information Architecture / UI/UX Design
 
 services:
     # Change it to your Disqus shortname before using
@@ -199,43 +216,7 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main:
-        - identifier: education
-          name: 教えるための記事
-          url: /categories/education/
-          weight: 130
-          params:
-              icon: archives
-        - identifier: technology
-          name: 作るための記事
-          url: /categories/technology/
-          weight: 131
-          params:
-              icon: archives
-        - identifier: chart
-          name: チャート・カタログ
-          url: /categories/chart/
-          weight: 110
-          params:
-              icon: archives
-        - identifier: consume
-          name: 見るための記事
-          url: /categories/consume/
-          weight: 120
-          params:
-              icon: archives
-        - identifier: event
-          name: イベント
-          url: /categories/event/
-          weight: 300
-          params:
-              icon: archives
-        - identifier: principle
-          name: データ可視化の原理
-          url: /categories/principle/
-          weight: 200
-          params:
-              icon: archives
+    main: []
 
     social:
 
