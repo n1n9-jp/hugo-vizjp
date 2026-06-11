@@ -1,5 +1,5 @@
 ---
-title: "教えるための記事"
+title: "Articles for Teaching"
 image: "education.png"
 menu:
     main:

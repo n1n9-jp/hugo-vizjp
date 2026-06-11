@@ -1,9 +1,9 @@
 ---
-title: "イベント"
-image: "event.png"
+title: "Chart Catalogue"
+image: "chart.png"
 menu:
     main:
-        weight: 300
+        weight: 110
         params:
             icon: archives
 ---

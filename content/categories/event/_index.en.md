@@ -1,5 +1,5 @@
 ---
-title: "イベント"
+title: "Events"
 image: "event.png"
 menu:
     main:

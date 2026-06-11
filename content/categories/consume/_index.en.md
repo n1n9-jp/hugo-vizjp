@@ -1,5 +1,5 @@
 ---
-title: "見るための記事"
+title: "Articles for Seeing"
 image: "consume.png"
 menu:
     main:

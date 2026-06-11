@@ -1,5 +1,5 @@
 ---
-title: "データ可視化の原理"
+title: "Principles of Data Visualization"
 image: "principle.png"
 menu:
     main:

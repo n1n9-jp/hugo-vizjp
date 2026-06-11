@@ -1,5 +1,5 @@
 ---
-title: "作るための記事"
+title: "Articles for Making"
 image: "technology.png"
 menu:
     main:
