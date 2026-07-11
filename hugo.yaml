@@ -197,7 +197,7 @@ params:
     opengraph:
         twitter:
             site: visualizing_jp
-            card: summary
+            card: summary_large_image
 
     colorScheme:
         # Display toggle
