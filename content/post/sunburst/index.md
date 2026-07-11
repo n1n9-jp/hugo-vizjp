@@ -20,6 +20,10 @@ image = "images/cover-Sunburst.jpg"
 ![](images/cover-Sunburst.jpg)
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 サンバーストの起源は、階層データをコンパクトに表示するための可視化技術にさかのぼります。1990年代初頭に提案された「Treemap（ツリーマップ）」の派生形として登場しました。

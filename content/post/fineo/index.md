@@ -17,6 +17,10 @@ Fineoは、連続データを可視化するために利用されるサンキー
 
 <!--more-->
 
+## 別名
+
+なし
+
 [FINEO](https://densitydesign.org/research/fineo/)
 
 ![](images/5950577682_6066025bc0_o.jpg)

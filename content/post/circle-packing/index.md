@@ -16,6 +16,10 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 サークル・パッキングのアイデアは数学的には古く、**円充填問題（circle packing problem）**として19世紀から研究されてきました。

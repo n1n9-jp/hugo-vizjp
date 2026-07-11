@@ -17,6 +17,10 @@ image = "images/chartSuggestions-1.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![](images/chartSuggestions-1.png)
 
 [“Extreme Presentation method”](http://www.extremepresentation.com/)

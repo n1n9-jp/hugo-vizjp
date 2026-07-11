@@ -21,6 +21,10 @@ image = "images/cover.png"
 ![BioFabric](images/mainvisual.png)
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 BioFabricは、データ可視化研究者・開発者の David A. Long によって2012年に提案されたネットワーク可視化手法です。従来のノードリンク図（Node-Link Diagram）は、ノードの数やリンクの密度が増えると「ヘアボール（hairball）」と呼ばれる状態に陥り、全体構造の理解が困難になる問題がありました。

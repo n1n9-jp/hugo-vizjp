@@ -17,6 +17,10 @@ image = "images/Stock-Market-Treemap.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## FinViz
 

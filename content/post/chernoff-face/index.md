@@ -5,7 +5,7 @@ slug = "chernoff-face"
 date = "2025-09-24"
 description = ""
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",
@@ -17,6 +17,10 @@ image = "images/cover.jpeg"
 直訳すれば「K次元空間の点を顔で表現する方法」です。
 
 <!--more-->
+
+## 別名
+
+なし
 
 
 ## 多次元データをどう見せるか

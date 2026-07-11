@@ -4,7 +4,7 @@ title = "面グラフ（Area Chart）"
 slug = "area-chart"
 date = "2024-11-12"
 categories = [
-    "consume"
+    "chart"
 ]
 tags = [
     "",
@@ -15,6 +15,10 @@ image = "images/thumb_ph_vizjp.png"
 面グラフ（Area Chart）は、折れ線グラフ（Line Chart）の線の下部を塗りつぶすことで、量的な変化を面積で視覚的に表現するグラフです。時間やカテゴリに沿って変化する値の大きさを、面の広がりによって直感的に理解できるのが特徴です。単一系列の変化を示す場合にも、複数系列の積み上げ（Stacked Area Chart）によって全体と部分の関係を同時に可視化する場合にも利用されます。
 
 <!--more-->
+
+## 別名
+
+なし
 
 ## 歴史的経緯
 

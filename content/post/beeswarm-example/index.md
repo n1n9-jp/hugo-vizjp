@@ -17,6 +17,10 @@ image = "images/searchingcovid19_2.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 
 ## 人種別世帯収入の比較

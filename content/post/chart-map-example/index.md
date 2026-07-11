@@ -16,6 +16,10 @@ image = "images/1_bUT8E8oOLmX_my3TTFhHfA.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## ナショナルアトラス
 

@@ -20,6 +20,10 @@ image = "images/cover.png"
 
 ![](images/circos-sample-panel.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 コード・ダイアグラムの概念は、1970年代の「サーキュラーネットワーク図（Circular Network Diagram）」に端を発します。

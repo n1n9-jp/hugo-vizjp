@@ -17,6 +17,10 @@ image = "images/1_8-t2eXWZyBAQ90tCjZEfvA.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## 「映画の辺境と流れ：ボックスオフィスの領収書 1986–2008」
 

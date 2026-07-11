@@ -18,6 +18,10 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ファネル（漏斗）という概念がマーケティングの文脈で使われるようになったのは、1898年にE・セント・エルモ・ルイス（E. St. Elmo Lewis）が提唱したAIDAモデル（Attention → Interest → Desire → Action）に遡ります。消費者が購買に至るまでの心理プロセスを段階的に捉えるこの考え方は、20世紀を通じてマーケティング理論の基盤となりました。

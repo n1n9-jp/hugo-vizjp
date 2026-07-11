@@ -16,6 +16,10 @@ MapLibre Tile（MLT）は、Mapbox Vector Tile（MVT）をベースにしつつ�
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 本記事では、まず「ベクタタイルとは何か」を押さえた上で、MLTとMVTの違い、そしてMapLibre上での利用状況を、一次情報をもとに整理します。  
 

@@ -20,6 +20,10 @@ image = "images/cover.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![](images/mainvisual.png)
 
 ## チャートの見方

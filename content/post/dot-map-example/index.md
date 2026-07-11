@@ -17,6 +17,10 @@ image = "images/racialdotmap.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 作例
 
 ### 地元民と観光客 写真撮影場所の違い（東京編）

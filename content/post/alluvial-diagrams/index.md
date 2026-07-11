@@ -19,6 +19,10 @@ image = "images/cover.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 沖積図の原型は19世紀末のサンキー・ダイアグラムに遡りますが、現在のような「Alluvial Diagram」という名称は、2005年にRosvall & Bergstromによる論文 “Maps of random walks on complex networks reveal community structure” で広く知られるようになりました。その後、R言語のパッケージ「ggalluvial」（作者：Jason Cory Brunson）などの登場により、社会科学・生物情報学・ネットワーク分析など幅広い分野で利用が広がりました。
 

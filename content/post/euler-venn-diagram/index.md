@@ -5,7 +5,7 @@ slug = "euler-venn-diagram"
 date = "2020-08-03"
 description = ""
 categories = [
-    "chart"
+    "consume"
 ]
 tags = [
     "",

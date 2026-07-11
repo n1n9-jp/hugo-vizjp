@@ -17,6 +17,10 @@ image = "images/charts-by-types.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ### Infographic Taxonomy
 
 ![](images/NWZ_2013_Infographics_5W_v1-1.png)

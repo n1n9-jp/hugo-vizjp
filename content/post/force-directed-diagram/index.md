@@ -22,6 +22,10 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 この手法の原型は1980年代に登場し、特にEades（1984）とFruchterman & Reingold（1991）の研究が代表的です。Eadesはばねモデル（spring model）を提案し、ノード間をばねのように結ぶ力学モデルを用いました。その後、Fruchterman-Reingoldアルゴリズムが汎用的な力学シミュレーション手法として確立し、現代の多くの可視化ライブラリ（Gephi, D3.jsなど）に実装されています。

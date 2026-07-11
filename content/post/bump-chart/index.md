@@ -22,6 +22,10 @@ image = "images/G-20-countries-ranked.png"
 
 ![](images/G-20-countries-ranked.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 「誰が最初に発明したのか」を一人に帰すのは難しいですが、バンプ・チャートの原型はすでに19世紀に見られます。

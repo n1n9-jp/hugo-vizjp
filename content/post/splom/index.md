@@ -19,6 +19,10 @@ image = "images/1_bPYf9c07ZBLRvgxCbCkPSQ.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![](images/1_bPYf9c07ZBLRvgxCbCkPSQ.png)
 
 

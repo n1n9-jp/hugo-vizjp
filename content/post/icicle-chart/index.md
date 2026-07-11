@@ -17,6 +17,10 @@ image = "images/MonashUniversity_IcicleChart.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 Icicle Chartは、1980年代にH. KruskalとJ. Landwehrらによって提案された「表示密度の高い階層構造可視化」の一種として登場しました。その後、Ben Shneiderman（1992年）のツリーマップとともに階層構造の可視化研究で発展し、現在はD3.jsやPlotlyなど多くの可視化ライブラリで標準的に実装されています。

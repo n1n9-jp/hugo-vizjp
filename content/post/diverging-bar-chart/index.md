@@ -18,6 +18,10 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 分岐的棒グラフのルーツは、棒グラフそのものの歴史に遡ります。棒グラフは1786年にウィリアム・プレイフェア（William Playfair）が『The Commercial and Political Atlas』で初めて体系的に用いました。その後、統計学やデータ可視化の発展にともない、正負の値を同一の軸上で比較する手法が求められるようになりました。

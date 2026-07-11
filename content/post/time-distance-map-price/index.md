@@ -16,6 +16,10 @@ image = "images/time-distance-price-closeup.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![1798年以降の旅費の低下を表す地図](images/time-distance-price-full.png)
 
 

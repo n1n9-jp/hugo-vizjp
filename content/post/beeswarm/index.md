@@ -21,6 +21,10 @@ image = "images/cover-beeswarm.png"
 
 ![](images/cover-beeswarm.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ビースウォーム・プロットは1990年代にR言語の`beeswarm`パッケージで一般化されました。以降、Pythonの`seaborn.swarmplot()`や`plotly.express.strip()`など、多くのデータ可視化ライブラリで採用されています。

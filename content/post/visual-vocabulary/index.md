@@ -17,6 +17,10 @@ FTのAlan Smith氏が公開している、チャートの分類や種類を視�
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![Visual Vocabulary](images/Visual-vocabulary-JP.png)
 
 - [Visual Vocabulary](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary-JP.pdf)

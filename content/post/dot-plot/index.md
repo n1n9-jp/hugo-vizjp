@@ -21,6 +21,10 @@ image = "images/thumb_ph_vizjp.png"
 <!--more-->
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ドット・プロットの概念は19世紀末の統計教育に端を発しますが、1970年代にジョン・W・トゥキー（John W. Tukey）が提唱した「探索的データ解析（Exploratory Data Analysis）」の中で改めて注目されました。

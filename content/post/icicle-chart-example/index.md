@@ -17,6 +17,10 @@ image = "images/MonashUniversity_IcicleChart.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 
 ## dotMemory分析チャート

@@ -17,6 +17,10 @@ image = "images/Dogchangev4.jpeg"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## #Election2016 米大統領候補のTwitterバズ
 

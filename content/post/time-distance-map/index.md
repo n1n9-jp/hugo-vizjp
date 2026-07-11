@@ -16,6 +16,10 @@ image = "images/time-distance-closeup.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ![過去200年間にわたる旅の加速を表す地図](images/time-distance-full.png)
 
 

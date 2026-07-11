@@ -18,6 +18,10 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## チャートの見方
 

@@ -20,6 +20,10 @@ image = "images/1_3-NrFUaSTYJHquNYv0P6Ag.jpeg"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 パラレル・コーディネイトの概念は、1959年にAlfred Inselbergによって提唱され、1985年のIEEE論文「The Plane with Parallel Coordinates」で体系化されました。彼はユークリッド空間内の幾何学的構造を平行座標系で表現することを可能にし、後に高次元空間の視覚分析にも応用されました。その後、1990年代以降、可視化ツールや統計ソフトウェア（特にTableauやMatplotlib、D3.jsなど）に実装され、現在ではデータサイエンス教育でも標準的な可視化手法として扱われています。

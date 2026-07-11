@@ -19,6 +19,10 @@ image = "images/thumb_ph_vizjp.png"
 ![](images/mainvisual.png)
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ツリー構造を円形レイアウトで表現する発想は、19世紀の系統樹や分類図に見られますが、コンピュータ上でのRadial Treeとしての実装は1980〜1990年代の情報可視化研究に端を発します。特に1991年のEadesによる「radial layout for general trees」や、1995年のKozo Sugiyamaらによる階層的グラフ描画アルゴリズムが基礎理論として知られています。

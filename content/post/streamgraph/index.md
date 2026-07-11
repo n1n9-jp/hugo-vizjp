@@ -19,6 +19,10 @@ image = "images/1_8-t2eXWZyBAQ90tCjZEfvA.png"
 <!--more-->
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 Susan Havreらが2000年に出願登録したThemeRiverという名称で論文を発表しています。

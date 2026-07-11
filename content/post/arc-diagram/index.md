@@ -18,6 +18,10 @@ image = "images/cover.png"
 
 ![](images/mainvisual.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 アーク・ダイアグラムという表現は、Martin Wattenbergが2002年に発表した「The Shape of Song」プロジェクトで一般に知られるようになりました。この作品では、音楽の中で繰り返されるフレーズやモチーフをアークでつなぎ、音楽構造を視覚化しています。

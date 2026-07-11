@@ -17,6 +17,10 @@ image = "images/1_vCq7XE-jQGK_OxfmIUiA7w.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## 過去7日間のアメリカにおける郡（county）別COVID-19人死亡者数
 

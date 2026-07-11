@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "統計記号マップ（Statistical Symbol Map）"
+title = "統計記号マップ（Statistical Symbol Map）の作例"
 slug = "statistical-symbol-map-example"
 date = "2020-08-04"
 description = ""
@@ -21,6 +21,10 @@ image = "images/1064px-Minard-carte-viande-1858.png"
 
 
 <!--more-->
+
+## 別名
+
+なし
 
 
 ## 作例

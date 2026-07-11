@@ -17,6 +17,10 @@ image = "images/null_earth.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## wind map
 

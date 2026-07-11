@@ -18,6 +18,10 @@ image = "images/thumb_ph_vizjp.png"
 
 ![](images/mainvisual.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 アイソタイプ（ISOTYPE: International System Of Typographic Picture Education）は、1920年代のウィーンで誕生しました。社会学者・哲学者であるオットー・ノイラートは、社会・経済データを一般市民にわかりやすく伝えるための視覚言語の必要性を提唱し、ウィーン社会・経済博物館（Gesellschafts- und Wirtschaftsmuseum）の展示で「ウィーン・メソッド（Vienna Method of Pictorial Statistics）」として実践しました。

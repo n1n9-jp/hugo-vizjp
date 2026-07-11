@@ -22,6 +22,10 @@ image = "images/thumb_ph_vizjp.png"
 ![](images/mainvisual-3.png)
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ハイパーボリック・ツリーは、1990年代半ばに研究者Tamara Munznerらによってスタンフォード大学およびXerox PARCで開発されました。特に1995年の論文「Hyperbolic Tree: A Visualization for Browsing Large Hierarchies」において、その理論的背景と実装手法が提示されました。当時は大規模な情報構造（例えばファイルシステムやウェブサイト階層）のナビゲーションを課題としており、従来のツリー図に代わる新しいインタフェースとして注目を集めました。その後、Javaアプレット版「Hyperbolic Browser」としてウェブ上でも広く公開され、視覚化研究やユーザインタフェース設計に大きな影響を与えました。

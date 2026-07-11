@@ -17,6 +17,12 @@ image = "images/personality-insights_OprahWinfrey.png"
 
 <!--more-->
 
+## 別名
+
+- Radial Icicle
+- Radial Treemap
+- Ring Bracket
+
 
 
 ## わずか90社で人為的な地球温暖化の3分の2を排出
@@ -69,7 +75,3 @@ image = "images/personality-insights_OprahWinfrey.png"
 
 [https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1](https://www.researchgate.net/publication/335847129_Evolutionary_and_functional_patterns_of_shared_gene_neighbourhood_in_fungi/figures?lo=1)
 
-
-## 他の呼び名
-
-Radial Icicle、Radial Treemap、Ring Bracketなどと呼ばれることもあります。

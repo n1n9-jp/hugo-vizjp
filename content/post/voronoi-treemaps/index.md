@@ -19,6 +19,10 @@ image = "images/cover.png"
 ![](images/mainvisual-2.png)
 ![](images/mainvisual-1.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ボロノイ・ツリーマップは、2000年代初頭にドイツの研究者によって提案された比較的新しい手法です。特にMichael BalzerとOliver Deussen（2005年）による論文「Voronoi Treemaps for the Visualization of Hierarchical Data」が基礎となっています。この研究は、従来の長方形ツリーマップの欠点（縦横比の極端な矩形、視認性の低下など）を克服する目的で行われました。その後、D3.jsやProcessingなどの可視化ライブラリでもボロノイ分割を用いた階層可視化が実装され、改良が重ねられています。円形の外枠を用いるバリエーションは、全体の形状がコンパクトにまとまり、視覚的なバランスが良い表現として注目されています。

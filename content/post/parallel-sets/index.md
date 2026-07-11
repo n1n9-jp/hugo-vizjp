@@ -20,6 +20,10 @@ image = "images/Parallel_Sets.png"
 
 ![](images/Parallel_Sets.png)
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 パラレル・セットは、2000年代にドイツの可視化研究者 **Robert Kosara** と **Jörg Hauser** によって開発されました。彼らの論文「Parallel Sets: Interactive Exploration and Visual Analysis of Categorical Data」（2003年、IEEE InfoVis）で初めて発表され、後に Kosara の博士論文（2007年）でも理論的基盤が整理されています。この手法は、連続データに適したパラレル・コーディネーツを、カテゴリデータにも適用できるように拡張する目的で設計されました。

@@ -16,6 +16,10 @@ image = "images/thumb_ph_vizjp.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 密度プロットの基礎は、統計学における **カーネル密度推定（Kernel Density Estimation, KDE）** にあります。

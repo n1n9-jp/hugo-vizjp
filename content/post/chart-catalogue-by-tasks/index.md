@@ -17,6 +17,10 @@ image = "images/chart_chooser.jpg"
 
 <!--more-->
 
+## 別名
+
+なし
+
 
 ## The Data Visualization Catalogue
 

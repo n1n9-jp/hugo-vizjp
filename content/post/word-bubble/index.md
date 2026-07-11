@@ -18,6 +18,10 @@ image = "images/BubbleChart-1.png"
 <!--more-->
 
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 ワードクラウドの発展形として登場したワード・バブルは、視覚的な美しさと構造的な明快さを重視した可視化手法として、2010年代以降に広く普及しました。初期には「Word Bubble Chart」や「Bubble Cloud」と呼ばれ、特にIBMのMany EyesやGoogle Charts、Tableau Publicなどの可視化ツールで実装例が見られました。その後、D3.jsを用いたインタラクティブな実装が普及し、データ・ジャーナリズムや教育分野でも用いられるようになりました。

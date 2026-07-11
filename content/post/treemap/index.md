@@ -17,6 +17,10 @@ image = "images/Stock-Market-Treemap.png"
 
 <!--more-->
 
+## 別名
+
+なし
+
 ## 歴史的経緯
 
 1990年、Ben ShneidermanとMaryland Human-Computer Interaction Labの学生たちが、空間充填技術を使ってファイルの階層を視覚化する方法として考案しました。

@@ -20,6 +20,12 @@ image = "images/cover-quantity–proportion.jpeg"
 
 <!--more-->
 
+## 別名
+
+- モザイク・プロット（Mosaic Plot）
+- マリメッコ・チャート（Marimekko Chart）
+- メッコ・チャート（Mekko Chart）
+
 ## 量率グラフの例
 
 ### 棒グラフと円の面積で表現した総額
