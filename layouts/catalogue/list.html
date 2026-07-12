@@ -1,0 +1,164 @@
+{{ define "main" }}
+{{ $items := sort .Site.Data.catalogue.items "weight" }}
+<section class="catalogue-container">
+    <header class="catalogue-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    <nav class="catalogue-filters" aria-label="{{ T "catalogue.filter.aria" }}">
+        <div class="catalogue-filters__row">
+            <button class="catalogue-filter is-active" type="button" data-filter="all" aria-pressed="true">{{ T "catalogue.filter.all" }}</button>
+            {{ range slice "numeric" "text" "time" "location" "structure" "relationship" }}
+                <button class="catalogue-filter" type="button" data-filter="{{ . }}" aria-pressed="false">{{ T (printf "catalogue.category.%s" .) }}</button>
+            {{ end }}
+        </div>
+
+        {{ $groups := slice
+            (dict "parent" "numeric" "subs" (slice "distribution-summary" "distribution-individual" "breakdown" "comparison" "multivariate" "correlation"))
+            (dict "parent" "text" "subs" (slice "text-frequency" "text-sets" "typographic" "paragraphs"))
+            (dict "parent" "time" "subs" (slice "linear-cartesian" "cyclic-cartesian" "linear-polar" "cyclic-polar"))
+            (dict "parent" "location" "subs" (slice "point-geometry" "line-geometry" "area-geometry" "multivariate-geometry"))
+            (dict "parent" "structure" "subs" (slice "tree-connection" "tree-juxtaposition" "tree-nested"))
+            (dict "parent" "relationship" "subs" (slice "network-connection" "network-flow" "network-matrix"))
+        }}
+        {{ range $groups }}
+            <div class="catalogue-subfilters" data-parent="{{ .parent }}" hidden>
+                <button class="catalogue-subfilter is-active" type="button" data-subfilter="all" aria-pressed="true">{{ T "catalogue.filter.all" }}</button>
+                {{ range .subs }}
+                    <button class="catalogue-subfilter" type="button" data-subfilter="{{ . }}" aria-pressed="false">{{ T (printf "catalogue.subcategory.%s" .) }}</button>
+                {{ end }}
+            </div>
+        {{ end }}
+    </nav>
+
+    <p class="catalogue-count" aria-live="polite">
+        <span id="catalogue-visible-count">{{ len $items }}</span> {{ T "catalogue.count.of" }} {{ len $items }} {{ T "catalogue.count.suffix" }}
+    </p>
+
+    <div class="catalogue-grid">
+        {{ range $items }}
+            {{ $page := $.Site.GetPage (printf "/post/%s" .article_slug) }}
+            {{ if $page }}
+                <a class="catalogue-card" href="{{ $page.RelPermalink }}"
+                   data-categories="{{ delimit .categories "," }}"
+                   data-subcategories="{{ delimit .subcategories "," }}">
+                    <img class="catalogue-card__image" src="{{ .thumbnail | relURL }}" alt="" width="480" height="320" loading="lazy">
+                    <span class="catalogue-card__body">
+                        <strong class="catalogue-card__title">{{ if eq $.Lang "en" }}{{ .title_en }}{{ else }}{{ .title }}{{ end }}</strong>
+                        <span class="catalogue-card__subtitle">{{ if eq $.Lang "en" }}{{ .title }}{{ else }}{{ .title_en }}{{ end }}</span>
+                    </span>
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": {{ .Title | jsonify }},
+    "description": {{ .Description | jsonify }},
+    "numberOfItems": {{ len $items }},
+    "itemListElement": [
+        {{ range $index, $item := $items }}
+            {{ $page := $.Site.GetPage (printf "/post/%s" $item.article_slug) }}
+            {{ if $index }},{{ end }}
+            {
+                "@type": "ListItem",
+                "position": {{ add $index 1 }},
+                "name": {{ cond (eq $.Lang "en") $item.title_en $item.title | jsonify }},
+                "url": {{ $page.Permalink | jsonify }},
+                "image": {{ absURL $item.thumbnail | jsonify }}
+            }
+        {{ end }}
+    ]
+}
+</script>
+
+<script>
+(function () {
+    var root = document.querySelector('.catalogue-container');
+    if (!root) return;
+    var categoryButtons = root.querySelectorAll('[data-filter]');
+    var subfilterRows = root.querySelectorAll('[data-parent]');
+    var cards = root.querySelectorAll('.catalogue-card');
+    var count = root.querySelector('#catalogue-visible-count');
+    var activeCategory = 'all';
+    var activeSubcategory = 'all';
+
+    function selectButtons(buttons, attribute, value) {
+        buttons.forEach(function (button) {
+            var selected = button.getAttribute(attribute) === value;
+            button.classList.toggle('is-active', selected);
+            button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+        });
+    }
+
+    function updateCards() {
+        var visible = 0;
+        cards.forEach(function (card) {
+            var categories = (card.dataset.categories || '').split(',');
+            var subcategories = (card.dataset.subcategories || '').split(',');
+            var show = (activeCategory === 'all' || categories.indexOf(activeCategory) !== -1) &&
+                (activeSubcategory === 'all' || subcategories.indexOf(activeSubcategory) !== -1);
+            card.hidden = !show;
+            if (show) visible += 1;
+        });
+        count.textContent = visible;
+    }
+
+    function setCategory(category) {
+        activeCategory = category;
+        activeSubcategory = 'all';
+        selectButtons(categoryButtons, 'data-filter', category);
+        subfilterRows.forEach(function (row) {
+            row.hidden = category === 'all' || row.dataset.parent !== category;
+            selectButtons(row.querySelectorAll('[data-subfilter]'), 'data-subfilter', 'all');
+        });
+        updateCards();
+    }
+
+    function setSubcategory(value, row) {
+        activeSubcategory = value;
+        selectButtons(row.querySelectorAll('[data-subfilter]'), 'data-subfilter', value);
+        updateCards();
+    }
+
+    function updateHash() {
+        var hash = activeCategory === 'all' ? '' : activeCategory + (activeSubcategory === 'all' ? '' : '/' + activeSubcategory);
+        history.pushState(null, '', location.pathname + location.search + (hash ? '#' + hash : ''));
+    }
+
+    function applyHash() {
+        var parts = location.hash.slice(1).split('/');
+        var category = parts[0] || 'all';
+        var categoryExists = Array.prototype.some.call(categoryButtons, function (button) { return button.dataset.filter === category; });
+        if (!categoryExists) category = 'all';
+        setCategory(category);
+        if (parts[1]) {
+            subfilterRows.forEach(function (row) {
+                if (row.dataset.parent !== category) return;
+                var exists = Array.prototype.some.call(row.querySelectorAll('[data-subfilter]'), function (button) { return button.dataset.subfilter === parts[1]; });
+                if (exists) setSubcategory(parts[1], row);
+            });
+        }
+    }
+
+    categoryButtons.forEach(function (button) {
+        button.addEventListener('click', function () { setCategory(button.dataset.filter); updateHash(); });
+    });
+    subfilterRows.forEach(function (row) {
+        row.querySelectorAll('[data-subfilter]').forEach(function (button) {
+            button.addEventListener('click', function () { setSubcategory(button.dataset.subfilter, row); updateHash(); });
+        });
+    });
+    window.addEventListener('popstate', applyHash);
+    applyHash();
+})();
+</script>
+{{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}{{ end }}

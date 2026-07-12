@@ -1,4 +1,6 @@
 <footer class="article-footer">
+    {{ partial "article/components/catalogue-tools.html" . }}
+
     {{ partial "article/components/tags" . }}
 
     {{ $showDate := not .Date.IsZero }}

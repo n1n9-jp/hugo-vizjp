@@ -1,3 +1,78 @@
 breadcrumb:
     home:
         other: Home
+
+catalogue.filter.all:
+    other: All
+catalogue.filter.aria:
+    other: Filter by chart category
+catalogue.count.of:
+    other: shown / all
+catalogue.count.suffix:
+    other: charts
+catalogue.category.numeric:
+    other: Numeric
+catalogue.category.text:
+    other: Text
+catalogue.category.time:
+    other: Time
+catalogue.category.location:
+    other: Location
+catalogue.category.structure:
+    other: Structure
+catalogue.category.relationship:
+    other: Relationship
+catalogue.subcategory.distribution-summary:
+    other: Distribution (Summary)
+catalogue.subcategory.distribution-individual:
+    other: Distribution (Individual)
+catalogue.subcategory.breakdown:
+    other: Breakdown
+catalogue.subcategory.comparison:
+    other: Comparison
+catalogue.subcategory.multivariate:
+    other: Multivariate Comparison
+catalogue.subcategory.correlation:
+    other: Correlation
+catalogue.subcategory.text-frequency:
+    other: Text Frequency
+catalogue.subcategory.text-sets:
+    other: Text Sets
+catalogue.subcategory.typographic:
+    other: Typographic Symbols
+catalogue.subcategory.paragraphs:
+    other: Paragraph-centric
+catalogue.subcategory.linear-cartesian:
+    other: Linear Time × Cartesian
+catalogue.subcategory.cyclic-cartesian:
+    other: Cyclic Time × Cartesian
+catalogue.subcategory.linear-polar:
+    other: Linear Time × Polar
+catalogue.subcategory.cyclic-polar:
+    other: Cyclic Time × Polar
+catalogue.subcategory.point-geometry:
+    other: Point Geometry
+catalogue.subcategory.line-geometry:
+    other: Line Geometry
+catalogue.subcategory.area-geometry:
+    other: Area Geometry
+catalogue.subcategory.multivariate-geometry:
+    other: Multivariate Geometry
+catalogue.subcategory.tree-connection:
+    other: "Tree: Connection"
+catalogue.subcategory.tree-juxtaposition:
+    other: "Tree: Juxtaposition"
+catalogue.subcategory.tree-nested:
+    other: "Tree: Nested"
+catalogue.subcategory.network-connection:
+    other: "Network: Connection"
+catalogue.subcategory.network-flow:
+    other: "Network: Flow"
+catalogue.subcategory.network-matrix:
+    other: "Network: Matrix"
+catalogue.tools.title:
+    other: Create this chart
+catalogue.tools.description:
+    other: Create this chart in your browser with a tool from the Data Visualization Toolbox.
+catalogue.tools.action:
+    other: Open tool →

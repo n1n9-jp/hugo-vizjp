@@ -1,0 +1,42 @@
+{{ $articleSlug := replaceRE "/$" "" .Slug }}
+{{ $matches := where .Site.Data.catalogue.items "article_slug" $articleSlug }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "tools" slice }}
+{{ $scratch.Set "urls" slice }}
+{{ range $matches }}
+    {{ range .tools }}
+        {{ if not (in ($scratch.Get "urls") .url) }}
+            {{ $scratch.Add "tools" (slice .) }}
+            {{ $scratch.Add "urls" (slice .url) }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ $tools := $scratch.Get "tools" }}
+{{ if gt (len $tools) 0 }}
+<section class="catalogue-tools" aria-labelledby="catalogue-tools-title">
+    <h2 id="catalogue-tools-title">{{ T "catalogue.tools.title" }}</h2>
+    <p>{{ T "catalogue.tools.description" }}</p>
+    <div class="catalogue-tools__grid">
+        {{ range $tools }}
+        <a class="catalogue-tool" href="{{ .url }}" target="_blank" rel="noopener"
+           data-catalogue-tool-link data-chart-slug="{{ $articleSlug }}" data-tool-name="{{ .name }}">
+            <img src="{{ .image }}" alt="" width="160" height="90" loading="lazy">
+            <span><strong>{{ .name }}</strong><small>{{ T "catalogue.tools.action" }}</small></span>
+        </a>
+        {{ end }}
+    </div>
+</section>
+<script>
+document.querySelectorAll('[data-catalogue-tool-link]').forEach(function (link) {
+    link.addEventListener('click', function () {
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'catalogue_tool_click', {
+                chart_slug: link.dataset.chartSlug,
+                tool_name: link.dataset.toolName,
+                link_url: link.href
+            });
+        }
+    });
+});
+</script>
+{{ end }}

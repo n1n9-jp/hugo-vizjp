@@ -1,0 +1,1235 @@
+---
+items:
+- id: 3d-bar-chart-map
+  article_slug: 3d-bar-chart-map
+  title: 3D棒グラフ・マップ
+  title_en: 3D Bar Chart Map
+  categories:
+  - location
+  subcategories:
+  - point-geometry
+  weight: 600
+  thumbnail: catalogue/3d-bar-chart-map.png
+  tools: []
+- id: 3d-choropleth-map
+  article_slug: 3d-choropleth-map
+  title: 3Dコロプレス・マップ
+  title_en: 3D Choropleth Map
+  categories:
+  - location
+  subcategories:
+  - multivariate-geometry
+  weight: 730
+  thumbnail: catalogue/3d-choropleth-map.png
+  tools: []
+- id: adiacency-matrix
+  article_slug: adiacency-matrix
+  title: 隣接行列
+  title_en: Adjacency Matrix
+  categories:
+  - relationship
+  subcategories:
+  - network-matrix
+  weight: 890
+  thumbnail: catalogue/adiacency-matrix.png
+  tools: []
+- id: alluvial-diagram
+  article_slug: alluvial-diagrams
+  title: 沖積図
+  title_en: Alluvial Diagram
+  categories:
+  - relationship
+  subcategories:
+  - network-flow
+  weight: 870
+  thumbnail: catalogue/alluvial-diagram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: arc-diagram
+  article_slug: arc-diagram
+  title: アーク・ダイアグラム
+  title_en: Arc Diagram
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 810
+  thumbnail: catalogue/arc-diagram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: area-chart
+  article_slug: area-chart
+  title: 面グラフ
+  title_en: Area chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 430
+  thumbnail: catalogue/area-chart.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: bar-chart
+  article_slug: bar-chart
+  title: 棒グラフ
+  title_en: Bar Chart
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 150
+  thumbnail: catalogue/bar-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: beeswarm-plot
+  article_slug: beeswarm
+  title: ビー・スウォーム・プロット
+  title_en: Beeswarm Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-individual
+  weight: 70
+  thumbnail: catalogue/beeswarm-plot.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: bio-fabric
+  article_slug: bio-fabric
+  title: バイオ・ファプリック
+  title_en: Bio Fabric
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 820
+  thumbnail: catalogue/bio-fabric.png
+  tools: []
+- id: box-andwhisker-plot
+  article_slug: box-and‐whisker-plot
+  title: 箱ひげ図
+  title_en: Box-And‐Whisker Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-summary
+  weight: 20
+  thumbnail: catalogue/box-andwhisker-plot.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: bubble-chart
+  article_slug: bubble-chart
+  title: バブル・チャート
+  title_en: Bubble Chart
+  categories:
+  - numeric
+  subcategories:
+  - correlation
+  weight: 270
+  thumbnail: catalogue/bubble-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: bullet-graph
+  article_slug: bullet-graph
+  title: ブレット・グラフ
+  title_en: Bullet Graph
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 190
+  thumbnail: catalogue/bullet-graph.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: bump-chart
+  article_slug: bump-chart
+  title: バンプ・チャート
+  title_en: Bump chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 500
+  thumbnail: catalogue/bump-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: calendar-heat-map
+  article_slug: calendar-heat-map
+  title: カレンダー・ヒートマップ
+  title_en: Calendar Heat Map
+  categories:
+  - time
+  subcategories:
+  - cyclic-cartesian
+  weight: 520
+  thumbnail: catalogue/calendar-heat-map.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: candlestick-chart
+  article_slug: candlestick-chart
+  title: ローソク足チャート
+  title_en: Candlestick Chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 480
+  thumbnail: catalogue/candlestick-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: chartmaps
+  article_slug: chart-map
+  title: 統計チャート・ マップ
+  title_en: Chartmaps
+  categories:
+  - location
+  subcategories:
+  - multivariate-geometry
+  weight: 710
+  thumbnail: catalogue/chartmaps.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: chord-diagram
+  article_slug: chord-diagram
+  title: コード・ダイアグラム
+  title_en: Chord Diagram
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 840
+  thumbnail: catalogue/chord-diagram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: choropleth-map
+  article_slug: choropleth-map
+  title: コロプレス・マップ
+  title_en: Choropleth Map
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 630
+  thumbnail: catalogue/choropleth-map.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: circle-packing
+  article_slug: circle-packing
+  title: サークル・パッキング
+  title_en: Circle Packing
+  categories:
+  - structure
+  subcategories:
+  - tree-nested
+  weight: 790
+  thumbnail: catalogue/circle-packing.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: circular-chart
+  article_slug: circular-chart
+  title: サーキュラー・チャー ト
+  title_en: Circular Chart
+  categories:
+  - time
+  subcategories:
+  - linear-polar
+  weight: 530
+  thumbnail: catalogue/circular-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Cytoscape
+    url: https://cytoscape.dataviz.jp/
+    image: images/cover_cytoscape.jpg
+- id: circular-layout
+  article_slug: circular-layout
+  title: サーキュラー・レイアウト
+  title_en: Circular Layout
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 830
+  thumbnail: catalogue/circular-layout.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Cytoscape
+    url: https://cytoscape.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_cytoscape.jpg
+  - name: Gephi Lite
+    url: https://gephi-lite.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_gephi-lite.jpg
+- id: connected-scatterplot
+  article_slug: connected-scatterplot
+  title: 連結散布図
+  title_en: Connected Scatterplot
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 450
+  thumbnail: catalogue/connected-scatterplot.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: continuous-cartogram
+  article_slug: continuous-cartogram
+  title: 連続的カルトグラム
+  title_en: Continuous Cartogram
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 650
+  thumbnail: catalogue/continuous-cartogram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: correlogram
+  article_slug: correlogram
+  title: コレログラム
+  title_en: Correlogram
+  categories:
+  - numeric
+  subcategories:
+  - correlation
+  weight: 290
+  thumbnail: catalogue/correlogram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: dasymetric-map
+  article_slug: dasymetric-map
+  title: デシメトリック・マップ
+  title_en: Dasymetric Map
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 640
+  thumbnail: catalogue/dasymetric-map.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: density-plot
+  article_slug: density-plot
+  title: 密度プロット
+  title_en: Density Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-summary
+  weight: 30
+  thumbnail: catalogue/density-plot.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: diverging-bar-chart
+  article_slug: diverging-bar-chart
+  title: 分岐的棒グラフ
+  title_en: Diverging Bar Chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 460
+  thumbnail: catalogue/diverging-bar-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: diverging-stacked-bar-chart
+  article_slug: diverging-stacked-bar-chart
+  title: 分岐的積み重ね棒グラフ
+  title_en: Diverging Stacked Bar Chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 470
+  thumbnail: catalogue/diverging-stacked-bar-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: dot-density-map
+  article_slug: dot-density-map
+  title: ドット密度マップ
+  title_en: Dot Density Map
+  categories:
+  - location
+  subcategories:
+  - point-geometry
+  weight: 570
+  thumbnail: catalogue/dot-density-map.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: dot-map
+  article_slug: dot-map
+  title: ドット・マップ
+  title_en: Dot Map
+  categories:
+  - location
+  subcategories:
+  - point-geometry
+  weight: 560
+  thumbnail: catalogue/dot-map.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: dot-plot
+  article_slug: dot-plot
+  title: ドット・ プロット
+  title_en: Dot Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-individual
+  weight: 60
+  thumbnail: catalogue/dot-plot.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: force-directed-diagram
+  article_slug: force-directed-diagram
+  title: フォース・ダイレクテッド・ダイアグラム
+  title_en: Force Directed Diagram
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 800
+  thumbnail: catalogue/force-directed-diagram.png
+  tools:
+  - name: Cytoscape
+    url: https://cytoscape.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_cytoscape.jpg
+  - name: Gephi Lite
+    url: https://gephi-lite.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_gephi-lite.jpg
+- id: gantt-chart
+  article_slug: gantt-chart
+  title: ガント・チャート
+  title_en: Gantt Chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 490
+  thumbnail: catalogue/gantt-chart.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: gauge-chart
+  article_slug: gauge-chart
+  title: 半円グラフ
+  title_en: Gauge Chart
+  categories:
+  - numeric
+  subcategories:
+  - breakdown
+  weight: 140
+  thumbnail: catalogue/gauge-chart.png
+  tools: []
+- id: geography-based-connection
+  article_slug: geography-based-connection
+  title: ジオグラフィ・ベースド・コネクション
+  title_en: Geography Based Connection
+  categories:
+  - relationship
+  subcategories:
+  - network-connection
+  weight: 860
+  thumbnail: catalogue/geography-based-connection.png
+  tools: []
+- id: graduated-flow-map
+  article_slug: graduated-flow-map
+  title: 段階的フロー・マップ
+  title_en: Graduated Flow Map
+  categories:
+  - location
+  subcategories:
+  - line-geometry
+  weight: 610
+  thumbnail: catalogue/graduated-flow-map.png
+  tools: []
+- id: graduated-symbol-map
+  article_slug: graduated-symbol-map
+  title: 段階的シンボル・マップ
+  title_en: Graduated Symbol Map
+  categories:
+  - location
+  subcategories:
+  - point-geometry
+  weight: 580
+  thumbnail: catalogue/graduated-symbol-map.png
+  tools: []
+- id: gridded-cartogram
+  article_slug: gridded-cartogram
+  title: グリッド・カルトグラム
+  title_en: Gridded Cartogram
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 680
+  thumbnail: catalogue/gridded-cartogram.png
+  tools: []
+- id: grouped-bar-chart
+  article_slug: grouped-bar-chart
+  title: グループ棒グラフ
+  title_en: Grouped Bar Chart
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 170
+  thumbnail: catalogue/grouped-bar-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: heatmap
+  article_slug: heatmap
+  title: ヒートマップ
+  title_en: Heatmap
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 180
+  thumbnail: catalogue/heatmap.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: histogram
+  article_slug: histogram
+  title: ヒストグラム
+  title_en: Histogram
+  categories:
+  - numeric
+  subcategories:
+  - distribution-summary
+  weight: 10
+  thumbnail: catalogue/histogram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: icicle-plots
+  article_slug: icicle-chart
+  title: つららチャー ト
+  title_en: Icicle Plots
+  categories:
+  - structure
+  subcategories:
+  - tree-juxtaposition
+  weight: 760
+  thumbnail: catalogue/icicle-plots.png
+  tools: []
+- id: isolines-map
+  article_slug: isolines-map
+  title: アイソライン・マップ
+  title_en: Isolines Map
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 690
+  thumbnail: catalogue/isolines-map.png
+  tools: []
+- id: isopleths-map
+  article_slug: isopleths-map
+  title: アイソプレス・マップ
+  title_en: Isopleths Map
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 700
+  thumbnail: catalogue/isopleths-map.png
+  tools: []
+- id: isotype-chart
+  article_slug: isotype-chart
+  title: アイソタイプ・チャート
+  title_en: Isotype Chart
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 210
+  thumbnail: catalogue/isotype-chart.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: line-chart-with-river-labei
+  article_slug: line-chart-with-river-label
+  title: リバー・ラベルつき折れ線グラフ
+  title_en: Line Chart with River Label
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 350
+  thumbnail: catalogue/line-chart-with-river-labei.png
+  tools: []
+- id: line-chart
+  article_slug: line-chart
+  title: 折れ線グラフ
+  title_en: Line Chart
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 420
+  thumbnail: catalogue/line-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: mekko-chart
+  article_slug: mekko-chart
+  title: メッコ・チャート
+  title_en: Mekko Chart
+  categories:
+  - numeric
+  subcategories:
+  - breakdown
+  weight: 110
+  thumbnail: catalogue/mekko-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: noncontinuous-cartogram
+  article_slug: non-continuous-cartogram
+  title: 非連続的カルトグラム
+  title_en: Non‐Continuous Cartogram
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 660
+  thumbnail: catalogue/noncontinuous-cartogram.png
+  tools: []
+- id: parallel-coordinates-with-river-label
+  article_slug: parallel-coordinates-with-river-label
+  title: リバー・ラベルつきパラレル・コーディネイト
+  title_en: Parallel Coordinates with River Label
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 360
+  thumbnail: catalogue/parallel-coordinates-with-river-label.png
+  tools: []
+- id: parallel-coordinates
+  article_slug: parallel-coordinates
+  title: パラレル・コーディネイト
+  title_en: Parallel Coordinates
+  categories:
+  - numeric
+  subcategories:
+  - multivariate
+  weight: 240
+  thumbnail: catalogue/parallel-coordinates.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: parallel-sets
+  article_slug: parallel-sets
+  title: パラレル・セット
+  title_en: Parallel Sets
+  categories:
+  - numeric
+  subcategories:
+  - multivariate
+  weight: 250
+  thumbnail: catalogue/parallel-sets.png
+  tools: []
+- id: pie-chart
+  article_slug: pie-chart
+  title: 円グラフ
+  title_en: Pie Chart
+  categories:
+  - numeric
+  subcategories:
+  - breakdown
+  weight: 90
+  thumbnail: catalogue/pie-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: polar-area-chart-numeric
+  article_slug: polar-area-chart
+  title: ポーラー・エリア・チャート
+  title_en: Polar Area Chart
+  categories:
+  - numeric
+  subcategories:
+  - multivariate
+  weight: 230
+  thumbnail: catalogue/polar-area-chart-numeric.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: polar-area-chart-time
+  article_slug: polar-area-chart
+  title: ポーラー・エリア・チャート
+  title_en: Polar Area Chart
+  categories:
+  - time
+  subcategories:
+  - linear-polar
+  weight: 540
+  thumbnail: catalogue/polar-area-chart-time.png
+  tools: []
+- id: proportional-flow-map
+  article_slug: proportional-flow-map
+  title: 比例的フロー・マップ
+  title_en: Proportional Flow Map
+  categories:
+  - location
+  subcategories:
+  - line-geometry
+  weight: 620
+  thumbnail: catalogue/proportional-flow-map.png
+  tools: []
+- id: proportional-symbol-map
+  article_slug: proportional-symbol-map
+  title: 比例的シンボル・マップ
+  title_en: Proportional Symbol Map
+  categories:
+  - location
+  subcategories:
+  - point-geometry
+  weight: 590
+  thumbnail: catalogue/proportional-symbol-map.png
+  tools: []
+- id: pseudo-continuous-cartogram
+  article_slug: pseudo-continuous-cartogram
+  title: 擬似連続カルトグラム
+  title_en: Pseudo-Continuous Cartogram
+  categories:
+  - location
+  subcategories:
+  - area-geometry
+  weight: 670
+  thumbnail: catalogue/pseudo-continuous-cartogram.png
+  tools: []
+- id: radar-chart
+  article_slug: radar-chart
+  title: レーダー・チャート
+  title_en: Radar Chart
+  categories:
+  - numeric
+  subcategories:
+  - multivariate
+  weight: 220
+  thumbnail: catalogue/radar-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: radial-trees
+  article_slug: radial-trees
+  title: 放射樹
+  title_en: Radial Trees
+  categories:
+  - structure
+  subcategories:
+  - tree-connection
+  weight: 750
+  thumbnail: catalogue/radial-trees.png
+  tools: []
+- id: ridgeline-plot
+  article_slug: ridgeline-plot
+  title: リッジライン・プロット
+  title_en: Ridgeline Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-summary
+  weight: 50
+  thumbnail: catalogue/ridgeline-plot.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: sankey-diagram
+  article_slug: sankey-diagram
+  title: サンキー・ダイアグラム
+  title_en: Sankey Diagram
+  categories:
+  - relationship
+  subcategories:
+  - network-flow
+  weight: 880
+  thumbnail: catalogue/sankey-diagram.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Sankeymatic
+    url: https://sankeymatic.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_sankeymatic.png
+- id: scatterplot-matrix
+  article_slug: scatterplot-matrix
+  title: 散布図行列
+  title_en: Scatterplot Matrix
+  categories:
+  - numeric
+  subcategories:
+  - correlation
+  weight: 280
+  thumbnail: catalogue/scatterplot-matrix.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: scatterplot
+  article_slug: scatterplot
+  title: 散布図
+  title_en: Scatterplot
+  categories:
+  - numeric
+  subcategories:
+  - correlation
+  weight: 260
+  thumbnail: catalogue/scatterplot.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: spark-words
+  article_slug: spark-words
+  title: スパーク・ワード
+  title_en: Spark words
+  categories:
+  - text
+  subcategories:
+  - paragraphs
+  weight: 410
+  thumbnail: catalogue/spark-words.png
+  tools: []
+- id: spiral-chart
+  article_slug: spiral-chart
+  title: スパイラル・チャー ト
+  title_en: Spiral Chart
+  categories:
+  - time
+  subcategories:
+  - cyclic-polar
+  weight: 550
+  thumbnail: catalogue/spiral-chart.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: stacked-bar-chart-numeric
+  article_slug: stacked-bar-chart
+  title: 積み重ね棒グラフ
+  title_en: Stacked Bar Chart
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 160
+  thumbnail: catalogue/stacked-bar-chart-numeric.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: stacked-densities
+  article_slug: 100-percent-stacked-bar-chart
+  title: 100%積み上げ密度グラフ
+  title_en: Stacked Densities
+  categories:
+  - numeric
+  subcategories:
+  - breakdown
+  weight: 130
+  thumbnail: catalogue/stacked-densities.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: stem-and-leaf-piot
+  article_slug: stem-and-leaf-plot
+  title: 幹葉図
+  title_en: Stem and Leaf Plot
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 330
+  thumbnail: catalogue/stem-and-leaf-piot.png
+  tools: []
+- id: stream-graph
+  article_slug: streamgraph
+  title: ストリームグラフ
+  title_en: Stream graph
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 440
+  thumbnail: catalogue/stream-graph.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+  - name: Data Illustrator
+    url: https://data-illustrator.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_data-illustrator.jpg
+- id: strip-chart
+  article_slug: strip-chart
+  title: ストリップ・チャート
+  title_en: Strip Chart
+  categories:
+  - numeric
+  subcategories:
+  - distribution-individual
+  weight: 80
+  thumbnail: catalogue/strip-chart.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: sunburst
+  article_slug: sunburst
+  title: サンバースト
+  title_en: Sunburst
+  categories:
+  - structure
+  subcategories:
+  - tree-juxtaposition
+  weight: 770
+  thumbnail: catalogue/sunburst.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: symbol-chart
+  article_slug: symbol-chart
+  title: シンボル・チャート
+  title_en: Symbol Chart
+  categories:
+  - numeric
+  subcategories:
+  - comparison
+  weight: 200
+  thumbnail: catalogue/symbol-chart.png
+  tools: []
+- id: text-skimming
+  article_slug: text-skimming
+  title: テキスト・スキミング
+  title_en: Text Skimming
+  categories:
+  - text
+  subcategories:
+  - paragraphs
+  weight: 400
+  thumbnail: catalogue/text-skimming.png
+  tools: []
+- id: timedistance-diagram
+  article_slug: time–distance-diagram
+  title: 時間―距離図
+  title_en: Time―Distance Diagram
+  categories:
+  - time
+  subcategories:
+  - linear-cartesian
+  weight: 510
+  thumbnail: catalogue/timedistance-diagram.png
+  tools: []
+- id: treemaps
+  article_slug: treemap
+  title: ツリーマップ
+  title_en: Treemaps
+  categories:
+  - structure
+  subcategories:
+  - tree-nested
+  weight: 780
+  thumbnail: catalogue/treemaps.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: typographic-graph
+  article_slug: typographic-graph
+  title: タイポグラフィック・グラフ
+  title_en: Typographic Graph
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 370
+  thumbnail: catalogue/typographic-graph.png
+  tools: []
+- id: typographic-mekko-chart
+  article_slug: typographic-mekko-chart
+  title: タイポグラフィック・メッコ・チャート
+  title_en: Typographic Mekko chart
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 380
+  thumbnail: catalogue/typographic-mekko-chart.png
+  tools: []
+- id: typographic-scatterpiots
+  article_slug: typographic-scatterplots
+  title: タイポグラフィック・散布図
+  title_en: Typographic Scatterplots
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 340
+  thumbnail: catalogue/typographic-scatterpiots.png
+  tools: []
+- id: typographic-stacked-bar-chart
+  article_slug: typographic-stacked-bar-chart
+  title: タイポグラフィック・積み重ね棒グラフ
+  title_en: Typographic Stacked Bar Chart
+  categories:
+  - text
+  subcategories:
+  - typographic
+  weight: 390
+  thumbnail: catalogue/typographic-stacked-bar-chart.png
+  tools: []
+- id: vector-field-map
+  article_slug: vector-field-map
+  title: ベクトル・ フィールド・マップ
+  title_en: Vector Field Map
+  categories:
+  - location
+  subcategories:
+  - multivariate-geometry
+  weight: 720
+  thumbnail: catalogue/vector-field-map.png
+  tools:
+  - name: Vega Editor
+    url: https://vega-editor.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_vega-editor.jpg
+- id: venn-diagram-euler-diagram
+  article_slug: venn-diagram
+  title: ベン図、オイラー図
+  title_en: Venn Diagram, Euler Diagram
+  categories:
+  - text
+  subcategories:
+  - text-sets
+  weight: 320
+  thumbnail: catalogue/venn-diagram-euler-diagram.png
+  tools: []
+- id: vertical-trees-horizontal-trees
+  article_slug: vertical-tree-horizontal-trees
+  title: 垂直樹、水平樹
+  title_en: Vertical Trees, Horizontal Trees
+  categories:
+  - structure
+  subcategories:
+  - tree-connection
+  weight: 740
+  thumbnail: catalogue/vertical-trees-horizontal-trees.png
+  tools: []
+- id: violin-plot
+  article_slug: violin-plot
+  title: バイオリン・プロット
+  title_en: Violin Plot
+  categories:
+  - numeric
+  subcategories:
+  - distribution-summary
+  weight: 40
+  thumbnail: catalogue/violin-plot.png
+  tools:
+  - name: RAWGraphs2
+    url: https://rawgraphs.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_rawgraphs-db.jpg
+- id: waffle-chart
+  article_slug: waffle-chart
+  title: ワッフル・ チャー ト
+  title_en: Waffle Chart
+  categories:
+  - numeric
+  subcategories:
+  - breakdown
+  weight: 120
+  thumbnail: catalogue/waffle-chart.png
+  tools: []
+- id: word-bubbie
+  article_slug: word-bubble
+  title: ワード・バブル
+  title_en: Word Bubble
+  categories:
+  - text
+  subcategories:
+  - text-frequency
+  weight: 310
+  thumbnail: catalogue/word-bubbie.png
+  tools:
+  - name: Word Cloud
+    url: https://word-cloud.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_wordcloud.png
+- id: word-crowd
+  article_slug: word-clouds
+  title: ワード・ クラウド
+  title_en: Word Cloud
+  categories:
+  - text
+  subcategories:
+  - text-frequency
+  weight: 300
+  thumbnail: catalogue/word-crowd.png
+  tools:
+  - name: Word Cloud
+    url: https://word-cloud.dataviz.jp/
+    image: https://www.dataviz.jp/images/cover_wordcloud.png

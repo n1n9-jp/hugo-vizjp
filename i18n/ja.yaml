@@ -1,3 +1,78 @@
 breadcrumb:
     home:
         other: トップ
+
+catalogue.filter.all:
+    other: すべて
+catalogue.filter.aria:
+    other: チャートの分類で絞り込む
+catalogue.count.of:
+    other: 件 / 全
+catalogue.count.suffix:
+    other: 件
+catalogue.category.numeric:
+    other: 数値
+catalogue.category.text:
+    other: 言葉
+catalogue.category.time:
+    other: 時間
+catalogue.category.location:
+    other: 位置
+catalogue.category.structure:
+    other: 構造
+catalogue.category.relationship:
+    other: 関係
+catalogue.subcategory.distribution-summary:
+    other: 分布を知りたい（要約値）
+catalogue.subcategory.distribution-individual:
+    other: 分布を知りたい（個別値）
+catalogue.subcategory.breakdown:
+    other: 内訳を知りたい
+catalogue.subcategory.comparison:
+    other: 比較をしたい
+catalogue.subcategory.multivariate:
+    other: 多変量で比較したい
+catalogue.subcategory.correlation:
+    other: 相関関係を知りたい
+catalogue.subcategory.text-frequency:
+    other: テキストの頻度
+catalogue.subcategory.text-sets:
+    other: テキストの集合
+catalogue.subcategory.typographic:
+    other: 図形記号の文字記号化
+catalogue.subcategory.paragraphs:
+    other: 段落の文章を主役とする
+catalogue.subcategory.linear-cartesian:
+    other: 線形時間×直交座標系
+catalogue.subcategory.cyclic-cartesian:
+    other: 周期時間×直交座標系
+catalogue.subcategory.linear-polar:
+    other: 線形時間×極座標系
+catalogue.subcategory.cyclic-polar:
+    other: 周期時間×極座標系
+catalogue.subcategory.point-geometry:
+    other: 点ジオメトリー
+catalogue.subcategory.line-geometry:
+    other: 線ジオメトリー
+catalogue.subcategory.area-geometry:
+    other: 面ジオメトリー
+catalogue.subcategory.multivariate-geometry:
+    other: 多変量ジオメトリー
+catalogue.subcategory.tree-connection:
+    other: ツリー構造のコネクション型
+catalogue.subcategory.tree-juxtaposition:
+    other: ツリー構造の面型（並置）
+catalogue.subcategory.tree-nested:
+    other: ツリー構造の面型（入れ子）
+catalogue.subcategory.network-connection:
+    other: ネットワーク構造のコネクション型
+catalogue.subcategory.network-flow:
+    other: ネットワーク構造のフロー型
+catalogue.subcategory.network-matrix:
+    other: ネットワーク構造のマトリックス型
+catalogue.tools.title:
+    other: このチャートを作る
+catalogue.tools.description:
+    other: データ可視化の道具箱では、ブラウザ上でこのチャートを作成できます。
+catalogue.tools.action:
+    other: ツールを開く →
