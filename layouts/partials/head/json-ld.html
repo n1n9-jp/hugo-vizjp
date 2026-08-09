@@ -1,4 +1,4 @@
-{{ if .IsPage }}
+{{ if and .IsPage (ne .RelPermalink "/profile/") }}
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
