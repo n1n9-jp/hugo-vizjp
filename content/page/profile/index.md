@@ -6,6 +6,7 @@ images:
 
 date: 2026-08-09
 lastmod: 2026-08-09
+isCanonicalProfile: true
 layout: "article"
 slug: "profile"
 menu:
@@ -91,27 +92,27 @@ Cleveland & McGill の知覚精度、Mackinlay の APT、Wilkinson の
 
 ## 登壇・講演
 
-### 2025
+**2025**
 **2025.12** Data Visualization Japan
 Data Sketches をめぐる対話（Shirley Wu との対話）
 
-### 2023
+**2023**
 **2023.04** BOOST / PLAY / MEASURE — バンコク 🌐
 データ可視化を活用して、クリエイターとしてのスキルを向上させよう
 主催：タイ政府クリエイティブ・エコノミー省／FabCafe Bangkok
 
-### 2019
+**2019**
 **2019.09** Global Investigative Journalism Conference 2019 — ドイツ 🌐
 Lightning Round: New Digital Tools — JUDGIT!（共同発表：Yuko Ryu）
 
 **2019.06** Eyeo Festival 2019 — ミネアポリス 🌐
 Open Data Day logo generator
 
-### 2018
+**2018**
 **2018.03** IxDA Tokyo #3 Community Talk
 データビジュアライゼーション × オープンデータ
 
-### 2017
+**2017**
 **2017.06** ハッカーズチャンプルー
 データ・ビジュアライゼーションによる地域や社会との関わり方
 
@@ -124,21 +125,21 @@ Open Data Day logo generator
 **2017.01** 立川市役所 第16回 Flat Place たまにわ
 触れる可視化 — データビジュアライゼーションとは何か
 
-### 2016
+**2016**
 **2016.10** 青森観光アプリ開発コンテスト
 RESASではじめる観光データ分析
 
 **2016.08** アーバンデータチャレンジ2016＠南砺
 データビジュアライゼーションによる合意形成の活性化
 
-### 2015
+**2015**
 **2015.10** Baltic Design Week 'MADE IN JAPAN' — リトアニア 🌐
 Generative design in Japan
 
 **2015.10** 地理情報システム学会 第24回研究発表大会 特別セッション
 データビジュアライゼーションの現在（共同登壇：嘉山陽一）
 
-### 2014
+**2014**
 **2014.11** 可視化情報学会 第20回ビジュアリゼーションカンファレンス
 ウェブにおけるデータビジュアリゼーションの潮流
 
@@ -218,7 +219,7 @@ info@notation.co.jp
 
 ## プレスキット
 
-登壇告知・記事掲載などにご自由にお使いください。
+以下の略歴とプロフィール写真は、本ページのライセンス表記にかかわらず、用途を問わず自由にご利用いただけます。
 
 - [プロフィール写真](/img/photo_yuichiyazaki.png)
 - 略歴テキスト（下記）
