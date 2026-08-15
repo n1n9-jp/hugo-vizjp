@@ -59,8 +59,3 @@
   from = "/simon-rogers-workflow"
   to = "https://journalism.visualizing.jp/simon-rogers-workflow"
   status = 301
-
-[[redirects]]
-  from = "/wp-corona-simulation"
-  to = "https://journalism.visualizing.jp/wp-corona-simulation"
-  status = 301

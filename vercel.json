@@ -60,11 +60,6 @@
       "source": "/simon-rogers-workflow",
       "destination": "https://journalism.visualizing.jp/simon-rogers-workflow",
       "statusCode": 301
-    },
-    {
-      "source": "/wp-corona-simulation",
-      "destination": "https://journalism.visualizing.jp/wp-corona-simulation",
-      "statusCode": 301
     }
   ]
 }
