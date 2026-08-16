@@ -20,13 +20,9 @@ As Ben Fry wrote in *Visualizing Data*, the field spans statistics, data mining,
 
 To move people through data visualization, readers need to feel that the subject connects to them. The site therefore treats storytelling methods alongside technical points.
 
-## About the Author
+## Operator
 
-Yuichi Yazaki is a practitioner working on data visualization and its broader adoption.
-
-He is the founder of Data Visualization Japan, representative partner of Notation LLC, and a Yahoo! News Expert author.
-
-![](images/profile_yazaki.jpg)
+This site is operated by [Yuichi Yazaki](/profile/). See the profile page for background, publications, training, and teaching.
 
 ## Contact
 
