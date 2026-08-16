@@ -84,17 +84,11 @@ Pentagram のアーカイブは、壁を取り巻くものを *data murals* と�
 
 公式ページが *data-detail* として並べている近景が、凡例の記号が壁の上でどう重なるかです。縦の細線が時間の目盛りになり、色の帯・斜線・短冊が変数になります。離れると壁紙で、近づくとデータです。
 
-<div class="roc-data-detail" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0.6rem;margin:1.25em 0;">
-
 ![data-detail](images/data-detail-1.jpg)
-
 ![data-detail](images/data-detail-2.jpg)
 
 ![data-detail](images/data-detail-3.jpg)
-
 ![data-detail](images/data-detail-4.jpg)
-
-</div>
 
 Il Post は開幕時に、八つの視点として「自然、宇宙、動物界、社会、幸福、科学と技術」を括弧書きしました。凡例と照らすと、欠けていたのは **Hope** です。Elle Decor がキュレーション側の Laura Maeran の案内として伝えた「出生、人々の物語、動物界、希望、幸福」は、Hope と Happiness を別章として置く完成形とつながります。
 

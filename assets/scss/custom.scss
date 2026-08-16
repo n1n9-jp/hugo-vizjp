@@ -188,16 +188,6 @@
     color: var(--card-text-color-secondary);
 }
 
-.roc-data-detail p {
-    margin: 0;
-}
-
-.roc-data-detail img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 @media (max-width: 768px) {
     .catalogue-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
