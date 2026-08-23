@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f7f4ee"/>
+  <text x="80" y="88" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#6b6358">Tukey, The Future of Data Analysis, 1962, pp. 4-5</text>
+  <text x="80" y="148" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="42" font-weight="600" fill="#1c1915">科学であるための3つの条件</text>
+
+  <g>
+    <rect x="80" y="200" width="448" height="220" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="110" y="250" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">a1</text>
+    <text x="110" y="310" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="32" font-weight="600" fill="#1c1915">知的内容</text>
+    <text x="110" y="360" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#5c564e">intellectual content</text>
+  </g>
+  <g>
+    <rect x="576" y="200" width="448" height="220" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="606" y="250" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">a2</text>
+    <text x="606" y="300" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#1c1915">理解可能な形への</text>
+    <text x="606" y="342" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#1c1915">組織化</text>
+    <text x="606" y="388" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="18" fill="#5c564e">organization in an understandable form</text>
+  </g>
+  <g>
+    <rect x="1072" y="200" width="448" height="220" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="1102" y="250" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">a3</text>
+    <text x="1102" y="300" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#1c1915">経験による検証を</text>
+    <text x="1102" y="342" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#1c1915">最終基準とする</text>
+    <text x="1102" y="388" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="18" fill="#5c564e">test of experience as ultimate validity</text>
+  </g>
+
+  <g>
+    <rect x="80" y="470" width="1440" height="160" rx="8" fill="#1c1915"/>
+    <text x="120" y="530" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#f7f4ee">データ分析</text>
+    <text x="120" y="576" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#d9d0c4">a1 / a2 / a3 をすべて満たす  -  科学（遍在する問題によって定義される）</text>
+    <text x="1280" y="560" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="36" font-weight="600" fill="#f7f4ee">通る</text>
+  </g>
+
+  <g>
+    <rect x="80" y="660" width="1440" height="160" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="120" y="720" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="28" font-weight="600" fill="#1c1915">数学</text>
+    <text x="120" y="766" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">最終基準は論理的一貫性と証明可能性  -  この検定では科学ではない</text>
+    <text x="1240" y="750" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="36" font-weight="600" fill="#1c1915">通らない</text>
+  </g>
+</svg>

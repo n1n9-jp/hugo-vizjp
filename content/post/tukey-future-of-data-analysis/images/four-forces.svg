@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f7f4ee"/>
+  <text x="80" y="88" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#6b6358">Tukey, The Future of Data Analysis, 1962</text>
+  <text x="80" y="148" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="40" font-weight="600" fill="#1c1915">データ分析を動かす4つの力</text>
+  <text x="80" y="198" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">統計理論は、新しい科学の一部にすぎない、と書いた。</text>
+
+  <g>
+    <rect x="80" y="250" width="700" height="270" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="120" y="320" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#8a8175">1</text>
+    <text x="120" y="380" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="32" font-weight="600" fill="#1c1915">統計の形式理論</text>
+    <text x="120" y="430" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">the formal theories of statistics</text>
+    <text x="120" y="478" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">当時の読者にとって、これが衝撃だった</text>
+  </g>
+  <g>
+    <rect x="820" y="250" width="700" height="270" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="860" y="320" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#8a8175">2</text>
+    <text x="860" y="380" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="32" font-weight="600" fill="#1c1915">計算機と表示装置</text>
+    <text x="860" y="430" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">computers and display devices</text>
+    <text x="860" y="478" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">加速する、と書いた（1962年）</text>
+  </g>
+  <g>
+    <rect x="80" y="560" width="700" height="270" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="120" y="630" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#8a8175">3</text>
+    <text x="120" y="690" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="32" font-weight="600" fill="#1c1915">より大きく、より多いデータ</text>
+    <text x="120" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">more and ever larger bodies of data</text>
+    <text x="120" y="788" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">多くの分野からの挑戦</text>
+  </g>
+  <g>
+    <rect x="820" y="560" width="700" height="270" rx="8" fill="#fff" stroke="#1c1915" stroke-width="2"/>
+    <text x="860" y="630" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#8a8175">4</text>
+    <text x="860" y="690" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="32" font-weight="600" fill="#1c1915">量化の広がり</text>
+    <text x="860" y="740" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="22" fill="#5c564e">quantification in an ever wider variety of disciplines</text>
+    <text x="860" y="788" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif" font-size="20" fill="#8a8175">対象分野が増え続ける</text>
+  </g>
+</svg>
