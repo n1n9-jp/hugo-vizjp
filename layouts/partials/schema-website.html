@@ -1,0 +1,33 @@
+{{- $personName := cond (eq .Language.Lang "en") "Yuichi Yazaki" .Site.Params.author.name -}}
+{{- $org := dict
+    "@context" "https://schema.org"
+    "@type" "Organization"
+    "@id" "https://visualizing.jp/#organization"
+    "name" "Visualizing.JP"
+    "url" "https://visualizing.jp/"
+    "inLanguage" (slice "ja-JP" "en-US")
+    "founder" (dict "@type" "Person" "@id" .Site.Params.author.orcid "name" $personName)
+    "sameAs" (slice "https://twitter.com/visualizing_jp" "https://www.youtube.com/@visualizingjp")
+-}}
+{{- $searchTarget := dict
+    "@type" "EntryPoint"
+    "urlTemplate" (printf "%ssearch/?keyword={search_term_string}" .Site.Home.Permalink)
+-}}
+{{- $searchAction := dict
+    "@type" "SearchAction"
+    "target" $searchTarget
+    "query-input" "required name=search_term_string"
+-}}
+{{- $website := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "@id" (printf "%s#website" .Site.Home.Permalink)
+    "name" .Site.Title
+    "url" .Site.Home.Permalink
+    "inLanguage" .Language.LanguageCode
+    "description" (or .Site.Params.description .Site.Params.sidebar.subtitle)
+    "publisher" (dict "@id" "https://visualizing.jp/#organization")
+    "potentialAction" $searchAction
+-}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ $org | jsonify | safeJS }}</script>

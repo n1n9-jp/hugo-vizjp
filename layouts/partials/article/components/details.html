@@ -1,5 +1,6 @@
+{{- $isSingle := .Scratch.Get "isSingleArticle" -}}
 <div class="article-details">
-    {{ if .IsPage }}
+    {{ if $isSingle }}
     {{ partial "components/breadcrumb.html" . }}
     {{ end }}
     {{ if .Params.categories }}
@@ -14,16 +15,30 @@
     {{ end }}
 
     <div class="article-title-wrapper">
+        {{ if $isSingle }}
+        <h1 class="article-title">
+            <a href="{{ .RelPermalink }}">
+                {{- .Title -}}
+            </a>
+        </h1>
+        {{ else }}
         <h2 class="article-title">
             <a href="{{ .RelPermalink }}">
                 {{- .Title -}}
             </a>
         </h2>
+        {{ end }}
 
         {{ with .Params.description }}
+        {{ if $isSingle }}
+        <p class="article-subtitle">
+            {{ . }}
+        </p>
+        {{ else }}
         <h3 class="article-subtitle">
             {{ . }}
         </h3>
+        {{ end }}
         {{ end }}
     </div>
 

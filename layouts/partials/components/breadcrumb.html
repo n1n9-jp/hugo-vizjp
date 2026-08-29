@@ -1,12 +1,44 @@
-<nav class="article-breadcrumb">
-    <a href="{{ .Site.BaseURL | relLangURL }}">{{ T "breadcrumb.home" }}</a>
+{{- $home := .Site.Home -}}
+{{- $position := 1 -}}
+{{- $listItems := slice -}}
+{{- $listItems = $listItems | append (dict
+    "@type" "ListItem"
+    "position" $position
+    "name" (T "breadcrumb.home")
+    "item" $home.Permalink
+) -}}
+<nav class="article-breadcrumb" aria-label="breadcrumb">
+    <a href="{{ $home.RelPermalink }}">{{ T "breadcrumb.home" }}</a>
     {{- range .Ancestors.Reverse -}}
+        {{- $skipSection := and (eq .Kind "section") (or (eq .Section "post") (eq .Section "page")) -}}
+        {{- if and .Title (ne .Permalink $home.Permalink) (not $skipSection) -}}
+            {{- $position = add $position 1 -}}
+            {{- $listItems = $listItems | append (dict
+                "@type" "ListItem"
+                "position" $position
+                "name" .Title
+                "item" .Permalink
+            ) -}}
     <span>/</span>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{- end -}}
     {{- end -}}
+    {{- $position = add $position 1 -}}
+    {{- $listItems = $listItems | append (dict
+        "@type" "ListItem"
+        "position" $position
+        "name" .Title
+        "item" .Permalink
+    ) -}}
     <span>/</span>
     <span class="current">{{ .Title }}</span>
 </nav>
+{{- $breadcrumb := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $listItems
+-}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 
 <style>
     .article-breadcrumb {

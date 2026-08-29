@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# OpenAI (training, live fetch, search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (training, live fetch, search)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Google Gemini / Vertex AI (does not affect Google Search)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity search index
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: {{ "ja/sitemap.xml" | absURL }}
+Sitemap: {{ "en/sitemap.xml" | absURL }}
