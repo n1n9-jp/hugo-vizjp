@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Isopleth Map"
 slug = "isopleths-map"
 date = "2025-12-10"
+description = "An isopleth map is a thematic map that represents the distribution of a continuous quantity by coloring areas bounded by lines of equal value."
 categories = [
     "chart"
 ]

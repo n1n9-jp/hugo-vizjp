@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Tableauのカラースキーム進化史"
 slug = "tableau-color-scheme"
 date = "2026-02-16"
+description = "データビジュアライゼーションのツールとして世界的に人気のTableau。そこに欠かせない要素が「カラースキーム」です。"
 categories = [
     "technology"
 ]

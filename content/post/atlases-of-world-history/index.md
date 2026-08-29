@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "歴史地図帳によって歪められた歴史認識 -Atlases of world history-"
 slug = "atlases-of-world-history"
 date = "2025-10-10"
+description = "この作品「 Atlases of world history 」は、歴史地図帳によってどのように私たちの「歴史認識」が歪められているのかを可視化したデータ・ヴィジュアライゼーションです。"
 categories = [
     "consume"
 ]

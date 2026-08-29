@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "交通インフラの内訳を可視化した統計チャート地図"
 slug = "chart-map-transportation-infrastructure"
 date = "2025-09-15"
+description = "1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。"
 categories = [
     "technology"
 ]

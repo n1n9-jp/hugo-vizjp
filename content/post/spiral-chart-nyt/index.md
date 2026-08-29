@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "NYT「Covid-19スパイラル可視化」をめぐる議論と代替案"
 slug = "spiral-chart-nyt"
 date = "2025-09-28"
+description = "2022年1月、The New York Times が公開した「新型コロナウイルスの新規感染者数（米国）」を示す螺旋（スパイラル）型チャートは、データビジュアライゼーションの世界で大きな注目を集めました。"
 categories = [
     "consume"
 ]

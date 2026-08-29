@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "三次元円筒座標散布図（Three-dimensional Cylindrical Polar Scatter Graph）"
 slug = "3d-cylindrical-polar-scatter-graph"
 date = "2025-10-12"
+description = "三次元円筒座標散布図（Three-dimensional Cylindrical Polar Scatter Graph）は、円筒座標系（角度・半径・高さ）を用いて三変数の関係を立体的に可視化する散布図です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アイソタイプ・チャート（Isotype Chart）"
 slug = "isotype-chart"
 date = "2025-10-11"
+description = "アイソタイプ・チャート（Isotype Chart）は、ピクトグラム（絵文字記号）を用いて数量を視覚的に比較する図表です。"
 categories = [
     "chart"
 ]

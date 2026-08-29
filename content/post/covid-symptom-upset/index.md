@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "三つ以上の項目の重なりはベン図では理解できない…COVID-19の場合"
 slug = "covid-symptom-upset"
 date = "2020-08-14"
+description = "U.K.で利用されている、民間企業ZOEによる COVID Symptom Tracker というアプリがあります。"
 categories = [
     "chart"
 ]

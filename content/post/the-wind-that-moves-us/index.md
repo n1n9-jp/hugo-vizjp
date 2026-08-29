@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Wind That Moves Us"
 slug = "the-wind-that-moves-us"
 date = "2026-01-02"
+description = "The Wind That Moves Us」は、リサーチ／デザインスタジオのDomestic Data Streamersが、ファッションブランドMangoの40周年に合わせて制作した、データ駆動の彫刻（データ・スカルプチャー）です。"
 categories = [
     "consume"
 ]

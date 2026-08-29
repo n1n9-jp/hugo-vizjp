@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ドット密度マップ（Dot Density Map）の事例"
 slug = "dot-density-map-example"
 date = "2020-08-04"
-description = ""
+description = "ドット密度マップ（Dot Density Map）の事例です。"
 categories = [
     "chart"
 ]

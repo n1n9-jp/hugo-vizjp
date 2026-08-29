@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Spiral Chart"
 slug = "spiral-chart"
 date = "2025-10-11"
+description = "A spiral chart represents time or cyclical change along a spiral path."
 categories = [
     "chart"
 ]

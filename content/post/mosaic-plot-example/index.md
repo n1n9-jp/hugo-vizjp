@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "モザイク・プロット（Mosaic Plot）の事例"
 slug = "mosaic-plot-example"
 date = "2020-08-03"
-description = ""
+description = "モザイク・プロット（Mosaic Plot）の事例を紹介します。"
 categories = [
     "chart"
 ]

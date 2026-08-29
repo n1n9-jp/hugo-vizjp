@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "棒グラフレース（Bar Chart Race）とは"
 slug = "chart-race"
 date = "2026-06-11"
+description = "棒グラフレースは、時間とともに変化するデータを棒グラフでアニメーション表示し、順位や値の変動を「レース」のように視覚化する手法です。"
 categories = [
     "technology"
 ]

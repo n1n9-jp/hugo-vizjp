@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Classified Maps and Choropleth Maps: Data Processing and Map Representation"
 slug = "classification-and-coloplethmap"
 date = "2025-11-08"
+description = "When a statistical map colors regions by value, it may be called a classified map or a choropleth map."
 categories = [
     "consume"
 ]

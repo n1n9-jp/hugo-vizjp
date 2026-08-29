@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "コレログラム（Correlogram）"
 slug = "correlogram"
 date = "2025-10-11"
+description = "コレログラム（Correlogram）は 複数の変数間の相関関係を行列形式で可視化するチャート です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Isoline Map"
 slug = "isolines-map"
 date = "2025-12-10"
+description = "An isoline map visualizes continuous spatial change by connecting points with the same value."
 categories = [
     "chart"
 ]

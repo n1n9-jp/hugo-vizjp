@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "視覚化された天才たち - Harold Bloomとカバラの樹形図"
 slug = "geniuses-visualized"
 date = "2025-10-03"
-description = ""
+description = "文芸批評家ハロルド・ブルームが著書『天才（Genius）』で取り上げた100人の「規範となる創造者」たちを題材にしたインフォグラフィック作品があります。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "コミュニケーションの媒介としてのデータ可視化"
 slug = "data-visualization-as-a-medium-for-communication"
 date = "2020-09-01"
+description = "情報の科学と技術」2020年8月号 特集:RDF/SPARQLの検索と可視化にて初出の論考です。"
 categories = [
     "principle"
 ]

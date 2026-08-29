@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Text Skimming"
 slug = "text-skimming"
 date = "2026-03-23"
+description = "Text skimming is a visualization technique that overlays data onto body text through systematic typographic attributes such as bold, italic, font size, color, and underline."
 categories = [
     "chart"
 ]

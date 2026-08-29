@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Visual Vocabulary"
 slug = "visual-vocabulary"
 date = "2020-08-30"
-description = ""
+description = "FTのAlan Smith氏が公開している、チャートの分類や種類を視覚的にまとめた一覧です。"
 categories = [
     "chart"
 ]

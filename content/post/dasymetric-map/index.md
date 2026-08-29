@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "デシメトリック・マップ（Dasymetric Map）"
 slug = "dasymetric-map"
 date = "2020-08-11"
+description = "デシメトリック・マップ（Dasymetric Map）は、補助データを用いて統計データを再配分し、実際の空間分布をより正確に示す主題地図です。"
 categories = [
     "chart"
 ]

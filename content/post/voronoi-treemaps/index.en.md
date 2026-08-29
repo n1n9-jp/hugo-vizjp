@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Circle Voronoi Treemaps"
 slug = "voronoi-treemaps"
 date = "2025-10-11"
+description = "Circle Voronoi treemaps visualize hierarchical data by partitioning an area into irregular polygons using Voronoi diagrams."
 categories = [
     "chart"
 ]

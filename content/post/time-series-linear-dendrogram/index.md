@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "時系列リニア・デンドログラム（Time-series Linear Dendrogram）"
 slug = "time-series-linear-dendrogram"
 date = "2025-10-11"
+description = "時系列リニア・デンドログラム（Time-series Linear Dendrogram）は、階層的な関係構造（ツリー構造）を時間の流れに沿って直線的に展開する可視化手法です。"
 categories = [
     "chart"
 ]

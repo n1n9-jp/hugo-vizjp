@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "カントリー・コード"
 slug = "country-codes"
 date = "2013-10-27"
+description = "世界各国のデータをビジュアライズする場合、国をIDで管理すると複数データの連携が取れ、便利です。"
 categories = [
     "technology"
 ]

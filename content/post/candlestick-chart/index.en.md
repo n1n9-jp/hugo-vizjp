@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Candlestick Chart"
 slug = "candlestick-chart"
 date = "2025-10-11"
+description = "A candlestick chart visualizes open, high, low, and close prices over time."
 categories = [
     "chart"
 ]

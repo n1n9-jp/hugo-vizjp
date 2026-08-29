@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Adjacency Matrix"
 slug = "adiacency-matrix"
 date = "2025-10-11"
+description = "An adjacency matrix represents a network as a table. Nodes appear as both rows and columns, and each cell indicates whether a connection exists between the corresponding pair of nodes."
 categories = [
     "chart"
 ]

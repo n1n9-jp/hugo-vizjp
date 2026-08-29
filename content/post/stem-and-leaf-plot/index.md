@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "幹葉図（Stem and Leaf Plot）"
 slug = "stem-and-leaf-plot"
 date = "2025-10-11"
+description = "幹葉図（Stem and Leaf Plot）は、数値データを「幹（Stem）」と「葉（Leaf）」に分けて表示することで、個々の観測値を保持したまま分布の形を視覚的に把握できる統計図法です。"
 categories = [
     "chart"
 ]

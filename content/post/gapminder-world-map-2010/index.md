@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Gapminder World Map 2010"
 slug = "gapminder-world-map-2010"
 date = "2025-10-11"
+description = "Gapminder World Map 2010」は、各国の 所得（GDP） と 平均寿命 の関係を視覚化したバブルチャートです。"
 categories = [
     "consume"
 ]

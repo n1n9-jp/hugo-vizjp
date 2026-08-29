@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "学びと寿命のあいだ - 教育水準と社会構造の相関を描く"
 slug = "further-education-longer-life"
 date = "2025-10-08"
-description = ""
+description = "この作品は、イタリアのインフォグラフィック・デザイナー Federica Fragapane による作品で、教育水準と平均寿命の関係を多変量的に示しています。"
 categories = [
     "consume"
 ]

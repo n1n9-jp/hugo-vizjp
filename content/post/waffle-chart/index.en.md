@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Waffle Chart"
 slug = "waffle-chart"
 date = "2025-10-04"
-description = ""
+description = "A waffle chart represents a whole as a grid of small cells, often 100 cells in a 10 by 10 layout."
 categories = [
     "chart"
 ]

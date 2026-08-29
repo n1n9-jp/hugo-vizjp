@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "12匹のデータ・ザウルス"
 slug = "the-datasaurus-dozen"
 date = "2020-07-11"
-description = ""
+description = "データ可視化の有用性を示すために、 Anscombe’s Quartetが参照されることがよくあります。"
 categories = [
     "consume"
 ]

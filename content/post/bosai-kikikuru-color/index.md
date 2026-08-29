@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "防災情報「キキクル」に見られる独自の色彩設計の工夫"
 slug = "bosai-kikikuru-color"
 date = "2025-09-20"
+description = "この記事では、連続的カラースキームの基本と、防災情報「キキクル」に見られる独自の色彩設計の工夫を取り上げ、その示唆を考えます。"
 categories = [
     "consume","technology"
 ]

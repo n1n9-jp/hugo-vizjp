@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Time-Series Linear Dendrogram"
 slug = "time-series-linear-dendrogram"
 date = "2025-10-11"
+description = "A time-series linear dendrogram unfolds hierarchical relationships along a time axis."
 categories = [
     "chart"
 ]

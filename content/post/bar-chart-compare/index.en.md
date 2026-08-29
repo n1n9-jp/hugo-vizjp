@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "How to Choose Among Bar Chart Variants"
 slug = "bar-chart-compare"
 date = "2025-10-12"
+description = "Bar charts are familiar, but choosing the wrong bar chart variant can weaken the message."
 categories = [
     "chart"
 ]

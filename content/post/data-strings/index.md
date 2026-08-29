@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "糸で可視化する参加型パラレル・コーディネイト」"
 slug = "data-strings"
 date = "2026-01-02"
+description = "この作品は、来場者が質問に答えながら「糸（ストリング）」を選択肢に沿って渡していくことで、集団の回答傾向を“物理的な線の束”として可視化する参加型インスタレーションです。"
 categories = [
     "consume"
 ]

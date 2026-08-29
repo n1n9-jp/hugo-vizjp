@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ネットワーク科学の大家 Barabási が明らかにした「アート界の構造」"
 slug = "quantifying-reputation-and-success-in-art"
 date = "2025-11-20"
+description = "この可視化は、世界中の美術館・ギャラリーの展示履歴を基に形成された巨大なネットワークを視覚化し、どのインスティテューションが「中心」で、どこが「周縁」かを定量的に示したものです。"
 categories = [
     "consume"
 ]

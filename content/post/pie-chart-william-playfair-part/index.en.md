@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "William Playfair's Statistical Representation of the United States of America"
 slug = "pie-chart-william-playfair-part"
 date = "2025-10-12"
+description = "This figure is from William Playfair's Statistical Representation of the United States of America, created around 1805."
 categories = [
     "consume"
 ]

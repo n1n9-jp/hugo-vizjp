@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is a Bar Chart Race?"
 slug = "chart-race"
 date = "2026-06-11"
+description = "A bar chart race is an animated form of bar chart that shows data changing over time, turning changes in rank and value into something that reads like a race."
 categories = [
     "technology"
 ]

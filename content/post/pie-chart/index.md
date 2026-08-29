@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "円グラフ（Pie Chart）"
 slug = "pie-chart"
 date = "2025-10-12"
+description = "円グラフ（Pie Chart）は、全体に対する各部分の割合を円の扇形（スライス）で表現するグラフです。"
 categories = [
     "chart"
 ]

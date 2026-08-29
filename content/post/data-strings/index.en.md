@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Participatory Parallel Coordinates Visualized with String"
 slug = "data-strings"
 date = "2026-01-02"
+description = "This participatory installation visualizes collective answers as bundles of physical string."
 categories = [
     "consume"
 ]

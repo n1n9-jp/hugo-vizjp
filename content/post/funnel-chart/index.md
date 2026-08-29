@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ファネル・チャート（Funnel Chart）"
 slug = "funnel-chart"
 date = "2025-10-11"
+description = "ファネル・チャート（Funnel Chart）は、プロセスの各段階における数量の減少を漏斗（ファネル）の形で表現する可視化手法です。"
 categories = [
     "chart"
 ]

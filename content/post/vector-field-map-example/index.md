@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ベクター・フィールド・マップ（Vector Field Map）の事例"
 slug = "vector-field-map-example"
 date = "2020-08-11"
-description = ""
+description = "ベクター・フィールド・マップ（Vector Field Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

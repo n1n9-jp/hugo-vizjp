@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ヒートマップ（Heatmap）"
 slug = "heatmap"
 date = "2026-03-14"
+description = "ヒートマップ（Heatmap）は、マトリクス（格子）状のセルに色の濃淡や色相の変化を用いてデータの大小やパターンを表現する可視化手法です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "世界の主要空港から市街地までの距離マップ"
 slug = "distance-to-downtown-from-airports"
 date = "2025-10-24"
+description = "この図は、世界各地の主要空港からそれぞれの都市中心部までの距離とアクセス手段を比較したビジュアライゼーションです。"
 categories = [
     "consume"
 ]

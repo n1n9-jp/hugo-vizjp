@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ビースウォーム・プロット（Beeswarm Plot）"
 slug = "beeswarm"
 date = "2025-09-28"
-description = ""
+description = "ビースウォーム・プロット（Beeswarm Plot）は、個々のデータ点を重ならないように配置し、データの分布を視覚的に示すチャートです。"
 categories = [
     "chart"
 ]

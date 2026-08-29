@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "段階的フロー・マップ（Graduated Flow Map）"
 slug = "graduated-flow-map"
 date = "2026-03-25"
+description = "段階的フロー・マップは、地図上の地点間を結ぶ線の太さを離散的な段階（クラス）に分類して表現するフロー・マップの一種です。"
 categories = [
     "chart"
 ]

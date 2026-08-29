@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ウィリアム・プレイフェアが描いた「円」グラフは2種類あった"
 slug = "pie-chart-william-playfair"
 date = "2025-10-12"
+description = "ウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」チャートとして「円グラフ（Pie Chart）」を発明したと言われています。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "なぜ可視化を行うのか？そのアクションとターゲット"
 slug = "task-abstraction-tamar"
 date = "2020-03-13"
+description = "タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。"
 categories = [
     "technology"
 ]

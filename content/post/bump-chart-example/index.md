@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "バンプ・チャート（Bump Chart）の事例"
 slug = "bump-chart-example"
 date = "2020-08-03"
-description = ""
+description = "バンプ・チャート（Bump Chart）の事例を紹介します。"
 categories = [
     "chart"
 ]

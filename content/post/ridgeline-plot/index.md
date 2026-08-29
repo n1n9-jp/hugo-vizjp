@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "リッジライン・プロット（Ridgeline Plot）"
 slug = "ridgeline-plot"
 date = "2025-10-11"
+description = "リッジライン・プロット（Ridgeline Plot）は、複数の分布（主に連続変数の分布）を重ねて可視化するチャートです。"
 categories = [
     "chart"
 ]

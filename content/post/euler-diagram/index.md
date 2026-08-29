@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "オイラー図（Euler Diagram）"
 slug = "euler-diagram"
 date = "2025-10-08"
-description = ""
+description = "オイラー図（Euler Diagram）は、集合の包含関係や重なり合いを図示するためのグラフです。"
 categories = [
     "chart"
 ]

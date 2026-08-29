@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "タマラさんによるタスクの定義（アクション）"
 slug = "tamar-action"
 date = "2020-03-14"
+description = "タマラ・ムンズナーさんがまとめた、なぜ可視化を行うのか？そのアクションとターゲットという図があります。"
 categories = [
     "technology"
 ]

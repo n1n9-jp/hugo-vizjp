@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Uber H3"
 slug = "uber-h3"
 date = "2020-05-18"
-description = ""
+description = "Uberが、地理空間上のビッグデータを効率よく扱うためのフレームワークであるh3を公開しています。"
 categories = [
     "consume"
 ]

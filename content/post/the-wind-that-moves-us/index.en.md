@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Wind That Moves Us"
 slug = "the-wind-that-moves-us"
 date = "2026-01-02"
+description = "The Wind That Moves Us\" is a data-driven sculpture created by the research and design studio Domestic Data Streamers for Mango's 40th anniversary."
 categories = [
     "consume"
 ]

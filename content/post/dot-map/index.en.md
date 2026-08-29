@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Dot Map"
 slug = "dot-map"
 date = "2025-10-11"
+description = "A dot map plots individual observations as dots at their geographic locations."
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "VizQLとは何か"
 slug = "vizql"
 date = "2026-01-20"
+description = "VizQL（Visualization Query Language）は、Tableauの中核を成す 可視化のための宣言的クエリ言語 です。"
 categories = [
     "consume"
 ]

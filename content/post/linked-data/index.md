@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Linked Data"
 slug = "linked-data"
 date = "2013-11-08"
+description = "Webの発明者であるティム・バーナーズ＝リーが、オープンデータのための5つ星スキームを提案しています。"
 categories = [
     "consume"
 ]

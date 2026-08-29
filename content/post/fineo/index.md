@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "フィネオ（Fineo）"
 slug = "fineo"
 date = "2020-08-02"
-description = ""
+description = "Fineoは、連続データを可視化するために利用されるサンキー・ダイアグラムの視覚モデルを元に、多次元のカテゴリカルなデータの、ディメンション間の関係を表現するために使うことができるのではないかという考えから生まれました。"
 categories = [
     "chart"
 ]

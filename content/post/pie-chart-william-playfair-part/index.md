@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ウィリアム・プレイフェアによる「アメリカ合衆国の統計的表現」"
 slug = "pie-chart-william-playfair-part"
 date = "2025-10-12"
+description = "この図は、統計図の発明者として知られるウィリアム・プレイフェア（William Playfair）による『Statistical Representation of the United States of America』（1805年頃）の作品です。"
 categories = [
     "consume"
 ]

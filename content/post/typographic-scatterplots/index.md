@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "タイポグラフィック・散布図（Typographic Scatterplots）"
 slug = "typographic-scatterplots"
 date = "2026-03-16"
+description = "タイポグラフィック・散布図は、通常の散布図におけるデータポイント（点）をテキストラベル（単語・略語・名前など）で置き換えた可視化手法です。"
 categories = [
     "chart"
 ]

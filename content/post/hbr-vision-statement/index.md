@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ツイートから価値を発見する6の方法【Streamgraph】"
 slug = "hbr-vision-statement"
 date = "2019-08-25"
+description = "ツイートにはノイズが多いけども、消費者動向を探ることのできる無料データとみなしてもっと活用できるんじゃないかということで、チャートを使って具体的に示した事例を紹介します。"
 categories = [
     "chart"
 ]

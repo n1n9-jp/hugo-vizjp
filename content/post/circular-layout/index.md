@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "サーキュラー・レイアウト（Circular Layout）"
 slug = "circular-layout"
 date = "2025-10-11"
+description = "サーキュラー・レイアウト（Circular Layout）は、ノードを円形上に等間隔に配置するネットワーク図のレイアウト手法です。"
 categories = [
     "chart"
 ]

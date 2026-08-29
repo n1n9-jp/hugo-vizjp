@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Typographic Mekko Chart"
 slug = "typographic-mekko-chart"
 date = "2026-03-21"
+description = "A typographic Mekko chart extends the Mekko chart, or Marimekko chart, by using typographic attributes inside each cell to encode additional dimensions of data."
 categories = [
     "chart"
 ]

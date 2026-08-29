@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "LATCHに代わる情報の分類法 the Seven C's"
 slug = "thesevencs"
 date = "2020-01-13"
+description = "情報アーキテクチャ」「情報アーキテクト」という概念自体を定義した、リチャード・ソウル・ワーマン。"
 categories = [
     "technology","principle"
 ]

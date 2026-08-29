@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ビジュアル・アナリシスにおけるインタラクションの整理"
 slug = "visual-analytics-interaction"
 date = "2020-10-30"
+description = "1996年に発表した “Overview first, zoom and filter, then details-on-demand” マントラが今に至るまで引用されることの多いBen Shneidermanさんと、スタンフォード大学からワシントン大学へラボを移動させ、D3.j"
 categories = [
     "technology"
 ]

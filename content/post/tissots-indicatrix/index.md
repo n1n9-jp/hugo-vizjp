@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ティソーの指示楕円（Tissot’s indicatrix）"
 slug = "tissots-indicatrix"
 date = "2025-10-22"
+description = "地図投影法では、球面の地球を平面上に表現するため、必ずどこかに 歪み（distortion） が生じます。"
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "沖積図（Alluvial Diagrams）"
 slug = "alluvial-diagrams"
 date = "2020-08-03"
-description = ""
+description = "沖積図（Alluvial Diagram）は、時間の経過やカテゴリー間の関係性の変化を可視化するためのフローチャート型の図表です。"
 categories = [
     "chart"
 ]

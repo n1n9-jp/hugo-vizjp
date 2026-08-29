@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "東京ドームシティのアダプティブ・アイデンティティ・システム"
 slug = "tokyo-dome-city-adaptive-identity-system"
 date = "2026-01-02"
+description = "東京ドームシティは、2023年から2024年にかけて実施された大規模リニューアルに合わせて、新しいビジュアルアイデンティティ（ブランドデザイン）を導入しました。"
 categories = [
     "consume"
 ]

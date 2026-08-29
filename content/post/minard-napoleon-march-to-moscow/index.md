@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ナポレオンのロシア遠征を描いたミナールの「損耗の地図」"
 slug = "minard-napoleon-march-to-moscow"
 date = "2025-10-06"
-description = ""
+description = "フランスの技師であり情報可視化の先駆者、シャルル・ジョゼフ・ミナール（Charles Joseph Minard）は1869年、ナポレオン軍のロシア遠征をテーマにした図「Carte Figurative des pertes successives en hommes de l’"
 categories = [
     "consume"
 ]

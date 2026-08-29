@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "コロプレス・マップ（Choropleth Map）"
 slug = "choropleth-map"
 date = "2020-08-06"
-description = ""
+description = "コロプレスマップは、地理的に区切られた領域に統計値を割り当て、その大小を色の濃淡や色相の違いで表現する主題図です。"
 categories = [
     "chart"
 ]

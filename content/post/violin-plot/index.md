@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "バイオリン・プロット（Violin Plot）"
 slug = "violin-plot"
 date = "2025-10-11"
+description = "バイオリン・プロット（Violin Plot）は、データの分布と統計的要約を同時に視覚化できるグラフです。"
 categories = [
     "chart"
 ]

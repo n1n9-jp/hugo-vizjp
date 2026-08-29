@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "円グラフの発明"
 slug = "pie-chart-william-playfair-area"
 date = "2025-10-12"
+description = "この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『The Statistical Breviary』に収録されたものです。"
 categories = [
     "consume"
 ]

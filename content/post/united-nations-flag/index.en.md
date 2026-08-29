@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Map Projection on the United Nations Flag"
 slug = "united-nations-flag"
 date = "2025-10-22"
+description = "The United Nations flag shows the UN emblem in white on a pale blue background."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "比例的フロー・マップ（Proportional Flow Map）"
 slug = "proportional-flow-map"
 date = "2026-03-26"
+description = "比例的フロー・マップは、地図上の地点間を結ぶ線の太さをデータの値に連続的に比例させて表現するフロー・マップの一種です。"
 categories = [
     "chart"
 ]

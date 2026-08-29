@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "世界の行政機関 情報可視化 事例"
 slug = "world-gov-infoviz-report"
 date = "2020-06-24"
+description = "内閣府委託事業の一部として、2019年10月ごろに筆者が実施したリサーチレポートです。"
 categories = [
     "consume"
 ]

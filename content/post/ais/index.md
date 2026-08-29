@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "AISとは"
 slug = "ais"
 date = "2026-03-09"
+description = "AIS（Automatic Identification System）は、船舶が自らの位置情報を自動的に放送する監視システムです。"
 categories = [
     "technology"
 ]

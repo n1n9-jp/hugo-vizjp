@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "社会課題を可視化する「データ・ビジュアライゼーション」とは"
 slug = "what-is-dataviz"
 date = "2017-08-05"
+description = "チャートやグラフ、地図がインターネット・ブラウザ上で、年代・地域など複数の切り口で操作できることが、データ・ビジュアライゼーションの最大の特徴です。"
 categories = [
     "principle"
 ]

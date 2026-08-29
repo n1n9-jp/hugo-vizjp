@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "地図の階級分類におけるJenksって？"
 slug = "classification-jenks"
 date = "2020-02-27"
+description = "様々なGISアプリケーションで階級分類する際に、Natural breaks (Jenks)やJenksなどという名称の分類があります。"
 categories = [
     "technology"
 ]

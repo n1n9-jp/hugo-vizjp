@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "密度プロット（Density Plot）"
 slug = "density-plot"
 date = "2025-10-11"
+description = "密度プロット（Density Plot）は、データの分布を連続的に滑らかに可視化するためのチャートです。"
 categories = [
     "chart"
 ]

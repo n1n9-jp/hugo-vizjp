@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Line Chart with River Labels"
 slug = "line-chart-with-river-label"
 date = "2026-03-17"
+description = "A line chart with river labels places labels directly along the paths of lines."
 categories = [
     "chart"
 ]

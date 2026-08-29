@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ジオグラフィ・ベースド・コネクション（Geography Based Connection）"
 slug = "geography-based-connection"
 date = "2025-10-11"
+description = "ジオグラフィ・ベースド・コネクション（Geography Based Connection）は、地理情報を基盤としてネットワーク構造を地図上に可視化する手法です。"
 categories = [
     "chart"
 ]

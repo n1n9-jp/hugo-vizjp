@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Circle Packing"
 slug = "circle-packing"
 date = "2025-10-09"
+description = "Circle packing visualizes whole-part and parent-child relationships by packing circles inside other circles."
 categories = [
     "chart"
 ]

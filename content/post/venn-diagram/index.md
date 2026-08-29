@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ベン図（Venn Diagram）"
 slug = "venn-diagram"
 date = "2025-10-08"
-description = ""
+description = "ベン図（Venn Diagram）は、集合の関係を図示するための可視化手法です。"
 categories = [
     "chart"
 ]

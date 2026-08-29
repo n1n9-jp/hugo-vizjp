@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ストリップ・チャート（Strip Chart）"
 slug = "strip-chart"
 date = "2025-10-11"
+description = "ストリップ・チャート（Strip Chart）は、時間の経過に伴うデータの変化を連続的に記録・表示するグラフです。"
 categories = [
     "chart"
 ]

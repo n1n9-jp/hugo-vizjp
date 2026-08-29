@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D Yield Curve"
 slug = "3d-yield-curve"
 date = "2026-03-15"
+description = "A 3D yield curve visualizes changes in bond yield curves over time as a three-dimensional surface."
 categories = [
     "chart"
 ]

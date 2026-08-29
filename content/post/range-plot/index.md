@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "レンジ・プロット（Range Plot）"
 slug = "range-plot"
 date = "2025-10-12"
+description = "レンジ・プロット（Range Plot）は、各項目に対して「2つの値（下限と上限、あるいは開始と終了）」を線で結び、その範囲（レンジ）を可視化するチャートです。"
 categories = [
     "chart"
 ]

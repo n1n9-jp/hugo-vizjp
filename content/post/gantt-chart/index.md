@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ガント・チャート（Gantt Chart）"
 slug = "gantt-chart"
 date = "2025-10-11"
+description = "ガント・チャート（Gantt Chart）は、プロジェクトの各タスクの期間・順序・依存関係を横棒（バー）で表現する可視化手法です。"
 categories = [
     "chart"
 ]

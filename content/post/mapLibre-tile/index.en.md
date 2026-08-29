@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is MapLibre Tile (MLT)?"
 slug = "mapLibre-tile"
 date = "2026-01-28"
+description = "MapLibre Tile (MLT) is a new vector tile format for the MapLibre ecosystem."
 categories = [
     "chart"
 ]

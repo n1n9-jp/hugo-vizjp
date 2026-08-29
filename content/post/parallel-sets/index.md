@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "パラレル・セット (Parallel Sets) "
 slug = "parallel-sets"
 date = "2025-09-28"
-description = ""
+description = "パラレル・セット（Parallel Sets）は、多次元のカテゴリカルデータ（名義尺度や順序尺度のデータ）を可視化する手法です。"
 categories = [
     "chart"
 ]

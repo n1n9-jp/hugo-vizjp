@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Time-Distance Diagram"
 slug = "time-distance-diagram"
 date = "2025-10-09"
-description = ""
+description = "A time-distance diagram visualizes the operation of moving vehicles, such as trains or buses, by placing time on one axis and distance or station position on the other."
 categories = [
     "chart"
 ]

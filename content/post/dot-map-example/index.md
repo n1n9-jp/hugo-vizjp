@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ドット・マップ（Dot Map）の事例"
 slug = "dot-map-example"
 date = "2020-08-04"
-description = ""
+description = "ドット・マップ（Dot Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

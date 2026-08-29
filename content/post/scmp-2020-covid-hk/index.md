@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "香港の感染拡大を可視化したインフォグラフィック"
 slug = "scmp-2020-covid-hk"
 date = "2025-09-27"
+description = "2020年4月、パンデミック初期に制作された 「How the coronavirus spread in Hong Kong」（Dennis Wong & Adolfo Arranz）は、香港における新型コロナ感染拡大を「輸入症例」から「市中感染」までの流れで描き出したインフォ"
 categories = [
     "consume"
 ]

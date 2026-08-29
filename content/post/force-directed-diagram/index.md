@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）"
 slug = "force-directed-diagram"
 date = "2025-10-11"
+description = "フォース・ダイレクテッド・ダイアグラム（Force Directed Diagram）は、ネットワーク構造を視覚的に表すためのグラフ描画手法の一つです。"
 categories = [
     "chart"
 ]

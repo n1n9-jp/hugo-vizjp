@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ分析言語によるチャーノフの顔の実装"
 slug = "chernoff-face-implementation"
 date = "2025-09-25"
-description = ""
+description = "データ分析言語であるPythonやRを用いて、チャーノフの顔が実装されているものを集めてみました。"
 categories = [
     "technology"
 ]

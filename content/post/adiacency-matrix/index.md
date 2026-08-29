@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "隣接行列（Adiacency Matrix）"
 slug = "adiacency-matrix"
 date = "2025-10-11"
+description = "隣接行列（adjacency matrix）は、ネットワーク（グラフ）構造を行列の表形式で表現する方法です。"
 categories = [
     "chart"
 ]

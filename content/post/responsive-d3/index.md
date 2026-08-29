@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "D3.jsでレスポンシブ・レイアウトを実現するには"
 slug = "responsive-d3"
 date = "2016-01-01"
+description = "最近はウェブの閲覧環境が多様化し、PCとモバイルでは画面解像度が全くことなります。"
 categories = [
     "technology"
 ]

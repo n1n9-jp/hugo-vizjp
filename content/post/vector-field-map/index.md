@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ベクトル・フィールド・マップ（Vector Field Map）"
 slug = "vector-field-map/"
 date = "2025-10-11"
+description = "ベクトル・フィールド・マップ（Vector Field Map）は、空間内の各点における方向と大きさを矢印（グリフ）で同時に可視化する地図表現です。"
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "つららチャート（Icicle Chart）の事例"
 slug = "icicle-chart-example"
 date = "2020-08-09"
-description = ""
+description = "つららチャート（Icicle Chart）の事例を紹介します。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "放射樹 (Radial Tree)"
 slug = "radial-trees"
 date = "2025-10-11"
+description = "放射樹（Radial Tree）は、階層構造を円形に展開して表現する可視化手法です。"
 categories = [
     "chart"
 ]

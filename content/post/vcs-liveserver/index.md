@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "【ワークショップなどで便利】ローカル環境で、自動リロードする簡易サーバを手軽に【Visual Code EditorとLive Server】"
 slug = "vcs-liveserver"
 date = "2019-08-24"
+description = "ローカル環境で簡易サーバを手軽に起動できる方法の一つとして、テキストエディタを使った例を紹介します。"
 categories = [
     "technology"
 ]

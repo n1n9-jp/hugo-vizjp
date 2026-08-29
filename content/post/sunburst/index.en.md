@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Sunburst Chart"
 slug = "sunburst"
 date = "2025-10-02"
-description = ""
+description = "A sunburst chart visualizes hierarchical data in a circular layout."
 categories = [
     "chart"
 ]

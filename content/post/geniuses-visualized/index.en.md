@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Geniuses, Visualized: Harold Bloom and the Kabbalistic Tree"
 slug = "geniuses-visualized"
 date = "2025-10-03"
-description = ""
+description = "Geniuses, visualized is an infographic based on the 100 \"exemplary creative minds\" discussed by literary critic Harold Bloom in his book Genius."
 categories = [
     "consume"
 ]

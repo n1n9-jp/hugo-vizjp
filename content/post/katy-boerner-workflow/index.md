@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Katy Boernerさんの提案する「ニーズドリブンなワークフロー設計」"
 slug = "katy-boerner-workflow"
 date = "2020-05-22"
+description = "研究者のKaty Boernerさんがデータ可視化のワークフローとして「ニーズドリブンなワークフロー設計」を、著書Atlas of Knowledgeの中で提案しています。"
 categories = [
     "technology"
 ]

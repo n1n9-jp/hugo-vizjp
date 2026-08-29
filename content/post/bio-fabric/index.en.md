@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "BioFabric"
 slug = "bio-fabric"
 date = "2025-10-11"
+description = "BioFabric is a network visualization method that represents nodes as horizontal lines and edges as short vertical marks crossing those lines."
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ディシメトリック・マップ（Dasymetric Map）の事例"
 slug = "dasymetric-map-example"
 date = "2020-08-11"
-description = ""
+description = "ディシメトリック・マップ（Dasymetric Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

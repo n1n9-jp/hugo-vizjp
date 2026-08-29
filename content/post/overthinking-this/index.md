@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "考えすぎ? ハンドメイドの過剰なチャートたち"
 slug = "overthinking-this"
 date = "2019-10-11"
-description = ""
+description = "元バズフィードニュースデザイナーだったMichelle Rialさんのかわいらしい絵本です。"
 categories = [
     "consume"
 ]

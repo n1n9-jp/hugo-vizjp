@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ツリーマップ（Treemap）"
 slug = "treemap"
 date = "2020-08-22"
-description = ""
+description = "ツリーマップ（Treemap）は、階層構造を持つデータを長方形の領域で表現する可視化手法です。"
 categories = [
     "chart"
 ]

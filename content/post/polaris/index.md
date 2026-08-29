@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Polarisとは何か"
 slug = "polaris"
 date = "2026-01-20"
+description = "Polarisは、多次元データベースに対する探索的分析を支援するために提案された、可視化とクエリを統合的に扱うシステムおよびその形式言語です。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "分岐的棒グラフ（Diverging Bar Chart）"
 slug = "diverging-bar-chart"
 date = "2026-03-11"
+description = "分岐的棒グラフ（Diverging Bar Chart）は、中央の基準線（ゼロポイント）から左右または上下の両方向に棒が伸びるチャートです。"
 categories = [
     "chart"
 ]

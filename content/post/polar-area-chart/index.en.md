@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Polar Area Chart"
 slug = "polar-area-chart"
 date = "2025-09-30"
+description = "A polar area chart represents values by the area of radial sectors."
 categories = [
     "chart"
 ]

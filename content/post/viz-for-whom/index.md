@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "「データ可視化」の指す、三種類の行為"
 slug = "viz-for-whom"
 date = "2019-08-24"
+description = "データ可視化」という言葉を使うとき、何だかふわっとしてるなと感じませんか？デザイナーとしての一個人としてはこのようなモヤモヤ体験があります。"
 categories = [
     "principle"
 ]

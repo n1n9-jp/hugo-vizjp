@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "#ShowYourStripes：気候変動を色で語る世界的キャンペーン"
 slug = "show-your-stripes"
 date = "2025-09-25"
-description = ""
+description = "#ShowYourStripes（ショー・ユア・ストライプス）」は、気候変動、特に地球温暖化を直感的に伝えるための世界的なキャンペーンです。"
 categories = [
     "consume"
 ]

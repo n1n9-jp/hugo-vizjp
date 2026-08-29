@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "比例的シンボル・マップ（Proportional Symbol Map）"
 slug = "proportional-symbol-map"
 date = "2020-08-04"
+description = "比例的シンボル・マップ（Proportional Symbol Map）は、離散データを階級分類せずに、データ値に直接比例したサイズのシンボルで地図上に表現する手法です。"
 categories = [
     "chart"
 ]

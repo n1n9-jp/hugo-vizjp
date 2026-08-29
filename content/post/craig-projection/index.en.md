@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is the Craig Projection?"
 slug = "craig-projectionh"
 date = "2025-10-22"
+description = "The Craig projection is a map projection devised in 1909 by the British cartographer James Ireland Craig."
 categories = [
     "technology"
 ]

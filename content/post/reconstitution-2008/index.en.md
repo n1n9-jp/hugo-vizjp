@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ReConstitution 2008"
 slug = "reconstitution-2008"
 date = "2026-01-04"
+description = "ReConstitution 2008 is a live audiovisual performance by Sosolimited, a studio working across data visualization and media art."
 categories = [
     "consume"
 ]

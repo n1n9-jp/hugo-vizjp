@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワード・クラウドとワード・バブル"
 slug = "word-clouds-bubbles"
 date = "2020-08-03"
-description = ""
+description = "ある文章に含まれる単語の重み付け（たいていは頻出度合い）をフォントサイズで表現します。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Open Refine - GREL日付関数 パターン文字一覧"
 slug = "open-refine-grel-date"
 date = "2019-11-23"
+description = "Open Refineでデータクレンジングをなさっている方には役立つ日付関数のパターン文字一覧です。"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D Bar Chart Map"
 slug = "3d-bar-chart-map"
 date = "2025-10-11"
+description = "A 3D bar chart map places vertical bars on geographic locations to show the distribution and comparison of quantitative data."
 categories = [
     "chart"
 ]

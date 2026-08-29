@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワード・クラウド（Word Cloud）"
 slug = "word-clouds"
 date = "2025-11-12"
-description = ""
+description = "ワード・クラウドは、テキストデータ中に出現する単語を視覚的に表現するチャートで、各単語の出現頻度や重要度に応じてフォントサイズや色を変えて配置します。"
 categories = [
     "chart"
 ]

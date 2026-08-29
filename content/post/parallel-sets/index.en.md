@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Parallel Sets"
 slug = "parallel-sets"
 date = "2025-09-28"
-description = ""
+description = "Parallel sets visualize multidimensional categorical data. Several categorical variables are arranged as parallel axes, and bands connect categories across adjacent axes."
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "色のコントラストを見直す：WCAG 2.x から APCA への流れ"
 slug = "color-contrast-wcag-apca"
 date = "2025-10-20"
+description = "データ可視化やウェブデザインで重要な「色のコントラスト」は、単なるデザイン上の美しさではなく、情報の読みやすさ・伝わりやすさに直結する要素です。"
 categories = [
     "technology"
 ]

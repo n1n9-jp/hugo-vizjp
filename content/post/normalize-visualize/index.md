@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ビジュアライズにおける正規化"
 slug = "normalize-visualize"
 date = "2014-03-24"
+description = "たとえばある変数の値が350の場合、ある棒グラフではY座標はいくつになるでしょうか。"
 categories = [
     "technology"
 ]

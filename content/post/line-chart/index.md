@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "折れ線グラフ（Line Chart）"
 slug = "line-chart"
 date = "2025-10-12"
+description = "折れ線グラフ（Line Chart）は、数値の変化を点と線でつないで示す、最も基本的な統計図のひとつです。"
 categories = [
     "chart"
 ]

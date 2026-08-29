@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Why Web Map Data Sometimes Mentions EPSG:4326 and Sometimes EPSG:3857"
 slug = "epsg-4326-3857"
 date = "2025-11-16"
+description = "An EPSG code is an identifier assigned to coordinate reference systems, datums, projections, and related geospatial definitions."
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Wikipedia の「見えない戦い」を描く - History Flow 可視化の物語"
 slug = "history-flow"
 date = "2025-10-02"
+description = "私たちが日常的に利用する Wikipedia は、世界最大の百科事典でありながら、誰でも自由に編集できるという特異な仕組みを持っています。"
 categories = [
     "consume"
 ]

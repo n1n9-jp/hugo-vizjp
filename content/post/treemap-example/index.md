@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ツリーマップ（Treemap）の事例"
 slug = "treemap-example"
 date = "2020-08-22"
-description = ""
+description = "ツリーマップ（Treemap）の事例を紹介します。"
 categories = [
     "chart"
 ]

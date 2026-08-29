@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = " ダーウィン「種の起源」をめぐるテキストの進化を可視化する"
 slug = "entangled-word-bank"
 date = "2025-10-02"
-description = ""
+description = "(En)tangled Word Bank」 は、チャールズ・ダーウィンの『種の起源（On the Origin of Species）』が初版（1859年）から第6版（1872年）に至るまで、どのように加筆・修正されていったかを可視化した作品です。"
 categories = [
     "consume"
 ]

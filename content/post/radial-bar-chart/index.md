@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ラディアル・バー・チャート（Radial Bar Chart）"
 slug = "radial-bar-chart"
 date = "2025-10-11"
+description = "ラディアル・バー・チャート（Radial Bar Chart）は、一般的な棒グラフを円形（極座標）に配置し、データの値を放射状の棒の長さで表現するチャートです。"
 categories = [
     "chart"
 ]

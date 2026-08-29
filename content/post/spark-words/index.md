@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "スパーク・ワード（Spark Words）"
 slug = "spark-words"
 date = "2026-03-24"
+description = "スパーク・ワード（Spark Words）は、文章中のインラインテキスト要素に対して、フォントウェイト・サイズ・色・斜体などのタイポグラフィ属性を付与することで、個々の単語に関連する定量的データを直接視覚化する手法です。"
 categories = [
     "chart"
 ]

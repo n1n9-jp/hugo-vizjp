@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Calendar Heatmap"
 slug = "calendar-heat-map"
 date = "2025-10-11"
+description = "A calendar heatmap visualizes date-based data using the structure of a calendar."
 categories = [
     "chart"
 ]

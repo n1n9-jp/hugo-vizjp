@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3Dツリーマップ（3D Treemaps）"
 slug = "3d-treemaps"
 date = "2025-10-11"
+description = "3Dツリーマップ（3D Treemaps）は、従来のツリーマップを三次元空間に拡張し、面積に加えて高さ（Z軸）で追加の数量的変数を表現する可視化手法です。"
 categories = [
     "chart"
 ]

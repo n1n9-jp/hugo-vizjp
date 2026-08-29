@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ビースウォーム・プロット（Beeswarm Plot）の事例"
 slug = "beeswarm-example"
 date = "2020-08-04"
-description = ""
+description = "ビースウォーム・プロット（Beeswarm Plot）の事例を紹介します。"
 categories = [
     "chart"
 ]

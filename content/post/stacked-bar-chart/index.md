@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "積み重ね棒グラフ（Stacked Bar Chart）"
 slug = "stacked-bar-chart"
 date = "2026-03-09"
+description = "積み重ね棒グラフ（Stacked Bar Chart）は、1本の棒の中に複数のデータ系列をセグメントとして積み重ねることで、全体の合計値と内訳の構成を同時に表現するチャートです。"
 categories = [
     "chart"
 ]

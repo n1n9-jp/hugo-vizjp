@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Circular Chart"
 slug = "circular-chart"
 date = "2025-10-11"
+description = "Circular chart is a broad term for visualizations arranged around a circular layout."
 categories = [
     "chart"
 ]

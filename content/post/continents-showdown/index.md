@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "もし世界の大陸を同じスケールで描いたら？"
 slug = "continents-showdown"
 date = "2025-10-09"
+description = "イタリアのデータビジュアライゼーション・スタジオ Accurat による作品「Continents’ Showdown」は、世界の大陸を一つの共通スケール上で比較する試みです。"
 categories = [
     "consume"
 ]

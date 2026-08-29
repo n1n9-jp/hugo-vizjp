@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Vertical Trees and Horizontal Trees"
 slug = "vertical-tree-horizontal-trees"
 date = "2025-10-11"
+description = "Vertical and horizontal trees are basic layouts for visualizing hierarchical structures with nodes and branches."
 categories = [
     "chart"
 ]

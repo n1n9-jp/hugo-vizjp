@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Continuous Cartogram"
 slug = "continuous-cartogram"
 date = "2026-03-28"
+description = "A continuous cartogram distorts geographic areas in proportion to a data variable while preserving adjacency, or topology."
 categories = [
     "chart"
 ]

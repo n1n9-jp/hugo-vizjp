@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "data.go.jp開設"
 slug = "data-go-jp"
 date = "2013-12-30"
+description = "2013年12月20日、「データカタログサイト試行版」として、data.go.jpが開設されました。"
 categories = [
     "consume"
 ]

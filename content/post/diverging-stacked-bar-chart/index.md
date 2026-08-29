@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）"
 slug = "diverging-stacked-bar-chart"
 date = "2025-10-11"
+description = "分岐的積み重ね棒グラフ（Diverging Stacked Bar Chart）は、肯定・否定や賛成・反対など、相反するカテゴリーの分布を中心線を基準に左右対称に比較する可視化手法です。"
 categories = [
     "chart"
 ]

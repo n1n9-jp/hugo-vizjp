@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "100% Stacked Bar Chart"
 slug = "100-percent-stacked-bar-chart"
 date = "2026-03-10"
+description = "A 100% stacked bar chart normalizes every bar to the same total length and compares the proportion of subgroups within each whole."
 categories = [
     "chart"
 ]

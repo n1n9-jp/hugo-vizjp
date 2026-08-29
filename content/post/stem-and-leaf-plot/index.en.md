@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Stem-and-Leaf Plot"
 slug = "stem-and-leaf-plot"
 date = "2025-10-11"
+description = "A stem-and-leaf plot splits numeric values into stems and leaves, preserving individual observations while showing the shape of the distribution."
 categories = [
     "chart"
 ]
