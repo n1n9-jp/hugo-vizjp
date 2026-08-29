@@ -1,5 +1,21 @@
-{{- if .Params.isCanonicalProfile -}}
-  {{ partial "schema-person.html" . }}
+{{- with .AllTranslations -}}
+    {{- if gt (len .) 1 -}}
+        {{- range . -}}
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+        {{- end -}}
+        {{- range . -}}
+            {{- if eq .Language.Lang "ja" -}}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+<link rel="describedby" href="{{ "llms.txt" | absURL }}" type="text/plain">
+
+{{- if .IsHome -}}
+    {{ partial "schema-website.html" . }}
+{{- else if .Params.isCanonicalProfile -}}
+    {{ partial "schema-person.html" . }}
 {{- else if and (eq .Kind "page") (not .Date.IsZero) -}}
-  {{ partial "schema-article.html" . }}
+    {{ partial "schema-article.html" . }}
 {{- end -}}

@@ -1,17 +1,62 @@
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": {{ .Title | jsonify | safeJS }},
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-  "inLanguage": {{ .Site.Language.Lang | jsonify | safeJS }},
-  "mainEntityOfPage": {{ .Permalink | jsonify | safeJS }},
-  "author": {
-    "@type": "Person",
-    "@id": {{ .Site.Params.author.orcid | jsonify | safeJS }},
-    "name": {{ .Site.Params.author.name | jsonify | safeJS }},
-    "url": {{ .Site.Params.author.profileURL | jsonify | safeJS }}
-  }
-}
-</script>
+{{- $isEnglish := eq .Language.Lang "en" -}}
+{{- $authorName := cond $isEnglish "Yuichi Yazaki" .Site.Params.author.name -}}
+{{- $description := "" -}}
+{{- with .Description -}}
+    {{- $description = . | plainify -}}
+{{- else -}}
+    {{- $description = .Summary | plainify -}}
+{{- end -}}
+
+{{- $image := partial "helper/image" (dict "Context" . "Type" "opengraph") -}}
+{{- $imageURL := "" -}}
+{{- if $image.exists -}}
+    {{- if $image.resource -}}
+        {{- $imageURL = $image.resource.Permalink -}}
+    {{- else -}}
+        {{- $imageURL = $image.permalink | absURL -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $tags := slice -}}
+{{- range .Params.tags -}}
+    {{- if . -}}
+        {{- $tags = $tags | append . -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $author := dict
+    "@type" "Person"
+    "@id" .Site.Params.author.orcid
+    "name" $authorName
+    "url" .Site.Params.author.profileURL
+-}}
+{{- $publisher := dict
+    "@type" "Organization"
+    "@id" "https://visualizing.jp/#organization"
+    "name" "Visualizing.JP"
+    "url" "https://visualizing.jp/"
+-}}
+{{- $schema := dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" .Title
+    "url" .Permalink
+    "datePublished" (.Date.Format "2006-01-02")
+    "dateModified" (.Lastmod.Format "2006-01-02")
+    "inLanguage" .Language.LanguageCode
+    "mainEntityOfPage" .Permalink
+    "author" $author
+    "publisher" $publisher
+    "license" "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    "wordCount" .WordCount
+-}}
+{{- if $description -}}
+    {{- $schema = merge $schema (dict "description" $description) -}}
+{{- end -}}
+{{- if $imageURL -}}
+    {{- $schema = merge $schema (dict "image" $imageURL) -}}
+{{- end -}}
+{{- if $tags -}}
+    {{- $schema = merge $schema (dict "keywords" $tags) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>

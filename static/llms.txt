@@ -1,0 +1,45 @@
+# Visualizing.JP
+> データ可視化の実践的な手法、チャートの種類、事例、研究の知見を紹介する日本語のウェブサイト。2013年から矢崎裕一が運営。
+
+本サイトは静的HTMLで本文を公開しています。ライセンスは CC BY-NC-SA 4.0 です。引用するときはページURLと著者名（矢崎裕一 / Yuichi Yazaki）を示してください。英語版は `/en/` 配下にあります。英語が定型文だけの記事は、日本語原文を優先してください。
+
+## Site
+- [このサイトについて](https://visualizing.jp/about/): 目的、カテゴリ構成、関連サービス
+- [運営者 矢崎裕一](https://visualizing.jp/profile/): 経歴、著書、専門領域、ORCID
+- [チャート・カタログ](https://visualizing.jp/catalogue/): 表したい内容からチャートタイプを探す一覧
+
+## Categories
+- [チャート・カタログ（記事）](https://visualizing.jp/categories/chart/): チャート種別の解説
+- [見るための記事](https://visualizing.jp/categories/consume/): 事例と読み解き
+- [教えるための記事](https://visualizing.jp/categories/education/): 教育・学習向け
+- [作るための記事](https://visualizing.jp/categories/technology/): 手法・ツール・実装
+- [データ可視化の原理](https://visualizing.jp/categories/principle/): 知覚・表現・設計の原理
+- [イベント](https://visualizing.jp/categories/event/): イベント関連
+
+## Selected articles
+- [データ分析は科学である──Tukey 1962](https://visualizing.jp/tukey-future-of-data-analysis/): The Future of Data Analysis の位置づけ
+- [Visualization Wheel](https://visualizing.jp/cairo-visualization-wheel/): Alberto Cairo の思考の道具
+- [ロリポップチャート](https://visualizing.jp/lollipop-chart/): 命名の経緯と使う条件
+- [ドットプロットは2つある](https://visualizing.jp/wilkinson-cleveland-dot-plot/): Wilkinson と Cleveland の違い
+- [棒グラフ](https://visualizing.jp/bar-chart/): 基本の量比較
+- [コロプレスマップ](https://visualizing.jp/choropleth-map/): 面の塗り分け地図
+- [サンキーダイアグラム](https://visualizing.jp/sankey-diagram/): フローの可視化
+- [ナイチンゲールチャート](https://visualizing.jp/nightingale-chart/): Coxcomb / polar area
+- [データインク比](https://visualizing.jp/data-ink-ratio/): Tufte の原則
+- [ミナールのナポレオン行軍図](https://visualizing.jp/minard-napoleon-march-to-moscow/): 古典的な多変量図
+- [Dan Roam の Thomson 事例](https://visualizing.jp/dan-roam-unfolding-napkin-thomson/): 図の前で依頼者自身が答えを出す
+
+## Feeds
+- [Sitemap](https://visualizing.jp/sitemap.xml): 全ページの索引
+- [RSS](https://visualizing.jp/index.xml): 新着記事
+- [検索用プレーンテキスト索引](https://visualizing.jp/search/index.json): 各記事の title / date / permalink / 本文プレーンテキスト
+
+## Optional
+- [About (English)](https://visualizing.jp/en/about/)
+- [Profile (English)](https://visualizing.jp/en/profile/)
+- [Catalogue (English)](https://visualizing.jp/en/catalogue/)
+- [English RSS](https://visualizing.jp/en/index.xml)
+- [English plain-text index](https://visualizing.jp/en/search/index.json)
+- [合同会社ノーテーション](https://notation.co.jp/): 実務・研修・教育
+- [データ可視化の道具箱](https://www.dataviz.jp/): ブラウザでチャートを作るツール集
+- [著書『データ可視化の基本が全部わかる本』](https://all-about-book.visualizing.jp/)

@@ -40,6 +40,7 @@
         "value": "https://orcid.org/0009-0005-2429-3279"
       },
       "worksFor": { "@id": "https://notation.co.jp/#organization" },
+      "affiliation": { "@id": "https://visualizing.jp/#organization" },
       "alumniOf": {
         "@type": "CollegeOrUniversity",
         "name": {{ $universityName | jsonify | safeJS }},
@@ -75,6 +76,18 @@
       "alternateName": {{ $organizationAlternateName | jsonify | safeJS }},
       "url": "https://notation.co.jp/",
       "founder": { "@id": "https://orcid.org/0009-0005-2429-3279" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://visualizing.jp/#organization",
+      "name": "Visualizing.JP",
+      "url": "https://visualizing.jp/",
+      "inLanguage": ["ja-JP", "en-US"],
+      "founder": { "@id": "https://orcid.org/0009-0005-2429-3279" },
+      "sameAs": [
+        "https://twitter.com/visualizing_jp",
+        "https://www.youtube.com/@visualizingjp"
+      ]
     },
     {
       "@type": "Book",
