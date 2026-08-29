@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "顔で読むロサンゼルス：Eugene Turner『Life in Los Angeles』"
 slug = "chernoff-face-on-map"
 date = "2025-09-25"
-description = ""
+description = "1970年代後半、カリフォルニア州立大学ノースリッジ校（CSUN）の地理学者 Eugene Turner は、社会経済データを可視化する独創的な地図作品 「Life in Los Angeles」 を発表しました。"
 categories = [
     "consume"
 ]

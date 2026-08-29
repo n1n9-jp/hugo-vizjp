@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Range Plot"
 slug = "range-plot"
 date = "2025-10-12"
+description = "A range plot connects two values for each item with a line, making the range between them visible."
 categories = [
     "chart"
 ]

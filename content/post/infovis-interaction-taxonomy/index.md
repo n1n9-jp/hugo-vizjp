@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "情報可視化におけるインタラクション技術の分類法"
 slug = "infovis-interaction-taxonomy"
 date = "2020-10-30"
+description = "Ji Soo Yiら(2007)が、情報可視化の分野でインタラクション技術の検討に関連する分類法を提案している研究をサーベイし、とりまとめています。"
 categories = [
     "technology"
 ]

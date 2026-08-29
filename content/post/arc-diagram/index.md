@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アーク・ダイアグラム（Arc Diagram）"
 slug = "arc-diagram"
 date = "2025-10-11"
+description = "アーク・ダイアグラム（Arc Diagram）は、ノード間の関係を円弧（アーク）によって表現するネットワーク可視化手法です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "顔でわかる地図投影のゆがみ：Projection Face"
 slug = "projection-face"
 date = "2025-10-22"
+description = "地図投影法（map projection）は、球体である地球(3D)を平面の地図(2D)に写すための方法です。"
 categories = [
     "consume"
 ]

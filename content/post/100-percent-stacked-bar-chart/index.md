@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "100%積み上げ棒グラフ（100% Stacked Bar Chart）"
 slug = "100-percent-stacked-bar-chart"
 date = "2026-03-10"
+description = "100%積み上げ棒グラフ（100% Stacked Bar Chart）は、各棒の合計を100%に正規化し、カテゴリごとの構成比（割合）を比較することに特化した積み重ね棒グラフの一種です。"
 categories = [
     "chart"
 ]

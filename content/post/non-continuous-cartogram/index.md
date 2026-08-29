@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "非連続的カルトグラム（Non-Continuous Cartogram）"
 slug = "non-continuous-cartogram"
 date = "2026-03-29"
+description = "非連続的カルトグラム（Non-Continuous Cartogram）は、各地域の元の形状を保持したまま、面積をデータ変数に比例させて独立に拡大・縮小する地図表現です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "東京都公式と厚労省公式で異なる、東京都での COVID-19 死亡者数"
 slug = "covid19tokyo"
 date = "2020-04-21"
+description = "このページでは、Yahoo!ニュース個人での記事のフォローアップ記事として、データをアップデートしたチャートを掲載しています。"
 categories = [
     "technology"
 ]

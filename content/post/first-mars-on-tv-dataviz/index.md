@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "はじめてテレビで放映された火星の写真は、データ可視化作品だった話"
 slug = "first-mars-on-tv-dataviz"
 date = "2020-06-23"
-description = ""
+description = "テレビで放映されたはじめての火星画像はデータドリブンな絵だった話を、当時の関係者からアーティストのDan Goodsさんが聞き出して記事化しています。"
 categories = [
     "consume"
 ]

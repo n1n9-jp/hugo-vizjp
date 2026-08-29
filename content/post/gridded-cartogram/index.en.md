@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Gridded Cartogram"
 slug = "gridded-cartogram"
 date = "2026-03-31"
+description = "A gridded cartogram represents each region as an equally sized grid cell, such as a square or hexagon, while roughly preserving geographic arrangement."
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Connected Scatterplot"
 slug = "connected-scatterplot"
 date = "2025-09-30"
+description = "A connected scatterplot connects the points of a scatterplot in sequence, usually over time."
 categories = [
     "chart"
 ]

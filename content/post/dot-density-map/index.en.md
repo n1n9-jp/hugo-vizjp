@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Dot Density Map"
 slug = "dot-density-map"
 date = "2025-10-11"
+description = "A dot density map represents geographic distribution through the density of dots."
 categories = [
     "chart"
 ]

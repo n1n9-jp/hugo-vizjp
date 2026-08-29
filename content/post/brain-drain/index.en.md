@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Visualizing Brain Drain"
 slug = "brain-drain"
 date = "2025-10-10"
+description = "This visualization depicts brain drain as the international movement of researchers."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Scatter Plot"
 slug = "scatterplot"
 date = "2025-10-12"
+description = "A scatter plot is a fundamental statistical chart for showing the relationship between two numeric variables."
 categories = [
     "chart"
 ]

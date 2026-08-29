@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D棒グラフ・マップ (3D Bar Chart Map)"
 slug = "3d-bar-chart-map"
 date = "2025-10-11"
+description = "3D棒グラフ・マップ（3D Bar Chart Map）は、地理的な位置情報をもとに、棒グラフを三次元的に配置してデータの分布や比較を視覚的に表現するチャートです。"
 categories = [
     "chart"
 ]

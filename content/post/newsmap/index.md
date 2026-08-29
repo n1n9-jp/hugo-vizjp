@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Newsmap - ニュースを俯瞰する可視化の実験"
 slug = "newsmap"
 date = "2025-09-27"
+description = "2004年、インフォメーションデザイナー Marcos Weskamp（マルコス・ウェスカンプ）氏 によって公開された Newsmap は、ニュースの見え方を一変させた実験的なウェブアプリケーションです。"
 categories = [
     "consume"
 ]

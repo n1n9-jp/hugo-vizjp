@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "How Matplotlib Moved from jet to Viridis"
 slug = "matplotlib-colorscheme"
 date = "2025-11-11"
+description = "For many years, Matplotlib's default colormap was jet."
 categories = [
     "consume"
 ]

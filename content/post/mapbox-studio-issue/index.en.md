@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Using Map Tiles Created in Mapbox Studio with Kepler.gl or Foursquare Studio"
 slug = "mapbox-studio-issue"
 date = "2025-10-15"
+description = "For some time, it has been possible to use map tiles and styles created in Mapbox Studio inside tools such as Kepler.gl and Foursquare Studio."
 categories = [
     "technology"
 ]

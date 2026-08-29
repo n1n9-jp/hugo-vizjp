@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ReConstitution 2008"
 slug = "reconstitution-2008"
 date = "2026-01-04"
+description = "ReConstitution 2008 は、データビジュアライゼーションとメディアアートを横断する制作スタジオ Sosolimited によって発表された、ライブ・オーディオビジュアル・パフォーマンス作品です。"
 categories = [
     "consume"
 ]

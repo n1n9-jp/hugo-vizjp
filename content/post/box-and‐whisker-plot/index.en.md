@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Box-and-Whisker Plot"
 slug = "box-and‐whisker-plot"
 date = "2025-10-11"
+description = "A box-and-whisker plot summarizes a distribution using the minimum, first quartile, median, third quartile, and maximum, often with outliers shown as individual points."
 categories = [
     "chart"
 ]

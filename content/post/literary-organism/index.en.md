@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Stefanie Posavec's Visualization of On the Road"
 slug = "literary-organism"
 date = "2025-10-03"
-description = ""
+description = "This work is part of Writing Without Words, a project by graphic designer Stefanie Posavec."
 categories = [
     "consume"
 ]

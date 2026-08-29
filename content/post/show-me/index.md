@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Show Meとは何か"
 slug = "show-me"
 date = "2026-01-20"
+description = "Show Meは、Tableauに実装された自動可視化支援機能を研究した論文です。"
 categories = [
     "consume"
 ]

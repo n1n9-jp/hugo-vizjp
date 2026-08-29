@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Noise Pollution: Visualizing Urban Noise and Hearing Loss"
 slug = "noise-pollution"
 date = "2025-10-05"
-description = ""
+description = "This work compares noise pollution and hearing loss in major cities around the world."
 categories = [
     "consume"
 ]

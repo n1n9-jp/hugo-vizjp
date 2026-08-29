@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "「統計」が「統計」になるまで—訳字論争と'新漢字'の時代感"
 slug = "translate-statistics"
 date = "2025-09-07"
-description = ""
+description = "いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために “新しい漢字” まで考案した人たちがいた——という静かな驚きがあります。"
 categories = [
     "principle"
 ]

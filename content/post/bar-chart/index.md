@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "棒グラフ（Bar Chart）"
 slug = "bar-chart"
 date = "2025-10-12"
+description = "棒グラフ（Bar Chart）は、カテゴリごとの値を棒の長さで比較するチャートです。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Stacked Bar Chart"
 slug = "stacked-bar-chart"
 date = "2026-03-09"
+description = "A stacked bar chart divides each bar into multiple segments, allowing the viewer to see both the total value and the composition of that total."
 categories = [
     "chart"
 ]

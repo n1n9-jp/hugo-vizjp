@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Bullet Graph"
 slug = "bullet-graph"
 date = "2025-10-11"
+description = "A bullet graph is a compact chart for showing performance against a target."
 categories = [
     "chart"
 ]

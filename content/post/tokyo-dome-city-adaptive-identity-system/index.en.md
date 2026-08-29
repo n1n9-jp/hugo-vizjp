@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Tokyo Dome City's Adaptive Identity System"
 slug = "tokyo-dome-city-adaptive-identity-system"
 date = "2026-01-02"
+description = "Tokyo Dome City introduced a new visual identity as part of a large renewal carried out from 2023 to 2024."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "最多書体デザイナーの可視化"
 slug = "most-prolific-type-designers"
 date = "2025-10-11"
+description = "このインフォグラフィックは、歴代の代表的な書体デザイナーを、制作したフォント数とカテゴリー別に可視化した作品です。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "From First Publication to Masterpieces: Timelines of Literary Lives"
 slug = "from-first-published-to-masterpieces"
 date = "2025-10-10"
+description = "This work visualizes the lives and creative careers of writers whose twentieth-century English-language novels were selected for the Modern Library's 100 Best Novels."
 categories = [
     "consume"
 ]

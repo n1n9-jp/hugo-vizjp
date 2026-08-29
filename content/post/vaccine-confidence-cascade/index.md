@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワクチンへの信頼が崩れていく - Stefanie Posavec《Vaccine Confidence Cascade》"
 slug = "vaccine-confidence-cascade"
 date = "2025-09-28"
+description = "ロンドンの Wellcome Collection は「健康と人間の経験」を探る博物館・ライブラリーとして、科学や社会に関する企画展を多数行っています。"
 categories = [
     "consume"
 ]

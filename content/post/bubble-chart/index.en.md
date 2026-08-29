@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Bubble Chart"
 slug = "bubble-chart"
 date = "2025-10-12"
+description = "A bubble chart is an extension of the scatter plot that can represent relationships among three or more variables in one chart."
 categories = [
     "chart"
 ]

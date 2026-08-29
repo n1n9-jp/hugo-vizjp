@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "連続的カルトグラム（Continuous Cartogram）"
 slug = "continuous-cartogram"
 date = "2026-03-28"
+description = "連続的カルトグラム（Continuous Cartogram）は、地理的な隣接関係（トポロジー）を維持しながら、各地域の面積をデータ変数に比例させて変形する地図表現です。"
 categories = [
     "chart"
 ]

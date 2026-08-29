@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "段階的シンボル・マップ（Graduated Symbol Map）"
 slug = "graduated-symbol-map"
 date = "2020-08-04"
+description = "段階的シンボル・マップ（Graduated Symbol Map）は、離散データを階級分類し、シンボルの大きさという視覚的変数で地図上に表現する手法です。"
 categories = [
     "chart"
 ]

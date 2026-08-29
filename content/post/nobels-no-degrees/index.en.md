@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Nobels, No Degrees: Visualizing Genius Beyond Credentials"
 slug = "nobels-no-degrees"
 date = "2025-10-06"
-description = ""
+description = "Nobels, no degrees is a data visualization by Giorgia Lupi that examines the educational backgrounds and ages of Nobel Prize winners from 1901 to 2012."
 categories = [
     "consume"
 ]

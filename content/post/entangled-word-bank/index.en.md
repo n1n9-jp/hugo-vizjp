@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "(En)tangled Word Bank: Visualizing the Evolution of Darwin's Origin of Species"
 slug = "entangled-word-bank"
 date = "2025-10-02"
-description = ""
+description = "(En)tangled Word Bank visualizes how Charles Darwin's On the Origin of Species changed from the first edition in 1859 to the sixth edition in 1872."
 categories = [
     "consume"
 ]

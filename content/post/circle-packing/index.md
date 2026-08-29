@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "サークル・パッキング (Circle Packing)"
 slug = "circle-packing"
 date = "2025-10-09"
+description = "サークル・パッキング（Circle Packing）は名前の通り「円（circle）」を「詰め込む（packing）」ことで、全体と部分、親子関係を視覚的に表します。"
 categories = [
     "chart"
 ]

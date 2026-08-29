@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Vector Tile Style Specifications: Comparing Mapbox, MapLibre, and GSI"
 slug = "vector-tile-style-specification"
 date = "2025-10-17"
+description = "Style JSON\" files that define map design developed around the Mapbox Style Specification."
 categories = [
     "technology"
 ]

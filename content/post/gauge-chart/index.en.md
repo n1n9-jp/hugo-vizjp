@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Gauge Chart"
 slug = "gauge-chart"
 date = "2025-10-11"
+description = "A gauge chart shows a single value on a circular or semicircular scale, often with a needle like a speedometer."
 categories = [
     "chart"
 ]

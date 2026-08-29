@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is GeoPackage (.gpkg)?"
 slug = "geo-package"
 date = "2026-01-07"
+description = "GeoPackage is an open, standardized file format for storing and exchanging geospatial information."
 categories = [
     "consume"
 ]

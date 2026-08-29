@@ -2,6 +2,7 @@
 title = "[OpenVis Conf 2014] John Resig講演"
 slug = "openvisconf-2014-johnresig"
 date = "2014-07-01"
+description = "Part 2: Keynote Day 2 二日目のキーノートスピーカーは言わずと知れた著名ライブラリjQueryの作者、John Resigでした。"
 categories = [
     "event"
 ]

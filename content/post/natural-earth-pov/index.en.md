@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Natural Earth's POV (Point of View) Data"
 slug = "natural-earth-pov"
 date = "2026-03-27"
+description = "Natural Earth is a free, high-quality map dataset available at 1:10m, 1:50m, and 1:110m scales in vector and raster formats."
 categories = [
     "technology"
 ]

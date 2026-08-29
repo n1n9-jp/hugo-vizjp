@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "リバー・ラベルつき折れ線グラフ（Line Chart with River Label）"
 slug = "line-chart-with-river-label"
 date = "2026-03-17"
+description = "リバー・ラベルつき折れ線グラフは、折れ線グラフにおいてラベルを線のパスに沿って直接配置する可視化手法です。"
 categories = [
     "chart"
 ]

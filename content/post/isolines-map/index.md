@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アイソライン・マップ（Isolines Map）"
 slug = "isolines-map"
 date = "2025-12-10"
+description = "アイソライン・マップ（Isolines Map）は、同じ値を持つ地点を線で結んで空間の連続的な変化を可視化する主題地図です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mission(s) to Mars: Visualizing Challenge and Progress in Mars Exploration"
 slug = "mission-to-mars"
 date = "2025-10-02"
+description = "Mars has long been one of humanity's closest and most compelling planetary targets."
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "学位のない天才たちを可視化する"
 slug = "nobels-no-degrees"
 date = "2025-10-06"
-description = ""
+description = "Nobels, no degrees」 は、データ・ヴィジュアライゼーション・デザイナー Giorgia Lupi による作品で、1901年から2012年までの ノーベル賞受賞者の学歴と年齢の傾向 を可視化したものです。"
 categories = [
     "consume"
 ]

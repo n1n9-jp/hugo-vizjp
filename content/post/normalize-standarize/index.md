@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Googleスプレッドシートで学ぶ「正規化・標準化」の考え方"
 slug = "normalize-standarize"
 date = "2025-10-16"
+description = "チャートは「きれいに描くこと」よりも 「正しく比べること」 が大事です。単位や桁の違いをそのまま放置せず、正規化・標準化を通して「公平な形」にしてあげることで「本当のバランス」が見えてきます。"
 categories = [
     "technology"
 ]

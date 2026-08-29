@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "時間の距離カルトグラム"
 slug = "time-distance-map"
 date = "2025-09-14"
+description = "1888年にフランス公共事業省が発表した統計地図シリーズの中で、もっとも視覚的なインパクトを持つのがこの「Acceleration des Voyages en France depuis 200 ans（過去200年間にわたる旅の加速）」です。"
 categories = [
     "chart"
 ]

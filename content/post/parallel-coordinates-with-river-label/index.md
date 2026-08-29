@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "リバー・ラベルつきパラレル・コーディネイト（Parallel Coordinates with River Label）"
 slug = "parallel-coordinates-with-river-label"
 date = "2026-03-18"
+description = "リバー・ラベルつきパラレル・コーディネイトは、パラレル・コーディネイト（平行座標）の各ポリラインに沿ってテキストラベルをリバー・ラベル方式で直接配置した可視化手法です。"
 categories = [
     "chart"
 ]

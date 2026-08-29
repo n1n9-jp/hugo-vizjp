@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "スパイラル・チャート（Spiral Chart）"
 slug = "spiral-chart"
 date = "2025-10-11"
+description = "スパイラル・チャート（Spiral Chart）は、時間の経過や周期的な変化をらせん状（スパイラル）に表現する可視化手法です。"
 categories = [
     "chart"
 ]

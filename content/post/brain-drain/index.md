@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "頭脳流出の可視化"
 slug = "brain-drain"
 date = "2025-10-10"
+description = "この作品は、「頭脳流出（Brain drain）」 と呼ばれる現象を、各国間での研究者の移動として可視化したものです。"
 categories = [
     "consume"
 ]

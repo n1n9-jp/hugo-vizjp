@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Line Chart"
 slug = "line-chart"
 date = "2025-10-12"
+description = "A line chart connects points with lines to show numerical change."
 categories = [
     "chart"
 ]

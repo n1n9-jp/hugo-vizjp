@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワニの口チャート ― 日本財政を象徴する独自の比喩的可視化"
 slug = "crocodile-chart"
 date = "2025-10-12"
+description = "ワニの口チャート（わにのくちチャート）」とは、日本の財政状況をわかりやすく示すために用いられる独特の折れ線グラフです。"
 categories = [
     "chart"
 ]

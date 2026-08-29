@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Three-Dimensional Cylindrical Polar Scatter Graph"
 slug = "3d-cylindrical-polar-scatter-graph"
 date = "2025-10-12"
+description = "A three-dimensional cylindrical polar scatter graph uses cylindrical coordinates: angle, radius, and height."
 categories = [
     "chart"
 ]

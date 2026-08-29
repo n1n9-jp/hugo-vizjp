@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Comparing the Behavior of Locals and Tourists Through Tweets"
 slug = "locals-and-tourists"
 date = "2025-11-20"
+description = "This work is part of the \"Locals & Tourists\" project by data artist Eric Fischer, created with support from Mapbox and the Twitter data provider Gnip."
 categories = [
     "consume"
 ]

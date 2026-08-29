@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is Show Me?"
 slug = "show-me"
 date = "2026-01-20"
+description = "Show Me is a Tableau feature and research contribution that helps users choose appropriate visualizations."
 categories = [
     "consume"
 ]

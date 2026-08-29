@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Force-Directed Diagram"
 slug = "force-directed-diagram"
 date = "2025-10-11"
+description = "A force-directed diagram is a network layout method that positions nodes and edges through simulated physical forces."
 categories = [
     "chart"
 ]

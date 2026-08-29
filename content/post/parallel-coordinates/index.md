@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "パラレル・コーディネイト（Parallel Coordinates）"
 slug = "parallel-coordinates"
 date = "2020-07-07"
+description = "パラレル・コーディネイト（Parallel Coordinates）は、多次元データを可視化するための代表的な手法の一つです。"
 
 categories = [
     "chart"

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Invention of the Pie Chart"
 slug = "pie-chart-william-playfair-area"
 date = "2025-10-12"
+description = "This chart appeared in William Playfair's 1801 book The Statistical Breviary."
 categories = [
     "consume"
 ]

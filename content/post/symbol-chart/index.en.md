@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Symbol Chart"
 slug = "symbol-chart"
 date = "2025-10-11"
+description = "A symbol chart uses geometric symbols such as circles or squares, varying their size or color to represent quantities and categories."
 categories = [
     "chart"
 ]

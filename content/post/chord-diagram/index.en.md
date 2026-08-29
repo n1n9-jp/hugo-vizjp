@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Chord Diagram"
 slug = "chord-diagram"
 date = "2025-10-11"
+description = "A chord diagram visualizes relationships or flows among categories arranged around a circle."
 categories = [
     "chart"
 ]

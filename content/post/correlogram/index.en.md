@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Correlogram"
 slug = "correlogram"
 date = "2025-10-11"
+description = "A correlogram visualizes correlations among multiple variables in matrix form."
 categories = [
     "chart"
 ]

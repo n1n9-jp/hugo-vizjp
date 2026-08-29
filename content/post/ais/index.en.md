@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is AIS?"
 slug = "ais"
 date = "2026-03-09"
+description = "AIS, or Automatic Identification System, is a maritime surveillance system in which ships automatically broadcast their position and identifying information."
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is VizQL?"
 slug = "vizql"
 date = "2026-01-20"
+description = "VizQL, or Visualization Query Language, is the declarative visualization language at the core of Tableau."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "時空間キューブ（Space-Time Cube）"
 slug = "space-time-cube"
 date = "2025-10-11"
+description = "時空間キューブ（Space-Time Cube）は、時間と空間の関係を3次元的に統合して可視化する図表手法です。"
 categories = [
     "chart"
 ]

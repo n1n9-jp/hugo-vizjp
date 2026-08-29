@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Atlases of World History: How Historical Atlases Distort Historical Memory"
 slug = "atlases-of-world-history"
 date = "2025-10-10"
+description = "Atlases of world history is a data visualization about how historical atlases shape, and sometimes distort, our sense of history."
 categories = [
     "consume"
 ]

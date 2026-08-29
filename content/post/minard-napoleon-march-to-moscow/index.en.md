@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Minard's Map of Napoleon's March to Moscow"
 slug = "minard-napoleon-march-to-moscow"
 date = "2025-10-06"
-description = ""
+description = "In 1869, the French engineer and visualization pioneer Charles Joseph Minard published Carte Figurative des pertes successives en hommes de l'Armee Francaise dans la campagne de Russie 1812-1813, a diagram of Napoleon's"
 categories = [
     "consume"
 ]

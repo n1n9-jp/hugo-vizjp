@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "「最も美しい」や「最も楽しい」道順を提案する研究"
 slug = "most-beauty-route"
 date = "2016-07-20"
+description = "A地点からB地点まで」。いわゆるナビゲーションシステムによるルート案内を、感性に訴えるものにしようという提案をした研究者がいます。"
 categories = [
     "consume"
 ]

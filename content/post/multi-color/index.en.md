@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Multicolor and Texture: A 1904 German Wheat-Yield Map"
 slug = "multi-color"
 date = "2025-10-02"
+description = "In 1904, the Imperial Statistical Office of Germany published a thematic statistical map of wheat yields."
 categories = [
     "technology"
 ]

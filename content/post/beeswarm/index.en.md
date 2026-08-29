@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Beeswarm Plot"
 slug = "beeswarm"
 date = "2025-09-28"
-description = ""
+description = "A beeswarm plot shows a distribution by placing individual data points so that they do not overlap."
 categories = [
     "chart"
 ]

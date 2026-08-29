@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Gapminder World Map 2010"
 slug = "gapminder-world-map-2010"
 date = "2025-10-11"
+description = "Gapminder World Map 2010\" is a bubble chart showing the relationship between national income and life expectancy."
 categories = [
     "consume"
 ]

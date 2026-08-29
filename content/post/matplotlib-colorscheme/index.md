@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Matplotlib がカラーマップを jet から Viridis へ移行した物語"
 slug = "matplotlib-colorscheme"
 date = "2025-11-11"
+description = "Matplotlibのデフォルト・カラーマップは長年「jet」でしたが、その知覚的不均一性や色覚多様性への非対応が問題視され、開発者らが「Viridis」を中心とした新しい知覚的に一様な色設計を導入しました。"
 categories = [
     "consume"
 ]

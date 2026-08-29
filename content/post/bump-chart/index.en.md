@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Bump Chart"
 slug = "bump-chart"
 date = "2025-09-30"
-description = ""
+description = "A bump chart visualizes changes in rank over time. Each line represents a category, such as a team, product, brand, or country."
 categories = [
     "chart"
 ]

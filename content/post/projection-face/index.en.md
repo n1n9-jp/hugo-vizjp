@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Understanding Map Projection Distortion Through Faces: Projection Face"
 slug = "projection-face"
 date = "2025-10-22"
+description = "A map projection transforms the three-dimensional Earth into a two-dimensional map."
 categories = [
     "consume"
 ]

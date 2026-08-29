@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "残された我々のための「データ・ヒューマニティ」"
 slug = "data-humanity"
 date = "2020-06-26"
+description = "2019年12月に開催したイベント「Data Visualization meetup 2019」にて筆者（矢崎）が登壇した際のスライドです。"
 categories = [
     "consume"
 ]

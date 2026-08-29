@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "散布図行列（Scatterplot Matrix）"
 slug = "scatterplot-matrix"
 date = "2025-11-12"
+description = "散布図行列（Scatterplot Matrix、SPLOM）は、多変量データにおける変数間の関係を一度に視覚化するためのグラフです。"
 categories = [
     "chart"
 ]

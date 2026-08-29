@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "宇宙へ打ち上げられた物体たち"
 slug = "objects-launched-into-space"
 date = "2025-10-05"
-description = ""
+description = "この作品は、1957年のスプートニク打ち上げ以降に宇宙へ送られたすべての人工物を、時間軸に沿って丁寧に可視化したインフォグラフィックスです。"
 categories = [
     "consume"
 ]

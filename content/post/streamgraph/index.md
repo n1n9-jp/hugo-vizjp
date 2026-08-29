@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ストリームグラフ（Streamgraph）"
 slug = "streamgraph"
 date = "2020-07-07"
-description = ""
+description = "ストリームグラフ（Streamgraph）は、時系列データを滑らかな帯状の形で積み重ね、全体の変化と部分の構成比を同時に表現する可視化手法です。"
 categories = [
     "chart"
 ]

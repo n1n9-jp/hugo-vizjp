@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "バブル・チャート（Bubble Chart）"
 slug = "bubble-chart"
 date = "2025-10-12"
+description = "バブル・チャート（Bubble Chart）は、散布図（Scatter Plot）の発展形であり、3つ以上の変数の関係を一つの図で表現できるグラフです。"
 categories = [
     "chart"
 ]

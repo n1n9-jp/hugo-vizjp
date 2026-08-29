@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Understanding Normalization and Standardization with Google Sheets"
 slug = "normalize-standarize"
 date = "2025-10-16"
+description = "Good charts are not only about looking clean. They are about making fair comparisons."
 categories = [
     "technology"
 ]

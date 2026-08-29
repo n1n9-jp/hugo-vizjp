@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "認知バイアスを「タスク」で整理する──Dimara らの新しい分類法"
 slug = "cognitive-biases-paper"
 date = "2025-09-19"
-description = ""
+description = "認知バイアスは、人間が合理的に考えているつもりでも陥ってしまう思考のクセです。Wikipedia には170を超えるバイアスがリストアップされていますが、そのままでは数が多すぎて把握しきれず、どの状況で役立つのかも分かりづらいという問題があります。"
 categories = [
     "technology"
 ]

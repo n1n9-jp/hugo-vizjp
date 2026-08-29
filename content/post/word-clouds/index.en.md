@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Word Cloud"
 slug = "word-clouds"
 date = "2025-11-12"
-description = ""
+description = "A word cloud visualizes words from text data by changing font size, color, or placement according to frequency or importance."
 categories = [
     "chart"
 ]

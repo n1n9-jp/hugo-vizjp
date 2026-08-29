@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "垂直樹・水平樹（Vertical Trees / Horizontal Trees）"
 slug = "vertical-tree-horizontal-trees"
 date = "2025-10-11"
+description = "垂直樹・水平樹（Vertical Trees / Horizontal Trees）は、階層構造（ツリー構造）をノードと枝で可視化するツリー・ダイアグラムの基本的なレイアウトバリエーションです。"
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "沖積図（Alluvial Diagrams）の事例"
 slug = "alluvial-diagrams-example"
 date = "2020-08-03"
-description = ""
+description = "沖積図（Alluvial Diagrams）の事例を紹介します。"
 categories = [
     "chart"
 ]

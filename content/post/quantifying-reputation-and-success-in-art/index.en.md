@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Structure of the Art World Revealed by Network Science"
 slug = "quantifying-reputation-and-success-in-art"
 date = "2025-11-20"
+description = "This visualization shows a large network built from exhibition histories at museums and galleries around the world."
 categories = [
     "consume"
 ]

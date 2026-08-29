@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Radar Charts and Parallel Coordinates: A Debate About Readability"
 slug = "radar-parallel-coordinates"
 date = "2025-09-28"
+description = "A radar chart, also called a spider chart, compares multiple variables by plotting values on axes radiating from a center point."
 categories = [
     "chart"
 ]

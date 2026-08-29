@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "イールド・カーブ（Yield Curve）"
 slug = "yield-curve"
 date = "2025-10-11"
+description = "イールド・カーブ（Yield Curve）とは、国債などの異なる満期（期間）の利回りを結んだ曲線のことを指します。"
 categories = [
     "chart"
 ]

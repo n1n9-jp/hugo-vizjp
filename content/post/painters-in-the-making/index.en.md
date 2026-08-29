@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Painters in the Making: Lives and Masterpieces"
 slug = "painters-in-the-making"
 date = "2025-10-06"
-description = ""
+description = "Painters in the Making by Giorgia Lupi maps the lives and major works of painters across roughly 800 years."
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Stefanie Posavec による「路上(On the Road)」の可視化"
 slug = "literary-organism"
 date = "2025-10-03"
-description = ""
+description = "この作品は、グラフィックデザイナー Stefanie Posavec（ステファニー・ポサベック） によるプロジェクト Writing Without Words の一環として制作されたものです。"
 categories = [
     "consume"
 ]

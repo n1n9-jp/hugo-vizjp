@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ可視化にとって最適なカラースペースは？"
 slug = "color-space"
 date = "2018-06-23"
+description = "データ可視化において、色はデータの性質を過不足なく表現するために利用されるべきでしょう。"
 categories = [
     "technology"
 ]

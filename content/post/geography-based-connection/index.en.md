@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Geography-Based Connection"
 slug = "geography-based-connection"
 date = "2025-10-11"
+description = "A geography-based connection map visualizes network relationships on top of geographic space."
 categories = [
     "chart"
 ]

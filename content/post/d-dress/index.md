@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mary Huang『D.dress』（2010）— UI・実装・生成アルゴリズムの実務的整理"
 slug = "d-dress"
 date = "2026-01-04"
+description = "D.dress（2010）は、デザイナー／リサーチャーの Mary Huang による、コンピュテーショナル・ファッションの作品です。"
 categories = [
     "consume"
 ]

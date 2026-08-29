@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ADS-Bとは"
 slug = "ads-b"
 date = "2026-03-09"
+description = "ADS-B（Automatic Dependent Surveillance-Broadcast）は、航空機が自らの位置情報を自動的に放送する監視システムです。"
 categories = [
     "technology"
 ]

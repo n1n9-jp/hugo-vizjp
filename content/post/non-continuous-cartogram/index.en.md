@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Non-Continuous Cartogram"
 slug = "non-continuous-cartogram"
 date = "2026-03-29"
+description = "A non-continuous cartogram scales each region independently in proportion to a data variable while preserving the original shape of that region."
 categories = [
     "chart"
 ]

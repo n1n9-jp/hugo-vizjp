@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "TextArc: アリスを「眺める」ための地図"
 slug = "textarc"
 date = "2025-10-02"
+description = "2000年代初頭、情報デザイナー Bradford Paley は、ルイス・キャロル『不思議の国のアリス』を素材に、独自のテキスト可視化作品 「TextArc」 を発表しました。"
 categories = [
     "consume"
 ]

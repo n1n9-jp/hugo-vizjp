@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "植民地時代ボストン商人の一日：時間と空間の可視化"
 slug = "space–time-path-diagram"
 date = "2025-10-11"
+description = "この図は、地理学者アラン・プレッド（Allan Pred）が1984年に発表した論文「Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Me"
 categories = [
     "consume"
 ]

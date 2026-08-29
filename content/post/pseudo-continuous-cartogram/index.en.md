@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Pseudo-Continuous Cartogram"
 slug = "pseudo-continuous-cartogram"
 date = "2026-03-30"
+description = "A pseudo-continuous cartogram replaces geographic regions with geometric shapes such as circles, squares, or hexagons, and sizes those shapes in proportion to a data variable."
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Urban story: リスボンはホノルルと肩を並べる"
 slug = "urban-story"
 date = "2025-10-05"
-description = ""
+description = "この作品は、データビジュアライゼーション・アーティストのジョルジア・ルピ（Giorgia Lupi）が、イタリアの日曜版紙 La Lettura（Corriere della Sera）のために制作した「Visual Data」シリーズのひとつです。"
 categories = [
     "consume"
 ]

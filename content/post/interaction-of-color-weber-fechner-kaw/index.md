@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "色の変化、その物理的事実と心理的効果の違い"
 slug = "interaction-of-color-weber-fechner-kaw"
 date = "2020-07-21"
+description = "配色の設計 ―色の知覚と相互作用（”Interaction of Color”） ジョセフ・アルバースさんによる色彩の研究成果をまとめた書籍「配色の設計 ―色の知覚と相互作用（”Interaction of Color”）」は、彼のキャリアの晩年、勤めていたイェール大学から出版さ"
 categories = [
     "technology"
 ]

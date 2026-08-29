@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "デスクトップ版からモバイル版を作成する際に、どこを変更する？"
 slug = "desktop2mobile"
 date = "2020-03-13"
+description = "ワシントン大学の可視化の研究室とAdobe Reseachで共同研究した論文で、インタラクティブなチャートを利用していて、かつレスポンシブ対応（デバイスの解像度に自動的にフィットするような対応）している記事コンテンツを調査し、実際のところ、チャートのどの部分をどのように変更してい"
 categories = [
     "technology"
 ]

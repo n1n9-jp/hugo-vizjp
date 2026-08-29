@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "When a Map Projection Changed a Border: The 1990 U.S.-USSR Maritime Boundary Agreement"
 slug = "marine-border-dispute"
 date = "2025-11-09"
+description = "Is a straight line on a map also straight on the Earth? Not necessarily."
 categories = [
     "consume"
 ]

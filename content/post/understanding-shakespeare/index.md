@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "シェイクスピアを「読む」新しい方法"
 slug = "understanding-shakespeare"
 date = "2025-10-03"
-description = ""
+description = "Understanding Shakespeare は、ドイツのデザイナー Stephan Thiel がポツダム応用科学大学（University of Applied Sciences Potsdam）のインターフェースデザイン学科で制作した B.A. 卒業制作です。"
 categories = [
     "consume"
 ]

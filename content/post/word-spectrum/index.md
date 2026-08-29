@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Word Spectrum ― Google のビッグデータで語の関係を可視化する"
 slug = "word-spectrum"
 date = "2025-09-27"
+description = "ある言葉が、別の言葉とどれほど「結びついて」使われているのか。言語学や自然言語処理の分野では、こうした関係を数値化し、モデルに組み込む試みが数多くなされてきました。"
 categories = [
     "consume"
 ]

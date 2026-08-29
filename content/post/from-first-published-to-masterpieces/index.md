@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "初出版から傑作まで、人生と創作キャリアのタイムライン"
 slug = "from-first-published-to-masterpieces"
 date = "2025-10-10"
+description = "本作は 20世紀に刊行された英語小説のうち、Modern Libraryによる「100 Best English Novels」 に選出された作家たちを対象とし、彼らの 人生と創作キャリアのタイムライン を可視化したものです。"
 categories = [
     "consume"
 ]

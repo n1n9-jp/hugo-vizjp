@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "データが「顔」に見える - チャーノフの顔という発想"
 slug = "chernoff-face"
 date = "2025-09-24"
-description = ""
+description = "1973年、統計学者ハーマン・チャーノフはちょっと風変わりなアイデアを論文で発表しました。"
 categories = [
     "chart"
 ]

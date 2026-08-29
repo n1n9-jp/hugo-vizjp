@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Visualizing Progress Toward Gender Equality"
 slug = "progress-toward-gender-equality"
 date = "2025-10-05"
-description = ""
+description = "This visualization by Federica Fragapane appeared in the December 2024 issue of Scientific American."
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "時間‐距離図（Time-Distance Diagram）"
 slug = "time-distance-diagram"
 date = "2025-10-09"
-description = ""
+description = "時間‐距離図（Time-Distance Diagram）は、鉄道やバスなどの移動体の運行を、時間軸と距離軸で可視化する図表です。"
 categories = [
     "chart"
 ]

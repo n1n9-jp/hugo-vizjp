@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワッフル・チャート（Waffle Chart）"
 slug = "waffle-chart"
 date = "2025-10-04"
-description = ""
+description = "ワッフル・チャート（Waffle Chart）は、全体を100個（または任意の数）の小さなマスで表し、各マスを塗り分けることで割合や構成比を示すグラフです。"
 categories = [
     "chart"
 ]

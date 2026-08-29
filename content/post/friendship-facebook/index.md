@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Facebookで友達のつながりを可視化"
 slug = "friendship-facebook"
 date = "2020-05-19"
-description = ""
+description = "2010年の作品で、まだケンブリッジ・アナリティカの件で個人情報が問題になる前の話。"
 categories = [
     "consume"
 ]

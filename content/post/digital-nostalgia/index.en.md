@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Digital Nostalgia: Visualizing Internet History in Life Online"
 slug = "digital-nostalgia"
 date = "2025-10-02"
-description = ""
+description = "Graphic designer Paul Butt created the Digital Nostalgia series to look back at the rapid evolution of digital technology and the social effects left in its wake."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "タイポグラフィック・メッコ・チャート（Typographic Mekko Chart）"
 slug = "typographic-mekko-chart"
 date = "2026-03-21"
+description = "タイポグラフィック・メッコ・チャート（Typographic Mekko Chart）は、メッコ・チャート（マリメッコ・チャート）の各セルに配置されたラベルテキストに、フォントサイズ・太さ・色・斜体などのタイポグラフィ属性を付与することで、追加のデータ次元をエンコードする可視化手"
 categories = [
     "chart"
 ]

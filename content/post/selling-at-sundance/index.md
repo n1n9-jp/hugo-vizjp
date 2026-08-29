@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "映画の経済を描くインフォグラフィック — Selling at Sundance"
 slug = "selling-at-sundance"
 date = "2025-10-04"
-description = ""
+description = "このインフォグラフィックは、イタリアのデータビジュアライゼーション・スタジオ Accurat が制作した「Selling at Sundance」です。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "すべてを明け渡すことではじめて完成する、茶道としてのオープンソース"
 slug = "how-to-give-everything-away"
 date = "2014-01-14"
+description = "去年（2013年）クラスカで行われたFITC Tokyoに参加してきて、最も印象深かった話の一つが、Kyle McDonaldの 'How to Give Everything Away'（あらゆるものを公開する方法）という話でしたので、ご紹介させてください。"
 categories = [
     "consume"
 ]

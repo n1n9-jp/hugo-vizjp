@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Radial Bar Chart"
 slug = "radial-bar-chart"
 date = "2025-10-11"
+description = "A radial bar chart places bars around a circle using polar coordinates."
 categories = [
     "chart"
 ]

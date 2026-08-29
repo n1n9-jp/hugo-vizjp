@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "サンキー・ダイアグラム（Sankey Diagram）の事例"
 slug = "sankey-diagram-example"
 date = "2020-08-02"
-description = ""
+description = "サンキー・ダイアグラム（Sankey Diagram）の事例を紹介します。"
 categories = [
     "chart"
 ]

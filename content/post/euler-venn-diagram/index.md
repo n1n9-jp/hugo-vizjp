@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "オイラー図とベン図（Euler Diagram & Venn Diagram）"
 slug = "euler-venn-diagram"
 date = "2020-08-03"
-description = ""
+description = "ベン図ときくと、たとえばSQLデータベースにおいて、二つのテーブルを結合する際の、結合の仕方について説明した図を思い浮かべる方も多いと思います。"
 categories = [
     "consume"
 ]

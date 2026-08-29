@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "箱ひげ図（Box-and-Whisker Plot）"
 slug = "box-and‐whisker-plot"
 date = "2025-10-11"
+description = "箱ひげ図（Box-and-Whisker Plot）は、データの分布を視覚的に要約し、外れ値や偏りを直感的に把握できる統計グラフです。"
 categories = [
     "chart"
 ]

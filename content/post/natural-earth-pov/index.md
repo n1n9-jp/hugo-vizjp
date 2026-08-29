@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Natural EarthのPOV（Point of View）データ"
 slug = "natural-earth-pov"
 date = "2026-03-27"
+description = "Natural Earthは、無料で利用できる高品質な地図データセットです。1:10m、1:50m、1:110mのスケールでベクターおよびラスター形式のデータを公開しています。"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "認知症リスクの45％は予防可能：ライフステージ別リスク要因の可視化"
 slug = "population-attributable-fraction"
 date = "2025-10-09"
+description = "この図は 『The Lancet Commission on Dementia Prevention, Intervention, and Care（ランセット認知症予防・介入・ケア委員会報告書）2020年版』 に掲載された、認知症リスク要因の総覧図です。"
 categories = [
     "consume"
 ]

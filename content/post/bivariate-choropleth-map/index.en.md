@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Bivariate Choropleth Map"
 slug = "bivariate-choropleth-map"
 date = "2025-10-11"
+description = "A bivariate choropleth map represents two variables on one map."
 categories = [
     "chart"
 ]

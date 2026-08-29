@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ可視化は相手の腹に落ちて価値が出る"
 slug = "nikkeibd-201404"
 date = "2019-08-24"
+description = "データ活用とデータ分析の間には「データ可視化」、最近は「データビジュアライゼーション」と呼ぶ段階が存在している。"
 categories = [
     "principle"
 ]

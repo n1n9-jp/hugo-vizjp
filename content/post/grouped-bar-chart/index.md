@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "グループ棒グラフ（Grouped Bar Chart）"
 slug = "grouped-bar-chart"
 date = "2026-03-08"
+description = "グループ棒グラフ（Grouped Bar Chart）は、複数のデータ系列をカテゴリごとに横に並べて比較する棒グラフの一種です。"
 categories = [
     "chart"
 ]

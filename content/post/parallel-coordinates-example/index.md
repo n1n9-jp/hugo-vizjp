@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "パラレル・コーディネイト（Parallel Coordinates）の事例"
 slug = "parallel-coordinates-example"
 date = "2020-07-07"
+description = "パラレル・コーディネイト（Parallel Coordinates）の事例を紹介します。"
 
 categories = [
     "chart"

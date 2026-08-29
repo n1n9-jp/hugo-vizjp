@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What If the World's Continents Were Drawn on the Same Scale?"
 slug = "continents-showdown"
 date = "2025-10-09"
+description = "Continents' Showdown, created by the Italian data visualization studio Accurat, compares the world's continents through a shared visual scale."
 categories = [
     "consume"
 ]

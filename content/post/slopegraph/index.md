@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "スロープグラフ（Slopegraph）"
 slug = "slopegraph"
 date = "2020-08-03"
-description = ""
+description = "スロープグラフとは、異なるカテゴリーデータについて、定量値が2つの時点でどのように変化したかを示す、簡略化された折れ線グラフです。"
 categories = [
     "chart"
 ]

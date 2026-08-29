@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "地形を変えるアルゴリズム ― Kevin Slavin のTEDトークから"
 slug = "high-frequency-trading"
 date = "2025-09-20"
+description = "2011年のTEDGlobalで登壇したケヴィン・スレイヴィンは、私たちの世界がアルゴリズムによってどのように形作られているかを語りました。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Proportional Flow Map"
 slug = "proportional-flow-map"
 date = "2026-03-26"
+description = "A proportional flow map represents movement between locations by varying line width continuously in proportion to a data value."
 categories = [
     "chart"
 ]

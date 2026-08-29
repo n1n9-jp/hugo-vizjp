@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "AirBnBが開発したOSSのB.I.ツール、Superset"
 slug = "airbnb-superset"
 date = "2020-05-19"
+description = "AirBnBがOSS（オープンソースソフトウェア）のBusiness Intelligenceツール、Supersetを公開しています。"
 categories = [
     "technology"
 ]

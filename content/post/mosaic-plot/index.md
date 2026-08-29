@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "モザイク・プロット（Mosaic Plot）"
 slug = "mosaic-plot"
 date = "2025-09-29"
-description = ""
+description = "モザイク・プロット（Mosaic Plot）は、カテゴリ変数同士の関係を、セルの面積で表現する可視化手法です。"
 categories = [
     "chart"
 ]

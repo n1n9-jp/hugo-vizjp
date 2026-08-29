@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Ridgeline Plot"
 slug = "ridgeline-plot"
 date = "2025-10-11"
+description = "A ridgeline plot stacks multiple distributions, usually smooth density curves, with slight vertical offsets."
 categories = [
     "chart"
 ]

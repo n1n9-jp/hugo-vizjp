@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "世界の記憶を可視化する「The Memory of the World Register」"
 slug = "the-memory-of-the-world-register"
 date = "2025-10-05"
-description = ""
+description = "本作は Federica Fragapane による作品で、ユネスコ（UNESCO）が保護対象として登録している「 世界の記憶（Memory of the World Register） 」を可視化したインフォグラフィックスです。"
 categories = [
     "consume"
 ]

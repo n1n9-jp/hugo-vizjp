@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Radar Chart"
 slug = "radar-chart"
 date = "2025-10-11"
+description = "A radar chart compares multiple variables by arranging axes radially and connecting values into a polygon."
 categories = [
     "chart"
 ]

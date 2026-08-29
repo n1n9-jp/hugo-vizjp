@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Typographic Stacked Bar Chart"
 slug = "typographic-stacked-bar-chart"
 date = "2026-03-22"
+description = "A typographic stacked bar chart adds data-bearing typography to the labels inside a stacked bar chart."
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "量率グラフという呼び名の誕生史"
 slug = "quantity-proportion-chart"
 date = "2025-09-28"
-description = ""
+description = "量率グラフは、長方形の面積を用いて 量（絶対値）と率（割合） を同時に表現する可視化手法です。"
 categories = [
     "chart"
 ]

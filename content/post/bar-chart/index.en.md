@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Bar Chart"
 slug = "bar-chart"
 date = "2025-10-12"
+description = "A bar chart compares values across categories using the length of bars."
 categories = [
     "chart"
 ]

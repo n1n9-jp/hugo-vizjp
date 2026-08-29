@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mary Huang's D.dress (2010): UI, Implementation, and Generative Algorithm"
 slug = "d-dress"
 date = "2026-01-04"
+description = "D.dress (2010) is a computational fashion work by designer and researcher Mary Huang."
 categories = [
     "consume"
 ]

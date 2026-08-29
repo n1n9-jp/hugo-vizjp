@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "タイポグラフィック・積み重ね棒グラフ（Typographic Stacked Bar Chart）"
 slug = "typographic-stacked-bar-chart"
 date = "2026-03-22"
+description = "タイポグラフィック・積み重ね棒グラフ（Typographic Stacked Bar Chart）は、積み重ね棒グラフの各セグメント内に配置されたラベルテキストに、フォントウェイト・サイズ・大文字小文字・斜体などのタイポグラフィ属性を付与し、位置と面積だけでは表現しきれない追加の"
 categories = [
     "chart"
 ]

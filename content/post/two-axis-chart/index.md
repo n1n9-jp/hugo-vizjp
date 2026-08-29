@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "なぜ「二重軸チャート」は悪者にされがちなのか？ それでも必要とされる場面とは"
 slug = "two-axis"
 date = "2025-08-28"
-description = ""
+description = "データ可視化の世界では、「二重軸（Dual Y-Axis）チャート」はしばしば批判の対象になります。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "シンボル・チャート（Symbol Chart）"
 slug = "symbol-chart"
 date = "2025-10-11"
+description = "シンボル・チャート（Symbol Chart）は、円や正方形などの幾何学的なシンボルの大きさや色を変化させることで、数量の大小やカテゴリの違いを視覚的に表現するチャートです。"
 categories = [
     "chart"
 ]
