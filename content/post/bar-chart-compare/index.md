@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "棒グラフの使い分け方：比べ方で変わる4つの基本形"
 slug = "bar-chart-compare"
 date = "2025-10-12"
+description = "データを「棒」で表す棒グラフ。見慣れたグラフですが、実は使い分け方を知らないと、伝えたいことが正しく伝わらないことがあります。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Graduated Flow Map"
 slug = "graduated-flow-map"
 date = "2026-03-25"
+description = "A graduated flow map represents flows between locations by assigning line widths to discrete classes rather than scaling them continuously."
 categories = [
     "chart"
 ]

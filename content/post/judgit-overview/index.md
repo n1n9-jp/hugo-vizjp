@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "国の事業予算の使いみちを全文横断検索できるサービス「JUDGIT!」"
 slug = "judgit-overview"
 date = "2019-08-25"
+description = "これまで検索が難しかった国の事業予算の使いみちを、全文横断で検索できるサービス「Judgit」が登場した。"
 categories = [
     "consume"
 ]

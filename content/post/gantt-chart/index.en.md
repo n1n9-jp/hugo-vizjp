@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Gantt Chart"
 slug = "gantt-chart"
 date = "2025-10-11"
+description = "A Gantt chart visualizes project tasks, durations, order, and dependencies with horizontal bars on a time axis."
 categories = [
     "chart"
 ]

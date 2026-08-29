@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Tissot's Indicatrix"
 slug = "tissots-indicatrix"
 date = "2025-10-22"
+description = "Every map projection creates distortion because the spherical Earth must be represented on a flat plane."
 categories = [
     "consume"
 ]

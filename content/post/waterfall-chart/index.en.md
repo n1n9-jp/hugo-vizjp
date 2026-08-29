@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Waterfall Chart"
 slug = "waterfall-chart"
 date = "2025-10-11"
+description = "A waterfall chart visualizes incremental increases and decreases from an initial value to a final value."
 categories = [
     "chart"
 ]

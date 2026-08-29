@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "メッコ・チャート（Mekko Chart）"
 slug = "mekko-chart"
 date = "2026-03-12"
+description = "メッコ・チャート（Mekko Chart）は、棒の幅と高さの両方にデータ値をエンコードする二次元の棒グラフです。"
 categories = [
     "chart"
 ]

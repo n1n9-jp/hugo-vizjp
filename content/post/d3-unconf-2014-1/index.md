@@ -2,6 +2,7 @@
 title = "d3.unconfレポート[前篇]"
 slug = "d3-unconf-2014-1"
 date = "2014-04-11"
+description = "Keiichiro Ono UC, San Diego School of Medicine Cytoscape Consortium まず自己紹介をさせていただきます。"
 categories = [
     "event"
 ]

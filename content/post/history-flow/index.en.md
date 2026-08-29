@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "History Flow: Visualizing Wikipedia's Invisible Battles"
 slug = "history-flow"
 date = "2025-10-02"
+description = "Wikipedia is the world's largest encyclopedia, but it is also a living document that anyone can edit."
 categories = [
     "consume"
 ]

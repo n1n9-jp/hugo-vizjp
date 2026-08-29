@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いる"
 slug = "mapbox-studio-issue"
 date = "2025-10-15"
+description = "かねてから、Mapbox Studio で作成した地図タイルを Kepler.gl や Foursquare Studio で用いることが出来る機能が提供されていましたが、ここ数年、Kepler.glやFoursquare StudioでMapbox Studioのスタイルを指定"
 categories = [
     "technology"
 ]

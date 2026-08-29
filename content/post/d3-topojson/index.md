@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "D3: TopoJSON"
 slug = "d3-topojson"
 date = "2013-09-18"
+description = "耳慣れない名称ですがD3の作者Michael BostockがD3で地理データを扱うために独自に策定したGeoJSONの拡張形式です。"
 categories = [
     "technology"
 ]

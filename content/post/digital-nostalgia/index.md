@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "デジタル・ノスタルジア：「Life Online」に見るインターネット史の可視化"
 slug = "digital-nostalgia"
 date = "2025-10-02"
-description = ""
+description = "グラフィックデザイナー Paul Butt による Digital Nostalgia シリーズは、近年のデジタル技術の急速な進化を振り返り、その背後にある社会的影響や「ノスタルジー（懐旧感）」を浮かび上がらせることを目的としています。"
 categories = [
     "consume"
 ]

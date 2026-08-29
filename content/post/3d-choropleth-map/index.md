@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3Dコロプレス・マップ（3D Choropleth Map）"
 slug = "3d-choropleth-map"
 date = "2025-10-11"
+description = "3Dコロプレス・マップ（3D Choropleth Map）は、地理的な区画ごとの統計値を色と高さの両方で立体的に表現する可視化手法です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Yield Curve"
 slug = "yield-curve"
 date = "2025-10-11"
+description = "A yield curve connects the yields of bonds with different maturities."
 categories = [
     "chart"
 ]

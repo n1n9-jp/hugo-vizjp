@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is Polaris?"
 slug = "polaris"
 date = "2026-01-20"
+description = "Polaris is a system and formal language for exploratory analysis of multidimensional databases."
 categories = [
     "consume"
 ]

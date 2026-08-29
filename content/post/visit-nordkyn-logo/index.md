@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "北ノルウェーの自然を映すロゴ──Visit Nordkynの動的アイデンティティ"
 slug = "visit-nordkyn-logo"
 date = "2025-09-26"
-description = ""
+description = "ノルウェー最北部、ノードキン（Nordkyn）を舞台とする観光プロジェクト「Visit Nordkyn」。"
 categories = [
     "consume"
 ]

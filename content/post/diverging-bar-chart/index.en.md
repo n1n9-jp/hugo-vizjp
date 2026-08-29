@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Diverging Bar Chart"
 slug = "diverging-bar-chart"
 date = "2026-03-11"
+description = "A diverging bar chart extends bars in two directions from a central baseline, usually zero."
 categories = [
     "chart"
 ]

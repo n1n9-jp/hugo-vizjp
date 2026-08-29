@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Further Education, Longer Life: Visualizing Education and Social Structure"
 slug = "further-education-longer-life"
 date = "2025-10-08"
-description = ""
+description = "This work by Italian infographic designer Federica Fragapane shows the relationship between education level and life expectancy through a multivariate visual system."
 categories = [
     "consume"
 ]

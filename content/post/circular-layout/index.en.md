@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Circular Layout"
 slug = "circular-layout"
 date = "2025-10-11"
+description = "A circular layout places network nodes at equal intervals around a circle."
 categories = [
     "chart"
 ]

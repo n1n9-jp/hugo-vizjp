@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "「A big deal」RCEPをめぐる経済規模の可視化"
 slug = "treemap-rcep"
 date = "2025-09-27"
-description = ""
+description = "2020年11月15日、東アジアを中心とする15か国が署名した RCEP（Regional Comprehensive Economic Partnership, 東アジア地域包括的経済連携協定）は、世界最大規模の自由貿易協定として大きな注目を集めました。"
 categories = [
     "consume"
 ]

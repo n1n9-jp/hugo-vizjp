@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "面グラフ（Area Chart）"
 slug = "area-chart"
 date = "2024-11-12"
+description = "面グラフ（Area Chart）は、折れ線グラフ（Line Chart）の線の下部を塗りつぶすことで、量的な変化を面積で視覚的に表現するグラフです。"
 categories = [
     "chart"
 ]

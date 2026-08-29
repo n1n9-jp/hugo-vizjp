@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Spark Words"
 slug = "spark-words"
 date = "2026-03-24"
+description = "Spark words visualize quantitative data directly through the typography of inline words."
 categories = [
     "chart"
 ]

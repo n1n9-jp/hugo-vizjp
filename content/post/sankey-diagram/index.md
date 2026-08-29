@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "サンキー・ダイアグラム（Sankey Diagram）"
 slug = "sankey-diagram"
 date = "2020-08-02"
-description = ""
+description = "サンキー・ダイアグラム（Sankey Diagram）は、エネルギーや物質、資金などの「流れ（flow）」を太さで表現する可視化手法です。"
 categories = [
     "chart"
 ]

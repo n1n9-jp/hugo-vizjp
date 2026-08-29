@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "タイポグラフィック・グラフ（Typographic Graph）"
 slug = "typographic-graph"
 date = "2026-03-19"
+description = "タイポグラフィック・グラフは、ネットワーク（グラフ）可視化においてノード（節点）を円や点ではなくテキストラベルで表現する手法です。"
 categories = [
     "chart"
 ]

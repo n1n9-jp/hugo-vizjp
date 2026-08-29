@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Evolution of Tableau Color Schemes"
 slug = "tableau-color-scheme"
 date = "2026-02-16"
+description = "Tableau is one of the world's most widely used data visualization tools, and its color schemes are central to how users read data."
 categories = [
     "technology"
 ]

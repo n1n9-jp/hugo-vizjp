@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D散布図（3D Scatterplot）"
 slug = "3d-scatterplot"
 date = "2025-10-12"
+description = "3D散布図（3D Scatterplot）は、3つの数値変数をX軸・Y軸・Z軸に対応させ、三次元空間上に点を配置するチャートです。"
 categories = [
     "chart"
 ]

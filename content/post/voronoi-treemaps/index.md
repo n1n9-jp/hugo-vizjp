@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "円形ボロノイ・ツリーマップ（Circle Voronoi Treemaps）"
 slug = "voronoi-treemaps"
 date = "2025-10-11"
+description = "円形ボロノイ・ツリーマップ（Circle Voronoi Treemaps）は、ボロノイ図（Voronoi Diagram）を応用して階層構造データを不規則な多角形で空間分割する領域分割型の可視化手法です。"
 categories = [
     "chart"
 ]

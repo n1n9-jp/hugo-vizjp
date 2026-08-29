@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ゲージ・チャート（Gauge Chart）"
 slug = "gauge-chart"
 date = "2025-10-11"
+description = "ゲージ・チャート（Gauge Chart）は、メーターやスピードメーターのような半円形または円形のスケール上で、単一の数値を指針や針で示すチャートです。"
 categories = [
     "chart"
 ]

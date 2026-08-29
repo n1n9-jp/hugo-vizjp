@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Grouped Bar Chart"
 slug = "grouped-bar-chart"
 date = "2026-03-08"
+description = "A grouped bar chart places multiple data series side by side within each category."
 categories = [
     "chart"
 ]

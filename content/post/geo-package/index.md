@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "GeoPackage（.gpkg）とは何か"
 slug = "geo-package"
 date = "2026-01-07"
+description = "GeoPackage（ジオパッケージ）は、地理空間情報を保存・交換するための オープンで標準化されたファイル形式 です。"
 categories = [
     "consume"
 ]

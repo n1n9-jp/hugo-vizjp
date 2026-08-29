@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "MapLibre Tile（MLT）とは"
 slug = "mapLibre-tile"
 date = "2026-01-28"
+description = "MapLibre Tile（MLT）は、Mapbox Vector Tile（MVT）をベースにしつつも 現代の巨大な地理空間データと 次世代GPUレンダリング（WebGPUなど） を強く意識して再設計された、MapLibreエコシステム向けの新しいベクタタイル形式です。"
 categories = [
     "chart"
 ]

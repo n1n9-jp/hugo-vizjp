@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Isotype Chart"
 slug = "isotype-chart"
 date = "2025-10-11"
+description = "An Isotype chart uses pictograms to compare quantities. Repeating icons of the same size allows readers to count or estimate differences intuitively."
 categories = [
     "chart"
 ]

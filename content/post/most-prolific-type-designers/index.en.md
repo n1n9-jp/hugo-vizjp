@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Visualizing the Most Prolific Type Designers"
 slug = "most-prolific-type-designers"
 date = "2025-10-11"
+description = "This infographic visualizes notable type designers by the number and categories of typefaces they created."
 categories = [
     "consume"
 ]

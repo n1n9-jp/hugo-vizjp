@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Pie Chart"
 slug = "pie-chart"
 date = "2025-10-12"
+description = "A pie chart represents parts of a whole as slices of a circle."
 categories = [
     "chart"
 ]

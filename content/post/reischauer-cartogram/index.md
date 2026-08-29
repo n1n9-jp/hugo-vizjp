@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ライシャワー元駐日大使が日本に向けた眼差しとしてのカルトグラム地図"
 slug = "reischauer-cartogram"
 date = "2020-08-14"
-description = ""
+description = "ライシャワー元駐日大使「ザ・ジャパニーズ」という著書の中で、彼自身が作成したというカルトグラムで描いた日本地図が掲載されています。"
 categories = [
     "consume"
 ]

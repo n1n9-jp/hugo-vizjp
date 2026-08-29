@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "画家たちの人生と代表作"
 slug = "painters-in-the-making"
 date = "2025-10-06"
-description = ""
+description = "Giorgia Lupi による「Painters in the Making」は、約800年にわたる画家たちの人生と代表作を一つの軸上で描き出した作品です。"
 categories = [
     "consume"
 ]

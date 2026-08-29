@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Strip Chart"
 slug = "strip-chart"
 date = "2025-10-11"
+description = "A strip chart records or displays data continuously over time, often as a line updated in real time."
 categories = [
     "chart"
 ]

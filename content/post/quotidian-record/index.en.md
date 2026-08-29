@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Quotidian Record"
 slug = "quotidian-record"
 date = "2026-01-04"
+description = "Quotidian Record is a work by artist and researcher Brian House that transforms personal GPS location data into music, visual form, and a physical object: an analog record."
 categories = [
     "consume"
 ]

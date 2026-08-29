@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ドット密度マップ（Dot Density Map）"
 slug = "dot-density-map"
 date = "2025-10-11"
+description = "ドット密度マップ（Dot Density Map）は、統計データの地理的な分布をドット（点）の密度で表現する地図手法です。"
 categories = [
     "chart"
 ]

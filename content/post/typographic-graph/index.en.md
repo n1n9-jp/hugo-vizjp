@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Typographic Graph"
 slug = "typographic-graph"
 date = "2026-03-19"
+description = "A typographic graph is a network visualization in which nodes are represented by text labels rather than circles or dots."
 categories = [
     "chart"
 ]

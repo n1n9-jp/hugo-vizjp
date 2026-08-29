@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Up to 45% of Dementia Risk May Be Preventable: Visualizing Risk Factors Across the Life Course"
 slug = "population-attributable-fraction"
 date = "2025-10-09"
+description = "This figure summarizes dementia risk factors from the 2020 report of The Lancet Commission on Dementia Prevention, Intervention, and Care."
 categories = [
     "consume"
 ]

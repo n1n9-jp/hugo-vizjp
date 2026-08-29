@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Why the African Union Called for Moving Beyond the Mercator Projection"
 slug = "correct-the-map"
 date = "2025-11-08"
+description = "In August 2025, the African Union called on the international community to move away from the widely used Mercator projection and adopt the Equal Earth projection, which represents the true relative size of Africa more a"
 categories = [
     "consume"
 ]

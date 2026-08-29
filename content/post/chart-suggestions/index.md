@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "どのチャートを使うべきか"
 slug = "chart-suggestions"
 date = "2013-10-26"
-description = ""
+description = "20年以上シニア・エグゼクティブたちにプレゼンテーションのコーチングやティーチングをしてきているDr.Abela氏が、“Extreme Presentation method”というプレゼンテーションのためのメソッドを公開し本としても出版もしているのですが、その中で、チャートにつ"
 categories = [
     "chart"
 ]

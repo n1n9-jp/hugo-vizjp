@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "QGISにおける階級分類"
 slug = "qgis-classification"
 date = "2020-02-27"
+description = "QGISでの階級分類をご紹介します。アプリケーション上では「モード」と呼ばれています。"
 categories = [
     "technology"
 ]

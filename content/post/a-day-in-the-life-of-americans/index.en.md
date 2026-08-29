@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "A Typical Day in the Life of Americans"
 slug = "a-day-in-the-life-of-americans"
 date = "2026-01-04"
+description = "How do people spend a day? We often see this question answered with statistics, but rarely feel it as lived daily rhythm."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Prime Numerics"
 slug = "prime-numerics-2010"
 date = "2026-01-04"
+description = "Prime Numerics (2010) is a live data visualization work by Sosolimited, the studio of Eric Gunther, Justin Manor, and John Rothenberg."
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "地図ベクトルタイルのスタイル定義：Mapbox・MapLibre・GSIの比較"
 slug = "vector-tile-style-specification"
 date = "2025-10-17"
+description = "地図のデザインを定義する「スタイル JSON」は、Mapbox が定めた Mapbox Style Specification をもとに発展してきました。"
 categories = [
     "technology"
 ]

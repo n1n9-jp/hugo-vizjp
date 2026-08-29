@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アイソプレス・マップ（Isopleths Map）"
 slug = "isopleths-map"
 date = "2025-12-10"
+description = "アイソプレス・マップ（Isopleths Map）は、連続量の分布を等値線で区切った面（ポリゴン）として塗り分けて表現する主題地図です。"
 categories = [
     "chart"
 ]

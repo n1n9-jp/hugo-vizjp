@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "地元住民（Locals）と観光客（Tourists）の行動をツイートで比較"
 slug = "locals-and-tourists"
 date = "2025-11-20"
+description = "この作品は、Mapbox と Twitter データ提供会社 Gnip の協力により、データアーティスト Eric Fischer 氏が制作した「Locals & Tourists」プロジェクトの一部です。"
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Small Multiplesとは何か？"
 slug = "small-multiples"
 date = "2020-07-04"
-description = ""
+description = "チャートのスタイルではなく、ビューのあり方の一つです。Small Multipleとは、変化、違いなどを比較したい変数を一つ選び、それ以外のデータ変数やチャート表現はすべて揃えた上で、比較した変数のみが異なるチャートを並置する表示形式を指します。"
 categories = [
     "chart"
 ]

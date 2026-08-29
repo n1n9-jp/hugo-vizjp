@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "科学可視化と情報可視化"
 slug = "scientific-and-information"
 date = "2020-01-01"
+description = "可視化を科学可視化と情報可視化に分類する考え方があります。それによると、可視化自体は、認知を増幅するために行うインタラクティブな視覚的表現の使用のことを指す、という点では共通ですが、以下のような違いがあります。"
 categories = [
     "principle"
 ]

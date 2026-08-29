@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Distances from Major Airports to City Centers"
 slug = "distance-to-downtown-from-airports"
 date = "2025-10-24"
+description = "This visualization compares the distance and access options between major airports around the world and their corresponding city centers."
 categories = [
     "consume"
 ]

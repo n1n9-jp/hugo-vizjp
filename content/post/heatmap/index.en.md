@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Heatmap"
 slug = "heatmap"
 date = "2026-03-14"
+description = "A heatmap represents values in a matrix or grid by assigning colors to cells."
 categories = [
     "chart"
 ]

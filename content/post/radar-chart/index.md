@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "レーダー・チャート（Radar Chart）"
 slug = "radar-chart"
 date = "2025-10-11"
+description = "レーダー・チャート（Radar Chart）は、多次元データを視覚的に比較するためのチャートで、複数の変数を放射状に配置し、それぞれの値を線や面で結んで多角形として表現します。"
 categories = [
     "chart"
 ]

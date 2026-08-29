@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Parallel Coordinates with River Labels"
 slug = "parallel-coordinates-with-river-label"
 date = "2026-03-18"
+description = "Parallel coordinates with river labels place text directly along each polyline in a parallel coordinates plot."
 categories = [
     "chart"
 ]

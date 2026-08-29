@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "統計チャート・マップ（Chartmaps）"
 slug = "chart-map"
 date = "2020-07-04"
+description = "統計チャート・マップ（Chartmaps）は、円グラフ・棒グラフなどの統計チャートを地図上の各地点に配置し、地理的分布と統計的内訳を同時に表現する主題地図です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "カレンダー・ヒートマップ（Calendar Heatmap）"
 slug = "calendar-heat-map"
 date = "2025-10-11"
+description = "カレンダー・ヒートマップは、日付を基準にしたデータを視覚的に表現するチャートで、主に「日ごとの活動量」や「頻度の変化」を把握するために使われます。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "多色使いとテクスチャの工夫 - 1904年ドイツ帝国統計局による小麦収量地図"
 slug = "multi-color"
 date = "2025-10-02"
+description = "1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ可視化への批評への批評への批評"
 slug = "critique-of-the-critique"
 date = "2020-07-20"
+description = "数日前（2020年7月17日）こんなツイートがバズっていました。アメリカのジョージア州の行政組織が公開している公式COVID-19データ可視化コンテンツについての批評（デザイン上の操作への疑義）です。"
 categories = [
     "consume"
 ]

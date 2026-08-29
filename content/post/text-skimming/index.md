@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "テキスト・スキミング（Text Skimming）"
 slug = "text-skimming"
 date = "2026-03-23"
+description = "テキスト・スキミング（Text Skimming）は、本文テキストに対して太字・斜体・フォントサイズ・色・下線などのタイポグラフィ属性を体系的に付与し、データを視覚的にオーバーレイすることで、読み手がすべての文字を読まずとも重要な情報を素早くスキャン（流し読み）できるようにする可"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "TextArc: A Map for Looking at Alice"
 slug = "textarc"
 date = "2025-10-02"
+description = "In the early 2000s, information designer W. Bradford Paley created TextArc, a visualization based on Lewis Carroll's Alice's Adventures in Wonderland."
 categories = [
     "consume"
 ]

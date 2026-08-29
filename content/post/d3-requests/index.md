@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "D3: データ形式"
 slug = "d3-requests"
 date = "2013-09-22"
+description = "D3には、外部ファイルの読み込み用にいくつかヘルパー関数が用意されています。ファイル形式によって、D3に読み込んだ後のデータ保持の形式が異なるので一覧にするとこのような感じです。"
 categories = [
     "technology"
 ]

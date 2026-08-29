@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "パラレル・セット (Parallel Sets) の事例"
 slug = "parallel-sets-example"
 date = "2020-08-02"
-description = ""
+description = "パラレル・セット (Parallel Sets) の事例を紹介します。"
 categories = [
     "chart"
 ]

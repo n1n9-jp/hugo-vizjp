@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "人が言葉を覚えるとき"
 slug = "ted-birth-of-word"
 date = "2020-05-20"
-description = ""
+description = "MITの研究者デブ・ロイさんが研究として、人が生まれてから、言語を獲得していく様子をすべて動画として記録し、あとで分析できたらどんなことがわかるか。"
 categories = [
     "consume"
 ]

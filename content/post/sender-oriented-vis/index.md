@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "発信者主体の情報可視化作品作りにおけるスケッチの行い方考察"
 slug = "sender-oriented-vis"
 date = "2020-06-26"
+description = "筆者（矢崎）の修論公聴会でのスライドです。本修論をもってデザイン科学の修士を修了しました。"
 
 categories = [
     "technology"

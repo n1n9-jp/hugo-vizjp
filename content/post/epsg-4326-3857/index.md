@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "なぜ Web 地図データの案内には EPSG:4326 のものもあれば EPSG:3857 のものもあるのか？"
 slug = "epsg-4326-3857"
 date = "2025-11-16"
+description = "EPSGコード とは、世界各国の測地系・投影法・座標参照系（CRS）を一意に識別するために割り振られた番号で、地理情報を「どの座標系で表しているか」を明確に示すための国際標準コードです。"
 categories = [
     "technology"
 ]

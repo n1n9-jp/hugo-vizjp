@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ワード・バブル（Word Bubble）"
 slug = "word-bubble"
 date = "2025-11-12"
-description = ""
+description = "ワード・バブル（Word Bubble）は、テキストデータ中の単語を円（バブル）で表現し、その出現頻度や重要度に応じて大きさや色を変化させて可視化するグラフです。"
 categories = [
     "chart"
 ]

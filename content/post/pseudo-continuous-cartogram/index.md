@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "擬似連続カルトグラム（Pseudo-Continuous Cartogram）"
 slug = "pseudo-continuous-cartogram"
 date = "2026-03-30"
+description = "擬似連続カルトグラム（Pseudo-Continuous Cartogram）は、地理的な地域を円や四角形、六角形などの幾何図形に置き換え、その面積をデータ変数に比例させて表現する地図手法です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "スティーヴンスのべき法則(Stevens’ power law)"
 slug = "stevens-power-law"
 date = "2020-03-07"
+description = "1975年に発表された論文で、スタンレー・スミス・スティーブンス(Stanley Smith Stevens)は、「物理的刺激の大きさ」と「その知覚される強度」との間の関係は、べき乗関数に従うことを示しました。"
 categories = [
     "technology"
 ]

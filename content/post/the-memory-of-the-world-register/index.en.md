@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Visualizing The Memory of the World Register"
 slug = "the-memory-of-the-world-register"
 date = "2025-10-05"
-description = ""
+description = "This infographic by Federica Fragapane visualizes UNESCO's Memory of the World Register, focusing on documentary heritage."
 categories = [
     "consume"
 ]

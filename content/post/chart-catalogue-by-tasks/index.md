@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "タスク別チャート分類"
 slug = "chart-catalogue-by-tasks"
 date = "2020-08-28"
-description = ""
+description = "代表的な Visual Vocabulary を除いて、タスク別にチャート分類しているものをご紹介します。"
 categories = [
     "chart"
 ]

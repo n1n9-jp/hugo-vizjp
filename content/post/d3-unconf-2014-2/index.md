@@ -2,6 +2,7 @@
 title = "d3.unconfレポート[後篇]"
 slug = "d3-unconf-2014-2"
 date = "2014-04-20"
+description = "参加者がディスカッションの議題を持ち寄りunconferenceがスタートしました。"
 categories = [
     "event"
 ]

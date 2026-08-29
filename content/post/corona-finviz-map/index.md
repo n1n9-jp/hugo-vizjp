@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "コロナ禍による凡例の破綻"
 slug = "corona-finviz-map"
 date = "2020-07-20"
-description = ""
+description = "コロナ禍は経済に大きなダメージを与え、それは日本だけでなく、他の諸国でも同様です。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Natural Earth配布ファイルの国境について(2014年記事)"
 slug = "natural-earth-border-issue"
 date = "2014-11-03"
+description = "Natural Earthというサイトで、パブリックドメイン扱いで地図データを配布しています。"
 categories = [
     "technology"
 ]

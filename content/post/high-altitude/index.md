@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "山岳写真に刻まれた株価の変動 ― Michael Najjar「High Altitude」"
 slug = "high-altitude"
 date = "2025-09-20"
+description = "アルゼンチンのアンデス山脈を舞台にした壮大な山岳写真に、私たちの経済活動の痕跡が刻まれているとしたら―。"
 categories = [
     "consume"
 ]

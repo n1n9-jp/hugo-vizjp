@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "つららチャート（Icicle Chart）"
 slug = "icicle-chart"
 date = "2020-08-09"
-description = ""
+description = "つららチャート（Icicle Chart）は、階層構造データを長方形の積み重ねで表現する可視化手法です。"
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "アメリカ財政をどう見せるか：Understanding USAとUSAFacts"
 slug = "government-budget-icicle"
 date = "2025-09-27"
-description = ""
+description = "国家財政の可視化は、単なる統計表を超えて、市民に「税金がどこから来て、どこへ行くのか」を直感的に伝える重要な手段です。"
 categories = [
     "consume"
 ]

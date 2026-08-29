@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ハイパーボリック・ツリー（Hyperbolic Tree）"
 slug = "hyperbolic-trees"
 date = "2025-10-11"
+description = "ハイパーボリック・ツリー（Hyperbolic Tree）は、階層構造データ（ツリー構造）を円形のハイパーボリック空間上に可視化する手法です。"
 categories = [
     "chart"
 ]

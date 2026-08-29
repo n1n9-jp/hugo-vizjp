@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "A Day in the Life of a Colonial Boston Merchant: Visualizing Time and Space"
 slug = "space–time-path-diagram"
 date = "2025-10-11"
+description = "This diagram appeared in geographer Allan Pred's 1984 paper \"Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period.\" It shows how a late eighteenth-century Bosto"
 categories = [
     "consume"
 ]

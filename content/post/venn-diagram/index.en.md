@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Venn Diagram"
 slug = "venn-diagram"
 date = "2025-10-08"
-description = ""
+description = "A Venn diagram visualizes relationships between sets. Circles or closed curves represent sets, and their overlaps represent shared elements."
 categories = [
     "chart"
 ]

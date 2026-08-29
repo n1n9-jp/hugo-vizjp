@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "気温スパイラルが見せる地球温暖化の軌跡"
 slug = "spiralling-global-temperatures"
 date = "2025-09-21"
-description = ""
+description = "気候変動をどう伝えるか？」――これは科学者やメディアにとって長年の課題でした。"
 categories = [
     "consume"
 ]

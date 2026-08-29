@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "QGISで、fToolsとGDALToolsが見当たらない?"
 slug = "qgis-processing"
 date = "2020-02-23"
+description = "QGISのfToolsとGDALToolsの両プラグインはQGISのコアプラグインから削除され、Processingフレームワークへ統合されました。"
 categories = [
     "technology"
 ]

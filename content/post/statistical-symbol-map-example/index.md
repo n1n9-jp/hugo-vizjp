@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "統計記号マップ（Statistical Symbol Map）の作例"
 slug = "statistical-symbol-map-example"
 date = "2020-08-04"
-description = ""
+description = "統計チャートを地図上に重ねて表示することで、地理的分布と統計的分析を同時に行うことを目指したものです。"
 categories = [
     "chart"
 ]

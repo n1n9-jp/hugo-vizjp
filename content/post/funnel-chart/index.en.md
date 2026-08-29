@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Funnel Chart"
 slug = "funnel-chart"
 date = "2025-10-11"
+description = "A funnel chart visualizes the decrease in quantity across stages of a process."
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Word Bubble"
 slug = "word-bubble"
 date = "2025-11-12"
-description = ""
+description = "A word bubble chart represents words from text data as circles."
 categories = [
     "chart"
 ]

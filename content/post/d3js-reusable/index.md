@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "D3.jsを使ったreusableな実装"
 slug = "d3js-reusable"
 date = "2014-12-18"
+description = "D3.jsを使って、チャートを一つウェブに表示することはexampleを利用すればできますが、たとえば以下のような場合にはどうしたらいいでしょうか。"
 categories = [
     "technology"
 ]

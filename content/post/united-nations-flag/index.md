@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "国際連合旗での地図投影法"
 slug = "united-nations-flag"
 date = "2025-10-22"
+description = "この図は、国際連合（United Nations, UN）の旗を示しています。淡い青色の背景に、白い国連の紋章が中央に配置されています。"
 categories = [
     "consume"
 ]

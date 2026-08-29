@@ -2,6 +2,7 @@
 title = "ブラウザーでのデータビジュアライゼーションにおける技術選定のポイント"
 slug = "openvisconf2013-miguel"
 date = "2013-11-05"
+description = "ブラウザー上でデータビジュアライゼーションをやる場合にどの技術を使うべきなのか。"
 categories = [
     "technology"
 ]

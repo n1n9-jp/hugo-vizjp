@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Radial Tree"
 slug = "radial-trees"
 date = "2025-10-11"
+description = "A radial tree lays out a hierarchy in a circular form. The root node is placed at the center, and child nodes radiate outward by level."
 categories = [
     "chart"
 ]

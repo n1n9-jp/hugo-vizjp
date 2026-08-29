@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "カルトグラム（Cartogram）の分類"
 slug = "cartogram-classification"
 date = "2025-09-10"
+description = "データをわかりやすく、そして印象的に表現する方法のひとつに「カルトグラム（Cartogram）」があります。"
 categories = [
     "chart"
 ]

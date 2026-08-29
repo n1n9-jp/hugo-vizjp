@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ジェンダー平等への進展の可視化"
 slug = "progress-toward-gender-equality"
 date = "2025-10-05"
-description = ""
+description = "本作は Federica Fragapane による作品で Scientific American (2024年12月号) に掲載されたものです。"
 categories = [
     "consume"
 ]

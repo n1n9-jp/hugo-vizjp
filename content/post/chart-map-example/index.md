@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "チャート・マップ（Chart Map）の事例"
 slug = "chart-map-example"
 date = "2020-07-04"
+description = "チャート・マップ（Chart Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

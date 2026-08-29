@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "A New Way to Read Shakespeare"
 slug = "understanding-shakespeare"
 date = "2025-10-03"
-description = ""
+description = "Understanding Shakespeare is a BA thesis project by German designer Stephan Thiel, created in the Interface Design program at the University of Applied Sciences Potsdam."
 categories = [
     "consume"
 ]

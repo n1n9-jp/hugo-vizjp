@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Urban Story: Lisbon Is on a Par with Honolulu"
 slug = "urban-story"
 date = "2025-10-05"
-description = ""
+description = "This work is part of the Visual Data series created by data visualization artist Giorgia Lupi for La Lettura, the cultural supplement of Corriere della Sera."
 categories = [
     "consume"
 ]

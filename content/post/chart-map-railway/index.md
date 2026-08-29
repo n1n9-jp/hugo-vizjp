@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "鉄道の発展を「円の面積」で描いた鉄道発展図"
 slug = "chart-map-railway"
 date = "2025-09-15"
+description = "19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。"
 categories = [
     "technology"
 ]

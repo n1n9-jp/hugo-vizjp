@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "美大生に聞く、今気になるデータ可視化／インフォグラフィック作品"
 slug = "recent-interest-art-school-2020"
 date = "2020-06-23"
+description = "筆者が非常勤で半期受け持っている、多摩美術大学 情報デザイン学科 メディアデザイン三年生に聞いた「よかったデータ可視化／インフォグラフィック作品」をリストしました。"
 categories = [
     "consume"
 ]

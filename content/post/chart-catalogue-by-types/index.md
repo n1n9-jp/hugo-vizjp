@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ・タイプ別チャート分類"
 slug = "chart-catalogue-by-types"
 date = "2020-08-28"
-description = ""
+description = "データ・タイプ別チャート分類です（後日追記します）。"
 categories = [
     "chart"
 ]

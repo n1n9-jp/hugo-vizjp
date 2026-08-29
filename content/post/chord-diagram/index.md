@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "コード・ダイアグラム（Chord Diagram）"
 slug = "chord-diagram"
 date = "2025-10-11"
+description = "コード・ダイアグラム（Chord Diagram）は、円形のレイアウト上で複数のカテゴリ間の関係やフローを可視化するチャートです。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ハイブ・プロット（Hive Plot）"
 slug = "hive-plot"
 date = "2025-10-11"
+description = "ハイブ・プロット（Hive Plot）は、ネットワークデータを体系的に整理し、ノード（頂点）をルールに基づいて配置することで、複雑なネットワーク構造を明快に可視化する手法です。"
 categories = [
     "chart"
 ]

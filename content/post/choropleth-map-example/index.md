@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "コロプレス・マップ（Choropleth Map）の事例"
 slug = "choropleth-map-example"
 date = "2020-08-06"
-description = ""
+description = "コロプレス・マップ（Choropleth Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

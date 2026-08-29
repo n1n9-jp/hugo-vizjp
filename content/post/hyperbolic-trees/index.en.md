@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Hyperbolic Tree"
 slug = "hyperbolic-trees"
 date = "2025-10-11"
+description = "A hyperbolic tree visualizes hierarchical data in a circular hyperbolic space."
 categories = [
     "chart"
 ]

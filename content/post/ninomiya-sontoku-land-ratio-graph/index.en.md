@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Ninomiya Sontoku and the Idea of Land Classification"
 slug = "ninomiya-sontoku-land-ratio-graph"
 date = "2025-10-09"
+description = "In the late Edo period, the agricultural reformer and thinker Ninomiya Sontoku (1787-1856) conducted detailed land surveys and management reforms to revive struggling rural communities."
 categories = [
     "consume"
 ]

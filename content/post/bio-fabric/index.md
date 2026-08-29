@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "バイオファブリック（BioFabric）"
 slug = "bio-fabric"
 date = "2025-10-11"
+description = "バイオファブリック（BioFabric）は、ネットワーク（グラフ）構造を従来のノードリンク図とは異なる手法で可視化するユニークなチャートです。"
 categories = [
     "chart"
 ]

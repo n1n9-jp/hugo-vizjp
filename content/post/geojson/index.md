@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "GeoJsonとは"
 slug = "geojson"
 date = "2020-03-12"
+description = "GeoJsonとは、Jsonというデータフォーマットを用いて、空間データと非空間データを関連付けることができるファイルフォーマットです。"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Excelでのピボットテーブルの解除"
 slug = "excel-reverse-pivot"
 date = "2023-11-19"
+description = "Excelでピボットテーブル化した（もしくはいわゆる横持ちと呼ばれる状態）の表を、ピボットテーブルする前の状態（もしくはいわゆる縦持ちと呼ばれる状態）に戻す作業は、これまでやや複雑でしたが、ExcelにPowerQueryエディタが搭載されてから、手順がかなりシンプルになりました"
 categories = [ 
   "technology"
 ]

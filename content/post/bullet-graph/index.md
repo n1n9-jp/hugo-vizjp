@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ブレット・グラフ（Bullet Graph）"
 slug = "bullet-graph"
 date = "2025-10-11"
+description = "ブレット・グラフ（Bullet Graph）は、棒グラフの拡張として開発された可視化手法で、主に業績評価や目標達成度をコンパクトに表示するために使われます。"
 categories = [
     "chart"
 ]

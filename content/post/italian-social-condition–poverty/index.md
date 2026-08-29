@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "デザイン教育における貧困の可視化 ― Italian social condition – Poverty 課題"
 slug = "italian-social-condition–poverty"
 date = "2024-10-04"
-description = ""
+description = "Italian social condition – Poverty」は、ミラノ工科大学 Politecnico di Milano の DensityDesign Lab による2008–2009年度の演習課題です。"
 categories = [
     "education"
 ]

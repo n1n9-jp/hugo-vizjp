@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "311の際の世界からの応援ツイート"
 slug = "twitter-global-pulse"
 date = "2020-05-19"
-description = ""
+description = "311発生から、普段の5倍以上のツイート量が日本でなされました。家族、友人、知人へ安否を確かめるコミュニケーションが飛び交っていました。"
 categories = [
     "consume"
 ]

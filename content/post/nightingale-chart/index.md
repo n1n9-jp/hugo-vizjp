@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ナイチンゲールによる「鶏冠」チャート"
 slug = "nightingale-chart"
 date = "2020-08-14"
-description = ""
+description = "フローレンス・ナイチンゲールによって開発された歴史に残るチャート、当時は、“coxcomb” 、現代では “polar-area diagram” というチャート類型として認識されています。"
 categories = [
     "chart"
 ]

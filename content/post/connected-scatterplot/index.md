@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "連結散布図（Connected Scatterplot）"
 slug = "connected-scatterplot"
 date = "2025-09-30"
+description = "連結散布図（Connected Scatterplot）は、散布図の各データ点を線で結んだグラフで、時間的な推移や変化の軌跡を可視化する手法です。"
 categories = [
     "chart"
 ]

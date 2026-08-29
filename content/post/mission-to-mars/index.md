@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "火星探査の「挑戦」と「進歩」を描いたインフォグラフィックス"
 slug = "mission-to-mars"
 date = "2025-10-02"
+description = "人類にとって火星は、もっとも近い「他の惑星」として、長いあいだ夢と挑戦の対象であり続けてきました。"
 categories = [
     "consume"
 ]

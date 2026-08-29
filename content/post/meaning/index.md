@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "データビジュアライゼーションを学ぶ意義"
 slug = "meaning"
 date = "2018-05-18"
+description = "オープンデータ、ビッグデータというキーワードがここ数年普及してきており、活用する機運が高まっています。"
 categories = [
     "principle"
 ]

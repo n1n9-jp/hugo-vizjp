@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "二変数コロプレス・マップ（Bivariate Choropleth Map）"
 slug = "bivariate-choropleth-map"
 date = "2025-10-11"
+description = "二変数コロプレス・マップ（Bivariate Choropleth Map）は、2つの異なる変数を同時に1枚の地図上で表現する主題地図です。"
 categories = [
     "chart"
 ]

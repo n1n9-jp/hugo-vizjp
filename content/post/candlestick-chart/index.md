@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ローソク足チャート（Candlestick Chart）"
 slug = "candlestick-chart"
 date = "2025-10-11"
+description = "ローソク足チャート（Candlestick Chart）は、株価や為替レートなどの時系列データにおいて、一定期間の「始値・高値・安値・終値（OHLC）」を視覚的に表現するチャートです。"
 categories = [
     "chart"
 ]

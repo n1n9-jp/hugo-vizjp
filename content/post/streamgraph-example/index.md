@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "ストリームグラフ（Streamgraph）の事例"
 slug = "streamgraph-example"
 date = "2020-07-07"
-description = ""
+description = "コロプレス・マップ（Choropleth Map）の事例を紹介します。"
 categories = [
     "chart"
 ]

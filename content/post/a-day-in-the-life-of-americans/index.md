@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アメリカ人の典型的な1日"
 slug = "a-day-in-the-life-of-americans"
 date = "2026-01-04"
+description = "世の中の人々がどのように1日を過ごしているのか──これは統計的な数字で示されることはあっても、私たちは“生きた日常”として感じることは多くありません。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D Treemaps"
 slug = "3d-treemaps"
 date = "2025-10-11"
+description = "3D treemaps extend ordinary treemaps into three-dimensional space."
 categories = [
     "chart"
 ]

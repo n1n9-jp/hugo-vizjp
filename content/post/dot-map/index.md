@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ドット・マップ（Dot Map）"
 slug = "dot-map"
 date = "2025-10-11"
+description = "ドット・マップ（Dot Map）は、個々の観測データの位置を地図上にドット（点）で忠実にプロットする地図表現手法です。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "多様な文化を持つ世界100以上の言語において、色名の発明順序がほぼ一緒"
 slug = "color-name-appearance"
 date = "2020-07-23"
+description = "人類学者のBrent BerlinとPaul Kayさんの研究成果 (Basic Color Terms: Their Universality and Evolution. 1969) として、"
 categories = [
     "technology"
 ]

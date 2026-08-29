@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Crocodile-Mouth Chart: A Japanese Metaphor for Fiscal Imbalance"
 slug = "crocodile-chart"
 date = "2025-10-12"
+description = "The \"crocodile-mouth chart\" is a distinctive line-chart metaphor used in Japan to explain the country's fiscal situation."
 categories = [
     "chart"
 ]

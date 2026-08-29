@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "レーダー・チャートと平行座標：読みやすさをめぐる議論"
 slug = "radar-parallel-coordinates"
 date = "2025-09-28"
+description = "レーダー・チャート（radar chart）は、複数の項目を同時に比較するための可視化手法です。"
 categories = [
     "chart"
 ]

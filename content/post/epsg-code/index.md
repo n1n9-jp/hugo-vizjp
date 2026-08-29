@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "EPSGコード"
 slug = "epsg-code"
 date = "2020-02-22"
+description = "コンピュータで地図を扱おうとする際に、空間参照系（Coordinate system）、測定単位（Unit）、測地CRS（Geodetic CRS）、基礎データ（Datum）、地球楕円体（Ellipsoid）、子午線（Prime meridian）など、たくさんの設定値を扱う必要"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "データスケール（Data Scale）"
 slug = "data-scale"
 date = "2020-03-07"
+description = "データの分類方法は色々あります。そのうち、四則計算や代表値を求める計算のうち、適用可能範囲で分類する考え方があります。"
 categories = [
     "technology"
 ]

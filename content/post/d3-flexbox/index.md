@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "D3.jsは利用しつつ、SVGではなくFlexboxによるチャート描画"
 slug = "d3-flexbox"
 date = "2020-10-03"
+description = "データビジュアライゼーション用にSVGやCanvasを描画するJavaScriptのライブラリ、D3.jsを利用して、SVGではなくCSS3のFlexboxを利用したチャート描画のスタディを行っていた記事をご紹介します。"
 categories = [
     "technology"
 ]

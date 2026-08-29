@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mosaic Plot"
 slug = "mosaic-plot"
 date = "2025-09-29"
-description = ""
+description = "A mosaic plot visualizes relationships between categorical variables by representing cells as rectangles whose areas correspond to frequency or probability."
 categories = [
     "chart"
 ]

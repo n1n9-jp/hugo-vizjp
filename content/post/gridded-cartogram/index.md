@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "グリッド・カルトグラム（Gridded Cartogram）"
 slug = "gridded-cartogram"
 date = "2026-03-31"
+description = "グリッド・カルトグラム（Gridded Cartogram）は、各地域を同じサイズのグリッドセル（正方形や六角形）で表現し、地理的な配置をおおまかに再現する地図手法です。"
 categories = [
     "chart"
 ]

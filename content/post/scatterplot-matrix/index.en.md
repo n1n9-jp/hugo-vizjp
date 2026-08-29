@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Scatterplot Matrix"
 slug = "scatterplot-matrix"
 date = "2025-11-12"
+description = "A scatterplot matrix, or SPLOM, displays pairwise relationships among multiple variables in a grid of scatterplots."
 categories = [
     "chart"
 ]

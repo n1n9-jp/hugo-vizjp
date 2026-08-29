@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "二宮尊徳と「土地分類」の思想"
 slug = "ninomiya-sontoku-land-ratio-graph"
 date = "2025-10-09"
+description = "江戸時代後期、農政家・思想家として知られる 二宮尊徳（1787–1856） は、荒廃した農村を復興するために独自の土地調査と経営改革を行いました。"
 categories = [
     "consume"
 ]

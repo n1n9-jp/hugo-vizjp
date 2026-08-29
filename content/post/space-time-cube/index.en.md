@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Space-Time Cube"
 slug = "space-time-cube"
 date = "2025-10-11"
+description = "A space-time cube integrates time and geographic space in a three-dimensional visual form."
 categories = [
     "chart"
 ]

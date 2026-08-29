@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Objects Launched into Space"
 slug = "objects-launched-into-space"
 date = "2025-10-05"
-description = ""
+description = "This infographic visualizes every human-made object launched into space since Sputnik in 1957."
 categories = [
     "consume"
 ]

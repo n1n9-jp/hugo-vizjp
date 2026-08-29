@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "カルトグラム（Cartogram）"
 slug = "cartogram"
 date = "2025-09-10"
+description = "カルトグラム（Cartogram）は、地理的な地図上で各地域の形状や面積を、人口やGDPなどの統計量に比例させて変形した地図です。"
 categories = [
     "chart"
 ]

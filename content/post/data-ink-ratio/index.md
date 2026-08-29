@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ-インク比"
 slug = "data-ink-ratio"
 date = "2020-03-09"
-description = ""
+description = "データ-インク比という言葉があります。エドワード・タフテがこのように定義しています。"
 categories = [
     "consume"
 ]

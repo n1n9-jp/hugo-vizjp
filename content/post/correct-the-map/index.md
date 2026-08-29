@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "アフリカ連合が「メルカトル図法をやめよう」と呼びかけた理由"
 slug = "correct-the-map"
 date = "2025-11-08"
+description = "2025年8月、アフリカ連合（African Union, AU）は、世界で広く用いられてきたメルカトル図法を廃し、アフリカ大陸の実際の大きさを正確に示す「イコールアース図法（Equal Earth Projection）」を採用するよう国際社会に呼びかけました。"
 categories = [
     "consume"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "MIT Media Lab 2011年版ロゴ - アルゴリズムでつくる「交差のデザイン」"
 slug = "mit-media-lab-logo-2011"
 date = "2025-09-24"
-description = ""
+description = "2011年、MIT Media Lab は創立25周年を記念し、ロゴを刷新しました。"
 categories = [
     "consume"
 ]

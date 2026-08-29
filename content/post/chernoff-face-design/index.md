@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "デザイン性の高いチャーノフの顔"
 slug = "chernoff-face-design"
 date = "2025-09-25"
-description = ""
+description = "デザイン性の高いチャーノフの顔を集めてみました。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ウォーターフォール・チャート（Waterfall Chart）"
 slug = "waterfall-chart"
 date = "2025-10-11"
+description = "ウォーターフォール・チャート（Waterfall Chart）は、数値の増減を段階的に視覚化するための棒グラフの一種です。"
 categories = [
     "chart"
 ]

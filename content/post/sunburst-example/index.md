@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "サンバースト（Sunburst）の事例"
 slug = "sunburst-example"
 date = "2020-08-11"
-description = ""
+description = "サンバースト（Sunburst）の事例を紹介します。"
 categories = [
     "chart"
 ]

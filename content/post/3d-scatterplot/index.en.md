@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D Scatterplot"
 slug = "3d-scatterplot"
 date = "2025-10-12"
+description = "A 3D scatterplot places points in three-dimensional space using X, Y, and Z axes to represent three numeric variables."
 categories = [
     "chart"
 ]

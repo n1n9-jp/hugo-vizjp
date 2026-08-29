@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "散布図（Scatter Plot）"
 slug = "scatterplot"
 date = "2025-10-12"
+description = "散布図は、2つの数値変数の関係性を視覚的に表現するための基本的な統計グラフです。"
 categories = [
     "chart"
 ]

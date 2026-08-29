@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "クレイグ図法（Craig projection）とは"
 slug = "craig-projectionh"
 date = "2025-10-22"
+description = "クレイグ図法（Craig projection）は、1909年にイギリスの地図製作者ジェームズ・クレイグ（James Ireland Craig）が考案した地図投影法です。"
 categories = [
     "technology"
 ]

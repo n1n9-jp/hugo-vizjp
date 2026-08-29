@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Typographic Scatterplots"
 slug = "typographic-scatterplots"
 date = "2026-03-16"
+description = "A typographic scatterplot replaces ordinary point marks with text labels such as words, abbreviations, or names."
 categories = [
     "chart"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Focus+Contextの実例"
 slug = "focus-context"
 date = "2020-11-11"
-description = ""
+description = "情報可視化におけるテクニックとして、Focus+Contextとよばれる手法があります。"
 categories = [
     "technology"
 ]

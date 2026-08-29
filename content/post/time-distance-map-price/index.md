@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "旅費の距離カルトグラム"
 slug = "time-distance-map-price"
 date = "2025-09-14"
+description = "19世紀フランスの人々にとって「旅」は、時間だけでなくお金の面でも大きな負担を伴うものでした。"
 categories = [
     "chart"
 ]

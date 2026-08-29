@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "「Cognitive Bias Codex」で眺める人間の思考のクセ"
 slug = "cognitive-biases-blog"
 date = "2025-09-19"
-description = ""
+description = "私たちの判断や意思決定は、合理的なようでいて、しばしば、予測可能な誤りを繰り返します。"
 categories = [
     "technology"
 ]

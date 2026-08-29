@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "サンバースト（Sunburst）"
 slug = "sunburst"
 date = "2025-10-02"
-description = ""
+description = "サンバースト（Sunburst Chart）は、階層構造を円形に展開して可視化するチャートです。"
 categories = [
     "chart"
 ]

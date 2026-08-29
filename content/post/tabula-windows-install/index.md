@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Tabula Windows版のインストールがうまくいかない方へ"
 slug = "tabula-windows-install"
 date = "2019-08-24"
+description = "PDFに含まれている表をテキストデータとして抜き出すことのできるTabulaというアプリケーションがあります。"
 categories = [
     "technology"
 ]

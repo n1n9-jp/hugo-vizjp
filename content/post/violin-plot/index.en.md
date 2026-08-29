@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Violin Plot"
 slug = "violin-plot"
 date = "2025-10-11"
+description = "A violin plot visualizes both the distribution shape and summary statistics of data."
 categories = [
     "chart"
 ]

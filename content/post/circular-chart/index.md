@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "サーキュラー・チャート（Circular Chart）"
 slug = "circular-chart"
 date = "2025-10-11"
+description = "サーキュラー・チャート（Circular Chart）は、データを円形のレイアウト上に配置して表現する可視化手法の総称です。"
 categories = [
     "chart"
 ]

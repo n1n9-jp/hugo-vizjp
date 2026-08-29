@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Diverging Stacked Bar Chart"
 slug = "diverging-stacked-bar-chart"
 date = "2025-10-11"
+description = "A diverging stacked bar chart compares opposing response categories around a central baseline."
 categories = [
     "chart"
 ]

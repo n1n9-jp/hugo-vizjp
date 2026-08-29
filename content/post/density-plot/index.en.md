@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Density Plot"
 slug = "density-plot"
 date = "2025-10-11"
+description = "A density plot shows the distribution of a continuous variable as a smooth curve."
 categories = [
     "chart"
 ]

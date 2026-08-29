@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "What Is ADS-B?"
 slug = "ads-b"
 date = "2026-03-09"
+description = "ADS-B, or Automatic Dependent Surveillance-Broadcast, is an aviation surveillance system in which aircraft automatically broadcast their position."
 categories = [
     "technology"
 ]

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "The Origin of the Japanese Term \"Quantity-Proportion Graph\""
 slug = "quantity-proportion-chart"
 date = "2025-09-28"
-description = ""
+description = "A quantity-proportion graph uses rectangular area to represent both absolute quantity and proportion."
 categories = [
     "chart"
 ]

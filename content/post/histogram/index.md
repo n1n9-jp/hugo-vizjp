@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ヒストグラム（Histogram）"
 slug = "histogram"
 date = "2025-10-11"
+description = "ヒストグラムは、数値データの分布を視覚的に示す統計グラフ です。データの値域を連続した区間（ビン／bins）に分割し、それぞれの区間に含まれるデータ数を棒状の長さで表します。"
 categories = [
     "chart"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3Dイールド・カーブ（3D Yield Curve）"
 slug = "3d-yield-curve"
 date = "2026-03-15"
+description = "3Dイールド・カーブ（3D Yield Curve）は、債券の利回り曲線（イールドカーブ）の時間的な変化を三次元の曲面として可視化する手法です。"
 categories = [
     "chart"
 ]

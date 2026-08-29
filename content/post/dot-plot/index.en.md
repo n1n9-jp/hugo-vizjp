@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Dot Plot"
 slug = "dot-plot"
 date = "2025-10-11"
+description = "A dot plot represents each data point as a dot. Dots are placed along an axis, and repeated values can be stacked to show frequency."
 categories = [
     "chart"
 ]

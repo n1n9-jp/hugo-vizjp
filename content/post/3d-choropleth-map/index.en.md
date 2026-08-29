@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "3D Choropleth Map"
 slug = "3d-choropleth-map"
 date = "2025-10-11"
+description = "A 3D choropleth map extends a choropleth map by using both color and height to represent values for geographic areas."
 categories = [
     "chart"
 ]

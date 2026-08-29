@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Histogram"
 slug = "histogram"
 date = "2025-10-11"
+description = "A histogram visualizes the distribution of numeric data. The value range is divided into continuous intervals, or bins, and each bar shows how many observations fall into that bin."
 categories = [
     "chart"
 ]

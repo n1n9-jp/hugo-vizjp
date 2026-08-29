@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "地図の投影法が国境を変えた日 - 1990年の米ソ海洋境界協定と、地図投影法の解釈"
 slug = "marine-border-dispute"
 date = "2025-11-09"
+description = "地図の上の「まっすぐな線」は、地球の上でもまっすぐでしょうか? 必ずしもそうではありません。"
 categories = [
     "consume"
 ]

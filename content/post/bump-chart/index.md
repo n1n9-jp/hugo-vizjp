@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "バンプ・チャート（Bump Chart）"
 slug = "bump-chart"
 date = "2025-09-30"
-description = ""
+description = "バンプ・チャート（Bump Chart）は、順位やランクの変化を視覚的に示すためのチャートです。"
 categories = [
     "chart"
 ]

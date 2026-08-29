@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Euler Diagram"
 slug = "euler-diagram"
 date = "2025-10-08"
-description = ""
+description = "An Euler diagram visualizes inclusion and overlap among sets."
 categories = [
     "chart"
 ]

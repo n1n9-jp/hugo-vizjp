@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Vector Field Map"
 slug = "vector-field-map/"
 date = "2025-10-11"
+description = "A vector field map shows direction and magnitude at spatial locations using arrows or glyphs."
 categories = [
     "chart"
 ]

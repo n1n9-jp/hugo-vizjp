@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Prime Numerics"
 slug = "prime-numerics-2010"
 date = "2026-01-04"
+description = "Prime Numerics（2010）は、イギリス総選挙におけるテレビ討論を対象に、政治家の発言をリアルタイムで解析・可視化したライブ・データビジュアライゼーション作品です。"
 categories = [
     "consume"
 ]

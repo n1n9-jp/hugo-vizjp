@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "エドワルド・シーゲルさんの分類によるデータ・ストーリーテリングの体系化"
 slug = "storytelling-edwardsiegel"
 date = "2019-10-28"
+description = "データの視覚化がもたらす「データ・ストーリーテリング」は、従来の形式のストーリーテリングとは重要な点で異なるのではないか、と主要作品を分類するなかから体系化を試みた2010年の論文をご紹介します。"
 categories = [
     "technology"
 ]

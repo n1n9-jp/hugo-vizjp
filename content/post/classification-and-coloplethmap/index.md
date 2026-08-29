@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "階級区分図とコロプレス・マップ - データ処理と地図表現の違い"
 slug = "classification-and-coloplethmap"
 date = "2025-11-08"
+description = "地図上で地域ごとの数値を色分けして表す「統計地図」を見たとき、それが「 階級区分図 」と呼ばれている場合もあれば「 コロプレス・マップ（choropleth map） 」と説明されている場合もあります。"
 categories = [
     "consume"
 ]

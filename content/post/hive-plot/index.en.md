@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Hive Plot"
 slug = "hive-plot"
 date = "2025-10-11"
+description = "A hive plot visualizes network data by placing nodes on predefined axes according to explicit rules."
 categories = [
     "chart"
 ]

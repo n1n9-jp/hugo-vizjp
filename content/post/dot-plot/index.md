@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ドット・プロット（Dot Plot）"
 slug = "dot-plot"
 date = "2025-10-11"
+description = "ドット・プロット（Dot Plot）は、1つのデータ点を1つのドット（点）で表し、データの分布や度数を視覚的に示すグラフです。"
 categories = [
     "chart"
 ]

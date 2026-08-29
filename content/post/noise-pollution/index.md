@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "世界都市の騒音汚染と難聴指数を可視化する「Noise pollution」"
 slug = "noise-pollution"
 date = "2025-10-05"
-description = ""
+description = "この作品は、世界の主要都市における 騒音汚染（noise pollution） と 聴覚損失（hearing loss） の関係を比較したものです。"
 categories = [
     "consume"
 ]

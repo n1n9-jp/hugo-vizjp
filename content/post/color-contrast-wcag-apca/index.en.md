@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Rethinking Color Contrast: From WCAG 2.x to APCA"
 slug = "color-contrast-wcag-apca"
 date = "2025-10-20"
+description = "Color contrast is essential in data visualization and web design."
 categories = [
     "technology"
 ]

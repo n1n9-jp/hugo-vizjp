@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "認知バイアスの分類 - なぜ「Cognitive Bias Codex」は有名で、研究論文は知られていないのか？"
 slug = "cognitive-biases-compare"
 date = "2025-09-19"
-description = ""
+description = "私たちの判断や意思決定は、しばしば「合理的なはず」なのに予測可能な誤りを繰り返します。"
 categories = [
     "technology"
 ]

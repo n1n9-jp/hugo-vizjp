@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Mekko Chart"
 slug = "mekko-chart"
 date = "2026-03-12"
+description = "A Mekko chart encodes data in both the width and height of rectangular segments."
 categories = [
     "chart"
 ]

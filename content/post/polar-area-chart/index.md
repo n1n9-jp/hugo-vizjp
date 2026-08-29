@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ポーラー・エリア・チャート（Polar Area Chart）"
 slug = "polar-area-chart"
 date = "2025-09-30"
+description = "ポーラー・エリア・チャート（Polar Area Chart）は、放射状に区切られたセクターの面積でデータの大小を表すグラフです。"
 categories = [
     "chart"
 ]

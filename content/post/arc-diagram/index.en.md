@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "Arc Diagram"
 slug = "arc-diagram"
 date = "2025-10-11"
+description = "An arc diagram places nodes along a straight line and draws relationships as arcs above or below that line."
 categories = [
     "chart"
 ]

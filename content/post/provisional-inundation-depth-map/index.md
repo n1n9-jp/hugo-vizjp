@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "浸水推定図とは？ 国土地理院が生んだ新しい水害可視化の手法"
 slug = "provisional-inundation-depth-map"
 date = "2025-09-24"
-description = ""
+description = "平成30年7月の豪雨では、西日本各地で大規模な氾濫が発生しました。倉敷市真備町や大洲市では、市街地を含む広範な地域が水没し、被害は甚大でした。"
 categories = [
     "consume"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "ShapefileからTopoJSONを生成する"
 slug = "shapefile-to-topojson"
 date = "2014-05-18"
+description = "Shapefile(地理情報システムにおけるオープン標準ファイル形式)をウェブで使用可能なGeoJSONやTopoJSONへ変換するための手順をご紹介します。"
 categories = [
     "technology"
 ]

@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "William Playfair Drew Two Different Kinds of Circular Charts"
 slug = "pie-chart-william-playfair"
 date = "2025-10-12"
+description = "William Playfair (1759-1823) is often credited with inventing the pie chart, one of the first charts to represent proportions within a circle."
 categories = [
     "consume"
 ]
