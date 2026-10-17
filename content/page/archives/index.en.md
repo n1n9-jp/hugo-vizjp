@@ -8,5 +8,6 @@ menu:
         weight: 20
         params:
             icon: archives
+            header: true
 comments: false
 ---

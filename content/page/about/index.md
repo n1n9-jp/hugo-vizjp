@@ -9,6 +9,7 @@ menu:
         weight: 500
         params: 
             icon: user
+            header: true
 comments: false
 ---
 

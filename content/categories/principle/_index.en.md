@@ -6,4 +6,7 @@ menu:
         weight: 200
         params:
             icon: archives
+            header: true
+            activeFor:
+                - principle
 ---
