@@ -7,7 +7,7 @@
 <footer class="vz-footer">
     <div class="vz-footer__inner">
         <p class="vz-footer__copy">
-            &copy; {{ if and $since (ne (int $since) $year) }}{{ $since }}–{{ end }}{{ $year }} {{ default site.Title site.Copyright }} · {{ T "vz.footer.license" }}
+            &copy; {{ if and $since (ne (int $since) $year) }}{{ $since }}–{{ end }}{{ $year }} {{ partial "vz/author-name.html" (dict "name" (default site.Title site.Copyright) "page" .) }} · {{ T "vz.footer.license" }}
         </p>
         <nav class="vz-footer__nav" aria-label="{{ T "vz.nav.footer" }}">
             <ul>

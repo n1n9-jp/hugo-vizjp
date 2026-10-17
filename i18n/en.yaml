@@ -1,3 +1,27 @@
+# PR6: header
+vz.skip:
+    other: Skip to content
+vz.nav.main:
+    other: Main
+vz.nav.footer:
+    other: Footer
+vz.menu.open:
+    other: Open menu
+vz.menu.close:
+    other: Close menu
+vz.search.label:
+    other: Search this site
+vz.search.placeholder:
+    other: Search charts and people
+vz.darkmode:
+    other: Toggle dark mode
+vz.footer.license:
+    other: Articles licensed under CC BY-NC-SA 4.0
+vz.footer.x:
+    other: X (@visualizing_jp)
+vz.page.paged:
+    other: "Articles (page {{ .N }})"
+
 breadcrumb:
     home:
         other: Home
@@ -76,25 +100,3 @@ catalogue.tools.description:
     other: Create this chart in your browser with a tool from the Data Visualization Toolbox.
 catalogue.tools.action:
     other: Open tool →
-
-# PR6: header
-vz.skip:
-    other: Skip to content
-vz.nav.main:
-    other: Main
-vz.nav.footer:
-    other: Footer
-vz.menu.open:
-    other: Open menu
-vz.menu.close:
-    other: Close menu
-vz.search.label:
-    other: Search this site
-vz.search.placeholder:
-    other: Search charts and people
-vz.darkmode:
-    other: Toggle dark mode
-vz.footer.license:
-    other: Articles licensed under CC BY-NC-SA 4.0
-vz.footer.x:
-    other: X (@visualizing_jp)

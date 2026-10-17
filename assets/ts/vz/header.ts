@@ -32,6 +32,13 @@ function setupMenu() {
         button.focus();
     });
 
+    // Focus leaving the header (e.g. Tab past the last item) closes the menu,
+    // so the newly focused element is not hidden under the open panel
+    header.addEventListener('focusout', (e) => {
+        const next = e.relatedTarget as Node | null;
+        if (isOpen() && next && !header.contains(next)) setOpen(false);
+    });
+
     // A click outside the header closes the menu
     document.addEventListener('click', (e) => {
         if (isOpen() && !header.contains(e.target as Node)) setOpen(false);
