@@ -1,0 +1,96 @@
+{{- /*
+    Site header (PR6). Replaces Stack's left sidebar.
+    One DOM for every width: desktop shows the panel inline, phones open it with #vz-menu-toggle.
+    - Only one #dark-mode-toggle on the page (Stack's colorScheme.ts binds a single element).
+    - The search form must NOT use the class "search-form" (Stack's search.tsx binds the first one).
+    - No href="#" anywhere (Stack's smoothAnchors.ts would throw on article pages).
+*/ -}}
+{{- $page := . -}}
+{{- $searchPage := index (first 1 (where site.Pages "Layout" "search")) 0 -}}
+
+{{- /* Current location: the menu entry of this page / its section, or (articles) the entry for the first category */ -}}
+{{- $firstCat := "" -}}
+{{- $catURL := "" -}}
+{{- if and (eq .Kind "page") .Params.categories -}}
+    {{- $firstCat = lower (index .Params.categories 0) -}}
+    {{- with site.GetPage (printf "/categories/%s" $firstCat) -}}{{- $catURL = .RelPermalink -}}{{- end -}}
+{{- end -}}
+
+{{- /* Language switch: this page's translation if any, otherwise the other language's home */ -}}
+{{- $otherHome := index (first 1 (where site.Home.AllTranslations "Language.Lang" "ne" site.Language.Lang)) 0 -}}
+{{- $langTarget := $otherHome -}}
+{{- with $otherHome -}}
+    {{- range $page.Translations -}}
+        {{- if eq .Language.Lang $otherHome.Language.Lang -}}{{- $langTarget = . -}}{{- end -}}
+    {{- end -}}
+{{- end -}}
+
+<script>document.documentElement.classList.add('vz-js')</script>
+<a class="vz-skip" href="#main-content">{{ T "vz.skip" }}</a>
+<header class="vz-header" id="vz-header">
+    <div class="vz-header__inner">
+        <a class="vz-header__brand" href="{{ site.Home.RelPermalink }}">
+            {{- with resources.Get "img/avatar.png" -}}
+                {{- $logo := .Resize "72x" -}}
+                <img class="vz-header__logo" src="{{ $logo.RelPermalink }}" width="36" height="36" alt="">
+            {{- end -}}
+            <span class="vz-header__name">{{ site.Title }}</span>
+        </a>
+
+        <div class="vz-header__bar-actions">
+            {{- with $searchPage }}
+            <a class="vz-header__icon vz-header__search-link" href="{{ .RelPermalink }}" aria-label="{{ T "vz.search.label" }}">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            </a>
+            {{- end }}
+            <button class="vz-header__icon vz-header__menu-btn" id="vz-menu-toggle" type="button"
+                aria-expanded="false" aria-controls="vz-menu"
+                aria-label="{{ T "vz.menu.open" }}" data-label-open="{{ T "vz.menu.open" }}" data-label-close="{{ T "vz.menu.close" }}">
+                <svg class="vz-icon-menu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+                <svg class="vz-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+        </div>
+
+        <div class="vz-header__panel" id="vz-menu">
+            <nav class="vz-nav" aria-label="{{ T "vz.nav.main" }}">
+                <ul class="vz-nav__list">
+                    {{- range site.Menus.main }}
+                    {{- $isPage := $page.IsMenuCurrent "main" . -}}
+                    {{- $current := or $isPage ($page.HasMenuCurrent "main" .) -}}
+                    {{- if and (not $current) $firstCat -}}
+                        {{- $current = or (in (.Params.activeFor | default slice) $firstCat) (and $catURL (eq .URL $catURL)) -}}
+                    {{- end }}
+                    <li class="vz-nav__item{{ if .Params.header }} vz-nav__item--primary{{ end }}">
+                        <a class="vz-nav__link{{ if $current }} is-current{{ end }}" href="{{ .URL }}"
+                            {{- if $isPage }} aria-current="page"{{ else if $current }} aria-current="true"{{ end }}>
+                            {{- .Name -}}
+                        </a>
+                    </li>
+                    {{- end }}
+                </ul>
+            </nav>
+
+            {{- with $searchPage }}
+            <form class="vz-search" role="search" action="{{ .RelPermalink }}" method="get">
+                <label class="vz-visually-hidden" for="vz-q">{{ T "vz.search.label" }}</label>
+                <svg class="vz-search__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+                <input class="vz-search__input" id="vz-q" name="keyword" type="search" placeholder="{{ T "vz.search.placeholder" }}" autocomplete="off">
+            </form>
+            {{- end }}
+
+            <div class="vz-header__tools">
+                {{- with $langTarget }}
+                {{- $lang := .Language.Lang }}
+                <a class="vz-lang" href="{{ .RelPermalink }}" hreflang="{{ $lang }}" lang="{{ $lang }}" aria-label="{{ .Language.LanguageName }}">{{ upper $lang }}</a>
+                {{- end }}
+                {{- if site.Params.colorScheme.toggle }}
+                <button class="vz-header__icon vz-theme-toggle" id="dark-mode-toggle" type="button"
+                    aria-label="{{ T "vz.darkmode" }}" aria-pressed="false">
+                    <svg class="vz-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+                    <svg class="vz-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                </button>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+</header>
