@@ -51,3 +51,39 @@
     --vz-cat-event: #8A939E;       /* 5.92 / 5.41 */
     --vz-cat-education: #BF9441;   /* 6.60 / 6.04 */
 }
+
+/*
+ * 3. Bind Stack variables to tokens.
+ * Stack declares its dark values on :root[data-scheme="dark"] (specificity 0,2,0),
+ * so the binding must be declared on the same selectors to win.
+ */
+:root,
+:root[data-scheme="light"],
+:root[data-scheme="dark"] {
+    --body-background: var(--vz-bg);
+    --body-text-color: var(--vz-ink-2);
+
+    --accent-color: var(--vz-ink);
+    --accent-color-darker: var(--vz-accent);
+    --accent-color-text: var(--vz-surface);
+
+    --card-background: var(--vz-surface);
+    --card-background-selected: var(--vz-fill);
+    --card-text-color-main: var(--vz-ink);
+    --card-text-color-secondary: var(--vz-ink-2);
+    --card-text-color-tertiary: var(--vz-ink-3);
+    --card-separator-color: var(--vz-rule);
+
+    --blockquote-background-color: var(--vz-fill);
+    --table-border-color: var(--vz-rule);
+    --tr-even-background-color: var(--vz-fill);
+    --kbd-border-color: var(--vz-line);
+    --code-background-color: var(--vz-fill);
+    --code-text-color: var(--vz-ink);
+
+    --scrollbar-track: var(--vz-bg);
+
+    --base-font-family: var(--vz-font-sans);
+    --article-font-family: var(--vz-font-sans);
+    --code-font-family: var(--vz-font-mono);
+}
