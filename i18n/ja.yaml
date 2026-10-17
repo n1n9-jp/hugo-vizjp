@@ -12,6 +12,8 @@ vz.article.updated:
     other: 更新
 vz.article.translation:
     other: English version
+vz.article.toc:
+    other: 目次
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:

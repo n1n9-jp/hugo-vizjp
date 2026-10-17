@@ -1,0 +1,10 @@
+{{- /* 1024px 未満（右サイドバーが出ない幅）用の折りたたみ目次。引数: h2 のスライス。
+    id を付けない（scrollspy の対象外、id の重複も避ける） */ -}}
+<details class="vz-toc-inline">
+    <summary>{{ T "vz.article.toc" }}</summary>
+    <ol class="vz-toc__list">
+        {{- range $i, $h := . }}
+        <li>{{ printf "<a href=\"#%s\">" ($h.ID | htmlEscape) | safeHTML }}<span class="vz-toc__no">{{ printf "%02d" (add $i 1) }}</span><span class="vz-toc__label">{{ $h.Title | plainify | htmlUnescape }}</span></a></li>
+        {{- end }}
+    </ol>
+</details>
