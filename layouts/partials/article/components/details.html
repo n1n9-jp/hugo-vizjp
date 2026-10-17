@@ -4,12 +4,9 @@
     {{ partial "components/breadcrumb.html" . }}
     {{ end }}
     {{ if .Params.categories }}
-    <header class="article-category">
+    <header class="vz-cats">
         {{ range (.GetTerms "categories") }}
-        <a href="{{ .RelPermalink }}" {{ with .Params.style
-            }}style="background-color: {{ .background }}; color: {{ .color }};" {{ end }}>
-            {{ .LinkTitle }}
-        </a>
+        {{ partial "vz/category-label.html" (dict "page" . "size" (cond $isSingle "lg" "")) }}
         {{ end }}
     </header>
     {{ end }}
