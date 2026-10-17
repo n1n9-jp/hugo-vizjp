@@ -446,9 +446,9 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
     padding-top: var(--main-top-padding);
     --right-sidebar-max-width: 300px;
 
+    /* from md, main and the right sidebar carry their own top padding (Stack); avoid doubling it under the header */
     @include respond(md) {
         padding: 0 32px;
-        padding-top: var(--main-top-padding);
     }
 
     &.extended,
@@ -465,6 +465,7 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
 
 /* ---------- Site footer ---------- */
 .vz-footer {
+    margin-top: 48px;
     border-top: 1px solid var(--vz-rule, var(--card-separator-color));
     color: var(--vz-ink-2, var(--card-text-color-secondary));
     font-family: var(--vz-font-sans, var(--base-font-family));
@@ -508,7 +509,7 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
 .vz-footer__nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 20px;
+    gap: 0 12px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -517,6 +518,7 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
         /* 44px tap height; the design shows 13px text only */
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         min-height: 44px;
         min-width: 44px;
     }
