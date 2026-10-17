@@ -1,0 +1,24 @@
+{{ define "main" }}
+    {{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+    {{- $notHidden := where .Site.RegularPages "Params.hidden" "!=" true -}}
+    {{- $filtered := $pages | intersect $notHidden -}}
+    {{- /* 既存の /page/N/ を残すため、ページ送りは従来どおり作る（1ページ目だけ新しい構成で描く） */ -}}
+    {{- $pag := .Paginate $filtered -}}
+
+    {{- if eq $pag.PageNumber 1 -}}
+        {{- partial "vz/home/home.html" (dict "Context" . "Posts" $filtered) -}}
+    {{- else -}}
+        <section class="article-list">
+            {{ range $pag.Pages }}
+                {{ partial "article-list/default" . }}
+            {{ end }}
+        </section>
+        {{- partial "pagination.html" . -}}
+    {{- end -}}
+
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

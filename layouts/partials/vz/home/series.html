@@ -1,0 +1,36 @@
+{{- /* 特集：series タクソノミー。params.home.series で指定、なければ最新記事を含む特集 */ -}}
+{{- $term := "" -}}
+{{- with .Site.Taxonomies.series -}}
+    {{- with $.Site.Params.home.series -}}
+        {{- $term = . -}}
+    {{- else -}}
+        {{- with $.Site.GetPage "/series" -}}
+            {{- with index .Pages.ByDate.Reverse 0 -}}{{- $term = .Data.Term -}}{{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $items := index (.Site.Taxonomies.series | default dict) $term -}}
+{{- if and $term $items -}}
+{{- $termPage := .Site.GetPage (printf "/series/%s" $term) -}}
+<section class="vz-home__series vz-band" aria-labelledby="vz-series-title">
+    <div class="vz-band__head">
+        <div class="vz-band__text">
+            <p class="vz-band__eyebrow">{{ T "vz.home.series" (dict "Count" (len $items)) }}</p>
+            <h2 id="vz-series-title" class="vz-band__title">{{ $termPage.Title }}</h2>
+            {{ with $termPage.Description }}<p class="vz-band__desc">{{ . }}</p>{{ end }}
+        </div>
+        <a class="vz-band__more" href="{{ $termPage.RelPermalink }}">{{ T "vz.home.seriesMore" }}</a>
+    </div>
+    <ul class="vz-band__list">
+        {{- range $items.Pages }}
+        <li>
+            <a class="vz-band__item" href="{{ .RelPermalink }}">
+                {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "640x480" "Class" "vz-band__img") }}
+                {{ with .Params.seriesByline }}<span class="vz-band__by">{{ . }}</span>{{ end }}
+                <span class="vz-band__item-title">{{ .Params.seriesTitle | default .Title }}</span>
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</section>
+{{- end -}}

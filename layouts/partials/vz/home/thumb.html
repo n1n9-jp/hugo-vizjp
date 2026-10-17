@@ -1,0 +1,11 @@
+{{- /* 引数：dict "Page" 記事 "Size" "WxH" "Class" クラス名 */ -}}
+{{- $page := .Page -}}
+{{- $image := partial "helper/image" (dict "Context" $page "Type" "articleList") -}}
+{{- if and $image.exists $image.resource -}}
+    {{- $img := $image.resource.Fill (printf "%s Center" .Size) -}}
+    <img class="{{ .Class }}" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="eager">
+{{- else if $image.exists -}}
+    <img class="{{ .Class }}" src="{{ $image.permalink }}" alt="" loading="eager">
+{{- else -}}
+    <span class="{{ .Class }} vz-thumb--none" aria-hidden="true"></span>
+{{- end -}}

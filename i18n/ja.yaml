@@ -76,3 +76,45 @@ catalogue.tools.description:
     other: データ可視化の道具箱では、ブラウザ上でこのチャートを作成できます。
 catalogue.tools.action:
     other: ツールを開く →
+
+# PR5 ホーム
+vz.home.eyebrow:
+    other: "DATA VISUALIZATION NOTES · SINCE {{ .Since }}"
+vz.home.byline:
+    other: 執筆・運営
+vz.home.authorName:
+    other: 矢崎裕一
+vz.home.purpose:
+    other: 目的から探す
+vz.home.count:
+    other: 記事数
+vz.home.catShort.chart:
+    other: チャート・カタログ
+vz.home.catShort.consume:
+    other: 見る
+vz.home.catShort.technology:
+    other: 作る
+vz.home.catShort.principle:
+    other: 原理
+vz.home.catShort.event:
+    other: イベント
+vz.home.catShort.education:
+    other: 教える
+vz.home.latest:
+    other: 最新記事
+vz.home.series:
+    other: "特集 · {{ .Count }}本"
+vz.home.seriesMore:
+    other: 特集をまとめて読む
+vz.home.recent:
+    other: 新着
+vz.home.toArchives:
+    other: 記事一覧へ
+vz.home.archive:
+    other: アーカイブ
+vz.home.archiveDesc:
+    other: "{{ .Since }}年からの記事数（年別）。棒を選ぶとその年の一覧へ。"
+vz.home.total:
+    other: "計 {{ .Count }} 本"
+vz.home.yearAria:
+    other: "{{ .Year }}年 {{ .Count }}本"
