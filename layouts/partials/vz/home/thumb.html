@@ -1,11 +1,11 @@
-{{- /* 引数：dict "Page" 記事 "Size" "WxH" "Class" クラス名 */ -}}
+{{- /* 引数：dict "Page" 記事 "Size" "WxH" "Class" クラス名 "Loading" eager|lazy（省略時 lazy） */ -}}
 {{- $page := .Page -}}
 {{- $image := partial "helper/image" (dict "Context" $page "Type" "articleList") -}}
 {{- if and $image.exists $image.resource -}}
     {{- $img := $image.resource.Fill (printf "%s Center" .Size) -}}
-    <img class="{{ .Class }}" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="eager">
+    <img class="{{ .Class }}" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="{{ .Loading | default "lazy" }}">
 {{- else if $image.exists -}}
-    <img class="{{ .Class }}" src="{{ $image.permalink }}" alt="" loading="eager">
+    <img class="{{ .Class }}" src="{{ $image.permalink }}" alt="" loading="{{ .Loading | default "lazy" }}">
 {{- else -}}
     <span class="{{ .Class }} vz-thumb--none" aria-hidden="true"></span>
 {{- end -}}

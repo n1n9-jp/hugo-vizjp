@@ -86,6 +86,8 @@ vz.home.authorName:
     other: Yuichi Yazaki
 vz.home.purpose:
     other: Browse by purpose
+vz.home.purposeAria:
+    other: "{{ .Name }}, {{ .Count }} posts"
 vz.home.count:
     other: Posts
 vz.home.catShort.chart:

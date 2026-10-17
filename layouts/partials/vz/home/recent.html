@@ -10,7 +10,7 @@
             <a class="vz-card" href="{{ .RelPermalink }}">
                 {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "800x500" "Class" "vz-card__img") }}
                 <span class="vz-meta vz-card__meta">
-                    {{ range .GetTerms "categories" }}{{ partial "vz/home/cat-label.html" . }}{{ end }}
+                    <span class="vz-card__cats">{{ range .GetTerms "categories" }}{{ partial "vz/home/cat-label.html" . }}{{ end }}</span>
                     {{ partial "vz/home/date.html" . }}
                 </span>
                 <span class="vz-card__title">{{ .Title }}</span>

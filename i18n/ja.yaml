@@ -86,6 +86,8 @@ vz.home.authorName:
     other: 矢崎裕一
 vz.home.purpose:
     other: 目的から探す
+vz.home.purposeAria:
+    other: "{{ .Name }} {{ .Count }}本"
 vz.home.count:
     other: 記事数
 vz.home.catShort.chart:

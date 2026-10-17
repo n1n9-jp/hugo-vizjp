@@ -28,7 +28,7 @@
                     <span class="vz-archive__n">{{ $n }}</span><span class="vz-archive__bar"></span>
                 </a>
                 {{- else }}
-                <span class="vz-archive__empty" aria-label="{{ T "vz.home.yearAria" (dict "Year" $y "Count" $n) }}"></span>
+                <span class="vz-archive__empty"><span class="vz-sr-only">{{ T "vz.home.yearAria" (dict "Year" $y "Count" $n) }}</span></span>
                 {{- end }}
                 <span class="vz-archive__year" aria-hidden="true">'{{ substr $key 2 }}</span>
             </li>

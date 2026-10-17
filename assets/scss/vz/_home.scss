@@ -11,7 +11,7 @@
     --h-dot: var(--vz-dot);
     --h-mono: var(--vz-font-mono);
     --h-sans: var(--vz-font-sans);
-    --h-bar: #9A9D93;
+    --h-bar: #8A8D83;
     --h-band-bg: #17181C;
     --h-band-ink: #FFFFFF;
     --h-band-ink-2: #C9CAC2;
@@ -116,6 +116,7 @@
 .vz-recent > li:nth-child(n + 4) { display: none; }
 .vz-card { display: flex; flex-direction: column; gap: 14px; }
 .vz-card__img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; display: block; border-radius: 6px; border: 1px solid var(--h-rule); background: var(--h-surface); }
+.vz-card__cats { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; min-width: 0; }
 .vz-card__title { font-size: 19px; line-height: 1.55; font-weight: 700; text-wrap: pretty; }
 .vz-card__desc { font-size: 14px; line-height: 1.8; color: var(--h-ink-2); }
 
@@ -133,6 +134,7 @@
 .vz-archive__bars::after { content: ""; position: absolute; left: 0; right: 0; bottom: var(--label); border-top: 1px solid var(--h-ink); }
 .vz-archive__col { display: grid; grid-template-rows: minmax(0, 1fr) var(--label); }
 .vz-archive__col > a, .vz-archive__empty { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; height: 100%; }
+.vz-sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .vz-archive__n { font-family: var(--h-mono); font-size: 12px; color: var(--h-ink-2); line-height: 1; }
 .vz-archive__bar { display: block; width: 100%; max-width: 44px; height: calc(var(--vz-h) * 0.8); min-height: 2px; border-radius: 2px 2px 0 0; background: var(--h-bar); }
 .vz-archive__col.is-current .vz-archive__bar { background: var(--h-dot); }
@@ -169,7 +171,8 @@
     .vz-card { display: grid; grid-template-columns: minmax(0, 1fr) 96px; grid-template-rows: auto auto 1fr; column-gap: 14px; row-gap: 6px; padding: 16px 0; }
     .vz-card__img { grid-column: 2; grid-row: 1 / 4; width: 96px; height: 72px; aspect-ratio: auto; border-radius: 4px; }
     .vz-card__meta { display: contents; }
-    .vz-card__meta .vz-cat { grid-column: 1; grid-row: 1; font-size: 12px; }
+    .vz-card__cats { grid-column: 1; grid-row: 1; }
+    .vz-card__cats .vz-cat { font-size: 12px; }
     .vz-card__title { grid-column: 1; grid-row: 2; font-size: 15px; }
     .vz-card__meta .vz-date { grid-column: 1; grid-row: 3; font-size: 12px; }
     .vz-card__desc { display: none; }

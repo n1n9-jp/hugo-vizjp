@@ -20,7 +20,7 @@
             {{- $term := .Page.Data.Term }}
             {{- $pct := math.Max 1.5 (div (mul 100.0 .Count) $max) }}
             <li>
-                <a class="vz-purpose__row" href="{{ .Page.RelPermalink }}" style="{{ printf "--vz-c: var(--vz-cat-%s, var(--vz-ink-3)); --vz-w: %.1f%%" $term $pct | safeCSS }}">
+                <a class="vz-purpose__row" href="{{ .Page.RelPermalink }}" aria-label="{{ T "vz.home.purposeAria" (dict "Name" .Page.Title "Count" .Count) }}" style="{{ printf "--vz-c: var(--vz-cat-%s, var(--vz-ink-3)); --vz-w: %.1f%%" $term $pct | safeCSS }}">
                     <span class="vz-purpose__label"><span class="vz-purpose__dot" aria-hidden="true"></span><span class="vz-purpose__full">{{ .Page.Title }}</span><span class="vz-purpose__short" aria-hidden="true">{{ T (printf "vz.home.catShort.%s" $term) | default .Page.Title }}</span></span>
                     <span class="vz-purpose__bar" aria-hidden="true"><span></span></span>
                     <span class="vz-purpose__n">{{ .Count }}</span>
