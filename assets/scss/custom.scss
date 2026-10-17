@@ -1,13 +1,16 @@
+@import "vz/tokens";
+@import "vz/category";
+@import "vz/base";
+@import "vz/article";
+@import "vz/home";
+@import "vz/header";
+@import "vz/thumb";
+
 .sidebar header .site-avatar .site-logo {
     width: 100%;
     height: 100%;
     border-radius: 100%;
     box-shadow: none;
-}
-
-:root {
-    --ja-font-family: "Noto Sans JP", "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-    --base-font-family: "Noto Sans JP", var(--ja-font-family), var(--sys-font-family), var(--zh-font-family), sans-serif;
 }
 
 .catalogue-container {

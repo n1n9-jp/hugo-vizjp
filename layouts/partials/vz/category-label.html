@@ -1,0 +1,28 @@
+{{- /*
+  Category label: colored dot + text.
+  Usage:
+    {{ partial "vz/category-label.html" $term }}                         link, default size
+    {{ partial "vz/category-label.html" (dict "page" $term "link" false "size" "lg") }}
+  $term is a category term page (e.g. an item of .GetTerms "categories").
+  Color: --vz-cat-<key>, key = the term's directory name (chart, consume, ...).
+  Unknown keys fall back to --vz-ink-3 (see _category.scss).
+*/ -}}
+{{- $page := . -}}
+{{- $link := true -}}
+{{- $size := "" -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .page -}}
+  {{- if isset . "link" -}}{{- $link = .link -}}{{- end -}}
+  {{- $size = .size | default "" -}}
+{{- end -}}
+{{- with $page -}}
+  {{- $key := path.Base .RelPermalink | urlize -}}
+  {{- $class := "vz-cat" -}}
+  {{- if eq $size "lg" -}}{{- $class = printf "%s vz-cat--lg" $class -}}{{- end -}}
+  {{- $style := printf "--vz-cat-color: var(--vz-cat-%s)" $key | safeCSS -}}
+  {{- if $link -}}
+<a class="{{ $class }}" href="{{ .RelPermalink }}" data-category="{{ $key }}" style="{{ $style }}"><span class="vz-cat__dot" aria-hidden="true"></span><span class="vz-cat__label">{{ .LinkTitle }}</span></a>
+  {{- else -}}
+<span class="{{ $class }}" data-category="{{ $key }}" style="{{ $style }}"><span class="vz-cat__dot" aria-hidden="true"></span><span class="vz-cat__label">{{ .LinkTitle }}</span></span>
+  {{- end -}}
+{{- end -}}

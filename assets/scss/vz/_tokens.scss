@@ -1,0 +1,89 @@
+/*
+ * visualizing.jp design tokens (PR3)
+ * --vz-* is the single source of color and font values.
+ * Stack's own variables are bound to --vz-* at the end of this file; do not hard-code colors elsewhere.
+ */
+
+/* 1. Token values: light (default) */
+:root {
+    --vz-bg: #FAFAF7;          /* 地 */
+    --vz-surface: #FFFFFF;     /* 面 */
+    --vz-ink: #17181C;         /* 墨  16.96:1 on bg / 17.74:1 on surface */
+    --vz-ink-2: #4A4D55;       /* 墨2  8.08 / 8.45 */
+    --vz-ink-3: #6B6F78;       /* 墨3  4.82 / 5.04 */
+    --vz-rule: #E3E4DD;        /* 罫 */
+    --vz-rule-2: #EEEFE9;      /* 薄い罫（面の内側の区切り） */
+    --vz-line: #D5D7CE;        /* 操作部品の枠（検索欄・ボタン） */
+    --vz-fill: #F1F2EC;        /* 薄い地（引用・バーの下地） */
+    --vz-dot: #E645A2;         /* ロゴの点：図形のみ  3.50 / 3.66 */
+    --vz-accent: #B0236F;      /* 文字アクセント・リンク hover  6.06 / 6.33 */
+
+    --vz-cat-chart: #2F6FB0;       /* 4.99 / 5.22 */
+    --vz-cat-consume: #C2662D;     /* 3.84 / 4.01 */
+    --vz-cat-technology: #2E8A7A;  /* 3.99 / 4.17 */
+    --vz-cat-principle: #7A5BB5;   /* 5.03 / 5.26 */
+    --vz-cat-event: #6F7A86;       /* 4.18 / 4.37 */
+    --vz-cat-education: #A0782A;   /* 3.85 / 4.03 */
+
+    --vz-font-sans: "IBM Plex Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Yu Gothic", "YuGothic", "Meiryo", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
+    --vz-font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", "Meiryo", "Noto Sans JP", monospace;
+}
+
+/* 2. Token values: dark */
+:root[data-scheme="dark"] {
+    color-scheme: dark;
+    --vz-bg: #131417;
+    --vz-surface: #1C1D21;
+    --vz-ink: #F3F3EE;         /* 16.55 / 15.13 */
+    --vz-ink-2: #C9CAC2;       /* 11.15 / 10.19 */
+    --vz-ink-3: #92958D;       /*  6.06 /  5.54 */
+    --vz-rule: #34363C;
+    --vz-rule-2: #2A2B30;
+    --vz-line: #3F4148;
+    --vz-fill: #24252A;
+    --vz-dot: #E645A2;         /*  5.03 /  4.60 */
+    --vz-accent: #F07BBE;      /*  7.26 /  6.64 */
+
+    --vz-cat-chart: #5B93CF;       /* 5.72 / 5.23 */
+    --vz-cat-consume: #D27A44;     /* 5.80 / 5.30 */
+    --vz-cat-technology: #3FA391;  /* 6.02 / 5.50 */
+    --vz-cat-principle: #9479D2;   /* 5.20 / 4.75 */
+    --vz-cat-event: #8A939E;       /* 5.92 / 5.41 */
+    --vz-cat-education: #BF9441;   /* 6.60 / 6.04 */
+}
+
+/*
+ * 3. Bind Stack variables to tokens.
+ * Stack declares its dark values on :root[data-scheme="dark"] (specificity 0,2,0),
+ * so the binding must be declared on the same selectors to win.
+ */
+:root,
+:root[data-scheme="light"],
+:root[data-scheme="dark"] {
+    --body-background: var(--vz-bg);
+    --body-text-color: var(--vz-ink-2);
+
+    --accent-color: var(--vz-ink);
+    --accent-color-darker: var(--vz-accent);
+    --accent-color-text: var(--vz-surface);
+
+    --card-background: var(--vz-surface);
+    --card-background-selected: var(--vz-fill);
+    --card-text-color-main: var(--vz-ink);
+    --card-text-color-secondary: var(--vz-ink-2);
+    --card-text-color-tertiary: var(--vz-ink-3);
+    --card-separator-color: var(--vz-rule);
+
+    --blockquote-background-color: var(--vz-fill);
+    --table-border-color: var(--vz-rule);
+    --tr-even-background-color: var(--vz-fill);
+    --kbd-border-color: var(--vz-line);
+    --code-background-color: var(--vz-fill);
+    --code-text-color: var(--vz-ink);
+
+    --scrollbar-track: var(--vz-bg);
+
+    --base-font-family: var(--vz-font-sans);
+    --article-font-family: var(--vz-font-sans);
+    --code-font-family: var(--vz-font-mono);
+}
