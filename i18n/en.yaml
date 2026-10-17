@@ -2,6 +2,8 @@ breadcrumb:
     home:
         other: Home
 
+vz.breadcrumb:
+    other: Breadcrumb
 catalogue.filter.all:
     other: All
 catalogue.filter.aria:

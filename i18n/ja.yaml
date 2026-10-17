@@ -2,6 +2,8 @@ breadcrumb:
     home:
         other: トップ
 
+vz.breadcrumb:
+    other: パンくずリスト
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:
