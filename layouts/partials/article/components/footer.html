@@ -17,7 +17,7 @@
 
             {{ if $showAuthor }}
                 {{ partial "helper/icon" "user" }}
-                <span class="article-author">{{ $showAuthor }}</span>
+                <span class="article-author">{{ partial "vz/author-name.html" (dict "name" $showAuthor "page" .) }}</span>
             {{ end }}
         </div>
     </section>

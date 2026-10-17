@@ -1,0 +1,8 @@
+{{- /* 著者名を表示用の文字列にする。ja のときだけ "Yuichi Yazaki" を「矢崎裕一」に置き換える。
+    引数: dict "name" <名前の文字列> "page" <ページ> */ -}}
+{{- $name := .name -}}
+{{- if eq .page.Language.Lang "ja" -}}
+{{- replace $name "Yuichi Yazaki" "矢崎裕一" -}}
+{{- else -}}
+{{- $name -}}
+{{- end -}}
