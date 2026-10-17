@@ -463,3 +463,61 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
     }
 }
 
+/* ---------- Site footer ---------- */
+.vz-footer {
+    border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+    color: var(--vz-ink-2, var(--card-text-color-secondary));
+    font-family: var(--vz-font-sans, var(--base-font-family));
+    font-size: 13px;
+    line-height: 1.6;
+
+    a {
+        color: var(--vz-ink-2, var(--card-text-color-secondary));
+        text-decoration: none;
+
+        &:hover {
+            color: var(--vz-accent, var(--accent-color));
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--vz-accent, var(--accent-color));
+            outline-offset: 2px;
+        }
+    }
+}
+
+.vz-footer__inner {
+    max-width: $vz-outer-max;
+    margin: 0 auto;
+    padding: 32px 16px 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    @include respond(md) {
+        padding: 32px 32px 48px;
+    }
+}
+
+.vz-footer__copy {
+    margin: 0;
+}
+
+.vz-footer__nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        /* 44px tap height; the design shows 13px text only */
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        min-width: 44px;
+    }
+}

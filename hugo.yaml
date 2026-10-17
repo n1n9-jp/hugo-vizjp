@@ -183,7 +183,6 @@ params:
             id:
     widgets:
         homepage:
-            - type: search
             - type: archives
               params:
                   limit: 5
@@ -228,8 +227,8 @@ menu:
     social:
 
         - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/visualizing_jp
+          name: X
+          url: https://x.com/visualizing_jp
           params:
               icon: brand-twitter
 
