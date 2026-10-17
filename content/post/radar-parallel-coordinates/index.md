@@ -48,7 +48,7 @@ Michael Correll のコラム「Bad Ideas in Visualization」では、レーダ�
 
 ![](images/parallel-coordinates.png)
 
-そこでしばしば比較されるのが、**平行座標プロット（parallel coordinates plot, PCP）**です。これは複数の変数を平行な縦軸に並べ、各データを線でつなぐ手法です。
+そこでしばしば比較されるのが、<strong>平行座標プロット（parallel coordinates plot, PCP）</strong>です。これは複数の変数を平行な縦軸に並べ、各データを線でつなぐ手法です。
 
 ブログ Dueling Data では次のように述べられています：
 

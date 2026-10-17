@@ -33,7 +33,7 @@ image = "images/fi_JudgitOverview.png"
 
 国の各省庁が行う約5,000事業のほぼ全てについて「目的」「内容」「成果」「予算の支払い先」などを、一般の検索サイトと同様に誰もが調べることができる。
 
-事業仕分けを開発・スタートした政策シンクタンクである**[構想日本](http://www.kosonippon.org/)**、ジャーナリズムNPOである**[ワセダクロニクル](http://www.wasedachronicle.org/)**、開発を主導した日本大学 情報科学科 **[尾上洋介研究室(vdslab)](https://vdslab.jp/)**と、データの可視化が専門の**[Visualizing.JP](https://visualizing.jp/)**によるプロジェクトだ（ディスクレイマー：筆者はVisualizing.JPの主宰者として本プロジェクトに関わっている）。
+事業仕分けを開発・スタートした政策シンクタンクである<strong>[構想日本](http://www.kosonippon.org/)</strong>、ジャーナリズムNPOである<strong>[ワセダクロニクル](http://www.wasedachronicle.org/)</strong>、開発を主導した日本大学 情報科学科 <strong>[尾上洋介研究室(vdslab)](https://vdslab.jp/)</strong>と、データの可視化が専門の<strong>[Visualizing.JP](https://visualizing.jp/)</strong>によるプロジェクトだ（ディスクレイマー：筆者はVisualizing.JPの主宰者として本プロジェクトに関わっている）。
 
 ## フリーワード検索、メタデータ検索、クロスフィルター検索の三種類の検索モードが用意されている。
 

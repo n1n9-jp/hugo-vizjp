@@ -36,7 +36,7 @@ image = "images/c736840e7ae1809abbe9ed7a2915627e.png"
 - Stage VI: Brown
 - Stage VII: Purple, pink, orange, or gray
 
-これはデータ可視化の世界でも意味がある研究成果で、**Colin Ware**さんが、**"Information Visualization - Perception For Design"**の中で、データ可視化のコンテクストとして参照しています。そしてこのうち、1〜6番目の色（白、黒、赤、緑、黄、青）が、様々なカラーモデルの主要な軸を定義しているのは、**これらの色が人間の生得的な性質によるもの**ではないか、としています。
+これはデータ可視化の世界でも意味がある研究成果で、**Colin Ware**さんが、<strong>"Information Visualization - Perception For Design"</strong>の中で、データ可視化のコンテクストとして参照しています。そしてこのうち、1〜6番目の色（白、黒、赤、緑、黄、青）が、様々なカラーモデルの主要な軸を定義しているのは、**これらの色が人間の生得的な性質によるもの**ではないか、としています。
 
 <figure>
 
