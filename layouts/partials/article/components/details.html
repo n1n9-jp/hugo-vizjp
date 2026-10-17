@@ -57,10 +57,10 @@
 
             {{ if $showAuthor }}
             {{ partial "helper/icon" "user" }}
-            <span class="article-author">{{ $showAuthor }}</span>
+            <span class="article-author">{{ if eq .Language.Lang "ja" }}{{ replace $showAuthor "Yuichi Yazaki" "矢崎裕一" }}{{ else }}{{ $showAuthor }}{{ end }}</span>
             {{ else if .Site.Params.sidebar.author.name }}
             {{ partial "helper/icon" "user" }}
-            <span class="article-author">{{ .Site.Params.sidebar.author.name }}</span>
+            <span class="article-author">{{ if eq .Language.Lang "ja" }}{{ replace .Site.Params.sidebar.author.name "Yuichi Yazaki" "矢崎裕一" }}{{ else }}{{ .Site.Params.sidebar.author.name }}{{ end }}</span>
             {{ end }}
         </div>
     </footer>

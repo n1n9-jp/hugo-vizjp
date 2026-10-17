@@ -17,7 +17,7 @@
 
             {{ if $showAuthor }}
                 {{ partial "helper/icon" "user" }}
-                <span class="article-author">{{ $showAuthor }}</span>
+                <span class="article-author">{{ if eq .Language.Lang "ja" }}{{ replace $showAuthor "Yuichi Yazaki" "矢崎裕一" }}{{ else }}{{ $showAuthor }}{{ end }}</span>
             {{ end }}
         </div>
     </section>
