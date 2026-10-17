@@ -36,56 +36,57 @@
 /* Figures: <figure class="vz-figure"> from the image render hook. Figure numbers come from a CSS counter. */
 .article-content {
     counter-reset: vz-fig;
-}
 
-.vz-figure {
-    margin: 4rem 0 4.8rem;
-    text-align: left;
-
-    a {
-        display: block;
-    }
-
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
-
-    &--captioned {
-        counter-increment: vz-fig;
-    }
-
-    figcaption {
-        display: flex;
-        gap: 1.2rem;
-        margin-top: 1.2rem;
-        font-size: 1.4rem;
-        line-height: 1.8;
-        color: var(--vz-ink-2);
+    .vz-figure {
+        margin-top: 4rem;
+        margin-bottom: 4.8rem;
         text-align: left;
-    }
 
-    &__no {
-        flex: none;
-        font-family: var(--vz-font-mono);
-        color: var(--vz-ink);
+        a {
+            display: block;
+        }
 
-        &::before {
-            content: attr(data-label) counter(vz-fig);
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        &--captioned {
+            counter-increment: vz-fig;
+        }
+
+        figcaption {
+            display: flex;
+            gap: 1.2rem;
+            margin-top: 1.2rem;
+            font-size: 1.4rem;
+            line-height: 1.8;
+            color: var(--vz-ink-2);
+            text-align: left;
+        }
+
+        &__no {
+            flex: none;
+            font-family: var(--vz-font-mono);
+            color: var(--vz-ink);
+
+            &::before {
+                content: attr(data-label) counter(vz-fig);
+            }
         }
     }
-}
 
-/* A hand-written <figure> that wraps a Markdown image: the inner figure adds no margin of its own */
-.article-content figure:not(.vz-figure) > .vz-figure {
-    margin: 0;
-}
+    /* A hand-written <figure> that wraps a Markdown image: the inner figure adds no margin of its own */
+    figure:not(.vz-figure) > .vz-figure {
+        margin: 0;
+    }
 
-/* The theme's gallery script wraps neighbouring figures in a flex row; keep them stacked */
-.article-content .gallery:has(> .vz-figure) {
-    display: block;
+    /* The theme's gallery script wraps neighbouring figures in a flex row; keep them stacked */
+    .gallery:has(> .vz-figure) {
+        display: block;
+    }
 }
 
 /* Article frame and header */
@@ -174,4 +175,223 @@
     @media (max-width: 767px) {
         padding-top: 4rem;
     }
+}
+
+/*
+ * Article body (posts only).
+ * First undo Stack's card layout (side padding, heading bars, negative margins), then set the typography.
+ * Selectors start with .vz-article .article-content so they beat the theme's .article-content rules.
+ */
+.vz-article .article-content {
+    padding: 0;
+    font-family: var(--vz-font-sans);
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--vz-ink);
+    counter-reset: vz-h2 vz-fig;
+
+    /* headings: no left bar, no negative margin */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        border-inline-start: 0;
+    }
+
+    /* blocks that Stack widens to the card edge */
+    blockquote,
+    figure,
+    .highlight,
+    pre,
+    .gallery,
+    .video-wrapper,
+    .table-wrapper,
+    .s_video_simple {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
+
+    .table-wrapper {
+        padding: 0;
+    }
+
+    figure {
+        text-align: left;
+    }
+
+    /* Stack scopes this to .main-article, which posts no longer use */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footnotes {
+        font-family: var(--vz-font-sans);
+    }
+
+    > p {
+        margin: 0 0 2.8rem;
+    }
+
+    > ul,
+    > ol {
+        margin: 0 0 2.8rem;
+        padding-left: 1.4em;
+    }
+
+    /* h2: top rule + monospace section number (hanging indent keeps wrapped lines clear of the number) */
+    > h2 {
+        counter-increment: vz-h2;
+        margin: 4.8rem 0 2rem;
+        padding: 2.4rem 0 0 3.4rem;
+        border-top: 1px solid var(--vz-ink);
+        font-size: 2.6rem;
+        line-height: 1.5;
+        font-weight: 700;
+        text-indent: -3.4rem;
+
+        &::before {
+            content: counter(vz-h2, decimal-leading-zero);
+            display: inline-block;
+            width: 3.4rem;
+            text-indent: 0;
+            font-family: var(--vz-font-mono);
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--vz-accent);
+        }
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    h3 {
+        margin: 3.6rem 0 1.2rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+
+    > h2 + h3 {
+        margin-top: 0;
+    }
+
+    h4 {
+        margin: 2.8rem 0 0.8rem;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    /* an h1 written inside the body */
+    > h1 {
+        margin: 4.8rem 0 2rem;
+        font-size: 2.6rem;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    blockquote {
+        margin: 0 0 2.8rem;
+        padding: 2rem 2.4rem;
+        background: var(--vz-fill);
+        border: 0;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        line-height: 1.9;
+
+        p {
+            margin: 0 0 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        margin: 4.8rem 0;
+        border: 0;
+        background: var(--vz-rule);
+        opacity: 1;
+    }
+
+    .video-wrapper {
+        margin-bottom: 2.8rem;
+    }
+
+    /* tables (Markdown tables are wrapped in .table-wrapper by the theme; raw HTML tables are not) */
+    .table-wrapper {
+        overflow-x: auto;
+        margin: 0 0 2.8rem;
+
+        table {
+            margin-bottom: 0;
+        }
+    }
+
+    > table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 1.5rem;
+        line-height: 1.7;
+    }
+
+    th,
+    td {
+        padding: 0.8rem 1.2rem;
+        border: 1px solid var(--vz-rule);
+    }
+
+    th {
+        background: var(--vz-fill);
+    }
+
+    tr:nth-child(even) {
+        background: transparent;
+    }
+
+    /* code */
+    .highlight {
+        margin: 0 0 2.8rem;
+        padding: 1.6rem 2rem;
+        border-radius: 4px;
+        overflow-x: auto;
+
+        /* line numbers are laid out as a table: no rules, stripes or padding */
+        table,
+        th,
+        td,
+        tr {
+            padding: 0;
+            border: 0;
+            background: none;
+        }
+
+        table {
+            margin: 0;
+        }
+    }
+
+    code {
+        font-family: var(--vz-font-mono);
+        font-size: 0.9em;
+    }
+}
+
+.vz-article .article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 4rem;
 }
