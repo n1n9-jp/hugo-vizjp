@@ -246,6 +246,9 @@ related:
 
 markup:
     goldmark:
+        parser:
+            ## Do not wrap a standalone image in <p>; the image render hook outputs <figure> instead
+            wrapStandAloneImageWithinParagraph: false
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true

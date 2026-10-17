@@ -32,3 +32,58 @@
 .article-details .article-breadcrumb {
     margin-bottom: 2rem;
 }
+
+/* Figures: <figure class="vz-figure"> from the image render hook. Figure numbers come from a CSS counter. */
+.article-content {
+    counter-reset: vz-fig;
+}
+
+.vz-figure {
+    margin: 4rem 0 4.8rem;
+    text-align: left;
+
+    a {
+        display: block;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    &--captioned {
+        counter-increment: vz-fig;
+    }
+
+    figcaption {
+        display: flex;
+        gap: 1.2rem;
+        margin-top: 1.2rem;
+        font-size: 1.4rem;
+        line-height: 1.8;
+        color: var(--vz-ink-2);
+        text-align: left;
+    }
+
+    &__no {
+        flex: none;
+        font-family: var(--vz-font-mono);
+        color: var(--vz-ink);
+
+        &::before {
+            content: attr(data-label) counter(vz-fig);
+        }
+    }
+}
+
+/* A hand-written <figure> that wraps a Markdown image: the inner figure adds no margin of its own */
+.article-content figure:not(.vz-figure) > .vz-figure {
+    margin: 0;
+}
+
+/* The theme's gallery script wraps neighbouring figures in a flex row; keep them stacked */
+.article-content .gallery:has(> .vz-figure) {
+    display: block;
+}

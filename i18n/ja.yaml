@@ -4,6 +4,8 @@ breadcrumb:
 
 vz.breadcrumb:
     other: パンくずリスト
+vz.figure:
+    other: 図
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:

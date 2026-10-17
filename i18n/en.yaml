@@ -4,6 +4,8 @@ breadcrumb:
 
 vz.breadcrumb:
     other: Breadcrumb
+vz.figure:
+    other: "Fig. "
 catalogue.filter.all:
     other: All
 catalogue.filter.aria:
