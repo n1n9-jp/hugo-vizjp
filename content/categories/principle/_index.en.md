@@ -7,6 +7,7 @@ menu:
         params:
             icon: archives
             header: true
+            shortName: Principles
             activeFor:
                 - principle
 ---

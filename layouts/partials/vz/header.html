@@ -39,7 +39,7 @@
 
         <div class="vz-header__bar-actions">
             {{- with $searchPage }}
-            <a class="vz-header__icon vz-header__search-link" href="{{ .RelPermalink }}" aria-label="{{ T "vz.search.label" }}">
+            <a class="vz-header__icon vz-header__search-link vz-header__search-link--bar" href="{{ .RelPermalink }}" aria-label="{{ T "vz.search.label" }}">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
             </a>
             {{- end }}
@@ -55,6 +55,7 @@
             <nav class="vz-nav" aria-label="{{ T "vz.nav.main" }}">
                 <ul class="vz-nav__list">
                     {{- range site.Menus.main }}
+                    {{- $entry := . -}}
                     {{- $isPage := $page.IsMenuCurrent "main" . -}}
                     {{- $current := or $isPage ($page.HasMenuCurrent "main" .) -}}
                     {{- if and (not $current) $firstCat -}}
@@ -63,22 +64,31 @@
                     <li class="vz-nav__item{{ if .Params.header }} vz-nav__item--primary{{ end }}">
                         <a class="vz-nav__link{{ if $current }} is-current{{ end }}" href="{{ .URL }}"
                             {{- if $isPage }} aria-current="page"{{ else if $current }} aria-current="true"{{ end }}>
-                            {{- .Name -}}
+                            {{- with .Params.shortName -}}
+                                <span class="vz-nav__name--long">{{ $entry.Name }}</span><span class="vz-nav__name--short">{{ . }}</span>
+                            {{- else -}}
+                                {{- .Name -}}
+                            {{- end -}}
                         </a>
                     </li>
                     {{- end }}
                 </ul>
             </nav>
 
-            {{- with $searchPage }}
-            <form class="vz-search" role="search" action="{{ .RelPermalink }}" method="get">
-                <label class="vz-visually-hidden" for="vz-q">{{ T "vz.search.label" }}</label>
-                <svg class="vz-search__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
-                <input class="vz-search__input" id="vz-q" name="keyword" type="search" placeholder="{{ T "vz.search.placeholder" }}" autocomplete="off">
-            </form>
-            {{- end }}
-
             <div class="vz-header__tools">
+                {{- with $searchPage }}
+                <a class="vz-header__icon vz-header__search-link vz-header__search-link--mid" href="{{ .RelPermalink }}" aria-label="{{ T "vz.search.label" }}">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+                </a>
+                {{- end }}
+                {{- with $searchPage }}
+                <form class="vz-search" role="search" action="{{ .RelPermalink }}" method="get">
+                    <label class="vz-visually-hidden" for="vz-q">{{ T "vz.search.label" }}</label>
+                    <svg class="vz-search__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+                    <input class="vz-search__input" id="vz-q" name="keyword" type="search" placeholder="{{ T "vz.search.placeholder" }}" autocomplete="off">
+                </form>
+                {{- end }}
+
                 {{- with $langTarget }}
                 {{- $lang := .Language.Lang }}
                 <a class="vz-lang" href="{{ .RelPermalink }}" hreflang="{{ $lang }}" lang="{{ $lang }}" aria-label="{{ .Language.LanguageName }}">{{ upper $lang }}</a>
