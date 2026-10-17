@@ -20,7 +20,7 @@ image = "images/fi_D3Conf2014-2.png"
 
 \* [http://visfest.com/d3unconf/](http://visfest.com/d3unconf/)
 
-せっかくなので私も一つ提案してみました。**Network visualizations; d3 + sigma + Cytoscape etc.**と言うのが私の提案したセッションです。
+せっかくなので私も一つ提案してみました。<strong>Network visualizations; d3 + sigma + Cytoscape etc.</strong>と言うのが私の提案したセッションです。
 
 ## 実際のディスカッション
 
