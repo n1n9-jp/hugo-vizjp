@@ -399,12 +399,20 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
     .vz-nav__link {
         min-height: 48px;
         padding: 0 16px;
+
+        @include respond(md) {
+            padding: 0 32px;
+        }
     }
 
     .vz-header__tools {
         gap: 8px;
         padding: 8px 16px;
         border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+
+        @include respond(md) {
+            padding: 8px 32px;
+        }
     }
 
     /* With JS: the panel is a disclosure that drops below the 60px bar */
