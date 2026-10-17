@@ -14,6 +14,12 @@ vz.article.translation:
     other: English version
 vz.article.toc:
     other: 目次
+vz.article.related:
+    other: あわせて読む
+vz.article.profile:
+    other: プロフィール
+vz.article.license:
+    other: この記事は {{ .License }} で公開しています。
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:
