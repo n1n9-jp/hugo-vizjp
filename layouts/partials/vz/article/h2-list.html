@@ -1,0 +1,8 @@
+{{- /* 引数: 見出しのスライス（.Fragments.Headings）。戻り値: Level 2 の見出しを文書順に平らにしたスライス。
+    本文中に h1 があると h2 がその子になるので、子も再帰して拾う。 */ -}}
+{{- $out := slice -}}
+{{- range . -}}
+  {{- if eq .Level 2 -}}{{- $out = $out | append . -}}{{- end -}}
+  {{- with .Headings -}}{{- $out = $out | append (partial "vz/article/h2-list.html" .) -}}{{- end -}}
+{{- end -}}
+{{- return $out -}}

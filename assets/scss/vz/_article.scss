@@ -87,3 +87,91 @@
 .article-content .gallery:has(> .vz-figure) {
     display: block;
 }
+
+/* Article frame and header */
+.vz-article {
+    min-width: 0;
+    color: var(--vz-ink);
+    font-family: var(--vz-font-sans);
+}
+
+.vz-article__header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 0 4rem;
+
+    @media (max-width: 767px) {
+        padding-bottom: 2.8rem;
+    }
+}
+
+.vz-article__title {
+    margin: 0;
+    max-width: 88rem;
+    font-size: #{"clamp(2.8rem, 2rem + 2.4vw, 4.4rem)"}; // LibSass cannot mix rem and vw in clamp()
+    line-height: 1.35;
+    font-weight: 700;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+}
+
+.vz-article__lead {
+    margin: 0;
+    max-width: 80rem;
+    font-size: #{"clamp(1.6rem, 1.4rem + 0.5vw, 1.9rem)"};
+    line-height: 1.85;
+    color: var(--vz-ink-2);
+}
+
+.vz-article__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem 2.4rem;
+    padding-top: 4px;
+    font-size: 1.4rem;
+    color: var(--vz-ink-2);
+
+    a {
+        color: var(--vz-ink);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+
+        &:hover {
+            color: var(--vz-accent);
+        }
+    }
+
+    time {
+        font-family: var(--vz-font-mono);
+    }
+}
+
+.vz-article__translation {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+}
+
+.vz-article__cover {
+    img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 62rem;
+        margin-inline: auto;
+        border-radius: 6px;
+    }
+}
+
+.vz-article__main {
+    max-width: 70rem;
+    padding-top: 5.6rem;
+
+    @media (max-width: 767px) {
+        padding-top: 4rem;
+    }
+}

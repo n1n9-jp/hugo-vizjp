@@ -6,6 +6,12 @@ vz.breadcrumb:
     other: パンくずリスト
 vz.figure:
     other: 図
+vz.article.by:
+    other: 文・
+vz.article.updated:
+    other: 更新
+vz.article.translation:
+    other: English version
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:

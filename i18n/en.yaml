@@ -6,6 +6,12 @@ vz.breadcrumb:
     other: Breadcrumb
 vz.figure:
     other: "Fig. "
+vz.article.by:
+    other: "By "
+vz.article.updated:
+    other: Updated
+vz.article.translation:
+    other: 日本語版
 catalogue.filter.all:
     other: All
 catalogue.filter.aria:
