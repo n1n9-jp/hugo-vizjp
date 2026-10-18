@@ -44,6 +44,8 @@ vz.article.profile:
     other: Profile
 vz.article.license:
     other: This article is published under {{ .License }}.
+vz.page.license:
+    other: This page is published under {{ .License }}.
 catalogue.filter.all:
     other: All
 catalogue.filter.aria:
