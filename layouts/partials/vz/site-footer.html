@@ -1,0 +1,28 @@
+{{- /*
+    Site footer (PR6), called from baseof after the main container.
+    Links: main-menu entries with params.footer (運営者, リンク — design order), RSS, and the social menu (X).
+*/ -}}
+{{- $since := site.Params.footer.since -}}
+{{- $year := now.Year -}}
+<footer class="vz-footer">
+    <div class="vz-footer__inner">
+        <p class="vz-footer__copy">
+            &copy; {{ if and $since (ne (int $since) $year) }}{{ $since }}–{{ end }}{{ $year }} {{ partial "vz/author-name.html" (dict "name" (default site.Title site.Copyright) "page" .) }} · {{ T "vz.footer.license" }}
+        </p>
+        <nav class="vz-footer__nav" aria-label="{{ T "vz.nav.footer" }}">
+            <ul>
+                {{- range site.Menus.main.ByWeight.Reverse }}
+                {{- if .Params.footer }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+                {{- end }}
+                {{- with site.Home.OutputFormats.Get "rss" }}
+                <li><a href="{{ .RelPermalink }}" type="application/rss+xml">RSS</a></li>
+                {{- end }}
+                {{- range site.Menus.social }}
+                <li><a href="{{ .URL }}" rel="me noopener" target="_blank">{{ if eq .Identifier "twitter" }}{{ T "vz.footer.x" }}{{ else }}{{ .Name }}{{ end }}</a></li>
+                {{- end }}
+            </ul>
+        </nav>
+    </div>
+</footer>

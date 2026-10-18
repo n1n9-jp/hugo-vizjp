@@ -1,1 +1,538 @@
-/* PR: header styles go here. Imported from custom.scss. */
+/*
+ * Site header, footer and page grid (PR6). Imported from custom.scss.
+ * Widths:
+ *   >= 1440px : full header (Main.dc.html) — nav + search field + language + dark toggle
+ *   1280–1439 : search field becomes an icon link (Article.dc.html)
+ *   <  1280px : phone header (Mobile.dc.html) — 60px bar, menu button opens #vz-menu
+ * Colors come from PR3 tokens (--vz-*) with Stack variables as fallback.
+ */
+
+$vz-bp-desktop: 1280px;
+$vz-bp-wide: 1440px;
+$vz-content-max: 1240px;                 // content width (the design's max-width, content-box)
+$vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters (Stack uses border-box)
+
+@mixin vz-desktop {
+    @media (min-width: $vz-bp-desktop) {
+        @content;
+    }
+}
+
+@mixin vz-mobile {
+    @media (max-width: #{$vz-bp-desktop - 1px}) {
+        @content;
+    }
+}
+
+.vz-visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ---------- Skip link ---------- */
+.vz-skip {
+    position: absolute;
+    left: 8px;
+    top: -100px;
+    z-index: 100;
+    padding: 10px 16px;
+    background: var(--vz-surface, var(--card-background));
+    color: var(--vz-ink, var(--body-text-color));
+    border: 2px solid var(--vz-accent, var(--accent-color));
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+
+    &:focus {
+        top: 8px;
+    }
+}
+
+#main-content:focus {
+    outline: none;
+}
+
+/* ---------- Header ---------- */
+.vz-header {
+    position: relative;
+    z-index: 20;
+    background: var(--vz-bg, var(--body-background));
+    border-bottom: 1px solid var(--vz-rule, var(--card-separator-color));
+    color: var(--vz-ink, var(--body-text-color));
+    font-family: var(--vz-font-sans, var(--base-font-family));
+    line-height: 1.5;
+
+    a {
+        color: var(--vz-ink, var(--body-text-color));
+        text-decoration: none;
+
+        &:hover {
+            color: var(--vz-accent, var(--accent-color));
+        }
+    }
+
+    a,
+    button,
+    input {
+        &:focus-visible {
+            outline: 2px solid var(--vz-accent, var(--accent-color));
+            outline-offset: 2px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.vz-header__inner {
+    max-width: $vz-outer-max;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vz-header__brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    flex: none;
+}
+
+.vz-header__logo {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.vz-header__name {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+.vz-header__icon {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--vz-line, var(--card-separator-color));
+    border-radius: 6px;
+    background: var(--vz-surface, var(--card-background));
+    color: var(--vz-ink, var(--body-text-color));
+    cursor: pointer;
+    font: inherit;
+
+    svg {
+        display: block;
+    }
+}
+
+.vz-nav__list {
+    display: flex;
+}
+
+.vz-nav__link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &.is-current {
+        color: var(--vz-accent, var(--accent-color));
+    }
+}
+
+.vz-header__tools {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.vz-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid var(--vz-line, var(--card-separator-color));
+    border-radius: var(--card-border-radius);   /* same as the body search field (Stack .search-form) */
+    background: var(--vz-surface, var(--card-background));
+
+    &:focus-within {
+        outline: 2px solid var(--vz-accent, var(--accent-color));
+        outline-offset: 2px;
+    }
+
+    .vz-search__icon {
+        flex: none;
+        color: var(--vz-ink-3, var(--card-text-color-tertiary));
+    }
+
+    .vz-search__input {
+        width: 180px;
+        height: 100%;
+        padding: 0;
+        border: 0;
+        outline: none;
+        background: transparent;
+        font: inherit;
+        font-size: 14px;
+        color: var(--vz-ink, var(--body-text-color));
+
+        &::placeholder {
+            color: var(--vz-ink-3, var(--card-text-color-tertiary));
+            opacity: 1;
+        }
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}
+
+.vz-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    padding: 0 6px;
+    font-family: var(--vz-font-mono, monospace);
+    font-size: 13px;
+}
+
+@include vz-desktop {
+    /* 44px tap target, but laid out like the design's 6px-padded text (the extra width sits in the 12px gaps) */
+    .vz-lang {
+        margin: 0 -8px;
+    }
+}
+
+.vz-nav__name--short {
+    display: none;
+}
+
+/* Dark mode toggle. Stack styles #dark-mode-toggle for its sidebar; override with the same id. */
+#dark-mode-toggle.vz-theme-toggle {
+    margin-top: 0;
+    gap: 0;
+    color: var(--vz-ink, var(--body-text-color));
+    font-weight: 400;
+
+    .vz-icon-sun {
+        display: none;
+    }
+}
+
+[data-scheme="dark"] #dark-mode-toggle.vz-theme-toggle {
+    color: var(--vz-ink, var(--body-text-color));
+    font-weight: 400;
+
+    .vz-icon-moon {
+        display: none;
+    }
+
+    .vz-icon-sun {
+        display: block;
+    }
+}
+
+.vz-header__menu-btn .vz-icon-close,
+.vz-header__menu-btn[aria-expanded="true"] .vz-icon-menu {
+    display: none;
+}
+
+.vz-header__menu-btn[aria-expanded="true"] .vz-icon-close {
+    display: block;
+}
+
+/* ---------- Desktop (>= 1280px) ---------- */
+@include vz-desktop {
+    .vz-header__inner {
+        padding: 18px 32px;
+        gap: 16px 40px;
+    }
+
+    .vz-header__bar-actions {
+        display: none;
+    }
+
+    /* flex-basis 0: the panel never drops below the logo; if space runs out the nav wraps inside it */
+    .vz-header__panel {
+        flex: 1 1 0;
+        display: flex;
+        align-items: center;
+        gap: 16px 40px;
+        min-width: 0;
+    }
+
+    .vz-nav {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .vz-header__tools {
+        flex: none;
+    }
+
+    .vz-nav__list {
+        flex-wrap: wrap;
+        gap: 8px 28px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .vz-nav__item:not(.vz-nav__item--primary) {
+        display: none;
+    }
+
+    /* header-only short label (menu.main.params.shortName), e.g. "Principles" in English */
+    .vz-nav__name--long {
+        display: none;
+    }
+
+    .vz-nav__name--short {
+        display: inline;
+    }
+
+    .vz-nav__link {
+        min-height: 44px;
+    }
+
+    /* 1280–1439: search as an icon link */
+    .vz-search {
+        display: none;
+    }
+}
+
+@media (min-width: $vz-bp-wide) {
+    .vz-header__search-link--mid {
+        display: none;
+    }
+
+    .vz-search {
+        display: flex;
+    }
+}
+
+/* ---------- Phone and tablet (< 1280px) ---------- */
+@include vz-mobile {
+    .vz-header__inner {
+        min-height: 60px;
+        padding: 0 8px 0 16px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        /* tablets: line the logo up with the page content (32px gutter from md) */
+        @include respond(md) {
+            padding: 0 24px 0 32px;
+        }
+    }
+
+    .vz-header__brand {
+        gap: 8px;
+        min-width: 0;
+    }
+
+    .vz-header__logo {
+        width: 28px;
+        height: 28px;
+    }
+
+    .vz-header__name {
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+
+    .vz-header__bar-actions {
+        display: flex;
+        gap: 2px;
+    }
+
+    .vz-header__bar-actions .vz-header__icon {
+        border: 0;
+        background: transparent;
+    }
+
+    .vz-header__search-link--mid,
+    .vz-search {
+        display: none;
+    }
+
+    .vz-header__panel {
+        flex: 0 0 100%;
+        margin: 0 -8px 0 -16px;
+
+        @include respond(md) {
+            margin: 0 -24px 0 -32px;
+        }
+        background: var(--vz-surface, var(--card-background));
+        border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+    }
+
+    .vz-nav__list {
+        flex-direction: column;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .vz-nav__item + .vz-nav__item {
+        border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+    }
+
+    .vz-nav__link {
+        min-height: 48px;
+        padding: 0 16px;
+
+        @include respond(md) {
+            padding: 0 32px;
+        }
+    }
+
+    .vz-header__tools {
+        gap: 8px;
+        padding: 8px 16px;
+        border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+
+        @include respond(md) {
+            padding: 8px 32px;
+        }
+    }
+
+    /* With JS: the panel is a disclosure that drops below the 60px bar */
+    .vz-js {
+        .vz-header__inner {
+            height: 60px;
+            flex-wrap: nowrap;
+        }
+
+        .vz-header__panel {
+            display: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            margin: 0;
+            max-height: calc(100vh - 60px);
+            overflow-y: auto;
+            border-top: 0;
+            border-bottom: 1px solid var(--vz-rule, var(--card-separator-color));
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        .vz-header.is-open .vz-header__panel {
+            display: block;
+        }
+    }
+
+    /* Without JS: the panel stays open under the bar, and the menu button is hidden */
+    html:not(.vz-js) .vz-header__menu-btn {
+        display: none;
+    }
+}
+
+/* ---------- Page grid: no left sidebar; align with the header (max 1240px) ---------- */
+.container.main-container {
+    max-width: $vz-outer-max;
+    padding: 0 16px;
+    padding-top: var(--main-top-padding);
+    --right-sidebar-max-width: 300px;
+
+    /* from md, main and the right sidebar carry their own top padding (Stack); avoid doubling it under the header */
+    @include respond(md) {
+        padding: 0 32px;
+    }
+
+    &.extended,
+    &.compact {
+        max-width: $vz-outer-max;
+        --right-sidebar-max-width: 300px;
+    }
+
+    .right-sidebar {
+        flex: none;
+        width: 300px;
+    }
+}
+
+/* ---------- Site footer ---------- */
+.vz-footer {
+    margin-top: 48px;
+    border-top: 1px solid var(--vz-rule, var(--card-separator-color));
+    color: var(--vz-ink-2, var(--card-text-color-secondary));
+    font-family: var(--vz-font-sans, var(--base-font-family));
+    font-size: 13px;
+    line-height: 1.6;
+
+    a {
+        color: var(--vz-ink-2, var(--card-text-color-secondary));
+        text-decoration: none;
+
+        &:hover {
+            color: var(--vz-accent, var(--accent-color));
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--vz-accent, var(--accent-color));
+            outline-offset: 2px;
+        }
+    }
+}
+
+.vz-footer__inner {
+    max-width: $vz-outer-max;
+    margin: 0 auto;
+    padding: 32px 16px 48px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    @include respond(md) {
+        padding: 32px 32px 48px;
+    }
+}
+
+.vz-footer__copy {
+    margin: 0;
+}
+
+.vz-footer__nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        /* 44px tap height; the design shows 13px text only */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* first link: text starts at the same left edge as the copyright line */
+    li:first-child a {
+        justify-content: flex-start;
+    }
+}

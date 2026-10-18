@@ -1,3 +1,27 @@
+# PR6: header
+vz.skip:
+    other: 本文へ移動
+vz.nav.main:
+    other: メイン
+vz.nav.footer:
+    other: フッター
+vz.menu.open:
+    other: メニューを開く
+vz.menu.close:
+    other: メニューを閉じる
+vz.search.label:
+    other: サイト内検索
+vz.search.placeholder:
+    other: チャート名・人名で検索
+vz.darkmode:
+    other: ダークモード切り替え
+vz.footer.license:
+    other: 記事は CC BY-NC-SA 4.0
+vz.footer.x:
+    other: X（@visualizing_jp）
+vz.page.paged:
+    other: "記事一覧（{{ .N }}ページ目）"
+
 breadcrumb:
     home:
         other: トップ
