@@ -26,6 +26,24 @@ breadcrumb:
     home:
         other: Home
 
+vz.breadcrumb:
+    other: Breadcrumb
+vz.figure:
+    other: "Fig. "
+vz.article.by:
+    other: "By "
+vz.article.updated:
+    other: Updated
+vz.article.translation:
+    other: 日本語版
+vz.article.toc:
+    other: Contents
+vz.article.related:
+    other: Related
+vz.article.profile:
+    other: Profile
+vz.article.license:
+    other: This article is published under {{ .License }}.
 catalogue.filter.all:
     other: All
 catalogue.filter.aria:

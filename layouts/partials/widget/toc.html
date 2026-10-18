@@ -1,0 +1,12 @@
+{{- /* 右サイドバーの目次（テーマの widget/toc.html を上書き）。h2（番号つき）と h3（番号なし）を出す。
+    #TableOfContents と li > a[href^="#"] はテーマの scrollspy（現在地の表示）の約束。 */ -}}
+{{- $page := .Context -}}
+{{- $items := partial "vz/article/toc-items.html" $page.Fragments.Headings -}}
+{{- if and (ge (len $items) 2) (ne $page.Params.toc false) -}}
+<nav class="widget vz-toc" aria-label="{{ T "vz.article.toc" }}">
+    <h2 class="vz-toc__title">{{ T "vz.article.toc" }}</h2>
+    <ol id="TableOfContents" class="vz-toc__list">
+        {{- partial "vz/article/toc-list.html" $items }}
+    </ol>
+</nav>
+{{- end -}}

@@ -1,0 +1,26 @@
+{{ define "body-class" }}article-page vz-article-page{{ end }}
+
+{{ define "main" }}
+    {{ partial "vz/article/article.html" . }}
+    {{ partial "vz/article/end.html" . }}
+
+    {{ if .Params.links }}
+        {{ partial "article/components/links" . }}
+    {{ end }}
+
+    {{ if not (eq .Params.comments false) }}
+        {{ partial "comments/include" . }}
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+
+    {{ partialCached "article/components/photoswipe" . }}
+{{ end }}
+
+{{/* 右サイドバー：目次（h2〜h4 が合わせて2つ以上あるときだけ） */}}
+{{ define "right-sidebar" }}
+    {{- $tocItems := partial "vz/article/toc-items.html" .Fragments.Headings -}}
+    {{- if and (ge (len $tocItems) 2) (ne .Params.toc false) -}}
+        {{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}
+    {{- end -}}
+{{ end }}

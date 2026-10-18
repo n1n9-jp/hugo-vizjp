@@ -1,0 +1,15 @@
+{{- $tocItems := partial "vz/article/toc-items.html" .Fragments.Headings -}}
+{{- $hasTOC := and (ge (len $tocItems) 2) (ne .Params.toc false) -}}
+<article class="vz-article">
+    {{ partial "vz/article/header.html" . }}
+    {{ partial "vz/article/cover.html" . }}
+    {{ if $hasTOC }}{{ partial "vz/article/toc-inline.html" $tocItems }}{{ end }}
+    <div class="vz-article__main">
+        {{ partial "article/components/content" . }}
+        {{ partial "article/components/catalogue-tools.html" . }}
+        {{ with .GetTerms "tags" }}<section class="article-tags">{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</section>{{ end }}
+    </div>
+    {{ if or .Params.math site.Params.article.math }}
+        {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+</article>

@@ -1,0 +1,10 @@
+{{- /* 記事の後の白い帯：関連記事・著者・ライセンス。<article> の外に置く。
+    PR6 以降（左サイドバーなし）は .main-container をグリッドにして帯を画面幅いっぱいに広げる（assets/scss/vz/_article.scss）。
+    中身は最大 1100px の枠で、本文の左端に揃える。 */ -}}
+<section class="vz-article-end">
+    <div class="vz-article-end__inner">
+        {{ partial "vz/article/related.html" . }}
+        {{ partial "vz/article/author.html" . }}
+        {{ partial "vz/article/license.html" . }}
+    </div>
+</section>

@@ -1,1 +1,775 @@
-/* PR: article styles go here. Imported from custom.scss. */
+/*
+ * Article page (PR4)
+ * Colors and fonts come from --vz-* only. Stack sets html { font-size: 62.5% }, so 1rem = 10px.
+ */
+
+/* Breadcrumb (articles and fixed pages) */
+.article-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: var(--vz-ink-2);
+
+    a {
+        color: var(--vz-ink-2);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--vz-accent);
+            text-decoration: underline;
+        }
+    }
+
+    .current {
+        color: var(--vz-ink-2);
+    }
+}
+
+/* On fixed pages the breadcrumb sits inside .article-details */
+.article-details .article-breadcrumb {
+    margin-bottom: 2rem;
+}
+
+/*
+ * Figures: <figure class="vz-figure"> from the image render hook.
+ * Everywhere (fixed pages too): block image, caption below. In posts (.vz-article): left aligned, numbered "図1".
+ */
+.article-content {
+    .vz-figure {
+        margin-top: 4rem;
+        margin-bottom: 4.8rem;
+
+        a {
+            display: block;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-inline: auto;
+            border-radius: 4px;
+        }
+
+        figcaption {
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+            margin-top: 1.2rem;
+            font-size: 1.4rem;
+            line-height: 1.8;
+            color: var(--vz-ink-2);
+        }
+
+        &__no {
+            display: none;
+        }
+    }
+
+    /* A hand-written <figure> that wraps a Markdown image: the inner figure adds no margin of its own */
+    figure:not(.vz-figure) > .vz-figure {
+        margin: 0;
+    }
+
+    /* The theme's gallery script wraps neighbouring figures in a flex row; keep them stacked */
+    .gallery:has(> .vz-figure) {
+        display: block;
+    }
+}
+
+/* Posts: figure numbers come from a CSS counter, only for figures that have a caption */
+.vz-article .article-content {
+    .vz-figure {
+        text-align: left;
+
+        img {
+            margin-inline: 0;
+        }
+
+        &--captioned {
+            counter-increment: vz-fig;
+        }
+
+        figcaption {
+            justify-content: flex-start;
+            text-align: left;
+        }
+
+        &__no {
+            display: inline;
+            flex: none;
+            font-family: var(--vz-font-mono);
+            color: var(--vz-ink);
+
+            &::before {
+                content: attr(data-label) counter(vz-fig);
+            }
+        }
+    }
+}
+
+/* Article frame and header */
+.vz-article {
+    min-width: 0;
+    color: var(--vz-ink);
+    font-family: var(--vz-font-sans);
+}
+
+.vz-article__header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 0 4rem;
+
+    @media (max-width: 767px) {
+        padding-bottom: 2.8rem;
+    }
+}
+
+.vz-article__title {
+    margin: 0;
+    max-width: 88rem;
+    font-size: #{"clamp(2.8rem, 2rem + 2.4vw, 4.4rem)"}; // LibSass cannot mix rem and vw in clamp()
+    line-height: 1.35;
+    font-weight: 700;
+    text-wrap: pretty;
+    overflow-wrap: anywhere;
+}
+
+.vz-article__lead {
+    margin: 0;
+    max-width: 80rem;
+    font-size: #{"clamp(1.6rem, 1.4rem + 0.5vw, 1.9rem)"};
+    line-height: 1.85;
+    color: var(--vz-ink-2);
+}
+
+.vz-article__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem 2.4rem;
+    padding-top: 4px;
+    font-size: 1.4rem;
+    color: var(--vz-ink-2);
+
+    a {
+        color: var(--vz-ink);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+
+        &:hover {
+            color: var(--vz-accent);
+        }
+    }
+
+    time {
+        font-family: var(--vz-font-mono);
+    }
+}
+
+.vz-article__translation {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+}
+
+.vz-article__cover {
+    img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 62rem;
+        margin-inline: 0; // left edge = left edge of the body text
+        border-radius: 6px;
+    }
+}
+
+.vz-article__main {
+    max-width: 70rem;
+    padding-top: 5.6rem;
+
+    @media (max-width: 767px) {
+        padding-top: 4rem;
+    }
+}
+
+/*
+ * Article body (posts only).
+ * First undo Stack's card layout (side padding, heading bars, negative margins), then set the typography.
+ * Selectors start with .vz-article .article-content so they beat the theme's .article-content rules.
+ */
+.vz-article .article-content {
+    padding: 0;
+    font-family: var(--vz-font-sans);
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--vz-ink);
+    overflow-wrap: break-word; // long URLs and unbroken strings must not widen the page
+    counter-reset: vz-h2 vz-fig;
+
+    /* headings: no left bar, no negative margin */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        border-inline-start: 0;
+    }
+
+    /* blocks that Stack widens to the card edge */
+    blockquote,
+    figure,
+    .highlight,
+    pre,
+    .gallery,
+    .video-wrapper,
+    .table-wrapper,
+    .s_video_simple {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
+
+    .table-wrapper {
+        padding: 0;
+    }
+
+    figure {
+        text-align: left;
+    }
+
+    /* Stack scopes this to .main-article, which posts no longer use */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footnotes {
+        font-family: var(--vz-font-sans);
+    }
+
+    > p {
+        margin: 0 0 2.8rem;
+    }
+
+    > ul,
+    > ol {
+        margin: 0 0 2.8rem;
+        padding-left: 1.4em;
+    }
+
+    /* h2: top rule + monospace section number (hanging indent keeps wrapped lines clear of the number) */
+    > h2 {
+        counter-increment: vz-h2;
+        margin: 4.8rem 0 2rem;
+        padding: 2.4rem 0 0 3.4rem;
+        border-top: 1px solid var(--vz-ink);
+        font-size: 2.6rem;
+        line-height: 1.5;
+        font-weight: 700;
+        text-indent: -3.4rem;
+
+        &::before {
+            content: counter(vz-h2, decimal-leading-zero);
+            display: inline-block;
+            width: 3.4rem;
+            text-indent: 0;
+            font-family: var(--vz-font-mono);
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--vz-accent);
+        }
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    h3 {
+        margin: 3.6rem 0 1.2rem;
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+
+    > h2 + h3 {
+        margin-top: 0;
+    }
+
+    h4 {
+        margin: 2.8rem 0 0.8rem;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    /* an h1 written inside the body */
+    > h1 {
+        margin: 4.8rem 0 2rem;
+        font-size: 2.6rem;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    blockquote {
+        margin: 0 0 2.8rem;
+        padding: 2rem 2.4rem;
+        background: var(--vz-fill);
+        border: 0;
+        border-radius: 4px;
+        font-size: 1.5rem;
+        line-height: 1.9;
+
+        p {
+            margin: 0 0 1rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        margin: 4.8rem 0;
+        border: 0;
+        background: var(--vz-rule);
+        opacity: 1;
+    }
+
+    .video-wrapper {
+        margin-bottom: 2.8rem;
+    }
+
+    /* tables (Markdown tables are wrapped in .table-wrapper by the theme; raw HTML tables are not) */
+    .table-wrapper {
+        overflow-x: auto;
+        margin: 0 0 2.8rem;
+
+        table {
+            margin-bottom: 0;
+        }
+    }
+
+    > table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    table {
+        font-size: 1.5rem;
+        line-height: 1.7;
+    }
+
+    th,
+    td {
+        padding: 0.8rem 1.2rem;
+        border: 1px solid var(--vz-rule);
+    }
+
+    th {
+        background: var(--vz-fill);
+    }
+
+    tr:nth-child(even) {
+        background: transparent;
+    }
+
+    /* code */
+    .highlight {
+        margin: 0 0 2.8rem;
+        padding: 1.6rem 2rem;
+        border-radius: 4px;
+        overflow-x: auto;
+
+        /* line numbers are laid out as a table: no rules, stripes or padding */
+        table,
+        th,
+        td,
+        tr {
+            padding: 0;
+            border: 0;
+            background: none;
+        }
+
+        table {
+            margin: 0;
+        }
+    }
+
+    code {
+        font-family: var(--vz-font-mono);
+        font-size: 0.9em;
+    }
+}
+
+.vz-article .article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 4rem;
+}
+
+/* Table of contents: right sidebar (>= 1024px) and a collapsible copy before the body (< 1024px) */
+.vz-toc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.vz-toc__title {
+    margin: 0;
+    font-family: var(--vz-font-mono);
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--vz-ink-3);
+}
+
+.vz-toc__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.4rem;
+    line-height: 1.6;
+
+    /* the theme's scrollspy treats #TableOfContents as the scroll container */
+    &#TableOfContents {
+        max-height: calc(100vh - 160px);
+        overflow-y: auto;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+
+        > a {
+            display: flex;
+            gap: 1rem;
+            align-items: baseline;
+            min-height: 30px;
+            padding: 7px 0 7px 12px;
+            color: var(--vz-ink-2);
+            text-decoration: none;
+            box-shadow: inset 1px 0 0 var(--vz-rule);
+
+            &:hover {
+                color: var(--vz-accent);
+            }
+        }
+
+        &.active-class > a {
+            color: var(--vz-ink);
+            font-weight: 700;
+            box-shadow: inset 2px 0 0 var(--vz-dot);
+        }
+    }
+}
+
+.vz-toc__no {
+    flex: none;
+    width: 2rem;
+    font-family: var(--vz-font-mono);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--vz-ink-3);
+}
+
+/* h3 and h4 entries: no number, one step in per level (the empty number cell is widened so the label sits under the h2 label) */
+.vz-toc__list li.vz-toc__sub > a {
+    font-size: 1.3rem;
+
+    .vz-toc__no {
+        width: 3rem;
+    }
+}
+
+.vz-toc__list li.vz-toc__sub--4 > a .vz-toc__no {
+    width: 4rem;
+}
+
+.vz-toc-inline {
+    border-top: 1px solid var(--vz-rule);
+    border-bottom: 1px solid var(--vz-rule);
+
+    summary {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        cursor: pointer;
+        font-family: var(--vz-font-mono);
+        font-size: 1.3rem;
+        letter-spacing: 0.08em;
+        color: var(--vz-ink-3);
+        list-style: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::after {
+            content: "+";
+            margin-left: auto;
+            font-size: 1.6rem;
+        }
+    }
+
+    &[open] summary::after {
+        content: "\2212";
+    }
+
+    .vz-toc__list {
+        padding-bottom: 1.2rem;
+    }
+
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}
+
+/*
+ * End of article: related articles, author, license (a full-width --vz-surface band after the <article>).
+ * Fallback (a left sidebar is present, i.e. before PR6): the band fills <main>.
+ * Without a left sidebar (PR6): .main-container becomes a 3-column grid (gutter | content | gutter), the band spans
+ * all three columns and its inner box sits in the middle one. No 100vw tricks: the grid fills the page width itself.
+ */
+.vz-article-end {
+    margin-top: 8rem;
+    padding: 5.6rem 3.2rem 6.4rem;
+    background: var(--vz-surface);
+    border-top: 1px solid var(--vz-rule);
+
+    @media (max-width: 767px) {
+        margin-top: 6rem;
+        padding: 4rem 1.6rem 4.8rem;
+    }
+}
+
+.vz-article-end__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 110rem;
+    container-type: inline-size;
+    container-name: vzend;
+}
+
+.vz-article-page .container.main-container:not(:has(> .left-sidebar)) {
+    --vz-gutter: 16px;
+    --vz-content: 1240px;
+    --vz-toc-width: 300px;
+    // The band is a child of <main> (display: contents), so it cannot inherit the tracks; share them as a custom property.
+    --vz-tracks: minmax(var(--vz-gutter), 1fr) minmax(0, var(--vz-content)) minmax(var(--vz-gutter), 1fr);
+
+    display: grid;
+    grid-template-columns: var(--vz-tracks);
+    align-items: start;
+    gap: 0;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width: 768px) {
+        --vz-gutter: 32px;
+    }
+
+    /* <main> and <article> only group their children; each child takes its own grid cell */
+    > main.main {
+        display: contents;
+    }
+
+    > main.main > * {
+        grid-column: 2;
+        min-width: 0;
+    }
+
+    > main.main > .vz-article {
+        grid-row: 1;
+
+        @media (min-width: 768px) {
+            padding-top: var(--main-top-padding); // what <main> carried before
+        }
+    }
+
+    /* the table of contents shares the first row with the article, on the right */
+    > .right-sidebar {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        width: var(--vz-toc-width);
+    }
+
+    &:has(> .right-sidebar) > main.main > .vz-article {
+        @media (min-width: 1024px) {
+            padding-right: calc(var(--vz-toc-width) + var(--section-separation));
+        }
+    }
+
+    > main.main > .vz-article-end {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: var(--vz-tracks);
+        padding-left: 0;
+        padding-right: 0;
+
+        > .vz-article-end__inner {
+            grid-column: 2;
+            min-width: 0;
+        }
+    }
+}
+
+.vz-related {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 3.2rem;
+}
+
+/* medium: heading on its own line, then the three articles in a row */
+@container vzend (min-width: 56rem) {
+    .vz-related {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .vz-related__head {
+        grid-column: 1 / -1;
+    }
+}
+
+/* wide: heading + three articles in four columns */
+@container vzend (min-width: 88rem) {
+    .vz-related {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .vz-related__head {
+        grid-column: auto;
+    }
+}
+
+.vz-related__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+        margin: 0;
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.5;
+        color: var(--vz-ink);
+    }
+}
+
+.vz-related__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    color: var(--vz-ink);
+    text-decoration: none;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+        border: 1px solid var(--vz-rule);
+        border-radius: 6px;
+    }
+
+    .vz-cat {
+        font-size: 1.3rem;
+    }
+
+    &:hover .vz-related__title {
+        color: var(--vz-accent);
+    }
+}
+
+.vz-related__title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.55;
+    color: var(--vz-ink);
+}
+
+.vz-author {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem 2.8rem;
+    padding-top: 3.2rem;
+    border-top: 1px solid var(--vz-rule);
+}
+
+.vz-author__photo {
+    flex: none;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.vz-author__text {
+    display: flex;
+    flex: 1 1 36rem;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.vz-author__name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--vz-ink);
+
+    span {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: var(--vz-ink-2);
+    }
+}
+
+.vz-author__bio {
+    font-size: 1.4rem;
+    color: var(--vz-ink-2);
+}
+
+.vz-author__profile {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--vz-ink);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+
+    &:hover {
+        color: var(--vz-accent);
+    }
+}
+
+.vz-license {
+    margin: 0;
+    font-size: 1.3rem;
+    color: var(--vz-ink-3);
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+}

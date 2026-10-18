@@ -26,6 +26,24 @@ breadcrumb:
     home:
         other: トップ
 
+vz.breadcrumb:
+    other: パンくずリスト
+vz.figure:
+    other: 図
+vz.article.by:
+    other: 文・
+vz.article.updated:
+    other: 更新
+vz.article.translation:
+    other: English version
+vz.article.toc:
+    other: 目次
+vz.article.related:
+    other: あわせて読む
+vz.article.profile:
+    other: プロフィール
+vz.article.license:
+    other: この記事は {{ .License }} で公開しています。
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:

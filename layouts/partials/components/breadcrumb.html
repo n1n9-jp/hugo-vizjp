@@ -7,7 +7,7 @@
     "name" (T "breadcrumb.home")
     "item" $home.Permalink
 ) -}}
-<nav class="article-breadcrumb" aria-label="breadcrumb">
+<nav class="article-breadcrumb" aria-label="{{ T "vz.breadcrumb" }}">
     <a href="{{ $home.RelPermalink }}">{{ T "breadcrumb.home" }}</a>
     {{- range .Ancestors.Reverse -}}
         {{- $skipSection := and (eq .Kind "section") (or (eq .Section "post") (eq .Section "page")) -}}
@@ -19,8 +19,22 @@
                 "name" .Title
                 "item" .Permalink
             ) -}}
-    <span>/</span>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end -}}
+    {{- end -}}
+    {{- /* 記事のカテゴリ（先頭の1つ）を現在のページの前に入れる */ -}}
+    {{- with .GetTerms "categories" -}}
+        {{- with index . 0 -}}
+            {{- $position = add $position 1 -}}
+            {{- $listItems = $listItems | append (dict
+                "@type" "ListItem"
+                "position" $position
+                "name" .LinkTitle
+                "item" .Permalink
+            ) -}}
+    <span aria-hidden="true">/</span>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         {{- end -}}
     {{- end -}}
     {{- $position = add $position 1 -}}
@@ -30,8 +44,8 @@
         "name" .Title
         "item" .Permalink
     ) -}}
-    <span>/</span>
-    <span class="current">{{ .Title }}</span>
+    <span aria-hidden="true">/</span>
+    <span class="current" aria-current="page">{{ .LinkTitle }}</span>
 </nav>
 {{- $breadcrumb := dict
     "@context" "https://schema.org"
@@ -39,28 +53,3 @@
     "itemListElement" $listItems
 -}}
 <script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
-
-<style>
-    .article-breadcrumb {
-        font-size: 0.8rem;
-        color: var(--card-text-color-secondary-hex);
-        margin-bottom: 20px;
-    }
-
-    .article-breadcrumb a {
-        color: var(--card-text-color-secondary-hex);
-        text-decoration: none;
-    }
-
-    .article-breadcrumb a:hover {
-        text-decoration: underline;
-    }
-
-    .article-breadcrumb span {
-        margin: 0 5px;
-    }
-
-    .article-breadcrumb .current {
-        color: var(--card-text-color-main-hex);
-    }
-</style>

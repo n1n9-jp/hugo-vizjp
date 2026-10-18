@@ -1,0 +1,22 @@
+{{- /* アイキャッチ。ページ先頭の画像なので lazy にしない（I-18）。切り抜かない（縦長・小さい画像があるため） */ -}}
+{{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
+{{- if $image.exists -}}
+<div class="vz-article__cover">
+    {{- with $image.resource -}}
+        {{- $src := .RelPermalink -}}{{- $w := .Width -}}{{- $h := .Height -}}{{- $srcset := "" -}}
+        {{- if and (default true site.Params.imageProcessing.cover.enabled) (gt .Width 1100) -}}
+            {{- $m := .Resize "1100x" -}}
+            {{- $src = $m.RelPermalink -}}{{- $w = $m.Width -}}{{- $h = $m.Height -}}
+            {{- if ge .Width 2200 -}}
+                {{- $l := .Resize "2200x" -}}
+                {{- $srcset = printf "%s 1100w, %s 2200w" $m.RelPermalink $l.RelPermalink -}}
+            {{- else -}}
+                {{- $srcset = printf "%s 1100w, %s %dw" $m.RelPermalink .RelPermalink .Width -}}
+            {{- end -}}
+        {{- end -}}
+    <img src="{{ $src }}"{{ with $srcset }} srcset="{{ . }}" sizes="(min-width: 1024px) 860px, 100vw"{{ end }} width="{{ $w }}" height="{{ $h }}" fetchpriority="high" decoding="async" alt="">
+    {{- else -}}
+    <img src="{{ $image.permalink }}" fetchpriority="high" decoding="async" alt="">
+    {{- end -}}
+</div>
+{{- end -}}
