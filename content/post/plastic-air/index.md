@@ -11,6 +11,10 @@ tags = [
     "オリジナルのビジュアル変換",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 2
+seriesByline = "Giorgia Lupi"
+seriesTitle = "見えないものを「窓」にする──『Plastic Air』"
 +++
 
 Giorgia Lupi と Pentagram の Talia Cotton、Phil Cox による『Plastic Air』（2021）は、大気中のマイクロプラスチックを、画面上の「窓」として見せるウェブ体験です。Google Arts & Culture との協働で Earth Day 2021 に公開され、UNFCCC と Google が展開した *Heartbeat of the Earth* の一連の気候実験に含まれます。

@@ -1,0 +1,22 @@
+{{- $archives := index (where .Context.Site.Pages "Layout" "archives") 0 -}}
+<section class="vz-home__recent" aria-labelledby="vz-recent-title">
+    <div class="vz-section-head">
+        <h2 id="vz-recent-title" class="vz-section-head__title">{{ T "vz.home.recent" }}</h2>
+        {{ with $archives }}<a class="vz-section-head__more" href="{{ .RelPermalink }}">{{ T "vz.home.toArchives" }}</a>{{ end }}
+    </div>
+    <ul class="vz-recent">
+        {{- range .Pages }}
+        <li>
+            <a class="vz-card" href="{{ .RelPermalink }}">
+                {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "800x500" "Class" "vz-card__img") }}
+                <span class="vz-meta vz-card__meta">
+                    <span class="vz-card__cats">{{ range .GetTerms "categories" }}{{ partial "vz/home/cat-label.html" . }}{{ end }}</span>
+                    {{ partial "vz/home/date.html" . }}
+                </span>
+                <span class="vz-card__title">{{ .Title }}</span>
+                {{ with .Description }}<span class="vz-card__desc">{{ . }}</span>{{ end }}
+            </a>
+        </li>
+        {{- end }}
+    </ul>
+</section>

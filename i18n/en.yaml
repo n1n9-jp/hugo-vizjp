@@ -100,3 +100,47 @@ catalogue.tools.description:
     other: Create this chart in your browser with a tool from the Data Visualization Toolbox.
 catalogue.tools.action:
     other: Open tool →
+
+# PR5 home
+vz.home.eyebrow:
+    other: "DATA VISUALIZATION NOTES · SINCE {{ .Since }}"
+vz.home.byline:
+    other: Written and run by
+vz.home.authorName:
+    other: Yuichi Yazaki
+vz.home.purpose:
+    other: Browse by purpose
+vz.home.purposeAria:
+    other: "{{ .Name }}, {{ .Count }} posts"
+vz.home.count:
+    other: Posts
+vz.home.catShort.chart:
+    other: Charts
+vz.home.catShort.consume:
+    other: Seeing
+vz.home.catShort.technology:
+    other: Making
+vz.home.catShort.principle:
+    other: Principles
+vz.home.catShort.event:
+    other: Events
+vz.home.catShort.education:
+    other: Teaching
+vz.home.latest:
+    other: LATEST
+vz.home.series:
+    other: "SERIES · {{ .Count }}"
+vz.home.seriesMore:
+    other: Read the series
+vz.home.recent:
+    other: Recent
+vz.home.toArchives:
+    other: All posts
+vz.home.archive:
+    other: Archive
+vz.home.archiveDesc:
+    other: "Posts per year since {{ .Since }}. Select a bar to see that year."
+vz.home.total:
+    other: "{{ .Count }} posts"
+vz.home.yearAria:
+    other: "{{ .Year }}: {{ .Count }} posts"

@@ -1,0 +1,9 @@
+{{- $ctx := .Context -}}
+{{- $posts := .Posts.ByDate.Reverse -}}
+<div class="vz-home">
+    {{ partial "vz/home/intro.html" $ctx }}
+    {{ with index $posts 0 }}{{ partial "vz/home/latest.html" . }}{{ end }}
+    {{ partial "vz/home/series.html" $ctx }}
+    {{ partial "vz/home/recent.html" (dict "Context" $ctx "Pages" (first 4 (after 1 $posts))) }}
+    {{ partial "vz/home/archive.html" (dict "Context" $ctx "Posts" $posts) }}
+</div>

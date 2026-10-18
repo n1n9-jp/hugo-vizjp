@@ -11,6 +11,10 @@ tags = [
     "オリジナルのビジュアル変換",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 3
+seriesByline = "Superflux"
+seriesTitle = "数字を、息のできる証拠にする──『The Future Energy Lab』"
 +++
 
 Superflux の『The Future Energy Lab』（発表 2017）は、アラブ首長国連邦（UAE）のエネルギー政策を、グラフの延長ではなく **体験可能な証拠** として組み立てた仕事です。依頼主は UAE のエネルギー省と首相府。スタジオは、省が持っていた計量経済データと将来推計を外挿し、未来の大都市模型（Future Energy Zone）と、各シナリオに属する人工物をつくりました。

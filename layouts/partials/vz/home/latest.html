@@ -1,0 +1,14 @@
+<section class="vz-home__latest" aria-label="{{ T "vz.home.latest" }}">
+    <a class="vz-latest" href="{{ .RelPermalink }}">
+        {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "1280x720" "Class" "vz-latest__img" "Loading" "eager") }}
+        <div class="vz-latest__body">
+            <p class="vz-latest__eyebrow">{{ T "vz.home.latest" }}<span class="vz-latest__eyebrow-date"> · {{ .Date.Format "2006.01.02" }}</span></p>
+            <h2 class="vz-latest__title">{{ .Title }}</h2>
+            {{ with .Description }}<p class="vz-latest__desc">{{ . }}</p>{{ end }}
+            <p class="vz-meta">
+                {{ range .GetTerms "categories" }}{{ partial "vz/home/cat-label.html" . }}{{ end }}
+                {{ partial "vz/home/date.html" . }}
+            </p>
+        </div>
+    </a>
+</section>

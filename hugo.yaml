@@ -35,6 +35,10 @@ languages:
         languageCode: en-US
         title: Visualizing.JP
         weight: 2
+        # 英語版には特集（series）がまだないので、特集の一覧ページを出さない
+        taxonomies:
+            category: categories
+            tag: tags
         params:
             description: Practical methods and examples around data visualization.
             dateFormat:
@@ -52,6 +56,11 @@ services:
     # GA Tracking ID
     googleAnalytics:
         id: "G-9HTGX19L31"
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
 permalinks:
     post: /:slug/

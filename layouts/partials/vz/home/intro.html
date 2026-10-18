@@ -1,0 +1,32 @@
+{{- $cats := .Site.Taxonomies.categories.ByCount -}}
+{{- $max := 1 -}}{{- with index $cats 0 }}{{ $max = .Count }}{{ end -}}
+{{- $profile := .Site.GetPage "/page/profile" -}}
+<section class="vz-home__intro" aria-labelledby="vz-home-title">
+    <div class="vz-home__lead">
+        <p class="vz-eyebrow">
+            <svg width="34" height="10" viewBox="0 0 34 10" aria-hidden="true"><line x1="5" y1="5" x2="29" y2="5" class="vz-eyebrow__line"/><circle cx="5" cy="5" r="4" class="vz-eyebrow__dot"/><circle cx="29" cy="5" r="4" class="vz-eyebrow__dot"/></svg>
+            <span>{{ T "vz.home.eyebrow" (dict "Since" .Site.Params.footer.since) }}</span>
+        </p>
+        <h1 id="vz-home-title" class="vz-home__title">{{ .Site.Params.description }}</h1>
+        <p class="vz-home__byline">{{ T "vz.home.byline" }} <a href="{{ with $profile }}{{ .RelPermalink }}{{ else }}{{ $.Site.Params.author.profileURL }}{{ end }}">{{ T "vz.home.authorName" | default .Site.Params.author.name }}</a></p>
+    </div>
+    <nav class="vz-purpose" aria-labelledby="vz-purpose-title">
+        <div class="vz-purpose__head">
+            <h2 id="vz-purpose-title" class="vz-purpose__title">{{ T "vz.home.purpose" }}</h2>
+            <span class="vz-purpose__unit">{{ T "vz.home.count" }}</span>
+        </div>
+        <ul class="vz-purpose__list">
+            {{- range $cats }}
+            {{- $term := .Page.Data.Term }}
+            {{- $pct := math.Max 1.5 (div (mul 100.0 .Count) $max) }}
+            <li>
+                <a class="vz-purpose__row" href="{{ .Page.RelPermalink }}" aria-label="{{ T "vz.home.purposeAria" (dict "Name" .Page.Title "Count" .Count) }}" style="{{ printf "--vz-c: var(--vz-cat-%s, var(--vz-ink-3)); --vz-w: %.1f%%" $term $pct | safeCSS }}">
+                    <span class="vz-purpose__label"><span class="vz-purpose__dot" aria-hidden="true"></span><span class="vz-purpose__full">{{ .Page.Title }}</span><span class="vz-purpose__short" aria-hidden="true">{{ T (printf "vz.home.catShort.%s" $term) | default .Page.Title }}</span></span>
+                    <span class="vz-purpose__bar" aria-hidden="true"><span></span></span>
+                    <span class="vz-purpose__n">{{ .Count }}</span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</section>
