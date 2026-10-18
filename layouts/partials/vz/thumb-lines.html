@@ -1,0 +1,61 @@
+{{- /*
+  文字列を行に分ける（images.Text は空白でしか折り返さないため）。
+  引数：dict "text" 文字列 "cap" 1行の幅（em） "narrow" 半角1字の幅（em）
+  戻り値：dict "lines" 行の slice "hard" 1字単位で切った箇所があれば true。
+  改行（\n）は強制改行。
+  区切りの候補：「・：、。/」と空白の後、ひらがな→ひらがな以外の境目
+  （ただし、ひらがな1字の送り仮名「折れ線」「積み重ね」などでは切らない。助詞1字「の を が は に で と へ も」は切る）。
+  候補だけで収まらない部分は1字ずつ詰める（行頭禁則つき）。
+*/ -}}
+{{- $cap := .cap -}}
+{{- $narrow := default 0.6 .narrow -}}
+{{- $after := "・：、。/ 　" -}}
+{{- $noStart := "ー、。・：）」』！？ぁぃぅぇぉっゃゅょァィゥェォッャュョ" -}}
+{{- $lines := slice -}}
+{{- $hard := false -}}
+{{- $particles := "のをがはにでとへも" -}}
+{{- range split .text "\n" -}}
+  {{- /* 1. 文節らしき区切りに分ける */ -}}
+  {{- $segs := slice -}}
+  {{- $cur := "" -}}
+  {{- $hiraRun := "" -}}
+  {{- range split . "" -}}
+    {{- $c := . -}}
+    {{- $isHira := gt (len (findRE `^\p{Hiragana}$` $c)) 0 -}}
+    {{- $okBreak := or (ge (strings.RuneCount $hiraRun) 2) (and (eq (strings.RuneCount $hiraRun) 1) (strings.Contains $particles $hiraRun)) -}}
+    {{- if and (ne $hiraRun "") (not $isHira) $okBreak (ne $cur "") (not (strings.Contains $noStart $c)) -}}
+      {{- $segs = $segs | append $cur -}}{{- $cur = "" -}}
+    {{- end -}}
+    {{- $cur = printf "%s%s" $cur $c -}}
+    {{- if strings.Contains $after $c -}}
+      {{- $segs = $segs | append $cur -}}{{- $cur = "" -}}
+    {{- end -}}
+    {{- $hiraRun = cond $isHira (printf "%s%s" $hiraRun $c) "" -}}
+  {{- end -}}
+  {{- if ne $cur "" -}}{{- $segs = $segs | append $cur -}}{{- end -}}
+  {{- /* 2. 行に詰める */ -}}
+  {{- $line := "" -}}
+  {{- $lw := 0.0 -}}
+  {{- range $segs -}}
+    {{- $sw := 0.0 -}}
+    {{- range split . "" -}}{{- if findRE `^[ -~]$` . -}}{{- $sw = add $sw $narrow -}}{{- else -}}{{- $sw = add $sw 1.0 -}}{{- end -}}{{- end -}}
+    {{- $tw := sub $sw (cond (or (strings.HasSuffix . " ") (strings.HasSuffix . "　")) (cond (strings.HasSuffix . " ") $narrow 1.0) 0.0) -}}
+    {{- if le (add $lw $tw) $cap -}}
+      {{- $line = printf "%s%s" $line . -}}{{- $lw = add $lw $sw -}}
+    {{- else if le $tw $cap -}}
+      {{- if ne $line "" -}}{{- $lines = $lines | append (trim $line " 　") -}}{{- end -}}
+      {{- $line = . -}}{{- $lw = $sw -}}
+    {{- else -}}
+      {{- /* 区切りより長い：1字ずつ */ -}}
+      {{- range split . "" -}}
+        {{- $cw := cond (gt (len (findRE `^[ -~]$` .)) 0) $narrow 1.0 -}}
+        {{- if and (gt (add $lw $cw) $cap) (ne $line "") (not (strings.Contains $noStart .)) -}}
+          {{- $lines = $lines | append (trim $line " 　") -}}{{- $line = "" -}}{{- $lw = 0.0 -}}{{- $hard = true -}}
+        {{- end -}}
+        {{- $line = printf "%s%s" $line . -}}{{- $lw = add $lw $cw -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if ne $line "" -}}{{- $lines = $lines | append (trim $line " 　") -}}{{- end -}}
+{{- end -}}
+{{- return dict "lines" $lines "hard" $hard -}}

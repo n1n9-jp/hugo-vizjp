@@ -1,0 +1,49 @@
+{{- /*
+  サムネイルの文字組み（文字の大きさと改行）を決める。単位は System.dc.html の px（幅360基準）。
+  引数：dict "page" ページ "height" 画像の高さ（同じ単位。card=225, og=189）
+  戻り値：dict "main" "sub" "rule" "mSize" "mLines" "sSize" "sLines" "gTop"
+  手順：英語名の大きさと行数を決め、和名を 26→22→18→16px の順に試して、
+  「行数が上限以内」「1字単位の折り返しがない」「上下の段に食い込まない」最初の大きさを採る。
+*/ -}}
+{{- $p := .page -}}
+{{- $H := .height -}}
+{{- $inner := sub 360.0 52.0 -}}
+{{- $topEnd := add 24.0 18.0 -}}
+{{- $footTop := sub $H (add 24.0 14.3) -}}
+{{- $avail := sub (sub $footTop $topEnd) 16.0 -}}{{- /* 上下に 8px 以上の余白を残す */ -}}
+{{- $t := partial "vz/thumb-title.html" $p -}}
+{{- $mainText := $t.main -}}
+{{- if and (strings.Contains $mainText "：") (not (strings.Contains $mainText "\n")) -}}{{- $mainText = replace $mainText "：" "：\n" 1 -}}{{- end -}}
+
+{{- /* 英語名：13px で2行まで。収まらなければ 11px。それでも3行以上なら2行で切って … */ -}}
+{{- $sSize := 13.0 -}}{{- $sLines := slice -}}
+{{- with $t.sub -}}
+  {{- $sLines = (partial "vz/thumb-lines.html" (dict "text" . "cap" (div $inner $sSize) "narrow" 0.6)).lines -}}
+  {{- if gt (len $sLines) 2 -}}
+    {{- $sSize = 11.0 -}}
+    {{- $sLines = (partial "vz/thumb-lines.html" (dict "text" . "cap" (div $inner $sSize) "narrow" 0.6)).lines -}}
+  {{- end -}}
+  {{- if gt (len $sLines) 2 -}}{{- $sLines = slice (index $sLines 0) (printf "%s…" (index $sLines 1)) -}}{{- end -}}
+{{- end -}}
+{{- $sLH := mul $sSize 1.3 -}}
+{{- $subH := cond (gt (len $sLines) 0) (add 6.0 (mul $sLH (len $sLines))) 0.0 -}}
+
+{{- /* 和名 */ -}}
+{{- $steps := slice (dict "size" 26.0 "max" 2) (dict "size" 22.0 "max" 2) (dict "size" 18.0 "max" 3) (dict "size" 16.0 "max" 3) -}}
+{{- $mSize := 16.0 -}}{{- $mLines := slice -}}{{- $done := false -}}
+{{- range $steps -}}
+  {{- if not $done -}}
+    {{- $r := partial "vz/thumb-lines.html" (dict "text" $mainText "cap" (div $inner .size) "narrow" 0.62) -}}
+    {{- $h := add (mul (mul .size 1.35) (len $r.lines)) $subH -}}
+    {{- $mSize = .size -}}{{- $mLines = $r.lines -}}
+    {{- if and (le (len $r.lines) .max) (not $r.hard) (le $h $avail) -}}{{- $done = true -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- /* どの大きさでも収まらない：英語名を1行にし、和名は3行で切る */ -}}
+{{- if not $done -}}
+  {{- if gt (len $sLines) 1 -}}{{- $sLines = slice (printf "%s…" (index $sLines 0)) -}}{{- $subH = add 6.0 $sLH -}}{{- end -}}
+  {{- if gt (len $mLines) 3 -}}{{- $mLines = first 3 $mLines -}}{{- end -}}
+{{- end -}}
+{{- $gH := add (mul (mul $mSize 1.35) (len $mLines)) $subH -}}
+{{- $gTop := add $topEnd (div (sub (sub $footTop $topEnd) $gH) 2.0) -}}
+{{- return dict "main" $t.main "sub" $t.sub "rule" $t.rule "mSize" $mSize "mLines" $mLines "sSize" $sSize "sLines" $sLines "gTop" $gTop "fits" $done -}}

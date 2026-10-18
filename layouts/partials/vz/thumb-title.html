@@ -1,0 +1,36 @@
+{{- /*
+  記事タイトルを「和名」と「英語名」に分ける。
+  引数：ページ。戻り値：dict "main" "sub" "rule"
+  優先順：front matter の thumbnail.main / thumbnail.sub ＞ 末尾の（英語）＞ 翻訳ページのタイトル
+*/ -}}
+{{- $p := . -}}
+{{- /* 濁点・半濁点が「結合文字」（U+3099／U+309A）で書かれたタイトルは、images.Text が合成できず「テ゛」のように描く。
+      かな＋結合文字を1字の濁音・半濁音に直す（NFC 化。かなのみ）。 */ -}}
+{{- $title := trim $p.Title " 　" -}}
+{{- if or (strings.Contains $title "\u3099") (strings.Contains $title "\u309A") -}}
+  {{- $bs := split "かきくけこさしすせそたちつてとはひふへほカキクケコサシスセソタチツテトハヒフヘホウワヰヱヲ" "" -}}
+  {{- $vs := split "がぎぐげござじずぜぞだぢづでどばびぶべぼガギグゲゴザジズゼゾダヂヅデドバビブベボヴヷヸヹヺ" "" -}}
+  {{- range $i, $b := $bs -}}{{- $title = replace $title (printf "%s\u3099" $b) (index $vs $i) -}}{{- end -}}
+  {{- $hb := split "はひふへほハヒフヘホ" "" -}}
+  {{- $hv := split "ぱぴぷぺぽパピプペポ" "" -}}
+  {{- range $i, $b := $hb -}}{{- $title = replace $title (printf "%s\u309A" $b) (index $hv $i) -}}{{- end -}}
+  {{- $title = replace (replace $title "\u3099" "") "\u309A" "" -}}
+{{- end -}}
+{{- $main := $title -}}
+{{- $sub := "" -}}
+{{- $rule := "whole" -}}
+{{- $m := findRESubmatch `^(.+?)[ 　]*[（(]([^（）()]*[A-Za-z][^（）()]*)[）)]$` $title 1 -}}
+{{- if and $m (ne $p.Language.Lang "en") -}}
+  {{- $main = index (index $m 0) 1 -}}
+  {{- $sub = index (index $m 0) 2 -}}
+  {{- $rule = "paren" -}}
+{{- else if ne $p.Language.Lang "en" -}}
+  {{- range $p.Translations -}}
+    {{- if eq .Language.Lang "en" -}}{{- $sub = .Title -}}{{- $rule = "translation" -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $p.Params.thumbnail -}}
+  {{- with .main -}}{{- $main = . -}}{{- $rule = "frontmatter" -}}{{- end -}}
+  {{- with .sub -}}{{- $sub = . -}}{{- end -}}
+{{- end -}}
+{{- return dict "main" $main "sub" $sub "rule" $rule -}}
