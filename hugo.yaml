@@ -18,6 +18,15 @@ defaultContentLanguageInSubdir: false
 enableRobotsTXT: true
 hasCJKLanguage: true
 
+# 最終更新日（.Lastmod）は front matter の日付だけで決める。
+# Hugo の既定は :git が先頭だが、Vercel は浅い clone で、ほぼ全記事が一括コミットの日付になる。
+# :git と :fileModTime は使わない（sitemap.xml の lastmod、BlogPosting の dateModified、「更新」「最終更新」の表示に効く）。
+frontmatter:
+    lastmod:
+        - lastmod
+        - date
+        - publishDate
+
 languages:
     ja:
         languageName: 日本語
