@@ -1,14 +1,18 @@
 {{- /*
     hugo-theme-stack 3.26.0 の同名ファイルをもとにした上書き。テーマ更新時は差分を確認すること。
-    （layouts/partials/sidebar/right.html）PR6：ホームでは右サイドバーを出さない。
+    （layouts/partials/sidebar/right.html）PR6：ホームの1ページ目では右サイドバーを出さない。
 */ -}}
 {{- /*
-    Right sidebar (PR6). Same as Stack's sidebar/right.html, except that the home page shows none:
-    the home body lists archives and categories itself (PR5).
+    Right sidebar (PR6). Same as Stack's sidebar/right.html, except that page 1 of the home shows none:
+    the home body lists archives and categories itself (PR5). Home page 2+ keep the sidebar.
 */ -}}
 {{- $scope := default "homepage" .Scope -}}
 {{- $context := .Context -}}
-{{- if not $context.IsHome -}}
+{{- /* Only page 1 of the home skips the sidebar. .Paginator is safe here because baseof renders this
+     after "main" (where the home template calls .Paginate). */ -}}
+{{- $show := true -}}
+{{- if $context.IsHome -}}{{- $show = gt $context.Paginator.PageNumber 1 -}}{{- end -}}
+{{- if $show -}}
 {{- with (index .Context.Site.Params.widgets $scope) -}}
     <aside class="sidebar right-sidebar sticky">
         {{ range $widget := . }}

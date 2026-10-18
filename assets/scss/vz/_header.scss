@@ -171,7 +171,7 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
     height: 44px;
     padding: 0 12px;
     border: 1px solid var(--vz-line, var(--card-separator-color));
-    border-radius: 6px;
+    border-radius: var(--card-border-radius);   /* same as the body search field (Stack .search-form) */
     background: var(--vz-surface, var(--card-background));
 
     &:focus-within {
@@ -529,5 +529,10 @@ $vz-outer-max: $vz-content-max + 64px;   // border-box width incl. 32px gutters 
         justify-content: center;
         min-height: 44px;
         min-width: 44px;
+    }
+
+    /* first link: text starts at the same left edge as the copyright line */
+    li:first-child a {
+        justify-content: flex-start;
     }
 }

@@ -22,7 +22,6 @@
         <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
             {{- /* PR6: the left sidebar is replaced by the top header */ -}}
             {{- block "left-sidebar" . -}}{{- end -}}
-            {{- block "right-sidebar" . -}}{{ end }}
             <main class="main full-width" id="main-content" tabindex="-1">
                 {{- /* Pages whose own template has no h1 (the site name used to be the h1 in the left sidebar) */ -}}
                 {{- if in (slice "search" "archives") .Layout }}
@@ -35,6 +34,9 @@
                 <h1 class="vz-visually-hidden">{{ T "vz.page.paged" (dict "N" .Paginator.PageNumber) }}</h1>
                 {{- end }}
             </main>
+            {{- /* PR6: the right sidebar comes after main in the DOM (Stack's CSS order keeps it on the right),
+                   so sidebar/right.html can read .Paginator after the home template has called .Paginate. */ -}}
+            {{- block "right-sidebar" . -}}{{ end }}
         </div>
         {{- partial "vz/site-footer.html" . -}}
         {{ partial "footer/include.html" . }}
