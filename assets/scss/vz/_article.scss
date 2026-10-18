@@ -185,7 +185,7 @@
         max-width: 100%;
         height: auto;
         max-height: 62rem;
-        margin-inline: auto;
+        margin-inline: 0; // left edge = left edge of the body text
         border-radius: 6px;
     }
 }
