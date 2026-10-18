@@ -9,11 +9,6 @@
         {{ partial "article/components/catalogue-tools.html" . }}
         {{ with .GetTerms "tags" }}<section class="article-tags">{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</section>{{ end }}
     </div>
-    <section class="vz-article-end">
-        {{ partial "vz/article/related.html" . }}
-        {{ partial "vz/article/author.html" . }}
-        {{ partial "vz/article/license.html" . }}
-    </section>
     {{ if or .Params.math site.Params.article.math }}
         {{ partialCached "article/components/math.html" . }}
     {{ end }}

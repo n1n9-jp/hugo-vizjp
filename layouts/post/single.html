@@ -2,6 +2,7 @@
 
 {{ define "main" }}
     {{ partial "vz/article/article.html" . }}
+    {{ partial "vz/article/end.html" . }}
 
     {{ if .Params.links }}
         {{ partial "article/components/links" . }}

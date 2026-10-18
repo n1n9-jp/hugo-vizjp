@@ -536,11 +536,13 @@
     }
 }
 
-/* End of article: related articles, author, license (a --vz-surface band) */
+/*
+ * End of article: related articles, author, license (a full-width --vz-surface band after the <article>).
+ * Fallback (a left sidebar is present, i.e. before PR6): the band fills <main>.
+ * Without a left sidebar (PR6): .main-container becomes a 3-column grid (gutter | content | gutter), the band spans
+ * all three columns and its inner box sits in the middle one. No 100vw tricks: the grid fills the page width itself.
+ */
 .vz-article-end {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
     margin-top: 8rem;
     padding: 5.6rem 3.2rem 6.4rem;
     background: var(--vz-surface);
@@ -552,10 +554,107 @@
     }
 }
 
+.vz-article-end__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 110rem;
+    container-type: inline-size;
+    container-name: vzend;
+}
+
+.vz-article-page .container.main-container:not(:has(> .left-sidebar)) {
+    --vz-gutter: 16px;
+    --vz-content: 1240px;
+    --vz-toc-width: 300px;
+    // The band is a child of <main> (display: contents), so it cannot inherit the tracks; share them as a custom property.
+    --vz-tracks: minmax(var(--vz-gutter), 1fr) minmax(0, var(--vz-content)) minmax(var(--vz-gutter), 1fr);
+
+    display: grid;
+    grid-template-columns: var(--vz-tracks);
+    align-items: start;
+    gap: 0;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+
+    @media (min-width: 768px) {
+        --vz-gutter: 32px;
+    }
+
+    /* <main> and <article> only group their children; each child takes its own grid cell */
+    > main.main {
+        display: contents;
+    }
+
+    > main.main > * {
+        grid-column: 2;
+        min-width: 0;
+    }
+
+    > main.main > .vz-article {
+        grid-row: 1;
+
+        @media (min-width: 768px) {
+            padding-top: var(--main-top-padding); // what <main> carried before
+        }
+    }
+
+    /* the table of contents shares the first row with the article, on the right */
+    > .right-sidebar {
+        grid-column: 2;
+        grid-row: 1;
+        justify-self: end;
+        width: var(--vz-toc-width);
+    }
+
+    &:has(> .right-sidebar) > main.main > .vz-article {
+        @media (min-width: 1024px) {
+            padding-right: calc(var(--vz-toc-width) + var(--section-separation));
+        }
+    }
+
+    > main.main > .vz-article-end {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: var(--vz-tracks);
+        padding-left: 0;
+        padding-right: 0;
+
+        > .vz-article-end__inner {
+            grid-column: 2;
+            min-width: 0;
+        }
+    }
+}
+
 .vz-related {
     display: grid;
-    grid-template-columns: #{"repeat(auto-fit, minmax(min(260px, 100%), 1fr))"}; // LibSass cannot evaluate min() with mixed units
+    grid-template-columns: minmax(0, 1fr);
     gap: 3.2rem;
+}
+
+/* medium: heading on its own line, then the three articles in a row */
+@container vzend (min-width: 56rem) {
+    .vz-related {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .vz-related__head {
+        grid-column: 1 / -1;
+    }
+}
+
+/* wide: heading + three articles in four columns */
+@container vzend (min-width: 88rem) {
+    .vz-related {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .vz-related__head {
+        grid-column: auto;
+    }
 }
 
 .vz-related__head {
