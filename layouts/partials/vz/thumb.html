@@ -15,8 +15,7 @@
 {{- $X0 := div (sub $W (div (mul $H 4.0) 3.0)) 2.0 -}}{{- /* 4:3 の範囲の左端 */ -}}
 {{- $S := div (sub $W (mul 2.0 $X0)) 360.0 -}}
 {{- $padX := add $X0 (mul 26.0 $S) -}}{{- $padY := mul 24.0 $S -}}
-{{- /* 色：assets/scss/vz/_tokens.scss のライト値と同じにする（画像では CSS 変数を使えない）。_tokens.scss の値を変えたらここも直す。
-      墨3 の #686C75 は PR #11 で --vz-ink-3 になる値（master の _tokens.scss は PR #11 のマージまで #6B6F78）。 */ -}}
+{{- /* 色：assets/scss/vz/_tokens.scss のライト値と同じにする（画像では CSS 変数を使えない）。_tokens.scss の値を変えたらここも直す。 */ -}}
 {{- $ink := "#17181C" -}}{{- $ink2 := "#4A4D55" -}}{{- $ink3 := "#686C75" -}}
 {{- /* 右上のロゴ（2つの点を結ぶ線。線 #B9BBB0、点 #E645A2）は土台画像 base.png に描き込んである（作り方は assets/vz/thumb/README.md）。 */ -}}
 {{- $catColors := dict "chart" "#2F6FB0" "consume" "#C2662D" "technology" "#2E8A7A" "principle" "#7A5BB5" "event" "#6F7A86" "education" "#A0782A" -}}
