@@ -1,12 +1,14 @@
 {{- $tocItems := partial "vz/article/toc-items.html" .Fragments.Headings -}}
 {{- $hasTOC := and (ge (len $tocItems) 2) (ne .Params.toc false) -}}
-<article class="vz-article">
+{{- /* 固定ページ（content/page）も同じ部品で組む。固定ページでは日付・著者・カテゴリを出さず、リンク集（links）とライセンスの1行を本文の後に付ける */ -}}
+{{- $isPage := eq .Section "page" -}}
+<article class="vz-article{{ if $isPage }} vz-page{{ end }}">
     {{ partial "vz/article/header.html" . }}
     {{ partial "vz/article/cover.html" . }}
     {{ if $hasTOC }}{{ partial "vz/article/toc-inline.html" $tocItems }}{{ end }}
     <div class="vz-article__main">
         {{ partial "article/components/content" . }}
-        {{ partial "article/components/catalogue-tools.html" . }}
+        {{ partial "article/components/catalogue-tools.html" . }}{{ if $isPage }}{{ with .Params.links }}<div class="vz-page__links">{{ partial "article/components/links" $ }}</div>{{ end }}{{ partial "vz/article/license.html" . }}{{ end }}
         {{ with .GetTerms "tags" }}<section class="article-tags">{{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</section>{{ end }}
     </div>
     {{ if or .Params.math site.Params.article.math }}

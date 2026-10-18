@@ -1,6 +1,6 @@
-{{- /* ライセンスの1行。front matter の license が文字列ならその名前（リンクなし）、なければ hugo.yaml の article.license.name と url */ -}}
+{{- /* ライセンスの1行。front matter の license が文字列ならその名前（リンクなし）、なければ hugo.yaml の article.license.name と url。固定ページ（content/page）は「このページは」の文言 */ -}}
 {{- if and site.Params.article.license.enabled (ne .Params.license false) -}}
 {{- $license := printf "<a rel=\"license\" href=\"%s\">%s</a>" site.Params.article.license.url site.Params.article.license.name -}}
 {{- with .Params.license }}{{ if eq (printf "%T" .) "string" }}{{ $license = . }}{{ end }}{{ end -}}
-<p class="vz-license">{{ T "vz.article.license" (dict "License" ($license | safeHTML)) | safeHTML }}</p>
+<p class="vz-license">{{ T (cond (eq .Section "page") "vz.page.license" "vz.article.license") (dict "License" ($license | safeHTML)) | safeHTML }}</p>
 {{- end -}}

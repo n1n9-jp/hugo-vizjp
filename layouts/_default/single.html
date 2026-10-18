@@ -1,0 +1,28 @@
+{{- /*
+    固定ページ（content/page：このサイトについて・運営者・リンク など）の単体ページ。
+    hugo-theme-stack 3.26.0 の同名ファイルをもとにした上書き。テーマ更新時は差分を確認すること。
+    記事（layouts/post/single.html）と同じ部品（vz/article/*）で組む。固定ページに出さないもの（日付・著者・カテゴリ・関連記事・著者帯）は
+    部品の側で .Section が "page" のときに省く。ページごとの見た目の差は assets/scss/vz/_page.scss。
+    アーカイブ・検索は layout 指定の専用テンプレート（_default/archives.html、page/search.html）が先に選ばれ、ここは通らない。
+*/ -}}
+{{ define "body-class" }}article-page vz-article-page{{ end }}
+
+{{ define "main" }}
+    {{ partial "vz/article/article.html" . }}
+
+    {{ if not (eq .Params.comments false) }}
+        {{ partial "comments/include" . }}
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+
+    {{ partialCached "article/components/photoswipe" . }}
+{{ end }}
+
+{{/* 右サイドバー：目次（記事と同じ条件：h2〜h4 が合わせて2つ以上） */}}
+{{ define "right-sidebar" }}
+    {{- $tocItems := partial "vz/article/toc-items.html" .Fragments.Headings -}}
+    {{- if and (ge (len $tocItems) 2) (ne .Params.toc false) -}}
+        {{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}
+    {{- end -}}
+{{ end }}
