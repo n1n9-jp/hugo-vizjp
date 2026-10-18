@@ -9,7 +9,18 @@
     {{ end }}
 {{ end }}
 
-{{ if $imageValue }}
+{{/* 自動サムネイル：記事（post）で image が共通プレースホルダーか未指定なら、タイトルから生成する（partials/vz/thumb.html） */}}
+{{ $auto := false }}
+{{ if and (eq .Context.Kind "page") (eq .Context.Section "post") (ne .Type "section") }}
+    {{ if or (not $imageValue) (strings.HasSuffix (string $imageValue) "thumb_ph_vizjp.png") }}
+        {{ $auto = true }}
+    {{ end }}
+{{ end }}
+
+{{ if $auto }}
+    {{ $thumb := partial "vz/thumb.html" .Context }}
+    {{ $result = merge $result (dict "exists" true "permalink" $thumb.RelPermalink "resource" $thumb "generated" true) }}
+{{ else if $imageValue }}
     <!-- If page has an image field set -->
     {{ $result = merge $result (dict "exists" true) }}
     {{ $url := urls.Parse $imageValue }}

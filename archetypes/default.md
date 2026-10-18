@@ -6,7 +6,6 @@ author = '矢崎裕一'
 description = ''
 categories = []
 tags = []
-image = 'images/cover.jpg'
 # 特集に入れるとき：series = ['<特集ID>']、series_weight = 1（帯の並び順）
 # 帯での表示を変えるとき（任意）：seriesByline = '作者名'、seriesTitle = '短いタイトル'
 +++

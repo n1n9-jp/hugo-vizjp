@@ -1,0 +1,62 @@
+{{- /*
+  記事タイトルから文字組みのサムネイルを作る（System.dc.html「05」）。
+  引数：ページ
+  戻り値：画像リソース（1600x900, 16:9。一覧・記事上部・OGP で共用）
+  切り抜き対策：文字と記号はすべて中央の 4:3 の範囲（x=200〜1400）に置く。
+  16:9／16:10／4:3 のどれで中央を切り抜いても欠けない。OGP（1.91:1）は上下 31px ずつ切れるが余白内。
+  寸法は System.dc.html のカード（幅360px）を 4:3 の範囲の幅 1200px に合わせて S 倍して置く。
+*/ -}}
+{{- $p := . -}}
+{{- $base := resources.Get "vz/thumb/base.png" -}}
+{{- $bold := resources.Get "vz/thumb/IBMPlexSansJP-Bold.ttf" -}}
+{{- $reg := resources.Get "vz/thumb/IBMPlexSansJP-Regular.ttf" -}}
+{{- $mono := resources.Get "vz/thumb/IBMPlexMono-Regular.ttf" -}}
+{{- $W := float $base.Width -}}{{- $H := float $base.Height -}}
+{{- $X0 := div (sub $W (div (mul $H 4.0) 3.0)) 2.0 -}}{{- /* 4:3 の範囲の左端 */ -}}
+{{- $S := div (sub $W (mul 2.0 $X0)) 360.0 -}}
+{{- $padX := add $X0 (mul 26.0 $S) -}}{{- $padY := mul 24.0 $S -}}
+{{- /* 色：assets/scss/vz/_tokens.scss のライト値と同じにする（画像では CSS 変数を使えない）。_tokens.scss の値を変えたらここも直す。 */ -}}
+{{- $ink := "#17181C" -}}{{- $ink2 := "#4A4D55" -}}{{- $ink3 := "#686C75" -}}
+{{- /* 右上のロゴ（2つの点を結ぶ線。線 #B9BBB0、点 #E645A2）は土台画像 base.png に描き込んである（作り方は assets/vz/thumb/README.md）。 */ -}}
+{{- $catColors := dict "chart" "#2F6FB0" "consume" "#C2662D" "technology" "#2E8A7A" "principle" "#7A5BB5" "event" "#6F7A86" "education" "#A0782A" -}}
+{{- $filters := slice -}}
+
+{{- /* 上段：カテゴリの点と名前 */ -}}
+{{- $cy := add $padY (mul 9.0 $S) -}}
+{{- with index ($p.GetTerms "categories") 0 -}}
+  {{- $key := path.Base .RelPermalink | lower -}}
+  {{- $col := index $catColors $key | default $ink3 -}}
+  {{- $ds := div (mul 8.0 $S) 0.82 -}}
+  {{- $filters = $filters | append (images.Text "●" (dict "font" $bold "size" (int $ds) "color" $col
+        "x" (int (sub (add $padX (mul 4.0 $S)) (mul 0.5 $ds))) "y" (int (sub (add $cy (mul 0.38 $ds)) (mul 1.06 $ds))))) -}}
+  {{- $ls := mul 12.0 $S -}}
+  {{- $filters = $filters | append (images.Text .LinkTitle (dict "font" $reg "size" (int $ls) "color" $ink2
+        "x" (int (add $padX (mul 15.0 $S))) "y" (int (sub (add $cy (mul 0.36 $ls)) (mul 1.06 $ls))))) -}}
+{{- end -}}
+
+{{- /* 中央：和名（太字）と英語名（等幅） */ -}}
+{{- $L := partial "vz/thumb-layout.html" (dict "page" $p "height" (div $H $S)) -}}
+{{- $mSize := $L.mSize -}}{{- $mLines := $L.mLines -}}{{- $sSize := $L.sSize -}}{{- $sLines := $L.sLines -}}
+{{- $mLH := mul $mSize 1.35 -}}{{- $sLH := mul $sSize 1.3 -}}
+{{- $gTop := $L.gTop -}}
+{{- range $i, $l := $mLines -}}
+  {{- $bl := add (add $gTop (mul $mLH $i)) (mul 0.985 $mSize) -}}
+  {{- $filters = $filters | append (images.Text $l (dict "font" $bold "size" (int (mul $mSize $S)) "color" $ink
+        "x" (int $padX) "y" (int (mul $S (sub $bl (mul 1.06 $mSize)))))) -}}
+{{- end -}}
+{{- $sTop := add (add $gTop (mul $mLH (len $mLines))) 6.0 -}}
+{{- range $i, $l := $sLines -}}
+  {{- $bl := add (add $sTop (mul $sLH $i)) (mul 1.025 $sSize) -}}
+  {{- $filters = $filters | append (images.Text $l (dict "font" $mono "size" (int (mul $sSize $S)) "color" $ink2
+        "x" (int $padX) "y" (int (mul $S (sub $bl (mul 1.025 $sSize)))))) -}}
+{{- end -}}
+
+{{- /* 左下：visualizing.jp */ -}}
+{{- $fs := 11.0 -}}
+{{- $fBase := sub (sub (div $H $S) 24.0) (mul 0.275 $fs) -}}
+{{- $filters = $filters | append (images.Text "visualizing.jp" (dict "font" $mono "size" (int (mul $fs $S)) "color" $ink3
+      "x" (int $padX) "y" (int (mul $S (sub $fBase (mul 1.025 $fs)))))) -}}
+
+{{- $img := $base | images.Filter $filters -}}
+{{- $name := printf "thumbs/%s/%s.png" $p.Language.Lang (path.Base $p.File.Dir) -}}
+{{- return ($img | resources.Copy $name) -}}
