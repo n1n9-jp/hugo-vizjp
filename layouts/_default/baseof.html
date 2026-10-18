@@ -1,0 +1,44 @@
+{{- /*
+    hugo-theme-stack 3.26.0 の同名ファイルをもとにした上書き。テーマ更新時は差分を確認すること。
+    （layouts/_default/baseof.html）PR6：左サイドバーを外し、上部ヘッダー・フッター・スキップリンクの飛び先を足す。
+*/ -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
+    <head>
+        {{- partial "head/head.html" . -}}
+        {{- block "head" . -}}{{ end }}
+    </head>
+    <body class="{{ block `body-class` . }}{{ end }}">
+        {{- partial "head/colorScheme" . -}}
+        {{- partial "vz/header.html" . -}}
+
+        {{/* The container is wider when there's any activated widget */}}
+        {{- $hasWidget := false -}}
+        {{- range .Site.Params.widgets -}}
+            {{- if gt (len .) 0 -}}
+                {{- $hasWidget = true -}}
+            {{- end -}}
+        {{- end -}}
+        <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
+            {{- /* PR6: the left sidebar is replaced by the top header */ -}}
+            {{- block "left-sidebar" . -}}{{- end -}}
+            <main class="main full-width" id="main-content" tabindex="-1">
+                {{- /* Pages whose own template has no h1 (the site name used to be the h1 in the left sidebar) */ -}}
+                {{- if in (slice "search" "archives") .Layout }}
+                <h1 class="vz-visually-hidden">{{ .Title }}</h1>
+                {{- end }}
+                {{- block "main" . }}{{- end }}
+                {{- /* Home page 2+: no visible heading. .Paginator is only safe after "main" has called .Paginate,
+                       so this h1 comes at the end of main (visually hidden). Page 1 gets its h1 from the home template. */ -}}
+                {{- if and .IsHome (gt .Paginator.PageNumber 1) }}
+                <h1 class="vz-visually-hidden">{{ T "vz.page.paged" (dict "N" .Paginator.PageNumber) }}</h1>
+                {{- end }}
+            </main>
+            {{- /* PR6: the right sidebar comes after main in the DOM (Stack's CSS order keeps it on the right),
+                   so sidebar/right.html can read .Paginator after the home template has called .Paginate. */ -}}
+            {{- block "right-sidebar" . -}}{{ end }}
+        </div>
+        {{- partial "vz/site-footer.html" . -}}
+        {{ partial "footer/include.html" . }}
+    </body>
+</html>

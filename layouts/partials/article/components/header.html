@@ -1,3 +1,5 @@
+{{- /* 記事・固定ページ自身を描画しているときだけ true。一覧の中ではカードごとに false（page は描画中のページを返す） */ -}}
+{{- $isSingle := eq page . -}}
 <header class="article-header">
     {{- $image := partialCached "helper/image" (dict "Context" . "Type" "article") .RelPermalink "article" -}}
     {{ if $image.exists }}
@@ -22,14 +24,13 @@
                         {{ with $Srcset }}srcset="{{ . }}"{{ end }}
                         width="{{ $Width }}" 
                         height="{{ $Height }}" 
-                        loading="lazy"
-                        alt="Featured image of post {{ .Title }}" />
+                        {{ if $isSingle }}fetchpriority="high" decoding="async" alt=""{{ else }}loading="lazy" alt="Featured image of post {{ .Title }}"{{ end }} />
                 {{ else }}
-                    <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+                    <img src="{{ $image.permalink }}" {{ if $isSingle }}fetchpriority="high" alt=""{{ else }}loading="lazy" alt="Featured image of post {{ .Title }}"{{ end }} />
                 {{ end }}
             </a>
         </div>
     {{ end }}
 
-    {{ partialCached "article/components/details" . .RelPermalink (.Scratch.Get "isSingleArticle") }}
+    {{ partialCached "article/components/details" (dict "page" . "single" $isSingle) .RelPermalink $isSingle }}
 </header>

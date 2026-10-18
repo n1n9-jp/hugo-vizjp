@@ -17,6 +17,7 @@ menu:
         weight: 400
         params:
             icon: link
+            footer: true
 
 comments: false
 ---

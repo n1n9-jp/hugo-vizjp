@@ -11,6 +11,10 @@ tags = [
     "オリジナルのビジュアル変換",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 4
+seriesByline = "Superflux"
+seriesTitle = "川の健康を、感覚可能にする──『The Ecological Intelligence Agency』"
 +++
 
 Superflux の『The Ecological Intelligence Agency』（2023）は、英国政府の Policy Lab と Defra Futures の委託で作られた、架空の省庁横断機関です。題材はロンドン東部を流れるローディング川（River Roding）。問いは「淡水系を、2043年以降どう変えるか」。答えはダッシュボードではなく、**川が語る詩**と、水の入った瓶を読む装置です。

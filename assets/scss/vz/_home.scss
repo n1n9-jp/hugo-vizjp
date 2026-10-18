@@ -1,1 +1,213 @@
-/* PR: home styles go here. Imported from custom.scss. */
+// PR5 ホーム。色と書体は PR3 の --vz-* を使う。カテゴリの点＋文字は PR3 の vz/category-label.html（.vz-cat）。
+.vz-home {
+    --h-bg: var(--vz-bg);
+    --h-surface: var(--vz-surface);
+    --h-ink: var(--vz-ink);
+    --h-ink-2: var(--vz-ink-2);
+    --h-ink-3: var(--vz-ink-3);
+    --h-rule: var(--vz-rule);
+    --h-track: rgba(23, 24, 28, 0.06);
+    --h-accent: var(--vz-accent);
+    --h-dot: var(--vz-dot);
+    --h-mono: var(--vz-font-mono);
+    --h-sans: var(--vz-font-sans);
+    --h-bar: #8A8D83;
+    --h-band-bg: #17181C;
+    --h-band-ink: #FFFFFF;
+    --h-band-ink-2: #C9CAC2;
+    --h-band-ink-3: #A9AAA2;
+    --h-band-eyebrow: #F07BBE;
+    --h-band-img: #2A2B30;
+
+    // 本文は中央の列（最大 1240px、左右に余白）に置き、特集の帯だけ全幅の列に広げる。
+    // 100vw を使わず、親（.vz-home）が本文領域いっぱいに広がることで横スクロールを避ける。
+    --vz-gutter: 16px;
+    --vz-content: 1240px;
+    container-type: inline-size;
+    container-name: vzhome;
+    display: grid;
+    grid-template-columns: minmax(var(--vz-gutter), 1fr) minmax(0, var(--vz-content)) minmax(var(--vz-gutter), 1fr);
+    row-gap: 56px;
+    color: var(--h-ink);
+    font-family: var(--h-sans);
+    font-size: 16px;
+    line-height: 1.7;
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--h-accent); }
+    a:focus-visible { outline: 2px solid var(--h-accent); outline-offset: 3px; }
+    ul, ol { list-style: none; margin: 0; padding: 0; }
+    h1, h2, p { margin: 0; }
+
+    > * { grid-column: 2; min-width: 0; }
+    > .vz-home__series { grid-column: 1 / -1; }
+    @media (min-width: 768px) { --vz-gutter: 32px; }
+}
+
+// ホームでは本文領域の幅制限と余白を外し、.vz-home が全幅になるようにする（特集の帯を画面端まで広げるため）。
+// サイドバーがある構成（PR6 より前）では何もしない。
+.container.main-container:has(.vz-home):not(:has(> .sidebar)) {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+[data-scheme="dark"] .vz-home {
+    --h-track: rgba(255, 255, 255, 0.10);
+    --h-bar: #7C7F86;
+    --h-band-bg: #0B0C0E;
+    --h-band-img: #24262B;
+}
+
+.vz-thumb--none { display: block; background: var(--h-track); }
+.vz-date { font-family: var(--h-mono); color: var(--h-ink-3); }
+.vz-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; font-size: 13px; color: var(--h-ink-2); }
+
+// 1. 導入
+.vz-home__intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px 80px;
+    align-items: end;
+}
+.vz-home__lead { display: flex; flex-direction: column; gap: 20px; }
+.vz-eyebrow { display: flex; align-items: center; gap: 10px; font-family: var(--h-mono); font-size: 13px; letter-spacing: 0.08em; color: var(--h-ink-3); }
+.vz-eyebrow__line { stroke: #B9BBB0; stroke-width: 1.5; }
+.vz-eyebrow__dot { fill: var(--h-dot); }
+.vz-home__title { font-size: clamp(28px, 5.5cqi, 44px); line-height: 1.35; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; word-break: auto-phrase; }
+.vz-home__byline { font-size: 15px; color: var(--h-ink-2); }
+.vz-home__byline a { color: var(--h-ink); font-weight: 500; text-decoration: underline; text-underline-offset: 3px; }
+
+.vz-purpose { background: var(--h-surface); border: 1px solid var(--h-rule); border-radius: 8px; padding: 24px 28px; }
+.vz-purpose__head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px; }
+.vz-purpose__title { font-size: 15px; font-weight: 700; }
+.vz-purpose__unit { font-family: var(--h-mono); font-size: 12px; color: var(--h-ink-3); }
+.vz-purpose__row {
+    display: grid; grid-template-columns: minmax(0, 11em) minmax(0, 1fr) 40px; align-items: center; gap: 16px;
+    min-height: 44px; border-top: 1px solid var(--h-rule);
+}
+.vz-purpose__label { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; }
+.vz-purpose__dot { width: 8px; height: 8px; border-radius: 50%; flex: none; display: block; background: var(--vz-c); }
+.vz-purpose__short { display: none; }
+.vz-purpose__bar { height: 8px; background: var(--h-track); border-radius: 4px; overflow: hidden; display: block; }
+.vz-purpose__bar span { display: block; height: 100%; width: var(--vz-w); background: var(--vz-c); border-radius: 4px; }
+.vz-purpose__n { font-family: var(--h-mono); font-size: 13px; text-align: right; color: var(--h-ink-2); }
+
+// 2. 最新記事
+.vz-latest {
+    display: grid; grid-template-columns: minmax(0, 1fr);
+    background: var(--h-surface); border: 1px solid var(--h-rule); border-radius: 8px; overflow: hidden;
+}
+.vz-latest__img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--h-track); }
+.vz-latest__body { padding: clamp(20px, 4cqi, 44px); display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+.vz-latest__eyebrow { font-family: var(--h-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--h-accent); font-weight: 500; }
+.vz-latest__eyebrow-date { display: none; }
+.vz-latest__title { font-size: clamp(21px, 3cqi, 30px); line-height: 1.45; font-weight: 700; text-wrap: pretty; }
+.vz-latest__desc { font-size: 16px; color: var(--h-ink-2); line-height: 1.85; }
+
+// 3. 特集の帯
+.vz-band {
+    background: var(--h-band-bg); color: var(--h-band-ink);
+    // 全幅の背景。中身は .vz-home と同じ3列の中央列に置く（余白は列の幅で決まり、cqi は使わない）。
+    padding: 64px 0 72px; margin: 16px 0;
+    display: grid; grid-template-columns: inherit; row-gap: 32px;
+}
+.vz-band > * { grid-column: 2; min-width: 0; }
+.vz-band__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; }
+.vz-band__text { display: flex; flex-direction: column; gap: 10px; }
+.vz-band__eyebrow { font-family: var(--h-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--h-band-eyebrow); }
+.vz-band__title { font-size: clamp(20px, 3cqi, 30px); line-height: 1.4; font-weight: 700; color: var(--h-band-ink); }
+.vz-band__desc { font-size: 15px; color: var(--h-band-ink-2); max-width: 640px; }
+.vz-home .vz-band__more { color: var(--h-band-ink); font-size: 14px; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; min-height: 44px; display: flex; align-items: center; }
+.vz-band__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 24px; }
+.vz-home .vz-band__item { display: flex; flex-direction: column; gap: 14px; color: var(--h-band-ink); }
+.vz-home .vz-band__item:hover { color: var(--h-band-eyebrow); }
+.vz-band__img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; background: var(--h-band-img); }
+.vz-band__by { font-family: var(--h-mono); font-size: 12px; color: var(--h-band-ink-3); }
+.vz-band__item-title { font-size: 17px; line-height: 1.55; font-weight: 700; }
+
+// 4. 新着
+.vz-section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-bottom: 1px solid var(--h-ink); padding-bottom: 12px; margin-bottom: 28px; }
+.vz-section-head__title { font-size: 22px; font-weight: 700; }
+.vz-section-head__more { font-size: 14px; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
+.vz-recent { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 32px; }
+.vz-recent > li:nth-child(n + 4) { display: none; }
+.vz-card { display: flex; flex-direction: column; gap: 14px; }
+.vz-card__img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; display: block; border-radius: 6px; border: 1px solid var(--h-rule); background: var(--h-surface); }
+.vz-card__cats { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; min-width: 0; }
+.vz-card__title { font-size: 19px; line-height: 1.55; font-weight: 700; text-wrap: pretty; }
+.vz-card__desc { font-size: 14px; line-height: 1.8; color: var(--h-ink-2); }
+
+// 5. アーカイブ
+.vz-archive { background: var(--h-surface); border: 1px solid var(--h-rule); border-radius: 8px; padding: clamp(20px, 3cqi, 32px) clamp(16px, 3cqi, 36px); display: flex; flex-direction: column; gap: 24px; }
+.vz-archive__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px; }
+.vz-archive__title { font-size: 20px; font-weight: 700; }
+.vz-archive__desc { font-size: 14px; color: var(--h-ink-2); margin-top: 4px; }
+.vz-archive__total { font-family: var(--h-mono); font-size: 13px; color: var(--h-ink-2); }
+.vz-archive__bars {
+    --label: 28px;
+    position: relative; display: grid; grid-template-columns: repeat(var(--vz-years), minmax(0, 1fr));
+    gap: 0 clamp(4px, 1cqi, 10px); height: 220px;
+}
+.vz-archive__bars::after { content: ""; position: absolute; left: 0; right: 0; bottom: var(--label); border-top: 1px solid var(--h-ink); }
+.vz-archive__col { display: grid; grid-template-rows: minmax(0, 1fr) var(--label); }
+.vz-archive__col > a, .vz-archive__empty { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px; height: 100%; }
+.vz-sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.vz-archive__n { font-family: var(--h-mono); font-size: 12px; color: var(--h-ink-2); line-height: 1; }
+.vz-archive__bar { display: block; width: 100%; max-width: 44px; height: calc(var(--vz-h) * 0.8); min-height: 2px; border-radius: 2px 2px 0 0; background: var(--h-bar); }
+.vz-archive__col.is-current .vz-archive__bar { background: var(--h-dot); }
+.vz-archive__col > a:hover .vz-archive__bar { background: var(--h-accent); }
+.vz-archive__year { font-family: var(--h-mono); font-size: 12px; color: var(--h-ink-3); text-align: center; padding-top: 8px; line-height: 1; }
+
+// 広い幅：最新記事は左右2列（画像はほぼ 16:9 のまま収まる幅から）。それより狭い幅では画像を上に積む。
+@container vzhome (min-width: 1280px) {
+    .vz-latest { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); }
+    .vz-latest__img { height: 100%; aspect-ratio: auto; }
+}
+
+// 狭い幅（スマートフォン、または PR6 前のサイドバーに挟まれた狭い本文）。本文の列が 640px 以下になる幅。
+@container vzhome (max-width: 704px) {
+    .vz-home__lead { gap: 6px; }
+    .vz-eyebrow, .vz-home__byline { display: none; }
+    .vz-home__title { font-size: 15px; font-weight: 400; line-height: 1.7; color: var(--h-ink-2); letter-spacing: 0; }
+    .vz-home__intro { gap: 12px; }
+    .vz-purpose { background: none; border: 0; padding: 0; }
+    .vz-purpose__head { display: none; }
+    .vz-purpose__list { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+    .vz-purpose__row { display: flex; height: 40px; min-height: 40px; padding: 0 14px; border: 1px solid var(--h-rule); border-radius: 20px; background: var(--h-surface); white-space: nowrap; }
+    .vz-purpose__label { font-size: 13px; }
+    .vz-purpose__full, .vz-purpose__bar, .vz-purpose__n { display: none; }
+    .vz-purpose__short { display: inline; }
+    .vz-home__latest { order: 2; }
+    .vz-latest__eyebrow { font-size: 11px; }
+    .vz-latest__eyebrow-date { display: inline; }
+    .vz-latest__body { padding: 18px 18px 20px; gap: 10px; }
+    .vz-latest__body .vz-meta { display: none; }
+    .vz-latest__desc { font-size: 14px; line-height: 1.8; }
+    .vz-home__recent { order: 3; }
+    .vz-home__series { order: 4; }
+    .vz-home__archive { order: 5; }
+    .vz-section-head { margin-bottom: 4px; padding-bottom: 10px; }
+    .vz-section-head__title { font-size: 17px; }
+    .vz-recent { display: block; }
+    .vz-recent > li:nth-child(n + 4) { display: block; }
+    .vz-recent > li { border-bottom: 1px solid var(--h-rule); }
+    .vz-card { display: grid; grid-template-columns: minmax(0, 1fr) 96px; grid-template-rows: auto auto 1fr; column-gap: 14px; row-gap: 6px; padding: 16px 0; }
+    .vz-card__img { grid-column: 2; grid-row: 1 / 4; width: 96px; height: 72px; aspect-ratio: auto; border-radius: 4px; }
+    .vz-card__meta { display: contents; }
+    .vz-card__cats { grid-column: 1; grid-row: 1; }
+    .vz-card__cats .vz-cat { font-size: 12px; }
+    .vz-card__title { grid-column: 1; grid-row: 2; font-size: 15px; }
+    .vz-card__meta .vz-date { grid-column: 1; grid-row: 3; font-size: 12px; }
+    .vz-card__desc { display: none; }
+    .vz-band { row-gap: 16px; padding: 28px 0 32px; margin: -24px 0 0; }
+    .vz-band__desc, .vz-band__by { display: none; }
+    .vz-band__list { grid-column: 2 / -1; display: flex; gap: 12px; overflow-x: auto; padding-right: var(--vz-gutter); }
+    .vz-band__list > li { flex: none; width: 220px; }
+    .vz-band__img { height: 150px; aspect-ratio: auto; }
+    .vz-band__item { gap: 10px; }
+    .vz-band__item-title { font-size: 14px; }
+    .vz-archive__bars { height: 180px; }
+    .vz-archive__n { font-size: 10px; }
+    .vz-archive__year { font-size: 10px; }
+}

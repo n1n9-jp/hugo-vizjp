@@ -1,0 +1,17 @@
+{{- $profile := site.Params.author.profileURL -}}
+{{- with site.GetPage "/page/profile" }}{{ $profile = .RelPermalink }}{{ end -}}
+{{- $name := .Params.author | default site.Params.sidebar.author.name -}}
+<div class="vz-author">
+    <img class="vz-author__photo" src="{{ "img/photo_yuichiyazaki.png" | relURL }}" width="72" height="72" loading="lazy" alt="">
+    <div class="vz-author__text">
+        <span class="vz-author__name">
+            {{- if eq .Language.Lang "ja" -}}
+            {{ partial "vz/author-name.html" (dict "name" $name "page" .) }} <span>{{ $name }}</span>
+            {{- else -}}
+            {{ $name }}
+            {{- end -}}
+        </span>
+        {{ with site.Params.sidebar.author.bio }}<span class="vz-author__bio">{{ . }}</span>{{ end }}
+    </div>
+    <a class="vz-author__profile" href="{{ $profile }}">{{ T "vz.article.profile" }}</a>
+</div>

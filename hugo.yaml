@@ -35,6 +35,10 @@ languages:
         languageCode: en-US
         title: Visualizing.JP
         weight: 2
+        # 英語版には特集（series）がまだないので、特集の一覧ページを出さない
+        taxonomies:
+            category: categories
+            tag: tags
         params:
             description: Practical methods and examples around data visualization.
             dateFormat:
@@ -52,6 +56,11 @@ services:
     # GA Tracking ID
     googleAnalytics:
         id: "G-9HTGX19L31"
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
 
 permalinks:
     post: /:slug/
@@ -96,6 +105,8 @@ params:
         readingTime: true
         license:
             enabled: true
+            name: CC BY-NC-SA 4.0
+            url: https://creativecommons.org/licenses/by-nc-sa/4.0/
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -183,7 +194,6 @@ params:
             id:
     widgets:
         homepage:
-            - type: search
             - type: archives
               params:
                   limit: 5
@@ -228,15 +238,15 @@ menu:
     social:
 
         - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/visualizing_jp
+          name: X
+          url: https://x.com/visualizing_jp
           params:
               icon: brand-twitter
 
 related:
     includeNewer: true
     threshold: 60
-    toLower: false
+    toLower: true
     indices:
         - name: tags
           weight: 100
@@ -246,6 +256,9 @@ related:
 
 markup:
     goldmark:
+        parser:
+            ## Do not wrap a standalone image in <p>; the image render hook outputs <figure> instead
+            wrapStandAloneImageWithinParagraph: false
         renderer:
             ## Set to true if you have HTML content inside Markdown
             unsafe: true

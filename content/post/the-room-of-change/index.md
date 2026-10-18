@@ -11,6 +11,10 @@ tags = [
     "オリジナルのビジュアル変換",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 1
+seriesByline = "Giorgia Lupi / Accurat"
+seriesTitle = "遠い変化を、部屋の壁にする──『The Room of Change』"
 +++
 
 Giorgia Lupi が共同創業した Accurat（Giorgia Lupi, Gabriele Rossi, Nicola Guidoboni, Giovanni Magni, Lorenzo Marchionni, Andrea Titton, Alessandro Zotta）による『The Room of Change』（2019）は、第22回トリエンナーレ・ミラノ本展 *Broken Nature: Design Takes on Human Survival*（キュレーター：Paola Antonelli）の**最初の部屋**のために委嘱された、約30メートルの手仕事によるデータ・タペストリーです。展覧会公式チェックリストでは4件の特別委嘱のひとつに数えられ、入口で展示全体のトーンを決める役割を担いました。

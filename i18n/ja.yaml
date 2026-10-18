@@ -1,7 +1,49 @@
+# PR6: header
+vz.skip:
+    other: 本文へ移動
+vz.nav.main:
+    other: メイン
+vz.nav.footer:
+    other: フッター
+vz.menu.open:
+    other: メニューを開く
+vz.menu.close:
+    other: メニューを閉じる
+vz.search.label:
+    other: サイト内検索
+vz.search.placeholder:
+    other: チャート名・人名で検索
+vz.darkmode:
+    other: ダークモード切り替え
+vz.footer.license:
+    other: 記事は CC BY-NC-SA 4.0
+vz.footer.x:
+    other: X（@visualizing_jp）
+vz.page.paged:
+    other: "記事一覧（{{ .N }}ページ目）"
+
 breadcrumb:
     home:
         other: トップ
 
+vz.breadcrumb:
+    other: パンくずリスト
+vz.figure:
+    other: 図
+vz.article.by:
+    other: 文・
+vz.article.updated:
+    other: 更新
+vz.article.translation:
+    other: English version
+vz.article.toc:
+    other: 目次
+vz.article.related:
+    other: あわせて読む
+vz.article.profile:
+    other: プロフィール
+vz.article.license:
+    other: この記事は {{ .License }} で公開しています。
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:
@@ -76,3 +118,47 @@ catalogue.tools.description:
     other: データ可視化の道具箱では、ブラウザ上でこのチャートを作成できます。
 catalogue.tools.action:
     other: ツールを開く →
+
+# PR5 ホーム
+vz.home.eyebrow:
+    other: "DATA VISUALIZATION NOTES · SINCE {{ .Since }}"
+vz.home.byline:
+    other: 執筆・運営
+vz.home.authorName:
+    other: 矢崎裕一
+vz.home.purpose:
+    other: 目的から探す
+vz.home.purposeAria:
+    other: "{{ .Name }} {{ .Count }}本"
+vz.home.count:
+    other: 記事数
+vz.home.catShort.chart:
+    other: チャート・カタログ
+vz.home.catShort.consume:
+    other: 見る
+vz.home.catShort.technology:
+    other: 作る
+vz.home.catShort.principle:
+    other: 原理
+vz.home.catShort.event:
+    other: イベント
+vz.home.catShort.education:
+    other: 教える
+vz.home.latest:
+    other: 最新記事
+vz.home.series:
+    other: "特集 · {{ .Count }}本"
+vz.home.seriesMore:
+    other: 特集をまとめて読む
+vz.home.recent:
+    other: 新着
+vz.home.toArchives:
+    other: 記事一覧へ
+vz.home.archive:
+    other: アーカイブ
+vz.home.archiveDesc:
+    other: "{{ .Since }}年からの記事数（年別）。棒を選ぶとその年の一覧へ。"
+vz.home.total:
+    other: "計 {{ .Count }} 本"
+vz.home.yearAria:
+    other: "{{ .Year }}年 {{ .Count }}本"

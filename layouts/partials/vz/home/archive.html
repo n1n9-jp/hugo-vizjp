@@ -1,0 +1,38 @@
+{{- /* 年別の記事数。ホームに渡された記事（mainSections・hidden 除外・現在の言語）だけを数える */ -}}
+{{- $posts := .Posts -}}
+{{- $archives := index (where .Context.Site.Pages "Layout" "archives") 0 -}}
+{{- $counts := dict -}}
+{{- range $posts.GroupByDate "2006" -}}{{- $counts = merge $counts (dict .Key (len .Pages)) -}}{{- end -}}
+{{- $thisYear := now.Year -}}
+{{- $first := $thisYear -}}
+{{- with $posts.ByDate -}}{{- $first = (index . 0).Date.Year -}}{{- end -}}
+{{- $max := 1 -}}
+{{- range $k, $v := $counts -}}{{- if gt $v $max -}}{{- $max = $v -}}{{- end -}}{{- end -}}
+<section class="vz-home__archive" aria-labelledby="vz-archive-title">
+    <div class="vz-archive">
+        <div class="vz-archive__head">
+            <div>
+                <h2 id="vz-archive-title" class="vz-archive__title">{{ T "vz.home.archive" }}</h2>
+                <p class="vz-archive__desc">{{ T "vz.home.archiveDesc" (dict "Since" $first) }}</p>
+            </div>
+            <span class="vz-archive__total">{{ T "vz.home.total" (dict "Count" (len $posts)) }}</span>
+        </div>
+        <ol class="vz-archive__bars" style="{{ printf "--vz-years: %d" (add (sub $thisYear $first) 1) | safeCSS }}">
+            {{- range $y := seq $first $thisYear }}
+            {{- $key := string $y }}
+            {{- $n := index $counts $key | default 0 }}
+            {{- $cls := cond (eq $y $thisYear) "vz-archive__col is-current" "vz-archive__col" }}
+            <li class="{{ $cls }}" style="{{ printf "--vz-h: %.1f%%" (div (mul 100.0 $n) $max) | safeCSS }}">
+                {{- if and (gt $n 0) $archives }}
+                <a href="{{ $archives.RelPermalink }}#{{ $key }}" aria-label="{{ T "vz.home.yearAria" (dict "Year" $y "Count" $n) }}">
+                    <span class="vz-archive__n">{{ $n }}</span><span class="vz-archive__bar"></span>
+                </a>
+                {{- else }}
+                <span class="vz-archive__empty"><span class="vz-sr-only">{{ T "vz.home.yearAria" (dict "Year" $y "Count" $n) }}</span></span>
+                {{- end }}
+                <span class="vz-archive__year" aria-hidden="true">'{{ substr $key 2 }}</span>
+            </li>
+            {{- end }}
+        </ol>
+    </div>
+</section>

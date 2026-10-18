@@ -9,4 +9,7 @@ menu:
         weight: 110
         params:
             icon: archives
+            header: true
+            activeFor:
+                - chart
 ---

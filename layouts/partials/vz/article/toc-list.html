@@ -1,0 +1,11 @@
+{{- /* 目次の <li> の並び。引数: toc-items.html が返したスライス。
+    h2 は 01, 02… の番号つき、h3・h4 は番号なしで一段ずつ下げて入れる。
+    href は見出しの id をそのまま（日本語のまま）書く。URL として正規化されると、テーマの scrollspy が見出しの id と照合できなくなる。 */ -}}
+{{- $n := 0 -}}
+{{- range . }}
+{{- if eq .Level 2 }}{{ $n = add $n 1 }}
+<li>{{ printf "<a href=\"#%s\">" (.ID | htmlEscape) | safeHTML }}<span class="vz-toc__no">{{ printf "%02d" $n }}</span><span class="vz-toc__label">{{ .Title | plainify | htmlUnescape }}</span></a></li>
+{{- else }}
+<li class="vz-toc__sub vz-toc__sub--{{ .Level }}">{{ printf "<a href=\"#%s\">" (.ID | htmlEscape) | safeHTML }}<span class="vz-toc__no"></span><span class="vz-toc__label">{{ .Title | plainify | htmlUnescape }}</span></a></li>
+{{- end }}
+{{- end }}

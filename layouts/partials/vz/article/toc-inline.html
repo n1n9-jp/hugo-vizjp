@@ -1,0 +1,8 @@
+{{- /* 1024px 未満（右サイドバーが出ない幅）用の折りたたみ目次。引数: toc-items.html が返したスライス。
+    id を付けない（scrollspy の対象外、id の重複も避ける） */ -}}
+<details class="vz-toc-inline">
+    <summary>{{ T "vz.article.toc" }}</summary>
+    <ol class="vz-toc__list">
+        {{- partial "vz/article/toc-list.html" . }}
+    </ol>
+</details>

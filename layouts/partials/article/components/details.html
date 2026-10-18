@@ -1,11 +1,13 @@
-{{- $isSingle := .Scratch.Get "isSingleArticle" -}}
+{{- /* 引数: dict "page" <ページ> "single" <記事・固定ページ自身の表示なら true、一覧のカードなら false> */ -}}
+{{- $p := .page -}}
+{{- $isSingle := .single -}}
 <div class="article-details">
     {{ if $isSingle }}
-    {{ partial "components/breadcrumb.html" . }}
+    {{ partial "components/breadcrumb.html" $p }}
     {{ end }}
-    {{ if .Params.categories }}
+    {{ if $p.Params.categories }}
     <header class="vz-cats">
-        {{ range (.GetTerms "categories") }}
+        {{ range ($p.GetTerms "categories") }}
         {{ partial "vz/category-label.html" (dict "page" . "size" (cond $isSingle "lg" "")) }}
         {{ end }}
     </header>
@@ -14,19 +16,19 @@
     <div class="article-title-wrapper">
         {{ if $isSingle }}
         <h1 class="article-title">
-            <a href="{{ .RelPermalink }}">
-                {{- .Title -}}
+            <a href="{{ $p.RelPermalink }}">
+                {{- $p.Title -}}
             </a>
         </h1>
         {{ else }}
         <h2 class="article-title">
-            <a href="{{ .RelPermalink }}">
-                {{- .Title -}}
+            <a href="{{ $p.RelPermalink }}">
+                {{- $p.Title -}}
             </a>
         </h2>
         {{ end }}
 
-        {{ with .Params.description }}
+        {{ with $p.Params.description }}
         {{ if $isSingle }}
         <p class="article-subtitle">
             {{ . }}
@@ -39,35 +41,39 @@
         {{ end }}
     </div>
 
-    {{ $showDate := not .Date.IsZero }}
-    {{ $showAuthor := .Params.author }}
+    {{ $showDate := not $p.Date.IsZero }}
+    {{ $showAuthor := $p.Params.author }}
     {{ $showFooter := or $showDate $showAuthor }}
     {{ if $showFooter }}
     <footer class="article-time">
         <div>
             {{ if $showDate }}
             {{ partial "helper/icon" "date" }}
-            <time class="article-time--published">
-                {{- .Date.Format (or .Site.Params.dateFormat.published "Jan 02, 2006") -}}
+            <time class="article-time--published" datetime="{{ $p.Date.Format "2006-01-02" }}">
+                {{- if $isSingle -}}
+                {{- $p.Date.Format (or $p.Site.Params.dateFormat.published "Jan 02, 2006") -}}
+                {{- else -}}
+                {{- $p.Date.Format "2006.01.02" -}}
+                {{- end -}}
             </time>
             {{ end }}
 
             {{ if $showAuthor }}
             {{ partial "helper/icon" "user" }}
-            <span class="article-author">{{ partial "vz/author-name.html" (dict "name" $showAuthor "page" .) }}</span>
-            {{ else if .Site.Params.sidebar.author.name }}
+            <span class="article-author">{{ partial "vz/author-name.html" (dict "name" $showAuthor "page" $p) }}</span>
+            {{ else if $p.Site.Params.sidebar.author.name }}
             {{ partial "helper/icon" "user" }}
-            <span class="article-author">{{ partial "vz/author-name.html" (dict "name" .Site.Params.sidebar.author.name "page" .) }}</span>
+            <span class="article-author">{{ partial "vz/author-name.html" (dict "name" $p.Site.Params.sidebar.author.name "page" $p) }}</span>
             {{ end }}
         </div>
     </footer>
     {{ end }}
 
-    {{ if .IsTranslated }}
+    {{ if $p.IsTranslated }}
     <footer class="article-translations">
         {{ partial "helper/icon" "language" }}
         <div>
-            {{ range .Translations }}
+            {{ range $p.Translations }}
             <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
             {{ end }}
         </div>

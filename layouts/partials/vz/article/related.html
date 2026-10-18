@@ -1,0 +1,29 @@
+{{- /* 「あわせて読む」：Related（hugo.yaml の related）で選んだ3本。足りなければ同じ言語の新着で補う */ -}}
+{{- $self := . -}}
+{{- $rel := where (site.RegularPages.Related .) "Params.hidden" "!=" true -}}
+{{- $rel = where $rel "Section" "post" | first 3 -}}
+{{- if lt (len $rel) 3 -}}
+  {{- range where (where site.RegularPages "Section" "post") "Permalink" "!=" $self.Permalink -}}
+    {{- if and (lt (len $rel) 3) (not (in $rel .)) -}}{{- $rel = $rel | append . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $rel -}}
+<div class="vz-related">
+    <div class="vz-related__head"><h2>{{ T "vz.article.related" }}</h2></div>
+    {{- range $rel }}
+    {{- $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
+    <a class="vz-related__card" href="{{ .RelPermalink }}">
+        {{- if $image.exists }}
+        {{- if $image.resource }}
+        {{- $thumb := $image.resource.Fill "640x400 Smart" }}
+        <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" alt="">
+        {{- else }}
+        <img src="{{ $image.permalink }}" loading="lazy" alt="">
+        {{- end }}
+        {{- end }}
+        {{- with index (.GetTerms "categories") 0 }}{{ partial "vz/category-label.html" (dict "page" . "link" false) }}{{ end }}
+        <span class="vz-related__title">{{ .Title }}</span>
+    </a>
+    {{- end }}
+</div>
+{{- end -}}
