@@ -33,14 +33,14 @@
     margin-bottom: 2rem;
 }
 
-/* Figures: <figure class="vz-figure"> from the image render hook. Figure numbers come from a CSS counter. */
+/*
+ * Figures: <figure class="vz-figure"> from the image render hook.
+ * Everywhere (fixed pages too): block image, caption below. In posts (.vz-article): left aligned, numbered "図1".
+ */
 .article-content {
-    counter-reset: vz-fig;
-
     .vz-figure {
         margin-top: 4rem;
         margin-bottom: 4.8rem;
-        text-align: left;
 
         a {
             display: block;
@@ -50,31 +50,22 @@
             display: block;
             max-width: 100%;
             height: auto;
+            margin-inline: auto;
             border-radius: 4px;
-        }
-
-        &--captioned {
-            counter-increment: vz-fig;
         }
 
         figcaption {
             display: flex;
+            justify-content: center;
             gap: 1.2rem;
             margin-top: 1.2rem;
             font-size: 1.4rem;
             line-height: 1.8;
             color: var(--vz-ink-2);
-            text-align: left;
         }
 
         &__no {
-            flex: none;
-            font-family: var(--vz-font-mono);
-            color: var(--vz-ink);
-
-            &::before {
-                content: attr(data-label) counter(vz-fig);
-            }
+            display: none;
         }
     }
 
@@ -86,6 +77,37 @@
     /* The theme's gallery script wraps neighbouring figures in a flex row; keep them stacked */
     .gallery:has(> .vz-figure) {
         display: block;
+    }
+}
+
+/* Posts: figure numbers come from a CSS counter, only for figures that have a caption */
+.vz-article .article-content {
+    .vz-figure {
+        text-align: left;
+
+        img {
+            margin-inline: 0;
+        }
+
+        &--captioned {
+            counter-increment: vz-fig;
+        }
+
+        figcaption {
+            justify-content: flex-start;
+            text-align: left;
+        }
+
+        &__no {
+            display: inline;
+            flex: none;
+            font-family: var(--vz-font-mono);
+            color: var(--vz-ink);
+
+            &::before {
+                content: attr(data-label) counter(vz-fig);
+            }
+        }
     }
 }
 
@@ -188,6 +210,7 @@
     font-size: 1.7rem;
     line-height: 2;
     color: var(--vz-ink);
+    overflow-wrap: break-word; // long URLs and unbroken strings must not widen the page
     counter-reset: vz-h2 vz-fig;
 
     /* headings: no left bar, no negative margin */
@@ -474,6 +497,21 @@
         font-size: 1.3rem;
         letter-spacing: 0.08em;
         color: var(--vz-ink-3);
+        list-style: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::after {
+            content: "+";
+            margin-left: auto;
+            font-size: 1.6rem;
+        }
+    }
+
+    &[open] summary::after {
+        content: "\2212";
     }
 
     .vz-toc__list {
