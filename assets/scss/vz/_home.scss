@@ -19,11 +19,15 @@
     --h-band-eyebrow: #F07BBE;
     --h-band-img: #2A2B30;
 
+    // 本文は中央の列（最大 1240px、左右に余白）に置き、特集の帯だけ全幅の列に広げる。
+    // 100vw を使わず、親（.vz-home）が本文領域いっぱいに広がることで横スクロールを避ける。
+    --vz-gutter: 16px;
+    --vz-content: 1240px;
     container-type: inline-size;
     container-name: vzhome;
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
+    display: grid;
+    grid-template-columns: minmax(var(--vz-gutter), 1fr) minmax(0, var(--vz-content)) minmax(var(--vz-gutter), 1fr);
+    row-gap: 56px;
     color: var(--h-ink);
     font-family: var(--h-sans);
     font-size: 16px;
@@ -34,6 +38,18 @@
     a:focus-visible { outline: 2px solid var(--h-accent); outline-offset: 3px; }
     ul, ol { list-style: none; margin: 0; padding: 0; }
     h1, h2, p { margin: 0; }
+
+    > * { grid-column: 2; min-width: 0; }
+    > .vz-home__series { grid-column: 1 / -1; }
+    @media (min-width: 768px) { --vz-gutter: 32px; }
+}
+
+// ホームでは本文領域の幅制限と余白を外し、.vz-home が全幅になるようにする（特集の帯を画面端まで広げるため）。
+// サイドバーがある構成（PR6 より前）では何もしない。
+.container.main-container:has(.vz-home):not(:has(> .sidebar)) {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 [data-scheme="dark"] .vz-home {
@@ -79,10 +95,10 @@
 
 // 2. 最新記事
 .vz-latest {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid; grid-template-columns: minmax(0, 1fr);
     background: var(--h-surface); border: 1px solid var(--h-rule); border-radius: 8px; overflow: hidden;
 }
-.vz-latest__img { width: 100%; height: 100%; min-height: 0; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--h-track); }
+.vz-latest__img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: var(--h-track); }
 .vz-latest__body { padding: clamp(20px, 4cqi, 44px); display: flex; flex-direction: column; justify-content: center; gap: 16px; }
 .vz-latest__eyebrow { font-family: var(--h-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--h-accent); font-weight: 500; }
 .vz-latest__eyebrow-date { display: none; }
@@ -92,9 +108,11 @@
 // 3. 特集の帯
 .vz-band {
     background: var(--h-band-bg); color: var(--h-band-ink);
-    border-radius: 8px; padding: clamp(28px, 5cqi, 64px) clamp(16px, 3cqi, 40px);
-    display: flex; flex-direction: column; gap: 32px;
+    // 全幅の背景。中身は .vz-home と同じ3列の中央列に置く（余白は列の幅で決まり、cqi は使わない）。
+    padding: 64px 0 72px; margin: 16px 0;
+    display: grid; grid-template-columns: inherit; row-gap: 32px;
 }
+.vz-band > * { grid-column: 2; min-width: 0; }
 .vz-band__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; }
 .vz-band__text { display: flex; flex-direction: column; gap: 10px; }
 .vz-band__eyebrow { font-family: var(--h-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--h-band-eyebrow); }
@@ -141,8 +159,14 @@
 .vz-archive__col > a:hover .vz-archive__bar { background: var(--h-accent); }
 .vz-archive__year { font-family: var(--h-mono); font-size: 12px; color: var(--h-ink-3); text-align: center; padding-top: 8px; line-height: 1; }
 
-// 狭い幅（スマートフォン、または PR6 前のサイドバーに挟まれた狭い本文）
-@container vzhome (max-width: 640px) {
+// 広い幅：最新記事は左右2列（画像はほぼ 16:9 のまま収まる幅から）。それより狭い幅では画像を上に積む。
+@container vzhome (min-width: 1280px) {
+    .vz-latest { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); }
+    .vz-latest__img { height: 100%; aspect-ratio: auto; }
+}
+
+// 狭い幅（スマートフォン、または PR6 前のサイドバーに挟まれた狭い本文）。本文の列が 640px 以下になる幅。
+@container vzhome (max-width: 704px) {
     .vz-home__lead { gap: 6px; }
     .vz-eyebrow, .vz-home__byline { display: none; }
     .vz-home__title { font-size: 15px; font-weight: 400; line-height: 1.7; color: var(--h-ink-2); letter-spacing: 0; }
@@ -176,9 +200,9 @@
     .vz-card__title { grid-column: 1; grid-row: 2; font-size: 15px; }
     .vz-card__meta .vz-date { grid-column: 1; grid-row: 3; font-size: 12px; }
     .vz-card__desc { display: none; }
-    .vz-band { gap: 16px; }
+    .vz-band { row-gap: 16px; padding: 28px 0 32px; margin: -24px 0 0; }
     .vz-band__desc, .vz-band__by { display: none; }
-    .vz-band__list { display: flex; gap: 12px; overflow-x: auto; }
+    .vz-band__list { grid-column: 2 / -1; display: flex; gap: 12px; overflow-x: auto; padding-right: var(--vz-gutter); }
     .vz-band__list > li { flex: none; width: 220px; }
     .vz-band__img { height: 150px; aspect-ratio: auto; }
     .vz-band__item { gap: 10px; }
