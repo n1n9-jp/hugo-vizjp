@@ -484,6 +484,19 @@
     color: var(--vz-ink-3);
 }
 
+/* h3 and h4 entries: no number, one step in per level (the empty number cell is widened so the label sits under the h2 label) */
+.vz-toc__list li.vz-toc__sub > a {
+    font-size: 1.3rem;
+
+    .vz-toc__no {
+        width: 3rem;
+    }
+}
+
+.vz-toc__list li.vz-toc__sub--4 > a .vz-toc__no {
+    width: 4rem;
+}
+
 .vz-toc-inline {
     border-top: 1px solid var(--vz-rule);
     border-bottom: 1px solid var(--vz-rule);

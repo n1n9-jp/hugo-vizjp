@@ -1,15 +1,12 @@
-{{- /* 右サイドバーの目次（テーマの widget/toc.html を上書き）。h2 だけを 01, 02… の番号つきで出す。
+{{- /* 右サイドバーの目次（テーマの widget/toc.html を上書き）。h2（番号つき）と h3（番号なし）を出す。
     #TableOfContents と li > a[href^="#"] はテーマの scrollspy（現在地の表示）の約束。 */ -}}
-{{- /* href は見出しの id をそのまま（日本語のまま）書く。URL として正規化されると、scrollspy が見出しの id と照合できなくなる */ -}}
 {{- $page := .Context -}}
-{{- $h2 := partial "vz/article/h2-list.html" $page.Fragments.Headings -}}
-{{- if and (ge (len $h2) 2) (ne $page.Params.toc false) -}}
+{{- $items := partial "vz/article/toc-items.html" $page.Fragments.Headings -}}
+{{- if and (ge (len $items) 2) (ne $page.Params.toc false) -}}
 <nav class="widget vz-toc" aria-label="{{ T "vz.article.toc" }}">
     <h2 class="vz-toc__title">{{ T "vz.article.toc" }}</h2>
     <ol id="TableOfContents" class="vz-toc__list">
-        {{- range $i, $h := $h2 }}
-        <li>{{ printf "<a href=\"#%s\">" ($h.ID | htmlEscape) | safeHTML }}<span class="vz-toc__no">{{ printf "%02d" (add $i 1) }}</span><span class="vz-toc__label">{{ $h.Title | plainify | htmlUnescape }}</span></a></li>
-        {{- end }}
+        {{- partial "vz/article/toc-list.html" $items }}
     </ol>
 </nav>
 {{- end -}}

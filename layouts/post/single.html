@@ -16,10 +16,10 @@
     {{ partialCached "article/components/photoswipe" . }}
 {{ end }}
 
-{{/* 右サイドバー：目次（h2 が2つ以上あるときだけ） */}}
+{{/* 右サイドバー：目次（h2〜h4 が合わせて2つ以上あるときだけ） */}}
 {{ define "right-sidebar" }}
-    {{- $h2 := partial "vz/article/h2-list.html" .Fragments.Headings -}}
-    {{- if and (ge (len $h2) 2) (ne .Params.toc false) -}}
+    {{- $tocItems := partial "vz/article/toc-items.html" .Fragments.Headings -}}
+    {{- if and (ge (len $tocItems) 2) (ne .Params.toc false) -}}
         {{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}
     {{- end -}}
 {{ end }}
