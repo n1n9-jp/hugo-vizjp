@@ -10,10 +10,10 @@
     --vz-surface: #FFFFFF;     /* 面 */
     --vz-ink: #17181C;         /* 墨  16.96:1 on bg / 17.74:1 on surface */
     --vz-ink-2: #4A4D55;       /* 墨2  8.08 / 8.45 */
-    --vz-ink-3: #6B6F78;       /* 墨3  4.82 / 5.04 */
+    --vz-ink-3: #686C75;       /* 墨3  5.03 / 5.26、fill 上 4.67 */
     --vz-rule: #E3E4DD;        /* 罫 */
     --vz-rule-2: #EEEFE9;      /* 薄い罫（面の内側の区切り） */
-    --vz-line: #D5D7CE;        /* 操作部品の枠（検索欄・ボタン） */
+    --vz-line: #8A8D83;        /* 操作部品の枠（検索欄・ボタン）白地上 3.38:1 */
     --vz-fill: #F1F2EC;        /* 薄い地（引用・バーの下地） */
     --vz-dot: #E645A2;         /* ロゴの点：図形のみ  3.50 / 3.66 */
     --vz-accent: #B0236F;      /* 文字アクセント・リンク hover  6.06 / 6.33 */
@@ -39,7 +39,7 @@
     --vz-ink-3: #92958D;       /*  6.06 /  5.54 */
     --vz-rule: #34363C;
     --vz-rule-2: #2A2B30;
-    --vz-line: #3F4148;
+    --vz-line: #6B6E75;        /* 面上 3.30:1 */
     --vz-fill: #24252A;
     --vz-dot: #E645A2;         /*  5.03 /  4.60 */
     --vz-accent: #F07BBE;      /*  7.26 /  6.64 */
@@ -83,7 +83,22 @@
 
     --scrollbar-track: var(--vz-bg);
 
+    /* 翻訳リンク（English）の下線の帯。リンクが載る面と同じ色にして見えなくする（RGB 3値） */
+    --link-background-color: 255, 255, 255;
+
     --base-font-family: var(--vz-font-sans);
     --article-font-family: var(--vz-font-sans);
     --code-font-family: var(--vz-font-mono);
+}
+
+/* ダークの面（#1C1D21）と同じ色。ダークでは上の値を上書きする */
+:root[data-scheme="dark"] {
+    --link-background-color: 28, 29, 33;
+}
+
+/*
+ * 4. 操作部品の枠。テーマの検索欄は枠なし（border: 0）のため、--vz-line で枠を付ける。
+ */
+.search-form input {
+    border: 1px solid var(--vz-line);
 }
