@@ -7,8 +7,8 @@
 |---|---|---|---|
 | `IBMPlexSansJP-Bold.ttf` | IBM Plex Sans JP Bold 1.004。**文字を絞っていない全字形**（cmap 15,718字。第3水準以降の漢字を含む）。ヒンティングだけ除去 | 和名（太字）、ロゴと色の点（●） | 約 5.0MB |
 | `IBMPlexSansJP-Regular.ttf` | IBM Plex Sans JP Regular 1.004。**カテゴリ名だけに絞った版**（92字） | 左上のカテゴリ名 | 約 27KB |
-| `IBMPlexMono-Regular.ttf` | IBM Plex Mono Regular 2.004 | 英語名、visualizing.jp、ロゴの線（罫線「─」） | 約 155KB |
-| `base.png` | 1600×900 の白地（寸法の土台） | 画像の大きさと地色 | 約 6KB |
+| `IBMPlexMono-Regular.ttf` | IBM Plex Mono Regular 2.004 | 英語名、visualizing.jp | 約 155KB |
+| `base.png` | 1600×900 の白地。右上にロゴ（2つの点を結ぶ線）を描き込んである | 画像の大きさ、地色、ロゴ | 約 7KB |
 | `OFL.txt` | SIL Open Font License 1.1（IBM Plex のライセンス全文） | 同梱の条件 | |
 
 ## 出典
@@ -31,12 +31,17 @@ pyftsubset IBMPlexSansJP-Regular.ttf --no-hinting \
   --text='チャート・カタログ見るための記事作るための記事データ可視化の原理イベント教えるための記事ChartCatalogueConsumeTechnologyPrincipleEventEducation abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 -・' \
   --output-file=IBMPlexSansJP-Regular.ttf
 
-# base.png：白地
-python3 -c "from PIL import Image; Image.new('RGB',(1600,900),(255,255,255)).save('base.png', optimize=True)"
 ```
+
+## ロゴ（base.png に描き込み）
+System.dc.html のロゴ SVG（34×10。線 stroke-width 1.5、点 r=4）を、4:3 の範囲の幅 1200px ÷ 360 = 3.333 倍にして置く。
+- 線 `#B9BBB0`（画像専用の値。CSS トークンにはない）、点 `#E645A2`（`--vz-dot` と同じ）
+- 点の中心 (1216.7, 110) と (1296.7, 110)、点の直径 26.7px、線の太さ 5px（点の中心どうしを結ぶ）
+- 8倍で描いて縮小（BOX フィルタ）し、アンチエイリアスの縁以外は指定の色になる
+色や位置を変えるときは、この値で base.png を作り直す（作成スクリプトはリポジトリに置かない）。
 
 ## 追加するとき・変えるときの注意
 - 和名は Bold（全字形）で描くので、タイトルにどんな漢字が入っても豆腐にならない。ただし Plex Sans JP に無い字（絵文字など）は表示されない。
 - Regular はカテゴリ名の字だけを含む。**カテゴリを足す・名前を変えるときは、上の `--text` にその字を足して作り直す**（足さないと、その字が豆腐になる）。
-- 色は画像の中に書き込むので CSS 変数が使えない。`layouts/partials/vz/thumb.html` の色の値は `assets/scss/vz/_tokens.scss` のライト値に合わせてある。トークンを変えたらテンプレートの値も直す。ロゴの線の色 `#B9BBB0` は画像専用の値で、テンプレートの中だけにある。
+- 色は画像の中に書き込むので CSS 変数が使えない。`layouts/partials/vz/thumb.html` の色の値は `assets/scss/vz/_tokens.scss` のライト値に合わせてある。トークンを変えたらテンプレートの値も直す。ロゴの線の色 `#B9BBB0` は画像専用の値で、base.png にだけある。
 - フォントを差し替えると、`resources/_gen` のキャッシュが無効になり、全サムネイルが作り直される。

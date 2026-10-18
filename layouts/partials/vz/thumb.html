@@ -17,9 +17,8 @@
 {{- $padX := add $X0 (mul 26.0 $S) -}}{{- $padY := mul 24.0 $S -}}
 {{- /* 色：assets/scss/vz/_tokens.scss のライト値と同じにする（画像では CSS 変数を使えない）。_tokens.scss の値を変えたらここも直す。
       墨3 の #686C75 は PR #11 で --vz-ink-3 になる値（master の _tokens.scss は PR #11 のマージまで #6B6F78）。 */ -}}
-{{- $ink := "#17181C" -}}{{- $ink2 := "#4A4D55" -}}{{- $ink3 := "#686C75" -}}{{- $dot := "#E645A2" -}}
-{{- /* 画像専用の値（トークンにはない）：ロゴの線の色。System.dc.html の SVG の stroke と同じ。 */ -}}
-{{- $logoLine := "#B9BBB0" -}}
+{{- $ink := "#17181C" -}}{{- $ink2 := "#4A4D55" -}}{{- $ink3 := "#686C75" -}}
+{{- /* 右上のロゴ（2つの点を結ぶ線。線 #B9BBB0、点 #E645A2）は土台画像 base.png に描き込んである（作り方は assets/vz/thumb/README.md）。 */ -}}
 {{- $catColors := dict "chart" "#2F6FB0" "consume" "#C2662D" "technology" "#2E8A7A" "principle" "#7A5BB5" "event" "#6F7A86" "education" "#A0782A" -}}
 {{- $filters := slice -}}
 
@@ -34,19 +33,6 @@
   {{- $ls := mul 12.0 $S -}}
   {{- $filters = $filters | append (images.Text .LinkTitle (dict "font" $reg "size" (int $ls) "color" $ink2
         "x" (int (add $padX (mul 15.0 $S))) "y" (int (sub (add $cy (mul 0.36 $ls)) (mul 1.06 $ls))))) -}}
-{{- end -}}
-
-{{- /* 右上：ロゴ（2つの点を結ぶ線）。System.dc.html のロゴ SVG（34x10）を、右端を 4:3 の範囲の右余白に合わせて置く。
-      線は等幅フォントの罫線「─」を2つ並べて引く（太さ 1.5 単位 = 0.068em × 73.5px）。両端は点の下に隠れる。 */ -}}
-{{- $logoLeft := sub (sub $W $padX) (mul 34.0 $S) -}}
-{{- $lx1 := add $logoLeft (mul 5.0 $S) -}}{{- $lx2 := add $logoLeft (mul 29.0 $S) -}}
-{{- $ls2 := mul 22.05 $S -}}{{- /* 22.05 単位 × S ≒ 73.5px */ -}}
-{{- $filters = $filters | append (images.Text "──" (dict "font" $mono "size" (int $ls2) "color" $logoLine
-      "x" (int (sub (div (add $lx1 $lx2) 2.0) (mul 0.6 $ls2))) "y" (int (sub (add $cy (mul 0.3 $ls2)) (mul 1.025 $ls2))))) -}}
-{{- $lds := div (mul 8.0 $S) 0.82 -}}
-{{- range slice $lx1 $lx2 -}}
-  {{- $filters = $filters | append (images.Text "●" (dict "font" $bold "size" (int $lds) "color" $dot
-        "x" (int (sub . (mul 0.5 $lds))) "y" (int (sub (add $cy (mul 0.38 $lds)) (mul 1.06 $lds))))) -}}
 {{- end -}}
 
 {{- /* 中央：和名（太字）と英語名（等幅） */ -}}
