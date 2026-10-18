@@ -1,6 +1,6 @@
 {{- /*
   画像の render hook。
-  単独の画像（.IsBlock）は <figure> にする。キャプションは title、なければ alt（ファイル名と同じ alt は除く）。
+  単独の画像（.IsBlock）は <figure> にする。キャプションは title、なければ alt（ファイル名と同じ alt、「alt text」は除く。先頭の図番号は取り除く）。
   図の番号は CSS カウンタ（.vz-figure--captioned）で振る。
   figure.gallery-image と中の <a> は、テーマの PhotoSwipe（拡大表示）の対象にするため。img に gallery-image は付けない。
   文中の画像は、テーマの render-image.html と同じ出力。
@@ -22,6 +22,9 @@
   {{- end -}}
   {{- $caption := .Title -}}
   {{- if and (not $caption) $alt (ne $alt (path.BaseName .Destination)) -}}{{- $caption = $alt -}}{{- end -}}
+  {{- /* 図番号は CSS で付けるので、キャプションの先頭の「図1」「Fig. 2。」などは取り除く。取り除いて空になる場合と、プレースホルダーの「alt text」はキャプションにしない */ -}}
+  {{- $caption = replaceRE `(?i)^\s*(?:図|fig(?:ure)?\.?)\s*[0-9０-９]+(?:[\s.．。、:：]+|$)` "" $caption | strings.TrimSpace -}}
+  {{- if eq (lower $caption) "alt text" -}}{{- $caption = "" -}}{{- end -}}
 <figure class="vz-figure gallery-image{{ with $caption }} vz-figure--captioned{{ end }}">
 <a href="{{ $src }}" target="_blank" rel="noopener"><img src="{{ $src }}"{{ with $w }} width="{{ . }}"{{ end }}{{ with $h }} height="{{ . }}"{{ end }}{{ with $srcset }} srcset="{{ . }}" sizes="(min-width: 768px) 700px, 100vw"{{ end }} loading="lazy" alt="{{ $alt }}"></a>
 {{- with $caption }}<figcaption><span class="vz-figure__no" data-label="{{ T "vz.figure" }}"></span><span class="vz-figure__text">{{ . | markdownify }}</span></figcaption>{{ end -}}
