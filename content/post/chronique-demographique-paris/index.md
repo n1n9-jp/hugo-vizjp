@@ -4,7 +4,7 @@ author = "矢崎裕一"
 title = "パリの中心が空になる160年を、1万人の立方体で撮る──Chronique Démographique de la Région Parisienne"
 slug = "chronique-demographique-paris"
 date = "2026-11-01"
-description = "1個＝1万人の立方体をコミューンごとに積んだ柱を地図に並べ、国勢調査の年ごとにコマ撮りした映画です。1801〜1961年に、パリの中心が空き、郊外が膨らむ動きを見せます。"
+description = "1個＝1万人の立方体をコミューンごとに積んだ柱を地図に並べ、年ごとにコマ撮りした映画です。1801〜1961年に、パリの中心が空き、郊外が膨らむ動きを見せます。"
 categories = [
     "consume"
 ]
@@ -16,7 +16,7 @@ tags = [
 image = "images/film-frame-paris-columns.jpg"
 +++
 
-『Chronique Démographique de la Région Parisienne 1801 - 1961』は、1個＝1万人の小さな立方体をコミューンごとに積んだ柱を地図の上に並べ、国勢調査の年ごとにコマ撮りした映画です。柱が伸びたり縮んだりする様子から、1801〜1961年のあいだに、パリの中心が空き、郊外が膨らんでいく人口の移動が見えてきます。
+『Chronique Démographique de la Région Parisienne 1801 - 1961』は、1個＝1万人の小さな立方体をコミューンごとに積んだ柱を地図の上に並べ、ナレーションが読み上げる年ごとにコマ撮りした映画です。柱が伸びたり縮んだりする様子から、1801〜1961年のあいだに、パリの中心が空き、郊外が膨らんでいく人口の移動が見えてきます。
 
 この映画は、データ物理化の事例を集めた dataphys.org の「List of Physical Visualizations」に、1960年代の教育映画として載っています。dataphys によれば、1962〜1967年に、ISHA と CMSS が、ジャック・ベルタンの地図学研究室と協力して作りました。本稿は、dataphys の項目と、映画のナレーションの文字起こしに沿って読みます。
 
@@ -56,10 +56,10 @@ ISHA・CMSS 制作、Archives nationales 所蔵、dataphys.org によるデジ�
 |---|---|---|
 | 人口（量） | 積んだ立方体の個数。1個＝1万人で、柱の高さになる | ナレーション |
 | 場所（コミューン） | 柱1本＝1コミューン。地図の上の、そのコミューンの位置に立てる | ナレーション、dataphys の題名とタグ |
-| 時間（1801〜1961年） | 国勢調査の年ごとに柱を作り替え、1コマずつ撮るストップモーション | ナレーション、dataphys |
+| 時間（1801〜1961年） | ナレーションが読み上げる年ごとに柱を作り替え、1コマずつ撮るストップモーション | ナレーション、dataphys |
 | 時間の進み方 | 撮影のコマ送りの速さ（cadence）を、場面ごとに変える | ナレーション |
 | 地域のまとまり | 場面を分ける。郊外だけ、パリ全体、区のグループ、3つの環 | ナレーション |
-| 視点 | カメラの位置を変える。全方向から回り込む、断面で見る | dataphys（18:40）、ナレーション |
+| 視点 | 全方向から見られる（dataphys.org、18:40）。断面で見る（ナレーション） | dataphys、ナレーション |
 | 素材・色 | 未確認（コマの写真では、柱は白く見える） | ― |
 
 1万人に満たない端数の扱いや、柱の素材は、ナレーションからは分かりません。
@@ -74,15 +74,15 @@ ISHA・CMSS 制作、Archives nationales 所蔵、dataphys.org によるデジ�
 
 Jacques Bertin、BnF GE CC-5541 (19-46)／DESIGNSHS「Le laboratoire graphique de Jacques Bertin」より引用
 
-ベルタンの研究室には、量を立体で描いた地図（stéréogramme）の原図も残っています。上の図はその一つで、『Sémiologie graphique』（1967）に載った図です。この映画は、紙の上では選ばれなかった relief を実物の立方体で組み、紙では描きにくい時間をコマ撮りで加えたもの、と読めます。ただし、映画の設計をベルタン本人が決めたことを示す資料はありません。
+ベルタンの研究室には、量を立体で描いた地図（stéréogramme）の原図も残っています。上の図はその一つで、『Sémiologie graphique』に載った図です。この映画は、紙の上では選ばれなかった relief を実物の立方体で組み、紙では描きにくい時間をコマ撮りで加えたもの、と読めます。ただし、映画の設計をベルタン本人が決めたことを示す資料はありません。
 
-## 国勢調査の年ごとに一コマ、速さを変えて繰り返す
+## 読み上げる年ごとに一コマ、速さを変えて繰り返す
 
-映画の最初の場面で、ナレーションは年号だけを読み上げていきます。「Paris et sa banlieue en 1801.」に続いて、1817、1821、1826、31、36、41、46……と続き、最後が「Et 1961.」です。年号の並びは、国勢調査の年に沿っています。
+映画の最初の場面で、ナレーションは年号だけを読み上げていきます。「Paris et sa banlieue en 1801.」に続いて、1817、1821、1826、31、36、41、46……と続き、最後が「Et 1961.」です。年号の並びは国勢調査の年に沿っていると読めますが、ナレーションは統計の種類を言っていません。
 
-20世紀の部分は、1911、1921、26、31、36、46、51、56 と進みます。1916年と1941年が出てきません。二つの世界大戦のさなかで、国勢調査が行われなかった年に当たると読めます。つまり、コマは等間隔の時間ではなく、数えられた年だけを刻んでいます。なお、文字起こしは自動で作られたもので、年号の重複や聞き違いと思われる箇所がいくつかあります。
+20世紀の部分は、1911、1921、26、31、36、46、51、56 と進みます。1916年と1941年は読み上げられません。二つの世界大戦のさなかで、国勢調査が行われなかった年に当たると読めます。なお、文字起こしは自動で作られたもので、聞き違いと思われる箇所があります。
 
-同じ時間を、場面を変えて何度も見せるのがこの映画の構成です。文字起こしから、場面の順番は次のように読み取れます。
+文字起こしから読み取れる場面の順番は、次のとおりです。
 
 1. パリと郊外（1801→1961）
 2. 郊外のみ
@@ -109,7 +109,7 @@ Jacques Bertin、BnF GE CC-5541 (19-46)／DESIGNSHS「Le laboratoire graphique d
 
 > Vue en coupe de Neuilly à Montreuil. Alors que les côtés grandissent, le centre se vide.
 
-ヌイイからモントルイユへの断面。両側が伸びるあいだに、中心は空になっていく。この映画の中で、答えをもっともはっきり言う一文がここです。断面にすれば奥行きの重なりがなくなり、一列の柱の高さを横から比べられる、と読めます。
+ヌイイからモントルイユへの断面。両側が伸びるあいだに、中心は空になっていく。この映画の中で、答えをもっともはっきり言う一文がここです。断面にすれば奥行きの重なりがなくなり、断面上の柱の高さを横から比べられる、と読めます。
 
 ナレーションはこの後「Reprenons plus lentement.」（もう一度ゆっくり）と言い、1801年から1956年までを年ごとに読み直します。速い再生で向きを見せ、遅い再生で確かめる、という前の節の構成がここでも繰り返されます。
 
@@ -143,7 +143,7 @@ ISHA・CMSS 制作、Archives nationales 所蔵／YouTube「Chronique Démograph
 
 成績が最もよかったのは2Dの図だが、3Dなら物理的な棒が立体視の画面に勝った。指で気になる棒に「しおり」を挟めたからだろう、という結果です。
 
-映画の観客は、柱に指を置けません。その代わりに、カメラが回り込んで隠れた柱を見せ、断面で一列だけを取り出しています。研究の結論と並べると、この映画は物理化の利点を、触ることではなく撮り方で引き出していると読めます。
+映画の観客は、柱に指を置けません。dataphys は "You can see the physical visualization from all sides by jumping at 18:40" と書いています。映画には断面図の場面もあります。これらは隠れを減らす工夫として働いていると読めます。研究の結論と並べると、この映画は物理化の利点を、触ることではなく撮り方で引き出していると読めます。
 
 ## 使い道
 
@@ -151,11 +151,11 @@ ISHA・CMSS 制作、Archives nationales 所蔵／YouTube「Chronique Démograph
 
 1個＝1万人という単位なら、柱の高さを目盛りで読む代わりに、立方体の個数として数えられます。最初の二文で単位を言い切っているので、観客はその後、年号だけを聞きながら柱を見ていられます。
 
-時間は、等間隔ではなく、データがある年で刻まれています。ナレーションが読み上げるのは国勢調査の年だけで、1916年と1941年は飛ばされます。アニメーションで推移を見せるとき、読み上げる年をデータの年に合わせれば、どこが実測かを観客に伝えられます。
+時間は、等間隔ではなく、読み上げられる年で刻まれています（国勢調査の年に沿っていると読めますが、統計の種類は語られません）。アニメーションで推移を見せるとき、読み上げる年をデータの年に合わせれば、どこが実測かを観客に伝えられます。
 
-速く流して向きを見せ、遅く流して年を追い、最後は3つの環の平均に縮める。一つのデータに対して、全体の流れ、細部、要約の三つの見方を、順番を決めて渡しています。
+速く流して向きを見せ、遅く流して年を追い、最後は3つの環の平均に縮める。一つのデータに対して、全体の流れ、細部、要約の三つの見方を、順番を決めて渡している、と読めます。
 
-隠れの問題には、見る線を一本に絞る断面で答えています。ヌイイからモントルイユへの一列だけを横から見ると、「両側が伸び、中心が空く」という動きが、手前の柱に邪魔されずに見えます。立体の図で何を言いたいかが決まっているなら、その一言がいちばんよく見える切り口を探せばよい、と読めます。
+隠れの問題には、断面で答えていると読めます。ヌイイからモントルイユへの断面で見ると、「両側が伸び、中心が空く」という動きが、手前の柱に邪魔されずに見えます。立体の図で何を言いたいかが決まっているなら、その一言がいちばんよく見える切り口を探せばよい、と読めます。
 
 ## 参考・出典
 
@@ -172,4 +172,4 @@ ISHA・CMSS 制作、Archives nationales 所蔵／YouTube「Chronique Démograph
 - Pierre Dragicevic, dataphys.org「1897 – Stop Motion Animation」— [https://dataphys.org/list/stop-motion-animation/](https://dataphys.org/list/stop-motion-animation/)
 - Jessica Martin, "Le laboratoire de graphique, au-delà de Jacques Bertin ? Les femmes du laboratoire de graphique", *Design Arts Medias*, 2023 — [https://journal.dampress.org/issues/femmes-de-sciences/le-laboratoire-de-graphique-au-dela-de-jacques-bertin-les-femmes-du-laboratoire-de-graphique](https://journal.dampress.org/issues/femmes-de-sciences/le-laboratoire-de-graphique-au-dela-de-jacques-bertin-les-femmes-du-laboratoire-de-graphique)
 - Pierre Dragicevic, Yvonne Jansen, Andrew Vande Moere, "Data Physicalization", *Springer Handbook of Human Computer Interaction*, 2021（HAL）— [https://hal.science/hal-02113248v3/document](https://hal.science/hal-02113248v3/document)
-- Yvonne Jansen, Pierre Dragicevic, Jean-Daniel Fekete, "Evaluating the Efficiency of Physical Visualizations", CHI '13 — [doi:10.1145/2470654.2481359](https://doi.org/10.1145/2470654.2481359)
+- Yvonne Jansen, Pierre Dragicevic, Jean-Daniel Fekete, "Evaluating the Efficiency of Physical Visualizations", CHI '13 — [http://doi.acm.org/10.1145/2470654.2481359](http://doi.acm.org/10.1145/2470654.2481359)
