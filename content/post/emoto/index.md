@@ -44,6 +44,10 @@ Moritz Stefaner／Truth & Beauty「emoto」より引用
 
 Web版は大会中の「いま」を見せました。話題ごとの正と負の配分を、折り紙のような形で描く Topics View と、ツイートが流れる Message Stream です。彫刻は大会が終わってから作られました。2012年9月7〜9日、プレストンで開かれた WePlay（London 2012 Festival の一部）で初めて展示されています。2013年には北京の CAFA Art Museum の Information in Style 展にも出ました。
 
+![暗い台の上に、青く照らされた切削板が並ぶ。手前に DAY 3、15:00、DAY 5 の文字が映り、奥の壁には横長の sentigraph が掛かっている](images/cover.jpg)
+
+Moritz Stefaner・Drew Hemment・Studio NAND／Truth & Beauty「emoto」より引用（同じ写真は ISEA2013 論文の Fig. 2「emoto data sculpture and sentigraph」、CC BY-NC-SA 3.0）
+
 データの取得は、公開の直前に崩れかけています。論文によると、当初はデータ再販業者から、全ツイートを流す Firehose の拡張版を使えるはずでした。ところが Twitter が利用規約を締め、得たデータや洞察は「no data or derived insight obtained from them could be publicly displayed in any form」と伝えられます。チームは2週間でインフラを作り直し、1日4億件の約1%にあたる公開APIに切り替えました。
 
 ## グレーのヒートマップを、高さに削る
@@ -113,11 +117,11 @@ Stefaner は、彫刻の位置づけをこう書いています。
 
 プロジェクトの頂点であり、移ろうWebの活動への概念上の対位として、1,200万件を超えるツイートを物理的な形で保存した、という説明です。大会中の7月31日には、すでに「to archive these ephemeral little 'things flying by' forever」と書いていました。
 
-Thiel は、インタビューで立体にした利点を三つ挙げています。一つ目は分かりやすさです。
+Thiel は、インタビューで立体にした利点をいくつか挙げています。まず、分かりやすさです。
 
 > Creating a three-dimensional sculpture helped people understand the displayed dimensions in the data more quickly and naturally. ... This is often more immediate than encoding multiple variables in two-dimensional space.
 
-立体にしたことで、来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより、直接的なことが多い、という言葉です。二つ目に、空間の大きさで量を強調できたこと。三つ目に、人が一緒に見て話し合うことを挙げています。持続性についても「if all the lights are off, it's still an object which represents information」と述べました。
+立体にしたことで、来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより、直接的なことが多い、という言葉です。ほかに、空間の大きさで量を強調できたこと、人が一緒に見て話し合えることを挙げています。持続性についても「if all the lights are off, it's still an object which represents information」と述べました。
 
 Stefaner も、データ可視化は一般の人には抽象的だが、彫刻は物理的な形のおかげで「何を見ているか」を早く分かってもらえた、と話しています。形を分かりやすくするために、点字の都市地図などから着想を得て、目の見えない人のための「visualization」も考えたそうです。
 
@@ -180,6 +184,6 @@ Information is Beautiful Awards 2013 では、インスタレーションが審�
 
 **第三者評価**
 
-- Andy Kirk, "emoto: Visualising the emotional response to London 2012," *Visualising Data*, 2012-07-19：https://visualisingdata.com/2012/07/emoto-visualising-the-emotional-response-to-london-2012/
+- Andy Kirk, "'emoto': Visualising the emotional response to London 2012," *Visualising Data*, 2012-07-19：https://visualisingdata.com/2012/07/emoto-visualising-the-emotional-response-to-london-2012/
 - Julia Kaganskiy, "Data Visualization Sculpture Shows Twitter Reactions To London 2012 Olympic Games," *The Creators Project* / VICE, 2012-09-20：https://www.vice.com/en/article/data-visualization-sculpture-shows-twitter-reactions-to-london-2012-olympic-games/
 - Information is Beautiful Awards 2013, "emoto installation"：https://www.informationisbeautifulawards.com/showcase/68-emoto-installation
