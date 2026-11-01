@@ -9,7 +9,7 @@ author = "矢崎裕一"
 title = "場面か主張を短く──題材名"
 slug = "folder-name"
 date = "YYYY-MM-DD"
-description = "結論を1〜2文で。description だけ読んでも答えがわかるようにする。"
+description = "結論を、です・ます調の1〜2文、80字前後で書きます。description だけ読んでも答えがわかるようにします。"
 categories = [
     "principle"
 ]

@@ -4,7 +4,7 @@ title = "遠くからは模様、近づくとデータ──『The Room of Chang
 slug = "the-room-of-change"
 date = "2026-08-16"
 lastmod = "2026-11-01"
-description = "NASA の衛星映像が見せる「上空からの20年」の隣に、紀元前1000年から西暦2400年までを手仕事の壁紙として置いた部屋。NYT は2400年までの部分を speculative future と呼び、Lupi は変化が likely（おそらく）続くと書いた。未来を確定予報ではなく「このままなら」の推測として置いた部屋と読める。"
+description = "遠くからは模様、近づくとデータになる手仕事の壁紙で、紀元前1000年から西暦2400年までの変化を部屋に置いた作品です。2400年までの部分を、NYT は推測的な未来と呼びました。"
 categories = [
     "consume"
 ]

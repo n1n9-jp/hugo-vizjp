@@ -4,7 +4,7 @@ author = "Yuichi Yazaki"
 title = "図の前で、依頼者自身が答えを言い出す──Dan Roam の Thomson 事例"
 slug = "dan-roam-unfolding-napkin-thomson"
 date = "2026-08-17"
-description = "いわゆるデータ分析ではない。可視化すると社長や社員が議論に参加でき、コンサルタントは正解を渡すのではなく、依頼者から解決を引き出す。"
+description = "いわゆるデータ分析の話ではありません。図があると社長や社員も議論に参加でき、コンサルタントは正解を渡す代わりに、依頼者から解決を引き出せます。"
 categories = [
     "technology",
     "principle"

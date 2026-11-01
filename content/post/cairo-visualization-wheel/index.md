@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "「醜い」と言われた図から、Visualization Wheel が生まれた"
 slug = "cairo-visualization-wheel"
 date = "2026-08-18"
-description = "良し悪しの採点表ではない。編集会議の「複雑すぎる」「醜い」を、12の対立する力として見返すための思考の道具。"
+description = "良し悪しの採点表ではありません。編集会議で出た「複雑すぎる」「醜い」という声を、12の対立する力として見返すための、考える道具です。"
 categories = [
     "principle"
 ]

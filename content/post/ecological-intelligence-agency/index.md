@@ -4,7 +4,7 @@ title = "川が詩で語りかける行政機関──Superflux『The Ecological
 slug = "ecological-intelligence-agency"
 date = "2026-08-16"
 lastmod = "2026-11-01"
-description = "「汚染がどれほど悪いかを示す生データはたくさんある。だが、それは変化につながらない」と Superflux の Jon Ardern は言う。『The Ecological Intelligence Agency』はローディング川のデータを、川が語る詩と水の瓶を読む装置に翻訳した架空の行政機関で、数字を足すのではなく、川の健康を感覚で受け取れるように設計し直した作品だと読めます。"
+description = "ロンドンの川のデータを、川が語る詩と、水の瓶を読む装置に翻訳した架空の行政機関です。生データだけでは人が動かない、という問題への Superflux の答えとして読みます。"
 categories = [
     "consume"
 ]
