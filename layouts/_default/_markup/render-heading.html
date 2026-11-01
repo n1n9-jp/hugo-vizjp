@@ -1,0 +1,14 @@
+{{- /*
+    hugo-theme-stack 3.26.0 の同名ファイルをもとにした上書き。テーマ更新時は差分を確認すること。
+    固定ページ（content/page）の本文中の h1 は h2 にして出す（ページの h1 はタイトルの1つだけにするため）。
+    class="vz-page__name" は見た目の目印：節番号を振らず、上の罫も付けない（assets/scss/vz/_page.scss）。
+    記事（post）など、ほかのページの出力はテーマと同じ。
+*/ -}}
+{{- $demote := and (eq .Level 1) (eq .Page.Section "page") -}}
+{{- $level := cond $demote 2 .Level -}}
+<h{{ $level }} id="{{ .Anchor }}"{{ if $demote }} class="vz-page__name"{{ end }}>
+    {{- if site.Params.Article.HeadingAnchor -}}
+        <a href="#{{ .Anchor }}" class="header-anchor"></a>
+    {{- end -}}
+    {{ .Text | safeHTML }}
+</h{{ $level }}>

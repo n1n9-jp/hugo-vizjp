@@ -44,6 +44,8 @@ vz.article.profile:
     other: プロフィール
 vz.article.license:
     other: この記事は {{ .License }} で公開しています。
+vz.page.license:
+    other: このページは {{ .License }} で公開しています。
 catalogue.filter.all:
     other: すべて
 catalogue.filter.aria:

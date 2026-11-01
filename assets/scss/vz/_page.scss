@@ -1,0 +1,118 @@
+/*
+ * Fixed pages (content/page: about, profile, links ...)
+ * They use the article parts (layouts/partials/vz/article/*) and the rules in _article.scss as they are
+ * (<article class="vz-article vz-page">). This file holds only what differs from a post. Import it after _article.scss.
+ */
+
+/* Figures: a numberless caption, centred as before (a post left-aligns the image and numbers it "図1") */
+.vz-article.vz-page .article-content {
+    .vz-figure {
+        text-align: center;
+
+        img {
+            margin-inline: auto;
+        }
+
+        &--captioned {
+            counter-increment: none;
+        }
+
+        figcaption {
+            justify-content: center;
+            text-align: center;
+        }
+
+        &__no {
+            display: none;
+        }
+    }
+
+    figure {
+        text-align: center;
+    }
+
+    /* An h1 written in the body is rendered as an h2 (layouts/_default/_markup/render-heading.html).
+       It is a name, not a section: no number, no top rule. The section counter skips it, so the numbers match the table of contents. */
+    > h2.vz-page__name {
+        counter-increment: none;
+        padding: 0;
+        border-top: 0;
+        text-indent: 0;
+
+        &::before {
+            content: none;
+        }
+    }
+
+    /* The profile separates sections with "---"; every h2 already has a top rule, so the extra rule would double it */
+    hr:has(+ h2) {
+        display: none;
+    }
+
+    /* A Markdown table with an empty header row ("| | |") would draw an empty band: hide it */
+    thead:not(:has(th:not(:empty))) {
+        display: none;
+    }
+}
+
+/* License line after the body */
+.vz-page .vz-license {
+    margin-top: 6.4rem;
+}
+
+/* Links page: the theme's compact list (cards) becomes a ruled list in the article column */
+.vz-page__links {
+    .article-list--compact {
+        --image-size: 7.2rem;
+
+        border-top: 1px solid var(--vz-ink);
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+
+        article {
+            &:not(:last-of-type) {
+                border-bottom: 1px solid var(--vz-rule);
+            }
+
+            > a {
+                align-items: flex-start;
+                gap: 2.4rem;
+                padding: 2.4rem 0;
+                color: var(--vz-ink);
+
+                &:hover .article-title {
+                    color: var(--vz-accent);
+                }
+            }
+
+            .article-details {
+                gap: 0.6rem;
+                min-height: 0;
+            }
+
+            .article-title {
+                font-size: 1.9rem;
+                line-height: 1.6;
+                font-weight: 700;
+                color: var(--vz-ink);
+            }
+
+            .article-time {
+                display: block;
+                font-size: 1.5rem;
+                line-height: 1.8;
+                color: var(--vz-ink-2);
+            }
+
+            .article-image {
+                flex: none;
+
+                img {
+                    border: 1px solid var(--vz-rule);
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
