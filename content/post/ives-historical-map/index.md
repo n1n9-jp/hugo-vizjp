@@ -61,7 +61,7 @@ Boston Rare Maps によれば、層は「8組の切り抜き」でできてい�
 
 ## キーを押すたびに、領土の板が滑り込む
 
-操作は、額の下辺に並ぶキーで行います。BRM は木のレバー、BPL の目録はレバーと書いています。
+操作は、額の下辺に並ぶキーで行います。Boston Rare Maps は木のレバー、BPL の目録はレバーと書いています。
 
 > On touching the first of a row of keys below the lower edge of the frame, a colored segment slides into view, representing the 16 states corresponding to the 13 original colonies.
 

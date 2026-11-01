@@ -36,9 +36,9 @@ UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 5
 
 > "Charge the instrument by reversing it, to send all the shots into the pocket. Then sharply re-reverse and immediately set it upright on a level table. The shot will all drop into the funnel, and running thence through its mouth, will pursue devious courses through the harrow and will accumulate in the vertical compartments at the bottom, there affording a representation of the law of dispersion."
 
-本体を逆さにして玉を上部のポケットに集め、すばやく戻して水平な台に立てる。玉は漏斗から「まぐわ」（釘の列）を抜け、下の仕切り箱にたまって、分散の法則を表す、という内容です。玉は1粒ずつ落とすのではなく、一度にまとめて流れ落ちます。
+本体を逆さにして玉を上部のポケットに集め、すばやく戻して水平な台に立てる。玉は漏斗から「まぐわ」（釘の列）を抜け、下の仕切り箱にたまって、分散の法則を表す、という内容です。
 
-![左は逆さにして玉を上部にためた状態、右は戻した後で、玉が釘を抜けて下の仕切り箱に山をつくった状態の複製2台](images/galton-box-before-after.jpg)
+![左は逆さにして玉を上部にためた状態、右は戻して下の箱に山ができた状態の複製](images/galton-box-before-after.jpg)
 
 展示品：Estes Objethos Atelier、写真：Rodrigo Tetsuo Argenton、所蔵：Matemateca（IME/USP）／Wikimedia Commons より引用（CC BY-SA 4.0）
 
@@ -82,7 +82,7 @@ Galton の文章から、部品と意味の対応をまとめます。
 
 同じ点から出た2粒が同じ道をたどることはまずない。それでも、たまった山の輪郭は規則的だ、という内容です。1889年の本も、輪郭は "closely of the same shape however often the experiment is repeated"、何度繰り返してもほぼ同じ形になると書いています（p.64）。
 
-![木枠の中で、釘の列の下に仕切りが並び、白い玉が中央ほど高く積もって山形をつくっている複製](images/galton-box-replica.jpg)
+![釘の列の下の仕切りに、白い玉が中央ほど高く積もった複製](images/galton-box-replica.jpg)
 
 展示品：Estes Objethos Atelier、写真：Rodrigo Tetsuo Argenton、所蔵：Matemateca（IME/USP）／Wikimedia Commons より引用（CC BY-SA 4.0）
 
@@ -92,8 +92,6 @@ Galton の文章から、部品と意味の対応をまとめます。
 - 玉の量：玉を増やすと山は高くなる。しかし、玉の半数が収まる左右の距離は変わらない。この距離が確率誤差 "Prob: Error" で、本の記号では Q です（1889, p.65）。
 
 1877年の講演では、曲線をゴム板に描き、横に伸ばせば散らばりが、縦に伸ばせば数が増えると説明しています。分布の「形」を決める部品と「量」を決める部品が、装置の中で別々になっている、と読めます。
-
-1889年の本は、釘の段がもっと多く、玉が小さく、箱が細く、玉が多ければ、輪郭は正規曲線にさらに近づくとも書いています（p.64）。
 
 ## 釘と箱を組み替えて、遺伝を説明する
 
@@ -105,7 +103,7 @@ Galton の文章から、部品と意味の対応をまとめます。
 
 すべての落とし戸を開けると、小さな山が重なり、最初とそっくりの山に戻ります。世代が変わっても分布の幅が保たれることを、部品の組み合わせで示したわけです。講演録では、Galton が落とし戸を順に開けていく様子が語られています（p.292）。
 
-装置が実際に作られたかについては、別々の装置の話が混ざりやすいので分けておきます。Stigler は、同じ講演の自然選択を表す装置について、講演録の本文から動く模型があったと読みます（Fig. 3 の説明、p.474）。模型は残っていません。Kunert らは、1877年1月12日の手紙で説明された2段式のクインカンクスは、実際には作られなかったらしいと書いています（p.150）。手紙の2段式と講演の装置が同じものかは、確かめられていません。
+Stigler は、同じ講演の自然選択を表す装置について、講演録の本文から動く模型があったと読みます（Fig. 3 の説明、p.474）。模型は残っていません。Kunert らは、1877年1月12日の手紙で説明された2段式のクインカンクスは、実際には作られなかったらしいと書いています（p.150）。手紙の2段式と講演の装置が同じものかは、確かめられていません。
 
 1889年の本では、同じ構造を思考実験に使い回します。上の図の Fig. 8 では、装置を途中の高さで水平に切り、中段に箱 AA を挟みます。中段までの確率誤差を a、そこから下を b、全体を q とすると、q² = a² + b² になる、という分散の合成です（pp.67–68）。Fig. 9 では、玉をいったん中央へ寄せてから落とし、形を保ったまま幅だけを小さくします（p.69）。
 
@@ -114,7 +112,7 @@ Galton がこの装置で語ろうとしたのは、遺伝と人間の能力の�
 ## 第三者はこの装置をどう見たか
 
 - 思考の道具として：Stigler は2010年の論文で、装置を Galton 自身が回帰に至るための道具として読みます。1877年の斜めの樋は、一見すると結論ありきの "just-so story" に見えると書きます（p.472）。決め手は、装置を "running his quincunx backwards"、逆向きに走らせる発想でした（p.477）。下の箱の玉は、平均すると真上ではなく、より中央寄りから来ている。
-- 数学と文脈の両方を：ドルトムント大学の Kunert、Montag、Pöhlmann は2001年の論文で、装置を "a device, which generates a histogram which is similar to the normal distribution" と位置づけます（p.146）。同時に、Galton の尺度化の方法が人種の能力の一般化に使われ、"corresponded to the prevailing prejudice of that time" だったと指摘しています（pp.145–146）。
+- 数学と文脈の両方を：Kunert、Montag、Pöhlmann は2001年の論文で、装置を "a device, which generates a histogram which is similar to the normal distribution" と位置づけます（p.146）。同時に、Galton の尺度化の方法が人種の能力の一般化に使われ、"corresponded to the prevailing prejudice of that time" だったと指摘しています（pp.145–146）。
 - 物理からの反論：西オーストラリア大学の Kevin Judd は2006年の原稿で、「独立な偶然」という前提そのものを問います。原器を手がかりにした力学モデルを計算機で動かし、玉の動きは二項過程に従わないと結論しました。
 
 > "The internet abounds with so called simulations of the quincunx that are not simulations of the mechanical device, but simply simulations of a Binomial process, or random walk."
