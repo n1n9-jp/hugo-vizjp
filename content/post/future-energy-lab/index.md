@@ -4,7 +4,7 @@ title = "数字を、吸える証拠にする──Superflux『The Future Energy
 slug = "future-energy-lab"
 date = "2026-08-16"
 lastmod = "2026-11-01"
-description = "データは証拠ではない、と Superflux の Anab Jain は書く。『The Future Energy Lab』は UAE の計量経済データと将来推計を、政策を決める人が囲んで操作できる都市模型と、吸える未来の大気試料に変え、数字を体験できる証拠にした。"
+description = "UAE の将来推計を、政策を決める人が囲む都市模型と、吸える未来の大気試料に変えた仕事です。「データは証拠ではない」という Anab Jain の考えから読み解きます。"
 categories = [
     "consume"
 ]

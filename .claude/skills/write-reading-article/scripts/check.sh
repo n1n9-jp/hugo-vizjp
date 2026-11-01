@@ -21,6 +21,8 @@ empty_alt=$(grep -cE '!\[\]\(' "$f" || true)
 desc=$(printf '%s\n' "$fm" | sed -n 's/^description *= *"\(.*\)"$/\1/p')
 author=$(printf '%s\n' "$fm" | sed -n 's/^author *= *"\(.*\)"$/\1/p')
 desc_chars=$(printf '%s' "$desc" | wc -m | tr -d ' ')
+# です・ます調：句点で終わる各文が「す。」「した。」「せん。」のどれかで終わるか
+desc_plain=$(printf '%s' "$desc" | awk '{n=split($0,a,"。"); bad=0; for(i=1;i<n;i++){ if(a[i] !~ /(す|した|せん)$/) bad++ } print bad}')
 more=$(grep -c '^<!--more-->' "$f" || true)
 
 ok=0
@@ -35,7 +37,8 @@ row "本文字数（出典を除く）" "$chars" "$(judge '[ "$chars" -ge 4000 ]
 row "h2（出典を除く）" "$h2" "$(judge '[ "$h2" -ge 4 ] && [ "$h2" -le 6 ]' '参考・出典を含めて5〜7個')"
 row "出典の URL/DOI" "$ref_urls" "$(judge '[ "$ref_urls" -ge 1 ]' '1件以上')"
 row "空の alt" "$empty_alt" "$(judge '[ "$empty_alt" -eq 0 ]' '0件')"
-row "description" "${desc_chars}字" "$(judge '[ -n "$desc" ]' '結論を1〜2文')"
+row "description の長さ" "${desc_chars}字" "$(judge '[ "$desc_chars" -ge 50 ] && [ "$desc_chars" -le 100 ]' '80字前後、50〜100字')"
+row "description の文体" "です・ます以外の文 ${desc_plain}" "$(judge '[ -n "$desc" ] && [ "$desc_plain" -eq 0 ]' 'すべての文を、です・ます調に')"
 row "author" "${author:-なし}" "$(judge '[ "$author" = "矢崎裕一" ]' '矢崎裕一')"
 row "<!--more-->" "$more" "$(judge '[ "$more" -eq 1 ]' '1か所')"
 exit "$ok"

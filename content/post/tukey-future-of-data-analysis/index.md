@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "データ分析は科学である──Tukey が 1962年に数理統計学へ書いたこと"
 slug = "tukey-future-of-data-analysis"
 date = "2026-08-23"
-description = "1962年、Tukey は数理統計の中心誌に、データ分析を経験で検証する科学だと書いた。半世紀後、その論文がデータサイエンスの起点として読まれる。"
+description = "1962年、Tukey は数理統計の中心誌に、データ分析は経験で検証する科学だと書きました。半世紀後、この論文はデータサイエンスの起点として読まれています。"
 categories = [
     "technology",
     "principle"
