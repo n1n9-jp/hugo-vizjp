@@ -16,7 +16,7 @@ image = "images/cover.jpg"
 
 Hans Haacke（ハンス・ハーケ）の『MoMA Poll』は、来場者の賛否を二重に示した作品です。一つは、透明な投票箱にたまる紙の量で、左右の山の高さを見比べられます。もう一つは、各箱に付けた光電式カウンターの数字です。会期の最終日、カウンターは YES 25,566、NO 11,563 を記録していました。積み上がる量で傾きを伝え、数字で正確な値を残す。この二重の表し方は、物理的な可視化にいまも使える型だと読めます。
 
-作品は 1970年、ニューヨーク近代美術館（MoMA）の展覧会「Information」に出品されました。以下は主に、展覧会カタログ『Information』（1970）p.57 のハーケの提案文と、ハーケ自身が作品を記録した『Framing and Being Framed: 7 Works 1970–75』（1975）pp.9–11 に沿います。後年の回想として Tate Papers（2009）と Artforum（2004）も使い、資料どうしが食い違う箇所は、どの資料に何とあるかを分けて書きます。
+作品は 1970年、ニューヨーク近代美術館（MoMA）の展覧会「Information」に出品されました。以下は主に、展覧会カタログ『Information』（1970）p.57 のハーケの提案文と、ハーケ自身が作品を記録した『Framing and Being Framed: 7 Works 1970–75』（1975）pp.9–11 に沿います。後年の Tate Papers（2009）と Artforum（2004）も使い、食い違う箇所は資料ごとに分けて書きます。
 
 <!--more-->
 
@@ -53,7 +53,7 @@ Hans Haacke（ハンス・ハーケ）の『MoMA Poll』は、来場者の賛否
 
 > "Two transparent ballot boxes are positioned in the exhibition, one for each answer to an either-or question referring to a current socio-political issue. The question is posted with the ballot boxes. The ballots cast in each box are counted photo-electrically and the state of the poll at any given time during the exhibition is available in absolute figures."（McShine ed. 1970, p.57）
 
-答えごとに透明な投票箱を置き、票を光電式に数えて、会期中のどの時点でも状況を絶対数で示す、という内容です。1975年の本も、各箱に光電式の計数装置（"a photoelectrically triggered counting device"）が付いていたと書いています。
+答えごとに透明な箱を置き、票を光電式に数えて、どの時点でも状況を絶対数で示す、という内容です。1975年の本も、各箱に光電式の計数装置が付いていたと書いています。
 
 大事なのは、提案文が最初から **紙の量と絶対数の両方** を書いていることです。紙の山の高さで多い少ないが見え、カウンターが正確な数を残す。二つの役割を一つの装置に重ねています。
 
@@ -145,11 +145,11 @@ Hans Haacke（掲載元は写真の出所を Irmgard Emmelhainz の e-flux 記�
 
 データ物理化の研究者がまとめる dataphys.org の "List of Physical Visualizations" は、この作品を "1970 – MoMA Poll: Participatory Bar Chart" として載せ、"participatory physical bar chart" と説明しています。制度批判には触れず、可視化の型の早い例として扱っていると読めます。
 
-本記事の読みは dataphys.org に近いものです。ただし dataphys.org の紹介は票の量に注目し、カウンターの数字には触れていません。
+本記事の読みは dataphys.org に近いものですが、その紹介はカウンターの数字に触れていません。
 
 ## 使い道
 
-この作品から可視化の仕事に持ち帰れることは、量と数字を一つの装置に重ねることです。
+持ち帰れることの一つ目は、量と数字を一つの装置に重ねることです。
 
 紙の山は数を数えなくても傾きが分かる量の表現で、カウンターの数字は正確な値を残す記録として働くと読めます（数字がどう表示されていたかは確かめられませんでした）。紙の山は、紙片が混じればゆるみます。物理的な可視化では、遠くから見せる量と、記録に残す数字を、別々に用意しておくと役に立ちます。
 
