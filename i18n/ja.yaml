@@ -26,6 +26,11 @@ breadcrumb:
     home:
         other: トップ
 
+# 一覧ページの件数（テーマの「{{ .Count }} ページ目」を上書き）
+list:
+    page:
+        other: "{{ .Count }} 本の記事"
+
 vz.breadcrumb:
     other: パンくずリスト
 vz.figure:
