@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "色紙の層で、動物の道具の使い方を数える──National Geographic「Animal Hacks」"
 slug = "animal-hacks-paper-infographic"
