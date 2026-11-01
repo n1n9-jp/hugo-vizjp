@@ -1,7 +1,7 @@
 +++
 draft = true
 author = "矢崎裕一"
-title = "紙の構造物を撮った写真が、そのまま誌面の図になった──National Geographic「Animal Hacks」"
+title = "色紙の層で、動物の道具の使い方を数える──National Geographic「Animal Hacks」"
 slug = "animal-hacks-paper-infographic"
 date = "2026-11-01"
 description = "道具の使い方を色紙の層に、記録の有無を層の脚が見えるかどうかに対応させた紙の構造物です。誌面の図には、その構造物の写真の撮影者がクレジットされています。"
