@@ -64,7 +64,7 @@ Hemment は、このデータの限界も書いています。英語のツイー
 
 **平面のヒートマップでは色の明るさが担っていた件数を、彫刻では高さが担っています。** Studio NAND の Stephan Thiel（シュテファン・ティール）の言葉では、高さは「a third dimension in addition to time and sentiment-score」です。時間と感情の段階は、板の上の位置に残りました。Stefaner は、彫刻には「all tweets we have collected for emoto」が入っているとも述べています。
 
-Hemment の論文と Truth & Beauty のページは、高さが「emotional highs and lows」を示すと書いています。これは比喩的な言い方と読めます。作り方を説明した Stefaner と Thiel に従えば、高さは件数で、感情は帯の位置です。
+論文などは、高さが「emotional highs and lows」を示すと書いています。これは比喩と読めます。作り方の説明に従えば、高さは件数で、感情は帯の位置です。
 
 素材は Chemiwood というポリウレタンフォームで、CNC で切削しました。Thiel によれば、3Dプリントのきれいな面より、切削ヘッドの跡が残るほうを好んだそうです。表面は、投影に向くマットなグレーの二液性塗料で仕上げています。
 
@@ -85,11 +85,7 @@ Hemment の論文と Truth & Beauty のページは、高さが「emotional high
 
 ## 話題を投影で重ね、ノブで切り替える
 
-彫刻の形は、すべてのツイートで決まっています。話題ごとの違いは、上に投影する光が受け持ちました。公式サイトはこう書いています。
-
-> Mapped onto this physical sculpture we have then projected individual heat maps for the most interesting themes we have identified while observing emoto during the Games. Users were able to navigate through these themes using an interactive controller and thus explore our archive.
-
-大会中に見つけたテーマごとのヒートマップを彫刻に投影し、来場者はコントローラーでテーマを移動して、アーカイブを探索できた、という説明です。
+彫刻の形は、すべてのツイートで決まっています。話題ごとの違いは、上に投影する光が受け持ちました。公式サイトによれば、大会中に見つけたテーマごとのヒートマップを投影し、来場者はコントローラーでテーマを移り、「explore our archive」できました。
 
 ![切削した板の上に青緑の光が投影され、板の奥にトム・デイリーへの応援ツイートが文字で映っている](images/sculpture-overlay-projection.jpg)
 
@@ -119,7 +115,7 @@ Thiel は、立体にした利点をいくつか挙げています。
 
 > Creating a three-dimensional sculpture helped people understand the displayed dimensions in the data more quickly and naturally. ... This is often more immediate than encoding multiple variables in two-dimensional space.
 
-来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより直接的なことが多い、という言葉です。空間の大きさで量を強調できたこと、人が一緒に見て話し合えることも挙げ、「if all the lights are off, it's still an object which represents information」と述べました。Stefaner も、物理的な形のおかげで「何を見ているか」を早く分かってもらえた、と話しています。
+来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより直接的なことが多い、という言葉です。空間の大きさで量を強調できたこと、人が一緒に見て話し合えることも挙げ、「if all the lights are off, it's still an object which represents information」と述べました。
 
 難しさも、Thiel は書いています。画面ならビューを自由に組み替えられるが、大きな彫刻は扱い方を縛る、という点です。
 
@@ -127,13 +123,13 @@ Thiel は、立体にした利点をいくつか挙げています。
 
 投影とノブは、この制約への答えと読めます。削った形は一度きりで変えられない。変えたい部分は光と文字に任せた、という分け方です。
 
-もう一つ、論文の注には、チームが Twitter に、削った作品は「far removed from the data stream」だと主張したことが書かれています。元の情報を組み立て直せる形ではない、という理屈です。交渉は「to no avail」で、実りませんでした。高さに変えた時点で、個々のツイートは件数に畳まれる、ということでもあります。
+論文の注によれば、チームは Twitter に、削った作品は「far removed from the data stream」で元の情報を組み立て直せない、と主張しました（交渉は実らず）。高さにした時点で、個々のツイートは件数に畳まれるわけです。
 
 計画からの変更もありました。開幕前の Andy Kirk の記事は「19 plates」に削ると伝えています。完成品は17枚で、変更の理由を書いた資料は見つかりませんでした。
 
 ## 第三者はこの作品をどう見たか
 
-開幕前の2012年7月19日、Andy Kirk は Visualising Data で、emoto を「One of the most ambitious, unique, multi-faceted and fundamentally exciting projects」と紹介しました。Web、sentigraph、物理化を含む構成を評価していますが、完成前の記事です。
+開幕前の2012年7月19日、Andy Kirk は Visualising Data で、emoto を「One of the most ambitious, unique, multi-faceted and fundamentally exciting projects」と紹介しました。完成前の記事です。
 
 The Creators Project の Julia Kaganskiy は、2012年9月20日の記事で、彫刻を次のようにまとめています。
 
