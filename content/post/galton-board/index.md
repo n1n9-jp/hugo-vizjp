@@ -48,7 +48,7 @@ Galton が装置を詳しく説明したのは、1889年の『Natural Inheritanc
 
 > "I shall now illustrate the origin of the Curve of Frequency, by means of an apparatus shown in Fig. 7, that mimics in a very pretty way the conditions on which Deviation depends."（p.63）
 
-度数曲線の「起源」を、ずれが生じる条件を巧みにまねる装置で示す、という宣言です。描くのは曲線そのものではなく、曲線ができる条件です。
+度数曲線の「起源」を、ずれが生じる条件を巧みにまねる装置で示す、という宣言です。曲線そのものではなく、曲線ができる条件を描こうとした、と読めます。
 
 ![漏斗の下に五の目状の釘が並び、下の仕切り箱に玉が山形にたまる Fig. 7 と、その変形の Fig. 8・9](images/galton-1889-fig7-diagram.png)
 
@@ -72,7 +72,7 @@ Galton の文章から、部品と意味の対応をまとめます。
 | 箱にたまった玉の柱の高さ | 度数 | "the columns of shot that accumulate"（1889, p.64） |
 | 柱の頂点を結んだ輪郭 | 度数曲線 | "approximates to the Curve of Frequency"（1889, p.64） |
 
-エンコーディングの核は、**位置が値、積み上がった高さが度数**という2つです。玉1粒が1単位なので、できあがった山は、単位を積み上げたヒストグラムとしても読めます。
+エンコーディングの核は、**位置が値、積み上がった高さが度数**という2つと読めます。玉1粒が1単位なので、できあがった山は、単位を積み上げたヒストグラムとしても読めます。
 
 ## 段を増やせば幅が、玉を増やせば高さが変わる
 
@@ -97,13 +97,15 @@ Galton の文章から、部品と意味の対応をまとめます。
 
 ## 釘と箱を組み替えて、遺伝を説明する
 
-1877年の講演の本題は遺伝でした。Galton はスイートピーの種子の重さを親子で比べていて、1874年の装置を下段に残し、上に仕掛けを足します。
+1877年の講演の本題は遺伝でした。Galton はスイートピーの種子の重さを親子で比べていました（Galton 1877, p.290）。そのうえで1874年の装置を下段に残し、上に仕掛けを足します。
 
 - 上段の箱と落とし戸：親の世代の分布。山の形は、背板に切った曲線のスリットで整え、溢れた玉は背面へ捨てる（p.292）。
 - 中央へ傾いた斜めの樋（shoot）：回帰（reversion）。どの樋も中央の鉛直線へ向かうので、山の幅が縮む（p.292）。
 - その下の釘の列：同じ家族の中でのばらつき。落とし戸を1つ開けると、真下に小さな山ができる（p.292）。
 
-すべての落とし戸を開けると、小さな山が重なり、最初とそっくりの山に戻ります。世代が変わっても分布の幅が保たれることを、部品の組み合わせで示したわけです。講演で動く模型を使ったと Stigler は読みますが、模型は残っておらず、Kunert らは作られなかったらしいとしています。
+すべての落とし戸を開けると、小さな山が重なり、最初とそっくりの山に戻ります。世代が変わっても分布の幅が保たれることを、部品の組み合わせで示したわけです。講演録では、Galton が落とし戸を順に開けていく様子が語られています（p.292）。
+
+装置が実際に作られたかについては、別々の装置の話が混ざりやすいので分けておきます。Stigler は、同じ講演の自然選択を表す装置について、講演録の本文から動く模型があったと読みます（Fig. 3 の説明、p.474）。模型は残っていません。Kunert らは、1877年1月12日の手紙で説明された2段式のクインカンクスは、実際には作られなかったらしいと書いています（p.150）。手紙の2段式と講演の装置が同じものかは、確かめられていません。
 
 1889年の本では、同じ構造を思考実験に使い回します。上の図の Fig. 8 では、装置を途中の高さで水平に切り、中段に箱 AA を挟みます。中段までの確率誤差を a、そこから下を b、全体を q とすると、q² = a² + b² になる、という分散の合成です（pp.67–68）。Fig. 9 では、玉をいったん中央へ寄せてから落とし、形を保ったまま幅だけを小さくします（p.69）。
 
@@ -135,7 +137,7 @@ Galton 自身は、数式に移ったあとも図を手放すなと書いてい�
 
 > "The visible Schemes are not, however, to be removed too soon from our imagination. It is always well to retain a clear geometric view of the facts when we are dealing with statistical problems, which abound with dangerous pitfalls …"（1889, pp.66–67）
 
-目に見える図を早々に想像から外してはいけない。統計の問題には落とし穴が多いので、事実を幾何学的にはっきり見ておくのがよい、という内容です。クインカンクスは、その「見ておく」ための装置でした。
+目に見える図を早々に想像から外してはいけない。統計の問題には落とし穴が多いので、事実を幾何学的にはっきり見ておくのがよい、という内容です。クインカンクスは、その「見ておく」姿勢に沿った装置だったと読めます。
 
 ## 参考・出典
 
@@ -155,3 +157,4 @@ Galton 自身は、数式に移ったあとも図を手放すなと書いてい�
 - Stephen M. Stigler, "Darwin, Galton and the Statistical Enlightenment", *Journal of the Royal Statistical Society: Series A* 173(3), 2010, pp.469–482. [PDF](https://gwern.net/doc/statistics/bayes/2010-stigler-2.pdf) / [書誌](https://ideas.repec.org/a/bla/jorssa/v173y2010i3p469-482.html)
 - Joachim Kunert, Astrid Montag, Sigrid Pöhlmann, "The quincunx: history and mathematics", *Statistical Papers* 42(2), 2001, pp.143–169. [PDF](https://www.ifa.com/pdfs/the-quincunx.pdf) / [doi:10.1007/s003620100048](https://doi.org/10.1007/s003620100048)
 - Kevin Judd, "Galton's Quincunx: random walk or chaos?", 2006. [PDF](https://nolanhergert.github.io/notes_old/0media/home/quincunx.pdf)
+- Stephen M. Stigler, *The History of Statistics: The Measurement of Uncertainty before 1900*, Harvard University Press, 1986, pp.275–281（Kunert らの論文 p.147 からの孫引き。本文は未参照）
