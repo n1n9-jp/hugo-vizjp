@@ -1,10 +1,10 @@
 +++
 draft = true
 author = "矢崎裕一"
-title = "2,400倍の差を、歩く距離にする──プロスペクト通りの Walkable Bar Chart"
+title = "204mの青い帯と8cmの赤い長方形──プロスペクト通りの Walkable Bar Chart"
 slug = "walkable-bar-chart"
 date = "2026-11-01"
-description = "約204mの青い帯と約8cmの赤い長方形は、同じ縮尺で描かれた2本の棒です。約2,400倍の差を、見て比べるものから歩いて確かめる距離に変えました。"
+description = "約204mの青い帯と約8cmの赤い長方形は、報道の寸法から計算すると同じ縮尺の2本の棒で、差は約2,400倍です。一か所からは全体を見渡せない長さです。"
 categories = [
     "consume"
 ]
@@ -17,7 +17,7 @@ image = "images/red-and-blue-bars-start.jpg"
 
 2021年5月1日、米コネチカット州ニューヘイブンのプロスペクト通りに、2本の棒が描かれました。イェール大学の基金312億ドルを表す長さ670フィート（約204m）の青い帯と、市への年1,300万ドルの任意拠出金を表す3と1/4インチ（約8cm）の赤い長方形です。報道された寸法から計算すると、2本は同じ縮尺で描かれていて、差は約2,400倍になります。この作品は、その差を紙の上で見て比べるものから、通りを歩いて確かめる距離に変えた、と読めます。
 
-出典は、当日の地元報道2本と、データ物理化の目録の1項目です。New Haven Independent（NHI）のソフィー・ソネンフェルド（Sophie Sonnenfeld）の記事（2021年5月1日）と、New Haven Arts Paper のルーシー・ゲルマン（Lucy Gellman）の記事（同5月3日）。目録は、研究者ピエール・ドラギチェヴィック（Pierre Dragicevic）とイヴォンヌ・ヤンセン（Yvonne Jansen）の「List of Physical Visualizations」で、「Walkable Bar Chart」の名はここで付きました。寸法を書いているのは Arts Paper だけで、倍率は筆者の計算です。参加者が実際に帯に沿って歩いて比べた、という報道はありません。
+出典は、地元報道2本（New Haven Independent は当日、Arts Paper は2日後）と、データ物理化の目録の1項目です。New Haven Independent（NHI）のソフィー・ソネンフェルド（Sophie Sonnenfeld）の記事（2021年5月1日）と、New Haven Arts Paper のルーシー・ゲルマン（Lucy Gellman）の記事（同5月3日）。目録は、研究者ピエール・ドラギチェヴィック（Pierre Dragicevic）とイヴォンヌ・ヤンセン（Yvonne Jansen）の「List of Physical Visualizations」で、「Walkable Bar Chart」の名はここで付きました。寸法を書いているのは Arts Paper だけで、倍率は筆者の計算です。参加者が実際に帯に沿って歩いて比べた、という報道はありません。
 
 <!--more-->
 
@@ -31,7 +31,7 @@ image = "images/red-and-blue-bars-start.jpg"
 
 Sophie Sonnenfeld／New Haven Independent より引用
 
-要求は3つでした。市への任意拠出金を増やすこと、地元の住民を雇うこと、Local 34 と公正な労働協約を結ぶことです（NHI）。この日は、5月5日の集会の前段として位置づけられていました。高校生のマヌエル・カマチョ（Manuel Camacho）らは、この日、総長宛ての請願を届けています。
+要求は3つでした。市への任意拠出金を増やすこと、地元の住民を雇うこと、Local 34 と公正な労働協約を結ぶことです（NHI）。この日は、5月5日の集会の前段として位置づけられていました。16歳で Ice The Beef Latino Caucus 代表のマヌエル・カマチョ（Manuel Camacho）らは、この日、総長宛ての請願を届けています。
 
 Arts Paper は、背景の数字も書いています。市内の非課税不動産の40%以上を、イェール大学とイェール・ニューヘイブン・ヘルスが所有している。Local 34 の見積もりでは、その税の減免は年1億5,700万ドルを超える。市は6,600万ドルの赤字を見込み、イェールは2億300万ドルの黒字を報告していた。
 
@@ -96,7 +96,7 @@ Arts Paper のキャプションによれば、写っているのは帯の起点
 
 このグラフは、総長室の前の公道に描かれました。NHI も、写真に総長室の前のペイントだと説明を付けています。グラフの最初の読み手として、総長が想定されていたと読めます。
 
-16歳のカマチョは、ペイントの役割をはっきり語っています。
+カマチョは、ペイントの役割をはっきり語っています。
 
 > "This petition represents a deep consensus from New Haven. If leaders at Yale do not get the message from this petition, they will now have this street painting to remind them that our community demands respect."
 
@@ -114,7 +114,7 @@ Arts Paper のキャプションによれば、写っているのは帯の起点
 
 要旨：昨日の集会で、活動家とアーティストが見事なグラフを描いた。320億ドルの基金と、市へのわずか1,300万ドルの拠出金を比べている。拠出金は、適正に課税された場合の税のごく一部にすぎない。
 
-通りにいない人にとって、グラフは写真で届きます。写真では、204mの帯が遠近法で縮み、一枚に収まります。目録に載ったのも、この写真を通してでした。
+通りにいない人にとって、グラフは写真で届きます。写真では、帯の手前の部分だけが見え、全体は一枚に収まりません。
 
 大学の側は、NHI に広報担当カレン・ピアート（Karen Peart）の声明を寄せています。内容は、2004年からの組合との協力関係と、コロナ禍での雇用対策の説明でした。結びは、2022年の協約更新に向けて「creative solutions」を探る、という一文です。
 
@@ -149,7 +149,7 @@ walkable タグには、ほかに「Walkable Age Pyramid」（2013）、「Walka
 - 比べる量の種類を書いておく。残高と年額のように種類の違う量を並べると、差の大きさだけが独り歩きします。キャプションや説明に、何と何を比べたかを残しておくべきです。
 - 置き場所を、宛先として選ぶ。総長室の前に描いたことで、グラフの最初の読み手が決まりました。どこに置くかは、誰に読ませるかの選択です。
 
-記録の仕方にも注意が要ります。写真では204mの帯が一枚に縮みます。この作品の縮尺を後から検算できるのは、Arts Paper が寸法と金額を文章で書き残したからです。
+記録の仕方にも注意が要ります。写真には帯の手前しか写らず、全体は一枚に収まりません。この作品の縮尺を後から検算できるのは、Arts Paper が寸法と金額を文章で書き残したからです。
 
 ## 参考・出典
 
@@ -165,5 +165,4 @@ walkable タグには、ほかに「Walkable Age Pyramid」（2013）、「Walka
 
 - Pierre Dragicevic & Yvonne Jansen, "2021 – Walkable Bar Chart," *List of Physical Visualizations*（dataphys.org）, 2021-05-03（写真、説明文、分類）. https://dataphys.org/list/walkable-bar-chart/
 - 同目録の walkable タグ. https://dataphys.org/list/tags/walkable/
-- Lucy Gellman, "Mural With A Message Lands On Prospect Street," *New Haven Arts Paper*, 2021-05-03（参加型の壁画としての見方）. https://www.newhavenarts.org/arts-paper/articles/mural-with-a-message-lands-on-prospect-street
 - *New Haven Independent* 同記事のコメント欄（EngagedCitizen、baker ほか、2021-05-02）. https://www.newhavenindependent.org/2021/05/01/yale_respect_new_haven_paints_/
