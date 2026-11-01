@@ -14,6 +14,10 @@ tags = [
     "National Geographic"
 ]
 image = "images/magazine-spread.jpg"
+series = ["data-physicalization"]
+series_weight = 8
+seriesByline = "Alberto Lucas López ほか"
+seriesTitle = "色紙の層で数える──Animal Hacks"
 +++
 
 「Animal Hacks」は、動物が道具をどう使うかを、色紙を重ねた立体で見せた図です。22種類の道具の使い方を色紙の層に、動物群ごとの記録の有無を、層の脚が見えるか隠れるかに対応させました。誌面のクレジットには「紙の構造物の写真」の撮影者が載り、作者は図を道具と本物の素材でつくったと書いています。その写真が、ラベルと本文を重ねてそのまま誌面の図になったと読めます。紙の立体は下書きではなく、完成した図の素材だったと読めます。

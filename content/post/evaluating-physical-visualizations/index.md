@@ -15,6 +15,10 @@ tags = [
     "Pierre Dragicevic"
 ]
 image = "images/physical-bar-chart.jpg"
+series = ["data-physicalization"]
+series_weight = 6
+seriesByline = "Jansen・Dragicevic・Fekete"
+seriesTitle = "実物の3D棒グラフは速いか──評価実験"
 +++
 
 同じ3D棒グラフを画面から実物に移すと、データの読み取りは約2割速くなりました。ただし、平面の行列表示と2D棒グラフを組み合わせた画面上の表示には及びませんでした。2013年に Yvonne Jansen（イヴォンヌ・ジャンセン）らが発表した実験の結果です。「約2割」は論文の図から筆者が読んだ概算で、比べたのは正確さではなく速さです。

@@ -11,6 +11,10 @@ tags = [
     "データ物質化",
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 5
+seriesByline = "Hans Haacke"
+seriesTitle = "紙の山と数字で賛否を示す──MoMA Poll"
 +++
 
 Hans Haacke（ハンス・ハーケ）の『MoMA Poll』は、来場者の賛否を二重に示した作品です。一つは、透明な投票箱にたまる紙の量で、左右の山の高さを見比べられます。もう一つは、各箱に付けた光電式カウンターの数字です。会期の最終日、カウンターは YES 25,566、NO 11,563 を記録していました。積み上がる量で傾きを伝え、数字で正確な値を残す。この二重の表し方は、物理的な可視化にいまも使える型だと読めます。
