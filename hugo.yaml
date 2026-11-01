@@ -1,5 +1,5 @@
 timeZone: "Asia/Tokyo"
-timeout: "120s"
+timeout: "600s"
 
 minify:
     disableXML: true
