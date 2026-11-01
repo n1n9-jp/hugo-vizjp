@@ -52,6 +52,11 @@
     display: none;
 }
 
+/* フィルタで外れたカードは hidden 属性で隠す。.catalogue-card の display: grid が [hidden] を上書きしないようにする */
+.catalogue-card[hidden] {
+    display: none;
+}
+
 .catalogue-filter,
 .catalogue-subfilter {
     appearance: none;
