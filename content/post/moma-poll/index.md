@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "紙の山と数字で、賛否を二重に見せる──Hans Haacke『MoMA Poll』（1970）"
 slug = "moma-poll"

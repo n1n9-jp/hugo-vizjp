@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "パリの中心が空になる160年を、1万人の立方体で撮る──Chronique Démographique de la Région Parisienne"
 slug = "chronique-demographique-paris"

@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "同じ流れを3つの形で描き、最後は浜のごみで並べる──『Perpetual Plastic』"
 slug = "perpetual-plastic"

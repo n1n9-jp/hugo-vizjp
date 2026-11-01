@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "数を、結び目と縄の上の位置で記す──アンデスのキープ"
 slug = "quipu"

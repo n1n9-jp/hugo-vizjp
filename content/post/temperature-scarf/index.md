@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "1日1段、5℃ごとに毛糸を替える──気温スカーフとブランケット"
 slug = "temperature-scarf"

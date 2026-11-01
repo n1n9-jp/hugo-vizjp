@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "同じ40人を、並べ替えて別のグラフにする──Davenport の「紙を使わない度数多角形」"
 slug = "davenport-physical-distributions"

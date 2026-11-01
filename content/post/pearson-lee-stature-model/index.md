@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "度数表を柱に立てると、尾根の向きが見える──Pearson と Lee の身長模型"
 slug = "pearson-lee-stature-model"

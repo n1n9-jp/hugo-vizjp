@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "204mの青い帯と8cmの赤い長方形──プロスペクト通りの Walkable Bar Chart"
 slug = "walkable-bar-chart"

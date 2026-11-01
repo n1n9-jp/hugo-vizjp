@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "画面の3D棒グラフより速く、2Dには届かない──Jansen らの物理可視化の評価実験"
 slug = "evaluating-physical-visualizations"
