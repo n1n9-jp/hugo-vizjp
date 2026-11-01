@@ -53,7 +53,7 @@ dataphys.org では「1896 – James Ive's Mechanical Teaching Map」として�
 
 ![合衆国の範囲に部族のグループ名が大きく刷られ、右下に獲得の凡例、額の下辺にレバーが並ぶ状態](images/tribes-base-layer.jpg)
 
-James T. B. Ives／Boston Rare Maps「Ingenious mechanical map of United States territorial expansion」より引用
+James T. B. Ives／Boston Rare Maps より引用
 
 この層には、初期の入植地も載ります。英・仏・西の入植地を色つきの点で示し、色が国籍を表します。点ごとの番号から、付属の凡例で名前と年を引けます。1911年の目録は、板を引き出した状態を「the virgin country before European occupation」、つまりヨーロッパ人の占有以前の土地を示すもの、と説明しています。
 
@@ -61,7 +61,7 @@ Boston Rare Maps によれば、層は「8組の切り抜き」でできてい�
 
 ## キーを押すたびに、領土の板が滑り込む
 
-操作は、額の下辺に並ぶキーで行います。1897年の記事は「a row of keys」と書き、Boston Rare Maps と BPL の目録は「wooden levers」と書いています。
+操作は、額の下辺に並ぶキーで行います。Boston Rare Maps と BPL の目録は、これを木のレバーと書いています。
 
 > On touching the first of a row of keys below the lower edge of the frame, a colored segment slides into view, representing the 16 states corresponding to the 13 original colonies.
 
@@ -69,13 +69,13 @@ Boston Rare Maps によれば、層は「8組の切り抜き」でできてい�
 
 ![東海岸の16州の範囲だけが州境と地名の刷られた板に替わり、西側にはまだ部族名が見えている状態](images/first-key-colonies.jpg)
 
-James T. B. Ives／Boston Rare Maps「Ingenious mechanical map of United States territorial expansion」より引用
+James T. B. Ives／Boston Rare Maps より引用
 
 1つ目の板は、もう一つのことも示します。現在の16州の境界が、フランス、のちに英国が「植民地の正しい範囲」だと主張した分水界を、どれだけ越えているかです。2つ目のキーは、13州とミシシッピ川のあいだの地域を出します。1911年の目録は、この板が1つ目と「色の違う」板だと書いています。3つ目はルイジアナです。
 
 ![東部、ミシシッピ川までの地域、ルイジアナ、フロリダの板が出て、西部にはまだ部族名が残っている状態](images/through-florida.jpg)
 
-James T. B. Ives／Boston Rare Maps「Ingenious mechanical map of United States territorial expansion」より引用
+James T. B. Ives／Boston Rare Maps より引用
 
 School Journal は、ここから先をひとまとめに書きます。
 
@@ -87,7 +87,7 @@ Boston Rare Maps は、獲得を9つの段階に数え、1783年のパリ条約�
 
 ![すべての板が出て、合衆国本土が州境の刷られた板で覆われ、北西部が青、南西部が赤茶の板になっている状態](images/all-segments.jpg)
 
-James T. B. Ives／Boston Rare Maps「Ingenious mechanical map of United States territorial expansion」より引用
+James T. B. Ives／Boston Rare Maps より引用
 
 当時の記述から、データと見た目・素材の対応をまとめると、次のようになります。
 
@@ -116,11 +116,7 @@ Ives は、歴史地図の前に地質の地図を作っていました。*The A
 
 ## 第三者はこの地図をどう見たか
 
-1897年の School Journal は、教材としての効用を書いています。
-
-> The map will help any one to make interesting the teaching of United States history.
-
-この地図は、合衆国の歴史の授業を面白くする助けになる、という一文です。仕掛けは、授業の道具として紹介されています。
+1897年の School Journal は、この地図が合衆国の歴史の授業を面白くする助けになる（「make interesting the teaching of United States history」）と書きました。仕掛けは、授業の道具として紹介されています。
 
 所蔵館の Leventhal Map & Education Center は、2023年の催し「From The Vault: Mechanical Maps」の記事で、物語の偏りを指摘しました。
 
@@ -136,7 +132,7 @@ Ives は、歴史地図の前に地質の地図を作っていました。*The A
 
 ![2019年の展覧会で、ケースに入って展示された歴史地図。板がすべて出て、右下に年代と獲得名の凡例が見える](images/exhibit-2019.jpg)
 
-Aram Boghosian 撮影／WBUR「This Map Exhibit Draws A Darker U.S. History — Of Expansion Into Native Lands」より引用
+Aram Boghosian 撮影／WBUR より引用
 
 2019年、この地図は Leventhal の展覧会「America Transformed: Mapping the 19th Century」に出ました（中西部の個人蔵からの借用品）。WBUR の Frank Redner は、展覧会の記事の冒頭写真にこの地図を使っています。Redner は Upper Sioux Community の一員です。
 

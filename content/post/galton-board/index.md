@@ -28,9 +28,9 @@ Francis Galton（フランシス・ゴルトン）のクインカンクス（qui
 
 ## 1874年、王立研究所で鉛玉を落とす
 
-装置が初めて人前に出たのは、1874年2月27日です。Galton はロンドンの王立研究所（Royal Institution）で "On men of science, their nature and their nurture" と題して講演しました。講演の要旨には、「誤差の頻度の法則」の箇所に "[this was illustrated by many experiments]" と添えられています。3年後の1877年の講演で、Galton はこの装置を "an apparatus that I employed three years ago in this very theatre" と呼んでいます。
+装置が初めて人前に出たのは、1874年2月27日です。Galton はロンドンの王立研究所（Royal Institution）で "On men of science, their nature and their nurture" と題して講演しました。講演の要旨には、「誤差の頻度の法則」の箇所に "[this was illustrated by many experiments]" と添えられています。1877年の講演でも、この装置を「3年前にまさにこの講堂で使った」と振り返っています。
 
-UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 52 mm です。前面はガラスで、背板との隙間は約1/4インチ（Galton 1889, p.63）。統計学史家の Stephen M. Stigler（スティーヴン・スティグラー）は、互い違いにずれた釘が17段あると書いています。鉛玉の入った丸箱が付属し、蓋には「8 ounces」とあります。
+UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 52 mm です。統計学史家の Stephen M. Stigler（スティーヴン・スティグラー）は、互い違いにずれた釘が17段あると書いています。鉛玉の入った丸箱が付属し、蓋には「8 ounces」とあります。
 
 原器には、使い方を書いた銘文があります。Kunert らの論文が、Stigler の『The History of Statistics』（1986）から引いています。
 
@@ -44,13 +44,13 @@ UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 5
 
 ## 玉1粒が1つの個体、釘1段が1回の偶然
 
-Galton が装置を詳しく説明したのは、1889年の『Natural Inheritance』第5章です。節の題は "Mechanical Illustration of the Cause of the Curve of Frequency"（度数曲線の原因の機械的な例示）でした。
+Galton が装置を詳しく説明したのは、1889年の『Natural Inheritance』第5章です。
 
 > "I shall now illustrate the origin of the Curve of Frequency, by means of an apparatus shown in Fig. 7, that mimics in a very pretty way the conditions on which Deviation depends."（p.63）
 
 度数曲線の「起源」を、ずれが生じる条件を巧みにまねる装置で示す、という宣言です。描くのは曲線そのものではなく、曲線ができる条件です。
 
-![左の Fig. 7 は漏斗の下に五の目状の釘が並び、下の仕切り箱に玉が山形にたまる図。中央の Fig. 8 は装置を途中で切って箱 AA を挟んだ図、右の Fig. 9 は仕切りを中央へ寄せた図](images/galton-1889-fig7-diagram.png)
+![漏斗の下に五の目状の釘が並び、下の仕切り箱に玉が山形にたまる Fig. 7 と、その変形の Fig. 8・9](images/galton-1889-fig7-diagram.png)
 
 Francis Galton『Natural Inheritance』（1889）Fig. 7–9／Wikimedia Commons より引用（パブリックドメイン）
 
@@ -67,7 +67,7 @@ Galton の文章から、部品と意味の対応をまとめると次のよう�
 | 鉛玉1粒 | 1つの個体（1877年は種子の集団の1つ） | "pellets which serve as representatives of a population of seeds"（1877, p.292） |
 | 釘の1段 | 1回の小さく独立した偶然 | "small and independent accidents"（1889, pp.64–65） |
 | 釘の段数 | 値（身長など）を決める独立した要素の数 | "corresponds to an equal number of sets of rows of pins"（1889, p.84） |
-| 漏斗の出口を通る鉛直線 | 平均（ずれのない点） | "the perpendicular line that passes through the mouth of the funnel"（1889, p.65） |
+| 漏斗の出口を通る鉛直線 | 平均（ずれのない点） | 漏斗の口を通る鉛直線（1889, p.65） |
 | 仕切り箱の左右の位置 | 平均からのずれの大きさ | 箱の両側の壁が範囲の境界（1877, p.292） |
 | 箱にたまった玉の柱の高さ | 度数 | "the columns of shot that accumulate"（1889, p.64） |
 | 柱の頂点を結んだ輪郭 | 度数曲線 | "approximates to the Curve of Frequency"（1889, p.64） |
@@ -76,11 +76,7 @@ Galton の文章から、部品と意味の対応をまとめると次のよう�
 
 ## 段を増やせば幅が、玉を増やせば高さが変わる
 
-1877年2月9日、Galton は同じ講堂で "Typical Laws of Heredity" を講演し、まずこの装置を動かして見せます。説明の順序について、本人はこう述べています。
-
-> "The simplest way of explaining the law is to begin by showing it in action."（1877, p.286）
-
-法則を説明するいちばん簡単な方法は、それが働くところを見せることだ、という意味です。続けて Galton は、個々の玉の動きと、全体の形を分けて語ります。
+1877年2月9日、Galton は同じ講堂で "Typical Laws of Heredity" を講演しました。法則は "begin by showing it in action"、働くところから見せるのがいちばん簡単だと述べ、まず装置を動かします。そして、個々の玉の動きと全体の形を分けて語ります。
 
 > "The courses of the pellets are extremely irregular; it rarely happens that any two starting from the same point will pursue the same path from beginning to end; yet, notwithstanding this, you will observe the regularity of the outline of the heap formed by the accumulation of pellets."（1877, p.286）
 
@@ -95,9 +91,9 @@ Galton の文章から、部品と意味の対応をまとめると次のよう�
 - 釘の段数：段が少なければ、玉はほとんど真下の箱に入り「柱」のようになる。段がとても多ければ、玉は広く散って「水平な棒」のようになる（1877, p.286）。
 - 玉の量：玉を増やすと山は高くなる。しかし、玉の半数が収まる左右の距離は変わらない。この距離が確率誤差 "Prob: Error" で、本の記号では Q です（1889, p.65）。
 
-1877年の講演では、曲線をゴム板に描いて引き伸ばす説明も添えています。横に伸ばすと散らばりが増し、縦に伸ばすと数が増える。分布の「形」を決める部品と「量」を決める部品が、装置の中で別々になっている、と読めます。
+1877年の講演では、曲線をゴム板に描き、横に伸ばせば散らばりが、縦に伸ばせば数が増えると説明しています。分布の「形」を決める部品と「量」を決める部品が、装置の中で別々になっている、と読めます。
 
-1889年の本は、条件をさらに挙げます。釘の段がもっと多く、玉が小さく、箱が細く、玉が多ければ、輪郭は正規曲線にさらに近づく（p.64）。同じ章の次の節が、有名な "Order in Apparent Chaos" です。Galton はそこで誤差の法則を "the supreme law of Unreason"（理性なきものの至高の法則）と呼びました（p.66）。
+1889年の本は、釘の段がもっと多く、玉が小さく、箱が細く、玉が多ければ、輪郭は正規曲線にさらに近づくとも書いています（p.64）。
 
 ## 釘と箱を組み替えて、遺伝を説明する
 
@@ -115,23 +111,21 @@ Galton の文章から、部品と意味の対応をまとめると次のよう�
 
 ## 第三者はこの装置をどう見たか
 
-評価は、それぞれ違う角度から出ています。
-
 - 思考の道具として：Stigler は2010年の論文で、装置を Galton 自身が回帰に至るための道具として読みます。1877年の斜めの樋は、一見すると結論ありきの "just-so story" に見えると書きます（p.472）。決め手は、装置を "running his quincunx backwards"、逆向きに走らせる発想でした（p.477）。下の箱の玉は、平均すると真上ではなく、より中央寄りから来ている。
-- 数学と文脈の両方を：ドルトムント大学の Kunert、Montag、Pöhlmann は2001年の論文で、装置を "a device, which generates a histogram which is similar to the normal distribution" と位置づけます（p.146）。後半は、装置で観察できる現象の極限定理を論じます。同時に、Galton の尺度化の方法が人種の能力の一般化に使われ、"corresponded to the prevailing prejudice of that time" だったと指摘しています（pp.145–146）。
+- 数学と文脈の両方を：ドルトムント大学の Kunert、Montag、Pöhlmann は2001年の論文で、装置を "a device, which generates a histogram which is similar to the normal distribution" と位置づけます（p.146）。同時に、Galton の尺度化の方法が人種の能力の一般化に使われ、"corresponded to the prevailing prejudice of that time" だったと指摘しています（pp.145–146）。
 - 物理からの反論：西オーストラリア大学の Kevin Judd は2006年の原稿で、「独立な偶然」という前提そのものを問います。原器を手がかりにした力学モデルを計算機で動かし、玉の動きは二項過程に従わないと結論しました。
 
 > "The internet abounds with so called simulations of the quincunx that are not simulations of the mechanical device, but simply simulations of a Binomial process, or random walk."
 
-ネット上の「シミュレーション」の多くは、装置ではなく二項過程を再現しているだけだ、という指摘です。Judd も、統計モデルが概念モデルとして価値を持つことは認めています。そのうえで、非線形力学のほうがよいモデルだと書いています。
+ネット上の「シミュレーション」の多くは、装置ではなく二項過程を再現しているだけだ、という指摘です。ただし Judd も、統計モデルの概念上の価値は認めています。
 
-今日、この装置は中心極限定理の例示に使われます（Judd の要旨）。Galton 自身はこの語を使っていません。装置が直接示すのは、二項分布が正規分布に近づくことです。Kunert らと Wikipedia は、これをド・モアブル＝ラプラスの定理として説明しています。
+今日この装置は中心極限定理の例示に使われますが（Judd の要旨）、Galton 自身はこの語を使っていません。
 
 ## 使い道
 
 この装置から可視化の仕事に持ち帰れることは、三つあると読めます。
 
-一つめは、結果ではなく、結果ができる仕組みを部品に割り当てることです。『Natural Inheritance』には度数曲線の図（Fig. 3）が別にあります。そのうえで Galton は、装置を "mimics … the conditions on which Deviation depends"、ずれが生じる条件をまねるものとして示しました。見る人は玉と釘を見ながら、なぜ中央が高くなるのかを、部品の名前で説明できます。
+一つめは、結果ではなく、結果ができる仕組みを部品に割り当てることです。見る人は玉と釘を見ながら、なぜ中央が高くなるのかを、部品の名前で説明できます。
 
 二つめは、形を決める要因と量を決める要因を、別の部品に分けることです。段数を変えれば幅が、玉の量を変えれば高さが変わる。チャートでも、データ数に左右される見た目と、分布の性質を表す見た目を分けておくと、比べる人が迷いにくいと読めます。
 

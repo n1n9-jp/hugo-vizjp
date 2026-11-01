@@ -30,33 +30,27 @@ Robert Henry Thurston（ロバート・ヘンリー・サーストン）の合�
 
 1875年3月25日、議会の指示を受けて、大統領が金属試験委員会（United States Board appointed to test Iron, Steel and other Metals）を任命しました。初会合は同年4月15日です。委員会の中に合金委員会（Committee on Metallic Alloys）が置かれ、委員長を Thurston が務めました。
 
-Thurston は当時、ニュージャージー州ホーボーケンの Stevens Institute of Technology で機械工学を教えていました。のちに米国機械学会（ASME）の初代会長（1880〜82年）になり、Cornell 大学 Sibley College を率いた人です。合金の試験は、Stevens Institute の機械工学実験室で行われました。
+Thurston は当時、ホーボーケンの Stevens Institute of Technology の機械工学の教授で、試験もその実験室で行われました。のちに米国機械学会（ASME）の初代会長（1880〜82年）になる人です。
 
-合金委員会の任務は、委員会報告によれば「合金の性質についての一連の実験と、組み合わせの法則の研究」です。2種類の金属の合金なら、横軸に配合、縦軸に強さをとった平面のグラフで済みます。3種類になると、1877年の論文の言葉では「infinite number of possible combinations」があります。
+合金委員会の任務は、合金の性質を実験し、組み合わせの法則を調べることでした。2種類の金属の合金なら、横軸に配合、縦軸に強さをとった平面のグラフで済みます。3種類になると、1877年の論文の言葉では「infinite number of possible combinations」があります。Thurston は1899年に、単純な方法が見つからず、三元合金には長いあいだ手を付けられなかったと振り返っています。
 
-Thurston は1899年に、この時期をこう振り返っています。
+1877年の論文は、研究の目標を次のように書きます。
 
-> for a long time, the ternary alloys were not attacked, because no simple and satisfactory method presented itself … The tri-axial diagram was finally hit upon
+> any one studying the results of the work should be able to say, with confidence, what would be the precise character of any possible alloy of the three metals which he might propose to make.
 
-三元合金には長いあいだ手を付けられなかった。単純で満足できる方法が見つからなかったからで、最後に行き着いたのが三軸の図だった、という回想です。
-
-1877年の論文で、Thurston は研究の目標を次のように書いています。
-
-> It was necessary to determine the law connecting the mechanical properties with the composition of the alloy, to determine whether there were abrupt variations of properties, to detect points of maxima and minima and to so accurately determine these points, that any one studying the results of the work should be able to say, with confidence, what would be the precise character of any possible alloy of the three metals which he might propose to make.
-
-性質と組成をつなぐ法則を決め、急な変化があるかを調べ、最大と最小の点を見つける。そのうえで、誰でも、作ろうとする任意の合金の性質を自信をもって言えるようにする、という目標です。試していない合金まで含めて答えを出す、というところに、模型の役目が書かれていると読めます。
+最大と最小の点を突き止めたうえで、誰でも、作ろうとする任意の合金の性質を自信をもって言えるようにする、という目標です。試していない合金まで含めて答えを出す点に、模型の役目が書かれていると読めます。
 
 ## 三角形を「領地」として測量する
 
-1877年の論文の題は "On a New Method of Planning Researches and of Representing to the Eye the Results of Combination of three or more Elements in Varying Proportions" です。研究を計画する方法と、結果を目に見せる方法が、題の中で並んでいます。
+1877年の論文の題は、訳せば「研究を計画し、3つ以上の要素を変化する割合で組み合わせた結果を目に見せる新しい方法について」です。研究の計画と、結果を目に見せることが、題の中で並んでいます。
 
 方法の土台は正三角形です。三角形の中の点から三辺へ垂線を下ろすと、3本の長さの合計は、どの点でも三角形の高さに等しくなります。高さを100等分すれば、3本の垂線の長さが、そのまま3つの金属の百分率になります。頂点は純粋な金属で、辺の上の点は2金属の合金です。
 
 Thurston は、この三角形を測量すべき土地として扱いました。
 
-> Every point in the triangle thus represents some certain triple alloy; there is no possible triple alloy which has not its representative point in our triangle. … Its topography may be studied as systematically and completely as that of any other territory of which the exact boundaries have been determined and marked out.
+> Its topography may be studied as systematically and completely as that of any other territory of which the exact boundaries have been determined and marked out.
 
-三角形のどの点も何かの三元合金を表し、三角形に点を持たない三元合金はない。境界の決まった土地と同じように、その地形を系統立てて調べられる、という主張です。
+境界の決まったほかの土地と同じように、三角形の地形を系統立てて、もれなく調べられる、という主張です。
 
 ![正三角形の中に、10%ずつ内側へずらした同心の三角形が5重に描かれ、頂点にA・B・Cの記号がある図](images/ternary-concentric-triangles-1877.jpg)
 
@@ -64,7 +58,7 @@ R. H. Thurston, Proceedings of the AAAS 26 (1878), p.118, Figure 2／Internet Ar
 
 標本点の選び方も、この図で決まります。図2は、10%ずつ内側にずらした同心の三角形です。その辺の上に10%おきに点を取ると、試験する三元合金の一覧になります。3金属をすべて10%以上含む組み合わせは、論文の表で36通りです。2金属の合金は、外側の三角形の辺の上の点として加わります。
 
-『Materials of Engineering』Part III は、その後の試験の進め方を書いています。第1系列は12合金でした。第2系列は10%刻みの36合金で、結果は「more than five-sixths of the alloys in the field here explored are comparatively worthless」でした。続く第3系列は5%刻みの24合金、第4系列は確認用の5合金、最終系列は2.5%刻みの12合金です。
+『Materials of Engineering』Part III によれば、10%刻みの36合金を試した系列で、5/6を超える合金が「comparatively worthless」と分かりました。続く系列では強い領域に絞り、5%刻みの24合金、2.5%刻みの12合金を試験しています。
 
 1877年の論文には、刻みを細かくする理由も書かれています。
 
@@ -77,8 +71,6 @@ R. H. Thurston, Proceedings of the AAAS 26 (1878), p.118, Figure 2／Internet Ar
 委員会報告は、模型の寸法を書き残しています。底面は一辺10インチ（約25cm）の正三角形で、100等分されています。頂点には純粋な銅、スズ、亜鉛の引張強さを表す縦の棒を立てました。棒は真鍮の針金で、縮尺は長さ1インチあたり25,000ポンド毎平方インチ（psi）です。
 
 報告は例も挙げています。銅の頂点から1インチの位置には、銅90・スズ10の砲金の強さを表す針金が立ちます。同じように青銅、真鍮、三元合金の点に針金を立て、点の数は106になりました。
-
-> the triple alloys of copper, tin, and zinc, 106 points being thus determined.
 
 1877年の論文は、作り方を手順として書いています。真鍮板に三角形を描き、測った点に、長さを正確にそろえた針金をねじ込むなどして固定する。外側に板を立てて枠にし、針金がすべて隠れるまで石膏（plaster of Paris）を流し込む。固まったら枠を外し、上から少しずつ削って、針金の先端がちょうど出たところで止める。
 
@@ -107,21 +99,17 @@ R. H. Thurston（模型製作：M. I. Coster）, Proceedings of the AAAS 26 (187
 | 最も強い合金 | 曲面の最高点 | 銅55・亜鉛43・スズ2 前後、65,000 psi の等高線の内側 |
 | 最強の合金そのもの | のちに鋳造した模型の素材 | 石膏型を原型にして鋳造 |
 
-縮尺から計算すると、65,000 psi の頂は底面から約2.6インチ（約6.6cm）の高さです。一辺10インチの底面に対して、高さはその3割弱の、低い山だったことになります。この値は出典に寸法として書かれたものではなく、筆者の計算です。
+縮尺から計算すると、65,000 psi の頂の高さは約2.6インチ（約6.6cm）で、底面の一辺の3割弱です。出典にある寸法ではなく、筆者の計算です。
 
 ## 等高線の地図と、山の頂の合金
 
-委員会報告は、模型から平面の地図を作る方法も書いています。
-
-> By intersecting this model by horizontal planes one-tenth of an inch apart we obtain the contour-lines shown in the map, which gives the tensile strength of all the different alloys to within 2,500 pounds of their true strength.
-
-模型を0.1インチ間隔の水平面で切ると等高線が得られ、その地図で、あらゆる合金の引張強さが2,500ポンド以内の誤差で分かる、という説明です。この地図は「Plate I」として報告に添えられました。『Materials of Engineering』には、同じ種類の地図が図24として載っています。
+委員会報告によれば、模型を0.1インチ間隔の水平面で切ると等高線が得られます。その地図で、どの合金の引張強さも2,500ポンド以内の誤差で分かる、と報告は書きます。地図は「Plate I」として報告に添えられました。『Materials of Engineering』にも、同じ種類の地図が図24として載っています。
 
 ![上の頂点に銅、左下にスズ、右下に亜鉛を置いた三角形の中に強さの等高線が引かれ、銅と亜鉛の辺の近くに65000の閉じた等高線がある図](images/strength-contour-map-fig24.jpg)
 
 R. H. Thurston, Materials of Engineering, Part III, p.425, Fig. 24／Internet Archive より引用（パブリックドメイン）
 
-図24の右寄り、銅と亜鉛の辺に近い所で、等高線が同心の輪になって閉じています。銅とスズの辺の上の方からは、等高線が密に並ぶ帯が右下へ斜めに走っています。地図の数値には注意が要ります。『Materials of Engineering』によれば、高さの尺度は、ねじり試験の100フィートポンドを引張の25,000 psi とみなして換算したものです。
+図24の右寄り、銅と亜鉛の辺に近い所で、等高線が同心の輪になって閉じています。地図の数値には注意が要ります。『Materials of Engineering』によれば、高さの尺度は、ねじり試験の100フィートポンドを引張の25,000 psi とみなして換算したものです。
 
 Thurston は、強い合金の位置をこう書きます。強さの最大の合金は、銅55・亜鉛43・スズ2 に近い点のまわりに集まる。その点は地図では65,000 psi の線に囲まれ、模型では「the peak of the mountain seen at the farthest side — the copper-zinc side」として現れる。
 
@@ -129,11 +117,11 @@ Thurston は、強い合金の位置をこう書きます。強さの最大の�
 
 R. H. Thurston, Materials of Engineering, Part III, p.427, Fig. 25／Internet Archive より引用（パブリックドメイン）
 
-この図25は、別の素材の模型を描いています。『Materials of Engineering』によれば、模型は石膏型を原型にして「cast in an alloy of maximum tenacity」、つまり最も強い合金で鋳造されました。Thurston はこの合金を「maximum alloy」と呼び、そこから模型を作ったと書いています。図25は、その模型の写真から起こした図です。鋳造の年と、石膏型・鋳造品の現在の所蔵先は、確かめられませんでした。
+図25は、別の素材の模型です。『Materials of Engineering』によれば、模型は石膏型を原型にして「cast in an alloy of maximum tenacity」、つまり最も強い合金で鋳造されました。図25は、その模型の写真から起こした図です。鋳造の年と、石膏型・鋳造品の現在の所蔵先は、確かめられませんでした。
 
-Thurston は、データの限界も書いています。合金は意図して、ふつうの鋳造所と同じ条件で、脱酸のフラックスを使わずに作りました。そのため値はばらつき、「Some variations in the model are probably due to such accidental circumstances」と認めています。のちの追試では、純粋な金属とフラックスを使い、最も強い青銅を銅57・亜鉛42・スズ1 と同定しました。模型の頂は、次の試験の出発点にもなったと読めます。
+Thurston は、データの限界も書いています。合金はふつうの鋳造所と同じ条件で、脱酸のフラックスを使わずに作ったため値がばらつき、「Some variations in the model are probably due to such accidental circumstances」と認めています。のちの追試では、純粋な金属とフラックスを使い、最も強い青銅を銅57・亜鉛42・スズ1 と同定しました。模型の頂は、次の試験の出発点にもなったと読めます。
 
-1898年、Thurston は ASME の論文 "Graphic Diagrams and Glyptic Models" で、この方法を「Glyptic System」と名づけました。glyptic の名は、この1898年の論文で初めて使われたもので、1877年の論文にこの語はありません。同じ論文は、Sibley College で作られた蒸気機関の効率の青銅模型なども並べています。方法の価値については、こう書きます。
+1898年、Thurston は ASME の論文 "Graphic Diagrams and Glyptic Models" で、この方法を「Glyptic System」と名づけました。1877年の論文に、この語はありません。方法の価値については、こう書いています。
 
 > we are thus enabled to represent an infinite number of cases from the results of study of a few, and to find a minimum or a maximum, if it exists, whether it happens to be one of the cases selected or not
 
@@ -145,27 +133,27 @@ Thurston は、データの限界も書いています。合金は意図して�
 
 金属試験委員会の委員長 T. T. S. Laidley は、1878年6月8日付の議会への報告で、模型を次のように紹介しました。
 
-> The result of all of this work, so far as the tensile strength of all the possible alloys that can be made from any two or all three of these metals, is shown at a glance by a model ingeniously devised by Professor Thurston
+> is shown at a glance by a model ingeniously devised by Professor Thurston
 
-2種類または3種類の金属から作れるすべての合金の引張強さが、Thurston の考案した模型で一目で分かる、という評価です。報告は寸法、縮尺、点の数、等高線の精度まで記録しています。公的な報告書が、模型を研究成果の要約として扱っていたと読めます。
+2種類または3種類の金属から作れるすべての合金の引張強さが、Thurston の考案した模型で一目で分かる、という評価です。報告は寸法、縮尺、点の数、等高線の精度まで記録しており、模型を研究成果の要約として扱っていたと読めます。
 
 金属学者の Samuel L. Hoyt は、1914年の Columbia 大学の博士論文で、データの中身の限界を指摘しました。
 
-> Although the work of Thurston offers considerable matter of a speculative nature on the constitution of the kalchoids, still, since it deals mainly with the mechanical properties, it (and other similar work) will not be considered here.
+> since it deals mainly with the mechanical properties, it (and other similar work) will not be considered here.
 
-Thurston の仕事は合金の構造（相）について推測的な記述が多く、主に機械的性質を扱っているので、ここでは取り上げない、という判断です。一方で Hoyt は、強さが50,000から65,000へ急に上がり、狭い範囲で5,000まで落ちるという Thurston の結果を引いています。強さの急変は、相の境界を示すものとして読まれました。三元合金を指す「kalchoid」という Thurston の用語も、Hoyt は採用しています。
+Thurston の仕事は主に機械的性質を扱い、合金の構造（相）については推測にとどまるので、ここでは取り上げない、という判断です。一方で Hoyt は、強さが50,000から65,000へ急に上がり、狭い範囲で5,000まで落ちるという Thurston の結果を引いています。強さの急変は、相の境界を示すものとして読まれました。
 
-図の歴史では、三角図そのものは Thurston より古いとされます。Richard J. Howarth は1996年の論文で、三角図の起源を18世紀の色の混合の研究に置き、地質学、物理化学、冶金へ広がった経緯をたどりました。公開されている参考文献一覧に、Thurston の名は見当たりません。Thurston 自身も、Gibbs が1876年に別の分野でこの原理を提案したと書いています。1899年の「first employed by me」という言い方は、合金の研究計画に使ったという意味に限って読むのが安全です。
+図の歴史では、三角図そのものは Thurston より古いとされます。Richard J. Howarth は1996年の論文で、その起源を18世紀の色の混合の研究に置きました。公開されている参考文献一覧に、Thurston の名は見当たりません。Thurston 自身も、Gibbs が1876年に別の分野でこの原理を提案したと書いています。1899年の「first employed by me」という言い方は、合金の研究計画に使ったという意味に限って読むのが安全です。
 
-データ物理化の事例集 dataphys.org では、Pierre Dragicevic がこの模型を登録しています。物理的な3次元の曲面が、関数の最大と最小を一望させ、補間にも使えるので、多くの測定をせずに極値を探せる、という説明です。
+データ物理化の事例集 dataphys.org で登録者の Pierre Dragicevic は、3次元の曲面が最大と最小を一望させ、補間にも使えるので、多くの測定をせずに極値を探せる、と説明しています。
 
 ## 使い道
 
-この模型から持ち帰れるのは、測った点と補った面を、同じ表面の上で区別して見せることです。曲面を描く図はいまも多くあります。ただ、その面のどこが実測で、どこが補間かを示している図は多くありません。Thurston の模型では、光る針金の先端が実測で、そのあいだの石膏が補間です。
+この模型から持ち帰れるのは、測った点と補った面を、同じ表面の上で区別して見せることです。曲面の図で、どこが実測でどこが補間かを示しているものは多くありません。Thurston の模型では、光る針金の先端が実測で、そのあいだの石膏が補間です。
 
 次に、図を描く前に、標本点の取り方を図で決めていることです。10%刻みで全体を見て、強い領域だけ5%、2.5%と刻みを細かくする。図2の同心三角形は、結果の図であると同時に、試験の計画表でした。可視化を、集め終わったデータの最後の工程ではなく、次に何を測るかを決める道具として使っています。
 
-最後に、精度の書き方です。委員会報告は、縮尺（1インチ＝25,000 psi）と等高線の間隔（2,500 psi）を書き残しました。Thurston は、鋳造条件によるばらつきが模型に出ていることも認めています。立体の模型を見せるときも、何をどの精度で読めるかを添える。106本の針金と石膏の山は、その書き方の古い手本と読めます。
+最後に、精度の書き方です。委員会報告は、縮尺（1インチ＝25,000 psi）と等高線の間隔（2,500 psi）を書き残しました。Thurston は、鋳造条件によるばらつきが模型に出ていることも認めています。立体を見せるときも、何をどの精度で読めるかを添える。その古い手本と読めます。
 
 ## 参考・出典
 
