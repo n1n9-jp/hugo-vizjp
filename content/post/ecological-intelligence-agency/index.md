@@ -1,9 +1,10 @@
 +++
-author = "Yuichi Yazaki"
-title = "川の健康を、感覚可能にする——Superflux『The Ecological Intelligence Agency』"
+author = "矢崎裕一"
+title = "川が詩で語りかける行政機関──Superflux『The Ecological Intelligence Agency』"
 slug = "ecological-intelligence-agency"
 date = "2026-08-16"
-description = "ロンドンのローディング川を題材に、生態データを詩へ翻訳する Superflux の speculative agency を、データ可視化とスペキュラティブ・デザインの交差から読む。"
+lastmod = "2026-11-01"
+description = "汚染の生データはたくさんあるのに、変化にはつながらなかった。『The Ecological Intelligence Agency』は、ローディング川のデータを川が語る詩と水の瓶を読む装置に翻訳し、行政官が川の健康を感覚で受け取れるように設計し直した架空の行政機関です。"
 categories = [
     "consume"
 ]
@@ -14,156 +15,128 @@ image = "images/cover.jpg"
 series = ["speculative-design"]
 series_weight = 4
 seriesByline = "Superflux"
-seriesTitle = "川の健康を、感覚可能にする──『The Ecological Intelligence Agency』"
+seriesTitle = "川が詩で語りかける行政機関"
 +++
 
-Superflux の『The Ecological Intelligence Agency』（2023）は、英国政府の Policy Lab と Defra Futures の委託で作られた、架空の省庁横断機関です。題材はロンドン東部を流れるローディング川（River Roding）。問いは「淡水系を、2043年以降どう変えるか」。答えはダッシュボードではなく、**川が語る詩**と、水の入った瓶を読む装置です。
+汚染の生データはたくさんあるのに、変化にはつながらなかった。『The Ecological Intelligence Agency』は、ロンドンのローディング川のデータを、川が語る詩と、水の瓶を読む装置に翻訳した架空の行政機関です。数字を足すのではなく、行政官が川の健康を感覚で受け取れるように設計し直しています。
 
-ここで重要なのは、本作が河川データの不足を埋める可視化ではない点です。共同創業者の Jon Ardern は、のちにこう述べています。「汚染がどれほど悪いかを示す生データはたくさんある。だが、それは変化につながらない」。データ可視化とスペキュラティブ・デザインが交差するのは、この自己診断においてです。数字を足すのではなく、数字では動かなかった感覚を設計し直す。
+作ったのはデザインスタジオ Superflux（スーパーフラックス）で、2023年に英国政府の Policy Lab と Defra Futures の委託を受けました。以下は、Superflux の作品ページ、Vimeo で公開された三本の短編、Policy Lab が 2024年に公開した記録に沿って、鑑賞者が作品に出会う順に読みます。作品ページの末尾には、これが政府の政策や意図を代表しない、という但し書きがあります。
 
 <!--more-->
 
-![設置。壁面の画面と、センサ台に載った採水瓶。写真：Superflux](images/cover.jpg)
+## 2023年6月、Somerset House に集まった人たち
 
-作品の一次資料は [Superflux の作品頁](https://superflux.in/index.php/work/the-ecological-intelligence-agency/) です。三本の短編——Pollution / Sewage / Flooding——は [Superflux の Vimeo](https://vimeo.com/superflux/videos) で公開されています。頁末には、これが政府の政策や意図を代表しない、という但し書きがあります。読む対象は政策案ではなく、政策を考えるための装置です。
+2023年6月、ロンドンの Somerset House で、フォーラム兼展示 *Changing Course* が開かれました。主催は Policy Lab と Defra Futures で、Catchment Based Approach（CaBA）が共催です。Superflux が作品ページに引くのは、次の問いです。
 
-## 委託の条件
+> How can we transform what the freshwater system looks like, 20 years from now and beyond?
 
-2023年6月、Policy Lab と Defra Futures が Catchment Based Approach（CaBA）と共催したフォーラム兼展示 *Changing Course* が、Somerset House で開かれました。問いは Superflux が引用するとおりです。「How can we transform what the freshwater system looks like, 20 years from now and beyond?」招待したのは Policy Lab の Neha Sharma と Defra Futures の Phil Tovey です。
+20年後とその先に向けて、淡水系の姿をどう変えられるか、という問いです。Superflux を招いたのは、Policy Lab の Neha Sharma と、Defra Futures の Phil Tovey（フィル・トーヴィー）でした。
 
-Policy Lab が 2024年2月に公開した公式記録は、この仕事の位置をはっきりさせています。目的は未来の予測ではなく、会話を起こし、思考を挑発すること。使った方法は三つです。集合知（Pol.is）、more-than-human の道徳的想像（Moral Imaginations による英国政府初の Interspecies Council）、そしてスペキュラティブ・デザイン。EIA は第三の柱として委嘱された設置作品です。同展には Policy Lab 自身の二つの speculation——Ben Peppiatt の「national civic service」、Nina Cutler の市民科学と芸術の祝祭——も並びました。来場は二日間で約80名。政策担当、研究者、NGO、規制当局です。
+Policy Lab の記録によれば、目的は未来の予測ではありません。会話を起こし、考えを揺さぶることです。方法は三つ用意されました。
 
-つまり本作の第一観客は、一般のウェブ閲覧者ではなく、淡水の意思決定に関わる実務者です。可視化の成功条件も、チャートの読みやすさより、**その場の議論がどれだけ縺れたか**に置かれています。
+| 方法 | 中身 |
+|---|---|
+| 集合知 | Pol.is を使った意見の集約 |
+| more-than-human の道徳的想像 | Moral Imaginations による、英国政府初の Interspecies Council |
+| スペキュラティブ・デザイン | Superflux に委嘱した設置作品（本作） |
 
-## 架空の機関が、何をしていることになっているか
+来場は二日間で約80名でした。政策担当者、研究者、NGO、規制当局の人たちです。つまり本作の最初の観客は、ウェブの一般閲覧者ではありません。**淡水の意思決定に関わる行政官や実務者**です。
 
-EIA は、自律した省庁横断の政府機関という設定です。中身は一つの巨大基盤モデルではなく、**局所的な AI モデルの集合**です。地域の steward の知恵と共に開発され、部門・コミュニティ・セクターをまたいで使う。目指すのは全体像ではなく、Superflux が括弧つきで書く *(partial) picture*——世界との絡まりの、部分的な絵です。
+その人たちの手元には、すでに数字がありました。共同創業者の Jon Ardern（ジョン・アーダーン）は、のちの取材でこう語っています。汚染がどれほど悪いかを示す生データはたくさんある。だが、それは変化につながらない。本作は、この自己診断から始まっています。
 
-スタジオが数年かけて育ててきた「Ecological AI」の一反復でもあります。問いは「AI に何ができるか」の前に、「AI をどうやるか」。労働・気候・データ正義を、抽出ではなく共有地として結び、生態の健康の代弁者になりうるか。
+## 机の上の瓶を、センサ台に置く
 
-ここで Superflux が明示的に拒否しているのは、次の三つです。
+会場に入ると、壁面の大画面と、その前の白いテーブルが目に入ります。テーブルには採水のガラス瓶が並び、右端の瓶は黒いセンサ台に載っています。台から画面へケーブルが伸びています。
 
-- 知識体系への無制限なアクセスを自称すること
-- 世界の理解の仕方は一つだと仮定すること
-- 支配的な抽出のパラダイムを再生産すること
+![壁面の画面の前に白いテーブルがあり、採水瓶とセンサ台が並ぶ設置の全景](images/cover.jpg)
 
-対案は、追跡不能な単一の権威ある声ではありません。複数の視点を代弁し、聞こえてこなかったコミュニティと、十分に諮られてこなかった more-than-human の同伴者に声と認知を与える。知識の隙間に出会ったら、答えを埋めるのではなく、**誰をさらに諮るべきかを指す**。LLM の出力が作成者にも追跡できないことへの、制度的な反論として書かれています。
+写真：Superflux
 
-副題は *Aligning with Ecological Intelligence for a Flourishing Planet* です。川の健康を *sense-able* にし、政策を「より広い文脈の生態系」の中へ置き直す。可視化の仕事は、ここでも図表ではなく、感覚の条件を変えることです。
+瓶のラベルには EIA のロゴが入り、日付・地点・採集者が手書きされています。日付は 2040年代半ばです。地点は Hart's Lane、Wanstead Park、East Beckton Nature Reserve など。採集者は Barking の住民、小学校4年生の調査、Ilford の住民です。
 
-## 設置の構成
+![EIA のロゴ入りラベルに日付・地点・採集者が手書きされた、色の違う採水瓶の列](images/jars.jpg)
 
-公式スティルが示す設置は、壁面の大画面と、その前の白いテーブルです。テーブルには採水のガラス瓶が並び、右端の瓶は黒いセンサ台に載ります。台から画面へケーブルが伸び、サンプルを「読む」仕草になっています。
+写真：Superflux
 
-瓶のラベルは EIA のロゴつきで、日付・地点・採集者が手書きです。公式写真に見える例は、2040年代半ば、Hart's Lane、Wanstead Park（緯度経度つき）、East Beckton Nature Reserve。採集者は Barking の住民、小学校4年の調査、Ilford の住民です。濁った茶、浮草のある澄水、藻で埋まった緑。同じ規格の瓶が、水質の差を物体として並べます。
+中身は、濁った茶、浮草の浮いた澄んだ水、藻で埋まった緑です。同じ規格の瓶が、水質の差を手に取れる物として並べます。数値の表なら一行ずつ読む差が、ここでは一目で比べられます。
 
-![採水瓶。日付・地点・採集者が手書き。写真：Superflux](images/jars.jpg)
+センサ台の側面には、POWER／ANALYSING／COMMUNICATING／READY の四つのランプがあります。鑑賞者が瓶を台に置くことが、そのまま機関への入力になります。**画面を見る前に、まず手で水を扱う**順番です。
 
-センサ台の側面には、POWER / ANALYSING / COMMUNICATING / READY の四灯があります。瓶を置く行為が、入力です。空の台には、円形の発光ディスプレイが幾何学模様を描きます。機関の器物として、画面より先に手の動作があります。
+![2040年代に住民が採集したラベル付きの瓶を、手でセンサ台に置く場面](images/interact.jpg)
 
-![瓶をセンサ台へ置く。ラベルは 2040年代、住民による採集。写真：Superflux](images/interact.jpg)
+写真：Superflux
 
-## 画面の読み方
+## 画面に、行政の記録と子どもの観察が並ぶ
 
-画面の地は、暗い場に走る緑と白のフィラメントです。流れ、網、神経、菌糸のどれにも読める線で、チャートの軸はありません。その上に、アーカイブの窓が重なります。
+瓶を置くと、画面が動きます。暗い地に緑と白の細い線が走り、チャートの軸はありません。その上に、機関のウィンドウが重なっていきます。
 
-一つの状態は **Referencing community archive** です。Barking and Dagenham Planning や Epping Forest Agency の地図、Abridge / Loughton / Buckhurst Hill の洪水警報、冠水した街路の写真。公式の計画図と、被害の画像が同じ面に載ります。
+ある画面は **Referencing community reports** です。Environment Agency の魚類カウント（1993）と個体長（2023）の表の横に、2043年の学校調査が並びます。川辺で網を使う子どもの写真、昆虫の接写、児童の観察文です。右下には、濁度センサのライブ値が出ています。
 
-別の状態は **Referencing community reports** です。Environment Agency の魚類カウント（1993）と個体長（2023）の表の横に、2043年の [SCHOOL SURVEY] が並びます。子どもが川辺で網を使う写真、昆虫の接写、児童の観察文。定量の行政記録と、学校調査の質的な声が、同じオペレーティングシステムに入ります。右下には濁度センサのライブ値。
+![Environment Agency の魚類データの表と、2043年の学校調査の写真と観察文が同じ画面に並ぶ](images/analyse-2.jpg)
 
-![行政の魚類データと、2043年の学校調査が並ぶ。写真：Superflux](images/analyse-2.jpg)
+写真：Superflux
 
-警告の窓は、もう一段むき出しです。**Analysing water sample...** の下に、OXYGEN LEVELS: LOW、NUTRIENT LEVELS: HIGH、WATER QUALITY: BAD。その下に、酸素・窒素・リン・アンモニアの閾値を `if` で書く、console.log 風のコード。PFAS の画面では CHEMICAL WARNING と分子モデル、「Generating imagery...」、[PFAS SENSOR] のライブ値が同時に出ます。モデルの判断は、黒箱の結論ではなく、条件分岐として見せる設計です。
+行政の定量的な記録と、子どもの声が、同じ画面に同じ重さで載ります。別の画面では、Barking and Dagenham の計画図と、冠水した街路の写真が並びます。地域の Facebook や Instagram の投稿も、[SOCIAL MEDIA] というセンサとして扱われます。
 
-![水質 BAD の判定を、コードとして露出する。写真：Superflux](images/analyse-1.jpg)
+警告のウィンドウは、さらに中身を見せます。「Analysing water sample...」の下に、OXYGEN LEVELS: LOW、NUTRIENT LEVELS: HIGH、WATER QUALITY: BAD。その下に、酸素・窒素・リン・アンモニアの閾値を `if` で書いたコードが表示されます。
 
-![PFAS 警告と分子モデル。写真：Superflux](images/screen-06.jpg)
+![水質を BAD と判定した警告と、その判定に使った閾値の条件分岐コードが並ぶ画面](images/analyse-1.jpg)
 
-ソーシャルは、別レイヤのセンサです。**Researching ecological impact...** の画面では、Facebook / Instagram の投稿が [SOCIAL MEDIA] として並び、著者は Barking や Ilford の個人、Roding Community Page。日付は 2023 と 2030年代が混在します。別画面では Community Portal のライブ報告、#POLLUTEDRODING の画像グリッド、Twitter 風の投稿、pH メータと黄色いセンサ艇の写真が、同じフィラメントの上に載ります。
+写真：Superflux
 
-![地域のソーシャル投稿をセンサとして並べる。写真：Superflux](images/screen-01.jpg)
+判定は、結論だけを出す黒箱になっていません。どの値がどの閾値を越えたかを、条件分岐として見せます。行政官は、データが足りないから動けないのではありませんでした。だから画面は、データを一つの指標に圧縮しません。
 
-つまり画面は、一つの真実の地図ではありません。行政データ、学校調査、SNS、ライブセンサ、生成中のイメージが、機関の文具として同居します。Superflux が文章で書く「生態データからコミュニティの投稿までを辿る」は、この重ね方のことです。
+この設計の背景には、機関の設定があります。EIA は、一つの巨大なモデルではなく、局所的な AI モデルの集まりという設定です。目指すのは全体像ではなく、Superflux が *(partial) picture* と書く部分的な絵です。知識の隙間に出会ったら、答えで埋めずに、誰にさらに意見を聞くべきかを指します。
 
-## データの扱い方：詩は翻訳層である
+## 川が、詩で語りかける
 
-制作の一次情報は、かなり具体です。生成モデルは、すべての視覚出力と、ローディング川の声に使われました。LLM に川として語らせる。プロンプトの参照先は、英国ロマン派のバラッド、自由詩の曲がりくねった抒情、ロンドンのスポークンワードの土地の舌です。永遠化学物質が静かに落ちていく嘆きから、調和した未来の想像まで。入力は生態データだけではありません。コミュニティのソーシャルメディア投稿も混ぜ、接続を立て、詩的出力へ畳みます。音のミックスは David Vélez です。
+画面の最後に、ローディング川そのものが語り出します。生成モデルを使い、LLM に川として話させています。プロンプトが参照したのは、英国ロマン派のバラッド、自由詩の抒情、ロンドンのスポークンワードです。入力には生態データだけでなく、地域のソーシャルメディア投稿も混ぜています。音のミックスは David Vélez が担当しました。
 
-チームは Jon Ardern、Camille Dunlop、Anab Jain、Matthew Edgson、Ed Lewis、Isabelle Bucklow。年は 2023。
+川の調査から、語りは三つのシナリオに分かれ、それぞれ短編として Vimeo で公開されています。
 
-ローディング川の環境リスクとアメニティリスクの調査から、シナリオは三つに分かれます。
-
-| 短編（Vimeo） | 長さ | Superflux が書く焦点 |
+| 短編 | 長さ | Superflux が書く焦点 |
 |---|---|---|
-| Pollution | 5:34 | 永遠化学物質が食物連鎖などのカスケードを通じて生態系へ与える影響 |
-| Sewage | 5:40 | 大規模インフラと下水、藻類のブルームなど川への波及 |
+| Pollution | 5:34 | 永遠化学物質が、食物連鎖などを通じて生態系に与える影響 |
+| Sewage | 5:40 | 大規模インフラと下水、藻類の大発生など川への波及 |
 | Flooding | 5:44 | 洪水リスクの増加と、自然な水の流れと共に暮らす想像 |
 
-画面の PFAS 警告は第一シナリオ、藻の瓶と酸素不足の判定は第二、洪水アーカイブは第三に対応します。LSN Global は、この三本を「AI が汚染・下水・洪水を *solve* する短編」と要約しました。一次情報の語彙は *solve* ではありません。影響を見る、含意を見る、共に暮らす仕方を speculate する。可視化の種類としても、予測図や最適化のデモではなく、**条件つきのシナリオ**です。
+画面の PFAS 警告は Pollution に、藻の瓶と酸素不足の判定は Sewage に、冠水の写真は Flooding に対応します。永遠化学物質が静かに沈んでいく嘆きから、川と調和した未来の想像まで、川の声は幅を持って語ります。
 
-Anab Jain の公開文（2023-09-04）は、EIA を open-source の機関としても紹介しています。作品頁本体にはリポジトリの所在は書かれていません。宣言のトーンと、検証可能な公開物とは、分けて読む必要があります。検証可能な公開物は、三本の短編と、瓶・センサ台・画面という設置、フォーラムに出たという記録です。
+なぜ数字ではなく詩なのか。Superflux は数学者 Alfred North Whitehead（ホワイトヘッド）を引いています。命題はそれ自体で真でも偽でもなく、世界の感じ方を変える *lure for feeling* だ、という考え方です。命題の効力は、何を感じ、考えられるようにするかで決まります。
 
-## データ可視化 × スペキュラティブ・デザイン
+Ardern は取材で、現行法の多くは「搾取を制御された形で続けるための損傷制限」だと述べています。数字を足しても、川をサービスとして見る枠が残れば、政策は被害の上限を管理するだけになります。川の詩は、**行政官が川を会議の相手として感じる**ための翻訳です。
 
-スペキュラティブ・デザインは、完成解を提示するより、「もし〜だったら」を器物と物語にして、いま見えていない現実を議論可能にします。Policy Lab 自身も、speculation は望ましい／望ましくない未来のビジョンを共有するプローブであり、予測でも解決策でもない、と書いています。EIA が自分を「意図的なアプローチ」と呼ぶとき、機関のロゴや詩は装飾ではなく方法です。
+一方で、Tovey は作品ページにこう書き残しています。雨粒のデータ、つまり跳ねる、濡れる、この大きさ、この速さのどれも、雨粒そのものではない。川の声も、川の忠実な写しではありません。Superflux が *(partial)* と書くのは、この限界を認めた表記です。
 
-**データを、感覚の誘因へ翻訳する。** Superflux は数学者ホワイトヘッドを引きます。命題はそれ自体で真でも偽でもなく、世界の感じ方を変える *lure for feeling* であり、効力は何を感じ・考えることを可能にするかで決まる、と。これは情報デザインの古典的な「正確さ」の指標を、意図してずらしています。Ardern が言う「データはあるが変化しない」は、可視化の失敗モードの指摘です。量を足しても、川をサービスと見る枠が残れば、政策は被害の上限を管理するだけになる。parCitypatory の取材で彼は、現行法の多くが「搾取を制御された形で続けるための損傷制限」だと述べています。詩と瓶は、その枠をずらすためのインターフェイスです。
+## 第三者はこの作品をどう見たか
 
-**対象のデータは、対象ではない。** Defra Futures の Phil Tovey は、Superflux 頁にこう残しています。Tim Morton（カントの例）を借りて、雨粒のデータ——跳ねる、濡れる、不快、快い、この大きさ、この速さ——のどれも雨粒そのものではない、と。more-than-human の未来には、新しいデータ視点が要る。これは可視化への賛辞であると同時に、警告です。川の代理音声は、川の忠実な表現ではありえない。Tovey 自身が問うているのも、「非人間の忠実な表象の閾はどこか」です。EIA が *(partial)* と書くのは、この閾を認めた表記です。画面のフィラメントは川の写しではなく、接続の修辞です。
+公開直後の専門的なレビューは多くありません。ここでは、論点の違う三つの見方を並べます。
 
-**単一の声を、複数の経路にばらす。** 典型的な河川ダッシュボードは、水質・流量・放流回数を一枚に圧縮します。EIA は圧縮の代わりに、科学データ、学校調査、SNS、詩の伝統、スポークンワードを並列し、出力を「神話＝詩の合唱」と呼びます。隙間を隠さず、諮るべき相手を指す。可視化の倫理としては、欠損を誤差ではなく、手続きの一部にすることです。警告窓がコードを見せるのも、その手続き化です。ただし制作手段は、スタジオが批判する生成モデルそのものです。批判対象を道具に使う緊張は、作品の外側の瑕疵ではなく、中の設計です。
+- 委託した側の Policy Lab は、2024年2月の記録で本作を、未来の政策決定における AI の役割を体験させる設置と位置づけました。Tovey は、分析的なフォーサイトだけでは届かない場所へ、未来を「触れる現在」にしたと評しています。評価の軸は予測の精度ではなく、議論が起きたかどうかです。
+- トレンド誌の LSN Global（2023-09-29）は *ground-breaking* と呼びつつ、三本の短編を「AI が汚染・下水・洪水を解決する」話として要約しました。企業が水の問題の代替策を見つける兆しとして読んでいます。Superflux の語彙は「解決する」ではなく、影響を見て、共に暮らす仕方を想像する、です。スタジオが置いた AI への疑いは、この読みでは薄くなります。
+- parCitypatory の Laura Puttkamer（2025-08-01）は、Design Museum での再展示を機に Ardern に取材しました。焦点は、データに感情を足すことで、住民を川の守り手に変えられるかです。Ardern は、影響の定量は難しいと認めています。そのうえで、何年たっても「考え方が変わった」と連絡が来ること、政策担当者がワークショップで川の声を使った例があることを挙げ、遅い仕事だと答えています。
 
-**未来を、予測図ではなく制度のフィクションとして置く。** 2043年以降という地平は、Policy Lab が Voros の Futures Cone と Overton Window で説明した「いまの合意から外へ出る」ための時間です。EIA という省庁の形は、その外へ出たあとの、ありうる意思決定の器物です。瓶を置く手、READY の灯、児童の調査文。川の健康を政策文書の付録ではなく、会議の相手にする。フォーラム参加者の反応として Superflux が書くのも、非人間中心の AI への興奮、関係性を暴く役割、more-than-human に声を与えることが理解と慈悲を助けうる、という三点です。「rich and knotty」——豊かで縺れた議論——が、成功の指標として選ばれています。
+同じ作品が、委託側には議論を起こす装置として、トレンド誌には AI による解決の兆しとして読まれました。詩と瓶への翻訳は、受け取る側の枠組みによって意味が変わります。
 
-![空のセンサ台。円形ディスプレイが幾何学模様を描く。写真：Superflux](images/sensor.jpg)
+## 使い道
 
-## 第三者による評価・評判
+**本作が可視化の仕事に示すのは、データが足りないときではなく、データがあるのに人が動かないときの設計です。**持ち帰れることを三つに絞ります。
 
-公開直後の専用レビューは厚くありません。受容の主戦場は、委託側の実務記録と、トレンド／フューチャリストの紹介、二年後の美術館展示です。
+- 最初に、見る人と、その人の手元にあるものを確かめる。 本作の観客は、すでに数字を持つ行政官でした。だから Superflux は、数字を増やす代わりに、受け取り方を変えています。
+- 画面の前に、手で触れる入口を置く。 本作では、瓶をセンサ台に置く動作が入力でした。会議の資料でも、まず参加者の手に渡るものから組み立てられます。
+- 判定の根拠と、欠けている部分を見せる。 閾値の `if` 文を出すこと、*(partial)* と書くこと、意見を聞くべき相手を指すことは、どれも圧縮しない設計です。一つのスコアにまとめる前に、何を捨てたかを示せます。
 
-- **Policy Lab**（2024-02-07、公式ブログ）は、EIA を「未来の政策決定における AI の役割を体験させる設置」と位置づけ、スペキュラティブ・デザインを三実験の一つとして公文書化しています。Phil Tovey は、分析的フォーサイトだけでは届かない場所へ、未来を「触れる現在」にした、と評しています。予測の精度ではなく、可能性空間を組織が持てる形にした点が、委託側の評価軸です。
-- **Policy Lab UK** の LinkedIn（2025年、Design Museum 会期末）は、成果物を *mysterious, poetic, and powerful* と呼びます。2023年の第一観客は政策担当者で、のちに *More than Human* 展へ移った、という来歴も公式に語られています。
-- **LSN Global**（2023-09-29）は *ground-breaking* としつつ、三本の短編を「AI が問題を解く」楽観として読み、企業が水不足や下水の代替策を見つける信号だ、とビジネス機会へ畳みます。スタジオが先に置いた抽出的 AI への疑義は、ここでは薄くなります。トレンド誌がスペキュラティブな可視化を吸収するときの、典型的なずれです。
-- **Nikolas Badminton**（2023-09-04）は Design Fiction として紹介し、本文の大半は Superflux／Jain の告知文の再掲です。独立した批評というより、フューチャリスト回路での流通記録として読むのが正確です。
-- **Laura Puttkamer / parCitypatory**（2025-08-01）は、Design Museum のプレス内覧を起点に Ardern へ取材しています。EIA を「川に声を与える AI モデル」と要約し、Environment Agency の治水事業や River Roding Trust（Paul Powlesland）の権利運動と並べます。評の中心は再現精度ではなく、データに感情を足すことで住民を守護者へ変えうるか、です。Ardern 自身も、影響の定量は難しいが、何年たっても「考え方が変わった」と連絡が来る、政策担当がワークショップで川の声を採用した例もある、と応じています。遅い仕事だ、と。
-- **STIR World**（Asmita Singh、2025-08-13）は展覧会全体を評し、Superflux については後継作『Nobody Told Me Rivers Dream』（2025）を挙げます。非人間の代弁と同意の不可能性、という緊張を、Shimabuku のタコのための彫刻と並べて書いています。EIA への直接評ではありませんが、同じスタジオが川の声を設計することの倫理的な問いとして、本作の延長線上にあります。
-- **Critical Playground**（2025-10-22）も後継作の評です。AI を抽出ではなく聴取へ向け直す、と読み、劇場的な可視化を避けた静けさを評価しています。EIA が政策の会議室向けだったのに対し、後継は知覚の現場へ移った、という Superflux 自身の整理と整合します。
-- **Design Museum** の展覧会紹介は EIA を名指ししません。引用する外部評——*The London Standard* の「共感的なアプローチ」、*The Guardian* の「他種が繁るよう能動的に設計せよ」——は展示全体のトーンです。EIA 単体の新聞評として使うべきではありません。
-
-評価の中心は、「川を正しく描いたか」より、「政策の場で、人間以外を会議の相手にできたか」です。その意味で本作は、論文の可視化でも啓発キャンペーンでもなく、意思決定のリハーサル装置です。LSN がビジネス解に読んだことと、Tovey が雨粒のデータを雨粒ではないと言ったことは、同じ作品の二つの運命です。前者は道具化、後者は認識のずれの自覚です。スペキュラティブな可視化は、常に両方へ開きます。
-
-## その後：会議室から、知覚へ
-
-2025年7月11日〜10月5日、ロンドン Design Museum の *More than Human: Making with the Living World* に、EIA は再展示されます。Superflux は同時に、進化作として『Nobody Told Me Rivers Dream』を発表しました。焦点は政策形成から、人間の直接経験へ。テムズ川沿いに置く手仕事のセンサが鳥の声・潮・空を拾い、科学データだけでなく民間伝承や先住民的な生態の知恵で訓練したモデルが、人間を促す。関係は反転します。人間が AI に尋ねるのではなく、環境が AI を促し、AI が人間を促す。
-
-これは EIA の否定ではありません。2023年の仕事が「誰が政策のテーブルに座るか」を器物にしたのに対し、2025年の仕事は「何を知覚の言語にするか」へ移した、という続きです。データ可視化の問題設定も、ダッシュボードの改善から、**誰の感覚がデータになるか**へ移っています。
-
-## まとめ
-
-『The Ecological Intelligence Agency』は、淡水の未来を予測する機関ではなく、**川の健康を感覚可能にするための架空の制度**です。入力は生態データと地域の声、そして瓶に入った水。出力は図表ではなく、フィラメントの画面と川の詩。三つのシナリオは、永遠化学物質、下水とインフラ、洪水との共生です。欠けている知識は、埋めずに、諮るべき相手として残されます。
-
-データ可視化として読むなら、精度の競争作ではありません。データはあるのに行為が起きない、という vis の失敗に対して、命題を *lure for feeling* として設計し直した仕事です。雨粒のデータは雨粒ではない、という Tovey の注意は、いまも作品の一番正確な読み方です。代理の声は部分的であり、LLM を批判しながら LLM で作る矛盾も、隠されていません。
-
-第三者評は、その部分性を「詩的で強力」と取るか、「AI が解く楽観」と取るかで割れます。委託側は縺れた議論を成果と見なし、トレンド誌は解決の信号と見なす。スペキュラティブな可視化の公共的な運命は、たいていこの分岐です。
+もう一つ、Tovey の雨粒の注意は、そのまま可視化の注意です。どれほど丁寧に翻訳しても、表現は対象そのものではありません。詩でもチャートでも、それが部分的な絵だと書き添えることが、受け手を議論に招き入れます。
 
 ## 参考・出典
 
 **一次情報**
 
-- [The Ecological Intelligence Agency — Superflux](https://superflux.in/index.php/work/the-ecological-intelligence-agency/)
+- Superflux, [The Ecological Intelligence Agency](https://superflux.in/index.php/work/the-ecological-intelligence-agency/)（作品ページ、2023。Phil Tovey のコメントを含む）
 - Superflux, [The Ecological Intelligence Agency — Pollution / Sewage / Flooding](https://vimeo.com/superflux/videos)（Vimeo）
 - Policy Lab, [Using experimental methods to reimagine decision-making for the freshwater system, post 2043](https://openpolicy.blog.gov.uk/2024/02/07/using-experimental-methods-to-reimagine-decision-making-for-the-freshwater-system-post-2043/)（2024-02-07）
-- Anab Jain, [The Ecological Intelligence Agency 告知](https://www.linkedin.com/posts/anabjain_the-ecological-intelligence-agency-superflux-activity-7104434016883232768-lNR1)（LinkedIn、2023-09-04）
-- [Nobody Told Me Rivers Dream — Superflux](https://superflux.in/index.php/work/nobody-told-me-rivers-dream/)（2025、本作の進化）
-- Superflux, [A More Than Human Manifesto](https://superflux.in/index.php/a-more-than-human-manifesto/)（2021-12-17、スタジオの語彙の背景）
-- Superflux, [Calling for a More-Than-Human Politics](https://superflux.in/index.php/calling-for-a-more-than-human-politics/)（2020-03-23）
 
-**第三者**
+**第三者評価**
 
 - LSN Global, [Superflux unveils the Ecological Intelligence Agency](https://www.lsnglobal.com/daily-signals/article/29965/superflux-unveils-the-ecological-intelligence-agency)（2023-09-29）
-- Nikolas Badminton, [Super Flux – The Ecological Intelligence Agency](https://futurist.com/2023/09/04/super-flux-the-ecological-intelligence-agency/)（2023-09-04）
 - Laura Puttkamer, [If A River Could Speak…](https://parcitypatory.org/2025/08/01/if-a-river-could-speak/)（parCitypatory、2025-08-01）
-- Policy Lab UK, [Design Museum 会期末の投稿](https://www.linkedin.com/posts/policy-lab-uk_policyinnovation-futures-design-activity-7379071090377252864--tAx)（2025）
-- Design Museum, [More than Human](https://designmuseum.org/exhibitions/more-than-human)（2025-07-11〜10-05）
-- Asmita Singh, [More than Human at the Design Museum shapes a vocabulary for ecological design](https://www.stirworld.com/see-features-more-than-human-at-the-design-museum-shapes-a-vocabulary-for-ecological-design)（STIR World、2025-08-13）
-- Critical Playground, [Nobody Told Me Rivers Dream by Superflux](https://criticalplayground.org/nobody-told-me-rivers-dream/)（2025-10-22）
