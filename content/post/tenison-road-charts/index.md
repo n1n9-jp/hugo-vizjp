@@ -57,13 +57,13 @@ Physical Charts は、誰もが知っている円グラフと棒グラフを、�
 
 可視化が凝ったものになり、新しさが疑われずに追われている。それに対して、見慣れた円グラフと棒グラフを遊び心をもって使い、見る人がひと目でデータを理解できるようにする、という狙いです。Sweeney のポートフォリオは、発光する画面や LED を使わないことも、設計の条件に挙げています。
 
-物理化は、立体や手触りという新しい次元を足すために使われることが多い手法です。この作品では逆に、**2D の円グラフと棒グラフの読み方を、そのまま保つために使われている**と読めます。
+筆者の見るところ、物理化は、立体や手触りという新しい次元を足すために使われることが多い手法です。この作品では逆に、**2D の円グラフと棒グラフの読み方を、そのまま保つために使われている**と読めます。
 
 ## 巻尺の長さと、円盤の角度
 
 完成したのは、円グラフ2基と棒グラフ1基です。円グラフには、カードの版とアクリルの版があります。
 
-![白とグレーのカードの円グラフ、色分けされたアクリルの円グラフ、赤と青の棒が2段に並ぶ棒グラフの3基](images/cover.jpg)
+![白、明るいグレー、濃いグレーの扇形が並ぶカードの円グラフ、色分けされたアクリルの円グラフ、赤と青の棒が2段に並ぶ棒グラフの3基](images/cover.jpg)
 
 David Sweeney, Tim Regan, Alex Taylor, Siân Lindley／RTD 2015 "A Pixel is Not a Pixel" より引用（CC BY 4.0）
 
@@ -97,7 +97,7 @@ David Sweeney, Tim Regan, Alex Taylor, Siân Lindley／RTD 2015 "A Pixel is Not 
 
 データを明快に見せるため、元の2Dのグラフと見た目をできるだけ同じにした。そのために機構と制御系は、前から見えないように隠した、という説明です。紙やカード、巻尺を選んだのは、データに温かみと手触りを加えるためだとも書かれています。グラフは値が変わるときだけ電力を使います。
 
-使っている手がかりは、長さ、角度、色だけです。新しいエンコーディングはなく、手間はすべて、見慣れた形を前から崩さないことに注がれている、と読めます。
+使っている手がかりは、長さ、角度、色という基本的なものにとどまると読めます。機構を前から隠したのも、見慣れた形を崩さないためでした。
 
 ## 通りのパーティーから、窓の5週間へ
 
@@ -111,7 +111,7 @@ Tenison Road project（Microsoft Research）／tenisonroad.com「VOTE NOW!」よ
 
 CSCW 2017 の論文によると、窓の展示は、Bullfrog と PosterVote を配った5週間の調査と同時に行われました。円グラフは、BallotShare の「その日の質問」の結果をリアルタイムで見せました。棒グラフは、近所についての週の質問を、PosterVote と BallotShare の票を合わせて見せました。
 
-公開から分かったことを、CHI EA 2015 は三つ挙げています。投票がすぐグラフに表れることを人々が喜んだ、という報告のあとに、単純さの代償が書かれています。
+ストリートパーティーと V&A での公開から分かったことを、CHI EA 2015 は三つ挙げています。投票がすぐグラフに表れることを人々が喜んだ、という報告のあとに、単純さの代償が書かれています。
 
 > However, their simplicity also losses something of the fluid and emergent qualities of data, how data comes to mean different things to different people, at different times. The comments, stories and criticisms get lost in pairing down the results.
 
@@ -121,13 +121,13 @@ CSCW 2017 の論文によると、窓の展示は、Bullfrog と PosterVote を�
 
 > the potential to find Special Cards at the posters, or view results displayed on the Physical Charts, was acted upon by only a minority of Bullfrog participants. Most participants simply did not encounter the posters when taking their usual routes through the area, and seemed reluctant to change their habits to accommodate them.
 
-窓のグラフで結果を見たのは、Bullfrog の参加者のうち少数だった。多くはいつもの道順でその前を通らず、習慣を変えようともしなかった、という報告です。
+ポスターで特別なカードを探したり、窓のグラフで結果を見たりしたのは、Bullfrog の参加者のうち少数だった。多くはいつもの道順でポスターに出会わず、そのために習慣を変えようともしなかった、という報告です。
 
 ## 第三者はこの作品をどう見たか
 
-Physical Charts は、Information is Beautiful Awards 2014 の「Data visualization」部門で、ショートリストに入りました。受賞の記載はなく、審査の講評も見つかりません。画面の可視化が主流の賞で、見慣れたグラフの物理版が最終候補に残ったことになります。
+Physical Charts は、Information is Beautiful Awards 2014 の「Data visualization」部門で、ショートリストに入りました。受賞の記載はなく、審査の講評も見つかりません。見慣れた円グラフと棒グラフの物理版が、可視化の賞の最終候補に残ったことになります。
 
-研究の文脈では、動く物理グラフの早い例として扱われています。Taher、Jansen らは IEEE TVCG（2017）の論文で、こう書いています。
+研究の文脈では、動く棒グラフと円グラフの例として挙げられています。Taher、Jansen らは IEEE TVCG（2017）の論文で、こう書いています。
 
 > For example, Microsoft's Physical Charts [26] demonstrates dynamic bars and pie charts
 
@@ -143,9 +143,9 @@ Physical Charts は、Information is Beautiful Awards 2014 の「Data visualizat
 
 この作品から持ち帰れるのは、まず、物理化を新しさのためでなく、読み慣れた形を保つために使う選択肢です。読み方を教えなくても読めるグラフを、画面の外で目立たせる設計と読めます。
 
-二つ目は、凡例を素材で作ることです。色の名前より、同じ素材の見本を並べた方が、凡例と本体の対応を目で確かめやすくなります。
+二つ目は、凡例を素材で作ることです。凡例の見本は円グラフと同じ素材なので、本体との対応を目で確かめやすいと読めます。
 
-三つ目は、置き場所を選んでも、道順までは選べないことです。作者らは通りから見える窓を選びましたが、その前を通らない参加者には届きませんでした。公共の場に置く可視化では、誰がその前を通るかまで調べる必要があります。
+三つ目は、置き場所を選んでも、道順までは選べないことです。作者らは通りから見える窓を選びました。それでも、結果までたどり着いた Bullfrog の参加者は少数で、多くはいつもの道順の途中でポスターに出会いませんでした。窓のグラフにも同じことが言える、と読めます。公共の場に置く可視化では、誰がその前を通るかまで調べる価値があります。
 
 四つ目は、単純にした分だけ、落ちた声を受け止める場所を用意することです。作者らは、住民がデータに解説や問いを重ねられる軽い手段が要る、と書いています。円グラフを読みやすくするほど、その外側に声を拾う仕組みが要る、と読めます。
 
