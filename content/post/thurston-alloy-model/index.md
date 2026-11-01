@@ -1,6 +1,6 @@
 +++
 author = "矢崎裕一"
-title = "106本の針金のあいだを石膏で埋める──Thurston の銅・スズ・亜鉛の合金模型"
+title = "106点の実測値のあいだを石膏で埋める──Thurston の銅・スズ・亜鉛の合金模型"
 slug = "thurston-alloy-model"
 date = "2026-11-01"
 description = "三角形の上の位置で銅・スズ・亜鉛の配合比を、針金の高さで引張強さを表した模型です。106点の実測値のあいだを石膏で埋めて曲面にしています。"
@@ -72,7 +72,7 @@ R. H. Thurston, Proceedings of the AAAS 26 (1878), p.118, Figure 2／Internet Ar
 
 例えば、銅の頂点から1インチの位置には、銅90・スズ10の砲金の強さを表す針金が立ちます。同じように青銅、真鍮、三元合金の点に針金を立て、点の数は106になりました。
 
-1877年の論文は、作り方を手順として書いています。真鍮板に三角形を描き、測った点に、長さをそろえた針金を固定する。板で枠を作り、針金が隠れるまで石膏を流し込む。固まったら上から削り、針金の先端がちょうど出たところで止める。
+1877年の論文は、作り方を手順として書いています。真鍮板に三角形を描き、測った点に、強さに比例した長さの針金を固定する。板で枠を作り、針金が隠れるまで石膏を流し込む。固まったら上から削り、針金の先端がちょうど出たところで止める。
 
 ![三角形の台の上に、奥の辺に沿って高く盛り上がった山と、手前の頂点へ下っていく斜面を持つ石膏の塊が載っている版画](images/plaster-model-1877.jpg)
 
@@ -131,27 +131,25 @@ Thurston は、データの限界も書いています。合金はふつうの�
 
 評価は、同時代の報告、のちの金属学、図の歴史研究で論点が分かれます。
 
-金属試験委員会の委員長 T. T. S. Laidley は、1878年6月8日付の議会への報告で、模型を次のように紹介しました。
+金属試験委員会の委員長 T. T. S. Laidley は、1878年6月8日付の報告で、模型を次のように紹介しました。
 
 > … is shown at a glance by a model ingeniously devised by Professor Thurston
 
 2種類か3種類の金属で作れる全合金の引張強さが、Thurston の模型で一目で分かる、という評価です。報告は寸法、縮尺、点の数、等高線の精度まで記録しています。模型を、研究成果の要約として扱っていたと読めます。
 
-金属学者の Samuel L. Hoyt は、1914年の Columbia 大学の博士論文で、データの中身の限界を指摘しました。
+金属学者の Samuel L. Hoyt は、1914年の Columbia 大学の博士論文で、機械的性質を主に扱う Thurston の仕事を、検討の範囲から外しています。
 
 > … since it deals mainly with the mechanical properties, it (and other similar work) will not be considered here.
 
-Thurston の仕事は合金の構造（相）についても推測を述べているが、主に機械的性質を扱っているので、ここでは取り上げない、という判断です。一方で Hoyt は、強さが50,000から65,000へ急に上がり、狭い範囲で5,000まで落ちるという Thurston の結果を引いています。強さの急変は、相の境界を示すものとして読まれました。
+Thurston の仕事は合金の構造（相）についても推測を述べているが、主に機械的性質を扱っているので、ここでは取り上げない、という判断です。一方で Hoyt は、強さが50,000から65,000へ急に上がり、狭い範囲で5,000まで落ちるという Thurston の結果を、相の境界を示すものとして引いています。
 
 図の歴史では、三角図そのものは Thurston より古いとされます。Richard J. Howarth は1996年の論文で、その起源を18世紀の色の混合の研究に置きました。公開されている参考文献一覧に、Thurston の名は見当たりません。Thurston 自身も、Gibbs が1876年に別の分野でこの原理を提案したと書いています。一方で1899年には、三軸の図を「I think, first employed by me」と書きました。この「最初」は、合金の研究計画に使ったという意味に限って読むのが安全です。
 
-データ物理化の事例集 dataphys.org で登録者の Pierre Dragicevic は、3次元の曲面が最大と最小を一望させ、補間にも使えるので、多くの測定をせずに極値を探せる、と説明しています。
-
 ## 使い道
 
-この模型から持ち帰れるのは、測った点と補った面を、同じ表面の上で区別して見せることです。曲面の図で、どこが実測でどこが補間かを示しているものは多くありません。Thurston の模型では、光る針金の先端が実測で、そのあいだの石膏が補間です。
+この模型から持ち帰れるのは、測った点と補った面を、同じ表面の上で区別して見せることです。Thurston の模型では、光る針金の先端が実測で、そのあいだの石膏が補間です。
 
-次に、図を描く前に、標本点の取り方を図で決めていることです。10%刻みで全体を見て、強い領域だけ5%、2.5%と刻みを細かくする。図2の同心三角形は、結果の図であると同時に、試験の計画表でした。可視化を、次に何を測るかを決める道具として使っています。
+次に、図を描く前に、標本点の取り方を図で決めていることです。10%刻みで全体を見て、強い領域だけ5%、2.5%と刻みを細かくする。図2の同心三角形は、試験の計画表でした。可視化を、次に何を測るかを決める道具として使っています。
 
 最後に、精度の書き方です。委員会報告は、縮尺（1インチ＝25,000 psi）と等高線の間隔（2,500 psi）を書き残しました。Thurston は、鋳造条件によるばらつきが模型に出ていることも認めています。立体を見せるときも、何をどの精度で読めるかを添える。この模型と報告は、その古い手本と読めます。
 
@@ -169,5 +167,8 @@ Thurston の仕事は合金の構造（相）についても推測を述べて�
 
 - Samuel L. Hoyt, *On the Copper Rich Kalchoids (Copper Tin Zinc Alloys)*, PhD thesis, Columbia University, 1914. [Internet Archive](https://archive.org/details/oncopperrichkalc00hoytrich)
 - Richard J. Howarth, "Sources for a history of the ternary diagram," *The British Journal for the History of Science* 29(3), 1996, pp.337–356. doi:10.1017/S000708740003449X [Cambridge Core](https://www.cambridge.org/core/journals/british-journal-for-the-history-of-science/article/sources-for-a-history-of-the-ternary-diagram/E8DF73C8E8EB183E6F68B7119AE18F71)
-- dataphys.org, "1875 – Robert Henry Thurston's Glyptic Models"（登録：Pierre Dragicevic）. [dataphys.org](https://dataphys.org/list/robert-henry-thurstons-glyptic-models/)
+
+**そのほか（画像の掲載元・経歴の確認）**
+
+- dataphys.org, "1875 – Robert Henry Thurston's Glyptic Models"（図3の画像の掲載元。登録：Pierre Dragicevic）. [dataphys.org](https://dataphys.org/list/robert-henry-thurstons-glyptic-models/)
 - Wikipedia, "Robert Henry Thurston"（経歴の確認用）. [Wikipedia](https://en.wikipedia.org/wiki/Robert_Henry_Thurston)
