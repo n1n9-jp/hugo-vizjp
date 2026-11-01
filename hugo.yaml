@@ -78,6 +78,11 @@ permalinks:
 params:
     mainSections:
         - post
+    home:
+        # トップページに出す特集（series の ID）。上から並べる順。
+        series:
+            - speculative-design
+            - data-physicalization
     author:
         orcid: https://orcid.org/0009-0005-2429-3279
         name: 矢崎裕一

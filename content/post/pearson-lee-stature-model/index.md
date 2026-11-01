@@ -14,6 +14,10 @@ tags = [
     "Karl Pearson"
 ]
 image = "images/ucl-model-original.jpg"
+series = ["data-physicalization"]
+series_weight = 2
+seriesByline = "Karl Pearson・Alice Lee"
+seriesTitle = "度数表を柱に立てる──身長模型"
 +++
 
 ロンドン大学ユニバーシティ・カレッジ（UCL）の統計科学科に、額に入った模型があります。父と息子1,078組の身長を1インチ刻みの格子で数えた度数表を、角柱の高さに置き換えたものです。柱の並びを見ると、分布の山と、その尾根が斜めに伸びる向き（相関係数 r = 0.514）が、数字の表を読まなくても形として見えます。

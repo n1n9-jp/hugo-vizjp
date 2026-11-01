@@ -12,6 +12,10 @@ tags = [
     "棒グラフ"
 ]
 image = "images/red-and-blue-bars-start.jpg"
+series = ["data-physicalization"]
+series_weight = 10
+seriesByline = "Respect New Haven"
+seriesTitle = "204mの帯と8cmの赤──Walkable Bar Chart"
 +++
 
 2021年5月1日、米コネチカット州ニューヘイブンのプロスペクト通りに、2本の棒が描かれました。イェール大学の基金312億ドルを表す長さ670フィート（約204m）の青い帯と、市への年1,300万ドルの任意拠出金を表す3と1/4インチ（約8cm）の赤い長方形です。報道された寸法から計算すると、2本は同じ縮尺で描かれていて、差は約2,400倍になります。この作品は、その差を紙の上で見て比べるものから、通りを歩いて確かめる距離に変えた、と読めます。

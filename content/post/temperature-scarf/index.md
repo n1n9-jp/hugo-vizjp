@@ -12,6 +12,10 @@ tags = [
     "色"
 ]
 image = "images/color-card.jpg"
+series = ["data-physicalization"]
+series_weight = 7
+seriesByline = "Kristen Cooper ほか"
+seriesTitle = "1日1段、5℃ごとに色を替える──気温スカーフ"
 +++
 
 気温スカーフ（Temperature Scarf）は、「1日＝1段」を長さに、「その日の最高気温を5℃刻みで区切った階級」を色に割り当てた、1年分の段階的なカラースケールの時系列です。毎日1段ずつ編み足すと、年末には365段の縞が残ります。縞の並びが日付で、縞の色が気温の階級です。凡例にあたる色見本は、編む人が自分の土地の気温幅に合わせて作ります。

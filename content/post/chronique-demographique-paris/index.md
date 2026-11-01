@@ -13,6 +13,10 @@ tags = [
     "ジャック・ベルタン"
 ]
 image = "images/film-frame-paris-columns.jpg"
+series = ["data-physicalization"]
+series_weight = 4
+seriesByline = "ISHA・CMSS"
+seriesTitle = "1万人の立方体で撮る──パリの人口160年"
 +++
 
 『Chronique Démographique de la Région Parisienne 1801 - 1961』は、1個＝1万人の小さな立方体をコミューンごとに積んだ柱を地図の上に並べ、ナレーションが読み上げる年ごとにコマ撮りした映画です。柱が伸びたり縮んだりする様子から、1801〜1961年のあいだに、パリの中心が空き、郊外が膨らんでいく人口の移動が見えてきます。

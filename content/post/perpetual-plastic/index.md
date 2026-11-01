@@ -12,6 +12,10 @@ tags = [
     "サンキー・ダイアグラム"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 9
+seriesByline = "Liina Klauss・Moritz Stefaner・Skye Morét"
+seriesTitle = "同じ流れを浜のごみで並べる──Perpetual Plastic"
 +++
 
 『Perpetual Plastic』は、これまでに作られたプラスチックの総量が、廃棄・使用中・焼却・リサイクルの4つの行方へ分かれる流れを描いた作品です。制作者は同じ流れを、論文の流れの図、サンキー図、半円の3つの形で並べて見せています。浜の作品では、ごみを全部ではなく色を基準に集め、帯に並べました。帯の色の指定が、そのまま拾うごみの指示になっている、と筆者は読みます。

@@ -13,6 +13,10 @@ tags = [
     "Charles Davenport"
 ]
 image = "images/students-file-by-height.jpg"
+series = ["data-physicalization"]
+series_weight = 3
+seriesByline = "Charles B. Davenport"
+seriesTitle = "並べ替えて別のグラフにする──紙を使わない度数多角形"
 +++
 
 同じ学生でも、身長順の一列に並べれば、頭の高さの線が順位と値の並びになります。2インチごとの階級の列に並べれば、列の長さが度数になります。1901年、生物学者の Charles Benedict Davenport（チャールズ・B・ダヴェンポート）は論文に、シカゴ大学の学生40人をこの2通りに並べた写真を載せました。データも人も同じで、並べ方だけで別のグラフになります。

@@ -13,6 +13,10 @@ tags = [
     "L. Leland Locke"
 ]
 image = "images/cleveland-inka-khipu.jpg"
+series = ["data-physicalization"]
+series_weight = 1
+seriesByline = "アンデスの記録係"
+seriesTitle = "数を、結び目と位置で記す──キープ"
 +++
 
 キープ（quipu／khipu）は、数を「結び目の種類と数×縄の上の位置（十進の位取り）」で、項目を「縄の色と並び順」で表し分けた記録装置です。主縄から何十本もの縄を下げ、1本の縄に数を結びます。何の数かは縄の色と並び順で示した、と Garcilaso は証言しています。ただし色の意味は、標本を越えて一般化できません。
