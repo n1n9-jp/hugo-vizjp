@@ -30,7 +30,7 @@ Francis Galton（フランシス・ゴルトン）のクインカンクス（qui
 
 装置が初めて人前に出たのは、1874年2月27日です。Galton はロンドンの王立研究所（Royal Institution）で "On men of science, their nature and their nurture" と題して講演しました。講演の要旨には、「誤差の頻度の法則」の箇所に "[this was illustrated by many experiments]" と添えられています。1877年の講演でも、この装置を「3年前にまさにこの講堂で使った」と振り返っています。
 
-UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 52 mm です。統計学史家の Stephen M. Stigler（スティーヴン・スティグラー）は、互い違いにずれた釘が17段あると書いています。鉛玉の入った丸箱が付属し、蓋には「8 ounces」とあります。
+UCL の記録（LDUGC-063）によると、原器の大きさは 360 × 290 × 52 mm です。統計学史家の Stephen M. Stigler（スティーヴン・スティグラー）は、互い違いにずれた釘が17段あると書いています。
 
 原器には、使い方を書いた銘文があります。Kunert らの論文が、Stigler の『The History of Statistics』（1986）から引いています。
 
@@ -60,7 +60,7 @@ Francis Galton『Natural Inheritance』（1889）Fig. 7–9／Wikimedia Commons 
 
 それぞれの玉に、小さく独立した偶然がいくつも降りかかる。右へのずれと左へのずれはたいてい打ち消し合うので、多くの玉は漏斗の真下近くに落ちる。これが「平凡なもの」が多い理由だ、という説明です。
 
-Galton の文章から、部品と意味の対応をまとめると次のようになります。
+Galton の文章から、部品と意味の対応をまとめます。
 
 | 装置の部品 | 対応させたもの | Galton の言葉と出典 |
 |---|---|---|
@@ -103,11 +103,11 @@ Galton の文章から、部品と意味の対応をまとめると次のよう�
 - 中央へ傾いた斜めの樋（shoot）：回帰（reversion）。どの樋も中央の鉛直線へ向かうので、山の幅が縮む（p.292）。
 - その下の釘の列：同じ家族の中でのばらつき。落とし戸を1つ開けると、真下に小さな山ができる（p.292）。
 
-すべての落とし戸を開けると、小さな山が重なり、最初とそっくりの山に戻ります。世代が変わっても分布の幅が保たれることを、部品の組み合わせで示したわけです。Stigler は、講演の文面からは実際に動く模型があったと読めるが、残っていないと書いています。Kunert らは、2段式は実際には作られなかったらしいとしています。
+すべての落とし戸を開けると、小さな山が重なり、最初とそっくりの山に戻ります。世代が変わっても分布の幅が保たれることを、部品の組み合わせで示したわけです。講演で動く模型を使ったと Stigler は読みますが、模型は残っておらず、Kunert らは作られなかったらしいとしています。
 
 1889年の本では、同じ構造を思考実験に使い回します。上の図の Fig. 8 では、装置を途中の高さで水平に切り、中段に箱 AA を挟みます。中段までの確率誤差を a、そこから下を b、全体を q とすると、q² = a² + b² になる、という分散の合成です（pp.67–68）。Fig. 9 では、玉をいったん中央へ寄せてから落とし、形を保ったまま幅だけを小さくします（p.69）。
 
-ここで、装置が置かれていた文脈にも触れておきます。Galton がこの装置で語ろうとしたのは、遺伝と人間の能力の分布でした。Kunert らは、Galton の主な関心が「生殖の選択による人類の改良」で、そのために eugenics（優生学）という語をつくったと書いています（p.144）。装置の数学と、それを使って語られた主張は、分けて読む必要があります。
+Galton がこの装置で語ろうとしたのは、遺伝と人間の能力の分布でした。Kunert らは、Galton の主な関心が「生殖の選択による人類の改良」で、そのために eugenics（優生学）という語をつくったと書いています（p.144）。装置の数学と、それを使って語られた主張は、分けて読む必要があります。
 
 ## 第三者はこの装置をどう見たか
 
@@ -155,4 +155,3 @@ Galton 自身は、数式に移ったあとも図を手放すなと書いてい�
 - Stephen M. Stigler, "Darwin, Galton and the Statistical Enlightenment", *Journal of the Royal Statistical Society: Series A* 173(3), 2010, pp.469–482. [PDF](https://gwern.net/doc/statistics/bayes/2010-stigler-2.pdf) / [書誌](https://ideas.repec.org/a/bla/jorssa/v173y2010i3p469-482.html)
 - Joachim Kunert, Astrid Montag, Sigrid Pöhlmann, "The quincunx: history and mathematics", *Statistical Papers* 42(2), 2001, pp.143–169. [PDF](https://www.ifa.com/pdfs/the-quincunx.pdf) / [doi:10.1007/s003620100048](https://doi.org/10.1007/s003620100048)
 - Kevin Judd, "Galton's Quincunx: random walk or chaos?", 2006. [PDF](https://nolanhergert.github.io/notes_old/0media/home/quincunx.pdf)
-- Wikipedia「Galton board」. https://en.wikipedia.org/wiki/Galton_board

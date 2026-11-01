@@ -26,11 +26,9 @@ emoto（エモト）のデータ彫刻は、ロンドン2012五輪をめぐる�
 
 ## 1,250万件のツイートを、3つの形で見せる
 
-emoto は、FutureEverything のプロジェクトとして、Cultural Olympiad と London 2012 Festival のために委嘱されました。発案者でプロジェクトディレクターは Hemment、リードデザイナーは Stefaner です。Studio NAND（Stephan Thiel、Steffen Fiedler、Jonas Loh）は制作全般に関わり、物理彫刻のデザインを主導しました。
+emoto は、FutureEverything のプロジェクトとして、Cultural Olympiad と London 2012 Festival のために委嘱されました。発案者でプロジェクトディレクターは Hemment、リードデザイナーは Stefaner です。物理彫刻のデザインは、Studio NAND（Stephan Thiel、Steffen Fiedler、Jonas Loh）が主導しました。
 
-データは、2012年7月27日の開会式から8月12日の閉会式まで、Twitter の公開APIでリアルタイムに集めました。五輪に関わるキーワードに当たった英語のツイートです。件数は資料によって少し違い、Hemment の論文は「12.5 million」、公式サイトは「12 million English tweets」と書いています。
-
-各ツイートには、Lexalytics の Salience Engine が感情のスコアを付けました。論文によれば、スコアは −6（very negative）から +6（very positive）までの、等幅のビンに振り分けられています。話題（競技、選手、国など）は、あらかじめ決めたリストに沿ってチャンネルに分けました。
+データは、2012年7月27日の開会式から8月12日の閉会式まで、Twitter の公開APIで集めた英語のツイートです。件数は、Hemment の論文で「12.5 million」、公式サイトで「12 million English tweets」です。各ツイートには Lexalytics の Salience Engine が感情のスコアを付け、−6（very negative）から +6（very positive）までの等幅のビンに振り分けました。話題（競技、選手、国など）は、あらかじめ決めたリストで分けています。
 
 Hemment は、見せ方を三つと書いています。
 
@@ -42,13 +40,19 @@ Hemment は、見せ方を三つと書いています。
 
 Moritz Stefaner／Truth & Beauty「emoto」より引用
 
-Web版は大会中の「いま」を見せました。話題ごとの正と負の配分を、折り紙のような形で描く Topics View と、ツイートが流れる Message Stream です。彫刻は大会が終わってから作られました。2012年9月7〜9日、プレストンで開かれた WePlay（London 2012 Festival の一部）で初めて展示されています。2013年には北京の CAFA Art Museum の Information in Style 展にも出ました。
+Web版は、大会中の「いま」を見せました。彫刻は大会が終わってから作られ、2012年9月7〜9日、プレストンで開かれた WePlay（London 2012 Festival の一部）で初めて展示されました。2013年には北京の CAFA Art Museum の Information in Style 展にも出ています。
 
 ![暗い台の上に、青く照らされた切削板が並ぶ。手前に DAY 3、15:00、DAY 5 の文字が映り、奥の壁には横長の sentigraph が掛かっている](images/cover.jpg)
 
 Moritz Stefaner・Drew Hemment・Studio NAND／Truth & Beauty「emoto」より引用（同じ写真は ISEA2013 論文の Fig. 2「emoto data sculpture and sentigraph」、CC BY-NC-SA 3.0）
 
-データの取得は、公開の直前に崩れかけています。論文によると、当初はデータ再販業者から、全ツイートを流す Firehose の拡張版を使えるはずでした。ところが Twitter が利用規約を締め、得たデータや洞察は「no data or derived insight obtained from them could be publicly displayed in any form」と伝えられます。チームは2週間でインフラを作り直し、1日4億件の約1%にあたる公開APIに切り替えました。
+データの取得は、公開の直前に崩れかけました。論文によると、当初は全ツイートを流す Firehose の拡張版を使えるはずでした。ところが Twitter が規約を締め、どんな形でも公開表示はできないと伝えられます。チームは2週間でインフラを作り直し、1日4億件の約1%にあたる公開APIに切り替えました。
+
+Hemment は、このデータの限界も書いています。英語のツイートだけで、Web版の利用者は65%を超えて英米加豪の4か国からでした。
+
+> Such a limited perspective does not represent 'what the world thinks.'
+
+限られた視点は「世界がどう考えているか」を表さない、という一文です。感情分析の精度の評価はプロジェクトの範囲外で、BBC が悪いニュースを報じると BBC に負のスコアが付く、といった取り違えも起きたと書いています。
 
 ## グレーのヒートマップを、高さに削る
 
@@ -58,36 +62,30 @@ Moritz Stefaner・Drew Hemment・Studio NAND／Truth & Beauty「emoto」より�
 
 もとは平面のグレーの[ヒートマップ](/heatmap/)です。1時間ごと、感情の段階ごとに、ツイート数を小さな長方形にまとめる。明るい長方形ほど件数が多く、彫刻のその点も高くなる。それが、ジェットコースターのような帯になった、という説明です。
 
-Studio NAND の Stephan Thiel（シュテファン・ティール）も、同じことを一文で言っています。
+**平面のヒートマップでは色の明るさが担っていた件数を、彫刻では高さが担っています。** Studio NAND の Stephan Thiel（シュテファン・ティール）の言葉では、高さは「a third dimension in addition to time and sentiment-score」です。時間と感情の段階は、板の上の位置に残りました。Stefaner は、彫刻には「all tweets we have collected for emoto」が入っているとも述べています。
 
-> Height corresponds to volume of tweets—a third dimension in addition to time and sentiment-score.
+Hemment の論文と Truth & Beauty のページは、高さが「emotional highs and lows」を示すと書いています。これは比喩的な言い方と読めます。作り方を説明した Stefaner と Thiel に従えば、高さは件数で、感情は帯の位置です。
 
-高さはツイートの量で、時間と感情のスコアに加わる三つ目の次元だ、という言葉です。
-
-**平面のヒートマップでは色の明るさが担っていた件数を、彫刻では高さが担っています。** 時間と感情の段階は、板の上の位置に残りました。17枚をつなぐと、大会全体の時間軸になります。Stefaner は、彫刻には「all tweets we have collected for emoto」が入っているとも述べています。
-
-Hemment の論文と Truth & Beauty のページは、表面を「relief heatmap」と呼び、高さが「emotional highs and lows」を示すと書いています。これは比喩的な言い方と読めます。作り方を説明した Stefaner と Thiel の言葉に従えば、高さは件数で、感情は板の上の帯の位置です。
-
-素材は Chemiwood というポリウレタンフォームで、CNC で切削しました。Thiel によれば、3Dプリントのきれいな面よりも、切削ヘッドの跡が残るほうを好んだそうです。表面は、投影に向くマットなグレーの二液性塗料で仕上げています。
+素材は Chemiwood というポリウレタンフォームで、CNC で切削しました。Thiel によれば、3Dプリントのきれいな面より、切削ヘッドの跡が残るほうを好んだそうです。表面は、投影に向くマットなグレーの二液性塗料で仕上げています。
 
 作者の説明から、データと見た目・素材の対応をまとめると、次のようになります。
 
 | データ／変数 | 物理的な性質 | 具体値・補足 |
 |---|---|---|
 | 大会の1日 | 1枚の板 | 17枚を横に並べる |
-| 時刻 | 板の上の横方向の位置 | 1時間ごとに集計。17枚で大会全体の時間軸になる |
+| 時刻 | 板の上の横方向の位置 | 1時間ごと。17枚で大会全体の時間軸になる |
 | 感情の段階 | 板の上の縦方向の位置（帯） | −6〜+6 のビン |
-| その時刻・その段階のツイート数 | 削り出した面の高さ | 元のグレーのヒートマップで明るいほど高い |
+| その時刻・その段階のツイート数 | 削り出した面の高さ | 元のヒートマップで明るいほど高い |
 | すべての話題のツイート | 彫刻の形そのもの | 収集した全ツイート |
 | 話題別のストーリー | 彫刻に重ねる投影（ヒートマップ） | ノブで切り替える |
-| その時刻に最もリツイートされたツイート | 彫刻の横に文字で表示 | カーソルのある1時間の中から選ぶ |
+| その時刻に最もリツイートされたツイート | 彫刻の横に文字で表示 | カーソルのある1時間から選ぶ |
 | 素材と仕上げ | Chemiwood を CNC で切削、グレーのマット塗装 | 切削の跡を残す |
 
-感情の段階が何段だったかは、一次資料では確かめられませんでした。事後に公開されたインタラクティブ・ヒートマップのデータでは、値は −6〜−1 と +1〜+6 の12種類で、0 は出てきません。ただし、これは話題ごとの「最もリツイートされたツイート」のデータで、彫刻の段の数を示すものではありません。
+感情の段が何段だったか（0 を含むかどうか）は、一次資料では確かめられませんでした。
 
 ## 話題を投影で重ね、ノブで切り替える
 
-彫刻の形は、大会中のすべてのツイートで決まっています。話題ごとの違いは、上に投影する光が受け持ちました。公式サイトはこう書いています。
+彫刻の形は、すべてのツイートで決まっています。話題ごとの違いは、上に投影する光が受け持ちました。公式サイトはこう書いています。
 
 > Mapped onto this physical sculpture we have then projected individual heat maps for the most interesting themes we have identified while observing emoto during the Games. Users were able to navigate through these themes using an interactive controller and thus explore our archive.
 
@@ -97,9 +95,9 @@ Hemment の論文と Truth & Beauty のページは、表面を「relief heatmap
 
 Moritz Stefaner・Drew Hemment・Studio NAND／Drew Hemment「emoto – Visualising the online response to London 2012」（ISEA2013）Fig. 6 より引用（CC BY-NC-SA 3.0）
 
-Stefaner によれば、彫刻のためにいくつもの話題を「high-level stories」にまとめました。たとえば Team GB のストーリーには、個々の選手に関する話題などが含まれます。話題選びは、大会中に手作業で監視した話題をもとに、sentigraph を使った「data-driven 'hunt'」で行いました。現実の世界と同じようにデータにも表れていた話題と、One Direction のようなデータ上の面白い人工物の両方を選んだそうです。
+Stefaner によれば、いくつもの話題を「high-level stories」にまとめました。Team GB のストーリーには、個々の選手の話題などが入ります。選ぶときは sentigraph を使って「data-driven 'hunt'」を行い、現実と同じくデータにも表れた話題と、One Direction のようなデータ上の面白い人工物の両方を残したそうです。
 
-操作は、Griffin PowerMate という回すノブ一つです。Thiel の説明では、押すとテーマが切り替わり、回すと時間軸上のカーソルが動きます。カーソルのある1時間の中で、そのストーリーで最もリツイートされたツイートが、彫刻と投影の横に表示されました。この制御には、チームが Processing で書いたソフトウェアを使っています。
+操作は、Griffin PowerMate という回すノブ一つです。Thiel の説明では、押すとテーマが切り替わり、回すと時間軸上のカーソルが動きます。カーソルのある1時間で最もリツイートされたツイートが、彫刻の横に表示されました。
 
 展示に出したツイートと話題は、Stefaner のサイトのインタラクティブ・ヒートマップでも見られます。話題ごとに横長の帯が並び、行にマウスを重ねると、その時刻に最もリツイートされたツイートが出ます。
 
@@ -107,7 +105,7 @@ Stefaner によれば、彫刻のためにいくつもの話題を「high-level 
 
 Moritz Stefaner／well-formed-data.net「emoto data sculpture」より引用
 
-形は全体で固定し、光で部分を見せる、という分担と読めます。投影を切り替えても、下にある起伏は変わりません。ある話題の盛り上がりが、大会全体の量のどこに重なっているかを、同じ台の上で見比べられる作りです。なお、投影したヒートマップの色が正と負のどちらを表したかは、彫刻については一次資料で確かめられませんでした。
+形で全体を固定し、光で部分を見せる分担と読めます。投影を切り替えても、下の起伏は変わりません。ある話題の盛り上がりが大会全体の量のどこに重なるかを、同じ台の上で見比べられます。なお、投影の色が正と負のどちらを表したかは、一次資料で確かめられませんでした。
 
 ## 立体にして、何が変わったか
 
@@ -115,57 +113,45 @@ Stefaner は、彫刻の位置づけをこう書いています。
 
 > In many ways the crowning piece of the project, and a conceptual counterpoint to the ephemeral web activities, our data sculpture preserved the more than 12 million tweets in physical form.
 
-プロジェクトの頂点であり、移ろうWebの活動への概念上の対位として、1,200万件を超えるツイートを物理的な形で保存した、という説明です。大会中の7月31日には、すでに「to archive these ephemeral little 'things flying by' forever」と書いていました。
+プロジェクトの頂点であり、移ろうWebの活動への概念上の対位として、1,200万件を超えるツイートを物理的な形で保存した、という説明です。
 
-Thiel は、インタビューで立体にした利点をいくつか挙げています。まず、分かりやすさです。
+Thiel は、立体にした利点をいくつか挙げています。
 
 > Creating a three-dimensional sculpture helped people understand the displayed dimensions in the data more quickly and naturally. ... This is often more immediate than encoding multiple variables in two-dimensional space.
 
-立体にしたことで、来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより、直接的なことが多い、という言葉です。ほかに、空間の大きさで量を強調できたこと、人が一緒に見て話し合えることを挙げています。持続性についても「if all the lights are off, it's still an object which represents information」と述べました。
+来場者はデータの次元をより早く自然に理解した。平面に複数の変数を詰めるより直接的なことが多い、という言葉です。空間の大きさで量を強調できたこと、人が一緒に見て話し合えることも挙げ、「if all the lights are off, it's still an object which represents information」と述べました。Stefaner も、物理的な形のおかげで「何を見ているか」を早く分かってもらえた、と話しています。
 
-Stefaner も、データ可視化は一般の人には抽象的だが、彫刻は物理的な形のおかげで「何を見ているか」を早く分かってもらえた、と話しています。形を分かりやすくするために、点字の都市地図などから着想を得て、目の見えない人のための「visualization」も考えたそうです。
-
-難しさも、Thiel は書いています。画面ならビューを自由に変えて組み合わせられるが、大きな彫刻は扱い方を縛る、という点です。
+難しさも、Thiel は書いています。画面ならビューを自由に組み替えられるが、大きな彫刻は扱い方を縛る、という点です。
 
 > If you have a massive sculpture, this sets a limitation on how you can work with it, also in terms of interactivity
 
 投影とノブは、この制約への答えと読めます。削った形は一度きりで変えられない。変えたい部分は光と文字に任せた、という分け方です。
 
-計画からの変更もありました。開幕前の Andy Kirk の記事は「19 plates」に削ると伝えています。完成品は17枚です。変更の理由を書いた資料は見つかりませんでした。
+もう一つ、論文の注には、チームが Twitter に、削った作品は「far removed from the data stream」だと主張したことが書かれています。元の情報を組み立て直せる形ではない、という理屈です。交渉は「to no avail」で、実りませんでした。高さに変えた時点で、個々のツイートは件数に畳まれる、ということでもあります。
 
-## 作者自身が書いた、データの偏り
-
-Hemment の論文は、データの限界にも一節を割いています。対象は英語のツイートだけで、公開APIのサンプルです。Web版の利用者は65%を超えて英米加豪の4か国からでした。
-
-> Such a limited perspective does not represent 'what the world thinks.'
-
-このように限られた視点は「世界がどう考えているか」を表していない、という一文です。感情分析の精度の評価は、プロジェクトの範囲外だったとも書いています。BBC が悪いニュースを報じると BBC に負のスコアが付くように、媒体とメッセージの取り違えも起きました。
-
-データ取得の交渉にも、彫刻の性格が表れています。論文の注によれば、チームは Twitter に対し、提案した作品は「far removed from the data stream」だと主張しました。切削した彫刻からは、元の情報を組み立て直せない、という理屈です。ただし交渉は「to no avail」、実らなかったと書かれています。
-
-高さに変えた時点で、個々のツイートは件数に畳まれます。彫刻の起伏が示すのは、1%のサンプルで、英語で、ソフトウェアが付けたスコアの分布です。作者がこの前提を自分で書き残していることは、作品を読むうえで欠かせない注記と読めます。
+計画からの変更もありました。開幕前の Andy Kirk の記事は「19 plates」に削ると伝えています。完成品は17枚で、変更の理由を書いた資料は見つかりませんでした。
 
 ## 第三者はこの作品をどう見たか
 
-開幕前の2012年7月19日、Andy Kirk は Visualising Data で、emoto を「One of the most ambitious, unique, multi-faceted and fundamentally exciting projects」と紹介しました。Web、sentigraph、物理化を含む多面的な構成を評価した記事です。ただし完成前の記事で、完成品への評価ではありません。
+開幕前の2012年7月19日、Andy Kirk は Visualising Data で、emoto を「One of the most ambitious, unique, multi-faceted and fundamentally exciting projects」と紹介しました。Web、sentigraph、物理化を含む構成を評価していますが、完成前の記事です。
 
 The Creators Project の Julia Kaganskiy は、2012年9月20日の記事で、彫刻を次のようにまとめています。
 
 > Peaks and valleys are etched into the plates to indicate the volume of tweets per hour, and a heat map of color gradations is projected on top to show the public's feelings towards a particular topic
 
-板に刻んだ起伏が1時間あたりの量を示し、上に投影した色の濃淡が話題への感情を示す、という要約です。高さと投影の二層として説明しています。同じ記事は彫刻を「9.5 meter long」と書いていますが、公式サイトと論文では、9.5m（論文では9m）は壁に掛けた sentigraph の長さです。彫刻そのものの寸法は、一次資料では確かめられませんでした。
+板の起伏が1時間あたりの量を示し、投影した色の濃淡が話題への感情を示す、という要約です。同じ記事は彫刻を「9.5 meter long」と書いていますが、公式サイトと論文では、9.5m（論文では9m）は壁の sentigraph の長さです。彫刻の寸法は、一次資料では確かめられませんでした。
 
-Information is Beautiful Awards 2013 では、インスタレーションが審査の対象になりました。ショーケースのページには、Bronze と Data visualization の表示が付いています。説明文は、オンラインの可視化、データジャーナリズムの実験と並べて、彫刻を「its core component」と呼んでいます。
+Information is Beautiful Awards 2013 では、インスタレーションが審査の対象になり、ショーケースのページには Bronze と Data visualization の表示が付いています。説明文は、彫刻を「its core component」と呼んでいます。
 
 ## 使い道
 
-この作品から持ち帰れるのは、まず、平面のヒートマップを立体にするときの置き換え方です。2つの軸は位置に残し、色の明るさで表していた件数だけを高さに移す。元の図と一対一で対応するので、作り手も見る人も、何が高さになったかを取り違えにくくなります。
+まず、平面のヒートマップを立体にするときの置き換え方です。2つの軸は位置に残し、色の明るさで表していた件数だけを高さに移す。元の図と一対一で対応するので、何が高さになったかを取り違えにくくなります。
 
 次に、変わらない部分と変わる部分を分けることです。emoto は、全ツイートで決まる形を削り、話題ごとの違いを光で重ねました。物理的な作品は作り直しにくいので、全体を素材に、部分を投影や文字に任せると、一つの台で何通りもの見方ができます。
 
-三つ目は、同じデータを媒体ごとに役割を変えて出すことです。Web版は大会中の「いま」を流し、sentigraph は分析の結果を語り、彫刻は終わった大会を保存しました。どの媒体に何を任せるかを先に決めると、それぞれのエンコーディングも決めやすくなります。
+三つ目は、媒体ごとに役割を変えることです。Web版は大会中の「いま」を流し、sentigraph は分析を語り、彫刻は終わった大会を保存しました。
 
-最後に、データの出どころと偏りを、作品の外に書き残しておくことです。彫刻の起伏は説得力がありますが、それが1%の英語のサンプルだということは、形からは分かりません。Hemment の論文のような記録が、作品を正しく読むための凡例になります。
+最後に、データの偏りを作品の外に書き残すことです。起伏が1%の英語のサンプルだということは、形からは分かりません。Hemment の論文のような記録が、作品を読むための前提になります。
 
 ## 参考・出典
 
