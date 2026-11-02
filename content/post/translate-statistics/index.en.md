@@ -15,7 +15,7 @@ tags = [
     "History of statistics",
     "Translated terms"
 ]
-image = "images/sugi-composite-kanji.jpg"
+image = "images/translate-statistics.png"
 +++
 
 In Meiji Japan, the English word "statistics" was rendered by several competing terms, among them 政表 *seihyō* ("government tables"), 表紀 *hyōki* ("table record"), and 統計 *tōkei* ("unified counting"). Sugi Kōji (杉亨二), who led the practical work of official statistics, refused to translate the word at all. He built three composite kanji that transcribe the sound of the original, スタチスチク *sutachisuchiku*, and used them as the title of a lecture record. In 1889, Mori Ōgai (森鷗外) and Imai Takeo (今井武夫) argued in magazines for about ten months over whether the rendering 統計 *tōkei* was justified. The debate ended in a stalemate, and the term settled on 統計 *tōkei*.
@@ -71,6 +71,8 @@ There are also cases where the title and the definition disagree. Tsuda Mamichi 
 Laid out in a table, the candidates can be read as falling into three groups: **words that name the finished table, words that name the operation of gathering and counting, and words that name the state of the nation one wants to know**. 政表 *seihyō* and 表記 *hyōki* correspond to the table; 会計学 *kaikeigaku* and 統計 *tōkei* to the operation; 国勢学 *kokuseigaku* and 知国学 *chikokugaku* to the state of the nation. As for 表紀 *hyōki*, its characters name the table, but Tsuda's definition is 「實際ノ形勢ヲ知ル學術」, so it can be read as a word that straddles both the table and the state of the nation. By this division, 統計 *tōkei*, the term that survived, can be read as the name of an operation.
 
 ## Sugi Kōji refused to translate
+
+![Three composite kanji created by Sugi Kōji](images/translate-statistics.png)
 
 While leading the work of the 政表 *seihyō* office, Sugi took a different road on the question of the term. In February 1876 (Meiji 9), Sugi and some ten others founded the 表記学社 *Hyōki Gakusha* (Society for Recording in Tables). In 1878 it was renamed the スタチスチツク社 *Sutachisuchitsuku-sha* (Statistics Society), and in 1892 it became the 統計学社 *Tōkeigakusha*. *Hōsō yawa* writes that the name was chosen because the translated characters were 「区々」 (scattered, inconsistent) and it was better to keep the original word.
 

@@ -15,7 +15,7 @@ tags = [
     "class intervals",
     "color"
 ]
-image = "images/schematic-map-winter-wheat-1903.jpg"
+image = "images/cover-schematic-chropleth.jpeg"
 +++
 
 The 1905 *Vierteljahrshefte zur Statistik des Deutschen Reichs* (Quarterly Journal of the Statistics of the German Reich) carries a map of wheat yields for the 1904 harvest. It was made by the Imperial Statistical Office (Kaiserliches Statistisches Amt). The map switches the color of its ink at the imperial average, and within each side, above and below the average, it tells the classes apart by pattern type and line density.
@@ -23,6 +23,8 @@ The 1905 *Vierteljahrshefte zur Statistik des Deutschen Reichs* (Quarterly Journ
 The figure is a single sheet with two maps, one above the other: winter wheat (Winter-Weizen) on top and spring wheat (Sommer-Weizen) below. Below, I read the printed text and legend as the primary source, and set the map beside a figure in the same style from the previous year and another figure showing the same year's harvest.
 
 <!--more-->
+
+![Yield maps of winter wheat and spring wheat for the 1904 harvest](images/IMG_0484.jpeg)
 
 ## 1905: A Plate for the Harvest Statistics
 
@@ -82,6 +84,9 @@ There are two layers, "below the average" and "at or above the average," with no
 In the spring wheat map the average is "1,93". The below-average classes are printed in red tones, and the at-or-above-average classes in a dark color close to black. In the scan the dark color looks like a dark brown, redder than black. The scale is the same as for winter wheat, but only the class 1.81–2.00 is split at the average, into 1.81–1.83 and 1.84–2.00. This can be read as a design in which the average of that year and that crop is inserted as a boundary into a fixed ruler with 0.2-ton steps.
 
 ## Dividing Patterns Above and Below the Average
+
+![Legend of the winter wheat map](images/legend_top.jpeg)
+![Legend of the spring wheat map](images/legend_bottom.jpeg)
 
 Color is responsible for whether a value is above or below the average. The rank within the same side is the job of pattern type and line density.
 

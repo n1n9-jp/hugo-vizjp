@@ -14,7 +14,7 @@ tags = [
     "The Statistical Breviary",
     "エンコーディング"
 ]
-image = "images/us-divided-circle-1805.jpg"
+image = "images/cover.png"
 series = ["dataviz-classics"]
 series_weight = 2
 seriesByline = "William Playfair"
@@ -28,6 +28,8 @@ William Playfair（ウィリアム・プレイフェア, 1759–1823）は、同
 <!--more-->
 
 ## 1801年、国を円の大きさで並べる
+
+![『The Statistical Breviary』第1図の図版の写真](images/Playfair-pie-chairt-2.png)
 
 『The Statistical Breviary』は1801年にロンドンで出ました。扉には、彩色した銅版の図（stained copper-plate charts）を添えたとあります。第1図は、本文の説明ではフランス革命の前のヨーロッパ諸国を描いた図です。下の画像は、翌年に出た仏訳版の同じ図です。
 
@@ -46,6 +48,8 @@ William Playfair 原図、Adam 彫版（仏訳版、1802）の図版全体。Dav
 人口と歳入の縦線などの読み方は、[1801年の第1図を読む記事](/pie-chart-william-playfair-area/)に任せます。
 
 ## 円の中を切る──ロシアの環、トルコの扇形、ドイツの重なる円
+
+![ロシア帝国とトルコ帝国の円](images/legend.png)
 
 第1図で、円の中まで分けてあるのは、ロシアとトルコだけです。ロシアの円は二重で、内側の円が "European Dominions"、外側の環が "Asiatic Dominions" です。トルコの円は、中心から線を引いて "European"、"African"、"Asiatic" の3つに分けてあります。
 
@@ -66,6 +70,8 @@ David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries／Inter
 ロシアは環で、トルコは扇形である理由を、プレイフェア本人は書いていません。Pritchard は、Geolytix という企業の匿名ブログの説を「一つの可能性」として紹介しています。円が小さく、トルコの3つの部分を同心円の3重で塗り分ける余地がなかったので、そのときだけ放射状に分けたのかもしれない、という説です。トルコは第1図で2番目に大きい国なので、話の要点は国の小ささではなく、部分が3つあったことです。
 
 ## 1805年、一つの円を切り分ける
+
+![1805年の合衆国の円の図版](images/Playfair-pie-chairt-1.png)
 
 1802年、Donnant は『The Statistical Breviary』を仏訳した『Élémens de statistique』をパリで出し、合衆国の記述を加えました。プレイフェアはその部分を英訳し、1805年にロンドンの Greenland and Norris から出します。訳者序文によれば、訳は逐語的ではなく、「分割した円（divided circle）」で説明を補いました。扉には、この円を「新しい方法で（BY A NEW METHOD）」描いたとあり、図の下には次の一文があります。
 

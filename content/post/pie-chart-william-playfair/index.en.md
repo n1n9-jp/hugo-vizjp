@@ -14,7 +14,7 @@ tags = [
     "The Statistical Breviary",
     "encoding"
 ]
-image = "images/us-divided-circle-1805.jpg"
+image = "images/cover.png"
 +++
 
 William Playfair (1759–1823) drew the same quantity, a country's extent in square miles, in two ways. In his 1801 chart, he drew it as the area of a separate circle for each country. In his 1805 chart, he drew it as the angle of a sector cut from a single circle. In his own words, the former is meant to show the sizes of countries to the eye, and the latter the proportions among the extents of the provinces.
@@ -24,6 +24,8 @@ The 1801 chart is Chart 1 of Playfair's book *The Statistical Breviary*. The 180
 <!--more-->
 
 ## 1801: Lining Up Countries by the Size of Circles
+
+![Photograph of the plate of Chart 1 in The Statistical Breviary](images/Playfair-pie-chairt-2.png)
 
 *The Statistical Breviary* appeared in London in 1801. Its title page says it is accompanied by stained copper-plate charts. Chart 1, in the text's own description, shows the countries of Europe before the French Revolution. The image below is the same chart from the French translation published the following year.
 
@@ -42,6 +44,8 @@ In the text's table, Russia is 4,650,000 square miles and Turkey is 790,000. Tur
 How to read the vertical lines for population and revenue and the like is left to [the article reading Chart 1 of 1801](/pie-chart-william-playfair-area/).
 
 ## Cutting Inside the Circle: Russia's Ring, Turkey's Sectors, Germany's Overlapping Circles
+
+![The circles of the Russian Empire and the Turkish Empire](images/legend.png)
 
 In Chart 1, only Russia and Turkey have their circles divided inside. Russia's circle is double: the inner circle is "European Dominions" and the outer ring is "Asiatic Dominions." Turkey's circle is divided by lines from the center into three parts: "European," "African," and "Asiatic."
 
@@ -62,6 +66,8 @@ In the 1801 book alone, there are at least three ways of dividing within a circl
 Playfair himself does not write why Russia gets a ring and Turkey gets sectors. Pritchard presents one possibility: a theory from an anonymous blog by a company called Geolytix. The circle was small, with no room to color Turkey's three parts as a triple of concentric rings, so he may have divided it radially just this once. Turkey is the second-largest country in Chart 1, so the point of the story is not the smallness of the country but that there were three parts.
 
 ## 1805: Cutting Up a Single Circle
+
+![The plate of the 1805 circle of the United States](images/Playfair-pie-chairt-1.png)
 
 In 1802, Donnant published *Élémens de statistique* in Paris, a French translation of *The Statistical Breviary* to which he added an account of the United States. Playfair translated that part into English and published it in London in 1805 through Greenland and Norris. According to the translator's preface, the translation is not literal, and he supplemented it with a "divided circle." The title page says this circle was drawn "BY A NEW METHOD," and beneath the figure is the following sentence.
 

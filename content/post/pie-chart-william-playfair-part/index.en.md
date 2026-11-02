@@ -14,7 +14,7 @@ tags = [
     "divided circle",
     "history of statistical graphics"
 ]
-image = "images/playfair-1805-divided-circle.jpg"
+image = "images/cover.png"
 +++
 
 In 1805, William Playfair translated D. F. Donnant's (Denis-François Donnant) statistical account of the United States into English and added a figure that divides the area of the states and territories into sectors of a single circle. Beneath the figure he had engraved "This Newly invented Method is intended to shew the Proportions between the divisions in a Striking Manner." In other words, the method is newly invented, and it is meant to show the ratios between divisions in a striking way.
@@ -22,6 +22,8 @@ In 1805, William Playfair translated D. F. Donnant's (Denis-François Donnant) s
 The book's title is *Statistical Account of the United States of America* (London: Greenland and Norris, 1805). "Statistical Representation of the United States of America," which is often cited as if it were the name of the work, is the title of the plate, not of the book. What follows draws on the images of the copy held by the Lehigh University Libraries and on the text of the Harvard copy at the Internet Archive.
 
 <!--more-->
+
+![The plate of the 1805 circle of the United States](images/mailvisual.png)
 
 ## A Translation with Just One Added Figure
 
