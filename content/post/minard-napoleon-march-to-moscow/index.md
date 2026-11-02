@@ -11,6 +11,10 @@ tags = [
     "複数チャートの組み合わせ"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 4
+seriesByline = "Charles Joseph Minard"
+seriesTitle = "ナポレオンのロシア遠征──ミナールの損耗の地図"
 +++
 
 フランスの技師であり情報可視化の先駆者、シャルル・ジョゼフ・ミナール（Charles Joseph Minard）は1869年、ナポレオン軍のロシア遠征をテーマにした図「Carte Figurative des pertes successives en hommes de l’Armée Française dans la campagne de Russie 1812–1813」を発表しました。

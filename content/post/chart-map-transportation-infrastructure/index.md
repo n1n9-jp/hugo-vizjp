@@ -11,6 +11,10 @@ tags = [
     "地図",
 ]
 image = "images/12511007_closeup.png"
+series = ["dataviz-classics"]
+series_weight = 5
+seriesByline = "フランス公共事業省"
+seriesTitle = "交通インフラの内訳──統計チャート地図"
 +++
 
 1879年、フランス公共事業省は全国の交通路の整備状況をまとめたユニークな地図を発行しました。

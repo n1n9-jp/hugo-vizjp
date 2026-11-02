@@ -11,6 +11,10 @@ tags = [
     "カラー",
 ]
 image = "images/cover-schematic-chropleth.jpeg"
+series = ["dataviz-classics"]
+series_weight = 8
+seriesByline = "ドイツ帝国統計局"
+seriesTitle = "多色とテクスチャ──1904年の小麦収量地図"
 +++
 
 1904年、ドイツ帝国統計局（Kaiserliches Statistisches Amt）は、小麦の収量統計を地図化した「統計主題図」を刊行しました。ここでは **冬小麦（Winter-Weizen）** と **夏小麦（Sommer-Weizen）** の2種類が描かれ、帝国内の各行政区ごとの1ヘクタールあたり収量を比較できるようになっています。

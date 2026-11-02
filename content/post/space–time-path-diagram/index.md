@@ -11,6 +11,10 @@ tags = [
     "",
 ]
 image = "images/thumb_ph_vizjp.png"
+series = ["dataviz-classics"]
+series_weight = 10
+seriesByline = "Allan Pred"
+seriesTitle = "ボストン商人の一日──時間と空間の可視化"
 +++
 
 この図は、地理学者アラン・プレッド（Allan Pred）が1984年に発表した論文「Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period」に掲載されたもので、18世紀末のボストン商人が一日をどのように過ごしたかを、時間と空間の両軸で示したものです。

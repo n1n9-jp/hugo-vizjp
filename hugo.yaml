@@ -81,6 +81,7 @@ params:
     home:
         # トップページに出す特集（series の ID）。上から並べる順。
         series:
+            - dataviz-classics
             - speculative-design
             - data-physicalization
     author:

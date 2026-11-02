@@ -11,6 +11,10 @@ tags = [
     "",
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 2
+seriesByline = "William Playfair"
+seriesTitle = "2種類の「円」グラフ──プレイフェア"
 +++
 
 ウィリアム・プレイフェア（William Playfair, 1759–1823）は、経済データを“見てわかる形”にするために、世界で初めて「割合を円で表す」チャートとして「円グラフ（Pie Chart）」を発明したと言われています。

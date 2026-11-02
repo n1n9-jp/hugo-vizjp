@@ -11,6 +11,10 @@ tags = [
     "",
 ]
 image = "images/translate-statistics.png"
+series = ["dataviz-classics"]
+series_weight = 7
+seriesByline = "明治の統計家たち"
+seriesTitle = "「統計」が「統計」になるまで──訳字論争"
 +++
 
 いま私たちが当然のように使う「統計」。その裏側には、statistics を日本語にするために **“新しい漢字”** まで考案した人たちがいた——という静かな驚きがあります。当時の知識人が「ことばを日本語として根づかせる」ために、そこまで試行錯誤していた事実に、思わず息をのむのです。

@@ -11,6 +11,10 @@ tags = [
     "",
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 3
+seriesByline = "William Playfair"
+seriesTitle = "アメリカ合衆国の統計的表現──プレイフェア"
 +++
 
 この図は、統計図の発明者として知られるウィリアム・プレイフェア（William Playfair）による『Statistical Representation of the United States of America』（1805年頃）の作品です。アメリカ合衆国の領土の広がりを円の面積で表現しており、プレイフェアが発明した「円グラフ（Pie Chart）」の初期形態のひとつとされています。

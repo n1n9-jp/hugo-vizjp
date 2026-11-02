@@ -11,6 +11,10 @@ tags = [
     "",
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 1
+seriesByline = "William Playfair"
+seriesTitle = "円グラフの発明──『The Statistical Breviary』"
 +++
 
 この図は、統計グラフの創始者ウィリアム・プレイフェア（William Playfair, 1759–1823）が1801年に刊行した著書『*The Statistical Breviary*』に収録されたものです。

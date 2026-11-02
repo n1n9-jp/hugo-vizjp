@@ -11,6 +11,10 @@ tags = [
     "地図",
 ]
 image = "images/12511022_closeup.png"
+series = ["dataviz-classics"]
+series_weight = 6
+seriesByline = "フランス公共事業省"
+seriesTitle = "鉄道の発展を円の面積で──鉄道発展図"
 +++
 
 19世紀のヨーロッパでは、鉄道の敷設がめまぐるしく進みました。その姿を人々にわかりやすく伝えるため、フランス公共事業省が1880年に発行したのが、この「鉄道発展図」です。
