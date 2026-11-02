@@ -149,9 +149,9 @@ vz.home.catShort.education:
 vz.home.latest:
     other: LATEST
 vz.home.series:
-    other: "SERIES · {{ .Count }}"
+    other: SERIES
 vz.home.seriesMore:
-    other: Read the series
+    other: View the series
 vz.home.recent:
     other: Recent
 vz.home.toArchives:

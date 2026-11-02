@@ -154,9 +154,9 @@ vz.home.catShort.education:
 vz.home.latest:
     other: 最新記事
 vz.home.series:
-    other: "特集 · {{ .Count }}本"
+    other: 特集
 vz.home.seriesMore:
-    other: 特集をまとめて読む
+    other: 特集を一覧する
 vz.home.recent:
     other: 新着
 vz.home.toArchives:

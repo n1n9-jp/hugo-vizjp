@@ -1,4 +1,4 @@
-{{- /* 特集：series タクソノミー。params.home.series に特集ID（文字列か、上から並べる順のリスト）を指定。なければ最新記事を含む特集を1つ */ -}}
+{{- /* 特集：series タクソノミー。params.home.series に特集ID（文字列か、上から並べる順のリスト）を指定。なければ最新記事を含む特集を1つ。各特集は series_weight の順に先頭14本まで出す */ -}}
 {{- $terms := slice -}}
 {{- with .Site.Taxonomies.series -}}
     {{- with $.Site.Params.home.series -}}
@@ -24,7 +24,7 @@
         <a class="vz-band__more" href="{{ $termPage.RelPermalink }}">{{ T "vz.home.seriesMore" }}</a>
     </div>
     <ul class="vz-band__list">
-        {{- range $items.Pages }}
+        {{- range first 14 $items.Pages }}
         <li>
             <a class="vz-band__item" href="{{ .RelPermalink }}">
                 {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "640x480" "Class" "vz-band__img") }}
