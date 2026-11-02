@@ -15,7 +15,7 @@ tags = [
     "space-time cube",
     "maps"
 ]
-image = "images/pred-boston-merchant-daily-path.png"
+image = "images/thumb_ph_vizjp.png"
 +++
 
 In 1984, the geographer Allan Pred used Torsten Hägerstrand's space-time path notation to draw a single diagram. The vertical axis is the time of day, and the base is a street map of Boston. It shows the day of a "typical" Boston merchant between 1783 and 1812, from midnight to midnight, as one line.
@@ -23,6 +23,8 @@ In 1984, the geographer Allan Pred used Torsten Hägerstrand's space-time path n
 The diagram appeared in the paper "Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period" (*Environment and Planning D: Society and Space*, vol. 2, no. 3). The paper was reprinted in the 1990 collection *Making Histories and Constructing Human Geographies*. I have not been able to read the body of the 1984 paper. What follows rests on the paper's bibliographic record, abstract and reference list, and on the figure in the reprinted version. I checked the reprinted figure against a photograph of the book's page posted by Jeremy Norman on HistoryofInformation.com.
 
 <!--more-->
+
+![Space-time path diagram of a Boston merchant's day](images/mainvisual.png)
 
 ## One Diagram in a Paper on Port Growth
 

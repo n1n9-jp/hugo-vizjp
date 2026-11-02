@@ -15,7 +15,7 @@ tags = [
     "時空間キューブ",
     "地図"
 ]
-image = "images/pred-boston-merchant-daily-path.png"
+image = "images/thumb_ph_vizjp.png"
 series = ["dataviz-classics"]
 series_weight = 10
 seriesByline = "Allan Pred"
@@ -27,6 +27,8 @@ seriesTitle = "商人の一日を一本の線で──Pred のボストン時空
 図が載ったのは、論文 "Structuration, Biography Formation, and Knowledge: Observations on Port Growth during the Late Mercantile Period"（*Environment and Planning D: Society and Space* 2巻3号）です。この論文は、1990年の論文集 *Making Histories and Constructing Human Geographies* に収録されました。1984年の論文本文は読めていません。以下は、論文の書誌・要旨・参考文献と、再録版の図に沿います。再録版の図は、Jeremy Norman が HistoryofInformation.com に載せた書籍ページの写真で確かめました。
 
 <!--more-->
+
+![ボストンの商人の一日を描いた時空間パスの図](images/mainvisual.png)
 
 ## 港の成長を問う論文の、一枚の図
 

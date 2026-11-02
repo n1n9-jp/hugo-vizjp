@@ -15,7 +15,7 @@ tags = [
     "encoding",
     "history of statistical graphics"
 ]
-image = "images/carte-statistique-1802.jpg"
+image = "images/cover.png"
 +++
 
 In 1801, in Chart 1 of *The Statistical Breviary*, William Playfair (1759–1823) drew the extent of the countries of Europe as the area of circles. Population and revenue are shown by vertical lines standing on either side of each circle, measured on the same scale. The tops of the two vertical lines are joined by a dotted line. In his text, Playfair writes that which way the dotted line rises shows whether taxes are heavy in proportion to population.
@@ -23,6 +23,8 @@ In 1801, in Chart 1 of *The Statistical Breviary*, William Playfair (1759–1823
 The sources are the book's preface, pp.13–16, where he explains how to read the chart, and the country-by-country tables. I read the text in the Bodleian Library copy on the Internet Archive. Because the foldout plates were not captured correctly in that scan, I show the chart from the 1802 French translation. How the circles are divided is covered in [an article comparing the two circles of 1801 and 1805](/pie-chart-william-playfair/), and the 1805 chart is covered in [an article on the 1805 United States pie chart](/pie-chart-william-playfair-part/).
 
 <!--more-->
+
+![Photograph of the plate of Chart 1 in The Statistical Breviary](images/Playfair-pie-chairt.png)
 
 ![Chart 1 in the French translation. Circles are arranged in order of size, from the large Russia at the far left to the United States at the far right. Red and yellow vertical lines stand on either side of each circle, with their tops joined by a dotted line](images/carte-statistique-1802.jpg)
 
@@ -74,6 +76,8 @@ The number above each circle is population density, not revenue. The text itself
 In the French translation's plate, the circles are colored blue and red. France, Spain, Britain and others are blue; Poland, Prussia and others are red. The maritime powers that the English text calls "green" can be read as having become blue in the French translation.
 
 Only the circles for Russia and Turkey are divided inside. In Russia the inner circle is European territory and the outer ring is Asian territory; Turkey is split into sectors by continent. The text does not explain this division. Here the colors stand for continents rather than maritime or land power. It can be read as the colors carrying two different meanings within a single chart.
+
+![The circles of the Russian Empire and the Turkish Empire](images/legend.png)
 
 ## Making Countries' Shapes into the Same Circle
 

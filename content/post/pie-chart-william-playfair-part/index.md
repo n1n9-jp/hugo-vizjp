@@ -15,7 +15,7 @@ tags = [
     "divided circle",
     "統計グラフの歴史"
 ]
-image = "images/playfair-1805-divided-circle.jpg"
+image = "images/cover.png"
 series = ["dataviz-classics"]
 series_weight = 3
 seriesByline = "William Playfair"
@@ -27,6 +27,8 @@ seriesTitle = "合衆国の広さを扇形で分ける──プレイフェア 1
 本の題は『Statistical Account of the United States of America』（London: Greenland and Norris, 1805）です。作品名のように引かれる「Statistical Representation of the United States of America」は図版の題で、書名ではありません。以下は、Lehigh 大学図書館が公開する所蔵本の画像と、Internet Archive にある Harvard 大学所蔵本の本文に沿います。
 
 <!--more-->
+
+![1805年の合衆国の円の図版](images/mailvisual.png)
 
 ## 翻訳書に、一枚だけ加えた図
 

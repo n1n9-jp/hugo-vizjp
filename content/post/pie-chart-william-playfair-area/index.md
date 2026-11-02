@@ -16,7 +16,7 @@ tags = [
     "エンコーディング",
     "統計グラフの歴史"
 ]
-image = "images/carte-statistique-1802.jpg"
+image = "images/cover.png"
 series = ["dataviz-classics"]
 series_weight = 1
 seriesByline = "William Playfair"
@@ -28,6 +28,8 @@ seriesTitle = "広さは円、税は点線──プレイフェア『Breviary』
 出典は同書の序文と、図の読み方を説いた pp.13–16、国別の表です。本文は Internet Archive にあるボドリアン図書館本で読みました。このスキャンは折り込み図版が正しく撮れていないため、図は1802年の仏訳版で示します。円の分け方は[1801年と1805年の2つの円を比べた記事](/pie-chart-william-playfair/)が、1805年の図は[1805年の合衆国の円グラフの記事](/pie-chart-william-playfair-part/)が扱います。
 
 <!--more-->
+
+![『The Statistical Breviary』第1図の図版の写真](images/Playfair-pie-chairt.png)
 
 ![仏訳版の第1図。左端の大きなロシアから右端の連合州まで、広さの順に並んだ円の左右に赤と黄の縦線が立ち、上端が点線で結ばれている](images/carte-statistique-1802.jpg)
 
@@ -79,6 +81,8 @@ William Playfair 原図、Adam 彫版（仏訳版、1802）の図版全体。Dav
 仏訳版の図では、円が青と赤に塗り分けられています。フランス、スペイン、ブリテンなどが青、ポーランドやプロイセンなどが赤です。英語版の本文で「緑」とされた海の国が、仏訳版では青になったと読めます。
 
 ロシアとトルコの円だけは、中が分けられています。ロシアは内側の円がヨーロッパ領、外側の環がアジア領、トルコは大陸ごとの扇形です。本文には、この分割の説明がありません。ここでは色が、海か陸かではなく大陸を表しています。1枚の中で、色が二通りの意味で使われていると読めます。
+
+![ロシア帝国とトルコ帝国の円](images/legend.png)
 
 ## 国の形を、同じ円にそろえる
 
