@@ -5,11 +5,7 @@
     <img class="vz-author__photo" src="{{ "img/photo_yuichiyazaki_square.jpg" | relURL }}" width="72" height="72" loading="lazy" alt="">
     <div class="vz-author__text">
         <span class="vz-author__name">
-            {{- if eq .Language.Lang "ja" -}}
-            {{ partial "vz/author-name.html" (dict "name" $name "page" .) }} <span>{{ $name }}</span>
-            {{- else -}}
-            {{ $name }}
-            {{- end -}}
+            {{- partial "vz/author-name.html" (dict "name" $name "page" .) -}}
         </span>
         {{ with site.Params.sidebar.author.bio }}<span class="vz-author__bio">{{ . }}</span>{{ end }}
     </div>
