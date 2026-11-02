@@ -20,13 +20,13 @@ image = "images/sugi-composite-kanji.jpg"
 
 In Meiji Japan, the English word "statistics" was rendered by several competing terms, among them 政表 *seihyō* ("government tables"), 表紀 *hyōki* ("table record"), and 統計 *tōkei* ("unified counting"). Sugi Kōji (杉亨二), who led the practical work of official statistics, refused to translate the word at all. He built three composite kanji that transcribe the sound of the original, スタチスチク *sutachisuchiku*, and used them as the title of a lecture record. In 1889, Mori Ōgai (森鷗外) and Imai Takeo (今井武夫) argued in magazines for about ten months over whether the rendering 統計 *tōkei* was justified. The debate ended in a stalemate, and the term settled on 統計 *tōkei*.
 
-What follows draws on the Statistics Bureau's explanatory materials (the Statistics 150 Years special site and the Statistics Museum), 奥積雅彦, "Naze 'Statistics' wa 'tōkei' na no ka?" (Why Is "Statistics" "Tōkei"?; Tōkei Today No. 136, 2018), and Hozumi Nobushige (穂積陳重), *Hōsō yawa* (Night Talks of the Legal Profession, 1916). The titles and issue numbers of the debate pieces follow 奥積's chronology. I have not checked Ōgai's writings against the original *Ōgai zenshū* (Complete Works); I rely on passages that Sakai Hironori (酒井弘憲, 2014) quoted in modern orthography.
+What follows draws on the Statistics Bureau's explanatory materials (the Statistics 150 Years special site and the Statistics Museum), Okuzumi Masahiko (奥積雅彦), "Naze 'Statistics' wa 'tōkei' na no ka?" (Why Is "Statistics" "Tōkei"?; Tōkei Today No. 136, 2018), and Hozumi Nobushige (穂積陳重), *Hōsō yawa* (Night Talks of the Legal Profession, 1916). The titles and issue numbers of the debate pieces follow Okuzumi's chronology. I have not checked Ōgai's writings against the original *Ōgai zenshū* (Complete Works); I rely on passages that Sakai Hironori (酒井弘憲, 2014) quoted in modern orthography.
 
 <!--more-->
 
 ## 1860: statistics arrived as *seihyō*
 
-The first statistical book introduced to Japan was *Bankoku seihyō* (萬國政表, "Government Tables of All Nations"), published in 1860 (Man'en 1). 岡本博卿 translated the work of P. A. de Jong, and Fukuzawa Yukichi (福沢諭吉) reviewed it. Its original title was *Statistische tafel van alle landen der aarde*. It is a book of tables giving the population, area, cities, products, and finances of the countries of the world. The Statistics Bureau's explanation says: 「スタチスチックスに政表という訳語をつけたのは、本書が最初であった」 ("This book was the first to give statistics the translation 政表 *seihyō*").
+The first statistical book introduced to Japan was *Bankoku seihyō* (萬國政表, "Government Tables of All Nations"), published in 1860 (Man'en 1). Okamoto Hakukei (岡本博卿) translated the work of P. A. de Jong, and Fukuzawa Yukichi (福沢諭吉) reviewed it. Its original title was *Statistische tafel van alle landen der aarde*. It is a book of tables giving the population, area, cities, products, and finances of the countries of the world. The Statistics Bureau's explanation says: 「スタチスチックスに政表という訳語をつけたのは、本書が最初であった」 ("This book was the first to give statistics the translation 政表 *seihyō*").
 
 On February 2, 1872 (Meiji 4, 12th month, 24th day), Sugi Kōji was appointed 大主記 *daishuki* (chief secretary) of the 政表課 *Seihyō-ka* (Government Tables Section) in the Dajōkan's Central Office (太政官正院). This is the post corresponding to today's Director-General of the Statistics Bureau in the Ministry of Internal Affairs and Communications. In April of the same year, the section issued *Shinbi seihyō* (辛未政表, "Government Tables for the Shinbi Year"). It is the oldest comprehensive government statistical compilation, and Sugi was its editor in charge. In the first line of the editorial notes, small ruby characters 「スタチスチック」 (*sutachisuchikku*) stand to the right of the two characters 「政表」 (*seihyō*).
 
@@ -48,7 +48,7 @@ From the 1860s to the 1880s, many renderings stood side by side. Who used which,
 
 | Term / notation | Who | When and where | What the characters name |
 |---|---|---|---|
-| 政表 *seihyō*, "government tables" | Translated by 岡本博卿, reviewed by Fukuzawa Yukichi; later the Dajōkan Seihyō-ka | *Bankoku seihyō*, 1860; *Shinbi seihyō*, 1872 | A table of the state |
+| 政表 *seihyō*, "government tables" | Translated by Okamoto Hakukei, reviewed by Fukuzawa Yukichi; later the Dajōkan Seihyō-ka | *Bankoku seihyō*, 1860; *Shinbi seihyō*, 1872 | A table of the state |
 | 会計学 *kaikeigaku*, "science of reckoning" | Kanda Takahira (神田孝平) | Preface to *Keizai shōgaku*, 1867 | Counting things together |
 | 統計 *tōkei*, "unified counting" | Possibly Yanagawa Shunsan (柳河春三); no firm evidence | Around 1869. As an office name, Ministry of Finance Tōkei-shi (統計司), 1871 | Gathering under one head and counting |
 | 国勢学 *kokuseigaku*, "science of national conditions" / 国務学 *kokumugaku*, "science of national affairs" | University regulations / Daigaku Nankō regulations | 1870 | The state of the nation / the duties of the nation |
@@ -57,10 +57,10 @@ From the 1860s to the 1880s, many renderings stood side by side. Who used which,
 | 表紀 *hyōki*, "table record" / 政表学 *seihyōgaku*, "science of government tables" | Translated by Tsuda Mamichi (津田真道) | *Hyōki teikō: ichimei seihyōgaku-ron*, Dajōkan Seihyō-ka, 1874 | The characters mean recording in tables. The definition is a science for knowing the state of the nation |
 | スタチスチク *sutachisuchiku* (original word) | Fukuzawa Yukichi | *Bunmeiron no gairyaku*, 1875 | Does not translate |
 | 表記 *hyōki*, "recording in tables" | Sugi Kōji and others | Hyōki Gakusha, 1876 | Recording in tables |
-| 知国学 *chikokugaku*, "science of knowing the nation" | Possibly devised by Sugi Kōji (according to 世良太一) | For a time | A science of knowing the nation |
+| 知国学 *chikokugaku*, "science of knowing the nation" | Possibly devised by Sugi Kōji (according to Sera Taichi (世良太一)) | For a time | A science of knowing the nation |
 | Three composite kanji | Sugi Kōji | Lectures at the Kyōritsu Tōkei Gakkō, 1883-84 | The sound of the original word |
 
-The origin of 統計 *tōkei* is not clear. By the testimony of 石橋重朝, around 1869 Yanagawa Shunsan compiled a small booklet at the Kaiseijo, either *Tōkei nyūmon* (統計入門, "Introduction to Tōkei") or *Tōkei benran* (統計便覧, "Handbook of Tōkei"). He is said to have used 統計 there and noted that it was imperfect but would stand for the time being. The booklet itself has not been found, and the Statistics Bureau says "no definitive evidence remains." Sakai (2014) also mentions a theory crediting Fukuchi Gen'ichirō (福地源一郎).
+The origin of 統計 *tōkei* is not clear. By the testimony of Ishibashi Shigetomo (石橋重朝), around 1869 Yanagawa Shunsan compiled a small booklet at the Kaiseijo, either *Tōkei nyūmon* (統計入門, "Introduction to Tōkei") or *Tōkei benran* (統計便覧, "Handbook of Tōkei"). He is said to have used 統計 there and noted that it was imperfect but would stand for the time being. The booklet itself has not been found, and the Statistics Bureau says "no definitive evidence remains." Sakai (2014) also mentions a theory crediting Fukuchi Gen'ichirō (福地源一郎).
 
 Hozumi Nobushige inferred the origin in *Hōsō yawa* as follows: 「この『統計』の二字は、恐らくは『英華字典』にスタチスチックに対して『統紀』という訳字を用いておったのに拠って案出したものであろう」 ("These two characters 統計 were probably devised on the basis of the Chinese–English dictionary's use of 統紀 as the rendering for statistics"). The first office to carry 統計 in its name was the Ministry of Finance's Tōkei-shi (統計司) on July 27, 1871 (Meiji 4); on August 10 of the same year it was renamed Tōkei-ryō (統計寮).
 
@@ -108,9 +108,9 @@ An anonymous letter arrived at the editorial office of *Tōkyō Iji Shinshi*. It
 | November | Mori Rintarō (pen name Kojō Itsumin) | 統計ノ訳字ハ其定義ニ負カズ (The Translated Term Tōkei Does Not Fall Short of Its Definition) | *Tōkyō Iji Shinshi*, No. 605 |
 | December | Imai Takeo | 四タビ統計ニ就テ（未完）(On Tōkei, a Fourth Time; unfinished) | *Sutachisuchikku zasshi*, No. 44 |
 
-Source: 奥積雅彦's chronology (Tōkei Today No. 136). The issue numbers and dates of the *Sutachisuchikku zasshi* also agree with the bibliographic records in NDL Search (National Diet Library)
+Source: Okuzumi Masahiko's chronology (Tōkei Today No. 136). The issue numbers and dates of the *Sutachisuchikku zasshi* also agree with the bibliographic records in NDL Search (National Diet Library)
 
-Ōgai wrote seven pieces, using his real name and three pen names. Imai wrote four, and the last, "On Tōkei, a Fourth Time," is unfinished. 奥積 organizes the points of dispute into three.
+Ōgai wrote seven pieces, using his real name and three pen names. Imai wrote four, and the last, "On Tōkei, a Fourth Time," is unfinished. Okuzumi organizes the points of dispute into three.
 
 | Point of dispute | Mori Ōgai | Imai Takeo |
 |---|---|---|
@@ -120,11 +120,11 @@ Source: 奥積雅彦's chronology (Tōkei Today No. 136). The issue numbers and 
 
 On the first point, Ōgai argued from the meaning of the characters in "統計ニ就テノ分疏." According to the passages that Sakai (2014) quotes in modern orthography, Ōgai cites the *Shuowen* (『説文』) on 計: 「"計"は"会也算也"」 ("計 is 'to bring together; to reckon'"). He then writes: 「今含率等物の義ある統字をもって計字の上に加うることはそのスタチスチックの意味を表出することは殆ど余蘊なきを見るなり」 ("Adding the character 統, which carries the sense of containing and governing things, above the character 計 conveys the meaning of statistics, I find, almost without remainder"). He closes with: 「誰か統計の字面を以ってスタチスチックの訳に充つべからずというや」 ("Who would say that the characters 統計 cannot serve as the translation of statistics?").
 
-Imai's side replied that the Chinese word 統計 has no meaning beyond a total. It can be read as the same line that Sugi had taken in 1886. 奥積 describes the outcome of the debate this way: 「両者の見解は平行線をたどり、相交えることはなかったのです」 ("The two views ran in parallel lines and never met").
+Imai's side replied that the Chinese word 統計 has no meaning beyond a total. It can be read as the same line that Sugi had taken in 1886. Okuzumi describes the outcome of the debate this way: 「両者の見解は平行線をたどり、相交えることはなかったのです」 ("The two views ran in parallel lines and never met").
 
 ## How did third parties see the debate?
 
-奥積 (2018) draws attention to the timing of the debate. The character 統計 had been spreading gradually: *Tōkeigaku* in 1874, the Statistics Office in 1881, the Kyōritsu Tōkei Gakkō in 1883. 奥積 writes: 「この訳字論争が行われたのは明治22年のことであり、逸機の感があります」 ("This debate over the translated term took place in Meiji 22, and one has the sense that the opportunity had already been missed"). At the head of "再ビ統計ニ就テ" in No. 39 of the *Sutachisuchikku zasshi* was an unusual note saying that this was Imai's personal view and not the journal's editorial position. 奥積 sees in this a "temperature gap" between Imai and Sugi's group. He concludes: 「今井が森鴎外に一歩も譲らなかったことを忘れてはならないのです」 ("We must not forget that Imai did not yield a single step to Mori Ōgai").
+Okuzumi (2018) draws attention to the timing of the debate. The character 統計 had been spreading gradually: *Tōkeigaku* in 1874, the Statistics Office in 1881, the Kyōritsu Tōkei Gakkō in 1883. Okuzumi writes: 「この訳字論争が行われたのは明治22年のことであり、逸機の感があります」 ("This debate over the translated term took place in Meiji 22, and one has the sense that the opportunity had already been missed"). At the head of "再ビ統計ニ就テ" in No. 39 of the *Sutachisuchikku zasshi* was an unusual note saying that this was Imai's personal view and not the journal's editorial position. Okuzumi sees in this a "temperature gap" between Imai and Sugi's group. He concludes: 「今井が森鴎外に一歩も譲らなかったことを忘れてはならないのです」 ("We must not forget that Imai did not yield a single step to Mori Ōgai").
 
 Nakazawa Satoshi (中澤聡, 2023) investigated the sources of Ōgai's view of statistics. He compares the 題言, "統計ニ就テ," and the "分疏" with a 1881 paper by Friedrich Martius. The English abstract reads:
 
@@ -156,7 +156,7 @@ Visualization work has the same gap. Requests often arrive under the name of an 
 - Statistics Bureau of Japan, Statistics Museum, "Sugi Kōji" (杉亨二; includes the image of the invented kanji). [sugi.html](https://www.stat.go.jp/museum/shiryo/sugi.html)
 - Statistics Bureau of Japan, Naruhodo Tōkei Gakuen, "'Tōkei' to iu kotoba no kigen" (「統計」という言葉の起源, The Origin of the Word "Tōkei"). [toukei.html](https://www.stat.go.jp/naruhodo/15_episode/episode/toukei.html)
 - Statistics Bureau of Japan, Naruhodo Tōkei Gakuen Kids, "Tōkei episōdo (1)" (統計エピソード（1）, Statistics Episode 1). [ep1.html](https://www.stat.go.jp/naruhodokids/episode/ep1.html)
-- 奥積雅彦, "Naze 'Statistics' wa 'tōkei' na no ka? Tōkei no yakuji ga teichaku suru made no keii to Mori Ōgai" (なぜ『Statistics』は『統計』なのか？ー『統計』の訳字が定着するまでの経緯と森鴎外, Why Is "Statistics" "Tōkei"? How the Translated Term Took Hold, and Mori Ōgai), Tōkei Today No. 136, Statistics Bureau, 2018 (cites period dictionaries, Sugi Kōji's "Sutachisuchikku no hanashi," 1886, and "Tōkei taii," 1899). [HTML](https://www.stat.go.jp/info/today/136.html)／[PDF](https://www.stat.go.jp/info/today/pdf/136p0.pdf)
+- Okuzumi Masahiko, "Naze 'Statistics' wa 'tōkei' na no ka? Tōkei no yakuji ga teichaku suru made no keii to Mori Ōgai" (なぜ『Statistics』は『統計』なのか？ー『統計』の訳字が定着するまでの経緯と森鴎外, Why Is "Statistics" "Tōkei"? How the Translated Term Took Hold, and Mori Ōgai), Tōkei Today No. 136, Statistics Bureau, 2018 (cites period dictionaries, Sugi Kōji's "Sutachisuchikku no hanashi," 1886, and "Tōkei taii," 1899). [HTML](https://www.stat.go.jp/info/today/136.html)／[PDF](https://www.stat.go.jp/info/today/pdf/136p0.pdf)
 - Statistics Bureau of Japan, Statistics Library Column No. 0001 (Fukuzawa Yukichi). [PDF](https://www.stat.go.jp/library/pdf/column0001.pdf)
 - Statistics Bureau of Japan, Statistics Library Column No. 0006 (Mori Ōgai and the course of the debate). [PDF](https://www.stat.go.jp/library/pdf/column0006.pdf)
 - Sugi Kōji (lecturer) and Yokoyama Masao (note-taker), *[寸多][知寸][知久] Rekishi oyobi riron no bu* (History and Theory; 1980 reprint; the title is the author's composite kanji). [国立国会図書館サーチ](https://ndlsearch.ndl.go.jp/books/R100000001-I2911111055630)
@@ -168,7 +168,7 @@ Visualization work has the same gap. Requests often arrive under the name of an 
 **Secondary sources**
 
 - Nakazawa Satoshi (中澤聡), "Mori Ōgai no tōkeiron no gensen: Furīdorihi Maruchiusu no igaku tōkeiron" (森鷗外の統計論の源泉――フリードリヒ・マルチウスの医学統計論, The Sources of Mori Ōgai's Theory of Statistics: Friedrich Martius's Medical Statistics), *Kagakushi kenkyū* (科学史研究, Journal of the History of Science, Japan) 61(304), 2023, pp. 318-331. [doi:10.34336/jhsj.61.304_318](https://doi.org/10.34336/jhsj.61.304_318)／[J-STAGE](https://www.jstage.jst.go.jp/article/jhsj/61/304/61_318/_article/-char/ja/)
-- 奥積雅彦, "Naze 'Statistics' wa 'tōkei' na no ka?" Tōkei Today No. 136, 2018 (the evaluative parts). [HTML](https://www.stat.go.jp/info/today/136.html)
+- Okuzumi Masahiko, "Naze 'Statistics' wa 'tōkei' na no ka?" Tōkei Today No. 136, 2018 (the evaluative parts). [HTML](https://www.stat.go.jp/info/today/136.html)
 - Hitotsubashi University, Institute of Economic Research, Center for Social Science Statistical Information, exhibition document "Tōkei tsūron" (統計通論, General Theory of Statistics). [PDF](https://rcisss.ier.hit-u.ac.jp/Japanese/pdf/tenzi_tokeitsuron.pdf)
 - Sakai Hironori (酒井弘憲), "Dai 2 kai: Tōkei no rūtsu o saguru" (第2回 統計のルーツを探る, Part 2: Exploring the Roots of Statistics), *Farumashia* 50(4), 2014, pp. 334-335 (includes passages from Ōgai's 題言 and "分疏" quoted in modern orthography). [J-STAGE](https://www.jstage.jst.go.jp/article/faruawpsj/50/4/50_334/_article/-char/ja/)
-- 高木秀玄, "Mori Ōgai no tōkeigaku-kan: Imai Takeo to no ronsō o chūshin to shite" (森鴎外の統計学観：今井武夫との論争を中心として, Mori Ōgai's View of Statistics: Centering on the Debate with Imai Takeo), *Kansai Daigaku keizai ronshū* (關西大學經済論集) 19(3), 1969 (bibliographic record only checked). [CiNii Research](https://cir.nii.ac.jp/crid/1050001202911811072)
+- Takagi Shūgen (高木秀玄), "Mori Ōgai no tōkeigaku-kan: Imai Takeo to no ronsō o chūshin to shite" (森鴎外の統計学観：今井武夫との論争を中心として, Mori Ōgai's View of Statistics: Centering on the Debate with Imai Takeo), *Kansai Daigaku keizai ronshū* (關西大學經済論集) 19(3), 1969 (bibliographic record only checked). [CiNii Research](https://cir.nii.ac.jp/crid/1050001202911811072)
