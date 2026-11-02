@@ -38,7 +38,7 @@ languages:
             sidebar:
                 subtitle: データ可視化にまつわる実践的な手法や実例を紹介しています。
                 author:
-                    bio: データ可視化の実践者。Visualization Design / Information Architecture / UI/UX Design
+                    bio: データ可視化の実務家
     en:
         languageName: English
         languageCode: en-US
@@ -112,7 +112,7 @@ params:
         author:
             name: Yuichi Yazaki
             image: img/avatar.png
-            bio: データ可視化の実践者。Visualization Design / Information Architecture / UI/UX Design
+            bio: データ可視化の実務家
 
     article:
         math: false
