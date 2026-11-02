@@ -13,6 +13,10 @@ tags = [
     "データサイエンス"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 9
+seriesByline = "John W. Tukey"
+seriesTitle = "データ分析は科学である──Tukey 1962"
 +++
 
 1962年、John W. Tukey は数理統計学の中心誌に67ページの論文を載せました。題は "The Future of Data Analysis"。定理も証明もない。冒頭で、自分は長く統計学者だと思っていたが、中心的な関心はデータ分析だと書く。データ分析は科学である、というのが本論です。
