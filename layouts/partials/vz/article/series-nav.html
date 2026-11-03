@@ -1,0 +1,36 @@
+{{- /* 特集の中の位置と、前後の記事へのリンク。series_weight の順に並べる。特集に入っていない記事では何も出さない */ -}}
+{{- $self := . -}}
+{{- with .GetTerms "series" -}}
+{{- range first 1 . -}}
+{{- $term := . -}}
+{{- $pages := (index site.Taxonomies.series ($term.Data.Term | urlize)).Pages -}}
+{{- $idx := -1 -}}
+{{- range $i, $p := $pages -}}{{- if eq $p.Permalink $self.Permalink -}}{{- $idx = $i -}}{{- end -}}{{- end -}}
+{{- if ge $idx 0 -}}
+<nav class="vz-series-nav" aria-label="{{ T "vz.series.nav" }}">
+    <p class="vz-series-nav__head">
+        {{ T "vz.series.label" }}<a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+        <span class="vz-series-nav__pos">{{ T "vz.series.position" (dict "Index" (add $idx 1) "Count" (len $pages)) }}</span>
+    </p>
+    <div class="vz-series-nav__links">
+        {{- if gt $idx 0 -}}
+        {{- with index $pages (sub $idx 1) }}
+        <a class="vz-series-nav__link vz-series-nav__link--prev" href="{{ .RelPermalink }}" rel="prev">
+            <span class="vz-series-nav__dir">{{ T "vz.series.prev" }}</span>
+            <span class="vz-series-nav__title">{{ .Params.seriesTitle | default .Title }}</span>
+        </a>
+        {{- end }}
+        {{- end -}}
+        {{- if lt (add $idx 1) (len $pages) -}}
+        {{- with index $pages (add $idx 1) }}
+        <a class="vz-series-nav__link vz-series-nav__link--next" href="{{ .RelPermalink }}" rel="next">
+            <span class="vz-series-nav__dir">{{ T "vz.series.next" }}</span>
+            <span class="vz-series-nav__title">{{ .Params.seriesTitle | default .Title }}</span>
+        </a>
+        {{- end }}
+        {{- end -}}
+    </div>
+</nav>
+{{- end -}}
+{{- end -}}
+{{- end -}}

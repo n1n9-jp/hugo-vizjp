@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/plaster-model-1877.jpg"
 series = ["data-physicalization"]
-series_weight = 13
+series_weight = 7
 seriesByline = "Robert H. Thurston・M. I. Coster"
 seriesTitle = "配合比を三角形に、強さを高さに──Thurston の合金模型"
 +++

@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/galton-box-replica.jpg"
 series = ["data-physicalization"]
-series_weight = 14
+series_weight = 6
 seriesByline = "Francis Galton"
 seriesTitle = "度数分布を落として生み出す──ゴルトン・ボード"
 +++

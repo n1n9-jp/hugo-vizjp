@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/color-card.jpg"
 series = ["data-physicalization"]
-series_weight = 7
+series_weight = 20
 seriesByline = "Kristen Cooper ほか"
 seriesTitle = "1日1段、5℃ごとに色を替える──気温スカーフ"
 +++

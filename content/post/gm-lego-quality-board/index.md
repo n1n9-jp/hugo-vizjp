@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/board-dataphys.jpg"
 series = ["data-physicalization"]
-series_weight = 17
+series_weight = 18
 seriesByline = "General Motors・WellStar Health System"
 seriesTitle = "品質問題1件をブロック1個に──GM の LEGO ボード"
 +++

@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/film-frame-paris-columns.jpg"
 series = ["data-physicalization"]
-series_weight = 4
+series_weight = 12
 seriesByline = "ISHA・CMSS"
 seriesTitle = "1万人の立方体で撮る──パリの人口160年"
 +++

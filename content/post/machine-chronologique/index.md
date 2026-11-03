@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/machine-open.jpg"
 series = ["data-physicalization"]
-series_weight = 12
+series_weight = 5
 seriesByline = "Jacques Barbeu-Dubourg"
 seriesTitle = "6,500年を同じ縮尺で巻き取る──Machine chronologique"
 +++

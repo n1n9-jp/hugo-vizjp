@@ -164,3 +164,13 @@ vz.home.total:
     other: "{{ .Count }} posts"
 vz.home.yearAria:
     other: "{{ .Year }}: {{ .Count }} posts"
+vz.series.nav:
+    other: "Series order"
+vz.series.label:
+    other: "Series: "
+vz.series.position:
+    other: "{{ .Index }} of {{ .Count }}"
+vz.series.prev:
+    other: "Previous"
+vz.series.next:
+    other: "Next"
