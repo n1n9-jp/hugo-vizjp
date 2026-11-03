@@ -773,3 +773,78 @@
         text-underline-offset: 3px;
     }
 }
+
+/* 特集の中の位置と、前後の記事へのリンク（layouts/partials/vz/article/series-nav.html） */
+.vz-series-nav {
+    margin-bottom: 4.8rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid var(--vz-rule);
+}
+
+.vz-series-nav__head {
+    margin: 0 0 1.6rem;
+    font-size: 1.5rem;
+    color: var(--vz-ink-2);
+
+    a {
+        margin-left: 0.4em;
+        font-weight: 700;
+        color: var(--vz-ink);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 4px;
+
+        &:hover {
+            color: var(--vz-accent);
+        }
+    }
+}
+
+.vz-series-nav__pos {
+    margin-left: 0.8em;
+    font-family: var(--vz-font-mono, monospace);
+    font-size: 1.3rem;
+}
+
+.vz-series-nav__links {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.6rem;
+}
+
+@container vzend (min-width: 56rem) {
+    .vz-series-nav__links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .vz-series-nav__link--next {
+        grid-column: 2;
+        text-align: right;
+    }
+}
+
+.vz-series-nav__link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.6rem 2rem;
+    border: 1px solid var(--vz-rule);
+    border-radius: 6px;
+    color: var(--vz-ink);
+    text-decoration: none;
+
+    &:hover .vz-series-nav__title {
+        color: var(--vz-accent);
+    }
+}
+
+.vz-series-nav__dir {
+    font-size: 1.3rem;
+    color: var(--vz-ink-2);
+}
+
+.vz-series-nav__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.55;
+}

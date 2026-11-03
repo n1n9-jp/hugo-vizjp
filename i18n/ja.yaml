@@ -169,3 +169,13 @@ vz.home.total:
     other: "計 {{ .Count }} 本"
 vz.home.yearAria:
     other: "{{ .Year }}年 {{ .Count }}本"
+vz.series.nav:
+    other: "特集の順番"
+vz.series.label:
+    other: "特集"
+vz.series.position:
+    other: "{{ .Index }} / {{ .Count }} 本目"
+vz.series.prev:
+    other: "前の記事"
+vz.series.next:
+    other: "次の記事"

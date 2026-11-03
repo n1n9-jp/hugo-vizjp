@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/ucl-model-original.jpg"
 series = ["data-physicalization"]
-series_weight = 2
+series_weight = 10
 seriesByline = "Karl Pearson・Alice Lee"
 seriesTitle = "度数表を柱に立てる──身長模型"
 +++

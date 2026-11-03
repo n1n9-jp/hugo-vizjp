@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/cosmograph-board-and-negative-print.jpg"
 series = ["data-physicalization"]
-series_weight = 23
+series_weight = 11
 seriesByline = "IBM"
 seriesTitle = "紙片を数えて流れ図を組む──IBM のコスモグラフ"
 +++

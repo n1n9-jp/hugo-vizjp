@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 5
+series_weight = 13
 seriesByline = "Hans Haacke"
 seriesTitle = "紙の山と数字で賛否を示す──MoMA Poll"
 +++

@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/students-file-by-height.jpg"
 series = ["data-physicalization"]
-series_weight = 3
+series_weight = 9
 seriesByline = "Charles B. Davenport"
 seriesTitle = "並べ替えて別のグラフにする──紙を使わない度数多角形"
 +++

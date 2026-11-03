@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 28
+series_weight = 25
 seriesByline = "Antell"
 seriesTitle = "満足は白、不満は赤のビーズで──Antell の出口の棒グラフ"
 +++

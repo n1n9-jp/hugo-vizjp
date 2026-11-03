@@ -3,6 +3,7 @@
     中身は最大 1100px の枠で、本文の左端に揃える。 */ -}}
 <section class="vz-article-end">
     <div class="vz-article-end__inner">
+        {{ partial "vz/article/series-nav.html" . }}
         {{ partial "vz/article/related.html" . }}
         {{ partial "vz/article/author.html" . }}
         {{ partial "vz/article/license.html" . }}

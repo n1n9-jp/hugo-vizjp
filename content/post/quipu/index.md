@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/cleveland-inka-khipu.jpg"
 series = ["data-physicalization"]
-series_weight = 1
+series_weight = 4
 seriesByline = "アンデスの記録係"
 seriesTitle = "数を、結び目と位置で記す──キープ"
 +++

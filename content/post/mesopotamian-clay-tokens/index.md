@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/envelope-louvre-sb1932.jpg"
 series = ["data-physicalization"]
-series_weight = 11
+series_weight = 1
 seriesByline = "古代西アジアの記録係"
 seriesTitle = "形で品目、個数で数量を記したとされる──粘土トークン"
 +++

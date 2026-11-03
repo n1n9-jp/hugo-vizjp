@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/bronze-ballots-agora-museum.jpg"
 series = ["data-physicalization"]
-series_weight = 21
+series_weight = 2
 seriesByline = "古代アテナイの法廷"
 seriesTitle = "軸の穴で票を分け、盤に並べる──Pebble Voting"
 +++

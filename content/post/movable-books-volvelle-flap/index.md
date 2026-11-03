@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/anathomia-1544-male-layers.jpg"
 series = ["data-physicalization"]
-series_weight = 22
+series_weight = 3
 seriesByline = "Matthew Paris・Heinrich Vogtherr ほか"
 seriesTitle = "表を円盤で回し、身体を紙でめくる──中世・近世の動く本"
 +++

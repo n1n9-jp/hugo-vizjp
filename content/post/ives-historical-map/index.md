@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/all-segments.jpg"
 series = ["data-physicalization"]
-series_weight = 15
+series_weight = 8
 seriesByline = "James T. B. Ives"
 seriesTitle = "押す順に領土の板が滑り込む──Ives の歴史地図"
 +++
