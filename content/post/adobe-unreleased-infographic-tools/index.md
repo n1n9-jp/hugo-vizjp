@@ -1,9 +1,9 @@
 +++
 author = "矢崎裕一"
-title = "手で描いた図形を、あとからデータで動かす道具は、なぜ製品にならなかったのか──アドビの5つの試作"
+title = "描いた図形に、あとからデータを割り当てる道具は、なぜ製品にならなかったのか──アドビの5つの試作"
 slug = "adobe-unreleased-infographic-tools"
 date = "2026-11-04"
-description = "アドビは2016〜2025年に、手で描いた図形をあとからデータで動かすインフォグラフィックス作成ツールを少なくとも5つ発表しましたが、どれも製品になっていません。理由は公に説明されていません。"
+description = "アドビは2016〜2025年に、描いた図形にあとからデータを割り当てるインフォグラフィックス作成ツールを少なくとも5つ発表しましたが、どれも製品になっていません。理由は公に説明されていません。"
 categories = [
     "consume"
 ]
@@ -17,7 +17,7 @@ tags = [
 image = "images/lincoln-oceans-seven-poster.jpg"
 +++
 
-アドビは2016年から2025年にかけて、手で描いた図形をデータで動かすインフォグラフィックス作成ツールを、少なくとも5つ発表しました。Data-Driven Guides、Project Lincoln、Data Illustrator、Project Infograph It（論文名は Epigraphics）、CompSketch です。どれも製品にはなっていません。アドビはその理由を公に説明しておらず、公式に書いているのは「Sneaks の技術はいまは買えず、人気が出れば製品に入る可能性が上がる」という位置づけだけです。
+アドビは2016年から2025年にかけて、描いた図形にデータを割り当てるインフォグラフィックス作成ツールを、少なくとも5つ発表しました。Data-Driven Guides、Project Lincoln、Data Illustrator、Project Infograph It（論文名は Epigraphics）、CompSketch です。どれも製品にはなっていません。アドビはその理由を公に説明しておらず、公式に書いているのは「Sneaks の技術はいまは買えず、人気が出れば製品に入る可能性が上がる」という位置づけだけです。
 
 出典は、4本の論文（IEEE InfoVis 2016、ACM CHI 2018・2024・2025）、Adobe Blog と Adobe Research の記事、作者の書き込み、Google Patents の記録です。以下、年の順に5つを追い、最後に一次情報で言える範囲で「なぜ」を書きます。
 
@@ -39,13 +39,13 @@ Nam Wook Kim ほか（元の図は Nigel Holmes）／論文「Data-Driven Guides
 
 評価では、参加者の多くが「いつ使えるのか」と尋ねました。論文は限界の多くが「ツールの成熟度」にあったと書き、Kim のページは試作版を "experimental prototype" と断っています。試作版のホストは、2026年11月4日時点で名前解決できません。
 
-## 2017〜2018年、描いた図形を、あとからデータで動かす──Project Lincoln と Data Illustrator
+## 2017〜2018年、描いた図形に、あとからデータを割り当てる──Project Lincoln と Data Illustrator
 
 2017年10月、Adobe MAX の Sneaks（開発中の技術を見せるステージ）で、Adobe Design Lab の Bernard Kerr が Project Lincoln を披露しました。Adobe Blog（2018-01-03）の説明です。
 
 > Rather than starting with a tool that grabs data and spits out a visualization, #ProjectLincoln's tools give designers the power to sketch first and then bind these shapes to data.
 
-データから図を出すのではなく、先に描いた図形をデータで動かす、という要旨です。大きさ、色、位置、テキストにデータを割り当てられると続きます。
+データから図を出すのではなく、先に描いた図形にデータを割り当てる、という要旨です。大きさ、色、位置、テキストに割り当てられると続きます。
 
 ![MAX 2017 のステージ。大画面に海峡ごとの円が大きさを変えて並ぶ](images/lincoln-max2017-stage.jpg)
 
