@@ -1,9 +1,9 @@
 +++
 author = "矢崎裕一"
-title = "先に描いてデータを対応づける道具は、なぜ製品にならなかったのか──アドビの5つの試作"
+title = "手で描いた図形を、あとからデータで動かす道具は、なぜ製品にならなかったのか──アドビの5つの試作"
 slug = "adobe-unreleased-infographic-tools"
 date = "2026-11-04"
-description = "アドビは2016〜2025年に、図形を描いてデータを対応づけるインフォグラフィックス作成ツールを少なくとも5つ発表しましたが、どれも製品になっていません。理由は公に説明されていません。"
+description = "アドビは2016〜2025年に、手で描いた図形をあとからデータで動かすインフォグラフィックス作成ツールを少なくとも5つ発表しましたが、どれも製品になっていません。理由は公に説明されていません。"
 categories = [
     "consume"
 ]
@@ -17,7 +17,7 @@ tags = [
 image = "images/lincoln-oceans-seven-poster.jpg"
 +++
 
-アドビは2016年から2025年にかけて、図形を描いてデータを対応づけるインフォグラフィックス作成ツールを、少なくとも5つ発表しました。Data-Driven Guides、Project Lincoln、Data Illustrator、Project Infograph It（論文名は Epigraphics）、CompSketch です。どれも製品にはなっていません。アドビはその理由を公に説明しておらず、公式に書いているのは「Sneaks の技術はいまは買えず、人気が出れば製品に入る可能性が上がる」という位置づけだけです。
+アドビは2016年から2025年にかけて、手で描いた図形をデータで動かすインフォグラフィックス作成ツールを、少なくとも5つ発表しました。Data-Driven Guides、Project Lincoln、Data Illustrator、Project Infograph It（論文名は Epigraphics）、CompSketch です。どれも製品にはなっていません。アドビはその理由を公に説明しておらず、公式に書いているのは「Sneaks の技術はいまは買えず、人気が出れば製品に入る可能性が上がる」という位置づけだけです。
 
 出典は、4本の論文（IEEE InfoVis 2016、ACM CHI 2018・2024・2025）、Adobe Blog と Adobe Research の記事、作者の書き込み、Google Patents の記録です。以下、年の順に5つを追い、最後に一次情報で言える範囲で「なぜ」を書きます。
 
@@ -39,13 +39,13 @@ Nam Wook Kim ほか（元の図は Nigel Holmes）／論文「Data-Driven Guides
 
 評価では、参加者の多くが「いつ使えるのか」と尋ねました。論文は限界の多くが「ツールの成熟度」にあったと書き、Kim のページは試作版を "experimental prototype" と断っています。試作版のホストは、2026年11月4日時点で名前解決できません。
 
-## 2017〜2018年、先に描いて、あとからデータを対応づける──Project Lincoln と Data Illustrator
+## 2017〜2018年、描いた図形を、あとからデータで動かす──Project Lincoln と Data Illustrator
 
 2017年10月、Adobe MAX の Sneaks（開発中の技術を見せるステージ）で、Adobe Design Lab の Bernard Kerr が Project Lincoln を披露しました。Adobe Blog（2018-01-03）の説明です。
 
 > Rather than starting with a tool that grabs data and spits out a visualization, #ProjectLincoln's tools give designers the power to sketch first and then bind these shapes to data.
 
-データから図を出すのではなく、先に描いた図形にデータを対応づける、という要旨です。大きさ、色、位置、テキストにデータを対応づけられると続きます。
+データから図を出すのではなく、先に描いた図形をデータで動かす、という要旨です。大きさ、色、位置、テキストにデータを割り当てられると続きます。
 
 ![MAX 2017 のステージ。大画面に海峡ごとの円が大きさを変えて並ぶ](images/lincoln-max2017-stage.jpg)
 
@@ -63,7 +63,7 @@ Adobe／Adobe Blog「Peek Behind the Sneaks: #ProjectLincoln」より引用
 
 Zhicheng Liu ほか／論文「Data Illustrator」Table 2 より引用
 
-対応づけは、図形の性質ごとに後から行います（lazy data binding）。対応づけた性質はロックされ、ほかは手で動かせます。
+データは、図形の性質ごとに後から割り当てます（lazy data binding）。割り当てた性質はロックされ、ほかは手で動かせます。
 
 ![プロパティ欄で、位置 Y の鎖アイコンから列 Count を選び、集計方法 SUM を選んでいる](images/data-illustrator-lazy-binding.png)
 
@@ -93,21 +93,21 @@ Adobe Research／Adobe Research「An innovative summer project landed this Adobe
 
 上は Zhou が Summit で見せた作例です。Sneak は [YouTube](https://www.youtube.com/watch?v=XSMO9-7pcq8) で見られます。論文は、Illustrator や Figma ほど細かく調整できないという参加者の声を限界に挙げ、既存ツールのプラグインにもなりうると書いています。Zhou は2025年に Adobe Research の正社員になり、この技術にいまも取り組んでいます（2026-09-01 の記事）。
 
-2025年4月には、ウォータールー大学と Adobe Research が CompSketch を CHI 2025 の短い論文で発表しました。複数の案を並べてスケッチし、矢印で列とグリフの見た目を対応づけます。投げ縄で囲んだ部分だけ、データを対応づけたプレビューが出ます。公開ツールは確認できません。
+2025年4月には、ウォータールー大学と Adobe Research が CompSketch を CHI 2025 の短い論文で発表しました。複数の案を並べてスケッチし、矢印で、列をグリフの見た目に割り当てます。投げ縄で囲んだ部分だけ、データを割り当てたプレビューが出ます。公開ツールは確認できません。
 
-![花のスケッチに矢印で where を色、fatalities を大きさ、duration を高さに対応づけ、花が並ぶプレビューを出している](images/compsketch-overview.png)
+![花のスケッチに矢印で where を色、fatalities を大きさ、duration を高さに割り当て、花が並ぶプレビューを出している](images/compsketch-overview.png)
 
 Xinyu Shi ほか／論文「Comprehensive Sketching」Figure 1 より引用
 
-5つの対応づけ先を並べます。
+5つの割り当て先を並べます。
 
-| ツール | 出発点 | データの対応づけ先 | 対応づけ方 |
+| ツール | 出発点 | データを割り当てる先 | 割り当て方 |
 |---|---|---|---|
 | Data-Driven Guides | データから作るガイド | 長さ・面積・位置 | ガイドに沿って描いた図形が変形する |
-| Project Lincoln | 描いた図形 | 大きさ・色・位置・テキスト | 列を対応づけ、Repeat Grid で並べる |
+| Project Lincoln | 描いた図形 | 大きさ・色・位置・テキスト | 列を割り当て、Repeat Grid で並べる |
 | Data Illustrator | 描いた図形 | 色・高さ・アンカーポイントの位置など | repeat／partition の後、性質ごとに列と集計を選ぶ |
 | Epigraphics | 伝えたい一文 | グラフ・図像・配色・動き | 文の一部から候補を推薦する |
-| CompSketch | 複数のスケッチ | グリフの色・大きさ・高さ | 矢印で対応づけ、投げ縄でプレビューする |
+| CompSketch | 複数のスケッチ | グリフの色・大きさ・高さ | 矢印で割り当て、投げ縄でプレビューする |
 
 ## なぜ製品にならなかったのか
 
@@ -141,7 +141,7 @@ Lincoln が出た回の公式まとめ（Adobe Blog、2017-10-20）は、Sneaks 
 
 ## 使い道
 
-上の表の「データの対応づけ先」は、手で図を作るときの確認表になります。どの列をどの図形のどの性質に対応づけるかを先に書き出し、その性質は手で動かさない。Data Illustrator の lazy data binding の考え方です。
+表の「データを割り当てる先」は、手で図を作るときの確認表になります。どの列をどの図形のどの性質に割り当てるかを先に書き出し、その性質は手で動かさない。Data Illustrator の lazy data binding の考え方です。
 
 無料で動く Data Illustrator v1.1 で repeat と partition を試すと、この感覚がつかめます。
 
