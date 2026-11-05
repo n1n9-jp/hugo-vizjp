@@ -3,7 +3,7 @@ author = "矢崎裕一"
 title = "100本の棒に、どのデータを載せるか──動く物理棒グラフ EMERGE"
 slug = "emerge-dynamic-bar-chart"
 date = "2026-11-05"
-description = "EMERGE は、10×10本の棒が上下する物理的な棒グラフです。一度に見せられる棒は100本だけなので、隠す・並べ替える・スクロールする操作が設計の中心になりました。"
+description = "EMERGE は、10×10本の棒が上下する物理的な棒グラフです。一度に見せられる棒は100本だけなので、隠す・並べ替える・スクロールする操作が設計の大きな部分を占めました。"
 categories = [
     "consume"
 ]
@@ -19,7 +19,7 @@ seriesByline = "Faisal Taher・Jason Alexander ほか（Lancaster University）"
 seriesTitle = "100本の棒にどのデータを載せるか──EMERGE"
 +++
 
-EMERGE（イマージ）は、10×10本の棒が上下する物理的な棒グラフです。英国の Lancaster University（ランカスター大学）の研究グループが作りました。一度に見せられる棒は100本だけなので、隠す・並べ替える・スクロールするといった、どのデータを棒に載せるかを決める操作が設計の中心になりました。
+EMERGE（イマージ）は、10×10本の棒が上下する物理的な棒グラフです。英国の Lancaster University（ランカスター大学）の研究グループが作りました。一度に見せられる棒は100本だけなので、隠す・並べ替える・スクロールするといった、どのデータを棒に載せるかを決める操作が設計の大きな部分を占めました。
 
 最初の論文は、Faisal Taher（ファイサル・タハー）、Jason Alexander（ジェイソン・アレクサンダー）ら7人による "Exploring Interactions with Physically Dynamic Bar Charts"（CHI 2015）です。続く観察研究が IEEE TVCG（2017年。VIS 2016 で発表）に、複数人での利用を調べた研究が CHI 2023 に出ています。以下は、この3本の論文と大学の広報に沿います。
 
@@ -39,7 +39,7 @@ Lancaster University／"Shape changing display could spell the end for the 2D gr
 
 ![左は棒を指で押す人の手、中央は棒・押し棒・スライダーの段と4辺のタッチスクリーンを示す構造図、右は本体を横から写した写真](images/platform-structure-chi23.jpg)
 
-Miriam Sturdee・Hayat Kara・Jason Alexander／"Exploring Co-located Interactions with a Shape-Changing Bar Chart"（CHI 2023、CC BY）より引用。中央の構造図は、同論文が CHI15 から再掲したもの
+Miriam Sturdee・Hayat Kara・Jason Alexander／"Exploring Co-located Interactions with a Shape-Changing Bar Chart"（CHI 2023、CC BY）より引用。中央の構造図は、同論文が CHI15 から再掲したもの（© 2015 ACM）
 
 データと見た目の対応は、次のとおりです。
 
@@ -77,7 +77,7 @@ CHI15 は、こう書き出します。
 | 並べ替える | Drag and drop、Press to swap（それぞれ2通りの動き方） | ラベルのドラッグ（3.88） |
 | 移動する | スクロールバー、方向の矢印、Directional press、ページ送り | スクロールバー（4） |
 
-4つのうち3つは、どの棒に何を出すかを変える操作にあたります。「隠す」には理由も添えられています。紙の棒グラフでは隣の棒が高さの読みを最もゆがめる（Zacks ら、1998）ので、要らない棒を消すと読み比べやすくなる、という説明です。
+4つの作業のうち絞り込み・並べ替え・移動の3つは、どの棒に何を出すかを変える操作と読めます。「隠す」には理由も添えられています。紙の棒グラフでは隣の棒が高さの読みを最もゆがめる（Zacks ら、1998）ので、要らない棒を消すと読み比べやすくなる、という説明です。
 
 作業の前に「どうやるか」を聞くと、全員がスワイプやラベルのタップといったタッチスクリーン式の操作を答えました。ところが絞り込みでは、棒に直接触れる操作を試すと、評価が物理の側に移りました。それでも論文の結論は使い分けです。
 
@@ -130,13 +130,13 @@ Faisal Taher ほか／"Investigating the Use of a Dynamic Physical Bar Chart for
 
 ## 「2Dグラフの終わり」と、論文の自己評価
 
-2015年4月13日、Lancaster University は EMERGE の広報を出しました。見出しは "Shape changing display could spell the end for the 2D graph"、本文には "sounding the death knell for the two dimensional bar chart" とあります。どちらも、2Dの棒グラフが終わるという言い方です。
+2015年4月13日、Lancaster University は EMERGE の広報を出しました。見出しは "Shape changing display could spell the end for the 2D graph" で、2Dのグラフの終わりになりうる、という言い方です。本文はより強く、"sounding the death knell for the two dimensional bar chart"、つまり2Dの棒グラフの終わりを告げる、と書いています。
 
 論文の書き方は違います。TVCG17 は、自らの研究をこう位置づけています。
 
 > Our study was not a comparative experiment, and we therefore cannot draw any conclusions about how visualizations and physicalizations compare.
 
-画面の可視化と物理化の優劣は、比較実験ではないので結論できない、という要旨です。論文は、2Dより良いとは主張していません。
+画面の可視化と物理化の優劣は、比較実験ではないので結論できない、という要旨です。論文は、2Dより良いとは主張していないと読めます。
 
 比較実験を行ったのは、Jansen らの CHI 2013 です。静的な3D棒グラフは画面より実物のほうが速く読めましたが、2Dの画面表示には及びませんでした（[Jansen らの評価実験](/evaluating-physical-visualizations/)）。EMERGE はその次に、「動かせるならどう操作するか」へ進んだ研究として読めます。同じ特集の [Physical Charts](/tenison-road-charts/) も動く棒グラフですが、ラボのガラス窓の内側に置き、通りから見せる作品です。EMERGE は実験室の試作機で、見る人が棒を押し引きして操作します。
 
@@ -144,7 +144,7 @@ Faisal Taher ほか／"Investigating the Use of a Dynamic Physical Bar Chart for
 
 評価の論点は、文献ごとに違います。
 
-- **Bae、Zheng、Do、Huron（CHI 2022）** は、対話の幅が分析の深さを決めるという論点で、EMERGE を Zooids と並べます。絞り込み、組み替え、抽象化と詳細化、選択を、2.5Dのディスプレイに組み込んだ例です。
+- **Bae ほか（CHI 2022）** は、対話の幅が分析の深さを決めるという論点で、EMERGE を Zooids と並べます。絞り込み、組み替え、抽象化と詳細化、選択を、2.5Dのディスプレイに組み込んだ例です。
 - **Djavaherpour ほか（Computer Graphics Forum 2021）** は物理化の分類で、EMERGE を「統計データ」の例に入れ、棒と RGB LED の反応する棒グラフと説明します。Jansen が共著者です。
 - **Sauvé、Potts、Alexander、Houben（CHI 2020）** は、向きと知覚を調べる実験の動機に EMERGE を挙げます。回り込みが遮蔽を補うためか、正確に読むためか分からない点です。Alexander が共著者です。
 
@@ -152,7 +152,7 @@ Faisal Taher ほか／"Investigating the Use of a Dynamic Physical Bar Chart for
 
 ## 使い道
 
-物理の可視化では、表示できる量の上限が先に決まる、と EMERGE からは読めます。棒は100本で、増やせません。だから設計は、限られた棒に何を割り当てるかの操作に向かいました。
+物理の可視化では、表示できる量の上限が先に決まる、と EMERGE からは読めます。この試作機の棒は100本です。だから設計は、限られた棒に何を割り当てるかの操作に向かいました。
 
 画面でも、小さな面積に多くのデータを載せるときは同じです。持ち帰れることは三つあると読めます。一つ目は、窓の外を見に行く手段と、窓の中を固定して残す手段を対にすることです。二つ目は、操作の大きさで手段を分けることです。1点を選ぶならその点に触れ、行を動かすならラベルを動かす。三つ目は、立体の表示を、見る人が歩いて回れる場所に置くことです。
 
@@ -164,12 +164,15 @@ Faisal Taher ほか／"Investigating the Use of a Dynamic Physical Bar Chart for
 - Faisal Taher, Yvonne Jansen, Jonathan Woodruff, John Hardy, Kasper Hornbæk, Jason Alexander, "Investigating the Use of a Dynamic Physical Bar Chart for Data Exploration and Presentation," *IEEE TVCG* 23(1), 2017, pp. 451–460. [著者最終稿](https://purehost.bath.ac.uk/ws/files/211082383/VIS16_PhysicalBarChart.pdf) / [Lancaster eprints](https://eprints.lancs.ac.uk/id/eprint/82634) / [doi:10.1109/TVCG.2016.2598498](https://doi.org/10.1109/TVCG.2016.2598498)
 - Miriam Sturdee, Hayat Kara, Jason Alexander, "Exploring Co-located Interactions with a Shape-Changing Bar Chart," CHI 2023. [PDF](https://purehost.bath.ac.uk/ws/files/285358459/CHI23_EMERGECollaboration.pdf) / [University of Bath](https://researchportal.bath.ac.uk/en/publications/exploring-co-located-interactions-with-a-shape-changing-bar-chart/) / [doi:10.1145/3544548.3581214](https://doi.org/10.1145/3544548.3581214)
 - Lancaster University, "Shape changing display could spell the end for the 2D graph," 2015-04-13. [広報](https://www.lancaster.ac.uk/news/articles/2015/shape-changing-display-could-spell-the-end-for-the-2d-graph/)
+- J. Heer, B. Shneiderman, "Interactive Dynamics for Visual Analysis," *Communications of the ACM* 55(4), 2012, pp. 45–54（CHI15 が引用。作業の分類の元）
+- J. Zacks, E. Levy, B. Tversky, D. J. Schiano, "Reading bar graphs: Effects of extraneous depth cues and graphical context," *Journal of Experimental Psychology: Applied* 4, 1998, pp. 119–138（CHI15 が引用。「隠す」の理由づけ）
+- Yvonne Jansen, Pierre Dragicevic, Jean-Daniel Fekete, "Evaluating the Efficiency of Physical Visualizations," CHI 2013 の材料ページ（CHI15 が国別データの出所として引用）. [aviz.fr/phys](http://www.aviz.fr/phys)
 - Jason Alexander, "EMERGE Capabilities Demonstration"（YouTube）. [動画](https://youtu.be/xA4jOwCHO8I)
 - Jason Alexander, Faisal Taher, John Hardy, John Vidler, "EMERGE," Samuel Huron, Till Nagel, Lora Oehlberg, Wesley Willett (eds.), *Making with Data: Physical Design and Craft in a Data-Driven World*, A K Peters/CRC Press, 2022, 4.4. [Taylor & Francis](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003264903-19/emerge-jason-alexander-faisal-taher-john-hardy-john-vidler) / [Crossref](https://api.crossref.org/works/10.1201/9781003264903-19) / [Routledge（目次）](https://www.routledge.com/Making-with-Data-Physical-Design-and-Craft-in-a-Data-Driven-World/Huron-Nagel-Oehlberg-Willett/p/book/9781032182223)
 
 **第三者評価**
 
-- S. Sandra Bae, Clement Zheng, Ellen Yi-Luen Do, Samuel Huron, "Making Data Tangible: A Cross-disciplinary Design Space for Data Physicalization," CHI 2022. [arXiv](https://arxiv.org/abs/2202.10520)
+- S. Sandra Bae, Clement Zheng, Mary Etta West, Ellen Yi-Luen Do, Samuel Huron, Danielle Albers Szafir, "Making Data Tangible: A Cross-disciplinary Design Space for Data Physicalization," CHI 2022. [arXiv](https://arxiv.org/abs/2202.10520)
 - H. Djavaherpour ほか（Y. Jansen が共著者）, "Data to Physicalization: A Survey of the Physical Rendering Process," *Computer Graphics Forum* 40(3), 2021. [arXiv](https://arxiv.org/abs/2102.11175)
 - Kim Sauvé, Dominic Potts, Jason Alexander, Steven Houben, "A Change of Perspective: How User Orientation Influences the Perception of Physicalizations," CHI 2020（Alexander が共著者）. [PDF](https://eprints.lancs.ac.uk/id/eprint/140417/1/A_Change_of_Perspective_camera_ready.pdf)
 - ScienceDaily, "Shape changing display could spell the end for the 2-D graph," 2015-04-13（広報の転載）. [記事](https://www.sciencedaily.com/releases/2015/04/150413130530.htm)

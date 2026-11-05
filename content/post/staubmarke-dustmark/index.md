@@ -3,7 +3,7 @@ author = "矢崎裕一"
 title = "壁の汚れを洗って円を描き、積もる粉じんで消していく──Dietmar Offenhuber の Staubmarke"
 slug = "staubmarke-dustmark"
 date = "2026-11-05"
-description = "ステンシルと高圧洗浄機で壁などの汚れを落とし、大きさの違う円と目盛りを描いた作品です。粉じんが積もると小さい円から見えなくなり、その消え方で堆積の量を読ませます。"
+description = "ステンシルと高圧洗浄機で壁などの汚れを落とし、大きさの違う点でできた円を目盛りとして描いた作品です。各印の目盛りで、積もった層の厚さをおおよそ見積もれるようにしました。"
 categories = [
     "consume"
 ]
@@ -17,7 +17,7 @@ seriesByline = "Dietmar Offenhuber"
 seriesTitle = "汚れを洗って描き、小さい円から消える──Staubmarke"
 +++
 
-Dietmar Offenhuber（ディートマー・オッフェンフーバー）の Staubmarke（シュタウプマルケ、英語表記は Dustmark）は、ステンシルと高圧洗浄機で壁などの汚れを落とし、大きさの違う円と目盛りを描いた作品です。粉じんが積もると小さい円から見えなくなり、その消え方で堆積の量を読ませます。
+Dietmar Offenhuber（ディートマー・オッフェンフーバー）の Staubmarke（シュタウプマルケ、英語表記は Dustmark）は、ステンシルと高圧洗浄機で壁などの汚れを落とし、大きさの違う点でできた円を並べて、目盛りとして描いた作品です。見る人が各印の目盛りで、積もった汚れの層の厚さをおおよそ見積もれるようにしました。粉じんが積もり直すと、模様は小さい円から見えなくなっていきます。
 
 作品は2018年10月、ドイツのシュトゥットガルトで開かれた芸術祭「Drehmoment」のために作られました。以下は、主催者 KulturRegion Stuttgart のパンフレット、Offenhuber の論文「Data by Proxy」（2019）、Northeastern University の広報記事に沿って読みます。作者の公式ページと作品サイト dust.zone は、今回は開けませんでした。
 
@@ -25,7 +25,7 @@ Dietmar Offenhuber（ディートマー・オッフェンフーバー）の Stau
 
 ## 2018年、シュトゥットガルトの壁を洗う
 
-Drehmoment は、KulturRegion Stuttgart が開いた産業芸術祭です。会期は2018年10月4日〜28日でした。Staubmarke は、Michael Saup の VR 作品「STAUB」と一冊のパンフレットにまとめられ、協力先にはシュトゥットガルト高性能計算センター（HLRS）が載っています。「STAUB」は聖マリア教会の中で見せ、Staubmarke の印は市内の屋外に置かれました。
+Drehmoment は、KulturRegion Stuttgart が開いた産業芸術祭です。会期は2018年10月4日〜28日でした。Staubmarke は、Michael Saup の VR 作品「STAUB」と一冊のパンフレットにまとめられ、協力先にはシュトゥットガルト高性能計算センター（HLRS）が載っています。「STAUB」は聖マリア教会の中で見せ、Staubmarke の印は市内の複数の場所に置かれました。
 
 パンフレットは、両作品に共通する前提をこう書きます。
 
@@ -45,7 +45,7 @@ Dietmar Offenhuber／Information is Beautiful Awards「Dustmarks And Ozone Tatto
 
 デジタルの測定値に対して、物理的な参照点をつくることがねらいだ、という一文です。
 
-## 大きさの違う円が、目盛りになる
+## 点の大きさの違う円が、目盛りになる
 
 パンフレットによると、一つ一つの印には、汚れの層から洗い出した目盛り（Skala）が入っています。
 
@@ -76,11 +76,11 @@ Dietmar Offenhuber の作品（撮影者の記載なし）／Boston Hassle「WEN
 | 市民センサー網の測定値 | 印の場所と測定地点を重ねる | 測定値と印の見た目を比べられる | パンフレット、論文 7.3節 |
 | 下地 | コンクリートや石の壁・台座 | 論文の図は「washed into concrete」 | 論文 Fig. 9 |
 
-**汚れが多いほど洗った円がくっきり見え、汚れが積もり直すほど円は消えます。** 量が増えるほど図が薄れる向きで、インクを足していくふつうのチャートとは逆の設計だと読めます。目盛りは、その時点の層の厚さを読む凡例です。同時に、消えた段の数が、印を洗ってからの堆積を刻む時計にもなっている、と読めます。
+**汚れが多いほど洗った円がくっきり見え、汚れが積もり直すほど円は消えていく、と読めます。** 量が増えるほど図が薄れる向きで、インクを足していくふつうのチャートとは逆の設計だと読めます。目盛りは、その時点の層の厚さを読む凡例として働く、と読めます。同時に、消えた段の数が、印を洗ってからの堆積を刻む時計にもなっている、と読めます。
 
 ## 4か所か、5か所か──印の場所と測定値
 
-印を置いた場所の数は、資料によって食い違います。パンフレットの地図には、RG1〜RG5の5か所が載っています。
+印を置いた場所の数は、資料によって食い違います。パンフレットには、RG1〜RG5の5か所が載っています。
 
 | 番号 | 場所（パンフレットの記載） |
 |---|---|
@@ -122,7 +122,7 @@ Offenhuber は、2019年の IEEE VIS で発表した論文「Data by Proxy — M
 
 論文の Fig. 9 のキャプションは、この作品のデザイン操作を「aggregating, encoding」と分類しています。同じ論文の Table 2 では、Aggregating は素材を集めて見えるようにすること、Encoding は現象を区切る目盛りを加えることです。汚れが集まった層を使い、そこに目盛りを洗い出した作品なので、二つの操作がそのまま当てはまる、と読めます。
 
-この作品には、書籍『Making with Data』（Huron・Nagel・Oehlberg・Willett 編、CRC Press）にも章があります。第5章「Environment」の 5.4「Staubmarke (Dustmark)」で、執筆は Offenhuber、pp. 359–369、DOI は 10.1201/9781003264903-24 です。章の本文は今回読めていません。同じ第5章には [Perpetual Plastic](/perpetual-plastic/) と [Solar Totems](/solar-totems/) も入っています。時間とともに跡が残り、記録が積み上がっていく作品として、Solar Totems と並べて読めます。
+この作品には、書籍『Making with Data』（Huron・Nagel・Oehlberg・Willett 編、CRC Press）にも章があります。第5部「Environment」の 5.4「Staubmarke (Dustmark)」で、執筆は Offenhuber、pp. 359–369、DOI は 10.1201/9781003264903-24 です。章の本文は今回読めていません。同じ第5部には [Perpetual Plastic](/perpetual-plastic/) と [Solar Totems](/solar-totems/) も入っています。どちらも、現象がその場の素材に痕跡を残す作品です。違いは痕跡の向きで、Solar Totems は焦げ線が増えて残り、Staubmarke は図柄が消えていきます。
 
 ## 第三者はこの作品をどう見たか
 
@@ -148,7 +148,7 @@ Northeastern University の広報記事は、市民団体と市当局が大気�
 
 もう一つは、数値と現物を同じ場所で照らし合わせる参照点です。印は市民センサーの測定地点にも置かれ、値と壁の見た目を比べられるようにしてありました。画面の数字を、その数字が測られた場所へ戻す方法として読めます。
 
-限界も、作者自身が書いています。論文は、autographic visualization の制作は遅く、手に入る素材に縛られるとしています。ボストンでは、汚れが足りず模様が出ませんでした。この方式は、現象がその場に十分な痕跡を残しているときにだけ使える、と読めます。
+限界も、作者自身が書いています。論文は、autographic visualization の制作は遅く、手に入る素材に縛られるとしています。Boston Hassle によれば、ギャラリーの外の砂利では、汚れが足りず模様が出ませんでした。この方式は、現象がその場に十分な痕跡を残しているときにだけ使える、と読めます。
 
 ## 参考・出典
 
@@ -157,7 +157,8 @@ Northeastern University の広報記事は、市民団体と市当局が大気�
 - KulturRegion Stuttgart「Drehmoment Produktionskunst-Festival 4.–28.10.2018：Michael Saup | Dietmar Offenhuber »STAUB« | »Staubmarke« Mit: HLRS」パンフレット（PDF、2018）：https://kulturregion-stuttgart.de/fileadmin/user_upload/Projekte/2018_Drehmoment/Kommunen-Projekte/Einzelprogrammhefte/Drehmoment_Stuttgart_Saup_Offenhuber_WEB.pdf
 - Dietmar Offenhuber, "Data by Proxy — Material Traces as Autographic Visualizations," arXiv:1907.05454, 2019（IEEE VIS 2019。7.3節、Fig. 9、Table 2）：https://arxiv.org/abs/1907.05454
 - Information is Beautiful Awards, "Dustmarks And Ozone Tattoos: Autographic Displays Of Air Pollution"（応募文と写真、2019）：https://www.informationisbeautifulawards.com/showcase/3977-dustmarks-and-ozone-tattoos-autographic-displays-of-air-pollution
-- Dietmar Offenhuber, "Staubmarke (Dustmark)," in *Making with Data*, pp. 359–369（第5章 5.4）：https://doi.org/10.1201/9781003264903-24
+- Dietmar Offenhuber, "Staubmarke (Dustmark)," in *Making with Data*, pp. 359–369（第5部 5.4）：https://doi.org/10.1201/9781003264903-24
+- 『Making with Data』書籍サイト、編者と各部の構成：https://makingwithdata.org/blog/structure
 - 『Making with Data』の目次（書店のページ）：https://preigu.de/buecher/making-with-data/122556908
 - 今回は開けなかったページ：作者の公式ページ https://offenhuber.net/project/staubmarke-dustmark/ ／作品サイト http://dust.zone/
 
