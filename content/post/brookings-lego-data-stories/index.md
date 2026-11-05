@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/lego-taxes-still.jpg"
 series = ["data-physicalization"]
-series_weight = 23
+series_weight = 25
 seriesByline = "Brookings（Richard V. Reeves・David Wessel）"
 seriesTitle = "5本の積み上げで税と移動を比べる──Brookings のレゴ動画"
 +++

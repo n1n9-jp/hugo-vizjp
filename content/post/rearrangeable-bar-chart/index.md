@@ -16,7 +16,7 @@ tags = [
 ]
 image = "images/pulling-out-country-rows.png"
 series = ["data-physicalization"]
-series_weight = 22
+series_weight = 24
 seriesByline = "Jansen・Dragicevic"
 seriesTitle = "国ごとに抜き差しする──Rearrangeable 3D Bar Chart"
 +++

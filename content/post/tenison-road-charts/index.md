@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 24
+series_weight = 26
 seriesByline = "David Sweeney ほか（Microsoft Research）"
 seriesTitle = "円グラフと棒グラフを窓で動かす──Physical Charts"
 +++

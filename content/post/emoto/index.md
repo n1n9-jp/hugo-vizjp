@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 19
+series_weight = 21
 seriesByline = "Moritz Stefaner・Drew Hemment・Studio NAND"
 seriesTitle = "ツイートの件数を高さに削る──emoto"
 +++

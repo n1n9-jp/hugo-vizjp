@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 29
+series_weight = 39
 seriesByline = "Liina Klauss・Moritz Stefaner・Skye Morét"
 seriesTitle = "同じ流れを浜のごみで並べる──Perpetual Plastic"
 +++
