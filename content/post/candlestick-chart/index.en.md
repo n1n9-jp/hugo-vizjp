@@ -23,7 +23,7 @@ Candlestick charts are widely used in financial markets because they summarize p
 
 ## How to Read It
 
-A rising period is often shown in white or green, and a falling period in black or red. Long bodies indicate large open-to-close movement; long wicks indicate wide intraperiod fluctuation.
+A rising period is called a bullish candle and a falling period a bearish candle. Colors differ by region: in Western markets a rising period is often green and a falling period red, while in Japan a rising period is often red and a falling period black or blue. Long bodies indicate large open-to-close movement; long wicks indicate wide intraperiod fluctuation.
 
 ## Design Notes
 
