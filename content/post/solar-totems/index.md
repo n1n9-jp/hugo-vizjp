@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 35
 seriesByline = "Charles Sowers"
 seriesTitle = "ガラス球で丸太を焦がし、日照を記録する──Solar Totems"
 +++

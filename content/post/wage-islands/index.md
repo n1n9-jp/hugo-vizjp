@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/peaks-as-islands.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 28
 seriesByline = "Ekene Ijeoma"
 seriesTitle = "安い地域ほど高い地図を水に沈める──Wage Islands"
 +++

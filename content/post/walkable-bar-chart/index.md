@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/red-and-blue-bars-start.jpg"
 series = ["data-physicalization"]
-series_weight = 30
+series_weight = 40
 seriesByline = "Respect New Haven"
 seriesTitle = "204mの帯と8cmの赤──Walkable Bar Chart"
 +++

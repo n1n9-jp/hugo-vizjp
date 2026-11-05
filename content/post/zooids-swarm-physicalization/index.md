@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/collaborative-exploration.png"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 32
 seriesByline = "Mathieu Le Goc ほか"
 seriesTitle = "1点を1台にして、手でつまむ──Zooids"
 +++

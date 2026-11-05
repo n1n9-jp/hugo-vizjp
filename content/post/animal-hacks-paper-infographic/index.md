@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/magazine-spread.jpg"
 series = ["data-physicalization"]
-series_weight = 26
+series_weight = 33
 seriesByline = "Alberto Lucas López ほか"
 seriesTitle = "色紙の層で数える──Animal Hacks"
 +++
