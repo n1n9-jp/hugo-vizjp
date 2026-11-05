@@ -18,7 +18,7 @@ seriesByline = "Adrien Segal"
 seriesTitle = "31年の雪を31段の引き出しに──Snow Water Equivalent"
 +++
 
-Adrien Segal（エイドリアン・シーガル）の『Snow Water Equivalent』は、31年分（1980〜2010年）の積雪データを31段の引き出しにした収納家具です。1段が1年で、下が1980年、上が2010年です。引き出しの高さがその年の降水量を、彫った合板の前板の起伏がその年の積雪水量（SWE）の推移を表します。データは、カリフォルニア州シエラネバダの観測点 Ebbetts Pass で、米国農務省の NRCS が記録したものです。
+Adrien Segal（エイドリアン・シーガル）の『Snow Water Equivalent』は、31年分（1980〜2010年）の積雪データを31段の引き出しにした収納家具です。1段が1年で、下が1980年、上が2010年です。引き出しの高さがその年の降水量を、彫った合板の前板の起伏がその年の積雪水量（SWE）の推移を表します。データは、カリフォルニア州シエラネバダの観測点 Ebbetts Pass で、NRCS（Natural Resources Conservation Service）が記録したものです。
 
 以下は、作者の公式サイトの作品ページと、書籍『Making with Data』の公式サイトにある作者自身の制作記に沿います。書籍では、第1部「Handcraft」の最初の章（1.1「Snow Water Equivalent」、pp. 37–50、doi:10.1201/9781003264903-1）がこの作品に当てられています。章そのものは読めていないため、章と同じ見出しの構成で書かれた制作記を使います。
 
@@ -32,7 +32,7 @@ Segal はカリフォルニア州オークランドを拠点にする作家で�
 
 雪は、冬の余った降水を氷の結晶として蓄える、季節ごとの貯水の仕組みだ、という意味です。
 
-データを探して、Segal は NRCS（Natural Resources Conservation Service）の SNOTEL（SNOwpack TELemetry）に行き着きます。米国西部の自動観測網で、降水量や積雪深、SWE などを公開しています。Segal は、いま住んでいるシエラネバダの観測点を選びました。SWE は、積雪をすべて一瞬で融かしたときにできる水の深さです。
+データを探して、Segal は NRCS の観測網 SNOTEL に行き着きます。米国西部の自動観測網で、降水量や積雪深、SWE などを公開しています。Segal は、いま住んでいるシエラネバダの観測点を選びました。SWE は、積雪をすべて一瞬で融かしたときにできる水の深さです。
 
 | 項目 | 内容 | 出典 |
 |---|---|---|
@@ -58,11 +58,11 @@ Segal は、まず紙の上で形を探ります。制作記の「Paper mockups�
 
 年ごとの SWE のグラフを積み重ねて、年と年の積雪を比べた、という意味です。
 
-作品ページに載っているスケッチの一枚には、軸の名前が書き込まれています。高さが「SWE」、奥行きが「DAYS（255）OR 365」で、端に OCT と SEP。長さの方向が「1979–2010」で、「WIDTH = Accum Precip TOTAL」とあります。この段階では、年の層は横に並んでいました。
+制作記（makingwithdata.org）の「Paper mockups」の節に載っているスケッチには、軸の名前が書き込まれています。高さが「SWE」、奥行きが「DAYS（255）OR 365」で、端に OCT と SEP。長さの方向が「1979–2010」で、「WIDTH = Accum Precip TOTAL」とあります。この段階では、年の層は横に並んでいました。「1980〜2010年」と1年ずれるのは、水文年が前年10月に始まるためと読めます。
 
 ![青いペンのスケッチ。年ごとの山形の層が横に並び、高さに SWE、奥行きに DAYS、長さに 1979–2010、幅に Accum Precip TOTAL と書き込まれている](images/sketch-axes.jpg)
 
-Adrien Segal／Adrien Segal 公式サイト「Snow Water Equivalent」より引用
+Adrien Segal／Making with Data「Snow Water Equivalent」より引用
 
 比率とスケールが決まったところで、Segal は実際のデータ点を当てはめ、ここで層を縦に積む向きに決めます。制作記には「At this point I decided to orient the layers of data vertically」とあります。ここからはデジタルの道具に切り替えます。
 
@@ -74,7 +74,7 @@ Adrien Segal／Adrien Segal 公式サイト「Snow Water Equivalent」より引�
 
 Adrien Segal／Adrien Segal 公式サイト「Snow Water Equivalent」より引用
 
-この図を型紙に合板をバンドソーで切り、積層して接着し、アングルグラインダーなどで手で削ります。制作記には「I grind away the plywood until it becomes a single fluid form」とあります。紙やすりで仕上げたあと、テーブルソーと専用の治具で層ごとに切り分けます。作業中は、各層の寸法を書いたスプレッドシートを見ていた、と書いています。
+この図を型紙に合板をバンドソーで切り、積層して接着し、アングルグラインダーなどで手で削ります。制作記には「I grind away the plywood until it becomes a single fluid form」とあります。紙やすりで仕上げたあと、テーブルソーと専用の治具で層ごとに切り分けます。作業中は各層の寸法を書いた表計算を見ていました。
 
 **スモールマルチプルを重ねた図が、そのまま立体の設計図になっている**と読めます。グラフの位置をそろえる作業が、木を切る型紙を作る作業と同じだからです。
 
@@ -82,7 +82,7 @@ Adrien Segal／Adrien Segal 公式サイト「Snow Water Equivalent」より引�
 
 枠は無垢のアッシュで、年ごとに寸法が違います。引き出しも1段ずつ寸法が違い、制作記はどちらも手間がかかったと書いています。切り分けた合板は引き出しの前に付けられ、引き出しを枠に収めると、元の彫刻の形に戻ります。最後に、1980年を下、2010年を上にして年順に組み立てます。
 
-作者が書いているデータと物の対応を、表にまとめます。右の列は、その対応を書いた資料です。
+作者が書いているデータと物の対応を、表にまとめます。
 
 | データ | 物の性質 | 作者の言葉（出典） |
 |---|---|---|
