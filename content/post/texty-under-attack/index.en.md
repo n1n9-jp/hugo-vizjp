@@ -14,6 +14,10 @@ tags = [
     "maps"
 ]
 image = "images/cover.jpg"
+series = ["dataviz-journalism"]
+series_weight = 3
+seriesByline = "TEXTY.org.ua (Nadja Kelm et al.)"
+seriesTitle = "Certain Points Sharp, Uncertain Points Blurred: Under attack"
 +++
 
 TEXTY drew the locations of Russian shelling, gathered from news reports, in two ways. Locations backed by NASA fire detections or by confirmed eyewitness reports are small, sharp dots. Locations where the report named only a settlement, so the settlement's coordinates stand in, are large, blurred dots. In the drawing code, the former have a radius of 4 and a blur of 0; the latter have a radius of 8 and a blur of 1.5.

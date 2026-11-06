@@ -12,6 +12,10 @@ tags = [
     "sonification"
 ]
 image = "images/chemo-bowl-oblique.jpg"
+series = ["data-physicalization", "data-sonification"]
+series_weight = 34
+seriesByline = "Stephen Barrass"
+seriesTitle = "Blood Pressure Shaped as a Bowl, Told by Its Ring: Chemo Singing Bowl"
 +++
 
 Stephen Barrass's Chemo Singing Bowl maps a year of blood pressure readings from a person undergoing chemotherapy onto the shape of a bowl. The data is conveyed through the sound the bowl makes when it is struck. The bowl is 3D-printed in stainless steel, and you sound it by tapping it or rubbing its rim. The artist calls a sounding object whose form is determined by data Acoustic Sonification.

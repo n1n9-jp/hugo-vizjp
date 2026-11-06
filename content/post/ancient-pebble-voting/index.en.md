@@ -13,6 +13,10 @@ tags = [
     "ancient Greece"
 ]
 image = "images/bronze-ballots-agora-museum.jpg"
+series = ["data-physicalization"]
+series_weight = 2
+seriesByline = "Courts of Ancient Athens"
+seriesTitle = "Sorting Votes by Hollow or Solid Stems, Laid on a Board: Pebble Voting"
 +++
 
 In the Athenian courts of the 4th century BC, bronze voting tokens separated plaintiff from defendant by whether the stem was hollow or solid. At the count, the tokens were set into a reckoning-board and rearranged into a form that was "visible and easy to count." This procedure appears in chapters 68–69 of *The Constitution of the Athenians* (*Athenaion Politeia*), attributed to Aristotle (or his school).

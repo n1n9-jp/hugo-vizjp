@@ -15,6 +15,10 @@ tags = [
     "High Country News"
 ]
 image = "images/national-parcels-map.jpg"
+series = ["dataviz-journalism"]
+series_weight = 2
+seriesByline = "Robert Lee, Tristan Ahtone, and Margaret Pearce"
+seriesTitle = "80,000 Parcels Shown at Different Scales: Land-Grab Universities"
 +++
 
 High Country News split a ledger of about 80,000 parcels that became university endowments under the Morrill Act into three views at different scales: a national dot map, maps by cession and by university, and parcel cards. For each parcel, the project sets the amount paid to Indigenous nations beside an estimate of what the university raised. The university figure is not a sales record. It is an estimate that spreads each state's average per-acre figure across the parcel's acreage.

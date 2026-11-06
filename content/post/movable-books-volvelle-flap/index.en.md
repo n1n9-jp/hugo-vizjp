@@ -14,6 +14,10 @@ tags = [
     "anatomical flap sheet"
 ]
 image = "images/anathomia-1544-male-layers.jpg"
+series = ["data-physicalization"]
+series_weight = 3
+seriesByline = "Matthew Paris, Heinrich Vogtherr et al."
+seriesTitle = "Tables on Turning Disks, Bodies in Lifting Flaps: Movable Books"
 +++
 
 The 13th-century English monk Matthew Paris turned a circular table for finding the date of Easter into a disk that rotates on a metal pin at its center. Single-sheet anatomical prints made in Strasbourg and Augsburg from 1538 showed the layers of the body, from skin to spine, through stacked paper flaps that the reader lifts one by one. The turning mechanism is called a volvelle, and the lifting mechanism a flap.

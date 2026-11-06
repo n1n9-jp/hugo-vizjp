@@ -13,6 +13,10 @@ tags = [
     "open source"
 ]
 image = "images/twotone-editor-honey.png"
+series = ["data-sonification"]
+series_weight = 40
+seriesByline = "Datavized Technologies / Sonify"
+seriesTitle = "One Column as Pitch, One Row per Beat: TwoTone"
 +++
 
 TwoTone is a tool that assigns one column of a table to rungs of a musical scale, from the minimum to the maximum value, and plays each row as one beat. The data decides only the pitch and whether a note sounds or stays silent. By default, values are rounded onto 15 rungs, two octaves of C major. Volume, instrument and key are chosen by the user for each track. For tempo, the user sets the overall BPM and a per-track multiplier. It is a free web app that runs in the browser and needs no code.

@@ -16,6 +16,10 @@ tags = [
     "map"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 4
+seriesByline = "Charles Joseph Minard"
+seriesTitle = "10,000 Men per Millimeter: Minard's Russia Campaign and Hannibal Charts"
 +++
 
 In 1869, Charles Joseph Minard fixed the width of his bands at "1 mm per 10,000 men" and drew the advance in red and the retreat in black. The chart shows how an army of 422,000 men came back to the border as 10,000, together with the temperatures during the retreat. Minard printed it on the same sheet of paper as a chart of Hannibal's army, drawn by the same rule.

@@ -11,6 +11,10 @@ tags = [
     "data physicalization"
 ]
 image = "images/skype-call-bowls.jpg"
+series = ["data-physicalization"]
+series_weight = 38
+seriesByline = "Alice Thudt"
+seriesTitle = "Patterns Without a Legend on Everyday Bowls: Life in Clay"
 +++
 
 Alice Thudt turned data from her own life and the lives of people close to her into patterns with no legend and no axes, and painted them on tableware used every day. The series is called *Life in Clay*. Her Skype call history with her parents went onto the cereal bowls she used each morning. The messages containing "love" that she and her partner exchanged went onto a teapot the two of them use. Thudt writes that she chose each vessel's shape and function to suit the experience she wanted to evoke and the person who would receive it.

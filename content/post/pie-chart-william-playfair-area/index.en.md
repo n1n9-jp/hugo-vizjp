@@ -16,6 +16,10 @@ tags = [
     "history of statistical graphics"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 1
+seriesByline = "William Playfair"
+seriesTitle = "Extent as Circles, Taxes as Dotted Lines: Playfair's Breviary"
 +++
 
 In 1801, in Chart 1 of *The Statistical Breviary*, William Playfair (1759–1823) drew the extent of the countries of Europe as the area of circles. Population and revenue are shown by vertical lines standing on either side of each circle, measured on the same scale. The tops of the two vertical lines are joined by a dotted line. In his text, Playfair writes that which way the dotted line rises shows whether taxes are heavy in proportion to population.

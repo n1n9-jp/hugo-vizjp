@@ -13,6 +13,10 @@ tags = [
     "Charles Davenport"
 ]
 image = "images/students-file-by-height.jpg"
+series = ["data-physicalization"]
+series_weight = 9
+seriesByline = "Charles B. Davenport"
+seriesTitle = "Rearranged into a Different Graph: Frequency Polygon Without Paper"
 +++
 
 Line the same students up by height, and the tops of their heads trace a sequence of rank and value. Line them up in columns of two-inch classes, and the length of each column becomes a frequency. In 1901 the biologist Charles Benedict Davenport published a paper with photographs of 40 University of Chicago students arranged in these two ways. The data and the people are the same; only the arrangement changes the graph.

@@ -11,6 +11,10 @@ tags = [
     "data physicalization"
 ]
 image = "images/dustmark-bridge-wall.jpg"
+series = ["data-physicalization"]
+series_weight = 41
+seriesByline = "Dietmar Offenhuber"
+seriesTitle = "Circles Washed Out of Dirt, Smallest Vanishing First: Staubmarke"
 +++
 
 Dietmar Offenhuber's Staubmarke (pronounced "SHTOWP-mar-keh"; the English title is Dustmark) is a work in which stencils and a pressure washer are used to clean dirt from walls and other surfaces, leaving rows of circles made of dots of different sizes, drawn as a scale. By reading the scale on each mark, viewers can roughly estimate how thick the accumulated layer of dirt is. As dust settles again, the pattern disappears, starting with the smallest circles.

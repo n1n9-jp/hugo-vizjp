@@ -11,6 +11,10 @@ tags = [
     "original visual transformation",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 3
+seriesByline = "Superflux"
+seriesTitle = "Turning Numbers into Evidence You Can Breathe"
 +++
 
 Data is not evidence, writes Anab Jain of Superflux in a Medium essay. The studio's *The Future Energy Lab* turned the United Arab Emirates' (UAE) econometric data and future projections into a city model that policymakers could gather around and operate, and into a sample of future air that could be inhaled. It left the numbers off the screen and made them evidence that could be experienced.

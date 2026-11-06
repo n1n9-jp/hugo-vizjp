@@ -14,6 +14,10 @@ tags = [
     "video"
 ]
 image = "images/child-mortality-chart.jpg"
+series = ["data-physicalization"]
+series_weight = 42
+seriesByline = "Steven Pinker and Gates Notes"
+seriesTitle = "Lines Look Real, Scales Added Afterward: Pinker's Glowing Line Charts"
 +++
 
 In a video released in 2018 on Bill Gates's channel, the line charts in front of Steven Pinker appear, judging from the footage, to be real glowing lines bent and hung in place. The scales, titles, and country names are text added over the video afterward. I have not found any explanation from the production side. The video runs about two and a half minutes and shows three line charts: global life expectancy, life expectancy by age in England, and the share of children who die before age 5.

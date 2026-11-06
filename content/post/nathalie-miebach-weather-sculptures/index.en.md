@@ -13,6 +13,10 @@ tags = [
     "weather data"
 ]
 image = "images/hurricane-noel-iii.jpg"
+series = ["data-physicalization"]
+series_weight = 15
+seriesByline = "Nathalie Miebach"
+seriesTitle = "From Musical Score to Woven Basket: Nathalie Miebach's Storms"
 +++
 
 Nathalie Miebach makes sculptures that map weather data such as temperature, pressure, and wind speed onto the colors and positions of basket-weaving materials, and has musicians perform musical scores that transcribe the same data. She assigns the time of day and a temperature range to the basket's vertical members, then weaves tide, water temperature, air temperature, and the moon phase into that grid. For her sculpture about Hurricane Noel in 2007, CSMonitor (2010) writes that temperature is red, pressure is green, and wind speed is blue, "and so on."

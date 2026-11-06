@@ -16,6 +16,10 @@ tags = [
     "maps"
 ]
 image = "images/thumb_ph_vizjp.png"
+series = ["dataviz-classics"]
+series_weight = 10
+seriesByline = "Allan Pred"
+seriesTitle = "A Merchant's Day as a Single Line: Pred's Boston Space-Time Path"
 +++
 
 In 1984, the geographer Allan Pred used Torsten Hägerstrand's space-time path notation to draw a single diagram. The vertical axis is the time of day, and the base is a street map of Boston. It shows the day of a "typical" Boston merchant between 1783 and 1812, from midnight to midnight, as one line.

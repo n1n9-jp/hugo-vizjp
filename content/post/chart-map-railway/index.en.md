@@ -16,6 +16,10 @@ tags = [
     "French Ministry of Public Works"
 ]
 image = "images/12511022_closeup.png"
+series = ["dataviz-classics"]
+series_weight = 6
+seriesByline = "French Ministry of Public Works (Émile Cheysson)"
+seriesTitle = "Year Circles Around a Country: The 1880 Railway Development Map"
 +++
 
 In July 1880, the French Ministry of Public Works issued the 1880 edition of the *Album de statistique graphique* (Album of Graphic Statistics). Its last plate, no. 16, shows each country's total railway length from 1830 to 1878 as the area of blue circles. The circles for each year are spaced 60 degrees apart around the center of the country. Length per 10,000 inhabitants (green) and per 100 km² (yellow) is added as quarter-circles in the middle.

@@ -12,6 +12,10 @@ tags = [
     "bar chart"
 ]
 image = "images/red-and-blue-bars-start.jpg"
+series = ["data-physicalization"]
+series_weight = 44
+seriesByline = "Respect New Haven"
+seriesTitle = "A 204 m Band and 8 cm of Red: Walkable Bar Chart"
 +++
 
 On May 1, 2021, two bars were painted on Prospect Street in New Haven, Connecticut. One was a blue band 670 feet (about 204 m) long, representing Yale University's $31.2 billion endowment. The other was a red rectangle 3 1/4 inches (about 8 cm) long, representing Yale's $13 million annual voluntary contribution to the city. Calculating from the reported dimensions, the two bars are drawn at the same scale, and the difference between them is about 2,400 times. This work can be read as taking that difference out of the realm of something compared by eye on paper and turning it into a distance you walk along a street to check.

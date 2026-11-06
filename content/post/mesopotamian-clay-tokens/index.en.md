@@ -13,6 +13,10 @@ tags = [
     "Denise Schmandt-Besserat"
 ]
 image = "images/envelope-louvre-sb1932.jpg"
+series = ["data-physicalization"]
+series_weight = 1
+seriesByline = "Record keepers of ancient West Asia"
+seriesTitle = "Shape for Item, Count for Quantity, Reportedly: Clay Tokens"
 +++
 
 In the decipherment by the researcher Denise Schmandt-Besserat, clay tokens are records that expressed the item by shape and the quantity by count. In her reading, one cone stands for one small unit of grain, and two ovoids stand for two jars of oil. She explains that the tokens were used for calculation and could be organized by lining them up in columns and the like, and she sees the marks pressed onto the surface of envelopes as the beginning of writing.

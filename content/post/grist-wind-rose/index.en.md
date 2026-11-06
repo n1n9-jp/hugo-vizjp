@@ -13,6 +13,10 @@ tags = [
     "wind rose"
 ]
 image = "images/windrose-kilns-off-comparison.png"
+series = ["dataviz-journalism"]
+series_weight = 5
+seriesByline = "Naveena Sadasivam and Clayton Aldern (Grist)"
+seriesTitle = "Wind Roses for the Hours the Kilns Stood Idle: Any Way the Wind Blows"
 +++
 
 Grist's investigation "Any Way the Wind Blows" (February 16, 2023) drew wind roses for the Oxbow Calcining plant in Port Arthur, Texas. The figures split the hours into those when all kilns were running and those when kilns 2, 3 and 5 were each shut down. In the wind roses for the hours the kilns were off, winds blowing toward the monitor to the north occur more often. The article presents this result as something that "suggests" a "likely violation" of the Clean Air Act.

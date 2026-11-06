@@ -15,6 +15,10 @@ tags = [
     "encoding"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 2
+seriesByline = "William Playfair"
+seriesTitle = "Circle Area and Sector Angle: Playfair, 1801 and 1805"
 +++
 
 William Playfair (1759–1823) drew the same quantity, a country's extent in square miles, in two ways. In his 1801 chart, he drew it as the area of a separate circle for each country. In his 1805 chart, he drew it as the angle of a sector cut from a single circle. In his own words, the former is meant to show the sizes of countries to the eye, and the latter the proportions among the extents of the provinces.

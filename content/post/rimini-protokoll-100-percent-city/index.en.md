@@ -12,6 +12,10 @@ tags = [
     "pie chart"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 17
+seriesByline = "Rimini Protokoll (Haug, Kaegi, and Wetzel)"
+seriesTitle = "1% of the Population as One Person, a 100-Resident Pie Chart: 100% City"
 +++
 
 Rimini Protokoll's *100% City* is a theatre piece in which each resident stands for 1% of a city's population. One hundred residents, gathered to match the city's statistics, stand on stage. They move around the stage according to their answers to questions, and in front of the audience they form a pie chart out of human bodies.

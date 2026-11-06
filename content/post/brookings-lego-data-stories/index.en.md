@@ -12,6 +12,10 @@ tags = [
     "Brookings Institution"
 ]
 image = "images/lego-taxes-still.jpg"
+series = ["data-physicalization"]
+series_weight = 28
+seriesByline = "Brookings (Richard V. Reeves and David Wessel)"
+seriesTitle = "Comparing Taxes and Mobility with Five Stacks: Brookings' LEGO Videos"
 +++
 
 The US think tank Brookings Institution represented five income tiers with five LEGO stacks. In a 2014 video, a LEGO figure was moved up and down the rungs of society. In a 2015 video, bricks were removed to account for taxes, and the heights before and after tax were compared. Both are videos of about three minutes in which a researcher moves the LEGO in front of the camera.

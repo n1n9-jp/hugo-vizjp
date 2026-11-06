@@ -12,6 +12,10 @@ tags = [
     "heatmap"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 24
+seriesByline = "Moritz Stefaner, Drew Hemment, and Studio NAND"
+seriesTitle = "Tweet Counts Carved into Height: emoto"
 +++
 
 The emoto data sculpture takes English-language tweets about the London 2012 Olympics, counts them by hour and sentiment level, and carves those counts into height. Each day of the Games is one plate, and 17 plates stand side by side. Topic-specific heatmaps are projected on top. With a knob in hand, visitors switch topics and move through time.

@@ -11,6 +11,10 @@ tags = [
     "original visual transformation",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 2
+seriesByline = "Giorgia Lupi"
+seriesTitle = "Turning Unmeasurable Air into a Window of Conjecture"
 +++
 
 Giorgia Lupi calls *Plastic Air*, her web experience about airborne microplastics, a speculative "window" onto a data-driven approximation. She also writes that the visualization methodology itself was work with speculative information that was still limited. This is a work whose author names its uncertainty herself. This article reads it as a piece designed not to be an exact scientific diagram but to make you feel that something unseen is in the sky.

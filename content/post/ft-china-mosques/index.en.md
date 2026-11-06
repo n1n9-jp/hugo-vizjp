@@ -14,6 +14,10 @@ tags = [
     "scrollytelling"
 ]
 image = "images/doudian-satellite-2017-2023.jpg"
+series = ["dataviz-journalism"]
+series_weight = 7
+seriesByline = "Financial Times"
+seriesTitle = "Teal Before, Yellow After: FT's China Mosques Investigation"
 +++
 
 The Financial Times (FT) examined 2,312 mosques with Islamic architecture in Google Earth satellite imagery and counted 1,714 that had been modified. It fixed teal (#35e0cb) for before and yellow (#ffec1a) for after, and uses these two colors for the dots on the national map and for the before-and-after switches between satellite photos.

@@ -13,6 +13,10 @@ tags = [
     "Yvonne Jansen"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 30
+seriesByline = "Faisal Taher, Jason Alexander et al. (Lancaster University)"
+seriesTitle = "Which Data Goes on 100 Bars? EMERGE"
 +++
 
 EMERGE is a physical bar chart whose 10×10 bars move up and down. It was built by a research group at Lancaster University in the UK. Because it can show only 100 bars at a time, operations that decide which data goes onto the bars, such as hiding, reordering, and scrolling, became a large part of the design.

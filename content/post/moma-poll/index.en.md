@@ -11,6 +11,10 @@ tags = [
     "data physicalization",
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 13
+seriesByline = "Hans Haacke"
+seriesTitle = "Yes and No in Paper Piles and Numbers: MoMA Poll"
 +++
 
 Hans Haacke's *MoMA Poll* showed visitors' votes in two ways at once. One was the volume of paper piling up in transparent ballot boxes, where you could compare the heights of the left and right heaps. The other was the number on a photoelectric counter attached to each box. On the last day of the exhibition, the counters read YES 25,566 and NO 11,563. The accumulating volume conveys the lean of the vote, and the number keeps the exact value. This double way of showing data can be read as a pattern that still works for physical visualization.

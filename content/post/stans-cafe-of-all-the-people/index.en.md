@@ -12,6 +12,10 @@ tags = [
     "population"
 ]
 image = "images/birmingham-2008-large-pile.jpg"
+series = ["data-physicalization"]
+series_weight = 14
+seriesByline = "Stan's Cafe (James Yarker)"
+seriesTitle = "One Grain of Rice per Person, Weighed Out: Of All The People"
 +++
 
 Of All The People In All The World is a piece that Stan's Cafe, a theatre company from Birmingham, England, has been performing since 2003. One grain of rice stands for one person, and every statistic is weighed out into a pile at about 60 grains per gram, so the size ratio between labelled piles is exactly the ratio between the numbers of people. The paper under each pile carries only the name of the statistic, never a number.

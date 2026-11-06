@@ -11,6 +11,10 @@ tags = [
     "sonification"
 ]
 image = "images/wall-street-station-two-trains.jpg"
+series = ["data-sonification"]
+series_weight = 20
+seriesByline = "Brian Foo"
+seriesTitle = "Distance as Length, Income as Instrument Count: Two Trains"
 +++
 
 Brian Foo's "Two Trains" is a piece of music in which the distance between stations on New York's 2 subway line sets the length of each section, and the median income around each station sets the number, type, and force of the instruments that play. The author writes, "The number and type of instruments are selected based on that station's surrounding median income." The song is made of 48 sections connecting 49 stations, and runs about four and a half minutes in total. Most of the notes come from the E major scale, derived from the subway's door chime (the author writes, "Most of the notes").

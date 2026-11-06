@@ -14,6 +14,10 @@ tags = [
     "line chart"
 ]
 image = "images/cover.jpg"
+series = ["dataviz-journalism"]
+series_weight = 9
+seriesByline = "The Hindu Data team"
+seriesTitle = "69°C on a 36°C Day: Chennai's Heat Index"
 +++
 
 The Hindu calculated a heat index from the readings of sensors carried by four workers. The piece gives the maximum temperature in Chennai, in southern India, on June 9, 2025 as 36°C. On the same day, the heat index for a street-food cook and a fisherman who went out to sea reached as high as 69°C. The sensors were Arduino Nano boards fitted with a temperature and humidity sensor, and the heat index was calculated with the formula of the U.S. National Weather Service (NWS).

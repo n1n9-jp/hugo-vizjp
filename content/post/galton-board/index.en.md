@@ -14,6 +14,10 @@ tags = [
     "Francis Galton"
 ]
 image = "images/galton-box-replica.jpg"
+series = ["data-physicalization"]
+series_weight = 6
+seriesByline = "Francis Galton"
+seriesTitle = "Generating a Distribution by Dropping Balls: The Galton Board"
 +++
 
 Francis Galton's quincunx is the device now also known as the Galton board. One lead shot corresponds to one individual, and one row of pins corresponds to one small chance event. Rather than drawing a frequency distribution, it lets shot fall from the top and produces the distribution inside the apparatus, as the outline of the columns of shot that collect in the compartments below.

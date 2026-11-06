@@ -14,6 +14,10 @@ tags = [
     "normalization"
 ]
 image = "images/bars-three-metrics.png"
+series = ["dataviz-journalism"]
+series_weight = 10
+seriesByline = "Arena for Journalism in Europe, NRK et al."
+seriesTitle = "Country Rankings Flip Depending on the Divisor: Green to Grey"
 +++
 
 Green to Grey shows the natural land and cropland that turned into buildings and roads across Europe between 2018 and 2023, country by country, in three ways: total area, per capita, and share of national territory. Norway ranks 11th by total area, 1st per capita, and 26th by share of land. Depending on what you divide by, the ranking of countries reshuffles. The three metrics are three identical grey bar charts that you switch between with buttons; they are not placed side by side in a single figure.

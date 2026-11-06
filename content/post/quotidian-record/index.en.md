@@ -11,6 +11,10 @@ tags = [
     "データ物質化",
 ]
 image = "images/quotidian_record_7@2x.jpg"
+series = ["data-sonification"]
+series_weight = 10
+seriesByline = "Brian House"
+seriesTitle = "One Day per Revolution, Movements Cut into a Record: Quotidian Record"
 +++
 
 **Quotidian Record** is a work by artist and researcher Brian House that transforms personal GPS location data into music, visual form, and a physical object: an analog record. It reorganizes everyday movement into relationships among time, space, and sound.

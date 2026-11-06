@@ -13,6 +13,10 @@ tags = [
     "data science"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 9
+seriesByline = "John W. Tukey"
+seriesTitle = "Data Analysis Is a Science: Tukey, 1962"
 +++
 
 In 1962, John W. Tukey published a 67-page paper in the central journal of mathematical statistics. Its title was "The Future of Data Analysis." It has no theorems and no proofs. In the opening he writes that he had long thought himself a statistician, but that his central interest is data analysis. His main argument is that data analysis is a science.

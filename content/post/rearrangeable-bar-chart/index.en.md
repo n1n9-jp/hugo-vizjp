@@ -15,6 +15,10 @@ tags = [
     "Pierre Dragicevic"
 ]
 image = "images/pulling-out-country-rows.png"
+series = ["data-physicalization"]
+series_weight = 27
+seriesByline = "Jansen and Dragicevic"
+seriesTitle = "Pulling Out and Reinserting Each Country: Rearrangeable 3D Bar Chart"
 +++
 
 The Rearrangeable 3D Bar Chart is a physical 3D bar chart showing unemployment rates for 10 countries over 10 years. Each country's 2D bar chart is a separate part that can be pulled out and pushed back in. People move the parts by hand to sort the countries, pull them out, and superimpose them to compare.

@@ -12,6 +12,10 @@ tags = [
     "color"
 ]
 image = "images/color-card.jpg"
+series = ["data-physicalization"]
+series_weight = 25
+seriesByline = "Kristen Cooper et al."
+seriesTitle = "One Row a Day, a New Color Every 5°C: Temperature Scarves"
 +++
 
 The Temperature Scarf is a year-long time series on a stepped color scale. "One day = one row" gives the length, and "the day's high temperature, binned in 5°C steps" gives the color. Knit one row a day, and by the end of the year you are left with 365 stripes. The order of the stripes is the date, and the color of each stripe is the temperature class. The color card that serves as the legend is made by each knitter to fit the temperature range of their own region.

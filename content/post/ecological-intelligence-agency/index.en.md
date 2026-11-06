@@ -11,6 +11,10 @@ tags = [
     "original visual transformation",
 ]
 image = "images/cover.jpg"
+series = ["speculative-design"]
+series_weight = 4
+seriesByline = "Superflux"
+seriesTitle = "An Agency Where the River Speaks in Poems"
 +++
 
 "There is plenty of raw data showing how bad pollution is. But it doesn't lead to change." So said Jon Ardern, co-founder of Superflux, which made the work, in later reflection. *The Ecological Intelligence Agency* is a fictional agency that translates data from London's River Roding into poems spoken by the river and a device that reads jars of water. It can be read as a work that redesigns how the health of a river is received through the senses, rather than adding more numbers.

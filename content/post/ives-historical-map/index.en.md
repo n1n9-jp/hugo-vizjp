@@ -13,6 +13,10 @@ tags = [
     "James T. B. Ives"
 ]
 image = "images/all-segments.jpg"
+series = ["data-physicalization"]
+series_weight = 8
+seriesByline = "James T. B. Ives"
+seriesTitle = "Territory Plates Slide In, Key by Key: Ives's Historical Map"
 +++
 
 James T. B. Ives's *Historical Map, Showing the Successive Acquisitions of Territory by the United States of America* maps the order in which the United States acquired territory onto the order of key presses, and the area acquired onto colored plates that slide into view. The plates overlay a layer showing where Native American tribes lived, one after another. The first key brings up a plate for the 16 states that correspond to the 13 colonies, and the last key brings up a plate for the Gadsden Purchase of 1853.

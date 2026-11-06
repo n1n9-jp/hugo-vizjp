@@ -12,6 +12,10 @@ tags = [
     "bubble chart"
 ]
 image = "images/ted-cannes-2010-ikea-boxes.jpg"
+series = ["data-physicalization"]
+series_weight = 20
+seriesByline = "Hans Rosling and Ola Rosling"
+seriesTitle = "One Box as a Billion People, Rearranged: Rosling's Boxes"
 +++
 
 On June 21, 2010, at TED@Cannes in Cannes, Hans Rosling represented the world's population with boxes, using the rule "one IKEA box = one billion people." He lined the boxes up horizontally along levels of income and moved them by hand as the years advanced: 1960, 2010, 2050. In the second half of the same talk, from 6:08, he switched to an animated bubble chart on the screen.
