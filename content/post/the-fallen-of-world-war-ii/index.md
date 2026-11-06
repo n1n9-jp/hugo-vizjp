@@ -50,7 +50,7 @@ Neil Halloran／[The Fallen of World War II 公式ページ](https://fallen.io/w
 
 観客には、任意の「ticket price」（推奨額2.50ドル）を呼びかけました。PhillyVoice は作者の集計として、最初の100万再生で1,392人が計8,620ドルを払ったと伝えています。再生は公開後2週間半で400万回でした（Technical.ly）。2015年秋には、日本語を含む7言語の版が出ています（[日本語版](https://www.neilfilms.com/ww2/ja/)）。
 
-## 1体＝1,000人を、最後まで変えない
+## 1体＝1,000人を、総計まで変えない
 
 ナレーションは冒頭で、何をしない作品かを言います。
 
@@ -72,7 +72,7 @@ Neil Halloran／[The Fallen of World War II 公式ページ](https://fallen.io/w
 | 歴史上の約20の戦争 | 棒グラフ。次に世界人口に対する割合へ | 字幕 |
 | 戦後の戦死者 | 年ごとの棒を4分類で色分け。次に世界人口で割る | 字幕、JS |
 
-ピクトグラムの数で量を見せる点は、[アイソタイプ・チャート](/isotype-chart/)と同じ考え方です。この作品で目立つのは、場面が変わっても単位を変えないことだと読めます。**米兵の柱も、スターリングラードも、ホロコーストも、同じ1体＝1,000人で数えます。**
+ピクトグラムの数で量を見せる点は、[アイソタイプ・チャート](/isotype-chart/)と同じ考え方です。この作品で目立つのは、総計に至るまで、場面が変わっても単位を変えないことだと読めます。**米兵の柱も、スターリングラードも、ホロコーストも、同じ1体＝1,000人で数えます。**
 
 ## 国・戦域・戦闘ごとに、積み上げ直す
 
@@ -104,7 +104,7 @@ Neil Halloran／[The Fallen of World War II 公式ページ](https://fallen.io/w
 
 世界人口に対する割合では、第二次大戦より大きな戦争があったかもしれない、という説明です。同じ棒を、分母を変えて見せ直しています。
 
-戦後の章は、John Gaddis（ジョン・ギャディス）が1989年に言った「長い平和（Long Peace）」を紹介します。戦後の戦争を4つに分け、年ごとの戦死者を第二次大戦と並べます。さらに世界人口で割ると、減り方はより急に見える、とナレーションは言います。
+戦後の章でナレーションは、John Gaddis（ジョン・ギャディス）が1989年に言った「長い平和（Long Peace）」を紹介します。戦後の戦争を4つに分け、年ごとの戦死者を第二次大戦と並べます。さらに世界人口で割ると、減り方はより急に見える、とナレーションは言います。
 
 データの出典は、資料によって書き方が違います。
 
@@ -157,7 +157,7 @@ Neil Halloran／[Vimeo](https://vimeo.com/128373915) より引用（動画のサ
 
 可視化の仕事に持ち帰れる判断は、四つあります。
 
-一つ目は、単位を一つに決めて、最後まで変えないことです。1体＝1,000人を総計まで通したので、別の場面の柱どうしを目で比べられます。[ミナールの図](/minard-napoleon-march-to-moscow/)も、1mm＝1万人を二つの軍に通していました。
+一つ目は、単位を一つに決めて、総計まで変えないことです。1体＝1,000人を総計まで通したので、別の場面の柱どうしを目で比べられます。[ミナールの図](/minard-napoleon-march-to-moscow/)も、1mm＝1万人を二つの軍に通していました。
 
 二つ目は、総数を見せる前に、部分を積み直すことです。7,000万人をいきなり見せず、切り口を変えて足していきます。オマハ・ビーチとアフガニスタンのように、身近な数との比較も挟みます。
 
@@ -169,9 +169,9 @@ Neil Halloran／[Vimeo](https://vimeo.com/128373915) より引用（動画のサ
 
 **一次情報**
 
-- Neil Halloran, *The Fallen of World War II*, 2015. 公式ページ. [fallen.io/ww2](https://fallen.io/ww2/)（正規 URL：[neilfilms.com/ww2](https://www.neilfilms.com/ww2/)）
+- Neil Halloran, *The Fallen of World War II*, 2015. 公式ページ. [fallen.io/ww2](https://fallen.io/ww2/)（正規 URL：[neilfilms.com/ww2](https://www.neilfilms.com/ww2/)）。最終章の着想と出典として、Steven Pinker『The Better Angels of Our Nature』を挙げている
 - 同 日本語版. [neilfilms.com/ww2/ja](https://www.neilfilms.com/ww2/ja/)
-- 同 英語字幕（ナレーション全文）. [en.vtt](https://www.neilfilms.com/ww2/assets/subtitles/en.vtt)
+- 同 英語字幕（ナレーション全文）. [en.vtt](https://www.neilfilms.com/ww2/assets/subtitles/en.vtt)。John Gaddis が1989年に「Long Peace」と名付けたという記述は、この字幕による
 - 同 作品の JavaScript（データ・場面の定義）. [ww2-1462503229819.js](https://www.neilfilms.com/ww2/assets/js/ww2-1462503229819.js)
 - Neil Halloran のサイト. [neilfilms.com](https://www.neilfilms.com/)
 - Vimeo（作者の説明文、尺、アップロード日）. [動画ページ](https://vimeo.com/128373915) / [API](https://vimeo.com/api/v2/video/128373915.json)
