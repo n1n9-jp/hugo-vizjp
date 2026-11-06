@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/child-mortality-chart.jpg"
 series = ["data-physicalization"]
-series_weight = 38
+series_weight = 39
 seriesByline = "Steven Pinker・Gates Notes"
 seriesTitle = "線は実物に見え、目盛りはあとから重ねる──Pinker の光る折れ線"
 +++
