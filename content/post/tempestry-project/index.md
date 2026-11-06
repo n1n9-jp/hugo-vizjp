@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/deception-pass-1950-2016.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 33
 seriesByline = "Emily McNeil ほか"
 seriesTitle = "全員が同じ32色で編む──The Tempestry Project"
 +++
@@ -76,7 +76,7 @@ Justin Connelly／[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Co
 
 なお、範囲の端の書き方は資料で違います。説明書は「Less than −30°F」で、−30°F ちょうどの扱いが抜けています。色見本カードは「≤ −30°」です。Barnard は「less than −30°F to more than 121°F」、Berman Museum は「less than −31°F」と書いています。
 
-[気温スカーフ](/temperature-scarf/)の Kristen Cooper のカードは、自分の土地に合わせた5℃刻みの14階級でした。Tempestry は、どの土地の日最高気温も載る範囲を、最初から32階級で取っています。**土地ごとの見やすさより、比べるための共通の軸を先に決めた凡例**と読めます。
+[気温スカーフ](/temperature-scarf/)の Kristen Cooper のカードは、自分の土地に合わせた5℃刻みの14階級でした。Tempestry は、−30°F 以下から 121°F 以上まで、5°F 刻みの32階級です。どの土地の日最高気温も載せられる範囲を取ったと読めます。**土地ごとの見やすさより、比べるための共通の軸を先に決めた凡例**と読めます。
 
 ## 1本ではなく、並べて見る
 
@@ -117,9 +117,9 @@ Justin Connelly／[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Te
 
 2021年、Ursinus College の Berman Museum of Art は「Mapping Climate Change: The Knitting Map and The Tempestry Project」を開きました。Jools Gilson（ジュールズ・ギルソン）と Richard Povall（リチャード・ポヴォール）の Knitting Map を、初めて Tempestry と並べた展示です。その後、2025年のコークまで巡回しました。
 
-Knitting Map は、欧州文化首都コーク2005の事業です。2005年の1年間、2,500人以上が1枚の布を編みました。監視カメラで測った街の混み具合を編み目に、気温・降水・風速を色に変えています。
+Knitting Map は、欧州文化首都コーク2005の事業です。2005年の1年間、2,500人以上が1枚の布を編みました。Berman Museum の展示解説と Irish Examiner（2021年）によると、監視カメラで測った街の混み具合を編み目に、気温・降水・風速を色に変えています。初期の報道（Irish Times 2004年、RTÉ）は、編み目の元を「衛星画像」と書いていました。
 
-キュレーターの Deborah Barkun は、Knitting Map を Tempestry の「a conceptual and artistic progenitor, of sorts」と呼びました。Gilson も2025年に、Tempestry を「this later project it helped inspire」と言っています。ただし、Knitting Map を着想源とする言葉は、展示を企画した側と Knitting Map の作者の側にしかありません。Tempestry の作者側の資料は、着想源を気温ブランケットとしていて、Knitting Map には触れていません。
+Berman Museum の展示解説は、Knitting Map を Tempestry の「a conceptual and artistic progenitor, of sorts」と呼びました。Gilson も2025年に、Tempestry を「this later project it helped inspire」と言っています。ただし、Knitting Map を着想源とする言葉は、展示を企画した側と Knitting Map の作者の側にしかありません。英語版 Wikipedia は、着想源を気温ブランケットと書いています。読めた範囲の作者側の資料（説明書、Barnard の記事）は Knitting Map に触れていません。公式サイトの About ページは読めていません。
 
 Knitting Map は1都市・1年の1枚で、データは2系統、配色は Gilson が「muted」と言う抑えたものです。Tempestry は1地点・1年の1本を多数集め、データは1系統、凡例は公開の32色です。1枚の中を読む作品と、何本もを見比べる作品の違いと読めます。
 
@@ -171,10 +171,12 @@ Knitting Map は1都市・1年の1枚で、データは2系統、配色は Gilso
 - Marc O’Sullivan Vallig, “Cork In 50 Artworks, No 33: The Knitting Map for European Capital of Culture, 2005,” *Irish Examiner*, 2021-12-13. [記事](https://www.irishexaminer.com/lifestyle/artsandculture/arid-40762944.html)
 - Marc O’Sullivan Vallig, “‘I do feel really humbled’: Cork's Knitting Map gets tangled up in debate on American values,” *Irish Examiner*, 2024-11-04. [記事](https://www.irishexaminer.com/lifestyle/artsandculture/arid-41508134.html)
 - Marc O’Sullivan Vallig, “Jools Gilson of UCC: Mapping Climate Change at Cork's newest art venue,” *Irish Examiner*, 2025-11-10. [記事](https://www.irishexaminer.com/lifestyle/artsandculture/arid-41740035.html)
+- “Knitting together a new stitch pattern of Cork,” *Irish Times*, 2004-10-30. [記事](https://www.irishtimes.com/news/knitting-together-a-new-stitch-pattern-of-cork-1.1164222)
+- “Cork knitters make giant textile record,” RTÉ Archives（2005-08-24 放送）. [アーカイブ](https://www.rte.ie/archives/2015/0824/723181-cork-knitters-make-giant-textile-record)
 - 英語版 Wikipedia「The Tempestry Project」（2026-04-16 版を参照）. [Wikipedia](https://en.wikipedia.org/wiki/The_Tempestry_Project)
 
 **第三者評価**
 
 - “A knitting movement of weather data to document climate change,” *Hindustan Times*, 2019-01-06. [記事](https://www.hindustantimes.com/india-news/a-knitting-movement-of-weather-data-to-document-climate-change/story-cHzHw0KuVLEAAaIt1PphjM.html)
-- Berman Museum of Art（キュレーター Deborah Barkun）の展示解説. [展示ページ](https://ursinus-archive.livewhale.net/live/profiles/4975-mapping-climate-change)
+- Berman Museum of Art の展示解説. [展示ページ](https://ursinus-archive.livewhale.net/live/profiles/4975-mapping-climate-change)
 - Anastasia Salter, “Re:traced Threads: Generating Feminist Textile Art with Tracery,” *electronic book review*, 2020-05-03. [doi:10.7273/dped-gd56](https://doi.org/10.7273/dped-gd56)
