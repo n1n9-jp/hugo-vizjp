@@ -1,7 +1,7 @@
 {{- /* 特集の中の位置と、前後の記事へのリンク。series_weight の順に並べる。特集に入っていない記事では何も出さない */ -}}
 {{- $self := . -}}
 {{- with .GetTerms "series" -}}
-{{- range first 1 . -}}
+{{- range . -}}
 {{- $term := . -}}
 {{- $pages := (index site.Taxonomies.series ($term.Data.Term | urlize)).Pages -}}
 {{- $idx := -1 -}}
