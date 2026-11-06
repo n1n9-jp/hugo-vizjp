@@ -111,7 +111,7 @@ The stone example was improvised in an interview setting during TEDxSummit, and 
 
 Source: Herbert Reininger (YouTube video) / dataphys.org, "Hans Rosling Adopts Physical Visualizations"
 
-In a The Guardian video of May 17, 2013, he uses LEGO blocks to explain population growth, child mortality, and CO2 emissions, according to the video's description. The correspondence between the blocks and the numbers has not been confirmed. dataphys also lists a LEGO video from the Brookings Institution as part of the same stream as Rosling's storytelling ([related article](/brookings-lego-data-stories/)).
+In a The Guardian video of May 17, 2013, he uses LEGO blocks to explain population growth, child mortality, and CO2 emissions, according to the video's description. The correspondence between the blocks and the numbers has not been confirmed. dataphys also lists a LEGO video from the Brookings Institution as part of the same stream as Rosling's storytelling ([related article](/en/brookings-lego-data-stories/)).
 
 For toilet paper, a blog post by Statistics Finland (2020) describes a scene in which one roll stood for one billion people, stacked by age group. But which talk or program the scene comes from has not been identified. Snowballs appear in the title of a January 2015 BBC Newsnight video, but what they represented has not been confirmed. Juice is said to have been used by dataphys and others, but the scene and what it represented have not been identified.
 
@@ -119,11 +119,11 @@ What the confirmed examples have in common can be read as this: count one piece 
 
 ## How did third parties see these demonstrations?
 
-For a researchers' placement of the work, there is the paper "Opportunities and Challenges for Data Physicalization" (CHI 2015) by Jansen, Dragicevic, Petra Isenberg, and others. In its Figure 2, the paper cites Rosling's boxes as an example of a physicalization "updated by hand." On the left of the same figure is [a quality board built from LEGO by a GM engineer](/gm-lego-quality-board/).
+For a researchers' placement of the work, there is the paper "Opportunities and Challenges for Data Physicalization" (CHI 2015) by Jansen, Dragicevic, Petra Isenberg, and others. In its Figure 2, the paper cites Rosling's boxes as an example of a physicalization "updated by hand." On the left of the same figure is [a quality board built from LEGO by a GM engineer](/en/gm-lego-quality-board/).
 
 > His physicalizations are useful and effective in communicating information which individuals may find difficult to comprehend due to unfamiliar magnitudes and scales. It can also carry a shock value.
 
-The assessment: they help convey unfamiliar magnitudes and can also carry a shock value. The paper goes on to say that the strength of Rosling's physicalizations lies in their "pedagogical and persuasive power," which conventional evaluation by time or error count cannot measure. This points to the need for a different yardstick than [the experiment that compared real bar charts on speed](/evaluating-physical-visualizations/).
+The assessment: they help convey unfamiliar magnitudes and can also carry a shock value. The paper goes on to say that the strength of Rosling's physicalizations lies in their "pedagogical and persuasive power," which conventional evaluation by time or error count cannot measure. This points to the need for a different yardstick than [the experiment that compared real bar charts on speed](/en/evaluating-physical-visualizations/).
 
 The visualization researcher Robert Kosara wrote a tribute on eagereyes on February 7, 2017, after Rosling's death.
 

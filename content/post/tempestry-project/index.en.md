@@ -16,7 +16,7 @@ image = "images/deception-pass-1950-2016.jpg"
 
 The Tempestry Project fixed everything from −30°F and below to 121°F and above to 32 colors in 5°F steps, and had everyone use the same yarn. One tapestry represents the daily high temperatures of one place for one year. One day is one row: January 1 is at the bottom and December 31 at the top. At exhibitions, tapestries of the same place in different years, or of different places, were hung side by side so that they could be compared.
 
-The project began in Anacortes, Washington, in 2017. What follows draws on the knitting instructions and color cards (PDF) the project distributed, an interview with a co-founder, and records of exhibitions. As a sequel to [temperature scarves and blankets](/temperature-scarf/), where each maker sets the color steps to suit their own climate, this article reads a case in which everyone shares the same legend.
+The project began in Anacortes, Washington, in 2017. What follows draws on the knitting instructions and color cards (PDF) the project distributed, an interview with a co-founder, and records of exhibitions. As a sequel to [temperature scarves and blankets](/en/temperature-scarf/), where each maker sets the color steps to suit their own climate, this article reads a case in which everyone shares the same legend.
 
 <!--more-->
 
@@ -72,7 +72,7 @@ The 30 classes other than the two end classes are all 5°F wide. The boundaries 
 
 How the ends of each range are written differs between sources. The instructions say "Less than −30°F," which leaves the treatment of exactly −30°F unstated. The color card says "≤ −30°." Barnard writes "less than −30°F to more than 121°F," and the Berman Museum writes "less than −31°F."
 
-Kristen Cooper's card in the [temperature scarf](/temperature-scarf/) article had 14 classes in 5°C steps, adapted to her own climate. Tempestry has 32 classes in 5°F steps, from −30°F and below to 121°F and above. It can be read as taking a range wide enough to hold the daily highs of any place. **It can be read as a legend that decided on a common axis for comparison before it decided on legibility for each locale.**
+Kristen Cooper's card in the [temperature scarf](/en/temperature-scarf/) article had 14 classes in 5°C steps, adapted to her own climate. Tempestry has 32 classes in 5°F steps, from −30°F and below to 121°F and above. It can be read as taking a range wide enough to hold the daily highs of any place. **It can be read as a legend that decided on a common axis for comparison before it decided on legibility for each locale.**
 
 ## Not one strip, but side by side
 

@@ -31,7 +31,7 @@ From Charles Sowers / Charles Sowers, "Solar Totems"
 
 The work was not delivered in finished form. Once installed, its record builds up over three years. The photo in the city's announcement shows Tom DeCaigny (director of cultural affairs), Sowers, Mayor Edwin M. Lee, and Phil Ginsburg (general manager of the Recreation and Park Department). DeCaigny said the work speaks to the natural wonders of this urban park.
 
-The work also has a book chapter. In *Making with Data: Physical Design and Craft in a Data-Driven World* (edited by Samuel Huron, Till Nagel, Lora Oehlberg, and Wesley Willett; A K Peters/CRC Press, 2022), Part 5, Environment, includes chapter 5.3, "Solar Totems." Its author is Sowers himself, at pp. 345–358, DOI 10.1201/9781003264903-23. The same part also has a chapter on [Perpetual Plastic](/perpetual-plastic/), and the part's introduction was written by the researcher Dietmar Offenhuber. I have not been able to check the text of the chapter for this article.
+The work also has a book chapter. In *Making with Data: Physical Design and Craft in a Data-Driven World* (edited by Samuel Huron, Till Nagel, Lora Oehlberg, and Wesley Willett; A K Peters/CRC Press, 2022), Part 5, Environment, includes chapter 5.3, "Solar Totems." Its author is Sowers himself, at pp. 345–358, DOI 10.1201/9781003264903-23. The same part also has a chapter on [Perpetual Plastic](/en/perpetual-plastic/), and the part's introduction was written by the researcher Dietmar Offenhuber. I have not been able to check the text of the chapter for this article.
 
 ## Putting a 19th-century sunshine recorder onto wood
 

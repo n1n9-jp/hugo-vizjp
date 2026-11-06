@@ -39,7 +39,7 @@ The "SPECIAL DEVICES" chapter of the same manual has a page with a photograph of
 
 The components are a grooved work board with Bakelite fasteners, 1,000 paper strips, wedges and clamps, edge guides, and a carrying case. The strips are described as "1000 strips of white charting paper divided by blue strips at each 1% mark and red strips at each 5% mark." The dimensions are 30 × 23 × 2 inches (about 76 × 58 × 5 cm, converted by the author).
 
-A note on the names used at the time. IBM's wording is "International Cosmograph," and Brinton explains "Cosmograph" as a trade name for a kind of flow chart. A flow chart that shows quantity by band width is now classified as a [Sankey diagram](/sankey-diagram/), and the dataphys.org tag uses that name. But this is a later classification; it appears in neither the manual nor Brinton's book.
+A note on the names used at the time. IBM's wording is "International Cosmograph," and Brinton explains "Cosmograph" as a trade name for a kind of flow chart. A flow chart that shows quantity by band width is now classified as a [Sankey diagram](/en/sankey-diagram/), and the dataphys.org tag uses that name. But this is a later classification; it appears in neither the manual nor Brinton's book.
 
 Who devised it, how many were sold, and where an actual unit survives could not be confirmed.
 

@@ -118,7 +118,7 @@ In other words: the paper calls approaches that draw attention to the complex ma
 
 The caption of Fig. 9 in the paper classifies this work's design operations as "aggregating, encoding." In Table 2 of the same paper, Aggregating means gathering material so that it becomes visible, and Encoding means adding a scale that divides up the phenomenon. Since the work uses a layer of accumulated dirt and washes a scale into it, these two operations can be read as applying to it directly.
 
-The work also has a chapter in the book *Making with Data* (edited by Huron, Nagel, Oehlberg, and Willett; CRC Press). It is 5.4, "Staubmarke (Dustmark)," in Part 5, "Environment," written by Offenhuber, pp. 359–369, DOI 10.1201/9781003264903-24. I could not read the chapter text this time. The same Part 5 also includes [Perpetual Plastic](/perpetual-plastic/) and [Solar Totems](/en/solar-totems/). Both are works in which a phenomenon leaves traces in the material at hand. They differ in the direction of the trace: in Solar Totems, burn lines accumulate and remain, whereas in Staubmarke the pattern fades away.
+The work also has a chapter in the book *Making with Data* (edited by Huron, Nagel, Oehlberg, and Willett; CRC Press). It is 5.4, "Staubmarke (Dustmark)," in Part 5, "Environment," written by Offenhuber, pp. 359–369, DOI 10.1201/9781003264903-24. I could not read the chapter text this time. The same Part 5 also includes [Perpetual Plastic](/en/perpetual-plastic/) and [Solar Totems](/en/solar-totems/). Both are works in which a phenomenon leaves traces in the material at hand. They differ in the direction of the trace: in Solar Totems, burn lines accumulate and remain, whereas in Staubmarke the pattern fades away.
 
 ## How Third Parties Saw the Work
 

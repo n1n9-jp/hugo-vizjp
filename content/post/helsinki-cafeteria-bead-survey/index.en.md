@@ -83,7 +83,7 @@ In short: the earliest participatory visualizations were probably voting systems
 | Jennifer Payne, *Physical Visual Sedimentation* | 2014 | Gumball color separates groups within the university |
 | Antell's device | 2015 (year of registration) | Bead color (white = satisfied, red = unsatisfied) |
 
-Haacke's *MoMA Poll* divided yes and no by the position of the box ([article](/moma-poll/)). Antell's device, like pebble voting, divides answers by color. Dividing by color suggests that the position of the bar could be assigned to something else. However, what this device divided by position cannot be confirmed.
+Haacke's *MoMA Poll* divided yes and no by the position of the box ([article](/en/moma-poll/)). Antell's device, like pebble voting, divides answers by color. Dividing by color suggests that the position of the bar could be assigned to something else. However, what this device divided by position cannot be confirmed.
 
 dataphys's treatment is a classification, not an evaluation. I could not find any criticism or press coverage of this device itself in a form I could read.
 
@@ -95,7 +95,7 @@ In this photo, the card with the smiling and frowning faces can be read as a leg
 
 The materials in the photo are beads, glass bowls and a tube, a sign, and a card. There are no electronic components. A device of this kind can be read as easy to assemble from materials at hand.
 
-The source does not describe any tallying or record-keeping for this device. *MoMA Poll* kept the final day's vote count with a photoelectric counter ([article](/moma-poll/)). As a general point, when collecting on a physical object, it helps later to decide in advance how the counts will be taken and recorded.
+The source does not describe any tallying or record-keeping for this device. *MoMA Poll* kept the final day's vote count with a photoelectric counter ([article](/en/moma-poll/)). As a general point, when collecting on a physical object, it helps later to decide in advance how the counts will be taken and recorded.
 
 ## References
 
