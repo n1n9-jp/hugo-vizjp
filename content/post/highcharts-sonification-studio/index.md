@@ -3,7 +3,7 @@ author = "矢崎裕一"
 title = "表から、見る線と聴く線を同時に作る──Highcharts Sonification Studio"
 slug = "highcharts-sonification-studio"
 date = "2026-11-06"
-description = "表のデータを、線グラフと、その線をなぞる音に同時に変えるツールです。値を音の高さ・定位・音量などに割り当てる操作を、コードなしで選べます。開発中に評価を3回行いました。"
+description = "表のデータを、線グラフとその線をなぞる音に同時に変えるツールです。値を音の高さ・定位・音量などのどれに割り当てるか、コードなしで選べます。開発中に、視覚障害者を交えた評価を3回行いました。"
 categories = [
     "technology"
 ]
@@ -18,7 +18,7 @@ seriesByline = "Highsoft／Georgia Tech Sonification Lab"
 seriesTitle = "表を、見る線と聴く線に──Highcharts Sonification Studio"
 +++
 
-Highcharts Sonification Studio（ハイチャーツ・ソニフィケーション・スタジオ、以下 HSS）は、表に入れたデータを、線グラフと、その線をなぞる音に同時に変えるツールです。値を音の高さ・定位・音量・長さなどのどれに割り当てるかを、コードを書かずにサイドバーで選べます。開発の途中で、目の見えない利用者や、視覚障害のある専門家が加わる評価を3回行っています。
+Highcharts Sonification Studio（ハイチャーツ・ソニフィケーション・スタジオ、以下 HSS）は、表に入れたデータを、線グラフと、その線をなぞる音に同時に変えるツールです。値を音の高さ・定位・音量・長さなどのどれに割り当てるかを、コードを書かずにサイドバーで選べます。開発の途中で、全盲の利用者や、視覚障害のある専門家が加わる評価を3回行っています。
 
 開発は Highcharts の開発元である Highsoft AS（ノルウェー）で、Georgia Tech Sonification Lab と共同で設計しました。ブラウザで動き、無料で、ログインは要りません。以下は、ICAD 2021 の論文（Cantrell, Walker, Moseng）、GitHub のソースとアプリ内チュートリアル（v1.1.1）、Georgia Tech のニュース記事（2021年7月）に沿います。
 
@@ -44,7 +44,7 @@ GitHub の最初のコミットは2019年8月26日で、Highsoft の Øystein Mo
 | 2020年11月 | v0.0.9 | 評価の Phase 2 |
 | 2021年2月 | v0.0.11 | 評価の Phase 3 |
 | 2021年6月 | ― | ICAD 2021 で論文を発表。論文の時点（2021年3月）で「public beta」 |
-| 2022年9月 | v1.0.0 | 正式版 |
+| 2022年9月 | v1.0.0 | 版番号が 1.0 になる |
 | 2025年8月・11月 | v1.1.0・v1.1.1 | 表の部品を AG Grid から Highcharts の Grid に替える |
 
 画面は、データの表のタブと、グラフのタブの2面です。グラフのタブには、見た目と音の再生ボタンが並びます。設定は右のサイドバーにあり、Visual と Audio に分かれます。
@@ -175,7 +175,7 @@ ARIA の grid に頼らず、Google スプレッドシートのような独自�
 
 割り当てられる音の種類は多いが、作った音どうしを並べたり重ねたりするには外の編集ソフトが要り、別の技能を求める、という指摘です。同じ論文は、既存のツールの多くに API がないことも挙げています。HSS がサイドバーの操作で完結する設計であることの裏返しと読めます。
 
-三つ目は、普及と持続性です。Graz の IEM の Vallejo Budziszewski（バジェホ・ブジシェフスキ）と Gross-Vogt（グロス＝フォークト）は、ICAD 2025 でソニフィケーションのソフトを見渡しました。
+三つ目は、普及と持続性です。Graz 音楽・舞台芸術大学 IEM の Sofia Vallejo Budziszewski（ソフィア・バジェホ・ブジシェフスキ）と Katharina Gross-Vogt（カタリーナ・グロス＝フォークト）は、ICAD 2025 でソニフィケーションのソフトを見渡しました。
 
 > "Tools such as Tone.js [26], TwoTone [12], and Highcharts Sonification [27] have gained traction due to their ease of use and web-based deployment."
 
@@ -219,4 +219,4 @@ HSS の論文は、このツールを、コミュニティが使い広げられ�
 
 - Brandon Biggs の発言（上記 Georgia Tech のニュース内。共同開発元の記事）. [記事](https://cc.gatech.edu/news/649087/new-browser-based-chart-builder-gives-line-graphs-scatterplots-their-own-audio-track)
 - Hyeok Kim, Yea-Seul Kim, Jessica Hullman, “Erie: A Declarative Grammar for Data Sonification,” CHI 2024. [arXiv:2402.00156](https://arxiv.org/abs/2402.00156)
-- S. Vallejo Budziszewski, K. Gross-Vogt, “Legacy, Active & Future Software Tools in Sonification Research,” ICAD 2025. [PDF](https://repository.gatech.edu/server/api/core/bitstreams/24d4ff78-cbfa-4020-9e48-fd3cd8efd4a8/content)
+- Sofia Vallejo Budziszewski, Katharina Gross-Vogt, “Legacy, Active & Future Software Tools in Sonification Research,” ICAD 2025. [PDF](https://repository.gatech.edu/server/api/core/bitstreams/24d4ff78-cbfa-4020-9e48-fd3cd8efd4a8/content)

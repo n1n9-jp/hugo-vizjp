@@ -11,14 +11,14 @@ tags = [
     "データ物質化",
     "味覚"
 ]
-image = "images/tasting-colored-blobs-slate.jpg"
+image = "images/pink-blue-noodles.jpg"
 series = ["data-physicalization"]
 series_weight = 99
 seriesByline = "Moritz Stefaner・Susanne Jaschko"
 seriesTitle = "その土地のデータを、その土地の料理で──Data Cuisine"
 +++
 
-Data Cuisine（データ・キュイジーヌ）は、その土地のオープンデータを、その土地の料理で表すワークショップです。2012年9月のヘルシンキが最初で、2014年のバルセロナを経て、各地で開かれました。料理では、砂糖の量、具の量、食材の組み合わせをデータに対応させました。スペインの科学予算の削減は、砂糖を34%減らしたケーキになりました。若者の移住先は、国を連想させる魚料理を順位の大きさで並べた皿になりました。
+Data Cuisine（データ・キュイジーヌ）は、その土地のオープンデータを、その土地の料理で表すワークショップです。2012年9月のヘルシンキが最初で、2014年のバルセロナを経て、各地で開かれました。料理では、砂糖の量、具の量、食材の組み合わせをデータに対応させました。スペインの科学予算の削減は、砂糖を34%減らしたケーキになりました。若者の移住先は、その国を連想させる魚料理を、順位に合わせた大きさで盛った皿になりました。
 
 企画したのは、可視化デザイナーの Moritz Stefaner（モーリッツ・ステファナー）と、ベルリンのキュレーター Susanne Jaschko（ズザンネ・ヤシュコ）です。以下は、主催者の告知ページ、二人へのインタビュー（We Make Money Not Art、2014年）、WIRED・Core77・Engadget の報道に沿います。公式サイト data-cuisine.net は筆者の環境から開けず、料理ごとの公式解説は読めていません。料理の中身は、インタビューと報道で確かめた範囲に限って書きます。
 
@@ -30,11 +30,7 @@ Data Cuisine（データ・キュイジーヌ）は、その土地のオープ�
 
 > "Have you ever tried to imagine how a fish soup tastes whose recipe is based on publicly available local fishing data? Or what a pizza would be like if it was based on Helsinki's population mix?"
 
-その土地の漁獲データで作った魚のスープや、ヘルシンキの人口構成で作ったピザはどんな味か、という問いです。2016年の Information is Beautiful Awards の作品説明は、決まりをこう書きます。
-
-> "We research ways to represent local open data in local food, through its inherent qualities such as color, form, texture, smell, taste, nutrition, origin etc."
-
-その土地のオープンデータを、色・形・食感・匂い・味・栄養・産地といった食べ物の性質で表す、という意味です。
+その土地の漁獲データで作った魚のスープや、ヘルシンキの人口構成で作ったピザはどんな味か、という問いです。2016年の Information is Beautiful Awards の作品説明は、「local open data in local food」を、色・形・食感・匂い・味・栄養・産地などの性質で表す、と決まりを書いています。
 
 ヘルシンキでは2日目の夕方に公開試食会があり、シェフは Antti Nurkka でした。第2回は2014年6月のバルセロナで、CCCB（バルセロナ現代文化センター）と Sónar+D の共同制作です。前半2日で題材とデータを調べ、後半はプロの厨房でシェフと料理を作りました。
 
@@ -70,9 +66,9 @@ Emigration Fish は、Samuel Boucher と Jahn Schlosser の料理です。題材
 
 Data Cuisine／[We Make Money Not Art](https://we-make-money-not-art.com/?p=7303) より引用
 
-フランスはワインソースの魚、ドイツはパセリとビールで調理した魚です。イギリスは衣揚げ、エクアドルはセビーチェ、アメリカはベーコンの脂で揚げた魚でした。WIRED は上位6か国と書いていますが、挙げている料理は5つです。
+フランスはワインソース、ドイツはパセリとビール、イギリスは衣揚げ、エクアドルはセビーチェ、アメリカはベーコンの脂で揚げた魚です。WIRED は上位6か国と書きますが、挙げた料理は5つです。
 
-First Date Noodles は、初めてのデートでセックスをするかを題材にしました。Core77 によると、料理人たちの Facebook の知り合いに聞いた非公式のアンケートで、女性59%、男性86%が「する」と答えました。ピンクと青の麺が性別を表し、絡まった塊が「する」人、外に出た麺が「しない」人です。
+First Date Noodles は、初めてのデートでセックスをするかが題材です。Core77 によると、Facebook の知り合いへの非公式のアンケートで、女性59%、男性86%が「する」と答えました。ピンクと青の麺が性別を表し、絡まった塊が「する」人、外に出た麺が「しない」人です。
 
 ![黒い粘板岩の皿の左に、ピンクと青の麺がまっすぐ並び、右にピンクと青の麺が絡まった塊がある。手がそれを並べている](images/pink-blue-noodles.jpg)
 
@@ -88,7 +84,7 @@ Stefaner のページはこの写真に料理名を添えていませんが、Co
 | First Date Noodles | 性別 | 麺の色（ピンクと青） | Core77 |
 | First Date Noodles | 「する」と「しない」の割合 | 絡まった塊の麺と、外に出た麺 | Core77 |
 | Sugarsm | アンケートで挙がった方法と、その割合 | 砂糖の塊ひとつずつと、その量 | WIRED のキャプション |
-| Kippis!（ヘルシンキ） | フィンランドの地域ごとの飲酒量 | フィンランドの地図の形 | Core77 |
+| Kippis! | フィンランドの地域ごとの飲酒量 | フィンランドの地図の形 | Core77 |
 | 飲酒量の地図（ヘルシンキ、料理名の記載なし） | 国内の飲酒量 | 量を変えたワインと、地域の料理 | Engadget |
 | 名前未確認（ヘルシンキ） | 犯罪の種類 | 積み重ねた別々の種類の魚 | Engadget |
 

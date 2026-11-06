@@ -65,7 +65,7 @@ Miebach は、籠を「翻訳の媒体」と呼びます。籠は縦の材と横
 
 ## 楽譜に写し、それを設計図にして組む
 
-この作品は「彫刻が楽譜にもなる」と紹介されがちで、TED の紹介文も、彫刻が「弦楽四重奏のための楽譜になる」と書きます。本人の講演の順序は逆で、まず気象データを楽譜に写すと話しています。
+この作品は「彫刻が楽譜にもなる」と紹介されることがあり、TED の紹介文も、彫刻が「弦楽四重奏のための楽譜になる」と書きます。本人の講演の順序は逆で、まず気象データを楽譜に写すと話しています。
 
 > "Meanwhile, I use these scores as blueprints to translate into sculptural forms like this, … so it can actually be read as a musical score."
 
@@ -133,7 +133,7 @@ Nathalie Miebach「Sun Gnomon for Stormy Night – Nov 13-19, 2008」（2009）�
 
 ## 第三者はこの作品をどう見たか
 
-一つ目は、Issues in Science and Technology の作品紹介「Sculpting The Floods」（Winter 2026）です。
+論点の違う三つを挙げます。一つ目は、Issues in Science and Technology の作品紹介「Sculpting The Floods」（Winter 2026）です。
 
 > "Rather than visualizing data for clarity or communication, Miebach's goal is to provide a different way of experiencing data—to make the complexities of natural systems physically and emotionally perceptible."
 
@@ -165,7 +165,7 @@ Nathalie Miebach「Sun Gnomon for Stormy Night – Nov 13-19, 2008」（2009）�
 
 四つ目は、凡例を作品の中に書き込むことです。Hurricane Noel III には「65°F」などの数値の札が付き、楽譜には色の凡例と観測所の名前があります。講演で Miebach は、美術館では彫刻、科学館では3次元の可視化、音楽ホールでは楽譜になると話しました。どこに置かれても読めるのは、凡例が作品の中にあるからだと読めます。
 
-[Chemo Singing Bowl](/chemo-singing-bowl/) や [The Tempestry Project](/tempestry-project/) と並べて読めます。
+同じデータを音や形に渡す例として、[Chemo Singing Bowl](/chemo-singing-bowl/) や [The Tempestry Project](/tempestry-project/) と並べて読めます。
 
 ## 参考・出典
 
