@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/wall-street-station-two-trains.jpg"
 series = ["data-sonification"]
-series_weight = 99
+series_weight = 20
 seriesByline = "Brian Foo"
 seriesTitle = "距離を長さに、所得を楽器の数に──Two Trains"
 +++

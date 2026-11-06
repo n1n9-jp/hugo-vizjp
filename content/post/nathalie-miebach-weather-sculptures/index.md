@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/hurricane-noel-iii.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 15
 seriesByline = "Nathalie Miebach"
 seriesTitle = "楽譜を設計図に籠を編む──Nathalie Miebach の嵐"
 +++

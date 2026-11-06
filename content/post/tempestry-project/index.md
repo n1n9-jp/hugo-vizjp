@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/deception-pass-1950-2016.jpg"
 series = ["data-physicalization"]
-series_weight = 33
+series_weight = 36
 seriesByline = "Emily McNeil ほか"
 seriesTitle = "全員が同じ32色で編む──The Tempestry Project"
 +++

@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/seeboat-kendall-long-exposure.jpg"
 series = ["data-physicalization"]
-series_weight = 30
+series_weight = 33
 seriesByline = "Laura Perovich ほか"
 seriesTitle = "測った水面で船の灯りの色を変える──SeeBoat"
 +++

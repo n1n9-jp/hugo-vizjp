@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/ring-chart-blue-and-green.jpg"
 series = ["data-physicalization"]
-series_weight = 37
+series_weight = 40
 seriesByline = "Maxime Daniel・Guillaume Rivière・Nadine Couture"
 seriesTitle = "リングの直径で1時間ごとの再エネ量を示す──CairnFORM"
 +++

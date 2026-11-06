@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/pink-blue-noodles.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 22
 seriesByline = "Moritz Stefaner・Susanne Jaschko"
 seriesTitle = "その土地のデータを、その土地の料理で──Data Cuisine"
 +++

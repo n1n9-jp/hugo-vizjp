@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/twotone-editor-honey.png"
 series = ["data-sonification"]
-series_weight = 99
+series_weight = 40
 seriesByline = "Datavized Technologies／Sonify"
 seriesTitle = "1列を音の高さにして、1行1拍で鳴らす──TwoTone"
 +++

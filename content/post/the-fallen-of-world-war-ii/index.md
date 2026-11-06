@@ -16,7 +16,7 @@ tags = [
 ]
 image = "images/figures-column-us-flag.jpg"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 11
 seriesByline = "Neil Halloran"
 seriesTitle = "1体＝1,000人で積み直す──The Fallen of World War II"
 +++

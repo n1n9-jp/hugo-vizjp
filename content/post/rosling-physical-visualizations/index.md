@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/ted-cannes-2010-ikea-boxes.jpg"
 series = ["data-physicalization"]
-series_weight = 18
+series_weight = 20
 seriesByline = "Hans Rosling・Ola Rosling"
 seriesTitle = "1箱を10億人として並べ替える──ロスリングの箱"
 +++

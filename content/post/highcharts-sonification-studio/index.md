@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/app-thumbnail.png"
 series = ["data-sonification"]
-series_weight = 99
+series_weight = 50
 seriesByline = "Highsoft／Georgia Tech Sonification Lab"
 seriesTitle = "表を、見る線と聴く線に──Highcharts Sonification Studio"
 +++
@@ -32,7 +32,7 @@ GitHub の最初のコミットは2019年8月26日で、Highsoft の Øystein Mo
 
 画面は、表のタブとグラフのタブの2面で、設定は右のサイドバーにあります。
 
-![左に再生ボタン、中央に面グラフと線グラフ、右に音の全体設定が並ぶ HSS の画面](images/app-thumbnail.png)
+![左に再生ボタン、中央に2系列の面グラフ、右に音の全体設定が並ぶ HSS の画面](images/app-thumbnail.png)
 
 Highsoft AS／[sonification-studio（GitHub）](https://github.com/highcharts/sonification-studio)より引用（画面下の表記は v0.1.5-beta）
 
@@ -59,7 +59,7 @@ Highsoft AS／[HSS のチュートリアル（GitHub）](https://github.com/high
 | データ | 音のどこに | 既定値・範囲など |
 |---|---|---|
 | x か y | 音の高さ（Note pitch） | 最小 36・最大 90（「number of notes from C0」）。向きを反転できる |
-| x（時間軸） | 定位（Pan） | 全体設定の「Pan enabled」で対応。既定はオン |
+| x か y（既定は x） | 定位（Note panning） | 全体設定の「Default panning enabled」で、既定はオン。系列ごとに上書きできる |
 | x か y、または固定値 | 音量 | 全体の音量は既定 70% |
 | x か y、または固定値 | 音の長さ | flute、trumpet など、長く鳴る楽器でだけ効く |
 | x か y | ローパス／ハイパスフィルター、トレモロの深さ・速さ | ― |
@@ -104,7 +104,7 @@ Play detail について、チュートリアルはこう書きます。
 |---|---|---|
 | Phase 1 | 2020年3月、v0.0.4 | 晴眼の参加者12人と、全盲と自認する参加者1人（VoiceOver と JAWS の利用者）による33課題の調査。別に、法的盲と自認する専門家1人 |
 | Phase 2 | 2020年11月、v0.0.9 | 専門家4人（うち3人が法的盲と自認） |
-| Phase 3 | 2021年2月、v0.0.11 | 専門家2人（うち1人が法的盲と自認）と、Highsoft のアクセシビリティ責任者による非公式な評価 |
+| Phase 3 | 2021年2月、v0.0.11 | 専門家2人（うち1人が法的盲と自認）。Highsoft のアクセシビリティ責任者も加わり、画面を順に見て回る非公式な評価 |
 
 Phase 1 の33課題は、表の操作から、再生・停止、音量や速さの調整、グラフの題や色の変更までです。研究者が各課題を PURE という使いやすさの尺度で採点し、結果を課題の数で報告しています。
 

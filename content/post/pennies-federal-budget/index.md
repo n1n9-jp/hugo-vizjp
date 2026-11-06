@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/pennies-on-table.png"
 series = ["data-physicalization"]
-series_weight = 16
+series_weight = 18
 seriesByline = "Matt Shapiro（Political Math）"
 seriesTitle = "削減額をペニー4分の1枚に──Political Math の予算動画"
 +++

@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 27
+series_weight = 30
 seriesByline = "Faisal Taher・Jason Alexander ほか（Lancaster University）"
 seriesTitle = "100本の棒にどのデータを載せるか──EMERGE"
 +++

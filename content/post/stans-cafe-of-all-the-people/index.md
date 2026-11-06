@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/birmingham-2008-large-pile.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 14
 seriesByline = "Stan's Cafe（James Yarker）"
 seriesTitle = "米1粒を1人として量る──Of All The People"
 +++
@@ -98,7 +98,7 @@ Yarker は2018年の原稿で、作品の決まりをこう書いています。
 
 Graeme Rose 撮影／[Stan's Cafe「Tokyo」](https://stans.cafe/project/project-of-all-the-people/project-of-all-the-people-tokyo/)より引用
 
-東京公演のラベルは日本語と英語の2か国語で、数値はありません。小さな統計では、粒を一つずつ数えられます。大きな山について、Yarker はこう書きます。
+東京公演のラベルは日本語と英語の2か国語で、数値はありません。大きな山について、Yarker はこう書きます。
 
 > even in vast piles the granularity of the rice remains clear, every pile is demonstrably a collection of individuals
 
@@ -133,7 +133,7 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 
 2008年のバーミンガムでは、工場の部屋を巡る順をおおよその地理の順にしました。西暦1年・1500年・1900年の3つの山には、照明をゆっくりクロスフェードさせています。
 
-床に落ちた1粒を「we've found this person, they're lost」と言って届けに来た来場者がいた、と2018年の原稿は書いています。公式の公演一覧には「Adelaide 2026」があり、上演は今も続いています。
+公式の公演一覧には「Adelaide 2026」があり、上演は今も続いています。
 
 ## 第三者はこの作品をどう見たか
 
@@ -147,7 +147,7 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 
 数値がなく、見た目の比較だけなのがよい、という意見です。作者の決まりに対して、受け止めが分かれた記録です。
 
-二つ目は、比較の中身です。Christian Science Monitor は2007年4月、MASS MoCA の公演を子ども向けに伝えました。米国の人口の山は高さ約6フィートでした。米国のゲーテッド・コミュニティの住民と刑務所の収容者の山が、ほぼ同じ大きさだったとも書いています。
+二つ目は、比較の中身です。Christian Science Monitor は2007年4月、MASS MoCA の公演を伝えました。米国の人口の山は高さ約6フィートでした。米国のゲーテッド・コミュニティの住民と刑務所の収容者の山が、ほぼ同じ大きさだったとも書いています。
 
 三つ目は、研究者の分類です。Pierre Dragicevic（ピエール・ドラジチェヴィッチ）と Yvonne Jansen（イヴォンヌ・ヤンセン）の dataphys.org は、この作品を「Passive physical visualization」に分類しています。
 

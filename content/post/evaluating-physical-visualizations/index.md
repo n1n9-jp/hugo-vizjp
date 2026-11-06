@@ -16,7 +16,7 @@ tags = [
 ]
 image = "images/physical-bar-chart.jpg"
 series = ["data-physicalization"]
-series_weight = 23
+series_weight = 26
 seriesByline = "Jansen・Dragicevic・Fekete"
 seriesTitle = "実物の3D棒グラフは速いか──評価実験"
 +++

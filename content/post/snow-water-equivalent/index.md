@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cabinet-full-view.jpg"
 series = ["data-physicalization"]
-series_weight = 19
+series_weight = 21
 seriesByline = "Adrien Segal"
 seriesTitle = "31年の雪を31段の引き出しに──Snow Water Equivalent"
 +++
