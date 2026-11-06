@@ -8,7 +8,7 @@
 {{- $page := . -}}
 {{- $searchPage := index (first 1 (where site.Pages "Layout" "search")) 0 -}}
 
-{{- /* Current location: the menu entry of this page / its section, or (articles) the entry for the first category */ -}}
+{{- /* Current location: the menu entry of this page / its section / its taxonomy (term pages), or (articles) the entry for the first category */ -}}
 {{- $firstCat := "" -}}
 {{- $catURL := "" -}}
 {{- if and (eq .Kind "page") .Params.categories -}}
@@ -58,6 +58,10 @@
                     {{- $entry := . -}}
                     {{- $isPage := $page.IsMenuCurrent "main" . -}}
                     {{- $current := or $isPage ($page.HasMenuCurrent "main" .) -}}
+                    {{- /* 特集のページ（/series/<ID>/）：親のタクソノミーのページ（/series/）のメニュー項目を選択中にする */ -}}
+                    {{- if and (not $current) (eq $page.Kind "term") $page.Parent -}}
+                        {{- $current = eq .URL $page.Parent.RelPermalink -}}
+                    {{- end -}}
                     {{- if and (not $current) $firstCat -}}
                         {{- $current = or (in (.Params.activeFor | default slice) $firstCat) (and $catURL (eq .URL $catURL)) -}}
                     {{- end }}

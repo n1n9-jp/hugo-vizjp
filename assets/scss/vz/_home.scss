@@ -211,3 +211,52 @@
     .vz-archive__n { font-size: 10px; }
     .vz-archive__year { font-size: 10px; }
 }
+
+// 特集の一覧（/series/）。マークアップ：layouts/series/taxonomy.html。トップページの帯（.vz-band）と同じ色・書体を使う。
+.vz-series-index {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 24px;
+    color: var(--vz-ink);
+    font-family: var(--vz-font-sans);
+    line-height: 1.7;
+
+    h1, h2, p { margin: 0; }
+    ol, ul { list-style: none; margin: 0; padding: 0; }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--vz-accent); }
+    a:focus-visible { outline: 2px solid var(--vz-accent); outline-offset: 3px; }
+}
+.vz-series-index__head { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
+.vz-series-index__title { font-size: clamp(28px, 5vw, 40px); line-height: 1.35; font-weight: 700; letter-spacing: -0.01em; text-wrap: balance; }
+.vz-series-index__lead { font-size: 15px; color: var(--vz-ink-2); max-width: 640px; }
+.vz-series-index__list { display: flex; flex-direction: column; border-top: 1px solid var(--vz-ink); }
+
+.vz-series-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+    align-items: center;
+    gap: 20px 40px;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--vz-rule);
+    min-width: 0;
+}
+.vz-series-card__text { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.vz-series-card__count { font-family: var(--vz-font-mono); font-size: 12px; letter-spacing: 0.08em; color: var(--vz-accent); }
+.vz-series-card__count--none { color: var(--vz-ink-3); }
+.vz-series-card__name { font-size: clamp(21px, 3vw, 26px); line-height: 1.45; font-weight: 700; overflow-wrap: anywhere; }
+.vz-series-card__name a { display: inline-block; min-height: 44px; }
+.vz-series-card__desc { font-size: 15px; line-height: 1.85; color: var(--vz-ink-2); }
+.vz-series-card__thumbs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; min-width: 0; }
+.vz-series-card__thumbs > li { min-width: 0; }
+.vz-series-card__thumb { display: block; }
+.vz-series-card__img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; background: var(--vz-fill); }
+.vz-series-card__thumb:hover .vz-series-card__img { opacity: 0.85; }
+.vz-series-index .vz-thumb--none { background: var(--vz-fill); }
+
+@media (max-width: 767px) {
+    .vz-series-index { gap: 28px; }
+    .vz-series-card { grid-template-columns: minmax(0, 1fr); padding: 24px 0; gap: 16px; }
+    .vz-series-card__thumbs { gap: 8px; }
+}
