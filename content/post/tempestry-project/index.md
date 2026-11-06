@@ -11,7 +11,7 @@ tags = [
     "データ物質化",
     "色"
 ]
-image = "images/yale-collection-1950-2016.jpg"
+image = "images/deception-pass-1950-2016.jpg"
 series = ["data-physicalization"]
 series_weight = 99
 seriesByline = "Emily McNeil ほか"
@@ -44,10 +44,6 @@ Justin Connelly と Asy Connelly が同じ人かどうかは、確かめられ�
 
 プロジェクトは、毛糸と説明書、その土地の日ごとの気温表を入れたキットを売りました。Barnard は2020年4月の時点で、参加は49州と30か国以上に広がったと書いています。
 
-![Tempestry のキット。赤系から緑系へ毛糸玉を縦に並べた列が3つあり、中央に毛糸の見本を留めたカード、手前に輪針が置かれている](images/yale-yarn-colors.jpg)
-
-Tempestry Project／Yale Climate Connections「Knitters turn climate data into tapestries」より引用
-
 ## 32色の凡例を、全員で共有する
 
 説明書は、毛糸の色を気温の範囲に割り当てた理由を、こう書いています。
@@ -70,18 +66,13 @@ Tempestry Project／Yale Climate Connections「Knitters turn climate data into t
 
 気温は NOAA のデータで、欠けたところは Weather Underground などで補います。
 
-32の階級の一部を抜き出すと、次のようになります（当初は KnitPicks の毛糸 Wool of the Andes の色名）。
+32の階級は、色見本カードに全部が載っています。色名は、当初使った KnitPicks の毛糸 Wool of the Andes のものです。
 
-| # | °F | °C（説明書の換算） | 色名 |
-|---|---|---|---|
-| 1 | −30°F 未満 | −34.44℃ 未満 | Coal |
-| 7 | −4〜0 | −20〜−17.78 | Sapphire Heather |
-| 8 | 1〜5 | −17.22〜−15 | Celestial |
-| 14 | 31〜35 | −0.56〜1.67 | Tranquil |
-| 31 | 116〜120 | 46.67〜48.89 | Garnet Heather |
-| 32 | 121°F 以上 | 49.44℃ 以上 | Currant |
+![°F と °C の2枚の色見本カード。Currant ≥121° から Coal ≤ −30° まで32色の名前と温度の範囲が並び、穴ごとに毛糸の見本が結んである](images/color-card-f-c.jpg)
 
-両端を除く30階級は、すべて幅5°F です。境界は華氏の整数で、摂氏は換算した端数です。主の単位は華氏だと読めます。0℃は14番の階級の中にあり、氷点は色の境目になっていません。2022年の色表では毛糸と色名が替わりましたが、温度の区切りは同じです。
+Justin Connelly／[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Color_Card_F_and_C.jpg) より引用（CC BY-SA 4.0）
+
+両端を除く30階級は、すべて幅5°F です。境界は華氏の整数で、摂氏は換算した端数です。主の単位は華氏だと読めます。0℃は Tranquil（31〜35°F）の中にあり、氷点は色の境目になっていません。2022年の色表では毛糸と色名が替わりましたが、温度の区切りは同じです。
 
 なお、範囲の端の書き方は資料で違います。説明書は「Less than −30°F」で、−30°F ちょうどの扱いが抜けています。色見本カードは「≤ −30°」です。Barnard は「less than −30°F to more than 121°F」、Berman Museum は「less than −31°F」と書いています。
 
@@ -99,22 +90,26 @@ Tempestry Project／Yale Climate Connections「Knitters turn climate data into t
 
 たくさん並べると、気温の変化がはっきり見える、という話です。
 
-![白い壁に、縞模様の細長いタペストリーが年の札を付けて横一列に掛かり、右手前の壁には別の2本が並んでいる](images/yale-collection-1950-2016.jpg)
-
-Tempestry Project／Yale Climate Connections「Knitters turn climate data into tapestries」より引用
-
-Yale の写真説明によれば、左は1950〜2016年のコレクションで、右の2本は Pullman（ワシントン州）の1946年と2016年です。
-
 展示の記録では、並べ方に二つの型が見られます。
 
 | 年 | 場所 | 並べたもの | 出典 |
 |---|---|---|---|
 | 2018 | FutureFest（Anacortes） | Utqiagvik（アラスカ）の1925・2010・2016年と、Death Valley（カリフォルニア）の1950・2016年 | Wikimedia Commons の写真説明 |
-| 2018年秋 | Museum of Northwest Art「Surge」展 | Deception Pass（ワシントン州）の22本。左が1950年、右が2017年 | Wikimedia Commons の写真説明 |
+| 2018年秋 | Museum of Northwest Art「Surge」展 | Deception Pass（ワシントン州）の22本。左が古い年 | Wikimedia Commons の写真説明 |
 | 2019 | Pacific Northwest Quilt & Fiber Arts Museum | Orcas 島の観測所の、過去100年を4年おき。本数は29本（Islands' Sounder）と27本（Wikipedia）で食い違う | Islands' Sounder、Wikipedia |
 | 2019 | 国立公園のプロジェクト | 1公園に2本。多くは国立公園局100周年の2016年と、早い年 | Adobe Express のプロジェクトページ |
 
-一つは同じ地点の年を横一列に並べる型、もう一つは別の地点をそれぞれ年代順に並べる型です。どちらも、全員が同じ32色を使うから成り立つ並べ方だと読めます。写真は Wikimedia Commons の [Deception Pass](https://commons.wikimedia.org/wiki/File:Deception_Pass_Collection_Surge_2018_(cropped).jpg) と [Utqiagvik と Death Valley](https://commons.wikimedia.org/wiki/File:Tempestries_for_Utqiagvik,_AK_and_Death_Valley,_CA.jpg) で見られます。
+![白い壁に、1950年から2016年までの札を付けた22本のタペストリーが横一列に掛かり、両脇に色見本の毛糸が下がっている](images/deception-pass-1950-2016.jpg)
+
+Justin Connelly／[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Deception_Pass_Collection_Surge_2018_(cropped).jpg) より引用（CC BY-SA 4.0）
+
+一つは、同じ地点の年を横一列に並べる型です。Deception Pass の範囲は、Commons の説明文では1950〜2017年ですが、写真の札は1950年から2016年までです。両脇には、色見本の毛糸が下げてあります。
+
+![左に青・紫・緑系の縞の3本、右に赤・黄系の縞の2本のタペストリーが掛かっている](images/utqiagvik-death-valley.jpg)
+
+Justin Connelly／[Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tempestries_for_Utqiagvik,_AK_and_Death_Valley,_CA.jpg) より引用（CC BY-SA 4.0）
+
+もう一つは、別の地点をそれぞれ年代順に並べる型です。Commons の説明文では、左の3本が Utqiagvik、右の2本が Death Valley です。写真では、両者は32色のうち別の範囲を使っています。どちらの型も、全員が同じ32色を使うから成り立つ並べ方だと読めます。
 
 国立公園のプロジェクトでは、古い年を左に置く例が多い一方、Glacier Bay や Death Valley は2016年が左で、Grand Canyon は上下です。凡例は共有しても、並べる向きまでは決めていなかったと読めます。
 
