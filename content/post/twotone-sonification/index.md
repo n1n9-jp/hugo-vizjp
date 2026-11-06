@@ -19,7 +19,7 @@ seriesByline = "Datavized Technologies／Sonify"
 seriesTitle = "1列を音の高さにして、1行1拍で鳴らす──TwoTone"
 +++
 
-TwoTone（ツートーン）は、表の1列を、最小値から最大値まで音階の段に割り当て、1行を1拍として鳴らすツールです。データが決めるのは、音の高さと、鳴らすか黙るかだけです。初期設定では、値をハ長調の2オクターブ、15段に丸めます。音量・楽器・調・テンポは、使う人がトラックごとに選びます。ブラウザで動く無料のウェブアプリで、コードを書かずに使えます。
+TwoTone（ツートーン）は、表の1列を、最小値から最大値まで音階の段に割り当て、1行を1拍として鳴らすツールです。データが決めるのは、音の高さと、鳴らすか黙るかだけです。初期設定では、値をハ長調の2オクターブ、15段に丸めます。音量・楽器・調は、使う人がトラックごとに選びます。テンポは、全体の BPM とトラックごとの倍率を人が決めます。ブラウザで動く無料のウェブアプリで、コードを書かずに使えます。
 
 TwoTone は2019年3月5日に公開されました。作ったのはニューヨークのデータデザインスタジオ Datavized Technologies で、Google News Initiative（GNI）が支援しました。2021年12月からは Sonify が保守を引き継ぎ、2023年半ばに開発が止まっています。以下は、GitHub のリポジトリ（README とソースコード）、公式サイト twotone.io、開発に関わった人たちの公開記事に沿います。
 
@@ -27,7 +27,7 @@ TwoTone は2019年3月5日に公開されました。作ったのはニューヨ
 
 ## 2019年3月、報道の現場に向けて公開される
 
-TwoTone を依頼したのは、当時 Google News Lab のデータエディターだった Simon Rogers（サイモン・ロジャース）です。助言はマイアミ大学の Alberto Cairo（アルベルト・カイロ）が務め、開発は Datavized の CEO、Hugh McGrory（ヒュー・マグローリー）が率いました。公開の日、Rogers はこう書いています。
+TwoTone を依頼したのは、当時 Google News Lab のデータエディターだった Simon Rogersです。助言はマイアミ大学の Alberto Cairo（アルベルト・カイロ）が務め、開発は Datavized の CEO、Hugh McGroryが率いました。公開の日、Rogers はこう書いています。
 
 > "Previously, to make data into music, you'd need to have expert coding skills. Now, anybody can do it."
 
@@ -37,7 +37,8 @@ TwoTone を依頼したのは、当時 Google News Lab のデータエディタ�
 
 | 資料 | 開発元の書き方 |
 |---|---|
-| 公式サイト（2019年） | 「imagined and made by Datavized Technologies with support from Google News Initiative」 |
+| McGrory「An Intro to TwoTone」（2019年） | 「imagined by Datavized with support from Google News Initiative」 |
+| 公式サイト（twotone.io/about） | 「originally made by Datavized Technologies with support from Google News Initiative and is now maintained by Sonify」 |
 | 現在の README（sonifydata/twotone） | 「a Sonify project built with support from Google News Initiative」。続けて「originally developed by Datavized Technologies」 |
 
 その後の流れは、次のとおりです。
@@ -52,7 +53,7 @@ TwoTone を依頼したのは、当時 Google News Lab のデータエディタ�
 
 Sonify は、McGrory が共同創業した米国の会社です。2026年11月6日の時点で、旧アプリの datavized.github.io/twotone/ は開けました。README が案内する sonify.io/twotone/ は、名前解決ができませんでした。
 
-着想のもとは、全盲の天文学者 Wanda Diaz Merced（ワンダ・ディアス・メルセド）の2016年の TED トークだ、と McGrory は書いています。グラニュラー合成は動かせたものの、「too complex for the beginner」として外しました。
+着想のもとは、全盲の天文学者 Wanda Diaz Mercedの2016年の TED トークだ、と McGrory は書いています。グラニュラー合成は動かせたものの、「too complex for the beginner」として外しました。
 
 ## 1列を、音階の15段に丸める
 
@@ -76,11 +77,11 @@ Datavized Technologies／Hugh McGrory「An Intro to TwoTone」（Medium）より
 | 空欄・数値でない値 | 休符 | 音を出さない | scale/index.js |
 | 別の列の値の範囲（フィルター） | 鳴る／黙る | 範囲外の行は無音にする | README「Filtering a Track」 |
 
-![TwoTone の編集画面。左に2本のトラックが棒グラフで並び、右に年ごとの表があり、再生中の2005年の行と棒がオレンジになっている](images/twotone-editor-honey.png)
+![TwoTone の編集画面。左に2本のトラックが棒グラフで並び、右に年ごとの表があり、再生中の2005年の行が灰色で示され、対応する棒がオレンジになっている](images/twotone-editor-honey.png)
 
 Datavized Technologies／Hugh McGrory「An Intro to TwoTone」（Medium）より引用。ライセンス表記なし（MPL 2.0 はコードのライセンスで、画像への適用は書かれていません）
 
-画面の上のトラックは、ハチミツ生産の「Value of Production ($)」の列を鳴らしています。棒グラフは行ごとの値で、再生中の行がオレンジです。なお README の例は、100行を60bpm で鳴らすと「100秒、または1:20」と書きますが、100秒は1分40秒です。
+画面の上のトラックは、ハチミツ生産の「Value of Production ($)」の列を鳴らしています。棒グラフは行ごとの値で、再生中の行の棒がオレンジです。なお README の例は、100行を60bpm で鳴らすと「100秒、または1:20」と書きますが、100秒は1分40秒です。
 
 段は半音ではなく、音階の段で数えます。そのため、**値の細かな差は、段の数までしか聞き分けられない**と読めます。README はこう書きます。
 
@@ -106,7 +107,7 @@ Datavized Technologies／Hugh McGrory「An Intro to TwoTone」（Medium）より
 
 ## 音量・楽器・調は、人が選ぶ
 
-トラックの残りの設定は、データではなく人が選びます。楽器は Piano など10種と Midi Out、調は12、旋法は major・minor・dorian など11です。オクターブの数、開始オクターブ、テンポの倍率、アルペジオ（上昇・下降・なし）、トラックごとの音量も選びます。
+トラックの残りの設定は、データではなく人が選びます。楽器は、現在のソースでは Piano など10種と Midi Out です。調は12、旋法は major・minor・dorian など11です。オクターブの数、開始オクターブ、テンポの倍率、アルペジオ（上昇・下降・なし）、トラックごとの音量も選びます。
 
 音量がデータに結びつくかは、資料で書き方が違います。
 
@@ -125,7 +126,7 @@ Datavized Technologies／Hugh McGrory「An Intro to TwoTone」（Medium）より
 
 理解が目的なら、層や効果を重ねすぎないこと、という助言です。もう一つは曲づくりで、McGrory は、音楽家が「it adds a randomness that sparks new ideas」と気に入っている、と書きます。データの理解と、偶然から曲を作ることを、一つの道具に同居させていると読めます。
 
-公開の日には、例がいくつも出ました。Cairo は、米国の失業率（2009〜2018年）を音にしました。Maarten Lambrechts（マールテン・ランブレヒツ）は、1880〜2018年の世界の気温偏差を、グロッケンシュピールのハ短調で鳴らしました。Rogers は、バスク州の時間の使い方のデータについて、音だけで人が仕事に出る時刻を当ててみてほしい、と書いています。
+公開の日には、例がいくつも出ました。Cairo は、米国の失業率（2009〜2018年）を音にしました。Maarten Lambrechtsは、1880〜2018年の世界の気温偏差を、グロッケンシュピールのハ短調で鳴らしました。Rogers は、バスク州の時間の使い方のデータについて、音だけで人が仕事に出る時刻を当ててみてほしい、と書いています。
 
 ## 第三者はこのツールをどう見たか
 

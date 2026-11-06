@@ -20,7 +20,7 @@ seriesTitle = "米1粒を1人として量る──Of All The People"
 
 Of All The People In All The World（オブ・オール・ザ・ピープル・イン・オール・ザ・ワールド）は、英国バーミンガムの劇団 Stan's Cafe（スタンズ・カフェ）が2003年から上演している作品です。米1粒を1人とし、どの統計も1グラム約60粒で量って山にするので、ラベルを付けた山どうしの大きさの比が、そのまま人数の比になります。山の下の紙には統計の名前だけを書き、数値は書きません。
 
-以下は、劇団の公式ページ（概要と FAQ、公演ごとのページ）と、原案・演出の James Yarker（ジェームズ・ヤーカー）の2005年と2018年のエッセイに沿います。第三者の記録には、2007年の VOA と Christian Science Monitor の記事、物理的な可視化の目録 dataphys.org を使います。IKEA の箱1個を10億人にした[ハンス・ロスリングの演示](/rosling-physical-visualizations/)とは、単位の大きさと数値の扱いが違います。
+以下は、劇団の公式ページ（概要と FAQ、公演ごとのページ）と、原案・演出の James Yarker（ジェームズ・ヤーカー）の2005年と2018年のエッセイに沿います。第三者の記録には、VOA と Christian Science Monitor の記事、物理的な可視化の目録 dataphys.org を使います。IKEA の箱1個を10億人にした[ハンス・ロスリングの演示](/rosling-physical-visualizations/)とは、単位の大きさと数値の扱いが違います。
 
 <!--more-->
 
@@ -80,7 +80,8 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 資料どうしで、数字が食い違うところがあります。
 
 - 2008年の米の量：概要ページは112トン、公演ページは「120 tons」です。公演ページは「extra 8 tonnes」とも書き、104＋8＝112 になります。公演ページの告知看板の写真も「112 TONNES」です。120は誤記と読めます。
-- 英国の人口：概要と2018年の原稿は6,000万人、2005年のエッセイは「59 million」、CS Monitor は「England – 50 million」です。
+- 英国の人口：概要と2018年の原稿は6,000万人、2005年のエッセイは「59 million」です。
+- CS Monitor はイングランドの山を「50 million」と書いていて、英国全体の数とは対象が違います。
 - CS Monitor の規模：MASS MoCA の公演は15トン超で約2億5千万粒、100ポンドの袋1つが約100万粒とあります。1グラム17〜22粒ほどになり（計算）、60粒と合いません。理由は確かめられませんでした。
 
 ## 数値を書かず、ラベルと隣り合わせで読ませる
@@ -93,11 +94,11 @@ Yarker は2018年の原稿で、作品の決まりをこう書いています。
 
 代わりに置くのは、統計の名前と、隣に何を置くかです。原稿には、世界のドル長者の隣に世界の難民を置く例や、月面を歩いた12粒の隣にマイケル・ジャクソンの1粒を置く冗談が出てきます。
 
-![白い紙に「私たち、落ちてみました。ナイアガラ滝から。樽や樽に類する物に乗って。」と同じ意味の英文が印刷され、その下に米が十数粒置かれている](images/tokyo-2010-niagara-label.jpg)
+![白い紙の上段に日本語3行「私たち、落ちてみました。ナイアガラ滝から。樽や樽に類する物に乗って。」、下段に英語2行「PEOPLE WHO HAVE GONE OVER NIAGARA FALLS IN BARRELS AND OTHER DEVICES」が印刷され、その下に米が十数粒置かれている](images/tokyo-2010-niagara-label.jpg)
 
 Graeme Rose 撮影／[Stan's Cafe「Tokyo」](https://stans.cafe/project/project-of-all-the-people/project-of-all-the-people-tokyo/)より引用
 
-東京公演のラベルは日本語と英語の2行で、数値はありません。小さな統計では、粒を一つずつ数えられます。大きな山について、Yarker はこう書きます。
+東京公演のラベルは日本語と英語の2か国語で、数値はありません。小さな統計では、粒を一つずつ数えられます。大きな山について、Yarker はこう書きます。
 
 > even in vast piles the granularity of the rice remains clear, every pile is demonstrably a collection of individuals
 
@@ -136,7 +137,7 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 
 ## 第三者はこの作品をどう見たか
 
-一つ目の記録は、数値を書かない決まりへの反応です。VOA は2007年12月、ロサンゼルスの公演で来場者に話を聞きました。Rick Brous（リック・ブラウス）は、こう言います。
+一つ目の記録は、数値を書かない決まりへの反応です。VOA は、ロサンゼルスの Skirball Cultural Center の公演で来場者に話を聞きました。URL の日付は2007-12-21、ページの公開日の表示は2009-11-01です。Rick Brous（リック・ブラウス）は、こう言います。
 
 > We would love to get quantity on these things as we walk around and see big piles, we would like to know if that is hundreds of thousands or millions.
 
@@ -164,7 +165,7 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 
 三つ目は、数値を消すことの代償です。VOA の来場者のように、桁を知りたい人には不満が残ります。比べやすさと読み取れる情報のどちらを取るかは、図の目的で決めることになると読めます。
 
-四つ目は、換算の定数を素材ごとに量り直し、明記することです。日本の米で52粒に変わったように、素材が替われば定数も替わります。CS Monitor の数字が60粒と合わないのを見ると、換算を書いておかないと、伝わる途中で数字がずれうると読めます。
+四つ目は、換算の定数を素材ごとに量り直し、明記することです。日本の米で52粒に変わったように、素材が替われば定数も替わります。食い違いの理由は確かめられていませんが、CS Monitor の数字が60粒と合わない例もあり、換算は明記しておくのが安全だと読めます。
 
 ## 参考・出典
 
@@ -180,6 +181,6 @@ Stan's Cafe／[Stan's Cafe「Birmingham 2」](https://stans.cafe/project/project
 
 **第三者評価**
 
-- Mike O'Sullivan, “Performance Artists Make Statistics Real Through Grains of Rice”（ロサンゼルス、Skirball Cultural Center）, *VOA*, 2007-12-21. [記事](https://www.voanews.com/a/a-13-2007-12-21-voa65/336801.html)
+- Mike O'Sullivan, “Performance Artists Make Statistics Real Through Grains of Rice”（ロサンゼルス、Skirball Cultural Center）, *VOA*, URL の日付は2007-12-21、ページの公開日の表示は2009-11-01. [記事](https://www.voanews.com/a/a-13-2007-12-21-voa65/336801.html)
 - “Sizing up the world with rice”（ノースアダムズ、MASS MoCA）, *The Christian Science Monitor*, 2007-04-03. [記事](https://www.csmonitor.com/2007/0403/p19s01-hfks.html)
 - “2004 – Of All the People in All the World: Stats with Rice,” *List of Physical Visualizations*（dataphys.org、Pierre Dragicevic・Yvonne Jansen 運営）. [項目一覧（rice タグ）](https://dataphys.org/list/tags/rice/) / [項目ページ](https://dataphys.org/list/of-all-the-people-in-all-the-world-stats-with-rice/)
