@@ -174,7 +174,7 @@ What we can take away is a design that assigns separate jobs to color and patter
 - Write a summary of the distribution in the legend. Mark the classes that actually occur, and add the names and values of the smallest and largest districts.
 - In a series, fix the roles of the colors. When the roles are reversed, as between 1903 and 1904, readers have to check the legend every time.
 
-If we were making this today, we could consider reducing the number of classes in line with the guideline above (for the basics, see the article on the [choropleth map](/choropleth-map/)). Even so, the 1905 legend, which separates the roles of color and pattern, can be read as a model for designing a legend.
+If we were making this today, we could consider reducing the number of classes in line with the guideline above (for the basics, see the article on the [choropleth map](/en/choropleth-map/)). Even so, the 1905 legend, which separates the roles of color and pattern, can be read as a model for designing a legend.
 
 ## References
 
