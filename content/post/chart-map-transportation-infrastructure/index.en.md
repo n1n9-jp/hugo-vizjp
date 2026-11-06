@@ -30,7 +30,7 @@ It began with a ministerial order of March 12, 1878. The order organized the "Bu
 
 The 1879 edition had 12 plates, and a contemporary review says it was prepared by the Maps and Plans section under Cheysson's direction. In 1890 Cheysson himself signed as "former head of the Ministry of Public Works' Bureau of Maps and Plans" and wrote that the 1879 edition was the first application of the order. Some articles mention a "1878 edition" of wall maps, but by his own count the 1879 edition was number one.
 
-This plate is in the second album, the 1880 edition. Its title page reads "July 1880," and it was published by the Imprimerie nationale in Paris. Of the 16 plates, this map is Plate 1, and Plate 16 depicts the development of railways in the major countries ([the article on the railway development map](/chart-map-railway/)). No source names the author of the 1880 edition; the David Rumsey Map Collection, which holds it, registers the Ministry of Public Works and Cheysson as authors.
+This plate is in the second album, the 1880 edition. Its title page reads "July 1880," and it was published by the Imprimerie nationale in Paris. Of the 16 plates, this map is Plate 1, and Plate 16 depicts the development of railways in the major countries ([the article on the railway development map](/en/chart-map-railway/)). No source names the author of the 1880 edition; the David Rumsey Map Collection, which holds it, registers the Ministry of Public Works and Cheysson as authors.
 
 ![A folded plate with a semicircle diagram placed on each département across France, a legend at lower left and a table of figures by département at right](images/12511007.png)
 

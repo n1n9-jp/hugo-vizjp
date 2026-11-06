@@ -20,7 +20,7 @@ image = "images/cover.png"
 
 In 1801, in Chart 1 of *The Statistical Breviary*, William Playfair (1759–1823) drew the extent of the countries of Europe as the area of circles. Population and revenue are shown by vertical lines standing on either side of each circle, measured on the same scale. The tops of the two vertical lines are joined by a dotted line. In his text, Playfair writes that which way the dotted line rises shows whether taxes are heavy in proportion to population.
 
-The sources are the book's preface, pp.13–16, where he explains how to read the chart, and the country-by-country tables. I read the text in the Bodleian Library copy on the Internet Archive. Because the foldout plates were not captured correctly in that scan, I show the chart from the 1802 French translation. How the circles are divided is covered in [an article comparing the two circles of 1801 and 1805](/pie-chart-william-playfair/), and the 1805 chart is covered in [an article on the 1805 United States pie chart](/pie-chart-william-playfair-part/).
+The sources are the book's preface, pp.13–16, where he explains how to read the chart, and the country-by-country tables. I read the text in the Bodleian Library copy on the Internet Archive. Because the foldout plates were not captured correctly in that scan, I show the chart from the 1802 French translation. How the circles are divided is covered in [an article comparing the two circles of 1801 and 1805](/en/pie-chart-william-playfair/), and the 1805 chart is covered in [an article on the 1805 United States pie chart](/en/pie-chart-william-playfair-part/).
 
 <!--more-->
 

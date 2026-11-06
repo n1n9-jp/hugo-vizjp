@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/wable-table-four-bars.jpg"
 series = ["data-physicalization"]
-series_weight = 14
+series_weight = 16
 seriesByline = "Physical Interaction Lab"
 seriesTitle = "Web の活動量を、上下する4本の棒で──Wable"
 +++

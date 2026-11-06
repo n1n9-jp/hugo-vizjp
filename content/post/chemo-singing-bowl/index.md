@@ -12,8 +12,8 @@ tags = [
     "ソニフィケーション"
 ]
 image = "images/chemo-bowl-oblique.jpg"
-series = ["data-physicalization"]
-series_weight = 31
+series = ["data-physicalization", "data-sonification"]
+series_weight = 34
 seriesByline = "Stephen Barrass"
 seriesTitle = "血圧を鉢の形にし、響きで伝える──Chemo Singing Bowl"
 +++

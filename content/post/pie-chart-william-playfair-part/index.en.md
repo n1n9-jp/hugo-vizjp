@@ -64,7 +64,7 @@ The figure is a folding plate, and the creases show in the image. The correspond
 
 The Lehigh University Library exhibit explains the three colors as distinguishing states, territories, and the Spanish-held East and West Florida. The Louisiana Purchase treaty was signed on April 30, 1803, but the figure says "in 1804."
 
-In the 1801 *Breviary*, what Playfair drew was a row of circles, one per country, to be compared by size. The notation of that figure is covered in [a separate article](/pie-chart-william-playfair-area/), and the difference between comparing by circle area and dividing by sector angle is covered in [the article on the two kinds of circles](/pie-chart-william-playfair/). This article is about **the 1805 circle, which divides a single whole into sectors**.
+In the 1801 *Breviary*, what Playfair drew was a row of circles, one per country, to be compared by size. The notation of that figure is covered in [a separate article](/en/pie-chart-william-playfair-area/), and the difference between comparing by circle area and dividing by sector angle is covered in [the article on the two kinds of circles](/en/pie-chart-william-playfair/). This article is about **the 1805 circle, which divides a single whole into sectors**.
 
 ## The Line under the Figure, and a Passage in the Text
 

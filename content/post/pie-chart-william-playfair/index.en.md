@@ -41,7 +41,7 @@ Show the sizes of countries in similar forms: where forms are not similar, the e
 
 In the text's table, Russia is 4,650,000 square miles and Turkey is 790,000. Turkey is 0.17 times Russia. When I measured the diameters on the French translation's plate, Russia came to about 411 pixels and Turkey about 171. The ratio of areas is 0.17, which nearly matches the ratio in the text. The ratio of diameters is 0.42. From this measurement, the circles can be read as drawn so that **area, not diameter, is proportional to square miles**.
 
-How to read the vertical lines for population and revenue and the like is left to [the article reading Chart 1 of 1801](/pie-chart-william-playfair-area/).
+How to read the vertical lines for population and revenue and the like is left to [the article reading Chart 1 of 1801](/en/pie-chart-william-playfair-area/).
 
 ## Cutting Inside the Circle: Russia's Ring, Turkey's Sectors, Germany's Overlapping Circles
 
@@ -89,7 +89,7 @@ On p.17 of the text, the purpose of the circle is stated as follows.
 
 It was made to show the proportions among the extents of the provinces simply and accurately. Right after this he goes on to say that the proportions of Virginia and Delaware are too out of balance. This is a comparison of part with part inside the circle. A little earlier on the same page is a sentence saying that even a third-rate province (a third rate province) is as large as France with its enlarged dominions. This comparison with Europe is made in the text, not in the circle.
 
-Note that the data in this figure contains errors. According to David Bellhouse, New York and New Jersey are confused, and the area of each state was obtained by multiplying length by width. The details are covered in [the article reading the 1805 United States pie chart](/pie-chart-william-playfair-part/).
+Note that the data in this figure contains errors. According to David Bellhouse, New York and New Jersey are confused, and the area of each state was obtained by multiplying length by width. The details are covered in [the article reading the 1805 United States pie chart](/en/pie-chart-william-playfair-part/).
 
 ## What the Two Circles Let You Compare, and What They Do Not
 

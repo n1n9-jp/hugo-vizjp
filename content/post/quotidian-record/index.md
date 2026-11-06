@@ -11,6 +11,10 @@ tags = [
     "データ物質化",
 ]
 image = "images/quotidian_record_7@2x.jpg"
+series = ["data-sonification"]
+series_weight = 10
+seriesByline = "Brian House"
+seriesTitle = "1日を1周にして、移動の記録をレコードに──Quotidian Record"
 +++
 
 

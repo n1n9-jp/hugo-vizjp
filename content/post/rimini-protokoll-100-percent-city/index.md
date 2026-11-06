@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 15
+series_weight = 17
 seriesByline = "Rimini Protokoll（Haug・Kaegi・Wetzel）"
 seriesTitle = "人口の1%を1人に、住民100人で円グラフ──100% City"
 +++

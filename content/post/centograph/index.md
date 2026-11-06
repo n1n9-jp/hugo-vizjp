@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/centograph-at-school.jpg"
 series = ["data-physicalization"]
-series_weight = 17
+series_weight = 19
 seriesByline = "Tinker London"
 seriesTitle = "検索語の100年を10本の棒に──Centograph"
 +++

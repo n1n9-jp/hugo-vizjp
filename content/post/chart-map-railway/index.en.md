@@ -32,7 +32,7 @@ Source: Ministère des Travaux Publics (1880) / David Rumsey Map Collection. CC 
 
 According to the preface, the album is an annual collection of plates established by a ministerial order of March 12, 1878. The order required that statistics on passenger and freight flows on transport routes, and on their construction and operation, be turned into diagrams and published every year. The 1880 edition is the second. The previous year's edition had 12 plates; the 1880 edition has 16, all of them large-format. Plate 16 is the last of these, a 49 × 62 cm sheet folded into the album.
 
-The person in charge was Cheysson. According to Michael Friendly, the Ministry's Bureau of Graphic Statistics was created in March 1878 and headed by Cheysson (1836–1910), an engineer of the École nationale des ponts et chaussées (ENPC). How the album came about, and its plate 1, are covered in [the statistical map of the breakdown of transport infrastructure](/chart-map-transportation-infrastructure/), in the same series.
+The person in charge was Cheysson. According to Michael Friendly, the Ministry's Bureau of Graphic Statistics was created in March 1878 and headed by Cheysson (1836–1910), an engineer of the École nationale des ponts et chaussées (ENPC). How the album came about, and its plate 1, are covered in [the statistical map of the breakdown of transport infrastructure](/en/chart-map-transportation-infrastructure/), in the same series.
 
 The preface groups plates 1, 2, and 16 as "cartogrammes à foyers diagraphiques": maps in which a small diagram is placed around a point (foyer) on the map. The preface notes that plates 1 and 2 use sectors, and it describes plate 16 as follows.
 
