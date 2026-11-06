@@ -12,6 +12,10 @@ tags = [
     "taste"
 ]
 image = "images/pink-blue-noodles.jpg"
+series = ["data-physicalization"]
+series_weight = 22
+seriesByline = "Moritz Stefaner and Susanne Jaschko"
+seriesTitle = "Local Data Served as Local Food: Data Cuisine"
 +++
 
 Data Cuisine is a workshop that expresses a place's open data through that place's food. The first one was held in Helsinki in September 2012, and after Barcelona in 2014 it was held in many other places. In the dishes, data was mapped onto the amount of sugar, the size of a dish, and combinations of ingredients. Spain's cut to its science budget became a cake with 34% less sugar. The destinations of Spain's young emigrants became a plate of fish dishes, each evoking its country, served in portions sized to match the ranking.

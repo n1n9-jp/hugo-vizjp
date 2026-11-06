@@ -14,6 +14,10 @@ tags = [
     "scatter plots"
 ]
 image = "images/cover.jpg"
+series = ["dataviz-journalism"]
+series_weight = 4
+seriesByline = "The Markup (Leon Yin, Aaron Sankin et al.)"
+seriesTitle = "Counting Slow Addresses at the Same Price: Still Loading"
 +++
 
 The Markup collected, address by address, the internet speeds that four ISPs (AT&T, Verizon, EarthLink and CenturyLink) offered at the same price. It then compared "the share of addresses offered under 25 Mbps at the same price" across groups defined by income, share of white residents, and 1930s redlining grades. The data covers 848,618 offers in 38 US cities.

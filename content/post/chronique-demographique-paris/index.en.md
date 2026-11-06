@@ -13,6 +13,10 @@ tags = [
     "Jacques Bertin"
 ]
 image = "images/film-frame-paris-columns.jpg"
+series = ["data-physicalization"]
+series_weight = 12
+seriesByline = "ISHA and CMSS"
+seriesTitle = "Filmed in Cubes of 10,000 People: 160 Years of Paris Population"
 +++
 
 *Chronique Démographique de la Région Parisienne 1801 - 1961* is a film in which columns of small cubes, one cube per 10,000 people, are stacked for each commune and arranged on a map, then shot in stop motion, year by year, as the narrator reads out the years. As the columns rise and shrink, you can see the movement of population between 1801 and 1961: the center of Paris empties while the suburbs swell.

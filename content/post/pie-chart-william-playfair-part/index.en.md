@@ -15,6 +15,10 @@ tags = [
     "history of statistical graphics"
 ]
 image = "images/cover.png"
+series = ["dataviz-classics"]
+series_weight = 3
+seriesByline = "William Playfair"
+seriesTitle = "Dividing the Size of the U.S. into Sectors: Playfair, 1805"
 +++
 
 In 1805, William Playfair translated D. F. Donnant's (Denis-François Donnant) statistical account of the United States into English and added a figure that divides the area of the states and territories into sectors of a single circle. Beneath the figure he had engraved "This Newly invented Method is intended to shew the Proportions between the divisions in a Striking Manner." In other words, the method is newly invented, and it is meant to show the ratios between divisions in a striking way.

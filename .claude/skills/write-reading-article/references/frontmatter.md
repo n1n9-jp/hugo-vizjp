@@ -38,3 +38,5 @@ series_weight = 1          # 特集の帯での並び順
 seriesByline = "作者名"     # 任意：帯に出す作者名
 seriesTitle = "短いタイトル" # 任意：帯に出す短いタイトル
 ```
+
+- 英語版（`index.en.md`）にも同じ特集の4行を書く。`series` と `series_weight` は日本語版と同じ値にし、`seriesTitle` と `seriesByline` は英語にする（`seriesTitle` は「要点: 作品名」の形、人名はラテン文字、「ほか」は "et al."）。

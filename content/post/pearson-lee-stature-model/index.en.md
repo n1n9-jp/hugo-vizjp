@@ -14,6 +14,10 @@ tags = [
     "Karl Pearson"
 ]
 image = "images/ucl-model-original.jpg"
+series = ["data-physicalization"]
+series_weight = 10
+seriesByline = "Karl Pearson and Alice Lee"
+seriesTitle = "A Frequency Table Stood Up as Columns: The Stature Model"
 +++
 
 In the Department of Statistical Science at University College London (UCL), there is a framed model. It replaces a frequency table, in which the statures of 1,078 fathers and sons were counted on a grid in one-inch steps, with the heights of rectangular columns. Looking at the arrangement of the columns, you can see the peak of the distribution and the diagonal direction of its ridge (correlation coefficient r = 0.514) as a shape, without reading a table of numbers.

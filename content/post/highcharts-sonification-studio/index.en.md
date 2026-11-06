@@ -12,6 +12,10 @@ tags = [
     "accessibility"
 ]
 image = "images/app-thumbnail.png"
+series = ["data-sonification"]
+series_weight = 50
+seriesByline = "Highsoft / Georgia Tech Sonification Lab"
+seriesTitle = "A Table as a Line to See and Hear: Highcharts Sonification Studio"
 +++
 
 Highcharts Sonification Studio (HSS) is a tool that turns the data you enter in a table into a line chart and, at the same time, a sound that traces that line. In a sidebar, without writing any code, you choose whether values map to pitch, panning, volume, duration, and so on. During development, three evaluations were run that involved totally blind users and experts with visual impairments.

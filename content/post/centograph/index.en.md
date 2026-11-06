@@ -11,6 +11,10 @@ tags = [
     "data physicalization"
 ]
 image = "images/centograph-at-school.jpg"
+series = ["data-physicalization"]
+series_weight = 19
+seriesByline = "Tinker London"
+seriesTitle = "A Century of Search Terms in Ten Bars: Centograph"
 +++
 
 Centograph is a moving bar graph made in 2009 by the London studio Tinker. It shows the relative number of Google News Archive articles that mention a search term, as the height of ten moving bars. Each bar is assigned to one of the ten decades from 1909 to 2009.

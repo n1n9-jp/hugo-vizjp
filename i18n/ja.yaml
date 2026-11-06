@@ -179,3 +179,11 @@ vz.series.prev:
     other: "前の記事"
 vz.series.next:
     other: "次の記事"
+vz.series.listTitle:
+    other: "特集の一覧"
+vz.series.listLead:
+    other: "テーマごとに記事をまとめ、順に読めるようにしたものです。{{ .Count }}つの特集があります。"
+vz.series.count:
+    other: "{{ .Count }} 本の記事"
+vz.series.soon:
+    other: "記事を準備中"

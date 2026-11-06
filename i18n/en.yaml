@@ -174,3 +174,12 @@ vz.series.prev:
     other: "Previous"
 vz.series.next:
     other: "Next"
+vz.series.listTitle:
+    other: "All series"
+vz.series.listLead:
+    other: "Articles gathered by theme, to be read in order. There are {{ .Count }} series."
+vz.series.count:
+    one: "{{ .Count }} article"
+    other: "{{ .Count }} articles"
+vz.series.soon:
+    other: "Articles coming soon"

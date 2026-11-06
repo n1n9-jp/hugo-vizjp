@@ -14,6 +14,10 @@ tags = [
     "Reuters"
 ]
 image = "images/share-card.png"
+series = ["dataviz-journalism"]
+series_weight = 1
+seriesByline = "Simon Scarr, Manas Sharma, and Marco Hernandez (Reuters)"
+seriesTitle = "Showing How the Crowd Was Counted: Reuters' Hong Kong Protest"
 +++
 
 For the July 1, 2019 protest in Hong Kong, Reuters estimated that 227,000 people marched. It shows where it counted with a map and photos, when it counted with a timetable of dots, and the result of the count with a bar chart of 15-minute estimates, each as a separate graphic.

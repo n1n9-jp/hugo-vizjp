@@ -11,6 +11,10 @@ tags = [
     "data physicalization"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 39
+seriesByline = "Charles Sowers"
+seriesTitle = "Burning Logs with a Glass Ball to Record Sunshine: Solar Totems"
 +++
 
 Charles Sowers's Solar Totems is a public sculpture in which a glass ball focuses sunlight to burn logs and record sunshine. As the sun moves across the sky, the burn becomes a single line, and when fog or clouds appear, the line breaks. The lens is advanced a little each day, so each day makes one line. Three logs take one year each.

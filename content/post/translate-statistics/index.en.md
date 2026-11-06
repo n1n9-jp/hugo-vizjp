@@ -16,6 +16,10 @@ tags = [
     "Translated terms"
 ]
 image = "images/translate-statistics.png"
+series = ["dataviz-classics"]
+series_weight = 7
+seriesByline = "Sugi Kōji, Mori Ōgai, and Imai Takeo"
+seriesTitle = "Settling on the Word for Statistics: The Meiji Translation Debate"
 +++
 
 In Meiji Japan, the English word "statistics" was rendered by several competing terms, among them 政表 *seihyō* ("government tables"), 表紀 *hyōki* ("table record"), and 統計 *tōkei* ("unified counting"). Sugi Kōji (杉亨二), who led the practical work of official statistics, refused to translate the word at all. He built three composite kanji that transcribe the sound of the original, スタチスチク *sutachisuchiku*, and used them as the title of a lecture record. In 1889, Mori Ōgai (森鷗外) and Imai Takeo (今井武夫) argued in magazines for about ten months over whether the rendering 統計 *tōkei* was justified. The debate ended in a stalemate, and the term settled on 統計 *tōkei*.

@@ -16,6 +16,10 @@ tags = [
     "color"
 ]
 image = "images/cover-schematic-chropleth.jpeg"
+series = ["dataviz-classics"]
+series_weight = 8
+seriesByline = "Imperial Statistical Office of the German Empire"
+seriesTitle = "Switching Inks at the Average: Wheat-Yield Map of the 1904 Harvest"
 +++
 
 The 1905 *Vierteljahrshefte zur Statistik des Deutschen Reichs* (Quarterly Journal of the Statistics of the German Reich) carries a map of wheat yields for the 1904 harvest. It was made by the Imperial Statistical Office (Kaiserliches Statistisches Amt). The map switches the color of its ink at the imperial average, and within each side, above and below the average, it tells the classes apart by pattern type and line density.

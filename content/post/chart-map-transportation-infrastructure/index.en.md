@@ -16,6 +16,10 @@ tags = [
     "maps"
 ]
 image = "images/12511007_closeup.png"
+series = ["dataviz-classics"]
+series_weight = 5
+seriesByline = "French Ministry of Public Works, Cartography and Drawing Bureau"
+seriesTitle = "Semicircles for Length, Quarter-Circles for Density: 1880 Routes Map"
 +++
 
 Plate 1 of the 1880 *Album de statistique graphique* (Album of Graphic Statistics) is a map that places one semicircle on each French département. The area of the semicircle represents the total length of transport routes at the end of 1878. The seven sectors inside the semicircle give the breakdown by type of route, and the two quarter-circles below show length per area and length per inhabitant.

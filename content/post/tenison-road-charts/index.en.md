@@ -13,6 +13,10 @@ tags = [
     "bar chart"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 29
+seriesByline = "David Sweeney et al. (Microsoft Research)"
+seriesTitle = "Pie and Bar Charts Moving in a Window: Physical Charts"
 +++
 
 Physical Charts is a work that moves the pie charts and bar graphs everyone knows by machine. David Sweeney and colleagues at Microsoft Research Cambridge made it in 2014. They placed it in the lab's window facing Tenison Road in Cambridge, UK, and used it to show locally collected car traffic and the results of votes that residents answered.

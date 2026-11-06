@@ -13,6 +13,10 @@ tags = [
     "L. Leland Locke"
 ]
 image = "images/cleveland-inka-khipu.jpg"
+series = ["data-physicalization"]
+series_weight = 4
+seriesByline = "Andean record keepers"
+seriesTitle = "Recording Numbers by Knots and Position: The Quipu"
 +++
 
 The quipu (also spelled khipu) was a recording device that distinguished numbers by "the type and number of knots × their position on the cord (decimal place value)" and items by "the color and order of the cords." Dozens of cords hang from a main cord, and a number is knotted into each one. Garcilaso testifies that the color and order of the cords showed what the numbers were counting. However, the meaning of the colors cannot be generalized beyond the specimens studied.

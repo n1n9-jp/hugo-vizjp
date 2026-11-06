@@ -14,6 +14,10 @@ tags = [
     "open data"
 ]
 image = "images/og-tracks-map.jpg"
+series = ["dataviz-journalism"]
+series_weight = 6
+seriesByline = "The Reporter"
+seriesTitle = "Tracing Track Images Back into a Map: The First Island Chain"
 +++
 
 The Reporter (報導者) traced by hand the track maps that Taiwan publishes as images and Japan as PDFs, and turned them back into geodata (992 tracks for the Taiwan side). It then layered them onto a map, period by period, inside scroll-driven videos. The track maps show the movements of Chinese People's Liberation Army aircraft and ships, drawn by Taiwan's Ministry of National Defense and Japan's Ministry of Defense.

@@ -12,6 +12,10 @@ tags = [
     "bar chart"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 32
+seriesByline = "Antell"
+seriesTitle = "White Beads for Satisfied, Red for Not: Antell's Exit Bar Chart"
 +++
 
 At the exit of an Antell cafeteria on the University of Helsinki campus, there was a physical bar chart. Customers put in a white bead (satisfied) or a red bead (unsatisfied).

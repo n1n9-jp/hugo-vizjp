@@ -13,6 +13,10 @@ tags = [
     "Matt Shapiro"
 ]
 image = "images/pennies-on-table.png"
+series = ["data-physicalization"]
+series_weight = 18
+seriesByline = "Matt Shapiro (Political Math)"
+seriesTitle = "Cuts Shown as a Quarter of a Penny: Political Math's Budget Video"
 +++
 
 In 2009, Matt Shapiro shrank the entire US federal budget to 8,880 pennies (one penny = $400 million). He then showed the $100 million spending cut announced by President Obama as one quarter of a single penny. The video is titled "Obama Budget Cuts Visualization."

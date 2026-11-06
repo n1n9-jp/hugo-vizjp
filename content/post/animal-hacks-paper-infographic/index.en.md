@@ -14,6 +14,10 @@ tags = [
     "National Geographic"
 ]
 image = "images/magazine-spread.jpg"
+series = ["data-physicalization"]
+series_weight = 37
+seriesByline = "Alberto Lucas López et al."
+seriesTitle = "Counting in Layers of Colored Paper: Animal Hacks"
 +++
 
 "Animal Hacks" is a graphic that shows how animals use tools, built as a three-dimensional stack of colored paper. It maps 22 modes of tool use to layers of colored paper, and whether each animal group has a recorded instance to whether a layer's leg is visible or hidden. The magazine's credits list a photographer for the "photo of paper construction," and the author writes that he made the graphic with tools and real materials. It can be read that the photograph, overlaid with labels and text, became the printed graphic as it was. The paper model can be read as the raw material of the finished graphic, not a draft for it.

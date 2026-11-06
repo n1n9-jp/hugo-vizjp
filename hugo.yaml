@@ -44,10 +44,11 @@ languages:
         languageCode: en-US
         title: Visualizing.JP
         weight: 2
-        # 英語版には特集（series）がまだないので、特集の一覧ページを出さない
+        # 英語版でも特集（series）の一覧ページ（/en/series/）を出す
         taxonomies:
             category: categories
             tag: tags
+            series: series
         params:
             description: Practical methods and examples around data visualization.
             dateFormat:

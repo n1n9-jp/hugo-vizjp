@@ -14,6 +14,10 @@ tags = [
     "Robert H. Thurston"
 ]
 image = "images/plaster-model-1877.jpg"
+series = ["data-physicalization"]
+series_weight = 7
+seriesByline = "Robert H. Thurston and M. I. Coster"
+seriesTitle = "Mix Ratio as a Triangle, Strength as Height: Thurston's Alloy Model"
 +++
 
 Robert Henry Thurston's alloy model shows the proportions of copper, tin and zinc as a position on an equilateral triangle, and the tensile strength of the alloy at that position as the height of a brass wire standing there. The 106 values that were actually tested became the lengths of the wires, and plaster poured between the wires turned them into a single curved surface. On the finished surface, the tips of the wires show through as points.

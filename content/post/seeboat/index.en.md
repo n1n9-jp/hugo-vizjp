@@ -12,6 +12,10 @@ tags = [
     "color"
 ]
 image = "images/seeboat-kendall-long-exposure.jpg"
+series = ["data-physicalization"]
+series_weight = 33
+seriesByline = "Laura Perovich et al."
+seriesTitle = "A Boat's Light Changes Color with the Water It Measures: SeeBoat"
 +++
 
 SeeBoat is a device that turns water-quality sensor readings into the LED color of a small boat running over the very water being measured, as it measures. Sensors for water temperature, conductivity, turbidity, and pH are mounted on a remote-controlled boat, and one chosen value is assigned to the hue of the hull's light. In a long-exposure photograph, the boat's path remains as lines of color.

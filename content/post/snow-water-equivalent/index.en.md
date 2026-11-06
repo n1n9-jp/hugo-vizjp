@@ -12,6 +12,10 @@ tags = [
     "small multiples"
 ]
 image = "images/cabinet-full-view.jpg"
+series = ["data-physicalization"]
+series_weight = 21
+seriesByline = "Adrien Segal"
+seriesTitle = "31 Years of Snow in 31 Drawers: Snow Water Equivalent"
 +++
 
 Adrien Segal's *Snow Water Equivalent* is a storage cabinet that turns 31 years (1980–2010) of snowpack data into 31 drawers. Each drawer is one year, with 1980 at the bottom and 2010 at the top. The height of a drawer shows that year's precipitation, and the relief carved into its plywood front panel shows how the snow water equivalent (SWE) changed through that year. The data were recorded by the NRCS (Natural Resources Conservation Service) at the Ebbetts Pass station in California's Sierra Nevada.

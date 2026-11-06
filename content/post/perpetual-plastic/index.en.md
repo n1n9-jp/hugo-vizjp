@@ -12,6 +12,10 @@ tags = [
     "Sankey diagram"
 ]
 image = "images/cover.jpg"
+series = ["data-physicalization"]
+series_weight = 43
+seriesByline = "Liina Klauss, Moritz Stefaner, and Skye Morét"
+seriesTitle = "The Same Flow Laid Out in Beach Trash: Perpetual Plastic"
 +++
 
 *Perpetual Plastic* depicts the flow in which all the plastic ever made divides into four destinations: discarded, in use, incinerated and recycled. The creators show the same flow in three forms: the paper's flow diagram, a Sankey diagram and a semicircle. For the beach version, they collected trash by color rather than collecting all of it, and arranged it in bands. The author reads the color specification of the bands as being, at the same time, the instruction for which trash to pick up.

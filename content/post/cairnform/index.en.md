@@ -12,6 +12,10 @@ tags = [
     "bar chart"
 ]
 image = "images/ring-chart-blue-and-green.jpg"
+series = ["data-physicalization"]
+series_weight = 40
+seriesByline = "Maxime Daniel, Guillaume Rivière, and Nadine Couture"
+seriesTitle = "Ring Diameter Shows Hourly Renewable Output: CairnFORM"
 +++
 
 CairnFORM is a cylindrical physical chart that shows the hourly amount of renewable energy as the diameters of stacked rings. It has 10 rings, and each ring stands for one hour from 8:00 to 17:59. In December 2017, a test was held at a public event where 90 visitors read the chart. The question asking for the hours with generation (range) was answered correctly by 93.3%, and the question asking for the time of the peak by 92.2%. The question asking visitors to put the hours in order of quantity was answered correctly by 52.2%.

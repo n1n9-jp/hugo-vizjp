@@ -15,6 +15,10 @@ tags = [
     "spatial interpolation"
 ]
 image = "images/cover.jpg"
+series = ["dataviz-journalism"]
+series_weight = 8
+seriesByline = "Borja Andrino, Luis Sevillano, and Jacob Vicente"
+seriesTitle = "140 Water Marks Become the Town's Water Surface: Paiporta bajo el agua"
 +++
 
 From 140 water marks measured in Paiporta, EL PAÍS built the surface of the flood. It then overlaid that surface on a 3D model of the town's buildings reconstructed from cadastral data. The setting is a town in the province of Valencia, Spain, where a river overflowed in the torrential rains of October 29, 2024. The 3D town is a video drawn in Blender, and it plays as the reader scrolls.

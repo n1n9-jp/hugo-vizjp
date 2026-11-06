@@ -12,6 +12,10 @@ tags = [
     "color"
 ]
 image = "images/deception-pass-1950-2016.jpg"
+series = ["data-physicalization"]
+series_weight = 36
+seriesByline = "Emily McNeil et al."
+seriesTitle = "Everyone Knits with the Same 32 Colors: The Tempestry Project"
 +++
 
 The Tempestry Project fixed everything from −30°F and below to 121°F and above to 32 colors in 5°F steps, and had everyone use the same yarn. One tapestry represents the daily high temperatures of one place for one year. One day is one row: January 1 is at the bottom and December 31 at the top. At exhibitions, tapestries of the same place in different years, or of different places, were hung side by side so that they could be compared.

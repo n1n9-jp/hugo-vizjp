@@ -11,6 +11,10 @@ tags = [
     "data physicalization"
 ]
 image = "images/board-dataphys.jpg"
+series = ["data-physicalization"]
+series_weight = 23
+seriesByline = "General Motors and WellStar Health System"
+seriesTitle = "One Quality Issue, One Block: GM's LEGO Board"
 +++
 
 General Motors' (GM) LEGO board turns each quality issue into one LEGO block. The color of the block shows the part of the vehicle, its size shows the severity of the problem, and its position on the board shows the stage the issue has reached, from root cause to solution to outcome. Each block carries an identification number and a date of discovery. GM and WellStar Health System, a hospital group in Georgia, built it together and announced it on March 26, 2012. The two companies call the method "3-D Visualization."

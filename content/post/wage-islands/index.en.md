@@ -12,6 +12,10 @@ tags = [
     "map"
 ]
 image = "images/peaks-as-islands.jpg"
+series = ["data-physicalization"]
+series_weight = 31
+seriesByline = "Ekene Ijeoma"
+seriesTitle = "Cheaper Areas Rise Higher, Sunk in Water: Wage Islands"
 +++
 
 Ekene Ijeoma's *Wage Islands* is a map of New York City sunk in water, with elevation set so that the cheaper the housing, the higher the ground. The part that rises above the water surface, which stands for a wage, shows the area where housing is within reach at that wage. Press a button and the wage rises, lifting the map out of the water.

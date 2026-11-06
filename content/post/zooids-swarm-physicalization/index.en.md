@@ -13,6 +13,10 @@ tags = [
     "map"
 ]
 image = "images/collaborative-exploration.png"
+series = ["data-physicalization"]
+series_weight = 35
+seriesByline = "Mathieu Le Goc et al."
+seriesTitle = "One Point, One Robot, Picked Up by Hand: Zooids"
 +++
 
 Zooids assigns each data point to one tiny robot and builds scatterplots and maps from the robots' positions. The axes are made of robots too, and you can pick up and move any point by hand. Each robot is 26 mm in diameter, 21 mm tall and weighs about 12 g, and runs on two wheels across a flat table.

@@ -1,0 +1,59 @@
+{{- /*
+    特集の一覧（/series/、/en/series/）。series タクソノミーの一覧ページ専用（Hugo 0.152 の探し方：layouts/<タクソノミー名>/taxonomy.html）。
+    各特集（/series/<ID>/）のページは、これまでどおり layouts/_default/list.html。
+    並び順は params.home.series の順（トップページの帯と同じ）。そこにない特集は後ろに、タイトル順で並べる。
+    サムネイルは series_weight の先頭3本。記事が0本の特集（英語版で、記事にまだ series がないとき）は、名前と説明だけを出して「準備中」と書く。
+*/ -}}
+{{ define "main" }}
+{{- $all := .Pages -}}
+{{- $ordered := slice -}}
+{{- $listed := slice -}}
+{{- $home := site.Params.home.series | default slice -}}
+{{- if not (reflect.IsSlice $home) }}{{ $home = slice $home }}{{ end -}}
+{{- range $home -}}
+    {{- $id := . -}}
+    {{- range $all -}}
+        {{- if eq (path.Base .RelPermalink) (urlize $id) -}}
+            {{- $ordered = $ordered | append . -}}
+            {{- $listed = $listed | append $id -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- range $all.ByTitle -}}
+    {{- if not (in $listed (path.Base .RelPermalink)) -}}{{- $ordered = $ordered | append . -}}{{- end -}}
+{{- end }}
+<section class="vz-series-index" aria-labelledby="vz-series-index-title">
+    <header class="vz-series-index__head">
+        <h1 class="vz-series-index__title" id="vz-series-index-title">{{ T "vz.series.listTitle" }}</h1>
+        <p class="vz-series-index__lead">{{ T "vz.series.listLead" (dict "Count" (len $ordered)) }}</p>
+    </header>
+
+    <ol class="vz-series-index__list">
+        {{- range $ordered }}
+        {{- $items := .Pages -}}
+        {{- $n := len $items }}
+        <li class="vz-series-card">
+            <div class="vz-series-card__text">
+                <p class="vz-series-card__count{{ if eq $n 0 }} vz-series-card__count--none{{ end }}">
+                    {{- if gt $n 0 }}{{ T "vz.series.count" (dict "Count" $n) }}{{ else }}{{ T "vz.series.soon" }}{{ end -}}
+                </p>
+                <h2 class="vz-series-card__name"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ with .Description }}<p class="vz-series-card__desc">{{ . }}</p>{{ end }}
+            </div>
+            {{- if gt $n 0 }}
+            <ul class="vz-series-card__thumbs">
+                {{- range first 3 $items }}
+                <li>
+                    <a class="vz-series-card__thumb" href="{{ .RelPermalink }}" aria-label="{{ .Params.seriesTitle | default .LinkTitle }}">
+                        {{ partial "vz/home/thumb.html" (dict "Page" . "Size" "320x240" "Class" "vz-series-card__img") }}
+                    </a>
+                </li>
+                {{- end }}
+            </ul>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ol>
+</section>
+{{ partialCached "footer/footer" . }}
+{{ end }}

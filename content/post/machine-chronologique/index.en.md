@@ -13,6 +13,10 @@ tags = [
     "Jacques Barbeu-Dubourg"
 ]
 image = "images/machine-open.jpg"
+series = ["data-physicalization"]
+series_weight = 5
+seriesByline = "Jacques Barbeu-Dubourg"
+seriesTitle = "Winding 6,500 Years at One Scale: Machine chronologique"
 +++
 
 The Machine chronologique ("chronological machine") is a timeline that lays out about 6,500 years, from the Creation to the 1750s, on a single strip of paper at an even scale of 0.1 inch per year. The strip is about 16.5 m (54 feet) long. It is wound on two rollers and advanced by turning a handle. The reader sees only about 140 years at a time, the part spread on the stand. It was published in Paris in 1753 by the physician Jacques Barbeu-Dubourg.

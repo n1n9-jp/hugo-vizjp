@@ -15,6 +15,10 @@ tags = [
     "Steven Pinker"
 ]
 image = "images/figures-column-us-flag.jpg"
+series = ["dataviz-journalism"]
+series_weight = 11
+seriesByline = "Neil Halloran"
+seriesTitle = "Restacking at 1 Figure = 1,000 People: The Fallen of World War II"
 +++
 
 *The Fallen of World War II* is an 18-minute film that holds one human figure fixed at 1,000 deaths and restacks them by country, theater, and battle, turning roughly 70 million deaths into quantities that can be compared. Soldiers and civilians are counted separately. It starts with US soldiers, moves on to Europe and Asia, and ends by setting the war beside earlier wars and postwar conflicts.

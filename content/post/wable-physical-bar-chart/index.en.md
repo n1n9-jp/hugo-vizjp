@@ -12,6 +12,10 @@ tags = [
     "bar chart"
 ]
 image = "images/wable-table-four-bars.jpg"
+series = ["data-physicalization"]
+series_weight = 16
+seriesByline = "Physical Interaction Lab"
+seriesTitle = "Web Activity as Four Rising and Falling Bars: Wable"
 +++
 
 Wable was a prototype table that showed activity on web services through the height of bars that raise and lower automatically. There are four bars, and they move up and down according to activity on services such as Plazes, Flickr and Last.fm. The activity is pulled in through RSS feeds. According to infosthetics, the display can be configured in a web application. It was made by Physical Interaction Lab, built in 2007 and made public in February 2008.

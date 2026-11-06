@@ -15,6 +15,10 @@ tags = [
     "Pierre Dragicevic"
 ]
 image = "images/physical-bar-chart.jpg"
+series = ["data-physicalization"]
+series_weight = 26
+seriesByline = "Jansen, Dragicevic, and Fekete"
+seriesTitle = "Are Physical 3D Bar Charts Faster? An Evaluation Study"
 +++
 
 When the same 3D bar chart was moved from a screen to a physical object, reading data became about 20% faster. It still did not match an on-screen display that combined a flat matrix view with 2D bar charts. This is the result of an experiment published in 2013 by Yvonne Jansen and her colleagues. The "about 20%" is my rough estimate read from the paper's figures, and what was compared was speed, not accuracy.

@@ -13,6 +13,10 @@ tags = [
     "Willard Brinton"
 ]
 image = "images/cosmograph-board-and-negative-print.jpg"
+series = ["data-physicalization"]
+series_weight = 11
+seriesByline = "IBM"
+seriesTitle = "Counting Paper Strips to Build a Flow Chart: IBM's Cosmograph"
 +++
 
 The Cosmograph (International Cosmograph) was a charting device sold by IBM. It expressed the width of a band by the number of paper strips laid side by side. One thousand white strips made 100%. On a black work board, the strips were bundled, divided, and held with clamps. The finished board was photographed with a photostat, and the negative print, with black and white inverted, was used as the graph.
