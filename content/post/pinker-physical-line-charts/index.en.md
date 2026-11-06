@@ -140,7 +140,7 @@ The dataphys.org entry was registered by Yvonne Jansen, with information contrib
 
 The reading is that, at first glance, the line charts look digitally overlaid on the video, but the close-ups, the sway on touch, and the addition of a country near the end show that they are physical line charts. The category is "Passive physical visualization", and the tags are "rearrangeable" and "storytelling". On the lines, this matches the clues in the footage, but the text really is digitally overlaid. As for the sway, I could not confirm it in still frames.
 
-Jansen, Pierre Dragicevic, and Jean-Daniel Fekete presented an evaluation experiment on physical visualizations at CHI 2013 ([article in Japanese](/evaluating-physical-visualizations/)). The abstract says:
+Jansen, Pierre Dragicevic, and Jean-Daniel Fekete presented an evaluation experiment on physical visualizations at CHI 2013 ([article in Japanese](/en/evaluating-physical-visualizations/)). The abstract says:
 
 > The efficiency of physical visualizations seems to stem from features that are unique to physical objects, such as their ability to be touched and their perfect visual realism.
 

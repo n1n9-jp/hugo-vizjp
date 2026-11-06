@@ -134,7 +134,7 @@ The papers are written differently. TVCG17 describes its own study this way:
 
 In short: because it was not a comparative experiment, no conclusion can be drawn about which is better, on-screen visualization or physicalization. This suggests the paper does not claim to be better than 2D.
 
-The comparative experiment was done by Jansen et al. at CHI 2013. A static 3D bar chart was read faster as a physical object than on screen, but did not match a 2D on-screen display ([Jansen et al.'s evaluation experiment](/evaluating-physical-visualizations/)). EMERGE can be read as the next step, asking "if it can move, how should it be operated?" [Physical Charts](/tenison-road-charts/) in the same series is also a moving bar chart, but it sits inside a lab's glass window and is shown to people on the street. EMERGE is a lab prototype that viewers operate by pushing and pulling the bars.
+The comparative experiment was done by Jansen et al. at CHI 2013. A static 3D bar chart was read faster as a physical object than on screen, but did not match a 2D on-screen display ([Jansen et al.'s evaluation experiment](/en/evaluating-physical-visualizations/)). EMERGE can be read as the next step, asking "if it can move, how should it be operated?" [Physical Charts](/en/tenison-road-charts/) in the same series is also a moving bar chart, but it sits inside a lab's glass window and is shown to people on the street. EMERGE is a lab prototype that viewers operate by pushing and pulling the bars.
 
 ## How Others Viewed EMERGE
 
