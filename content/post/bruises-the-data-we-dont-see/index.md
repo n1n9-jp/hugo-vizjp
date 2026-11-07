@@ -21,7 +21,7 @@ seriesTitle = "検査の日で区切り、希望と恐れを重ねる──Bruis
 
 『Bruises — The Data We Don't See』は、Kaki King（カーキ・キング）の娘の病気の120日分の記録を、1本の時間軸に並べた作品です。白い形1つが1日で、血液検査のたびに新しい日のまとまりが始まります。検査で出た血小板数と、母親の King が1〜10で付けた希望と恐れは、同じ1日の上に重ねてあります。同じ記録をもとに、King が3/4拍子・120小節の曲を作りました。1日が1小節です。
 
-絵は Giorgia Lupi（ジョルジア・ルピ）、曲とギターは King で、2018年1月に初演されました。以下は、Lupi の公式サイトの作品ページと、そこに載る作品の完全な凡例、Pentagram の作品ページに沿います。Lupi の作品は、国を2つの量の軸に置いた[頭脳流出の可視化](/brain-drain/)と、遠近で読む壁紙[『The Room of Change』](/the-room-of-change/)の記事でも読みました。ここでは、時間の区切り方と、絵と音の単位を読みます。子どもの名前は書かず「娘」とし、作者が公開した作品の画像だけを載せます。
+絵は Giorgia Lupi（ジョルジア・ルピ）、曲とギターは King で、2018年1月に初演されました。以下は、Lupi の公式サイトの作品ページとそこに載る完全な凡例、Pentagram の作品ページに沿います。Lupi の作品は、国を2つの量の軸に置いた[頭脳流出の可視化](/brain-drain/)と、遠近で読む壁紙[『The Room of Change』](/the-room-of-change/)の記事でも読みました。ここでは、時間の区切り方と、絵と音の単位を読みます。子どもの名前は書かず「娘」とし、作者が公開した作品の画像だけを載せます。
 
 <!--more-->
 
@@ -45,7 +45,7 @@ AIGA Eye on Design によれば、King は記録をスプレッドシートに�
 
 ## 週でも月でもなく、検査の日で区切る
 
-Lupi は時間軸の組み方を、こう書いています。
+Lupi は時間軸の組み方をこう書いています。
 
 > "I structured a fluid timeline, where each one of the white elements indicates a new day."
 
@@ -79,8 +79,6 @@ Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data W
 | King の希望と恐れ（1〜10） | 日を囲んで浮かぶ線 | ― |
 | King の毎日のメモ | 周りに手書きし、決定的な語を強調 | ― |
 
-あざは King が毎日目で見た強さで、Lupi は画材と筆を変えて描き分けました。
-
 ![白い花びら状の形の脇から暗い色とオレンジの細い線が伸び、「LEVEL OF FEAR (1-10)」「LEVEL OF HOPE (1-10)」の注記が線を指す凡例の図](images/layer-hope-fear-lines.jpg)
 
 Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data We Don't See」より引用
@@ -97,7 +95,7 @@ Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data W
 
 > "I could look back at a week and go, 'oh, she had a lot of bruises,' … Or I'd see that things have gotten better, but I'm still falling apart."
 
-1週間を振り返ると、あざが多かったと分かる。状態は良くなったのに自分はまだ崩れている、と分かることもある、という話です。娘の値と自分の気持ちが同じ日に載るから、両者のずれが見えたと読めます。
+1週間を振り返ると、あざの多さや、状態は良いのに自分は崩れていることが分かった、という話です。娘の値と自分の気持ちが同じ日に載るから、両者のずれが見えたと読めます。
 
 ## 同じ記録から、1日1小節の曲を作る
 
@@ -123,7 +121,7 @@ Lupi は流れる時間軸で、障害学でいう crip time（クリップ・�
 
 一方で、同書の色の説明は、作者の凡例と食い違います。資料ごとに並べます（Pentagram の説明は Lupi の作品ページと同じです）。
 
-![左上に作品の縮小図と説明文、右に構造の図、下段に8つの記号を花びら状の形ごとに説明した、作品の完全な凡例](images/legend-complete-key.jpg)
+![作品の縮小図、説明文、構造の図、8つの記号の説明が1枚に並ぶ、作品の完全な凡例](images/legend-complete-key.jpg)
 
 Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data We Don't See」より引用
 
