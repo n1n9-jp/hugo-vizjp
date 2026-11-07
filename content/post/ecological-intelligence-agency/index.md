@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["speculative-design"]
-series_weight = 4
+series_weight = 5
 seriesByline = "Superflux"
 seriesTitle = "川が詩で語りかける行政機関"
 +++

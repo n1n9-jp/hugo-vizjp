@@ -16,7 +16,7 @@ tags = [
 ]
 image = "images/telegraph-chart-purple-green.png"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 13
 seriesByline = "Fraser Lyness et al. (The Telegraph)"
 seriesTitle = "Giving Women the Purple That Stands Out on White: The Telegraph's \"Born Equal\""
 +++

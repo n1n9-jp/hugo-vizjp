@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/final-print-spread.png"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 14
 seriesByline = "Amanda Montañez・Pitch Interactive"
 seriesTitle = "頻度の図から経路の図へ──Beyond XX and XY"
 +++

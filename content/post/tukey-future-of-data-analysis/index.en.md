@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/cover.png"
 series = ["dataviz-classics"]
-series_weight = 9
+series_weight = 10
 seriesByline = "John W. Tukey"
 seriesTitle = "Data Analysis Is a Science: Tukey, 1962"
 +++

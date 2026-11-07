@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/final-print-spread.png"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 14
 seriesByline = "Amanda Montañez, Pitch Interactive"
 seriesTitle = "From Frequency to Pathways: Beyond XX and XY"
 +++
@@ -114,7 +114,7 @@ The graphic's text is restrained, saying "appear to," and states that it shows o
 
 The evaluations each point at a different aspect. Except for the book, all of them are letters, blog posts, or social media posts, not peer-reviewed papers.
 
-The first is chapter 4 of *Data Feminism* (Catherine D'Ignazio and Lauren F. Klein, 2020). Just before this graphic, the book gives two examples of rearranging binary data from the inside: The Telegraph's ["Born Equal. Treated Unequally."](/telegraph-born-equal-gender-colors/) and a Guardian piece. It then takes up this graphic as a question of how to draw gender itself.
+The first is chapter 4 of *Data Feminism* (Catherine D'Ignazio and Lauren F. Klein, 2020). Just before this graphic, the book gives two examples of rearranging binary data from the inside: The Telegraph's ["Born Equal. Treated Unequally."](/en/telegraph-born-equal-gender-colors/) and a Guardian piece. It then takes up this graphic as a question of how to draw gender itself.
 
 > "Visualization is often thought of as a way to reduce complexity, but here it operates in the reverse" (p.115)
 

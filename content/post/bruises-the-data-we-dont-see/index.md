@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/artwork-full.jpg"
 series = ["speculative-design"]
-series_weight = 99
+series_weight = 3
 seriesByline = "Giorgia Lupi / Kaki King"
 seriesTitle = "検査の日で区切り、希望と恐れを重ねる──Bruises"
 +++

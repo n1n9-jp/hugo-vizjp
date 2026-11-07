@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/cover.png"
 series = ["dataviz-classics"]
-series_weight = 4
+series_weight = 5
 seriesByline = "Charles Joseph Minard"
 seriesTitle = "10,000 Men per Millimeter: Minard's Russia Campaign and Hannibal Charts"
 +++

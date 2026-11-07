@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/thumb_ph_vizjp.png"
 series = ["dataviz-classics"]
-series_weight = 10
+series_weight = 11
 seriesByline = "Allan Pred"
 seriesTitle = "A Merchant's Day as a Single Line: Pred's Boston Space-Time Path"
 +++

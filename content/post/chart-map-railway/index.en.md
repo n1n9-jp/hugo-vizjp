@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/12511022_closeup.png"
 series = ["dataviz-classics"]
-series_weight = 6
+series_weight = 7
 seriesByline = "French Ministry of Public Works (Émile Cheysson)"
 seriesTitle = "Year Circles Around a Country: The 1880 Railway Development Map"
 +++

@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/performers-with-ipads-gallery.jpg"
 series = ["data-sonification"]
-series_weight = 99
+series_weight = 25
 seriesByline = "Elevator Repair Service et al."
 seriesTitle = "Waiting for the First Woman's Name: A Sort of Joy"
 +++

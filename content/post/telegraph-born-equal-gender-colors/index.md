@@ -16,7 +16,7 @@ tags = [
 ]
 image = "images/telegraph-chart-purple-green.png"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 13
 seriesByline = "Fraser Lyness ほか（The Telegraph）"
 seriesTitle = "白地で目立つ紫を女性に──Telegraph「Born Equal」"
 +++

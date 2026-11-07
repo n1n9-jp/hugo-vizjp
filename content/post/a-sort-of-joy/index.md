@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/performers-with-ipads-gallery.jpg"
 series = ["data-sonification"]
-series_weight = 99
+series_weight = 25
 seriesByline = "Elevator Repair Service ほか"
 seriesTitle = "最初の女性の名まで待たせる場面を読む──A Sort of Joy"
 +++

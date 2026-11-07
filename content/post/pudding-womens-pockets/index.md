@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/cover-phone-pockets.jpg"
 series = ["dataviz-journalism"]
-series_weight = 99
+series_weight = 12
 seriesByline = "Jan Diehm・Amber Thomas（The Pudding）"
 seriesTitle = "スマホが入るかで差を見せる──Women's Pockets are Inferior"
 +++

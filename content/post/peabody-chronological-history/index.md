@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/plate-17th-century.jpg"
 series = ["dataviz-classics"]
-series_weight = 99
+series_weight = 4
 seriesByline = "Elizabeth Palmer Peabody"
 seriesTitle = "1年を9マスに塗り分ける──Peabody の年代図 1856"
 +++

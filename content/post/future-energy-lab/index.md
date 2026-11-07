@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["speculative-design"]
-series_weight = 3
+series_weight = 4
 seriesByline = "Superflux"
 seriesTitle = "数字を、吸える証拠にする"
 +++
