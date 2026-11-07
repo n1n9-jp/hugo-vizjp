@@ -3,7 +3,7 @@ author = "矢崎裕一"
 title = "100年を10×10に、1年を3×3に塗り分ける──Peabody の『Chronological History of the United States』（1856）"
 slug = "peabody-chronological-history"
 date = "2026-11-07"
-description = "Peabody の図は、1世紀を10×10のマス（1マス＝1年）に、1年を3×3のマス（出来事の種類）に分けて国を色で塗る図で、生徒が自分で塗って年代を覚えるための道具でした。"
+description = "Peabody の図は、1世紀を10×10のマス（1マス＝1年）に、1年を3×3のマス（出来事の種類）に分けて国を色で塗る図で、1850年の手引きでは生徒が自分で塗って年代を覚えるための道具でした。"
 categories = [
     "consume"
 ]
@@ -22,7 +22,7 @@ seriesByline = "Elizabeth Palmer Peabody"
 seriesTitle = "1年を9マスに塗り分ける──Peabody の年代図 1856"
 +++
 
-Elizabeth Palmer Peabody（エリザベス・パーマー・ピーボディ）の年代図は、1世紀を10×10のマス（1マス＝1年）に、1年を3×3のマス（出来事の種類）に分けて、国を色で塗る図でした。生徒が自分で塗って年代を覚えるための道具です。1856年の『Chronological History of the United States』には、16〜19世紀の4世紀分を塗った図版が付きました。白紙の世紀を生徒が塗るやり方は、前の1850年の手引きに書かれています。
+Elizabeth Palmer Peabody（エリザベス・パーマー・ピーボディ）の年代図は、1世紀を10×10のマス（1マス＝1年）に、1年を3×3のマス（出来事の種類）に分けて、国を色で塗る図でした。1850年の手引きでは、生徒が自分で塗って年代を覚えるための道具でした。白紙を生徒が塗る指示は、1850年版の p.5 にあります。1856年の『Chronological History of the United States』には、16〜19世紀の4世紀分を塗った図版が付きました。
 
 以下は、Internet Archive にある1856年版のスキャン（米国議会図書館の蔵書）と、Peabody 自身の説明文、前の本（1850）に沿います。後半では、Lauren F. Klein（ローレン・クライン）らの再現「The Shape of History」と、『Data Feminism』（2020）での扱いを見ます。
 
@@ -104,7 +104,7 @@ Klein によれば、残った練習帳は、数ページは真剣に塗られ�
 | 方式を始めた人 | Peabody（1850年版 p.4） | 「The invention of the Charts by General Bem」 |
 | | Public Domain Review | 1820年代に Antoni Jażwiński（アントニ・ヤジュヴィンスキ）が考え、Bem が広めた |
 | | 『Data by Design』 | 1820年代にポーランドで生まれ、Bem が広めた |
-| 9分割は誰の考えか | Peabody（1850年版 p.10） | 自分の変更は、色と、古い時代の図を省いたことだけ |
+| 9分割は誰の考えか | Peabody（1850年版 p.10） | 挙げているのは、色と、古い時代の図を省いたこと |
 | | 『Data by Design』 | 「She also borrows the idea of subdividing each square」 |
 | | Public Domain Review | 「her chart further divides up the (previously) smallest unit into a 3x3 grid」 |
 | England の色 | Peabody（1856年版 p.10） | 紫 |
@@ -119,7 +119,7 @@ Peabody は9分割を自分の変更に数えていません。Bem から受け�
 
 England の色について、このスキャンでは、紫とされる色は暗い赤茶に、青とされる France は青緑に見えます。退色か刷りの違いかは確かめていません。1607年（Jamestown）のマスは全体がその暗い赤茶で、Klein の「red」は刷られた色を見た呼び方と読めます。
 
-![17世紀の図。1607年のマスが暗い赤茶で全面塗られ、対角線で塗り分けたマスや緑のマスが前半に多い](images/plate-17th-century.jpg)
+![17世紀の図。1607年のマスが暗い赤茶で全面塗られ、対角線で塗り分けたマスや緑のマスもある](images/plate-17th-century.jpg)
 
 Elizabeth P. Peabody（1856）、Library of Congress 所蔵／[Internet Archive](https://archive.org/details/chronologicalhis00peab) より引用（パブリックドメイン）
 
@@ -151,7 +151,7 @@ Jessica DeSpain（ジェシカ・デスペイン）は2018年の書評で、こ�
 
 二つ目は、カテゴリをマスの中の位置で表すことです。[プレイフェアの円](/pie-chart-william-playfair/)は面積と角度で、[ミナールの図](/minard-napoleon-march-to-moscow/)は帯の幅で量を描きました。Peabody は量を描かず、種類を位置に、国を色に割り当てています。
 
-三つ目は、全部を描かないことです。Peabody は、よい年代図はよい学校地図と同じで、すべてを描かず「enough is represented to suggest where everything else should come」と書きました（p.11）。Klein はこれを「Design to support increased knowledge, not complete knowledge」という指針にまとめています。
+三つ目は、全部を描かないことです。Peabody は、よい年代図はよい学校地図と同じで、すべてを描かず「enough is represented to suggest where everything else should come」と書きました（p.11）。Klein は第4章の設計者向けの要点の一つに「Design to support increased knowledge, not complete knowledge」を挙げています。Peabody の p.11 の考え方と重なると読めます。
 
 四つ目は、規則がデータ形式に乗るかを確かめることです。The Shape of History の CSV は、2国の出来事を国ごとの行に分けました。床の図の LED は1小マスに1個で、DH2017 は「We cannot account for multiple simultaneous events」と書きます。対角線や平行四辺形は、1マス1値の形式には乗りにくいと読めます。
 
@@ -159,7 +159,7 @@ Jessica DeSpain（ジェシカ・デスペイン）は2018年の書評で、こ�
 
 **一次情報**
 
-- Elizabeth P. Peabody, *Chronological History of the United States, arranged with plates on Bem's principle*, New York: Sheldon, Blakeman, 1856（pp.5–6, 9–14, 28, 122–123、巻末の版元広告）. [Internet Archive](https://archive.org/details/chronologicalhis00peab) / [本文テキスト](https://archive.org/download/chronologicalhis00peab/chronologicalhis00peab_djvu.txt) / [メタデータ](https://archive.org/metadata/chronologicalhis00peab)
+- Elizabeth P. Peabody, *Chronological History of the United States, arranged with plates on Bem's principle*, New York: Sheldon, Blakeman, 1856（pp.5–6, 9–14, 122–123、巻末の版元広告）. [Internet Archive](https://archive.org/details/chronologicalhis00peab) / [本文テキスト](https://archive.org/download/chronologicalhis00peab/chronologicalhis00peab_djvu.txt) / [メタデータ](https://archive.org/metadata/chronologicalhis00peab)
 - Elizabeth P. Peabody, *The Polish-American System of Chronology, reproduced, with some modifications, from General Bem's Franco-Polish Method*, Boston／New York: G. P. Putnam, 1850（pp.3–15）. [Internet Archive](https://archive.org/details/polishamericansy00peab)
 - Catherine D'Ignazio, Lauren F. Klein, *Data Feminism*, MIT Press, 2020（CC BY-NC-ND 4.0。第3章 pp.77–80、Figure Credits）. [Internet Archive](https://archive.org/details/mit_press_book_9780262358521)
 - The Shape of History のソース（index.html、CSV）. [GitHub](https://github.com/EmoryDHLab/speculative) ／ サイト：[shapeofhistory.net](http://shapeofhistory.net/)（現在は接続できない）
