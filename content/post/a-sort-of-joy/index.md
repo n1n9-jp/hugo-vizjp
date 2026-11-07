@@ -36,7 +36,7 @@ OCR の作品ページは、上演の形をこう説明しています。
 
 ![天井から作品が吊られた白い展示室に、ヘッドホンを着けた人たちが散らばって立ち、手前の女性がタブレットを手にしている](images/second-floor-gallery-headphones.jpg)
 
-Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／[The Office for Creative Research](https://o-c-r.github.io/public-space-interventions/2015/03/30/a-sort-of-joy) より引用
+Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office for Creative Research の作品ページより引用
 
 1回はおよそ45分で、予定の時間内に2回繰り返し、観客は出入り自由でした。台本は回ごとに生成しました（EAR Studio）。口にする言葉はすべてデータベースから取った、と公式の説明文は書いています。
 
@@ -48,7 +48,7 @@ Vimeo の説明文によると、作品タイトルを文法や語彙、強勢�
 
 ![手に持った iPad の画面に、T・A・Y・M・D・N の記号に続けて、作品名、作家名、年、素材、寸法、国籍と生年が縦に並んでいる](images/ipad-script-tombstone-data.jpg)
 
-Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／[The Office for Creative Research](https://o-c-r.github.io/public-space-interventions/2015/03/30/a-sort-of-joy) より引用
+Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office for Creative Research の作品ページより引用
 
 写真の画面には、「Cantiere Barca」「The Fall of a Hair: Blow Ups」といった作品名の下に、作家名・年・素材・寸法・国籍が並んでいます。解説カードの項目が、そのまま台本の行になっていると読めます。
 
@@ -57,7 +57,7 @@ Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／[The Offic
 | データ | 対応させた先 | 出典 |
 |---|---|---|
 | 作家のファーストネーム | 声に出す語。iPad にはその名の作家のフルネームが流れる | 『Data Feminism』p.86 |
-| 名の集まりの大きさ | 読み上げる順番。大きい名ほど先 | 同 p.86 |
+| 名の集まりの大きさ | 読み上げる順番。大きい名ほど先（基準は後の節で検討） | 同 p.86 |
 | 名の性別 | 誰が言うか。男性名は男性の俳優、女性名は女性の俳優 | 同 pp.86–87 |
 | 男性名と女性名の数の差 | 女性の俳優が黙って歩く時間。「Mary」まで3分以上 | 同 p.87 |
 | 作品タイトル | 語でつないだ連想の鎖（"boy" → "boy holding shovel" …） | Visionaire World（Collins） |
@@ -79,7 +79,7 @@ Mary まで3分以上、次の女性名 Joan まではさらに丸1分かかっ�
 
 > "From a data analysis perspective, A Sort of Joy consists of simple operations: counting and grouping. A bar chart or a tree map of first names could easily have represented the same results. But presenting the dataset as a time-based experience makes the audience wait and listen and experience."
 
-棒グラフでも同じ結果を示せるが、時間の中に置くと観客は待ち、聴き、体験する、という主張です。著者はこれを、Ben Shneiderman（ベン・シュナイダーマン）の「Overview first」の逆だとします。
+棒グラフでも同じ結果を示せるが、時間の中に置くと観客は待ち、聴き、体験する、という主張です。著者はこれを、Ben Shneiderman（ベン・シュナイダーマン）の「Overview first」の逆だとします。点を一つずつ聴き、全体は少しずつ組み立てるからです。
 
 > "We start to anticipate when the next woman's name will arise. We feel the gender differential, rather than see it."
 
@@ -99,7 +99,7 @@ Mary まで3分以上、次の女性名 Joan まではさらに丸1分かかっ�
 
 ![白い展示室で、ヘッドホンを着けた数人が並んで立ち、手にしたタブレットを見ている](images/performers-with-ipads-gallery.jpg)
 
-Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／[The Office for Creative Research](https://o-c-r.github.io/public-space-interventions/2015/03/30/a-sort-of-joy) より引用
+Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office for Creative Research の作品ページより引用
 
 名前の並べ方は、今のデータで数え直せます。**次の数字は作り手のものではなく、この記事の調査で数えたものです。** 使ったのは、2026年11月時点の MoMA の GitHub のデータ（作品160,928件、作家15,999人）です。GitHub での公開は2015年7月で、上演より後です。Cuseum は、上演が「an earlier version of the dataset」を使ったと書いています。2015年の上演の版ではありません。
 

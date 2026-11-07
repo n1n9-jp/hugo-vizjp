@@ -106,7 +106,7 @@ Pitch Interactive and Amanda Montañez（Research: Amanda Hobbs、Expert review:
 | 図の本文（Montañez の署名入り） | 誌面 | 示したのは「A small cross section」。性とジェンダーは「appear to exist on a spectrum」 |
 | Pitch Interactive | 作品ページ | 「sex assignment and gender identity lies on a spectrum」 |
 | Montañez | 制作解説 | DSD は性とジェンダーの固定的な割り当てを退ける「evidence-based argument」だ。理解が広がれば政策が「social justice」にも沿う |
-| Montañez | BBMRI-ERIC ウェビナー告知（2022） | 見たことのない題材で、想像以上に複雑だった |
+| Montañez | BBMRI-ERIC ウェビナー告知（2022） | 可視化された例を見たことのない題材で、想像以上に複雑だった |
 
 図の本文は「appear to」と控えめに言い、一部の断面だと断っています。Pitch は「lies on」と言い切ります。社会や政策への主張は制作解説の側にあり、そこには作者個人の見解だという但し書きが付いています。後で見る批判も、この三つのどれに向けたものかが違うと読めます。
 
