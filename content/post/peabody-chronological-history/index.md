@@ -30,7 +30,7 @@ Elizabeth Palmer Peabody（エリザベス・パーマー・ピーボディ）�
 
 ## 1850年と1856年、Bem の方式を合衆国史に
 
-Peabody（1804–1894）は、Boston で書店を営んだ編集者・教育者です。1850年、世界史の手引き『The Polish-American System of Chronology』を出しました。副題は、General Bem の方式を手を加えて写したもの、という意味です。
+Peabody（1804–1894）は、Boston で書店を営んだ編集者・教育者です。1850年、世界史の手引き『The Polish-American System of Chronology』を出しました。副題は、Józef Bem（ユゼフ・ベム）将軍の方式を、手を加えて写したもの、という意味です。
 
 Klein の『Data by Design』（2026）によれば、Bem の図を持ってポーランドから来た講師 Joseph Podbielski（ジョゼフ・ポドビェルスキ）が、Peabody 家に一時住みました。Peabody は図に「captivated」されたといいます。
 
@@ -55,7 +55,7 @@ Klein の『Data by Design』（2026）によれば、Bem の図を持ってポ�
 | 無関係な出来事が複数 | 平行四辺形 | 「they are painted in parallelograms」 |
 | 時代を画す出来事 | 年のマス全体 | 「Epochal events fill the whole square」 |
 
-オレンジには「whether aboriginals, or citizens of the United States」と添えてあります。先住民も合衆国の市民も同じ色です。9つの小マスは、次のとおりです。番号は本文の説明で使う番号です。
+9つの小マスは、次のとおりです。番号は本文の説明で使う番号です。
 
 | | 左 | 中 | 右 |
 |---|---|---|---|
@@ -63,7 +63,7 @@ Klein の『Data by Design』（2026）によれば、Bem の図を持ってポ�
 | 中 | 4 国の滅亡 | 5 国の建設・革命 | 6 条約・その他 |
 | 下 | 7 誕生 | 8 行い | 9 死（いずれも著名な人物の） |
 
-Plate I の表（pp.13–14）は、塗る場所を出来事ごとに指定します。1501年、Henry VII の植民の特許は、左上のマスの6番目を紫に。1512年、Ponce de Leon の Florida 発見は、12番目のマスの8番目を煉瓦色に。1565年の St. Augustine の建設は、1番目と2番目の上半分、5番目、8番目がスペインの煉瓦色です。2番目の下半分と3番目は、フランスの損失を表す青です。
+Plate I の表（pp.13–14）は、塗る場所を出来事ごとに指定します。1501年、Henry VII の植民の特許は、左上のマスの6番目を紫で塗ります。1512年、Ponce de Leon の Florida 発見は、12番目のマスの8番目を煉瓦色で塗ります。1565年の St. Augustine の建設は、1番目と2番目の上半分、5番目、8番目がスペインの煉瓦色です。2番目の下半分と3番目は、フランスの損失を表す青です。
 
 ![16世紀の図の左上の拡大。2つ目のマスに1から9の番号を振った3×3の見本が刷られ、1つ目のマスの右中に暗い赤茶の四角がある](images/plate-16th-century-detail.jpg)
 
@@ -93,7 +93,7 @@ Elizabeth P. Peabody（1856）、Library of Congress 所蔵／[Internet Archive]
 
 18世紀の説明（pp.122–123）では、1775年のマスを対角線で分けます。上の三角は勝ったアメリカのオレンジ、残りは敗れた英国の紫です。1776年は「nearly filled with the orange」で、英国の損失は3番目に紫で入ります。
 
-Klein は、残った練習帳の様子を書いています。数ページは真剣に塗られ、次に途中で投げ出され、やがて模様の遊びに変わる、という順です。
+Klein によれば、残った練習帳は、数ページは真剣に塗られ、次に途中で投げ出され、やがて模様の遊びに変わります。
 
 ## 資料によって違う5つの点
 
@@ -102,7 +102,7 @@ Klein は、残った練習帳の様子を書いています。数ページは�
 | 論点 | 出典 | 書かれていること |
 |---|---|---|
 | 方式を始めた人 | Peabody（1850年版 p.4） | 「The invention of the Charts by General Bem」 |
-| | Public Domain Review | 1820年代に Antoni Jażwiński（アントニ・ヤジュヴィンスキ）が考え、Józef Bem（ユゼフ・ベム）が広めた |
+| | Public Domain Review | 1820年代に Antoni Jażwiński（アントニ・ヤジュヴィンスキ）が考え、Bem が広めた |
 | | 『Data by Design』 | 1820年代にポーランドで生まれ、Bem が広めた |
 | 9分割は誰の考えか | Peabody（1850年版 p.10） | 自分の変更は、色と、古い時代の図を省いたことだけ |
 | | 『Data by Design』 | 「She also borrows the idea of subdividing each square」 |
@@ -123,7 +123,7 @@ England の色について、このスキャンでは、紫とされる色は暗
 
 Elizabeth P. Peabody（1856）、Library of Congress 所蔵／[Internet Archive](https://archive.org/details/chronologicalhis00peab) より引用（パブリックドメイン）
 
-「Christian Era」を載せた David Rumsey Map Collection と Raremaps のページは、本文を読めませんでした。「1865」は、1856の数字の入れ違いと読めます。
+「Christian Era」を収めたという David Rumsey Map Collection と Raremaps の解説は、読めていません。「1865」は、1856の数字の入れ違いと読めます。
 
 ## 第三者はこの図をどう見たか
 

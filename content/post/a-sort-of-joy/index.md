@@ -1,9 +1,9 @@
 +++
 author = "矢崎裕一"
-title = "最初の女性の名が出るまでの待ち時間で、偏りを聞かせる──A Sort of Joy"
+title = "最初の女性の名まで待たせる場面を読む──A Sort of Joy"
 slug = "a-sort-of-joy"
 date = "2026-11-07"
-description = "A Sort of Joy は、MoMA の所蔵データの作家の名を順に読み上げた2015年の上演です。男性名は男性、女性名は女性の俳優が言い、性別の偏りを最初の女性名までの待ち時間で聞かせました。"
+description = "『Data Feminism』は A Sort of Joy（2015年）の一場面を、作家の名を読み上げ、最初の女性名まで3分以上待たせる体験として描きます。その記述を一次資料と照らします。"
 categories = [
     "consume"
 ]
@@ -15,12 +15,12 @@ image = "images/performers-with-ipads-gallery.jpg"
 series = ["data-sonification"]
 series_weight = 99
 seriesByline = "Elevator Repair Service ほか"
-seriesTitle = "女性の名が出るまで待たせる──A Sort of Joy"
+seriesTitle = "最初の女性の名まで待たせる場面を読む──A Sort of Joy"
 +++
 
-A Sort of Joy (Thousands of Exhausted Things)（ア・ソート・オブ・ジョイ）は、ニューヨーク近代美術館（MoMA）の所蔵データにある作家のファーストネームを順に読み上げ、男性名は男性の俳優、女性名は女性の俳優が声にした2015年の上演です。性別の偏りを、最初の女性名が出るまでの待ち時間として聞かせました。『Data Feminism』の記述では、John、Robert、David と男性名が続き、最初の女性名「Mary」が出るまでに3分以上かかります。
+A Sort of Joy (Thousands of Exhausted Things)（ア・ソート・オブ・ジョイ）は、ニューヨーク近代美術館（MoMA）の所蔵データ（123,951点）から台本を作り、2015年4月に MoMA 2階の展示室で上演された、劇団 Elevator Repair Service（エレベーター・リペア・サービス、ERS）と The Office for Creative Research（OCR）の共同制作です。『Data Feminism』は、この上演の一場面を、作家のファーストネームを順に読み上げ、男性名は男性、女性名は女性の出演者が声にする場面として描きます。最初の女性名「Mary」まで3分以上かかり、著者はその待ち時間を、偏りを見るのでなく感じる体験だと論じます。この描写は一次資料では確かめられていません。
 
-上演は、劇団 Elevator Repair Service（エレベーター・リペア・サービス、ERS）と The Office for Creative Research（OCR）の共同制作で、MoMA 教育部門の企画 Artists Experiment の一つです。以下は、OCR と Vimeo の公式の説明文、演出家のインタビュー、Catherine D'Ignazio（キャサリン・ディグナツィオ）と Lauren F. Klein（ローレン・クライン）の『Data Feminism』（MIT Press、2020）第3章 pp.85–87 に沿います。名前の場面を詳しく描いたのは『Data Feminism』で、一次資料とは3つの点で書き方が違うため、並べて示します。
+上演は MoMA 教育部門の企画 Artists Experiment の一つです。以下は、OCR と Vimeo の公式の説明文、演出家のインタビュー、Catherine D'Ignazio（キャサリン・ディグナツィオ）と Lauren F. Klein（ローレン・クライン）の『Data Feminism』（MIT Press、2020）第3章 pp.85–87 に沿います。名前の場面を書いているのは『Data Feminism』だけで、一次資料とずれる点が3つあるため、並べて示します。
 
 <!--more-->
 
@@ -34,7 +34,7 @@ OCR の作品ページは、上演の形をこう説明しています。
 
 12万3,951点の所蔵データから作った台本は、2階の展示室を歩き回る俳優に電子的に届き、声と環境音は観客がヘッドホンで聴く、という説明です。同じ文は、上演を「extended audio tour」（長い音声ツアー）と呼んでいます。
 
-![天井から作品が吊られた白い展示室に、ヘッドホンを着けた人たちが散らばって立ち、手前の女性がタブレットを手にしている](images/second-floor-gallery-headphones.jpg)
+![天井から作品が吊られた白い展示室に、ヘッドホンを着けた人たちが散らばって立ち、中央のベスト姿の男性がタブレットを胸の前に掲げている](images/second-floor-gallery-headphones.jpg)
 
 Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office for Creative Research の作品ページより引用
 
@@ -52,14 +52,14 @@ Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office
 
 写真の画面には、「Cantiere Barca」「The Fall of a Hair: Blow Ups」といった作品名の下に、作家名・年・素材・寸法・国籍が並んでいます。解説カードの項目が、そのまま台本の行になっていると読めます。
 
-データをどこに対応させたかを、資料ごとにまとめます。上の4行は『Data Feminism』による名前の場面の記述で、一次資料では確かめられていません。
+データをどこに対応させたかを、資料ごとにまとめます。表の最初の4行は『Data Feminism』による名前の場面の記述で、一次資料では確かめられていません。
 
 | データ | 対応させた先 | 出典 |
 |---|---|---|
-| 作家のファーストネーム | 声に出す語。iPad にはその名の作家のフルネームが流れる | 『Data Feminism』p.86 |
-| 名の集まりの大きさ | 読み上げる順番。大きい名ほど先（基準は後の節で検討） | 同 p.86 |
-| 名の性別 | 誰が言うか。男性名は男性の俳優、女性名は女性の俳優 | 同 pp.86–87 |
-| 男性名と女性名の数の差 | 女性の俳優が黙って歩く時間。「Mary」まで3分以上 | 同 p.87 |
+| 作家のファーストネーム | 声に出す語。iPad にはその名の作家のフルネームが流れる | 『Data Feminism』p.86（一次資料では未確認） |
+| 名の集まりの大きさ | 読み上げる順番。大きい名ほど先（基準は後の節で検討） | 同 p.86（一次資料では未確認） |
+| 名の性別 | 誰が言うか。男性名は男性の俳優、女性名は女性の俳優 | 同 pp.86–87（一次資料では未確認） |
+| 男性名と女性名の数の差 | 女性の俳優が黙って歩く時間。「Mary」まで3分以上 | 同 p.87（一次資料では未確認） |
 | 作品タイトル | 語でつないだ連想の鎖（"boy" → "boy holding shovel" …） | Visionaire World（Collins） |
 | 素材 | 同じ素材の作品の素材名を、リストで朗読する | Visionaire World（Collins） |
 | 作家名・素材名の音節と強勢 | 知っている歌の旋律にはめる（例：「My Favorite Things」） | Visionaire World（Collins） |
@@ -69,11 +69,11 @@ Manuel Martagon 撮影、© 2015 The Museum of Modern Art, New York／The Office
 
 『Data Feminism』は第3章の節「Data Visceralization」で、美術館の収集方針へのフェミニズムの批評につなげて、この上演を取り上げます。同じ目的の別の戦術として、Guerrilla Girls の1989年のポスターと並べています。
 
-著者の描写では、部屋の中央で白人男性の一団が円陣を組み、外の観客を向いています。男性たちが声をそろえて「John」と言うと、iPad に John Baldessari、John Cage、John Lennon、John Waters と流れます。女性の出演者3人は、黙って円陣の周りを歩き続けます。「Robert」「David」と男性名が続き、やがて「Mary」が、女性たちの最初の声として出ます。
+著者の描写では、部屋の中央で白人男性の一団が円陣を組み、外の観客を向いています。男性たちが声をそろえて「John」と言うと、iPad に John Baldessari、John Cage などと流れます。女性の出演者3人は、黙って円陣の周りを歩き続けます。「Robert」「David」と男性名が続き、やがて「Mary」が、女性たちの最初の声として出ます。
 
 > "It takes more than three minutes for "Mary" to be spoken, and the next female name, "Joan," doesn't come for a full minute longer."
 
-Mary まで3分以上、次の女性名 Joan まではさらに丸1分かかった、という記述です。すぐ後に「Barbara」が続き、また男性名に戻ります。著者は Mary を、聴き方が変わる「aha moment」と呼んでいます。
+Mary まで3分以上、次の女性名 Joan まではさらに丸1分かかった、という記述です。すぐ後に「Barbara」が続き、また男性名に戻ります。
 
 著者は、分析としては単純だとも書きます。
 
@@ -85,13 +85,13 @@ Mary まで3分以上、次の女性名 Joan まではさらに丸1分かかっ�
 
 次の女性の名を待ち始め、差を見るのではなく感じる、という一文です。著者はこの感じを affect（情動）と呼び、長すぎて別の部屋へ行きたくなる気持ちまで含めています。
 
-## 一次資料と食い違う3点
+## 『Data Feminism』と一次資料のずれ3点
 
-『Data Feminism』の記述は、一次資料と次の3点で違います。
+『Data Feminism』の記述と一次資料は、次の3点でずれています。
 
 | 点 | 『Data Feminism』 | 一次資料 |
 |---|---|---|
-| 名前の並べ方 | 「which first name has the most works in the collection」の順。John、Robert、David が先なのは作品数が多いから（p.86） | OCR・Vimeo・EAR Studio・インタビューは、名前の場面の規則を書いていない |
+| 名前の並べ方（記述の有無） | 「which first name has the most works in the collection」の順。John、Robert、David が先なのは作品数が多いから（p.86） | 読めた資料（OCR・Vimeo・EAR・Visionaire）には記述なし。Thorp の Medium は未読 |
 | 上演の描写 | 部屋の中央の男性の円陣を観客が囲み、女性3人が周りを歩く。ヘッドホンを着けているのは出演者（p.86） | 6人の出演者が2階の展示室を歩き回る「audio tour」。ヘッドホンを着けるのは観客（OCR・Vimeo） |
 | 映像 | 注30で「the full performance」を Vimeo で見られるとする | Vimeo の題は「A Sort of Joy at MoMA (excerpts)」。説明文の冒頭は「[ ROUGH CUT ]」で、長さは8分04秒 |
 
@@ -116,7 +116,7 @@ Mindy Seu（ミンディ・スー）は2017年、Are.na Editorial の「The Poet
 
 > "Removed from the context of the artwork, the performance focused on the data itself and reshaped how it can be consumed."
 
-作品から切り離してデータそのものに目を向け、その受け取り方を作り変えた、という評価です。なお Seu は、GitHub での公開の後に上演したと書いていますが、日付の記録では順序が逆です。
+作品から切り離してデータそのものに目を向け、その受け取り方を作り変えた、という評価です。なお Seu は、GitHub での公開の後に OCR がデータを台本にしたと書いていますが、台本は上演（4月）の前に作られているはずで、順序が逆だと読めます。
 
 当時 MoMA 教育部門にいた Pablo Helguera（パブロ・エルゲラ）は2021年、作品タイトルを素材にした実践の例に挙げました。
 
@@ -128,17 +128,17 @@ Zana Fauzi は2020年の「A sort of joy」で、論点を人種と交差性に�
 
 > "We never heard a 'Khalil', a 'Salama', a 'Dinesh' ..."
 
-Khalil も Salama も Dinesh も聞こえなかった、という指摘です。ただし Fauzi の場面の描写は、『Data Feminism』の言い換えにとどまると読めます。
+Khalil も Salama も Dinesh も聞こえなかった、という指摘です。
 
 ## 使い道
 
 可視化の仕事に持ち帰れる判断は、四つあります。
 
-一つ目は、量を時間に置き換えることです。棒グラフでも示せる数の差が、名を一つずつ読むと待つ時間になります。[Two Trains](/data-driven-dj-two-trains/) が駅の間の距離を曲の長さにしたのと同じく、時間を軸に使った例と読めます。
+一つ目は、量を時間に置き換えることです。『Data Feminism』の描写では、棒グラフでも示せる数の差が、名を一つずつ読むと待つ時間になります。[Two Trains](/data-driven-dj-two-trains/) が駅の間の距離を曲の長さにしたのと同じく、時間を軸に使った例と読めます。
 
-二つ目は、分類を「誰が言うか」に割り当てることです。名の性別を、語の中身ではなく話し手の声と身体に載せました。訪れた場所の頻度を協和と不協和の音程に載せる [Quotidian Record](/quotidian-record/) や、物の形に載せる [Chemo Singing Bowl](/chemo-singing-bowl/) とは別の置き場所です。
+二つ目は、分類を「誰が言うか」に割り当てることです。『Data Feminism』の描写では、名の性別を、語の中身ではなく話し手の声と身体に載せています。訪れた場所の頻度を協和と不協和の音程に載せる [Quotidian Record](/quotidian-record/) や、物の形に載せる [Chemo Singing Bowl](/chemo-singing-bowl/) とは別の置き場所です。
 
-三つ目は、全体を最後に見せる代償です。聴き手は長く待たされ、部屋を出たくなる人もいます。感じさせたいのか、値を引かせたいのかで、全体を先に出すかを決めることになります。
+三つ目は、全体を最後に見せる代償です。聴き手は長く待たされます。『Data Feminism』は、長すぎて別の部屋へ行きたくなる気持ちも affect に含めると論じています。感じさせたいのか、値を引かせたいのかで、全体を先に出すかを決めることになります。
 
 四つ目は、並べる基準を書き残すことです。作家の人数か作品数かで、先頭は John にも Ludwig にもなります。二次資料で知った作品は、一次資料に当たり直すことも要ります。この上演では、名前の並べ方、場の作り、映像の3点で、紹介と記録が違っていました。
 

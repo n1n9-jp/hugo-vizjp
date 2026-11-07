@@ -95,7 +95,7 @@ Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data W
 
 > "I could look back at a week and go, 'oh, she had a lot of bruises,' … Or I'd see that things have gotten better, but I'm still falling apart."
 
-1週間を振り返ると、あざの多さや、状態は良いのに自分は崩れていることが分かった、という話です。娘の値と自分の気持ちが同じ日に載るから、両者のずれが見えたと読めます。
+1週間を振り返ると、あざの多さや、状態は良いのに自分は崩れていることが分かった、という話です。娘の肌の様子と自分の気持ちが同じ日に載るから、両者のずれが見えたと読めます。
 
 ## 同じ記録から、1日1小節の曲を作る
 
@@ -107,13 +107,13 @@ Giorgia Lupi and Kaki King／Giorgia Lupi 公式サイト「BRUISES - The Data W
 
 確かめられる対応は、1日が1小節であることだけです。点状出血や気分は「reference」（参照する）、あざは「map」と言われていますが、音の高さや音量への割り当ては書かれていません。作者側は「Kaki composed a song based on her data collection」と書き、King は本作を「this visualization and musicalization」と呼びました。調べた資料に、sonification（ソニフィケーション）の語はありません。
 
-[TwoTone](/twotone-sonification/) は、表の1列を音階の段に割り当て、1行を1拍として鳴らします。Bruises は、時間の単位だけを絵とそろえ、小節の中身は作曲家に任せた曲と読めます。データから作った作曲であって、規則で再現できるソニフィケーションではない、と読むのが正確でしょう。
+[TwoTone](/twotone-sonification/) は、表の1列を音階の段に割り当て、1行を1拍として鳴らします。Bruises で確かめられる対応は時間の単位だけで、小節の中身は作曲家の判断に任せた曲と読めます。データから作った作曲であって、規則で再現できるソニフィケーションではない、と読むのが正確でしょう。
 
 初演は2018年1月25日、サンフランシスコの STIR Experience Lab で、King が会場で生演奏しました。1月27日には、Lupi の YouTube チャンネルに全編の動画が公開されます。アニメーションは Andrea Bax Bassan（アンドレア・バックス・バッサン）です。本作はその後、Cooper Hewitt のデザイン・トリエンナーレ「Nature」に出品され、King の舞台作品『DATA NOT FOUND』（2019年）にも組み込まれました。
 
 ## 第三者はこの作品をどう見たか
 
-いちばん詳しく論じたのは、Catherine D'Ignazio（キャサリン・ディグナツィオ）と Lauren F. Klein（ローレン・クライン）の『Data Feminism』（MIT Press、2020）です。第7章「Show Your Work」の pp.195–199 で、ケア労働と感情労働を見えるようにする事例として扱っています。
+詳しく論じた一つが、Catherine D'Ignazio（キャサリン・ディグナツィオ）と Lauren F. Klein（ローレン・クライン）の『Data Feminism』（MIT Press、2020）です。第7章「Show Your Work」の pp.195–199 で、ケア労働と感情労働を見えるようにする事例として扱っています。
 
 > "She employed a fluid timeline to reflect the subjective nature of what disability studies scholars call crip time."
 
@@ -145,7 +145,7 @@ AIGA Eye on Design の Liz Stinson（リズ・スティンソン）は、読み�
 
 一つ目は、時間の区切りを出来事で決めることです。Bruises は、週や月ではなく検査の日で日をまとめました。治療や手続きの節目が暮らしを決めている記録なら、節目で区切るほうが当事者の時間に近い図になると読めます。
 
-二つ目は、頻度と種類の違うデータを、同じ単位に載せることです。検査値は数日おき、気持ちは毎日でした。それを「1日」に重ねたので、King は値と気持ちのずれを振り返れました。別々のグラフに分ける前に、共通の単位で重ねられないかを考える価値があります。
+二つ目は、頻度と種類の違うデータを、同じ単位に載せることです。検査値は数日おき、気持ちは毎日でした。King は振り返りで、あざの多さと自分の状態のずれに気づいたと話しています。検査値と気持ちを同じ「1日」に載せる設計が、それを助けたと読めます。別々のグラフに分ける前に、共通の単位で重ねられないかを考える価値があります。
 
 三つ目は、音にするとき、規則と作曲を言い分けることです。Bruises で確かめられる対応は、1日＝1小節だけで、作者は musicalization と呼んでいます。どこまでが規則で、どこからが作り手の判断かを書いておけば、聴き手は読み違えずに済みます。
 
