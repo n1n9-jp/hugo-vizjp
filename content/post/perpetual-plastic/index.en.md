@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 43
+series_weight = 44
 seriesByline = "Liina Klauss, Moritz Stefaner, and Skye Morét"
 seriesTitle = "The Same Flow Laid Out in Beach Trash: Perpetual Plastic"
 +++

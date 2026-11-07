@@ -14,7 +14,7 @@ tags = [
 ]
 image = "images/strings-lifted-overhead.jpg"
 series = ["data-physicalization"]
-series_weight = 99
+series_weight = 36
 seriesByline = "武蔵野美術大学 デザイン情報学科"
 seriesTitle = "貸し借りを麻紐のネットワーク・グラフに──ムサビ「情報処理I」"
 +++

@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["data-physicalization"]
-series_weight = 39
+series_weight = 40
 seriesByline = "Charles Sowers"
 seriesTitle = "Burning Logs with a Glass Ball to Record Sunshine: Solar Totems"
 +++
