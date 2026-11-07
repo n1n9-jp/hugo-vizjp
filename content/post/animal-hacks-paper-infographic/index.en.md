@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/magazine-spread.jpg"
 series = ["data-physicalization"]
-series_weight = 37
+series_weight = 38
 seriesByline = "Alberto Lucas López et al."
 seriesTitle = "Counting in Layers of Colored Paper: Animal Hacks"
 +++

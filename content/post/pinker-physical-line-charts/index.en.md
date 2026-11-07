@@ -15,7 +15,7 @@ tags = [
 ]
 image = "images/child-mortality-chart.jpg"
 series = ["data-physicalization"]
-series_weight = 42
+series_weight = 43
 seriesByline = "Steven Pinker and Gates Notes"
 seriesTitle = "Lines Look Real, Scales Added Afterward: Pinker's Glowing Line Charts"
 +++

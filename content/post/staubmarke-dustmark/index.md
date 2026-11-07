@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/dustmark-bridge-wall.jpg"
 series = ["data-physicalization"]
-series_weight = 41
+series_weight = 42
 seriesByline = "Dietmar Offenhuber"
 seriesTitle = "汚れを洗って描き、小さい円から消える──Staubmarke"
 +++

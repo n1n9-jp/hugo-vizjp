@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/skype-call-bowls.jpg"
 series = ["data-physicalization"]
-series_weight = 38
+series_weight = 39
 seriesByline = "Alice Thudt"
 seriesTitle = "Patterns Without a Legend on Everyday Bowls: Life in Clay"
 +++

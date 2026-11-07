@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/dustmark-bridge-wall.jpg"
 series = ["data-physicalization"]
-series_weight = 41
+series_weight = 42
 seriesByline = "Dietmar Offenhuber"
 seriesTitle = "Circles Washed Out of Dirt, Smallest Vanishing First: Staubmarke"
 +++

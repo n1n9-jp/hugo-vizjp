@@ -13,7 +13,7 @@ tags = [
 ]
 image = "images/deception-pass-1950-2016.jpg"
 series = ["data-physicalization"]
-series_weight = 36
+series_weight = 37
 seriesByline = "Emily McNeil et al."
 seriesTitle = "Everyone Knits with the Same 32 Colors: The Tempestry Project"
 +++
