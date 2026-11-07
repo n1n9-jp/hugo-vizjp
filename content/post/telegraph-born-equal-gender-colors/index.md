@@ -45,7 +45,7 @@ Telegraph の記事本体は購読者向けで、筆者は読めていません�
 
 ## 参政権運動の紫と緑を借りる
 
-男女を分けるいちばん手早い色は、ピンクと青です。Datawrapper の記事で Lisa Charlotte Muth（リサ・シャルロッテ・ムート）は、FT の Alan Smith（アラン・スミス）のコラムを引きます。Smith は、色と性の結びつきが強いので凡例が要らず、図がすっきりすると考えて、ピンクと青を使ったと書いていました。Muth は、ピンクと青は性の固定観念を後押しし、格差の図ではとくに逆効果だと書きます。
+男女を分けるいちばん手早い色は、ピンクと青です。Datawrapper の記事で Lisa Charlotte Muth（リサ・シャルロッテ・ムート）は、FT の Alan Smith（アラン・スミス）のコラム「Chart Doctor」を引きます（元のコラムは未読で、Datawrapper の記事が引く文で確かめました）。Smith は、色と性の結びつきが強いので凡例が要らず、図がすっきりすると考えて、ピンクと青を使ったと書いていました。Muth は、ピンクと青は性の固定観念を後押しし、格差の図ではとくに逆効果だと書きます。
 
 『Data Feminism』も同じ点を突きます。
 
@@ -63,11 +63,11 @@ Telegraph の記事本体は購読者向けで、筆者は読めていません�
 
 Lisa Charlotte Muth／[Datawrapper Blog](https://www.datawrapper.de/blog/gendercolor) より引用
 
-Lyness は、この由来が社内で効いたと話しています。
+Lyness は、参政権運動への参照が「決め手になった」と話しています。
 
 > “Having a reference to the suffrage movement helped seal the deal”
 
-参政権運動という裏づけが決め手になった、という意味です。ピンクと青を使わないと性別がすぐ分からない点にも、異論は出なかったといいます。むしろピンクと青のほうが、伝えたいことを損なうと皆が感じた、と Lyness は答えています。
+ピンクと青を使わないと性別がすぐ分からない点にも、異論は出なかったといいます。むしろピンクと青のほうが、伝えたいことを損なうと皆が感じた、と Lyness は答えています。
 
 ## 白地で目立つ紫を、少ない側に
 
@@ -81,11 +81,11 @@ Lyness は、この由来が社内で効いたと話しています。
 
 Datawrapper は、この効果がよく見える図として次の画像を載せています。
 
-![白地に、男性757人（86%）を表す大きな緑の円と、女性127人（14%）を表す小さな紫の円が、縦線をはさんで並んでいる](images/telegraph-chart-purple-green.png)
+![白地に、男性757枚（86%）を表す大きな緑の円と、女性127枚（14%）を表す小さな紫の円が、縦線をはさんで並んでいる](images/telegraph-chart-purple-green.png)
 
 The Telegraph／[Datawrapper Blog](https://www.datawrapper.de/blog/gendercolor) より引用
 
-ヘッダーには「Women Mean Business」「ENGLISH HERITAGE BLUE PLAQUES」とあります。ブルー・プラーク884枚のうち、男性が757枚、女性が127枚です。画像を測ると、円の面積の比は枚数の比（約6倍）に近いと読めます。小さな紫の円が、白地の上で埋もれずに立っています。これが本作のどの部分かは、Datawrapper は書いていません。
+ヘッダーには「Women Mean Business」「ENGLISH HERITAGE BLUE PLAQUES」とあります。ブルー・プラーク884枚のうち、男性が757枚、女性が127枚です。画像を測ると、円の面積の比は枚数の比（約6倍）に近いと読めます。これが本作のどの部分かは、Datawrapper は書いていません。
 
 『Data Feminism』の図4.6は、FTSE 100 の CEO を人型のアイコンで並べ、紫と緑で塗り分けた図です。添えた文は「Just six of FTSE 100 CEOs are women」です。
 
@@ -97,12 +97,9 @@ The Telegraph／[Datawrapper Blog](https://www.datawrapper.de/blog/gendercolor) 
 
 全企業の時給の中央値の男女差を、企業数の分布で示した図です。凡例は「Women trail men」が緑、「Women lead men」が紫です。色は性別でなく格差の向きを表していますが、少ない側を紫にする考えは同じだと読めます。Datawrapper は、同じ配色が2018年3月22日の賃金格差の記事（有料）でも使われたと書いています。
 
-確かめられた範囲の対応をまとめます。
-
 | データ | 見た目 | 具体 | 出典 |
 |---|---|---|---|
 | 性別 | 色相 | 女性＝紫、男性＝緑 | Datawrapper、『Data Feminism』 |
-| （なし） | 地の色 | 白。紫が強く出る前提 | Lyness |
 | CEO の男女 | 人型アイコン | 紫と緑、凡例 “Men / Women” | 『Data Feminism』図4.6 |
 | プラークの枚数 | 円の大きさ | 男性757（緑）、女性127（紫） | Datawrapper の画像 |
 | 賃金格差の向き | 棒の色 | 下回る＝緑、上回る＝紫 | Datawrapper の画像 |
@@ -110,7 +107,7 @@ The Telegraph／[Datawrapper Blog](https://www.datawrapper.de/blog/gendercolor) 
 
 ## ほかの報道機関は何色を使ったか
 
-Muth の記事は、FT の John Burn-Murdoch（ジョン・バーン＝マードック）のツイートを広げたものです。英国の賃金格差データを各社が何色で報じたかを、並べたツイートでした。
+Muth の記事は、FT の John Burn-Murdoch（ジョン・バーン＝マードック）のツイートを広げたものだと、Datawrapper の記事が書いています（ツイートは未読）。英国の賃金格差データを各社が何色で報じたかを、並べたツイートでした。
 
 | 区分 | 例（Datawrapper の記事による） |
 |---|---|
@@ -138,7 +135,7 @@ Muth は、Economist、Guardian、Telegraph、Washington Post などが、女性
 
 > “They had an opportunity to communicate to the public that gender is not a binary by spelling that out—in the text of the story or in a caption under the graphics or by showing visually that there was no data for nonbinary people.”
 
-本文か、図の説明か、非二値の人のデータがないことを見せる図で、性は二値でないと伝えられた、という批判です。色を替えても、二つの区分は残っています。
+本文か、図の説明か、非二値の人のデータがないことを見せる図で、性は二値でないと伝えられた、という批判です。
 
 対比に挙がるのが、Guardian の “Does the New Congress Reflect You?”（2018）です。区分は cis male、cis female、trans + nonbinary の三つで、trans + nonbinary を選ぶと全選挙区が灰色になり、「0 people in Congress are like you」と出ます。同書は、データがないこと自体が大事な結論になると書きます。同じ節は続けて、性そのものをどう描くかに進み、Scientific American の Amanda Montañez（アマンダ・モンタニェス）の図を取り上げます（[Beyond XX and XY の記事](/beyond-xx-and-xy/)）。
 
@@ -148,11 +145,11 @@ Muth は、Economist、Guardian、Telegraph、Washington Post などが、女性
 
 持ち帰れる判断は、四つあります。
 
-一つ目は、色を選ぶ理由と、割り当てる理由を分けることです。Telegraph は組を意味で選び、割り当てを見え方で決めました。理由が二つあったから、凡例の要らないピンクと青を捨てる判断を社内で通せたと読めます。
+一つ目は、色を選ぶ理由と、割り当てる理由を分けることです。組を意味で、割り当てを見え方で決め、理由が二つあったから、凡例の要らないピンクと青を捨てる判断を社内で通せたと読めます。
 
-二つ目は、目立つ色を少ない側に当てることです。地の色に対してどちらが強く出るかは、[色のコントラストの記事](/color-contrast-wcag-apca/)のような指標で確かめられます。効果は「not by much」で足りる、というのが Lyness の言葉です。
+二つ目は、目立つ色を少ない側に当てることです。地の色との輝度差は、[色のコントラストの記事](/color-contrast-wcag-apca/)で扱う WCAG の比や APCA のような指標で比べられます。ただし、これらは文字の読みやすさの指標で、注意の引きやすさそのものを測るものではありません。効果は「not by much」で足りる、というのが Lyness の言葉です。
 
-三つ目は、媒体の中で割り当てを固定することです。Quartz のように入れ替えると、逆の意味で読まれます。Telegraph は別の記事でも同じ配色を使いました。
+三つ目は、媒体の中で割り当てを固定することです。Quartz のように入れ替えると、逆の意味で読まれます。
 
 四つ目は、色を替えても区分は替わらないと覚えておくことです。二値のデータしかないなら、本文や説明文でその限界を書けます。Guardian のように、データがないことを図で見せる道もあります。
 
@@ -168,6 +165,8 @@ Muth は、Economist、Guardian、Telegraph、Washington Post などが、女性
 **第三者評価**
 
 - Lisa Charlotte Muth（当時は Rost）, “An alternative to pink & blue: Colors for gender data,” Datawrapper Blog, 2018-07-10. [記事](https://www.datawrapper.de/blog/gendercolor)（旧 URL：https://blog.datawrapper.de/gendercolor/）
+- Alan Smith, FT「Chart Doctor」のコラム（ピンクと青の赤ちゃんの名前の図について）. Datawrapper の記事内の引用で確認、元記事は未読. [Datawrapper の記事](https://www.datawrapper.de/blog/gendercolor)
+- John Burn-Murdoch のツイート（英国の賃金格差報道で各社が使った色を並べたもの）. Datawrapper の記事内の言及で確認、元のツイートは未読. [Datawrapper の記事](https://www.datawrapper.de/blog/gendercolor)
 - Catherine D'Ignazio & Lauren F. Klein, *Data Feminism*, MIT Press, 2020, ch.4 “What Gets Counted Counts,” pp.111–113, fig.4.6–4.7, notes 48–50（CC BY-NC-ND 4.0）. [Internet Archive の OA 版](https://archive.org/details/mit_press_book_9780262358521)
 - Sam Morris, Juweek Adolphe, Erum Salam, “Does the New Congress Reflect You?,” *The Guardian*, 2018（『Data Feminism』の比較例、筆者は未読）. [記事](https://www.theguardian.com/us-news/ng-interactive/2018/nov/15/new-congress-us-house-of-representatives-senate)
 - Cabric, Bjarnadóttir, Ling, Rafnsdóttir, Isenberg, “Eleven Years of Gender Data Visualization: A Step Towards More Inclusive Gender Representation,” *IEEE TVCG* 30(1):316–326, 2024. [doi:10.1109/TVCG.2023.3327369](https://doi.org/10.1109/TVCG.2023.3327369) / [arXiv](https://arxiv.org/pdf/2308.14415)
