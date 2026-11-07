@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/12511007_closeup.png"
 series = ["dataviz-classics"]
-series_weight = 5
+series_weight = 6
 seriesByline = "フランス公共事業省 カルト・図面局"
 seriesTitle = "半円で延長、四分円で密度──交通路の地図 1880"
 +++

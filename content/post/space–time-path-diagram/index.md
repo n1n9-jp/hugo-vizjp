@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/thumb_ph_vizjp.png"
 series = ["dataviz-classics"]
-series_weight = 10
+series_weight = 11
 seriesByline = "Allan Pred"
 seriesTitle = "商人の一日を一本の線で──Pred のボストン時空間パス"
 +++

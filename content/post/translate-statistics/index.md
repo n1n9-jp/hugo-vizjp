@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/translate-statistics.png"
 series = ["dataviz-classics"]
-series_weight = 7
+series_weight = 8
 seriesByline = "杉亨二・森鷗外・今井武夫"
 seriesTitle = "「統計」に定まるまで──明治の statistics 訳語論争"
 +++

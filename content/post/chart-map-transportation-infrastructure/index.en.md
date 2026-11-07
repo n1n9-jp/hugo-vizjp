@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/12511007_closeup.png"
 series = ["dataviz-classics"]
-series_weight = 5
+series_weight = 6
 seriesByline = "French Ministry of Public Works, Cartography and Drawing Bureau"
 seriesTitle = "Semicircles for Length, Quarter-Circles for Density: 1880 Routes Map"
 +++

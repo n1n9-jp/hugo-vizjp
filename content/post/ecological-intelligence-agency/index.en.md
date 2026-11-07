@@ -12,7 +12,7 @@ tags = [
 ]
 image = "images/cover.jpg"
 series = ["speculative-design"]
-series_weight = 4
+series_weight = 5
 seriesByline = "Superflux"
 seriesTitle = "An Agency Where the River Speaks in Poems"
 +++

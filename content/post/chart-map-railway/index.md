@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/12511022_closeup.png"
 series = ["dataviz-classics"]
-series_weight = 6
+series_weight = 7
 seriesByline = "フランス公共事業省（Émile Cheysson）"
 seriesTitle = "国のまわりに年の円を並べる──鉄道発展図 1880"
 +++

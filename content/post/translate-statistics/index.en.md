@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/translate-statistics.png"
 series = ["dataviz-classics"]
-series_weight = 7
+series_weight = 8
 seriesByline = "Sugi Kōji, Mori Ōgai, and Imai Takeo"
 seriesTitle = "Settling on the Word for Statistics: The Meiji Translation Debate"
 +++

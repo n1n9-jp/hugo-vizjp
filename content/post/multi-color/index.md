@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/cover-schematic-chropleth.jpeg"
 series = ["dataviz-classics"]
-series_weight = 8
+series_weight = 9
 seriesByline = "ドイツ帝国統計局"
 seriesTitle = "平均でインクを切り替える──1904年収穫の小麦収量図"
 +++

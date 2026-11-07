@@ -17,7 +17,7 @@ tags = [
 ]
 image = "images/cover-schematic-chropleth.jpeg"
 series = ["dataviz-classics"]
-series_weight = 8
+series_weight = 9
 seriesByline = "Imperial Statistical Office of the German Empire"
 seriesTitle = "Switching Inks at the Average: Wheat-Yield Map of the 1904 Harvest"
 +++
