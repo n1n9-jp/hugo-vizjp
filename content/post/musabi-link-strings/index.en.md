@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Turning 50 Students' Photo Loans into a Hemp-Cord Network Graph: The Final Session of Musashino Art University's \"Information Processing I\""
 slug = "musabi-link-strings"
 date = "2026-11-07"
-description = "In 2016, the final session of \"Jōhō Shori I\" (Information Processing I) in the Department of Design Informatics, Musashino Art University, turned 50 students' photo loans (36 links each) into a hemp-cord network graph on the floor, then lifted it on nankin stools (wooden stools) for about five minutes."
+description = "In 2016, the final session of \"Jōhō Shori I\" (Information Processing I) in the Department of Design Informatics, Musashino Art University, turned 50 first-year students' photo loans (36 links each) into a hemp-cord network graph on the floor, then lifted it on nankin stools for about five minutes."
 categories = [
     "consume"
 ]
@@ -19,9 +19,9 @@ seriesByline = "Musashino Art University, Department of Design Informatics"
 seriesTitle = "Photo Loans as a Hemp-Cord Network Graph: Musabi's Information Processing I"
 +++
 
-In the final session of "Jōhō Shori I" (Information Processing I), a course for first-year students in the Department of Design Informatics, Faculty of Art and Design, Musashino Art University, 50 students turned their photo loans into a network graph made of hemp cord (asahimo). The loans had been set up as links between web pages the students built, 36 links per student. Each link was replaced by one length of hemp cord and laid out on the floor of the basement exhibition room of Building 9. Once the cords were laid, the students lifted them into the air on nankin stools (wooden stools). The cords stayed in the air for only about five minutes. This is the class as the department's website reported it in 2016.
+In the final session of "Jōhō Shori I" (Information Processing I), a course for first-year students in the Department of Design Informatics, Faculty of Art and Design, Musashino Art University, 50 students turned their photo loans into a network graph made of hemp cord (asahimo). The loans had been set up as links between web pages the students built, 36 links per student. Each link was replaced by one length of hemp cord and laid out on the floor of the basement exhibition room of Building 9. Once the cords were laid, the students lifted them into the air on nankin stools (the stools used in class). The cords stayed in the air for only about five minutes. This is the class as the department's website reported it in 2016.
 
-The source is a department website notice, "【授業潜入】熱すぎる情報処理Iの授業最終回" ("Jugyō Sennyū: Atsusugiru Jōhō Shori I no Jugyō Saishūkai," Undercover in Class: The Too-Hot Final Session of Information Processing I), dated June 17, 2016. It is unsigned and consists of five photographs and a short text. The article never uses the term "network graph"; it says only that the links of "the borrowing and lending relationships of 50 people" were replaced with hemp cord. The facts in the main text follow this one source. The course's place in the curriculum is supplemented by the department's course description and by a department article of July 4, 2017. What can be read from the photographs is set apart as reading.
+The source is a department website notice, "【授業潜入】熱すぎる情報処理Iの授業最終回" ("Jugyō Sennyū: Atsusugiru Jōhō Shori I no Jugyō Saishūkai," Undercover in Class: The Too-Hot Final Session of Information Processing I), dated June 17, 2016. It is unsigned and consists of five photographs and a short text. The article never uses the term "network graph"; it says only that the links of "the borrowing and lending relationships of 50 people" were replaced with hemp cord. The facts in the main text largely follow this one source. The course's place in the curriculum is supplemented by the department's course description and by a department article of July 4, 2017. What can be read from the photographs is set apart as reading.
 
 <!--more-->
 
@@ -53,7 +53,7 @@ The conditions of the exercise that can be read from the 2016 article are as fol
 
 ## 12 Pages, 3 Borrowed Photos Each: 36 Links per Person
 
-The article says the cords on the floor "look as if someone had just scattered them for fun," and then explains that each cord carries meaning.
+The article says the cords on the floor 「ぶちまけて遊んでいるように見えます」 ("look as if someone had just scattered them for fun"), and then explains that each cord carries meaning.
 
 > 「先週までの課題で、みんなは自分の写真1枚と、他の人から借りてきた写真3枚を組み合わせたウェブページを、12ページ作っています。写真を借りてきた人のページに対してリンクを張ると、ひとりにつき36本のリンクができます。そのリンクを麻紐に置き換えると、たった50人の貸借り関係が、このようにカオスなことに。」
 
@@ -79,7 +79,7 @@ In network-graph terms, the correspondence between data and objects is as follow
 | Number of edges | Total number of cords | 1,800 (calculated counting from the drawing side; not the actual number of cords) | Calculated from the article's numbers |
 | Layout | Positions of the stools on the floor | ― | Not stated in the article |
 
-The other end of each cord should be tied to the stool of the person who lent the photo. Each stool therefore collects not only the ends of the 36 cords it draws itself but also the ends from the loans of its owner's own photos. The number of ends tied to a stool would then exceed 36. In graph terms, the 36 outgoing edges are joined by incoming edges (directed edges, in the sense that each runs from borrower to lender).
+The other end of each cord should be tied to the stool of the person who lent the photo. Each stool therefore collects not only the ends of the 36 cords it draws itself but also the ends from the loans of its owner's own photos. The number of ends tied to a stool would then exceed 36. In graph terms, the 36 outgoing edges are joined by incoming edges.
 
 ## Laid in an Hour and a Half, Lifted for Only Five Minutes
 
@@ -93,7 +93,7 @@ The department states the aim of the exercise as follows.
 
 Source: Musashino Art University, Department of Design Informatics website, "[【授業潜入】熱すぎる情報処理Iの授業最終回](https://dinfo.musabi.ac.jp/news/%E3%80%90%E6%8E%88%E6%A5%AD%E6%BD%9C%E5%85%A5%E3%80%91%E7%86%B1%E3%81%99%E3%81%8E%E3%82%8B%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86i%E3%81%AE%E6%8E%88%E6%A5%AD%E6%9C%80%E7%B5%82%E5%9B%9E/)" ("Jugyō Sennyū: Atsusugiru Jōhō Shori I no Jugyō Saishūkai," Undercover in Class: The Too-Hot Final Session of Information Processing I), June 17, 2016
 
-Once the cords are laid, they are lifted into the air. The article calls this "the familiar scene."
+Once the cords are laid, they are lifted into the air. The article calls this 「お馴染みの場面」 ("the familiar scene").
 
 ![The exhibition room seen from above, with dozens of students each holding a stool overhead and the hemp cords between the stools rising off the floor](images/strings-lifted-overhead.jpg)
 
@@ -139,7 +139,7 @@ Putting the times and quantities that appear in the article side by side gives t
 | Lifting into the air | Only 5 minutes | ― |
 | Winding back into balls | About 40 minutes | About 100 balls of cord |
 
-**Winding the cord back takes less time than laying it.** The writer himself calls this part "more astonishing."
+**Winding the cord back takes less time than laying it.** The writer calls this part "more astonishing" (「驚異的」).
 
 ## The "Mystery of Dejō," Asked About for About 13 Years
 
@@ -151,7 +151,7 @@ The article says people who have seen the exercise in the university guide or th
 
 Since "about 13 years" is counted from 2016, the start can be read as the early 2000s. I found no source that states the year it began.
 
-The July 4, 2017 article carries a photograph of the cord exercise while introducing a different assignment, the color cube. There the exercise is called 「その最後を締めくくる麻紐を使った怪しい儀式」 ("the suspicious ritual with hemp cord that closes it out").
+The July 4, 2017 article carries a photograph of the cord exercise while introducing a different assignment, the color cube. There the exercise is called 「その最後を締めくくる麻紐を使った怪しい儀式」 ("the suspicious ritual with hemp cord that closes it out"). Only the 2016 article gives the number of students and cords.
 
 The course description's closing sentence differs by source.
 
@@ -168,7 +168,7 @@ Compared with a network graph drawn on a screen, there are four judgments a visu
 
 First, even a simple rule produces a tangled graph. The rule was 50 nodes and 36 edges from each. Laid on the floor, it still ended in what the department itself calls "chaos." What happens on screen in a [force-directed diagram](/en/force-directed-diagram/), where edges pile up into a "hairball," can be read as happening here at full scale.
 
-Second, what you choose as the node. The original data had links from page to page. Calculating from the article's numbers, there are 50 × 12 = 600 pages. On the floor they were merged per person and shown as a graph of 50 nodes. The same loans become a different graph if you change the unit of the node.
+Second, what you choose as the node. The original data had links from page to page. Calculating from the article's numbers, there are 50 × 12 = 600 pages. On the floor, they can be read as having been merged per person and shown as a graph of 50 nodes. The same loans become a different graph if you change the unit of the node.
 
 Third, who decides the layout. In a force-directed diagram, the positions of nodes are decided by calculation. In the floor graph, students hold the stools that correspond to nodes, and where they stand can be read as the node positions. The article does not say where the stools were placed. If you want to avoid overlapping edges, you can instead show the same loans as an [adjacency matrix](/en/adiacency-matrix/), a 50-row by 50-column table.
 
