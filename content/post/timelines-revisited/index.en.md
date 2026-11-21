@@ -13,7 +13,7 @@ tags = [
     "storytelling",
     "design space"
 ]
-image = "images/cover.png"
+image = "images/cover-diagram.png"
 +++
 
 A timeline for exploring data and a timeline for telling others what you found are different things. For exploring, a straight horizontal line with events placed at their actual dates is strong. For telling, circles, spirals and evenly spaced arrangements also become options. But not unconditionally. Only designs that have a purpose, can be read, and still hold when the data changes qualify. That is how the paper "Timelines Revisited," by Matthew Brehmer and colleagues, sorts it out.
