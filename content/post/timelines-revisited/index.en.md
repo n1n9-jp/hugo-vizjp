@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "Yuichi Yazaki"
 title = "Timelines for Exploring and Timelines for Telling Are Different Things: Timelines Revisited (Brehmer et al., 2017)"
 slug = "timelines-revisited"

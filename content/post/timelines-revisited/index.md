@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "調べる年表と、伝える年表は別もの──Timelines Revisited（Brehmer ほか 2017）"
 slug = "timelines-revisited"
