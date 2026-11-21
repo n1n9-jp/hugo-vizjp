@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "矢崎裕一"
 title = "並べて比べると、分類にない形が見える──Story Curves が描いた10本の映画"
 slug = "story-curves-nonlinear-narratives"
