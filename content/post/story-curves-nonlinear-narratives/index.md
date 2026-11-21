@@ -14,7 +14,7 @@ tags = [
     "Nam Wook Kim",
     "Genette"
 ]
-image = "images/cover.png"
+image = "images/cover-diagram.png"
 +++
 
 Story Curves の面白さは、映画の時間の入れ替えを図にしたことだけではありません。どの映画も同じ作り方の1本の曲線になるので、作品どうしを並べて比べられることです。Nam Wook Kim（ナム・ウク・キム）らは10本の映画を曲線にして並べ、文学理論の類型にはなかった、映画1本を特徴づける大きな形を見つけました。
