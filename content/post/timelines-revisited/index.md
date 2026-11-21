@@ -1,6 +1,6 @@
 +++
 author = "矢崎裕一"
-title = "調べる年表と、伝える年表は別もの──Timelines Revisited（Brehmer ほか 2017）"
+title = "調べる年表と、伝える年表は別もの──Timelines Revisited"
 slug = "timelines-revisited"
 date = "2026-11-21"
 description = "データを調べる年表と、人に伝える年表は別ものです。伝えるなら横一直線に限らず、形・ものさし・並べ方の組み合わせ20通りから、要点に合うものを選べます。"

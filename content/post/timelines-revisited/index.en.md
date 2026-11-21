@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "Timelines for Exploring and Timelines for Telling Are Different Things: Timelines Revisited (Brehmer et al., 2017)"
+title = "Timelines for Exploring and Timelines for Telling Are Different Things: Timelines Revisited"
 slug = "timelines-revisited"
 date = "2026-11-21"
 description = "A timeline for exploring data and a timeline for telling others are different things. For telling, you are not limited to a straight horizontal line: you can pick from 20 combinations of representation, scale and layout."
