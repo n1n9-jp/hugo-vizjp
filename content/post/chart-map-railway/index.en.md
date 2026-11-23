@@ -165,7 +165,7 @@ The fourth is to decide whether to equalize time by angle or to measure it by le
 - *Album de statistique graphique* 1880, preface (Notice). [Page 1](https://archive.org/details/dr_text-page-notice-12511004) / [Page 2](https://archive.org/details/dr_text-page-notice-continued-12511005)
 - "Bibliographie. Notice relative à l'album de statistique graphique," *Journal de la Société de statistique de Paris*, 22, 1881, pp. 25–28 (excerpt from the *Bulletin de statistique du Ministère des travaux publics*, August 1880). [numdam](http://www.numdam.org/item?id=JSFS_1881__22__25_0) / [PDF](https://www.numdam.org/item/JSFS_1881__22__25_0.pdf)
 
-**Third-party assessments**
+**Secondary sources**
 
 - Michael Friendly, "The Golden Age of Statistical Graphics," *Statistical Science*, 23(4), 2008, pp. 502–535. DOI: 10.1214/08-STS268. [Project Euclid](https://projecteuclid.org/euclid.ss/1242049392) / [PDF](https://www.stat.cmu.edu/~brian/nynke/726-2021/misc%20articles/Friendly_2008_The%20Golden%20Age%20of%20Statistical%20Graphics.pdf)
 - Michael Friendly, *HistDataVis*, Chapter 7. [Online version](https://friendly.github.io/HistDataVis/ch07-golden.html)

@@ -187,7 +187,7 @@ Finally, on evaluation methods: hold the visual mapping constant and change only
 - Pierre Dragicevic, Yvonne Jansen, "Re-Evaluating the Efficiency of Physical Visualizations: A Simple Multiverse Analysis". [Explorable Multiverse Analyses](https://explorablemultiverse.github.io/examples/frequentist) / [Reproduction materials for the R multiverse package](https://cran.r-universe.dev/multiverse/doc/example-frequentist.html)
 - Yvonne Jansen, *Physical and Tangible Information Visualization*, doctoral dissertation, 2014. [HAL](https://tel.archives-ouvertes.fr/tel-00983501/document)
 
-**Third-party evaluation**
+**Secondary sources**
 
 - K. Danyluk, T. Ulusoy, W. Wei, W. Willett, "Touch and Beyond: Comparing Physical and Virtual Reality Visualizations," *IEEE TVCG*, 2020. [doi:10.1109/TVCG.2020.3023336](https://doi.org/10.1109/TVCG.2020.3023336) / [Author version](https://prism.ucalgary.ca/items/92c1179a-baa8-49eb-8538-2b881d83b283) / [Abstract](https://content.ieeevis.org/year/2021/paper_v-tvcg-9193986.html)
 - S. Stusak, M. Hobe, A. Butz, "If Your Mind Can Grasp It, Your Hands Will Help," *TEI 2016*. [PDF](https://www.medien.informatik.uni-muenchen.de/pubdb/publications/pub/stusak2016tei/stusak2016tei.pdf)

@@ -173,7 +173,7 @@ The fourth is to look at evaluation numbers split by whose they are and what the
 - HSS Tutorials (community site on the Georgia Tech side. Live demos by Bruce Walker, etc.). [Site](https://hss-tutorials.github.io/) / [YouTube](https://www.youtube.com/@HSS-Tutorials)
 - Sonification Sandbox (Georgia Tech Sonification Lab). [Page](http://sonify.psych.gatech.edu/research/sonification_sandbox/)
 
-**Third-party assessments**
+**Secondary sources**
 
 - Brandon Biggs's remark (in the Georgia Tech news article above; an article from the co-developer). [Article](https://cc.gatech.edu/news/649087/new-browser-based-chart-builder-gives-line-graphs-scatterplots-their-own-audio-track)
 - Hyeok Kim, Yea-Seul Kim, Jessica Hullman, “Erie: A Declarative Grammar for Data Sonification,” CHI 2024. [arXiv:2402.00156](https://arxiv.org/abs/2402.00156)

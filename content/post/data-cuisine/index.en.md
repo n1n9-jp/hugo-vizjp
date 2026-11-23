@@ -165,7 +165,7 @@ A work by the same Stefaner that uses physical material is [Perpetual Plastic](/
 - Régine Debatty, "Data Cuisine, food as data expression," *We Make Money Not Art*, 2014-07-02 (interview with Stefaner and Jaschko). [Article](https://we-make-money-not-art.com/?p=7303)
 - Data Cuisine official site (would not open from my environment; text not checked). [data-cuisine.net](http://data-cuisine.net/)
 
-**Third-party assessments**
+**Secondary sources**
 
 - Kyle Vanhemert, "These Weird Meals Are Actually Clever Data Visualizations," *WIRED*, 2014-07-24. [Article](https://www.wired.com/2014/07/data-cuisine/)
 - "Data Cuisine Lets You Have Your Data and Eat It, Too," *Core77*, 2014-06-30. [Article](https://www.core77.com/posts/27214/Data-Cuisine-Lets-You-Have-Your-Data-and-Eat-It-Too)

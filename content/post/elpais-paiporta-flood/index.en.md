@@ -171,7 +171,7 @@ Finally, check the numbers in entry forms and retrospectives against the numbers
 - Luis Sevillano, "Paiporta under water: reconstructing a deadly flood" (portfolio): https://luissevillano.net/work/paiporta-under-water/
 - Sigma Awards 2025 entry form (listing site; Spanish original and machine translation): https://sigma-awards.data-visualization.jp/entries/2025-s-0032/
 
-**Third-party evaluation**
+**Secondary sources**
 
 - GIJN, "Announcing the Sigma Awards 2025 Shortlist": https://www.sigmaawards.org/announcing-the-sigma-awards-2025-shortlist/
 - GIJN, announcement of the 2025 Sigma Awards winners: https://www.sigmaawards.org/from-flammable-buildings-to-slaverys-hidden-legacy-to-tainted-groundwater-projects-from-10-countries-win-gijns-2025-sigma-awards/

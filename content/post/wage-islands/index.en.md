@@ -30,7 +30,7 @@ It began at Re3Storyhack, a hackathon on social issues. In an interview with Vic
 
 > At Re3Storyhack I worked with Fast Food Forward who have been fighting to raise minimum wages for fast food workers to 15 dollars an hour. I thought, what if the fight was framed around access not just wages?
 
-He teamed up with Fast Food Forward, which was campaigning to raise the minimum wage for fast food workers to $15 an hour, and wondered whether the fight could be framed as a matter of "access" and not only of wages. He goes on to recall the cover of New York magazine after Hurricane Sandy, with Manhattan in the dark, and says he wanted to produce that intuitive feeling in a work based on data.
+He teamed up with Fast Food Forward, which was campaigning to raise the minimum wage for fast food workers to $15 an hour, and wondered whether the fight could be framed as a matter of "access" and not only of wages. He goes on to recall the cover of New York magazine after Hurricane Sandy, with Manhattan, and says he wanted to produce that intuitive feeling in a work based on data.
 
 The artist's description appears to have been on his old official site, studioijeoma.com, but I could not open it. The passage below is from a repost on the "artresearch" board at scrapbox.io.
 
@@ -118,7 +118,7 @@ dataphys.org, a list of physical visualizations by data physicalization research
 
 > The "Wage Islands" installation by Ekene Ijeoma makes clever use of water as a data query device.
 
-It says the work makes clever use of water as a data query device. It is classified as "Active physical visualization." This is a remark that sees the water not as a material but as an operation that filters by a condition.
+It says the work makes clever use of water as a data query device. It is classified as "Active physical visualization." This can be read as a remark that sees the water not as a material but as an operation that filters by a condition.
 
 Marina Garcia-Vasquez of Vice sees it as a tool for civic debate.
 

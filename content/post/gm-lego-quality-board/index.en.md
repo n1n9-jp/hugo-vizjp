@@ -136,7 +136,7 @@ Schneider's report says that because LEGO invites play, the first version built 
 - Mark Wilson, "How GM Is Saving Cash Using Legos As A Data Viz Tool," *Fast Company / Co.Design*, 2012 (text not checked because of bot blocking). https://www.fastcompany.com/1669468/how-gm-is-saving-cash-using-legos-as-a-data-viz-tool
 - The Daily Drive, "GM Plays with Legos (Video)," 2012 (not checked; the domain is gone). http://cgdailydrive.com/gm-plays-with-legos/
 
-**Third-party assessments**
+**Secondary sources**
 
 - Nick Thorpe & Paige Mulholland, "3D Card Walls," *P2 Magazine* Issue 4, ThoughtWorks, 2013-10. https://thoughtworks.github.io/p2/issue04/3d-cardwall
 - Daniel K. Schneider, "Visualisation de projets de thèse avec un dispositif physique et constructif," EIAH 2015. https://tecfa.unige.ch/tecfa/talks/schneide/eiah-2015/Schneider_EIAH2015-lego-final.pdf (related wiki: https://edutechwiki.unige.ch/en/Lego-compatible_thesis_project_board )

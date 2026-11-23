@@ -131,7 +131,7 @@ The assessments each point to a different aspect. The first concerns the film's 
 
 The assessment is that it used techniques of cinematic storytelling to give a fresh view of history.
 
-The second is an experience that goes beyond passive viewing. The work received the SXSW Interactive Innovation Award in 2016. According to PhillyVoice, this award honors experiences that "move beyond passive viewership." The design that pauses and lets viewers touch the chart can be read as fitting that description.
+The second is an experience that goes beyond passive viewing. The work received the SXSW Interactive Innovation Award in 2016. According to PhillyVoice, this award honors an experience that "moves beyond passive viewership." The design that pauses and lets viewers touch the chart can be read as fitting that description.
 
 ![To the left of a screen showing rows of white human figures and a US flag, four laurel-wreath badges are lined up, including IIB Awards Gold and SXSW Winner](images/vimeo-thumbnail-awards.jpg)
 

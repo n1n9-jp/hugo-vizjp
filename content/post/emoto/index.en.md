@@ -164,7 +164,7 @@ Finally, write down the bias in the data outside the work. From the relief alone
 - Interview with the makers (remarks by Stefaner and Thiel), The Creators Project / VICE: https://www.vice.com/en/article/data-visualization-sculpture-shows-twitter-reactions-to-london-2012-olympic-games/
 - dataphys.org, "Emoto: Projection Augmented Heatmaps of Twitter Data": https://dataphys.org/list/emoto-projection-augmented-heatmaps-of-twitter-data/
 
-**Third-party evaluation**
+**Secondary sources**
 
 - Andy Kirk, "'emoto': Visualising the emotional response to London 2012," *Visualising Data*, 2012-07-19: https://visualisingdata.com/2012/07/emoto-visualising-the-emotional-response-to-london-2012/
 - Julia Kaganskiy, "Data Visualization Sculpture Shows Twitter Reactions To London 2012 Olympic Games," *The Creators Project* / VICE, 2012-09-20: https://www.vice.com/en/article/data-visualization-sculpture-shows-twitter-reactions-to-london-2012-olympic-games/

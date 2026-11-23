@@ -175,7 +175,7 @@ Fifth, attach the legend and the source to the work. The kit includes a card wit
 - “Cork knitters make giant textile record,” RTÉ Archives (broadcast 2005-08-24). [Archive](https://www.rte.ie/archives/2015/0824/723181-cork-knitters-make-giant-textile-record)
 - English Wikipedia, “The Tempestry Project” (version of 2026-04-16 consulted). [Wikipedia](https://en.wikipedia.org/wiki/The_Tempestry_Project)
 
-**Third-party assessments**
+**Secondary sources**
 
 - “A knitting movement of weather data to document climate change,” *Hindustan Times*, 2019-01-06. [Article](https://www.hindustantimes.com/india-news/a-knitting-movement-of-weather-data-to-document-climate-change/story-cHzHw0KuVLEAAaIt1PphjM.html)
 - Berman Museum of Art exhibition text. [Exhibition page](https://ursinus-archive.livewhale.net/live/profiles/4975-mapping-climate-change)

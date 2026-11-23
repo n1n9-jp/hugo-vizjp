@@ -174,7 +174,7 @@ Even so, a chart of length **does not show how the routes are used**. As Loua se
 - É. Cheysson, "Les méthodes de statistique graphique à l'Exposition universelle de 1878," *Journal de la Société statistique de Paris*, 19, 1878, pp. 323–333. [Numdam](https://www.numdam.org/item/JSFS_1878__19__323_0/)
 - David Rumsey Map Collection, Copyright and Permissions. [Terms of use](https://www.davidrumsey.com/about/copyright-and-permissions)
 
-**Third-party assessments**
+**Secondary sources**
 
 - T. Loua, "Bibliographie. L'Album de statistique graphique pour 1879," *Journal de la Société statistique de Paris*, 20, 1879, p. 308. [Numdam](https://www.numdam.org/item/JSFS_1879__20__308_0/)
 - Michael Friendly, "The Golden Age of Statistical Graphics," *Statistical Science*, 23(4), 2008, pp. 502–535. [doi:10.1214/08-STS268](https://doi.org/10.1214/08-STS268) / [arXiv](https://arxiv.org/abs/0906.3979)

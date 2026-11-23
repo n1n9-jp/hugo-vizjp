@@ -153,7 +153,7 @@ Fourth, publish the data and the code. The notebook and the CSV of five-minute v
 - Sigma Awards listing site (Data Visualization Japan), entry page 2024-s-0002 (original text of the application). https://sigma-awards.data-visualization.jp/entries/2024-s-0002/
 - Grist, Republish page for the article (republication terms). https://grist.org/project/accountability/koch-oxbow-port-arthur-texas-clean-air-act-pollution/republish/
 
-**Third-party assessments**
+**Secondary sources**
 
 - The Sigma Awards, "Meet the winners of the Sigmas 2024 for data journalism". https://www.sigmaawards.org/meet-the-winners-of-the-sigmas-2024-for-data-journalism/
 - Public Health Watch / Investigative Reporting Workshop, Savanna Strott & Riley Rogerson, "Case closed?", 2022-02-17. https://archive.investigativereportingworkshop.org/investigation/case-closed

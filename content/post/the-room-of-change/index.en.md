@@ -136,7 +136,7 @@ The third is to depict the future as a condition. In this work, the part running
 - [Broken Nature portrait #3: Accurat—The Room of Change](http://www.brokennature.org/broken-nature-portrait-3-accurat-the-room-of-change/)
 - [Broken Nature Checklist](http://www.brokennature.org/checklist/)
 
-**Third-party assessments**
+**Secondary sources**
 
 - *The New York Times*, [The End Is Nigh. Can Design Save Us?](https://www.nytimes.com/2019/03/20/arts/design/milan-triennial-restorative-design.html) (2019-03-20. Corrected to 2400.)
 - Il Post, [“Broken Nature” e come il design potrebbe salvare il mondo](https://www.ilpost.it/2019/02/28/broken-nature-triennale/) (2019-02-28)

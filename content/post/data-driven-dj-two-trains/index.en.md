@@ -171,7 +171,7 @@ The fourth is to publish the rules and the code, and to attach how things were c
 - Data source: U.S. Census Bureau, American Community Survey 2011 Release. http://www.census.gov/acs/www/data_documentation/2011_release/
 - Data source: NYC Open Data, Subway Entrances. https://data.cityofnewyork.us/Transportation/Subway-Entrances/drex-xx56
 
-**Third-party assessments**
+**Secondary sources**
 
 - Allison Meier, "Data-Driven Music for the Disharmony of New York's Income Inequality," *Hyperallergic*, 2015-02-10. https://hyperallergic.com/180725/data-driven-music-to-for-the-disharmony-of-new-yorks-income-inequality/
 - Molly Sheridan, "Data-Driven DJ Brian Foo: Statistics That Sing," *New Music USA*, 2015-07-22. https://newmusicusa.org/?p=277105

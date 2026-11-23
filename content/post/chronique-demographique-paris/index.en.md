@@ -170,7 +170,7 @@ The occlusion problem can be read as answered with the cross-section. In the cro
 - Jacques Bertin, "La cartographie statistique automatique", *Mathématiques et sciences humaines*, 17, 1966, pp.71-76 — [https://www.numdam.org/item/MSH_1966__17__71_0/](https://www.numdam.org/item/MSH_1966__17__71_0/) (PDF: [https://www.numdam.org/item/MSH_1966__17__71_0.pdf](https://www.numdam.org/item/MSH_1966__17__71_0.pdf))
 - Jacques Bertin, Carte de France des densités exprimées par stéréogramme (BnF GE CC-5541 (19-46)), DESIGNSHS — [https://laboratoire-graphique.fr/plateforme/document/?id=9041__carte-de-france-des-densites-exprimees-par-stereogramme](https://laboratoire-graphique.fr/plateforme/document/?id=9041__carte-de-france-des-densites-exprimees-par-stereogramme)
 
-**Third-party assessments**
+**Secondary sources**
 
 - Pierre Dragicevic, dataphys.org "1897 – Stop Motion Animation" — [https://dataphys.org/list/stop-motion-animation/](https://dataphys.org/list/stop-motion-animation/)
 - Jessica Martin, "Le laboratoire de graphique, au-delà de Jacques Bertin ? Les femmes du laboratoire de graphique", *Design Arts Medias*, 2023 — [https://journal.dampress.org/issues/femmes-de-sciences/le-laboratoire-de-graphique-au-dela-de-jacques-bertin-les-femmes-du-laboratoire-de-graphique](https://journal.dampress.org/issues/femmes-de-sciences/le-laboratoire-de-graphique-au-dela-de-jacques-bertin-les-femmes-du-laboratoire-de-graphique)

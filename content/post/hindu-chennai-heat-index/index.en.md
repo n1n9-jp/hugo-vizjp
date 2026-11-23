@@ -161,7 +161,7 @@ The third is to state gaps and anomalies inside the chart. The blank of "Missing
 - The Sigma Awards, "Remarkable diversity, confronting some of the most urgent issues of our time: announcing the 2026 Sigma Awards shortlist". [Announcement](https://www.sigmaawards.org/remarkable-diversity-confronting-some-of-the-most-urgent-issues-of-our-time-announcing-the-2026-sigma-awards-shortlist/)
 - The Sigma Awards, "From toxic supply chains in Africa to Baltic sabotage to stolen children in Syria: 10 data projects win 2026 Sigma Awards". [Announcement](https://www.sigmaawards.org/from-toxic-supply-chains-in-africa-to-baltic-sabotage-to-stolen-children-in-syria-10-data-projects-win-2026-sigma-awards/)
 
-**Third-party assessments**
+**Secondary sources**
 
 - E. R. Kuras et al., "Opportunities and Challenges for Personal Heat Exposure Research," *Environmental Health Perspectives*, 125(8):085001, 2017. [PubMed](https://pubmed.ncbi.nlm.nih.gov/28796630/) / [doi:10.1289/EHP556](https://doi.org/10.1289/EHP556)
 - NOAA/NWS Weather Prediction Center, "The Heat Index Equation". [Explanation](https://www.wpc.ncep.noaa.gov/html/heatindex_equation.shtml)

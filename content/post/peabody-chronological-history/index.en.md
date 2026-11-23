@@ -168,7 +168,7 @@ The fourth is to check whether the rules fit the data format. The Shape of Histo
 - Lauren F. Klein et al., "The Shape of History: Reimagining Elizabeth Palmer Peabody's Feminist Visualization Work," *Feminist Media Histories* 3(3), 2017, 149–153. [UC Press](https://online.ucpress.edu/fmh/article/3/3/149/34211) (main text not read)
 - Lauren F. Klein et al., *Data by Design: An Interactive History of Data Visualization, 1789–1900*, MIT Press, 2026. Chapter 4, "Knowledge." [dataxdesign.io](https://dataxdesign.io/) / [Text and figure data (GitHub)](https://github.com/EmoryDHLab/data-by-design)
 
-**Third-party assessments**
+**Secondary sources**
 
 - Jessica DeSpain, "The Feminist Forebears of Affective Design," *Commonplace* 18.1 (Winter 2018). [Article](https://commonplace.online/article/feminist-forebears/)
 - Hunter Dukes, Adam Green, "Visualizing History: The Polish System," *The Public Domain Review*. [Article](https://publicdomainreview.org/collection/visualizing-history-the-polish-system)

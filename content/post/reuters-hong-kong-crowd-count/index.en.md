@@ -127,7 +127,7 @@ The correspondence between graphics and data is summarized below.
 | Measurement-time graphic | Times of the 30-second measurements | Horizontal position is time, one dot is one measurement, spacing is the density of measurements |
 | 15-minute bar chart | Extrapolated numbers of people, totaled for each 15 minutes | Bar length is the number of people, horizontal position is the time slot |
 
-The dots and bars line up vertically on the same time axis. Comparing them, the reader can check which bars are values stretched from few measurements, it can be read. On the other hand, none of the graphics shows the extrapolation multipliers, the raw counts or the margin of error. The source is given as "Source: Reuters reporting," and as far as the piece and its links show, the data has not been published.
+The dots and bars line up vertically on the same time axis. It can be read that, by comparing them, the reader can check which bars are values stretched from few measurements. On the other hand, none of the graphics shows the extrapolation multipliers, the raw counts or the margin of error. The source is given as "Source: Reuters reporting," and as far as the piece and its links show, the data has not been published.
 
 ## How third parties saw this piece
 
@@ -155,7 +155,7 @@ What we can take away is a structure for showing how a single number was made by
 
 The graphic of place fixes the scope of what was counted. That the counting location was chosen before the fork and with no shortcut can be checked with the map and photos. For the people outside that scope, the piece says so in words. The piece makes this division of roles clear.
 
-The graphic of time shows how the sample was taken. Just by lining up dots, we can see when and how densely the counting was done. If the result bars are aligned with the time axis, we can compare which values were stretched from a thin sample, it can be read.
+The graphic of time shows how the sample was taken. Just by lining up dots, we can see when and how densely the counting was done. It can be read that, if the result bars are aligned with the time axis, we can compare which values were stretched from a thin sample.
 
 On the other hand, the extrapolation multipliers, the raw counts and the margin of error are not in a graphic. As in the 2023 paper, there is another path: attaching the range of the estimate as a number. A graphic that discloses the method and a graphic that shows the range are different things. This piece drew the former, split into place, time and number of people.
 

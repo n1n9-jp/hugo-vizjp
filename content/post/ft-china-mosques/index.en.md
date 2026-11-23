@@ -168,7 +168,7 @@ Finally, there is Yusupov's point. The before-and-after form is powerful, but ei
 - Sam Joiner, post on X, 2023-11-27. [Thread Reader](https://threadreaderapp.com/thread/1729038848410415345.html)
 - Human Rights Watch, "China: Mosques Shuttered, Razed, Altered in Muslim Areas," 2023-11-22 (an earlier report cited in the text of the piece). [HRW](https://www.hrw.org/news/2023/11/22/china-mosques-shuttered-razed-altered-muslim-areas)
 
-**Third-party evaluation**
+**Secondary sources**
 
 - Sigma Awards 2024 judges' comments. [Sigma Awards entries](https://sigma-awards.data-visualization.jp/entries/2024-s-0003/)
 - Amy Hawkins, Elena Morresi, "Last major Arabic-style mosque in China loses its domes," *The Guardian*, 2024-05-25. [The Guardian](https://www.theguardian.com/world/article/2024/may/25/last-major-arabic-style-mosque-in-china-loses-its-domes) (checked via a [reprint on Yahoo News UK](https://uk.news.yahoo.com/last-major-islamic-style-mosque-040015078.html))

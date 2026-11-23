@@ -107,7 +107,7 @@ The two encodings are summarized below.
 | Average pre-tax income | Height of the stack | B | Upworthy |
 | Federal taxes | Bricks removed from the stack | B | The Week |
 | Average post-tax income | Height remaining after removal | B | Wessel's article, The Week |
-| Income of the top 1% | Not made into a stack; the video says it would take more than 200 bricks | B | Deseret News |
+| Income of the top 1% | Not made into a stack; it is said to take more than 200 bricks | B | Deseret News |
 
 **Going by the press coverage, both videos can be read as using five stacks, differing in what moves: a figure in one, bricks in the other.** In Video A the figure moves; in Video B the bricks decrease. The dataphys.org tag "rearrangeable" can be read as pointing to this stacking, removing, and moving.
 

@@ -177,7 +177,7 @@ The third is to separate the parts that carry data from the parts that do not. S
 - NRCS Report Generator: daily SWE and precipitation for SNOTEL 462 Ebbetts Pass (used for the reference-value aggregation): https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/462:CA:SNTL%7Cid=%22%22%7Cname/1979-10-01,2010-09-30/WTEQ::value,PREC::value
 - dataphys.org, "2011 – Adrien Segal's Data Furniture" (added by Yvonne Jansen; quotes the former work page): https://dataphys.org/list/data-furniture/
 
-**Third-party assessments**
+**Secondary sources**
 
 - H. Djavaherpour, F. Samavati, A. Mahdavi-Amiri, F. Yazdanbakhsh, S. Huron, R. Levy, Y. Jansen, L. Oehlberg, "Data to Physicalization: A Survey of the Physical Rendering Process," EuroVis 2021 STAR, *Computer Graphics Forum* 40(3): https://arxiv.org/abs/2102.11175
 - Michele Banks, "The Art of Science: Cold, Hard Data in Warm, Soft Wood," *The Finch & Pea*, 2014-05-14: https://thefinchandpea.com/2014/05/14/the-art-of-science-cold-hard-data-in-warm-soft-wood/

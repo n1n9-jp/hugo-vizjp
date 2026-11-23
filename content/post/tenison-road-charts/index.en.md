@@ -165,7 +165,7 @@ The fourth is to prepare a place to receive the voices that dropped out because 
 - Microsoft Research HXD Design, "Physical pie charts" / "Physical bar charts" / "Physical Charts workings" (Vimeo, 2014-09-13): https://vimeo.com/106053695 / https://vimeo.com/106053696 / https://vimeo.com/106053697
 - dataphys.org, "Dynamic Physical Charts Display Community Data" (contributed by David Sweeney): https://dataphys.org/list/dynamic-physical-charts-to-communicate-community-data/
 
-**Third-party assessments**
+**Secondary sources**
 
 - Information is Beautiful Awards 2014, "Physical Charts" (longlist and shortlist in the Data visualization category): https://www.informationisbeautifulawards.com/showcase/504-physical-charts
 - Taher, F., Jansen, Y., Woodruff, J., Hardy, J., Hornbæk, K., Alexander, J. (2017). "Investigating the Use of a Dynamic Physical Bar Chart for Data Exploration and Presentation." *IEEE TVCG* 23(1), 451–460. doi:10.1109/TVCG.2016.2598498: https://purehost.bath.ac.uk/ws/files/211082383/VIS16_PhysicalBarChart.pdf (In this public version, the reference number [26] in the quoted passage points to a different work, so confirmation in the published version is needed.)

@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "Burning Logs with a Glass Ball to Record Sunshine: Charles Sowers's Solar Totems"
 slug = "solar-totems"
 date = "2026-11-05"
-description = "Solar Totems is a public sculpture in which a glass ball focuses sunlight to burn a record of sunshine into logs. Each day adds one burned line, and three logs hold one year each."
+description = "Solar Totems is a public sculpture in which a glass ball focuses sunlight to burn a record of sunshine into logs. The burn becomes a line as the sun moves, each day adds one line, and three logs hold one year each."
 categories = [
     "consume"
 ]
