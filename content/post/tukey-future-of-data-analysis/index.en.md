@@ -41,7 +41,7 @@ On page 3, he asks: "Is it not time to seek out novelty in data analysis?"
 
 ## Three conditions for a science
 
-On pages 4–5, he lists three conditions for being a science. The passage below sets out that argument as he wrote it.
+On pages 4–5, he lists three conditions for being a science. The figure at the top of this article sets out that argument as it stands.
 
 > There are diverse views as to what makes a science, but three constituents will be judged essential by most, viz: (a1) intellectual content, (a2) organization into an understandable form, (a3) reliance upon the test of experience as the ultimate standard of validity. By these tests, mathematics is not a science, since its ultimate standard of validity is an agreed-upon sort of logical consistency and provability. As I see it, data analysis passes all three tests, and I would regard it as a science, one defined by a ubiquitous problem rather than by a concrete subject.
 
