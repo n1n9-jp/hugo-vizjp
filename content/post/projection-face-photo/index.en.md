@@ -14,6 +14,9 @@ tags = [
     "D3.js"
 ]
 image = "images/cover-mercator.png"
+series = ["interactive-explainers"]
+series_weight = 40
+seriesTitle = "Projecting a Face Photo Like a Map: Learning Map Projections with Face Images"
 +++
 
 "Kao no gazō de manabu chizu tōeihō" (Learning Map Projections with Face Images) is an interactive page that projects a face photo or GeoJSON with map projections, so you can compare how the distortion differs by projection. Switching among eight projections changes the shape and area of the same image. It accepts uploaded images, a webcam, and sample data.

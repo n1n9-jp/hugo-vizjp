@@ -87,6 +87,7 @@ params:
             - speculative-design
             - data-physicalization
             - data-sonification
+            - interactive-explainers
     author:
         orcid: https://orcid.org/0009-0005-2429-3279
         name: 矢崎裕一

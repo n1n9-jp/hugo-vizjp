@@ -14,6 +14,9 @@ tags = [
     "sketching"
 ]
 image = "images/cover-compare-six.png"
+series = ["interactive-explainers"]
+series_weight = 10
+seriesTitle = "How a Bar Chart Becomes a Feather: The Feather Study Simulator"
 +++
 
 The Feather Study Simulator is an interactive page that reproduces the five steps by which a time series of emotion scores goes from a bar chart to the shape of a feather. It follows the making-of article for "One Angry Bird," a work by the data visualization studio Periscopic, and lets you trace how the form was settled by adjusting synthetic data and parameters.

@@ -14,6 +14,9 @@ tags = [
     "スケッチ"
 ]
 image = "images/cover-compare-six.png"
+series = ["interactive-explainers"]
+series_weight = 10
+seriesTitle = "棒グラフが羽根になるまでを試す──Feather スタディ・シミュレーター"
 +++
 
 「Feather スタディ・シミュレーター」は、感情スコアの時系列が、棒グラフから羽根の形になるまでの5段階を再現できるインタラクティブなページです。データ可視化スタジオ Periscopic の作品「One Angry Bird」のメイキング記事に沿って、合成データとパラメータを動かしながら、形が決まっていく流れをたどれます。
