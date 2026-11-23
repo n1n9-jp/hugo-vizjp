@@ -108,7 +108,7 @@ Around Paris. The small diagram in the center is the Seine département, and the
 
 Source: Ministère des Travaux Publics (1880), David Rumsey Map Collection, held at the David Rumsey Map Center, Stanford Libraries (CC BY-NC-SA 3.0)
 
-For the Seine département, which includes Paris, the five columns of the table add up to about 1,010 km (the author's calculation), so the semicircle is small. Meanwhile its length per km² is 2.11, among the highest of all départements, and per 100 inhabitants it is 0.04. Calculated with the scale in the legend, the radius of the blue quarter-circle is about 7.3 mm and that of the yellow about 1.4 mm (the author's calculation). A large blue attaches below the small semicircle, and the yellow is almost invisible.
+For the Seine département, which includes Paris, the five columns of the table add up to about 1,010 km (the author's calculation), so the semicircle is small. Meanwhile its length per km² is 2.11, the highest level of all départements, and per 100 inhabitants it is 0.04. Calculated with the scale in the legend, the radius of the blue quarter-circle is about 7.3 mm and that of the yellow about 1.4 mm (the author's calculation). A large blue attaches below the small semicircle, and the yellow is almost invisible.
 
 In the neighboring Seine-et-Oise, both ratios are 1.29. Even so, the radius of the yellow quarter-circle comes to about 8.0 mm and that of the blue to about 5.7 mm (the author's calculation), because the scales of the two ratios differ, 0.005 m and 0.007 m. This suggests that **the left and right quarter-circles were not made to be compared in size on the same yardstick**. What can be compared is left with left and right with right, across départements.
 
@@ -174,7 +174,7 @@ Even so, a chart of length **does not show how the routes are used**. As Loua se
 - É. Cheysson, "Les méthodes de statistique graphique à l'Exposition universelle de 1878," *Journal de la Société statistique de Paris*, 19, 1878, pp. 323–333. [Numdam](https://www.numdam.org/item/JSFS_1878__19__323_0/)
 - David Rumsey Map Collection, Copyright and Permissions. [Terms of use](https://www.davidrumsey.com/about/copyright-and-permissions)
 
-**Secondary sources**
+**Third-party assessments**
 
 - T. Loua, "Bibliographie. L'Album de statistique graphique pour 1879," *Journal de la Société statistique de Paris*, 20, 1879, p. 308. [Numdam](https://www.numdam.org/item/JSFS_1879__20__308_0/)
 - Michael Friendly, "The Golden Age of Statistical Graphics," *Statistical Science*, 23(4), 2008, pp. 502–535. [doi:10.1214/08-STS268](https://doi.org/10.1214/08-STS268) / [arXiv](https://arxiv.org/abs/0906.3979)

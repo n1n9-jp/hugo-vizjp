@@ -156,7 +156,7 @@ A long-exposure photograph combines these in a single image. The shape of the li
 - Sara Wylie et al., "Successful thermal fishing bob test: mapping the Kendall power plant thermal plume," Public Lab, 2014. [publiclab.org](https://publiclab.org/notes/Sara/06-13-2014/successful-thermal-fishing-bob-test-mapping-the-kendall-power-plant-thermal-plume)
 - MIT Media Lab, "SeeBoat (Thermal Fishing Bob): In-place environmental data visualization" (project page. Could not be reached, so its text has not been checked). [media.mit.edu](https://www.media.mit.edu/projects/thermal-fishing-bob-in-place-environmental-data-visualization/overview/)
 
-**Secondary sources**
+**Third-party assessments**
 
 - Cambridge Arts, "Untold Possibilities at the Last Minute: Artists Respond to Climate Change" (exhibition overview, 2019). [untoldpossibilities.org](https://www.untoldpossibilities.org/)
 - Erik Hanley et al., "Mystic Generator Station Thermal Fishing Bob Event with Mare Liberum," Public Lab, 2015. [publiclab.org](https://publiclab.org/wiki/mystic-generator-station-thermal-fishing-bob-event-with-mare-liberum)

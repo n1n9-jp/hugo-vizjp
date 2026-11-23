@@ -171,7 +171,7 @@ Uncertainty can be placed in a separate layer. The main story relies on point es
 - NRK, "NRK avslører: 44.000 inngrep i norsk natur på fem år," 2024-01-05. https://www.nrk.no/dokumentar/xl/nrk-avslorer_-44.000-inngrep-i-norsk-natur-pa-fem-ar-1.16573560
 - Venter, Czúcz, Kumano-Ensby, Salzenstein, Simensen, Solvang, Støstad, "Europe's land take and the loss of nature and cropland to artificial surfaces," *Nature Communications*, 2026-04-13. https://www.nature.com/articles/s41467-026-71931-w (doi:10.1038/s41467-026-71931-w, CC BY 4.0. Its authors overlap with the work's creators)
 
-**Secondary sources**
+**Third-party assessments**
 
 - The Sigma Awards, "From Toxic Supply Chains in Africa to Baltic Sabotage to Stolen Children in Syria: 10 Data Projects Win 2026 Sigma Awards" (judges' comment). https://www.sigmaawards.org/from-toxic-supply-chains-in-africa-to-baltic-sabotage-to-stolen-children-in-syria-10-data-projects-win-2026-sigma-awards/
 - *Nature Communications* (as a peer-reviewed paper). https://www.nature.com/articles/s41467-026-71931-w

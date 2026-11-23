@@ -64,11 +64,11 @@ According to the Wellcome record, flaps are pasted over the chest and abdomen of
 
 Source: Wellcome Collection (Public Domain Mark) / Wellcome Collection, *Anathomia oder abconterfettung eynes Mans leib…* (1544); the torso area is cropped from images 1–7 and placed side by side
 
-The figure above arranges Wellcome's images 1 to 7 of the male figure from left to right. Along the way, the same layer appears twice. In the second image, PULMO (lung), COR (heart), DIAFRAGMA (diaphragm), STOMACHUS (stomach) and SPLEN (spleen) are printed over the organs. At the far right, the ribs and spine appear.
+The figure above arranges Wellcome's images 1 to 7 of the male figure from left to right. Along the way, each layer appears twice. In the second image, PULMO (lung), COR (heart), DIAFRAGMA (diaphragm), STOMACHUS (stomach) and SPLEN (spleen) are printed over the organs. At the far right, the ribs and spine appear.
 
 According to Carlino, in Vogtherr's edition the name of each organ is printed on top of it, mainly in Latin. Some organs are printed once more in the surrounding text, where they come with a German name and a short explanation. The male and female figures were printed from the same blocks, and only the head and the flaps for the chest and the genitals were swapped. Carlino reads this as a way of keeping costs down.
 
-In 1539, Vogtherr also issued, from the same blocks, a small booklet of easy anatomy in German. From this, Carlino concludes that the readers were neither specialists nor scholars.
+In 1539, Vogtherr also issued, from the same blocks, a small booklet of easy anatomy in German. From this, Carlino infers that the readers were neither specialists nor scholars.
 
 ## From a Single Sheet to a Book of About 120 Flaps
 

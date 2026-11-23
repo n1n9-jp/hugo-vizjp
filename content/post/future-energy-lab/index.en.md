@@ -141,7 +141,7 @@ In Jain's telling, the reaction "I can't tell my son to give up his car" is what
 - LeAnne Graves & Thamer Al Subaihi, [UAE Energy Plan aims to cut CO2 emissions 70% by 2050](https://www.thenationalnews.com/uae/uae-energy-plan-aims-to-cut-co2-emissions-70-by-2050-1.51582) (*The National*, 2017-01-10)
 - [UAE unveils long-term energy strategy](https://www.world-nuclear-news.org/Articles/UAE-unveils-long-term-energy-strategy) (World Nuclear News)
 
-**Secondary sources**
+**Third-party assessments**
 
 - NPR / TED Radio Hour, [Anab Jain: Can A Glimpse Of Tomorrow, Change Our Decisions Today?](https://text.npr.org/547886265) (2017-09-15)
 - BBC Radio 4, *Positive Thinking* (2022-08-04). Introduced in [Superflux Featured on BBC Radio 4](https://superflux.in/index.php/superflux-featured-on-bbc-radio-4/)

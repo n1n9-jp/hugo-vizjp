@@ -93,7 +93,7 @@ Source: Ministère des Travaux Publics (1880), line chart of the world's railway
 
 The horizontal axis here follows the actual intervals between years. The gap between the ticks for 1875 and 1878 is narrower than the others. The value for 1878 is 330.4 (thousand km), so the world's railways had reached about 330,000 km.
 
-Within a single sheet, time is handled in two ways. The glyphs line up points in time as "phases" at equal angles, while the line chart measures time as length. Since the legend itself points out the eight-year interval, it can be read as the makers being aware of the difference in intervals and still equalizing the angles of the glyph. What the glyph was meant to show was not the length of time but the difference in size from one phase to the next.
+Within a single sheet, time is handled in two ways. The glyphs line up points in time as "phases" at equal angles, while the line chart measures time as length. Since the legend itself points out the eight-year interval, it can be read as the makers being aware of the difference in intervals and still equalizing the angles of the glyph. It can also be read that what the glyph was meant to show was not the length of time but the difference in size from one phase to the next.
 
 ## Countries Moved Off the Map, and the Data Table
 
@@ -165,7 +165,7 @@ The fourth is to decide whether to equalize time by angle or to measure it by le
 - *Album de statistique graphique* 1880, preface (Notice). [Page 1](https://archive.org/details/dr_text-page-notice-12511004) / [Page 2](https://archive.org/details/dr_text-page-notice-continued-12511005)
 - "Bibliographie. Notice relative à l'album de statistique graphique," *Journal de la Société de statistique de Paris*, 22, 1881, pp. 25–28 (excerpt from the *Bulletin de statistique du Ministère des travaux publics*, August 1880). [numdam](http://www.numdam.org/item?id=JSFS_1881__22__25_0) / [PDF](https://www.numdam.org/item/JSFS_1881__22__25_0.pdf)
 
-**Secondary sources**
+**Third-party assessments**
 
 - Michael Friendly, "The Golden Age of Statistical Graphics," *Statistical Science*, 23(4), 2008, pp. 502–535. DOI: 10.1214/08-STS268. [Project Euclid](https://projecteuclid.org/euclid.ss/1242049392) / [PDF](https://www.stat.cmu.edu/~brian/nynke/726-2021/misc%20articles/Friendly_2008_The%20Golden%20Age%20of%20Statistical%20Graphics.pdf)
 - Michael Friendly, *HistDataVis*, Chapter 7. [Online version](https://friendly.github.io/HistDataVis/ch07-golden.html)

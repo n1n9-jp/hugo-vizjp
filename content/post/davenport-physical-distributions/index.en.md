@@ -156,7 +156,7 @@ When you line up participants in a class or workshop, making both a single line 
   - Fig. 3 and 4: https://commons.wikimedia.org/wiki/File:PSM_V59_D461_Evolutionary_shapes_of_scallop_ribs_and_pecten_shapes.png
 - dataphys.org "Davenport's Physical Distributions": https://dataphys.org/list/davenports-physical-distributions/
 
-**Secondary sources**
+**Third-party assessments**
 
 - Pierre Dragicevic, "Davenport's Physical Distributions," dataphys.org: https://dataphys.org/list/davenports-physical-distributions/
 - Willard C. Brinton, *Graphic Methods for Presenting Facts*, Engineering Magazine Co., 1914, pp.164–165 (Fig. 140, 141): https://archive.org/details/graphicmethodsfo00brinrich

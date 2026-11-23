@@ -172,7 +172,7 @@ The other point is separating causes. When you change the mapping, also make a v
 - Stephen Barrass, demo video of the Hypertension Singing Bowl (YouTube, 2014) https://www.youtube.com/watch?v=DE3tolD5Krg
 - Stephen Barrass, "Sound in Data Physicalisation", *Dagstuhl Reports* 8(10), 2019, §5.4 https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume08/issue10/18441/DagRep.8.10.127/DagRep.8.10.127.pdf
 
-**Secondary sources**
+**Third-party assessments**
 
 - Yun Wang, Adrien Segal, Roberta Klatzky, Daniel F. Keefe, Petra Isenberg, Jörn Hurtienne, Eva Hornecker, Tim Dwyer, Stephen Barrass, Theresa-Marie Rhyne, "An Emotional Response to the Value of Visualization", *IEEE Computer Graphics and Applications* 39(5), 2019 (Barrass is a co-author) https://petra.isenberg.cc/publications/papers/Wang_2019_AER.pdf / doi:10.1109/MCG.2019.2923483
 - dataphys.org, "2011 – Stephen Barrass' Physical Data Sonifications" (added by Pierre Dragicevic, recommended by Yvonne Jansen) https://dataphys.org/list/barrass-physical-data-sonifications/

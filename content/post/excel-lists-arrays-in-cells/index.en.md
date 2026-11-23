@@ -190,7 +190,7 @@ Before drawing a figure, the data still has to return to one value per cell. Eve
 - Microsoft Support, "HASALL Function." https://support.microsoft.com/en-us/excel/functions/hasall-function
 - For the author's job title: Insider Blog, "Improving five Excel text functions ... + Compatibility Versions," 2024-12-03. https://techcommunity.microsoft.com/blog/microsoft365insiderblog/improving-five-excel-text-functions-len-mid-search-find-and-replace--compatibili/4339080
 
-**Secondary sources**
+**Third-party evaluation**
 
 - Leila Gharani, "Excel Lists in Cells: Put Multiple Values in One Cell," XelPlus, 2026-09-25. https://www.xelplus.com/excel-lists-in-cells/
 - Office Watch, "Excel List in a Cell: One Cell Now Holds Many Values, but Don't Share It Yet," 2026-09-27. https://office-watch.com/2026/excel-list-in-a-cell/

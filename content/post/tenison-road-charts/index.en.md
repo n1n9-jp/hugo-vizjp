@@ -97,7 +97,7 @@ The design policy is stated in RTD 2015 as follows.
 
 In short: to show the data as clearly as possible, the charts were made to look as similar as possible to the 2D charts they are based on, and for that reason the mechanics and control systems are hidden from the front. The paper also says paper, card, and tape measures were chosen to add warmth and a tactile quality to the data. The charts use power only when a value changes.
 
-The cues the charts use stay within the basic ones: length, angle, and color. Hiding the mechanics from the front can also be read as a way of not breaking the familiar form.
+It can be read that the cues the charts use stay within the basic ones: length, angle, and color. Hiding the mechanics from the front can also be read as a way of not breaking the familiar form.
 
 ## From a Street Party to Five Weeks in the Window
 
@@ -165,7 +165,7 @@ The fourth is to prepare a place to receive the voices that dropped out because 
 - Microsoft Research HXD Design, "Physical pie charts" / "Physical bar charts" / "Physical Charts workings" (Vimeo, 2014-09-13): https://vimeo.com/106053695 / https://vimeo.com/106053696 / https://vimeo.com/106053697
 - dataphys.org, "Dynamic Physical Charts Display Community Data" (contributed by David Sweeney): https://dataphys.org/list/dynamic-physical-charts-to-communicate-community-data/
 
-**Secondary sources**
+**Third-party assessments**
 
 - Information is Beautiful Awards 2014, "Physical Charts" (longlist and shortlist in the Data visualization category): https://www.informationisbeautifulawards.com/showcase/504-physical-charts
 - Taher, F., Jansen, Y., Woodruff, J., Hardy, J., Hornbæk, K., Alexander, J. (2017). "Investigating the Use of a Dynamic Physical Bar Chart for Data Exploration and Presentation." *IEEE TVCG* 23(1), 451–460. doi:10.1109/TVCG.2016.2598498: https://purehost.bath.ac.uk/ws/files/211082383/VIS16_PhysicalBarChart.pdf (In this public version, the reference number [26] in the quoted passage points to a different work, so confirmation in the published version is needed.)

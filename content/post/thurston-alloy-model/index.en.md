@@ -163,7 +163,7 @@ Finally, how precision is stated. The Board's report left behind the scale (1 in
 - R. H. Thurston, "Graphic Diagrams and Glyptic Models," *Transactions of the American Society of Mechanical Engineers*, vol. XIX (1898), pp.514-550. [Internet Archive](https://archive.org/details/transactionsof19amer/page/514)
 - R. H. Thurston, Discussion of the paper of Prof. Howe on the Use of the Tri-Axial Diagram and Triangular Pyramid (AIME, 1899). [OneMine](https://onemine.org/documents/atlantic-city-paper-discussion-of-the-paper-of-prof-howe-on-the-use-of-the-tri-axial-diagram-and-triangular-pyramid-for-graphical-illustration-see-p-346-)
 
-**Secondary sources**
+**Third-party assessments**
 
 - Samuel L. Hoyt, *On the Copper Rich Kalchoids (Copper Tin Zinc Alloys)*, PhD thesis, Columbia University, 1914. [Internet Archive](https://archive.org/details/oncopperrichkalc00hoytrich)
 - Richard J. Howarth, "Sources for a history of the ternary diagram," *The British Journal for the History of Science* 29(3), 1996, pp.337-356. doi:10.1017/S000708740003449X [Cambridge Core](https://www.cambridge.org/core/journals/british-journal-for-the-history-of-science/article/sources-for-a-history-of-the-ternary-diagram/E8DF73C8E8EB183E6F68B7119AE18F71)

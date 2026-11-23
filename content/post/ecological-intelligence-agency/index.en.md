@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "A Government Agency That Speaks in the River's Poetry: Superflux's The Ecological Intelligence Agency"
 slug = "ecological-intelligence-agency"
 date = "2026-08-16"
+lastmod = "2026-11-01"
 description = "A fictional agency translates London river data into poems spoken by the river and a device that reads jars of water. Read here as Superflux's answer to a problem: raw data alone does not move people."
 categories = [
     "consume"
@@ -137,7 +138,7 @@ One more thing: Tovey's caution about the raindrop is, as it stands, a caution f
 - Superflux, [The Ecological Intelligence Agency — Pollution / Sewage / Flooding](https://vimeo.com/superflux/videos) (Vimeo)
 - Policy Lab, [Using experimental methods to reimagine decision-making for the freshwater system, post 2043](https://openpolicy.blog.gov.uk/2024/02/07/using-experimental-methods-to-reimagine-decision-making-for-the-freshwater-system-post-2043/) (2024-02-07)
 
-**Secondary sources**
+**Third-party evaluation**
 
 - LSN Global, [Superflux unveils the Ecological Intelligence Agency](https://www.lsnglobal.com/daily-signals/article/29965/superflux-unveils-the-ecological-intelligence-agency) (2023-09-29)
 - Laura Puttkamer, [If A River Could Speak…](https://parcitypatory.org/2025/08/01/if-a-river-could-speak/) (parCitypatory, 2025-08-01)

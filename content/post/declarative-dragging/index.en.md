@@ -191,7 +191,7 @@ On the other hand, the effort of listing states remains. For operations where co
 - Dragology demo gallery. [joshuahhh.com/dragology/#/demos](https://joshuahhh.com/dragology/#/demos)
 - UIST 2026 (dates and venue). [uist.acm.org/2026](https://uist.acm.org/2026/)
 
-**Secondary sources**
+**Third-party evaluation**
 
 - UIST 2026 Awards. [uist.acm.org/2026/awards](https://uist.acm.org/2026/awards/)
 - spencerc99/playhtml, PR #678 "website: declarative dragging prototype and examples" (body unchecked). [GitHub](https://github.com/spencerc99/playhtml/pull/678)

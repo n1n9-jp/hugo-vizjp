@@ -26,7 +26,7 @@ The performance was one of the Artists Experiment projects run by MoMA's educati
 
 ## April 2015: performing collection data on MoMA's second floor
 
-The performance took place on April 4 and 7, 2015, in MoMA's second-floor contemporary galleries, during regular opening hours (Visionaire World). According to the Vimeo credits, it was directed by John Collins, founder of ERS. The concept was by Collins and the four OCR members Mark Hansen, Ben Rubin, and Jer Thorp, with six performers.
+The performance took place on April 4 and 7, 2015, in MoMA's second-floor contemporary galleries, during regular opening hours (Visionaire World). According to the Vimeo credits, it was directed by John Collins, founder of ERS. The concept was by four people, Collins and OCR's Mark Hansen, Ben Rubin, and Jer Thorp, with six performers.
 
 OCR's project page describes the form of the performance this way:
 

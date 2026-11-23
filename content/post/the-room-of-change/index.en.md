@@ -56,9 +56,9 @@ There is a reason for the handwork as well. Accurat explains that the materialit
 
 Move closer to the wall and the rules of the pattern become readable. The official way to read it is in two directions: left to right like a book, and at the same time vertically.
 
-The horizontal direction is time. Left is the past, center is the present, right is the future. In a schematic from the production materials, the left wall is assigned 1000-1900 BCE, the front wall 1900-2000, and the right wall 2000-2400. The 100 years of the twentieth century take up a whole wall, and the 400 years beyond take one wall as well. From the diagram, it can be read that the width of the walls does not divide time evenly either.
+The horizontal direction is time. Left is the past, center is the present, right is the future. In a schematic from the production materials, the left wall is assigned 1000 BCE-1900 CE, the front wall 1900-2000, and the right wall 2000-2400. The 100 years of the twentieth century take up a whole wall, and the 400 years beyond take one wall as well. From the diagram, it can be read that the width of the walls does not divide time evenly either.
 
-![A floor plan of the three walls: the left wall covers 1000-1900 BCE, the front wall 1900-2000, the right wall 2000-2400](images/detail-1.jpg)
+![A floor plan of the three walls: the left wall covers 1000 BCE-1900 CE, the front wall 1900-2000, the right wall 2000-2400](images/detail-1.jpg)
 
 Accurat / Giorgia Lupi
 
@@ -123,7 +123,7 @@ The first is to design the distant view and the close view separately. From far 
 
 The second is to put two views at different scales in the same place. The satellite's twenty years show large differences, and the wall's 3,400 years show stories close to daily life. Layer thin region-specific lines, one by one, over thick global lines. From this work, one can take that this lets the figure itself show whose story the numbers tell.
 
-The third is to depict the future as a condition. In this work, the part running to 2400 and the past end-of-the-world prophecies of the Universe chapter line up on the same wall. Lupi writes in her own text that change will *likely* continue, and the NYT called this part a speculative future. From these facts, the extension to 2400 can be read as a "if things continue as they are" conjecture, not a prediction. Showing the speculative part as speculation can be considered part of the work of visualization too.
+The third is to depict the future as a condition. In this work, the part running to 2400 and the past end-of-the-world prophecies of the Universe chapter line up on the same wall. Lupi writes in her own text that change will *likely* continue, and the NYT called this part a speculative future. From these facts, the extension to 2400 can be read as an "if things continue as they are" conjecture, not a prediction. Showing the speculative part as speculation can be considered part of the work of visualization too.
 
 ## References
 
@@ -136,7 +136,7 @@ The third is to depict the future as a condition. In this work, the part running
 - [Broken Nature portrait #3: Accurat—The Room of Change](http://www.brokennature.org/broken-nature-portrait-3-accurat-the-room-of-change/)
 - [Broken Nature Checklist](http://www.brokennature.org/checklist/)
 
-**Secondary sources**
+**Third-party assessments**
 
 - *The New York Times*, [The End Is Nigh. Can Design Save Us?](https://www.nytimes.com/2019/03/20/arts/design/milan-triennial-restorative-design.html) (2019-03-20. Corrected to 2400.)
 - Il Post, [“Broken Nature” e come il design potrebbe salvare il mondo](https://www.ilpost.it/2019/02/28/broken-nature-triennale/) (2019-02-28)

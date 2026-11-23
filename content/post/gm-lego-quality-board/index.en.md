@@ -78,7 +78,7 @@ Jamie Pickett, a GM senior manager in charge of the quality of current vehicles,
 
 In essence: it lets people see issues as a whole, makes the scope and the places to act easier to see, and, unlike a line in a spreadsheet, a block on a board is a strong motivation to solve the problem and take it off.
 
-The comparison is with a line in a spreadsheet. Unlike a table row, a block stays on the board until it is removed. From Pickett's words, **taking the block off the board can be read as the very goal of resolution**. It can be read as an encoding that values surveying the volume and getting people to act over reading precise values.
+The comparison is with a line in a spreadsheet. Unlike a table row, a block can be read as staying on the board until it is removed. From Pickett's words, **taking the block off the board can be read as the very goal of resolution**. It can be read as an encoding that values surveying the volume and getting people to act over reading precise values.
 
 Pastor is also reported to have told Fast Company that the process was three-dimensional while the reports were two-dimensional. However, this is secondhand, quoted by SmartData Collective from Fast Company, and I could not check the original. Nor did the board replace screens: GM also built a digital version.
 
@@ -136,7 +136,7 @@ Schneider's report says that because LEGO invites play, the first version built 
 - Mark Wilson, "How GM Is Saving Cash Using Legos As A Data Viz Tool," *Fast Company / Co.Design*, 2012 (text not checked because of bot blocking). https://www.fastcompany.com/1669468/how-gm-is-saving-cash-using-legos-as-a-data-viz-tool
 - The Daily Drive, "GM Plays with Legos (Video)," 2012 (not checked; the domain is gone). http://cgdailydrive.com/gm-plays-with-legos/
 
-**Secondary sources**
+**Third-party assessments**
 
 - Nick Thorpe & Paige Mulholland, "3D Card Walls," *P2 Magazine* Issue 4, ThoughtWorks, 2013-10. https://thoughtworks.github.io/p2/issue04/3d-cardwall
 - Daniel K. Schneider, "Visualisation de projets de thèse avec un dispositif physique et constructif," EIAH 2015. https://tecfa.unige.ch/tecfa/talks/schneide/eiah-2015/Schneider_EIAH2015-lego-final.pdf (related wiki: https://edutechwiki.unige.ch/en/Lego-compatible_thesis_project_board )

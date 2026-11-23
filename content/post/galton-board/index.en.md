@@ -123,7 +123,7 @@ Today the device is used to illustrate the central limit theorem (per Judd's abs
 
 ## Takeaways
 
-Three things from this device can be carried back into visualization work.
+As I read it, there are three things from this device that can be carried back into visualization work.
 
 The first is to assign the mechanism that produces a result, not the result itself, to parts. Viewers can look at the shot and the pins and explain, in the names of the parts, why the center ends up highest.
 
@@ -150,7 +150,7 @@ The visible diagrams should not be removed from the imagination too soon; statis
 - Galton bibliography. https://galton.org/bibnew/all.html
 - Images: Wikimedia Commons [Quincunx (Galton Box) - Galton 1889 diagram](https://commons.wikimedia.org/wiki/File:Quincunx_(Galton_Box)_-_Galton_1889_diagram.png) / [Galton box](https://commons.wikimedia.org/wiki/File:Galton_box.jpg) / [Tabuleiros de Galton (antes e depois)](https://commons.wikimedia.org/wiki/File:Tabuleiros_de_Galton_(antes_e_depois).jpg)
 
-**Secondary sources**
+**Third-party assessments**
 
 - Stephen M. Stigler, "Darwin, Galton and the Statistical Enlightenment", *Journal of the Royal Statistical Society: Series A* 173(3), 2010, pp.469–482. [PDF](https://gwern.net/doc/statistics/bayes/2010-stigler-2.pdf) / [Bibliographic record](https://ideas.repec.org/a/bla/jorssa/v173y2010i3p469-482.html)
 - Joachim Kunert, Astrid Montag, Sigrid Pöhlmann, "The quincunx: history and mathematics", *Statistical Papers* 42(2), 2001, pp.143–169. [PDF](https://www.ifa.com/pdfs/the-quincunx.pdf) / [doi:10.1007/s003620100048](https://doi.org/10.1007/s003620100048)

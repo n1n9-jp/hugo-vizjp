@@ -154,7 +154,7 @@ Last is the lifespan of a physicalization that relies on web data. According to 
 - Tinker.it!, "Centograph" (Flickr photo): https://www.flickr.com/photos/tinker_it/3555602327/
 - Tinker London, "Press": https://tinkerlondon.com/press.html
 
-**Secondary sources**
+**Third-party assessments**
 
 - dataphys.org, "2009 – Centograph: Dynamic Bar Charts Show Keyword Popularity" (listed by Pierre Dragicevic): https://dataphys.org/list/centograph-dynamic-bar-charts-show-keyword-popularity/
 - mmiller5, "Looking Outwards-07" (Carnegie Mellon University 15-104, Fall 2017): https://courses.ideate.cmu.edu/15-104/f2017/index.html%3Fp=17742.html
