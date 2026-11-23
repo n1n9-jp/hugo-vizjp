@@ -14,6 +14,9 @@ tags = [
     "viewpoint"
 ]
 image = "images/cover-four-views.png"
+series = ["interactive-explainers"]
+series_weight = 20
+seriesTitle = "Where to Place the Viewpoint: A Map of a Wandering Mount Fuji"
 +++
 
 "Shiten o doko ni oku ka" (Where to Place the Viewpoint) is an interactive essay that you read while testing, with moving figures, the idea of Kohei Sugiura's diagram "Uō-saō suru Fujisan no chizu" (A Map of a Wandering Mount Fuji). It compares four combinations of camera direction (fixed or following) and position (overview or eye level). It explains one way to place the viewpoint: redraw the data so that it follows the reader, then turn that into an overview.

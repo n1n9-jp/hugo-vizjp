@@ -14,6 +14,9 @@ tags = [
     "histogram"
 ]
 image = "images/cover-ten-methods.png"
+series = ["interactive-explainers"]
+series_weight = 30
+seriesTitle = "Splitting the Same Data Ten Ways: Visualizing Classification Methods"
 +++
 
 "Kaikyū bunrui hōhō no kashika" (Visualizing Classification Methods) is an interactive page that lines up ten classification methods as maps and histograms of the same data. Quantile, equal interval, natural breaks (Jenks), and others appear on one screen. When you switch the data distribution, the color palette, or the number of classes, all ten change at once.

@@ -14,6 +14,9 @@ tags = [
     "D3.js"
 ]
 image = "images/cover-mercator.png"
+series = ["interactive-explainers"]
+series_weight = 40
+seriesTitle = "顔写真を地図のように投影する──顔の画像で学ぶ地図投影法"
 +++
 
 「顔の画像で学ぶ地図投影法」は、顔写真や GeoJSON を地図投影法で投影し、投影法ごとのゆがみの違いを見比べられるインタラクティブなページです。8種類の投影法を切り替えると、同じ画像の形や面積が変わります。画像のアップロード、Webカメラ、サンプルデータに対応しています。
