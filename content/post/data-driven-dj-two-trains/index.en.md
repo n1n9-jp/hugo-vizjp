@@ -94,7 +94,7 @@ As far as the code shows, what income changes is which samples play and the cap 
 
 As for pitch, the code shows no rule that assigns income directly to pitch, as far as it can be read. However, the samples that play change with income, and each sample has its own pitch (Gs4, E3, D2, and so on). So the combination of pitches you hear changes with income indirectly.
 
-On the other hand, the series FAQ describes an advantage of expressing data as music with the words "the creator can manipulate mood." The series says it uses mood, while this song says it does not use mood for income. There can be read to be a tension between the two statements.
+On the other hand, the series FAQ describes an advantage of expressing data as music with the words "the creator can manipulate mood." The series says it uses mood, while this song says it does not use mood for income. A tension between the two statements can be read.
 
 ## "3 to 30 Instruments" and "1:37": Numbers That Differ by Source
 
@@ -147,7 +147,7 @@ There are four judgments to take back to visualization work.
 
 The first is to narrow down the elements that carry data and fix the rest. In Two Trains, the length of time represents distance, and the number and force of instruments represent income. Phase shifting and the jitter of note timing are style, unrelated to the data. The scale, too, can be read as not directly assigned to income. It can be read as the same construction as a bar chart that uses only length for data and fixes color as decoration.
 
-The second is to assign a variable that invites value judgments a trait that does not sway mood. Even so, Sheridan's question remains. It can be read that it is not possible to fully avoid a loud sound seeming "rich." In charts too, I think it is worth checking whether the brightness of a color looks like good versus bad.
+The second is to assign a trait that does not sway mood to a variable that invites value judgments. Even so, Sheridan's question remains. It can be read that it is not possible to fully avoid a loud sound seeming "rich." In charts too, I think it is worth checking whether the brightness of a color looks like good versus bad.
 
 The third is to place ordered data on a time axis. A line has an order of stations, and that order becomes the time of the song as it is. In expressions that use a time axis, it can be read as good to first check whether the data has a natural order.
 

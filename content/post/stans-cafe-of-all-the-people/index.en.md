@@ -3,7 +3,7 @@ author = "Yuichi Yazaki"
 title = "One Grain of Rice Is One Person, and Every Pile Uses the Same Conversion: Stan's Cafe, \"Of All The People In All The World\""
 slug = "stans-cafe-of-all-the-people"
 date = "2026-11-06"
-description = "Stan's Cafe's piece treats one grain of rice as one person and weighs every statistic at about 60 grains per gram. As a result, the size ratio between labelled piles is exactly the ratio between the numbers of people."
+description = "Stan's Cafe's piece treats one grain of rice as one person and weighs every statistic at about 60 grains per gram. As a result, the size ratio between labelled piles is directly the ratio between the numbers of people."
 categories = [
     "consume"
 ]
@@ -18,7 +18,7 @@ seriesByline = "Stan's Cafe (James Yarker)"
 seriesTitle = "One Grain of Rice per Person, Weighed Out: Of All The People"
 +++
 
-Of All The People In All The World is a piece that Stan's Cafe, a theatre company from Birmingham, England, has been performing since 2003. One grain of rice stands for one person, and every statistic is weighed out into a pile at about 60 grains per gram, so the size ratio between labelled piles is exactly the ratio between the numbers of people. The paper under each pile carries only the name of the statistic, never a number.
+Of All The People In All The World is a piece that Stan's Cafe, a theatre company from Birmingham, England, has been performing since 2003. One grain of rice stands for one person, and every statistic is weighed out into a pile at about 60 grains per gram, so the size ratio between labelled piles is directly the ratio between the numbers of people. The paper under each pile carries only the name of the statistic, never a number.
 
 What follows draws on the company's official pages (the overview, the FAQ, and the page for each performance) and on two essays, from 2005 and 2018, by James Yarker, the originator and director. As third-party records, it uses articles from VOA and the Christian Science Monitor, and dataphys.org, a catalogue of physical visualizations. It differs from [Hans Rosling's demonstration](/en/rosling-physical-visualizations/), in which one IKEA box stood for one billion people, in the size of its unit and in how it treats numbers.
 
@@ -163,7 +163,7 @@ The first is that a smaller unit makes quantity and the individual visible at on
 
 The second is a way of thinking that puts a consistent conversion ahead of the precision of individual values. The FAQ admits the approximation, then says that using the same formula for everything keeps the proportions. For a chart meant to make people compare, it can be read as saying that applying the same scale to every series is a precondition.
 
-The third is the cost of removing the numbers. As with the VOA visitor, people who want to know the order of magnitude are left dissatisfied. Whether to favour ease of comparison or readable information is decided by the purpose of the chart.
+The third is the cost of removing the numbers. As with the VOA visitor, people who want to know the order of magnitude are left dissatisfied. Whether to favour ease of comparison or readable information can be read as something to settle by the purpose of the chart.
 
 The fourth is to re-weigh the conversion constant for each material and state it. Just as Japanese rice changed it to 52 grains, a different material means a different constant. The reason for the discrepancy has not been confirmed, but there is also the CS Monitor figure that does not match 60 grains, and it can be read as safer to state the conversion explicitly.
 

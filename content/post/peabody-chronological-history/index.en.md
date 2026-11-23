@@ -69,7 +69,7 @@ The table for Plate I (pp.13–14) specifies where to paint for each event. For 
 
 Elizabeth P. Peabody (1856), held by the Library of Congress. From the [Internet Archive](https://archive.org/details/chronologicalhis00peab), partially enlarged (public domain)
 
-In the scan, the sample of 1 to 9 is printed in the second cell, and the other cells have no lines marking the small cells. In a note to the 18th-century table, Peabody asks the reader to keep "keeping in mind the subdivision into ninths, even where it is not marked off". That is, even without lines, the reader is to read with the ninefold division in mind.
+In the scan, the sample of 1 to 9 is printed in the second cell, and the other cells have no lines marking the small cells. In a note to the 18th-century table, Peabody asks for "keeping in mind the subdivision into ninths, even where it is not marked off". That is, even without lines, the reader is to read with the ninefold division in mind.
 
 [Machine chronologique](/en/machine-chronologique/) set time out on a single line at 0.1 inch per year. Peabody folds 100 years back every ten years and makes a surface of them. **Every year gets a cell of the same size, and years with many events and years with few are the same size.**
 

@@ -93,7 +93,7 @@ Source: Ministère des Travaux Publics (1880), line chart of the world's railway
 
 The horizontal axis here follows the actual intervals between years. The gap between the ticks for 1875 and 1878 is narrower than the others. The value for 1878 is 330.4 (thousand km), so the world's railways had reached about 330,000 km.
 
-Within a single sheet, time is handled in two ways. The glyphs line up points in time as "phases" at equal angles, while the line chart measures time as length. Since the legend itself points out the eight-year interval, it can be read as the makers being aware of the difference in intervals and still equalizing the angles of the glyph. What the glyph was meant to show was not the length of time but the difference in size from one phase to the next.
+Within a single sheet, time is handled in two ways. The glyphs line up points in time as "phases" at equal angles, while the line chart measures time as length. Since the legend itself points out the eight-year interval, it can be read as the makers being aware of the difference in intervals and still equalizing the angles of the glyph. It can also be read that what the glyph was meant to show was not the length of time but the difference in size from one phase to the next.
 
 ## Countries Moved Off the Map, and the Data Table
 

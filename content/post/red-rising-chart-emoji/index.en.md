@@ -37,7 +37,7 @@ This post quotes the previous day's post by kuno (@kunoo), "Whoever made these e
 | It goes back to Osaka (Dojima) in 1697 | Partly supported | 1697 is the year the Yodoya rice market moved to Dojima. Futures trading (chōai-mai) was officially recognized in 1730 |
 | Dojima was the world's first futures exchange | Supported as an assessment (not an established view) | The Osaka Exchange and Schaede (1989) use it with qualifications. Takatsuki Yasuo writes that it is mainly the assessment of commentators abroad |
 | Rice merchants created the candlestick chart | Not supported | No candlestick form was found in Edo-period sources. The earliest description confirmed in text is from 1924 |
-| It was called "in-yō-ashi" | Partly supported | The earliest use of "in-yō-ashi" is from 1931. No Edo-period use was found |
+| It was called "in-yō-ashi" | Partly supported | A use of "in-yō-ashi" is found in 1931. No Edo-period use was found |
 | The emoji's red = up is because of this | Not supported | Charts that draw rises in red are confirmed in 1924 to 1936. 📈 entered Unicode in 2010 from KDDI's emoji. No source linking the two was found |
 | (Premise) On these emojis, red is up | Supported | The 📈 of Apple, Google, Samsung, and Twemoji has a red line |
 

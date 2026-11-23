@@ -117,7 +117,7 @@ Source: Herbert Reininger (YouTube video) / dataphys.org, "Hans Rosling Adopts P
 
 In a The Guardian video of May 17, 2013, he uses LEGO blocks to explain population growth, child mortality, and CO2 emissions, according to the video's description. The correspondence between the blocks and the numbers has not been confirmed. dataphys also lists a LEGO video from the Brookings Institution as part of the same stream as Rosling's storytelling ([related article](/en/brookings-lego-data-stories/)).
 
-For toilet paper, a blog post by Statistics Finland (2020) describes a scene in which one roll stood for one billion people, stacked by age group. But which talk or program the scene comes from has not been identified. Snowballs appear in the title of a January 2015 BBC Newsnight video, but what they represented has not been confirmed. Juice is said to have been used by dataphys and others, but the scene and what it represented have not been identified.
+For toilet paper, a blog post by Statistics Finland (2020) describes a scene in which one roll stood for one billion people, stacked by age group. But which talk or program the scene comes from has not been identified. Snowballs appear in the title of a January 2015 BBC Newsnight video, but what they represented has not been confirmed. dataphys and others write that he used juice, but the scene and what it represented have not been identified.
 
 What the confirmed examples have in common can be read as this: count one piece as one billion people, and let position carry a second variable. They can be read as visualizations that convey magnitude and composition rather than exact values.
 

@@ -123,7 +123,7 @@ Today the device is used to illustrate the central limit theorem (per Judd's abs
 
 ## Takeaways
 
-Three things from this device can be carried back into visualization work.
+As I read it, there are three things from this device that can be carried back into visualization work.
 
 The first is to assign the mechanism that produces a result, not the result itself, to parts. Viewers can look at the shot and the pins and explain, in the names of the parts, why the center ends up highest.
 

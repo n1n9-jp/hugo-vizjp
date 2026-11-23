@@ -3,6 +3,7 @@ author = "Yuichi Yazaki"
 title = "A Government Agency That Speaks in the River's Poetry: Superflux's The Ecological Intelligence Agency"
 slug = "ecological-intelligence-agency"
 date = "2026-08-16"
+lastmod = "2026-11-01"
 description = "A fictional agency translates London river data into poems spoken by the river and a device that reads jars of water. Read here as Superflux's answer to a problem: raw data alone does not move people."
 categories = [
     "consume"

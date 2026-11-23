@@ -147,7 +147,7 @@ The second is to choose the display from the question you want answered. Only 13
 
 The third is to reduce the amount shown at once. When peaks were shown one at a time, even small peaks were not overlooked. In a physical chart with a limited number of rings, switching in sequence may suit the question better.
 
-The fourth is that the material breaks the encoding. Brightness became hard to tell apart because light spilled over, and a glowing, moving cylinder was mistaken for a clock. For a physical chart, the design needs to include the behavior of the material and the cues for "what the data is."
+The fourth is that the material breaks the encoding. Brightness became hard to tell apart because light spilled over, and a glowing, moving cylinder was mistaken for a clock. For a physical chart, the design needs to include the behavior of the material and the cues for "what the data is," it can be read.
 
 ## References
 

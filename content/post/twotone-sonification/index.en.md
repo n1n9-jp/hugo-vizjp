@@ -148,7 +148,7 @@ There are three judgments you can take back to visualization work.
 
 The first is to treat the number of rungs as the resolution. With the default 15 rungs, values become only 15 distinct pitches. To let differences be heard, increase the octaves; when layering columns, separate their ranges. This can be read as the same judgment as choosing how fine a scale's ticks are.
 
-The second is the effect of stretching by minimum and maximum. Because the two ends become the tonic notes at either end of the scale, a single extreme outlier would, as I read it, crowd the remaining values into a few narrow rungs. It would be wise to look at the range of values before turning them into sound.
+The second is the effect of stretching by minimum and maximum. Because the two ends become the tonic notes at either end of the scale, a single extreme outlier would, as I read it, crowd the remaining values into a few narrow rungs. I read it as wise to look at the range of values before turning them into sound.
 
 The third is to tell apart what the data decides and what people choose. In TwoTone, volume, instrument and key are not data. When presenting the sound, it is probably better to say up front, in the title or the description, what is data and what is staging.
 

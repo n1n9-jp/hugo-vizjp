@@ -108,7 +108,7 @@ Around Paris. The small diagram in the center is the Seine département, and the
 
 Source: Ministère des Travaux Publics (1880), David Rumsey Map Collection, held at the David Rumsey Map Center, Stanford Libraries (CC BY-NC-SA 3.0)
 
-For the Seine département, which includes Paris, the five columns of the table add up to about 1,010 km (the author's calculation), so the semicircle is small. Meanwhile its length per km² is 2.11, among the highest of all départements, and per 100 inhabitants it is 0.04. Calculated with the scale in the legend, the radius of the blue quarter-circle is about 7.3 mm and that of the yellow about 1.4 mm (the author's calculation). A large blue attaches below the small semicircle, and the yellow is almost invisible.
+For the Seine département, which includes Paris, the five columns of the table add up to about 1,010 km (the author's calculation), so the semicircle is small. Meanwhile its length per km² is 2.11, the highest level of all départements, and per 100 inhabitants it is 0.04. Calculated with the scale in the legend, the radius of the blue quarter-circle is about 7.3 mm and that of the yellow about 1.4 mm (the author's calculation). A large blue attaches below the small semicircle, and the yellow is almost invisible.
 
 In the neighboring Seine-et-Oise, both ratios are 1.29. Even so, the radius of the yellow quarter-circle comes to about 8.0 mm and that of the blue to about 5.7 mm (the author's calculation), because the scales of the two ratios differ, 0.005 m and 0.007 m. This suggests that **the left and right quarter-circles were not made to be compared in size on the same yardstick**. What can be compared is left with left and right with right, across départements.
 

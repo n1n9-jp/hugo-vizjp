@@ -141,11 +141,11 @@ For comparison, Microsoft's Charticulator (InfoVis 2018) is released under the M
 
 ## How to Use This
 
-The "what the data is bound to" column in the table above can serve as a checklist for making figures by hand. Write down first which column is bound to which property of which shape. Do not move the bound properties by hand, and draw everything else freely. That is the idea behind Data Illustrator's lazy data binding.
+The "what the data is bound to" column in the table above can serve as a checklist for making figures by hand. Write down first which column is bound to which property of which shape. Do not move the bound properties by hand. That is the idea behind Data Illustrator's lazy data binding.
 
 Data Illustrator still runs free at v1.1, so trying repeat and partition will give you a feel for "draw first, bind later."
 
-The other point is not to build your work on Sneaks or research versions. Adobe itself writes that they are "not buyable now." If you build something into your workflow, choose a product, or something whose source is public such as Charticulator. What those of us who want to use these tools can do is, as Adobe's own words put it, give feedback.
+The other point is not to build your work on Sneaks or research versions. Adobe itself writes that they are "not buyable now." If you build something into your workflow, choose a product, or something whose source is public such as Charticulator. What those of us who want to use these tools can do is give feedback.
 
 ## References
 
@@ -158,7 +158,7 @@ The other point is not to build your work on Sneaks or research versions. Adobe 
 - Adobe Research, "Adobe Research Shares Future Tech in Sneaks." [Adobe Research](https://research.adobe.com/video/adobe-research-shares-future-tech-in-sneaks/)
 - Adobe Research, "Adobe Research at Summit 2024," 2024-04-12. [Adobe Research](https://research.adobe.com/news/adobe-research-at-summit-2024/)
 - Adobe Research, "An innovative summer project landed this Adobe Research intern on the SUMMIT stage," 2024-07-15. [Adobe Research](https://research.adobe.com/news/adobe-research-interns-work-featured-on-the-summit-stage/)
-- Adobe Research, "Adobe Research intern follows her mentor's footsteps onto the Adobe Summit stage," 2026-09-01. [Adobe Research](https://research.adobe.com/news/adobe-research-intern-follows-her-mentors-footsteps/)
+- Adobe Research, "Adobe Research intern follows her mentor's footsteps," 2026-09-01. [Adobe Research](https://research.adobe.com/news/adobe-research-intern-follows-her-mentors-footsteps/)
 - Illustrator UserVoice, "Improve Graph / Chart tool" (administrator reply 2017-10-09, among others). [UserVoice](https://illustrator.uservoice.com/forums/333657-illustrator-feature-requests/suggestions/31150012-improve-graph-chart-tool)
 - Nam Wook Kim, Eston Schweickart, Zhicheng Liu, Mira Dontcheva, Wilmot Li, Jovan Popović, Hanspeter Pfister, "Data-Driven Guides: Supporting Expressive Design for Information Graphics," *IEEE TVCG* 23(1), 2017 (InfoVis 2016). [PDF](https://www.zcliu.cs.umd.edu/ddg/DDG-InfoVis16.pdf) / [Adobe Research](https://research.adobe.com/publication/data-driven-guides-supporting-expressive-design-for-information-graphics/) / [Project page](https://ddg.namwkim.org/)
 - Information is Beautiful Awards 2017, Data-Driven Guides. [IIB](https://www.informationisbeautifulawards.com/showcase/2575)

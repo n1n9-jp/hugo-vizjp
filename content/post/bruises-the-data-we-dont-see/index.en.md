@@ -133,7 +133,7 @@ Source: Giorgia Lupi and Kaki King, "BRUISES - The Data We Don't See," Giorgia L
 | Hope and fear | Floating lines, 1–10 | Dark lines = fear, orange lines = hope | The more lines, the stronger the emotion | Hand-drawn lines, 1–10 |
 | Color of bruises | Purple and green | "purple/yellow" | The more vivid the color, the stronger | Intensity imitated by color (no color names) |
 
-The two agree that hope and fear are shown by lines from 1 to 10; what differs is the meaning of black and yellow. In the complete legend, yellow appears both for good times and for the blur of bruises. With many symbols and yellow carrying two meanings, it can also be read that it became easier for those introducing the work to read it differently.
+The sources agree that hope and fear are shown by lines from 1 to 10; what differs is the meaning of black and yellow. In the complete legend, yellow appears both for good times and for the blur of bruises. With many symbols and yellow carrying two meanings, it can also be read that it became easier for those introducing the work to read it differently.
 
 Liz Stinson of AIGA Eye on Design made the difficulty of reading itself the point. Without the legend it is almost unreadable ("virtually unreadable"). Even so, for King it became shorthand for checking her daughter's health and its effect on herself. Stinson's assessment is that it gave her a sense of agency that is hard to get from information passed through doctors and nurses.
 

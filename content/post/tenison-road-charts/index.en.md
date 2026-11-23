@@ -97,7 +97,7 @@ The design policy is stated in RTD 2015 as follows.
 
 In short: to show the data as clearly as possible, the charts were made to look as similar as possible to the 2D charts they are based on, and for that reason the mechanics and control systems are hidden from the front. The paper also says paper, card, and tape measures were chosen to add warmth and a tactile quality to the data. The charts use power only when a value changes.
 
-The cues the charts use stay within the basic ones: length, angle, and color. Hiding the mechanics from the front can also be read as a way of not breaking the familiar form.
+It can be read that the cues the charts use stay within the basic ones: length, angle, and color. Hiding the mechanics from the front can also be read as a way of not breaking the familiar form.
 
 ## From a Street Party to Five Weeks in the Window
 

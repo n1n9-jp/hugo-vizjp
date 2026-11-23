@@ -162,7 +162,7 @@ If there is more than one point, do not pack them into one figure. Switch figure
 - Timeline Storyteller. [timelinestoryteller.com](https://timelinestoryteller.com) / [GitHub](https://github.com/microsoft/timelinestoryteller)
 - Matthew Brehmer et al., "Timeline Storyteller: The Design & Deployment of an Interactive Authoring Tool for Expressive Timeline Narratives," 2019. [Microsoft Research](https://www.microsoft.com/en-us/research/?p=556122)
 
-**Third-party evaluations**
+**Secondary sources**
 
 - Sara Di Bartolomeo, Aditeya Pandey, Aristotelis Leventidis, David Saffo, Uzma Haque Syeda, Elin Carstensdottir, Magy Seif El-Nasr, Michelle A. Borkin, Cody Dunne, "Evaluating the Effect of Timeline Shape on Visualization Task Performance," *Proc. CHI 2020*. [doi:10.1145/3313831.3376237](https://doi.org/10.1145/3313831.3376237) / [arXiv:2005.06039](https://arxiv.org/abs/2005.06039)
 - "What story does your timeline tell? Introducing the Timeline Storyteller custom visual for Microsoft Power BI," Microsoft Power BI Blog, 2017 (includes Alberto Cairo's endorsement). [Article](https://asia.powerbi.microsoft.com/en-ie/blog/what-story-does-your-timeline-tell-introducing-the-timeline-storyteller-custom-visual-for-microsoft-power-bi)

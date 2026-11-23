@@ -78,7 +78,7 @@ Jamie Pickett, a GM senior manager in charge of the quality of current vehicles,
 
 In essence: it lets people see issues as a whole, makes the scope and the places to act easier to see, and, unlike a line in a spreadsheet, a block on a board is a strong motivation to solve the problem and take it off.
 
-The comparison is with a line in a spreadsheet. Unlike a table row, a block stays on the board until it is removed. From Pickett's words, **taking the block off the board can be read as the very goal of resolution**. It can be read as an encoding that values surveying the volume and getting people to act over reading precise values.
+The comparison is with a line in a spreadsheet. Unlike a table row, a block can be read as staying on the board until it is removed. From Pickett's words, **taking the block off the board can be read as the very goal of resolution**. It can be read as an encoding that values surveying the volume and getting people to act over reading precise values.
 
 Pastor is also reported to have told Fast Company that the process was three-dimensional while the reports were two-dimensional. However, this is secondhand, quoted by SmartData Collective from Fast Company, and I could not check the original. Nor did the board replace screens: GM also built a digital version.
 
