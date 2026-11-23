@@ -1,9 +1,9 @@
 +++
 author = "矢崎裕一"
-title = "歌い手を円に、繰り返しを弧にして全歌詞を絞り込む──Shirley Wu「An Interactive Visualization of Every Line in Hamilton」"
+title = "歌い手を色に、繰り返しを弧にして全歌詞を絞り込む──Shirley Wu「An Interactive Visualization of Every Line in Hamilton」"
 slug = "hamilton-every-line"
 date = "2026-11-23"
-description = "Shirley Wu は『ハミルトン』の全歌詞の歌い手・歌いかけた相手・反復フレーズを手で記録し、歌い手ごとの円と反復の弧で示して、人物・会話・テーマで絞り込める道具にしました。"
+description = "Shirley Wu は『ハミルトン』の全歌詞の歌い手・歌いかけた相手・反復フレーズを手で記録し、歌い手ごとに色分けした円と反復の弧で示して、人物・会話・テーマで絞り込める道具にしました。"
 categories = [
     "consume"
 ]
@@ -19,7 +19,7 @@ image = "images/cover-lines.png"
 
 Shirley Wu（シャーリー・ウー）は、ミュージカル『ハミルトン』の全歌詞について、歌い手・歌いかけた相手・繰り返されるフレーズを手で記録しました。同じ歌い手が続けて歌う行を1つの円にして歌い手ごとに色分けし、反復フレーズを円の上の弧で示しています。そのうえで、人物・会話・テーマを組み合わせて絞り込める道具にしました。
 
-作品は「An Interactive Visualization of Every Line in Hamilton」です。初出は2016年12月13日、Polygraph のサイトでした（作者のツイートと制作記による）。いまは The Pudding の URL（pudding.cool/2017/03/hamilton）で読めます。以下は、作品のページ、Data Sketches の制作記、公開データに沿って読みます。
+作品は「An Interactive Visualization of Every Line in Hamilton」です。2016年12月13日に作者が公開を告知し、掲載先は Polygraph のサイトでした（作者のツイートと制作記による）。いまは The Pudding の URL（pudding.cool/2017/03/hamilton）で読めます。以下は、作品のページ、Data Sketches の制作記、公開データに沿って読みます。
 
 <!--more-->
 
@@ -42,11 +42,11 @@ Shirley Wu（シャーリー・ウー）は、ミュージカル『ハミルト�
 
 Hamiltome は制作過程を記した本で、ミュージカルの作者 Lin-Manuel Miranda（リン＝マニュエル・ミランダ）が共著者です。
 
-作品が示す規模は「21,000 words」だけです。作者が GitHub で公開したデータを筆者が数えると、46曲、行のまとまり1,421、3,258行でした（作品ページに組み込まれたデータでも同じ数になります）。
+規模について、作品のページの説明文は「21,000 words」とだけ書いています。作者が GitHub で公開したデータを筆者が数えると、46曲、行のまとまり1,421、3,258行でした（作品ページに組み込まれたデータでも同じ数になります）。
 
 制作は8月の最終週から12月の第2週まで。1か月の予定が、断続的に3か月かかりました。
 
-## 円は歌い手、弧は繰り返し
+## 色は歌い手、弧は繰り返し
 
 作品のページは、まず次の一文で図の読み方を示します。
 
@@ -98,25 +98,25 @@ Shirley Wu／[Data Sketches](https://www.datasketch.es/project/an-interactive-vi
 | 曲には出るが、強調されていない | 灰色、半透明 |
 | 残った曲に出てこない | 点線の輪郭だけ（画面では表示から消える） |
 
-作品のページも、項目が消えていくことで、誰と誰が同じ曲に出るかがわかると説明しています。
+作品のページも、項目が消えていくことで、誰と誰が同じ曲に出るかがわかると説明しています。下の画面は、Angelica Schuyler（アンジェリカ・スカイラー）と Alexander Hamilton（アレクサンダー・ハミルトン）で絞った状態です。
 
 ![左に出演者の顔写真が丸く並び、アンジェリカとアレクサンダーの写真が色の輪で強調され、二人から他の人物へ線が伸びている。右には Alexander Hamilton から The World Was Wide Enough までの9曲が並び、行のまとまりがピンクと緑の円や帯で示されている](images/filter-angelica-alexander.png)
 
 Shirley Wu／[An Interactive Visualization of Every Line in Hamilton（The Pudding）](https://pudding.cool/2017/03/hamilton/index.html)より引用
 
-描画の方式も、仕上げの段階で変わりました。約1,700個の path 要素でも SVG は持ちこたえていましたが、スクロールすると更新の遅れが見えた。JSConf Asia で会った Sarah Drasner に「Canvas! You need Canvas.」と言われ、すべてを Canvas に移しています。マウスの判定には、見えない Canvas を重ねる方法を使いました。
+描画の方式も、仕上げで変わりました。約1,700個の path 要素でも SVG は持ちこたえていましたが、スクロールすると更新の遅れが見えた。JSConf Asia で会った Sarah Drasner（サラ・ドレイズナー）に「Canvas! You need Canvas.」と言われ、すべてを Canvas に移しています。マウスの判定には、見えない Canvas を重ねる方法を使いました。
 
 ## 姉妹の物語として読む
 
-道具ができると、作者はそれで作品を読みます。最初は Alexander Hamilton（アレクサンダー・ハミルトン）と Aaron Burr（アーロン・バー）の関係を追っていました。そこへ、作者が「my Hamilton expert」と呼ぶ Taia が助言します。アレクサンダーとバーの分析はすでに多い、イライザとアンジェリカのほうがずっと面白い、という助言です。
+道具ができると、作者はそれで作品を読みます。最初はアレクサンダーと Aaron Burr（アーロン・バー）の関係を追っていました。そこへ、作者が「my Hamilton expert」と呼ぶ Taia（タイア）が助言します。アレクサンダーとバーの分析はすでに多い、Eliza Schuyler（イライザ・スカイラー）とアンジェリカのほうがずっと面白い、という助言です。
 
-作者は Eliza Schuyler（イライザ・スカイラー）と Angelica Schuyler（アンジェリカ・スカイラー）で絞り込み、次に二人とアレクサンダーの会話で、最後にテーマで絞りました。そこで予想が外れます。
+作者はまず、イライザとアンジェリカで絞り込みました。次にイライザとアレクサンダー、アンジェリカとアレクサンダーの組で絞り、さらにその会話で絞りました。そのうえで、よく出てくるテーマを見ています。そこで予想が外れます。
 
 > "I had expected Eliza to most frequently sing "Helpless", but instead, she sang "look around at how lucky we are alive right now" and "that would be enough/what would be enough" far more often."
 
-イライザは "Helpless" を最もよく歌うと思っていた。実際には「look around…」と「that would be enough／what would be enough」をずっと多く歌っていた、という発見です。作者はこのとき彼女に惹かれた、と続けています。
+イライザは "Helpless" を最もよく歌うと思っていた。実際には「look around…」と「that would be enough／what would be enough」をずっと多く歌っていた、という発見です。
 
-作品の本文は、この二つのフレーズで絞った画面から、イライザの話を始めます。
+作品は、この二つのフレーズで絞った画面からイライザの話を始めます。
 
 ![左にテーマの一覧があり、Contentment の c2 と c3 の弧が濃く示されている。右には The Schuyler Sisters から Who Lives, Who Dies, Who Tells Your Story までの曲が並び、c2・c3 のラベル付きの弧が青や緑の帯の上に付いている](images/eliza-contentment.png)
 
@@ -130,13 +130,13 @@ That Would Be Enough で、イライザは「that would be enough」と夫に歌
 
 It's Quiet Uptown では、アレクサンダーがイライザの言葉をなぞり、今度はそばにいさせてほしいと願います。最後の曲 Who Lives, Who Dies, Who Tells Your Story で、イライザは「Have I done enough?」と歌います。作者は、関心が「何があれば足りるか」から「自分は十分にやったか」へ移った、と書いています。
 
-アンジェリカについても、本文は道具で言えることを示します。アレクサンダーと一緒に歌うのは Take A Break だけで、It's Quiet Uptown はアンジェリカから始まる唯一の曲です。
+アンジェリカについては、アレクサンダーと一緒に歌うのは Take A Break だけで、It's Quiet Uptown はアンジェリカから始まる唯一の曲だ、と書いています。
 
-同じフレーズに付いた弧を曲をまたいで追うと、言葉が誰の口から出るかの移り変わりが見える。作者の読みは、この図の作りがあって成り立っていると読めます。
+同じフレーズに付いた弧を曲をまたいで追うと、言葉が誰の口から出るかの移り変わりが見える。作者の読みは、この図の作りがあって成り立っていると、筆者は読みます。
 
 ## 第三者はこの作品をどう見たか
 
-一つ目は賞です。Kantar Information is Beautiful Awards 2017 で、Arts, Entertainment & Culture 部門の Bronze を受けました。紹介文は、最後に置かれた探索用の道具を挙げています。
+一つ目は賞です。Kantar Information is Beautiful Awards 2017 で、Arts, Entertainment & Culture 部門の Bronze を受けました。紹介文は、最後の探索用の道具を挙げています。
 
 > "Includes an interactive exploratory tool at the end, where the reader can filter by any set of characters, conversations, and themes, and dig into the remaining lines and songs to do their own analysis."
 
@@ -146,13 +146,13 @@ It's Quiet Uptown では、アレクサンダーがイライザの言葉をな�
 
 > "She crafted this essay using a raw dataset that she created manually based on the musical's libretto"
 
-台本をもとに作者が手で作った生データを使っている、という点です。同じ紹介は、Chrome と1280×800以上の解像度向けなので、携帯端末では見づらいかもしれない、とも書いています。
+台本をもとに作者が手で作った生データを使っている、という点です。同じ紹介は、Chrome と1280×800より高い解像度向けなので、携帯端末では見づらいかもしれない、とも書いています。
 
 三つ目は、作り手の側からの振り返りです。Built In（2021年2月17日）は、Data Sketches の二人への取材で、この作品の演出に触れました。
 
 > "experimenting with D3's force layout to make data points dance across the screen before settling into place"
 
-点が画面を舞ってから位置に収まる、という描写です。制作記では、長い記事に読者をとどめるための演出だと説明しています。同じ取材で、お気に入りの作品を問われた作者は、こう答えました。
+点が画面を舞ってから位置に収まる、という描写です。制作記では、長い記事に読者をとどめるための演出だと説明しています。お気に入りの作品を問われた作者は、こう答えました。
 
 > "For me, I think the biggest one is Hamilton."
 
@@ -160,11 +160,11 @@ It's Quiet Uptown では、アレクサンダーがイライザの言葉をな�
 
 ## 使い道
 
-可視化の仕事に持ち帰れる判断は、四つあります。
+持ち帰れる判断は、四つあります。
 
 一つ目は、描いてみてから図の単位を選び直すことです。この作品は1行ごとの点が散らかって見えたので、「同じ歌い手が続けて歌う行」にまとめました。
 
-二つ目は、色に一つの意味だけを持たせることです。色はすでに歌い手に使っていたので、菱形でテーマを色分けすると混乱した。弧とラベルに変えて、色を使わずにフレーズを示しました。同じ理由で、目盛りとして足した五線譜も外しています。
+二つ目は、色に一つの意味だけを持たせることです。色はすでに歌い手に使っていたので、菱形でテーマを色分けすると混乱した。弧とラベルに変えて、色を使わずにフレーズを示しました。目盛りとして足した五線譜は、散らかって見え、見せた人を混乱させたために外しています。
 
 三つ目は、絞り込みの論理を、項目の性質ごとに決めることです。人物は全員がそろう曲（AND）、会話とテーマはどれか一つがある曲（OR）を残す。さらに、残らない項目は選べなくする。**項目が消えること自体が、同じ曲に誰が出るかの情報になります。**
 
@@ -174,7 +174,7 @@ It's Quiet Uptown では、アレクサンダーがイライザの言葉をな�
 
 **一次情報**
 
-- Shirley Wu, "An Interactive Visualization of Every Line in Hamilton," 初出 *Polygraph*, 2016-12-13. 現在の掲載先 *The Pudding*. [作品](https://pudding.cool/2017/03/hamilton/index.html)
+- Shirley Wu, "An Interactive Visualization of Every Line in Hamilton," 掲載先 *Polygraph*（2016-12-13 に作者が公開を告知）. 現在の掲載先 *The Pudding*. [作品](https://pudding.cool/2017/03/hamilton/index.html)
 - Shirley Wu, "An Interactive Visualization of Every Line in Hamilton," *Data Sketches*（制作記、September 2016 to December 2016）. [制作記](https://www.datasketch.es/project/an-interactive-visualization-of-every-line-in-hamilton)
 - 同制作記の画像（五線譜ありの案）. [画像](https://cdn.prod.website-files.com/5fa9d88da1855554db37b1e1/5fc62423d3d6eee7d976830a_with_staff.png)
 - sxywu/hamilton（データとソースコード）. [GitHub](https://github.com/sxywu/hamilton) / [src/data](https://github.com/sxywu/hamilton/tree/master/src/data)
