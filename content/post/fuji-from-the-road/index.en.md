@@ -16,7 +16,7 @@ tags = [
 image = "images/cover-four-views.png"
 +++
 
-"Shiten o doko ni oku ka" (Where to Place the Viewpoint) is an interactive essay that you read while testing, with moving figures, the idea of Kohei Sugiura's diagram "Uō-saō suru Fujisan no chizu" (A Map of Mount Fuji Wandering Left and Right). It compares four combinations of camera direction (fixed or following) and position (overview or eye level). It explains one way to place the viewpoint: redraw the data so that it follows the reader, then turn that into an overview.
+"Shiten o doko ni oku ka" (Where to Place the Viewpoint) is an interactive essay that you read while testing, with moving figures, the idea of Kohei Sugiura's diagram "Uō-saō suru Fujisan no chizu" (A Map of a Wandering Mount Fuji). It compares four combinations of camera direction (fixed or following) and position (overview or eye level). It explains one way to place the viewpoint: redraw the data so that it follows the reader, then turn that into an overview.
 
 **[Open "Where to Place the Viewpoint"](https://fuji-from-the-road.visualizing.jp/)** (the essay itself is in Japanese)
 
@@ -43,7 +43,7 @@ The essay organizes the figures by two questions about where the camera is place
 | Overview (takes in the whole) | Map | Straightened figure |
 | Eye level (seen from the spot) | Compass dial | Driver's seat |
 
-Press "Run" or move the slider, and you can follow the same point in all four figures at once. The essay explains that only the straightened figure, the overview that follows, shows Mount Fuji's wandering at a glance.
+Press "Run" or move the slider, and you can follow the same point in all four figures at once. The essay explains that only the straightened figure, the following overview, shows Mount Fuji's wandering at a glance.
 
 ## The same thing with a timetable
 
@@ -58,7 +58,7 @@ At the end, the essay sums up the steps for redrawing your own data as five ques
 - Directions and distances are calculated on the map. From distant points, Mount Fuji cannot actually be seen.
 - The timetable example is a fictional line and schedule made for explanation.
 
-Sugiura's maps also come up in [the article on former US Ambassador Reischauer's cartogram](/en/reischauer-cartogram/).
+Sugiura's maps also come up in [the article on former US Ambassador to Japan Reischauer's cartogram](/en/reischauer-cartogram/).
 
 ## References
 
