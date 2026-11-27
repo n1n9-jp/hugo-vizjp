@@ -14,4 +14,7 @@
     {{ if or .Params.math site.Params.article.math }}
         {{ partialCached "article/components/math.html" . }}
     {{ end }}
+    {{ with .Params.work_id }}
+        {{ partial "vz/article/work-open.html" (dict "workID" . "measurementID" site.Config.Services.GoogleAnalytics.ID) }}
+    {{ end }}
 </article>

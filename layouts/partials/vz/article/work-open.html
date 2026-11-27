@@ -1,0 +1,20 @@
+{{ if and hugo.IsProduction .measurementID }}
+<script>
+(() => {
+    if (location.origin !== "https://visualizing.jp") return;
+    const workID = {{ .workID }};
+    const measurementID = {{ .measurementID }};
+    const article = document.currentScript.closest("article");
+    function recordOpen(event) {
+        if (event.type === "auxclick" && event.button !== 1) return;
+        const link = event.target.closest("a[href]");
+        if (!link || link.origin !== "https://" + workID + ".visualizing.jp") return;
+        if (typeof window.gtag === "function") {
+            window.gtag("event", "work_open", {work_id: workID, send_to: measurementID});
+        }
+    }
+    article.addEventListener("click", recordOpen);
+    article.addEventListener("auxclick", recordOpen);
+})();
+</script>
+{{ end }}
