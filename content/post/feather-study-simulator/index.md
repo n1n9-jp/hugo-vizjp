@@ -15,6 +15,7 @@ tags = [
 ]
 image = "images/cover-compare-six.png"
 series = ["interactive-explainers"]
+work_id = "emotion-to-feather"
 series_weight = 10
 seriesTitle = "棒グラフが羽根になるまでを試す──Feather スタディ・シミュレーター"
 +++
